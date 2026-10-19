@@ -1,0 +1,44 @@
+{
+  "batch": "MC009",
+  "articles": [
+    {
+      "pmcid": "PMC13070105",
+      "decisions": [
+        {
+          "issue": "PMC13070105:gate:micro",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": null},
+          "quote": "SEM images of optimal LPHNPs: formulation 1 (a), 2 (b), 3 (c) and 4 (d)",
+          "location": "Fig. 6 caption",
+          "reason": "SEM figure panels of the drug-loaded nanoparticles themselves, technique identifiable and explicitly linked to formulations 1-4."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7797119",
+      "decisions": [
+        {
+          "issue": "PMC7797119:gate:dls",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": null},
+          "quote": "a Size distribution of hydrogel in distilled water and room temperature. b Size distribution of dual drug-loaded hydrogels in distilled water and room temperature.",
+          "location": "Fig. 4 caption (Results: 994.6 and 689.9 nm)",
+          "reason": "Blank and DOX/CUR hydrogel sizes (994.6, 689.9 nm) are stated in distilled water; useful DLS exists for at least these samples."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13276060",
+      "decisions": [
+        {
+          "issue": "PMC13276060:gate:zeta",
+          "decision": "B",
+          "final": {"value": false, "identity": null, "variant": null, "medium": "not_declared"},
+          "quote": "Prepared formulations were adequately diluted with deionized water, and then they were assessed for their diameters and PDI",
+          "location": "Methods > Particle size analysis",
+          "reason": "Dilution medium is stated only for size/PDI; no zeta method, medium or pH given anywhere. medium_no_declarado."
+        }
+      ]
+    }
+  ]
+}

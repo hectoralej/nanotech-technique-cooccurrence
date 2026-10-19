@@ -1,0 +1,71 @@
+﻿# Consultas por familia (Europe PMC). Cada frase se busca en TITLE o ABSTRACT.
+# Sintaxis verificada el 2026-10-09 con consultas de prueba (TITLE:, ABSTRACT:, OPEN_ACCESS:y,
+# PUB_TYPE:"review", FIRST_PDATE:[a TO b]).
+#
+# `count_regex` se usa para asignar la familia primaria (la mas frecuente en titulo+resumen).
+# Desviacion respecto al brief: la familia "polymeric" anade frases de la tabla 1.1 del brief
+# (micelas polimericas, quitosano, dendrimeros, nanogeles) que el bloque de consulta original omitia.
+
+search:
+  email: hector.rojas.valdez@est.una.ac.cr
+  user_agent: "nanotech-cooccurrence-student-project/0.1 (mailto:hector.rojas.valdez@est.una.ac.cr)"
+  date_from: "2015-01-01"
+  date_to: "2026-10-01"
+  exclude_pub_types: ["review"]
+  max_requests_per_second: 3
+  page_size: 1000
+
+# orden = prioridad para desempates en la familia primaria
+families:
+  LNP:
+    label: "LNP (mRNA/siRNA-LNP)"
+    core: true
+    phrases: ["lipid nanoparticle", "lipid nanoparticles", "mRNA-LNP", "mRNA LNP", "LNP", "LNPs"]
+    count_regex: '(?<!solid )(?<!solid-)(?<!nanostructured )lipid[\s-]nanoparticles?|\bm?RNA[\s-]LNPs?\b|\bsiRNA[\s-]LNPs?\b|\bLNPs?\b'
+  liposome:
+    label: "Liposomas"
+    core: true
+    phrases: ["liposome", "liposomes", "liposomal"]
+    count_regex: '\bliposom\w*'
+  SLN_NLC:
+    label: "SLN / NLC"
+    core: true
+    phrases: ["solid lipid nanoparticle", "solid lipid nanoparticles", "nanostructured lipid carrier", "nanostructured lipid carriers"]
+    count_regex: 'solid[\s-]lipid[\s-]nanoparticles?|nanostructured[\s-]lipid[\s-]carriers?|\bSLNs?\b|\bNLCs?\b'
+  PLN:
+    label: "Hibridas lipido-polimero (PLN)"
+    core: true
+    phrases: ["lipid-polymer hybrid", "polymer-lipid hybrid", "lipid polymer hybrid nanoparticle", "lipid-polymer hybrid nanoparticle", "lipid-polymer hybrid nanoparticles"]
+    count_regex: 'lipid[\s-]polymer[\s-]hybrid|polymer[\s-]lipid[\s-]hybrid|\bLPHNPs?\b|\bPLNs?\b'
+  polymeric:
+    label: "Polimericas"
+    core: true
+    phrases: ["PLGA", "polymeric nanoparticle", "polymeric nanoparticles", "polymer nanoparticle",
+              "polymeric micelle", "polymeric micelles", "chitosan nanoparticle", "chitosan nanoparticles",
+              "dendrimer", "dendrimers", "nanogel", "nanogels",
+              "poly(lactic-co-glycolic acid)", "polycaprolactone nanoparticle", "polycaprolactone nanoparticles"]
+    count_regex: '\bPLGA\b|poly\(?\s*lactic[\s-]co[\s-]glycolic|polymeric[\s-](?:nano\w*|micelles?)|polymer nanoparticles?|chitosan[\s-]nanoparticles?|dendrimers?|nanogels?|polycaprolactone|\bPCL\b'
+    subtype_regex:
+      PLGA: '\bPLGA\b|poly\(?\s*lactic[\s-]co[\s-]glycolic'
+  inorganic:
+    label: "Inorganicas"
+    core: false
+    phrases: ["gold nanoparticle", "gold nanoparticles", "silver nanoparticle", "silver nanoparticles",
+              "iron oxide nanoparticle", "iron oxide nanoparticles", "SPION",
+              "silica nanoparticle", "silica nanoparticles", "mesoporous silica nanoparticle", "mesoporous silica nanoparticles"]
+    count_regex: 'gold[\s-]nanoparticles?|silver[\s-]nanoparticles?|iron[\s-]oxide[\s-]nanoparticles?|\bSPIONs?\b|silica[\s-]nanoparticles?|mesoporous[\s-]silica'
+    subtype_regex:
+      gold: 'gold[\s-]nanoparticles?|\bAuNPs?\b'
+      silver: 'silver[\s-]nanoparticles?|\bAgNPs?\b'
+      iron_oxide: 'iron[\s-]oxide[\s-]nanoparticles?|\bSPIONs?\b'
+      silica: 'silica[\s-]nanoparticles?|mesoporous[\s-]silica'
+  AAV:
+    label: "AAV"
+    core: false
+    phrases: ["adeno-associated virus", "adeno-associated viral", "AAV"]
+    # DESVIACION (2026-10-09, tras ver una muestra de 8 articulos): la consulta sin restringir devolvio 8.459 articulos,
+    # casi todos de neurociencia/hepatologia donde el AAV es solo un vector. Se exige ademas un termino de
+    # caracterizacion/manufactura del vector en titulo o resumen. El conteo sin restringir queda en logs/queries.jsonl.
+    and_any: ["capsid", "capsids", "genome titer", "vector genome", "empty capsids", "full capsids", "manufacturing", "downstream processing", "bioprocess", "analytical ultracentrifugation", "mass photometry", "cryo-EM", "quality control", "quality attribute", "quality attributes", "purification of AAV", "AAV purification", "vector purification"]
+    count_regex: 'adeno[\s-]associated|\bAAV\d*\b|\brAAV\d*\b'
+

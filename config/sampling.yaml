@@ -1,0 +1,36 @@
+﻿seed: 20261009
+
+# Definicion de "tecnica reportada" usada en las columnas binarias de articles.csv y en el analisis principal.
+# ENMIENDA 1 (2026-10-09, antes de calcular ninguna co-ocurrencia): el preregistro fijaba "primary" (Metodos Y
+# Resultados/pie). El conjunto de validacion mostro recall < 0,85 bajo esa definicion en la mayoria de tecnicas por
+# razones estructurales; se promueve "body_any" (Metodos O Resultados O pie) y "primary" pasa a sensibilidad.
+headline_definition: body_any
+
+periods:            # agrupacion de anos para estratificar
+  main_early: [2018, 2021]
+  main_late: [2022, 2026]
+  trend_only: [2015, 2017]   # solo para el analisis secundario de tendencia 2015-2026
+
+license_groups:
+  cc_by: ["cc by", "cc0", "cc-by", "cc by 4.0", "cc by 3.0", "cc by 2.0"]   # redistribuible (verde)
+  # todo lo demas con licencia registrada -> "other"
+  # articulos sin licencia registrada se excluyen (brief 4.1)
+
+targets:             # articulos minimos por familia (muestra principal 2018-2026)
+  LNP: 300
+  liposome: 300
+  polymeric: 300
+  inorganic: 300
+  SLN_NLC: 150
+  PLN: 150
+  AAV: 150
+trend_only_per_family: 40
+
+batch_size: 100       # tamano de lote entre comprobaciones del criterio de parada
+cap_total: 4000
+stop_halfwidth_median: 0.08   # mitad de ancho mediana del IC95 % de celdas con n(A)>=30
+stop_min_nA: 30
+
+pilot_per_family: 30
+gold_n: 56   # 7 familias x 8 (el brief pide 50 con >=8 por familia: incompatible)
+gold_min_per_family: 8

@@ -1,0 +1,26 @@
+{"batch": "MC012", "articles": [
+{"pmcid": "PMC5069227", "decisions": [
+{"issue": "PMC5069227:gate:micro", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "b TEM images of AuNPs produced with 1 mL and 20 min.",
+ "location": "Fig. 3 caption",
+ "reason": "Fig. 3b-d and Fig. 4 are TEM panels of the AuNPs themselves, linked to explicit synthesis conditions."},
+{"issue": "PMC5069227:gate:dls", "decision": "B",
+ "final": {"value": true, "identity": "nanoparticle_empty", "variant": null, "medium": "water"},
+ "quote": "suspended in 50 mL of deionized water and sonicated at 50 Hz for a period of 1 min",
+ "location": "Methods > Characterization of Gold Nanoparticles",
+ "reason": "Sizes 1.1, 43, 73 nm by DLS; Methods states recovered AuNPs were suspended in deionized water right after DLS description."},
+{"issue": "PMC5069227:gate:zeta", "decision": "B",
+ "final": {"value": true, "identity": "nanoparticle_empty", "variant": null, "medium": "water"},
+ "quote": "The AuNPs synthesized with 1 and 2 mL of V. oleifera generated stable nanoparticles in distilled water.",
+ "location": "Results > Characterization of Gold Nanoparticles",
+ "reason": "Zeta values -41.67, -30.26, -32.34 mV for identifiable AuNP samples; water medium stated (deionized/distilled)."}
+]},
+{"pmcid": "PMC13056566", "decisions": [
+{"issue": "PMC13056566:gate:micro", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "CryoTEM image of 3rd generation CRISPR-AuNP (P20PSH, N/P = 2) showing AuNP core with surrounding RNP and polymer layer.",
+ "location": "Fig. 4 caption (panel E)",
+ "reason": "Fig. 4E is a cryoTEM panel of the nanocarrier itself with scale bar and explicit formulation."}
+]}
+]}

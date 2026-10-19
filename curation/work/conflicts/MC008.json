@@ -1,0 +1,401 @@
+{
+ "batch": "MC008",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC008.json",
+ "articles": [
+  {
+   "pmcid": "PMC7175165",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7175165.txt",
+   "issues": [
+    {
+     "issue": "PMC7175165:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "HRTEM",
+       "sample": "LSTE Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 6.3,
+        "size_sd_nm": 2,
+        "morphology": "predominantly monodispersed, spherical, polygonal; capping coating up to 5.83 nm"
+       },
+       "conditions": {
+        "prep_state": "drops on carbon-coated Cu grid, dried completely at room temperature, no stain mentioned",
+        "scale_bar_present": null,
+        "instrument": "FEI Tecnai G2 F20 S-Twin, 200 kV",
+        "n_images": null
+       },
+       "quote": "The mean diameters of the particles were 6.3 ± 2, 24.4 ± 5 and 22.4 ± 5 nm respectively.",
+       "location": "Results > 3.3; Fig. 5a,d"
+      },
+      {
+       "variant": "HRTEM",
+       "sample": "F1 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 24.4,
+        "size_sd_nm": 5,
+        "morphology": "spherical, hexagonal and truncated triangular; coating about 2.50 nm"
+       },
+       "conditions": {
+        "prep_state": "drops on carbon-coated Cu grid, dried completely at room temperature, no stain mentioned",
+        "scale_bar_present": null,
+        "instrument": "FEI Tecnai G2 F20 S-Twin, 200 kV",
+        "n_images": null
+       },
+       "quote": "The mean diameters of the particles were 6.3 ± 2, 24.4 ± 5 and 22.4 ± 5 nm respectively.",
+       "location": "Results > 3.3; Fig. 5b,e"
+      },
+      {
+       "variant": "HRTEM",
+       "sample": "F2 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 22.4,
+        "size_sd_nm": 5,
+        "morphology": "spherical, hexagonal and truncated triangular; coating about 1.97 nm"
+       },
+       "conditions": {
+        "prep_state": "drops on carbon-coated Cu grid, dried completely at room temperature, no stain mentioned",
+        "scale_bar_present": null,
+        "instrument": "FEI Tecnai G2 F20 S-Twin, 200 kV",
+        "n_images": null
+       },
+       "quote": "The mean diameters of the particles were 6.3 ± 2, 24.4 ± 5 and 22.4 ± 5 nm respectively.",
+       "location": "Results > 3.3; Fig. 5c,f"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7175165:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "LSTE Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 21.85
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "LSTE Au NPs | 21.85 | −33.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F1 Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 27.2
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F1 Au NPs | 27.20 | −32.5",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2 Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 26.91
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F2 Au NPs | 26.91 | −29.1",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "LSTE Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 21.85
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "LSTE Au NPs | 21.85 | −33.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F1 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 27.2
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F1 Au NPs | 27.20 | −32.5",
+       "location": "Table 1; text lists 26.91 for F1 and 27.20 for F2"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 26.91
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F2 Au NPs | 26.91 | −29.1",
+       "location": "Table 1; text lists 27.20 for F2 and 26.91 for F1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7175165:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LSTE Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -33.9
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "model": "not_declared",
+        "instrument": "Zetasizer"
+       },
+       "quote": "LSTE Au NPs | 21.85 | −33.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F1 Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -32.5
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "model": "not_declared",
+        "instrument": "Zetasizer"
+       },
+       "quote": "F1 Au NPs | 27.20 | −32.5",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2 Au NPs",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -29.1
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "model": "not_declared",
+        "instrument": "Zetasizer"
+       },
+       "quote": "F2 Au NPs | 26.91 | −29.1",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LSTE Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -33.9
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer, 25 C"
+       },
+       "quote": "LSTE Au NPs | 21.85 | −33.9",
+       "location": "Table 1; text gives −33.59 mV"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F1 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -32.5
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer, 25 C"
+       },
+       "quote": "F1 Au NPs | 27.20 | −32.5",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2 Au NPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -29.1
+       },
+       "conditions": {
+        "medium": "other:as-synthesized aqueous colloid after cooling (not explicitly stated)",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer, 25 C"
+       },
+       "quote": "F2 Au NPs | 26.91 | −29.1",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9498533",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9498533.txt",
+   "issues": [
+    {
+     "issue": "PMC9498533:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "HNCN7 (optimum)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "well-separated uniform spherical nanogels with core-shell structure"
+       },
+       "conditions": {
+        "prep_state": "diluted 1:10 with distilled water, negative stain 2% w/w phosphotungstic acid on carbon-coated Cu grid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-1230",
+        "n_images": null
+       },
+       "quote": "Samples were stained negatively using 2% (w/w) phosphotungstic acid solution.",
+       "location": "Methods > 4.2.4 Morphological Examination"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11054717",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11054717.txt",
+   "issues": [
+    {
+     "issue": "PMC11054717:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "Dapto PC/Chol (1:1) TFH",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "round-shaped",
+        "size_nm": "around 100"
+       },
+       "conditions": {
+        "prep_state": "negatively stained with 1% phosphotungstic acid, in 10 mM HEPES",
+        "scale_bar_present": null,
+        "instrument": "JEM-2100 (Jeol)",
+        "n_images": null
+       },
+       "quote": "both types of liposomes are round-shaped, and the vesicle diameters observed in TEM micrographs (around 100 nm)",
+       "location": "Results > 3.3 / Fig. 4 caption (a)"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "Dapto PC/PG/Chol (8:2:10) TFH",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "round-shaped",
+        "size_nm": "around 100"
+       },
+       "conditions": {
+        "prep_state": "negatively stained with 1% phosphotungstic acid, in 10 mM HEPES",
+        "scale_bar_present": null,
+        "instrument": "JEM-2100 (Jeol)",
+        "n_images": null
+       },
+       "quote": "TEM micrographs of Dapto liposomes: (a) PC/Chol (1:1); (b) PC/PG/Chol (8:2:10).",
+       "location": "Fig. 4 caption (b)"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

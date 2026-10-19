@@ -1,0 +1,38 @@
+{
+ "definition": "body_any",
+ "n_articles": 2025,
+ "techniques_in_matrix": [
+  "cryoEM",
+  "STEM",
+  "TEM",
+  "SEM",
+  "AFM",
+  "DLS",
+  "zeta",
+  "NTA",
+  "SAXS",
+  "XRD",
+  "FTIR",
+  "UVVis",
+  "EDS",
+  "DSC_TGA",
+  "NMR",
+  "Raman_SERS",
+  "XPS",
+  "BET",
+  "VSM",
+  "AUC",
+  "qPCR_ddPCR",
+  "RiboGreen_EE",
+  "TNS_pKa"
+ ],
+ "by_family": {
+  "polymeric": 380,
+  "LNP": 374,
+  "liposome": 349,
+  "inorganic": 303,
+  "AAV": 291,
+  "SLN_NLC": 214,
+  "PLN": 114
+ }
+}

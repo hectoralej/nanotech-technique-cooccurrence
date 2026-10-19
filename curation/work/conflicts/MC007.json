@@ -1,0 +1,490 @@
+{
+ "batch": "MC007",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC007.json",
+ "articles": [
+  {
+   "pmcid": "PMC9318109",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9318109.txt",
+   "issues": [
+    {
+     "issue": "PMC9318109:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Drug-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 180,
+        "size_sd_nm": 0.208,
+        "pdi": 0.56,
+        "pdi_sd": 0.56
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug-loaded gels | 180 ± 0.208 | 0.56 ± 0.56 | −32.4 ± 0.1",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Extract-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 200,
+        "size_sd_nm": 0.577,
+        "pdi": 0.34,
+        "pdi_sd": 0.001
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Extract-loaded gels | 200 ± 0.577 | 0.34 ± 0.001 | −34.2 ± 0.17",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Drug- and extract-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 250,
+        "size_sd_nm": 0.573,
+        "pdi": 0.54,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug- and extract-loaded gels | 250 ± 0.573 | 0.54 ± 0.01 | −14.1 ± 0.1",
+       "location": "Table 3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Drug-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 180,
+        "size_sd_nm": 0.208,
+        "pdi": 0.56,
+        "pdi_sd": 0.56
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "diluted with distilled water",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug-loaded gels | 180 ± 0.208 | 0.56 ± 0.56 | −32.4 ± 0.1",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Extract-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 200,
+        "size_sd_nm": 0.577,
+        "pdi": 0.34,
+        "pdi_sd": 0.001
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "diluted with distilled water",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Extract-loaded gels | 200 ± 0.577 | 0.34 ± 0.001 | −34.2 ± 0.17",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Drug- and extract-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 250,
+        "size_sd_nm": 0.573,
+        "size_nm_text": 329,
+        "pdi": 0.54,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "diluted with distilled water",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug- and extract-loaded gels | 250 ± 0.573 | 0.54 ± 0.01 | −14.1 ± 0.1",
+       "location": "Table 3 (text and abstract give 329 nm)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9318109:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Drug-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -32.4,
+        "zeta_sd_mV": 0.1
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug-loaded gels | 180 ± 0.208 | 0.56 ± 0.56 | −32.4 ± 0.1",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Extract-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -34.2,
+        "zeta_sd_mV": 0.17
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Extract-loaded gels | 200 ± 0.577 | 0.34 ± 0.001 | −34.2 ± 0.17",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Drug- and extract-loaded gels",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -14.1,
+        "zeta_sd_mV": 0.1
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug- and extract-loaded gels | 250 ± 0.573 | 0.54 ± 0.01 | −14.1 ± 0.1",
+       "location": "Table 3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Drug-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -32.4,
+        "zeta_sd_mV": 0.1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug-loaded gels | 180 ± 0.208 | 0.56 ± 0.56 | −32.4 ± 0.1",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Extract-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -34.2,
+        "zeta_sd_mV": 0.17
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Extract-loaded gels | 200 ± 0.577 | 0.34 ± 0.001 | −34.2 ± 0.17",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Drug- and extract-loaded gel",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -14.1,
+        "zeta_sd_mV": 0.1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "Drug- and extract-loaded gels | 250 ± 0.573 | 0.54 ± 0.01 | −14.1 ± 0.1",
+       "location": "Table 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC12658194",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC12658194.txt",
+   "issues": [
+    {
+     "issue": "PMC12658194:gate:dls",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "DBP-Lip",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 111.4,
+        "size_sd_nm": 2.8,
+        "pdi": 0.18,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "dilution": "1:100 in ultrapure water",
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "DBP-Lip | 111.4 ± 2.8 | 0.18 ± 0.02 | − 30.03 ± 3.16 | 84.6 ± 2.0 | 4.6 ± 0.2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank-Lip",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 98.7,
+        "size_sd_nm": 4.2,
+        "pdi": 0.16,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": null,
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank-Lip",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 98.7,
+        "size_sd_nm": 4.2,
+        "pdi": 0.16,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DBP-Lip",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 111.4,
+        "size_sd_nm": 2.8,
+        "pdi": 0.18,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "the particle size of DBP-Lip was 111.4 ± 2.8 nm",
+       "location": "Results > Characterization of DBP formulations"
+      }
+     ]
+    },
+    {
+     "issue": "PMC12658194:gate:zeta",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "DBP-Lip",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -30.03,
+        "zeta_sd_mV": 3.16
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "DBP-Lip | 111.4 ± 2.8 | 0.18 ± 0.02 | − 30.03 ± 3.16 | 84.6 ± 2.0 | 4.6 ± 0.2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Blank-Lip",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -28.43,
+        "zeta_sd_mV": 4.24
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Blank-Lip",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -28.43,
+        "zeta_sd_mV": 4.24
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "DBP-Lip",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -30.03,
+        "zeta_sd_mV": 3.16
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"
+       },
+       "quote": "DBP-Lip | 111.4 ± 2.8 | 0.18 ± 0.02 | − 30.03 ± 3.16 | 84.6 ± 2.0 | 4.6 ± 0.2",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC13575751",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13575751.txt",
+   "issues": [
+    {
+     "issue": "PMC13575751:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "FA-Cel-LPs (1:10)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical or oval vesicles with distinct lipid bilayer boundaries, relatively uniform"
+       },
+       "conditions": {
+        "prep_state": "negative stain 2% w/v phosphotungstic acid on carbon-coated Cu grid, air-dried",
+        "scale_bar_present": true,
+        "instrument": "FEI Tecnai G2 F20 S-TWIN",
+        "n_images": null
+       },
+       "quote": "FA-Cel-LPs showed spherical or oval vesicles with distinct lipid bilayer boundaries and a relatively uniform morphology",
+       "location": "Results > Preparation and physicochemical characterization; Fig. 4K"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

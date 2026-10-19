@@ -1,0 +1,925 @@
+{
+ "batch": "PC003",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\PC003.json",
+ "articles": [
+  {
+   "pmcid": "PMC5750654",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC5750654.txt",
+   "issues": [
+    {
+     "issue": "PMC5750654:keys:zeta",
+     "only_in_A": "nanoparticle_empty|buffer:otherkcl1mm|pHy|nanoparticle_loaded|buffer:otherkcl1mm|pHy",
+     "only_in_B": "nanoparticle_empty|buffer:otherkcl1mmph70|pHy|nanoparticle_loaded|buffer:otherkcl1mmph70|pHy",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "SLN A",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.55,
+        "zeta_sd_mV": 0.27
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "A | 36.5 ± 1.45 | 0.208 ± 0.010 | −1.55 ± 0.27 | 72",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "BEO1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.76,
+        "zeta_sd_mV": 0.38
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "BEO1 | 26.9 ± 1.23 | 0.341 ± 0.021 | −1.76 ± 0.38 | 58",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "BEO2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -2.05,
+        "zeta_sd_mV": 0.37
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "BEO2 | 27.6 ± 1.01 | 0.368 ± 0.018 | −2.05 ± 0.37 | 50",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "BEO3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.99,
+        "zeta_sd_mV": 0.39
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "BEO3 | 141.9 ± 5.43 | 0.495 ± 0.022 | −1.99 ± 0.39 | 45",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "BEO4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.78,
+        "zeta_sd_mV": 0.45
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "BEO4 | 171.7 ± 4.66 | 0.336 ± 0.019 | −1.78 ± 0.45 | 40",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "CEO1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -2.19,
+        "zeta_sd_mV": 0.44
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS (ZEN 3600, Malvern)"
+       },
+       "quote": "CEO1 | 34.8 ± 1.10 | 0.367 ± 0.017 | −2.19 ± 0.44 | 70",
+       "location": "Table 3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "SLN A",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.55,
+        "zeta_sd_mV": 0.27
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "A | 36.5 ± 1.45 | 0.208 ± 0.010 | −1.55 ± 0.27 | 72",
+       "location": "Table 3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "NLC BEO1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.76,
+        "zeta_sd_mV": 0.38
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "BEO1 | 26.9 ± 1.23 | 0.341 ± 0.021 | −1.76 ± 0.38 | 58",
+       "location": "Table 3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "NLC BEO2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -2.05,
+        "zeta_sd_mV": 0.37
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "BEO2 | 27.6 ± 1.01 | 0.368 ± 0.018 | −2.05 ± 0.37 | 50",
+       "location": "Table 3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "NLC BEO3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.99,
+        "zeta_sd_mV": 0.39
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "BEO3 | 141.9 ± 5.43 | 0.495 ± 0.022 | −1.99 ± 0.39 | 45",
+       "location": "Table 3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "NLC BEO4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -1.78,
+        "zeta_sd_mV": 0.45
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "BEO4 | 171.7 ± 4.66 | 0.336 ± 0.019 | −1.78 ± 0.45 | 40",
+       "location": "Table 3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "NLC CEO1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -2.19,
+        "zeta_sd_mV": 0.44
+       },
+       "conditions": {
+        "medium": "other:KCl 1 mM (pH 7.0)",
+        "pH": 7.0,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "Zetasizer NanoZS, laser Doppler velocimetry"
+       },
+       "quote": "CEO1 | 34.8 ± 1.10 | 0.367 ± 0.017 | −2.19 ± 0.44 | 70",
+       "location": "Table 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11076978",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11076978.txt",
+   "issues": [
+    {
+     "issue": "PMC11076978:keys:DLS",
+     "only_in_A": "nanoparticle_loaded|other:otherdeionizedwater",
+     "only_in_B": "nanoparticle_loaded|water",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 204.32,
+        "size_sd_nm": 3.7,
+        "pdi": 0.281,
+        "pdi_sd": 0.061
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F1 | 50 | 50 | 5 | – | 2 | 204.32 ± 3.7 | 0.281 ± 0.061 | −20.3 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 208.14,
+        "size_sd_nm": 4.2,
+        "pdi": 0.23,
+        "pdi_sd": 0.021
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F2 | 50 | 50 | 10 | – | 2 | 208.14 ± 4.2 | 0.230 ± 0.021 | −19.2 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 230.22,
+        "size_sd_nm": 4.9,
+        "pdi": 0.231,
+        "pdi_sd": 0.061
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F3 | 50 | 50 | 15 | – | 2 | 230.22 ± 4.9 | 0.231 ± 0.061 | −21.5 ± 1.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 209.65,
+        "size_sd_nm": 4.8,
+        "pdi": 0.311,
+        "pdi_sd": 0.091
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F4 | 50 | 50 | – | 5 | 2 | 209.65 ± 4.8 | 0.311 ± 0.091 | −23.9 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F5",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 254.83,
+        "size_sd_nm": 4.6,
+        "pdi": 0.34,
+        "pdi_sd": 0.101
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F5 | 50 | 50 | – | 10 | 2 | 254.83 ± 4.6 | 0.340 ± 0.101 | −24.7 ± 1.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F6",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 291.71,
+        "size_sd_nm": 5.2,
+        "pdi": 0.253,
+        "pdi_sd": 0.087
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "temperature_C": null,
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F6 | 50 | 50 | – | 15 | 2 | 291.71 ± 5.2 | 0.253 ± 0.087 | −23.5 ± 1.1",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "F1 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 204.32,
+        "size_sd_nm": 3.7,
+        "pdi": 0.281,
+        "pdi_sd": 0.061
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F1 | 50 | 50 | 5 | – | 2 | 204.32 ± 3.7 | 0.281 ± 0.061 | −20.3 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 208.14,
+        "size_sd_nm": 4.2,
+        "pdi": 0.23,
+        "pdi_sd": 0.021
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F2 | 50 | 50 | 10 | – | 2 | 208.14 ± 4.2 | 0.230 ± 0.021 | −19.2 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 230.22,
+        "size_sd_nm": 4.9,
+        "pdi": 0.231,
+        "pdi_sd": 0.061
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F3 | 50 | 50 | 15 | – | 2 | 230.22 ± 4.9 | 0.231 ± 0.061 | −21.5 ± 1.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F4 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 209.65,
+        "size_sd_nm": 4.8,
+        "pdi": 0.311,
+        "pdi_sd": 0.091
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F4 | 50 | 50 | – | 5 | 2 | 209.65 ± 4.8 | 0.311 ± 0.091 | −23.9 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F5 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 254.83,
+        "size_sd_nm": 4.6,
+        "pdi": 0.34,
+        "pdi_sd": 0.101
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F5 | 50 | 50 | – | 10 | 2 | 254.83 ± 4.6 | 0.340 ± 0.101 | −24.7 ± 1.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F6 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 291.71,
+        "size_sd_nm": 5.2,
+        "pdi": 0.253,
+        "pdi_sd": 0.087
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "angle_deg": 90,
+        "dilution": "10 uL in 1 mL deionized water, sonicated 1 min",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F6 | 50 | 50 | – | 15 | 2 | 291.71 ± 5.2 | 0.253 ± 0.087 | −23.5 ± 1.1",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC11076978:keys:zeta",
+     "only_in_A": "nanoparticle_loaded|other:otherdeionizedwater|pHn",
+     "only_in_B": "nanoparticle_loaded|water|pHn",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.3,
+        "zeta_sd_mV": 0.8
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F1 | 50 | 50 | 5 | – | 2 | 204.32 ± 3.7 | 0.281 ± 0.061 | −20.3 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -19.2,
+        "zeta_sd_mV": 1.7
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F2 | 50 | 50 | 10 | – | 2 | 208.14 ± 4.2 | 0.230 ± 0.021 | −19.2 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.5,
+        "zeta_sd_mV": 1.9
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F3 | 50 | 50 | 15 | – | 2 | 230.22 ± 4.9 | 0.231 ± 0.061 | −21.5 ± 1.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.9,
+        "zeta_sd_mV": 1.7
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F4 | 50 | 50 | – | 5 | 2 | 209.65 ± 4.8 | 0.311 ± 0.091 | −23.9 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F5",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -24.7,
+        "zeta_sd_mV": 1.8
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F5 | 50 | 50 | – | 10 | 2 | 254.83 ± 4.6 | 0.340 ± 0.101 | −24.7 ± 1.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F6",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.5,
+        "zeta_sd_mV": 1.1
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F6 | 50 | 50 | – | 15 | 2 | 291.71 ± 5.2 | 0.253 ± 0.087 | −23.5 ± 1.1",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.3,
+        "zeta_sd_mV": 0.8
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F1 | 50 | 50 | 5 | – | 2 | 204.32 ± 3.7 | 0.281 ± 0.061 | −20.3 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -19.2,
+        "zeta_sd_mV": 1.7
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F2 | 50 | 50 | 10 | – | 2 | 208.14 ± 4.2 | 0.230 ± 0.021 | −19.2 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.5,
+        "zeta_sd_mV": 1.9
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F3 | 50 | 50 | 15 | – | 2 | 230.22 ± 4.9 | 0.231 ± 0.061 | −21.5 ± 1.9",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.9,
+        "zeta_sd_mV": 1.7
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F4 | 50 | 50 | – | 5 | 2 | 209.65 ± 4.8 | 0.311 ± 0.091 | −23.9 ± 1.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F5 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -24.7,
+        "zeta_sd_mV": 1.8
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F5 | 50 | 50 | – | 10 | 2 | 254.83 ± 4.6 | 0.340 ± 0.101 | −24.7 ± 1.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F6 PAC-CUR-SLNs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.5,
+        "zeta_sd_mV": 1.1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer ZS 90 (Malvern)"
+       },
+       "quote": "F6 | 50 | 50 | – | 15 | 2 | 291.71 ± 5.2 | 0.253 ± 0.087 | −23.5 ± 1.1",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC4487236",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC4487236.txt",
+   "issues": [
+    {
+     "issue": "PMC4487236:gate:viral_pcr",
+     "A_says": true,
+     "B_says": false,
+     "A_context": {
+      "summary": "Virosomes made by fusing hepatitis B virus envelope L-protein bionanocapsules with liposomes, loaded with doxorubicin by remote loading; tested for hepatocyte-targeted antitumour activity alone and combined with radiotherapy in xenograft mice.",
+      "article_kind": "research",
+      "nanocarrier_is_object_of_study": true,
+      "carrier_type": "virus_or_VLP",
+      "depends_on_pcr_or_virus": true
+     },
+     "B_context": {
+      "summary": "Virosomes formed by fusing hepatitis B virus envelope L-protein bionanocapsules with DPPC/DPPE/DPPG/cholesterol liposomes at 70 C, pH 3.0; doxorubicin remote-loaded; characterized (TEM, DLS, zeta, stability) and tested for liver-specific cytotoxicity and antitumor activity with radiotherapy in xenograft mice.",
+      "article_kind": "research",
+      "nanocarrier_is_object_of_study": true,
+      "carrier_type": "liposome",
+      "depends_on_pcr_or_virus": false
+     }
+    },
+    {
+     "issue": "PMC4487236:keys:micrograph",
+     "only_in_A": "TEM_prep_not_declared|nanoparticle_empty",
+     "only_in_B": "TEM_negstain|pure_component",
+     "A_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "virosomes (no DOX)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 111.4,
+        "size_sd_nm": 19.6,
+        "n_particles_measured": null,
+        "morphology": "smooth-surfaced spherical"
+       },
+       "conditions": {
+        "prep_state": "negatively stained, 2% uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEM1011 (JEOL)",
+        "n_images": null
+       },
+       "quote": "exhibited a smooth-surfaced spherical structure of 111.4±19.6 nm (mean ± SD, n=10) in diameter",
+       "location": "Results > Formation of virosomes of HBV envelope L proteins; Fig. 2A panel c"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "BNC-LP complexes (room temperature, pH 7.0)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 112.5,
+        "size_sd_nm": 19.7,
+        "n_particles_measured": null,
+        "morphology": "rugged spherical"
+       },
+       "conditions": {
+        "prep_state": "not described in Methods (staining not declared for BNC-LP complexes)",
+        "scale_bar_present": true,
+        "instrument": "JEM1011 (JEOL)",
+        "n_images": null
+       },
+       "quote": "exhibited a rugged spherical structure of 112.5±19.7 nm (mean ± SD, n=10) in diameter",
+       "location": "Results > Formation of virosomes of HBV envelope L proteins; Fig. 2A panel a"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "BNC-LP complexes (RT, pH 7.0)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 112.5,
+        "size_sd_nm": 19.7,
+        "n_particles_measured": 10,
+        "morphology": "rugged spherical"
+       },
+       "conditions": {
+        "prep_state": "adsorbed on carbon-coated Cu grid, negatively stained 2% uranyl acetate (stated for virosomes and LPs)",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM1011",
+        "n_images": null
+       },
+       "quote": "exhibited a rugged spherical structure of 112.5±19.7 nm (mean ± SD, n=10) in diameter",
+       "location": "Results > Formation of virosomes; Fig. 2A panel a"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "virosomes (BNC-LP complexes prepared at 70 C, pH 3.0)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 111.4,
+        "size_sd_nm": 19.6,
+        "n_particles_measured": 10,
+        "morphology": "smooth-surfaced spherical"
+       },
+       "conditions": {
+        "prep_state": "adsorbed on carbon-coated Cu grid, negatively stained 2% uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM1011",
+        "n_images": null
+       },
+       "quote": "exhibited a smooth-surfaced spherical structure of 111.4±19.6 nm (mean ± SD, n=10) in diameter",
+       "location": "Results > Formation of virosomes; Fig. 2A panel c, Fig. 3"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "LPs (liposomes)",
+       "identity": "pure_component",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "smooth spherical, similar to virosomes"
+       },
+       "conditions": {
+        "prep_state": "adsorbed on carbon-coated Cu grid, negatively stained 2% uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM1011",
+        "n_images": null
+       },
+       "quote": "which is similar to that of LPs (Figure 2A, panel d)",
+       "location": "Results > Formation of virosomes; Fig. 2A panel d"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

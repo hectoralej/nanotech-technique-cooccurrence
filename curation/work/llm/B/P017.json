@@ -1,0 +1,459 @@
+{
+ "pass": "B",
+ "batch": "P017",
+ "articles": [
+  {
+   "pmcid": "PMC11598603",
+   "context": {
+    "summary": "Lipid-polymer hybrid nanosystem: PLGA core complexed with plasmid DNA, coated with pH-sensitive EPOPC/DOPE/PHC lipid bilayer with DSPE-PEG-GalNAc, co-delivering selumetinib, perifosine and PTEN gene to hepatocellular carcinoma cells.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "PLN",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "PLGA nanoparticles", "identity": "nanoparticle_empty", "composition": "PLGA 50:50 with 30 mg DMAB and 175 mg PVA", "formulation_defined_in": "text"},
+    {"id": "S2", "name": "PLGA nanoparticles/DNA (1/8 ratio)", "identity": "process_intermediate", "composition": "PLGA NPs complexed with plasmid DNA at 1/8 (+/-) charge ratio", "formulation_defined_in": "text"},
+    {"id": "S3", "name": "Liposomes without Galnac", "identity": "pure_component", "composition": "EPOPC/DOPE/PHC/DSPE-PEG2000-amine liposomes", "formulation_defined_in": "text"},
+    {"id": "S4", "name": "Liposomes with Galnac", "identity": "pure_component", "composition": "EPOPC/DOPE/PHC/DSPE-PEG2000-amine/DSPE-PEG2000-GalNAc liposomes", "formulation_defined_in": "text"},
+    {"id": "S5", "name": "Hybrid nanoparticles without Galnac", "identity": "nanoparticle_loaded", "composition": "PLGA NP/DNA complex coated with lipid bilayer lacking GalNAc", "formulation_defined_in": "text"},
+    {"id": "S6", "name": "Hybrid nanoparticles with GalNac", "identity": "nanoparticle_loaded", "composition": "PLGA NP/DNA 1/8 coated with EPOPC/DOPE/PHC/DSPE-PEG-amine/DSPE-PEG-GalNAc, DNA/lipid 1/50", "formulation_defined_in": "text"},
+    {"id": "S7", "name": "DSPE-PEG2000-GalNAc conjugate", "identity": "pure_component", "composition": "DSPE-PEG2000-amine micelles coupled to GalNAc PFP ester", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "size and structure of nanosystems",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S6",
+     "formulation_link": {"where": "text", "confidence": "inferred"},
+     "shown_as": "SI_only",
+     "values": {},
+     "conditions": {"prep_state": "adsorbed on formvar-coated copper grids, uranyl acetate contrast", "scale_bar_present": null, "instrument": "JEM 1400 (Jeol)", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["valores_solo_en_SI", "muestra_ambigua"],
+     "evidence": {"quote": "The nanosystems were adsorbed on copper grids covered with formvar film and samples contrast was ensured by using uranyl acetate.", "location": "Methods > Physicochemical Characterization of Nanoparticles"},
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": 21.5, "zeta_sd_mV": 0.61},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "PLGA nanoparticles | 92.3 ± 0.4 | 0.02 ± 0.01 | 21.5 ± 0.61", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -31.2, "zeta_sd_mV": 7.39},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "PLGA nanoparticles/DNA (1/8 ratio) | 112.5 ± 2.3 | 0.20 ± 0.02 | −31.2 ± 7.39", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+     "values": {"zeta_mV": 25.3, "zeta_sd_mV": 1.28},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Liposomes without Galnac | 97.9 ± 0.4 | 0.17 ± 0.05 | 25.3 ± 1.28", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+     "values": {"zeta_mV": -15.4, "zeta_sd_mV": 2.01},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Liposomes with Galnac | 102 ± 0.1 | 0.18 ± 0.03 | −15.4 ± 2.01", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": 19.5, "zeta_sd_mV": 0.78},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Hybrid nanoparticles without Galnac | 129 ± 0.8 | 0.08 ± 0.07 | 19.5 ± 0.78", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -17.6, "zeta_sd_mV": 0.93},
+     "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-ZS", "temperature_C": 25},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Hybrid nanoparticles with GalNac | 135 ± 0.5 | 0.07 ± 0.09 | −17.6 ± 0.93", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 92.3, "size_sd_nm": 0.4, "pdi": 0.02, "pdi_sd": 0.01},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "PLGA nanoparticles | 92.3 ± 0.4 | 0.02 ± 0.01 | 21.5 ± 0.61", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 112.5, "size_sd_nm": 2.3, "pdi": 0.20, "pdi_sd": 0.02},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "PLGA nanoparticles/DNA (1/8 ratio) | 112.5 ± 2.3 | 0.20 ± 0.02 | −31.2 ± 7.39", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+     "values": {"size_nm": 97.9, "size_sd_nm": 0.4, "pdi": 0.17, "pdi_sd": 0.05},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Liposomes without Galnac | 97.9 ± 0.4 | 0.17 ± 0.05 | 25.3 ± 1.28", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+     "values": {"size_nm": 102, "size_sd_nm": 0.1, "pdi": 0.18, "pdi_sd": 0.03},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Liposomes with Galnac | 102 ± 0.1 | 0.18 ± 0.03 | −15.4 ± 2.01", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 129, "size_sd_nm": 0.8, "pdi": 0.08, "pdi_sd": 0.07},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Hybrid nanoparticles without Galnac | 129 ± 0.8 | 0.08 ± 0.07 | 19.5 ± 0.78", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average hydrodynamic diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 135, "size_sd_nm": 0.5, "pdi": 0.07, "pdi_sd": 0.09},
+     "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano-ZS"},
+     "n_replicates": 4, "quality_flags": [],
+     "evidence": {"quote": "Hybrid nanoparticles with GalNac | 135 ± 0.5 | 0.07 ± 0.09 | −17.6 ± 0.93", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "FTIR", "variant": "unspecified", "measurand": "bands of DSPE-PEG-GalNAc conjugate vs DSPE-PEG-amine", "assay_purpose": "conjugation confirmation", "sample_id": "S7",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "SI_only",
+     "values": {"main_peaks_cm-1": [], "note": "bands above 3000 cm-1 present in conjugate and GalNAc cluster, absent in DSPE-PEG2000-amine"},
+     "conditions": {"instrument": "Jasco FTIR-420", "range_cm-1": "4000-650", "resolution_cm-1": 2, "scans": 32},
+     "n_replicates": null, "quality_flags": ["valores_solo_en_SI", "solo_lista_de_picos"],
+     "evidence": {"quote": "32 scans were collected at a resolution of 2 cm−1 in the range of 4000–650 cm−1", "location": "Methods > Nanoparticles Production"}, "confidence": "media"
+    }
+   ],
+   "si_mentions": [
+    {"technique": "FTIR", "quote": "As observed in Figure S2, DSPE-PEG2000-amine does not present bands above 3000 cm−1"},
+    {"technique": "TEM", "quote": "as well as in the TEM images (Figure S4)"},
+    {"technique": "DLS", "quote": "their physicochemical properties (mean diameter, polydispersity index, and zeta potential), over 30 days"}
+   ],
+   "notes": "Table 1 values mean +/- SD from at least four independent samples; TEM images only in SI (Fig S4)."
+  },
+  {
+   "pmcid": "PMC13564813",
+   "context": {
+    "summary": "SM-102-based lipid nanoparticles co-loaded with mRNA-CXCL9 and resiquimod, surface-coated with anti-TREM2 antibody (thiol-maleimide) to target tumor-associated macrophages; characterized by DLS, zeta, TEM, and evaluated in vitro and in 4T1 tumor mice.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "LNP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "RmRNA LNPs", "identity": "nanoparticle_loaded", "composition": "SM-102/DSPC/cholesterol/DMG-PEG2k/DSPE-PEG2k-maleimide 50/10/38.5/1.2/0.3 with mRNA and resiquimod", "formulation_defined_in": "text"},
+    {"id": "S2", "name": "M-RmRNA LNPs", "identity": "nanoparticle_loaded", "composition": "RmRNA LNPs with DSPE-PEG2k-mannose replacing maleimide-PEG", "formulation_defined_in": "text"},
+    {"id": "S3", "name": "T-RmRNA LNPs", "identity": "nanoparticle_loaded", "composition": "RmRNA LNPs coated with TREM2 antibody at 1:1 antibody to maleimide", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph", "variant": "TEM_prep_not_declared", "measurand": "morphology and size of RmRNA LNPs", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "figure_panel",
+     "values": {"morphology": "not described in packet"},
+     "conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": "FEI Tecnai G2 Spirit", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "The size and morphology of RmRNA LNPs and T-RmRNA LNPs were also characterized by transmission electron microscopy (Fig. 2E and fig. S3)", "location": "Results > Design and characterization of Ab-LNP delivery systems"},
+     "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "TEM_prep_not_declared", "measurand": "morphology and size of T-RmRNA LNPs", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "figure_panel",
+     "values": {"morphology": "not described in packet"},
+     "conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": "FEI Tecnai G2 Spirit", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "(E) Transmission electron microscopy images of LNPs and Ab-LNPs with optimized coating efficiency [scale bars, 200 nm and (inset) 25 nm].", "location": "Fig. 2 caption"},
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of LNPs", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"qualitative": "no obvious change vs RmRNA LNPs and M-RmRNA LNPs"},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "ZetaSizer Ultra"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "muestra_ambigua"],
+     "evidence": {"quote": "There was no obvious change in zeta potential for T-RmRNA LNPs as compared to RmRNA LNPs", "location": "Results > Design and characterization of Ab-LNP delivery systems"},
+     "confidence": "baja"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic size and polydispersity of RmRNA, M-RmRNA and T-RmRNA LNPs (range across the three)", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"size_range_nm": "80-100", "pdi_range": "0.096-0.11"},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "ZetaSizer Ultra"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "muestra_ambigua"],
+     "evidence": {"quote": "hydrodynamic sizes and polydispersity of RmRNA LNPs, M-RmRNA LNPs, and T-RmRNA LNPs (antibody-to-maleimide molar ratio of 1:1) ranged from 80 to 100 nm and 0.096 to 0.11", "location": "Results > Design and characterization of Ab-LNP delivery systems"},
+     "confidence": "baja"
+    }
+   ],
+   "si_mentions": [
+    {"technique": "TEM", "quote": "(Fig. 2E and fig. S3)"}
+   ],
+   "notes": "DLS numbers given only as a range for the three LNP types (S1-S3) combined; zeta only qualitative."
+  },
+  {
+   "pmcid": "PMC10945860",
+   "context": {
+    "summary": "Magnetic LNPs (DLin-MC3-DMA/DSPC/Cholesterol/PEG-DMG/DiDC18) encapsulating iron oxide nanoparticles, enriched by magnetic column separation and used to isolate LNP-corona complexes from human serum for proteomic comparison with SEC.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "LNP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "Formulation A (stock)", "identity": "nanoparticle_loaded", "composition": "IOLNP, 1.1 x 10^13 IONP/umol lipid; MC3/DSPC/Chol/PEG-DMG/DiDC18 50/10/38.5/1.5/0.5", "formulation_defined_in": "table"},
+    {"id": "S2", "name": "Formulation B (stock)", "identity": "nanoparticle_loaded", "composition": "IOLNP, 2.2 x 10^13 IONP/umol lipid", "formulation_defined_in": "table"},
+    {"id": "S3", "name": "Formulation C (stock)", "identity": "nanoparticle_loaded", "composition": "IOLNP, 4.4 x 10^13 IONP/umol lipid", "formulation_defined_in": "table"},
+    {"id": "S4", "name": "Formulation D (stock)", "identity": "nanoparticle_loaded", "composition": "IOLNP, 8.8 x 10^13 IONP/umol lipid", "formulation_defined_in": "table"},
+    {"id": "S5", "name": "Formulation D elution fraction", "identity": "nanoparticle_loaded", "composition": "magnetically enriched IOLNP from formulation D", "formulation_defined_in": "text"},
+    {"id": "S6", "name": "Formulation D wash fraction", "identity": "process_intermediate", "composition": "non-retained empty/low-IONP LNPs from formulation D", "formulation_defined_in": "text"},
+    {"id": "S7", "name": "IOLNP-corona, MS elution fraction", "identity": "nanoparticle_loaded", "composition": "enriched IOLNP incubated in human serum, isolated by magnetic separation", "formulation_defined_in": "text"},
+    {"id": "S8", "name": "IOLNP-corona, SEC merged fractions", "identity": "nanoparticle_loaded", "composition": "enriched IOLNP incubated in human serum, isolated by SEC", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "LNP diameter and IONPs per LNP", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 41.8, "size_sd_nm": 8.2, "n_particles_measured": 100, "morphology": "solid core with encapsulated IONPs; some empty LNPs", "iONP_per_LNP": "2.3 ± 4.6"},
+     "conditions": {"prep_state": "vitrified, concentrated to ~20 mg/mL total lipid", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": [],
+     "evidence": {"quote": "LNPø (Cryo-TEM) | 41.8 ± 8.2 | 51.4 ± 11.7 | 49.5 ± 14.2 | 47.5 ± 12.5", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "LNP diameter and IONPs per LNP", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 51.4, "size_sd_nm": 11.7, "n_particles_measured": 100, "morphology": "solid core with encapsulated IONPs; some empty LNPs", "iONP_per_LNP": "6.4 ± 6.7"},
+     "conditions": {"prep_state": "vitrified, concentrated to ~20 mg/mL total lipid", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": [],
+     "evidence": {"quote": "LNPø (Cryo-TEM) | 41.8 ± 8.2 | 51.4 ± 11.7 | 49.5 ± 14.2 | 47.5 ± 12.5", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "LNP diameter and IONPs per LNP", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 49.5, "size_sd_nm": 14.2, "n_particles_measured": 100, "morphology": "solid core with encapsulated IONPs; some empty LNPs", "iONP_per_LNP": "9.7 ± 8.7"},
+     "conditions": {"prep_state": "vitrified, concentrated to ~20 mg/mL total lipid", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": [],
+     "evidence": {"quote": "LNPø (Cryo-TEM) | 41.8 ± 8.2 | 51.4 ± 11.7 | 49.5 ± 14.2 | 47.5 ± 12.5", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "LNP diameter and IONPs per LNP", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 47.5, "size_sd_nm": 12.5, "n_particles_measured": 100, "morphology": "solid core with encapsulated IONPs; some empty LNPs", "iONP_per_LNP": "12.7 ± 11.9"},
+     "conditions": {"prep_state": "vitrified, concentrated to ~20 mg/mL total lipid", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "LNPø (Cryo-TEM) | 41.8 ± 8.2 | 51.4 ± 11.7 | 49.5 ± 14.2 | 47.5 ± 12.5", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "diameter and IONPs per LNP of elution fraction", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"size_nm": 77, "iONP_per_LNP": 46, "morphology": "enriched in LNPs with IONPs in core"},
+     "conditions": {"prep_state": "vitrified, concentrated to ~20 mg/mL total lipid", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": 3, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "The eluted IOLNP fraction had the highest diameter (77 nm) and the highest number of encapsulated IONPs (46 IONPs/LNP)", "location": "Results > Characterization of IOLNP Fractions and the MS Method"}, "confidence": "alta"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "morphology of wash fraction", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {},
+     "conditions": {"prep_state": "vitrified", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": 3, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "(C) Representative cryo-TEM micrographs showing stock, wash, and elution fractions.", "location": "Fig. 2 caption"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "morphology of IOLNP-corona complexes after magnetic separation", "assay_purpose": "separation quality (lipoprotein removal)", "sample_id": "S7",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"morphology": "few lipoprotein-like vesicles"},
+     "conditions": {"prep_state": "vitrified", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "(B) Cryo-TEM micrographs of the MS elution fraction and the SEC merged fractions.", "location": "Fig. 3 caption"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "cryoTEM", "measurand": "morphology of IOLNP-corona complexes after SEC", "assay_purpose": "separation quality (lipoprotein removal)", "sample_id": "S8",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"morphology": "abundant lipoprotein-like vesicles present"},
+     "conditions": {"prep_state": "vitrified", "scale_bar_present": true, "instrument": "not_declared", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "(B) Cryo-TEM micrographs of the MS elution fraction and the SEC merged fractions.", "location": "Fig. 3 caption"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "number_peak", "measurand": "size distribution (number mean) of stock fraction", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {},
+     "conditions": {"medium": "PBS", "temperature_C": null, "angle_deg": null, "dilution": "diluted in PBS", "instrument": "Zetasizer Nano ZS"},
+     "n_replicates": 3, "quality_flags": ["valores_solo_en_SI"],
+     "evidence": {"quote": "(B) Size distribution of IOLNPs in diameter measured by DLS number mean (lines) and cryo-TEM manual annotation (bars)", "location": "Fig. 2 caption"}, "confidence": "baja"
+    },
+    {
+     "technique": "DLS", "variant": "number_peak", "measurand": "size distribution (number mean) of elution fraction", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {},
+     "conditions": {"medium": "PBS", "temperature_C": null, "angle_deg": null, "dilution": "diluted in PBS", "instrument": "Zetasizer Nano ZS"},
+     "n_replicates": 3, "quality_flags": ["valores_solo_en_SI"],
+     "evidence": {"quote": "(B) Size distribution of IOLNPs in diameter measured by DLS number mean (lines) and cryo-TEM manual annotation (bars)", "location": "Fig. 2 caption"}, "confidence": "baja"
+    },
+    {
+     "technique": "DLS", "variant": "number_peak", "measurand": "size distribution (number mean) of wash fraction", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {},
+     "conditions": {"medium": "PBS", "temperature_C": null, "angle_deg": null, "dilution": "diluted in PBS", "instrument": "Zetasizer Nano ZS"},
+     "n_replicates": 3, "quality_flags": ["valores_solo_en_SI"],
+     "evidence": {"quote": "(B) Size distribution of IOLNPs in diameter measured by DLS number mean (lines) and cryo-TEM manual annotation (bars)", "location": "Fig. 2 caption"}, "confidence": "baja"
+    }
+   ],
+   "si_mentions": [
+    {"technique": "DLS", "quote": "DLS measurement and cryo-TEM images confirmed nanoparticle sizes and IONPs encapsulation efficacy in the collected fractions (Fig. 2 B and C and SI Appendix, Table S2)"},
+    {"technique": "cryoTEM", "quote": "Refer to SI Appendix, Fig. S3D for representative images."}
+   ],
+   "notes": "Cryo-TEM stock D diameter in Table 1 (47.5 nm) differs from text (stock 56 nm, Fig 2D); DLS numbers only in figure/SI Table S2; no zeta reported."
+  },
+  {
+   "pmcid": "PMC5824763",
+   "context": {
+    "summary": "Green synthesis of citrate-free gold nanoparticles using Origanum vulgare extracts (aerial parts OH or leaves OF) as reducing/capping agent; characterized by UV-Vis, TEM, PCS, zeta, FTIR and used as SERS substrate; antioxidant, antimicrobial and cytotoxic tests.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "inorganic_NP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "AuNPs 0.25 mL OH extract", "identity": "nanoparticle_loaded", "composition": "20 mL 1 mM HAuCl4 + 0.25 mL OH extract at 85 C (no cargo; finished AuNP)", "formulation_defined_in": "table"},
+    {"id": "S2", "name": "AuNPs 0.5 mL OH extract", "identity": "nanoparticle_loaded", "composition": "20 mL 1 mM HAuCl4 + 0.5 mL OH extract", "formulation_defined_in": "table"},
+    {"id": "S3", "name": "1 mL OH AuNPs", "identity": "nanoparticle_loaded", "composition": "20 mL 1 mM HAuCl4 + 1 mL OH extract", "formulation_defined_in": "table"},
+    {"id": "S4", "name": "AuNPs 1 mL OF extract", "identity": "nanoparticle_loaded", "composition": "20 mL 1 mM HAuCl4 + 1 mL OF extract", "formulation_defined_in": "text"},
+    {"id": "S5", "name": "dry OH extract", "identity": "pure_component", "composition": "Origanum herba extract", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"size_nm": 72.9, "size_sd_nm": 44.22, "morphology": "triangular nanoplates (~400-500 nm edges) and aggregates of small irregular NPs"},
+     "conditions": {"prep_state": "5 uL drop on carbon-coated Cu grid, dried in air", "scale_bar_present": null, "instrument": "Hitachi HT7700, 120 kV", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "0.25 | 72.9±44.22 | 74.82 | 0.48", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"size_nm": 56.83, "size_sd_nm": 22.81, "morphology": "spherical and faceted NPs with smaller triangular nanoplates (100-200 nm edge)"},
+     "conditions": {"prep_state": "5 uL drop on carbon-coated Cu grid, dried in air", "scale_bar_present": null, "instrument": "Hitachi HT7700, 120 kV", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "0.5 | 56.83±22.81 | 64.41 | 0.42", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"size_nm": 36.75, "size_sd_nm": 16.82, "morphology": "spherical NPs plus triangular nanoplates"},
+     "conditions": {"prep_state": "5 uL drop on carbon-coated Cu grid, dried in air", "scale_bar_present": null, "instrument": "Hitachi HT7700, 120 kV", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "1 | 36.75±16.82 | 42.22 | 0.52", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "particle morphology", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"morphology": "spherical or ellipsoidal"},
+     "conditions": {"prep_state": "5 uL drop on carbon-coated Cu grid, dried in air", "scale_bar_present": null, "instrument": "Hitachi HT7700, 120 kV", "n_images": null},
+     "n_replicates": null, "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "TEM images of AuNPs synthesized using 1 mL OH extract (A), 0.5 mL OH extract (B), 0.25 mL OH extract (C) and 1 mL OF extract (D).", "location": "Fig. 2 caption"}, "confidence": "media"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of AuNPs at acidic and basic pH", "assay_purpose": "colloidal stability", "sample_id": "S3",
+     "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "text_value",
+     "values": {"zeta_range_acidic_mV": "-22 to -26", "zeta_range_pH11-12_mV": "-41 to -47"},
+     "conditions": {"medium": "not_declared", "pH": "acidic; 11-12", "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS90"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "muestra_ambigua", "sin_replicas"],
+     "evidence": {"quote": "negative potential situated in the −22 to −26 mV domain in acidic conditions", "location": "Results > Synthesis and characterization of gold NPs"}, "confidence": "baja"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "PCS size and PDI", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 74.82, "pdi": 0.48},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "Zetasizer Nano ZS90"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+     "evidence": {"quote": "0.25 | 72.9±44.22 | 74.82 | 0.48", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "PCS size and PDI", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 64.41, "pdi": 0.42},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "Zetasizer Nano ZS90"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+     "evidence": {"quote": "0.5 | 56.83±22.81 | 64.41 | 0.42", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "PCS size and PDI", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 42.22, "pdi": 0.52},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "Zetasizer Nano ZS90"},
+     "n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+     "evidence": {"quote": "1 | 36.75±16.82 | 42.22 | 0.52", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "UVVis", "variant": "a_intrinsic", "measurand": "plasmon (SPR) absorption maximum", "assay_purpose": "plasmon band", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "raw_curve",
+     "values": {"lambda_max_nm": 534, "range_nm": "400-900"},
+     "conditions": {"dilution": "1:1 with double distilled water", "temperature": "room temperature", "instrument": "T92+ UV-Vis (PG Instruments)"},
+     "n_replicates": null, "quality_flags": ["sin_replicas"],
+     "evidence": {"quote": "in the case of AuNPs synthesized with 1 mL OH extract, the maximum plasmonic absorption peak is located at 534 nm", "location": "Results > Synthesis and characterization of gold NPs"}, "confidence": "alta"
+    },
+    {
+     "technique": "UVVis", "variant": "a_intrinsic", "measurand": "plasmon (SPR) absorption maximum", "assay_purpose": "plasmon band", "sample_id": "S4",
+     "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "raw_curve",
+     "values": {"lambda_max_nm": 546, "range_nm": "400-900"},
+     "conditions": {"dilution": "1:1 with double distilled water", "temperature": "room temperature", "instrument": "T92+ UV-Vis (PG Instruments)"},
+     "n_replicates": null, "quality_flags": ["sin_replicas"],
+     "evidence": {"quote": "556 nm for 0.5 mL, 546 nm for 1 mL and 536 nm for 1.5 mL extract volumes", "location": "Results > Synthesis and characterization of gold NPs"}, "confidence": "alta"
+    },
+    {
+     "technique": "FTIR", "variant": "ATR", "measurand": "organic capping layer bands on dried AuNPs", "assay_purpose": "surface capping confirmation", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "raw_curve",
+     "values": {"main_peaks_cm-1": [2847, 2915]},
+     "conditions": {"instrument": "TENSOR II (Bruker), diamond ATR", "range_cm-1": "400-4000", "resolution_cm-1": 4, "scans": 16},
+     "n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+     "evidence": {"quote": "The FTIR-ATR spectrum of 1 mL OH AuNPs features mainly the methylene stretching vibrations (2,847 and 2,915 cm−1).", "location": "Results > Synthesis and characterization of gold NPs"}, "confidence": "alta"
+    },
+    {
+     "technique": "FTIR", "variant": "ATR", "measurand": "bands of dry OH plant extract", "assay_purpose": "reference spectrum of capping/reducing agent", "sample_id": "S5",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "raw_curve",
+     "values": {"main_peaks_cm-1": [1038, 1471, 1600, 1730, 2847, 2915]},
+     "conditions": {"instrument": "TENSOR II (Bruker), diamond ATR", "range_cm-1": "400-4000", "resolution_cm-1": 4, "scans": 16},
+     "n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+     "evidence": {"quote": "(a) dry OH extract", "location": "Fig. 5 caption"}, "confidence": "media"
+    },
+    {
+     "technique": "Raman", "variant": "SERS", "measurand": "SER spectra of methylene blue on OH AuNP substrate", "assay_purpose": "plasmonic SERS substrate performance", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {"main_peaks_cm-1": [448, 502, 1420, 1620]},
+     "conditions": {"excitation_nm": 785, "laser_power_mW": 60, "instrument": "DeltaNu Advantage Raman", "analyte": "methylene blue"},
+     "n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+     "evidence": {"quote": "C–C ring stretching (1,620 cm−1), C–N–C skeletal deformation (448 and 502 cm−1) and asymmetric C–N stretching (1,420 cm−1)", "location": "Results > Surface-enhanced Raman spectroscopy"}, "confidence": "media"
+    },
+    {
+     "technique": "Raman", "variant": "SERS", "measurand": "SER spectra of propranolol on OH AuNP substrate", "assay_purpose": "plasmonic SERS substrate performance", "sample_id": "S3",
+     "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+     "values": {},
+     "conditions": {"excitation_nm": 785, "pH": "4 and 10", "instrument": "DeltaNu Advantage Raman", "analyte": "propranolol 2 mM"},
+     "n_replicates": null, "quality_flags": [],
+     "evidence": {"quote": "SER spectra of PRNL recorded using as substrates 1 mL OH AuNPs at pH =4 (b) and pH =10 (c).", "location": "Fig. 7 caption"}, "confidence": "media"
+    }
+   ],
+   "si_mentions": [
+    {"technique": "TEM", "quote": "Large-scale TEM images, size histograms and a scattering distribution of PCS light intensity are presented in Figures S3–S5, respectively."}
+   ],
+   "notes": "AuNPs carry no drug cargo; identity labelled nanoparticle_loaded as finished plant-capped particle. Zeta values paper-level ranges, no sample named."
+  }
+ ]
+}

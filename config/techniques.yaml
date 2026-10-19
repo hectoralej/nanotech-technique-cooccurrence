@@ -1,0 +1,277 @@
+# Taxonomia de tecnicas y reglas de deteccion (brief seccion 3).
+#
+# Todos los patrones se compilan con re.IGNORECASE; las siglas usan (?-i:...) para ser sensibles a mayusculas.
+# modo de cada patron:
+#   strong : siempre cuenta (termino completo o sigla inequivoca).
+#   weak   : sigla; cuenta si el articulo contiene un patron `strong` de la misma tecnica (en cualquier seccion,
+#            incluido el resumen) O si hay una palabra de contexto (`ctx`) a <= 80 caracteres.
+#   ctx    : cuenta solo si hay palabra de contexto a <= 80 caracteres (no se acepta por termino completo).
+# `not_near`: si coincide en la ventana [-40, +25] caracteres alrededor, se rechaza (p. ej. "mean +/- SEM", "Ni-NTA").
+# `mask: true` (a nivel de tecnica): los spans `strong` se borran del texto de trabajo para las tecnicas siguientes
+#   (cryo-TEM no cuenta como TEM; scanning transmission electron microscopy no cuenta como TEM).
+# El ORDEN importa: cryoEM -> STEM -> TEM.
+
+premask:    # spans que se eliminan antes de todo (evitan falsos positivos en DSC, etc.)
+  - 'isothermal\s+(?:titration\s+)?(?:micro)?calorimetr\w*'
+  - 'micro-?calorimetr\w*'
+  - '\bITC\b'
+
+techniques:
+
+  # ------------------------------------------------------------------ NUCLEO: microscopia
+  cryoEM:
+    tier: core
+    category: microscopy
+    label: "Cryo-TEM / cryo-EM"
+    mask: true
+    patterns:
+      - {mode: strong, re: 'cryo(?:genic)?[\s\-–‐‑]*(?:(?:scanning[\s\-]+)?transmission[\s\-]+)?(?:electron[\s\-]+(?:microscop\w*|tomograph\w*|crystallograph\w*)|(?-i:TEM|EM|ET|STEM|cryoEM)\b)'}
+      - {mode: strong, re: 'Vitrobot|plunge[\s\-]*(?:frozen|freez\w*)|(?-i:\bcryo-?TEM\b)|(?-i:\bcryoEM\b)'}
+      - {mode: ctx, re: 'vitrif\w+', ctx: 'grid|microscop|\bTEM\b|\bEM\b|ethane|Vitrobot|plunge|electron|Quantifoil|holey|lacey|cryo'}
+    subflags:
+      cryoET: 'cryo[\s\-]*(?:electron\s+)?tomograph\w*|(?-i:\bcryo-?ET\b)'
+      single_particle: 'single[\s\-]particle'
+
+  STEM:
+    tier: core
+    category: microscopy
+    label: "STEM / HAADF-STEM"
+    mask: true
+    patterns:
+      - {mode: strong, re: 'scanning[\s\-]+transmission[\s\-]+electron[\s\-]+microscop\w*|HAADF[\s\-]*STEM|STEM[\s\-]*HAADF|(?-i:\bHAADF\b)|(?-i:\bADF-STEM\b)|(?-i:\bSTEM-EDS?\b)'}
+      - {mode: weak, re: '(?-i:\bSTEM\b)', ctx: 'microscop|electron|image|micrograph|HAADF|detector|\bTEM\b|\bEDS\b|mapping|\d\s*nm',
+         not_near: 'STEM[\s\-]+(?:cells?|education|fields?|subjects?|majors?)|stem-?cell'}
+
+  TEM:
+    tier: core
+    category: microscopy
+    label: "TEM (temperatura ambiente)"
+    mask: true
+    patterns:
+      - {mode: strong, re: 'transmission[\s\-]+electron[\s\-]+microscop\w*|(?-i:\bHR-?TEM\b)|high[\s\-]resolution[\s\-]+(?:transmission[\s\-]+)?electron[\s\-]+microscop\w*'}
+      - {mode: weak, re: '(?-i:\bTEM(?!-?\d))', ctx: 'microscop|electron|image|micrograph|grid|imaging|\d\s*nm|\bkV\b|copper|carbon|stain',
+         not_near: 'β-lactamase|beta-lactamase|TEM-?\d|plasmid|ampicillin|Escherichia|\bblaTEM'}
+    subflags:
+      HRTEM: '(?-i:\bHR-?TEM\b)|high[\s\-]resolution[\s\-]+(?:transmission[\s\-]+)?electron[\s\-]+microscop\w*'
+      neg_stain: 'negative(?:ly)?[\s\-]*(?:stain\w*)|uranyl\s+(?:acetate|formate)|phosphotungstic'
+      pos_stain: 'positive(?:ly)?[\s\-]*stain\w*|osmium\s+tetr(?:o|a)xide|(?-i:\bOsO4\b)|lead\s+citrate'
+      dried_unstained: 'unstained|without\s+(?:negative\s+)?stain\w*|air[\s\-]dried|dried\s+(?:on|onto)\s+(?:a\s+|the\s+)?(?:carbon|copper|formvar|TEM)\w*|drop[\s\-]cast\w*'
+
+  SEM:
+    tier: core
+    category: microscopy
+    label: "SEM"
+    mask: true
+    patterns:
+      - {mode: strong, re: 'scanning[\s\-]+electron[\s\-]+microscop\w*|(?-i:\bFE-?SEM\b)|(?-i:\bESEM\b)|(?-i:\bcryo-?SEM\b)|field[\s\-]emission[\s\-]+scanning'}
+      - {mode: weak, re: '(?-i:\bSEM\b)', ctx: 'microscop|electron|image|micrograph|morpholog|surface|\bEDS\b|\bEDX\b|sputter|coated|\d\s*kV',
+         not_near: '(?:±|\+/-|\+/−|\bmean\b|\baverage\b|\bSD\b|standard\s+error|error\s+of\s+(?:the\s+)?mean|expressed\s+as|presented\s+as|values?\s+(?:are|were)|data\s+(?:are|were)|shown\s+as)[^.]{0,40}\bSEM\b|\bSEM\)?\s*,?\s*n\s*=|\bSEM\b\s*(?:of|from)\s+(?:three|\d)'}
+    subflags:
+      cryoSEM: '(?-i:\bcryo-?SEM\b)|cryo[\s\-]+scanning\s+electron'
+      sputter_coated: 'sputter[\s\-]*(?:coat\w*|ed)|(?:gold|platinum|Au|Pt)[\s\-]*(?:coat\w*|sputter\w*)|coated\s+with\s+(?:a\s+)?(?:thin\s+layer\s+of\s+)?(?:gold|platinum|Au|Pt)'
+      FESEM: '(?-i:\bFE-?SEM\b)|field[\s\-]emission\s+scanning'
+
+  AFM:
+    tier: core
+    category: microscopy
+    label: "AFM"
+    patterns:
+      - {mode: strong, re: 'atomic[\s\-]+force[\s\-]+microscop\w*'}
+      - {mode: weak, re: '(?-i:\bAFM\b)', ctx: 'microscop|force|topograph|height|image|probe|cantilever|tapping|roughness'}
+
+  # ------------------------------------------------------------------ NUCLEO: dispersion de luz
+  DLS:
+    tier: core
+    category: light_scattering
+    label: "DLS"
+    patterns:
+      - {mode: strong, re: 'dynamic[\s\-]+light[\s\-]+scattering|photon[\s\-]+correlation[\s\-]+spectroscop\w*|quasi[\s\-]?elastic[\s\-]+light[\s\-]+scattering|non[\s\-]invasive[\s\-]+back[\s\-]?scatter\w*|(?-i:\bNIBS\b)'}
+      - {mode: weak, re: '(?-i:\bDLS\b)', ctx: 'light|scatter|size|diameter|hydrodynamic|particle|\bnm\b|PDI|polydispers'}
+      - {mode: ctx, re: '(?-i:\bPCS\b)', ctx: 'correlation|light\s+scatter|particle\s+size'}
+      - {mode: ctx, re: 'Zeta\s?sizer|Nano[\s\-]?ZS[P0-9]*|Litesizer|Nicomp', ctx: 'particle\s+size|\bsize\b|diameter|PDI|polydispers|hydrodynamic|\bDLS\b'}
+      # Magnitudes derivadas del DLS: en Resultados/pies el articulo suele dar "tamano hidrodinamico, PDI" sin nombrar el metodo.
+      # Anadido tras el piloto (2026-10-09); solo cuentan en Resultados/pies, nunca en Metodos.
+      - {mode: strong, only_in: [results, caption], re: 'z-?average|hydrodynamic\s+(?:diameter|size|radius)|polydispersity\s+index|(?-i:\bPDI\b)'}
+    subflags:
+      PDI_reported: 'polydispersity\s+index|polydispersity|(?-i:\bPDI\b)'
+
+  zeta:
+    tier: core
+    category: light_scattering
+    label: "Potencial zeta"
+    patterns:
+      - {mode: strong, re: 'zeta[\s\-]*potentials?|[ζξ][\s\-]*potentials?|electrophoretic\s+(?:light\s+scattering|mobility)|laser[\s\-]+doppler\s+(?:electrophoresis|velocimetry|micro[\s\-]?electrophoresis)|phase\s+analysis\s+light\s+scattering|(?-i:\bPALS\b)'}
+      - {mode: ctx, re: 'Zeta\s?sizer|Nano[\s\-]?ZS[P0-9]*|Litesizer', ctx: 'zeta|potential|charge|electrophoretic|\bmV\b'}
+      - {mode: strong, only_in: [results, caption], re: '(?-i:\bZP\b)', not_near: 'pellucida|oocyte|embryo'}
+      - {mode: ctx, re: '(?-i:\bELS\b)', ctx: 'electrophoretic|light\s+scatter|zeta'}
+
+  NTA:
+    tier: core
+    category: light_scattering
+    label: "NTA"
+    patterns:
+      - {mode: strong, re: 'nanoparticle[\s\-]+tracking[\s\-]+analys[ie]s|NanoSight|ZetaView|Particle\s+Metrix|ViewSizer'}
+      - {mode: weak, re: '(?-i:\bNTA\b)', ctx: 'tracking|nanoparticle|NanoSight|particle|concentration|vesicle|exosome|\bEVs?\b',
+         not_near: 'nitrilotriacet|Ni[\s\-]*NTA|NTA[\s\-]*Ni|His[\s\-]?tag|agarose|NTA\s+(?:resin|beads?|column|agarose)|Ni2\+|Ni\^'}
+
+  SAXS:
+    tier: core
+    category: scattering_diffraction
+    label: "SAXS / SANS"
+    patterns:
+      - {mode: strong, re: 'small[\s\-]+angle\s+(?:X[\s\-]?ray\s+|neutron\s+)?scattering|(?-i:\b(?:GI|U)?SAXS\b)'}
+      - {mode: ctx, re: '(?-i:\bSANS\b)', ctx: 'neutron|scatter|contrast|D2O'}
+    subflags:
+      SANS: 'small[\s\-]+angle\s+neutron|(?-i:\bSANS\b)'
+
+  XRD:
+    tier: core
+    category: scattering_diffraction
+    label: "XRD / WAXS"
+    patterns:
+      - {mode: strong, re: 'X[\s\-]?ray\s+diffractomet\w*|X[\s\-]?ray\s+(?:powder\s+)?diffraction|powder\s+X[\s\-]?ray|wide[\s\-]angle\s+X[\s\-]?ray|(?-i:\b(?:P)?XRD\b)|(?-i:\bXRPD\b)|(?-i:\bWAX[SD]\b)'}
+      - {mode: strong, only_in: [results, caption], re: '(?<!electron )(?<!electron-)(?:diffraction\s+(?:patterns?|peaks?)|diffractograms?)',
+         not_near: 'electron|SAED|selected\s+area|FFT'}
+
+  # ------------------------------------------------------------------ NUCLEO: espectroscopia, elemental, termica, RMN
+  FTIR:
+    tier: core
+    category: spectroscopy
+    label: "FTIR / IR"
+    patterns:
+      - {mode: strong, re: 'Fourier[\s\-]+transform(?:ed)?\s+infra[\s\-]?red|(?-i:\bATR-?FT-?IR\b)|(?-i:\bFT-?IR\b)|(?-i:\bATR-?IR\b)|(?<!near[\s\-])(?<!near)infra[\s\-]?red\s+(?:spectr\w*|absorption)|(?-i:\bIR\s+spectr\w*)'}
+
+  UVVis:
+    tier: core
+    category: spectroscopy
+    label: "UV-Vis"
+    patterns:
+      # un "detector UV-Vis" de HPLC no es espectroscopia UV-Vis del material
+      - {mode: strong, re: 'UV[\s\-–/]*Vis\w*|ultraviolet[\s\-–/]*(?:and\s+)?visible|UV[\s\-]+spectr\w*|absorption\s+spectr\w*|absorbance\s+spectr\w*|UV[\s\-]*spectrophotomet\w*|(?-i:\bLSPR\b)',
+         not_near: '(?:UV[\s\-–/]*Vis\w*|UV)\s+(?:diode[\s\-]array\s+)?detect\w*|HPLC|chromatogra'}
+      - {mode: strong, re: 'plasmon\w*\s+(?:resonance|band|peak|absorption)',
+         not_near: 'Biacore|affinit|kinetic|binding|sensorgram|\bchip\b|immobili|\(SPR\)\s+(?:spectroscopy|analysis|assay|measurement|experiment)|\bSPR\b\s+(?:analysis|assay|measurement|experiment)'}
+      - {mode: ctx, re: '(?<!micro)(?<!micro-)spectrophotomet\w+', ctx: '\bnm\b|λ|wavelength|absorbance|absorption', not_near: 'micro-?plate|plate\s+reader|ELISA|Bradford|BCA|MTT|SRB|colorimetric|assay\s+kit|protein\s+concentration|NanoDrop|Nano-?Drop|optical\s+density|FTIR|FT-IR|infrared|DPPH'}
+
+  EDS:
+    tier: core
+    category: elemental
+    label: "EDS / EDX"
+    patterns:
+      - {mode: strong, re: 'energy[\s\-]+dispersive\s+(?:X[\s\-]?ray\s+)?(?:spectroscop\w*|spectromet\w*|analys\w*|microanalys\w*)|(?-i:\bEDX[S]?\b)|(?-i:\bEDAX\b)|elemental\s+mapping'}
+      - {mode: weak, re: '(?-i:\bEDS\b)', ctx: 'energy|X[\s\-]?ray|spectr|element|mapping|\bSEM\b|\bTEM\b|\bSTEM\b|microscop',
+         not_near: 'Ehlers|Danlos|syndrome|eating|dry\s+eye|Edinburgh'}
+
+  DSC_TGA:
+    tier: core
+    category: thermal
+    label: "DSC / TGA"
+    patterns:
+      - {mode: strong, re: 'differential\s+scanning\s+calorimetr\w*|thermo-?gravimetric\w*|calorimetry'}
+      - {mode: weak, re: '(?-i:\bDSC\b)', ctx: 'calorimet|thermal|melting|transition|endotherm|enthalp|°C|heating|scan'}
+      - {mode: ctx, re: '(?-i:\bTGA\b)', ctx: 'thermogravimetric|weight\s+loss|decomposition|thermal|°C|heating'}
+      - {mode: strong, only_in: [results, caption], re: 'endotherm\w*|thermograms?'}
+    subflags:
+      DSC: 'differential\s+scanning|(?-i:\bDSC\b)'
+      TGA: 'thermo-?gravimetric|(?-i:\bTGA\b)'
+
+  NMR:
+    tier: core
+    category: spectroscopy
+    label: "RMN"
+    patterns:
+      - {mode: strong, re: 'nuclear\s+magnetic\s+resonance|(?-i:(?<![a-z])NMR(?![a-z]))'}
+
+  # ------------------------------------------------------------------ EXTENDIDO (no validado en gold set)
+  Raman_SERS:
+    tier: extended
+    category: spectroscopy
+    label: "Raman / SERS"
+    patterns:
+      - {mode: strong, re: '(?-i:\bRaman\b)|(?-i:\bSERS\b)'}
+
+  XPS:
+    tier: extended
+    category: elemental
+    label: "XPS"
+    patterns:
+      - {mode: strong, re: 'X[\s\-]?ray\s+photoelectron'}
+      - {mode: ctx, re: '(?-i:\bXPS\b)', ctx: 'photoelectron|binding\s+energy|X[\s\-]?ray|spectr|peak|survey'}
+
+  BET:
+    tier: extended
+    category: porosity
+    label: "BET"
+    patterns:
+      - {mode: strong, re: 'Brunauer|Barrett[\s\-]Joyner|BET\s+(?:surface|analysis|method|isotherm|specific|theory)|(?:nitrogen|N2)\s+(?:adsorption|physisorption)'}
+
+  VSM:
+    tier: extended
+    category: magnetic
+    label: "VSM / SQUID"
+    patterns:
+      - {mode: strong, re: 'vibrating\s+sample\s+magnetomet\w*|superconducting\s+quantum\s+interference'}
+      - {mode: ctx, re: '(?-i:\b(?:VSM|SQUID)\b)', ctx: 'magnet'}
+
+  AUC:
+    tier: extended
+    category: hydrodynamic
+    label: "Ultracentrifugacion analitica"
+    patterns:
+      - {mode: strong, re: 'analytical\s+ultracentrifug\w*|sedimentation\s+(?:velocity|equilibrium)|(?-i:\bSV-AUC\b)|(?-i:\bAUC-SV\b)'}
+      - {mode: ctx, re: '(?-i:\bAUC\b)', ctx: 'ultracentrifug|sedimentation|Beckman|ProteomeLab|XL-[AI]'}
+
+  SEC_MALS:
+    tier: extended
+    category: hydrodynamic
+    label: "SEC-MALS"
+    patterns:
+      - {mode: strong, re: 'multi[\s\-]?angle\s+(?:laser\s+)?light\s+scattering|(?-i:\b(?:SEC|FFF|AF4)[\s\-]*MALL?S\b)'}
+      - {mode: ctx, re: '(?-i:\bMALL?S\b)', ctx: 'light|scatter|SEC|size[\s\-]exclusion|FFF|AF4'}
+
+  FFF:
+    tier: extended
+    category: hydrodynamic
+    label: "FFF / AF4"
+    patterns:
+      - {mode: strong, re: 'field[\s\-]+flow\s+fractionation|asymmetrical?\s+flow\s+field|(?-i:\bAF4\b)'}
+      - {mode: ctx, re: '(?-i:\bFFF\b)', ctx: 'flow|fractionation|field'}
+
+  mass_photometry:
+    tier: extended
+    category: hydrodynamic
+    label: "Fotometria de masas"
+    patterns:
+      - {mode: strong, re: 'mass\s+photometr\w*|Refeyn'}
+
+  CDMS:
+    tier: extended
+    category: hydrodynamic
+    label: "CDMS"
+    patterns:
+      - {mode: strong, re: 'charge[\s\-]+detection\s+mass\s+spectromet\w*'}
+      - {mode: ctx, re: '(?-i:\bCDMS\b)', ctx: 'charge|mass|detection'}
+
+  qPCR_ddPCR:
+    tier: extended
+    category: molecular
+    label: "qPCR / ddPCR (solo interpretable en AAV)"
+    patterns:
+      - {mode: strong, re: '(?-i:\b(?:RT-)?q(?:RT-)?PCR\b)|(?-i:\bd?dPCR\b)|digital\s+(?:droplet\s+)?PCR|droplet\s+digital|quantitative\s+(?:real[\s\-]time\s+)?(?:PCR|polymerase)|real[\s\-]time\s+(?:quantitative\s+)?(?:PCR|polymerase)'}
+
+  RiboGreen_EE:
+    tier: extended
+    category: assay
+    label: "RiboGreen / Quant-iT (EE)"
+    patterns:
+      # (?-i:Quant-iT): con IGNORECASE "Quant-?iT" coincidia con "quantitative"/"quantity" (error detectado en la revision de prevalencias)
+      - {mode: strong, re: 'Ribo\s?Green|(?-i:Quant-iT)|Oli\s?Green|Pico\s?Green'}
+
+  TNS_pKa:
+    tier: extended
+    category: assay
+    label: "TNS (pKa aparente)"
+    patterns:
+      - {mode: strong, re: '6-\(p-toluidino\)|2-\(p-toluidino\)|toluidinyl'}
+      - {mode: ctx, re: '(?-i:\bTNS\b)', ctx: 'pKa|fluorescence|assay|protonat|ionizab'}
+

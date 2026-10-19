@@ -1,0 +1,282 @@
+{
+  "pass": "A",
+  "batch": "Q008",
+  "articles": [
+    {
+      "pmcid": "PMC8484888",
+      "context": {
+        "summary": "Porphyrin P (third-generation photosensitizer) immobilized on chitosan-coated lipid nanoparticles (P-HNP) to deliver it to bladder cancer cells for photodynamic therapy; characterizes NP, HNP and P-HNP.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "SLN",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "NP", "identity": "unclear", "composition": "lipid carrier with solid lipid Crodamol SS (per Table 2)", "formulation_defined_in": "table"},
+        {"id": "S2", "name": "HNP", "identity": "unclear", "composition": "lipid carriers coated with chitosan", "formulation_defined_in": "table"},
+        {"id": "S3", "name": "P-HNP", "identity": "nanoparticle_loaded", "composition": "lipid carriers coated by porphyrin-chitosan", "formulation_defined_in": "table"}
+      ],
+      "measurements": [
+        {
+          "technique": "DLS", "variant": "intensity_peak", "measurand": "diameter by intensity", "assay_purpose": "particle characterization",
+          "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 71.3, "size_sd_nm": 3.2, "pdi": 0.122, "pdi_sd": 0.07},
+          "conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "NP | 71.3 | 3.2 | 0.122 | 0.07 | –11.3 | 0.7 | 3.7 | – | –", "location": "Table 1"},
+          "confidence": "baja"
+        },
+        {
+          "technique": "DLS", "variant": "intensity_peak", "measurand": "diameter by intensity", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 100.9, "size_sd_nm": 11.1, "pdi": 0.207, "pdi_sd": 0.009},
+          "conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "HNP | 100.9 | 11.1 | 0.207 | 0.009 | 22.5 | 0.3 | 5.29 | – | –", "location": "Table 1"},
+          "confidence": "baja"
+        },
+        {
+          "technique": "DLS", "variant": "intensity_peak", "measurand": "diameter by intensity", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 127.4, "size_sd_nm": 4.5, "pdi": 0.249, "pdi_sd": 0.018},
+          "conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": null, "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "P-HNP | 127.4 | 4.5 | 0.249 | 0.018 | 27.1 | 1.2 | 5.22 | 95.9 | 1.2", "location": "Table 1"},
+          "confidence": "baja"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": -11.3, "zeta_sd_mV": 0.7},
+          "conditions": {"medium": "other:KCl solution", "pH": 3.7, "ionic_strength": null, "model": "not_declared", "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "NP | 71.3 | 3.2 | 0.122 | 0.07 | –11.3 | 0.7 | 3.7 | – | –", "location": "Table 1"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 22.5, "zeta_sd_mV": 0.3},
+          "conditions": {"medium": "other:KCl solution", "pH": 5.29, "ionic_strength": null, "model": "not_declared", "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "HNP | 100.9 | 11.1 | 0.207 | 0.009 | 22.5 | 0.3 | 5.29 | – | –", "location": "Table 1"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 27.1, "zeta_sd_mV": 1.2},
+          "conditions": {"medium": "other:KCl solution", "pH": 5.22, "ionic_strength": null, "model": "not_declared", "instrument": "NanoSize ZS (Malvern)"},
+          "n_replicates": 3, "quality_flags": [],
+          "evidence": {"quote": "P-HNP | 127.4 | 4.5 | 0.249 | 0.018 | 27.1 | 1.2 | 5.22 | 95.9 | 1.2", "location": "Table 1"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "cryoTEM", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": "30-65", "size_sd_nm": null, "n_particles_measured": null, "morphology": "homogeneous distribution"},
+          "conditions": {"prep_state": "dry, frozen at -184 C", "scale_bar_present": null, "instrument": "FEI TECNAI G2 F20", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "The HNP size ranged from 30 to 65 nm, whereas the size of P-HNP varied between 20 and 55 nm", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "cryoTEM", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": "20-55", "size_sd_nm": null, "n_particles_measured": null, "morphology": "homogeneous distribution"},
+          "conditions": {"prep_state": "dry, frozen at -184 C", "scale_bar_present": null, "instrument": "FEI TECNAI G2 F20", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "The HNP size ranged from 30 to 65 nm, whereas the size of P-HNP varied between 20 and 55 nm", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "AFM", "measurand": "particle morphology (phase image)", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {},
+          "conditions": {"prep_state": null, "scale_bar_present": null, "instrument": null, "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "Atomic force microscopy image of HNP in phase mode (A)", "location": "Fig. 1 caption"},
+          "confidence": "media"
+        },
+        {
+          "technique": "UVVis", "variant": "a_intrinsic", "measurand": "absorption spectrum of porphyrin on particle", "assay_purpose": "plasmon band",
+          "sample_id": "S3", "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "text_value",
+          "values": {"range_nm": null},
+          "conditions": {"medium": "not_declared", "instrument": "Agilent 8453"},
+          "n_replicates": null, "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "The UV-Vis spectra of the P-chitosan and P-HNP materials showed the typical porphyrin absorption profile.", "location": "Results"},
+          "confidence": "baja"
+        },
+        {
+          "technique": "DSC", "variant": "DSC", "measurand": "enthalpy and melting point", "assay_purpose": "thermal behaviour",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"melting_point_C": 48.6, "enthalpy_J_g": 62.0, "recrystallization_index_pct": 28.3},
+          "conditions": {"instrument": "Shimadzu DSC-50"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "P-HNP | 62.0 | 48.6 | 28.3", "location": "Table 2"},
+          "confidence": "media"
+        },
+        {
+          "technique": "TGA", "variant": "TGA", "measurand": "thermal stability", "assay_purpose": "thermal behaviour",
+          "sample_id": "S3", "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "text_value",
+          "values": {},
+          "conditions": {"instrument": "Shimadzu DSC-50"},
+          "n_replicates": null, "quality_flags": ["valores_solo_en_SI"],
+          "evidence": {"quote": "Both chitosan and P-chitosan coating increased the thermal stability of nanoparticles as shown in TGA (Table 3).", "location": "Results"},
+          "confidence": "baja"
+        },
+        {
+          "technique": "SAXS", "variant": "SAXS", "measurand": "I(0) and radius of gyration Rg", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"Rg_nm": 29.9, "I0_cm-1": 27.19},
+          "conditions": {},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "P-HNP | 27.19 | 29.9", "location": "Table 4"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "Table 3 (TGA values) is not in the packet; TGA row has no values."
+    },
+    {
+      "pmcid": "PMC8709067",
+      "context": {
+        "summary": "Co-loaded liposomes with timolol maleate in the bilayer and acetazolamide complexed with HP-beta-cyclodextrin in the core, for glaucoma treatment with prolonged intraocular pressure reduction; formulations optimized by DoE and characterized.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "liposome",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "Empty-L", "identity": "nanoparticle_empty", "composition": "liposome without drugs", "formulation_defined_in": "table"},
+        {"id": "S2", "name": "TM-L", "identity": "nanoparticle_loaded", "composition": "liposome with timolol maleate in the lipid bilayer", "formulation_defined_in": "table"},
+        {"id": "S3", "name": "AczHP-L", "identity": "nanoparticle_loaded", "composition": "liposome with acetazolamide-HPbetaCD complex in the aqueous core", "formulation_defined_in": "table"},
+        {"id": "S4", "name": "CLL", "identity": "nanoparticle_loaded", "composition": "co-loaded liposome: timolol in bilayer and AczHP in core", "formulation_defined_in": "table"},
+        {"id": "S5", "name": "Acz/HPbetaCD complex", "identity": "pure_component", "composition": "acetazolamide with HP-beta-cyclodextrin", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter (dH)", "assay_purpose": "particle characterization",
+          "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 179.1, "size_sd_nm": 0.3, "pdi": 0.107, "pdi_sd": 0.02},
+          "conditions": {"medium": "buffer", "temperature_C": null, "angle_deg": null, "dilution": "1:20 v/v", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "CLL | 179.1 ± 0.3 *** | 0.107 ± 0.02 | 25.7 ± 2.4 | 80.9 ± 5.6 (TM)/70.8 ± 4.4 (Acz)", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter (dH)", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 178.9, "size_sd_nm": 1.1, "pdi": 0.121, "pdi_sd": 0.02},
+          "conditions": {"medium": "buffer", "temperature_C": null, "angle_deg": null, "dilution": "1:20 v/v", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "TM-L | 178.9 ± 1.1 *** | 0.121 ± 0.02 | 32.3 ± 3.8 | 75.3 ± 4.2", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter (dH)", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 216.7, "size_sd_nm": 0.7, "pdi": 0.124, "pdi_sd": 0.01},
+          "conditions": {"medium": "buffer", "temperature_C": null, "angle_deg": null, "dilution": "1:20 v/v", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "AczHP-L | 216.7 ± 0.7 *** | 0.124 ± 0.01 | 18.9 ± 2.2 * | 69.5 ± 3.3", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter (dH)", "assay_purpose": "particle characterization",
+          "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"size_nm": 159.8, "size_sd_nm": 0.4, "pdi": 0.132, "pdi_sd": 0.01},
+          "conditions": {"medium": "buffer", "temperature_C": null, "angle_deg": null, "dilution": "1:20 v/v", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "Empty-L | 159.8 ± 0.4 | 0.132 ± 0.01 | 28.8 ± 3.9 | -", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 25.7, "zeta_sd_mV": 2.4},
+          "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "CLL | 179.1 ± 0.3 *** | 0.107 ± 0.02 | 25.7 ± 2.4 | 80.9 ± 5.6 (TM)/70.8 ± 4.4 (Acz)", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 32.3, "zeta_sd_mV": 3.8},
+          "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "TM-L | 178.9 ± 1.1 *** | 0.121 ± 0.02 | 32.3 ± 3.8 | 75.3 ± 4.2", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 18.9, "zeta_sd_mV": 2.2},
+          "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "AczHP-L | 216.7 ± 0.7 *** | 0.124 ± 0.01 | 18.9 ± 2.2 * | 69.5 ± 3.3", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta", "variant": "ELS", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+          "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+          "values": {"zeta_mV": 28.8, "zeta_sd_mV": 3.9},
+          "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano-S (Malvern)"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "Empty-L | 159.8 ± 0.4 | 0.132 ± 0.01 | 28.8 ± 3.9 | -", "location": "Table 6"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "vesicle morphology", "assay_purpose": "particle characterization",
+          "sample_id": "S1", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": null, "morphology": "globular"},
+          "conditions": {"prep_state": "dried on grid, no stain mentioned", "scale_bar_present": true, "instrument": "Zeiss Libra 120", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "All liposome formulations showed nano-sized globular shapes", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "vesicle morphology", "assay_purpose": "particle characterization",
+          "sample_id": "S2", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": null, "morphology": "globular"},
+          "conditions": {"prep_state": "dried on grid, no stain mentioned", "scale_bar_present": true, "instrument": "Zeiss Libra 120", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "All liposome formulations showed nano-sized globular shapes", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "vesicle morphology", "assay_purpose": "particle characterization",
+          "sample_id": "S3", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": null, "morphology": "globular"},
+          "conditions": {"prep_state": "dried on grid, no stain mentioned", "scale_bar_present": true, "instrument": "Zeiss Libra 120", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "All liposome formulations showed nano-sized globular shapes", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph", "variant": "TEM_dried_unstained", "measurand": "vesicle morphology", "assay_purpose": "particle characterization",
+          "sample_id": "S4", "formulation_link": {"where": "figure", "confidence": "explicit"}, "shown_as": "figure_panel",
+          "values": {"size_nm": null, "morphology": "globular"},
+          "conditions": {"prep_state": "dried on grid, no stain mentioned", "scale_bar_present": true, "instrument": "Zeiss Libra 120", "n_images": null},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "All liposome formulations showed nano-sized globular shapes", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "NMR", "variant": "NMR", "measurand": "1H-NMR proton shifts of Acz with HPbetaCD", "assay_purpose": "inclusion complex characterization",
+          "sample_id": "S5", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "text_value",
+          "values": {},
+          "conditions": {"instrument": "Bruker Avance III 300 MHz"},
+          "n_replicates": null, "quality_flags": [],
+          "evidence": {"quote": "Figure 2a shows the proton allocation of Acz, while Figure 2b shows the 1H-NMR spectra corresponding to HPβCD, Acz/HPβCD (1:1), and Acz.", "location": "Results"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [
+        {"technique": "DLS", "quote": "TM and Acz were found to be stable when analyzed in terms of vesicle size, PdI, ZP, and EE at 4 °C (Table S1)."}
+      ],
+      "notes": "Table 6 gives mean with SD or SEM not specified; DLS and zeta rows taken from Table 6 (optimized batches); Table 1A/4 factor data not recorded as measurements."
+    }
+  ]
+}

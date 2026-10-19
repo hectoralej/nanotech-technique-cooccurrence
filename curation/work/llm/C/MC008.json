@@ -1,0 +1,60 @@
+{
+ "batch": "MC008",
+ "articles": [
+  {
+   "pmcid": "PMC7175165",
+   "decisions": [
+    {
+     "issue": "PMC7175165:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Figure 5a–f displayed the HRTEM results and the evaluation of particle size of LSTE, F1 and F2 Au NPs.",
+     "location": "Results > 3.3; Fig. 5 caption",
+     "reason": "HRTEM image panels of the Au NPs themselves, explicitly linked to LSTE, F1 and F2 samples."
+    },
+    {
+     "issue": "PMC7175165:gate:dls",
+     "decision": "A",
+     "final": {"value": false, "identity": null, "variant": null, "medium": "not_declared"},
+     "quote": "UV-Vis, particle size and zeta potential measurements were done upon cooling to room temperature.",
+     "location": "Methods > 2.4",
+     "reason": "medium_no_declarado: DLS medium/dilution never stated; B's 'as-synthesized colloid' medium is inferred, not stated."
+    },
+    {
+     "issue": "PMC7175165:gate:zeta",
+     "decision": "A",
+     "final": {"value": false, "identity": null, "variant": null, "medium": "not_declared"},
+     "quote": "The zeta potentials (ZP) taken immediately after particle formation are displayed in Table 1.",
+     "location": "Results > 3.5",
+     "reason": "medium_no_declarado: no medium, pH or ionic strength stated for zeta measurement."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9498533",
+   "decisions": [
+    {
+     "issue": "PMC9498533:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "HNCN7 photograph showed well-separated uniform spherical nanogels with a distinct core-shell structure as seen in Figure 3A.",
+     "location": "Results > 2.2.1; Fig. 3A caption",
+     "reason": "TEM micrograph of the optimized loaded nanogel HNCN7, negatively stained, explicitly linked to the formulation."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11054717",
+   "decisions": [
+    {
+     "issue": "PMC11054717:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "TEM micrographs of Dapto liposomes: (a) PC/Chol (1:1); (b) PC/PG/Chol (8:2:10).",
+     "location": "Fig. 4 caption",
+     "reason": "Negative-stain TEM panels of Dapto liposomes with composition stated; preparation method inferable (TFH used for later studies)."
+    }
+   ]
+  }
+ ]
+}

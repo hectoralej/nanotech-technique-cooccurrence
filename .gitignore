@@ -1,0 +1,12 @@
+# texto completo y respuestas crudas: no se redistribuyen (brief seccion 9)
+data/cache/
+data/*.bak
+__pycache__/
+.pytest_cache/
+logs/scale_*.txt
+
+curation/work/packets/
+
+# archivos locales
+curation/work/packets_short/
+.Rhistory

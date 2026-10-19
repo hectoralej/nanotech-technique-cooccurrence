@@ -1,0 +1,618 @@
+{
+ "batch": "MC009",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC009.json",
+ "articles": [
+  {
+   "pmcid": "PMC13070105",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13070105.txt",
+   "issues": [
+    {
+     "issue": "PMC13070105:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "SEM",
+       "sample": "F1 (ratio 1)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "re-suspended, air-dried on glass plates, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "JSM-IT200 (JEOL)",
+        "n_images": null
+       },
+       "quote": "SEM images of optimal LPHNPs: formulation 1 (a), 2 (b), 3 (c) and 4 (d)",
+       "location": "Fig. 6 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "F2 (ratio 1.5)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "re-suspended, air-dried on glass plates, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "JSM-IT200 (JEOL)",
+        "n_images": null
+       },
+       "quote": "SEM images of optimal LPHNPs: formulation 1 (a), 2 (b), 3 (c) and 4 (d)",
+       "location": "Fig. 6 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "F3 (ratio 2)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "re-suspended, air-dried on glass plates, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "JSM-IT200 (JEOL)",
+        "n_images": null
+       },
+       "quote": "SEM images of optimal LPHNPs: formulation 1 (a), 2 (b), 3 (c) and 4 (d)",
+       "location": "Fig. 6 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "F4 (ratio 2.5)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "re-suspended, air-dried on glass plates, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "JSM-IT200 (JEOL)",
+        "n_images": null
+       },
+       "quote": "SEM images of optimal LPHNPs: formulation 1 (a), 2 (b), 3 (c) and 4 (d)",
+       "location": "Fig. 6 caption"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7797119",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7797119.txt",
+   "issues": [
+    {
+     "issue": "PMC7797119:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "blank hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 394.9,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 7.4,
+        "temperature_C": 37,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 7.4 /37 °C | 394.9 | − 3.45",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "blank hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 618.6,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 5.8,
+        "temperature_C": 37,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 5.8 / 37 °C | 618.6 | 2.53",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "blank hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 236.9,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 7.4,
+        "temperature_C": 40,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 7.4 / 40 °C | 236.9 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "blank hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 619.3,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 5.8,
+        "temperature_C": 40,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 5.8 / 40 °C | 619.3 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "blank hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 994.6,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 6.5,
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 6.5 / r.t | 994.6 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DOX/CUR-HGs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 689.9,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": 6.5,
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "DOX/CUR-HGs | 6.5 / r.t | 689.9 | –",
+       "location": "Table 3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank P(NIPAAm-co-DMAEMA) hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 394.9
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 37,
+        "pH": 7.4,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 7.4 /37 °C | 394.9 | − 3.45",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank P(NIPAAm-co-DMAEMA) hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 236.9
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 40,
+        "pH": 7.4,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 7.4 / 40 °C | 236.9 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank P(NIPAAm-co-DMAEMA) hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 618.6
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 37,
+        "pH": 5.8,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 5.8 / 37 °C | 618.6 | 2.53",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank P(NIPAAm-co-DMAEMA) hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 619.3
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 40,
+        "pH": 5.8,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 5.8 / 40 °C | 619.3 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Blank P(NIPAAm-co-DMAEMA) hydrogel",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 994.6
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "pH": 6.5,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Hydrogels | 6.5 / r.t | 994.6 | –",
+       "location": "Table 3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DOX/CUR-HGs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 689.9
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": "room_temperature",
+        "pH": 6.5,
+        "angle_deg": null,
+        "dilution": "100 ug/mL, sonicated",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "DOX/CUR-HGs | 6.5 / r.t | 689.9 | –",
+       "location": "Table 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC13276060",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13276060.txt",
+   "issues": [
+    {
+     "issue": "PMC13276060:gate:zeta",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -6.54,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F1 | 50 | – | – | – | 51.36 ± 7.5 | 727.2 ± 73 | 0.764 | − 6.54",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.36,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F2 | 50 | – | – | Tween® | 57.45 ± 10.5 | 608.8 ± 137 | 0.632 | − 8.36",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -7.15,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F3 | 25 | 25 | – | – | 60.25 ± 8.2 | 537.9 ± 91 | 0.728 | − 7.15",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -18.2,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F4 | 25 | 25 |  | Tween® | 78.84 ± 6.1 | 226.9 ± 38 | 0.495 | − 18.2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F5",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -5.09,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F5 | 25 | – | 25 | – | 55.11 ± 12.6 | 562.1 ± 59 | 0.599 | − 5.09",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F6",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -10.9,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "F6 | 25 | – | 25 | Tween® | 61.50 ± 5.3 | 317.4 ± 43 | 0.456 | − 10.90",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -6.54
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "F1 | 50 | – | – | – | 51.36 ± 7.5 | 727.2 ± 73 | 0.764 | − 6.54",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.36
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "F2 | 50 | – | – | Tween® | 57.45 ± 10.5 | 608.8 ± 137 | 0.632 | − 8.36",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -7.15
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "F3 | 25 | 25 | – | – | 60.25 ± 8.2 | 537.9 ± 91 | 0.728 | − 7.15",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -18.2
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "Tween® | 78.84 ± 6.1 | 226.9 ± 38 | 0.495 | − 18.2",
+       "location": "Table 1 (row F4)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F5",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -5.09
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "F5 | 25 | – | 25 | – | 55.11 ± 12.6 | 562.1 ± 59 | 0.599 | − 5.09",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F6",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -10.9
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS (Malvern)"
+       },
+       "quote": "F6 | 25 | – | 25 | Tween® | 61.50 ± 5.3 | 317.4 ± 43 | 0.456 | − 10.90",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

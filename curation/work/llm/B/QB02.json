@@ -1,0 +1,576 @@
+{
+ "pass": "B",
+ "batch": "QB02",
+ "articles": [
+  {
+   "pmcid": "PMC12658194",
+   "context": {
+    "summary": "Egg phosphatidylcholine/cholesterol liposomes loaded with deer blood peptides (DBP-Lip), embedded in a carbomer hydrogel (DBP-Lip-Gel), for topical prevention of UVB-induced skin photoaging; characterization, release, permeation, stability, cells and mice.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "Blank-Lip", "identity": "nanoparticle_empty", "composition": "EPC, cholesterol, Polysorbate 80 liposomes without DBP", "formulation_defined_in": "table"},
+    {"id": "S2", "name": "DBP-Lip", "identity": "nanoparticle_loaded", "composition": "EPC 118 mg, Chol 20 mg, Polysorbate 80 2 uL, hydrated with DBP 4 mg/mL", "formulation_defined_in": "text"},
+    {"id": "S3", "name": "DBP-Lip-Gel", "identity": "nanoparticle_loaded", "composition": "DBP-Lip mixed 1:1 with carbomer-980 hydrogel (6 mg/mL), pH 6.5", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "morphology of DBP-Lip",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "text", "confidence": "explicit"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "spherical, uniform size, homogeneous dispersion"},
+     "conditions": {"prep_state": "negative stain phosphotungstic acid 3.0% w/v on carbon-coated Cu grid", "scale_bar_present": true, "instrument": "Hitachi H-800, 80 kV", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "the sample was placed on a copper grid covered by carbon film and stained with phosphotungstic acid (3.0%, w/v)", "location": "Methods > Characterization of the DBP-Lip and DBP-Lip-Gel"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of DBP-Lip-Gel (liposomes in hydrogel network)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {"where": "text", "confidence": "explicit"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "porous hydrogel network with spherical liposomes"},
+     "conditions": {"prep_state": "freeze-dried 48 h, Au-Pd sputter-coated", "scale_bar_present": true, "instrument": "JSM-IT500A", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "the DBP-Lip-Gel sample was freeze-dried for 48 h prior to observation", "location": "Methods > Characterization of the DBP-Lip and DBP-Lip-Gel"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of Blank-Lip",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -28.43, "zeta_sd_mV": 4.24},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"},
+     "n_replicates": null,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DBP-Lip",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -30.03, "zeta_sd_mV": 3.16},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"},
+     "n_replicates": null,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "DBP-Lip | 111.4 ± 2.8 | 0.18 ± 0.02 | − 30.03 ± 3.16 | 84.6 ± 2.0 | 4.6 ± 0.2", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI of Blank-Lip",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 98.7, "size_sd_nm": 4.2, "pdi": 0.16, "pdi_sd": 0.03},
+     "conditions": {"medium": "not_declared", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"},
+     "n_replicates": null,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "Blank-Lip | 98.7 ± 4.2 | 0.16 ± 0.03 | − 28.43 ± 4.24 | – | –", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI of DBP-Lip",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 111.4, "size_sd_nm": 2.8, "pdi": 0.18, "pdi_sd": 0.02},
+     "conditions": {"medium": "not_declared", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Zetasizer 2000 (nano-ZS 90, Malvern)"},
+     "n_replicates": null,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "the particle size of DBP-Lip was 111.4 ± 2.8 nm", "location": "Results > Characterization of DBP formulations"},
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Stability DLS (28 d, diluted 1:100 in ultrapure water) shown only in Fig. 2I-J; not recorded as separate sample. DPPH/ABTS assays are on the peptide, not UVVis of particle."
+  },
+  {
+   "pmcid": "PMC7564015",
+   "context": {
+    "summary": "HSPC/cholesterol/DSPE-PEG2000 liposomes remote-loaded with the paclitaxel-S-doxorubicin prodrug (PSD) via a Cu2+ gradient (PSD LPs), compared with PSD self-assembled nanoparticles; characterization, stability, release, PK, biodistribution and antitumor efficacy.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "Blank Cu Glu LPs", "identity": "nanoparticle_empty", "composition": "HSPC:Chol:DSPE-PEG2000 85:5:10 w/w, hydrated with 200 mM copper gluconate", "formulation_defined_in": "table"},
+    {"id": "S2", "name": "PSD LPs", "identity": "nanoparticle_loaded", "composition": "Cu gluconate liposomes remote-loaded with PSD prodrug, PSD:lipid 0.2 w/w", "formulation_defined_in": "table"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "morphology of PSD LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "text", "confidence": "explicit"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "nearly spherical"},
+     "conditions": {"prep_state": "negative stain 0.2% phosphotungstic acid on carbon-coated Cu grid", "scale_bar_present": null, "instrument": "Hitachi HT7700", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "stained by 0.2% phosphotungstic acid for 30 s", "location": "Methods > Characterization of PSD LPs and PSD NPs"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of blank Cu Glu LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -21.1, "zeta_sd_mV": 0.473},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "Blank Cu Glu LPs | 112.4 ± 2.458 | 0.036 ± 0.049 | –21.1 ± 0.473 | – | –", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of PSD LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -21.3, "zeta_sd_mV": 0.608},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "PSD LPs | 128.5 ± 2.610 | 0.094 ± 0.003 | –21.3 ± 0.608 | 98.4 ± 1.6 | 16.4 ± 0.3", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI of blank Cu Glu LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 112.4, "size_sd_nm": 2.458, "pdi": 0.036, "pdi_sd": 0.049},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "The particle size, PDI and zeta potential of blank Cu Glu liposomes were 112.4 ± 2.458 nm, 0.036 ± 0.049", "location": "Results > Preparation and characterization of PSD LPs"},
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI of PSD LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 128.5, "size_sd_nm": 2.61, "pdi": 0.094, "pdi_sd": 0.003},
+     "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "PSD LPs | 128.5 ± 2.610 | 0.094 ± 0.003 | –21.3 ± 0.608 | 98.4 ± 1.6 | 16.4 ± 0.3", "location": "Table 1"},
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "a_intrinsic",
+     "measurand": "UV-vis absorption spectrum of PSD LPs (compared with Cu2+, free PSD, Cu2+-PSD complex)",
+     "assay_purpose": "Cu2+-PSD complex formation inside liposomes",
+     "sample_id": "S2",
+     "formulation_link": {"where": "figure", "confidence": "inferred"},
+     "shown_as": "raw_curve",
+     "values": {"range_nm": "400-650"},
+     "conditions": {"medium": "deionized water", "instrument": "multimode microplate reader (Thermo Scientific)"},
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {"quote": "the UV absorption spectrum of PSD LPs was similar to Cu2+–PSD", "location": "Results > Preparation and characterization of PSD LPs; Fig. 2D"},
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Stability DLS (4 C 30 d; PBS+10% FBS 72 h) shown in Fig. 3 only. HPLC UV detector not counted."
+  },
+  {
+   "pmcid": "PMC13575751",
+   "context": {
+    "summary": "Soy lecithin/cholesterol/DSPE-PEG2000 liposomes loaded with celastrol, with or without folate-PEG modification (FA-Cel-LPs, Cel-LPs), for rheumatoid arthritis; characterization, RAW264.7 uptake and anti-inflammatory effects, CIA rat efficacy and safety.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "Blank LPs", "identity": "nanoparticle_empty", "composition": "SL 100 mg, Chol 16.67 mg, DSPE-PEG2000 8.33 mg, no Cel", "formulation_defined_in": "text"},
+    {"id": "S2", "name": "Blank FA-LPs", "identity": "nanoparticle_empty", "composition": "as Blank LPs with DSPE-PEG2000-FA replacing DSPE-PEG2000", "formulation_defined_in": "text"},
+    {"id": "S3", "name": "Cel-LPs (1:10)", "identity": "nanoparticle_loaded", "composition": "SL/Chol/DSPE-PEG2000 plus celastrol, Cel:SL 1:10", "formulation_defined_in": "text"},
+    {"id": "S4", "name": "FA-Cel-LPs (1:10)", "identity": "nanoparticle_loaded", "composition": "SL/Chol/DSPE-PEG2000-FA plus celastrol, Cel:SL 1:10", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "morphology and ultrastructure of FA-Cel-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {"where": "figure", "confidence": "explicit"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "spherical or oval vesicles with distinct lipid bilayer boundaries, relatively uniform"},
+     "conditions": {"prep_state": "negative stain 2% w/v phosphotungstic acid on carbon-coated Cu grid, air-dried", "scale_bar_present": true, "instrument": "FEI Tecnai G2 F20 S-TWIN", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "FA-Cel-LPs showed spherical or oval vesicles with distinct lipid bilayer boundaries and a relatively uniform morphology", "location": "Results > Preparation and physicochemical characterization; Fig. 4K"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of Blank LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -25.82, "zeta_sd_mV": 1.54},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Blank LPs | 137.05 ± 2.77 | 0.153 ± 0.045 | -25.82 ± 1.54", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of Blank FA-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -21.81, "zeta_sd_mV": 0.45},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Blank FA-LPs | 145.37 ± 1.93 | 0.149 ± 0.037 | -21.81 ± 0.45", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of Cel-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -31.68, "zeta_sd_mV": 0.4},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Cel-LPs | 153.75 ± 2.13 | 0.227 ± 0.026 | -31.68 ± 0.40", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of FA-Cel-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"zeta_mV": -25.57, "zeta_sd_mV": 1.06},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "FA-Cel-LPs | 110.65 ± 1.24 | 0.230 ± 0.018 | -25.57 ± 1.06", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic particle size and PDI of Blank LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 137.05, "size_sd_nm": 2.77, "pdi": 0.153, "pdi_sd": 0.045},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "angle_deg": null, "dilution": "1:1 with deionized water", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Blank LPs | 137.05 ± 2.77 | 0.153 ± 0.045 | -25.82 ± 1.54", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic particle size and PDI of Blank FA-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 145.37, "size_sd_nm": 1.93, "pdi": 0.149, "pdi_sd": 0.037},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "angle_deg": null, "dilution": "1:1 with deionized water", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Blank FA-LPs | 145.37 ± 1.93 | 0.149 ± 0.037 | -21.81 ± 0.45", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic particle size and PDI of Cel-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 153.75, "size_sd_nm": 2.13, "pdi": 0.227, "pdi_sd": 0.026},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "angle_deg": null, "dilution": "1:1 with deionized water", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "Cel-LPs | 153.75 ± 2.13 | 0.227 ± 0.026 | -31.68 ± 0.40", "location": "Table 3"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic particle size and PDI of FA-Cel-LPs",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "table",
+     "values": {"size_nm": 110.65, "size_sd_nm": 1.24, "pdi": 0.23, "pdi_sd": 0.018},
+     "conditions": {"medium": "other:PBS (0.01 M, pH 7.4) diluted 1:1 with deionized water", "temperature_C": 25, "angle_deg": null, "dilution": "1:1 with deionized water", "instrument": "Zetasizer Nano ZS (Malvern)"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "FA-Cel-LPs | 110.65 ± 1.24 | 0.230 ± 0.018 | -25.57 ± 1.06", "location": "Table 3"},
+     "confidence": "alta"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "qRT-PCR is a biological readout only. Medium inferred from hydration in PBS then 1:1 dilution with deionized water."
+  },
+  {
+   "pmcid": "PMC9498533",
+   "context": {
+    "summary": "Ofloxacin-loaded hybridized nanocellulose crystal/lipid (glyceryl monostearate, poloxamer 188) nanogels prepared by hot homogenization and optimized by 2^3 factorial design; size, zeta, EE, release, TEM, DSC, antibacterial and fibroblast scratch assays for skin repair.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "nanogel",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "HNCN1", "identity": "nanoparticle_loaded", "composition": "GMS 2%, P188 5%, NC 1% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S2", "name": "HNCN2", "identity": "nanoparticle_loaded", "composition": "GMS 4%, P188 5%, NC 1% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S3", "name": "HNCN3", "identity": "nanoparticle_loaded", "composition": "GMS 2%, P188 10%, NC 1% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S4", "name": "HNCN4", "identity": "nanoparticle_loaded", "composition": "GMS 4%, P188 10%, NC 1% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S5", "name": "HNCN5", "identity": "nanoparticle_loaded", "composition": "GMS 2%, P188 5%, NC 2% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S6", "name": "HNCN6", "identity": "nanoparticle_loaded", "composition": "GMS 4%, P188 5%, NC 2% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S7", "name": "HNCN7 (optimum)", "identity": "nanoparticle_loaded", "composition": "GMS 2%, P188 10%, NC 2% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S8", "name": "HNCN8", "identity": "nanoparticle_loaded", "composition": "GMS 4%, P188 10%, NC 2% w/v, OFX 0.8% w/v", "formulation_defined_in": "table"},
+    {"id": "S9", "name": "pure ofloxacin (OFX)", "identity": "pure_component", "composition": "ofloxacin drug powder", "formulation_defined_in": "not_defined"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "morphology of optimized nanogels HNCN7",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S7",
+     "formulation_link": {"where": "table", "confidence": "explicit"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "well-separated uniform spherical nanogels with core-shell structure"},
+     "conditions": {"prep_state": "diluted 1:10 with distilled water, negative stain 2% w/w phosphotungstic acid on carbon-coated Cu grid", "scale_bar_present": null, "instrument": "JEOL JEM-1230", "n_images": null},
+     "n_replicates": null,
+     "quality_flags": ["tamano_sin_n"],
+     "evidence": {"quote": "Samples were stained negatively using 2% (w/w) phosphotungstic acid solution.", "location": "Methods > 4.2.4 Morphological Examination"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN1", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -26.6, "zeta_sd_mV": 1.22},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN1 | 244.9 ± 6.45 | 0.6 ± 0.03 | −26.6 ± 1.22 | 95.80 ± 2.01 | 0.89 ± 0.02", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN2", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -26.1, "zeta_sd_mV": 0.03},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN2 | 265.1 ± 10.01 | 0.4 ± 0.05 | −26.1 ± 0.03 | 97.13 ± 1.23 | 0.54 ± 0.03", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN3", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -27.3, "zeta_sd_mV": 1.25},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN3 | 254.2 ± 8.22 | 0.4 ± 0.01 | −27.3 ± 1.25 | 97.73 ± 1.36 | 0.94 ± 0.10", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN4", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -22.3, "zeta_sd_mV": 1.01},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN4 | 268.3 ± 11.32 | 0.6 ± 0.02 | −22.3 ± 1.01 | 96.56 ± 2.30 | 0.74 ± 0.06", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN5", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -27.9, "zeta_sd_mV": 0.5},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN5 | 173.5 ± 11.01 | 0.4 ± 0.02 | −27.9 ± 0.50 | 97.05 ± 2.01 | 0.83 ± 0.07", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN6", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -29.6, "zeta_sd_mV": 0.84},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN6 | 190.1 ± 5.50 | 0.5 ± 0.01 | −29.6 ± 0.84 | 96.56 ± 1.22 | 0.46 ± 0.03", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN7", "assay_purpose": "particle characterization", "sample_id": "S7",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -26.4, "zeta_sd_mV": 0.5},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN7 | 200.2 ± 6.74 | 0.5 ± 0.01 | −26.4 ± 0.50 | 97.53 ± 1.56 | 0.93 ± 0.11", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "zeta", "variant": "unspecified", "measurand": "zeta potential of HNCN8", "assay_purpose": "particle characterization", "sample_id": "S8",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"zeta_mV": -26.5, "zeta_sd_mV": 0.77},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": [],
+     "evidence": {"quote": "HNCN8 | 214.5 ± 5.90 | 0.6 ± 0.03 | −26.5 ± 0.77 | 97.86 ± 2.02 | 0.73 ± 0.07", "location": "Table 1"}, "confidence": "alta"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN1", "assay_purpose": "particle characterization", "sample_id": "S1",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 244.9, "size_sd_nm": 6.45, "pdi": 0.6, "pdi_sd": 0.03},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN1 | 244.9 ± 6.45 | 0.6 ± 0.03 | −26.6 ± 1.22 | 95.80 ± 2.01 | 0.89 ± 0.02", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN2", "assay_purpose": "particle characterization", "sample_id": "S2",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 265.1, "size_sd_nm": 10.01, "pdi": 0.4, "pdi_sd": 0.05},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN2 | 265.1 ± 10.01 | 0.4 ± 0.05 | −26.1 ± 0.03 | 97.13 ± 1.23 | 0.54 ± 0.03", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN3", "assay_purpose": "particle characterization", "sample_id": "S3",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 254.2, "size_sd_nm": 8.22, "pdi": 0.4, "pdi_sd": 0.01},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN3 | 254.2 ± 8.22 | 0.4 ± 0.01 | −27.3 ± 1.25 | 97.73 ± 1.36 | 0.94 ± 0.10", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN4", "assay_purpose": "particle characterization", "sample_id": "S4",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 268.3, "size_sd_nm": 11.32, "pdi": 0.6, "pdi_sd": 0.02},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN4 | 268.3 ± 11.32 | 0.6 ± 0.02 | −22.3 ± 1.01 | 96.56 ± 2.30 | 0.74 ± 0.06", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN5", "assay_purpose": "particle characterization", "sample_id": "S5",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 173.5, "size_sd_nm": 11.01, "pdi": 0.4, "pdi_sd": 0.02},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN5 | 173.5 ± 11.01 | 0.4 ± 0.02 | −27.9 ± 0.50 | 97.05 ± 2.01 | 0.83 ± 0.07", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN6", "assay_purpose": "particle characterization", "sample_id": "S6",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 190.1, "size_sd_nm": 5.5, "pdi": 0.5, "pdi_sd": 0.01},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN6 | 190.1 ± 5.50 | 0.5 ± 0.01 | −29.6 ± 0.84 | 96.56 ± 1.22 | 0.46 ± 0.03", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN7", "assay_purpose": "particle characterization", "sample_id": "S7",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 200.2, "size_sd_nm": 6.74, "pdi": 0.5, "pdi_sd": 0.01},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN7 | 200.2 ± 6.74 | 0.5 ± 0.01 | −26.4 ± 0.50 | 97.53 ± 1.56 | 0.93 ± 0.11", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI of HNCN8", "assay_purpose": "particle characterization", "sample_id": "S8",
+     "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+     "values": {"size_nm": 214.5, "size_sd_nm": 5.9, "pdi": 0.6, "pdi_sd": 0.03},
+     "conditions": {"medium": "other:deionized water (diluted tenfold)", "temperature_C": "room temperature", "angle_deg": 90, "dilution": "1:10 with deionized water", "instrument": "Zetasizer (Malvern)"},
+     "n_replicates": 3, "quality_flags": ["dato_dudoso"],
+     "evidence": {"quote": "HNCN8 | 214.5 ± 5.90 | 0.6 ± 0.03 | −26.5 ± 0.77 | 97.86 ± 2.02 | 0.73 ± 0.07", "location": "Table 1"}, "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermal behaviour of optimized nanogel HNCN7 (OFX melting peak absent)",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S7",
+     "formulation_link": {"where": "figure", "confidence": "explicit"},
+     "shown_as": "raw_curve",
+     "values": {"key_temperatures": "OFX endotherm at 276.92 C absent in HNCN7; scan 25-300 C at 10 C/min"},
+     "conditions": {"instrument": "SETARAM DSC131 evo", "atmosphere": "nitrogen and helium purge"},
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {"quote": "Also, the HNCN7 thermogram showed the absence of the distinctive peak of OFX", "location": "Results > 2.2.2 Differential Scanning Calorimetry; Fig. 3B"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermal behaviour of pure ofloxacin",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S9",
+     "formulation_link": {"where": "figure", "confidence": "paper_level"},
+     "shown_as": "raw_curve",
+     "values": {"key_temperatures": "melting endotherm at 276.92 C"},
+     "conditions": {"instrument": "SETARAM DSC131 evo", "atmosphere": "nitrogen and helium purge"},
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {"quote": "The sharp endothermic peak at 276.92 °C; which is recognized to OFX melting temperature indicates its crystallinity", "location": "Results > 2.2.2 Differential Scanning Calorimetry; Fig. 3B"},
+     "confidence": "alta"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Methods state angle as '90 °C fixed angle' (likely typo for 90 degrees). Carrier is GMS/P188 lipid nanogel with nanocellulose; UV used for EE/release and turbidity for antibacterial assay not recorded as particle UVVis."
+  }
+ ]
+}

@@ -1,0 +1,1059 @@
+{
+ "batch": "PC004",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\PC004.json",
+ "articles": [
+  {
+   "pmcid": "PMC12717261",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC12717261.txt",
+   "issues": [
+    {
+     "issue": "PMC12717261:keys:DLS",
+     "only_in_A": "nanoparticle_empty|buffer:othertrisbufferph74|nanoparticle_loaded|buffer:othertrisbufferph74",
+     "only_in_B": "nanoparticle_empty|buffer:buffer|nanoparticle_loaded|buffer:buffer",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Empty liposomes",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 43.82,
+        "size_sd_nm": 21.29,
+        "pdi": 0.411,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "pure soy-lecithin liposomes exhibited a mean hydrodynamic diameter of 43.82 ± 21.29 nm with a 0.411 PDI",
+       "location": "Results > Particle size distribution (DLS) | Fig. 4A; Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Liposomal β-carotene",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 50.75,
+        "size_sd_nm": 28.54,
+        "pdi": 0.393,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "Upon β-carotene incorporation, the mean vesicle diameter increased to 50.75 ± 28.54 nm with a 0.393 PDI",
+       "location": "Results > Particle size distribution (DLS) | Fig. 4B; Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Liposomal Dox",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 78.82,
+        "size_sd_nm": 54.48,
+        "pdi": 0.504,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "Doxorubicin encapsulation (Fig. 4C) produced a more pronounced shift, yielding a mean diameter of 78.82 ± 54.48 nm with 0.504 PDI",
+       "location": "Results > Particle size distribution (DLS) | Fig. 4C; Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Liposomal beta Dox",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 122.4,
+        "size_sd_nm": 83.44,
+        "pdi": 0.534,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "further increased the mean diameter to 122.4 ± 83.44 nm with a 0.534 PDI",
+       "location": "Results > Particle size distribution (DLS) | Fig. 4D; Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "Empty liposomes",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 43.82,
+        "size_sd_nm": 21.29,
+        "pdi": 0.411
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "diluted in Tris buffer pH 7.4 to 50-200 kcps",
+        "instrument": "Nanotrac Wave II (Microtrac)"
+       },
+       "quote": "Empty liposomes | 43.82 ± 21.29 | 0.411 | −21.5 ± 12.6",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Liposomal beta-carotene (BC-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 50.75,
+        "size_sd_nm": 28.54,
+        "pdi": 0.393
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "diluted in Tris buffer pH 7.4 to 50-200 kcps",
+        "instrument": "Nanotrac Wave II (Microtrac)"
+       },
+       "quote": "Liposomal β-carotene | 50.75 ± 28.54 | 0.393 | −22.6 ± 14.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Liposomal Dox (DOX-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 78.82,
+        "size_sd_nm": 54.48,
+        "pdi": 0.504
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "diluted in Tris buffer pH 7.4 to 50-200 kcps",
+        "instrument": "Nanotrac Wave II (Microtrac)"
+       },
+       "quote": "Liposomal Dox | 78.82 ± 54.48 | 0.504 | −15.8 ± 11.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Liposomal beta Dox (BC-DOX-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 122.4,
+        "size_sd_nm": 83.44,
+        "pdi": 0.534
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "diluted in Tris buffer pH 7.4 to 50-200 kcps",
+        "instrument": "Nanotrac Wave II (Microtrac)"
+       },
+       "quote": "Liposomal beta Dox | 122.4 ± 83.44 | 0.534 | −25.6 ± 8.02",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC12717261:keys:zeta",
+     "only_in_A": "nanoparticle_empty|buffer:othertrisbufferph74|pHy|nanoparticle_loaded|buffer:othertrisbufferph74|pHy",
+     "only_in_B": "nanoparticle_empty|buffer:buffer|pHy|nanoparticle_loaded|buffer:buffer|pHy",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Empty liposomes",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.5,
+        "zeta_sd_mV": 12.6
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "the empty soy-lecithin liposomes exhibited a moderately negative surface potential of –21.5 ± 12.6 mV",
+       "location": "Results > Particle size distribution, zeta potential | Fig. 4E"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal β-carotene",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -22.6,
+        "zeta_sd_mV": 14.7
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "Incorporation of β-carotene slightly enhanced the negative surface charge to –22.6 ± 14.7 mV",
+       "location": "Results > Particle size distribution, zeta potential | Fig. 4F"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal Dox",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -15.8,
+        "zeta_sd_mV": 11.7
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "doxorubicin loading reduced the potential to –15.8 ± 11.7 mV (Fig. 4G)",
+       "location": "Results > Particle size distribution, zeta potential | Fig. 4G"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal beta Dox",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -25.6,
+        "zeta_sd_mV": 8.02
+       },
+       "conditions": {
+        "medium": "other:Tris buffer pH 7.4",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II"
+       },
+       "quote": "The co-encapsulated β-carotene–doxorubicin (BC–DOX) liposomes exhibited the most negative potential at –25.6 ± 8.02 mV (Fig. 4H)",
+       "location": "Results > Particle size distribution, zeta potential | Fig. 4H"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Empty liposomes",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.5,
+        "zeta_sd_mV": 12.6
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II (Microtrac), 25 C; Tris buffer",
+        "temperature_C": 25
+       },
+       "quote": "Empty liposomes | 43.82 ± 21.29 | 0.411 | −21.5 ± 12.6",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal beta-carotene (BC-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -22.6,
+        "zeta_sd_mV": 14.7
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II (Microtrac), 25 C; Tris buffer",
+        "temperature_C": 25
+       },
+       "quote": "Liposomal β-carotene | 50.75 ± 28.54 | 0.393 | −22.6 ± 14.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal Dox (DOX-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -15.8,
+        "zeta_sd_mV": 11.7
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II (Microtrac), 25 C; Tris buffer",
+        "temperature_C": 25
+       },
+       "quote": "Liposomal Dox | 78.82 ± 54.48 | 0.504 | −15.8 ± 11.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Liposomal beta Dox (BC-DOX-Lipo)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -25.6,
+        "zeta_sd_mV": 8.02
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.4,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Nanotrac Wave II (Microtrac), 25 C; Tris buffer",
+        "temperature_C": 25
+       },
+       "quote": "Liposomal beta Dox | 122.4 ± 83.44 | 0.534 | −25.6 ± 8.02",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8241138",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC8241138.txt",
+   "issues": [
+    {
+     "issue": "PMC8241138:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "Tween 80-LPH NPs (optimized)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "spherical, core-shell with multi-lamellar lipid shell"
+       },
+       "conditions": {
+        "prep_state": "dried at room temperature on carbon-coated grid, stained with 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100, 200 kV",
+        "n_images": null
+       },
+       "quote": "after being stained with 1% phosphotungstic acid",
+       "location": "Methods > Characterization of the prepared RU-loaded LPHNPs > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "TPGS-LPH NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "spherical, core-shell with multi-lamellar lipid shell"
+       },
+       "conditions": {
+        "prep_state": "dried at room temperature on carbon-coated grid, stained with 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100, 200 kV",
+        "n_images": null
+       },
+       "quote": "after being stained with 1% phosphotungstic acid",
+       "location": "Methods > Characterization of the prepared RU-loaded LPHNPs > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "Solutol HS 15-LPH NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "spherical, core-shell with multi-lamellar lipid shell"
+       },
+       "conditions": {
+        "prep_state": "dried at room temperature on carbon-coated grid, stained with 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100, 200 kV",
+        "n_images": null
+       },
+       "quote": "after being stained with 1% phosphotungstic acid",
+       "location": "Methods > Characterization of the prepared RU-loaded LPHNPs > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "PLGA NPs (comparison)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "polymeric NP with SAA shield, no lipidic shell"
+       },
+       "conditions": {
+        "prep_state": "dried at room temperature on carbon-coated grid, stained with 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100, 200 kV",
+        "n_images": null
+       },
+       "quote": "after being stained with 1% phosphotungstic acid",
+       "location": "Methods > Characterization of the prepared RU-loaded LPHNPs > Particle morphology using HR-TEM"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "Tween 80-LPH NPs (optimized)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "spherical, almost homogenous size distribution; lipid shell about 7 nm thick (Fig 3B b)"
+       },
+       "conditions": {
+        "prep_state": "dried on carbon-coated Cu grid, stained 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100 HR-TEM 200 kV",
+        "n_images": null
+       },
+       "quote": "all hybrid particles show spherical shape with an almost homogenous size distribution",
+       "location": "Results > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "TPGS-LPH NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "spherical hybrid particles"
+       },
+       "conditions": {
+        "prep_state": "dried on carbon-coated Cu grid, stained 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100 HR-TEM 200 kV",
+        "n_images": null
+       },
+       "quote": "TEM was used to visualize the morphology of RU-loaded LPHNPs coated with different PEG-based SAA.",
+       "location": "Results > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "Solutol HS 15-LPH NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "spherical hybrid particles"
+       },
+       "conditions": {
+        "prep_state": "dried on carbon-coated Cu grid, stained 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100 HR-TEM 200 kV",
+        "n_images": null
+       },
+       "quote": "TEM was used to visualize the morphology of RU-loaded LPHNPs coated with different PEG-based SAA.",
+       "location": "Results > Particle morphology using HR-TEM"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "PLGA NPs (no lecithin)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "similar SAA shield, no lipidic shells (Fig 3B d)"
+       },
+       "conditions": {
+        "prep_state": "dried on carbon-coated Cu grid, stained 1% phosphotungstic acid",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100 HR-TEM 200 kV",
+        "n_images": null
+       },
+       "quote": "the image of polymeric NPs was captured for comparison; showing similar SAA shield without the appearance of any lipidic shells (Figure 3(B(d)))",
+       "location": "Results > Particle morphology using HR-TEM"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9862264",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9862264.txt",
+   "issues": [
+    {
+     "issue": "PMC9862264:keys:DLS",
+     "only_in_A": "nanoparticle_loaded|buffer:buffer",
+     "only_in_B": "nanoparticle_loaded|buffer:other10mmhepesph70",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 314.3,
+        "size_sd_nm": 114.6,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "Cumulant analysis showed the size of nanoparticles and their conjugated to be 314.3 ± 114.6 nm for mPLGA/IR775",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-BSA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 258.7,
+        "size_sd_nm": 80.67,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "258.7 ± 80.67 nm for mPLGA/IR775-BSA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-UEA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 442.3,
+        "size_sd_nm": 206.4,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "442.3 ± 206.4 nm for mPLGA/IR775-UEA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-SBA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 274.1,
+        "size_sd_nm": 94.63,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "274.1 ± 94.63 nm for mPLGA/IR775-SBA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-PNA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 276.0,
+        "size_sd_nm": 111.1,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "276.0 ± 111.1 nm for mPLGA/IR775-PNA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-ConA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 279.4,
+        "size_sd_nm": 107,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "buffer",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "279.4 ± 107 nm for mPLGA/IR775-ConA",
+       "location": "Results > 3.3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 314.3,
+        "size_sd_nm": 114.6,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "314.3 ± 114.6 nm for mPLGA/IR775",
+       "location": "Results > 3.3; Fig. 3c"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-BSA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 258.7,
+        "size_sd_nm": 80.67,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "258.7 ± 80.67 nm for mPLGA/IR775-BSA",
+       "location": "Results > 3.3; Fig. 3c"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-UEA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 442.3,
+        "size_sd_nm": 206.4,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "442.3 ± 206.4 nm for mPLGA/IR775-UEA",
+       "location": "Results > 3.3; Fig. 3c"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-SBA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 274.1,
+        "size_sd_nm": 94.63,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "274.1 ± 94.63 nm for mPLGA/IR775-SBA",
+       "location": "Results > 3.3; Fig. 3c"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-PNA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 276.0,
+        "size_sd_nm": 111.1,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "276.0 ± 111.1 nm for mPLGA/IR775-PNA",
+       "location": "Results > 3.3; Fig. 3c"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPLGA/IR775-ConA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": 279.4,
+        "size_sd_nm": 107,
+        "pdi": null
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "279.4 ± 107 nm for mPLGA/IR775-ConA",
+       "location": "Results > 3.3; Fig. 3c"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9862264:keys:zeta",
+     "only_in_A": "nanoparticle_loaded|buffer:buffer|pHy",
+     "only_in_B": "nanoparticle_loaded|buffer:other10mmhepesph70|pHy",
+     "A_rows": [
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.2,
+        "zeta_sd_mV": 10.4
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−20.2 ± 10.4 mV for mPLGA/IR775",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-BSA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.3,
+        "zeta_sd_mV": 4.84
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−21.3 ± 4.84 mV for mPLGA/IR775-BSA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-UEA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -19.9,
+        "zeta_sd_mV": 6.42
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−19.9 ± 6.42 mV for mPLGA/IR775-UEA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-SBA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.3,
+        "zeta_sd_mV": 6.91
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−20.3 ± 6.91 mV for mPLGA/IR775-SBA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-PNA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -19.2,
+        "zeta_sd_mV": 6.05
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−19.2 ± 6.05 mV for mPLGA/IR775-PNA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-ConA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -17.7,
+        "zeta_sd_mV": 5.99
+       },
+       "conditions": {
+        "medium": "buffer",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS (Malvern)"
+       },
+       "quote": "−17.7 ± 5.99 mV for mPLGA/IR775-ConA",
+       "location": "Results > 3.3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.2,
+        "zeta_sd_mV": 10.4
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−20.2 ± 10.4 mV for mPLGA/IR775",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-BSA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -21.3,
+        "zeta_sd_mV": 4.84
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−21.3 ± 4.84 mV for mPLGA/IR775-BSA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-UEA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -19.9,
+        "zeta_sd_mV": 6.42
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−19.9 ± 6.42 mV for mPLGA/IR775-UEA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-SBA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -20.3,
+        "zeta_sd_mV": 6.91
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−20.3 ± 6.91 mV for mPLGA/IR775-SBA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-PNA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -19.2,
+        "zeta_sd_mV": 6.05
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−19.2 ± 6.05 mV for mPLGA/IR775-PNA",
+       "location": "Results > 3.3"
+      },
+      {
+       "variant": "ELS",
+       "sample": "mPLGA/IR775-ConA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -17.7,
+        "zeta_sd_mV": 5.99
+       },
+       "conditions": {
+        "medium": "other:10 mM HEPES pH 7.0",
+        "pH": 7.0,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer Nano ZS"
+       },
+       "quote": "−17.7 ± 5.99 mV for mPLGA/IR775-ConA",
+       "location": "Results > 3.3"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

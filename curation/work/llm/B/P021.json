@@ -1,0 +1,457 @@
+{
+"pass": "B",
+"batch": "P021",
+"articles": [
+{
+"pmcid": "PMC12057187",
+"context": {
+"summary": "Monoolein/Pluronic F127/PEG hexosomes (inverse hexagonal lipid liquid-crystalline nanoparticles) used to host the membrane enzyme HMG-CoA reductase; characterized by DLS, SAXS, cryo-TEM; enzyme activity and fluvastatin inhibition monitored by UV-Vis and cyclic voltammetry.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "other",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "Hexosomes", "identity": "nanoparticle_empty", "composition": "monoolein (GMO) 100 mg, Pluronic F127 15% w/w, PEG 70% w/w, phosphate buffer", "formulation_defined_in": "text"},
+{"id": "S2", "name": "Hexosomes with HMGR (proteohexosomes)", "identity": "nanoparticle_loaded", "composition": "same hexosome lipid mixture plus HMG-CoA reductase (50 uL of 1 mg/mL)", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "cryoTEM", "measurand": "hexosome morphology", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"size_nm": null, "morphology": "hexosomes; large vesicular structures at particle-water interface (both samples)"},
+"conditions": {"prep_state": "plunge-frozen on Quantifoil grids (Vitrobot), vitrified", "scale_bar_present": true, "instrument": "Thermo Fisher Glacios TEM 200 kV, Falcon 3EC", "n_images": null},
+"n_replicates": null, "quality_flags": ["tamano_sin_n"],
+"evidence": {"quote": "Cryo-TEM images visualizing examples of hexosomes (A) and proteohexosomes (B). The scale bar is 100 nm.", "location": "Fig. 3 caption"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "cryoTEM", "measurand": "proteohexosome morphology", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"size_nm": null, "morphology": "hexosomes; enzyme not visualized; wider water channels suggested"},
+"conditions": {"prep_state": "plunge-frozen on Quantifoil grids (Vitrobot), vitrified", "scale_bar_present": true, "instrument": "Thermo Fisher Glacios TEM 200 kV, Falcon 3EC", "n_images": null},
+"n_replicates": null, "quality_flags": ["tamano_sin_n"],
+"evidence": {"quote": "The sizes obtained after freezing the samples in liquid nitrogen (T = 90 K) show the same size as in the DLS method", "location": "Results > Entrapment of HMGR"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -19.2, "zeta_sd_mV": 1.6},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano ZSP, 25 +/- 1 C"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "Hexosomes | 150 ± 2 | 0.067 | − 19.2 ± 1.6", "location": "Table 1"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -6.9, "zeta_sd_mV": 0.5},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano ZSP, 25 +/- 1 C"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "Hexosomes with HMGR | 160 ± 1 | 0.111 | − 6.9 ± 0.5", "location": "Table 1"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 150, "size_sd_nm": 2, "pdi": 0.067, "pdi_sd": null},
+"conditions": {"medium": "PBS", "temperature_C": 25, "angle_deg": 173, "dilution": "50-fold", "instrument": "Zetasizer Nano ZSP"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "Hexosomes | 150 ± 2 | 0.067 | − 19.2 ± 1.6", "location": "Table 1"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "hydrodynamic diameter", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 160, "size_sd_nm": 1, "pdi": 0.111, "pdi_sd": null},
+"conditions": {"medium": "PBS", "temperature_C": 25, "angle_deg": 173, "dilution": "50-fold", "instrument": "Zetasizer Nano ZSP"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "Hexosomes with HMGR | 160 ± 1 | 0.111 | − 6.9 ± 0.5", "location": "Table 1"},
+"confidence": "alta"
+},
+{
+"technique": "SAXS", "variant": "SAXS", "measurand": "mesophase identity and lattice parameter", "assay_purpose": "internal structure / phase identification",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "raw_curve",
+"values": {"phase": "inverse hexagonal", "lattice_parameter_nm": 5.5, "water_channel_radius_nm": 2.7},
+"conditions": {"temperature_C": 24, "instrument": "Bruker Nanostar, Cu Kalpha 1.54 A, Vantec 2000 detector"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "indicate a hexagonal structure with a lattice parameter of 5.5 nm", "location": "Results > Entrapment of HMGR; Fig. 1"},
+"confidence": "alta"
+},
+{
+"technique": "SAXS", "variant": "SAXS", "measurand": "mesophase identity and lattice parameter", "assay_purpose": "internal structure / phase identification",
+"sample_id": "S2", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "raw_curve",
+"values": {"phase": "inverse hexagonal", "lattice_parameter_nm": 5.9, "water_channel_radius_nm": 2.9},
+"conditions": {"temperature_C": 24, "instrument": "Bruker Nanostar, Cu Kalpha 1.54 A, Vantec 2000 detector"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "a slight increase in the lattice parameter was observed, rising from 5.5 nm to 5.9 nm", "location": "Results > Entrapment of HMGR; Fig. 1"},
+"confidence": "alta"
+}
+],
+"si_mentions": [],
+"notes": "UV-Vis (NADPH at 340 nm) and cyclic voltammetry are enzyme-activity readouts, not particle UVVis; not recorded."
+},
+{
+"pmcid": "PMC12181854",
+"context": {
+"summary": "Liposome (DPPC, DSPE-PEG2000-CREKA, cholesterol) encapsulating perfluoropentane, SPIO and the STING agonist cGAMP (SSCOL) for photoacoustic/ultrasound imaging-guided photothermal immunotherapy; characterized by TEM, DLS, ICP-OES, HPLC, with in vitro and in vivo efficacy.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "liposome",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "SSCOL", "identity": "nanoparticle_loaded", "composition": "DPPC, DSPE-PEG2000-CREKA, cholesterol, SPIO, PFP, cGAMP", "formulation_defined_in": "text"},
+{"id": "S2", "name": "SSOL (without CREKA)", "identity": "nanoparticle_loaded", "composition": "same as SSCOL with DSPE-PEG2000 instead of DSPE-PEG2000-CREKA", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "TEM_prep_not_declared", "measurand": "particle morphology and internal SPIO", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"size_nm": null, "morphology": "uniform size, regular spherical; interior filled with SPIO"},
+"conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": "Hitachi H-7600", "n_images": null},
+"n_replicates": null, "quality_flags": ["tamano_sin_n"],
+"evidence": {"quote": "The TEM micrograph of SSCOL. Scale = 500 nm.", "location": "Fig. 1 caption (A)"},
+"confidence": "alta"
+},
+{
+"technique": "EDS", "variant": "TEM_EDS", "measurand": "elemental mapping (Fe, F)", "assay_purpose": "elemental composition",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"elements": ["Fe", "F"]},
+"conditions": {"instrument": "not_declared"},
+"n_replicates": null, "quality_flags": ["dato_dudoso"],
+"evidence": {"quote": "Elemental analysis confirmed the presence of iron (Fe) and fluorine (F) within the nanoparticle (Fig. 1C-D)", "location": "Results > Preparation, characterization"},
+"confidence": "baja"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "text_value",
+"values": {"zeta_mV": -17.7, "zeta_sd_mV": 0.75},
+"conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "ZEN3600 (Malvern)"},
+"n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+"evidence": {"quote": "Zeta potentials were − 17.7 ± 0.75 mV for SSOL and − 8.28 ± 0.98 mV for SSCOL (Fig. S1A)", "location": "Results > Preparation, characterization"},
+"confidence": "media"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "text_value",
+"values": {"zeta_mV": -8.28, "zeta_sd_mV": 0.98},
+"conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "ZEN3600 (Malvern)"},
+"n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+"evidence": {"quote": "Zeta potentials were − 17.7 ± 0.75 mV for SSOL and − 8.28 ± 0.98 mV for SSCOL (Fig. S1A)", "location": "Results > Preparation, characterization"},
+"confidence": "media"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "text_value",
+"values": {"size_nm": 274.7, "size_sd_nm": 8.77, "pdi": 0.062, "pdi_sd": 0.044},
+"conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "ZEN3600 (Malvern)"},
+"n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+"evidence": {"quote": "DLS measurements indicated that the particle sizes for SSOL and SSCOL were 274.7 ± 8.77 nm (PDI: 0.062 ± 0.044)", "location": "Results > Preparation, characterization"},
+"confidence": "media"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "text_value",
+"values": {"size_nm": 276.2, "size_sd_nm": 18.67, "pdi": 0.047, "pdi_sd": 0.032},
+"conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "ZEN3600 (Malvern)"},
+"n_replicates": null, "quality_flags": ["medio_no_declarado", "sin_replicas"],
+"evidence": {"quote": "and 276.2 ± 18.67 nm (PDI: 0.047 ± 0.032) (Fig. 1E), respectively", "location": "Results > Preparation, characterization"},
+"confidence": "media"
+}
+],
+"si_mentions": [
+{"technique": "zeta", "quote": "Zeta potentials were − 17.7 ± 0.75 mV for SSOL and − 8.28 ± 0.98 mV for SSCOL (Fig. S1A)"},
+{"technique": "DLS", "quote": "No significant changes were observed in either the size distribution or zeta potential of SSCOL in FBS"}
+],
+"notes": "DLS/zeta stability in FBS over 6 days is in SI figures only; optical microscopy and MALDI-TOF-MS not recorded."
+},
+{
+"pmcid": "PMC6029039",
+"context": {
+"summary": "FITC-doped amorphous silica nanoparticles (Stober method) administered intranasally to mice and applied to primary neurons to study neurodegeneration-like behavior, neuropathology and synaptic effects via MAPK; particles characterized by TEM and DLS.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "inorganic_NP",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "FITC-SiO2-NPs", "identity": "nanoparticle_loaded", "composition": "Stober silica nanoparticles with FITC trapped in the silica layer", "formulation_defined_in": "SI"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "TEM_prep_not_declared", "measurand": "particle morphology and diameter", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "figure_panel",
+"values": {"size_nm": 115, "size_sd_nm": null, "n_particles_measured": 186, "morphology": null},
+"conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": "Tecnai G2 20 S-TWIN (FEI)", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "According to our data, these NP have an average diameter of 115 nm (Fig. 1b).", "location": "Results > Characterization of the FITC-SiO2-NPs"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "text_value",
+"values": {"zeta_mV": -51, "zeta_sd_mV": null},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "The mean hydrodynamic diameter of the NP in water was 159.8 nm, while the zeta potential was − 51 mV.", "location": "Results > Characterization of the FITC-SiO2-NPs"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "z_average", "measurand": "z-averaged hydrodynamic diameter", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "text_value",
+"values": {"size_nm": 159.8, "size_sd_nm": null, "pdi": null, "pdi_sd": null},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": null, "dilution": "1 mg/ml in distilled water after sonication, 0.22 um filtered", "instrument": "Zetasizer Nano (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "The mean hydrodynamic diameter of the NP in water was 159.8 nm, while the zeta potential was − 51 mV.", "location": "Results > Characterization of the FITC-SiO2-NPs"},
+"confidence": "alta"
+}
+],
+"si_mentions": [],
+"notes": "DLS/zeta in PBS and culture medium described only as similar to water (values in Fig. 1c, no numbers in text); not recorded."
+},
+{
+"pmcid": "PMC11952062",
+"context": {
+"summary": "Metformin-loaded nanostructured lipid carriers (Geleol or stearic acid, oleic acid, Tween 80 or Pluronic F-68) made by hot melt homogenization-ultrasonication using a 2^3 factorial design; optimized MTF-NLC7 characterized by TEM, FTIR, DSC and tested in a diabetic rat model.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "NLC",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "MTF-NLC 1", "identity": "nanoparticle_loaded", "composition": "stearic acid, Tween 80, solid:liquid lipid 2:3, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S2", "name": "MTF-NLC 2", "identity": "nanoparticle_loaded", "composition": "stearic acid, Tween 80, solid:liquid lipid 3:2, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S3", "name": "MTF-NLC 3", "identity": "nanoparticle_loaded", "composition": "stearic acid, Pluronic F-68, 2:3, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S4", "name": "MTF-NLC 4", "identity": "nanoparticle_loaded", "composition": "stearic acid, Pluronic F-68, 3:2, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S5", "name": "MTF-NLC 5", "identity": "nanoparticle_loaded", "composition": "Geleol, Tween 80, 2:3, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S6", "name": "MTF-NLC 6", "identity": "nanoparticle_loaded", "composition": "Geleol, Tween 80, 3:2, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S7", "name": "MTF-NLC 7 (optimized)", "identity": "nanoparticle_loaded", "composition": "Geleol, Pluronic F-68, 2:3, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S8", "name": "MTF-NLC 8", "identity": "nanoparticle_loaded", "composition": "Geleol, Pluronic F-68, 3:2, 20 mg MTF", "formulation_defined_in": "table"},
+{"id": "S9", "name": "pure MTF", "identity": "pure_component", "composition": "metformin", "formulation_defined_in": "not_defined"},
+{"id": "S10", "name": "Geleol", "identity": "pure_component", "composition": "solid lipid", "formulation_defined_in": "not_defined"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "particle morphology", "assay_purpose": "particle characterization",
+"sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"size_nm": null, "morphology": "spherical, nano size"},
+"conditions": {"prep_state": "diluted with distilled water, dried on collodion-coated Cu grid, 2% uranyl acetate stain", "scale_bar_present": null, "instrument": "JEOL JTEM 1010", "n_images": null},
+"n_replicates": null, "quality_flags": ["tamano_sin_n"],
+"evidence": {"quote": "The TEM image of MTF-NLC7 revealed that the prepared nanoparticles were spherical with Nano size, see Figure 6B.", "location": "Results > TEM Image of MTF-NLC"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -32.87, "zeta_sd_mV": 1.25},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 1 | 83.21±2.15 | 475.85±6.85 | −32.87‎±‎1.25 | 0.45‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -31.83, "zeta_sd_mV": 0.98},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 2 | 80.65±1.95 | 503.23±7.26 | −31.83‎±‎0.98 | 0.48‎±‎0.02", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -42.8, "zeta_sd_mV": 1.89},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 3 | 89.32±3.57 | 408.33‎±‎5.94 | −42.8‎±‎1.89 | 0.39‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -38.27, "zeta_sd_mV": 2.21},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 4 | 86.28±2.41 | 435.87‎±‎6.35 | −38.27‎±‎2.21 | 0.41‎±‎0.03", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -45.83, "zeta_sd_mV": 2.04},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 5 | 94.64±1.89 | 326.27‎±‎4.21 | −45.83‎±‎2.04 | 0.27‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -45.63, "zeta_sd_mV": 1.54},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 6 | 91.47±3.95 | 364.98±4.98 | −45.63‎±‎1.54 | 0.31‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -51.6, "zeta_sd_mV": 2.64},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 7 | 99.31±3.25 | 247.72±5.74 | −51.6‎±‎2.64 | 0.23‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"zeta_mV": -48.87, "zeta_sd_mV": 1.32},
+"conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 8 | 96.12±3.65 | 285.31‎±‎6.54 | −48.87‎±‎1.32 | 0.24‎±‎0.02", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 475.85, "size_sd_nm": 6.85, "pdi": 0.45, "pdi_sd": 0.01},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 1 | 83.21±2.15 | 475.85±6.85 | −32.87‎±‎1.25 | 0.45‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 503.23, "size_sd_nm": 7.26, "pdi": 0.48, "pdi_sd": 0.02},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 2 | 80.65±1.95 | 503.23±7.26 | −31.83‎±‎0.98 | 0.48‎±‎0.02", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 408.33, "size_sd_nm": 5.94, "pdi": 0.39, "pdi_sd": 0.01},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 3 | 89.32±3.57 | 408.33‎±‎5.94 | −42.8‎±‎1.89 | 0.39‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 435.87, "size_sd_nm": 6.35, "pdi": 0.41, "pdi_sd": 0.03},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 4 | 86.28±2.41 | 435.87‎±‎6.35 | −38.27‎±‎2.21 | 0.41‎±‎0.03", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 326.27, "size_sd_nm": 4.21, "pdi": 0.27, "pdi_sd": 0.01},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 5 | 94.64±1.89 | 326.27‎±‎4.21 | −45.83‎±‎2.04 | 0.27‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 364.98, "size_sd_nm": 4.98, "pdi": 0.31, "pdi_sd": 0.01},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 6 | 91.47±3.95 | 364.98±4.98 | −45.63‎±‎1.54 | 0.31‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 247.72, "size_sd_nm": 5.74, "pdi": 0.23, "pdi_sd": 0.01},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 7 | 99.31±3.25 | 247.72±5.74 | −51.6‎±‎2.64 | 0.23‎±‎0.01", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "particle size (PS) and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table",
+"values": {"size_nm": 285.31, "size_sd_nm": 6.54, "pdi": 0.24, "pdi_sd": 0.02},
+"conditions": {"medium": "water", "temperature_C": null, "angle_deg": 90, "dilution": "1:100", "instrument": "Zetasizer (Malvern)"},
+"n_replicates": null, "quality_flags": ["sin_replicas"],
+"evidence": {"quote": "MTF-NLC 8 | 96.12±3.65 | 285.31‎±‎6.54 | −48.87‎±‎1.32 | 0.24‎±‎0.02", "location": "Table 3"},
+"confidence": "alta"
+},
+{
+"technique": "FTIR", "variant": "KBr", "measurand": "IR spectrum of pure metformin", "assay_purpose": "drug-excipient compatibility",
+"sample_id": "S9", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"main_peaks_cm-1": [3375, 3312, 3171, 1631, 1570, 1474, 1174, 1062]},
+"conditions": {"instrument": "Shimadzu 435 U-O4, KBr discs, 4000-400 cm-1"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "The IR spectrum of pure MF revealed a characteristic peak at 3375 cm−1 and 3312 cm−1", "location": "Results > The IR Spectroscopy"},
+"confidence": "alta"
+},
+{
+"technique": "FTIR", "variant": "KBr", "measurand": "IR spectrum of Geleol", "assay_purpose": "drug-excipient compatibility",
+"sample_id": "S10", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"main_peaks_cm-1": [3419.17, 2919.7, 1735.62]},
+"conditions": {"instrument": "Shimadzu 435 U-O4, KBr discs, 4000-400 cm-1"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "The IR spectrum of Geleol showed characteristic peaks 3419.17 cm−1, 2919.7 cm−1, 1735.62 cm−1", "location": "Results > The IR Spectroscopy"},
+"confidence": "alta"
+},
+{
+"technique": "FTIR", "variant": "KBr", "measurand": "IR spectrum of lyophilized MTF-NLC7", "assay_purpose": "drug-excipient compatibility",
+"sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"main_peaks_cm-1": null},
+"conditions": {"instrument": "Shimadzu 435 U-O4, KBr discs, 4000-400 cm-1"},
+"n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+"evidence": {"quote": "All characteristic peaks of the drug were found in the IR spectrum of the prepared MTF-NLC7", "location": "Results > The IR Spectroscopy"},
+"confidence": "media"
+},
+{
+"technique": "DSC", "variant": "DSC", "measurand": "thermal behaviour of pure metformin", "assay_purpose": "thermal behaviour",
+"sample_id": "S9", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"melting_peak_C": 230},
+"conditions": {"range_C": "25-250", "heating_rate_C_per_min": 10, "atmosphere": "nitrogen", "instrument": "Shimadzu DSC-50"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "the pure MTF DSC thermogram exhibited a single endothermic peak at 230 °C corresponding to its melting point", "location": "Results > The Thermal Analysis"},
+"confidence": "alta"
+},
+{
+"technique": "DSC", "variant": "DSC", "measurand": "thermal behaviour of Geleol", "assay_purpose": "thermal behaviour",
+"sample_id": "S10", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"melting_peak_C": 64},
+"conditions": {"range_C": "25-250", "heating_rate_C_per_min": 10, "atmosphere": "nitrogen", "instrument": "Shimadzu DSC-50"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "Geleol’s DCS thermogram revealed a broad peak at 64 °C, which corresponds to its melting point", "location": "Results > The Thermal Analysis"},
+"confidence": "alta"
+},
+{
+"technique": "DSC", "variant": "DSC", "measurand": "thermal behaviour of lyophilized MTF-NLC7", "assay_purpose": "thermal behaviour",
+"sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"observation": "MTF peak intensity decreased"},
+"conditions": {"range_C": "25-250", "heating_rate_C_per_min": 10, "atmosphere": "nitrogen", "instrument": "Shimadzu DSC-50"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "The MTF-NLC7 DSC thermogram showed a decrease in the intensity of the MTF peak", "location": "Results > The Thermal Analysis"},
+"confidence": "alta"
+},
+{
+"technique": "UVVis", "variant": "b_quantification", "measurand": "free metformin in supernatant at 232 nm (entrapment efficiency)", "assay_purpose": "drug quantification",
+"sample_id": "S1-S8", "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+"values": {"lambda_max_nm": 232, "EE_percent_range": "80.65-99.31"},
+"conditions": {"instrument": "Shimadzu UV spectrophotometer", "calibration_curve": "not_declared"},
+"n_replicates": null, "quality_flags": ["muestra_ambigua"],
+"evidence": {"quote": "The resultant solution was analyzed spectrophotometrically at 232 nm, to determine the concentration of the free drug", "location": "Methods > Determination of the EE%"},
+"confidence": "baja"
+}
+],
+"si_mentions": [],
+"notes": "Table 3 values transcribed per formulation; FTIR/DSC and TEM only on optimized MTF-NLC7."
+}
+]
+}

@@ -1,0 +1,44 @@
+{
+  "LNP": {
+    "hitCount_api": 3627,
+    "rows_downloaded": 3627,
+    "query": "(TITLE:\"lipid nanoparticle\" OR ABSTRACT:\"lipid nanoparticle\" OR TITLE:\"lipid nanoparticles\" OR ABSTRACT:\"lipid nanoparticles\" OR TITLE:\"mRNA-LNP\" OR ABSTRACT:\"mRNA-LNP\" OR TITLE:\"mRNA LNP\" OR ABSTRACT:\"mRNA LNP\" OR TITLE:\"LNP\" OR ABSTRACT:\"LNP\" OR TITLE:\"LNPs\" OR ABSTRACT:\"LNPs\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:41+00:00"
+  },
+  "liposome": {
+    "hitCount_api": 10112,
+    "rows_downloaded": 10112,
+    "query": "(TITLE:\"liposome\" OR ABSTRACT:\"liposome\" OR TITLE:\"liposomes\" OR ABSTRACT:\"liposomes\" OR TITLE:\"liposomal\" OR ABSTRACT:\"liposomal\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:42+00:00"
+  },
+  "SLN_NLC": {
+    "hitCount_api": 1291,
+    "rows_downloaded": 1291,
+    "query": "(TITLE:\"solid lipid nanoparticle\" OR ABSTRACT:\"solid lipid nanoparticle\" OR TITLE:\"solid lipid nanoparticles\" OR ABSTRACT:\"solid lipid nanoparticles\" OR TITLE:\"nanostructured lipid carrier\" OR ABSTRACT:\"nanostructured lipid carrier\" OR TITLE:\"nanostructured lipid carriers\" OR ABSTRACT:\"nanostructured lipid carriers\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:43+00:00"
+  },
+  "PLN": {
+    "hitCount_api": 167,
+    "rows_downloaded": 167,
+    "query": "(TITLE:\"lipid-polymer hybrid\" OR ABSTRACT:\"lipid-polymer hybrid\" OR TITLE:\"polymer-lipid hybrid\" OR ABSTRACT:\"polymer-lipid hybrid\" OR TITLE:\"lipid polymer hybrid nanoparticle\" OR ABSTRACT:\"lipid polymer hybrid nanoparticle\" OR TITLE:\"lipid-polymer hybrid nanoparticle\" OR ABSTRACT:\"lipid-polymer hybrid nanoparticle\" OR TITLE:\"lipid-polymer hybrid nanoparticles\" OR ABSTRACT:\"lipid-polymer hybrid nanoparticles\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:43+00:00"
+  },
+  "polymeric": {
+    "hitCount_api": 8731,
+    "rows_downloaded": 8731,
+    "query": "(TITLE:\"PLGA\" OR ABSTRACT:\"PLGA\" OR TITLE:\"polymeric nanoparticle\" OR ABSTRACT:\"polymeric nanoparticle\" OR TITLE:\"polymeric nanoparticles\" OR ABSTRACT:\"polymeric nanoparticles\" OR TITLE:\"polymer nanoparticle\" OR ABSTRACT:\"polymer nanoparticle\" OR TITLE:\"polymeric micelle\" OR ABSTRACT:\"polymeric micelle\" OR TITLE:\"polymeric micelles\" OR ABSTRACT:\"polymeric micelles\" OR TITLE:\"chitosan nanoparticle\" OR ABSTRACT:\"chitosan nanoparticle\" OR TITLE:\"chitosan nanoparticles\" OR ABSTRACT:\"chitosan nanoparticles\" OR TITLE:\"dendrimer\" OR ABSTRACT:\"dendrimer\" OR TITLE:\"dendrimers\" OR ABSTRACT:\"dendrimers\" OR TITLE:\"nanogel\" OR ABSTRACT:\"nanogel\" OR TITLE:\"nanogels\" OR ABSTRACT:\"nanogels\" OR TITLE:\"poly(lactic-co-glycolic acid)\" OR ABSTRACT:\"poly(lactic-co-glycolic acid)\" OR TITLE:\"polycaprolactone nanoparticle\" OR ABSTRACT:\"polycaprolactone nanoparticle\" OR TITLE:\"polycaprolactone nanoparticles\" OR ABSTRACT:\"polycaprolactone nanoparticles\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:44+00:00"
+  },
+  "inorganic": {
+    "hitCount_api": 18503,
+    "rows_downloaded": 18503,
+    "query": "(TITLE:\"gold nanoparticle\" OR ABSTRACT:\"gold nanoparticle\" OR TITLE:\"gold nanoparticles\" OR ABSTRACT:\"gold nanoparticles\" OR TITLE:\"silver nanoparticle\" OR ABSTRACT:\"silver nanoparticle\" OR TITLE:\"silver nanoparticles\" OR ABSTRACT:\"silver nanoparticles\" OR TITLE:\"iron oxide nanoparticle\" OR ABSTRACT:\"iron oxide nanoparticle\" OR TITLE:\"iron oxide nanoparticles\" OR ABSTRACT:\"iron oxide nanoparticles\" OR TITLE:\"SPION\" OR ABSTRACT:\"SPION\" OR TITLE:\"silica nanoparticle\" OR ABSTRACT:\"silica nanoparticle\" OR TITLE:\"silica nanoparticles\" OR ABSTRACT:\"silica nanoparticles\" OR TITLE:\"mesoporous silica nanoparticle\" OR ABSTRACT:\"mesoporous silica nanoparticle\" OR TITLE:\"mesoporous silica nanoparticles\" OR ABSTRACT:\"mesoporous silica nanoparticles\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:46+00:00"
+  },
+  "AAV": {
+    "hitCount_api": 985,
+    "rows_downloaded": 985,
+    "query": "(TITLE:\"adeno-associated virus\" OR ABSTRACT:\"adeno-associated virus\" OR TITLE:\"adeno-associated viral\" OR ABSTRACT:\"adeno-associated viral\" OR TITLE:\"AAV\" OR ABSTRACT:\"AAV\") AND (TITLE:\"capsid\" OR ABSTRACT:\"capsid\" OR TITLE:\"capsids\" OR ABSTRACT:\"capsids\" OR TITLE:\"genome titer\" OR ABSTRACT:\"genome titer\" OR TITLE:\"vector genome\" OR ABSTRACT:\"vector genome\" OR TITLE:\"empty capsids\" OR ABSTRACT:\"empty capsids\" OR TITLE:\"full capsids\" OR ABSTRACT:\"full capsids\" OR TITLE:\"manufacturing\" OR ABSTRACT:\"manufacturing\" OR TITLE:\"downstream processing\" OR ABSTRACT:\"downstream processing\" OR TITLE:\"bioprocess\" OR ABSTRACT:\"bioprocess\" OR TITLE:\"analytical ultracentrifugation\" OR ABSTRACT:\"analytical ultracentrifugation\" OR TITLE:\"mass photometry\" OR ABSTRACT:\"mass photometry\" OR TITLE:\"cryo-EM\" OR ABSTRACT:\"cryo-EM\" OR TITLE:\"quality control\" OR ABSTRACT:\"quality control\" OR TITLE:\"quality attribute\" OR ABSTRACT:\"quality attribute\" OR TITLE:\"quality attributes\" OR ABSTRACT:\"quality attributes\" OR TITLE:\"purification of AAV\" OR ABSTRACT:\"purification of AAV\" OR TITLE:\"AAV purification\" OR ABSTRACT:\"AAV purification\" OR TITLE:\"vector purification\" OR ABSTRACT:\"vector purification\") AND OPEN_ACCESS:y AND (FIRST_PDATE:[2015-01-01 TO 2026-10-01]) AND NOT PUB_TYPE:\"review\"",
+    "retrieved": "2026-10-09T17:13:46+00:00"
+  }
+}

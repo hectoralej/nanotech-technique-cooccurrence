@@ -1,0 +1,60 @@
+{
+ "batch": "PC003",
+ "articles": [
+  {
+   "pmcid": "PMC5750654",
+   "decisions": [
+    {
+     "issue": "PMC5750654:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "ELS", "medium": "other:KCl 1 mM (pH 7.0)"},
+     "quote": "laser Doppler velocimetry, after diluting the sample with KCl 1 mM (pH 7.0)",
+     "location": "Methods > 2.3.2. Size and Zeta Potential Measurements",
+     "reason": "Both agree on KCl 1 mM, pH 7.0; the difference is only formatting. Packet states pH 7.0 with KCl and laser Doppler (ELS). Identities per sample (SLN A empty, BEO/CEO loaded) are unchanged."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11076978",
+   "decisions": [
+    {
+     "issue": "PMC11076978:keys:DLS",
+     "decision": "B",
+     "final": {"value": null, "identity": "nanoparticle_loaded", "variant": null, "medium": "water"},
+     "quote": "10 μL of PAC-CUR-SLNs was disseminated in 1 mL of deionized water to form SLNs dispersion",
+     "location": "Methods > Characterization of PAC-CUR-SLNs > Mean particle size analysis",
+     "reason": "Medium is deionized water, which maps to the water category; A's other:deionized water is redundant. Samples are loaded PAC-CUR-SLNs."
+    },
+    {
+     "issue": "PMC11076978:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": "nanoparticle_loaded", "variant": null, "medium": "water"},
+     "quote": "10 μL of PAC-CUR-SLNs was disseminated in 1 mL of deionized water to form SLNs dispersion",
+     "location": "Methods > Characterization of PAC-CUR-SLNs > Mean particle size analysis",
+     "reason": "Size and zeta were measured on the same deionized water dispersion; medium is water. pH not stated."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC4487236",
+   "decisions": [
+    {
+     "issue": "PMC4487236:gate:viral_pcr",
+     "decision": "B",
+     "final": {"value": false, "identity": null, "variant": null, "medium": null},
+     "quote": "virosomes could be regarded as LPs transplanted with the targeting ability and fusogenic activity of HBsAg L protein",
+     "location": "Results > Formation of virosomes of HBV envelope L proteins",
+     "reason": "Final carrier is a liposome (~96% lipid, ~4% L protein) with no viral genome; characterization uses TEM/DLS/zeta, no PCR. Not a virus/VLP carrier."
+    },
+    {
+     "issue": "PMC4487236:keys:micrograph",
+     "decision": "neither",
+     "final": {"value": null, "identity": "nanoparticle_empty", "variant": "TEM_prep_not_declared", "medium": null},
+     "quote": "the virosomes and LPs were adsorbed onto a carbon-coated copper grid (JEOL, Tokyo, Japan), negatively stained using 2% (w/v) uranyl acetate",
+     "location": "Methods > Physicochemical analyses",
+     "reason": "Staining is stated only for virosomes and LPs, so BNC-LP complex (RT, panel a) prep is not declared (A). B is right that LPs (panel d) is a pure_component TEM_negstain row, which A omitted."
+    }
+   ]
+  }
+ ]
+}

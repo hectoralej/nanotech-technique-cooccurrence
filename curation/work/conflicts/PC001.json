@@ -1,0 +1,880 @@
+{
+ "batch": "PC001",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\PC001.json",
+ "articles": [
+  {
+   "pmcid": "PMC9177731",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9177731.txt",
+   "issues": [
+    {
+     "issue": "PMC9177731:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "pDNA-loaded LNP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "size_nm": "approximately 100"
+       },
+       "conditions": {
+        "medium": "PBS",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "1:100 in PBS",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "the particle sizes reached a plateau at approximately 100 nm at higher flow rates, i.e., between 4 and 20 ml/min",
+       "location": "Results > The correlation between mixing and LNP characteristics"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "pDNA LNPs (4 mL/min, FRR 3)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 100,
+        "pdi": 0.07
+       },
+       "conditions": {
+        "medium": "PBS",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "100-fold in PBS",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "the particle sizes reached a plateau at approximately 100 nm at higher flow rates, i.e., between 4 and 20 ml/min",
+       "location": "Results > correlation between mixing and LNP characteristics; Fig. 8A,B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11644305",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11644305.txt",
+   "issues": [
+    {
+     "issue": "PMC11644305:keys:micrograph",
+     "only_in_A": "TEM_prep_not_declared|nanoparticle_empty",
+     "only_in_B": "TEM_dried_unstained|nanoparticle_empty|TEM_dried_unstained|nanoparticle_loaded",
+     "A_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "H2O-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 180.2,
+        "size_sd_nm": 25.3,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "JEOL T-1010",
+        "n_images": null
+       },
+       "quote": "H2O-SLNPs | 180.2 ± 25.3 | 190.5 ± 13.9 | 13.1 ± 1.1 | 0.003 | - | - | -",
+       "location": "Table 3 (TEM column); Fig. 3 caption"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "GBE-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 118.3,
+        "size_sd_nm": 15.6,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "JEOL T-1010",
+        "n_images": null
+       },
+       "quote": "GBE-SLNPs | 118.3 ± 15.6 | 122.4 ± 12.7 | 24.4 ± 1.3 | 0.012 | - | - | -",
+       "location": "Table 3 (TEM column); Fig. 3 caption"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "H2O-PLL-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 140.0,
+        "size_sd_nm": 1.0,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "JEOL T-1010",
+        "n_images": null
+       },
+       "quote": "H2O-PLL-SLNPs | 140.0 ± 1.0 | 120.4 ± 7.1 | 35.6 ± 0.3 | 0.013 | 139.5 ± 35.2 | 43.3 ± 0.1 | 0.037",
+       "location": "Table 3 (TEM column); Fig. 3 caption"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "GBE-PLL-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 136.3,
+        "size_sd_nm": 1.0,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "JEOL T-1010",
+        "n_images": null
+       },
+       "quote": "GBE-PLL-SLNPs | 136.3 ± 1.0 | 115.3 ± 10.7 | 36.8 ± 1.3 | 0.010 | 128.3 ± 20.3 | 45.4 ± 0.8 | 0.029",
+       "location": "Table 3 (TEM column); Fig. 3 caption"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "H2O-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 180.2,
+        "size_sd_nm": 25.3,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared in packet (no stain or drying step described)",
+        "scale_bar_present": true,
+        "instrument": "Jeol T-1010 TEM",
+        "n_images": null
+       },
+       "quote": "H2O-SLNPs | 180.2 ± 25.3",
+       "location": "Table 3; Fig. 3A caption (scale bar = 200 nm)"
+      },
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "H2O-PLL-SLNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 140.0,
+        "size_sd_nm": 1.0,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared in packet (no stain or drying step described)",
+        "scale_bar_present": true,
+        "instrument": "Jeol T-1010 TEM",
+        "n_images": null
+       },
+       "quote": "H2O-PLL-SLNPs | 140.0 ± 1.0",
+       "location": "Table 3; Fig. 3B caption (scale bar = 200 nm)"
+      },
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "GBE-SLNPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 118.3,
+        "size_sd_nm": 15.6,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared in packet (no stain or drying step described)",
+        "scale_bar_present": true,
+        "instrument": "Jeol T-1010 TEM",
+        "n_images": null
+       },
+       "quote": "GBE-SLNPs | 118.3 ± 15.6",
+       "location": "Table 3; Fig. 3C caption (scale bar = 200 nm)"
+      },
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "GBE-PLL-SLNPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 136.3,
+        "size_sd_nm": 1.0,
+        "n_particles_measured": null,
+        "morphology": "spherical"
+       },
+       "conditions": {
+        "prep_state": "not_declared in packet (no stain or drying step described)",
+        "scale_bar_present": true,
+        "instrument": "Jeol T-1010 TEM",
+        "n_images": null
+       },
+       "quote": "GBE-PLL-SLNPs | 136.3 ± 1.0",
+       "location": "Table 3; Fig. 3D caption (scale bar = 200 nm)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9364311",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9364311.txt",
+   "issues": [
+    {
+     "issue": "PMC9364311:keys:micrograph",
+     "only_in_A": "SEM|nanoparticle_loaded",
+     "only_in_B": "SEM|unclear",
+     "A_rows": [
+      {
+       "variant": "STEM",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "morphology": "spherical, core-shell (outer lipid shell, darker polymer core)"
+       },
+       "conditions": {
+        "prep_state": "air-dried on holey carbon grid, no stain mentioned",
+        "scale_bar_present": true,
+        "instrument": "SEM/STEM Fei-ThermoFisher Versa 3D",
+        "n_images": null
+       },
+       "quote": "the particles exhibited a spherical and nanosized dimension, with a core–shell structure",
+       "location": "Results"
+      },
+      {
+       "variant": "SEM",
+       "sample": "NiM",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": ">500",
+        "morphology": null
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "PRO X PHENOM (Thermo Fisher)",
+        "n_images": null
+       },
+       "quote": "using the ImageJ program to calculate the average diameter of each sample by analyzing a sufficiently representative number of particles (>500 particles)",
+       "location": "Methods > Preparation and Characterization of NiM Formulations"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "STEM",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical, core-shell (bright lipid shell, darker polymeric core)"
+       },
+       "conditions": {
+        "prep_state": "drop of dispersion (3 mg/mL) on holey carbon-coated Cu grid, air-dried overnight; no stain mentioned",
+        "scale_bar_present": true,
+        "instrument": "FEI-ThermoFisher Versa 3D SEM/STEM",
+        "n_images": null
+       },
+       "quote": "STEM image of Man-LPHFNPs. The bar represents 200 nm.",
+       "location": "Fig. 1 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "NiM",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "n_particles_measured": ">500"
+       },
+       "conditions": {
+        "prep_state": "spray-dried powder",
+        "scale_bar_present": null,
+        "instrument": "PRO X PHENOM",
+        "n_images": null
+       },
+       "quote": "SEM images of NiM particles (sn 5000×, dx 66000×)",
+       "location": "Fig. 8 caption"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9364311:keys:DLS",
+     "only_in_A": "nanoparticle_empty|buffer:other10mmnacl|nanoparticle_loaded|buffer:other10mmnacl",
+     "only_in_B": "nanoparticle_empty|buffer:other10mmnaclaqueous|nanoparticle_empty|nd|nanoparticle_loaded|buffer:other10mmnaclaqueous|nanoparticle_loaded|nd",
+     "A_rows": [
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 82.8,
+        "size_sd_nm": 3.2,
+        "pdi": 0.22,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "LPHFNPs | 82.8 ± 3.2 | 0.22 ± 0.01 | –8.8 ± 5.7",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 110.8,
+        "size_sd_nm": 3.5,
+        "pdi": 0.2,
+        "pdi_sd": 0.11
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "LPHFNPs@Roflumilast | 110.8 ± 3.5 | 0.20 ± 0.11 | –9.9 ± 4.5",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 72.1,
+        "size_sd_nm": 4.2,
+        "pdi": 0.16,
+        "pdi_sd": 0.04
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "Man-LPHFNPs | 72.1 ± 4.2 | 0.16 ± 0.04 | –21.4 ± 6.4",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Man-LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 94.0,
+        "size_sd_nm": 1.3,
+        "pdi": 0.15,
+        "pdi_sd": 0.04
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "Man-LPHFNPs@Roflumilast | 94.0 ± 1.3 | 0.15 ± 0.04 | –20.0 ± 5.9",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 91.4,
+        "size_sd_nm": 4.5,
+        "pdi": 0.17,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "after freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "LPHFNPs | 91.4 ± 4.5 | 0.17 ± 0.01 | –8.7 ± 6.2",
+       "location": "Table 2 (after freeze-drying, water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 114.6,
+        "size_sd_nm": 2.6,
+        "pdi": 0.19,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "after freeze-drying",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS (632.8 nm laser)"
+       },
+       "quote": "LPHFNPs@Roflumilast | 114.6 ± 2.6 | 0.19 ± 0.03 | –9.6 ± 6.4",
+       "location": "Table 2 (after freeze-drying, water)"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "FNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 59.0,
+        "size_sd_nm": 3.1,
+        "pdi": 0.21,
+        "pdi_sd": 0.12
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "FNPs | 59.0 ± 3.1 | 0.21 ± 0.12 | –6.4 ± 5.4",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "FNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 78.0,
+        "size_sd_nm": 4.1,
+        "pdi": 0.24,
+        "pdi_sd": 0.07
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "FNPs@Roflumilast | 78.0 ± 4.1 | 0.24 ± 0.07 | –8.2 ± 4.3",
+       "location": "Table 1"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 82.8,
+        "size_sd_nm": 3.2,
+        "pdi": 0.22,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs | 82.8 ± 3.2 | 0.22 ± 0.01 | –8.8 ± 5.7",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 110.8,
+        "size_sd_nm": 3.5,
+        "pdi": 0.2,
+        "pdi_sd": 0.11
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs@Roflumilast | 110.8 ± 3.5 | 0.20 ± 0.11 | –9.9 ± 4.5",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 72.1,
+        "size_sd_nm": 4.2,
+        "pdi": 0.16,
+        "pdi_sd": 0.04
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "Man-LPHFNPs | 72.1 ± 4.2 | 0.16 ± 0.04 | –21.4 ± 6.4",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Man-LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 94.0,
+        "size_sd_nm": 1.3,
+        "pdi": 0.15,
+        "pdi_sd": 0.04
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "Man-LPHFNPs@Roflumilast | 94.0 ± 1.3 | 0.15 ± 0.04 | –20.0 ± 5.9",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9364311:keys:zeta",
+     "only_in_A": "nanoparticle_empty|buffer:other10mmnacl|pHn|nanoparticle_loaded|buffer:other10mmnacl|pHn",
+     "only_in_B": "nanoparticle_empty|buffer:other10mmnaclaqueous|pHn|nanoparticle_empty|nd|pHn|nanoparticle_loaded|buffer:other10mmnaclaqueous|pHn|nanoparticle_loaded|nd|pHn",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.8,
+        "zeta_sd_mV": 5.7
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs | 82.8 ± 3.2 | 0.22 ± 0.01 | –8.8 ± 5.7",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -9.9,
+        "zeta_sd_mV": 4.5
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs@Roflumilast | 110.8 ± 3.5 | 0.20 ± 0.11 | –9.9 ± 4.5",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.4,
+        "zeta_sd_mV": 6.4
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "Man-LPHFNPs | 72.1 ± 4.2 | 0.16 ± 0.04 | –21.4 ± 6.4",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Man-LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.0,
+        "zeta_sd_mV": 5.9
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "before freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "Man-LPHFNPs@Roflumilast | 94.0 ± 1.3 | 0.15 ± 0.04 | –20.0 ± 5.9",
+       "location": "Table 2 (before freeze-drying, water)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.7,
+        "zeta_sd_mV": 6.2
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "after freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs | 91.4 ± 4.5 | 0.17 ± 0.01 | –8.7 ± 6.2",
+       "location": "Table 2 (after freeze-drying, water)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -9.6,
+        "zeta_sd_mV": 6.4
+       },
+       "conditions": {
+        "medium": "water",
+        "state": "after freeze-drying",
+        "temperature_C": 25,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS"
+       },
+       "quote": "LPHFNPs@Roflumilast | 114.6 ± 2.6 | 0.19 ± 0.03 | –9.6 ± 6.4",
+       "location": "Table 2 (after freeze-drying, water)"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "FNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -6.4,
+        "zeta_sd_mV": 5.4
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "FNPs | 59.0 ± 3.1 | 0.21 ± 0.12 | –6.4 ± 5.4",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "FNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.2,
+        "zeta_sd_mV": 4.3
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "FNPs@Roflumilast | 78.0 ± 4.1 | 0.24 ± 0.07 | –8.2 ± 4.3",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -8.8,
+        "zeta_sd_mV": 5.7
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "LPHFNPs | 82.8 ± 3.2 | 0.22 ± 0.01 | –8.8 ± 5.7",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "ELS",
+       "sample": "LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -9.9,
+        "zeta_sd_mV": 4.5
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "LPHFNPs@Roflumilast | 110.8 ± 3.5 | 0.20 ± 0.11 | –9.9 ± 4.5",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Man-LPHFNPs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21.4,
+        "zeta_sd_mV": 6.4
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "Man-LPHFNPs | 72.1 ± 4.2 | 0.16 ± 0.04 | –21.4 ± 6.4",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Man-LPHFNPs@Roflumilast",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -20.0,
+        "zeta_sd_mV": 5.9
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Malvern Zetasizer NanoZS",
+        "temperature_C": 25
+       },
+       "quote": "Man-LPHFNPs@Roflumilast | 94.0 ± 1.3 | 0.15 ± 0.04 | –20.0 ± 5.9",
+       "location": "Table 2 (Before Freeze-Drying/water)"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

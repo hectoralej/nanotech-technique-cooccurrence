@@ -1,0 +1,505 @@
+{
+ "batch": "PC002",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\PC002.json",
+ "articles": [
+  {
+   "pmcid": "PMC6756578",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC6756578.txt",
+   "issues": [
+    {
+     "issue": "PMC6756578:keys:micrograph",
+     "only_in_A": "",
+     "only_in_B": "SEM|nanoparticle_loaded",
+     "A_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "N-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 79.66,
+        "size_sd_nm": 19.13,
+        "n_particles_measured": null,
+        "morphology": "single, spherically shaped unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "TEM size measurements indicate an average diameter of 79.66±19.13 nm and 146.83±18.51 nm for N-Phsoms and P-Phsoms, respectively",
+       "location": "Results > Morphological assessment using TEM and SEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "P-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 146.83,
+        "size_sd_nm": 18.51,
+        "n_particles_measured": null,
+        "morphology": "single, spherically shaped unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "TEM size measurements indicate an average diameter of 79.66±19.13 nm and 146.83±18.51 nm for N-Phsoms and P-Phsoms, respectively",
+       "location": "Results > Morphological assessment using TEM and SEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "NLCs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 194.83,
+        "size_sd_nm": 18.89,
+        "n_particles_measured": null,
+        "morphology": "almost spherical with dark colored core"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "NLCs and AlgNPs recorded a diameter of 194.83±18.89 nm and 103.33±20.07 nm, respectively",
+       "location": "Results > Morphological assessment using TEM and SEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "AlgNPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 103.33,
+        "size_sd_nm": 20.07,
+        "n_particles_measured": null,
+        "morphology": null
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "NLCs and AlgNPs recorded a diameter of 194.83±18.89 nm and 103.33±20.07 nm, respectively",
+       "location": "Results > Morphological assessment using TEM and SEM"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "N-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 79.66,
+        "size_sd_nm": 19.13,
+        "morphology": "spherical unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "TEM size measurements indicate an average diameter of 79.66±19.13 nm and 146.83±18.51 nm for N-Phsoms and P-Phsoms, respectively.",
+       "location": "Results > Morphological assessment; Fig. 1A"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "P-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 146.83,
+        "size_sd_nm": 18.51,
+        "morphology": "spherical unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "TEM size measurements indicate an average diameter of 79.66±19.13 nm and 146.83±18.51 nm for N-Phsoms and P-Phsoms, respectively.",
+       "location": "Results > Morphological assessment; Fig. 1A"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "NLCs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 194.83,
+        "size_sd_nm": 18.89,
+        "morphology": "almost spherical with dark core"
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "NLCs and AlgNPs recorded a diameter of 194.83±18.89 nm and 103.33±20.07 nm, respectively.",
+       "location": "Results > Morphological assessment; Fig. 1A"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "AlgNPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 103.33,
+        "size_sd_nm": 20.07,
+        "morphology": null
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "NLCs and AlgNPs recorded a diameter of 194.83±18.89 nm and 103.33±20.07 nm, respectively.",
+       "location": "Results > Morphological assessment; Fig. 1A"
+      },
+      {
+       "variant": "SEM",
+       "sample": "N-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "While SEM images were at 7500× magnification power and scale bar is 1 µm.",
+       "location": "Fig. 1 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "P-Phsoms",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical unilamellar vesicles"
+       },
+       "conditions": {
+        "prep_state": "not_declared (method in Supplementary material)",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "While SEM images were at 7500× magnification power and scale bar is 1 µm.",
+       "location": "Fig. 1 caption"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC12526564",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC12526564.txt",
+   "issues": [
+    {
+     "issue": "PMC12526564:keys:micrograph",
+     "only_in_A": "",
+     "only_in_B": "SEM|process_intermediate",
+     "A_rows": [
+      {
+       "variant": "SEM",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 150,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "well-dispersed spherical particles (text also says cube-like and sheet-like)"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "visualized via SEM and TEM as well-dispersed spherical particles with an average diameter of ~150 nm",
+       "location": "Results > 3.2 P-CaO2-Au@OVA@Cu@DHPs Synthesis and Characterization"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 150,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "well-dispersed spherical particles"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "visualized via SEM and TEM as well-dispersed spherical particles with an average diameter of ~150 nm",
+       "location": "Results > 3.2 P-CaO2-Au@OVA@Cu@DHPs Synthesis and Characterization"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "SEM",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": "~150",
+        "morphology": "spherical, slightly rough, sheet-like features"
+       },
+       "conditions": {
+        "prep_state": null,
+        "scale_bar_present": null,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "visualized via SEM and TEM as well-dispersed spherical particles with an average diameter of ~150 nm (Figure 2B,C)",
+       "location": "Results > 3.2; Fig. 2B caption"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": "~150",
+        "morphology": "spherical, slightly rough, sheet-like features"
+       },
+       "conditions": {
+        "prep_state": null,
+        "scale_bar_present": null,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "visualized via SEM and TEM as well-dispersed spherical particles with an average diameter of ~150 nm (Figure 2B,C)",
+       "location": "Results > 3.2; Fig. 2C caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "CaO2-Au@OVA@Cu@DHPs",
+       "identity": "process_intermediate",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "somewhat cube-like, slightly rough (DHP/OVA-encapsulated particles)"
+       },
+       "conditions": {
+        "prep_state": null,
+        "scale_bar_present": null,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "SEM and TEM were used to visualize Cu@DHPs, Au@OVA@Cu@DHPs, CaO2-Au@OVA@Cu@DHPs, and P-CaO2-Au@OVA@Cu@DHPs NPs.",
+       "location": "Fig. 2 caption (B,C)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC12526564:keys:DLS",
+     "only_in_A": "nanoparticle_loaded|nd",
+     "only_in_B": "",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 157.2,
+        "size_sd_nm": 2.21,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:aqueous solution (unspecified)",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "P-CaO2-Au@OVA@Cu@DHPs NPs were slightly larger than CaO2-Au@OVA@Cu@DHPs particles, with an average diameter of 157.2 ± 2.21 nm",
+       "location": "Results > 3.2 P-CaO2-Au@OVA@Cu@DHPs Synthesis and Characterization"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 186.2,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer Nano ZS",
+        "storage": "4 °C, day 28"
+       },
+       "quote": "P-CaO2-Au@OVA@Cu@DHPs NP particles exhibited diameters that rose to 186.2 nm from 172.5 nm on day 28",
+       "location": "Results > 3.3 Nanoparticle Stability Analyses"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "P-CaO2-Au@OVA@Cu@DHPs NPs",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 157.2,
+        "size_sd_nm": 2.21,
+        "pdi": "<0.3",
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "other:aqueous solution",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Zetasizer Nano ZS (Hydro2000Mu)"
+       },
+       "quote": "with an average diameter of 157.2 ± 2.21 nm. These samples exhibited PDI values below 0.3",
+       "location": "Results > 3.2; Fig. 2F caption"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11125159",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11125159.txt",
+   "issues": [
+    {
+     "issue": "PMC11125159:keys:zeta",
+     "only_in_A": "nanoparticle_empty|buffer:other1mmkcl|pHy|nanoparticle_loaded|buffer:other1mmkcl|pHy",
+     "only_in_B": "nanoparticle_empty|buffer:other1mmkclaqueousso|pHy|nanoparticle_loaded|buffer:other1mmkclaqueousso|pHy",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Z-ERS-CS",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 40.5,
+        "zeta_sd_mV": 2.6
+       },
+       "conditions": {
+        "medium": "other:1 mM KCl",
+        "pH": 4.5,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer (ZS-Malvern)"
+       },
+       "quote": "Z-ERS-CS | 225.9 ± 11.7 a | 0.070 ± 0.015 a | +40.5 ± 2.6 a | -",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Z-ERS-CS/LIRA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 40.9,
+        "zeta_sd_mV": 3.6
+       },
+       "conditions": {
+        "medium": "other:1 mM KCl",
+        "pH": 4.5,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer (ZS-Malvern)"
+       },
+       "quote": "Z-ERS-CS/LIRA | 238.6 ± 10.2 a | 0.099 ± 0.026 a | +40.9 ± 3.6 a | 41.1 ± 2.6",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "Z-ERS-CS",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 40.5,
+        "zeta_sd_mV": 2.6
+       },
+       "conditions": {
+        "medium": "other:1 mM KCl aqueous solution (1:100 dilution)",
+        "pH": 4.5,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "ZetaSizer (ZS-Malvern)"
+       },
+       "quote": "Z-ERS-CS | 225.9 ± 11.7 a | 0.070 ± 0.015 a | +40.5 ± 2.6 a | -",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "Z-ERS-CS/LIRA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 40.9,
+        "zeta_sd_mV": 3.6
+       },
+       "conditions": {
+        "medium": "other:1 mM KCl aqueous solution (1:100 dilution)",
+        "pH": 4.5,
+        "ionic_strength": "1 mM KCl",
+        "model": "not_declared",
+        "instrument": "ZetaSizer (ZS-Malvern)"
+       },
+       "quote": "Z-ERS-CS/LIRA | 238.6 ± 10.2 a | 0.099 ± 0.026 a | +40.9 ± 3.6 a | 41.1 ± 2.6",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

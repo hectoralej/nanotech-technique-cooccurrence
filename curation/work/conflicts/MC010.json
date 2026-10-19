@@ -1,0 +1,601 @@
+{
+ "batch": "MC010",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC010.json",
+ "articles": [
+  {
+   "pmcid": "PMC13028882",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13028882.txt",
+   "issues": [
+    {
+     "issue": "PMC13028882:gate:zeta",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -26.39,
+        "zeta_sd_mV": 4.14
+       },
+       "conditions": {
+        "medium": "other:ultrapure distilled water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -29.88,
+        "zeta_sd_mV": 5.62
+       },
+       "conditions": {
+        "medium": "other:ultrapure distilled water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.72,
+        "zeta_sd_mV": 7.64
+       },
+       "conditions": {
+        "medium": "other:ultrapure distilled water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -25.69,
+        "zeta_sd_mV": 7.98
+       },
+       "conditions": {
+        "medium": "other:ultrapure distilled water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -26.39,
+        "zeta_sd_mV": 4.14
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -29.88,
+        "zeta_sd_mV": 5.62
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -23.72,
+        "zeta_sd_mV": 7.64
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "HPSL-4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -25.69,
+        "zeta_sd_mV": 7.98
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZS"
+       },
+       "quote": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98",
+       "location": "Table 3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC12281419",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC12281419.txt",
+   "issues": [
+    {
+     "issue": "PMC12281419:gate:micro",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "mPEG-Mn0.6Zn0.4Fe2O4",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {},
+       "conditions": {
+        "prep_state": null,
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100F",
+        "n_images": null
+       },
+       "quote": "(A) Transmission electron microscope image of the mPEG-Mn0.6Zn0.4Fe2O4.",
+       "location": "Fig. 3 caption"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "mPEG-Mn0.6Zn0.4Fe2O4",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "nano-thin amorphous silica layer encapsulating core nanoparticles"
+       },
+       "conditions": {
+        "prep_state": "0.01 mg/mL in ethanol, drop-cast on Formvar-carbon Cu grid, ethanol evaporated; no stain mentioned",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-2100F, 200 kV",
+        "n_images": null
+       },
+       "quote": "(A) Transmission electron microscope image of the mPEG-Mn0.6Zn0.4Fe2O4.",
+       "location": "Fig. 3 caption"
+      }
+     ]
+    },
+    {
+     "issue": "PMC12281419:gate:dls",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "SiO2-coated Mn0.6Zn0.4Fe2O4",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 184,
+        "size_sd_nm": 8
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Litesizer 500"
+       },
+       "quote": "Mn0.6Zn0.4Fe2O4 | 15.5 | 52.0 | 184 ± 8 | −34 ± 2",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "silica-coated gamma-Fe2O3",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 185,
+        "size_sd_nm": 5
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL from 10 mg/mL stock",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "γ-Fe2O3 | 16.2 | 46.5 | 185 ± 5 | −53 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Mn0.25Fe2.75O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 176,
+        "size_sd_nm": 2
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL from 10 mg/mL stock",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "Mn0.25Fe2.75O4 | 13.0 | 52.1 | 176 ± 2 | −37 ± 1",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Zn0.4Fe2.6O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 174,
+        "size_sd_nm": 5
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL from 10 mg/mL stock",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "Zn0.4Fe2.6O4 | 16.0 | 47.1 | 174 ± 5 | −35 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Mn0.6Zn0.4Fe2O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 184,
+        "size_sd_nm": 8
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL from 10 mg/mL stock",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "Mn0.6Zn0.4Fe2O4 | 15.5 | 52.0 | 184 ± 8 | −34 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "Gd0.225Zn0.4Fe2.375O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 187,
+        "size_sd_nm": 4
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL from 10 mg/mL stock",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "Gd0.225Zn0.4Fe2.375O4 | 15.8 | 38.7 | 187 ± 4 | −21 ± 1",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "mPEG-Mn0.6Zn0.4Fe2O4",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_range_nm": "200-300 (first 4 h), >1000 after 24 h"
+       },
+       "conditions": {
+        "medium": "culture_medium",
+        "temperature_C": 37,
+        "angle_deg": "backscatter",
+        "dilution": "1 mg/mL",
+        "instrument": "Litesizer 500 (Anton Paar)"
+       },
+       "quote": "the hydrodynamic diameter of mPEGylated Mn0.6Zn0.4Fe2O4 in cell culture medium was 200–300 nm during the first 4 hours of incubation",
+       "location": "Results > Nanoparticle surface mPEGylation"
+      }
+     ]
+    },
+    {
+     "issue": "PMC12281419:gate:zeta",
+     "A_says": true,
+     "B_says": false,
+     "A_rows": [
+      {
+       "variant": "ELS",
+       "sample": "SiO2-coated Mn0.6Zn0.4Fe2O4",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -34,
+        "zeta_sd_mV": 2
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500"
+       },
+       "quote": "Mn0.6Zn0.4Fe2O4 | 15.5 | 52.0 | 184 ± 8 | −34 ± 2",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "silica-coated gamma-Fe2O3",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -53,
+        "zeta_sd_mV": 2
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500 (Anton Paar), 37 C, 1 mg/mL"
+       },
+       "quote": "γ-Fe2O3 | 16.2 | 46.5 | 185 ± 5 | −53 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Mn0.25Fe2.75O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -37,
+        "zeta_sd_mV": 1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500 (Anton Paar), 37 C, 1 mg/mL"
+       },
+       "quote": "Mn0.25Fe2.75O4 | 13.0 | 52.1 | 176 ± 2 | −37 ± 1",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Zn0.4Fe2.6O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -35,
+        "zeta_sd_mV": 2
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500 (Anton Paar), 37 C, 1 mg/mL"
+       },
+       "quote": "Zn0.4Fe2.6O4 | 16.0 | 47.1 | 174 ± 5 | −35 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Mn0.6Zn0.4Fe2O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -34,
+        "zeta_sd_mV": 2
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500 (Anton Paar), 37 C, 1 mg/mL"
+       },
+       "quote": "Mn0.6Zn0.4Fe2O4 | 15.5 | 52.0 | 184 ± 8 | −34 ± 2",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "Gd0.225Zn0.4Fe2.375O4",
+       "identity": "unclear",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -21,
+        "zeta_sd_mV": 1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Litesizer 500 (Anton Paar), 37 C, 1 mg/mL"
+       },
+       "quote": "Gd0.225Zn0.4Fe2.375O4 | 15.8 | 38.7 | 187 ± 4 | −21 ± 1",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11496629",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11496629.txt",
+   "issues": [
+    {
+     "issue": "PMC11496629:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "LNP",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "single particles and multi-lamellar structures (heterogeneous)"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-F200",
+        "n_images": null
+       },
+       "quote": "Representative TEM images of LNP.",
+       "location": "Fig. 2 caption (n)"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "LNPi",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "SI_only",
+       "link": "inferred",
+       "values": {
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null,
+        "morphology": "single particles and particles made of distinct subunits"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-F200",
+        "n_images": null
+       },
+       "quote": "TEM clarifies that LNPi comprises both single particles (Supplementary Fig. 3d)",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "LNP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": "50-100",
+        "morphology": "individual multilamellar particles, some multilamellar structures"
+       },
+       "conditions": {
+        "prep_state": "negative stain 2% uranyl acetate, dried in air",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-F200, 200 kV",
+        "n_images": null
+       },
+       "quote": "LNPs predominantly appear as individual particles with sizes ranging between 50 nm and 100 nm",
+       "location": "Results > Synthesis and physical-chemical characterization of LNPs"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "LNPi",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "single particles and polylobate particles of distinct subunits"
+       },
+       "conditions": {
+        "prep_state": "negative stain 2% uranyl acetate, dried in air",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-F200, 200 kV",
+        "n_images": null
+       },
+       "quote": "o Representative TEM images of LNPi.",
+       "location": "Fig. 2 caption"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

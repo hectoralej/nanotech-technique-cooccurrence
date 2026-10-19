@@ -1,0 +1,10 @@
+step,entran,salen,quedan
+procesados (muestra + tendencia),2396,0,2396
+fuera de alcance (tipo de articulo / sin texto),2396,123,2273
+familia AAV,2273,329,1944
+virus / vector viral / VLP / fago en titulo o resumen,1944,43,1901
+sin senal de micrografia (TEM/cryo/STEM/SEM),1901,737,1164
+sin senal de DLS,1164,302,862
+sin senal de zeta,862,96,766
+candidatos para extraccion con LLM,766,0,766
+"  de ellos con senal de PCR (se marcan, no se excluyen)",124,0,766

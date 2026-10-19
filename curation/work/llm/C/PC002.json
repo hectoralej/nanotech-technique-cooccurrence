@@ -1,0 +1,52 @@
+{
+  "batch": "PC002",
+  "articles": [
+    {
+      "pmcid": "PMC6756578",
+      "decisions": [
+        {
+          "issue": "PMC6756578:keys:micrograph",
+          "decision": "B",
+          "final": {"value": null, "identity": "nanoparticle_loaded", "variant": "SEM", "medium": null},
+          "quote": "TEM and SEM images of different ETD nanoformulations; (a) N-Phsoms, (b) P-Phsoms, (c) NLCs, and (d) AlgNPs.",
+          "location": "Fig. 1 caption",
+          "reason": "Fig. 1A includes SEM images of the ETD-loaded nanoformulations (1 um scale bar), so an SEM variant row for loaded particles is supported; A omitted it."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12526564",
+      "decisions": [
+        {
+          "issue": "PMC12526564:keys:micrograph",
+          "decision": "B",
+          "final": {"value": null, "identity": "process_intermediate", "variant": "SEM", "medium": null},
+          "quote": "SEM (B) and TEM (C) were used to visualize Cu@DHPs, Au@OVA@Cu@DHPs, CaO2-Au@OVA@Cu@DHPs, and P-CaO2-Au@OVA@Cu@DHPs NPs.",
+          "location": "Fig. 2 caption (B,C)",
+          "reason": "SEM panel also shows CaO2-Au@OVA@Cu@DHPs, a precursor of the final NP; text describes its somewhat cube-like morphology. Intermediate SEM row is supported."
+        },
+        {
+          "issue": "PMC12526564:keys:DLS",
+          "decision": "B",
+          "final": {"value": null, "identity": "nanoparticle_loaded", "variant": "size_unspecified", "medium": "other:aqueous solution"},
+          "quote": "The size and PDI of P-CaO2-Au@OVA@Cu@DHPs NPs in an aqueous solution were assessed via DLS.",
+          "location": "Fig. 2 caption (F)",
+          "reason": "Only the 157.2 nm measurement has a stated medium. The day-28 stability size (186.2 nm) has no medium stated (medio_no_declarado), so A's extra nd row is not useful."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11125159",
+      "decisions": [
+        {
+          "issue": "PMC11125159:keys:zeta",
+          "decision": "B",
+          "final": {"value": null, "identity": null, "variant": "unspecified", "medium": "other:1 mM KCl aqueous solution"},
+          "quote": "The samples were diluted (1:100) in a 1 mM KCl aqueous solution and placed in the electrophoretic cell",
+          "location": "Methods > 2.3.1 Mean Size, Polydispersity Index and Zeta Potential Analysis",
+          "reason": "Both passes agree on medium (1 mM KCl, pH ~4.5) and identities (empty and loaded); they differ only in label wording. B's wording matches the Methods text."
+        }
+      ]
+    }
+  ]
+}

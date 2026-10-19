@@ -1,0 +1,60 @@
+{
+ "batch": "MC010",
+ "articles": [
+  {
+   "pmcid": "PMC13028882",
+   "decisions": [
+    {
+     "issue": "PMC13028882:gate:zeta",
+     "decision": "B",
+     "final": {"value": false, "identity": null, "variant": null, "medium": "not_declared"},
+     "quote": "Ultrapure distilled water was used to find the hydrodynamic size of HPSL nano-gel.",
+     "location": "Methods > 2.4. Assessing Hydrodynamic Dimension and Zeta Potential",
+     "reason": "medium_no_declarado: water is stated only for hydrodynamic size; the zeta potential sentence gives instrument but no medium or pH."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC12281419",
+   "decisions": [
+    {
+     "issue": "PMC12281419:gate:micro",
+     "decision": "A",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "(A) Transmission electron microscope image of the mPEG-Mn0.6Zn0.4Fe2O4.",
+     "location": "Fig. 3 caption",
+     "reason": "Fig. 3A is a TEM panel of the mPEGylated nanoparticle itself, explicitly named; technique and formulation identifiable."
+    },
+    {
+     "issue": "PMC12281419:gate:dls",
+     "decision": "A",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+     "quote": "aHydrodynamic diameter was measured at 1 mg mL−1 in H2O.",
+     "location": "Table 1 footnote",
+     "reason": "Numeric hydrodynamic diameters for named SPION samples with medium (H2O) stated; B's gate=false is wrong."
+    },
+    {
+     "issue": "PMC12281419:gate:zeta",
+     "decision": "A",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+     "quote": "The zeta potential was measured in MilliQ water (1 mg mL−1) at 37 °C by electrophoretic light scattering (ELS)",
+     "location": "Methods > Nanoparticle characterization",
+     "reason": "Numeric zeta values in Table 1 for named samples with medium (MilliQ water) stated."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11496629",
+   "decisions": [
+    {
+     "issue": "PMC11496629:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": "TEM_negstain", "medium": null},
+     "quote": "n Representative TEM images of LNP. o Representative TEM images of LNPi.",
+     "location": "Fig. 2 caption",
+     "reason": "Main-figure TEM panels of the LNP and LNPi carriers; Methods state 2% uranyl acetate negative stain, so technique/variant identifiable."
+    }
+   ]
+  }
+ ]
+}

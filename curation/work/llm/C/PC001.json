@@ -1,0 +1,60 @@
+{
+ "batch": "PC001",
+ "articles": [
+  {
+   "pmcid": "PMC9177731",
+   "decisions": [
+    {
+     "issue": "PMC9177731:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "LNPs were diluted 100 times in PBS and added to a µ-cuvette.",
+     "location": "Methods > Measurements of nanoparticle size, polydispersity and zeta potential",
+     "reason": "Numeric size (~100 nm plateau, PDI 7%) for pDNA LNPs with PBS medium stated in Methods; identifiable loaded sample, so DLS is useful."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11644305",
+   "decisions": [
+    {
+     "issue": "PMC11644305:keys:micrograph",
+     "decision": "A",
+     "final": {"value": null, "identity": "nanoparticle_empty", "variant": "TEM_prep_not_declared", "medium": null},
+     "quote": "TEM micrographs of the SLNPs. (A) H2O-SLNPs, (B) H2O-PLL-SLNPs, (C) GBE-SLNPs, (D) GBE-PLL-SLNPs. Scale bar = 200 nm.",
+     "location": "Fig. 3 caption",
+     "reason": "Fig. 3 SLNPs have no siRNA cargo (empty carriers, GBE is a formulation component); no drying or stain step is described, so TEM_dried_unstained is unsupported."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9364311",
+   "decisions": [
+    {
+     "issue": "PMC9364311:keys:micrograph",
+     "decision": "A",
+     "final": {"value": null, "identity": "nanoparticle_loaded", "variant": "SEM", "medium": null},
+     "quote": "a proper amount of freeze-dried Man-LPHFNPs@Roflumilast was added (0.5 wt/v% concentration)",
+     "location": "Methods > Preparation and Characterization of NiM Formulations",
+     "reason": "NiM is built from drug-loaded Man-LPHFNPs@Roflumilast and imaged by SEM (Fig. 8); sample is the loaded formulation, not unclear."
+    },
+    {
+     "issue": "PMC9364311:keys:DLS",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "z_average", "medium": "other:10 mM NaCl aqueous solution"},
+     "quote": "we carried out a DLS analysis in a 10 mM NaCl solution on freeze-dried samples.",
+     "location": "Results and Discussion; Table 2 (After Freeze-Drying/NaCl 10 mM); Table 1 medium not stated",
+     "reason": "Salt medium is 10 mM NaCl aqueous solution; Table 1 FNPs have no stated medium (not_declared), which only B recorded. Table 2 rows use water or NaCl."
+    },
+    {
+     "issue": "PMC9364311:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "ELS", "medium": "other:10 mM NaCl aqueous solution"},
+     "quote": "Zeta potential measurements were performed by electrophoresis measurements, in bidistilled water or 10 mM NaCl aqueous solution, at 25 °C using the same apparatus.",
+     "location": "Methods > Dimensional Analysis and ζ-Potential Measurements; Table 1 and Table 2",
+     "reason": "Electrophoretic (ELS) measurement; Table 2 rows are water or 10 mM NaCl aqueous; Table 1 FNPs zeta has no stated medium or pH, so not_declared."
+    }
+   ]
+  }
+ ]
+}

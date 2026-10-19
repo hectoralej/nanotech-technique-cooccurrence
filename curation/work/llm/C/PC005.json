@@ -1,0 +1,55 @@
+{
+ "batch": "PC005",
+ "articles": [
+  {
+   "pmcid": "PMC7558427",
+   "decisions": [
+    {
+     "issue": "PMC7558427:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+     "quote": "The measurements were performed for at least 10 determinations for each sample diluted at 1:50 (v/v) with purified water.",
+     "location": "Methods > 2.3.1 Particle Size and Zeta Potential Measurements",
+     "reason": "Methods state DLS samples were diluted 1:50 in purified water; Table 1 gives numeric sizes for blank and loaded SLN, so the medium is stated."
+    },
+    {
+     "issue": "PMC7558427:keys:DLS",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "size_unspecified", "medium": "water"},
+     "quote": "sample diluted at 1:50 (v/v) with purified water",
+     "location": "Methods > 2.3.1",
+     "reason": "Medium is purified water for all four samples (SLN-B and three loaded SLN); A's not_declared missed the Methods statement."
+    },
+    {
+     "issue": "PMC7558427:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "ELS", "medium": "water"},
+     "quote": "Zeta potential (ζ potential) measurements were performed in the same equipment through applying a field strength of about 5.9 V·cm−1",
+     "location": "Methods > 2.3.1",
+     "reason": "Zeta measured on the same samples diluted 1:50 in purified water; medium is water (B), not a separate other:purified water category."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9146667",
+   "decisions": [
+    {
+     "issue": "PMC9146667:keys:DLS",
+     "decision": "both",
+     "final": {"value": null, "identity": null, "variant": "z_average", "medium": "other:aqueous diluted 1:20 v/v"},
+     "quote": "on aqueous diluted liposome samples (1:20 by volume)",
+     "location": "Methods > 3.2 Liposomes Preparation and Characterization",
+     "reason": "A and B differ only in label wording; packet says only 'aqueous diluted' 1:20, diluent not specified as water, so other:aqueous is correct."
+    },
+    {
+     "issue": "PMC9146667:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": "unspecified", "medium": "water"},
+     "quote": "diluted in disposable capillary cells (DTS 1080, Malvern) with deionized water (1:20 v/v)",
+     "location": "Methods > 3.2 Liposomes Preparation and Characterization",
+     "reason": "Zeta samples diluted 1:20 in deionized water, which is water; B's normalized medium is correct."
+    }
+   ]
+  }
+ ]
+}

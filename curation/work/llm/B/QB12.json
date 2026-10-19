@@ -1,0 +1,359 @@
+{
+"pass": "B",
+"batch": "QB12",
+"articles": [
+{
+"pmcid": "PMC11376094",
+"context": {
+"summary": "Ionizable-lipid nanoparticles (DSPC, DMG-PEG, cholesterol) built on OleSurf, a surfactin-oleylamine lipopeptide, encapsulating firefly luciferase mRNA; compared with MC3 and Lipofectamine 2000 for size, transfection, endosomal escape, biodistribution and safety.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "LNP",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "OleSurf LNP", "identity": "nanoparticle_loaded", "composition": "OleSurf/DSPC/DMG-PEG/cholesterol molar ratio 50:15:30:2 with Fluc mRNA", "formulation_defined_in": "text"},
+{"id": "S2", "name": "MC3 LNP", "identity": "nanoparticle_loaded", "composition": "DLin-MC3-DMA based LNP with Fluc mRNA (same lipid ratio stated generally)", "formulation_defined_in": "text"},
+{"id": "S3", "name": "LP2000", "identity": "nanoparticle_loaded", "composition": "Lipofectamine 2000 with mRNA; composition not given", "formulation_defined_in": "not_defined"},
+{"id": "S4", "name": "OleSurf lipopeptide", "identity": "pure_component", "composition": "surfactin amidated with oleylamine", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "cryoTEM", "measurand": "morphology of mRNA OleSurf LNPs", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "figure_panel",
+"values": {"morphology": "bleb structures"},
+"conditions": {"prep_state": "vitrified (Vitrobot, plunge-frozen in ethane/propane)", "scale_bar_present": null, "instrument": "FEI Titan Krios 300 kV", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "The cryo-TEM image revealed the presence of bleb structures", "location": "Results > Synthesis and preparation of OleSurf LNPs; Fig. 4B caption"},
+"confidence": "alta"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+"values": {"zeta_mV": 1.3, "zeta_sd_mV": 0.7},
+"conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "not_declared"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "OleSurf | 84.91 ± 6.24 | 0.102 ± 0.025 | +1.3 ± 0.7 | 90.51 ± 3.7", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+"values": {"zeta_mV": 5.14, "zeta_sd_mV": 1.6},
+"conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "not_declared"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "MC3 | 71.61 ± 5.52 | 0.074 ± 0.029 | +5.14 ± 1.6 | 92.35 ± 2.1", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization",
+"sample_id": "S3", "formulation_link": {"where": "table", "confidence": "paper_level"}, "shown_as": "table",
+"values": {"zeta_mV": -2.05, "zeta_sd_mV": 1.4},
+"conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "not_declared"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "LP2000 | 227.12 ± 11.05 | 0.218 ± 0.103 | −2.05 ± 1.4 | 88.38 ± 4.8", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI (methods say hydrodynamic radius)", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+"values": {"size_nm": 84.91, "size_sd_nm": 6.24, "pdi": 0.102, "pdi_sd": 0.025},
+"conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer-S 3600"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "OleSurf | 84.91 ± 6.24 | 0.102 ± 0.025 | +1.3 ± 0.7 | 90.51 ± 3.7", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "table", "confidence": "inferred"}, "shown_as": "table",
+"values": {"size_nm": 71.61, "size_sd_nm": 5.52, "pdi": 0.074, "pdi_sd": 0.029},
+"conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer-S 3600"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "MC3 | 71.61 ± 5.52 | 0.074 ± 0.029 | +5.14 ± 1.6 | 92.35 ± 2.1", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size and PDI", "assay_purpose": "particle characterization",
+"sample_id": "S3", "formulation_link": {"where": "table", "confidence": "paper_level"}, "shown_as": "table",
+"values": {"size_nm": 227.12, "size_sd_nm": 11.05, "pdi": 0.218, "pdi_sd": 0.103},
+"conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer-S 3600"},
+"n_replicates": 3, "quality_flags": ["medio_no_declarado"],
+"evidence": {"quote": "LP2000 | 227.12 ± 11.05 | 0.218 ± 0.103 | −2.05 ± 1.4 | 88.38 ± 4.8", "location": "Table 1"},
+"confidence": "media"
+},
+{
+"technique": "NMR", "variant": "NMR", "measurand": "1H NMR spectrum of surfactin and OleSurf", "assay_purpose": "structure confirmation of synthesized lipopeptide",
+"sample_id": "S4", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "figure_panel",
+"values": {"regions_ppm": "amide 6.5-10; alpha-C 3.5-5.5; side chain 0.25-3.0"},
+"conditions": {"instrument": "Bruker 300 MHz", "internal_standard": "TMS"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "1H nuclear magnetic resonance (NMR) spectrum of (A) surfactin (B) Olesurf.", "location": "Fig. 3 caption"},
+"confidence": "alta"
+}
+],
+"si_mentions": [],
+"notes": "Table 1 zeta column header carries only a reference marker (no unit or medium); stability data in Table S1 not packeted."
+},
+{
+"pmcid": "PMC6321505",
+"context": {
+"summary": "Lecithin/cholesterol lipid nanoparticles coated with lipophilic stearoyl-chitosan, prepared by microemulsion cold dilution and loaded with curcumin; characterized for size, zeta, entrapment, release, cytotoxicity and rat biodistribution.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "PLN",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "NP-1", "identity": "nanoparticle_empty", "composition": "from uE1: s-BL, CHOL, BA, ST-CS, Epikuron200, TC, PEG400, s-water", "formulation_defined_in": "table"},
+{"id": "S2", "name": "NP-2", "identity": "nanoparticle_empty", "composition": "from uE2 (Table 1)", "formulation_defined_in": "table"},
+{"id": "S3", "name": "NP-3", "identity": "nanoparticle_empty", "composition": "from uE3 (Table 1)", "formulation_defined_in": "table"},
+{"id": "S4", "name": "NP-4", "identity": "nanoparticle_empty", "composition": "from uE4: Epikuron200, TC, Cremophor RH60, ST-CS, CHOL (Table 1)", "formulation_defined_in": "table"},
+{"id": "S5", "name": "NP-5", "identity": "nanoparticle_empty", "composition": "from uE5 (Table 1)", "formulation_defined_in": "table"},
+{"id": "S6", "name": "CURC-NP-6", "identity": "nanoparticle_loaded", "composition": "uE6 plus 5 mg curcumin", "formulation_defined_in": "table"},
+{"id": "S7", "name": "CURC-NP-7", "identity": "nanoparticle_loaded", "composition": "uE7 plus 5 mg curcumin", "formulation_defined_in": "table"},
+{"id": "S8", "name": "CURC-NP-8", "identity": "nanoparticle_loaded", "composition": "uE8 plus 5 mg curcumin", "formulation_defined_in": "table"},
+{"id": "S9", "name": "CURC-NP-9", "identity": "nanoparticle_loaded", "composition": "uE9 plus 5 mg curcumin", "formulation_defined_in": "table"},
+{"id": "S10", "name": "CURC-NP-10", "identity": "nanoparticle_loaded", "composition": "uE10 plus 5 mg curcumin", "formulation_defined_in": "table"},
+{"id": "S11", "name": "NPs (without ST-CS coating)", "identity": "nanoparticle_empty", "composition": "uncoated lipid NP; composition not tabulated", "formulation_defined_in": "not_defined"},
+{"id": "S12", "name": "ST-CS", "identity": "pure_component", "composition": "stearoyl chitosan powder (freeze-dried)", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "SEM", "measurand": "shape and surface of NP-4", "assay_purpose": "particle characterization",
+"sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "spherical, smooth surface, bright contour attributed to ST-CS"},
+"conditions": {"prep_state": "filtered on 220 nm membrane, washed, vacuum dried, graphite sputter coated", "scale_bar_present": null, "instrument": "Leica Stereoscan 410", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "Spherical shape and smooth surface were observed at 20000× magnification and a bright contour probably due to ST-CS", "location": "Results; Figure 4 caption"},
+"confidence": "alta"
+},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.21, "zeta_sd_mV": 0.41}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "NP-1 | 221.8 ± 1.1 | 0.170 | +2.21 ± 0.41 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.11, "zeta_sd_mV": 0.32}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "NP-2 | 245.9 ± 1.7 | 0.200 | +2.11 ± 0.32 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.14, "zeta_sd_mV": 0.35}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "NP-3 | 253.5 ± 1.4 | 0.210 | +2.14 ± 0.35 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.09, "zeta_sd_mV": 0.46}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "NP-4 | 198.3 ± 1.1 | 0.090 | +2.09 ± 0.46 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 1.89, "zeta_sd_mV": 0.24}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "NP-5 | 200.3 ± 1.6 | 0.101 | +1.89 ± 0.24 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.24, "zeta_sd_mV": 0.42}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "CURC-NP-6 | 290.9 ± 2.1 | 0.180 | +2.24 ± 0.42 | 50.7 ± 0.3", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.31, "zeta_sd_mV": 0.22}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "CURC-NP-7 | 330.6 ± 1.9 | 0.190 | +2.31 ± 0.22 | 40.4 ± 0.6", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 1.95, "zeta_sd_mV": 0.36}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "CURC-NP-8 | 390.8 ± 2.1 | 0.250 | +1.95 ± 0.36 | 33.2 ± 0.4", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S9", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.10, "zeta_sd_mV": 0.51}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "CURC-NP-9 | 190.6 ± 1.5 | 0.170 | +2.10 ± 0.51 | 73.4 ± 0.3", "location": "Table 2"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S10", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 2.65, "zeta_sd_mV": 0.54}, "conditions": {"medium": "other:0.01 M KCl", "pH": null, "ionic_strength": "0.01 M KCl", "model": "not_declared", "instrument": "Brookhaven (LLS)"}, "n_replicates": null, "quality_flags": ["sin_replicas"], "evidence": {"quote": "CURC-NP-10 | 211.9 ± 1.5 | 0.160 | +2.65 ± 0.54 | 60.6 ± 0.5", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 221.8, "size_sd_nm": 1.1, "pdi": 0.170}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "NP-1 | 221.8 ± 1.1 | 0.170 | +2.21 ± 0.41 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 245.9, "size_sd_nm": 1.7, "pdi": 0.200}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "NP-2 | 245.9 ± 1.7 | 0.200 | +2.11 ± 0.32 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 253.5, "size_sd_nm": 1.4, "pdi": 0.210}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "NP-3 | 253.5 ± 1.4 | 0.210 | +2.14 ± 0.35 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 198.3, "size_sd_nm": 1.1, "pdi": 0.090}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "NP-4 | 198.3 ± 1.1 | 0.090 | +2.09 ± 0.46 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 200.3, "size_sd_nm": 1.6, "pdi": 0.101}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "NP-5 | 200.3 ± 1.6 | 0.101 | +1.89 ± 0.24 | -", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 290.9, "size_sd_nm": 2.1, "pdi": 0.180}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "CURC-NP-6 | 290.9 ± 2.1 | 0.180 | +2.24 ± 0.42 | 50.7 ± 0.3", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 330.6, "size_sd_nm": 1.9, "pdi": 0.190}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "CURC-NP-7 | 330.6 ± 1.9 | 0.190 | +2.31 ± 0.22 | 40.4 ± 0.6", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 390.8, "size_sd_nm": 2.1, "pdi": 0.250}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "CURC-NP-8 | 390.8 ± 2.1 | 0.250 | +1.95 ± 0.36 | 33.2 ± 0.4", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S9", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 190.6, "size_sd_nm": 1.5, "pdi": 0.170}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "CURC-NP-9 | 190.6 ± 1.5 | 0.170 | +2.10 ± 0.51 | 73.4 ± 0.3", "location": "Table 2"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "mean diameter and polydispersity (laser light scattering, intensity method)", "assay_purpose": "particle characterization", "sample_id": "S10", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 211.9, "size_sd_nm": 1.5, "pdi": 0.160}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": 90, "dilution": "diluted with water", "instrument": "Brookhaven LLS"}, "n_replicates": null, "quality_flags": ["tamano_sin_n"], "evidence": {"quote": "CURC-NP-10 | 211.9 ± 1.5 | 0.160 | +2.65 ± 0.54 | 60.6 ± 0.5", "location": "Table 2"}, "confidence": "media"},
+{
+"technique": "Raman", "variant": "Raman", "measurand": "Raman spectrum of uncoated NPs", "assay_purpose": "general composition information",
+"sample_id": "S11", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "raw_curve",
+"values": {"features": "aliphatic CH stretching and bending, C-C stretching"},
+"conditions": {"laser_nm": 532, "instrument": "Horiba Jobin Yvon HR800"},
+"n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+"evidence": {"quote": "NPs (without ST-CS coating), NP-4 and CURC-NP-9 (traces a, b and c in Figure 7)", "location": "Results; Figure 7 caption"},
+"confidence": "media"
+},
+{
+"technique": "Raman", "variant": "Raman", "measurand": "Raman spectrum of NP-4", "assay_purpose": "general composition information",
+"sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "raw_curve",
+"values": {"features": "same CH/C-C vibrations as uncoated NPs; small increase of OH band"},
+"conditions": {"laser_nm": 532, "instrument": "Horiba Jobin Yvon HR800"},
+"n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+"evidence": {"quote": "the small increment of the absorption peak related to OH oscillator is observed in the case of NP-4", "location": "Results"},
+"confidence": "media"
+},
+{
+"technique": "Raman", "variant": "Raman", "measurand": "Raman spectrum of CURC-NP-9", "assay_purpose": "general composition information",
+"sample_id": "S9", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "raw_curve",
+"values": {"features": "large fluorescent peak attributed to curcumin"},
+"conditions": {"laser_nm": 532, "instrument": "Horiba Jobin Yvon HR800"},
+"n_replicates": null, "quality_flags": ["solo_lista_de_picos"],
+"evidence": {"quote": "The Raman spectrum of CURC-NP-9 is characterized by a large fluorescent peak due to the presence of curcumin.", "location": "Results"},
+"confidence": "media"
+},
+{
+"technique": "NMR", "variant": "NMR", "measurand": "solid-state NMR of chitosan and stearoyl chitosan", "assay_purpose": "structure confirmation of synthesized ST-CS",
+"sample_id": "S12", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "figure_panel",
+"values": {"alkyl_carbons_ppm": "10-30"},
+"conditions": {"instrument": "Jeol ECZ-R 600 MHz, solid probe", "temperature": "room temperature"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "a series of peaks in the 10–30 ppm range was present in the latter spectrum, signals attributable to alkyl chain carbons", "location": "Results"},
+"confidence": "media"
+}
+],
+"si_mentions": [],
+"notes": "Optical fluorescence micrograph of FITC-ST-CS NP (Fig. 3) not recorded (not in micrograph variants). SEM shown for NP-4 only; CURC-loaded SEM 'data not shown'."
+},
+{
+"pmcid": "PMC4465927",
+"context": {
+"summary": "Chitosan nanoparticles ionically cross-linked with TPP, dextran sulphate or poly-D-glutamic acid, loaded with VEGF siRNA; compared for size, zeta, morphology, entrapment, serum protection, storage stability, release, cytotoxicity and uptake in DLD-1 cells.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "polymeric_NP",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "CS-TPP-siRNA 0.1% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.1% w/v + TPP + siRNA", "formulation_defined_in": "text"},
+{"id": "S2", "name": "CS-TPP-siRNA 0.2% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.2% w/v + TPP + siRNA", "formulation_defined_in": "text"},
+{"id": "S3", "name": "CS-TPP-siRNA 0.3% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.3% w/v + TPP + siRNA", "formulation_defined_in": "text"},
+{"id": "S4", "name": "CS-TPP-siRNA 0.4% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.4% w/v + TPP + siRNA", "formulation_defined_in": "text"},
+{"id": "S5", "name": "CS-DS-siRNA 0.1% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.1% w/v + dextran sulphate + siRNA", "formulation_defined_in": "text"},
+{"id": "S6", "name": "CS-DS-siRNA 0.2% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.2% w/v + dextran sulphate + siRNA", "formulation_defined_in": "text"},
+{"id": "S7", "name": "CS-DS-siRNA 0.3% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.3% w/v + dextran sulphate + siRNA", "formulation_defined_in": "text"},
+{"id": "S8", "name": "CS-DS-siRNA 0.4% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.4% w/v + dextran sulphate + siRNA", "formulation_defined_in": "text"},
+{"id": "S9", "name": "CS-PGA-siRNA 0.1% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.1% w/v + PGA + siRNA", "formulation_defined_in": "text"},
+{"id": "S10", "name": "CS-PGA-siRNA 0.2% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.2% w/v + PGA + siRNA", "formulation_defined_in": "text"},
+{"id": "S11", "name": "CS-PGA-siRNA 0.3% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.3% w/v + PGA + siRNA", "formulation_defined_in": "text"},
+{"id": "S12", "name": "CS-PGA-siRNA 0.4% CS", "identity": "nanoparticle_loaded", "composition": "chitosan 0.4% w/v + PGA + siRNA", "formulation_defined_in": "text"},
+{"id": "S13", "name": "blank CS-TPP nanoparticles 0.1% CS", "identity": "nanoparticle_empty", "composition": "chitosan 0.1% w/v + TPP", "formulation_defined_in": "text"},
+{"id": "S14", "name": "blank CS-DS nanoparticles 0.1% CS", "identity": "nanoparticle_empty", "composition": "chitosan 0.1% w/v + dextran sulphate", "formulation_defined_in": "text"},
+{"id": "S15", "name": "blank CS-PGA nanoparticles 0.1% CS", "identity": "nanoparticle_empty", "composition": "chitosan 0.1% w/v + PGA", "formulation_defined_in": "text"},
+{"id": "S16", "name": "supernatant after centrifugation (free siRNA)", "identity": "process_intermediate", "composition": "free siRNA not entrapped in nanoparticles", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of blank CS-TPP nanoparticles", "assay_purpose": "particle characterization",
+"sample_id": "S13", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "mostly spherical with some irregular particles"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "Fig 1(A) shows an assorted morphology of unloaded CS-TPP nanoparticles, consisting mostly spherical and some irregular particles", "location": "Results > 3.2 Morphology; Fig 1a"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of blank CS-DS nanoparticles", "assay_purpose": "particle characterization",
+"sample_id": "S14", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "aggregation and irregular morphology"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "unloaded CS-DS/PGA nanoparticles showed aggregation and irregular morphology (Fig 1B and 1C)", "location": "Results > 3.2 Morphology; Fig 1b"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of blank CS-PGA nanoparticles", "assay_purpose": "particle characterization",
+"sample_id": "S15", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "aggregation and irregular morphology"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "unloaded CS-DS/PGA nanoparticles showed aggregation and irregular morphology (Fig 1B and 1C)", "location": "Results > 3.2 Morphology; Fig 1c"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of CS-TPP-siRNA nanoparticles (0.1% CS)", "assay_purpose": "particle characterization",
+"sample_id": "S1", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "similar to blank CS-TPP (mostly spherical, some irregular)"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "Similar morphology was observed when nanoparticles were loaded with siRNA as shown in Fig 1(D)", "location": "Results > 3.2 Morphology; Fig 1d"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of CS-DS-siRNA nanoparticles (0.1% CS)", "assay_purpose": "particle characterization",
+"sample_id": "S5", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "aggregation"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "CS-DS-siRNA and CS-PGA-siRNA showed aggregation due to inefficient cross-linking (Fig 1E and 1F)", "location": "Results > 3.2 Morphology; Fig 1e"},
+"confidence": "alta"
+},
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "morphology of CS-PGA-siRNA nanoparticles (0.1% CS)", "assay_purpose": "particle characterization",
+"sample_id": "S9", "formulation_link": {"where": "text", "confidence": "explicit"}, "shown_as": "figure_panel",
+"values": {"morphology": "aggregation"},
+"conditions": {"prep_state": "3% w/v phosphotungstic acid negative stain on copper grid", "scale_bar_present": null, "instrument": "FEI Tecnai Spirit", "n_images": null},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "CS-DS-siRNA and CS-PGA-siRNA showed aggregation due to inefficient cross-linking (Fig 1E and 1F)", "location": "Results > 3.2 Morphology; Fig 1f"},
+"confidence": "alta"
+},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 25.1, "zeta_sd_mV": 1.5}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 127.4 ± 10.7 | 0.3 ± 0.13 | +25.1 ± 1.5", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 30.7, "zeta_sd_mV": 1.1}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 223.1 ± 16.7 | 0.4 ± 0.19 | +30.7 ± 1.1", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 35.5, "zeta_sd_mV": 1.0}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 295.1 ± 29.6 | 0.4 ± 0.13 | +35.5 ± 1.0", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 39.4, "zeta_sd_mV": 0.5}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 455.3 ± 12.9 | 0.5 ± 0.18 | +39.4 ± 0.5", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 71.9, "zeta_sd_mV": 1.8}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 829.4 ± 10.0 | 0.6 ± 0.08 | +71.9 ± 1.8", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 74.5, "zeta_sd_mV": 0.3}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 976.2 ±± 70.8 | 0.6 ± 0.19 | +74.5 ± 0.3", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 76.2, "zeta_sd_mV": 0.8}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 1203.3 ± 37.7 | 0.9 ± 0.09 | +76.2 ± 0.8", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 79.6, "zeta_sd_mV": 0.6}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 1682.0 ± 56.4 | 1.0 ± 0.26 | +79.6 ± 0.6", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S9", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 62.9, "zeta_sd_mV": 2.3}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 497.9 ± 55.6 | 0.5 ± 0.08 | +62.9 ± 2.3", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S10", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 69.8, "zeta_sd_mV": 2.2}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 959.6 ± 16.0 | 0.7 ± 0.10 | +69.8 ± 2.2", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S11", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 72.3, "zeta_sd_mV": 1.0}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 1091.3 ± 21.5 | 0.9 ± 0.00 | +72.3 ± 1.0", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S12", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 77.7, "zeta_sd_mV": 0.5}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 1739.3 ± 71.2 | 1.0 ± 0.09 | +77.7 ± 0.5", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 127.4, "size_sd_nm": 10.7, "pdi": 0.3, "pdi_sd": 0.13}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 127.4 ± 10.7 | 0.3 ± 0.13 | +25.1 ± 1.5", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 223.1, "size_sd_nm": 16.7, "pdi": 0.4, "pdi_sd": 0.19}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 223.1 ± 16.7 | 0.4 ± 0.19 | +30.7 ± 1.1", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 295.1, "size_sd_nm": 29.6, "pdi": 0.4, "pdi_sd": 0.13}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 295.1 ± 29.6 | 0.4 ± 0.13 | +35.5 ± 1.0", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 455.3, "size_sd_nm": 12.9, "pdi": 0.5, "pdi_sd": 0.18}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 455.3 ± 12.9 | 0.5 ± 0.18 | +39.4 ± 0.5", "location": "Table 1 > CS-TPP-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S5", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 829.4, "size_sd_nm": 10.0, "pdi": 0.6, "pdi_sd": 0.08}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 829.4 ± 10.0 | 0.6 ± 0.08 | +71.9 ± 1.8", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S6", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 976.2, "size_sd_nm": 70.8, "pdi": 0.6, "pdi_sd": 0.19}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 976.2 ±± 70.8 | 0.6 ± 0.19 | +74.5 ± 0.3", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S7", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 1203.3, "size_sd_nm": 37.7, "pdi": 0.9, "pdi_sd": 0.09}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 1203.3 ± 37.7 | 0.9 ± 0.09 | +76.2 ± 0.8", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S8", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 1682.0, "size_sd_nm": 56.4, "pdi": 1.0, "pdi_sd": 0.26}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 1682.0 ± 56.4 | 1.0 ± 0.26 | +79.6 ± 0.6", "location": "Table 1 > CS-DS-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S9", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 497.9, "size_sd_nm": 55.6, "pdi": 0.5, "pdi_sd": 0.08}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.1 | 497.9 ± 55.6 | 0.5 ± 0.08 | +62.9 ± 2.3", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S10", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 959.6, "size_sd_nm": 16.0, "pdi": 0.7, "pdi_sd": 0.10}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.2 | 959.6 ± 16.0 | 0.7 ± 0.10 | +69.8 ± 2.2", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S11", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 1091.3, "size_sd_nm": 21.5, "pdi": 0.9, "pdi_sd": 0.00}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.3 | 1091.3 ± 21.5 | 0.9 ± 0.00 | +72.3 ± 1.0", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "z_average", "measurand": "z-average diameter and PDI", "assay_purpose": "particle characterization", "sample_id": "S12", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 1739.3, "size_sd_nm": 71.2, "pdi": 1.0, "pdi_sd": 0.09}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": null, "instrument": "Malvern ZS-90 Zetasizer"}, "n_replicates": 3, "quality_flags": ["more_samples_than_recorded"], "evidence": {"quote": "0.4 | 1739.3 ± 71.2 | 1.0 ± 0.09 | +77.7 ± 0.5", "location": "Table 1 > CS-PGA-siRNA"}, "confidence": "alta"},
+{
+"technique": "UVVis", "variant": "b_quantification", "measurand": "free siRNA absorbance at 260 nm in supernatant (indirect entrapment efficiency)", "assay_purpose": "drug quantification",
+"sample_id": "S16", "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "text_value",
+"values": {"lambda_max_nm": 260},
+"conditions": {"instrument": "Shimadzu UV-1800", "quantification": "Beer's law with extinction coefficient"},
+"n_replicates": 3, "quality_flags": ["muestra_ambigua"],
+"evidence": {"quote": "the free siRNA in supernatant recovered from centrifugation (13,000 x g at 10°C for 30 min) was quantified by measuring its absorbance at 260 nm", "location": "Methods > 2.3.3 Entrapment efficiency"},
+"confidence": "media"
+}
+],
+"si_mentions": [],
+"notes": "24 formulations each for DLS and zeta (12 loaded in Table 1, 12 unloaded in Table 2); only the 12 siRNA-loaded rows recorded."
+},
+{
+"pmcid": "PMC4501223",
+"context": {
+"summary": "PEGylated DSPC/cholesterol liposomes encapsulating 3-bromopyruvate, with and without EGFR-targeting GE11 peptide; characterized for size, zeta, EE and tested in SKOV-3 ovarian cancer spheroids for permeability, HK2 inhibition and cytotoxicity.",
+"article_kind": "research",
+"nanocarrier_is_object_of_study": true,
+"carrier_type": "liposome",
+"depends_on_pcr_or_virus": false
+},
+"samples": [
+{"id": "S1", "name": "Blank (non-targeted) liposomes", "identity": "nanoparticle_empty", "composition": "DSPC:cholesterol:DSPE-MPEG-2000 4:2:0.3 molar", "formulation_defined_in": "text"},
+{"id": "S2", "name": "Non-targeted 3-BPA loaded liposomes", "identity": "nanoparticle_loaded", "composition": "DSPC:cholesterol:DSPE-MPEG-2000 4:2:0.3 with 3-bromopyruvate", "formulation_defined_in": "text"},
+{"id": "S3", "name": "Blank EGFR-targeted liposomes", "identity": "nanoparticle_empty", "composition": "as non-targeted, with half DSPE-MPEG replaced by DSPE-PEG-MAL-GE11 peptide", "formulation_defined_in": "text"},
+{"id": "S4", "name": "EGFR targeted 3-BPA-loaded liposomes", "identity": "nanoparticle_loaded", "composition": "targeted lipid composition with 3-bromopyruvate", "formulation_defined_in": "text"},
+{"id": "S5", "name": "DSPE-PEG-MAL-GE11 conjugate", "identity": "process_intermediate", "composition": "GE11 peptide conjugated to DSPE-PEG-MAL", "formulation_defined_in": "text"}
+],
+"measurements": [
+{
+"technique": "micrograph", "variant": "TEM_negstain", "measurand": "surface morphology of 3-BPA-loaded liposomes", "assay_purpose": "particle characterization",
+"sample_id": "S2", "formulation_link": {"where": "text", "confidence": "paper_level"}, "shown_as": "SI_only",
+"values": {"morphology": "spherical, bilayer stained by uranyl acetate"},
+"conditions": {"prep_state": "1.5% uranyl acetate negative stain, air-dried on carbon-pioloform copper grid", "scale_bar_present": null, "instrument": "JEOL JEM-1000", "n_images": null},
+"n_replicates": null, "quality_flags": ["muestra_ambigua", "valores_solo_en_SI"],
+"evidence": {"quote": "The TEM images (Figure S4) revealed that the surface morphology of the 3-BPA-loaded liposomes was spherical", "location": "Results > TEM images of liposomes"},
+"confidence": "media"
+},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 15.75, "zeta_sd_mV": 2.3}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": ["dato_dudoso"], "evidence": {"quote": "Blank (non-targeted) liposomes | 144.13±14.21 | 0.080 | 15.75±2.3 | NA", "location": "Table 1"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 17.2, "zeta_sd_mV": 0.6}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": ["dato_dudoso"], "evidence": {"quote": "Non-targeted 3-BPA loaded liposomes | 171.66±13.52 | 0.0923 | 17.2±0.6 | 10.46±0.52", "location": "Table 1"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 19.7, "zeta_sd_mV": 0.4}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": ["dato_dudoso"], "evidence": {"quote": "Blank EGFR-targeted liposomes | 169.23±15.31 | 0.109 | 19.7±0.4 | NA", "location": "Table 1"}, "confidence": "media"},
+{"technique": "zeta", "variant": "unspecified", "measurand": "zeta potential", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"zeta_mV": 16.2, "zeta_sd_mV": 0.9}, "conditions": {"medium": "water", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": ["dato_dudoso"], "evidence": {"quote": "EGFR targeted 3-BPA-loaded liposomes | 184.71±13.42 | 0.143 | 16.2±0.9 | 10.02±0.27", "location": "Table 1"}, "confidence": "media"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size (hydrodynamic diameter) and PDI", "assay_purpose": "particle characterization", "sample_id": "S1", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 144.13, "size_sd_nm": 14.21, "pdi": 0.080}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": "10 uL in 990 uL deionized water", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": [], "evidence": {"quote": "Blank (non-targeted) liposomes | 144.13±14.21 | 0.080 | 15.75±2.3 | NA", "location": "Table 1"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size (hydrodynamic diameter) and PDI", "assay_purpose": "particle characterization", "sample_id": "S2", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 171.66, "size_sd_nm": 13.52, "pdi": 0.0923}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": "10 uL in 990 uL deionized water", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": [], "evidence": {"quote": "Non-targeted 3-BPA loaded liposomes | 171.66±13.52 | 0.0923 | 17.2±0.6 | 10.46±0.52", "location": "Table 1"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size (hydrodynamic diameter) and PDI", "assay_purpose": "particle characterization", "sample_id": "S3", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 169.23, "size_sd_nm": 15.31, "pdi": 0.109}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": "10 uL in 990 uL deionized water", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": [], "evidence": {"quote": "Blank EGFR-targeted liposomes | 169.23±15.31 | 0.109 | 19.7±0.4 | NA", "location": "Table 1"}, "confidence": "alta"},
+{"technique": "DLS", "variant": "size_unspecified", "measurand": "average particle size (hydrodynamic diameter) and PDI", "assay_purpose": "particle characterization", "sample_id": "S4", "formulation_link": {"where": "table", "confidence": "explicit"}, "shown_as": "table", "values": {"size_nm": 184.71, "size_sd_nm": 13.42, "pdi": 0.143}, "conditions": {"medium": "water", "temperature_C": 25, "angle_deg": null, "dilution": "10 uL in 990 uL deionized water", "instrument": "Malvern Nano Zetasizer 90"}, "n_replicates": 3, "quality_flags": [], "evidence": {"quote": "EGFR targeted 3-BPA-loaded liposomes | 184.71±13.42 | 0.143 | 16.2±0.9 | 10.02±0.27", "location": "Table 1"}, "confidence": "alta"},
+{
+"technique": "NMR", "variant": "NMR", "measurand": "1H NMR of GE11 peptide, DSPE-PEG-MAL and conjugate", "assay_purpose": "confirmation of peptide conjugation",
+"sample_id": "S5", "formulation_link": {"where": "text", "confidence": "inferred"}, "shown_as": "figure_panel",
+"values": {"finding": "MAL C=C proton peaks disappeared after conjugation"},
+"conditions": {"solvent": "DMSO (per Fig 3 abbreviations)"},
+"n_replicates": null, "quality_flags": [],
+"evidence": {"quote": "the peaks corresponding to the hydrogen of the C=C of the MAL ring disappeared, indicating conjugation", "location": "Results > Surface conjugation of EGFR-targeting peptide; Figure 3"},
+"confidence": "media"
+}
+],
+"si_mentions": [
+{"technique": "TEM", "quote": "The TEM images (Figure S4) revealed that the surface morphology of the 3-BPA-loaded liposomes was spherical"}
+],
+"notes": "Table 1 zeta values listed without sign while text says negative (-15 to -20 mV); recorded as printed. RT-PCR/gel used for glycolytic markers only as biological readout."
+}
+]
+}

@@ -1,0 +1,472 @@
+{
+ "batch": "MC011",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC011.json",
+ "articles": [
+  {
+   "pmcid": "PMC7886095",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7886095.txt",
+   "issues": [
+    {
+     "issue": "PMC7886095:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F02",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -13.36,
+        "zeta_sd_mV": 0.73
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "not_declared"
+       },
+       "quote": "F02 | 41.17±2.93 | 127.08±1.77 | 0.18±0.03 | −13.36±0.73 | 76.90±2.86",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F05",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -12.73,
+        "zeta_sd_mV": 1.61
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "not_declared"
+       },
+       "quote": "F05 | 43.37±2.57 | 101.24±1.85 | 0.16±0.01 | −12.73±1.61 | 83.75±3.31",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F08 (optimized)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -14.56,
+        "zeta_sd_mV": 1.64
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "not_declared"
+       },
+       "quote": "F08 | 45.19±2.62 | 94.58±0.86 | 0.14±0.01 | −14.56±1.64 | 91.73±3.44",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F11",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -13.63,
+        "zeta_sd_mV": 1.3
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "not_declared"
+       },
+       "quote": "F11 | 54.23±2.51 | 98.43±0.81 | 0.27±0.02 | −13.63±1.30 | 86.12±2.59",
+       "location": "Table 4"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F02",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -13.36,
+        "zeta_sd_mV": 0.73
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern Instruments)",
+        "temperature_C": 37
+       },
+       "quote": "F02 | 41.17±2.93 | 127.08±1.77 | 0.18±0.03 | −13.36±0.73 | 76.90±2.86",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F05",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -12.73,
+        "zeta_sd_mV": 1.61
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern Instruments)",
+        "temperature_C": 37
+       },
+       "quote": "F05 | 43.37±2.57 | 101.24±1.85 | 0.16±0.01 | −12.73±1.61 | 83.75±3.31",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F08",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -14.56,
+        "zeta_sd_mV": 1.64
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern Instruments)",
+        "temperature_C": 37
+       },
+       "quote": "F08 | 45.19±2.62 | 94.58±0.86 | 0.14±0.01 | −14.56±1.64 | 91.73±3.44",
+       "location": "Table 4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F11",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -13.63,
+        "zeta_sd_mV": 1.3
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern Instruments)",
+        "temperature_C": 37
+       },
+       "quote": "F11 | 54.23±2.51 | 98.43±0.81 | 0.27±0.02 | −13.63±1.30 | 86.12±2.59",
+       "location": "Table 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC5701201",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC5701201.txt",
+   "issues": [
+    {
+     "issue": "PMC5701201:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "NLC (blank)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 98.52,
+        "size_sd_nm": 0.5027,
+        "pdi": 0.184,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": "not_declared",
+        "angle_deg": 173,
+        "instrument": "Zetasizer Nano ZX"
+       },
+       "quote": "NLC | 0 | N.A. | 98.52 ± 0.5027 | 0.184 ± 0.013 | −37.5 ± 1.30",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "AM-NLC",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 88.61,
+        "size_sd_nm": 0.9277,
+        "pdi": 0.118,
+        "pdi_sd": 0.017
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": "not_declared",
+        "angle_deg": 173,
+        "instrument": "Zetasizer Nano ZX"
+       },
+       "quote": "AM-NLC | 0 | N.A. | 88.61 ± 0.9277 | 0.118 ± 0.017 | −35.7 ± 2.51",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "NLC (blank-NLC)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 98.52,
+        "size_sd_nm": 0.5027,
+        "pdi": 0.184,
+        "pdi_sd": 0.013,
+        "size_nm_60d_25C": 100.0,
+        "size_nm_60d_45C": 97.68
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1000x in pure water",
+        "instrument": "Malvern Zetasizer Nano ZX"
+       },
+       "quote": "NLC | 0 | N.A. | 98.52 ± 0.5027 | 0.184 ± 0.013 | −37.5 ± 1.30",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "AM-NLC",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 88.61,
+        "size_sd_nm": 0.9277,
+        "pdi": 0.118,
+        "pdi_sd": 0.017,
+        "size_nm_60d_25C": 89.64,
+        "size_nm_60d_45C": 84.83
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1000x in pure water",
+        "instrument": "Malvern Zetasizer Nano ZX"
+       },
+       "quote": "AM-NLC | 0 | N.A. | 88.61 ± 0.9277 | 0.118 ± 0.017 | −35.7 ± 2.51",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC5701201:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "NLC (blank)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -37.5,
+        "zeta_sd_mV": 1.3
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZX"
+       },
+       "quote": "NLC | 0 | N.A. | 98.52 ± 0.5027 | 0.184 ± 0.013 | −37.5 ± 1.30",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AM-NLC",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -35.7,
+        "zeta_sd_mV": 2.51
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": "not_declared",
+        "ionic_strength": "not_declared",
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZX"
+       },
+       "quote": "AM-NLC | 0 | N.A. | 88.61 ± 0.9277 | 0.118 ± 0.017 | −35.7 ± 2.51",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "NLC (blank-NLC)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -37.5,
+        "zeta_sd_mV": 1.3,
+        "zeta_mV_60d_25C": -39.4,
+        "zeta_mV_60d_45C": -37.6
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZX, 1000x dilution in pure water, 25 C"
+       },
+       "quote": "NLC | 0 | N.A. | 98.52 ± 0.5027 | 0.184 ± 0.013 | −37.5 ± 1.30",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AM-NLC",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -35.7,
+        "zeta_sd_mV": 2.51,
+        "zeta_mV_60d_25C": -35.5,
+        "zeta_mV_60d_45C": -25.4
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer Nano ZX, 1000x dilution in pure water, 25 C"
+       },
+       "quote": "AM-NLC | 0 | N.A. | 88.61 ± 0.9277 | 0.118 ± 0.017 | −35.7 ± 2.51",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11365505",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC11365505.txt",
+   "issues": [
+    {
+     "issue": "PMC11365505:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "LNP sample in Fig. 7 (run not specified)",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "baja",
+       "values": {
+        "morphology": "spherical core-shell (lipid layer around BSA core)",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "TECNAI 20 (Philips)"
+       },
+       "quote": "a small aliquot of the nanoparticle suspensions was meticulously fixed onto a formvar-coated copper grid.",
+       "location": "Methods"
+      },
+      {
+       "variant": "SEM",
+       "sample": "LNP sample in Fig. 7 (run not specified)",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "baja",
+       "values": {
+        "morphology": "not_declared",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "dried on SEM stub (coating not declared)",
+        "scale_bar_present": null,
+        "instrument": "LEO 1450 VP (Zeiss)"
+       },
+       "quote": "a small quantity of the nanoparticle suspension was affixed to an SEM stub using double-sided adhesive tape.",
+       "location": "Methods"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "Optimized solution 1 (X1=100 mL/min, X2=5.28, X3=1)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "lipid layer surrounding BSA core",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "aliquot fixed onto formvar-coated Cu grid and dried; staining not mentioned",
+        "scale_bar_present": null,
+        "instrument": "TECNAI 20, Philips, 100 kV",
+        "n_images": null
+       },
+       "quote": "The dotted circle highlights the lipid layer surrounding the bovine serum albumin core.",
+       "location": "Fig. 7 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "Optimized solution 1 (X1=100 mL/min, X2=5.28, X3=1)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "nanoparticle surface indicated by arrow",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "suspension on SEM stub with double-sided tape, gold sputter-coated",
+        "scale_bar_present": null,
+        "instrument": "LEO 1450 VP, Carl Zeiss, 15 kV",
+        "n_images": null
+       },
+       "quote": "(c) SEM image at 15,000X magnification, and (d) SEM image at 20,000X magnification.",
+       "location": "Fig. 7 caption"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

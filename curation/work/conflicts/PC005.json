@@ -1,0 +1,1031 @@
+{
+ "batch": "PC005",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\PC005.json",
+ "articles": [
+  {
+   "pmcid": "PMC7558427",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7558427.txt",
+   "issues": [
+    {
+     "issue": "PMC7558427:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 307.4,
+        "size_sd_nm": 12.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.07
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 302.2,
+        "size_sd_nm": 10.0,
+        "pdi": 0.12,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.9,
+        "size_sd_nm": 2.4,
+        "pdi": 0.14,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "SLN-B (blank SLN)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.6,
+        "size_sd_nm": 28.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "SLN-B",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.6,
+        "size_sd_nm": 28.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03 | −16.0 ± 2.2 | -",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 307.4,
+        "size_sd_nm": 12.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.07
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07 | −16.3 ± 11.1 | 67.38",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 302.2,
+        "size_sd_nm": 10.0,
+        "pdi": 0.12,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03 | −16.7 ± 0.5 | 68.74",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.9,
+        "size_sd_nm": 2.4,
+        "pdi": 0.14,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02 | −18.6 ± 1.0 | 68.20",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7558427:keys:DLS",
+     "only_in_A": "nanoparticle_empty|nd|nanoparticle_loaded|nd",
+     "only_in_B": "nanoparticle_empty|water|nanoparticle_loaded|water",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 307.4,
+        "size_sd_nm": 12.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.07
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 302.2,
+        "size_sd_nm": 10.0,
+        "pdi": 0.12,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.9,
+        "size_sd_nm": 2.4,
+        "pdi": 0.14,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "SLN-B (blank SLN)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.6,
+        "size_sd_nm": 28.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": null,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "SLN-B",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.6,
+        "size_sd_nm": 28.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03 | −16.0 ± 2.2 | -",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 307.4,
+        "size_sd_nm": 12.5,
+        "pdi": 0.15,
+        "pdi_sd": 0.07
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07 | −16.3 ± 11.1 | 67.38",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 302.2,
+        "size_sd_nm": 10.0,
+        "pdi": 0.12,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03 | −16.7 ± 0.5 | 68.74",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 297.9,
+        "size_sd_nm": 2.4,
+        "pdi": 0.14,
+        "pdi_sd": 0.02
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 v/v with purified water",
+        "instrument": "ZetaSizer NanoZS (Malvern)"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02 | −18.6 ± 1.0 | 68.20",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7558427:keys:zeta",
+     "only_in_A": "nanoparticle_empty|other:otherpurifiedwater|pHn|nanoparticle_loaded|other:otherpurifiedwater|pHn",
+     "only_in_B": "nanoparticle_empty|water|pHn|nanoparticle_loaded|water|pHn",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.3,
+        "zeta_sd_mV": 11.1
+       },
+       "conditions": {
+        "medium": "other:purified water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:50 v/v",
+        "temperature_C": 25,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.7,
+        "zeta_sd_mV": 0.5
+       },
+       "conditions": {
+        "medium": "other:purified water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:50 v/v",
+        "temperature_C": 25,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -18.6,
+        "zeta_sd_mV": 1.0
+       },
+       "conditions": {
+        "medium": "other:purified water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:50 v/v",
+        "temperature_C": 25,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02",
+       "location": "Table 1 | Methods > 2.3.1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "SLN-B (blank SLN)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.0,
+        "zeta_sd_mV": 2.2
+       },
+       "conditions": {
+        "medium": "other:purified water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:50 v/v",
+        "temperature_C": 25,
+        "instrument": "ZetaSize NanoZS (Malvern)"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03",
+       "location": "Table 1 | Methods > 2.3.1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "SLN-B",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.0,
+        "zeta_sd_mV": 2.2
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer NanoZS (Malvern)",
+        "temperature_C": 25,
+        "dilution": "1:50 v/v with purified water"
+       },
+       "quote": "SLN-B | - | 6.8 | 297.6 ± 28.5 | 0.15 ± 0.03 | −16.0 ± 2.2 | -",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "10-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.3,
+        "zeta_sd_mV": 11.1
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer NanoZS (Malvern)",
+        "temperature_C": 25,
+        "dilution": "1:50 v/v with purified water"
+       },
+       "quote": "10-SLN-PHY | 1:10 | 6.4 | 307.4 ± 12.5 | 0.15 ± 0.07 | −16.3 ± 11.1 | 67.38",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "5-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -16.7,
+        "zeta_sd_mV": 0.5
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer NanoZS (Malvern)",
+        "temperature_C": 25,
+        "dilution": "1:50 v/v with purified water"
+       },
+       "quote": "5-SLN-PHY | 1:5 | 6.5 | 302.2 ± 10.0 | 0.12 ± 0.03 | −16.7 ± 0.5 | 68.74",
+       "location": "Table 1"
+      },
+      {
+       "variant": "ELS",
+       "sample": "3-SLN-PHY",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -18.6,
+        "zeta_sd_mV": 1.0
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "ZetaSizer NanoZS (Malvern)",
+        "temperature_C": 25,
+        "dilution": "1:50 v/v with purified water"
+       },
+       "quote": "3-SLN-PHY | 1:3 | 6.5 | 297.9 ± 2.4 | 0.14 ± 0.02 | −18.6 ± 1.0 | 68.20",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9146667",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9146667.txt",
+   "issues": [
+    {
+     "issue": "PMC9146667:keys:DLS",
+     "only_in_A": "nanoparticle_loaded|other:otheraqueousdiluted1",
+     "only_in_B": "nanoparticle_loaded|other:otheraqueousdilution",
+     "A_rows": [
+      {
+       "variant": "z_average",
+       "sample": "LN-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 188.5,
+        "size_sd_nm": 2.1,
+        "pdi": 0.09,
+        "pdi_sd": 0.0
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "0 | 188.5 ± 2.1 | 192.3 ± 1.9 | 287.4 ± 1.3 | 154.5 ± 4.2",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 192.3,
+        "size_sd_nm": 1.9,
+        "pdi": 0.1,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "0 | 188.5 ± 2.1 | 192.3 ± 1.9 | 287.4 ± 1.3 | 154.5 ± 4.2",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LN-MDE2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 287.4,
+        "size_sd_nm": 1.3,
+        "pdi": 0.36,
+        "pdi_sd": 0.1
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "0 | 188.5 ± 2.1 | 192.3 ± 1.9 | 287.4 ± 1.3 | 154.5 ± 4.2",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MDE2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 154.5,
+        "size_sd_nm": 4.2,
+        "pdi": 0.09,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "0 | 188.5 ± 2.1 | 192.3 ± 1.9 | 287.4 ± 1.3 | 154.5 ± 4.2",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LN-MDE3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 187.6,
+        "size_sd_nm": 1.9,
+        "pdi": 0.111,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "187.6 ± 1.9 | 185.5 ± 3.5 | 185.7 ± 6.5 | 186.7 ± 7.3",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MDE3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 185.5,
+        "size_sd_nm": 3.5,
+        "pdi": 0.11,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "other:aqueous (diluted 1:20 v/v)",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "187.6 ± 1.9 | 185.5 ± 3.5 | 185.7 ± 6.5 | 186.7 ± 7.3",
+       "location": "Table 3 (day 0) | Methods > 3.2"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "z_average",
+       "sample": "LN-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 188.5,
+        "size_sd_nm": 2.1,
+        "pdi": 0.09,
+        "pdi_sd": 0.0
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "0 | 188.5 ± 2.1 | 192.3 ± 1.9",
+       "location": "Table 3 (day 0)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 192.3,
+        "size_sd_nm": 1.9,
+        "pdi": 0.1,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "188.5 ± 2.1 | 192.3 ± 1.9 | 287.4 ± 1.3",
+       "location": "Table 3 (day 0)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LN-MDE2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 287.4,
+        "size_sd_nm": 1.3,
+        "pdi": 0.36,
+        "pdi_sd": 0.1
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "192.3 ± 1.9 | 287.4 ± 1.3 | 154.5 ± 4.2",
+       "location": "Table 3 (day 0)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MDE2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 154.5,
+        "size_sd_nm": 4.2,
+        "pdi": 0.09,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "287.4 ± 1.3 | 154.5 ± 4.2 | 187.6 ± 1.9",
+       "location": "Table 3 (day 0)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LN-MDE3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 187.6,
+        "size_sd_nm": 1.9,
+        "pdi": 0.111,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "154.5 ± 4.2 | 187.6 ± 1.9 | 185.5 ± 3.5",
+       "location": "Table 3 (day 0)"
+      },
+      {
+       "variant": "z_average",
+       "sample": "LS-MDE3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 185.5,
+        "size_sd_nm": 3.5,
+        "pdi": 0.11,
+        "pdi_sd": 0.03
+       },
+       "conditions": {
+        "medium": "other:aqueous dilution 1:20",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:20 v/v",
+        "instrument": "Zetasizer Nano S90 (Malvern)"
+       },
+       "quote": "187.6 ± 1.9 | 185.5 ± 3.5 | 185.7 ± 6.5",
+       "location": "Table 3 (day 0)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9146667:keys:zeta",
+     "only_in_A": "nanoparticle_empty|other:otherdeionizedwater|pHn|nanoparticle_loaded|other:otherdeionizedwater|pHn",
+     "only_in_B": "nanoparticle_empty|water|pHn|nanoparticle_loaded|water|pHn",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LS (empty)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -67.12,
+        "zeta_sd_mV": 0.64
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:20 v/v",
+        "temperature_C": 25,
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)"
+       },
+       "quote": "reduction in ζ potential after MP loading, from −67.12 ± 0.64 mV to −51.18 ± 1.83 mV for LS",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LS-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -51.18,
+        "zeta_sd_mV": 1.83
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:20 v/v",
+        "temperature_C": 25,
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)"
+       },
+       "quote": "reduction in ζ potential after MP loading, from −67.12 ± 0.64 mV to −51.18 ± 1.83 mV for LS",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LN (empty)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -57.77,
+        "zeta_sd_mV": 0.26
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:20 v/v",
+        "temperature_C": 25,
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)"
+       },
+       "quote": "from −57.77 ± 0.26 mV to −49.21 ± 1.42 mV for LN",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LN-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -49.21,
+        "zeta_sd_mV": 1.42
+       },
+       "conditions": {
+        "medium": "other:deionized water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "dilution": "1:20 v/v",
+        "temperature_C": 25,
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)"
+       },
+       "quote": "from −57.77 ± 0.26 mV to −49.21 ± 1.42 mV for LN",
+       "location": "Results > 2.4"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LS",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -67.12,
+        "zeta_sd_mV": 0.64
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)",
+        "temperature_C": 25,
+        "dilution": "1:20 v/v deionized water"
+       },
+       "quote": "from −67.12 ± 0.64 mV to −51.18 ± 1.83 mV for LS",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LS-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -51.18,
+        "zeta_sd_mV": 1.83
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)",
+        "temperature_C": 25,
+        "dilution": "1:20 v/v deionized water"
+       },
+       "quote": "from −67.12 ± 0.64 mV to −51.18 ± 1.83 mV for LS",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LN",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -57.77,
+        "zeta_sd_mV": 0.26
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)",
+        "temperature_C": 25,
+        "dilution": "1:20 v/v deionized water"
+       },
+       "quote": "from −57.77 ± 0.26 mV to −49.21 ± 1.42 mV for LN",
+       "location": "Results > 2.4"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LN-MP",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -49.21,
+        "zeta_sd_mV": 1.42
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Ultra (Malvern Panalytical)",
+        "temperature_C": 25,
+        "dilution": "1:20 v/v deionized water"
+       },
+       "quote": "from −57.77 ± 0.26 mV to −49.21 ± 1.42 mV for LN",
+       "location": "Results > 2.4"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

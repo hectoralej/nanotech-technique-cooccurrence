@@ -1,0 +1,4 @@
+# Pass B (read in this order, independently)
+
+For each article: (1) start with the TABLES and FIGURE CAPTIONS and note every numerical characterization value and every micrograph panel; (2) then read the METHODS to find the medium, temperature, angle, dilution, preparation state and instrument for each measurement; (3) then read the title/abstract and the RESULTS to decide the context and which sample each measurement belongs to; (4) emit `context` first in the output, then micrographs, then zeta, then DLS, then complementary techniques.
+Be especially careful with: (a) the medium of DLS and zeta (water, PBS, buffer, serum are different things; if not stated write "not_declared"); (b) whether the sample measured is the loaded/empty nanoparticle or just a component; (c) whether a micrograph shows the nanocarrier itself.

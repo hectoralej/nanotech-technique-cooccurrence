@@ -1,0 +1,1454 @@
+rules:
+  micrograph: variante + clase de identidad + escala presente + tamano medido (con
+    n o sin n); el estado de preparacion esta en la variante
+  DLS: variante (z_average|intensity|number|volume|unspecified) + magnitud + identidad
+    + medio + temperatura + angulo + dilucion; 'nd' separa
+  zeta: metodo (ELS|PALS|unspecified) + identidad + medio + pH (0.5) + fuerza ionica
+    + modelo; 'nd' separa
+  UVVis: variante (a intrinseca | b cuantificacion | c ensayo | d turbidez) + identidad
+  FTIR: variante (ATR|KBr|transmision) + identidad + estado de la muestra
+  XRD: variante + identidad + radiacion
+  EDS: variante (SEM|TEM|independiente) + identidad
+  otras: tecnica + variante + identidad
+n_groups: 480
+groups:
+  zeta|unspecified|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared:
+    n_measurements: 181
+    n_articles: 40
+  zeta|unspecified|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 93
+    n_articles: 44
+  UVVis|b_quantification|nanoparticle_loaded:
+    n_measurements: 55
+    n_articles: 38
+  micrograph|TEM_negstain|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 52
+    n_articles: 28
+  DSC|DSC|nanoparticle_loaded:
+    n_measurements: 37
+    n_articles: 23
+  micrograph|SEM|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 34
+    n_articles: 23
+  UVVis|a_intrinsic|nanoparticle_empty:
+    n_measurements: 30
+    n_articles: 13
+  DSC|DSC|pure_component:
+    n_measurements: 30
+    n_articles: 17
+  zeta|unspecified|nanoparticle_empty|med:water|pH:nd|I:nd|model:not_declared:
+    n_measurements: 26
+    n_articles: 15
+  zeta|unspecified|nanoparticle_empty|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 25
+    n_articles: 20
+  XRD|powder|nanoparticle_loaded|rad:nd:
+    n_measurements: 20
+    n_articles: 17
+  micrograph|TEM_prep_not_declared|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 20
+    n_articles: 13
+  zeta|ELS|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared:
+    n_measurements: 20
+    n_articles: 6
+  zeta|ELS|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 20
+    n_articles: 5
+  micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 19
+    n_articles: 15
+  FTIR|KBr|pure_component|state:nd:
+    n_measurements: 17
+    n_articles: 9
+  micrograph|TEM_dried_unstained|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 17
+    n_articles: 13
+  FTIR|unspecified|pure_component|state:nd:
+    n_measurements: 17
+    n_articles: 12
+  UVVis|a_intrinsic|nanoparticle_loaded:
+    n_measurements: 17
+    n_articles: 16
+  micrograph|TEM_dried_unstained|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 16
+    n_articles: 4
+  XRD|powder|pure_component|rad:nd:
+    n_measurements: 16
+    n_articles: 11
+  micrograph|TEM_negstain|nanoparticle_loaded|scale|nosize:
+    n_measurements: 16
+    n_articles: 8
+  NMR|NMR|pure_component:
+    n_measurements: 16
+    n_articles: 12
+  FTIR|unspecified|nanoparticle_loaded|state:nd:
+    n_measurements: 16
+    n_articles: 14
+  XRD|powder|nanoparticle_empty|rad:nd:
+    n_measurements: 15
+    n_articles: 10
+  micrograph|cryoTEM|nanoparticle_loaded|scale|nosize:
+    n_measurements: 15
+    n_articles: 8
+  FTIR|KBr|nanoparticle_loaded|state:nd:
+    n_measurements: 14
+    n_articles: 10
+  zeta|unspecified|nanoparticle_loaded|med:pbs|pH:nd|I:nd|model:not_declared:
+    n_measurements: 13
+    n_articles: 6
+  zeta|ELS|nanoparticle_loaded|med:pbs|pH:7.5|I:10mmphosphat|model:not_declared:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:dilutedrationotg:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_diameter_and|nanoparticle_loaded|med:pbs|T:25|ang:173|dil:04mgmllipid:
+    n_measurements: 12
+    n_articles: 1
+  DLS|z_average|z_average_diameter_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:nd:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_bbd_tria|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:resuspendedindei:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:50foldwithdeioni:
+    n_measurements: 12
+    n_articles: 1
+  DLS|z_average|z_average_diameter_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:10vvindeionizedw:
+    n_measurements: 12
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_|nanoparticle_loaded|med:water|T:25|ang:nd|dil:appropriatelydil:
+    n_measurements: 11
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:90|dil:10ulin1mldeioniz:
+    n_measurements: 11
+    n_articles: 1
+  micrograph|SEM|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 11
+    n_articles: 10
+  micrograph|TEM_negstain|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 11
+    n_articles: 7
+  DLS|z_average|z_average_particle_size_and_pd|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:199:
+    n_measurements: 11
+    n_articles: 1
+  zeta|PALS|nanoparticle_loaded|med:water|pH:7.0|I:nd|model:not_declared:
+    n_measurements: 11
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 10
+    n_articles: 1
+  micrograph|SEM|nanoparticle_loaded|scale|nosize:
+    n_measurements: 10
+    n_articles: 4
+  DLS|size_unspecified|particle_size_ps_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:100fold:
+    n_measurements: 10
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:nd|T:nd|ang:173|dil:nd:
+    n_measurements: 10
+    n_articles: 1
+  DLS|size_unspecified|size_and_pdi_of_empty_lnp|nanoparticle_empty|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 10
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale|nosize:
+    n_measurements: 10
+    n_articles: 8
+  micrograph|TEM_negstain|nanoparticle_loaded|scale_nd|sized:
+    n_measurements: 10
+    n_articles: 5
+  micrograph|AFM|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 9
+    n_articles: 6
+  zeta|ELS|nanoparticle_loaded|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 9
+    n_articles: 4
+  micrograph|TEM_dried_unstained|nanoparticle_loaded|scale_nd|sized:
+    n_measurements: 9
+    n_articles: 5
+  DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 9
+    n_articles: 2
+  TGA|TGA|nanoparticle_loaded:
+    n_measurements: 9
+    n_articles: 6
+  zeta|unspecified|process_intermediate|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 9
+    n_articles: 4
+  zeta|unspecified|nanoparticle_loaded|med:other:otherdeionizedwaterd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 8
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:1mlin10mldistill:
+    n_measurements: 8
+    n_articles: 1
+  micrograph|TEM_negstain|nanoparticle_empty|scale|nosize:
+    n_measurements: 8
+    n_articles: 4
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:other:otheraqueousdilution|T:25|ang:90|dil:1:20vv:
+    n_measurements: 8
+    n_articles: 1
+  DSC|DSC|nanoparticle_empty:
+    n_measurements: 8
+    n_articles: 5
+  DLS|size_unspecified|particle_size_ps_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:90|dil:1:100:
+    n_measurements: 8
+    n_articles: 1
+  ? DLS|size_unspecified|average_particle_size_and_pdi_|nanoparticle_loaded|med:other:otherdeionizedwaterd|T:nd|ang:90|dil:1:10withdeionize
+  : n_measurements: 8
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 8
+    n_articles: 1
+  DLS|z_average|z_average_particle_size_and_pd|nanoparticle_loaded|med:water|T:25|ang:nd|dil:5ulin995uldistil:
+    n_measurements: 8
+    n_articles: 1
+  DLS|z_average|z_average_mean_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:1:5samplewater:
+    n_measurements: 7
+    n_articles: 1
+  FTIR|ATR|pure_component|state:nd:
+    n_measurements: 7
+    n_articles: 6
+  zeta|ELS|nanoparticle_loaded|med:buffer:otherkcl1mmph70|pH:7.0|I:1mmkcl|model:not_declared:
+    n_measurements: 7
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_cumulant_ana|nanoparticle_loaded|med:buffer:buffer|T:nd|ang:nd|dil:nd:
+    n_measurements: 6
+    n_articles: 1
+  micrograph|cryoTEM|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 6
+    n_articles: 4
+  micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale|sized:
+    n_measurements: 6
+    n_articles: 3
+  zeta|ELS|nanoparticle_loaded|med:buffer:buffer|pH:7.0|I:nd|model:not_declared:
+    n_measurements: 6
+    n_articles: 1
+  micrograph|TEM_dried_unstained|nanoparticle_loaded|scale|nosize:
+    n_measurements: 6
+    n_articles: 4
+  DLS|size_unspecified|particle_size_ps_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:adequatelydilute:
+    n_measurements: 6
+    n_articles: 1
+  TGA|TGA|nanoparticle_empty:
+    n_measurements: 6
+    n_articles: 5
+  UVVis|a_intrinsic|pure_component:
+    n_measurements: 6
+    n_articles: 6
+  FTIR|KBr|nanoparticle_empty|state:nd:
+    n_measurements: 6
+    n_articles: 6
+  DLS|z_average|z_average_particle_size|nanoparticle_loaded|med:water|T:25|ang:90|dil:dilutedwithdisti:
+    n_measurements: 6
+    n_articles: 1
+  zeta|unspecified|pure_component|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 6
+    n_articles: 5
+  EDS|SEM_EDS|nanoparticle_empty:
+    n_measurements: 6
+    n_articles: 4
+  DLS|size_unspecified|mean_diameter_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:appropriatedilut:
+    n_measurements: 6
+    n_articles: 1
+  DLS|size_unspecified|size_of_pei_polyplex_intermedi|process_intermediate|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 5
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:buffer:buffer|T:nd|ang:nd|dil:1:75inphosphateb:
+    n_measurements: 5
+    n_articles: 1
+  DLS|z_average|z_average_mean_particle_diamet|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 5
+    n_articles: 1
+  DLS|number_peak|number_weighted_particle_size_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 5
+    n_articles: 1
+  FTIR|ATR|nanoparticle_empty|state:nd:
+    n_measurements: 5
+    n_articles: 2
+  EDS|TEM_EDS|nanoparticle_loaded:
+    n_measurements: 5
+    n_articles: 5
+  DLS|size_unspecified|particle_size_and_pdi_of_drug_|nanoparticle_loaded|med:water|T:25|ang:180|dil:nd:
+    n_measurements: 5
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:pbs|pH:nd|I:nd|model:not_declared:
+    n_measurements: 5
+    n_articles: 2
+  zeta|ELS|nanoparticle_empty|med:water|pH:nd|I:nd|model:not_declared:
+    n_measurements: 5
+    n_articles: 3
+  zeta|ELS|nanoparticle_loaded|med:buffer:buffer|pH:7.5|I:10mmphosphat|model:not_declared:
+    n_measurements: 5
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:buffer:other001mkcl|pH:nd|I:0.01mkcl|model:not_declared:
+    n_measurements: 5
+    n_articles: 1
+  XPS|XPS|nanoparticle_empty:
+    n_measurements: 5
+    n_articles: 4
+  DLS|size_unspecified|particle_size_mean_volume_diam|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 5
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:1:10vvwithdeioni:
+    n_measurements: 5
+    n_articles: 1
+  micrograph|SEM|nanoparticle_empty|scale|nosize:
+    n_measurements: 5
+    n_articles: 4
+  FTIR|unspecified|nanoparticle_empty|state:nd:
+    n_measurements: 5
+    n_articles: 5
+  DLS|size_unspecified|particle_size_of_lpn|nanoparticle_loaded|med:buffer:buffer|T:25|ang:nd|dil:dilutedin10mmph7:
+    n_measurements: 5
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:buffer|pH:7.5|I:10mmhepes40m|model:not_declared:
+    n_measurements: 5
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:other001mkcl|pH:nd|I:0.01mkcl|model:not_declared:
+    n_measurements: 5
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|nanoparticle_empty|scale|sized:
+    n_measurements: 5
+    n_articles: 2
+  micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale_nd|sized:
+    n_measurements: 5
+    n_articles: 4
+  DLS|size_unspecified|mean_diameter_and_polydispersi|nanoparticle_empty|med:water|T:25|ang:90|dil:dilutedwithwater:
+    n_measurements: 5
+    n_articles: 1
+  DLS|size_unspecified|mean_diameter_and_polydispersi|nanoparticle_loaded|med:water|T:25|ang:90|dil:dilutedwithwater:
+    n_measurements: 5
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:other10mmhepes|pH:nd|I:nd|model:not_declared:
+    n_measurements: 5
+    n_articles: 1
+  micrograph|TEM_dried_unstained|nanoparticle_empty|scale|sized_n:
+    n_measurements: 4
+    n_articles: 1
+  ? DLS|size_unspecified|mean_particle_size_and_pdi_by_|nanoparticle_loaded|med:other:othersterilewaterfor|T:25|ang:173|dil:dilutedtosuitabl
+  : n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_particle_size_and|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi_of_|nanoparticle_loaded|med:water|T:nd|ang:90|dil:freezedriednpsdi:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|nanoparticle_empty|med:water|T:nd|ang:nd|dil:10ugmlaftersonic:
+    n_measurements: 4
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:otherdistilledwaterc|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:173|dil:1:50infiltereddi:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|mean_diameter_and_pdi_after_ly|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:reconstitutedind:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_empty|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 4
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:pbs|pH:nd|I:low0.01xpbs|model:Smoluchowski:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_ps_and_p|nanoparticle_loaded|med:water|T:25|ang:173|dil:150x:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|droplet_size_and_pdi_of_dilute|nanoparticle_loaded|med:water|T:37|ang:nd|dil:dilutedwithdisti:
+    n_measurements: 4
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|nanoparticle_empty|scale_nd|sized:
+    n_measurements: 4
+    n_articles: 3
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_and_pdi_|nanoparticle_loaded|med:water|T:25|ang:nd|dil:dilutedinpurifie:
+    n_measurements: 4
+    n_articles: 1
+  DLS|z_average|z_average_diameter_and_pdi_at_|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:500inmilliqwat:
+    n_measurements: 4
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:pbs|pH:7.5|I:0.0001mpbs|model:not_declared:
+    n_measurements: 4
+    n_articles: 1
+  DLS|number_peak|hydrodynamic_diameter_from_max|nanoparticle_empty|med:water|T:25|ang:173|dil:about1mgin12mlso:
+    n_measurements: 4
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:pbs|pH:7.5|I:nd|model:not_declared:
+    n_measurements: 4
+    n_articles: 4
+  DSC|DSC|physical_mixture:
+    n_measurements: 4
+    n_articles: 4
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:10inh2o:
+    n_measurements: 4
+    n_articles: 1
+  zeta|unspecified|unclear|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 4
+    n_articles: 4
+  DLS|z_average|z_average_particle_size_and_pd|nanoparticle_loaded|med:pbs|T:25|ang:173|dil:03mgdriedlphnpsi:
+    n_measurements: 4
+    n_articles: 1
+  FTIR|ATR|nanoparticle_loaded|state:nd:
+    n_measurements: 4
+    n_articles: 4
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:90|dil:nd:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithdeion:
+    n_measurements: 4
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 4
+    n_articles: 3
+  SAXS|SAXS|nanoparticle_loaded:
+    n_measurements: 4
+    n_articles: 3
+  EDS|SEM_EDS|nanoparticle_loaded:
+    n_measurements: 4
+    n_articles: 3
+  micrograph|HRTEM|nanoparticle_empty|scale_nd|sized:
+    n_measurements: 4
+    n_articles: 2
+  XRD|powder|unclear|rad:nd:
+    n_measurements: 4
+    n_articles: 3
+  TGA|TGA|unclear:
+    n_measurements: 4
+    n_articles: 3
+  DLS|size_unspecified|mean_lnp_size_and_pdi|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 4
+    n_articles: 1
+  micrograph|cryoTEM|nanoparticle_loaded|scale|sized_n:
+    n_measurements: 4
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 4
+    n_articles: 3
+  UVVis|c_assay|nanoparticle_loaded:
+    n_measurements: 4
+    n_articles: 4
+  SAXS|SAXS|nanoparticle_empty:
+    n_measurements: 3
+    n_articles: 2
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:100fold:
+    n_measurements: 3
+    n_articles: 1
+  UVVis|d_turbidity|nanoparticle_empty:
+    n_measurements: 3
+    n_articles: 2
+  NMR|NMR|nanoparticle_empty:
+    n_measurements: 3
+    n_articles: 3
+  DLS|size_unspecified|particle_size_and_polydispersi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithultra:
+    n_measurements: 3
+    n_articles: 1
+  XPS|XPS|nanoparticle_loaded:
+    n_measurements: 3
+    n_articles: 3
+  DLS|size_unspecified|particle_size_distribution_nm_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:173|dil:1:50vvwithpurifi:
+    n_measurements: 3
+    n_articles: 1
+  micrograph|SEM|nanoparticle_loaded|scale|sized:
+    n_measurements: 3
+    n_articles: 2
+  DLS|z_average|zav_average_size_and_pdi|nanoparticle_loaded|med:water|T:25|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  FTIR|ATR|nanoparticle_loaded|state:lyophilized:
+    n_measurements: 3
+    n_articles: 1
+  DLS|number_peak|hydrodynamic_diameter_size_dis|nanoparticle_loaded|med:pbs|T:nd|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|number_peak|hydrodynamic_diameter_size_dis|nanoparticle_loaded|med:water|T:nd|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|z_average|zav_average_size_and_pdi|nanoparticle_empty|med:water|T:25|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f1|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:pbs|pH:7.5|I:1.63mm|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size|nanoparticle_empty|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:culture_medium|pH:nd|I:nd|model:not_declared:
+    n_measurements: 3
+    n_articles: 2
+  zeta|ELS|nanoparticle_loaded|med:pbs|pH:7.5|I:1.63mm|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 2
+  zeta|unspecified|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|pH:nd|I:10mmnacl|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 2
+  zeta|unspecified|nanoparticle_empty|med:pbs|pH:7.5|I:nd|model:not_declared:
+    n_measurements: 3
+    n_articles: 3
+  zeta|unspecified|nanoparticle_empty|med:other:otherassynthesizedaq|pH:nd|I:nd|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:other10mmkcl|pH:nd|I:10mmkcl|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:buffer|pH:7.5|I:nd|model:not_declared:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_and_pdi|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|pure_component|scale_nd|nosize:
+    n_measurements: 3
+    n_articles: 2
+  DLS|size_unspecified|mean_particle_size_and_pdi_of_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 3
+    n_articles: 3
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_empty|med:other:otherassynthesizedaq|T:25|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  FTIR|ATR|unclear|state:nd:
+    n_measurements: 3
+    n_articles: 3
+  DLS|number_peak|hydrodynamic_diameter_size_dis|nanoparticle_empty|med:pbs|T:nd|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|number_peak|hydrodynamic_diameter_size_dis|nanoparticle_empty|med:water|T:nd|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  DLS|size_unspecified|pcs_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:90|dil:nd:
+    n_measurements: 3
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:nd|pH:nd|I:nd|model:not_declared:
+    n_measurements: 3
+    n_articles: 3
+  DLS|size_unspecified|hydrodynamic_diameter_dh_and_p|nanoparticle_loaded|med:buffer:buffer|T:nd|ang:nd|dil:1:20vvinhepesbuf:
+    n_measurements: 3
+    n_articles: 1
+  NTA|NTA|nanoparticle_loaded:
+    n_measurements: 3
+    n_articles: 3
+  Raman|Raman|nanoparticle_empty:
+    n_measurements: 3
+    n_articles: 2
+  NMR|NMR|nanoparticle_loaded:
+    n_measurements: 3
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:other:otheraqueoussuspensi|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|pure_component|med:water|T:25|ang:173|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:buffer:buffer|pH:7.5|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 2
+  zeta|unspecified|nanoparticle_loaded|med:other:otherethanol|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_size_distri|nanoparticle_loaded|med:water|T:25|ang:nd|dil:1mgmldexamethaso:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_diameter_and|nanoparticle_loaded|med:buffer:buffer|T:25|ang:nd|dil:dilutedintrisbuf:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_particle_siz|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithmilli:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi_of_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 2
+  DLS|size_unspecified|hydrodynamic_size_of_sirna_nan|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 2
+    n_articles: 1
+  micrograph|TEM_negstain|nanoparticle_loaded|scale|sized:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|TEM_negstain|pure_component|scale_nd|sized:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|TEM_negstain|nanoparticle_empty|scale|sized_n:
+    n_measurements: 2
+    n_articles: 1
+  ? DLS|size_unspecified|mean_diameter_and_pdi_after_ly|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|T:nd|ang:nd|dil:reconstitutedind
+  : n_measurements: 2
+    n_articles: 1
+  micrograph|cryoTEM|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|TEM_prep_not_declared|process_intermediate|scale|nosize:
+    n_measurements: 2
+    n_articles: 2
+  DLS|size_unspecified|hydrodynamic_particle_size_and|nanoparticle_empty|med:pbs|T:25|ang:nd|dil:1:1withdeionized:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_and_pdi_aver|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:10ulin990uldeion:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_particle_size_and|nanoparticle_loaded|med:pbs|T:25|ang:nd|dil:1:1withdeionized:
+    n_measurements: 2
+    n_articles: 1
+  micrograph|cryoTEM|nanoparticle_empty|scale|nosize:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|TEM_prep_not_declared|nanoparticle_empty|scale|nosize:
+    n_measurements: 2
+    n_articles: 2
+  ? DLS|size_unspecified|hydrodynamic_size_and_pdi|nanoparticle_empty|med:buffer:other10mmnacl|T:nd|ang:nd|dil:dilutedtoappropr
+  : n_measurements: 2
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_diameter_of_cas12|nanoparticle_loaded|med:buffer:otherformulationbuff|T:25|ang:nd|dil:10ugml
+  : n_measurements: 2
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:buffer:other10mmnaclaqueous|pH:nd|I:10mmnacl|model:Smoluchowski:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:50inultrapurew:
+    n_measurements: 2
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_diameter_of_3rd_g|nanoparticle_loaded|med:buffer:otherformulationbuff|T:25|ang:nd|dil:10ugml
+  : n_measurements: 2
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:pbs|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_empty|med:buffer:buffer|T:37|ang:nd|dil:100ugmlsonicated:
+    n_measurements: 2
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:buffer:other10mmnacl|pH:7.0|I:10mmnacl|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|nanoparticle_loaded|med:nd|T:nd|ang:173|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  zeta|ELS|pure_component|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 2
+    n_articles: 1
+  zeta|ELS|nanoparticle_loaded|med:water|pH:nd|I:ultrapurewat|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  zeta|ELS|nanoparticle_loaded|med:pbs|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  zeta|ELS|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|pH:nd|I:10mmnacl|model:Smoluchowski:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_empty|med:buffer:buffer|T:40|ang:nd|dil:100ugmlsonicated:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_empty|med:water|T:25|ang:173|dil:finalconcentrati:
+    n_measurements: 2
+    n_articles: 1
+  ? DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_empty|med:culture_medium|T:25|ang:173|dil:finalconcentrati
+  : n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_loaded|med:water|T:25|ang:173|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  Raman|Raman|nanoparticle_loaded:
+    n_measurements: 2
+    n_articles: 2
+  TGA|TGA|pure_component:
+    n_measurements: 2
+    n_articles: 2
+  DLS|size_unspecified|particle_size_and_pdi_photon_c|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  Raman|SERS|nanoparticle_loaded:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|particle_size_mean_diameter_md|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedappropria:
+    n_measurements: 2
+    n_articles: 1
+  micrograph|SEM|nanoparticle_loaded|scale_nd|sized_n:
+    n_measurements: 2
+    n_articles: 2
+  DLS|size_unspecified|particle_size_and_pdi_of_optim|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|SEM|pure_component|scale_nd|nosize:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|SEM|unclear|scale|nosize:
+    n_measurements: 2
+    n_articles: 2
+  micrograph|AFM|nanoparticle_loaded|scale|sized_n:
+    n_measurements: 2
+    n_articles: 1
+  micrograph|AFM|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 2
+    n_articles: 2
+  UVVis|b_quantification|unclear:
+    n_measurements: 2
+    n_articles: 2
+  UVVis|b_quantification|nanoparticle_empty:
+    n_measurements: 2
+    n_articles: 1
+  FTIR|transmission|nanoparticle_loaded|state:nd:
+    n_measurements: 2
+    n_articles: 2
+  FTIR|unspecified|unclear|state:nd:
+    n_measurements: 2
+    n_articles: 2
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|z_average|hydrodynamic_size_z_average_in|nanoparticle_loaded|med:other:otherwaterpropyleneg|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|particle_size_zeta_sizer_colum|nanoparticle_empty|med:nd|T:26|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  EDS|TEM_EDS|nanoparticle_empty:
+    n_measurements: 2
+    n_articles: 2
+  DLS|size_unspecified|particle_size|pure_component|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|size_unspecified|particle_size|nanoparticle_loaded|med:water|T:25|ang:nd|dil:dilutedappropria:
+    n_measurements: 2
+    n_articles: 1
+  DLS|z_average|mean_particle_size_z_ave_and_p|nanoparticle_empty|med:water|T:25|ang:nd|dil:50ulin1mlultrapu:
+    n_measurements: 2
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 2
+    n_articles: 1
+  DLS|z_average|z_average_diameter_and_pdi_at_|nanoparticle_empty|med:water|T:nd|ang:nd|dil:1:500inmilliqwat:
+    n_measurements: 2
+    n_articles: 1
+  DLS|z_average|mean_particle_size_z_ave_and_p|nanoparticle_loaded|med:water|T:25|ang:nd|dil:50ulin1mlultrapu:
+    n_measurements: 2
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:other:otherwaterpropyleneg|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  zeta|unspecified|process_intermediate|med:buffer:other10mmhepes|pH:nd|I:nd|model:not_declared:
+    n_measurements: 2
+    n_articles: 1
+  DLS|number_peak|size_distribution_number_mean_|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:dilutedinpbs:
+    n_measurements: 2
+    n_articles: 1
+  DLS|intensity_peak|hydrodynamic_diameter_by_inten|nanoparticle_empty|med:water|T:25|ang:90|dil:dilutedwithdeion:
+    n_measurements: 2
+    n_articles: 1
+  DLS|intensity_peak|hydrodynamic_diameter_by_inten|nanoparticle_loaded|med:water|T:25|ang:90|dil:dilutedwithdeion:
+    n_measurements: 1
+    n_articles: 1
+  DLS|number_peak|hydrodynamic_diameter_and_pdi_|process_intermediate|med:water|T:nd|ang:nd|dil:1:50:
+    n_measurements: 1
+    n_articles: 1
+  DLS|number_peak|size_and_pdi_of_control_lnp_mr|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:50:
+    n_measurements: 1
+    n_articles: 1
+  DLS|number_peak|size_and_pdi_of_l_mn_mrna|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:50:
+    n_measurements: 1
+    n_articles: 1
+  DLS|number_peak|size_distribution_number_mean_|process_intermediate|med:pbs|T:nd|ang:nd|dil:dilutedinpbs:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|au_li_size_size_distribution_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|au_r_li_size_size_distribution|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|aunp_hydrodynamic_size_size_di|pure_component|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:pbs|pH:5.5|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:pbs|pH:7.5|I:pbs140mmnacl|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:serum|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:water|pH:nd|I:nd|model:nd:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|pure_component|med:pbs|pH:7.5|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|unclear|med:other:othermilliqwaterreco|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_mean_size_and_pdi|nanoparticle_empty|med:water|T:25|ang:nd|dil:1:5samplewater:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_blan|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fb1|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fb2|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fb3|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fh1|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fh2|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_fh3|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_lphf|nanoparticle_empty|med:buffer:other10mmnaclaqueous|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_lphf|nanoparticle_empty|med:water|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_diameter_and_pdi_of_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_empty|med:buffer:buffer|T:nd|ang:nd|dil:1:75inphosphateb:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:buffer:buffer|T:25|ang:nd|dil:dilutedintrisbuf:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_hydrodynamic_diamete|nanoparticle_loaded|med:pbs|T:25|ang:90|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_lphf|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_lphf|nanoparticle_loaded|med:water|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_man_|nanoparticle_empty|med:buffer:other10mmnaclaqueous|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_man_|nanoparticle_empty|med:water|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_man_|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_and_pdi_of_man_|nanoparticle_loaded|med:water|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_of_apoa1_grab_l|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_of_apoe3_grab_l|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_average_size_of_bare_lnps|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|z_averaged_hydrodynamic_diamet|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1mgmlindistilled:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|zeta_z_average_hydrodynamic_si|nanoparticle_empty|med:pbs|T:25|ang:nd|dil:200ugin2mlbathso:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size|nanoparticle_loaded|med:water|T:25|ang:nd|dil:1:100inultrapure:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|polydispersity_index_hydrodyna|nanoparticle_empty|med:water|T:25|ang:nd|dil:dilutedindeioniz:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|serum_stability_size_variation|nanoparticle_loaded|med:serum|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|size_and_pdi_of_fluc_mrna_load|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|size_distribution_of_liposomes|process_intermediate|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|size_distribution_of_pristine_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|size_of_l_candi|process_intermediate|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|hydrodynamic_size_z_average_in|nanoparticle_empty|med:other:otherwaterpropyleneg|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|z_average|mean_hydrodynamic_diameter_and|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  EDS|SEM_EDS|unclear:
+    n_measurements: 1
+    n_articles: 1
+  EDS|TEM_EDS|process_intermediate:
+    n_measurements: 1
+    n_articles: 1
+  EDS|standalone|nanoparticle_loaded:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|ATR|nanoparticle_empty|state:lyophilized:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|ATR|pure_component|state:lyophilized:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f1|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f2|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f3|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f4|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f5|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_and_pdi_of_f6|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_ps_|pure_component|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_zeta_sizer_colum|nanoparticle_loaded|med:nd|T:26|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|KBr|process_intermediate|state:nd:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|transmission|nanoparticle_empty|state:nd:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|transmission|pure_component|state:nd:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|unspecified|nanoparticle_loaded|state:lyophilized:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|unspecified|physical_mixture|state:nd:
+    n_measurements: 1
+    n_articles: 1
+  FTIR|unspecified|process_intermediate|state:nd:
+    n_measurements: 1
+    n_articles: 1
+  NMR|NMR|process_intermediate:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_distribution_of_|nanoparticle_empty|med:water|T:25|ang:nd|dil:5ulin995uldistil:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_f1|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_f2|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_f3|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_f4|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_lnp_without_mrna|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|particle_size_mean_diameter_md|nanoparticle_loaded|med:buffer:other10mmnaclaqueous|T:nd|ang:nd|dil:dilutedappropria
+  : n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_mean_volume_diam|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_of_hybrid_sirna_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_of_liposomes|pure_component|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_of_optimized_for|nanoparticle_loaded|med:water|T:25|ang:nd|dil:appropriatelydil:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_of_tri_plns|nanoparticle_loaded|med:water|T:25|ang:nd|dil:about50xwithdeio:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_of_virosomes_no_|nanoparticle_empty|med:pbs|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  NTA|NTA|unclear:
+    n_measurements: 1
+    n_articles: 1
+  UVVis|a_intrinsic|unclear:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_psd_l|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_se_tr|nanoparticle_loaded|med:water|T:25|ang:nd|dil:about50xwithdeio:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_three|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_empty|med:water|T:nd|ang:nd|dil:dilutedwithultra:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100indistilled:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithultra:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_capsule_size_of_|nanoparticle_loaded|med:pbs|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_d_nm_of_non_load|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  UVVis|b_quantification|process_intermediate:
+    n_measurements: 1
+    n_articles: 1
+  UVVis|b_quantification|pure_component:
+    n_measurements: 1
+    n_articles: 1
+  UVVis|d_turbidity|process_intermediate:
+    n_measurements: 1
+    n_articles: 1
+  XRD|powder|nanoparticle_loaded|rad:Cu-Kalpha, 1.54056 A, 40 kV, 15 mA:
+    n_measurements: 1
+    n_articles: 1
+  XRD|powder|physical_mixture|rad:nd:
+    n_measurements: 1
+    n_articles: 1
+  XRD|powder|process_intermediate|rad:nd:
+    n_measurements: 1
+    n_articles: 1
+  XRD|powder|pure_component|rad:Cu-Kalpha, 1.54056 A, 40 kV, 15 mA:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|AFM|process_intermediate|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|HRTEM|nanoparticle_empty|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|HRTEM|nanoparticle_empty|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|HRTEM|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|HRTEM|nanoparticle_loaded|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|HRTEM|unclear|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|nanoparticle_empty|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|nanoparticle_empty|scale_nd|sized_n:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f5|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f6|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f7|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f8|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f9|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_ac_au|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_ac_au|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_blank|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_ca_cp|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:properlydilutedn:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_coate|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_coate|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:coatedformulatio:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_cpt_1|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:properlydilutedn:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_of_plga_|nanoparticle_empty|med:water|T:25|ang:180|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|nanoparticle_empty|scale|sized_n:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|nanoparticle_loaded|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|process_intermediate|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|process_intermediate|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|pure_component|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|SEM|unclear|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|STEM|nanoparticle_empty|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|STEM|nanoparticle_loaded|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_dried_unstained|nanoparticle_empty|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_of_lnp_prep|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_photon_corr|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_size_and_pdi_average_type|nanoparticle_empty|med:water|T:nd|ang:nd|dil:1:100inultrapure:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_size_and_pdi_average_type|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:1:100inultrapure:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_size_and_pdi_of_fnps_rofl|nanoparticle_loaded|med:nd|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_size_and_pdi_of_fnps|nanoparticle_empty|med:nd|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_diameter_average_not_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_diameter_average_not_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f2|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f3|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|particle_size_and_pdi_batch_f4|nanoparticle_loaded|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_diameter_and|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_diameter|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi_of_|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:suitablydiluted:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_empty|med:water|T:25|ang:173|dil:1:50infiltereddi:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_empty|med:water|T:25|ang:173|dil:1:50vvwithpurifi:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_particle_size_and_pdi|nanoparticle_empty|med:water|T:25|ang:nd|dil:100fold:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_dried_unstained|nanoparticle_empty|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_dried_unstained|process_intermediate|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_dried_unstained|pure_component|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_negstain|nanoparticle_empty|scale_nd|sized:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_range_of_all|unclear|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_empty|med:culture_medium|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_empty|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_loaded|med:culture_medium|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_loaded|med:water|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|lnp_diameter_plateau_at_high_f|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:100foldinpbs:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|mean_hydrodynamic_diameter_and|nanoparticle_empty|med:buffer:buffer|T:25|ang:nd|dil:dilutedintrisbuf:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_negstain|pure_component|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_negstain|unclear|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|pure_component|scale|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|TEM_prep_not_declared|unclear|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_loaded|med:pbs|T:25|ang:173|dil:50fold:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:100ugmlsonicated:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_after_freeze|unclear|med:water|T:nd|ang:nd|dil:100xwithdoubledi:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_and_pdi_of_m|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_and_polydisp|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_of_aggregate|unclear|med:water|T:nd|ang:nd|dil:dilutedindiwater:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_size_of_nanogels_|unclear|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_size_of_reconstit|unclear|med:other:othermilliqwaterreco|T:nd|ang:nd|dil:100xwithdoubledi
+  : n_measurements: 1
+    n_articles: 1
+  micrograph|cryoTEM|nanoparticle_loaded|scale|sized:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|cryoTEM|process_intermediate|scale|nosize:
+    n_measurements: 1
+    n_articles: 1
+  micrograph|cryoTEM|unclear|scale_nd|nosize:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:buffer:buffer|pH:7.5|I:10mmphosphat|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:buffer:otherkcl1mmph70|pH:7.0|I:1mmkcl|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:buffer:otherkclsolution|pH:3.5|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:buffer:otherkclsolution|pH:5.5|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_empty|med:nd|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_dh_and_p|nanoparticle_empty|med:buffer:buffer|T:nd|ang:nd|dil:1:20vvinhepesbuf:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_intensit|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:10ulnpin1ml1xpbs:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_of_2nd_g|process_intermediate|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_of_aunp1|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_of_g4cas|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_diameter_of_p20ps|process_intermediate|med:buffer:otherformulationbuff|T:25|ang:nd|dil:10ugml
+  : n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_stabilit|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_empty|med:pbs|T:25|ang:173|dil:50fold:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_empty|med:water|T:nd|ang:nd|dil:100ugmlsonicated:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter|nanoparticle_empty|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_loaded|med:buffer:otherkclsolution|pH:5.0|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 1
+    n_articles: 1
+  zeta|ELS|process_intermediate|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|average_size_of_hsns_dispersed|nanoparticle_loaded|med:other:otherpaolubricant|T:nd|ang:nd|dil:1wthsnsinpao
+  : n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|diameter_of_bare_liposome_size|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|diameter_of_receptor_embedded_|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|globule_size_and_pdi_of_drug_a|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithdisti:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|globule_size_and_pdi_of_drug_l|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithdisti:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|globule_size_and_pdi_of_extrac|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:dilutedwithdisti:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|nanoparticle_loaded|med:buffer:otherformulationbuff|T:25|ang:nd|dil:10ugml
+  : n_measurements: 1
+    n_articles: 1
+  ? DLS|size_unspecified|hydrodynamic_diameter_and_pdi_|process_intermediate|med:buffer:otherformulationbuff|T:25|ang:nd|dil:10ugml
+  : n_measurements: 1
+    n_articles: 1
+  zeta|PALS|nanoparticle_empty|med:water|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:buffer:buffer|pH:6.0|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:buffer:other1mmkclaqueousso|pH:4.5|I:1mmkcl|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:nd|pH:nd|I:nd|model:nd:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:other:otherethanol|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:other:otherwaterpropyleneg|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_loaded|med:water|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|process_intermediate|med:water|T:25|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|process_intermediate|med:water|T:nd|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_size_of_l|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_size_of_l|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_and_pdi|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_at_acidi|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_at_neutr|nanoparticle_loaded|med:pbs|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_of_blank|nanoparticle_empty|med:water|T:25|ang:nd|dil:100foldwithpurew:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_particle_size_of_btxa_|nanoparticle_loaded|med:water|T:25|ang:nd|dil:100foldwithpurew:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_and_dispersit|nanoparticle_empty|med:water|T:25|ang:173|dil:1000xinpurewater:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_and_dispersit|nanoparticle_loaded|med:water|T:25|ang:173|dil:1000xinpurewater:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_and_pdi_of_an|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_and_pdi_of_li|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_and_pdi_of_p_|nanoparticle_loaded|med:other:otheraqueoussolution|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_average_type_|nanoparticle_empty|med:pbs|T:4|ang:nd|dil:10ugml:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter_average_type_|nanoparticle_loaded|med:pbs|T:4|ang:nd|dil:10ugml:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter|nanoparticle_empty|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_diameter|nanoparticle_loaded|med:nd|T:nd|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_dls_diameter_of_aunps|unclear|med:nd|T:25|ang:nd|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  DLS|size_unspecified|average_hydrodynamic_diameter_|nanoparticle_empty|med:water|T:25|ang:173|dil:nd:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_empty|med:water|pH:nd|I:nd|model:Smoluchowski:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:buffer:other1mmkclaqueousso|pH:4.5|I:1mmkcl|model:not_declared:
+    n_measurements: 1
+    n_articles: 1
+  zeta|unspecified|nanoparticle_loaded|med:culture_medium|pH:nd|I:nd|model:not_declared:
+    n_measurements: 1
+    n_articles: 1

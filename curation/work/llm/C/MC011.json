@@ -1,0 +1,28 @@
+{"batch": "MC011", "articles": [
+{"pmcid": "PMC7886095", "decisions": [
+{"issue": "PMC7886095:gate:zeta", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "After diluting the GKA-SNEDDS formulation with distilled water at 37 °C, samples were directly evaluated in triplicate.",
+ "location": "Methods > Characterization of GKA-SNEDDS > Droplet Size Analysis and Zeta Potential",
+ "reason": "Same Methods section covers droplet size and zeta; dilution medium is distilled water, so Table 4 zeta values for F02/F05/F08/F11 have a stated medium."}
+]},
+{"pmcid": "PMC5701201", "decisions": [
+{"issue": "PMC5701201:gate:dls", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "The particle solution was diluted 1000 times in pure water before measurement.",
+ "location": "Methods > Characterization of NLC particles and their stability",
+ "reason": "DLS medium (pure water, 25 C) stated in Methods; Table 1 sizes for blank NLC and AM-NLC are useful."},
+{"issue": "PMC5701201:gate:zeta", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "The particle solution was diluted 1000 times in pure water before measurement.",
+ "location": "Methods > Characterization of NLC particles and their stability",
+ "reason": "DLS and zeta potential measured on the same pure-water dilution; Table 1 zeta values have stated medium."}
+]},
+{"pmcid": "PMC11365505", "decisions": [
+{"issue": "PMC11365505:gate:micro", "decision": "B",
+ "final": {"value": true, "identity": null, "variant": null, "medium": null},
+ "quote": "Transmission electron microscopy (TEM) and scanning electron microscopy (SEM) images of lipid-based nanoparticles synthesized using the vortex tube reactor",
+ "location": "Fig. 7 caption",
+ "reason": "Fig. 7 panels a-d are TEM/SEM images of the LNPs themselves; technique clear and the single DPPC/cholesterol/BSA formulation is inferable, though the specific run is unstated."}
+]}
+]}

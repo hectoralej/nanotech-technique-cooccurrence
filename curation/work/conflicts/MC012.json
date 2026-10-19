@@ -1,0 +1,440 @@
+{
+ "batch": "MC012",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\MC012.json",
+ "articles": [
+  {
+   "pmcid": "PMC5069227",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC5069227.txt",
+   "issues": [
+    {
+     "issue": "PMC5069227:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "AuNPs with 1 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": "spherical, monodisperse"
+       },
+       "conditions": {
+        "prep_state": "negatively stained",
+        "scale_bar_present": true,
+        "instrument": "JEM-1400"
+       },
+       "quote": "negatively stained using an 5 % aqueous uranyl acetate solution",
+       "location": "Methods"
+      },
+      {
+       "variant": "SEM",
+       "sample": "AuNPs with 1 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {},
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "JEM 6610-LV"
+       },
+       "quote": "The surface, shape, and dispersity characteristics were determined by SEM",
+       "location": "Methods"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "AuNPs 1 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical, monodisperse",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "formvar-coated 200 mesh grid, negatively stained with 5% aqueous uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM-1400, 120 kV",
+        "n_images": null
+       },
+       "quote": "b TEM images of AuNPs produced with 1 mL and 20 min.",
+       "location": "Fig. 3 caption"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "AuNPs 2 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical, monodisperse",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "formvar-coated 200 mesh grid, negatively stained with 5% aqueous uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM-1400, 120 kV",
+        "n_images": null
+       },
+       "quote": "c TEM images of AuNPs produced with 2 mL and 20 min.",
+       "location": "Fig. 3 caption"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "AuNPs 3 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "spherical, monodisperse",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "formvar-coated 200 mesh grid, negatively stained with 5% aqueous uranyl acetate",
+        "scale_bar_present": true,
+        "instrument": "JEOL JEM-1400, 120 kV",
+        "n_images": null
+       },
+       "quote": "d TEM images of AuNPs produced with 3 mL and 20 min.",
+       "location": "Fig. 3 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "AuNPs (condition not specified)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "paper_level",
+       "values": {
+        "morphology": "relatively monodisperse particles",
+        "n_particles_measured": 200
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "Auriga, Zeiss (HR-SEM)",
+        "n_images": null
+       },
+       "quote": "HR-SEM images of the AuNPs (e, f), and the scale bars represent 200 nm",
+       "location": "Fig. 4 caption"
+      },
+      {
+       "variant": "SEM",
+       "sample": "AuNPs 2 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "morphology": null
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": true,
+        "instrument": "JEOL JSM 6610-LV",
+        "n_images": null
+       },
+       "quote": "SEM images and corresponding energy-dispersive X-ray spectroscopy (EDS) elemental maps of the AuNPs spectra",
+       "location": "Fig. 6 caption"
+      }
+     ]
+    },
+    {
+     "issue": "PMC5069227:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "AuNPs with 1 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "size_nm": 1.1
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "NPA152 Zetatrac"
+       },
+       "quote": "the average size increased from 1.1 to 43 and 73 nm when the volume changed from 1 mL to 2 mL and 3 mL",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "AuNPs 1 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 1.1,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "the average size increased from 1.1 to 43 and 73 nm when the volume changed from 1 mL to 2 mL and 3 mL, respectively",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "AuNPs 2 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 43,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "the average size increased from 1.1 to 43 and 73 nm when the volume changed from 1 mL to 2 mL and 3 mL, respectively",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "AuNPs 3 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 73,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "the average size increased from 1.1 to 43 and 73 nm when the volume changed from 1 mL to 2 mL and 3 mL, respectively",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      }
+     ]
+    },
+    {
+     "issue": "PMC5069227:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs with 1 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -41.67
+       },
+       "conditions": {
+        "medium": "other:distilled water",
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs with 2 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -30.26
+       },
+       "conditions": {
+        "medium": "other:distilled water",
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs with 3 mL V. oleifera extract",
+       "identity": "unclear",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -32.34
+       },
+       "conditions": {
+        "medium": "other:distilled water",
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs 1 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -41.67,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs 2 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -30.26,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "AuNPs 3 mL extract, 20 min",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -32.34,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "NPA152 Zetatrac, Microtrac"
+       },
+       "quote": "decreased from −41.67 to −30.26 and −32.34 mV as the volume of the V. oleifera extract increased from 1 to 2 and 3 mL",
+       "location": "Results > Characterization of Gold Nanoparticles"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC13056566",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13056566.txt",
+   "issues": [
+    {
+     "issue": "PMC13056566:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "cryoTEM",
+       "sample": "CRISPR-AuNP (P10PSH 32 mg per 40 ug AuNP/RNP)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {},
+       "conditions": {
+        "prep_state": "cryo",
+        "scale_bar_present": null,
+        "instrument": "not_declared"
+       },
+       "quote": "To verify whether a monolayer of RNPs and polymers had formed, we performed cryo-transmission electron microscopy (cryoTEM)",
+       "location": "Results"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "CRISPR-AuNP (P10PSH 32 mg per 40 ug AuNP/RNP)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {},
+       "conditions": {
+        "prep_state": "negatively stained (1% uranyl acetate)",
+        "scale_bar_present": null,
+        "instrument": "Talos L120C"
+       },
+       "quote": "TEM imaging used 1% uranyl acetate negative staining on a Talos L120C microscope",
+       "location": "Methods"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "cryoTEM",
+       "sample": "3rd generation CRISPR-AuNP (P20PSH, N/P 2)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "AuNP core with surrounding RNP and polymer layer"
+       },
+       "conditions": {
+        "prep_state": "cryo",
+        "scale_bar_present": true,
+        "instrument": null,
+        "n_images": null
+       },
+       "quote": "CryoTEM image of 3rd generation CRISPR-AuNP (P20PSH, N/P = 2) showing AuNP core with surrounding RNP and polymer layer.",
+       "location": "Fig. 4 caption (panel E)"
+      },
+      {
+       "variant": "TEM_negstain",
+       "sample": "AuNP cores (Turkevich citrate)",
+       "identity": "pure_component",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 17,
+        "n_particles_measured": "more than 10"
+       },
+       "conditions": {
+        "prep_state": "1% uranyl acetate negative staining",
+        "scale_bar_present": null,
+        "instrument": "Talos L120C",
+        "n_images": null
+       },
+       "quote": "AuNP core diameter was quantified by averaging vertical and horizontal measurements across each particle (n > 10 particles).",
+       "location": "Methods > Particle characterization"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

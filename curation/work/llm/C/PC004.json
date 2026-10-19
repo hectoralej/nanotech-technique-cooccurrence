@@ -1,0 +1,60 @@
+{
+ "batch": "PC004",
+ "articles": [
+  {
+   "pmcid": "PMC12717261",
+   "decisions": [
+    {
+     "issue": "PMC12717261:keys:DLS",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": null, "medium": "buffer"},
+     "quote": "Samples were diluted in Tris buffer (pH 7.4) to achieve appropriate scattering intensity (50–200 kcps).",
+     "location": "Methods > Physicochemical characterization > Dynamic light scattering and zeta potential analysis",
+     "reason": "Medium is Tris buffer pH 7.4, which falls in the 'buffer' category; 'other:' is for media outside the enum. Identities agree (empty/loaded)."
+    },
+    {
+     "issue": "PMC12717261:keys:zeta",
+     "decision": "B",
+     "final": {"value": null, "identity": null, "variant": null, "medium": "buffer"},
+     "quote": "Samples were diluted in Tris buffer (pH 7.4) to achieve appropriate scattering intensity (50–200 kcps).",
+     "location": "Methods > Physicochemical characterization > Dynamic light scattering and zeta potential analysis",
+     "reason": "Zeta measured in the same Tris buffer pH 7.4 sample; medium is 'buffer' with pH 7.4. Identities agree."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8241138",
+   "decisions": [
+    {
+     "issue": "PMC8241138:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "As illustrated in Figure 3(B (a–c)), all hybrid particles show spherical shape with an almost homogenous size distribution.",
+     "location": "Results > Characterization of the prepared LPHNPs > Particle morphology using HR-TEM",
+     "reason": "Fig. 3B(a-c) are TEM panels of the LPHNPs themselves (negative stain), and Fig. 3B(d) shows PLGA NPs; technique identifiable and linkable to the Tween/TPGS/Solutol formulations."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9862264",
+   "decisions": [
+    {
+     "issue": "PMC9862264:keys:DLS",
+     "decision": "A",
+     "final": {"value": null, "identity": "nanoparticle_loaded", "variant": null, "medium": "buffer"},
+     "quote": "The hydrodynamic sizes and ζ-potentials of nanoparticles were analyzed using ZetaSizer Nano ZS (Malvern Instruments Ltd., Worcestershire, UK) in 10 mM HEPES (pH 7.0).",
+     "location": "Methods > 2.5. DLS Measurements",
+     "reason": "Medium is 10 mM HEPES pH 7.0, a buffer; consistent with the enum 'buffer' (detail kept in pH/notes), so A's category is right."
+    },
+    {
+     "issue": "PMC9862264:keys:zeta",
+     "decision": "A",
+     "final": {"value": null, "identity": "nanoparticle_loaded", "variant": null, "medium": "buffer"},
+     "quote": "The hydrodynamic sizes and ζ-potentials of nanoparticles were analyzed using ZetaSizer Nano ZS (Malvern Instruments Ltd., Worcestershire, UK) in 10 mM HEPES (pH 7.0).",
+     "location": "Methods > 2.5. DLS Measurements",
+     "reason": "Zeta also measured in 10 mM HEPES pH 7.0, a buffer; medium 'buffer' with pH 7.0."
+    }
+   ]
+  }
+ ]
+}

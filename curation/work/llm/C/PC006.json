@@ -1,0 +1,16 @@
+{"batch": "PC006", "articles": [
+ {"pmcid": "PMC6029039", "decisions": [
+  {"issue": "PMC6029039:gate:micro", "decision": "A",
+   "final": {"value": true, "identity": null, "variant": null, "medium": null},
+   "quote": "a Representative TEM image of the constructed NPs. Scale bar: 200 nm.",
+   "location": "Fig. 1 caption",
+   "reason": "Fig. 1a is a TEM panel of the FITC-SiO2-NPs themselves, with scale bar; sample is the single synthesized formulation, so linkage is explicit."}
+ ]},
+ {"pmcid": "PMC8675850", "decisions": [
+  {"issue": "PMC8675850:gate:micro", "decision": "A",
+   "final": {"value": true, "identity": null, "variant": null, "medium": null},
+   "quote": "(a) Transmission electron microscopyimage of the prepared solid lipid nanoparticles (SLNs)",
+   "location": "Fig. 1 caption",
+   "reason": "Fig. 1a is a TEM image of the prepared SLNs themselves; the only formulation in the paper, so linkable."}
+ ]}
+]}

@@ -1,0 +1,60 @@
+{
+  "batch": "MC007",
+  "articles": [
+    {
+      "pmcid": "PMC9318109",
+      "decisions": [
+        {
+          "issue": "PMC9318109:gate:dls",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+          "quote": "The samples were diluted with distilled water, and readings were taken.",
+          "location": "Methods > 2.1.5. Particle Size Determination",
+          "reason": "Methods state Zetasizer measurement after dilution with distilled water; Table 3 gives numeric sizes for identifiable loaded nanogels."
+        },
+        {
+          "issue": "PMC9318109:gate:zeta",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+          "quote": "Average droplet size, polydispersity index, and zeta potential of all gels was measured using a photon correlation spectrophotometer (Malvern Zetasizer).",
+          "location": "Methods > 2.1.5. Particle Size Determination",
+          "reason": "Zeta measured in the same diluted-with-distilled-water samples; numeric zeta values in Table 3 for identifiable loaded gels."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12658194",
+      "decisions": [
+        {
+          "issue": "PMC12658194:gate:dls",
+          "decision": "A",
+          "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+          "quote": "0.1 mL sample of DBP-Lip was diluted in ultrapure water with the ratio of 1:100 (v/v) and determined by dynamic light scattering (DLS)",
+          "location": "Methods > Storage stability of different DBP formulations",
+          "reason": "Table 1 medium not stated, but stability DLS of DBP-Lip in ultrapure water gives numeric size (114.1 to 140.0 nm) in Results."
+        },
+        {
+          "issue": "PMC12658194:gate:zeta",
+          "decision": "A",
+          "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+          "quote": "0.1 mL sample of DBP-Lip was diluted in ultrapure water with the ratio of 1:100 (v/v) and determined by dynamic light scattering (DLS)",
+          "location": "Methods > Storage stability of different DBP formulations",
+          "reason": "Stability zeta of DBP-Lip (-33.6 to -28.0 mV) measured after dilution in ultrapure water; Table 1 zeta medium itself undeclared."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13575751",
+      "decisions": [
+        {
+          "issue": "PMC13575751:gate:micro",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": "TEM_negstain", "medium": null},
+          "quote": "(K) Transmission electron microscopy image of FA-Cel-LPs showing spherical morphology and uniform size (scale bar = 100 nm).",
+          "location": "Fig. 4 caption",
+          "reason": "Fig. 4K is a negative-stain TEM panel of the FA-Cel-LPs nanocarrier itself, with scale bar, linked explicitly to the formulation."
+        }
+      ]
+    }
+  ]
+}
