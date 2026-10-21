@@ -1,0 +1,117 @@
+{
+  "batch": "EX011",
+  "articles": [
+    {
+      "pmcid": "PMC9950487",
+      "context": {"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels": [
+        {"fig":"Figure 9","variant":"TEM_prep_not_declared","sample":"Fe3O4 NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images showing of Fe3O4 NP concentrations at different wavelengths"},
+        {"fig":"Figure 10","variant":"SEM","sample":"SPION and SPION@Cs-PTX-PEG-FA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"scanning electron microscopy, and transmission electron microscopy images of SPION respectively"}
+      ],
+      "descriptors": [{"sample":"SPION@Cs-PTX-PEG-FA","size_nm":102.6,"pdi":0.047,"zeta_mV":-47.5,"medium":"not_declared","source":"Table 7","quote":"SPION@Cs-PTX-PEG-FA | 102.6 ± 17.66 | − 47.5 ± 7.36 | 0.047"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 5","applies_to":"nanoparticle","sample":"Fe3O4 NPs and SPION@PTX-Cs-PEG-FA","quote":"UV-Vis spectrophotometry absorption indicates a maximum absorbance above 300 nm"},
+        {"technique":"XRD","fig":"Figure 6","applies_to":"nanoparticle","sample":"Fe3O4 NPs and SPION@PTX-Cs-PEG-FA","quote":"X-Ray diffraction patterns of Fe3O4 NPs (1) prepared by different wavelengths"},
+        {"technique":"EDS","fig":"Figure 7","applies_to":"nanoparticle","sample":"SPION NPs","quote":"EDX of SPION NPs in solution KMnO4"},
+        {"technique":"FTIR","fig":"Figure 12","applies_to":"nanoparticle","sample":"SPION and SPION@Cs-PTX-PEG-FA","quote":"(a) FTIR spectra of PTX (a), SPION (b), FA (c), SPION@Cs (d)"}
+      ]
+    },
+    {
+      "pmcid":"PMC10333301",
+      "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"chitosan nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The biosynthesized chitosan nanoparticles using Lavendula angustifolia leaves extract, as detected by the micrographs of TEM"}],
+      "descriptors":[{"sample":"CNPs","size_nm":null,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"TEM examination revealed that the biosynthesized CNPs were irregular in shape, and their sizes ranged from 7.24 to 9.77 nm"}],
+      "spectra":[
+        {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"CNPs","quote":"UV/visible spectra of chitosan (blue line) and chitosan nanoparticles"},
+        {"technique":"EDS","fig":"Figure 2","applies_to":"nanoparticle","sample":"CNPs","quote":"Analyses of chitosan nanoparticles bio-synthesized using Lavendula angustifolia leaves extract with EDX"},
+        {"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"CNPs","quote":"FTIR for the bio-synthesized chitosan nanoparticles"},
+        {"technique":"XRD","fig":"Figure 4","applies_to":"nanoparticle","sample":"CNPs","quote":"XRD (D) of CNPs bio-synthesized using Lavendula angustifolia leaves extract."}
+      ]
+    },
+    {
+      "pmcid":"PMC10606122",
+      "context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"optimized NLC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image (I), particle size (II), and zeta potential (III)"}],
+      "descriptors":[
+        {"sample":"Run 1","size_nm":100.4,"pdi":0.36,"zeta_mV":-18.4,"medium":"not_declared","source":"Table 2","quote":"1 | 60 | 40 | 0.10 | 100.4 | 0.36 | −18.4 | 80"},
+        {"sample":"Run 4","size_nm":169.23,"pdi":0.41,"zeta_mV":-13.2,"medium":"not_declared","source":"Table 2","quote":"4 | 82.5 | 17.5 | 0.28 | 169.23 | 0.41 | −13.2 | 65"}
+      ],
+      "spectra":[
+        {"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"gelatin-coated NLC with and without sage extract","quote":"Fourier transform infrared (FTIR) spectra of sage extract (SE), gelatin (GL), nanocarrier structure lipid"},
+        {"technique":"XRD","fig":"Figure 6","applies_to":"nanoparticle","sample":"SE-loaded GL-coated NLC","quote":"The X-ray diffraction (XRD) pattern of free sage extract (SE)"}
+      ]
+    },
+    {
+      "pmcid":"PMC8584841",
+      "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"liposomes and Liposome@PDA microspheres","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of (B) as prepared liposomes (indicated by arrowheads, scale bar 500 nm)"}],
+      "descriptors":[],
+      "spectra":[
+        {"technique":"FTIR","fig":"Figure 2","applies_to":"mixture","sample":"liposomes, PDA, and Liposome@PDA microspheres","quote":"FTIR spectra of liposomes, PDA, and Liposome@PDA microspheres."},
+        {"technique":"FTIR","fig":"Figure 4","applies_to":"mixture","sample":"MB and Liposome@PDA microspheres","quote":"FTIR spectra of MB and Liposome@PDA microspheres before and after adsorption of MB."}
+      ]
+    },
+    {
+      "pmcid":"PMC12609468",
+      "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 2","variant":"SEM","sample":"LNP/MC-coated cotton","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Detail of nanoparticles as viewed on 2 wt% LNP/MC cotton."}],
+      "descriptors":[{"sample":"LNPs on 0.4 wt% LNP/MC-coated groundwood paper","size_nm":30.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1; SEM image","quote":"Most LNPs measured under 30.8 nm."}],
+      "spectra":[{"technique":"FTIR","fig":"Figure 8","applies_to":"mixture","sample":"LNP/MC-treated cotton and groundwood","quote":"ATR/FTIR spectra for unaged samples, both uncoated and 2 wt% LNP/MC-treated."}]
+    },
+    {
+      "pmcid":"PMC12484951",
+      "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[
+        {"fig":"Fig. 4","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM images of AgNPs synthesized from leaf extract of S. bryopteris at different magnifications"},
+        {"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM micrograph and (B) Particle size distribution/histogram of green-synthesized AgNPs."}
+      ],
+      "descriptors":[],
+      "spectra":[
+        {"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV–Visible spectroscopy showing absorption spectrum of (A) leaf extract, 1mM silver nitrate, AgNPs"},
+        {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"EDX analysis of S. bryopteris derived AgNPs"},
+        {"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR and (B) XRD pattern of green synthesized AgNPs."},
+        {"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD pattern of green synthesized AgNPs."}
+      ]
+    },
+    {
+      "pmcid":"PMC10005067",
+      "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 3","variant":"SEM","sample":"nfPLGA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM of (a) pure PLGA, (b) nfPLGA"}],
+      "descriptors":[{"sample":"nfPLGA","size_nm":161,"pdi":0.185,"zeta_mV":null,"medium":"water","source":"text; DLS","quote":"the hydrodynamic diameter of nfPLGA particles in water was between 100 and 200 nm with an average (mean) of 161.0 nm"}],
+      "spectra":[
+        {"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"PLGA and nfPLGA particles","quote":"XRD, (b) RAMAN, and (c) FTIR analysis for pure PLGA and nfPLGA particles."},
+        {"technique":"Raman","fig":"Figure 2","applies_to":"nanoparticle","sample":"PLGA and nfPLGA particles","quote":"RAMAN"},
+        {"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"PLGA and nfPLGA particles","quote":"FTIR analysis for pure PLGA and nfPLGA particles."}
+      ]
+    },
+    {
+      "pmcid":"PMC6673697",
+      "context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"NLC and NLC-NPX","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of nanoparticles after 5 days of preparation (top) and after 12 months of storage at room temperature (bottom)."}],
+      "descriptors":[
+        {"sample":"NLC","size_nm":278.4,"pdi":null,"zeta_mV":-11.5,"medium":"not_declared","source":"text; DLS","quote":"The selected optimized formulation presented particle size around 278.4 ± 5.2 nm for NLC"},
+        {"sample":"NLC-NPX","size_nm":289.5,"pdi":null,"zeta_mV":-15.4,"medium":"not_declared","source":"text; DLS","quote":"and 289.5 ± 3.6 nm for NLC-NPX."}
+      ],
+      "spectra":[{"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"NLC and NLC-NPX formulations","quote":"ATR-FTIR (A) and DSC (B) analyses of nanostructured lipid carriers (NLC)"}]
+    },
+    {
+      "pmcid":"PMC11443663",
+      "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Figure 3","variant":"SEM","sample":"SNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of SNPs."}],
+      "descriptors":[{"sample":"SNPs","size_nm":null,"pdi":null,"zeta_mV":14.1,"medium":"buffer","source":"text; Zetasizer","quote":"The zeta potential of SNPs was measured as +14.1 mV at pH 7.0"}],
+      "spectra":[{"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"SNPs and DOX-SNPs","quote":"FTIR spectra of SNPs and DOX-SNPs."}]
+    },
+    {
+      "pmcid":"PMC12463224",
+      "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+      "panels":[{"fig":"Fig 8","variant":"SEM","sample":"leaf-extract synthesized AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of leaf extract-synthesized AgNPs at (a) low resolution and (b) high resolution."}],
+      "descriptors":[],
+      "spectra":[
+        {"technique":"UVVis","fig":"Fig 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-visible spectra of AgNPs synthesized using C. asiatica"},
+        {"technique":"FTIR","fig":"Fig 6","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectra of AgNPs prepared using C. asiatica leaf and stem extracts."},
+        {"technique":"XRD","fig":"Fig 7","applies_to":"nanoparticle","sample":"AgNPs","quote":"Powder XRD patterns of AgNPs were synthesized using the leaf and stem extracts of C. asiatica."},
+        {"technique":"EDS","fig":"Fig 10","applies_to":"nanoparticle","sample":"AgNPs from leaf aqueous extract","quote":"EDX spectrum of synthesized AgNPs from leaf aqueous extract."}
+      ]
+    }
+  ]
+}

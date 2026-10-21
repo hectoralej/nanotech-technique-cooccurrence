@@ -6,7 +6,7 @@
 
 Cada persona tiene su archivo:
 - **Bryan:** [TAREAS_BRYAN.md](TAREAS_BRYAN.md)
-- **Carlos:** [TAREAS_CARLOS.md](TAREAS_CARLOS.md) (trabaja en Codex y lee GitHub, pero no escribe: entrega sus archivos a Héctor)
+- **Carlos:** [TAREAS_CARLOS_v2.md](TAREAS_CARLOS_v2.md) (trabaja en Codex y lee GitHub, pero no escribe: entrega sus archivos a Héctor)
 - **Héctor:** abajo.
 
 ## Reglas de trabajo

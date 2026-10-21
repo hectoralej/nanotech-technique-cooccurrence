@@ -1,0 +1,111 @@
+{
+  "batch": "EX009",
+  "articles": [
+    {
+      "pmcid": "PMC11322916",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "cryoTEM", "sample": "optimized NLC and BZC-loaded NLC", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryo-TEM images (A, B, E, and F). Scale = 1 μm (A, E) and 200 nm (B, F)."}],
+      "descriptors": [],
+      "spectra": [{"technique": "XRD", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "NLC and NLCBZC", "quote": "X-ray diffractograms for the samples: BZC (A), CP (B), P68 (C), physical mixture, and NLC and NLCBZC (D)."}]
+    },
+    {
+      "pmcid": "PMC11422154",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "LMLX 1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron micrograph of LMLX 1."}],
+      "descriptors": [
+        {"sample": "PL 1", "size_nm": 104.0, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Table 1", "quote": "PL 1 | 26 | 4 | – | 104.0 ± 2.00 | 1.55 ± 0.07 | – | –"},
+        {"sample": "LMLX 1", "size_nm": 108.3, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Table 1", "quote": "LMLX 1 | 26 | 4 | 2 | 108.3 ± 1.53 | 1.32 ± 0.03 | 81.57 ± 0.57 | 4.62 ± 0.03"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "PL 1 and LMLX 1", "quote": "FT-IR spectroscopy of (a) pure meloxicam, (b) PL 1, and (c) LMLX 1."}]
+    },
+    {
+      "pmcid": "PMC8746983",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 2","variant":"SEM","sample":"LNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the (a) lignin, (b) freeze-dried LNPs, (c) LNPs dispersions"}],
+      "descriptors": [{"sample":"LNP suspension","size_nm":133.2,"pdi":null,"zeta_mV":-39.2,"medium":"water","source":"text; DLS/Zeta","quote":"Zeta potential and the average diameter of LNPs change slightly (Figure 3) from −39.2 mV to −37.6 mV"}],
+      "spectra": [{"technique":"FTIR","fig":"Figure 5","applies_to":"mixture","sample":"LNPs, SA and SA/LNPs-40 beads","quote":"Comparison of the FT-IR spectra of LNPs, SA and SA/LNPs-40 beads."}]
+    },
+    {
+      "pmcid": "PMC12071938",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 5","variant":"TEM_prep_not_declared","sample":"AgNPs and AgChNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of biosynthesized AgNPs with sizes ranging from 3.07 to 19.05 nm"}],
+      "descriptors": [{"sample":"AgChNPs (0.5%, pH 3, initial measurement)","size_nm":202.75,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; DLS","quote":"In the initial measurement, AgChNPs at 0.5% and pH 3 exhibited the smallest particle size (202.75 nm)"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"AgChNPs","quote":"UV-Vis spectra of biosynthesized AgNPs (black), AgChNPs 0.5% (red), 1% (blue), 2% (green)."},
+        {"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"AgChNPs 1% pH 4","quote":"FTIR spectrum of biosynthesized AgNPs (green) and AgChNPs 1% pH 4 (red)."},
+        {"technique":"XRD","fig":"Figure 4","applies_to":"nanoparticle","sample":"AgChNPs (1% Ch, pH 4)","quote":"The XRD pattern of biosynthesized AgChNPs (1% Ch, pH 4)."},
+        {"technique":"EDS","fig":"Figure 6","applies_to":"nanoparticle","sample":"AgChNPs (1% Ch, pH 4)","quote":"Energy dispersive X-ray (EDX) spectrum of biosynthesized AgChNPs (1% Ch, pH 4)."}
+      ]
+    },
+    {
+      "pmcid": "PMC13413050",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 4","variant":"TEM_prep_not_declared","sample":"CSNPs and silanized CSNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM: (A) CSNPs; (B) silanized CSNPs."}],
+      "descriptors": [
+        {"sample":"CSNPs","size_nm":359.43,"pdi":0.25,"zeta_mV":45.38,"medium":"not_declared","source":"text; DLS/Zeta","quote":"The CSNPs had a Z-average of 359.43 nm (PDI = 0.25)"},
+        {"sample":"silanized CSNPs","size_nm":371.9,"pdi":0.21,"zeta_mV":38.59,"medium":"not_declared","source":"text; DLS/Zeta","quote":"the silanized CSNPs’ Z-average increased to 371.9 nm (PDI = 0.21)"}
+      ],
+      "spectra": [
+        {"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"CSNPs before and after silanization","quote":"FTIR spectra of CSNPs before and after silanization."},
+        {"technique":"EDS","fig":"Figure 5","applies_to":"nanoparticle","sample":"CSNPs and silanized CSNPs","quote":"EDS: (A) CSNPs; (B) silanized CSNPs."},
+        {"technique":"XRD","fig":"Figure 6","applies_to":"nanoparticle","sample":"CSNPs before and after silanization","quote":"XRD of CSNPs before and after silanization."}
+      ]
+    },
+    {
+      "pmcid": "PMC10300871",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "SEM", "sample": "MRN-SLNs-COM10", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM images of lyophilized MRN-SLNs-COM10, after re-dispersion, at 200 nm (a) and 100 nm (b) magnification."}],
+      "descriptors": [
+        {"sample": "MRN-SLNs-COM10", "size_nm": 76.5, "pdi": 0.257, "zeta_mV": -32.0, "medium": "not_declared", "source": "Table 2", "quote": "MRN-SLNs-COM10 | 76.5 ± 5.6 | 0.257 ± 0.3 | -32.0 ± 1.6"},
+        {"sample": "MRN-SLNs-PHO10", "size_nm": 72.95, "pdi": 0.298, "zeta_mV": -22.3, "medium": "not_declared", "source": "Table 2", "quote": "MRN-SLNs-PHO10 | 72.95 ± 6.2 | 0.298 ± 0.05 | -22.3 ± 3.3"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "blank and morin-loaded SLNs", "quote": "X-ray diffraction (XRD) of the MRN-SLNs systems: (a) COM, MRN, blank SLNs-COM, and MRN-SLNs-COM10"},
+        {"technique": "Raman", "fig": "Figure 6", "applies_to": "nanoparticle", "sample": "MRN-SLNs-PHO10 and MRN-SLNs-COM10", "quote": "MRN-SLNs-PHO10 (red dotted line), and MRN-SLNs-COM10 (green dotted line) systems."}
+      ]
+    },
+    {
+      "pmcid": "PMC11510464",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "Lipo-GEN-THQ", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM imaging of the spherical Lipo-GEN-THQ formulation at a magnification of 120 K."}],
+      "descriptors": [{"sample": "Lipo-GEN-THQ", "size_nm": 107.9, "pdi": 0.15, "zeta_mV": -16.89, "medium": "not_declared", "source": "Table 1", "quote": "Hydrodynamic size (nm) | 107.9 (2.45) | 104.5 (1.66)"}],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "empty liposomes and Lipo-GEN-THQ", "quote": "FTIR spectra: (A) thymoquinone (THQ); (B) gentamicin (GEN); (C) empty liposomes; (D) liposomal gentamicin–thymoquinone (Lipo-GEN-THQ) formula."}]
+    },
+    {
+      "pmcid": "PMC12057187",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 3", "variant": "cryoTEM", "sample": "hexosomes and proteohexosomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryo-TEM images visualizing examples of hexosomes (A) and proteohexosomes (B). The scale bar is 100 nm."}],
+      "descriptors": [
+        {"sample": "Hexosomes", "size_nm": 150, "pdi": 0.067, "zeta_mV": -19.2, "medium": "PBS", "source": "Table 1", "quote": "Hexosomes | 150 ± 2 | 0.067 | − 19.2 ± 1.6"},
+        {"sample": "Hexosomes with HMGR", "size_nm": 160, "pdi": 0.111, "zeta_mV": -6.9, "medium": "PBS", "source": "Table 1", "quote": "Hexosomes with HMGR | 160 ± 1 | 0.111 | − 6.9 ± 0.5"}
+      ],
+      "spectra": [{"technique": "SAXS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "hexosomes and proteohexosomes", "quote": "Representative small-angle X-ray scattering diffraction patterns were obtained for hexosomes (1, black line) and proteohexosomes (2, orange line)"}]
+    },
+    {
+      "pmcid": "PMC9370869",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 6","variant":"SEM","sample":"biogenic AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM image of biogenic AgNPs at 44.6 kx and 500 nm"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-Vis spectroscopy of reaction mixture indicating typical absorbance peak of AgNPs around 425 nm."},
+        {"technique":"XRD","fig":"Figure 4","applies_to":"nanoparticle","sample":"biogenic silver nanoparticles","quote":"X-ray diffraction pattern of biogenic silver nanoparticles."},
+        {"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"silver nanoparticles","quote":"FTIR depicting functional groups of silver nanoparticles vs. thyme extract."},
+        {"technique":"EDS","fig":"Figure 7","applies_to":"nanoparticle","sample":"AgNPs","quote":"The EDS graph, with energy on X-axis and counts on Y-axis, shows the elemental composition of AgNPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC12678815",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"MAS/CS-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of MAS and MAS with different ratio of CS-NPs (1:9, 3:7, 5:5)."},
+        {"fig":"Fig. 4","variant":"SEM","sample":"MAS/CS-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (A) MAS/CS-NPs before adsorption and (B) MAS/CS-NPs after adsorption."}
+      ],
+      "descriptors": [{"sample":"MAS-CS-NPs","size_nm":null,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"The average particle size was found to be between 22 and 35 nm."}],
+      "spectra": [
+        {"technique":"XRD","fig":"Fig. 1","applies_to":"mixture","sample":"MAS and MAS/CS-NPs","quote":"XRD patterns of MAS and MAS/CS-NPs."},
+        {"technique":"FTIR","fig":"Fig. 3","applies_to":"mixture","sample":"MAS/CS-NPs","quote":"FTIR spectra of (a) MAS/CS-NPs before adsorption and (b) MAS/CS-NPs after adsorption."},
+        {"technique":"EDS","fig":"Fig. 5","applies_to":"mixture","sample":"MAS/CS-NPs","quote":"EDX graphs of (A) MAS/CS-NPs before adsorption and (B) MAS/CS-NPs after adsorption."}
+      ]
+    }
+  ]
+}

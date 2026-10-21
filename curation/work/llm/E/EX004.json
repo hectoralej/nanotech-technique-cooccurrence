@@ -1,0 +1,385 @@
+{
+  "batch": "EX004",
+  "articles": [
+    {
+      "pmcid": "PMC13447371",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {"fig":"Figure 8","variant":"TEM_prep_not_declared","sample":"iron oxide nanoparticles embedded in C12 lens","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of the sample (C12)."},
+        {"fig":"Figure 8","variant":"SEM","sample":"iron oxide nanoparticle-embedded contact lenses","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of the (g) clear lens, (h) low-concentrated lens (C1), and (i) high-concentrated lens (C12)."}
+      ],
+      "descriptors": [{"sample":"iron oxide nanoparticles in C12","size_nm":8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"The TEM image of the nanoparticles revealed roughly spherical particles with an average size of ∼8 nm"}],
+      "spectra": [
+        {"technique":"EDS","fig":"Figure 8","applies_to":"nanoparticle","sample":"iron oxide nanoparticles in lens","quote":"(a) EDS spectra."},
+        {"technique":"XRD","fig":"Figure 9","applies_to":"nanoparticle","sample":"iron oxide nanoparticle-embedded contact lens (C12)","quote":"X-ray diffraction (XRD) pattern of iron oxide nanoparticle-embedded contact lens (C12)."},
+        {"technique":"FTIR","fig":"Figure 9","applies_to":"mixture","sample":"clear lens and iron nanoparticle-embedded lens (C12)","quote":"FTIR spectra for the clear lens and iron nanoparticle-embedded lens (C12)."}
+      ]
+    },
+    {
+      "pmcid": "PMC12632125",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Fig. 2","variant":"SEM","sample":"ChNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Characterization of ChNPs determined by SEM (A, B), TEM (C, D) and EDX (E)"}],
+      "descriptors": [{"sample":"ChNPs","size_nm":null,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM size not DLS","quote":"While, TEM analysis of the obtained biosynthesized chitosan nanoparticles reveals particles ranging in size between 12.0 and 39.4 nm"}],
+      "spectra": [
+        {"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"ChNPs","quote":"Characterization of ChNPs determined by SEM (A, B), TEM (C, D) and EDX (E)"},
+        {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"ChNPs","quote":"Characterization of ChNPs determined by the ζ-potential (A), particles size analysis (B), XRD (C), and FTIR (D)"},
+        {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"ChNPs","quote":"XRD (C), and FTIR (D)"}
+      ]
+    },
+    {
+      "pmcid": "PMC12114638",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "NLC–Melox",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of Melox-loaded nanoparticles and gel formulations at 25,000 and 50,000× magnifications with scale bars 200 nm (1st row) and 100 nm (2nd row)."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "NLC-HPMC gel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(b) NLC-HPMC gel"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "NLC-NaHA gel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(c) NLC-NaHA gel"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "NLC-ZnHA gel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(d) NLC-ZnHA gel"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Formulation A",
+          "size_nm": 183,
+          "pdi": 0.26,
+          "zeta_mV": -19.5,
+          "medium": "not_declared",
+          "source": "Results; physicochemical parameters also cited in Supplementary Table S1",
+          "quote": "a more favorable ZP (−19.5 mV), a relatively low PDI (0.26), and an acceptable particle size (Z-average of 183.0 nm)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "NLC–Melox",
+          "quote": "XRD spectra of the solid lipid, the physical mixture (melt), Melox, NLC–Melox, and NLC–Melox-loaded polymeric gels"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "physical mixture (melt)",
+          "quote": "XRD spectra of the solid lipid, the physical mixture (melt), Melox, NLC–Melox, and NLC–Melox-loaded polymeric gels"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "NLC–Melox",
+          "quote": "(a) Raman spectra of excipients (CO, surfactant, S.L, Melox), and NLC–Melox."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11085645",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "NHA liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(H) Illustrates SEM image of NHA."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NHA",
+          "size_nm": 252,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results; Figure 1F",
+        "quote": "312 nm ± 127 nm and 252 nm ± 93 nm, respectively, as shown in Figure 1F."
+        },
+        {
+          "sample": "NHA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -23.6,
+          "medium": "not_declared",
+          "source": "Results; Figure 1D–E",
+        "quote": "−22.4 mV ± 8.24 mV and −23.6 mV ± 6.64 mV, respectively, as shown in Figure 1D and Figure 1E."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "NHA",
+          "quote": "(A) The FTIR spectra of NHA of Amphiroa anceps."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "NHA",
+          "quote": "(C) The absorption spectrum of the NHA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10311593",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "cryoTEM",
+          "sample": "prepurified ASO-LNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Cryo-EM images of prepurified LNPs prepared with 1 mM total lipids."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "cryoTEM",
+          "sample": "LNP formulations with different PEG-lipid compositions",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-EM images of LNP formulations investigated in panel A."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "prepurified LNPs",
+          "quote": "SAXS profile of prepurified LNPs analyzed at different total lipid concentrations."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "5 LNPs with different PEG-lipid compositions",
+          "quote": "SAXS analysis of 5 LNPs with different PEG-lipids composition."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9227860",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "SLPN4",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of optimized LPHNPs (SLPN4)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SLPN4",
+          "size_nm": 439,
+          "pdi": 0.269,
+          "zeta_mV": 34,
+          "medium": "water",
+          "source": "Results; Table 3",
+          "quote": "SLPN4 was optimized with size (439 ± 5.8 nm), PDI (0.269), ZP (+34 ± 5.3 mV)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "SLPN4",
+          "quote": "Comparative FTIR spectra of pure SM, SLPN4, lipoid 90H, and chitosan."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "SLPN4",
+          "quote": "XRD spectra of pure SM and optimized LPHNPs (SLPN4)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "component",
+          "sample": "pure SM, lipoid 90H, and chitosan",
+          "quote": "Comparative FTIR spectra of pure SM, SLPN4, lipoid 90H, and chitosan."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11775004",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"FIGURE 1","variant":"SEM","sample":"AgNPC and AgNPCA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM and EDS analysis. AgNPC (A) SEM; (B) EDS; AgNPCA (C) SEM; (D) EDS."}],
+      "descriptors": [
+        {"sample":"AgNPC","size_nm":65.6,"pdi":0.458,"zeta_mV":-34.9,"medium":"not_declared","source":"Table 1; DLS","quote":"AgNPC | −34.9 | 12.8 ± 11.2 | 65.6 | 0.458"},
+        {"sample":"AgNPCA","size_nm":null,"pdi":null,"zeta_mV":-11.1,"medium":"not_declared","source":"Table 1; DLS","quote":"AgNPCA | −11.1 | 36.0 ± 34.3 | - | -"}
+      ],
+      "spectra": [
+        {"technique":"EDS","fig":"FIGURE 1","applies_to":"nanoparticle","sample":"AgNPC and AgNPCA","quote":"SEM and EDS analysis. AgNPC (A) SEM; (B) EDS; AgNPCA (C) SEM; (D) EDS."},
+        {"technique":"XRD","fig":"FIGURE 2","applies_to":"nanoparticle","sample":"AgNPCA and AgNPC","quote":"X-ray diffraction (XRD) study of AgNPCA (red) and AgNPC (blue)."},
+        {"technique":"UVVis","fig":"FIGURE 3","applies_to":"nanoparticle","sample":"AgNPCA and AgNPC","quote":"UV-vis analysis of AgNPCA, AgNPC, AgNPC1 and clove extract (200–500 nm)."},
+        {"technique":"FTIR","fig":"FIGURE 4","applies_to":"nanoparticle","sample":"AgNPCA and AgNPC","quote":"Fourier-Transform Infrared (FTIR) spectroscopic analysis of AgNPCA (red), AgNPC (blue) and pure clove extract (green)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10216173",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 3","variant":"SEM","sample":"UiO-66-NH2 MOF and UiO-66-NH2 MOF/PAMAM nanocomposite","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The FE-SEM images of the as-synthesized UiO-66-NH2 MOF (a,b) and UiO-66-NH2 MOF/PAMAM nanocomposite (c,d)"}],
+      "descriptors": [{"sample":"UiO-66-NH2 MOF","size_nm":275,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; particle size method not specified","quote":"The UiO-66-NH2 MOF had a particle size of ~275 nm."}],
+      "spectra": [
+        {"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"UiO-66-NH2 MOF/PAMAM nanocomposite","quote":"FT-IR spectrum of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b)."},
+        {"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"UiO-66-NH2 MOF/PAMAM nanocomposite","quote":"The XRD pattern of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b)."},
+        {"technique":"EDS","fig":"Figure 4","applies_to":"nanoparticle","sample":"UiO-66-NH2 MOF/PAMAM nanocomposite","quote":"EDS analysis of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b)."}
+      ]
+    },
+    {
+      "pmcid": "PMC12117203",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "APT-CD-NP4",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM photomicrographs of (a, b) APT-CD-NP4 and (c, d) APT-PX-NP8."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "APT-PX-NP8",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM photomicrographs of (a, b) APT-CD-NP4 and (c, d) APT-PX-NP8."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "APT-CD-NP4 and APT-PX-NP8",
+          "quote": "(a) FTIR spectra and (b) X-ray diffractograms of APT, poloxamer 407, β-CD, APT-CD-NP4, and APT-PX-NP8."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "APT-CD-NP4 and APT-PX-NP8",
+          "quote": "(a) FTIR spectra and (b) X-ray diffractograms of APT, poloxamer 407, β-CD, APT-CD-NP4, and APT-PX-NP8."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12195063",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "antibiotic-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(C) SEM images reveal the circular smooth structure of liposomes."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "antibiotic-loaded liposomes",
+          "quote": "(A) Overlaid view of FTIR spectroscopic spectra"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "liposomes alone and antibiotics-loaded liposomes",
+          "quote": "(B) UV-Vis absorbance spectra where ampicillin, tocopherol, amikacin, liposomes alone, and antibiotics-loaded liposomes are represented"
+        }
+      ]
+    }
+  ]
+}

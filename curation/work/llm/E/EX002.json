@@ -1,0 +1,555 @@
+{
+  "batch": "EX002",
+  "articles": [
+    {
+      "pmcid": "PMC12297327",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Fig. 2","variant":"TEM_negstain","sample":"LNPs (LNPE and LNPT groups)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Particle dimension distribution (PDD) and TEM images of lignin nanoparticles prepared from EG were coded LNPs (1-6)."}],
+      "descriptors": [{"sample":"LNPE7","size_nm":48.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2 (TEM-derived PDD)","quote":"Kraft | BL-7 | 48.9 ± 19.7 | 524.6 ± 233.6"}],
+      "spectra": [{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"lignin nanoparticles (LNPE7–LNPE9)","quote":"FTIR of lignin nanoparticles prepared from EG (LNPE7-LNPE9) versus their black liquors (BLs)."}]
+    },
+    {
+      "pmcid": "PMC8746631",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "B-PLN4",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Size distribution plot derived by DLS method (A) and SEM images (B) of optimised lipid-polymer nanoparticle system (B-PLN4)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "B-PLN1",
+          "size_nm": 205,
+          "pdi": 0.17,
+          "zeta_mV": -21.1,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "B-PLN1 | 205 ± 5.2 | 0.170 | −21.1 ± 2.1 | 57.8 ± 1.1 | 6.80 ± 0.81"
+        },
+        {
+          "sample": "B-PLN2",
+          "size_nm": 231,
+          "pdi": 0.202,
+          "zeta_mV": -26.5,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "B-PLN2 | 231 ± 4.3 | 0.202 | −26.5 ± 2.7 | 45.9 ± 1.9 | 6.51 ± 1.02"
+        },
+        {
+          "sample": "B-PLN3",
+          "size_nm": 259,
+          "pdi": 0.299,
+          "zeta_mV": -32.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "B-PLN3 | 259 ± 8.6 | 0.299 | −32.4 ± 1.8 | 68.6 ± 1.9 | 5.08 ± 0.95"
+        },
+        {
+          "sample": "B-PLN4",
+          "size_nm": 272,
+          "pdi": 0.225,
+          "zeta_mV": -36.5,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "B-PLN4 | 272 ± 7.6 | 0.225 | −36.5 ± 3.1 | 71.6 ± 1.5 | 2.87 ± 0.42"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "B-PLN1 to B-PLN4",
+          "quote": "Comparative FTIR spectra of BTB, stearin, PLGA, SL and formulated lipid-polymer nanoparticles (B-PLN1 to B-PLN4)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "BTB, stearin, PLGA, and SL",
+          "quote": "Comparative FTIR spectra of BTB, stearin, PLGA, SL and formulated lipid-polymer nanoparticles (B-PLN1 to B-PLN4)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "B-PLN1 to B-PLN4",
+          "quote": "XRD spectra of BTB and formulated lipid-polymer nanoparticles (B-PLN1-B-PLN4)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "BTB",
+          "quote": "XRD spectra of BTB and formulated lipid-polymer nanoparticles (B-PLN1-B-PLN4)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13402423",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {"fig":"FIGURE 4","variant":"SEM","sample":"GC-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM images of GC-AgNPs (a) X50,000, (b) X,100,000"},
+        {"fig":"FIGURE 6","variant":"TEM_prep_not_declared","sample":"GC-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs of GC-AgNPs (a) 50 nm, (b) 20 nm"}
+      ],
+      "descriptors": [{"sample":"GC-AgNPs","size_nm":103,"pdi":null,"zeta_mV":-31.4,"medium":"not_declared","source":"text; DLS/Zeta","quote":"The Z-average particle size was observed at 103 nm (Figure 7a), which is larger than the size reported by FESEM and TEM analysis."}],
+      "spectra": [
+        {"technique":"UVVis","fig":"FIGURE 3","applies_to":"nanoparticle","sample":"GC-AgNPs","quote":"UV-Vis absorption peak of GC-AgNPs."},
+        {"technique":"EDS","fig":"FIGURE 5","applies_to":"nanoparticle","sample":"GC-AgNPs","quote":"Energy dispersive X-Ray diffraction spectrum of GC-AgNPs."},
+        {"technique":"FTIR","fig":"FIGURE 8","applies_to":"nanoparticle","sample":"GC-AgNPs","quote":"FT-IR spectrum (a) Aqueous Leaf extract of Morus nigra (b) FT-IR spectrum of GC-AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC13116750",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 3","variant":"SEM","sample":"Ch NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphological and structural characterization of Ch NPs: (A) Environmental SEM micrograph showing surface agglomeration;"}],
+      "descriptors": [{"sample":"Ch NPs","size_nm":450.8,"pdi":0.45,"zeta_mV":47.37,"medium":"water","source":"Table 1; DLS","quote":"Mean ± SD | 450.80 ± 8.75 | 0.45 ± 0.02 | 47.37 ± 1.01"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"Ch NPs","quote":"UV–Vis absorption spectrum of synthesized Ch NPs."},
+        {"technique":"EDS","fig":"Figure 3","applies_to":"nanoparticle","sample":"Ch NPs","quote":"EDS spectrum showing elemental composition;"},
+        {"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"Ch NPs","quote":"FTIR spectra of Bulk Ch and Ch NPs."},
+        {"technique":"XRD","fig":"Figure 5","applies_to":"nanoparticle","sample":"Ch NPs","quote":"X-ray diffraction (XRD) pattern of Ch NPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC11850822",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "NLCpre",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and particle size graph of the nanoparticles: (a) NLCpre, (b) PTX-NLCpre, (c) NLCLec and (d) PTX-NLCLec."
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "PTX-NLCpre",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and particle size graph of the nanoparticles: (a) NLCpre, (b) PTX-NLCpre, (c) NLCLec and (d) PTX-NLCLec."
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "NLCLec",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and particle size graph of the nanoparticles: (a) NLCpre, (b) PTX-NLCpre, (c) NLCLec and (d) PTX-NLCLec."
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "PTX-NLCLec",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and particle size graph of the nanoparticles: (a) NLCpre, (b) PTX-NLCpre, (c) NLCLec and (d) PTX-NLCLec."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLCPre-50",
+          "size_nm": 154.2,
+          "pdi": 0.1689,
+          "zeta_mV": -20.5,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCPre-50 | 154.2 | 60.50 | 0.1689 | −20.5"
+        },
+        {
+          "sample": "NLCPre-60",
+          "size_nm": 120.6,
+          "pdi": 0.254,
+          "zeta_mV": -22.9,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCPre-60 | 120.6 | 36.4 | 0.254 | −22.9"
+        },
+        {
+          "sample": "NLCPre-70",
+          "size_nm": 114.7,
+          "pdi": 0.614,
+          "zeta_mV": -24.7,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCPre-70 | 114.7 | 61.7 | 0.614 | −24.7"
+        },
+        {
+          "sample": "NLCLec-50",
+          "size_nm": 186.1,
+          "pdi": 0.073,
+          "zeta_mV": -20.2,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCLec-50 | 186.1 | 68.80 | 0.0730 | −20.2"
+        },
+        {
+          "sample": "NLCLec-60",
+          "size_nm": 112,
+          "pdi": 0.1158,
+          "zeta_mV": -24.9,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCLec-60 | 112 | 41.7 | 0.1158 | −24.9"
+        },
+        {
+          "sample": "NLCLec-70",
+          "size_nm": 107,
+          "pdi": 0.1249,
+          "zeta_mV": -28.8,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NLCLec-70 | 107 | 35.80 | 0.1249 | −28.8"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "component",
+          "sample": "free PTX",
+          "quote": "FT-IR spectra of (a) free PTX, (b) PTX-NLCPre and (c) PTX-NLCLec."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "PTX-NLCPre and PTX-NLCLec",
+          "quote": "FT-IR spectra of (a) free PTX, (b) PTX-NLCPre and (c) PTX-NLCLec."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "NLCPre, PTX-NLCPre, NLCLec, and PTX-NLCLec",
+          "quote": "UV-Vis spectra of nanoparticles: (a) NLCPre (b) PTX-NLCPre (c) NLCLec and (d) PTX-NLCLec."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10401763",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig.1",
+          "variant": "TEM_negstain",
+          "sample": "ACCF-liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image showing the spherical shape of ACCF-liposomes."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ACCF-liposomes",
+          "size_nm": 98,
+          "pdi": 0.29,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results; Fig. 1a and Table 1",
+          "quote": "Figure 1a and Table 1 demonstrate that the average hydrodynamic size of liposomes entrapped ACCF was 98 nm with a PDI of 0.29±0.04"
+        },
+        {
+          "sample": "ACCF-liposomes",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -38.66,
+          "medium": "not_declared",
+          "source": "Results; Table 1",
+          "quote": "Concerning the surface electric charge, the zeta potential of ACCF-liposomes was -38.66±0.33mV, illustrating their excellent stability (Table 1)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "ACCF-liposomes",
+          "quote": "(a) FT-IR spectra of ACCF, free liposomes, and ACCF-liposomes."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "ACCF-liposomes",
+          "quote": "(b) X-ray diffraction pattern demonstrating crystalline structure and the size of ACCF-liposomes."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "ACCF-liposomes",
+          "quote": "UV–visible absorption spectra of ACCF-liposomes showing the evolution of a steady absorption peak at 201 nm."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6409744",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 7","variant":"SEM","sample":"LNP-coated beech wood surfaces","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs at different magnifications (150×, 2200–2500×, 10000×) of the beech wood surfaces coated with LNPs"}],
+      "descriptors": [],
+      "spectra": [{"technique":"FTIR","fig":"Figure 6","applies_to":"nanoparticle","sample":"freeze-dried LNPs (LNPs-IR and LNPs-IRNS)","quote":"FTIR spectra of the Acidolysis lignin fraction from Iroko and Iroko–Norway spruce sawdust (AL-IR, AL-IRNS) and of their respective freeze-dried lignin nanoparticles (LNPs-IR, LNPs-IRNS)."}]
+    },
+    {
+      "pmcid": "PMC8877258",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized hesperidin-loaded lipid polymer hybrid nanoparticle (HLPHN4)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Hesperidin-loaded lipid polymer hybrid nanoparticle: (A)—DSC; (B)—XRD; (C)—TEM analysis."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "HLPHN4",
+          "size_nm": 91.43,
+          "pdi": 0.056,
+          "zeta_mV": 15.6,
+          "medium": "not_declared",
+          "source": "Table 3; narrative reports a conflicting PDI range (0.214–1.000)",
+          "quote": "HLPHN 4 | 0 | 0 | 0 | 1.5:2 | 10 | 1 | 92.8 | 53.93 | 91.43 | 0.056 | 15.6"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "HLPHN4 and HLPHN2",
+          "quote": "FTIR spectral analysis of (a) hesperidin (b) HLPHN4 (c) HLPHN2 under the optimized conditions."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "hesperidin-loaded lipid polymer hybrid nanoparticle",
+          "quote": "Hesperidin-loaded lipid polymer hybrid nanoparticle: (A)—DSC; (B)—XRD; (C)—TEM analysis."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13066039",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "P-AgNPs and NP-AgNPs1–3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+        "quote": "SEM images (a, b, c, d), TEM images (e, f, g, h), and size distribution (i, j, k, l) of P-AgNPs, NP-AgNPs1, NP-AgNPs2 and NP-AgNPs3"
+        },
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "P-AgNPs and NP-AgNPs1–3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+        "quote": "SEM images (a, b, c, d), TEM images (e, f, g, h), and size distribution (i, j, k, l) of P-AgNPs, NP-AgNPs1, NP-AgNPs2 and NP-AgNPs3"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "P-AgNPs",
+          "size_nm": 21.79,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3i–l; image-derived size",
+        "quote": "21.79 ± 3.42, 22.81 ± 2.73, 25.35 ± 2.46, and 24.58 ± 3.88 nm, respectively (Fig. 3i-l)."
+        },
+        {
+          "sample": "NP-AgNPs1",
+          "size_nm": 22.81,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3i–l; image-derived size",
+        "quote": "21.79 ± 3.42, 22.81 ± 2.73, 25.35 ± 2.46, and 24.58 ± 3.88 nm, respectively (Fig. 3i-l)."
+        },
+        {
+          "sample": "NP-AgNPs2",
+          "size_nm": 25.35,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3i–l; image-derived size",
+        "quote": "21.79 ± 3.42, 22.81 ± 2.73, 25.35 ± 2.46, and 24.58 ± 3.88 nm, respectively (Fig. 3i-l)."
+        },
+        {
+          "sample": "NP-AgNPs3",
+          "size_nm": 24.58,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3i–l; image-derived size",
+        "quote": "21.79 ± 3.42, 22.81 ± 2.73, 25.35 ± 2.46, and 24.58 ± 3.88 nm, respectively (Fig. 3i-l)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "P-AgNPs and NP-AgNPs1–3",
+          "quote": "UV-vis absorption spectra of P-AgNPs, NP-AgNPs1, NP-AgNPs2 and NP-AgNPs3 (a)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "P-AgNPs and NP-AgNPs2",
+          "quote": "XRD analysis of nisin, P-AgNPs and NP-AgNPs2 (b)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "NP-AgNPs2",
+          "quote": "FT-IR specta of NP-AgNPs2, pectin and nisin (c)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "P-AgNPs and NP-AgNPs1–3",
+          "quote": "EDS analysis (d) of P-AgNPs, NP-AgNPs1, NP-AgNPs2 and NP-AgNPs3"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11102914",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "Empty HA-ThCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images (A: upper) show spherical and smooth surfaces of nanoparticles of Empty HA-ThCs"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "HA-coated 5-FU in ThCs-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(B: upper) HA-coated 5-FU in ThCs-NPs at the scale of 5.0um"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HA-coated 5-FU in ThCs-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images (C) showed more precise image of HA-coated 5-FU in ThCs-NPs at scale of 50 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Empty HA-ThCs-NPs",
+          "size_nm": 309.2,
+          "pdi": 1,
+          "zeta_mV": 7.85,
+          "medium": "not_declared",
+          "source": "Results",
+          "quote": "For Empty HA-ThCs-NPs, the mean smallest nanoparticle size was 309.2 nm, ZP 7.85 mV with PDI of 1.0."
+        },
+        {
+          "sample": "HA-coated 5-FU in ThCs-NPs",
+          "size_nm": 327,
+          "pdi": 1,
+          "zeta_mV": 8.96,
+          "medium": "not_declared",
+          "source": "Results",
+          "quote": "On the other hand, the HA-coated 5-FU in ThCs-NPs showed 327 nm, ZP 8.96 mV with PDI of 1.0."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Empty HA-ThCs and HA-coated 5-FU in ThCs-NPs",
+          "quote": "Functional group analysis of (A, a) Empty HA-ThCs and (B, b) HA-coated 5-FU in ThCs-NPs (Upper graphs for FTIR"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Empty HA-ThCs and HA-coated 5-FU in ThCs-NPs",
+          "quote": "Functional group analysis of (A, a) Empty HA-ThCs and (B, b) HA-coated 5-FU in ThCs-NPs (Upper graphs for FTIR and lower graphs showed XRD analysis)"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "HA-coated 5-FU in ThCs-NPs",
+          "quote": "Raman analysis of at 50X HA-coated 5-FU in ThCs-NPs."
+        }
+      ]
+    }
+  ]
+}

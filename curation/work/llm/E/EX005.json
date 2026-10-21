@@ -1,0 +1,583 @@
+{
+  "batch": "EX005",
+  "articles": [
+    {
+      "pmcid": "PMC10172346",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CoQ10-MITO-Porter",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(A) TEM image of CoQ10-MITO-Porter. Scale bar 50 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CoQ10-MITO-Porter [PEG (+), R8 (+)]",
+          "size_nm": 54.4,
+          "pdi": 0.289,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results",
+          "quote": "particle size: 54.4 ± 4.8 nm and PDI: 0.289 ± 0.0188"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CoQ10-MITO-Porter",
+          "quote": "(B) SAXS profiles of LNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11359515",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "developed NPs before freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the developed NPs (A,B) before and (C,D) after freeze-drying."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "developed NPs after freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the developed NPs (A,B) before and (C,D) after freeze-drying."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F1 (before freeze-drying)",
+          "size_nm": 350.7,
+          "pdi": 0.32,
+          "zeta_mV": -32.03,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F1 | 350.70 ± 16.04 | 0.32 ± 0.06 | −32.03 ± 1.36"
+        },
+        {
+          "sample": "F2 (before freeze-drying)",
+          "size_nm": 320.34,
+          "pdi": 0.28,
+          "zeta_mV": -34.16,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F2 | 320.34 ± 14.81 | 0.28 ± 0.04 | −34.16 ± 1.25"
+        },
+        {
+          "sample": "F3 (before freeze-drying)",
+          "size_nm": 302.19,
+          "pdi": 0.32,
+          "zeta_mV": -33.47,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F3 | 302.19 ± 19.27 | 0.32 ± 0.09 | −33.47 ± 1.63"
+        },
+        {
+          "sample": "F4 (before freeze-drying)",
+          "size_nm": 323.01,
+          "pdi": 0.42,
+          "zeta_mV": -37.98,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F4 | 323.01 ± 7.24 | 0.42 ± 0.07 | −37.98 ± 1.94"
+        },
+        {
+          "sample": "F5 (before freeze-drying)",
+          "size_nm": 350.75,
+          "pdi": 0.38,
+          "zeta_mV": -38.82,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F5 | 350.75 ± 27.57 | 0.38 ± 0.09 | −38.82 ± 1.69"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "blank LPHNPs and IVM-loaded LPHNPs F1–F5",
+          "quote": "FTIR spectra of (a) pure IVM, (b) blank LPHNPs, and (c–g) IVM-loaded LPHNPs F1–F5."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "IVM-loaded LPHNPs",
+          "quote": "XRD patterns of (A) pure IVM, (B) PCL, lecithin, Pluronic F127 (poloxamer), and IVM-loaded LPHNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13304926",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {"fig":"Figure 4","variant":"TEM_prep_not_declared","sample":"AgNP-Alg and AgNP-PP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of (a) AgNP-Alg-500, (b) AgNP-Alg-500-50 °C, and (c) AgNP-PP-500-50 °C showing spherical AgNPs at 100 nm scale."},
+        {"fig":"Figure 6","variant":"SEM","sample":"AgNP-Alg and AgNP-PP composite materials","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy images of material samples (a) C1-AgNP-Alg-500, (b) C2-AgNP-Alg-500."}
+      ],
+      "descriptors": [
+        {"sample":"AgNP-Alg-500-50 °C","size_nm":143,"pdi":0.77,"zeta_mV":-23,"medium":"water","source":"Table 1; DLS","quote":"AgNP-Alg-500-50 °C | −23.0 ± 0.3 | 143 ± 5 | 0.770 ± 0.03"},
+        {"sample":"AgNP-Alg-500","size_nm":51.3,"pdi":0.531,"zeta_mV":-38.7,"medium":"water","source":"Table 1; DLS","quote":"AgNP-Alg-500 | −38.7 ± 0.2 | 51.3 ± 0.6 | 0.531 ± 0.004"},
+        {"sample":"AgNP-PP-500-50 °C","size_nm":25.2,"pdi":0.681,"zeta_mV":-35,"medium":"water","source":"Table 1; DLS","quote":"AgNP-PP-500-50 °C | −35 ± 2 | 25.2 ± 0.2 | 0.681 ± 0.008"}
+      ],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"AgNP-Alg","quote":"UV-Vis extinction spectra in the study of the influence of Alg concentration on the synthesis of Alg-coated AgNPs."},
+        {"technique":"EDS","fig":"Figure 7","applies_to":"mixture","sample":"AgNP-Alg composite material","quote":"SEM image and EDS spectra and (b) elemental maps of a composite material"},
+        {"technique":"Raman","fig":"Figure 9","applies_to":"mixture","sample":"Ag–Alg interactions and PP species","quote":"Raman spectra with assigned vibrational bands corresponding to (a) Ag–Alg interactions"}
+      ]
+    },
+    {
+      "pmcid": "PMC12940844",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 2","variant":"SEM","sample":"CSNPs and chitosan-inorganic oxide nanocomposites","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) micrographs illustrating the surface morphology of synthesized nanoparticles and their respective chitosan composites."}],
+      "descriptors": [
+        {"sample":"CSNPs","size_nm":210,"pdi":null,"zeta_mV":12.9,"medium":"water","source":"text; DLS","quote":"Dynamic light scattering (DLS) analysis (Figure 1B) revealed that CSNPs exhibited a narrow size distribution with a mean hydrodynamic diameter of approximately 210 nm"},
+        {"sample":"CS-SiO2","size_nm":635,"pdi":null,"zeta_mV":14.1,"medium":"water","source":"text; DLS","quote":"CS-SiO2 had a mean diameter of 635 ± 15 nm"},
+        {"sample":"CS-ZnO","size_nm":650,"pdi":null,"zeta_mV":7.6,"medium":"water","source":"text; DLS","quote":"CS-ZnO measured 650 ± 25 nm"},
+        {"sample":"CS-CuO","size_nm":720,"pdi":null,"zeta_mV":5.4,"medium":"water","source":"text; DLS","quote":"CS-CuO displayed slightly larger particles averaging 720 ± 30 nm"}
+      ],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"chitosan-inorganic oxide nanocomposites","quote":"(D) UV-Vis spectra"},
+        {"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"chitosan-inorganic oxide nanocomposites","quote":"(E) FTIR spectra"},
+        {"technique":"XRD","fig":"Figure 1","applies_to":"nanoparticle","sample":"chitosan-inorganic oxide nanocomposites","quote":"(F) XRD patterns of prepared material."}
+      ]
+    },
+    {
+      "pmcid": "PMC12944099",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "NLC-blank and NLC10NOR + 106CN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological image by scanning electron microscopy (SEM) of NLC-blank and NLC10NOR + 106CN."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F25",
+          "size_nm": 184.5,
+          "pdi": 0.29,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results",
+        "quote": "showed an average diameter of 184.5 nm and a PDI of 0.29."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NLC-blank and NLC10NOR + 106CN",
+          "quote": "Diffractogram of 6CN-Ethyl, norfloxacin, NLC, NLC10NOR + 106CN."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "NLC-blank and NLC10NOR + 106CN",
+          "quote": "Infrared spectra of 6CN-Ethyl, norfloxacin, NLC, NLC10NOR + 106CN."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11945751",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank liposomes before freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of liposomal NPs; (a) before (200 nm) and (b) after freeze-drying of blank liposomes (500 nm)"
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank liposomes after freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of liposomal NPs; (a) before (200 nm) and (b) after freeze-drying of blank liposomes (500 nm)"
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "drug-loaded liposomes before freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(c) before (200 nm) and (d) after freeze-drying of drug-loaded liposomes (500 nm)."
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "drug-loaded liposomes after freeze-drying",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(c) before (200 nm) and (d) after freeze-drying of drug-loaded liposomes (500 nm)."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "blank liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of freeze-dried liposomal NPs using; (a), blank liposomes"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "drug-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "and (b) drug-loaded liposomes"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank liposome (before freeze-drying)",
+          "size_nm": 169.4,
+          "pdi": 0.347,
+          "zeta_mV": -50.1,
+          "medium": "water",
+          "source": "Table 2",
+        "quote": "169.4 ± 18.0 | 146.1 ± 12.4 | 0.347 ± 0.0 | 0.590 ± 0.0 | −50.1 ± 1.9 | −50.8 ± 1.3"
+        },
+        {
+          "sample": "F1 (before freeze-drying)",
+          "size_nm": 286.7,
+          "pdi": 0.444,
+          "zeta_mV": -55.2,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F1 | 286.7 ± 52.6 | 208.4 ± 10.4 | 0.444 ± 0.1 | 0.623 ± 0.0 | −55.2 ± 3.0 | −47.5 ± 1.6"
+        },
+        {
+          "sample": "F2 (before freeze-drying)",
+          "size_nm": 90.6,
+          "pdi": 0.444,
+          "zeta_mV": -51.6,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F2 | 90.6 ± 8.1 | 85.2 ± 1.1 | 0.444 ± 0.1 | 0.477 ± 0.0 | −51.6 ± 2.7 | −54.7 ± 0.9"
+        },
+        {
+          "sample": "F3 (before freeze-drying)",
+          "size_nm": 93.3,
+          "pdi": 0.245,
+          "zeta_mV": -45.8,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F3 | 93.3 ± 0.4 | 75.6 ± 6.0 | 0.245 ± 0.0 | 0.518 ± 0.0 | −45.8 ± 0.1 | −33.1 ± 7.0"
+        },
+        {
+          "sample": "F4 (before freeze-drying)",
+          "size_nm": 428.7,
+          "pdi": 0.568,
+          "zeta_mV": -59.5,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F4 | 428.7 ± 49.0 | 249.5 ± 6.9 | 0.568 ± 0.1 | 0.400 ± 0.1 | −59.5 ± 3.1 | −50.0 ± 2.5"
+        },
+        {
+          "sample": "F5 (before freeze-drying)",
+          "size_nm": 501.3,
+          "pdi": 0.647,
+          "zeta_mV": -60.9,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F5 | 501.3 ± 16.1 | 258.8 ± 4.5 | 0.647 ± 0.0 | 0.263 ± 0.0 | −60.9 ± 3.2 | −45.4 ± 0.6"
+        },
+        {
+          "sample": "F6 (before freeze-drying)",
+          "size_nm": 173.1,
+          "pdi": 0.459,
+          "zeta_mV": -54.87,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F6 | 173.10 ± 10.7 | 235.73 ± 5.9 | 0.459 ± 0.1 | 0.478 ± 0.0 | −54.87 ± 1.1 | −46.90 ± 0.7"
+        },
+        {
+          "sample": "F7 (before freeze-drying)",
+          "size_nm": 144.87,
+          "pdi": 0.365,
+          "zeta_mV": -54.13,
+          "medium": "water",
+          "source": "Table 2",
+          "quote": "F7 | 144.87 ± 0.8 | 152.53 ± 1.0 | 0.365 ± 0.0 | 0.402 ± 0.0 | −54.13 ± 1.8 | −49.60 ± 0.3"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CTX-loaded liposomal formulations",
+          "quote": "ATR-FTIR spectra of blank, CTX, and various CTX-loaded liposomal formulations."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "F6, F7, F10",
+          "quote": "XRD patterns of pure CTX and CTX-loaded liposomal NPs. (A) Pure CTX; (B) F6; (C) F7; (D) F10."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10803469",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "NLC/CAN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning Electron Microscopy images of NLC/CAN (A, B)"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "NLC control",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "and NLC control (C, D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F5 (control)",
+          "size_nm": 303.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Results",
+          "quote": "The control formulation (F5) exhibited an average particle size of 303.5 ± 46.3 nm"
+        },
+        {
+          "sample": "F5 (control)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -35.7,
+          "medium": "water",
+          "source": "Results",
+          "quote": "The average values of Zeta potential of F5 were -35.7 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NLC/CAN and NLC control",
+          "quote": "FTIR-ATR spectra in the region between 4000-500 cm-1 of NLC/CAN, NLC and its excipients."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12442105",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "ACP-PLHNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of bulk ACP (a) and ACP-PLHNs (b)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Run 3",
+          "size_nm": 175.6,
+          "pdi": 0.56,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "3 | 1 | 2 | 7500 | 10 | 175.6 | 0.56 | 56.20"
+        },
+        {
+          "sample": "Run 23",
+          "size_nm": 193.2,
+          "pdi": 0.41,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "23 | 1.75 | 1.35 | 11 300 | 5 | 193.2 | 0.41 | 33.16"
+        },
+        {
+          "sample": "Run 17",
+          "size_nm": 84.5,
+          "pdi": 0.67,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "17 | 0.25 | 1.35 | 11 300 | 15 | 84.5 | 0.67 | 19.96"
+        },
+        {
+          "sample": "Run 16",
+          "size_nm": 83.59,
+          "pdi": 0.51,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "16 | 2.5 | 2 | 15 000 | 20 | 83.59 | 0.51 | 39.05"
+        },
+        {
+          "sample": "Run 18",
+          "size_nm": 148.1,
+          "pdi": 0.29,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "18 | 3.25 | 1.35 | 11 300 | 15 | 148.1 | 0.29 | 12.49"
+        },
+        {
+          "sample": "Run 5",
+          "size_nm": 143.9,
+          "pdi": 0.28,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "5 | 1 | 0.7 | 15 000 | 10 | 143.9 | 0.28 | 3.83"
+        },
+        {
+          "sample": "Run 24",
+          "size_nm": 118.1,
+          "pdi": 0.32,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "24 | 1.75 | 1.35 | 11 300 | 25 | 118.1 | 0.32 | 47.31"
+        },
+        {
+          "sample": "Run 27",
+          "size_nm": 153.8,
+          "pdi": 0.36,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "27 | 1.75 | 1.35 | 11 300 | 15 | 153.8 | 0.36 | 10.13"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "freeze-dried ACP-PLHNs",
+        "quote": "p-XRD of pure ACP (a); a physical mixture of PCL and DPPC (b); pure mannitol (cryoprotectant) (c); and freeze-dried ACP-PLHNs (d)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10386423",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 6","variant":"SEM","sample":"FeONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of Leptolyngbya sp. L-2 derived Biogenic FeONPs"}],
+      "descriptors": [{"sample":"FeONPs","size_nm":644.6,"pdi":0.761,"zeta_mV":-8.5,"medium":"PBS","source":"Table 2; DLS/Zeta","quote":"Zeta average size (d·nm) | 644.6\nPDI | 0.761\nIntercept | 0.929\nZeta potential (mV) | −8.50"}],
+      "spectra": [
+        {"technique":"XRD","fig":"Figure 4","applies_to":"nanoparticle","sample":"FeONPs","quote":"XRD diffractogram of Leptolyngbya sp. L-2 derived Biogenic FeONPs"},
+        {"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"FeONPs","quote":"FTIR spectrum of Leptolyngbya sp. L-2 derived Biogenic FeONPs."},
+        {"technique":"EDS","fig":"Figure 6","applies_to":"nanoparticle","sample":"FeONPs","quote":"Elemental composition of Leptolyngbya sp. L-2 derived Biogenic FeONPs using EDX."}
+      ]
+    },
+    {
+      "pmcid": "PMC12943944",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "BNC disk impregnated with nanoparticles",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "SEM micrographs of BNC impregnated with varying concentrations of gentamicin sulfate solution"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "empty NPs and GNPs",
+          "quote": "FTIR spectra of (A) empty nanoparticles (NPs), gentamicin-loaded nanoparticles (GNPs) and their individual components"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "empty NPs and GNPs",
+          "quote": "Raman spectra of (C) empty nanoparticles (NPs), gentamicin-loaded nanoparticles (GNPs) and their individual components"
+        }
+      ]
+    }
+  ]
+}

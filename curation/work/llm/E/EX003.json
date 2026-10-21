@@ -1,0 +1,528 @@
+{
+  "batch": "EX003",
+  "articles": [
+    {
+      "pmcid": "PMC12692535",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SIN-NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(D–F) TEM images of SIN-NLCs observed at nanoparticle sizes of approximately 100 nm, 200 nm, and 500 nm, respectively."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SIN-NLCs",
+          "size_nm": 174.1,
+          "pdi": 0.18,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results; Figure 4C",
+        "quote": "174.10 ± 1.97 nm (Figure 4C), with a polydispersity index (PDI) of 0.18 ± 0.01."
+        },
+        {
+          "sample": "SIN-NLCs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -22.65,
+          "medium": "not_declared",
+          "source": "Results; Figure 4B",
+          "quote": "The negative zeta potential of −22.65 ± 0.60 mV (Figure 4B) indicated the physical stability of the nanoscale system."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "SIN-NLCs",
+          "quote": "(A) XRD patterns of SIN coarse powder, physical mixture, solid–liquid excipient, and SIN-NLCs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "physical mixture",
+          "quote": "(A) XRD patterns of SIN coarse powder, physical mixture, solid–liquid excipient, and SIN-NLCs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "SIN-NLCs",
+          "quote": "(C) FT-IR spectra of SIN coarse powder, physical mixture, solid–liquid excipient, and SIN-NLCs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10144002",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HMSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of HMSNs (A), HMSNs-PDA (B), and HMSNs-PDA@liposome-TPGS (C)."
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HMSNs-PDA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of HMSNs (A), HMSNs-PDA (B), and HMSNs-PDA@liposome-TPGS (C)."
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HMSNs-PDA@liposome-TPGS",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of HMSNs (A), HMSNs-PDA (B), and HMSNs-PDA@liposome-TPGS (C)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "HMSNs",
+          "size_nm": 122.5,
+          "pdi": 0.221,
+          "zeta_mV": -18.13,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "HMSNs | 122.5 ± 14.93 | −18.13 ± 3.17 | 0.221"
+        },
+        {
+          "sample": "HMSNs-PDA",
+          "size_nm": 153.8,
+          "pdi": 0.128,
+          "zeta_mV": -8.99,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "HMSNs-PDA | 153.8 ± 25.18 | −8.99 ± 0.02 | 0.128"
+        },
+        {
+          "sample": "HMSNs-PDA@liposome-TPGS",
+          "size_nm": 220,
+          "pdi": 0.216,
+          "zeta_mV": 13.22,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "HMSNs-PDA@liposome-TPGS | 220 ± 16.3 | +13.22 ± 3.09 | 0.216"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "HMSNs, HMSNs-NH2, HMSNs-PDA",
+          "quote": "(G) FT-IR spectra of HMSNs, HMSNs-NH2, and HMSNs-PDA."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "HMSNs, HMSNs-NH2, HMSNs-PDA",
+          "quote": "(H) SAXS patterns of HMSNs, HMSNs-NH2, and HMSNs-PDA."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "DOX/HMSNs-PDA",
+          "quote": "(I) XRD patterns of HMSNs-PDA, DOX/HMSNs-PDA, Phy-Mix of DOX, HMSNs-PDA (1:2, w/w), and DOX."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "Phy-Mix of DOX and HMSNs-PDA (1:2, w/w)",
+          "quote": "(I) XRD patterns of HMSNs-PDA, DOX/HMSNs-PDA, Phy-Mix of DOX, HMSNs-PDA (1:2, w/w), and DOX."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7558301",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 7","variant":"TEM_prep_not_declared","sample":"LNPs and LNPs@AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM of the LNPs (a,b), LNPs@AuNPs 1 (c,d), LNPs@AuNPs 2 (e,f), LNPs@AuNPs 3 (g,h)"}],
+      "descriptors": [{"sample":"LNPs","size_nm":70,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; DLS","quote":"DLS results demonstrated that LNPs were stable with a large pH range, and the hydrodynamic size of the LNPs was around 70 nm."}],
+      "spectra": [
+        {"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"LNPs and LNPs@AuNPs","quote":"FTIR spectra of the LNPs and LNPs@AuNPs."},
+        {"technique":"UVVis","fig":"Figure 6","applies_to":"nanoparticle","sample":"LNPs and LNPs@AuNPs","quote":"UV-Vis spectra of the LNPs, Au ions and LNPs@AuNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC9941671",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "DOX-LPHNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph of DOX-LPHNs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LPHNs-1",
+          "size_nm": 657.32,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-1 | 500 | 200 | 1,000 | 20 | 1.5 | 657.32 ± 5.0"
+        },
+        {
+          "sample": "LPHNs-2",
+          "size_nm": 455.21,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-2 | 500 | 300 | 1,000 | 20 | 3.0 | 455.21 ± 4.5"
+        },
+        {
+          "sample": "LPHNs-3",
+          "size_nm": 330.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-3 | 500 | 500 | 1,000 | 20 | 4.5 | 330.40 ± 5.0"
+        },
+        {
+          "sample": "LPHNs-4",
+          "size_nm": 150.82,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-4 | 500 | 600 | 1,000 | 20 | 6.0 | 150.82 ± 4.0"
+        },
+        {
+          "sample": "LPHNs-5",
+          "size_nm": 121.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-5 | 500 | 800 | 1,000 | 40 | 6.0 | 121.90 ± 3.0"
+        },
+        {
+          "sample": "LPHNs-6",
+          "size_nm": 109.25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "LPHNs-6 | 500 | 1,000 | 1,000 | 60 | 6.0 | 109.25 ± 2.5"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "DOX-LPHNs",
+          "quote": "Fourier transform infrared (FT-IR) spectra of (A) DOX (Pure) (B) DOX-LPHNs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 7",
+          "applies_to": "nanoparticle",
+          "sample": "DOX-LPHNs-4",
+          "quote": "Powder X-RAY Diffraction of DOX, DOX-LPHNs-4, and Stearic acid."
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 7",
+          "applies_to": "component",
+          "sample": "DOX and stearic acid",
+          "quote": "Powder X-RAY Diffraction of DOX, DOX-LPHNs-4, and Stearic acid."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13356039",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Jan-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of biosynthesized Jan-AuNPs at 4 different nano scale bars; 100 nm scale (A), at 50 nm scale (B), at 20 nm scale (C)"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Jan-AuNPs","quote":"UV-vis spectra of Jan-AuNPs (over a period of 1–5 h)."},
+        {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Jan-AuNPs","quote":"EDX analysis (G) and mapping analysis (H) of biosynthesized Jan-AuNPs."},
+        {"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Jan-AuNPs","quote":"FTIR analysis of the hot water extract of J. rubens and biosynthesized Jan-AuNPs"},
+        {"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Jan-AuNPs","quote":"XRD (B)"}
+      ]
+    },
+    {
+      "pmcid": "PMC11533520",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 14",
+          "variant": "SEM",
+          "sample": "F127-GA@ZnO",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM (top) and TEM (bottom) images of F127-GA@ZnO."
+        },
+        {
+          "fig": "Fig. 14",
+          "variant": "TEM_prep_not_declared",
+          "sample": "F127-GA@ZnO",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM (top) and TEM (bottom) images of F127-GA@ZnO."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 9",
+          "applies_to": "nanoparticle",
+          "sample": "F127-GA@ZnO",
+          "quote": "The FT-IR spectra of F127-GA@ZnO."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 11",
+          "applies_to": "nanoparticle",
+          "sample": "F127-GA@ZnO",
+          "quote": "EDS spectra of F127-GA@ZnO."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "ZnO and GA@ZnO",
+          "quote": "UV-Vis spectra of ZnO (black) and GA@ZnO (red)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11333711",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "APO-loaded CO-based NSLC optimal formula F2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of APO loaded CO-based NSLCs optimal formula (F2)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F2 (month 0; refrigerated conditions)",
+          "size_nm": 214.8,
+          "pdi": 0.18,
+          "zeta_mV": 37.5,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Refrigerated conditions (4 ± 1 °C) | 0 | 79.3 ± 0.9 | 214.8 ± 5.8 | 0.18 ± 0.01 | 37.5 ± 1.1"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "optimal formula F2",
+          "quote": "(A) FT-IR spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula, and (VII) optimal formula (F2)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "optimal formula F2",
+          "quote": "(C) XRD spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula and (VII) optimal formula (F2)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "physical mixture",
+          "quote": "(C) XRD spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula and (VII) optimal formula (F2)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12913382",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_negstain",
+          "sample": "LipoPEI and pDNA@LipoPEI",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Particle size (A), Zeta potential (B) and TEM photograph (C) of the nanocarriers ((a) LipoPEI; (b) pDNA@LipoPEI)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LipoPEI",
+          "size_nm": 115,
+          "pdi": 0.18,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results; Figure 1A",
+        "quote": "exhibited an average particle size of 115 ± 5 nm with a low PDI of 0.18 ± 0.02"
+        },
+        {
+          "sample": "LipoPEI",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 24.5,
+          "medium": "not_declared",
+          "source": "Results; Figure 1B",
+          "quote": "The surface charge was strongly positive, with a zeta potential of +24.5 ± 2.1 mV"
+        },
+        {
+          "sample": "pDNA Bmp2 @LipoPEI",
+          "size_nm": 266,
+          "pdi": 0.22,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Results; Figure 1A",
+        "quote": "average size to 266 ± 12 nm (Figure 1A), while the PDI remained low at 0.22 ± 0.03."
+        },
+        {
+          "sample": "pDNA Bmp2 @LipoPEI",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 16,
+          "medium": "not_declared",
+          "source": "Results; Figure 1B",
+          "quote": "The zeta potential decreased to +16.0 ± 1.8 mV (Figure 1B), confirming the successful binding of the anionic plasmid DNA to the cationic carrier surface."
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11125853",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [{"fig":"Figure 5","variant":"SEM","sample":"LNPAH and LNPIL","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM images of LNPAH (a) and LNPIL (c)"}],
+      "descriptors": [{"sample":"LNPAH","size_nm":82,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; FESEM image analysis","quote":"Figure 5a,c show FESEM images of cluster-structured lignin nanoparticles with higher mean diameters for LNPAH (82 ± 20 nm)"}],
+      "spectra": [{"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"LNPAH and LNPIL","quote":"FTIR spectra of LNPAH (a) and LNPIL (b)."}]
+    },
+    {
+      "pmcid": "PMC9460590",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "PLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "LPHyNP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological studies of LPHyNPs (a) SEM image"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "LPHyNP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological studies of LPHyNPs (a) SEM image, (b) TEM image, (c) size histogram of TEM."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank LPHyNPs",
+          "size_nm": 200.26,
+          "pdi": 0.34,
+          "zeta_mV": -4.14,
+          "medium": "water",
+          "source": "Table 2; Results text conflicts on zeta assignment",
+          "quote": "Blank LPHyNPs | 200.26 ± 9.19 | 0.34 ± 0.10 | −4.14 ± 0.81 | - | -"
+        },
+        {
+          "sample": "LPHyNPs (drug-loaded)",
+          "size_nm": 234.8,
+          "pdi": 0.11,
+          "zeta_mV": -5.15,
+          "medium": "water",
+          "source": "Table 2; Results text conflicts on zeta assignment",
+          "quote": "LPHyNPs | 234.80 ± 12.28 | 0.11 ± 0.04 | −5.15 ± 0.70 | 55.18 ± 3.61 | 11.04 ± 0.72"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "LPHyNP",
+          "quote": "XRD diffractograms of (a) AGN, (b) LPHyNP, (c) PLGA, (d) SPC-3, (e) trehalose, and (f) TPGS."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "LPHyNP",
+          "quote": "FT-IR spectra of (a) AGN, (b) LPHyNP, (c) PLGA, (d) SPC-3, and (e) TPGS."
+        }
+      ]
+    }
+  ]
+}

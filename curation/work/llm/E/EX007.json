@@ -1,0 +1,114 @@
+{
+  "batch": "EX007",
+  "articles": [
+    {
+      "pmcid": "PMC9050139",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "melatonin-loaded NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(a) TEM image"}],
+      "descriptors": [{"sample": "optimum Mel-NLC", "size_nm": 119, "pdi": 0.09, "zeta_mV": -18.56, "medium": "not_declared", "source": "text", "quote": "particle size of 119 nm with a polydispersity index of 0.09"}],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "melatonin-loaded NLC and melatonin-free NLC", "quote": "XRD patterns of melatonin, GMS, melatonin-loaded NLC and melatonin-free NLC"},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "melatonin-loaded NLC", "quote": "FTIR spectra of melatonin, GMS and melatonin-loaded NLC."}
+      ]
+    },
+    {
+      "pmcid": "PMC8042373",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "FIGURE 1", "variant": "SEM", "sample": "sterosomes and CYM-loaded sterosomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "FE-SEM images of (a) sterosomes; (b) CYM-loaded sterosomes. Scale bar = 5 μm."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "FIGURE 3", "applies_to": "nanoparticle", "sample": "sterosomes and CYM-loaded sterosomes", "quote": "X-ray diffraction patterns of different components of sterosomes and CYM-loaded sterosomes."},
+        {"technique": "FTIR", "fig": "FIGURE 4", "applies_to": "nanoparticle", "sample": "sterosomes and CYM-loaded sterosomes", "quote": "Fourier-transform infrared (FT-IR) spectroscopic spectra of different components of sterosomes and CYM-loaded sterosomes."}
+      ]
+    },
+    {
+      "pmcid": "PMC11174508",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 5","variant":"TEM_prep_not_declared","sample":"LNPs N-LE, N-LP, N-LC, N-LEB","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM analysis of LNP at a magnification ×30.0K."}],
+      "descriptors": [
+        {"sample":"N-LE (2% w/v)","size_nm":90.7,"pdi":0.10,"zeta_mV":-35,"medium":"not_declared","source":"Table 7; MADLS","quote":"N-LE | 113.9 ± 2.4 | 90.7 a ± 0.1 | 0.10 b ± 0.02 | −35.0 b ± 1.6"},
+        {"sample":"N-LP (2% w/v)","size_nm":77,"pdi":0.10,"zeta_mV":-30.7,"medium":"not_declared","source":"Table 7; MADLS","quote":"N-LP | 123.5 ± 0.11 | 77.0 b ± 0.10 | 0.10 b ± 0.03 | −30.7 b ± 2.7"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12263525",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Fig. 6","variant":"SEM","sample":"α-Fe2O3 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrograph at a low, b high magnification"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"α-Fe2O3 NPs","quote":"FTIR spectra of a extract of Sorghum bicolor leaves and b α-Fe2O3 NPs"},
+        {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"α-Fe2O3 NPs","quote":"XRD pattern of α-Fe2O3 NPs mediated by aqueous extract of Sorghum bicolor leaves"},
+        {"technique":"UVVis","fig":"Fig. 5","applies_to":"nanoparticle","sample":"α-Fe2O3 NPs","quote":"The UV-visible spectrum"},
+        {"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"α-Fe2O3 NPs","quote":"EDX spectrum"}
+      ]
+    },
+    {
+      "pmcid": "PMC13350844",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Fig. 4","variant":"SEM","sample":"Crab CS NPs and Comm CS NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM Images of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."},
+        {"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"Crab CS NPs and Comm CS NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."}
+      ],
+      "descriptors": [{"sample":"Crab CsNPs","size_nm":192.74,"pdi":null,"zeta_mV":25.15,"medium":"water","source":"text; DLS","quote":"The DLS results of crab CsNPs appeared to be the optimal CS-NPs with minimum particle size (192.74 ± 3.25 nm)"}],
+      "spectra": [
+        {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Crab CS NPs and Comm CS NPs","quote":"FTIR results of Crab CS, Crab CS NPs, Comm CS, and Comm CS NPs."},
+        {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Crab CS NPs and Comm CS NPs","quote":"XRD of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."},
+        {"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Crab CS NPs and Comm CS NPs","quote":"EDX Elemental Composition of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC8876599",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "PTZ-loaded SLN2", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(C) TEM micrograph of the SLN2 formulation. Scale bar is mentioned;"}],
+      "descriptors": [{"sample": "PTZ-loaded SLN2", "size_nm": 137.7, "pdi": 0.28, "zeta_mV": -16.60, "medium": "water", "source": "text", "quote": "PS: 137.7 ± 1.01 nm; ZP: −16.60 ± 0.51 mV, PDI: 0.28 ± 0.005"}],
+      "spectra": [
+        {"technique": "XRD", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "blank SLNs and PTZ-loaded SLN2", "quote": "XRD spectrum of free PTZ (drug), blank SLNs (unloaded), and PTZ-loaded SLN2."},
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "blank-SLN2 and PTZ-loaded SLN2", "quote": "PTZ (drug in its free form), blank-SLN2 (unloaded SNLs), and PTZ-loaded SLN2 (drug-loaded SLNs)."}
+      ]
+    },
+    {
+      "pmcid": "PMC13204816",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [],
+      "descriptors": [{"sample": "ANC-LP", "size_nm": 248.9, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 1c", "quote": "The peak is centered at 248.9 ± 21.5nm"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10861598",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "cryoTEM", "sample": "LNP formulations at NP ratio = 1", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Representative cryoTEM images of the LNPs compositions in c, at NP ratio = 1. Scale bars are 100 nm."},
+        {"fig": "Fig. 2", "variant": "cryoTEM", "sample": "10PE-LNP-NP1 and 30PE-LNP-NP1", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "CryoTEM of representative structures found in 10PE-LNP-NP1."},
+        {"fig": "Fig. 3", "variant": "cryoTEM", "sample": "49PE-LNP-noRNA", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Representative cryoTEM and FFTs of 49PE-LNP-noRNA showing two distinct structures: straight lines and hexagons."}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "SAXS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "LNP compositions", "quote": "SAXS profiles of the LNP compositions shown in c, at different N/P ratios."}]
+    },
+    {
+      "pmcid": "PMC11206697",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 6","variant":"SEM","sample":"AgNPs synthesized by S. tendae GR-CHA-4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrograph (a) and EDS spectra (b) of AgNPs synthesized by S. tendae GR-CHA-4."}],
+      "descriptors": [{"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-20.4,"medium":"not_declared","source":"text; Zeta analysis","quote":"The zeta potential (ZP) of the AgNPs was −20.4 mV"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-Vis spectra of the AgNPs synthesized by three isolates along with the control reaction."},
+        {"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"AgNPs synthesized by S. tendae GR-CHA-4","quote":"FTIR spectroscopy of AgNPs synthesized by S. tendae GR-CHA-4."},
+        {"technique":"XRD","fig":"Figure 5","applies_to":"nanoparticle","sample":"AgNPs synthesized by S. tendae GR-CHA-4","quote":"XRD pattern of AgNPs synthesized by S. tendae GR-CHA-4."},
+        {"technique":"EDS","fig":"Figure 6","applies_to":"nanoparticle","sample":"AgNPs synthesized by S. tendae GR-CHA-4","quote":"EDS spectra (b) of AgNPs synthesized by S. tendae GR-CHA-4."}
+      ]
+    },
+    {
+      "pmcid": "PMC12609401",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "TEM_dried_unstained", "sample": "CSNPs and MAAs-loaded CSNFs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of CSNPs (A,B) and MAAs-loaded CSNFs (C,D)."}],
+      "descriptors": [
+        {"sample": "CSNFs", "size_nm": 220, "pdi": 0.251, "zeta_mV": 20.3, "medium": "not_declared", "source": "text", "quote": "CSNFs (220 ± 20 nm) and non-encapsulated CSNPs (190 ± 19 nm), along with low polydispersity indexes (0.251 and 0.241, respectively)."},
+        {"sample": "CSNPs", "size_nm": 190, "pdi": 0.241, "zeta_mV": 19.2, "medium": "not_declared", "source": "text", "quote": "CSNFs (220 ± 20 nm) and non-encapsulated CSNPs (190 ± 19 nm), along with low polydispersity indexes (0.251 and 0.241, respectively)."}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "CSNPs and MAA-CSNFs", "quote": "FTIR spectra of CS (green), MAAPE (blue), CSNPs (black) and MAA-CSNFs (light blue)."},
+        {"technique": "XRD", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "free CSNPs and MAA-loaded CSNPs", "quote": "XRD patterns of pure chitosan (black), free CSNPs (red), and CSNPs loaded with MAA extract (blue), MAA extract (purple) and pure TPP (green)."}
+      ]
+    }
+  ]
+}

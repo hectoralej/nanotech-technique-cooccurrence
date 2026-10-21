@@ -1,3 +1,5 @@
+> **Reemplazado por [TAREAS_CARLOS_v2.md](TAREAS_CARLOS_v2.md) (21 de octubre).** Este archivo queda solo como referencia.
+
 # Carlos: qué tienes que hacer
 
 **Para ti y para tu Codex.** Este archivo se entiende solo. Lee todo antes de empezar.

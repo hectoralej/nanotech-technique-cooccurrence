@@ -1,0 +1,122 @@
+{
+  "batch": "EX006",
+  "articles": [
+    {
+      "pmcid": "PMC13206626",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "optimized BE-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images (I), particle size distribution (IIa) and zeta potential (IIb) of the optimized nanostructured lipid carrier (NLC)."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "blank NLC and BE-NLC", "quote": "Fourier transform infrared (FTIR) spectra of (a) barberry extract (BE), (b) blank NLC, and (c) barberry extract-loaded NLC (BE-NLC)."},
+        {"technique": "XRD", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "blank NLC and BE-NLC", "quote": "X-ray diffraction (XRD) patterns of barberry extract (BE), blank NLC, and barberry extract-loaded NLC (BE-NLC)."}
+      ]
+    },
+    {
+      "pmcid": "PMC8229429",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_dried_unstained", "sample": "FE1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image without staining (B) and size distribution histogram generated using ImageJ from the TEM image (C) of formulation FE 1."},
+        {"fig": "Fig. 2", "variant": "TEM_negstain", "sample": "liposomal 5-FU", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of liposomal 5-FU (A,B) after staining with uranyl acetate."}
+      ],
+      "descriptors": [
+        {"sample": "FE 1", "size_nm": null, "pdi": null, "zeta_mV": -54, "medium": "not_declared", "source": "Table 1", "quote": "FE 1 | −54 ± 1 | 52 ± 1"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "liposomal 5-FU and empty liposomes", "quote": "X-ray diffraction pattern of free 5-FU, liposomal 5-FU and empty liposomes."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "liposomal 5-FU and empty liposomes", "quote": "FT-IR spectra of free 5-FU, liposomal 5-FU and empty liposome."}
+      ]
+    },
+    {
+      "pmcid": "PMC13155039",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "cryoTEM", "sample": "LNP5", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Cryo‐TEM image of LNP5"}],
+      "descriptors": [],
+      "spectra": [{"technique": "SAXS", "fig": "Methods", "applies_to": "nanoparticle", "sample": "LNP samples", "quote": "The dialyzed samples were used for batch‐mode dynamic light scattering (DLS) and small‐angle x‐ray scattering (SAXS)."}]
+    },
+    {
+      "pmcid": "PMC12299627",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 9","variant":"TEM_prep_not_declared","sample":"F-AuNPs from T. decurrens and S. cinereum","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images for F-AuNPs: (A) T. decurrens and (B) S. cinereum"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 7","applies_to":"nanoparticle","sample":"F-AuNPs","quote":"UV-Vis absorption spectrum curve analysis for F-AuNPs"},
+        {"technique":"XRD","fig":"Figure 8","applies_to":"nanoparticle","sample":"F-AuNPs","quote":"XRD pattern of Au (JCPDS file no. 04-0784) (A) and F-AuNPs of T. decurrens (B) and S. cinereum (C)."}
+      ]
+    },
+    {
+      "pmcid": "PMC13258012",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "5-FU loaded chitosan nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of (a) 5-FU pure sample (b) 5-FU loaded chitosan nanoparticles x10,000."}],
+      "descriptors": [
+        {"sample": "5-FUNP1", "size_nm": 108.41, "pdi": 0.14, "zeta_mV": 40.27, "medium": "not_declared", "source": "Table 2", "quote": "5-FUNP1 | 28.42 ± 0.01 | 108.41 ± 0.01 | 0.14 ± 0.02 | +40.27 ± 0.01"},
+        {"sample": "5-FUNP2", "size_nm": 95.72, "pdi": 0.19, "zeta_mV": 42.12, "medium": "not_declared", "source": "Table 2", "quote": "5-FUNP2 | 31.68 ± 0.02 | 95.72 ± 0.01 | 0.19 ± 0.01 | +42.12 ± 0.01"},
+        {"sample": "5-FUNP3", "size_nm": 97.74, "pdi": 0.29, "zeta_mV": 32.18, "medium": "not_declared", "source": "Table 2", "quote": "5-FUNP3 | 37.54 ± 0.01 | 97.74 ± 0.01 | 0.29 ± 0.01 | +32.18 ± 0.01"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "5-FU loaded chitosan nanoparticles", "quote": "XRD spectra of (a) pure 5-FU sample and (b) 5-FU loaded chitosan nanoparticles."},
+        {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "5-FU loaded chitosan nanoparticles", "quote": "FTIR spectra of (a) 5-FU, (b) 5-FU loaded nanoparticles and (c) chitosan."},
+        {"technique": "UVVis", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "5-FU loaded nanoparticles", "quote": "UV-Visible spectrophotometry of 5-FU loaded nanoparticles."}
+      ]
+    },
+    {
+      "pmcid": "PMC13416030",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "SEM", "sample": "oil-loaded CH-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Scale bar: 500 nm."}],
+      "descriptors": [
+        {"sample": "Batch A", "size_nm": null, "pdi": null, "zeta_mV": 30, "medium": "not_declared", "source": "text", "quote": "primary peak centered at approximately +30 mV for Batch A"},
+        {"sample": "Batch B", "size_nm": null, "pdi": null, "zeta_mV": 45, "medium": "not_declared", "source": "text", "quote": "+45 mV for Batch B."}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "blank CH-NLC and A. annua-loaded CH-NLC", "quote": "XRD patterns of blank CH-NLC (black line) and A. annua-loaded CH-NLC (red line)"},
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "Blank_CHNLC and Artemisia_CHNLC", "quote": "FTIR spectra of the blank (Blank_CHNLC) and the A. annua extract (Artemisia_CHNLC)."}
+      ]
+    },
+    {
+      "pmcid": "PMC9965523",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "AGL and MCS-AGL", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of andrographolide liposomes (AGL) and Mannosylated chitosan-coated andrographolide liposomes (MCS-AGL)."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AGL and MCS-AGL", "quote": "FTIR spectra of pure AG, SPC, Cholesterol, physical mixture, AGL, and MCS-AGL."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AGL and MCS-AGL", "quote": "XRD diffraction patterns of pure AG, SPC, Cholesterol, physical mixture, AGL, and MCS-AGL."}
+      ]
+    },
+    {
+      "pmcid": "PMC11207542",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "cryoTEM", "sample": "LM1-LM4", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "CryoTEM images of the different LNP formulations."}],
+      "descriptors": [],
+      "spectra": [{"technique": "SAXS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "different LNP formulations", "quote": "SAXS profiles of the different LNP formulations."}]
+    },
+    {
+      "pmcid": "PMC12703698",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Fig. 3","variant":"SEM","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM images with different magnifications"},
+        {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of the synthesized AuNPs in presence of C. tubulosa extract."}
+      ],
+      "descriptors": [{"sample":"AuNPs","size_nm":null,"pdi":null,"zeta_mV":-48.9,"medium":"not_declared","source":"text; ZetaSizer","quote":"The zeta potential value of the sample at the maximum point was −48.9 mV"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuNPs","quote":"UV-vis spectra of gold nanoparticles synthesized by C. tubulosa extract at different times"},
+        {"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AuNPs","quote":"FT-IR spectrum of the synthesized AuNPs."},
+        {"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AuNPs","quote":"XRD pattern of the synthesized AuNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC13287797",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"ZnONPs and W-ZnONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrograph of ZnONPs synthesized using H. sabdariffa extract (HE)."},
+        {"fig":"Fig. 9","variant":"SEM","sample":"smart chitosan-based system (SCS)","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs of the smart chitosan-based system (SCS)."}
+      ],
+      "descriptors": [
+        {"sample":"ZnONPs","size_nm":null,"pdi":null,"zeta_mV":-28.73,"medium":"water","source":"Table 1; Zetasizer","quote":"ZnONPs | –28.73"},
+        {"sample":"ChNPs","size_nm":null,"pdi":null,"zeta_mV":36.4,"medium":"water","source":"Table 1; Zetasizer","quote":"ChNPs | + 36.40"}
+      ],
+      "spectra": [
+        {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"ZnONPs","quote":"XRD diffraction pattern of ZnONPs synthesized using H. sabdariffa extract"},
+        {"technique":"FTIR","fig":"Fig. 8","applies_to":"mixture","sample":"SCS","quote":"FT-IR spectra of HE, ZnONPs, ChNPs + HE, and SCS."}
+      ]
+    }
+  ]
+}

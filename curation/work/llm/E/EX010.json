@@ -1,0 +1,106 @@
+{
+  "batch": "EX010",
+  "articles": [
+    {
+      "pmcid": "PMC10390827",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "NLC-BNZ", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of NLC-BNZ."}],
+      "descriptors": [{"sample": "NLC-BNZ", "size_nm": null, "pdi": 0.204, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "polydispersity index (PdI) of 0.204."}],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "NLC vehicle and NLC-BNZ", "quote": "ATR-FTIR spectra of BNZ, myristyl myristate, poloxamer 188, NLC VEHICLE, and NLC-BNZ."},
+        {"technique": "SAXS", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "NLC-VEHICLE and NLC-BNZ", "quote": "Lorentz/Kratky plot for SAXS patterns of NLC-VEHICLE (continuous line) and NLC-BNZ (dashed line)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10776786",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 6", "variant": "SEM", "sample": "Lp-CM-ChT80 and Lp-CM-ChT80-DTX", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of Lp-CM-ChT80 (A) and Lp-CM-ChT80-DTX (B) liposome."}],
+      "descriptors": [
+        {"sample": "Lp-CM-ChT80", "size_nm": 553.4, "pdi": 0.37, "zeta_mV": -22.2, "medium": "PBS", "source": "Table 5", "quote": "Lp-CM-ChT80 | 553.4 ± 6 | − 22.2 ± 2 | 0.37 ± 0.2"},
+        {"sample": "Lp-CM-ChT80-DTX", "size_nm": 836.6, "pdi": 0.088, "zeta_mV": -18.7, "medium": "PBS", "source": "Table 5", "quote": "Lp-CM-ChT80-DTX | 836.6 ± 4 | − 18.7 ± 0.9 | 0.088 ± 1"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "empty and DTX-loaded liposomes", "quote": "FTIR spectrum of of Lp-CM-ChT80 (A) and Lp-CM-ChT80-DTX (B) liposome."}]
+    },
+    {
+      "pmcid": "PMC11858925",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "SLN, NLC, and drug-loaded formulations", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of SLN, NLC, SLN/SV, NLC/SV, NLC/CN/SV, NLC/LM/SV, and NLC/LN/SV. Scale bar: 200 nm."}],
+      "descriptors": [],
+      "spectra": [{"technique": "SAXS", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "SLN, SLN/SV, and NLC/LN/SV", "quote": "SAXS patterns of three different formulations (SLN, SLN/SV, and NLC/LN/SV)."}]
+    },
+    {
+      "pmcid": "PMC8587642",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Figure 2","variant":"SEM","sample":"Ag NPs@GO-FL-CS membranes","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrograph of Ag NPs@GO-FL-CS 100"},
+        {"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"Ag NPs@GO-FL-CS composites","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) the Ag NPs@GO-FL-CS 100, (b) Ag NPs@GO-FL-CS 200, and (c) Ag NPs@GO-FL-CS 300 composites"}
+      ],
+      "descriptors": [
+        {"sample":"Ag NPs@GO-FL-CS 100","size_nm":30,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"},
+        {"sample":"Ag NPs@GO-FL-CS 200","size_nm":35.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"},
+        {"sample":"Ag NPs@GO-FL-CS 300","size_nm":20.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM","quote":"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"}
+      ],
+      "spectra": [
+        {"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"Ag NPs@GO-FL-CS","quote":"FTIR spectra of CS, FL-CS, GO-FL-CS, and Ag NPs@GO-FL-CS."},
+        {"technique":"EDS","fig":"Figure 2","applies_to":"nanoparticle","sample":"Ag NPs@GO-FL-CS","quote":"the EDX analysis spectrum"},
+        {"technique":"XRD","fig":"Figure 5","applies_to":"nanoparticle","sample":"Ag NPs@GO-FL-CS","quote":"XRD patterns of GO, CS, GO-FL-CS, and Ag NPs@GO-FL-CS"}
+      ]
+    },
+    {
+      "pmcid": "PMC13163820",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "Tau–CS NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) micrograph showing the morphology and nanoscale size of Tau–CS NPs."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "Tau-CS NPs", "quote": "Fourier-transform infrared (FTIR) spectra of (A) chitosan"},
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "Tau–CS NPs", "quote": "UV–visible absorption spectrum of Tau–CS NPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC13610735",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 6", "variant": "TEM_negstain", "sample": "loaded SHN formulation", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "The contrast observed after negative staining is consistent with the proposed lipid–polymer hybrid structure."}],
+      "descriptors": [{"sample": "loaded SHNs", "size_nm": 160.54, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the dimensions of loaded SHNs were stable following drug encapsulation, with an average diameter of 160.54 ± 6.50 nm"}],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "loaded SHNs", "quote": "ATR-FTIR spectra of raw materials and loaded SHNs, recorded in the 4000–400 cm−1 range."}]
+    },
+    {
+      "pmcid": "PMC11270981",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Figure 2","variant":"cryoTEM","sample":"DOPC liposomes","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Cryo-TEM images of DOPC liposomes in D2O exposed to different NaCl concentrations"}],
+      "descriptors": [],
+      "spectra": [{"technique":"SAXS","fig":"Figure 4","applies_to":"nanoparticle","sample":"DOPC in D2O with different NaCl concentrations","quote":"SAXS scattering intensity for DOPC in D2O with different salt (NaCl) concentrations"}]
+    },
+    {
+      "pmcid": "PMC11707725",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 5", "variant": "TEM_prep_not_declared", "sample": "Tl-nanotexaphyrins", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of Tl-nanotexaphyrins in PBS at 80,000 magnification (scale bar: 200 nm) and 200,000 magnifications (scale bar: 100 nm)."}],
+      "descriptors": [{"sample": "Tl-nanotexaphyrins", "size_nm": 147.4, "pdi": 0.15, "zeta_mV": -1.5, "medium": "PBS", "source": "text", "quote": "average hydrodynamic diameter of 147.4 ± 1.4 nm and a PDI of 0.15 ± 0.03"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6832892",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Figure 4","variant":"TEM_prep_not_declared","sample":"Fe3O4 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrograph of biosynthesized iron oxide nanoparticles."},
+        {"fig":"Figure 5","variant":"SEM","sample":"Fe3O4 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Field emission scanning electron microscopy (FESEM) micrograph of the biosynthesized iron oxide nanoparticles."}
+      ],
+      "descriptors": [{"sample":"Fe3O4 nanoparticles","size_nm":9.48,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; TEM; Scherrer estimate corroborates","quote":"The obtained particle size coincidences with that calculated from Scherrer equation with average particle size of around 9.48 nm."}],
+      "spectra": [
+        {"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"Fe3O4-NPs","quote":"FTIR spectra of synthesized iron oxide nanoparticles."},
+        {"technique":"UVVis","fig":"Figure 3","applies_to":"nanoparticle","sample":"iron oxide nanoparticles","quote":"UV-visible absorption spectra of iron oxide nanoparticles."},
+        {"technique":"EDS","fig":"Figure 6","applies_to":"nanoparticle","sample":"Fe3O4 nanoparticles","quote":"Energy dispersive X-ray spectroscopy (EDX) analysis spectra for Fe3O4 nanoparticles."},
+        {"technique":"XRD","fig":"Figure 7","applies_to":"nanoparticle","sample":"Fe3O4","quote":"XRD pattern with Rietveld refinement of Fe3O4."}
+      ]
+    },
+    {
+      "pmcid": "PMC13101956",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "MTX–Mn nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) image of the MTX–Mn nanoparticles."}],
+      "descriptors": [{"sample": "MTX–Mn nanoparticles", "size_nm": null, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "narrow size distribution centered at approximately 100 nm (Fig. 2G)"}],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "component", "sample": "MTX and MTX–Mn", "quote": "FTIR spectra of MTX and MTX–Mn."},
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "MTX–Mn coordination nanoparticles", "quote": "Energy-dispersive X-ray spectroscopy (EDS) analysis confirming the presence of Mn in the MTX–Mn coordination nanoparticles."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "batch": "EX008",
+  "articles": [
+    {
+      "pmcid": "PMC9143250",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 8", "variant": "SEM", "sample": "optimized dapagliflozin-loaded SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrographs of dapagliflozin-loaded SLNs of optimized formulation with different scales of measurement (10 × magnification)."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "optimized formulation", "quote": "FTIR spectra studies of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) control, (F) optimized formulation."},
+        {"technique": "XRD", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "formulation F4 and optimized formulation F12", "quote": "XRD pattern of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) formulation (F4), (F) optimized formulation (F12)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10511430",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "CuNPs/SLP", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (A) CuNPs, (B) SLP, and (C) CuNPs/SLP."}],
+      "descriptors": [{"sample": "Cu/SLP", "size_nm": 81.59, "pdi": null, "zeta_mV": -50.7, "medium": "not_declared", "source": "text", "quote": "size and zeta potential of the encapsulated Cu/SLP were measured to be 81.59 ± 14.93 nm with − 50.7 ± 4.34 mV"}],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "Cu/SLP", "quote": "The Fourier transform infrared spectra of (A) SLP, (B) CuNPs, and (C) Cu/SLP."}]
+    },
+    {
+      "pmcid": "PMC8591612",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Figure 1","variant":"cryoTEM","sample":"LNPsacetone and LNPsTHF","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphologies and size distribution profiles of LNPs prepared from aqueous acetone and aqueous THF."},
+        {"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"LNPsDMSO and LNPsDXN","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"AFM and TEM images of (a) LNPsDMSO and (b) LNPsDXN. All scale bars are 400 nm."}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique":"SAXS","fig":"Figure 1","applies_to":"nanoparticle","sample":"LNPacetone and LNPTHF dispersions","quote":"SAXS intensities of the LNPacetone, LNPTHF dispersions and SKL solution"}]
+    },
+    {
+      "pmcid": "PMC10889799",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig":"Figure 4","variant":"TEM_prep_not_declared","sample":"NC–GNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) micrograph of NC–GNPs particle"},
+        {"fig":"Figure 4","variant":"SEM","sample":"NC–GNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"scanning electron microscopical (SEM) analysis of NC–GNPs"}
+      ],
+      "descriptors": [{"sample":"NC–GNPs","size_nm":76.99,"pdi":null,"zeta_mV":-20.9,"medium":"not_declared","source":"text; DLS/zeta","quote":"The average hydrodynamic size distribution analyzed by DLS was found to be 76.99 nm"}],
+      "spectra": [
+        {"technique":"UVVis","fig":"Figure 3","applies_to":"nanoparticle","sample":"NC–GNPs","quote":"the UV-Vis absorption spectral analysis of optimized NCt and NC–GNPs"},
+        {"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"NC–GNPs","quote":"graph showing Fourier transform infrared spectra (FTIR) of NC–GNPs"},
+        {"technique":"XRD","fig":"Figure 3","applies_to":"nanoparticle","sample":"NC–GNPs","quote":"graph showing the X-ray diffraction (XRD) spectrum of synthesized NC–GNPs."},
+        {"technique":"EDS","fig":"Figure 4","applies_to":"nanoparticle","sample":"NC–GNPs","quote":"the EDX profile showed the NC–GNPs capped with Au atom."}
+      ]
+    },
+    {
+      "pmcid": "PMC7281555",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "TEM_prep_not_declared", "sample": "UA-CS NPs and CS NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-TEM micrograph of UA-CS NPs prepared from 1.2% chitosan and 0.5% UA in the presence of 0.5% TPP."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "UA-CS NPs", "quote": "FTIR spectra of UA-CS NPs prepared from 1.2% chitosan and 0.5% UA in the presence of 0.5% TPP"},
+        {"technique": "XRD", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "UA-CS NPs and CS NPs", "quote": "XRD-spectra of UA (a), UA-CS NPs (b) and CS NPs (c)."}
+      ]
+    },
+    {
+      "pmcid": "PMC9320640",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "SEM", "sample": "optimized SLNs formulation PF1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "longitudinal amorphous structures, which confirm the formation of SLNs (B)."}],
+      "descriptors": [
+        {"sample": "PF1", "size_nm": 241.3, "pdi": 0.415, "zeta_mV": -15.2, "medium": "not_declared", "source": "Table 1", "quote": "P F 1 | 241.3 | −15.2 | 0.415 | 6.3602 | 98.36"},
+        {"sample": "PF2", "size_nm": 248.7, "pdi": 0.47, "zeta_mV": -18.1, "medium": "not_declared", "source": "Table 1", "quote": "P F 2 | 248.7 | −18.1 | 0.47 | 4.2192 | 97.84"},
+        {"sample": "PF3", "size_nm": 274.7, "pdi": 0.542, "zeta_mV": -19.4, "medium": "not_declared", "source": "Table 1", "quote": "P F 3 | 274.7 | −19.4 | 0.542 | 3.1652 | 97.49"},
+        {"sample": "PF4", "size_nm": 302.4, "pdi": 0.577, "zeta_mV": -20.2, "medium": "not_declared", "source": "Table 1", "quote": "P F 4 | 302.4 | −20.2 | 0.577 | 2.5322 | 96.89"},
+        {"sample": "PF5", "size_nm": 321.8, "pdi": 0.543, "zeta_mV": -24.8, "medium": "not_declared", "source": "Table 1", "quote": "P F 5 | 321.8 | −24.8 | 0.543 | 2.12 | 95.39"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "component", "sample": "pure TH, glyceryl monostearate, physical mixture", "quote": "FTIR spectrum of pure TH (A), glyceryl monostearate (B), physical mixture of TH and GMS (C)."},
+        {"technique": "XRD", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "freeze-dried SLNs preparation", "quote": "Freezed Dried SLNs preparation (C)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10296856",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "nano-liposomes (NL), freeze-dried and spray-dried samples", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of encapsules (NL: nano-liposomes, FD: freeze-dried samples, SD: spray-dried samples)."}],
+      "descriptors": [{"sample": "melon seed oil nano-liposomes", "size_nm": 282.3, "pdi": 0.249, "zeta_mV": null, "medium": "not_declared", "source": "Table 7", "quote": "Melon Seed Oil | Thin Film Hydration and Sonication | 282.30 ± 2.35 | 0.249 ± 0.011 | [This study]"}],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "nano-liposomal systems", "quote": "FTIR spectra of nano-liposomal systems and microcapsules."}]
+    },
+    {
+      "pmcid": "PMC7563888",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "cryoTEM", "sample": "PSHIGH, PCLOW, and MPMID final particles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Cryo-TEM pictures of the respective particles shown in the same colour as the corresponding curves."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "SAXS", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "DOTAP/RNA intermediates and final PS particles", "quote": "Double logarithmic plot of SAXS profiles of negatively charged PS particle intermediates (DOTAP/RNA"},
+        {"technique": "SAXS", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "MPMID", "quote": "Double logarithmic plot of the SAXS curve of MPMID."}
+      ]
+    },
+    {
+      "pmcid": "PMC11538059",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"FIGURE 3","variant":"SEM","sample":"Ag/Ag₂O NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM analysis of the Ag/Ag₂O NPs Synthesized from Olea europaea Leaf Extract"}],
+      "descriptors": [{"sample":"Ag/Ag₂O NPs","size_nm":25,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text; SEM image analysis","quote":"These compounds control the size and shape of the NPs, leading to a consistent particle size of around 25 nm"}],
+      "spectra": [
+        {"technique":"XRD","fig":"FIGURE 1","applies_to":"nanoparticle","sample":"Ag/Ag₂O NPs","quote":"XRD Analysis of Ag/Ag₂O NPs synthesized from Olea europaea Leaf Extract."},
+        {"technique":"FTIR","fig":"FIGURE 2","applies_to":"nanoparticle","sample":"Ag/Ag₂O NPs","quote":"FT-IR Analysis of: (A) Ag/Ag2O NPs synthesized from Olea europaea Leaf Extract"},
+        {"technique":"EDS","fig":"FIGURE 3","applies_to":"nanoparticle","sample":"Ag/Ag₂O NPs","quote":"EDX elemental analysis."},
+        {"technique":"UVVis","fig":"FIGURE 4","applies_to":"nanoparticle","sample":"Ag/Ag₂O NPs","quote":"UV-vis spectra"}
+      ]
+    },
+    {
+      "pmcid": "PMC12930960",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig":"Fig. 5","variant":"SEM","sample":"chitosan nanoparticles (CNPs)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM (A), particle size analysis (B), TEM (C) and EDX (D) micrographs of chitosan nanoparticles"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"chitosan nanoparticles","quote":"UV/visible spectrum of chitosan (blue curve) and the biosynthesized chitosan nanoparticles (red curve)"},
+        {"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"chitosan nanoparticles","quote":"EDX (D) micrographs of chitosan nanoparticles"},
+        {"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"chitosan nanoparticles","quote":"XRD (A)"},
+        {"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"chitosan nanoparticles","quote":"FTIR (C) analyses of chitosan nanoparticles"}
+      ]
+    }
+  ]
+}
