@@ -1,0 +1,553 @@
+{
+  "batch": "EX018",
+  "articles": [
+    {
+      "pmcid": "PMC12300760",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NG-PPy",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of NG-PPy at (a) 10k and (b) 80k magnification. Scale bar 500 and 100 nm, respectively."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NG",
+          "size_nm": 295.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS at 30 °C",
+          "quote": "At 30 °C, DLS revealed a hydrodynamic diameter of 295.1 nm for the thermosensitive NG."
+        },
+        {
+          "sample": "NG-PPy",
+          "size_nm": 377,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS at 30 °C",
+          "quote": "DLS measurements at 30 °C indicated an increased diameter of 377 nm for NG-PPy"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NG and NG-PPy",
+          "quote": "(a) FTIR and (b) UV-Vis spectroscopy of NG and NG-PPy."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NG and NG-PPy",
+          "quote": "(a) FTIR and (b) UV-Vis spectroscopy of NG and NG-PPy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8986208",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3.",
+          "variant": "SEM",
+          "sample": "Entacapone-loaded NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopic (SEM) photograph of Entacapone-loaded NLCs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "optimized Entacapone-NLCs",
+          "size_nm": 161.2,
+          "pdi": 0.444,
+          "zeta_mV": -28.5,
+          "medium": "not_declared",
+          "source": "Zetasizer; Figure 4 result",
+          "quote": "measurement of particle size, PDI, and zeta potential using Malvern Zeta Sizer and found to be 161.2 ± 16 nm, 0.444, and −28.5 mV, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 6.",
+          "applies_to": "nanoparticle",
+          "sample": "lyophilized Entacapone-NLCs",
+          "quote": "XRD of plain Entacapone [A] and GMS [B], Physical mixture [C], and Lyophilized Entacapone–NLCs [D]."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9837038",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "silver NPs, albumin NPs, liposomes NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of F. cretica (a) Silver NPs (b) Albumin NPs (c) Liposomes NPs with size indication of the NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Liposomes NP",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18.6,
+          "medium": "not_declared",
+          "source": "Table 1; size method not specified in packet",
+          "quote": "Liposomes NP | 56.62 ± 8.04 | 72.53 ± 2.914 | − 18.6"
+        },
+        {
+          "sample": "Silver NP",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -15.5,
+          "medium": "not_declared",
+          "source": "Table 1; size method not specified in packet",
+          "quote": "Silver NP | 143 ± 11.54 | 64.16 ± 2.538 | − 15.5"
+        },
+        {
+          "sample": "Albumin NP",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18.3,
+          "medium": "not_declared",
+          "source": "Table 1; size method not specified in packet",
+          "quote": "Albumin NP | 83.36 ± 38.73 | 70.86 ± 1.457 | − 18.3"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "silver NPs, albumin NPs, liposomes NPs",
+          "quote": "Mapping of the NPs for EDX (d) Silver NPs (e) Albumin NPs (f) Liposomes NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10799878",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "CuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Field Emission-Scanning Electron Micrograph of CuNPs."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_dried_unstained",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of synthesized AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CuNPs",
+          "size_nm": 273,
+          "pdi": null,
+          "zeta_mV": -24.2,
+          "medium": "not_declared",
+          "source": "DLS; Figure 1d",
+          "quote": "The zeta potential and Z-average diameter value of the synthesized CuNPs was found to be − 24.2 mV and 273.0 nm, respectively (Fig. 1d)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CuNPs",
+          "quote": "(b) UV–Vis spectra of synthesized CuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CuNPs",
+          "quote": "(c) FT-IR spectra of CuNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CuNPs",
+          "quote": "(e) XRD pattern of CuNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CuNPs",
+          "quote": "(g) EDX spectrum of CuNPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(b) UV–Vis spectra of synthesized AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12300693",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "NG S1, S2, and S3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) Representative SEM images of single CS and NG (S1, S2, and S3)."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NG S1, S2, and S3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of NG samples S1, S2, and S3 at 30,000× and 85,000× magnification. Scale bars are included in the images."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "S1",
+          "size_nm": null,
+          "pdi": 0.229,
+          "zeta_mV": 31.64,
+          "medium": "not_declared",
+          "source": "Table 3; DLS PDI and zeta; size not supplied",
+          "quote": "S1 | 0.229 ± 0.035 a,* | 31.64 ± 1.43 a | 4.09 a | 0.331 ± 0.045 a"
+        },
+        {
+          "sample": "S2",
+          "size_nm": null,
+          "pdi": 0.252,
+          "zeta_mV": 29.35,
+          "medium": "not_declared",
+          "source": "Table 3; DLS PDI and zeta; size not supplied",
+          "quote": "S2 | 0.252 ± 0.024 a | 29.35 ± 1.17 a | 41.2 b | 0.0418 ± 0.0052 b"
+        },
+        {
+          "sample": "S3",
+          "size_nm": 304.9,
+          "pdi": 0.274,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter and PDI (text); zeta (Table 3)",
+          "quote": "S3 had a hydrodynamic diameter of 304.90 ± 27.44 nm and a moderate PDI of 0.274 ± 0.033."
+        },
+        {
+          "sample": "S3",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 20.42,
+          "medium": "not_declared",
+          "source": "Table 3; ζ-potential",
+          "quote": "S3 | 0.274 ± 0.033 a | 20.42 ± 0.75 c | 18.0 c | 0.0336 ± 0.0336 c"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CS, GNP, and NG S1, S2, S3",
+          "quote": "FTIR-ATR spectra of CS, GNP, as well as S1, S2, and S3."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "NG S2",
+          "quote": "SAXS profile of NG S2, showing experimental data (black squares) and the corresponding power-law fitting (yellow line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9279089",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SLN/Dox and SLN/Dox/Dexa",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images: (a) SLN/Dox; (b) SLn/Dox/Dexa. The images indicate the formation of spherical-shaped nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "Dexa-LHON",
+          "quote": "FT-IR spectrum of Dexa-LHON."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12121438",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "SEM",
+          "sample": "nanopropolis-liposome and empty liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (A, B) nanopropolis‐liposome, and (C) empty liposomes."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Nanopropolis‐liposome",
+          "size_nm": 186.2,
+          "pdi": 0.17,
+          "zeta_mV": -14.8,
+          "medium": "not_declared",
+          "source": "TABLE 4; size measurement method not specified for table",
+          "quote": "Nanopropolis‐liposome | 186.2 | −14.8 | 0.17 | —"
+        },
+        {
+          "sample": "Free liposome",
+          "size_nm": 95.74,
+          "pdi": 0.11,
+          "zeta_mV": -3.8,
+          "medium": "not_declared",
+          "source": "TABLE 4; size measurement method not specified for table",
+          "quote": "Free liposome | 95.74 | −3.8 | 0.11 | 84.21%"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "nanopropolis-liposome and empty liposome",
+          "quote": "FTIR spectra of free nanopropolis, nanopropolis‐liposome, and empty liposome."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10858812",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) Scanning electron microscopy (SEM) images of synthesized silver nanoparticles (AgNPs) from Avicennia marina leaf extract"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV visible spectroscopy of synthesized silver nanoparticles (AgNPs) from Avicennia marina leaf extract"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) spectrum of synthesized silver nanoparticles (AgNPs) from Avicennia marina leaf extract"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(B) Energy-dispersive spectroscopy (EDS) analysis of synthesized AgNPs using Avicennia marina leaf extract showed the strong peak of silver"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11854355",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "plain NP and NP-CRC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images at a magnification 10,000× of plain NP (A) and NP-CRC (B)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NP (in suspension)",
+          "size_nm": 323.1,
+          "pdi": 0.216,
+          "zeta_mV": -15.6,
+          "medium": "not_declared",
+          "source": "Table 1; after preparation; DLS",
+          "quote": "NP (in suspension) | 323.1 ± 1.3 | 0.216 | −15.6 ± 2.2"
+        },
+        {
+          "sample": "NP-CRC (in suspension)",
+          "size_nm": 296.4,
+          "pdi": 0.172,
+          "zeta_mV": -7.1,
+          "medium": "not_declared",
+          "source": "Table 1; after preparation; DLS",
+          "quote": "NP-CRC (in suspension) | 296.4 ± 3.1 | 0.172 | −7.1 ± 0.8"
+        },
+        {
+          "sample": "LNP (lyophilized)",
+          "size_nm": 220.3,
+          "pdi": 0.196,
+          "zeta_mV": -10.65,
+          "medium": "water",
+          "source": "Table 1; after preparation; redispersed; DLS",
+          "quote": "LNP (lyophilized) | 220.3 ± 1.8 | 0.196 | −10.65 ± 2.5"
+        },
+        {
+          "sample": "LNP-CRC (lyophilized)",
+          "size_nm": 127.4,
+          "pdi": 0.168,
+          "zeta_mV": -8.73,
+          "medium": "water",
+          "source": "Table 1; after preparation; redispersed; DLS",
+          "quote": "LNP-CRC (lyophilized) | 127.4 ± 2.3 | 0.168 | −8.73 ± 2.8"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "plain NP and NP-CRC",
+          "quote": "FTIR spectra of the plain NP, curcumin, and curcumin-loaded NP-CRC."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "lyophilized LNP and LNP-CRC",
+          "quote": "Powder XRD patterns of the initial compounds, lyophilized empty LNP, and curcumin-loaded nanoparticle LNP-CRC."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9647953",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_dried_unstained",
+          "sample": "CO-SLN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "CO-SLN characterization; (a) particle size analysis by DLS. (b) zeta potential distribution; (c) TEM two-dimensional morphological description"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CO-SLN",
+          "size_nm": 40.65,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Fig. 1a; DLS; text",
+          "quote": "The particle size of CO-SLN was reported with the average of 40.65 nm (shown in Fig. 1a)."
+        },
+        {
+          "sample": "CO-SLN",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -26.5,
+          "medium": "water",
+          "source": "Fig. 1b; text",
+          "quote": "Also, the zeta potential of the nanoparticles was measured − 26.5 mV (Fig. 1b)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "CO-SLN and components",
+          "quote": "FTIR spectroscopy of pure CO (black), CO-SLN (red) (with common peaks around 1425 and 2800 cm− 1), cholesterol (dotted), tween 80 (blue) and lecithin (pink)"
+        }
+      ]
+    }
+  ]
+}

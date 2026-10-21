@@ -1,0 +1,105 @@
+{"batch":"EX071","articles":[
+{"pmcid":"PMC10011455","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AC-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Micrographs of the AC-AgNPs using TEM at 20 nm (C) and 10 nm (D)"}],
+"descriptors":[
+{"sample":"AC-AgNPs","size_nm":89.77,"pdi":0.242,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the AC-AgNPs had a mean size ±SD of 89.77 ± 16.50 nm, with polydispersity index of 0.242"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AC-AgNPs","quote":"UV–visible spectrum of optimized AC-AgNPs for incubation temperature (B)"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AC-AgNPs","quote":"Patterns of the green synthesized AC-AgNPs using PXRD (A), SAED (B), EDX (C), and FTIR (D)."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AC-AgNPs","quote":"The EDX profile of AC-AgNPs showed a strong signal due to silver atom (Ag) which was involved in AC-AgNPs at a percentage of 58.31%."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AC-AgNPs","quote":"which revealed strong signals at 3,416 cm−1, 1630 cm−1, and 1023 cm−1"}]},
+
+{"pmcid":"PMC9674591","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"biosynthesized chitosan nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C,D) TEM micrograph of chitosan nanoparticles biosynthesised using Eucalyptus globulus Labill leaves extract."}],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"biosynthesized chitosan nanoparticles","quote":"The EDX spectrum analysis of the biosynthesized chitosan nanoparticles detected the presence of"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"biosynthesized chitosan nanoparticles","quote":"(A) EDX, (B) XRD, (C) FTIR, (D) zeta potential, (E) DSC and (F) TGA analyses"},
+{"technique":"FTIR","fig":"Table 4","applies_to":"nanoparticle","sample":"biosynthesized chitosan nanoparticles","quote":"FTIR peaks of biosynthesized chitosan nanoparticles with the annotations and references of each peak."}]},
+
+{"pmcid":"PMC8911087","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"STEM","sample":"citrate-stabilized nanoparticles","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"STEM images of (A) citrate-stabilized nanoparticles"},
+{"fig":"Fig. 7","variant":"SEM","sample":"magnetoliposomes of DPPC (100%)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) SEM image of magnetoliposomes of DPPC (100%) based on citrate-stabilized nanoparticles, showing spherical structures around 100 nm size."}],
+"descriptors":[
+{"sample":"MLs (DPPC:CHEMS:DSPE-PEG)","size_nm":213.2,"pdi":0.24,"zeta_mV":null,"medium":"not_declared","source":"Table 5","quote":"MLs (DPPC:CHEMS:DSPE-PEG) | 213.2 ± 1.1 | 225.6 ± 19 | 0.24 ± 0.001 | 0.28 ± 0.002"},
+{"sample":"MLs (DPPC:CHEMS)","size_nm":149.9,"pdi":0.29,"zeta_mV":null,"medium":"not_declared","source":"Table 5","quote":"MLs (DPPC:CHEMS) | 149.9 ± 17 | 203.6 ± 10 | 0.29 ± 0.01 | 0.27 ± 0.04"},
+{"sample":"DPPC (100%)","size_nm":null,"pdi":null,"zeta_mV":-1.83,"medium":"not_declared","source":"Table 4","quote":"DPPC (100%) | 7.4 | −1.83 ± 0.65"},
+{"sample":"DPPC:CHEMS (80:20)","size_nm":null,"pdi":null,"zeta_mV":-26.7,"medium":"not_declared","source":"Table 4","quote":"DPPC:CHEMS (80:20) | 7.4 | −26.7 ± 1.10"},
+{"sample":"DPPC:CHEMS:DSPE-PEG (80:20:0.4)","size_nm":null,"pdi":null,"zeta_mV":-17.0,"medium":"not_declared","source":"Table 4","quote":"DPPC:CHEMS:DSPE-PEG (80:20:0.4) | 7.4 | −17.0 ± 0.9"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"citrate-stabilized calcium/manganese ferrite nanoparticles","quote":"X-Ray diffractogram of (A) citrate-stabilized calcium/manganese ferrite nanoparticles"}]},
+
+{"pmcid":"PMC8099510","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"optimized PPZ-SLN","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of optimized SLN."}],
+"descriptors":[
+{"sample":"formulation 2 (PPZ-SLN)","size_nm":96.15,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"nanoparticle sizes were within the range of 96.15 ± 3.37 nm (i.e., formulation no. 2)"},
+{"sample":"formulation 13 (PPZ-SLN)","size_nm":264.36,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"to 264.36 ± 12.37 nm (formulation no. 13)"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"PPZ-SLN","quote":"XRD spectra of the (a) PPZ, (b) GMS, (c) physical mixture of PPZ and GMS, and (d) PPZ-SLN."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"PPZ-SLN","quote":"FTIR spectrum of the (a) PPZ, (b) GMS, (c) physical mixture of the drug and lipid, and (d) PPZ-SLN."}]},
+
+{"pmcid":"PMC9319009","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MLI","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM image of 4T1 cell membrane-camouflaged IR1048-loaded liposome (MLI)."}],
+"descriptors":[
+{"sample":"BL","size_nm":95.61,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"particle size of blank liposome (for short: BL) distributed in 95.61 ± 5.83 nm"},
+{"sample":"LI","size_nm":98.26,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"into liposomes (for short: LI) with size of 98.26 ± 4.76 nm"},
+{"sample":"BL","size_nm":null,"pdi":null,"zeta_mV":-13.58,"medium":"not_declared","source":"text","quote":"the BL with −13.58 mV became −1.94 mV after loading IR1048"},
+{"sample":"LI","size_nm":null,"pdi":null,"zeta_mV":-1.94,"medium":"not_declared","source":"text","quote":"became −1.94 mV after loading IR1048"},
+{"sample":"MLI","size_nm":null,"pdi":null,"zeta_mV":-8.80,"medium":"not_declared","source":"text","quote":"and then turned to −8.80 mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MLI","quote":"(D) UV–vis–NIR absorption spectra of free IR1048 and MLI."}]},
+
+{"pmcid":"PMC10484435","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"core-shell","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of four phases of core-shell preparation."}],
+"descriptors":[
+{"sample":"naked nanoparticles","size_nm":null,"pdi":null,"zeta_mV":-2.93,"medium":"not_declared","source":"text","quote":"The Zeta potential measurement of naked nanoparticles (Fig 5A) was found to be -2.93 mV."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"core-shell","quote":"UV-Visible spectra of four phases of core-shell preparation."},
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"core-shell","quote":"FT-IR spectra of four phases of core-shell preparation."},
+{"technique":"Raman","fig":"Fig. 8","applies_to":"nanoparticle","sample":"core-shell","quote":"Raman spectra of four phases of core-shell preparation."},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"core-shell","quote":"SEM-EDAX images of four phases of core-shell preparation."},
+{"technique":"XRD","fig":"Fig. 11","applies_to":"nanoparticle","sample":"core-shell","quote":"XRD spectra of four phases of core-shell preparation."}]},
+
+{"pmcid":"PMC10039946","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"Fe3O4@MOF-PAMAM","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a,b) FE-SEM images of the Fe3O4@MOF-PAMAM"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Fe3O4@MOF-PAMAM","quote":"(a) FT-IR spectra of Fe3O4, PAMAM, Fe3O4@MOF and Fe3O4@MOF-PAMAM"},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fe3O4@MOF and Fe3O4@MOF-PAMAM","quote":"(i) XRD patterns of Fe3O4@MOF and Fe3O4@MOF-PAMAM."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fe3O4@MOF-PAMAM","quote":"(c) The EDS of Fe3O4@MOF-PAMAM"}]},
+
+{"pmcid":"PMC12582006","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"cryoTEM","sample":"TbCl3@LP and TbBDC@LP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"a) and b) Cryo‐TEM images of TbCl3@LP and TbBDC@LP."}],
+"descriptors":[
+{"sample":"TbCl3@LP","size_nm":170,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the hydrodynamic diameter obtained for both samples was ca. 170 nm"},
+{"sample":"EuCl3@LP","size_nm":170,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the hydrodynamic diameter obtained for both samples was ca. 170 nm"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Tb and Eu loaded liposomes (LnCl3@LP)","quote":"c) EDX analysis confirms the co‐localisation of Tb3+ and Eu3+ in the corresponding LNRs."},
+{"technique":"SAXS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"TbCl3@LP","quote":"c) SAXS profiles of control samples: TbCl3@LP (blue; fitted)"},
+{"technique":"SAXS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"TbBDC@LP","quote":"d) SAXS profile of TbBDC@LP."}]},
+
+{"pmcid":"PMC9301079","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"NLC-Viol-Lip","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM micrography of a 1:100 dilution of NLC-Viol-Lip"}],
+"descriptors":[
+{"sample":"NLC-Viol","size_nm":154.3,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"mean particle size (154.3 nm for NLC-Viol and 151.5 nm for NLC-Viol-Lip"},
+{"sample":"NLC-Viol-Lip","size_nm":151.5,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"mean particle size (154.3 nm for NLC-Viol and 151.5 nm for NLC-Viol-Lip"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 6","applies_to":"mixture","sample":"Mesh-Viol and Mesh-Viol-Lip","quote":"Diffractograms for Mesh-Viol-Lip, Mesh-Viol, MM (myristyl myristate)"},
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"mixture","sample":"Mesh-Viol and Mesh-Viol-Lip","quote":"FTIR spectra for Mesh-Viol-Lip, Mesh-Viol, MM (myristyl myristate)"}]},
+
+{"pmcid":"PMC9416266","context":{"article_kind":"research","carrier_type":"LNP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"LNP10","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(A) Representative TEM image of LNP10 (panel A) (scale bar = 100 nm)."}],
+"descriptors":[],
+"spectra":[
+{"technique":"SAXS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"LNP10","quote":"(B) Synchrotron SAXS pattern of LNP10."}]}
+]}

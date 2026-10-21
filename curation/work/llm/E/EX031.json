@@ -1,0 +1,538 @@
+{
+  "batch": "EX031",
+  "articles": [
+    {
+      "pmcid": "PMC12615623",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MCO-F8",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope (TEM) pictures of the optimal formula and the diameter histogram of MCO-F8."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MCO-F8",
+          "size_nm": 151.2,
+          "pdi": 0.326,
+          "zeta_mV": -25.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the lowest hydrodynamic size (151.2 ± 0.24 nm) and PDI (0.326 ± 0.04) as well as the greatest ζ potential (−25.6 ± 0.04 mV)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "blank PLGA-PCL NPs and MCO-F8",
+          "quote": "FTIR spectra of (A) Corchorus olitorius oil (BO); (B) blank PLGA-PCL NPs; and (C) MCO-F8."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10779594",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "citrate-, borohydride-citrate-, and SDS-capped AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images showing the shape and aggregation state of AuNPs"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "citrate-capped AuNPs functionalized with 2-TU",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image showing the shape and aggregation state of AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "citrate-capped AuNPs",
+          "size_nm": 20,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The citrate-capped AuNPs (1–30 nm) and SDS-capped AuNPs (1–15 nm) had small average diameters of 20 ± 4 nm and 7 ± 2 nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "core AuNPs",
+          "quote": "the baseline-corrected UV-Vis absorption spectra displaying the localized surface plasmon resonance (LSPR) peak of AuNPs"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "core colloidal AuNPs",
+          "quote": "the SERS spectra demonstrating the chemical purity of the core, colloidal AuNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6631728",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "PLGA 75:25 microspheres",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative SEM micrographs for low exendin-4 loaded PLGA 75:25 microspheres"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA 75:25 microspheres, unlyophilized",
+          "size_nm": 106000,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "75:25 | No | 0 | 1909 | 55 | 106 | 167"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA 75:25 microspheres",
+          "quote": "FTIR spectra of blank microspheres (solid black line), low polypeptide loaded (solid red line) and high polypeptide loaded (solid blue line) PLGA 75:25 microspheres."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12775091",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "Chr–Qur@MSNs–Chi nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images showing the surface morphology and uniform spherical shape of the nanoparticles."
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Chr–Qur@MSNs–Chi nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images revealing the internal mesoporous structure"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs-Chi NPs",
+          "size_nm": 100.12,
+          "pdi": 0.625,
+          "zeta_mV": -24.3,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "MSNs-Chi NPs | 100.12 ± 5.5 | − 24.3 | 0.625 ± 0.199"
+        },
+        {
+          "sample": "Chr-Qur@MSNs-Chi NPs",
+          "size_nm": 110.43,
+          "pdi": 0.295,
+          "zeta_mV": -36.5,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "Chr- Qur @MSNs-Chi NPs | 110.43 ± 2.3 | − 36.5 | 0.295 ± 0.085"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "bare MSNs–Chi and Chr–Qur@MSNs–Chi nanoparticles",
+          "quote": "X-ray diffraction (XRD) patterns of bare MSNs–Chi nanoparticles and Chr–Qur@MSNs–Chi nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "Chr–Qur@MSNs–Chi nanoparticles",
+          "quote": "Fourier-transform infrared (FTIR) spectra of the materials are shown for (A) Chr, (B) Qur, (C) a physical mixture of Chr–Qur, and (D) Chr–Qur@MSNs–Chi nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8276003",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 3",
+          "variant": "cryoTEM",
+          "sample": "PEO-PCL-P and PEG-DSPE-P nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Cryo-TEM images of both nanoparticles showing sizes of ∼120 nm with a spherical morphology."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PEO-PCL-P",
+          "size_nm": 126.3,
+          "pdi": 0.231,
+          "zeta_mV": -25.3,
+          "medium": "water",
+          "source": "text",
+          "quote": "PEO-PCL-P had a particle size of 126.3 ± 0.8 nm with a PDI of 0.231 ± 0.022"
+        },
+        {
+          "sample": "PEG-DSPE-P",
+          "size_nm": 123,
+          "pdi": 0.224,
+          "zeta_mV": -29.5,
+          "medium": "water",
+          "source": "text",
+          "quote": "PEG-DSPE-P had a particle size of 123.0 ± 5.1 nm with a PDI of 0.224 ± 0.046"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "PEO-PCL-P and PEG-DSPE-P nanoparticles",
+          "quote": "Absorption spectra of PEO-PCL-P (red) and PEG-DSPE-P (blue) nanoparticles in aqueous solutions"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13516719",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 10",
+          "variant": "STEM",
+          "sample": "AuNPs-NG and AuNPs-NGN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM images and corresponding histograms for particle size distribution for AuNPs-NG (A,B) and AuNPs-NGN (C,D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs-NG",
+          "size_nm": 120.7,
+          "pdi": 0.2172,
+          "zeta_mV": -30.21,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "For AuNPs-NG, the average hydrodynamic diameter was determined to be 120.7 nm, with a PDI value of 0.2172"
+        },
+        {
+          "sample": "AuNPs-NGN",
+          "size_nm": 167.3,
+          "pdi": 0.4169,
+          "zeta_mV": -33.75,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "AuNPs-NGN exhibited a larger average hydrodynamic diameter of 167.3 nm and a significantly higher PDI of 0.4169"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs-NG and AuNPs-NGN",
+          "quote": "UV–Vis spectra of AuNPs-NG (A) and AuNPs-NGN (B) colloidal dispersions"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs-NG and AuNPs-NGN",
+          "quote": "FTIR spectra of NG and AuNPs-NG (A) and NGN and AuNPs-NGN (B)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs-NG and AuNPs-NGN",
+          "quote": "EDX analysis for AuNPs-NG (A) and AuNPs-NGN (B)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4819683",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au–PLGA hybrid NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of: (b) Au-citrate NPs, (c) Au–PLGA hybrid NPs after solvent evaporation."
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "STEM",
+          "sample": "Au–PLGA hybrid NPs produced with SC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HAADF-STEM micrograph of representative Au–PLGA hybrid NP produced with SC"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au–PLGA hybrid NPs with STC",
+          "size_nm": 128,
+          "pdi": 0.065,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Au–PLGA hybrid NPs produced with STC and SC were 128 ± 6 nm (PDI 0.065 ± 0.006)"
+        },
+        {
+          "sample": "Au–PLGA hybrid NPs with SC",
+          "size_nm": 197,
+          "pdi": 0.101,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "and 197 ± 4 nm (PDI 0.101 ± 0.031), respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "Au–PLGA hybrid NP produced with SC",
+          "quote": "HAADF-EDS analysis of the area selected in (d) to confirm the presence of a Au NP."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13119133",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "STEM",
+          "sample": "f-sAuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "A STEM micrograph displaying mainly spherical nanoparticles"
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Aβ1–42 fibrils incubated with nanoparticles",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "A transmission electron microscopy image of Aβ1–42 fibrils incubated at 37 °C and 300 rpm for 72 h."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "f-sAuNPs",
+          "size_nm": 35,
+          "pdi": 0.255,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Dynamic light scattering (DLS) analysis indicated a hydrodynamic diameter of 35 ± 10 nm (PDI = 0.255)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "f-sAuNPs",
+          "quote": "A UV–Vis–NIR absorption spectrum showing a surface plasmon resonance band at about 523 nm."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8774475",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HP403 nanogel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image (A), diameter histogram (B), DLS particle size distribution (C), and stability (D) of the HP403 nanogel."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HP403@CisOH@Cur nanogel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image (A), diameter histogram (B), DLS particle size distribution (C), and stability (D) of the HP403@CisOH@Cur nanogel."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "HP403 nanogel",
+          "size_nm": 94.12,
+          "pdi": 0.39,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average particle size measured by DLS shown in Figure 2C ranged 94.12 ± 3.85 nm at 25 °C with PI = 0.39 ± 0.07"
+        },
+        {
+          "sample": "HP403@CisOH@Cur nanogel",
+          "size_nm": 162.9,
+          "pdi": 0.27,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The DLS result of HP403@CisOH@Cur nanogel was 162.9 nm with PI = 0.27"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "HP403@CisOH and HP403@CisOH@Cur",
+          "quote": "FT-IR spectra of heparin, HP403, HP403@CisOH and HP403@CisOH @Cur (a)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13511881",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2 nanoparticles (15, 30, 100, 500 nm)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images showing the size and aggregation morphologies of hydrophilic SiO2 nanoparticles"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "STEM",
+          "sample": "dried N-EVES aggregates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HAADF-STEM image, (b–g) corresponding EDS elemental mapping of C, N, O, Si, and Cl"
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "carbonate matrix after treatments",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of (a) the original carbonate matrix, (b) the HCl-treated surface"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "commercial hydrophilic SiO2 nanoparticles",
+          "size_nm": 15,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Commercial hydrophilic, approximately spherical silica nanoparticles (SiO2 NPs) with nominal average diameters of 15, 30, 100, and 500 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "dried N-EVES aggregates",
+          "quote": "EDS spectra and quantitative elemental composition"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 9",
+          "applies_to": "component",
+          "sample": "rock surfaces after treatments",
+          "quote": "corresponding EDS spectra and (f) elemental compositions (wt% and at%)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 13",
+          "applies_to": "component",
+          "sample": "Indiana carbonate core",
+          "quote": "X-ray diffraction (XRD) pattern and mineralogical phase identification of the Indiana carbonate core"
+        }
+      ]
+    }
+  ]
+}

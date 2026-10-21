@@ -1,0 +1,455 @@
+{
+  "batch": "EX084",
+  "articles": [
+    {
+      "pmcid": "PMC6636582",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MK-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron micrograph of MK-AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "MK-AgNPs",
+          "quote": "UV-visible spectra of formation of silver nanoparticles synthesized using Murraya koenigii (MK-AgNPs)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MK-NPs",
+          "quote": "X-ray diffraction pattern of MK-NPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MK-AgNPs",
+          "quote": "FTIR spectrum of nanoparticles synthesized using Murraya koenigii (MK-AgNPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10697724",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIG. 2.",
+          "variant": "TEM_prep_not_declared",
+          "sample": "exfoliated MoS2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images with magnifications of 50 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "exfoliated MoS2 nanosheets",
+          "size_nm": 250,
+          "pdi": null,
+          "zeta_mV": -35,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The size and zeta potential of the exfoliated nanosheets were reported as 250 nm and −35 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIG. 2.",
+          "applies_to": "nanoparticle",
+          "sample": "exfoliated MoS2",
+          "quote": "UV spectra at different concentrations"
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIG. 4.",
+          "applies_to": "mixture",
+          "sample": "composite scaffold",
+          "quote": "XRD analysis for the composite scaffold."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5459428",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "glucose-, citrate- and 2DG-capped AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM analysis of AuNPs."
+        },
+        {
+          "fig": "Fig 7",
+          "variant": "SEM",
+          "sample": "glucose-capped and 2DG-capped gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM-EDS spectrum of glucose-capped gold nanoparticles and 2DG-capped gold nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "2DG-AuNP",
+          "size_nm": 21.51,
+          "pdi": null,
+          "zeta_mV": -19.1,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the 2DG-AuNps show urchin shape of the gold nanoparticles under TEM with a diameter of 21.51 nm, as observed by particle size analysis using DLS."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 3",
+          "applies_to": "nanoparticle",
+          "sample": "glucose-, citrate- and 2DG-AuNPs",
+          "quote": "UV-visible absorption spectrum of AuNPs."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig 4",
+          "applies_to": "mixture",
+          "sample": "2DG-Au and 2DG",
+          "quote": "SERS Raman spectra of 2DG-Au and Raman spectra of 2DG."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig 7",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles",
+          "quote": "SEM-EDS spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10006987",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5603882",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "IKAg, PKAg and AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 64.08,
+          "pdi": null,
+          "zeta_mV": -2.27,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The intensity mean diameters of samples are 64.08, 51.72 and 190.4 nm for AgNPs, PKAg and IKAg, respectively."
+        },
+        {
+          "sample": "PKAg",
+          "size_nm": 51.72,
+          "pdi": null,
+          "zeta_mV": -18.5,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "zeta potential values are equal to -18.5, -12 and -2.27 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "IKAg and PKAg",
+          "quote": "EDX spectra of IKAg (A) and PKAg (B)."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "IKAg, PKAg and AgNPs",
+          "quote": "UV-Visible spectra of IKAg (A)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "IKAg and PKAg",
+          "quote": "X-ray diffraction pattern of IKAg"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "IKAg and PKAg",
+          "quote": "FTIR spectra of IKAg (A) and PKAg (B)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9736386",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM image of chitosan nanoparticles (CSNPs)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs",
+          "quote": "ATR-FTIR spectra of chitosan (CS), sodium tripolyphosphate (STPP), and CS nanoparticles (CSNPs)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs",
+          "quote": "The XRD patterns of chitosan (CS), sodium tripolyphosphate (STPP), and CS nanoparticles (CSNPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5241258",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DH-AgNps and DH-AuNps",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-TEM images of DH-AgNps (a) and DH-AuNps (f)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "DH-AgNps and DH-AuNps",
+          "quote": "Time-dependent UV-Vis spectra of DH-AgNps (a) and DH-AuNps (b)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized nanoparticles",
+          "quote": "FTIR spectra of biosynthesized nanoparticles and plant extract"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8955270",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope (TEM) image of chitosan nanoparticles (CSNPs)."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HAPNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy of HAPNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs",
+          "quote": "Fourier transform infrared spectroscopy analysis (FTIR) of chitosan nanoparticles (CSNPs)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "HAPNPs",
+          "quote": "FTIR analysis of HAPNPs powder."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5442863",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "P. domestica gum-loaded Au and Ag nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopic images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "gum-loaded gold and silver nanoparticles",
+          "quote": "UV-Vis spectra of P. domestica gum-loaded gold (a) and silver (b) nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "gum-loaded gold and silver nanoparticles",
+          "quote": "FTIR spectra of P. domestica gum (a) and P. domestica gum-loaded gold (b)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "gum-loaded gold and silver nanoparticles",
+          "quote": "EDX spectra of P. domestica gum-loaded gold (a) and silver (b) nanoparticles"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "gum-loaded gold and silver nanoparticles",
+          "quote": "XRD patterns of P. domestica gum-loaded gold (a) and silver (b) nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11243421",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "vanillic acid nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM images of vanillic acid nanocomposites."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "vanillic acid nanocomposite",
+          "size_nm": 338.4,
+          "pdi": null,
+          "zeta_mV": 13.5,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The particle size and size distribution of the nanocomposite were evaluated using a Zetasizer and were found to be 338.4 ± 94.73 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "vanillic acid nanocomposite",
+          "quote": "UV-visible spectroscopy and Zetasizer analysis of (A) chitosan nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "vanillic acid nanocomposite",
+          "quote": "(A) Fourier Transform Infrared (FTIR) spectra"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "vanillic acid nanocomposite",
+          "quote": "FESEM images and EDAX analysis of vanillic acid nanocomposite."
+        }
+      ]
+    }
+  ]
+}

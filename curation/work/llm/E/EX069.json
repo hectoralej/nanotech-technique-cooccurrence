@@ -1,0 +1,95 @@
+{"batch":"EX069","articles":[
+{"pmcid":"PMC7876318","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"BP-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM (c), and TEM (d) images of BP-AgNPs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"BP-AgNPs","quote":"UV–Vis spectra of BPLE, AgNO3, and colloidal dispersion of BP-AgNPs."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BP-AgNPs","quote":"FT-IR spectra of BP-AgNPs (a)"},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BP-AgNPs","quote":"XRD pattern of BP-AgNPs showing crystalline Ag facets (b)"},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BP-AgNPs","quote":"EDX spectra (e), and elemental composition of BP-AgNPs (f)."}]},
+{"pmcid":"PMC11768099","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"DXM-GF-nfPLGA","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of (a) Pure GF, (b) pure DXM, (c) DXM-GF-nfPLGA co-formulation (carbon coated)"}],
+"descriptors":[
+{"sample":"DXM-GF-nfPLGA","size_nm":null,"pdi":null,"zeta_mV":-30.2,"medium":"other","source":"text","quote":"DXM-GF-nfPLGA demonstrated an increased zeta potential of −30.2 mV"},
+{"sample":"DXM-GF","size_nm":null,"pdi":null,"zeta_mV":-19.7,"medium":"other","source":"Table 1","quote":"DXM-GF | 83.70 | −19.7 | 1.75 | 258.12 (DXM) 203.71 (GF)"},
+{"sample":"Pure DXM","size_nm":null,"pdi":null,"zeta_mV":-17.2,"medium":"other","source":"Table 1","quote":"Pure DXM | 89.00 | −17.2 | 1.96 | 261.74"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"mixture","sample":"DXM-GF-nfPLGA","quote":"X-ray diffraction (XRD) analysis data for co-formulated drugs’ formulation."},
+{"technique":"Raman","fig":"Fig. 3","applies_to":"mixture","sample":"DXM-GF-nfPLGA","quote":"RAMAN analysis data for co-formulated drugs’ formulation."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"mixture","sample":"DXM-GF-nfPLGA","quote":"FTIR analysis of co-formulation of drug formulations."}]},
+{"pmcid":"PMC6975051","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AC-Bud-Lip","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images (a), TEM–EDX analysis data of AC-Bud-Lip (b), and FT-IR spectra (c)."},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"liposomal formulations","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"size variation (b), TEM (c), and FT-IR spectra (d) of liposomal formulations at the different pH"}],
+"descriptors":[
+{"sample":"Bud-Lip","size_nm":117,"pdi":0.42,"zeta_mV":-21.4,"medium":"not_declared","source":"Table 1","quote":"Bud-Lip | 117 ± 10 | 0.42 ± 0.02 | − 21.4 ± 0.7 | 95.6 ± 1.7"},
+{"sample":"AC-Bud-Lip","size_nm":194,"pdi":0.25,"zeta_mV":7.0,"medium":"not_declared","source":"Table 1","quote":"AC-Bud-Lip | 194 ± 12 | 0.25 ± 0.11 | 7.0 ± 2.9 | 74.7 ± 7.6"},
+{"sample":"EAC-Bud-Lip","size_nm":321,"pdi":0.40,"zeta_mV":-12.8,"medium":"not_declared","source":"Table 1","quote":"EAC-Bud-Lip | 321 ± 18 | 0.40 ± 0.12 | − 12.8 ± 5.8 | 82.7 ± 9.8"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AC-Bud-Lip","quote":"TEM–EDX analysis data of AC-Bud-Lip (b)"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AC-Bud-Lip","quote":"TEM images (a), TEM–EDX analysis data of AC-Bud-Lip (b), and FT-IR spectra (c)."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"liposomal formulations","quote":"FT-IR spectra (d) of liposomal formulations at the different pH"}]},
+{"pmcid":"PMC9506317","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"CIT-SLNs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(d–f) TEM images of CIT-SLNs [the scale bar of panels (d) and (e) is equal to 1 µm, while in (f) corresponds to 500 nm]"}],
+"descriptors":[
+{"sample":"Plain SLNs","size_nm":141,"pdi":0.34,"zeta_mV":-9.2,"medium":"not_declared","source":"Table 1","quote":"Plain SLNs | 141 ± 11 | 0.34 ± 0.08 | −9.2 ± 0.7"},
+{"sample":"CIT-SLNs","size_nm":201,"pdi":0.45,"zeta_mV":-2.2,"medium":"not_declared","source":"Table 1","quote":"CIT-SLNs | 201 ± 24 | 0.45 ± 0.08 | −2.2 ± 0.2"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CIT-SLNs","quote":"Left panel: FT-IR spectra of (a) pure CIT, (b) plain SLNs and (c) CIT-SLNs."},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"CIT-SLNs","quote":"X-ray diffraction patterns of (a) pure CIT, (b) plain SLNs and (c) CIT-SLNs."}]},
+{"pmcid":"PMC8510615","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_negstain","sample":"N8","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Microscopic examination: (A) TEM, and (B) SEM."}],
+"descriptors":[
+{"sample":"N1","size_nm":180,"pdi":0.235,"zeta_mV":21,"medium":"not_declared","source":"Table 2","quote":"N1 | 46 ± 1.79 | 180 ± 3.80 | 0.235 ± 0.012 | 21 ± 1.67"},
+{"sample":"N4","size_nm":318.6,"pdi":0.416,"zeta_mV":19.73,"medium":"not_declared","source":"Table 2","quote":"N4 | 49.22 ± 0.21 | 318.6 ± 7.64 | 0.416 ± 0.06 | 19.73 ± 2.02"},
+{"sample":"N7","size_nm":254.67,"pdi":0.230,"zeta_mV":44.27,"medium":"not_declared","source":"Table 2","quote":"N7 | 49 .18 ± 4.14 | 254.67 ± 8.50 | 0.230 ± 0.038 | 44.27 ± 1.78"},
+{"sample":"N8","size_nm":292.6,"pdi":0.253,"zeta_mV":41.03,"medium":"not_declared","source":"Table 2","quote":"N8 | 68.4 ± 1.88 | 292.6 ± 8.98 | 0.253 ± 0.002 | 41.03 ± 0.503"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"N8","quote":"FTIR spectrum of: (A) CS, (B) lecithin, (C) TPP, (D) GTE, and (E) N8."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"GTE-loaded CS nanoparticles","quote":"X-ray diffractogram of: (A) CS, (B) TPP, (C) GTE, and (D) GTE-loaded CS nanoparticles."}]},
+{"pmcid":"PMC7412267","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images and size distribution histogram of biosynthesized Ag NPs (a to f) in which the scale bar represents at 100 nm (a)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag NPs and Au NPs","quote":"(b) UV-visible spectra of Ag NPs and Au NPs."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ag NPs and Au NPs","quote":"XRD spectra of biosynthesized Ag NPs and Au NPs confirms the pure phase formation of Au and Ag nanoparticles."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Ag NPs and Au NPs","quote":"FTIR absorption spectra of PS extract, Ag NPs and Au NPs."},
+{"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Ag NPs","quote":"(A) EDX and elemental mapping of Ag NPs."}]},
+{"pmcid":"PMC11243605","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"SEM","sample":"PP–CS–NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (a) green chitosan (PP–CS–NPs), (c) green chitosan–CuO nanocomposites (PP–CS–CuO–NPs)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"PP–Cs–NPs","quote":"FTIR for green chitosan PP–Cs–NPs and green chitosan–CuO nanocomposites (PP–Cs–CuO–NPs)."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"PP–Cs–NPs","quote":"XRD patterns for green chitosan (PP–Cs–NPs) and green chitosan–CuO nanocomposites (PP–Cs–CuO–NPs)."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PP–CS–NPs","quote":"EDX elemental % (b) green chitosan (PP–CS–NPs), and (d) green chitosan–CuO nanocomposites (PP–CS–CuO–NPs)"}]},
+{"pmcid":"PMC8625448","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 9","variant":"TEM_prep_not_declared","sample":"Magnetoliposomes with decorated NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of magnetoliposomes containing magnetic nanoparticles decorated with gold."}],
+"descriptors":[
+{"sample":"Magnetoliposomes with decorated NPs","size_nm":124,"pdi":0.28,"zeta_mV":null,"medium":"PBS","source":"Table 5","quote":"Magnetoliposomes with decorated NPs | 124 ± 28 | 136 ± 34 | 0.28 ± 0.08 | 0.32 ± 0.062"},
+{"sample":"Magnetoliposomes with core-shell NPs","size_nm":132,"pdi":0.23,"zeta_mV":null,"medium":"PBS","source":"Table 5","quote":"Magnetoliposomes with core-shell NPs | 132 ± 21 | 147 ± 28 | 0.23 ± 0.04 | 0.26 ± 0.05"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 6","applies_to":"nanoparticle","sample":"MnFe2O4/Au core/shell nanoparticles","quote":"UV-Visible absorption spectra of aqueous dispersions of MnFe2O4 nanoparticles decorated with gold"},
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"MnFe2O4/Au core/shell nanoparticles","quote":"X-ray diffraction pattern of manganese ferrite/gold core/shell nanoparticles (above)"}]},
+{"pmcid":"PMC9408860","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 11","variant":"SEM","sample":"SLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the (a) SLNs and (b) suspended drug molecules in the lipid matrices of the SLNs"}],
+"descriptors":[
+{"sample":"CLF-SLN","size_nm":101.6,"pdi":0.27,"zeta_mV":-23.6,"medium":"not_declared","source":"Table 1","quote":"CLF-SLN | 101.6 ± 0.7 | 0.27 ± 0.006 | −23.6 ± 0.26"},
+{"sample":"CLPF-SLN","size_nm":112.9,"pdi":0.23,"zeta_mV":-19.0,"medium":"not_declared","source":"Table 1","quote":"CLPF-SLN | 112.9 ± 1.0 | 0.23 ± 0.010 | −19.0 ± 0.26"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"PZQ-loaded SLNs","quote":"FTIR spectra of (a) all the excipients F-PF127, P-Praziquantel, L-Lecithin, C- Compritol (b) the formulated unloaded and PZQ-loaded SLNs."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PZQ-loaded SLNs","quote":"XRD diffractograms of (a) all the raw excipients F-PF127, P-Praziquantel, L-Lecithin, C-Compritol; and (b) the formulated unloaded and PZQ-loaded SLNs."}]},
+{"pmcid":"PMC13280902","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"SEM","sample":"D-SOFT25","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of samples originated from softwood lignin and DMF as solventD-SOFT25 and D-SOFT40"},
+{"fig":"Fig. 10","variant":"SEM","sample":"T-SOFT0","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of samples originated from softwood lignin and THF as solventT-SOFT0 and T-SOFT60"},
+{"fig":"Fig. 12","variant":"TEM_prep_not_declared","sample":"D-SOFT60","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of samples originated from softwood lignin and DMF as solventD-SOFT60"}],
+"descriptors":[
+{"sample":"T-SOFT40","size_nm":359.5,"pdi":null,"zeta_mV":-31.2,"medium":"water","source":"Table 4","quote":"T-SOFT40 | –31.2 | 359.5"},
+{"sample":"D-SOFT60","size_nm":496.3,"pdi":null,"zeta_mV":-23.4,"medium":"water","source":"Table 4","quote":"D-SOFT60 | –23.4 | 496.3"},
+{"sample":"D-SOFT40","size_nm":350.5,"pdi":null,"zeta_mV":5.49,"medium":"water","source":"Table 4","quote":"D-SOFT40 | 5.49 | 350.5"},
+{"sample":"T-HARD40","size_nm":324.6,"pdi":null,"zeta_mV":-32.1,"medium":"water","source":"Table 4","quote":"T-HARD40 | –32.1 | 324.6"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"softwood lignin-originated particles","quote":"FTIR spectra of softwood lignin-originated particles : (A) DMF/water as solventD-SOFT0 (0 °C)"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"hardwood lignin-originated particles","quote":"FTIR spectra of hardwood lignin-originated particles : (A) DMF/water as solventD-HARD0 (0 °C)"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"iron-lignin particles","quote":"Elemental particle composition from EDS analysis."}]}
+]}

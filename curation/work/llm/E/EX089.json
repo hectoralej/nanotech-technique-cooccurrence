@@ -1,0 +1,388 @@
+{
+  "batch": "EX089",
+  "articles": [
+    {
+      "pmcid": "PMC9064458",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 8",
+          "variant": "SEM",
+          "sample": "AgNPs synthesized using neem and NOT extracts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of AgNPs using NE pH 5"
+        },
+        {
+          "fig": "Fig. 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs synthesized with neem and NOT extracts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AgNPs synthesized with neem at various pH"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs using neem extract",
+          "quote": "UV-vis of AgNPs using NE at (pH 5, pH 7, pH 9)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs using neem extract",
+          "quote": "XRD results of AgNPs using NE (pH 5, 7, 9)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 9",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs using neem and NOT",
+          "quote": "FTIR spectra of AgNPs using (A) neem and (B) NOT."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12987254",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CNP powder",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "image of CNP powder and (f) TEM image of CNP."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "CTS, CNP, Starch, Sample A and Sample B",
+          "quote": "FTIR spectra of CTS, CNP, Starch, Sample A and Sample B."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "CTS, CNP and Starch",
+          "quote": "XRD of (a) CTS, CNP and Starch"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7317308",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The TEM image analysis of the AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "β-CD-AgNPs",
+          "size_nm": 25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "The TEM image (Figure 2) shows the uniform dispersed β-CD-AgNPs in aqueous solution with an average diameter of 25 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "The FT-IR spectra of the AgNPs (a) and β-cyclodextrin."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "The XRD pattern of AgNPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs in the absence and presence of zidovudine",
+          "quote": "UV-Vis spectra of AgNPs in the absence and presence of zidovudine."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13204844",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC7760716",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "γ-Fe2O3 powder",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of the γ-Fe2O3 powder after synthesis"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "γ-Fe2O3_CMCNa NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM (A) and SAED (B) images of"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "γ-Fe2O3 NPs",
+          "quote": "X-ray diffraction analysis of the synthesized γ-Fe2O3 NPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "γ-Fe2O3_DOX suspension",
+          "quote": "The absorption spectrum of DOX solution"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "γ-Fe2O3 samples",
+          "quote": "FTIR spectra for DOX, γ-Fe2O3_DOX, γ-Fe2O3_CMCNa_DOX, γ-Fe2O3_CMCNa and γ-Fe2O3 samples."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13179173",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of the CNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "ChNPs and CNPs",
+          "quote": "UV–visible absorption spectrum of the pure clove, ChNPs and CNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "ChNPs",
+          "quote": "FTIR spectrum of the ChNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10304410",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CA-modified iron oxide nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of CA-modified iron oxide nanoparticles at different magnifications (scalebars are 50 nm (a) and 10 nm (b))."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "BIONs, CA-SPIONs, and DOX-CA-SPIONs",
+          "quote": "Experimental XRD patterns of BIONs, CA-SPIONs, and DOX-CA-SPIONs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "CA-SPIONs and DOX-CA-SPIONs",
+          "quote": "FTIR spectra of BIONs, CA-SPIONs, DOX-CA-SPIONs, magnetite, and citric acid."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "CA-SPIONs and DOX-CA-SPIONs",
+          "quote": "UV-VIS absorption spectra of colloidal solutions of CA, S0 (BIONs), S1 (CA-SPIONs)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13261424",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9935694",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "SEM",
+          "sample": "SOR-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of as-prepared SOR-AgNPs in different magnifications."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SOR-AgNPs",
+          "size_nm": 181.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The diameter of SOR-AgNPs is 181.5 nm, according to the size distribution histogram of DLS"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "SOR-AgNPs",
+          "quote": "FT-IR spectrum indicating important stretching frequencies in SOR-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "SOR-AgNPs",
+          "quote": "XRD pattern of as-prepared SOR-AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "SOR-AgNPs",
+          "quote": "Energy dispersive X-ray spectrum of as-prepared SOR-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13294402",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "nHA with and without PAAS",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images, elemental distribution and size distribution."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHA",
+          "quote": "XRD patterns."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHA",
+          "quote": "FTIR spectra."
+        }
+      ]
+    }
+  ]
+}

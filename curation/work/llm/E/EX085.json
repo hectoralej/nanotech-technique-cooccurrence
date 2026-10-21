@@ -1,0 +1,482 @@
+{
+  "batch": "EX085",
+  "articles": [
+    {
+      "pmcid": "PMC13295056",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9633124",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "SEM",
+          "sample": "free and UEERO-loaded CsNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM micrographs of a Free CsNPs3, b Free CsNPs5"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CsNPs3",
+          "size_nm": 150.8,
+          "pdi": null,
+          "zeta_mV": 20.47,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the average hydrodynamic size of CsNPs3 and CsNPs5 are about 150.8 and 151.3 nm"
+        },
+        {
+          "sample": "CsNPs5",
+          "size_nm": 151.3,
+          "pdi": null,
+          "zeta_mV": 38.83,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the average hydrodynamic size of CsNPs3 and CsNPs5 are about 150.8 and 151.3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "CsNPs",
+          "quote": "XRD patterns a"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "CsNPs",
+          "quote": "FTIR spectra b."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9267502",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscope (SEM) image of silver nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "UV-Vis absorption spectrum of silver nanoparticles."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "X-ray diffraction pattern of silver nanoparticles synthesized using Kepok banana peel extract."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles coated with chitosan",
+          "quote": "FTIR spectra of silver nanoparticles (black), chitosan (red), and silver nanoparticles coated with chitosan (AgNP-chitosan) (blue)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "EDX spectra of silver nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6651109",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "MTX-loaded PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscope (SEM) image of MTX-loaded PLGA NPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "blank and MTX-loaded PLGA NPs",
+          "quote": "Fourier-transform infrared (FTIR) spectra of methotrexate"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "blank and MTX-loaded PLGA NPs",
+          "quote": "X-ray diffraction (XRD) patterns of MTX"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9675886",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "iron oxide nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Imaging using Field-Emission Scanning Electron Microscopy (FESEM) at the scale of 100 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "iron oxide nanoparticles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 1.55,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the particles have colloidal stability with a zeta potential of 1.55 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "iron oxide suspension",
+          "quote": "X-ray diffraction (XRD) pattern for the suspension containing iron oxide"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "iron oxide nanoparticles",
+          "quote": "Fourier-transform infrared spectroscopy (FTIR)"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig. 3",
+          "applies_to": "iron oxide nanoparticles",
+          "sample": "iron oxide nanoparticles",
+          "quote": "Raman spectroscopy"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6527225",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "mPEG-PCL and astaxanthin-loaded micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Insets represent TEM images of corresponding micelles. Scale bar denotes 200 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "mPEG-PCL polymeric micelles",
+          "size_nm": 87.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average size of mPEG-PCL polymeric micelles was 87.1 ± 9.1 nm"
+        },
+        {
+          "sample": "astaxanthin-encapsulated micelles",
+          "size_nm": 112.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the average size of astaxanthin-encapsulated mPEG-PCL polymeric micelles was 112.3 ± 16.6 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig 4",
+          "applies_to": "nanoparticle",
+          "sample": "astaxanthin-encapsulated micelles",
+          "quote": "FT-IR spectra of astaxanthin, mPEG-PCL polymeric micelles, and astaxanthin-encapsulated mPEG-PCL polymeric micelles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9571849",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "R. apiculata AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of R. apiculata AgNPs show an uneven shape and a diameter of 35–100 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "R. apiculata AgNPs",
+          "size_nm": 99,
+          "pdi": null,
+          "zeta_mV": -6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "AgNPs with an average diameter of 99 nm, with a zeta potential of −6 mV, were found by the DLS analysis"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "Silver nanoparticles were confirmed by UV-VIS spectral spectroscopy of colloidal solution."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "FTIR analyses of AgNPs synthesized from aqueous leaf extract of R. apiculata"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "R. apiculata AgNPs",
+          "quote": "XRD analysis of R. apiculata AgNPs confirming its crystalline nature."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6770361",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "POL-PLGA-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microphotograph of POL-PLGA-NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA-NPs",
+          "size_nm": 119.6,
+          "pdi": 1.412,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "average size of biosynthesized PLGA-NPs was 119.6 nm (PDI index: 1.412)"
+        },
+        {
+          "sample": "POL-PLGA-NPs",
+          "size_nm": 187.3,
+          "pdi": 0.256,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "POL-PLGA-NPs was 187.3 nm (PDI index: 0.256)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "POL-PLGA-NPs",
+          "quote": "FTIR spectrum of polydatin, PLGA and POL-PLGA-NPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "POL-PLGA-NPs",
+          "quote": "XRD pattern of polydatin, PLGA, and POL-PLGA-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8578548",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ds-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Ds-AgNPs at magnification"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ds-AgNPs",
+          "size_nm": 21.9,
+          "pdi": null,
+          "zeta_mV": -32.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the size distribution of biosynthesized Ds-AgNPs was between 15 and 40 nm with an average size of 21.9 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ds-AgNPs",
+          "quote": "UV–VIS absorption spectra of Drosera spatulata plant extract"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ds-AgNPs",
+          "quote": "FTIR spectrum of the biosynthesized Ds-AgNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Ds-AgNPs",
+          "quote": "XRD spectral data of biosynthesized Ds-AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Ds-AgNPs",
+          "quote": "EDX analysis of fabricated Ds-AgNPs by plant extract of Drosera spatulata."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6837188",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2.",
+          "variant": "SEM",
+          "sample": "PLGA NP and AST-PLGA NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopic (SEM) images"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AST-PLGA NP",
+          "size_nm": 154.4,
+          "pdi": 0.16,
+          "zeta_mV": -22.07,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The mean particle size of optimized AST-PLGA NP was 154.4 ± 0.35 nm, and the PDI was 0.16 ± 0.032"
+        },
+        {
+          "sample": "PLGA NP",
+          "size_nm": 147.5,
+          "pdi": 0.256,
+          "zeta_mV": -25.93,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the PLGA NP without astaxanthin using the same method was 147.5 ± 1.48 nm and 0.256 ± 0.012"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3.",
+          "applies_to": "nanoparticle",
+          "sample": "AST-PLGA NP",
+          "quote": "The FTIR spectrum of astaxanthin, PLGA NP, AST-PLGA NP."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3.",
+          "applies_to": "nanoparticle",
+          "sample": "AST-PLGA NP",
+          "quote": "X-ray diffraction patterns of astaxanthin, PLGA NP, AST-PLGA NP."
+        }
+      ]
+    }
+  ]
+}

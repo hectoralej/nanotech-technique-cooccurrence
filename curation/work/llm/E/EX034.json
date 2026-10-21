@@ -1,0 +1,485 @@
+{
+  "batch": "EX034",
+  "articles": [
+    {
+      "pmcid": "PMC11201106",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "PDLLA/PLGA fibers sonocoated with ZnO NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images showing the uncoated PDLLA/PLGA fibers (top, control) and the fibers sonocoated with ZnO NP group A = 25 nm"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "PDLLA/PLGA fibers sonocoated with ZnO NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image and EDX spectra of PDLLA/PLGA fibers sonocoated with ZnO NPs (group A 1)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "ZnO-coated PDLLA/PLGA fibers",
+          "quote": "SEM image and EDX spectra of PDLLA/PLGA fibers sonocoated with ZnO NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11240457",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "SEM",
+          "sample": "Ag NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs showing their morphology"
+        },
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "rat liver sections",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Micrographs of representative rat liver sections from the different experimental groups"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag NPs",
+          "size_nm": 35,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "SEM showed that AG NPs had a sphere-like morphology with an average particle size of 35 ± 15 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs",
+          "quote": "XRD showing the crystalline structure"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs",
+          "quote": "UV-vis spectroscopy confirming the Ag NP formation"
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs",
+          "quote": "SEM-EDX analysis confirmed the elemental composition"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9855840",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "MWCNTs-CSNPs-SPE",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and EDX spectra for MWCNTs (A,B), MWCNTs-CSNPs (C,D)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CSNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -2.5,
+          "medium": "water",
+          "source": "text",
+          "quote": "A slightly negative zeta potential value of 2–3 mV was measured for dispersions."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "MWCNTs-CSNPs",
+          "quote": "SEM images and EDX spectra for MWCNTs (A,B), MWCNTs-CSNPs (C,D)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10815966",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag-NPs and polymer-coated Ag-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of Ag-NPs (a) and Ag-NPs coated with PLL (b), CH (c), ε-PLL (d), and DA (e)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag-NPs",
+          "size_nm": 12.4,
+          "pdi": null,
+          "zeta_mV": -26.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Ag-NPs presented an average diameter size of 12.4 ± 2.9 nm"
+        },
+        {
+          "sample": "Ag-NPs + DA",
+          "size_nm": 11.5,
+          "pdi": null,
+          "zeta_mV": -36.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "11.5 ± 2.6 nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NPs and Ag-NPs + APs",
+          "quote": "UV-vis spectra of Ag-NPs peak and Ag-NPs + APs (CH, DA, PLL, and ε-PLL)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NP and Ag-NP-polymer complexes",
+          "quote": "FTIR spectra of Ag-NP (A), CH (B), Ag-NP + CH (C), DA (D), Ag-NP + DA (E)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11280413",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS-NG and CNN-CS-NG",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Ultrastructural characterization obtained by TEM of both CS-NG and CNN-CS-NG. Left: 50,000× magnification. Right: 85,000×. Scale bar: 100 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS-NG",
+          "size_nm": 273,
+          "pdi": null,
+          "zeta_mV": 43,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "CS-NG was used as a control, and CNN-CS-NG exhibited a mean size centered in 273 ± 3.5 nm and 435 ± 53.8 nm, respectively."
+        },
+        {
+          "sample": "CNN-CS-NG",
+          "size_nm": 435,
+          "pdi": null,
+          "zeta_mV": 5.9,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "CNN-CS-NG exhibited a mean size centered in 273 ± 3.5 nm and 435 ± 53.8 nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CS-NG and CNN-CS-NG",
+          "quote": "FTIR spectra for free CS molecule (yellow line), CS-NG (orange line), and CNN-CS-NG (blue line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11075808",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs from Amaranthus species",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image and EDX presenting morphological features of NPs synthesized from five Amaranthus species"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "B-AgNPs",
+          "size_nm": 64.24,
+          "pdi": 0.19,
+          "zeta_mV": -33,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "1 | B-AgNPs | 64.24 | −33 | 0.19"
+        },
+        {
+          "sample": "G-AgNPs",
+          "size_nm": 185.1,
+          "pdi": 0.23,
+          "zeta_mV": -23.7,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "2 | G-AgNPs | 185.1 | −23.7 | 0.23"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "the UV/vis spectrum for: (1) B-AgNPs, (2) G-AgNPs, (3) D-AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "fabricated AgNPs",
+          "quote": "FTIR absorbance peaks of aqueous extracts the Amaranthus species (A) and the corresponding fabricated AgNPs (B)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs from Amaranthus species",
+          "quote": "EDX presenting morphological features of NPs synthesized from five Amaranthus species"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11241873",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "N/Se@TCsNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "scanning electron microscopy imaging of fabricated nanostructures, A N@TCsNPs, B Se@TCsNPs, C N/Se@TCsNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "N/Se@TCsNPs I",
+          "size_nm": 136.26,
+          "pdi": 0.27,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "N/Se@TCsNPsІ | 10 | 20 | 2.5 | 200 | 7 | 136.26 ± 43.17 | 0.27 ± 0.07"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "N/Se@TCsNPs",
+          "quote": "Fourier Transform Infrared (FTIR) spectra of Cs, TCs, N@TCsNPs, and N/Se@TCsNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11372455",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "HRTEM",
+          "sample": "PA@AuNPs·FTD",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "HRTEM images of PA@AuNPs·FTD in a different scale (a → f; 2, 5, 10, 20, 50, and 100 nm)"
+        },
+        {
+          "fig": "Fig. 6",
+          "variant": "SEM",
+          "sample": "PA@AuNPs·FTD",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "FESEM images of PA@AuNPs·FTD (a) 100 nm, (b) 100 nm, (c) 200 nm scale"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PA@AuNPs·FTD",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The HRTEM images of PA@AuNPs·FTD show various morphologies, including rod, triangle, hexagonal, and pentagonal, with an average size of 20–50 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "PA@AuNPs·FTD",
+          "quote": "XRD pattern of PA@AuNPs·FTD (inset: XRD of PA@AuNPs)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "PA@AuNPs·FTD",
+          "quote": "FT-IR spectrum of PA@AuNPs (a), FTD (b), and PA@AuNPs·FTD (c)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11300498",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CSNPs and AMK–GABA–CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images of A chitosan nanoparticles (CSNPs) and B amikacin–GABA chitosan nanoparticles (AMK–GABA–CSNPs)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AMK–GABA–CSNPs",
+          "size_nm": 77.5,
+          "pdi": null,
+          "zeta_mV": 38.94,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The particle size of AMK–GABA–CSNPs ranged from 77.5 ± 16.5 nm and the ZP was + 38.94 ± 2.65 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs and AMK–GABA–CSNPs",
+          "quote": "FTIR spectra of A chitosan, B amikacin, C GABA, D chitosan nanoparticles (CSNPs) and E AMK–GABA–CSNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9856146",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "silver nanoparticles and silver nanoparticle-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM image of (a) silver nanoparticles and (b) silver nanoparticle-loaded liposomes."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "silver nanoparticle-loaded liposomes",
+          "size_nm": 172.1,
+          "pdi": 0.381,
+          "zeta_mV": -21.5,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the particle size and zeta potential of the silver nanoparticle-loaded liposomes were found to be 172.1 nm and −21.5 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "UV–visible, and (b) XRD analysis of silver nanoparticles."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticle-loaded liposomes",
+          "quote": "FTIR spectrum of blank liposomes (lecithin and cholesterol), and (b) FTIR spectrum of silver nanoparticle-loaded liposomes."
+        }
+      ]
+    }
+  ]
+}

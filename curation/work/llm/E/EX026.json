@@ -1,0 +1,550 @@
+{
+  "batch": "EX026",
+  "articles": [
+    {
+      "pmcid": "PMC6418617",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9824025",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS-AgNps",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (b)"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "PVA/OxCS and composite PVA/OxCS-Ag films",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM microphotographs of surface (b) and cross-section (c)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS-AgNps, before dialysis",
+          "size_nm": 281.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "average size was 281.6 ± 12.06 nm"
+        },
+        {
+          "sample": "CS-AgNps, after dialysis",
+          "size_nm": 186.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "after purifying by dialysis (186.2 ± 9.75 nm)."
+        },
+        {
+          "sample": "CS-AgNps",
+          "size_nm": null,
+          "pdi": 0.218,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "The polydispersity index (PDI) of 0.218"
+        },
+        {
+          "sample": "CS-AgNps",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 26.6,
+          "medium": "water",
+          "source": "text",
+          "quote": "Zeta potential analysis (ζ = 26.6 mV)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CS-capped AgNps",
+          "quote": "UV–Vis spectra of synthesized CS-capped AgNps"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CS-AgNps",
+          "quote": "FT-IR spectra (c)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CS-AgNps",
+          "quote": "XRD spectrum (d) of CS-AgNps"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7606283",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 11",
+          "variant": "SEM",
+          "sample": "CaP/PEI/pEGFP/SiO2 and CaP/PEI-Cy5/SiO2 nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative scanning electron microscopy (left) and dynamic light scattering analysis of CaP/PEI/pEGFP/SiO2 nanoparticles"
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "HAP nanocrystals",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative scanning electron microscopy image (left) and Rietveld refinement (right) of the HAP nanocrystals (nHAP)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "HAP nanocrystals",
+          "quote": "Representative scanning electron microscopy image (left) and Rietveld refinement (right) of the HAP nanocrystals (nHAP)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10164746",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "CLE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph of CLE-AgNPs (15 kV, 30 kX)."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "synthesized CLE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A typical TEM micrographic image of synthesized CLE-AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CLE-AgNPs",
+          "size_nm": 27.75,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The Gaussian fitting of the histogram yielded the mean particle size of CLE-AgNPs to be 27.75±3.13 nm (mean ± sd, N = 90)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized from CLE flower extract",
+          "quote": "UV-Visible spectra of AgNPs synthesized from CLE flower extract"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized CLE-AgNPs",
+          "quote": "FTIR spectrum of synthesized CLE-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized CLE-AgNPs",
+          "quote": "X-ray diffraction patterns of synthesized CLE-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12799727",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "TC NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron micrograph of TC NPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "chitosan NPs",
+          "size_nm": 190,
+          "pdi": null,
+          "zeta_mV": 51.9,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "average particle sizes of chitosan nanoparticles and thymol-loaded chitosan nanoparticles were approximately 190 and 220 nm,"
+        },
+        {
+          "sample": "TC NPs",
+          "size_nm": 220,
+          "pdi": null,
+          "zeta_mV": 42.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "average particle sizes of chitosan nanoparticles and thymol-loaded chitosan nanoparticles were approximately 190 and 220 nm,"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "thymol chitosan NPs and TC NPs",
+          "quote": "UV-Vis spectroscopy of thymol chitosan NPs and TC NPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "TC NPs",
+          "quote": "XRD Pattern of TC NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12130309",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "green synthesized ED@AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of green synthesized ED@AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ED@AuNPs",
+          "size_nm": 98.27,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The measurement of an average particle size of 98.27 ± 2.8 nm"
+        },
+        {
+          "sample": "ED@AuNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -28.89,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The Zeta potential of the gold nanoparticles is recorded as − 28.89 ± 0.78 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "green synthesized ED@AuNPs",
+          "quote": "Xrd analysis of green synthesized ED@AuNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "green synthesized ED@AuNPs",
+          "quote": "FTIR spectrum of E. diffusum D extract and green synthesized ED@AuNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "green synthesize ED@AuNPs",
+          "quote": "EDX spectra of green synthesize ED@AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13327131",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 2",
+          "variant": "SEM",
+          "sample": "ginger-loaded chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ChNPs",
+          "size_nm": 151.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "diameter was 151.7 nm"
+        },
+        {
+          "sample": "ChNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 31.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The biosynthesized ChNPs were found to have a zeta potential of +31.4 mV (Fig 1b)"
+        },
+        {
+          "medium": "not_declared",
+          "size_nm": null,
+          "zeta_mV": 31.4,
+          "quote": "The biosynthesized ChNPs were found to have a zeta potential of +31.4 mV (Fig 1b)",
+          "source": "text",
+          "pdi": null,
+          "sample": "ChNPs"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 2",
+          "applies_to": "nanoparticle",
+          "sample": "ginger-loaded chitosan nanoparticles",
+          "quote": "UV–vis spectrophotometer analysis"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig 2",
+          "applies_to": "nanoparticle",
+          "sample": "ginger-loaded chitosan nanoparticles",
+          "quote": "FTIR analysis"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig 2",
+          "applies_to": "nanoparticle",
+          "sample": "ginger-loaded chitosan nanoparticles",
+          "quote": "XRD analysis."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11872767",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "Nc-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM image of Nc-AgNPs synthesized using Nepeta cataria plant extract"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Nc-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of Nc-AgNPs synthesized using Nepeta cataria plant extract"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "Nc-AgNPs synthesized using Nepeta cataria plant extract",
+          "quote": "UV-vis spectrum of Nc-AgNPs synthesized using Nepeta cataria plant extract"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "Nc-AgNPs synthesized using Nepeta cataria plant extract",
+          "quote": "XRD pattern of Nc-AgNPs synthesized using Nepeta cataria plant extract"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles synthesized using Nepeta cataria plant extract",
+          "quote": "EDX analysis of silver nanoparticles synthesized using Nepeta cataria plant extract"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13309560",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_dried_unstained",
+          "sample": "SB/Gel/PVP nanogels",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph showing the morphology and particle size of SB/Gel/PVP nanogels"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SB/Gel/PVP nanogel",
+          "size_nm": 293,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The nanogels exhibited an average hydrodynamic diameter of 293 nm, reflecting a uniform and homogeneous colloidal morphology."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "SB/Gel/PVP nanogel",
+          "quote": "FTIR spectra of (a) PVP, (b) Gel, (c) Gel/PVP nanogel"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "SB/Gel/PVP nanogel",
+          "quote": "XRD patterns of (a) PVP, (b) Gel, (c) Gel/PVP nanogel"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12251576",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au1, Au2 and AuNRs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs with HRTEM images as insets"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au1",
+          "size_nm": 17.0,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "dispersion solutions Au1 and Au2 contain spherical nanoparticles with average diameters of around 17.0 ± 2.6 nm and 30.2 ± 2.5 nm, respectively."
+        },
+        {
+          "sample": "Au2",
+          "size_nm": 30.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "dispersion solutions Au1 and Au2 contain spherical nanoparticles with average diameters of around 17.0 ± 2.6 nm and 30.2 ± 2.5 nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "Au-PNiPAAm/PVA hydrogel nanocomposites",
+          "quote": "UV–Vis absorption spectra of Au colloidal dispersions (a), AuNSs-PNiPAAm/PVA (b) and AuNRs-PNiPAAm/PVA (c) hydrogel nanocomposites."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 9",
+          "applies_to": "mixture",
+          "sample": "bi-layered nano Au-PNiPAAm hydrogel nanocomposites",
+          "quote": "X-ray diffraction patterns (a) and FTIR spectra of PNiPAAm and PVA layer (b) and bi-layered nano Au-PNiPAAm hydrogel nanocomposites (c)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "mixture",
+          "sample": "bi-layered nano Au-PNiPAAm hydrogel nanocomposites",
+          "quote": "X-ray diffraction patterns (a) and FTIR spectra of PNiPAAm and PVA layer (b) and bi-layered nano Au-PNiPAAm hydrogel nanocomposites (c)."
+        }
+      ]
+    }
+  ]
+}

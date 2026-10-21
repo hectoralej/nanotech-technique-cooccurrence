@@ -1,0 +1,533 @@
+{
+  "batch": "EX036",
+  "articles": [
+    {
+      "pmcid": "PMC11769003",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "blank LTPU NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) DLS and (b) FE-SEM image of blank LTPU NPs."
+        },
+        {
+          "fig": "Figure 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank LTPU NPs and CLNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) blank LTPU NPs and (b) CLNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "component",
+          "sample": "HDI, DLTHE, PLA-PEG-PLA, and LTPU",
+          "quote": "FT-IR spectra of HDI, DLTHE, PLA-PEG-PLA, and LTPU."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12897783",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "biosynthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The examination of biosynthesized AgNPs, assessed via SEM scan at 500 nm, showing AgNP sizes from 74.96 to 100.40 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs (FCG-8)",
+          "size_nm": 91.34,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the histogram shows that most of the synthesized AgNPs lie within the nanoscale range, with an average particle size of 91.34 ± 2.26 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs from FCG-8",
+          "quote": "Characterization of AgNPs from FCG-8, using XRD."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "Characterization of the biosynthesized AgNPs using EDX for FCG-8."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11013818",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "PLGA nanoparticles containing essential oils and unloaded PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of PLGA nanoparticles containing essential oils from T. capitatus (A–C) and T. vulgaris (D–F), as well as unloaded PLGA nanoparticles (G–I)."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "lignin and PLGA NPs coated on wood",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of beech wood samples coated with lignin nanoparticles loaded with essential oils"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LNP alone",
+          "size_nm": 1325,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "LNP alone | 16.7 | - | - | - | 1325 ± 680 | n. d. | n. d."
+        },
+        {
+          "sample": "EOL-TC",
+          "size_nm": 1519,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "EOL-TC | 14.6 | 5.1 | 51 | 35 | 1519 ± 814 | 1912 ± 870 | 1273 ± 608"
+        },
+        {
+          "sample": "PLGA NPs alone",
+          "size_nm": 426,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "PLGA NPs alone | 11.4 | - | - | - | 426 ± 109 | n. d. | n. d."
+        },
+        {
+          "sample": "EOP-TC",
+          "size_nm": 370,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "EOP-TC | 15.4 | 3.3 | 32 | 22 | 370 ± 125 | 594 ± 207 | 568 ± 229"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "mixture",
+          "sample": "coated wood samples",
+          "quote": "FTIR mapping images of native wood (A,B,K); a wood sample spray-coated with EOL-TC"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12920267",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "SEM",
+          "sample": "S. melongena mediated AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological (SEM) images of S. melongena mediated AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "S. melongena AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the high density of silver nanoparticles in the diameter range of 30–52 nm along the particle size distribution histograms using Image J software."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "S. melongena mediated AgNPs",
+          "quote": "XRD diffractogram of synthesized S. melongena mediated AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "component",
+          "sample": "S. melongena extract",
+          "quote": "FTIR spectra showing functional groups in S. melongena aqueous extract."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12026571",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "hydrogel (I)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of hydrogel (I)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "hydrogel (I), 25 °C",
+          "size_nm": 111,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "At an ambient temperature of 25 °C (lower than LCST), the largest aggregated hydrogel (I) had an average size of 111 nm"
+        },
+        {
+          "sample": "hydrogel (I), 39 °C",
+          "size_nm": 307,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "at around its LCST (39 °C) and higher than LCST (55 °C), aggregates with sizes of approximately 307 and 858 nm were found"
+        },
+        {
+          "sample": "hydrogel (I), 55 °C",
+          "size_nm": 858,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "aggregates with sizes of approximately 307 and 858 nm were found"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "hydrogel and hydrogel-DOX",
+          "quote": "FT-IR spectrum of hydrogel (I) and hydrogel loaded DOX (II)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13361512",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "commercial colloidal gold supplement nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative BF-TEM micrographs, SAED pattern, and size distribution of the gold nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "gold nanoparticles in 55 mg/L supplement",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Transmission electron microscopy revealed a narrow particle size distribution (4–11 nm)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "colloidal gold dietary supplements",
+          "quote": "UV-VIS absorption spectra of colloidal gold dietary supplements and standard solutions."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles",
+          "quote": "EDX spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11800033",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Cs–U NPs, CsC–U NPs, Cs–U/HA NPs, CsC–U/HA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of Cs–U NPs (A), CsC–U NPs (B), Cs–U/HA NPs (C), and CsC–U/HA NPs (D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Cs–U NPs, ×Cs/Ulvan 0.65",
+          "size_nm": 296,
+          "pdi": 0.223,
+          "zeta_mV": 40.7,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "0.65 | sus | 296 ± 13 | 22.3 ± 1.3 | +40.7 ± 0.1"
+        },
+        {
+          "sample": "CsC–U NPs, ×CsC/Ulvan 1.05",
+          "size_nm": 282,
+          "pdi": 0.273,
+          "zeta_mV": 48.5,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "1.05 | Sus | 282 ± 3 | 27.3 ± 2.1 | +48.5 ± 2.0"
+        },
+        {
+          "sample": "Cs–U/HA NPs, ×0.35",
+          "size_nm": 274,
+          "pdi": 0.188,
+          "zeta_mV": -28.8,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "0.35 | Sus | 274 ± 3 | 18.8 ± 1.6 | –28.8 ± 0.2"
+        },
+        {
+          "sample": "CsC–U/HA NPs, ×0.35",
+          "size_nm": 181,
+          "pdi": 0.194,
+          "zeta_mV": -30.1,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "0.35 | Sus | 181 ± 4 | 19.4 ± 0.2 | –30.1 ± 0.6"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Cs–U and HA-coated polyelectrolyte complexes",
+          "quote": "ATR-FTIR spectra of Cs–U NPs, CsC–U NPs, Cs–U/HA NPs, and CsC–U/HA NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13415136",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NDs, DOX-NDs, and AuNPs-DOX-NDs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative TEM images of NDs, DOX-NDs, and AuNPs-DOX-NDs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NDs",
+          "size_nm": 211.57,
+          "pdi": null,
+          "zeta_mV": -34.77,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the average particle sizes of blank NDs and PEI-AuNPs were 211.57 ± 3.84 nm and 101.57 ± 3.61 nm"
+        },
+        {
+          "sample": "DOX-NDs",
+          "size_nm": 251.77,
+          "pdi": null,
+          "zeta_mV": -31.67,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "After DOX loading, the particle size increased to 251.77 ± 13.11 nm."
+        },
+        {
+          "sample": "AuNPs-DOX-NDs",
+          "size_nm": 368.1,
+          "pdi": null,
+          "zeta_mV": 36.37,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the diameter of AuNPs-DOX-NDs increased to 368.10 ± 1.42 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "DOX and DOX-NDs",
+          "quote": "UV–Vis absorption spectra of DOX and DOX-NDs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12092728",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "O. aegyptiaca-chitosan nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of O. aegyptiaca-chitosan nanocomposite."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "O. aegyptiaca-chitosan nanocomposite",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 5.51,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the zeta potential analysis shown in (Fig. 3) revealed a positive value of + 5.51 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "O. aegyptiaca-chitosan nanocomposite",
+          "quote": "XRD pattern of O. aegyptiaca-chitosan nanocomposite."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "O. aegyptiaca-chitosan nanocomposite",
+          "quote": "UV/Vis spectrum of concentrations of O. aegyptiaca-chitosan nanocomposite."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13209862",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "RES-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of the synthesized RES-AgNPs, and (b) particle size distribution histogram."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "RES-AgNPs",
+          "size_nm": 46.07,
+          "pdi": null,
+          "zeta_mV": -38.1,
+          "medium": "water",
+          "source": "text",
+          "quote": "the particle size distribution of RES-AgNPs was 46.07 ± 4.16 nm (n = 3)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "RES-AgNPs",
+          "quote": "UV–visible spectra of AgNO3 solution, RES-extract ethanolic solution, and the synthesized RES-AgNPs after 2 h"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "RES-AgNPs",
+          "quote": "XRD pattern of synthesized RES-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "RES-AgNPs",
+          "quote": "FT-IR spectra of (a) RES extract, (b) AgNO3, and (c) synthesized RES-AgNPs."
+        }
+      ]
+    }
+  ]
+}

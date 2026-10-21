@@ -1,0 +1,465 @@
+{
+  "batch": "EX030",
+  "articles": [
+    {
+      "pmcid": "PMC8540984",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "nanohydrogel gel1 at 25 °C, 37 °C and with DTT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The transmission electron microscope image of nanohydrogel gel1 at 25 °C (a), 37 °C (b), 25 °C 10 mM DTT(c)"
+        },
+        {
+          "fig": "Figure 11",
+          "variant": "SEM",
+          "sample": "fully swollen gel2 hydrogel",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "the scanning electron microscope image of the fully swollen hydrogel at 25 °C (c)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "nanogels",
+          "quote": "UV spectra of nanogels in the initial state and the reduced state."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10847091",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "fly ash-derived SiNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Low and (b) High magnification TEM image of fly ash-derived SiNPs."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "fly ash derived SiNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Low, (b) High magnification FESEM images"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "amine-functionalized SiNPs",
+          "size_nm": 4.0,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average diameter of SiNPs is calculated from the particle size distribution plot (inset, Fig. 2b) and found to be 4.0 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "fly ash derived SiNPs",
+          "quote": "EDS spectrum with the elemental percentage of fly ash derived SiNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "SiNPs",
+          "quote": "X-ray diffraction pattern of SiNPs"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "SiNPs",
+          "quote": "UV–visible absorption"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7820611",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CUR-loaded LNDNG",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Copolymer I, 25 °C",
+          "size_nm": 202.03,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Copolymer I ( LCST ≈ 32 °C) | 202.03"
+        },
+        {
+          "sample": "Copolymer II, 25 °C",
+          "size_nm": 159.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Copolymer II (LCST ≈ 34 °C) | 159.2"
+        },
+        {
+          "sample": "Copolymer III, 25 °C",
+          "size_nm": 184.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Copolymer III (LCST ≈ 37 °C) | 184.1"
+        },
+        {
+          "sample": "Copolymer IV, 25 °C",
+          "size_nm": 152.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Copolymer IV (LCST ≈ 42 °C) | 152.4"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "lignin-based nanogel systems",
+          "quote": "FT-IR spectra of various nanogel systems."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12929614",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "green-synthesized silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope analysis (TEM) of silver nanoparticles (AgNPs) with particle size distribution from approximately 5 nm to 40 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 19.68,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "an average diameter of 19.68 ± 6.84 nm, and a surface area of 338 nm2, as shown in Fig. 5."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles (AgNPs)",
+          "quote": "UV-Vis absorption spectrum analysis of silver nanoparticles (AgNPs) using the Origin software."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles (AgNPs)",
+          "quote": "X-ray diffraction (XRD) analysis of silver nanoparticles (AgNPs) compared with COD using Qualx software."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9416187",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized β–sito–Alg/Ch/NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscopic image of optimized β–sito–Alg/Ch/NPs (C)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "β–sito–Alg/Ch/NPs",
+          "quote": "FT-IR spectra of β–sitosterol (A); Chitosan (B); Sodium alginate (C); and β–sito–Alg/Ch/NPs (D)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10534332",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Fe2O3-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of Fe2O3-NPs at magnification up to 10,000x."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic Fe2O3-NPs",
+          "quote": "(a) UV–visible graph"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic Fe2O3-NPs",
+          "quote": "(b) XRD graph"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic Fe2O3-NPs",
+          "quote": "(c) EDX graph"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9318109",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "extract-loaded gel, pregabalin-loaded gel and combined gel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Shows TEM images of extract-loaded gel (a), pregabalin-loaded gel (b), and co-combination of pregabalin and extract (c)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Drug-loaded gels",
+          "size_nm": 180,
+          "pdi": 0.56,
+          "zeta_mV": -32.4,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Drug-loaded gels | 180 ± 0.208 | 0.56 ± 0.56 | −32.4 ± 0.1"
+        },
+        {
+          "sample": "Extract-loaded gels",
+          "size_nm": 200,
+          "pdi": 0.34,
+          "zeta_mV": -34.2,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Extract-loaded gels | 200 ± 0.577 | 0.34 ± 0.001 | −34.2 ± 0.17"
+        },
+        {
+          "sample": "Drug- and extract-loaded gels",
+          "size_nm": 250,
+          "pdi": 0.54,
+          "zeta_mV": -14.1,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Drug- and extract-loaded gels | 250 ± 0.573 | 0.54 ± 0.01 | −14.1 ± 0.1"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "topical gels and ingredients",
+          "quote": "FTIR spectra of (a) pure extract, (b) pure drug, (c) drug and extract loaded gel"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13532066",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 4",
+          "variant": "SEM",
+          "sample": "IONPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images of IONPs at 30,000× magnification"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "IONPs",
+          "size_nm": 111.98,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "mean = 111.98 nm; SD = ±83.70 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "IONPs",
+          "quote": "FTIR spectra of plant extract (a) and IONPs (b)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "IONPs",
+          "quote": "EDS analysis of NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12818751",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "[3]",
+          "applies_to": "nanoparticle",
+          "sample": "Pluronic–PEI conjugates PP01–PP05",
+          "quote": "ATR-FTIR spectra of native Pluronics"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13628621",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "[1]",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs-PEG, AuNPs-PEG, AuNPs-cit-l-cys and AgNPs-cit-l-cys",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "CTEM image of AgNPs-PEG. c) CTEM image AuNPs-PEG."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs-PEG",
+          "size_nm": 12,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average diameter of the AuNPs is 12 ± 2 nm"
+        },
+        {
+          "sample": "AgNPs-PEG",
+          "size_nm": 30,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "and 30 ± 8 nm for AgNPs (on 100 NPs)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "[1]",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs-PEG and AuNPs-PEG",
+          "quote": "UV–vis absorption spectra of AuNPs-PEG (blue line, λmax = 540 nm) and AgNPs-PEG (green line, λmax = 410 nm)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "[9]",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs-cit-l-cys-FITC and AuNPs-PEG-FITC",
+          "quote": "FTIR spectra of FTIC (black line), AuNPs-cit-l-cys-FITC (red line), and AuNPs-PEG-FITC (blue line)"
+        }
+      ]
+    }
+  ]
+}

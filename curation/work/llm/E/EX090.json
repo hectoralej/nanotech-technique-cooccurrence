@@ -1,0 +1,470 @@
+{
+  "batch": "EX090",
+  "articles": [
+    {
+      "pmcid": "PMC10505674",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 5",
+          "variant": "SEM",
+          "sample": "To-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM image of synthesized To-AgNPs at two different magnifications"
+        },
+        {
+          "fig": "FIGURE 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "To-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image of synthesized To-AgNPs at two different magnifications"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "To-AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -63.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the particle’s zeta potential reveals a sharp peak with a negative value (−63.3 mV)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "To-AgNPs",
+          "quote": "UV-Visible spectra of aqueous extract and biofabricated AgNPs of T. ornata."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "To-AgNPs",
+          "quote": "FT-IR spectra of T. ornata aqueous extract and To-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "To-AgNPs",
+          "quote": "XRD pattern of To-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6154345",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "Zn:HAp powder",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM image (A)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Zn:HAp nanogel",
+          "size_nm": 27,
+          "pdi": null,
+          "zeta_mV": -28.88,
+          "medium": "water",
+          "source": "text",
+          "quote": "the zeta potential value of the Zn:HAp nanogel coating solution was −28.88 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Zn:HAp powder",
+          "quote": "The XRD patterns of Zn:HAp powder obtaining by sol-gel method."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Zn:HAp powder",
+          "quote": "EDX spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8848103",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 3",
+          "variant": "SEM",
+          "sample": "silver nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images showing shape and size of prepared silver nanocomposite."
+        },
+        {
+          "fig": "FIGURE 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NPs",
+          "quote": "XRD pattern of silver nanoparticles obtained from cell filtrate of A. niger sap 2211."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NPs",
+          "quote": "FTIR spectrum showing associated functional group in Ag-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5423231",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "ketotifen fumarate PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of ketotifen fumarate (KF) nanoparticles containing F3"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F1",
+          "size_nm": 158,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "F1 and F3 with 158 and 754.6 nm, respectively"
+        },
+        {
+          "sample": "F3",
+          "size_nm": 754.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "F1 and F3 with 158 and 754.6 nm, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "blank and KF-loaded NPs",
+          "quote": "XRD thermogram of Ketotifen fumarate (Drug); PLGA (a); PVA (b); blank NPs of F3"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "KF-loaded PLGA NPs",
+          "quote": "FTIR thermograms of PVA (a); KF (b); PLGA (c)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10533512",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Cm-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM microphotograph"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Cm-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM microphotographs showing morphology of Cm-AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Cm-AgNPs",
+          "size_nm": 147,
+          "pdi": 0.27,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The DLS hydrodynamic size of the nanoparticles was 147 nm with a PDI (polydiversity index) of 0.27"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Cm-AgNPs",
+          "quote": "UV–Vis spectrum of Cm-AgNPs at 435 nm."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Cm-AgNPs",
+          "quote": "XRD pattern of Cm-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Cm-AgNPs",
+          "quote": "Peaks related to functional groups of various phytochemicals present in aqueous extracts of Cm and Cm-AgNPs are depicted in FT-IR spectrum."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Cm-AgNPs",
+          "quote": "EDS spectrum of elemental analysis of Cm-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5040994",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "DS-PLGA and CS-DS-PLGA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images (A,B) and size distribution (C,D) where, (A,C) DS-PLGA; (B,D) CS-DS-PLGA."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "DS-PLGA and CS-DS-PLGA",
+          "quote": "FTIR spectra of PLGA, CS, DS, DS-PLGA, and CS-DS-PLGA."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "DS-PLGA and CS-DS-PLGA",
+          "quote": "XRD spectra of PLGA, CS, DS, DS-PLGA, and CS-DS-PLGA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9784523",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "CS-KAC-Ag nanobiocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a) raw KF"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized in CS-KAC-Ag",
+          "quote": "UV-Vis spectrum of the AgNps synthesized by novel method."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "KAC and CS-KAC-Ag",
+          "quote": "FTIR spectra of KAC and CS-KAC-Ag."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CS-KAC-Ag",
+          "quote": "EDX spectra of CS-KAC-Ag"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6702896",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9504229",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "STEM",
+          "sample": "Au/TiO2-NT photocatalyst",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM image of TiO2 nanotubes decorated with Au nanoparticles"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "Au/TiO2-NT photocatalyst",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM image displaying crystalline nanoparticles decorating the TiO2 nanotubular support."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au nanoparticles on Au/TiO2-NT",
+          "size_nm": 3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the mean size of Au nanoparticles remains constant at around 3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Au/TiO2-NT photocatalysts",
+          "quote": "X-ray diffraction patterns of Au/TiO2-NT photocatalysts with different metal loads."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Au/TiO2-NT samples",
+          "quote": "Raman spectra of Au/TiO2-NT photocatalysts with different metal loads."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "TiO2-NT and Au/TiO2-NT photocatalysts",
+          "quote": "The UV–vis light absorption spectra of TiO2-NT and Au/TiO2-NT photocatalysts."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6703692",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 3",
+          "variant": "SEM",
+          "sample": "CO1:2 chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of CO1:2"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CO1:2",
+          "size_nm": 82,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 3",
+          "quote": "Mean diameter = 82 nm, standard deviation = 15 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig 1",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "FTIR spectra of CN, CO2:1, CO1:1, CO1:2"
+        }
+      ]
+    }
+  ]
+}

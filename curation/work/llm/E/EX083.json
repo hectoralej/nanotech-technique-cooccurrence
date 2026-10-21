@@ -1,0 +1,471 @@
+{
+  "batch": "EX083",
+  "articles": [
+    {
+      "pmcid": "PMC7285374",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "CS-TPP-BUD and CS-TPP-PVA-BUD nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of: (a) CS-TPP-BUD 10%, (b) CS-TPP-BUD 20%"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CS nanoparticles containing BUD",
+          "quote": "FTIR spectra of CS nanoparticles containing BUD in different ratios 10%, 20%, 30% w/w."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CS nanoparticles containing BUD",
+          "quote": "XRD patterns of CS, BUD and CS nanoparticles containing BUD in different concentrations of 10%, 20%, 30% w/w."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9127840",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NL, CL, CL-Lut and CL-Bc",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images NL (A), CL (B), CL-Lut (C) and CL-Bc (D)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "NL, CL, CL-Lut and CL-Bc",
+          "quote": "FTIR spectra of NL, CL, CL-Lut and CL-Bc samples"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9865996",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au@CT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of Au@CT with its corresponding size distribution histogram."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "STEM",
+          "sample": "Au@CT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "DF-STEM image"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au@CT",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "All the particles analyzed were spherical, with a mean diameter of 34.5 ± 5.6 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Au@CT",
+          "quote": "UV-Vis spectra of CT extract and Au@CT"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Au@CT",
+          "quote": "Fourier transform infrared (FTIR) spectra of commercial ulvan"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Au@CT",
+          "quote": "EDX spectrum"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "Au@CT",
+          "quote": "X-ray powder diffractogram for Au@CT."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7398683",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "drug-loaded nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images and corresponding diameter distribution of drug-loaded nanoparticles"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "gold labelled drug-loaded nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images of gold labelled, drug-loaded nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "progesterone-loaded particles",
+          "quote": "XRD patterns of PLGA (50:50), PLGA (75:25), progesterone, progesterone-loaded particle formulations"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "progesterone-loaded particles",
+          "quote": "FTIR spectra of progesterone, PLGAs with different copolymer ratios (75:25 and 50:50) and electrosprayed progesterone-loaded particles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7181877",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Aphanamixis Polystachya loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of Aphanamixis Polystachya loaded liposomes."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Aphanamixis Polystachya liposomes",
+          "quote": "FTIR analysis of (a) Blank liposomal formulation, (b) pure Aphanamixis polystachya leaf extracts"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6722760",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "BC-AgNPs and AE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of BC-AgNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "BC-AgNPs and AE-AgNPs",
+          "quote": "UV-Vis spectral analysis of BC-AgNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "AgNPs",
+          "quote": "XRD image of BC-AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "AgNPs",
+          "quote": "FT-IR image of BC-AgNPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "AgNPs",
+          "quote": "EDX image of BC-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7564778",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "nanoparticles prepared by both methods",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrographs of nanoparticles prepared by emulsification solvent evaporation"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA-chitosan-PEG formulations",
+          "quote": "FTIR spectra of the formulations prepared using solvent evaporation"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "loaded nanoparticles",
+          "quote": "X-ray diffraction spectra of the polymers and the loaded nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7037032",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": {
+        "fig": "Figure 1",
+        "variant": "TEM_prep_not_declared",
+        "sample": "thermosensitive phospholipid microcapsules",
+        "shows_nanocarrier": true,
+        "scale_bar_in_caption": null,
+        "quote": "TEM image (e), and SEM image (f) of the thermosensitive phospholipid microcapsules."
+      },
+      "descriptors": [
+        {
+          "sample": "thermosensitive phospholipid microcapsules",
+          "size_nm": 220,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The particle sizes of the phospholipid microcapsules were 220 ± 4.6 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "thermo-responsive phospholipid microcapsules",
+          "quote": "FTIR spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9415342",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "AgNPs and conjugates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images (left panels; scale bar 3 µm) and particle size measurements (right panels; scale bar 500 nm)."
+        },
+        {
+          "fig": "Figure 11",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs and their conjugates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AgNPs and their conjugates"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 57.9,
+          "pdi": 0.334,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the mean particle size of the synthesized AgNPs was 57.9 nm, with a polydispersity index (PDI) of 0.334"
+        },
+        {
+          "sample": "AgNPs-PEG",
+          "size_nm": 72.63,
+          "pdi": 0.277,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the DLS reading was 72.63 nm, with a PDI value of 0.277"
+        },
+        {
+          "sample": "AgNPs-PEG-CIP",
+          "size_nm": 97.31,
+          "pdi": 0.317,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the DLS of the AgNPs-PEG-CIP was 97.31 nm with a PDI value of 0.317"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and conjugates",
+          "quote": "UV-Visible spectrum of AgNPs, CIP, PEG, and their conjugates."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and conjugates",
+          "quote": "Fourier-transform infrared (FT-IR) spectra of AgNPs and their conjugates."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and conjugates",
+          "quote": "X-ray diffraction pattern of AgNPs and their conjugates."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and conjugates",
+          "quote": "EDX spectra for AgNPs, AgNPs-PEG, and AgNPs-PEG-CIP."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10255378",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "chitosan-PHGPB particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM images and their corresponding size distribution"
+        },
+        {
+          "fig": "Figure 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "chitosan-PHGPB delivery system",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The TEM images of the Chitosan-PHGPB delivery system"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "chitosan-PHGPB, 1 L/min",
+          "size_nm": 500.53,
+          "pdi": null,
+          "zeta_mV": -27.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "A lower-sized distribution was obtained from the chitosan-PHGPB synthesized using a flow rate of 1 L/min with an average size of 500.53 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-PHGPB",
+          "quote": "The FTIR of PHGPB, chitosan, and chitosan-PHGPB at various flowrate"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-PHGPB delivery system",
+          "quote": "The XRD chitosan-PHGPB delivery system"
+        }
+      ]
+    }
+  ]
+}

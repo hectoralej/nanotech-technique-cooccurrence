@@ -1,0 +1,82 @@
+{"batch":"EX044","articles":[
+{"pmcid":"PMC10290721","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"chitosan-curcumin NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of chitosan-curcumin NPs."}],
+"descriptors":[
+{"sample":"CCNF1","size_nm":481.7,"pdi":0.793,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"CCNF1 | 481.7 | 481.70 ± 8.06a | 0.793"},
+{"sample":"CCNF2","size_nm":580.6,"pdi":0.816,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"CCNF2 | 580.6 | 580.60 ± 10.51b | 0.816"},
+{"sample":"CCNF3","size_nm":656.5,"pdi":0.874,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"CCNF3 | 656.5 | 656.50 ± 7.81c | 0.874"},
+{"sample":"CCNF4","size_nm":761.5,"pdi":1.0,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"CCNF4 | 761.5 | 761.50 ± 13.01d | 1.00"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CCNF1-4","quote":"FTIR spectrum of curcumin, chitosan, STPP, nanoparticle formulations CCNF1-4."}]},
+{"pmcid":"PMC11944286","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"Cz-β-CD-AgNPs and CzP-β-CD-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Electron micrographs of nanocomposites Cz-β-CD-AgNPs (a) and CzP-β-CD-AgNPs (b)"},
+{"fig":"Fig. 13","variant":"SEM","sample":"Cz-β-CD-AgNPs and CzP-β-CD-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(VII–IX) Cz-β-CD-AgNPs; (X–XII) CzP-β-CD-AgNPs."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Cz-β-CD-AgNPs and CzP-β-CD-AgNPs","quote":"UV-vis spectrum of Cz-β-CD-AgNPs (1), CzP-β-CD-AgNPs (2) (a), the solution of optimum conditions (b)."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"β-CD-Cz-AgNPs","quote":"XRD pattern of β-CD-Cz-AgNPs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Cz−β-CD−AgNPs","quote":"IR Fourier spectra for β-CD (a) and Cz−β-CD−AgNPs (b)."}]},
+{"pmcid":"PMC10745864","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"RIS-HA-TCS and RIS-HA-TCS-mPEG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) particle size and TEM of RIS-HA-TCS and (B) Particle size and TEM of RIS-HA-TCS-mPEG."}],
+"descriptors":[
+{"sample":"RIS-HA-TCS run 1","size_nm":259.63,"pdi":0.255,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"1 | 30 | 15 | 1.5 | 259.63 | 0.255 | 85.37"},
+{"sample":"RIS-HA-TCS run 2","size_nm":256.46,"pdi":0.252,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"2 | 30 | 15 | 1.5 | 256.46 | 0.252 | 85.42"},
+{"sample":"RIS-HA-TCS run 3","size_nm":288.23,"pdi":0.312,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"3 | 30 | 20 | 1 | 288.23 | 0.312 | 88.14"},
+{"sample":"RIS-HA-TCS run 4","size_nm":207.38,"pdi":0.227,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"4 | 25 | 15 | 2 | 207.38 | 0.227 | 79.66"},
+{"sample":"RIS-HA-TCS run 5","size_nm":214.77,"pdi":0.247,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"5 | 30 | 10 | 2 | 214.77 | 0.247 | 80.31"},
+{"sample":"RIS-HA-TCS run 6","size_nm":253.82,"pdi":0.252,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"6 | 30 | 15 | 1.5 | 253.82 | 0.252 | 85.73"},
+{"sample":"RIS-HA-TCS run 7","size_nm":298.16,"pdi":0.283,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"7 | 35 | 15 | 2 | 298.16 | 0.283 | 90.67"},
+{"sample":"RIS-HA-TCS run 8","size_nm":163.65,"pdi":0.214,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"8 | 25 | 10 | 1.5 | 163.65 | 0.214 | 71.92"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"TCS","quote":"FTIR spectra: (a) TCS and (b) Chitosan."},
+{"technique":"FTIR","fig":"Fig. 9","applies_to":"nanoparticle","sample":"RIS-HA-TCS and RIS-HA-TCS-mPEG","quote":"FTIR spectra for (a) PM, (b) RIS, (c) HA, (d) mPEG, (e) RIS-HA, (f) RIS-HA-TCS, and (g) RIS-HA-TCS-mPEG."}]},
+{"pmcid":"PMC11989699","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"HRTEM","sample":"Streptomyces sp. KE4D AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High-resolution transmission electron micrographs showed that AgNPs from (A(ii)) Streptomyces sp. KE4D medium Mannitol"},
+{"fig":"Fig. 3","variant":"HRTEM","sample":"B. safensis KE4K AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High-resolution transmission electron micrographs showed that AgNPs from (A(ii)) B. safensis KE4K medium Mannitol"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Streptomyces sp. KE4D AgNPs","quote":"UV-visible spectroscopy results of silver nanoparticles (AgNPs) biosynthesized from (A(i)) endophytic Streptomyces sp. KE4D medium Mannitol"},
+{"technique":"FTIR","fig":"Table 1","applies_to":"nanoparticle","sample":"KE4D and KE4K AgNPs","quote":"The FTIR analysis of KE4D and KE4K AgNPs suggests that biological compounds from the bacterial CFS formed strong capping agents"}]},
+{"pmcid":"PMC10216303","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"NP15 and NP04","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b,c) SEM images of NP15 and NP04 formulations, respectively, showing spheric NPs"}],
+"descriptors":[
+{"sample":"NP 01 RSV","size_nm":138.8,"pdi":0.19,"zeta_mV":-4.95,"medium":"not_declared","source":"Table 1","quote":"NP 01 RSV | 10/10/0 | 138.8 ± 5.0 | 0.19 ± 0.01 | −4.95 ± 0.47"},
+{"sample":"NP 02 RSV","size_nm":146.2,"pdi":0.11,"zeta_mV":-2.53,"medium":"not_declared","source":"Table 1","quote":"NP 02 RSV | 01/10/0 | 146.2 ± 0.9 | 0.11 ± 0.01 | −2.53 ± 0.22"},
+{"sample":"NP 03 RSV","size_nm":149.0,"pdi":0.13,"zeta_mV":-2.56,"medium":"not_declared","source":"Table 1","quote":"NP 03 RSV | 05/10/0 | 149.0 ± 0.7 | 0.13 ± 0.01 | −2.56 ± 0.18"},
+{"sample":"NP04 RSV","size_nm":138.1,"pdi":0.18,"zeta_mV":-2.42,"medium":"not_declared","source":"Table 1","quote":"NP04 RSV | 10/05/0 | 138.1 ± 1.8 | 0.18 ± 0.01 | −2.42 ± 0.56"},
+{"sample":"NP 05 RSV","size_nm":145.9,"pdi":0.13,"zeta_mV":-2.66,"medium":"not_declared","source":"Table 1","quote":"NP 05 RSV | 05/05/0 | 145.9 ± 2.5 | 0.13 ± 0.01 | −2.66 ± 0.51"},
+{"sample":"NP 06 RSV","size_nm":152.5,"pdi":0.10,"zeta_mV":-1.87,"medium":"not_declared","source":"Table 1","quote":"NP 06 RSV | 01/05/0 | 152.5 ± 0.5 | 0.10 ± 0.01 | −1.87 ± 0.23"},
+{"sample":"NP 12 RSV","size_nm":132.2,"pdi":0.19,"zeta_mV":-3.12,"medium":"not_declared","source":"Table 1","quote":"NP 12 RSV | 10/10/0.001 | 132.2 ± 0.8 | 0.19 ± 0.01 | −3.12 ± 0.35"},
+{"sample":"NP15 RSV","size_nm":127.5,"pdi":0.19,"zeta_mV":-2.91,"medium":"not_declared","source":"Table 1","quote":"NP15 RSV | 10/10/0.015 | 127.5 ± 3.1 | 0.19 ± 0.01 | −2.91 ± 0.90"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"RSV-loaded NP04 and RSV-loaded NP15","quote":"(b) FT-IR spectra of free RSV, blank NP04, blank-NP15, RSV-loaded NP04, and RSV-loaded NP15."}]},
+{"pmcid":"PMC11945093","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AgNPs-LD and AgNPs-LR","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs at 10,000× magnification and histograms of the dry diameter distribution of (A) AgNPs-LD and (B) AgNPs-LR."}],
+"descriptors":[
+{"sample":"AgNPs-LD (D0)","size_nm":81.90,"pdi":0.448,"zeta_mV":-38.1,"medium":"not_declared","source":"Table 1","quote":"D0 | 81.90 ± 5.5 | 0.448 ± 0.120 | −38.1 ± 0.5"},
+{"sample":"AgNPs-LR (D0)","size_nm":91.74,"pdi":0.295,"zeta_mV":-34.9,"medium":"not_declared","source":"Table 2","quote":"D0 | 91.74 ± 1.1 | 0.295 ± 0.019 | −34.9 ± 1.4"}],
+"spectra":[
+{"technique":"UVVis","fig":"Text","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-Vis analysis made it possible to identify the spectral band characteristic of each type of nanostructure"},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs-LD and AgNPs-LR","quote":"EDX spectra and elemental map showing the distribution of the atoms present in the samples (A) AgNPs-LD and (B) AgNPs-LR."}]},
+{"pmcid":"PMC9832086","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_dried_unstained","sample":"Ash C NPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM measurements for Ash C NPs, scale bar = 200 nm"}],
+"descriptors":[{"sample":"Ash C NPs","size_nm":null,"pdi":null,"zeta_mV":51.2,"medium":"other","source":"text","quote":"the mean surface charge, in hydro solution, of the Ash C NPs was 51.2 mv."}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Ash C NPs","quote":"FTIR analysis of (A) chitosan extract, (B) water root extract of Ashwagandha (C) Ash CNPs"}]},
+{"pmcid":"PMC12298411","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"green AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) shows the SEM image of AgNPs at 5 µm resolution."}],
+"descriptors":[{"sample":"green AgNPs","size_nm":119.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The peak size is 155.8 d.nm, and the z-average size was 119.5 d.nm"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"green AgNPs","quote":"(B) X-ray diffraction pattern of synthesized AgNPs"},
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"green AgNPs","quote":"UV–Visible spectroscopy of green AgNPs synthesized from plant extract showing a prominent peak at 445 nm."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"green AgNPs","quote":"(C) FTIR analysis of green AgNPs showing the peaks."}]},
+{"pmcid":"PMC9959490","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"optimized HHC-CS-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM analysis of optimized HHC-CS-NPs (at 15,000× magnification)"}],
+"descriptors":[{"sample":"optimized HHC-CS-NPs","size_nm":256,"pdi":null,"zeta_mV":27.3,"medium":"not_declared","source":"text","quote":"The particle size, zeta potential, and encapsulation efficiency of the optimized HHC-CS-NPs were 256 ± 14 nm, 27.3 ± 0.7 mV"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"optimized HHC-CS-NPs","quote":"(b) FTIR spectra of HHC, CS-NPs, and optimized HHC-CS-NPs."}]},
+{"pmcid":"PMC12024537","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AgChNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM pictures. The image revealed sizes ranging from 2.8–65.3 nm showing the morphological characteristics"}],
+"descriptors":[{"sample":"AgChNPs","size_nm":257.2,"pdi":0.26,"zeta_mV":null,"medium":"other","source":"text","quote":"The average hydrodynamic diameter of the AgChNPs was 257.2 nm (Figure 2a), with a polydispersity index (PDI) of 0.26"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgChNPs","quote":"UV-vis absorption spectrum of biosynthesized AgChNPs, highlighting the characteristic SPR peak."},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgChNPs","quote":"XRD pattern of biosynthesized AgChNPs."}]}
+]}

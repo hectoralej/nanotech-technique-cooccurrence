@@ -1,0 +1,585 @@
+{
+  "batch": "EX021",
+  "articles": [
+    {
+      "pmcid": "PMC12196410",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_dried_unstained",
+          "sample": "carob extract-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative transmission electron microscopy images showing non-treated (A), UV-irradiated (B), and sonicated (C) carob extract-loaded liposomes. Bar—1 µm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "non-treated liposomes",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -28.6,
+          "medium": "not_declared",
+          "source": "Figure 2D; zeta potential",
+          "quote": "−28.6 ± 0.3 mV for non-treated"
+        },
+        {
+          "sample": "UV-irradiated liposomes",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -25.2,
+          "medium": "not_declared",
+          "source": "Figure 2D; zeta potential",
+          "quote": "−25.2 ± 0.9 mV for UV-irradiated"
+        },
+        {
+          "sample": "sonicated liposomes",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -13.9,
+          "medium": "not_declared",
+          "source": "Figure 2D; zeta potential",
+          "quote": "−13.9 ± 1.5 mV for sonicated liposomes"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "carob extract-loaded liposomes",
+          "quote": "FT-IR spectroscopic analysis of pure carob extract, phospholipids (Ph), and developed carob extract-loaded liposomes"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10764356",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biofilm-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of spherical AgNPs attached to ghost P. aeruginosa"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "biofilm-AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -19.1,
+          "medium": "not_declared",
+          "source": "Figure 4C; zeta potential",
+          "quote": "Moreover, the investigation of the biofilm-AgNPs on Zeta Potential shows a sharp peak at -19.1 mV, as shown in Fig. 4C."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biofilm-AgNPs",
+          "quote": "the UV-Vis visible spectra of biofilm-AgNPs and biofilm layers"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biofilm-AgNPs and biofilm layers",
+          "quote": "the FTIR for biofilm-AgNPs and biofilm layers"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "biofilm-AgNPs",
+          "quote": "EDX spectrum analysis of biofilm-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11991491",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "QPCF-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(E,F). TEM QPCF-NPs. Scale bar: black = 100 nm and white = 300 nm."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "QPCF-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(G). SEM QPCF-NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA-NPS",
+          "size_nm": 192,
+          "pdi": 0.2001,
+          "zeta_mV": -21,
+          "medium": "not_declared",
+          "source": "Table 1; table used; prose reports different rounded values",
+          "quote": "PLGA-NPS | 60 s | 0:5 | 192 ± 14 | 0.2001 ± 0.171 | −21 ± 15"
+        },
+        {
+          "sample": "QPCF-NPs-1",
+          "size_nm": 290,
+          "pdi": 0.039,
+          "zeta_mV": 36,
+          "medium": "not_declared",
+          "source": "Table 1; table used; prose reports zeta from −17.06 to 24.6 mV",
+          "quote": "QPCF-NPs-1 | 60 s | 1:5 | 290 ± 0.055 | 0.039 ± 0.016 | 36 ± 0.43"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "QPCF-NPs",
+          "quote": "(C). FTIR analysis of PLGA, FA, CS, QU, and QPCF-NPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "QPCF-NPs",
+          "quote": "(D). XRD patterns of FA/CS-drug-loaded PLGA nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12291780",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AND-NLC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Morphology of AND-NLC observed by transmission electron microscopy (TEM) at 200 nm and 100 nm scale bars, respectively."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLC",
+          "size_nm": 168.0,
+          "pdi": 0.262,
+          "zeta_mV": -21.33,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "NLC | 168.0 ± 2.2 | 0.262 ± 0.028 | −21.33 ± 1.0 | ND"
+        },
+        {
+          "sample": "AND-NLC",
+          "size_nm": 189.6,
+          "pdi": 0.159,
+          "zeta_mV": -20.0,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "AND-NLC | 189.6 ± 3.2 | 0.159 ± 0.038 | −20.0 ± 0.5 | 90.58 ± 0.13"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AND and AND-NLC",
+          "quote": "FTIR spectra of andrographolide (AND, bottom spectrum) and andrographolide loaded in nanostructured lipid carriers (AND-NLC, top spectrum)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12766954",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "empty liposomes, β-carotene-loaded liposomes, positively charged liposomal β-carotene",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images for empty liposomes (A), β-carotene-loaded liposomes (B) and positively charged liposomal β-carotene (C)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Empty Liposomes",
+          "size_nm": 43.82,
+          "pdi": 0.221,
+          "zeta_mV": -31.9,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "Empty Liposomes | 43.82 ± 21.29 | 0.221 | −31.9 ± 10.7"
+        },
+        {
+          "sample": "Liposomal β-carotene",
+          "size_nm": 50.75,
+          "pdi": 0.175,
+          "zeta_mV": -58.8,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "Liposomal β-carotene | 50.75 ± 28.54 | 0.175 | −58.8 ± 6.5"
+        },
+        {
+          "sample": "Positively charged liposomal β-carotene",
+          "size_nm": 58.77,
+          "pdi": 0.201,
+          "zeta_mV": 23.9,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "Positively charged liposomal β-carotene | 58.77 ± 22.13 | 0.201 | + 23.9 ± 5.11"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "liposomes containing β-carotene",
+          "quote": "The full FTIR spectra of empty Lecithin, liposomes doped with either β-carotene or β-carotene coated with SA"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10856183",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM analysis of AgNPs. TEM images of AgNPs at 50 nm (A) and 100 nm (B)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV spectroscopy absorption spectra of AgNPs successfully synthesized using plant extracts (B)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "XRD pattern of AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "FTIR spectra of the EGb and AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11704303",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "L.P.-Se NPs and O.P.-Se NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM Image of Se NPs synthesized by (a) lemon-peel extract (L.P.- Se NPs)"
+        },
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS NPs, Se NPs, NCS-Se NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) CS NPs with an inset showing the polycrystalline diffraction pattern of CS NPs, (b) Se NPs, (c) NCS-Se NPs"
+        },
+        {
+          "fig": "Fig. 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "S. sclerotiorum hyphae treated with NCS-Se NPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of S. sclerotiorum hyphae of (a-c): control micrographs and (d-f): 0.5 ppm of NCS-Se NPs treatment micrographs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "L.P.-Se",
+          "size_nm": 42.28,
+          "pdi": null,
+          "zeta_mV": -19,
+          "medium": "water",
+          "source": "Table 1; zeta sizer; deionized water",
+          "quote": "L.P.-Se | 23.78–60.78 | 42.28 | − 19.0"
+        },
+        {
+          "sample": "O.P.-Se",
+          "size_nm": 85.7,
+          "pdi": null,
+          "zeta_mV": 12,
+          "medium": "water",
+          "source": "Table 1; zeta sizer; deionized water",
+          "quote": "O.P.-Se | 54.52–225.92 | 85.7 | + 12.0"
+        },
+        {
+          "sample": "CS NPs",
+          "size_nm": 6.43,
+          "pdi": null,
+          "zeta_mV": 4.49,
+          "medium": "water",
+          "source": "Table 1; zeta sizer; deionized water",
+          "quote": "CS | 6.23–6.63 | 6.43 | + 4.49"
+        },
+        {
+          "sample": "NCS-Se",
+          "size_nm": 32.7,
+          "pdi": null,
+          "zeta_mV": -7.24,
+          "medium": "water",
+          "source": "Table 1; zeta sizer; deionized water",
+          "quote": "NCS-Se | 16.7–48.7 | 32.7 | − 7.24"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "Se NPs",
+          "quote": "FT-IR spectroscopy of Se NPs synthesized by lemon and orange-peel extracts."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "L.P.-Se NPs",
+          "quote": "XRD pattern of L.P.-Se NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10144507",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "STEM",
+          "sample": "NLC-III-Pip-BSA-3 and NLC-III-BSA-0",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM images of NLC−III−Pip−BSA−3 showing the formation of the BSA corona at the surface of the NLC particles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLCs",
+          "size_nm": 150,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; mean diameter, approximate",
+          "quote": "protein-mixed surfactant complexes resulted in the formation of hybrid–lipid nanocarriers with average diameters of around 150 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "albumin-coated lipid nanocarriers",
+          "quote": "ATR−FTIR analysis of albumin-coated lipid nanocarriers."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "NLC-Pip–BSA-0/1/2/3/4",
+          "quote": "ATR−FTIR analysis of NLCs loaded with Pip and coated with different concentrations of BSA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10514128",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "Imipenem/Cilastatin-loaded liposomes by two preparation methods",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM imaging of Imipenem/Cilastatin-loaded liposomes synthesis by two methods, thin layer (a) and ethanol injection methods (b)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Thin layer",
+          "size_nm": 124.6,
+          "pdi": 0.49,
+          "zeta_mV": -42.2,
+          "medium": "not_declared",
+          "source": "Table 1; DLS; intensity-weighted particle size",
+          "quote": "Thin layer | 96.9% | 16.05% | 124.6 | 0.490 | −42.2"
+        },
+        {
+          "sample": "Ethanol injection",
+          "size_nm": 113.3,
+          "pdi": 0.409,
+          "zeta_mV": -27,
+          "medium": "not_declared",
+          "source": "Table 1; DLS; intensity-weighted particle size",
+          "quote": "Ethanol injection | 97.8% | 16.05% | 113.3 | 0.409 | −27"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "nanoliposomes",
+          "quote": "The FT-IR spectrum of nanoliposomes"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "Imipenem/Cilastatin-loaded liposomes",
+          "quote": "The FT-IR spectrum of the Imipenem/Cilastatin-loaded liposomes"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11510687",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "L-AgNPs and R-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images for the synthesized L-AgNPs (A) and R-AgNPs (B)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "L-AgNPs",
+          "size_nm": 55,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 4C; TEM histogram-derived particle size",
+          "quote": "An approximate particle size of 55 nm for the L-AgNPs"
+        },
+        {
+          "sample": "R-AgNPs",
+          "size_nm": 26,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 4D; TEM histogram-derived particle size",
+          "quote": "and 26 nm for the R-AgNPs was determined by applying the Gaussian function for histogram fitting."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "L-AgNPs and R-AgNPs",
+          "quote": "UV analysis spectra of L-AgNPs and R-AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "L-AgNPs and R-AgNPs",
+          "quote": "EDX spectra of (A) L-AgNPs and (B) R-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "L-AgNPs and R-AgNPs",
+          "quote": "XRD spectra of (A) L-AgNPs and (B) R-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "L-AgNPs and R-AgNPs",
+          "quote": "FTIR spectra of (A) L-AgNPs and S. costus leaf extract (B) R-AgNPs and S. costus root extract."
+        }
+      ]
+    }
+  ]
+}

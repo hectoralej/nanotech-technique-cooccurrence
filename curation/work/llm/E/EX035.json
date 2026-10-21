@@ -1,0 +1,575 @@
+{
+  "batch": "EX035",
+  "articles": [
+    {
+      "pmcid": "PMC11594208",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS-TPP/HA 3.3%",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM micrographs of CS-TPP/HA 3.3%."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS-TPP/HA 2.5%",
+          "size_nm": 92,
+          "pdi": 0.34,
+          "zeta_mV": 21.6,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "CS-TPP/HA 2.5% | 92 ± 4 | 0.34 ± 0.04 | +21.6 ± 0.4"
+        },
+        {
+          "sample": "CS-TPP/HA 3.3%",
+          "size_nm": 83,
+          "pdi": 0.33,
+          "zeta_mV": 22,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "CS-TPP/HA 3.3% | 83 ± 5 | 0.33 ± 0.05 | +22.0 ± 2.0"
+        },
+        {
+          "sample": "CS-TPP/HA 5.0%",
+          "size_nm": 98,
+          "pdi": 0.267,
+          "zeta_mV": 16.8,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "CS-TPP/HA 5.0% | 98 ± 2 | 0.267 ± 0.004 | +16.8 ± 0.9"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "bio-composite NGs",
+          "quote": "FTIR spectra of bio-composite NGs compared to HA and CS precursors spectra."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11644731",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "Fe3O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph for Fe3O4 NP."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "strawberry peels/coatings",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of strawberry peels."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 NPs",
+          "quote": "XRD pattern for Fe3O4 NPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 NP",
+          "quote": "FTIR pattern for Fe3O4 NP."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10970384",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "empty and 5-FU-loaded ngAA-g-AcA and ngAA-g-McA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron micrographs of empty ngAA-g-AcA (A), 5-FU loaded ngAA-g-AcA (B), empty ngAA-g-McA (C), and 5-FU loaded ngAA-g-McA (D) nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ngAA-g-AcA Empty",
+          "size_nm": 124.7,
+          "pdi": 0.38,
+          "zeta_mV": -20.1,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2"
+        },
+        {
+          "sample": "ngAA-g-AcA/5-FU",
+          "size_nm": 250,
+          "pdi": 0.27,
+          "zeta_mV": -33.6,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2"
+        },
+        {
+          "sample": "ngAA-g-McA Empty",
+          "size_nm": 105.7,
+          "pdi": 0.39,
+          "zeta_mV": -18.8,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2"
+        },
+        {
+          "sample": "ngAA-g-McA/5-FU",
+          "size_nm": 211.8,
+          "pdi": 0.28,
+          "zeta_mV": -31.8,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "ngAA-g-AcA and ngAA-g-McA with 5-FU",
+          "quote": "FTIR spectra of (A) AA (black line), AcA (red line), AA-g-AcA (blue line)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13470345",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag-Cur NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images inset figure selected area electron diffraction pattern."
+        },
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "Ag-Cur NPs hydrocolloid",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM images of Ag-Cur NPs hydrocolloid at different magnification"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag-Cur NPs",
+          "size_nm": 197.3,
+          "pdi": 0.193,
+          "zeta_mV": -27.5,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The hydrodynamic diameter of 197.3 ± 0.709 nm (Fig. 1C)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "Ag-Cur-HCD and blank hydrocolloid",
+          "quote": "The (A) XRD pattern and (B) the FTIR spectra of HCD-blank, Ag-Cur, and Ag-Cur-HCD respectively."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "HCD-blank, Ag-Cur, and Ag-Cur-HCD",
+          "quote": "the FTIR spectra of HCD-blank, Ag-Cur, and Ag-Cur-HCD respectively."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11313802",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "TMC−NP and TMC/BSA12−NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of (a) TMC−NP and (c) TMC/BSA12−NP."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "TMC−NP",
+          "size_nm": 36.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "TMC−NP | 36.3 | 16.3 | 12.5"
+        },
+        {
+          "sample": "TMC/BSA12−NP",
+          "size_nm": 73.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "TMC/BSA12−NP | 73.1 | 21.7 | 17.6"
+        },
+        {
+          "sample": "TMC/BSA12_FITC−NP",
+          "size_nm": 71.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "TMC/BSA12_FITC−NP | 71.7 | 26.1 | 18.8"
+        },
+        {
+          "sample": "TMC/BSA55−NP",
+          "size_nm": 179.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "TMC/BSA55−NP | 179.7 | 119.3 | 92.7"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "TMC-NPs",
+          "quote": "FTIR spectra of chitosan (CS) and bovine serum albumin (BSA) powders, TMC−NP, TMC/BSA12−NP, and TMC/BSA12_FITC−NP."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11274524",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ph-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM (A,B) and SEM (C,D) imaging of Ph-AuNPs, revealing their quasi-spherical to triangular shapes"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "Ph-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM (A,B) and SEM (C,D) imaging of Ph-AuNPs, revealing their quasi-spherical to triangular shapes"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ph-AuNPs",
+          "size_nm": 28.5,
+          "pdi": null,
+          "zeta_mV": -17.7,
+          "medium": "water",
+          "source": "text",
+          "quote": "The hydrodynamic diameters (HDs) of the Ph-AuNPs in the aqueous phase were 28.5 nm, while their charge was −17.7 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ph-AuNPs",
+          "quote": "UV-VIS spectroscopy of Ph-AuNPs at various reaction conditions"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Ph-AuNPs",
+          "quote": "FTIR spectra of functional groups in P. communis strain AB_11_10 algal extract and surrounding the Ph-AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11012996",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "CNp and CNpN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy (SEM) micrographs of (a) CNp and (b) CNpN. The size bar corresponds to 1000 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CNp",
+          "size_nm": 288.74,
+          "pdi": null,
+          "zeta_mV": 34.51,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Hydrodynamic diameter (nm) | 288.74 ± 2.37 | 596.60 ± 35.49"
+        },
+        {
+          "sample": "CNpN",
+          "size_nm": 596.6,
+          "pdi": null,
+          "zeta_mV": 37.73,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "288.74 ± 2.37 | 596.60 ± 35.49"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CNp and CNpN",
+          "quote": "Infrared spectroscopy of: CNp, nobiletin, and CNpN."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11356860",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DBio@AgNPs and DSup@AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "frequency distribution histograms demonstrating the shapes and sizes of DBio@AgNPs (A,B) and DSup@AgNPs (C,D)"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "DBio@AgNPs and DSup@AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy (SEM) micrographs of DBio@AgNPs (A,B) and DSup@AgNPs (C,D) synthesized using D. edaphica biomass extract and cell-free medium."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DBio@AgNPs",
+          "size_nm": 15,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average diameters (nm) of DBio@AgNPs and DSup@AgNPs were 15.0 ± 1.0 nm and 12.0 ± 0.8 nm, respectively."
+        },
+        {
+          "sample": "DSup@AgNPs",
+          "size_nm": 12,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average diameters (nm) of DBio@AgNPs and DSup@AgNPs were 15.0 ± 1.0 nm and 12.0 ± 0.8 nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "DBio@AgNPs and DSup@AgNPs",
+          "quote": "EDx (E,F) and mapping analysis (G,H) illustrating the elemental composition and distribution"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "DBio@AgNPs and DSup@AgNPs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) analysis of the algal biomass extract, cell-free medium, DBio@AgNPs, and DSup@AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11300450",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Mo/Caf/CsNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "DLS (a,b) and TEM (at scale bar 200 nm) studies (c) of Mo/Caf/CsNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Mo/CsNPs",
+          "size_nm": 58.2,
+          "pdi": 0.285,
+          "zeta_mV": -40.7,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Mo/CsNPs | 379 | 58.2 | − 40.7 | 0.285 | 70.0"
+        },
+        {
+          "sample": "Caf/CsNPs",
+          "size_nm": 64.1,
+          "pdi": 0.32,
+          "zeta_mV": -31.3,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Caf/CsNPs | 248 | 64.1 | − 31.3 | 0.320 | 62.4"
+        },
+        {
+          "sample": "Mo/Caf/CsNPs",
+          "size_nm": 70.4,
+          "pdi": 0.321,
+          "zeta_mV": -36.8,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "Mo/Caf/CsNPs | 369 | 70.4 | − 36.8 | 0.321 | 81.0"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Mo/Caf/CsNPs",
+          "quote": "FTIR analysis of the prepared Mo/Caf/CsNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13032968",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "LN-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image showing predominantly spherical LN-AuNPs synthesized with 30% LN extract and 1 mM HAuCl₄"
+        },
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "LN-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image showing densely packed, roughly spherical LN-AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LN-AuNPs, native pH",
+          "size_nm": 68.69,
+          "pdi": null,
+          "zeta_mV": -18.14,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Dynamic light scattering (DLS) analysis showed that the smallest average particle size occurred under native pH conditions (68.69 ± 0.99 nm)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "UV–Vis spectra of AuNPs synthesized using varying concentrations of LN extract (10–80%)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "LN-AuNPs",
+          "quote": "FTIR spectrum of LN-AuNPs after synthesis showing shifts indicative of phytochemical binding and reduction"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "LN-AuNPs",
+          "quote": "EDX spectrum confirming elemental gold (Au) along with carbon (C) and oxygen (O)"
+        }
+      ]
+    }
+  ]
+}

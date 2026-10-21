@@ -1,0 +1,622 @@
+{
+    "batch":  "EX037",
+    "articles":  [
+                     {
+                         "pmcid":  "PMC12459056",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "polymeric_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "CE/CsNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "morphology examination of the synthesized CE-loaded chitosan nanoparticles (CE/CsNPs), D chitosan nanoparticles (CsNPs) by TEM"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "CsNPs",
+                                                 "size_nm":  42.54,
+                                                 "pdi":  0.29,
+                                                 "zeta_mV":  69.2,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CsNPs | – | 42.54 ± 3.65 | 0.29 ± 0.03 | 69.2 ± 2.37"
+                                             },
+                                             {
+                                                 "sample":  "CE/CsNPs-1",
+                                                 "size_nm":  60.57,
+                                                 "pdi":  0.24,
+                                                 "zeta_mV":  40.1,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CE/CsNPs-1 | 200 | 60.57 ± 3.25 | 0.24 ± 0.01 | 40.1 ± 2.56"
+                                             },
+                                             {
+                                                 "sample":  "CE/CsNPs-2",
+                                                 "size_nm":  71.52,
+                                                 "pdi":  0.35,
+                                                 "zeta_mV":  37.7,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CE/CsNPs-2 | 350 | 71.52 ± 4.57 | 0.35 ± 0.04 | 37.7 ± 1.91"
+                                             },
+                                             {
+                                                 "sample":  "CE/CsNPs-3",
+                                                 "size_nm":  130.5,
+                                                 "pdi":  0.63,
+                                                 "zeta_mV":  24.5,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CE/CsNPs-3 | 400 | 130.5 ± 1.02 | 0.63 ± 0.12 | 24.5 ± 2.45"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CsNPs",
+                                             "quote":  "FTIR analyses for (A) chitosan powder (Cs), B chitosan nanoparticles (CsNPs)"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CE/CsNPs",
+                                             "quote":  "(D) CE chitosan nanoparticles (CE/CsNPs)"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "component",
+                                             "sample":  "CE",
+                                             "quote":  "C ethanolic extract of C. comosum (CE)"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC13617144",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "SEM",
+                                            "sample":  "l‐glu–Fe3O4–Amp",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Scanning electron microscope images (A)"
+                                        },
+                                        {
+                                            "fig":  "Fig. 13",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "l‐glu–Fe3O4–Amp",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM images of Bacillus cereus (A) and Staphylococcus aureus (B) treated with l‐glu–Fe3O4–Amp"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "l‐glu–Fe3O4–Amp",
+                                                 "size_nm":  164,
+                                                 "pdi":  0.68,
+                                                 "zeta_mV":  -16.6,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "the size of l‐glu–Fe3O4–Amp was determined to be 164 nm (Figure 3C), PDI value was 0.68, and it has a negative charge value (−16.6 mV)."
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "l‐glu–Fe3O4–Amp",
+                                             "quote":  "FTIR spectra results of l‐glu–Fe3O4–Amp (black), Fe3O4 NP (red)"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "component",
+                                             "sample":  "Amp",
+                                             "quote":  "ampicillin (Amp) (green)"
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "l‐glu–Fe3O4–Amp",
+                                             "quote":  "EDX spectroscopy demonstrated that the formulation contained C, N, O, S, and Fe elements (Figure 3B)."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC11705691",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "polymeric_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "SEM",
+                                            "sample":  "CS-NPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM images of CS-NPs (A) and phage encapsulated CS-NPs (B)"
+                                        },
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "CS-NPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM images of CS-NPs (C) and phage encapsulated CS-NPs (D)"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "CS-NPs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  33,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "The zeta potential of CS-NPs and phage HK6 encapsulated CS-NPs was + 33 ± 6 mV and + 34 ± 3 mV, respectively."
+                                             },
+                                             {
+                                                 "sample":  "phage HK6 encapsulated CS-NPs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  34,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "The zeta potential of CS-NPs and phage HK6 encapsulated CS-NPs was + 33 ± 6 mV and + 34 ± 3 mV, respectively."
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CS-NPs",
+                                             "quote":  "FTIR spectra of CS-NPs () showed a broad band at 3393 cm − 1"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "phage encapsulated CS-NPs",
+                                             "quote":  "the peak at 3393 cm − 1 (–NH2 groups stretching vibration) was shifted to 3477 cm− 1"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC10741590",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "AuNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM images of spherical gold nanoparticles ranging from 60 nm to 120 nm produced by fungal extract."
+                                        },
+                                        {
+                                            "fig":  "Fig. 5",
+                                            "variant":  "SEM",
+                                            "sample":  "A. flavus treated with AuNPs",
+                                            "shows_nanocarrier":  false,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Scanning electron micrographs of A. flavus with 11.4 µg/mL of AuNPs."
+                                        },
+                                        {
+                                            "fig":  "Fig. 6",
+                                            "variant":  "SEM",
+                                            "sample":  "AuNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM images with EDX analysis of gold nanoparticles synthesized using fungal extract of S. commune."
+                                        }
+                                    ],
+                         "descriptors":  [
+
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AuNPs",
+                                             "quote":  "UV–Vis absorption spectra of AuNPs, HAuCl4, and fungal filtrate."
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 6",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AuNPs",
+                                             "quote":  "SEM images with EDX analysis of gold nanoparticles synthesized using fungal extract of S. commune."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC11820061",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanogel",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 5",
+                                            "variant":  "SEM",
+                                            "sample":  "nGF0",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM micrographs of nGF0 at a magnification of 1000× (A), 2000× (B,C), and 5000× (D) after the freeze-drying process."
+                                        },
+                                        {
+                                            "fig":  "Fig. 6",
+                                            "variant":  "SEM",
+                                            "sample":  "nGF3",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM micrographs of nGF3 at a magnification of 500× (A), 1000× (B), 2000× (C), and 5000× (D) after the freeze-drying process."
+                                        },
+                                        {
+                                            "fig":  "Fig. 8",
+                                            "variant":  "AFM",
+                                            "sample":  "nGF0",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "AFM topographic maps of the nGF0 nanogel."
+                                        },
+                                        {
+                                            "fig":  "Fig. 10",
+                                            "variant":  "AFM",
+                                            "sample":  "nGF3",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Topographical AFM maps of the nanogel nGF3."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "nGF0",
+                                                 "size_nm":  661.03,
+                                                 "pdi":  0.34,
+                                                 "zeta_mV":  -0.2,
+                                                 "medium":  "water",
+                                                 "source":  "Table 2",
+                                                 "quote":  "DLS: Dh ± SD; PDI | 661.03 ± 6.1; 0.34 | 30.44 ± 12.1; 0.54"
+                                             },
+                                             {
+                                                 "sample":  "nGF3",
+                                                 "size_nm":  30.44,
+                                                 "pdi":  0.54,
+                                                 "zeta_mV":  -1.6,
+                                                 "medium":  "water",
+                                                 "source":  "Table 2",
+                                                 "quote":  "DLS: Dh ± SD; PDI | 661.03 ± 6.1; 0.34 | 30.44 ± 12.1; 0.54"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 4",
+                                             "applies_to":  "component",
+                                             "sample":  "EOPb",
+                                             "quote":  "(A) Essential oil of Pectis brevipedunculata (EOPb)"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 4",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "nGF3",
+                                             "quote":  "(B) nanogel formulation containing 1% w/w EOPb (nGF3)"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC10745322",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "AgNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "Transmission electron micrograph image (scale bar, 100 nm) of the AgNPs"
+                                        }
+                                    ],
+                         "descriptors":  [
+
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AgNPs",
+                                             "quote":  "UV–visible absorbance spectra of biogenic AgNPs synthesized intracellularly"
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AgNPs",
+                                             "quote":  "(C) EDS spectrum of the AgNPs."
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AgNPs",
+                                             "quote":  "Fourier transform infrared spectrum showing functional groups responsible for the synthesis and stabilization of the AgNPs"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12030068",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanogel",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "SEM",
+                                            "sample":  "NG",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "SEM images of the NG and NG FA-300 at different magnifications"
+                                        }
+                                    ],
+                         "descriptors":  [
+
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "NG",
+                                             "quote":  "(A) TPP, CS, and NG spectra."
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "component",
+                                             "sample":  "FA",
+                                             "quote":  "(B) free FA, NG, and NG FA-300 spectra."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC10742787",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 4",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "AuNP-BP",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Transmission Electron Microscopy images of AuNP and AuNP-BP (a,c)"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "AuNPs",
+                                                 "size_nm":  44.51,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -36.3,
+                                                 "medium":  "water",
+                                                 "source":  "text",
+                                                 "quote":  "DLS measurement showed that the size of AuNPs was 44.51 nm, while that of the AuNP-BP was 44.58 nm."
+                                             },
+                                             {
+                                                 "sample":  "AuNP-BP",
+                                                 "size_nm":  44.58,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -18.2,
+                                                 "medium":  "water",
+                                                 "source":  "text",
+                                                 "quote":  "DLS measurement showed that the size of AuNPs was 44.51 nm, while that of the AuNP-BP was 44.58 nm."
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AuNP-BP",
+                                             "quote":  "UV-visible spectra of AuNPs and AuNP-BP conjugate at different concentrations"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AuNP-BP",
+                                             "quote":  "FTIR spectra of AuNPs, BP, and AuNP-BP at 1.6 mg/mL."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12672582",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "polymeric_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 1",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "FA-ChNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Transmission Electron Microscope (TEM) image showing spherical nanoparticles with varying sizes within the nano-range."
+                                        },
+                                        {
+                                            "fig":  "Fig. 1",
+                                            "variant":  "SEM",
+                                            "sample":  "FA-ChNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Scanning Electron Microscope (SEM) image confirming the spherical morphology and surface topography of the nanoparticles."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "FA-ChNPs",
+                                                 "size_nm":  41.63,
+                                                 "pdi":  0.2,
+                                                 "zeta_mV":  -2.45,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "DLS analysis (Fig. 2) indicated a monodisperse population with an average hydrodynamic diameter of 41.63 ± 12.34 nm and a low PDI (0.2)."
+                                             },
+                                             {
+                                                 "sample":  "blank ChNPs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  32.1,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "the blank ChNPs (without ferulic acid) exhibited a strongly positive zeta potential of + 32.1 ± 3.5mV"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 4",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "FA-ChNPs",
+                                             "quote":  "UV–Vis spectrum of FA-ChNPs shows a primary peak at 329 nm (absorbance 0.163, F1)"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 5",
+                                             "applies_to":  "component",
+                                             "sample":  "ferulic acid",
+                                             "quote":  "FTIR spectrum of ferulic acid showing characteristic vibrational bands."
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 6",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "FA-ChNPs",
+                                             "quote":  "FTIR spectrum of FA-ChNPs displaying characteristic vibrational bands of ferulic acid (FA) and chitosan (ChNPs)."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC10451730",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "inorganic_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "Au@16-mph-16",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Microphotograph made with TEM TALOS, showing the gold core of the nanoparticles"
+                                        },
+                                        {
+                                            "fig":  "Fig. 11",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "NS2",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM microphotograph of E. coli after 24 h of treatment."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "Au@16-mph-16",
+                                                 "size_nm":  2.6,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  67.8,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "1 | Au@16-mph-16 | 67.8 ± 2.6 | (2.6 ± 0.3)"
+                                             },
+                                             {
+                                                 "sample":  "NS1",
+                                                 "size_nm":  44,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -36.7,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "3 | NS1(CAu@16-mph-16 = 3.4 nM) | −36.7 ± 1.0 | d1 = (44 ± 8); 95.5%d2 = (205 ± 52); 4.5%"
+                                             },
+                                             {
+                                                 "sample":  "NS2",
+                                                 "size_nm":  69.0,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -45.1,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "4 | NS2(CAu@16-mph-16 = 32.6 nM ) | −45.1± 1.1 | (69.0 ± 1.0)"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 4",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "Au@16-mph-16",
+                                             "quote":  "EDS-MET graph showing the chemical composition of Au@16-mph-16 gold core nanoparticles."
+                                         },
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 6",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "NS1 and NS2",
+                                             "quote":  "Absorbance spectra of NS1 and NS2 (Au@16-mph-16/ADN/AMOX) compacted nanosystems."
+                                         }
+                                     ]
+                     }
+                 ]
+}

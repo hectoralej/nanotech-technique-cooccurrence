@@ -1,0 +1,542 @@
+{
+  "batch": "EX029",
+  "articles": [
+    {
+      "pmcid": "PMC13570451",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 3",
+          "variant": "SEM",
+          "sample": "AgNPs, ZM-NGEL and ZM-Ag-NGEL",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE‐SEM image of AgNPs; (B) UV–Vis spectrum of AgNPs; (C) SEM image of ZM‐NGEL; (D) SEM image of ZM‐Ag‐NGEL."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 53,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "AgNPs displayed a smaller average particle size of 53 ± 6 nm and a SPAN value of 0.98"
+        },
+        {
+          "sample": "ZM-NGEL primary nanoemulsion",
+          "size_nm": 155,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The ZM‐NGEL primary nanoemulsion exhibited an average particle size of 155 ± 7 nm with a SPAN value of 0.94"
+        },
+        {
+          "size_nm": null,
+          "medium": "not_declared",
+          "source": "text",
+          "sample": "AgNPs",
+          "quote": "AgNPs showed a zeta potential of −42 ± 2 mV",
+          "zeta_mV": -42,
+          "pdi": null
+        },
+        {
+          "size_nm": null,
+          "medium": "not_declared",
+          "source": "text",
+          "sample": "ZM-NGEL primary nanoemulsion",
+          "quote": "The ZM‐NGEL primary nanoemulsion exhibited a zeta potential of −58 ± 2 mV",
+          "zeta_mV": -58,
+          "pdi": null
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV–Vis spectrum of AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and nanogel formulations",
+          "quote": "ATR‐FTIR of (A) ZMEO, (B) AgNPs, (C) blank gel"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11312205",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "HRTEM",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Images showing the sizes and shapes of the HRTEM."
+        }
+      ],
+      "descriptors": [
+        {
+          "size_nm": 50,
+          "medium": "not_declared",
+          "source": "text",
+          "sample": "AgNPs",
+          "quote": "with an average size of 50 nm and a particle size range of 7.61–100 nm",
+          "zeta_mV": null,
+          "pdi": null
+        },
+        {
+          "size_nm": null,
+          "medium": "not_declared",
+          "source": "text",
+          "sample": "AgNPs",
+          "quote": "high stability (−29.1 mV)",
+          "zeta_mV": -29.1,
+          "pdi": null
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "AgNPs’ SPR bands (max) as a function of different extract additions"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "A. arboreum-prepared AgNPs",
+          "quote": "A. arboreum-prepared AgNPs’ FTIR spectra."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized AgNPs of A. arboreum",
+          "quote": "X-ray diffraction (XRD) of synthesized AgNPs of A. arboreum."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12944439",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 10",
+          "variant": "TEM_dried_unstained",
+          "sample": "genipin-crosslinked chitosan nanogel-in-oil",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image of genipin crosslinked chitosan nanogel-in-oil"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "genipin-crosslinked chitosan nanogel-in-oil",
+          "size_nm": 108.3,
+          "pdi": 0.185,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The Z-average particle diameter was 108.3 ± 2.4 nm, accompanied by a PDI of 0.185 ± 0.048."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-genipin nanogel",
+          "quote": "ATR-FTIR spectra of genipin, chitosan, and genipin-crosslinked chitosan"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13457700",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM graph of biosynthesized AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 9.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Transmission electron microscopy (TEM) analysis confirmed the formation of predominantly spherical and well-dispersed AgNPs with an average size of 9.5 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "UV–Vis absorption spectrum showing the SPR band of the biosynthesized AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "FTIR analysis of biosynthesized AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "XRD analysis of biosynthesized AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6469023",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "C-TPP NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscope (TEM) images"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "C-TPP NPs",
+          "size_nm": 331,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "peak diameter size of 331 nm as measured by DLS as shown in (Figure 2A)."
+        },
+        {
+          "sample": "C-TPP NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 49.8,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Zeta potential (ZP) of the C-TPP NPs was 49.8 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "C-TPP NPs",
+          "quote": "Fourier transform infrared (FT-IR) spectra for (A) Chitosan Extract, (B) C-TPP NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13514524",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgCUR-EtOH NPs and AgCUR-H2O NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM micrographs and EDX spectra of green-synthesized CUR-AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgCUR-H2O NPs",
+          "size_nm": 264,
+          "pdi": 0.416,
+          "zeta_mV": -21.8,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "AgCUR-H2O NPs | Distilled water | 264 | 0.416 | −21.8 ± 0.8"
+        },
+        {
+          "sample": "AgCUR-EtOH NPs",
+          "size_nm": 1742,
+          "pdi": 0.5,
+          "zeta_mV": -20.4,
+          "medium": "other",
+          "source": "Table 1",
+          "quote": "AgCUR-EtOH NPs | Ethanol | 1742 | 0.500 | −20.4 ± 0.6"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgCUR-EtOH NPs and AgCUR-H2O NPs",
+          "quote": "UV–Vis spectral evolution during the green synthesis of CUR-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgCUR-EtOH NPs and AgCUR-H2O NPs",
+          "quote": "Powder X-ray diffraction profiles of AgCUR-EtOH NPs and AgCUR-H2O NPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgCUR-EtOH NPs and AgCUR-H2O NPs",
+          "quote": "Fourier-transform infrared spectra of the dried AgCUR-EtOH NPs and AgCUR-H2O NPs formulations"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8073239",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "CS-TPP NP",
+          "size_nm": 408,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "a size up to 408 nm was obtained when the CS to TPP ratio was kept at 3:1."
+        },
+        {
+          "sample": "extract-encapsulated chitosan NP",
+          "size_nm": null,
+          "pdi": 0.069,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "zeta and PDI reduced to 4.62 and 0.069, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "component",
+          "sample": "n-hexane extract of Rosa webbiana",
+          "quote": "FTIR spectra of n-hexane extract of Rosa webbiana."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11497146",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. (2)",
+          "variant": "SEM",
+          "sample": "biosynthesised AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph of synthesized AgNPs"
+        },
+        {
+          "fig": "Fig. (8)",
+          "variant": "SEM",
+          "sample": "biofilms treated with AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "The scale bar represents 1µm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 284.9,
+          "pdi": null,
+          "zeta_mV": -27.56,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the biogenic AgNPs ranged from 200-300 nm, with an average hydrodynamic size of approximately 284.9 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. (1)",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesised AgNPs",
+          "quote": "Represents formation of AgNPs confirmed through X-ray Diffraction analysis"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. (1)",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesised AgNPs",
+          "quote": "red colour indicates biosynthesised AgNPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. (2)",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesised AgNPs",
+          "quote": "EDX spectrum analysis of AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8966466",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "SEM",
+          "sample": "Ace-DEX, Ace-DEX[BRP-201], BRP-201 precipitates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron micrographs of the NPs: Ace-DEX (A), Ace-DEX[BRP-201] (B), and BRP-201 precipitates (C)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA NPs and Ace-DEX NPs",
+          "quote": "Mean Raman spectra with standard deviation of pure nanomaterial: BRP-201 precipitates (green), PLGA NPs (red) and Ace-DEX NPs (yellow)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12347104",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "P-AuNPs, L-Cys-AuNPs and D-Cys-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographics of (a) P-AuNPs, (b) L-Cys-AuNPs, (c) D-Cys-AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "P-AuNPs",
+          "size_nm": 59.75,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the smallest diameters were the P-AuNPs (59.75)"
+        },
+        {
+          "sample": "L-Cys-AuNPs",
+          "size_nm": 91.14,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "modified L-Cys-AuNPs (91.14)"
+        },
+        {
+          "sample": "D-Cys-AuNPs",
+          "size_nm": 110.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "D-Cys-AuNPs (110.1)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "P-AuNPs, L-Cys-AuNPs, D-Cys-AuNPs",
+          "quote": "UV-Vis spectra of P-AuNPs, L-Cys-AuNPs, and D-Cys-AuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "P-AuNPs, L-Cys-AuNPs, D-Cys-AuNPs",
+          "quote": "FTIR spectra of P-AuNPs, L-Cys-AuNPs, and D-Cys-AuNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "P-AuNPs, L-Cys-AuNPs, D-Cys-AuNPs",
+          "quote": "XDR diffractograms and (b) ECD spectra of P-AuNPs, L-Cys-AuNPs, and D-Cys-AuNPs."
+        }
+      ]
+    }
+  ]
+}

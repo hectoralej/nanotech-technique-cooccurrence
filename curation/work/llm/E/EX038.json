@@ -1,0 +1,554 @@
+{
+    "batch":  "EX038",
+    "articles":  [
+                     {
+                         "pmcid":  "PMC12584735",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "micelle",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "Amantadine/OA-Pluronic F68-PLGA micelles",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM images of amantadine (AMTD) encapsulated into oleic acid (OA) – Pluronic F68 – PLGA micelles."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "Amantadine/OA-Pluronic F68-PLGA micelles",
+                                                 "size_nm":  183.1,
+                                                 "pdi":  0.151,
+                                                 "zeta_mV":  -35.2,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "0 | 183.1 ± 2.7 | −35.2 ± 1.7 | 0.151 ± 0.01"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "Amantadine/OA-Pluronic F68-PLGA micelles",
+                                             "quote":  "the main functional groups of amantadine, PLGA and the encapsulated amantadine into PLGA micelles"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC11499457",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "other",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 1",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "oleic acid-coated iron oxide nanoparticles",
+                                            "shows_nanocarrier":  false,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Representative transmission electron microscopy (TEM) images in bright field (BF) mode at different magnifications"
+                                        },
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "magnetic nanocapsules",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Representative transmission electron microscopy (TEM) images in bright field (BF) mode at different magnifications"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "magnetic nanocapsules",
+                                                 "size_nm":  256.7,
+                                                 "pdi":  0.089,
+                                                 "zeta_mV":  -30.4,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "Magnetic nanocapsules with a hydrodynamic diameter of 256.7 ± 8.5 nm (polydispersity index: 0.089 ± 0.034) and a ξ-potential of -30.4 ± 0.3 mV"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "component",
+                                             "sample":  "oleic acid-coated iron oxide nanoparticles",
+                                             "quote":  "Chemical mapping using energy dispersive X-ray spectroscopy (EDS) in scanning transmission electron microscopy (STEM)"
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "magnetic nanocapsules",
+                                             "quote":  "Chemical mapping of the squared area in the left image of c) using energy dispersive X-ray spectroscopy (EDS)"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12196889",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "artichoke extract-mediated AgNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM image (A) of artichoke extract-mediated AgNPs"
+                                        },
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "SEM",
+                                            "sample":  "Cht/Art/AgNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM image (B) of chitosan/artichoke extract/AgNP nanocomposites"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "Cht",
+                                                 "size_nm":  148.67,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  37.5,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "Cht | 46.72–392.51 | 148.67 | +37.5"
+                                             },
+                                             {
+                                                 "sample":  "Art/AgNPs",
+                                                 "size_nm":  10.35,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -23.8,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "Art/AgNPs | 3.16–27.49 | 10.35 | −23.8"
+                                             },
+                                             {
+                                                 "sample":  "Cht/Art/AgNPs",
+                                                 "size_nm":  203.22,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  30.9,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "Cht/Art/AgNPs | 69.44–492.15 | 203.22 | +30.9"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "Cht/Art/AgNPs",
+                                             "quote":  "Infrared (FTIR) spectra of artichoke extract (Art), Art-synthesized AgNPs, chitosan (Cht), and their nanoconjugates (Cht/Art/AgNPs)."
+                                         },
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "Art/AgNPs",
+                                             "quote":  "The absorption UV-vis spectrum of the Art-synthesized AgNPs showed a distinctive maximum peak at 431 nm (Figure 1B)"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC11676272",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "inorganic_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "CA-SPIONs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "TEM images of (a) CA-modified and (b) FA-modified iron oxide nanoparticles."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "CA-SPIONs",
+                                                 "size_nm":  119,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  null,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "The CA-modified iron oxide nanoparticles and the electrohydraulic discharge-processed CA-SPIONs had smaller hydrodynamic diameters of 119 nm and 92 nm"
+                                             },
+                                             {
+                                                 "sample":  "FA-SPIONs",
+                                                 "size_nm":  148,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  null,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "compared to FA-modified iron oxide nanoparticles and the electrohydraulic discharge-processed FA-SPIONs, with a hydrodynamic diameter of 148 nm and 138 nm"
+                                             },
+                                             {
+                                                 "sample":  "Bare SPIONs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  22,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "The Bare SPIONs had a positive zeta potential of 22 mV"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "XRD",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CA-SPIONs",
+                                             "quote":  "The XRD patterns of all synthesized samples (CA-SPIONs, FA-SPIONs, CA-SPIONs-EHD, and FA-SPIONs-EHD)"
+                                         },
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 5",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CA-SPIONs-DOX",
+                                             "quote":  "UV-VIS spectra of magnetic nanoparticles containing (a) Bare SPIONs; CA-SPIONs-DOX; pure DOX"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 6",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "DOX-CA-SPION",
+                                             "quote":  "FTIR spectra of (a) bare SPIONs; pure citric acid (CA); CA-SPIONs; pure DOX; and DOX-CA-SPION."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12014109",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "polymeric_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "SEM",
+                                            "sample":  "ChNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "Scanning electron microscopy photomicrograph images showing chitosan nanoparticle formation at 500 X (A) and 1000 X (B) magnification"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "ChNPs",
+                                                 "size_nm":  85.7,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  45.5,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "DLS obtained a mean particle size of 85.7 ± 10.5 nm."
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "ChNPs",
+                                             "quote":  "(c) Chitosan nanoparticles (lyophilized)."
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "component",
+                                             "sample":  "chitosan",
+                                             "quote":  "(a) Chitosan powder; (b) TPP powder;"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12567029",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 9",
+                                            "variant":  "HRTEM",
+                                            "sample":  "CG-Ag 10",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "High-resolution transmission electron microscopy analysis of Clerodendrum glabrum–Ag NPs at 100 nm scale"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "CG-Ag 10",
+                                                 "size_nm":  87.12,
+                                                 "pdi":  0.3088,
+                                                 "zeta_mV":  -25.38,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CG-Ag 10 NP | 87.12 | −25.38 | 0.3088"
+                                             },
+                                             {
+                                                 "sample":  "CG-Ag 40",
+                                                 "size_nm":  148.7,
+                                                 "pdi":  0.2687,
+                                                 "zeta_mV":  -21.22,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 2",
+                                                 "quote":  "CG-Ag 40 NP | 148.7 | −21.22 | 0.2687"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CG-Ag NPs",
+                                             "quote":  "UV–vis absorption spectra of Clerodendrum glabrum–Ag NPs synthesised using a 3 mM AgNO3 solution"
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 10",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "CG-Ag 10 NPs",
+                                             "quote":  "EDS spectrum analysis of the synthesised Clerodendrum glabrum–Ag NPs"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12841014",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanogel",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "SEM",
+                                            "sample":  "HPN",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM images of HPN at different magnifications (5× left, and 25× right)"
+                                        },
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "HPN",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "Representative TEM image of HPN illustrating morphological features."
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "HPN",
+                                                 "size_nm":  227.9,
+                                                 "pdi":  0.152,
+                                                 "zeta_mV":  null,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "HPN | 220.0 ± 17.36 | 230.7 ± 22.76 | 227.9 ± 24.98 | 0.152"
+                                             },
+                                             {
+                                                 "sample":  "Dof-HPN",
+                                                 "size_nm":  235.1,
+                                                 "pdi":  0.181,
+                                                 "zeta_mV":  null,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "Dof-HPN | 230.3 ± 19.34 | 240.1 ± 23.85 | 235.1 ± 25.01 | 0.181"
+                                             },
+                                             {
+                                                 "sample":  "Azi-HPN",
+                                                 "size_nm":  232.1,
+                                                 "pdi":  0.130,
+                                                 "zeta_mV":  null,
+                                                 "medium":  "not_declared",
+                                                 "source":  "Table 1",
+                                                 "quote":  "Azi-HPN | 228.0 ± 16.83 | 238.3 ± 20.55 | 232.1 ± 22.08 | 0.130"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 1",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "HPN",
+                                             "quote":  "FTIR spectra of HEMA monomer, pectin, and HEMA/pectin (in the form of lyophilized NP)."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC11826889",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "other",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 3",
+                                            "variant":  "SEM",
+                                            "sample":  "SIMPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "SEM images of MPs prepared using the salting out method."
+                                        },
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "SEM",
+                                            "sample":  "IONP-GSH",
+                                            "shows_nanocarrier":  false,
+                                            "scale_bar_in_caption":  null,
+                                            "quote":  "(f, g) SEM images depicting uniform particle size and shape in both IONP and IONP-GSH"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "SIMPs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -43.3,
+                                                 "medium":  "water",
+                                                 "source":  "Table 1",
+                                                 "quote":  "SIMPs | –43.3 ± 0.7 mV"
+                                             },
+                                             {
+                                                 "sample":  "SIMPs-N",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -46.2,
+                                                 "medium":  "water",
+                                                 "source":  "Table 1",
+                                                 "quote":  "SIMPs-N | –46.2 ± 0.4 mV"
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 2",
+                                             "applies_to":  "component",
+                                             "sample":  "IONP-GSH",
+                                             "quote":  "The FTIR spectra (Figure 2a) reveal a peak at 564 cm–1 in both samples, indicating an Fe–O bond."
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 4",
+                                             "applies_to":  "mixture",
+                                             "sample":  "SIMPs",
+                                             "quote":  "Amide I FTIR spectra for one batch of SIMPs at D3, D18, and D27 show minimal changes, indicating a stable secondary structure."
+                                         },
+                                         {
+                                             "technique":  "EDS",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "mixture",
+                                             "sample":  "SIMPs",
+                                             "quote":  "The bar chart presents the average weight percent of Fe measured in these spectra for SIMPs and Si chip regions."
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12913734",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "polymeric_NP",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 2",
+                                            "variant":  "SEM",
+                                            "sample":  "ChNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "Scanning electron micrograph of nanochitosan synthesized from Litopenaeus vannamei shrimp shells."
+                                        }
+                                    ],
+                         "descriptors":  [
+
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "ChNPs",
+                                             "quote":  "The Fourier transform infrared spectroscopy spectrum of nanochitosan synthesized from Litopenaeus vannamei shrimp shells indicates the presence"
+                                         }
+                                     ]
+                     },
+                     {
+                         "pmcid":  "PMC12153196",
+                         "context":  {
+                                         "article_kind":  "research",
+                                         "carrier_type":  "nanomaterial",
+                                         "nanocarrier_is_object_of_study":  true,
+                                         "virus_or_pcr":  false
+                                     },
+                         "panels":  [
+                                        {
+                                            "fig":  "Fig. 4",
+                                            "variant":  "TEM_prep_not_declared",
+                                            "sample":  "AgNPs",
+                                            "shows_nanocarrier":  true,
+                                            "scale_bar_in_caption":  true,
+                                            "quote":  "TEM image of spherical AgNPs between 5–25 nm size with average size of 17.79 ± 1.36 nm (scale bar = 500 nm)"
+                                        }
+                                    ],
+                         "descriptors":  [
+                                             {
+                                                 "sample":  "AgNPs",
+                                                 "size_nm":  null,
+                                                 "pdi":  null,
+                                                 "zeta_mV":  -16.5,
+                                                 "medium":  "not_declared",
+                                                 "source":  "text",
+                                                 "quote":  "The − 16.5 mV zeta energy potential was an excellent negative value for AgNPs."
+                                             }
+                                         ],
+                         "spectra":  [
+                                         {
+                                             "technique":  "UVVis",
+                                             "fig":  "Fig. 3",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "AgNPs",
+                                             "quote":  "UV–visible absorption spectrum of AgNPs biosynthesized by Aspergillus templicola MAK 223"
+                                         },
+                                         {
+                                             "technique":  "FTIR",
+                                             "fig":  "Fig. 6",
+                                             "applies_to":  "nanoparticle",
+                                             "sample":  "Mycosynthesized AgNPs",
+                                             "quote":  "Fourier Transform Infrared (FT-IR) spectra of (a) Aspergillus templicola MAK 223 filtrate and (b) Mycosynthesized AgNPs"
+                                         }
+                                     ]
+                     }
+                 ]
+}

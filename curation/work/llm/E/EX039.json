@@ -1,0 +1,111 @@
+{"batch":"EX039","articles":[
+{"pmcid":"PMC12251225",
+ "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"1PECA:1PCL, 4% Brij20, pH 1.75","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Micrographs of sample 1PECA:1PCL, 4% Brij20, pH 1.75."}],
+ "descriptors":[
+  {"sample":"1:1, 4% Brij20, pH 1.5","size_nm":60.42,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:1 | 4 | 1.5 | 60.42"},
+  {"sample":"1:1, 4% Brij20, pH 1.75","size_nm":54.66,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:1 | 4 | 1.75 | 54.66"},
+  {"sample":"1:1, 4% Brij20, pH 2","size_nm":42.66,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:1 | 4 | 2 | 42.66"}
+ ],
+ "spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"1PECA:1PCL, 4Brij20, pH = 1.75","quote":"Infrared spectra of (a) 1PECA:1PCL, 4Brij20, pH = 1.75; (b) pure Brij20;"}]
+},
+{"pmcid":"PMC11979898",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 5","variant":"SEM","sample":"synthesized iron oxide nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of synthesized iron oxide nanoparticles at various magnifications showing detailed morphological differences."}],
+ "descriptors":[{"sample":"FeO-NPs","size_nm":437.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average hydrodynamic diameter was determined to be 437.2 nm"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"FeO-NPs","quote":"UV spectra of plant extract and synthesized nanoparticles."},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"green iron nanoparticles","quote":"IR spectra of plant extract and green iron nanoparticles."},
+  {"technique":"EDS","fig":"Fig. 7","applies_to":"nanoparticle","sample":"FeO-NPs","quote":"SEM EDX graph highlighting the presence of iron and oxygen."},
+  {"technique":"XRD","fig":"Fig. 8","applies_to":"nanoparticle","sample":"FeO-NPs","quote":"XRD pattern of synthesized iron oxide nanoparticles."}
+ ]
+},
+{"pmcid":"PMC12300124",
+ "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"TEM_negstain","sample":"model chitosan nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) transmission electron microscope images of model chitosan nanoparticles;"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"individual drugs","quote":"(b) Fourier-transform infrared spectra of individual drugs"},
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"F1–F5 drug-loaded chitosan nanoparticles","quote":"(c) Fourier-transform infrared spectra of drug-loaded chitosan nanoparticles"}
+ ]
+},
+{"pmcid":"PMC10875387",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 4","variant":"TEM_dried_unstained","sample":"synthesized AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A, B, and C) Indicates the TEM images of synthesized AgNPs"}],
+ "descriptors":[{"sample":"AgNPs","size_nm":48.93,"pdi":null,"zeta_mV":-22.1,"medium":"not_declared","source":"Fig. 3","quote":"While the DLS analysis shows a sharp peak at 48.93 nm Fig. 3A."}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"biologically synthesized AgNPs","quote":"(b.) Indicate biologically synthesized AgNPs while figure."},
+  {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"synthesized AgNPs","quote":"(E) EDx analysis spectrum showing a strong peak at 3kev"}
+ ]
+},
+{"pmcid":"PMC12355616",
+ "context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"NanoT","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(b, c) representative of TEM images of NanoT;"},
+  {"fig":"Fig. 3","variant":"AFM","sample":"NanoT","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Tapping-mode AFM image of NanoT in air"}
+ ],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. S2","applies_to":"nanoparticle","sample":"NanoT","quote":"Figure S2 shows the FTIR spectrum of monomers Jeffamine T403, PEGDE, and obtained NanoT."},
+  {"technique":"UVVis","fig":"Fig. 6","applies_to":"nanoparticle","sample":"NanoT-AmB","quote":"(a) UV–vis absorption spectra of amphotericin B (AmB), NanoT, and loaded NanoT-AmB."}
+ ]
+},
+{"pmcid":"PMC11202274",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Microimages of the AgNPs obtained by transmission electron microscopy"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNP-cit, AgNP-sf","quote":"FTIR spectra of the S. fallax extract and citrate-stabilized (AgNP-cit) and extract-stabilized (AgNP-sf) silver nanoparticles (A);"},
+  {"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"EDX analysis of the silver nanoparticles and the S. fallax moss extract (C)."}
+ ]
+},
+{"pmcid":"PMC12389631",
+ "context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 5","variant":"SEM","sample":"uncoated and coated PLGA microparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) SEM images uncoated (Left) and coated (Right) PLGA microparticles,"},
+  {"fig":"Fig. 7","variant":"SEM","sample":"uncoated and coated PLGA microparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) Uncoated and (B) Chitosan-coated PLGA microparticles 90 days (Left) and 180 days (Right) post-fabrication."}
+ ],
+ "descriptors":[
+  {"sample":"PVI1","size_nm":2260,"pdi":0.284,"zeta_mV":-70.7,"medium":"not_declared","source":"Table 2","quote":"PVI1 | −70.70 ±1.42 | 2.26 | 0.284"},
+  {"sample":"PVI2","size_nm":2440,"pdi":0.380,"zeta_mV":-55.23,"medium":"not_declared","source":"Table 2","quote":"PVI2 | −55.23 ±1.01 | 2.44 | 0.380"},
+  {"sample":"PVI2-C","size_nm":5710,"pdi":0.454,"zeta_mV":34.83,"medium":"not_declared","source":"Table 2","quote":"PVI2-C | 34.83 ±0.55 | 5.71 | 0.454"},
+  {"sample":"PVI3","size_nm":5210,"pdi":0.264,"zeta_mV":-42.8,"medium":"not_declared","source":"Table 2","quote":"PVI3 | −42.80 ±1.15 | 5.21 | 0.264"},
+  {"sample":"PVI4","size_nm":2340,"pdi":0.196,"zeta_mV":-56.5,"medium":"not_declared","source":"Table 2","quote":"PVI4 | −56.50 ±0.44 | 2.34 | 0.196"},
+  {"sample":"PVI4-C","size_nm":7750,"pdi":0.755,"zeta_mV":14.47,"medium":"not_declared","source":"Table 2","quote":"PVI4-C | 14.47 ±1.38 | 7.75 | 0.755"},
+  {"sample":"PVI5","size_nm":6780,"pdi":0.324,"zeta_mV":-59.27,"medium":"not_declared","source":"Table 2","quote":"PVI5 | −59.27 ±1.81 | 6.78 | 0.324"},
+  {"sample":"PVI5-C","size_nm":7700,"pdi":0.686,"zeta_mV":27.17,"medium":"not_declared","source":"Table 2","quote":"PVI5-C | 27.17 ±0.72 | 7.70 | 0.686"}
+ ],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PLGA-Van.HCl-ICG MP formulations","quote":"(B) Absorbance spectra of Indocyanine Green in various PLGA-Van.HCl-ICG MP formulations,"},
+  {"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"uncoated microparticles","quote":"(Left) FTIR spectra of uncoated microparticles, bulk PLGA, free Van.HCl, and free ICG,"}
+ ]
+},
+{"pmcid":"PMC11433786",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"SEM","sample":"BS-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) image: silver nanoparticles stabilized by the Candida lipolytica biosurfactant."}],
+ "descriptors":[{"sample":"BS-AgNPs","size_nm":null,"pdi":null,"zeta_mV":-60.6,"medium":"not_declared","source":"text","quote":"The zeta potential of BS-AgNPs (−60.6 ± 1.2 mV) was sufficiently high"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"BS-AgNPs","quote":"A UV-visible spectrum of the nanoparticles synthesized with the Candida lipolytica biosurfactant (BS-AgNPs)"},
+  {"technique":"EDS","fig":"Fig. 3","applies_to":"component","sample":"biosurfactant","quote":"EDS analysis of the biosurfactant produced by Candida lipolytica."},
+  {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BS-AgNPs","quote":"EDS analysis of the silver nanoparticles stabilized by the Candida lipolytica biosurfactant."}
+ ]
+},
+{"pmcid":"PMC12469730",
+ "context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"optimal CUR-TPGS-LAP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM image and (b) high-resolution TEM images."}],
+ "descriptors":[],
+ "spectra":[{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"CUR-TPGS-LAP","quote":"The FTIR spectra of CUR, LAP and CUR-TPGS-LAP nanogels are shown in Figure 6c."}]
+},
+{"pmcid":"PMC12430532",
+ "context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"Hollow MSN-N+CH3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Figure 1 shows SEM (a,b) and TEM images (c) of Hollow MSN-N+CH3."},
+  {"fig":"Fig. 1","variant":"SEM","sample":"Hollow MSN-N+CH3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Figure 1 shows SEM (a,b) and TEM images (c) of Hollow MSN-N+CH3."}
+ ],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Hollow MSN-N+CH3","quote":"XRD patterns of (a) Hollow MSN and (b) Hollow MSN-N+CH3."},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Hollow MSN-N+CH3","quote":"FT-IR spectra of (a) fludarabine phosphate, (b) Hollow MSN, (c) Flu/Hollow MSN, (d) Hollow MSN-N+CH3, and (e) Flu/Hollow MSN-N+CH3."}
+ ]
+}
+]}

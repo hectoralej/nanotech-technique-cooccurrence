@@ -1,0 +1,561 @@
+{
+  "batch": "EX019",
+  "articles": [
+    {
+      "pmcid": "PMC12319434",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "cryoTEM",
+          "sample": "KL",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo‐TEM image of KL, scale bar = 200 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "KL",
+          "quote": "SAXS pattern of KL."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11642680",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "HRTEM",
+          "sample": "Fe3O4-SA-SiO2 nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(b) high-resolution TEM image, (c) bright-field TEM image, and (d–f) HRSTEM-EDS elemental maps of Fe3O4-SA-SiO2 nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Fe3O4-SA",
+          "size_nm": 48,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; Figure 8 and Figure 9; size before silica shell",
+          "quote": "hydrodynamic diameter by shell formation with silica from 48 nm to 146 nm"
+        },
+        {
+          "sample": "Fe3O4-SA-SiO2",
+          "size_nm": 146,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; Figure 8 and Figure 9; size after silica shell",
+          "quote": "hydrodynamic diameter by shell formation with silica from 48 nm to 146 nm"
+        },
+        {
+          "sample": "Fe3O4-SA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 42,
+          "medium": "not_declared",
+          "source": "zeta potential; text",
+          "quote": "correlating the zeta potential value of 42 mV for Fe3O4-SA with excellent dispersion and non-sedimentation properties."
+        },
+        {
+          "sample": "Fe3O4-SA-SiO2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -10,
+          "medium": "not_declared",
+          "source": "zeta potential; text",
+          "quote": "the silica shell’s presence is observed through the modification of the zeta potential of Fe3O4-SA-SiO2 to −10 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4-SA-SiO2",
+          "quote": "XRD pattern of Fe3O4-SA-SiO2."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4-SA and Fe3O4-SA-SiO2",
+          "quote": "FT-IR spectra—comparisons between Fe3O4-SA and Fe3O4-SA-SiO2."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4-SA-SiO2-micafungin",
+          "quote": "FT-IR spectra—comparisons between Fe3O4-SA-SiO2-micafungin, micafungin, and Fe3O4-SA-SiO2."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4-SA-SiO2",
+          "quote": "HRSTEM-EDS elemental maps of Fe3O4-SA-SiO2 nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12114681",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CNPs and CNPs-pDNA polyplexes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative TEM images of CNPs and (D) CNPs-pDNA polyplexes."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CNPs",
+          "size_nm": 397.6,
+          "pdi": 0.6,
+          "zeta_mV": 20.4,
+          "medium": "not_declared",
+          "source": "DLS and Table 1",
+          "quote": "Hydrodynamic diameter (nm) | 397.6 ± 51.6 | 422.1 ± 12.4"
+        },
+        {
+          "sample": "CNPs-pDNA polyplexes",
+          "size_nm": 422.1,
+          "pdi": 0.6,
+          "zeta_mV": 19.7,
+          "medium": "not_declared",
+          "source": "DLS and Table 1",
+          "quote": "Hydrodynamic diameter (nm) | 397.6 ± 51.6 | 422.1 ± 12.4"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "CNPs and CNPs-pDNA polyplexes",
+          "quote": "(A) UV-Vis absorption spectra, showing characteristic peaks at 240 nm for CNPs and at 260 nm for DNA."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "CNPs and CNPs-pDNA polyplexes",
+          "quote": "(B) FT-IR spectra of CNPs (black) and CNPs-pDNA (gray)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9457851",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "SLN-ferrous sulfate",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SLN morphology with 3000× magnification using SEM (A)"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SLN-ferrous sulfate",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SLN structure with magnifications of 10,000× (A), 20,000× (B), and 50,000× (C) using transmission electron microscopy (TEM)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "C1",
+          "size_nm": 443.7,
+          "pdi": 0.883,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3; Z-average, particle-size analyzer",
+          "quote": "C1 | 443.70 | 0.8830 | 99.99"
+        },
+        {
+          "sample": "C2",
+          "size_nm": 540.4,
+          "pdi": 1.045,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3; Z-average, particle-size analyzer",
+          "quote": "C2 | 540.40 | 1.0450 | 99.97"
+        },
+        {
+          "sample": "C3",
+          "size_nm": 318.1,
+          "pdi": 1.244,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3; Z-average, particle-size analyzer",
+          "quote": "C3 | 318.10 | 1.2440 | 99.99"
+        },
+        {
+          "sample": "C4",
+          "size_nm": 278.7,
+          "pdi": 0.891,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3; Z-average, particle-size analyzer",
+          "quote": "C4 | 278.70 | 0.8910 | 99.99"
+        },
+        {
+          "sample": "C5",
+          "size_nm": 292.4,
+          "pdi": 1.03,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3; Z-average, particle-size analyzer",
+          "quote": "C5 | 292.40 | 1.0300 | 99.99"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "SLN-ferrous sulfate",
+          "quote": "elements of SEM-EDX analysis (C)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12115065",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_negstain",
+          "sample": "L and L-LA liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative image of liposomes (L) shows its spherical morphology. Scale bar is 0.2 µm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "L",
+          "size_nm": 423,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; Figure 4A",
+          "quote": "the DLS analysis confirmed that the effective diameter of L and L-LA was 423 ± 36 nm and 404 ± 62 nm, respectively (Figure 4A,B)."
+        },
+        {
+          "sample": "L-LA",
+          "size_nm": 404,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; Figure 4B",
+          "quote": "the DLS analysis confirmed that the effective diameter of L and L-LA was 423 ± 36 nm and 404 ± 62 nm, respectively (Figure 4A,B)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "L and L-LA",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) of liposomes (L, blue), lipoic acid (LA, red), and liposomes with lipoic acid (L-LA, yellow)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11182833",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "pure MSNPs and MSNPs-CS-DX",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The FE-SEM images of (A) pure MSNPs, (B) MSNPs-CS-DX particles, and (C) MSNPs-CS-DX"
+        },
+        {
+          "fig": "Fig. 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNPs and PEC-coated MSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of (A) the PEC layer coated MSNPs, (A1) a particle with PEC layer, (A2) the porous structure of MSNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "mesoporous silica",
+          "quote": "Wide-angle XRD pattern of synthesized mesoporous silica with CTAB and without CTAB"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSNPs and coated MSNPs",
+          "quote": "The FTIR patterns of mesoporous silica with and without CTAB, mesoporous silica functionalized with APTES"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "MSNPs-CS-DX",
+          "quote": "EDS map analysis of various elements in MSNPs-CS-DX"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11242336",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "B1-B4 polymeric micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Images of B1 (a), B2 (b), B3 (c) and B4 (d) under transmission electron microscopy."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "B1",
+          "size_nm": 114.56,
+          "pdi": 0.21,
+          "zeta_mV": -8.1,
+          "medium": "water",
+          "source": "Table 2; before lyophilization",
+          "quote": "B1 | 114.56 ± 4.03 | 0.21 ±0.013 | -8.10 ±0.15"
+        },
+        {
+          "sample": "B2",
+          "size_nm": 121.36,
+          "pdi": 0.25,
+          "zeta_mV": -5.81,
+          "medium": "water",
+          "source": "Table 2; before lyophilization",
+          "quote": "B2 | 121.36 ± 2.45 | 0.25 ±0.014 | -5.81 ±0.25"
+        },
+        {
+          "sample": "B3",
+          "size_nm": 62.03,
+          "pdi": 0.33,
+          "zeta_mV": -2.27,
+          "medium": "water",
+          "source": "Table 2; before lyophilization",
+          "quote": "B3 | 62.03 ±3.99 | 0.33 ±0.054 | -2.27 ±0.11"
+        },
+        {
+          "sample": "B4",
+          "size_nm": 91.96,
+          "pdi": 0.59,
+          "zeta_mV": -7.78,
+          "medium": "water",
+          "source": "Table 2; before lyophilization",
+          "quote": "B4 | 91.96 ± 5.80 | 0.59 ± 0.032 | -7.78 ± 0.10"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "B1-B4",
+          "quote": "XRD patterns of batches B1, B2, B3 and B4 of polymeric micelles."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "B1-B4",
+          "quote": "FTIR chromatograms of the B1-B4 batches of polymeric micelles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11152947",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "QC-SLNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "a Transmission Electron Microscopy (TEM) micrograph of Quercetin -loaded solid lipid nanoparticles (QC-SLNs). Scale bar: 100 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "QC-SLNs",
+          "size_nm": 112,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; text result",
+          "quote": "consistent with the dynamic light scattering (DLS) measurement of 112 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "QC-SLNs",
+          "quote": "The FTIR spectra for QC-SLNs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12655330",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "olive leaf extract-loaded liposomes AL, PG90, and PH90",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative transmission electron microscopy images of olive leaf extract-loaded liposomes"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "olive leaf extract-loaded liposomes",
+          "quote": "FT-IR spectra of olive leaf extract-loaded liposomes."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11123753",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "HRTEM",
+          "sample": "MT-AgNP and MM-AgNP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and particle diameter histogram for samples MT-AgNP—(a) SAED image; (b) TEM image; (c) HR-TEM image"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MT-AgNP",
+          "size_nm": 14.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 4; TEM particle-size distribution",
+          "quote": "average diameter of 14.4 nm (for sample MT-AgNP) and 18.8 nm (for sample MM-AgNP)."
+        },
+        {
+          "sample": "MM-AgNP",
+          "size_nm": 18.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 4; TEM particle-size distribution",
+          "quote": "average diameter of 14.4 nm (for sample MT-AgNP) and 18.8 nm (for sample MM-AgNP)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MT-AgNP and MM-AgNP",
+          "quote": "UV-Vis absorption spectra of diluted silver nanoparticles samples, by comparison with the used extracts"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MT-AgNP and MM-AgNP",
+          "quote": "XRD results of the analyzed samples"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "MT-AgNP and MM-AgNP",
+          "quote": "FTIR spectra of the NP samples, compared with the parent extracts"
+        }
+      ]
+    }
+  ]
+}

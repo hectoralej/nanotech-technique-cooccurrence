@@ -1,0 +1,104 @@
+{"batch":"EX068","articles":[
+{"pmcid":"PMC6497658","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"Amp-AgNps","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrograph (A), EDX (B), XRD pattern (C) and FTIR (D) of Ampicillin (red) and Amp-AgNps (black)."}],
+"descriptors":[{"sample":"Amp-AgNps","size_nm":44.12,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"silver nanoparticles have average diameter of 44.12 ± 2.89 nm."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Amp-AgNps","quote":"The λmax of brown color solution was obtained at 406 nm after 3.5 hr"},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Amp-AgNps","quote":"XRD data shows the peaks of cubic phase at 111, 200, 220 (Fig. 2C)"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Amp-AgNps","quote":"XRD pattern (C) and FTIR (D) of Ampicillin (red) and Amp-AgNps (black)."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Amp-AgNps","quote":"The elemental analysis was performed by EDX which confirms the formation of Amp-AgNps (Fig. 2B)."}]},
+{"pmcid":"PMC7075022","context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"STEM","sample":"composite NGs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"BFSTEM (a–c) and STEM (d–f) images for composite NGs after washing"}],
+"descriptors":[
+{"sample":"NZ","size_nm":148,"pdi":0.577,"zeta_mV":null,"medium":"other","source":"Table 3","quote":"NZ | 100 | 148 ± 7.7 | 0.577"},
+{"sample":"1NZ-PEGDA700/2000","size_nm":153,"pdi":0.183,"zeta_mV":null,"medium":"other","source":"Table 3","quote":"1NZ-PEGDA700/2000 | 1 | 153 ± 0.5 | 0.183"},
+{"sample":"2NZ-PEGDA700/2000","size_nm":189,"pdi":0.173,"zeta_mV":null,"medium":"other","source":"Table 3","quote":"2NZ-PEGDA700/2000 | 2 | 189 ± 1 | 0.173"},
+{"sample":"3NZ-PEGDA700/2000","size_nm":192,"pdi":0.180,"zeta_mV":null,"medium":"other","source":"Table 3","quote":"3NZ-PEGDA700/2000 | 3 | 192 ± 0.6 | 0.180"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"NZ-PEGDA700/2000","quote":"FTIR spectra of zeolite (NZ), unloaded NG composite (NZ-PEGDA700/2000), 5-fluorouracil (5FU)"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"mixture","sample":"5FU-NZ","quote":"X-ray diffraction XRD patterns for zeolite (NZ), 5FU, and 5FU-loaded zeolite particles (5FU-NZ)."},
+{"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"composite NGs","quote":"corresponding EDX analysis results of composite NGs."}]},
+{"pmcid":"PMC7806599","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_negstain","sample":"EL-LP-CuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM images of EL-LP-CuNPs"}],
+"descriptors":[
+{"sample":"CuNPs","size_nm":23.1,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The particle size results showed a mean diameter of 23.1 nm (Fig. 3D)."},
+{"sample":"EL-LP-CuNPs","size_nm":153.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean particle size of liposomes loaded with lipopeptide and CuNPs was found to be 153.4 nm."}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"biosurfactant","quote":"(B) FTIR spectrum of biosurfactant from Paenibacillus thiaminolyticus SK10."},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Cu-NPs","quote":"(B) X-ray diffraction (XRD) patterns of Cu-NPs"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Cu-NPs","quote":"(C) EDX analysis of the Cu-NPs strong signal of copper confirms the elemental composition of copper nanoparticles"}]},
+{"pmcid":"PMC8563806","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_negstain","sample":"CP-TRANS/TTC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of NLC formulations and their controls (without TTC)"}],
+"descriptors":[
+{"sample":"CP-TRANS","size_nm":166.6,"pdi":0.115,"zeta_mV":-17.4,"medium":"not_declared","source":"Table 2","quote":"CP-TRANS | 166.6 ± 1.4 | 0.115 ± 0.031 | − 17.4 ± 0.6"},
+{"sample":"CP-TRANS/TTC","size_nm":199.0,"pdi":0.187,"zeta_mV":-21.8,"medium":"not_declared","source":"Table 2","quote":"CP-TRANS/TTC | 199.0 ± 2.5 | 0.187 ± 0.028 | − 21.8 ± 1.5"},
+{"sample":"CP-DK","size_nm":189.9,"pdi":0.112,"zeta_mV":-19.0,"medium":"not_declared","source":"Table 2","quote":"CP-DK | 189.9 ± 2.9 | 0.112 ± 0.015 | − 19.0 ± 0.9"},
+{"sample":"CP-DK/TTC","size_nm":215.8,"pdi":0.172,"zeta_mV":-27.8,"medium":"not_declared","source":"Table 2","quote":"CP-DK/TTC | 215.8 ± 1.8 | 0.172 ± 0.010 | − 27.8 ± 0.5"},
+{"sample":"MM-DK","size_nm":193.3,"pdi":0.139,"zeta_mV":-29.0,"medium":"not_declared","source":"Table 2","quote":"MM-DK | 193.3 ± 2.7 | 0.139 ± 0.021 | − 29.0 ± 1.7"},
+{"sample":"MM-DK/TTC","size_nm":222.2,"pdi":0.154,"zeta_mV":-30.1,"medium":"not_declared","source":"Table 2","quote":"MM-DK/TTC | 222.2 ± 2.6 | 0.154 ± 0.020 | − 30.1 ± 0.3"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"CP-TRANS/TTC","quote":"TTC-containing nanoparticles (CP-TRANS/TTC, CP-DK/TTC and MM-DK/TTC) and their controls"},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CP-TRANS/TTC","quote":"DSC (A) and XRD (B) analyses of nanostructured lipid carriers containing tetracaine"},
+{"technique":"Raman","fig":"Fig. 7","applies_to":"nanoparticle","sample":"CP-TRANS","quote":"Raman images: distribution maps (top) and histograms (bottom) of predicted values for"}]},
+{"pmcid":"PMC8625061","context":{"article_kind":"research","carrier_type":"LNP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"NPPOS2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs of (a) NPPOS2 and (b) NPNEG1."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"CaP-NPPOS2A-3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (b) NPPOS2 and (c) CaP-NPPOS2A-3"},
+{"fig":"Fig. 4","variant":"SEM","sample":"CaP-NPNEG1B","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM micrographs of CaP-NPNEG1B at different magnifications"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"CaP-NPNEG1B","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of (a) CaP-NPNEG1B and (b) EDS spectrum of the region displayed in (a)."}],
+"descriptors":[
+{"sample":"NPPOS2","size_nm":205.6,"pdi":0.199,"zeta_mV":34.03,"medium":"not_declared","source":"Table 3","quote":"NPPOS2 | 205.6 ± 3.9 (0.199) | +34.03 ± 3.90"},
+{"sample":"NPNEG1","size_nm":250.5,"pdi":0.235,"zeta_mV":-23.54,"medium":"not_declared","source":"Table 3","quote":"NPNEG1 | 250.5 ± 0.5 (0.235) | −23.54 ± 1.79"},
+{"sample":"CaP-NPPOS2A-3","size_nm":502.8,"pdi":0.299,"zeta_mV":21.28,"medium":"not_declared","source":"Table 4","quote":"CaP-NPPOS2A-3 | 502.8 ± 14.2 (0.299) | +21.28 ± 3.55"},
+{"sample":"CaP-NPPOS2B","size_nm":298.7,"pdi":0.284,"zeta_mV":17.61,"medium":"not_declared","source":"Table 5","quote":"CaP-NPPOS2B | 298.7 ± 10.3 (0.284) | +17.61 ± 1.72"},
+{"sample":"CaP-NPNEG1B","size_nm":318.2,"pdi":0.278,"zeta_mV":-23.43,"medium":"not_declared","source":"Table 5","quote":"CaP-NPNEG1B | 318.2 ± 11.6 (0.278) | −23.43 ± 1.82"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"CaP-NPNEG1B","quote":"FTIR absorbance spectra of Ca3PO4 (red line), NPNEG1 (orange line), CaP-NPNEG1B (blue line)"},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"CaP-NPNEG1B","quote":"XRD patterns of NPNEG1 (orange line), CaP-NPNEG1B (blue line)"},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"CaP-NPNEG1B","quote":"TEM image of (a) CaP-NPNEG1B and (b) EDS spectrum of the region displayed in (a)."}]},
+{"pmcid":"PMC6474018","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"CS/AgNp solution","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Transmission electron microscopy (TEM) images of CS/AgNp solution and Ag particle size distribution for scale"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CS/AgNp solution","quote":"The UV-vis results (Figure 2) show a typical silver absorption peak at 415 nm"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"CS/AgNp solution","quote":"Fourier Transform Infrared (FTIR) results for (a) pristine chitosan; (b) CS/AgNp solution"},
+{"technique":"SAXS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CS/AgNp solution","quote":"SAXS patterns: (a) double-logarithmic plot for pristine chitosan and CS/AgNp solution"}]},
+{"pmcid":"PMC8305564","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"CS-CF/5FU BNCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image, the average diameter and EDX of (a) CF, (b) CS NPs and (c) CS-CF/5FU BNCs"}],
+"descriptors":[
+{"sample":"CS","size_nm":140.09,"pdi":null,"zeta_mV":null,"medium":"buffer","source":"Table 1","quote":"CS | 71.61 ± 5.54 | 140.09 ± 4.70 | 246.09 ± 5.10"},
+{"sample":"CS-CF/5FU BNCs","size_nm":203.52,"pdi":null,"zeta_mV":null,"medium":"buffer","source":"Table 1","quote":"CS-CF/5FU BNCs | 112.51 ± 4.09 | 203.52 ± 2.94 | 274.23 ± 5.11"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CS-CF/5FU BNCs","quote":"XRD spectra of (a) rice straw waste, (b) CF, (c) CS NPs, (d) CS-CF BNCs, (e) CS-CF/5FU BNCs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"CS-CF/5FU BNCs","quote":"FTIR of (a) rice straw waste, (b) CF, (c) CS NPs, (d) CS-CF BNCs, (e) CS-CF/5FU BNCs and (f) 5FU."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CS-CF/5FU BNCs","quote":"As shown in EDX layered image (Figure 2d), CS-CF/5FU BNCs showed elements related to CS and CF"}]},
+{"pmcid":"PMC6781553","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"CaFe2O4 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of the synthesized CaFe2O4 nanoparticles. (A) Selection of particles (Scale bar: 20 nm)."},
+{"fig":"Fig. 9","variant":"SEM","sample":"SMLs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(B) SEM image (scale bar: 200 nm) of an aggregate of two SMLs containing CaFe2O4 nanoparticles"}],
+"descriptors":[
+{"sample":"AMLs (Egg-PC)","size_nm":129,"pdi":0.139,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"AMLs | Egg-PC | 129 ± 12 | 0.139 ± 0.04"},
+{"sample":"AMLs (DPPC)","size_nm":132,"pdi":0.185,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"DPPC | 132 ± 15 | 0.185 ± 0.08"},
+{"sample":"SMLs (DPPC)","size_nm":164,"pdi":0.203,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"SMLs | DPPC | 164 ± 23 | 0.203 ± 0.02"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"CaFe2O4 nanoparticles","quote":"XRD diffractogram of calcium ferrite nanoparticles. (A) Original; (B) Background subtracted."},
+{"technique":"UVVis","fig":"Fig. 5","applies_to":"nanoparticle","sample":"CaFe2O4 nanoparticles","quote":"UV/visible absorption spectra of an aqueous dispersion of CaFe2O4 magnetic nanoparticles."},
+{"technique":"EDS","fig":"Fig. 7","applies_to":"nanoparticle","sample":"CaFe2O4 nanoparticles","quote":"EDX images of TEM image (C), using Ca (D), Fe (E), and O (F) X-ray emission lines"}]},
+{"pmcid":"PMC8778224","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"functionalized NLC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High-resolution TEM images of different sections of freshly prepared functionalized NLC."}],
+"descriptors":[
+{"sample":"NLC Placebo","size_nm":180.3,"pdi":0.216,"zeta_mV":16.97,"medium":"not_declared","source":"Table 2","quote":"NLC Placebo | 180.3 ± 6.3 a | 0.216 ± 0.023 b | 16.97 ± 4.98 b"},
+{"sample":"NLC Riluzole","size_nm":208.5,"pdi":0.154,"zeta_mV":20.67,"medium":"not_declared","source":"Table 2","quote":"NLC Riluzole | 208.5 ± 5.0 a,b | 0.154 ± 0.023 a | 20.67 ± 2.11 b"},
+{"sample":"Functionalized NLC","size_nm":221.9,"pdi":0.219,"zeta_mV":-16.41,"medium":"not_declared","source":"Table 2","quote":"Functionalized NLC | 221.9 ± 18.1 b | 0.219 ± 0.027 b | −16.41 ± 0.31 a"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"functionalized NLC","quote":"Infrared spectra for NLC before and after functionalization with Lf protein."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"functionalized NLC","quote":"X-ray diffractograms of riluzole, Precirol® ATO5, drug–lipid melt, and functionalized NLC."}]},
+{"pmcid":"PMC9230879","context":{"article_kind":"research","carrier_type":"LNP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_negstain","sample":"IMB16-4−LNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM of IMB16-4−LNPs fabricated by coating bilayer lipid membrane to IMB16-4−NPs."}],
+"descriptors":[
+{"sample":"IMB16-4−NPs","size_nm":83.8,"pdi":0.148,"zeta_mV":-23.9,"medium":"water","source":"Table 1","quote":"IMB16-4−NPs | 83.8 ± 35.0 | 0.148 | −23.9"},
+{"sample":"IMB16-4−LNPs","size_nm":119.0,"pdi":0.183,"zeta_mV":-26.6,"medium":"water","source":"Table 1","quote":"IMB16-4−LNPs | 119.0 ± 43.1 | 0.183 | −26.6"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"IMB16-4−LNPs","quote":"FTIR spectra of blank liposomes, IMB16-4−LNPs, IMB16-4−NPs, and IMB16-4 solid powder"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"IMB16-4−LNPs","quote":"DSC (A) and XRD (B) analysis of blank liposomes, IMB16-4−NPs, IMB16-4, and IMB16-4−LNPs."}]}
+]}

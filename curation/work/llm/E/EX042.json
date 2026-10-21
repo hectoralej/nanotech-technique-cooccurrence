@@ -1,0 +1,74 @@
+{"batch":"EX042","articles":[
+{"pmcid":"PMC10746780","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"CSNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of nano chitosan prepared at a pH = 4.2, b pH = 4.4"}],
+"descriptors":[
+{"sample":"pH 4.2","size_nm":58.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Hydrodynamic size (nm) | 58.8 | 114.9 | 125.3 | 128.4"},
+{"sample":"pH 4.4","size_nm":114.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Hydrodynamic size (nm) | 58.8 | 114.9 | 125.3 | 128.4"},
+{"sample":"pH 4.6","size_nm":125.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Hydrodynamic size (nm) | 58.8 | 114.9 | 125.3 | 128.4"},
+{"sample":"pH 4.8","size_nm":128.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Hydrodynamic size (nm) | 58.8 | 114.9 | 125.3 | 128.4"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"nano chitosan","quote":"FT-IR spectra of nano chitosan prepared at a pH = 4.2, b = 4.4"}]},
+{"pmcid":"PMC12568594","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"Fu/BSt/AgNPs/CS","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Electron microscopy imaging including scanning feature of Fu/BSt/AgNPs/CS (S)"}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":7.23,"pdi":null,"zeta_mV":-23.45,"medium":"not_declared","source":"Table 1","quote":"AgNPs | 1.41–33.42 | 7.23 | −23.45"},
+{"sample":"Fu/BSt/AgNPs/CS","size_nm":130.61,"pdi":null,"zeta_mV":24.52,"medium":"not_declared","source":"Table 1","quote":"Fu/BSt/AgNPs/CS | 65.73–286.34 | 130.61 | +24.52"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fu/BSt/AgNPs","quote":"Infrared spectral analysis (FTIR) of fucoidan (Fu), beta sitosterol (BSt), fucoidan, beta sitosterol and silver nanoparticles Fu/BSt/AgNPs."},
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Fu/BSt/AgNPs","quote":"Visual aspects and UV-Vis spectrum of biosynthesized Fu/BSt/AgNPs nanocomposite."}]},
+{"pmcid":"PMC10433347","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"CNPs and OLE-CNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy images of (a) CNPs, (b) OLE-CNPs with different magnifications"},
+{"fig":"Figure 3","variant":"AFM","sample":"CNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) AFM image of chitosan nanoparticles"}],
+"descriptors":[{"sample":"OLE-CNPs","size_nm":100,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The size distribution of OLE-loaded nanoparticles was about 100 nm by dynamic light scattering measurements"}],
+"spectra":[{"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"OLE-CNPs","quote":"FT-IR spectra of OLE-CNPs and CNPs"}]},
+{"pmcid":"PMC12832899","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"Chi-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) Nanocomposite scanning electron microscope. Morphology of AgNPs and Chi-AgNPs at different magnifications."},
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"Chi-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) Nanocomposite transmission electron microscopy image showing the chitosan, AgNPs and Chi-AgNPs morphology at different magnifications."}],
+"descriptors":[
+{"sample":"Chi-AgNPs","size_nm":212.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the particle size of the Chi-AgNPs ranged from 70 nm to 600 nm, with an average diameter of 212.5 nm"},
+{"sample":"AgNPs","size_nm":765.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"resulting in measured particle sizes ranging from approximately 100 nm to 4000 nm, with an average diameter of 765.2 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Chi-AgNPs","quote":"(C2) FTIR spectra of Chi-AgNPs"},
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Chi-AgNPs","quote":"(B) Ultraviolet absorption spectra of the nanocomposites"}]},
+{"pmcid":"PMC10419485","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"C. verum EO/CN-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy of CN-NPs (A) and C. verum EO/CN-NPs (B)."}],
+"descriptors":[
+{"sample":"CN-NPs","size_nm":210,"pdi":0.32,"zeta_mV":42.57,"medium":"not_declared","source":"Table 4","quote":"CN-NPs | 210 ± 10.32 | 0.32 | 42.57 ± 0.87"},
+{"sample":"C. verum EO/CN-NPs","size_nm":480,"pdi":0.21,"zeta_mV":35.64,"medium":"not_declared","source":"Table 4","quote":"C. verum EO/CN-NPs opt | 480 ± 14.55 | 0.21 | 35.64 ± 1.37"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"C. verum EO/CN-NPs","quote":"FTIR spectrum of unloaded chitosan (CN), chitosan nanoparticles (CN-NPs), C. verum essential oil (EO), and encapsulated EO into chitosan nanoparticles"}]},
+{"pmcid":"PMC11780327","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Fe3O4@dSiO2-(HE)10","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of dSiO2 templates (a), Fe3O4@dSiO2 (b), and Fe3O4@dSiO2-(HE)10 (c)."},
+{"fig":"Fig. 3","variant":"SEM","sample":"Fe3O4@dSiO2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of dSiO2 templates (a) and Fe3O4@dSiO2 (b)"}],
+"descriptors":[
+{"sample":"dSiO2","size_nm":340,"pdi":null,"zeta_mV":null,"medium":"other","source":"text","quote":"distributed around the average hydrated particle sizes of 340 nm, 370 nm and 370 nm"},
+{"sample":"Fe3O4@dSiO2","size_nm":370,"pdi":null,"zeta_mV":null,"medium":"other","source":"text","quote":"distributed around the average hydrated particle sizes of 340 nm, 370 nm and 370 nm"},
+{"sample":"Fe3O4@dSiO2-(HE)10","size_nm":null,"pdi":null,"zeta_mV":17.5,"medium":"buffer","source":"text","quote":"and their zeta potentials were +5.9, −0.5 and +17.5, respectively"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Fe3O4@dSiO2-(HE)10","quote":"XRD patterns of Fe3O4, Fe3O4@dSiO2 and Fe3O4@dSiO2-(HE)10 nanospheres"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fe3O4@dSiO2-(HE)10","quote":"EDS elemental (Fe, N, O, Si, and S) mapping images (e–i) of a single Fe3O4@dSiO2-(HE)10 nanosphere."}]},
+{"pmcid":"PMC10626514","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"curcumin-loaded chitosan NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of curcumin loaded chitosan nanoparticles"},
+{"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"curcumin-loaded chitosan NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of curcumin-loaded chitosan nanoparticles"}],
+"descriptors":[{"sample":"curcumin-loaded chitosan NPs","size_nm":null,"pdi":null,"zeta_mV":64.9,"medium":"not_declared","source":"text","quote":"Curcumin-loaded chitosan nanoparticles had a mean zeta potential value of 64.9 mV, indicating stability."}],
+"spectra":[{"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"curcumin-loaded chitosan NPs","quote":"FTIR spectra of curcumin-loaded chitosan nanoparticle"}]},
+{"pmcid":"PMC12474722","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AuCh-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images show the morphology and size distribution of synthesized nanoparticle sizes"}],
+"descriptors":[
+{"sample":"AuCh-NPs","size_nm":null,"pdi":null,"zeta_mV":-13.1,"medium":"not_declared","source":"text","quote":"Zeta potentials of − 20.1 mv for chaga extract, − 13.1 mV for AuCh-NPs, and − 18.5 mV for AuCit-NPs"},
+{"sample":"AuCit-NPs","size_nm":null,"pdi":null,"zeta_mV":-18.5,"medium":"not_declared","source":"text","quote":"Zeta potentials of − 20.1 mv for chaga extract, − 13.1 mV for AuCh-NPs, and − 18.5 mV for AuCit-NPs"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuCh-NPs","quote":"UV–visible absorption spectra of Chaga extract (Ch), AuCh-NPs, and AuCit-NPs"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuCh-NPs","quote":"FTIR spectra showing characteristic peaks of functional groups in Chaga extract (black line), mycosynthesized AuCh-NPs (red line)"}]},
+{"pmcid":"PMC10119156","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[],"descriptors":[],
+"spectra":[{"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"BV-loaded CS-NPs","quote":"(b) CS-NPs compared to BV-loaded CS-NPs"}]},
+{"pmcid":"PMC11700447","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AgNPs and SeNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Transmission electron microscopic image of nanoparticles A AgNPs, B SeNPs (scale bar = 100 nm)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"FT-IR analysis of biogenic nanoparticles A AgNPs, B SeNPs"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD pattern of mycosynthesized nanoparticles A AgNPs, B SeNPs"}]}
+]}

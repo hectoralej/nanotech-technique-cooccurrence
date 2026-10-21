@@ -27,3 +27,21 @@
 - Haiku (EX052–EX054): 23 artículos, 22 en E1. Usó más filas de descriptores por artículo que Codex (2,3 frente a 1,3) por dividir filas, y una muestra quedó sin nombre. Aún no hay una verificación humana de ninguno de los dos extractores.
 - Estos tres lotes son del final de la lista de prioridad (menos tipos de espectro en figura), por eso hay más nanomateriales (18 de 23).
 - Consumo de Haiku en esta tanda: unos 260 mil tokens para 23 artículos (`consumption_log.csv`).
+
+## Checkpoint Claude 20 % (21 oct, manana)
+Tanda 1 hecha: EX037-EX041 (50 articulos, ~420 mil tokens de Haiku, ~8,4 mil por articulo; proyeccion de mis 25 lotes: ~2,1 M). Uso: semanal 3 %, 5 horas 18 %. Descarga de textos terminada (2.435/2.435): falta correr screen + packets para los lotes nuevos. Siguiente: tanda 2 = EX042-EX046, luego EX047-EX051, EX068-EX072, EX073-EX077. Los agentes Haiku parten a veces la cita del zeta (solo la frase del tamano); el codigo lo marca.
+
+## Checkpoint Claude 40 % (21 oct)
+Tanda 2 hecha: EX042-EX046 (50 articulos, ~400 mil tokens; el consumo de EX042-043 es estimado). Acumulado mio: 100 articulos, ~820 mil tokens. Se corrio screen + packets con la descarga terminada: hay lotes nuevos despues de EX152. Siguiente: tanda 3 = EX047-EX051.
+
+## Checkpoint Claude 60 % (21 oct)
+Tanda 3 hecha: EX047-EX051 (50 articulos, ~400 mil tokens; EX047-048 estimado). Acumulado mio: 150 articulos, ~1,2 M tokens. Siguiente: tanda 4 = EX068-EX072, tanda 5 = EX073-EX077.
+
+## Checkpoint Claude 80 % (21 oct)
+Tanda 4 hecha: EX068-EX072 (50 articulos, ~410 mil tokens). Acumulado mio: 200 articulos, ~1,6 M tokens. Falta la tanda 5 = EX073-EX077.
+
+## Checkpoint Claude 100 % (21 oct)
+Tanda 5 hecha: EX073-EX077. Mis 25 lotes (250 articulos) completos: EX037-EX051 y EX068-EX077. Siguiente: verificar lo de Codex (EX078-EX102), repartir EX103-EX185 y EX055-EX067.
+
+## Checkpoint Claude 100 % (21 oct)
+Tanda 5 hecha: EX073-EX077. Mis 25 lotes (250 articulos) completos: EX037-EX051 y EX068-EX077 (~2,3 M tokens de Haiku, 5 % del limite semanal). apply ahora salta filas que no son objetos. Siguiente: verificar EX078-EX102 de Codex, repartir EX103-EX185 y EX055-EX067.

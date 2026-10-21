@@ -303,7 +303,7 @@ def apply() -> None:
             doi = rk.loc[pm, "doi"]
             link = ("https://doi.org/" + doi) if isinstance(doi, str) and doi else f"https://pmc.ncbi.nlm.nih.gov/articles/{pm}/"
             P, D, S = [], [], []
-            for x in rec.get("panels") or []:
+            for x in [r for r in (rec.get("panels") or []) if isinstance(r, dict)]:
                 ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1
@@ -311,7 +311,7 @@ def apply() -> None:
                 if x.get("variant") in MICRO_OK and x.get("shows_nanocarrier") is True:
                     P.append(dict(pmcid=pm, doi_link=link, fig=x.get("fig"), variant=x.get("variant"), sample=x.get("sample"), scale_bar_in_caption=(True if x.get("scale_bar_in_caption") is True else None),
                                   image_file=gfx.get(_fignum(x.get("fig") or "")), quote=(x.get("quote") or "")[:200]))
-            for x in rec.get("descriptors") or []:
+            for x in [r for r in (rec.get("descriptors") or []) if isinstance(r, dict)]:
                 ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1
@@ -325,7 +325,7 @@ def apply() -> None:
                     vals[k] = v
                 if any(v is not None for v in vals.values()):
                     D.append(dict(pmcid=pm, doi_link=link, sample=x.get("sample"), **vals, medium=x.get("medium"), source=x.get("source"), quote=(x.get("quote") or "")[:200]))
-            for x in rec.get("spectra") or []:
+            for x in [r for r in (rec.get("spectra") or []) if isinstance(r, dict)]:
                 ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1

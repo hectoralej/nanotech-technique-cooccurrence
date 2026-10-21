@@ -1,0 +1,422 @@
+{
+  "batch": "EX081",
+  "articles": [
+    {
+      "pmcid": "PMC8875207",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "cryoTEM",
+          "sample": "PC/Chol liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative cryo-TEM micrographs of PC/Chol (1:1) liposomes"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "liposome dispersions",
+          "quote": "X-ray diffraction spectra of some liposome dispersions"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9680358",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "Ag/SFMWCNT nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (A) the prepared olive-leaf extract and (B) synthesized Ag/SFMWCNT nanocomposite."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag/SFMWCNT nanocomposite",
+          "size_nm": 257,
+          "pdi": null,
+          "zeta_mV": -24,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the particle size for the prepared nanocomposite was 257 nm, and the zeta potential was −24 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag/SFMWCNT",
+          "quote": "UV–Vis. absorption spectra of olive-leaf extract and Ag/SFMWCNT with olive-leaf extract."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ag/SFMWCNT nanocomposite",
+          "quote": "XRD patterns of the olive-leaf extract and XRD patterns of the Ag/SFMWCNTs nanocomposite"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Ag/SFMWCNT nanocomposite",
+          "quote": "FTIR spectroscopy results of the olive-leaf extract and Ag/SFMWCNTs nanocomposite."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Ag/SFMWCNT nanocomposite",
+          "quote": "EDS images of the Ag/SFMWCNT nanocomposite."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7335759",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM micrographs of a chitosan nanoparticles at 10 μm."
+        },
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PM-loaded chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM micrograph of Pterocarpus marsupium-loaded chitosan nanoparticles at 100 nm magnification"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PM-CNPs-2",
+          "size_nm": 676,
+          "pdi": null,
+          "zeta_mV": 57.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "PM-CNPs-2 with 57.3 mV and with an optimum particle size of 676± 2.76 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "XRD pattern of chitosan nanoparticles synthesized by Pterocarpus marsupium Rox.b heartwood extract"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "PM-CNPs",
+          "quote": "FT-IR spectrums of aPterocarpus marsupium (PM) aqueous stem bark extract, b chitosan nanoparticles (CNPs)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7056839",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_dried_unstained",
+          "sample": "E. coli outer membrane vesicles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission Electron Microscopy image of vesicles by E. coli grown at 37°C obtained without negative staining."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "OMVs from E. coli grown at 37°C",
+          "size_nm": 48,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "culture_medium",
+          "source": "text",
+          "quote": "vesicles have a spherical shape with a mean hydrodynamic diameter of 48 ± 3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "FIGURE 7",
+          "applies_to": "nanoparticle",
+          "sample": "vesicles",
+          "quote": "SAXS spectra of vesicles maintained at temperatures between 10 and 45°C"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8879489",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "AuNPs in chitosan-GLA nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images of chitosan-GLA/AuNPs nanocomposite"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-GLA/AuNPs beads",
+          "quote": "FT-IR of (a) chitosan flakes, (b) chitosan-GLA beads, and (c) chitosan-GLA/AuNPs beads."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-GLA/AuNPs beads",
+          "quote": "UV–vis absorption spectra of chitosan flakes and chitosan-GLA/AuNPs beads"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan-GLA/AuNPs beads",
+          "quote": "XRD patterns of (a) chitosan flakes, (b) chitosan-GLA, and (c) chitosan-GLA/AuNPs beads."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8883951",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "nHAp nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of nHAp (a), Sr/Zn-1-nHAp (b), Sr/Zn-2.5-nHAp (c), Sr/Zn-4-nHAp (d)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Sr/Zn-nHAp",
+          "quote": "XRD pattern of Sr-nHAp (a), Zn-nHAp (b), Sr/Zn-nHAp (c)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Sr/Zn-nHAp",
+          "quote": "FTIR spectra of Sr-nHAp (a), Zn-nHAp (b), Sr/Zn-nHAp (c)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7730761",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "plain/anionic/cationic liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "representative electron microphotographs of (b) plain (LP-P), (c) anionic (LP-DCP) and (d) cationic (LP-DDAC) liposomes."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "liposome formulations",
+          "size_nm": 200,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "All the formulations showed vesicles mean diameters around 200 nm, ranging from 180 to 205 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "empty liposomes",
+          "quote": "Small-angle X-ray scattering (SAXS) profiles of the different empty LP-P (a), LP-DDAC (b), LP-DEBDA (c), LP-SA (d) and LP-DCP (e)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8779972",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "AgNP-loaded nanofibers",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a,b) AgNPs-0@NFs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV-vis spectroscopy of the extract and AgNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "XRD of AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs-3@NFs",
+          "quote": "FTIR of (a) HPS, (b) PU and (c) AgNPs-3@NFs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9649682",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "ICN-K04",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Transmission electron micrographs of ICN-K04shows particle size of 50–80 nm"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "ICN-K04",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron micrographs. Scale bar-100 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "isolongifolene chitosan nanoparticle",
+          "quote": "XRD spectrum of chitosan and Isolongifolene chitosan nanoparticle."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7013419",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "liposome, LCispt, PLCispt",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images of (A) liposome, (B) LCispt, and (C) PLCispt"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "PLCispt",
+          "quote": "Fourier-transform infrared spectroscopy (FTIR) spectrum of the PLCispt."
+        }
+      ]
+    }
+  ]
+}

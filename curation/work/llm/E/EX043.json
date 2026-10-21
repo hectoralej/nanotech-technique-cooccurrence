@@ -1,0 +1,73 @@
+{"batch":"EX043","articles":[
+{"pmcid":"PMC10604063","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Figure 2","variant":"SEM","sample":"nCur/Mlx","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) SEM images of nCur, nMlx, and nCur/Mlx."}],
+"descriptors":[
+{"sample":"nCur","size_nm":168.13,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Figure 1A","quote":"Figure 1A indicates the 168.13 nm, 122.41 nm, and 193.78 nm zeta sizes of nCur, nMlx, and nCur/Mlx, respectively."},
+{"sample":"nMlx","size_nm":122.41,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Figure 1A","quote":"Figure 1A indicates the 168.13 nm, 122.41 nm, and 193.78 nm zeta sizes of nCur, nMlx, and nCur/Mlx, respectively."},
+{"sample":"nCur/Mlx","size_nm":193.78,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Figure 1A","quote":"Figure 1A indicates the 168.13 nm, 122.41 nm, and 193.78 nm zeta sizes of nCur, nMlx, and nCur/Mlx, respectively."}],
+"spectra":[{"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"nCur/Mlx","quote":"(A) FT-IR spectra of PLGA, curcumin, meloxicam, and nCur/Mlx."}]},
+{"pmcid":"PMC12302189","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"BL@TA-FeIII@AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) TEM images of BL, BL@TA-FeIII, BL@TA-FeIII@AgNPs."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"BL@TA-FeIII@AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) TEM images and bacterial length distribution of BL@TA-FeIII@AgNPs after treatment with PBS, SGF, and SIF."}],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"BL@TA-FeIII@AgNPs","quote":"(E) EDS elemental analysis patterns of BL, BL@TA-FeIII, BL@TA-FeIII@AgNPs."},
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"BL@TA-FeIII@AgNPs","quote":"(G) XRD analysis of BL@TA-FeIII@AgNPs"}]},
+{"pmcid":"PMC9862130","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Figure 4","variant":"SEM","sample":"MMC@CS-Mn:ZnS","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM images for (d) CS and (e) MMC@CS-Mn:ZnS."}],
+"descriptors":[
+{"sample":"CS","size_nm":80.45,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"For the particle size, 80.45 ± 1.06 nm and 105.43 ± 0.88 nm were obtained for CS"},
+{"sample":"MMC@CS-Mn:ZnS","size_nm":105.43,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"For the particle size, 80.45 ± 1.06 nm and 105.43 ± 0.88 nm were obtained for CS"}],
+"spectra":[{"technique":"UVVis","fig":"Figure 4","applies_to":"nanoparticle","sample":"MMC@CS-Mn:ZnS","quote":"(a) UV-Vis spectroscopy for MMC and MMC@CS-Mn:ZnS"}]},
+{"pmcid":"PMC12660102","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"SEM","sample":"SiAgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(c–f) SEM micrographs showing predominantly spherical nanoparticles with some agglomerates."}],
+"descriptors":[{"sample":"SiAgNPs","size_nm":386.6,"pdi":0.366,"zeta_mV":null,"medium":"other","source":"Fig. 4","quote":"showing a Z-average size of 386.6 nm with a polydispersity index (PDI) of 0.366"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SiAgNPs","quote":"(c) FTIR spectrum of SiAgNPs showing similar bands with reduced intensity"},
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SiAgNPs","quote":"a plasmon resonance peak at 437 nm for SiAgNPs"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"cryptomeridiol","quote":"IR spectrum of cryptomeridiol showing characteristic absorption bands confirming hydroxyl and other functional groups"}]},
+{"pmcid":"PMC10416621","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"Carum copticum OLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs at 80 kV of Carum copticum oil–loaded nanoparticles"},
+{"fig":"Figure 4","variant":"SEM","sample":"Carum copticum OLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs of Carum copticum oil–loaded nanoparticles"}],
+"descriptors":[
+{"sample":"1:0 (control)","size_nm":120.0,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:0 (control) | – | 120.0 ± 6.93b"},
+{"sample":"1:0.5","size_nm":125.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:0.5 | 84.16 ± 1.64a | 125.3 ± 9.02b"},
+{"sample":"1:1","size_nm":138.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:1 | 71.16 ± 0.72b | 138.3 ± 12.57b"},
+{"sample":"1:1.25","size_nm":223.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1:1.25 | 34.33 ± 0.44c | 223.6 ± 11.40a"}],
+"spectra":[{"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"OLNs","quote":"FTIR spectra of (A) chitosan particles, (B) Carum copticum EO, (C) TPP, and (D) OLNs"}]},
+{"pmcid":"PMC12140272","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig 1","variant":"TEM_prep_not_declared","sample":"SSLE-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d) Transmission Electron Microscopy image"}],
+"descriptors":[{"sample":"SSLE-AuNPs","size_nm":114.7,"pdi":0.30,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The particle size of the biosynthesized AuNPs estimated by DLS approach was 114.7 ± 9.8 nm with a PDI of 0.30"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig 1","applies_to":"nanoparticle","sample":"SSLE-AuNPs","quote":"Characteristic Surface plasmon resonance peak of AuNPs during UV-Vis spectrophotometer analysis was observed at 559 nm"},
+{"technique":"FTIR","fig":"Fig 2","applies_to":"nanoparticle","sample":"SSLE-AuNPs","quote":"FTIR spectra of SSLE (Blue line) and SSLE-AuNPs (Red line)"}]},
+{"pmcid":"PMC10222522","context":{"article_kind":"research","carrier_type":"micelle","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Figure 5","variant":"TEM_prep_not_declared","sample":"Docetaxel-loaded micelles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images corresponding for empty polymeric micelles (a) compared with Docetaxel-loaded micelles (b)."}],
+"descriptors":[
+{"sample":"Docetaxel-loaded micelles","size_nm":null,"pdi":null,"zeta_mV":-8.66,"medium":"not_declared","source":"text","quote":"The zeta potential value for the Docetaxel-loaded micelles was −8.66 mV"},
+{"sample":"drug-free micelles","size_nm":null,"pdi":null,"zeta_mV":-10.5,"medium":"not_declared","source":"text","quote":"while for the drug-free micelles, it registered a value of −10.5 mV"}],
+"spectra":[{"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"Docetaxel-loaded micelles","quote":"FTIR spectra of PPP/PEG–NH/Hys/MAB (a) and Docetaxel-loaded PPP/PEG–NH/Hys/MAB micelles (b)"}]},
+{"pmcid":"PMC12735948","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 9","variant":"TEM_prep_not_declared","sample":"SPION","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM image of SPION sample without polymer addition, bar size 20 nm"},
+{"fig":"Fig. 10","variant":"TEM_prep_not_declared","sample":"PEG-SPIONx","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of PEG-SPIONx samples: (a) sample 1PEG25, bar size 20 nm"},
+{"fig":"Fig. 11","variant":"TEM_prep_not_declared","sample":"PVA-SPIONy","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of PVA-SPIONy samples: (a) sample 1PVA01, bar size 20 nm"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"SPION","quote":"XRD patterns of the dried suspension samples obtained by the synthesis performed without polymers (sample SPION)"},
+{"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"1PEG25","quote":"FT-IR analysis of 1PEG25, 1PEG50, 1PEG75 samples"}]},
+{"pmcid":"PMC10212155","context":{"article_kind":"research","carrier_type":"micelle","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig 5","variant":"TEM_prep_not_declared","sample":"MP3 and MT3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) MP3 and (b) MT3 formulations."}],
+"descriptors":[
+{"sample":"MP3","size_nm":272.5,"pdi":0.418,"zeta_mV":-6.2,"medium":"not_declared","source":"Table 4","quote":"MP3 | 272.5 ± 65.4 | -6.2 | 0.418"},
+{"sample":"MT3","size_nm":129.8,"pdi":0.850,"zeta_mV":-5.2,"medium":"not_declared","source":"Table 4","quote":"MT3 | 129.8 ± 6.7 | -5.2 | 0.850"},
+{"sample":"CP3","size_nm":190.4,"pdi":0.799,"zeta_mV":-6.4,"medium":"not_declared","source":"Table 4","quote":"CP3 | 190.4 ± 11.3 | -6.4 | 0.799"},
+{"sample":"CT3","size_nm":144.1,"pdi":0.508,"zeta_mV":-3.2,"medium":"not_declared","source":"Table 4","quote":"CT3 | 144.1 ± 17.8 | -3.2 | 0.508"}],
+"spectra":[{"technique":"FTIR","fig":"Fig 2","applies_to":"component","sample":"PCL-PEG copolymer","quote":"FTIR spectrum of PLC, PEG and PCL-PEG co-polymer."}]},
+{"pmcid":"PMC12785830","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"MSCMN_700","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of a section of the MSCMN_700, (a)."}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MSCMN_100","quote":"Panel (a) presents X-ray diffraction intensity vs. diffraction angle for ferrocellulose microspheres with the sizes ~100 μm."}]}
+]}

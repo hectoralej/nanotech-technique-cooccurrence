@@ -1,0 +1,504 @@
+{
+  "batch": "EX088",
+  "articles": [
+    {
+      "pmcid": "PMC13433528",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "Fe2O3 nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM morphology"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Fe2O3 nanoparticles",
+          "size_nm": null,
+          "pdi": 0.241,
+          "zeta_mV": -28.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Zeta potential: −28.4 ± 1.6 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Fe2O3 nanoparticles",
+          "quote": "Hydrodynamic sizes distribution determined by DLS."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Fe2O3 nanoparticles",
+          "quote": "XRD pattern indexed to α-Fe2O3"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Fe2O3 nanoparticles",
+          "quote": "synthesized Fe2O3 nanoparticles"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Fe2O3 nanoparticles",
+          "quote": "EDX elemental composition"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6032256",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTX-loaded micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope (TEM) image of PTX-loaded micelles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "blank micelles",
+          "size_nm": 35,
+          "pdi": 0.105,
+          "zeta_mV": 19,
+          "medium": "water",
+          "source": "text",
+          "quote": "blank micelles (35 nm, PDI of 0.105)"
+        },
+        {
+          "sample": "PTX-loaded micelles",
+          "size_nm": 142,
+          "pdi": 0.186,
+          "zeta_mV": 16,
+          "medium": "water",
+          "source": "text",
+          "quote": "the mean particle size of PTX-loaded micelles was 142 nm with polydispersity index (PDI) of 0.186"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "PTX-loaded and blank micelles",
+          "quote": "X-ray diffraction (XRD) spectra of (a) blank micelles; (b) paclitaxel (PTX)-loaded micelles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12860548",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 4",
+          "variant": "SEM",
+          "sample": "Np-AgPPN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of (A) isolated piperine"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "Np‐AgPPN",
+          "quote": "UV–Vis absorption spectra of (A) isolated piperine"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "Np‐AgPPN",
+          "quote": "FTIR‐ATR of isolated piperine (PPN)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "Np‐AgPPN",
+          "quote": "Diffractograms of (A) NNP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6213782",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTX-loaded FA-CS-DA micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) image of paclitaxel (PTX)-loaded FA-CS-DA micelles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "bare FA-CS-DA micelles",
+          "size_nm": 78,
+          "pdi": 0.232,
+          "zeta_mV": 29.1,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "bare ones (78 nm, PDI of 0.232)"
+        },
+        {
+          "sample": "PTX-loaded FA-CS-DA micelles",
+          "size_nm": 126,
+          "pdi": 0.256,
+          "zeta_mV": 19.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The mean particle size of PTX-loaded FA-CS-DA micelles determined by the DLS method was 126 nm, with a polydispersity index (PDI) of 0.256"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "CS, CS-DA and FA-CS-DA",
+          "quote": "FTIR spectra of (a) CS, (b) CS-DA and (c) FA-CS-DA."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "PTX-loaded and blank micelles",
+          "quote": "XRD spectra of (a) PTX, (b) a physical mixture of PTX and blank micelles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6406235",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "C. arvensis AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "scanning electron microscopy (SEM)"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "C. arvensis AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscopy (TEM)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "C. arvensis AgNPs",
+          "quote": "UV-Vis spectral analysis of control and freshly extracted C. arvensis AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "C. arvensis AgNPs",
+          "quote": "Fourier transform infrared spectroscopy (FT-IR) spectrum"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "C. arvensis AgNPs",
+          "quote": "X-ray diffraction (XRD) spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6039471",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SBs-loaded Chitosan:TPP NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the SBs loaded Chitosan:TPP NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "optimized SBs-loaded Chitosan:TPP NPs",
+          "size_nm": 162.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "optimized SBs loaded Chitosan:TPP NPs formulations with particle size (R1) and EE (R2) of 162.70 nm and 75.36%, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Empty and SBs-loaded Chitosan:TPP NPs",
+          "quote": "FTIR spectra of the Empty Chitosan:TPP NPs and SBs loaded Chitosan:TPP NPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Empty and SBs-loaded Chitosan:TPP NPs",
+          "quote": "X ray diffractogram of the Empty Chitosan:TPP NPs and SBs loaded Chitosan:TPP NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6473971",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MCM-41 NPs",
+          "quote": "Transmission electron microscopy (TEM) micrographs of MCM-41 nanoparticle",
+          "scale_bar_in_caption": true,
+          "shows_nanocarrier": true
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNS@SiO2 NPs",
+          "quote": "TEM micrographs of gold@silica nanoparticles (AuNS@SiO2 NPs) with AuNSs incorporated",
+          "scale_bar_in_caption": true,
+          "shows_nanocarrier": true
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "quote": "Small angle X-ray scattering (SAXS) diffractograms of MCM-41 NPs",
+          "fig": "Figure 1",
+          "technique": "SAXS",
+          "sample": "MCM-41 NPs",
+          "applies_to": "nanoparticle"
+        },
+        {
+          "quote": "SAXS diffractograms for (c) system C and (d) system D",
+          "fig": "Figure 3",
+          "technique": "SAXS",
+          "sample": "AuNS@SiO2 NPs",
+          "applies_to": "nanoparticle"
+        },
+        {
+          "quote": "Bottom: UV-visible spectra of gold nanoparticles (AuNPs)",
+          "fig": "Figure 5",
+          "technique": "UVVis",
+          "sample": "AuNPs and Au@SiO2 NPs",
+          "applies_to": "nanoparticle"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5796282",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 17",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NAC-PLGA-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of NAC-PLGA-NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "blank PLGA-NPs",
+          "size_nm": 222.2,
+          "pdi": 0.03,
+          "zeta_mV": -8.35,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "blank PLGA-NPs had a narrow size distribution (by volume) of 97.8%, with 0.030 PdI and a 222.2 nm average particle size"
+        },
+        {
+          "sample": "NAC-PLGA-NPs",
+          "size_nm": 226.9,
+          "pdi": 0.004,
+          "zeta_mV": -7.41,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "NAC-PLGA-NPs also had a narrow size distribution (by volume) of 97.7%, with 0.004 PdI and a 226.9 nm average particle size"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "NAC-PLGA-NPs and PLGA-NPs",
+          "quote": "ATR spectra of NAC, NAC-PLGA-NPs, and PLGA-NPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 18",
+          "applies_to": "nanoparticle",
+          "sample": "NAC-PLGA-NPs",
+          "quote": "EDS analysis of NAC-PLGA-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10568009",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNP-NAT and AuNP-Doxorubicin",
+          "quote": "UV-visible spectroscopy confirmed the loading of NAT and Doxorubicin to AuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "AuNP-NAT and AuNP-Doxorubicin",
+          "quote": "FTIR analysis was performed"
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "AuNP-NAT and AuNP-Doxorubicin",
+          "quote": "Representation of Powder XRD peaks of AuNP-NAT and AuNP-Doxorubicin."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5618380",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NaYF4 nanocrystals",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmittance electron microscopic (TEM) images of: (a) polygonal (small); and (b) cubic-like (large) NaYF4 nanocrystals."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PAMAM dendrimer-encapsulated nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmittance electron microscopic (TEM) images of: (a) citrate; and (b) PAMAM dendrimer-encapsulated nanoparticles (G4-UCNP)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "core-shell nanocrystals",
+          "size_nm": 16,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the images of the core-shell nanocrystals, taken using TEM, display a polygonal morphology with an average dimension of 16.0 ± 2.1 nm"
+        },
+        {
+          "sample": "G4-functionalized UCNPs",
+          "size_nm": 180,
+          "pdi": null,
+          "zeta_mV": 31.7,
+          "medium": "water",
+          "source": "text",
+          "quote": "the hydrodynamic dimension of the G4-functionalized UCNPs determined by dynamic light scattering is approximately 180 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "hybrid nanoparticles",
+          "quote": "UV-Vis absorption"
+        }
+      ]
+    }
+  ]
+}

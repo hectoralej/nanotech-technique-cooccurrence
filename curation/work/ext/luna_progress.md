@@ -16,4 +16,42 @@
 - 2026-10-20 — EX014 — 10 artículos — salida creada y validada (orden, JSON, citas ≤25 palabras y escala no-false) — problemas: ninguno conocido.
 - 2026-10-20 — EX015 — 10 artículos — salida creada y validada (orden, JSON, citas ≤25 palabras y escala no-false) — problemas: ninguno conocido.
 - 2026-10-20 — EX016 — 10 artículos — salida creada y validada (orden, JSON, citas ≤25 palabras y escala no-false) — problemas: ninguno conocido.
-- EX017 en adelante — pendiente: continuar E1 en orden.
+- 2026-10-20 22:15 Phoenix — EX017 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: nanopartículas biogénicas como `nanomaterial`; ninguno conocido fuera de eso.
+- 2026-10-20 22:19 Phoenix — EX018 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: artículos con varias familias/nanopartículas; método de tamaño no indicado en algunos, se dejó vacío.
+- 2026-10-20 22:21 Phoenix — EX019 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: plasmid DNA no es carrier viral; se procesó como polímero; tamaños DLS no disponibles en algunos, omitidos.
+- 2026-10-20 22:24 Phoenix — EX020 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: nanomateriales biogénicos y micropartículas spray-dried; tamaños DLS ausentes se omitieron.
+- CHECKPOINT 20% (40/200 artículos; EX017–EX020): cuatro lotes válidos, progreso guardado; clasificaciones manuales muestran nanopartículas de síntesis verde como `nanomaterial`; plásmido no tratado como carrier viral; no corrí `apply` ni verifiqué imágenes originales.
+- 2026-10-20 22:30 Phoenix — EX021 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: plata/selenio biogénicos como `nanomaterial`; se omitieron valores sin DLS numérico.
+- 2026-10-20 22:25 Phoenix — EX022 — 10 artículos — salida creada y validada (orden, citas literales ≤25 palabras, pertenencia al paquete y escala true/null) — casos: caracterización de nanomateriales; sin incidencias conocidas.
+- 2026-10-20 22:27 Phoenix — EX023 — 10 artículos — JSON válido, orden del lote y citas literales (≤25 palabras) comprobados; sin `scale_bar_in_caption: false` — casos: sílice biogénica y plata verde como nanomateriales; no verifiqué imágenes ni corrí `apply`.
+- 2026-10-20 22:28 Phoenix — EX024 — 10 artículos — JSON válido, orden del lote y citas literales (≤25 palabras) comprobados; sin `scale_bar_in_caption: false` — casos: AgNPs verdes/antimicrobianos etiquetados `nanomaterial`; no verifiqué imágenes ni corrí `apply`.
+- CHECKPOINT 40% (80/200 artículos; EX017–EX024): ocho lotes guardados y validados; continuación en EX025; extracción solamente, sin `apply` ni verificación de imágenes originales.
+- EX025 en adelante — pendiente; checkpoint siguiente al completar EX028 (120/200).
+- 2026-10-20 22:29 Phoenix — EX025 — 10 artículos — JSON válido, orden y citas exactas (≤25 palabras) comprobados; escalas true/null — casos: plata biogénica/antimicrobiana y óxido de zinc caracterizados como `nanomaterial`; no verifiqué imágenes ni corrí `apply`.
+- 2026-10-20 22:31 Phoenix — EX026 — 10 artículos — JSON y orden verificados; citas cotejadas, ≤25 palabras; escalas true/null — casos: AgNPs/chitosan para acción antimicrobiana y oro biogénico como `nanomaterial`.
+- 2026-10-20 22:32 Phoenix — EX027 — 10 artículos — JSON y orden verificados; citas cotejadas, ≤25 palabras; escalas true/null — casos: sílice funcionalizada, plata y oro biogénicos; se priorizó DLS cuando estaba disponible.
+- 2026-10-20 22:33 Phoenix — EX028 — 10 artículos — JSON y orden verificados; citas cotejadas, ≤25 palabras; escalas true/null — casos: nanopartículas antimicrobianas/biogénicas como `nanomaterial`; AAV/virus ausente.
+- CHECKPOINT 60% (120/200 artículos; EX017–EX028): 12 lotes creados y validados; siguiente EX029. No se verificaron imágenes originales ni se ejecutó `apply`.
+- EX029 en adelante — pendiente; checkpoint siguiente al completar EX032 (160/200).
+- 2026-10-21 09:09 Phoenix — EX031 — 10 artículos — salida creada, JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: PLGA microspheres, AuNPs biogénicas y silica comercial extraídos según regla; no se verificaron imágenes originales ni se ejecutó `apply`.
+- 2026-10-21 09:09 Phoenix — EX032 — 10 artículos — salida creada, JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: AgNPs biogénicas/antimicrobianas como `nanomaterial`; no se verificaron imágenes originales ni se ejecutó `apply`.
+- CHECKPOINT 80% (160/200 artículos; EX017–EX032): 16 lotes procesados; siguiente EX033. No se verificaron imágenes originales ni se ejecutó `apply`.
+- 2026-10-21 09:10 Phoenix — EX029 — 10 artículos — salida existente; validación de orden/citas/escalas reportada en la sesión — casos: se ajustó PDI para evitar atribuirlo a Span.
+- 2026-10-21 09:10 Phoenix — EX030 — 10 artículos — salida existente; validación de orden/citas/escalas reportada en la sesión — casos: lignina asignada `polymeric_NP`; no se verificaron imágenes originales ni se ejecutó `apply`.
+- 2026-10-21 09:15 Phoenix — EX033 — 10 artículos — JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: AgNPs biogénicas y plata verde como `nanomaterial`; lignina como `polymeric_NP`.
+- 2026-10-21 09:15 Phoenix — EX034 — 10 artículos — JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: plata y AuNPs antimicrobianos/biogénicos como `nanomaterial`; nanogeles de quitosano y carrier liposomal identificados según formulación.
+- 2026-10-21 09:16 Phoenix — EX035 — 10 artículos — JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: AgNPs de síntesis verde como `nanomaterial`; tamaños de lignina y polímeros de PLGA se extrajeron según las tablas.
+- 2026-10-21 09:16 Phoenix — EX036 — 10 artículos — JSON/orden/citas literales ≤25 palabras comprobados; escalas true/null — casos: oro comercial y nanopartículas biogénicas como `nanomaterial`; nanodroplet de cambio de fase como `other`.
+- CHECKPOINT 100% (200/200 artículos; EX017–EX036): veinte lotes guardados; todos parsean como JSON y pasan la comprobación automatizada de lote/orden, pertenencia de citas al paquete, longitud de cita ≤25 palabras y ausencia de `scale_bar_in_caption: false`. No se verificaron imágenes originales ni se ejecutó `apply`.
+- 2026-10-21 09:32 Phoenix — EX078 — 10 artículos — JSON/orden/citas literales ≤25 palabras verificados; no hay `scale_bar_in_caption: false` — salida de corrida 3.
+- 2026-10-21 Phoenix — EX079–EX082 — 40 artículos — salidas guardadas en orden y validadas (citas literales ≤25 palabras, sin scale_bar_in_caption:false); checkpoint 20% de la corrida 3 (50/250 artículos, EX078–EX082).
+- 2026-10-21 09:53 Phoenix — EX079 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX080 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX081 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX082 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX083 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX084 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX085 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX086 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:53 Phoenix — EX087 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- CHECKPOINT 40% (100/250 artículos; EX078–EX087): diez lotes guardados; todas las citas incluidas en los lotes 078–087 aparecen en los paquetes (≤25 palabras); orden de artículos correcto; no hay scale_bar_in_caption:false. No se ejecutó screen, packets, fetch ni apply.

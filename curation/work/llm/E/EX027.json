@@ -1,0 +1,633 @@
+{
+  "batch": "EX027",
+  "articles": [
+    {
+      "pmcid": "PMC12839151",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "GAL/PLGA, GAL/PLGA-Cur, GAL-CDs/PLGA and GAL-CDs/PLGA-Cur",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the GAL/PLGA (a), GAL/PLGA-Cur (b), GAL-CDs/PLGA (c) and GAL-CDs/PLGA-Cur (d)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GAL/PLGA",
+          "size_nm": 198.0,
+          "pdi": 0.25,
+          "zeta_mV": -27.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "GAL/PLGA | 9.57 ± 0.73 | 29.04 ± 2.88 | 78.71 ± 3.15 | 198.0 ± 2.35 | 1.2 | 0.250 | −27.4 ± 0.9"
+        },
+        {
+          "sample": "GAL/PLGA-Cur",
+          "size_nm": 256.3,
+          "pdi": 0.136,
+          "zeta_mV": -18.2,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "GAL/PLGA-Cur | 13.65 ± 0.64 | 38.78 ± 4.50 | 89.34 ± 4.01 | 256.3 ± 3.89 | 1.5 | 0.136 | −18.2 ± 0.7"
+        },
+        {
+          "sample": "GAL-CDs/PLGA",
+          "size_nm": 153.7,
+          "pdi": 0.144,
+          "zeta_mV": -22.6,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "GAL-CDs/PLGA | 6.03 ± 0.90 | 16.70 ± 1.34 | 43.30 ± 2.72 | 153.7 ± 1.77 | 1.2 | 0.144 | −22.6 ± 1.1"
+        },
+        {
+          "sample": "GAL-CDs/PLGA-Cur",
+          "size_nm": 220.5,
+          "pdi": 0.143,
+          "zeta_mV": -24.1,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "GAL-CDs/PLGA-Cur | 5.33 ± 0.81 | 11.65 ± 1.02 | 57.56 ± 3.19 | 220.5 ± 2.01 | 0.9 | 0.143 | −24.1 ± 1.4"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "GAL-loaded NPs",
+          "quote": "FTIR spectra of the GAL-loaded NPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "GAL-loaded NPs",
+          "quote": "(pXRD diffractograms (b))"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12388822",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "Fe3O4, Fe3O4@Au, Fe3O4@Au–APTES, Fe3O4@Au–APTES–carborane",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and size distribution histograms of (a) Fe3O4, (b) Fe3O4@Au, (c) Fe3O4@Au–APTES, and (d) Fe3O4@Au–APTES–carborane nanoparticles."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Fe3O4@Au–APTES–carborane particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Low-resolution transmission electron microscopy (TEM) image of Fe3O4@Au–APTES–carborane particles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Fe3O4",
+          "size_nm": 156,
+          "pdi": 0.186,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "Table 4",
+          "quote": "Fe3O4 | 156 ± 2 | 0.186 ± 0.012 | 8.5 ± 1.2 | 447.8 ± 2.7 | 99.51 ± 0.54"
+        },
+        {
+          "sample": "Fe3O4@Au",
+          "size_nm": 506,
+          "pdi": 0.198,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "Table 4",
+          "quote": "Fe3O4@Au | 506 ± 47 | 0.198 ± 0.021 | 4.9 ± 3.1 | 402.0 ± 8.8 | 99.79 ± 0.46"
+        },
+        {
+          "sample": "Fe3O4@Au APTES",
+          "size_nm": 354,
+          "pdi": 0.201,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "Table 4",
+          "quote": "Fe3O4@Au APTES | 354 ± 26 | 0.201 ± 0.029 | 5.9 ± 2.4 | 11.0 ± 0.2 | 98.81 ± 1.29"
+        },
+        {
+          "sample": "Fe3O4@Au APTES–carborane",
+          "size_nm": 689,
+          "pdi": 0.211,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "Table 4",
+          "quote": "Fe3O4@Au APTES–carborane | 689 ± 123 | 0.211 ± 0.026 | 7.8 ± 1.3 | 470.2 ± 3.2 | 100.00 ± 0.00"
+        },
+        {
+          "sample": "Fe3O4@Au–APTES–carborane",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -20,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Following the addition of carborane compounds, the zeta potential stabilizes at −20 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "carborane-functionalized nanoparticles",
+          "quote": "FTIR analysis before and after desorption (b)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4, Fe3O4@Au, Fe3O4@Au–APTES, Fe3O4@Au–APTES–carborane",
+          "quote": "X-ray diffraction patterns of the obtained samples"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12916575",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_dried_unstained",
+          "sample": "formulations A and B",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of formulation A (A,B) and formulation B (C,D)."
+        },
+        {
+          "fig": "FIGURE 5",
+          "variant": "SEM",
+          "sample": "formulations A and B after NIR irradiation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of formulation A (C) and formulation B (D), after NIR laser irradiation"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "formulation A",
+          "size_nm": 276.8,
+          "pdi": null,
+          "zeta_mV": -19.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The resulting data demonstrate that formulations A and B have a mean size of 276,8 and 317,5nm, respectively."
+        },
+        {
+          "sample": "formulation B",
+          "size_nm": 317.5,
+          "pdi": null,
+          "zeta_mV": -18.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The resulting data demonstrate that formulations A and B have a mean size of 276,8 and 317,5nm, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA/Gold nanoparticles",
+          "quote": "UV-vis absorption spectra of the PLGA/Gold nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA/Gold formulations A and B",
+          "quote": "FTIR spectra of PVA, PLGA, and PLGA/Gold formulations A and B."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7662541",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MCM-41 MSNs at varying TEOS/CTAB ratios",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Particle size distributions and TEM images of prepared MCM-41 MSNs at varying TEOS/CTAB ratios."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "Taguchi experiments 5, 6 and 7",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Micrograph-based size distribution, Scanning Electron Microscopy (SEM) and Transmission Electron Microscopy (TEM) images obtained for Taguchi experiments 5, 6 and 7."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MCM-41 MSNs",
+          "size_nm": 162,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "In these conditions, the optimal particle size as calculated with equation (3) is 162 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "scaled-up MCM-41-like MSNs",
+          "quote": "Small Angle X-ray diffraction spectra"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "extracted nanoparticles",
+          "quote": "Infrared spectra of extracted nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13468417",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "ETD-SDS-SHNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Field emission scanning electron microscopy (FE-SEM) images and particle size distribution histogram of ETD-loaded sodium deoxycholate-stabilized shellac-based polymeric nanoparticles (ETD-SDS-SHNPs)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ETD-SDS-SHNPs",
+          "size_nm": 192.04,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 5",
+          "quote": "Initial (0) | 192.04 ± 1.50 | 80.6 ± 1.42 | 20.15 ± 0.84 | 81.8 ± 1.25"
+        },
+        {
+          "sample": "ETD-SDS-SHNPs",
+          "size_nm": null,
+          "pdi": 0.28,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the optimized formulation exhibited a PDI value of approximately 0.28"
+        },
+        {
+          "sample": "ETD-SDS-SHNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -20.2,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The ZP of −20.2 ± 0.4 mV was obtained"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "ETD-SDS-SHNPs",
+          "quote": "FTIR overlay spectra of pure etodolac (ETD), shellac (SH), sodium deoxycholate, ETD-loaded sodium deoxycholate-stabilized shellac-based polymeric nanoparticles (ETD-SDS-SHNPs), and the physical mixture (Phy Mix)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "ETD-SDS-SHNPs",
+          "quote": "PXRD diffractograms of pure ETD (red line) and ETD-SDS-SHNPs (blue line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11920177",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "bio-synthesised Au-NPs using M. oleifera",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of bio synthesised Au-NPs using M. oleifera (A) 30 nm (B) 10 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au-NP",
+          "size_nm": 30,
+          "pdi": 0.321,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The mean size of the Au-NP was determined to be around 30 nm using this methodology, as depicted in Figure 7."
+        },
+        {
+          "sample": "Au-NPs",
+          "size_nm": null,
+          "pdi": 0.321,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The polydispersity index, which quantifies the range of particle sizes, was found to be approximately 0.321%."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "Au-NPs synthesised using M. oleifera",
+          "quote": "UV spectra of Au-NPs synthesised using M. oleifera."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "Au-NPs bio fabricated using Aqueous leaf extract of M. oleifera",
+          "quote": "FTIR spectra of Au-NPs bio fabricated using Aqueous leaf extract of M. oleifera."
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "Au-NPs",
+          "quote": "EDX pattern of Au-NPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs bio synthesised using M. oleifera",
+          "quote": "XRD pattern of AuNPs bio synthesised using M. oleifera."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13091821",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTX-CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of PTX-CSNPs (D and E)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "blank CSNPs",
+          "size_nm": 50.79,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "blank CSNPs had a hydrodynamic diameter of 50.79 nm"
+        },
+        {
+          "sample": "PTX-CSNPs",
+          "size_nm": 79.05,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "PTX-CSNPs exhibited a slightly larger size of 79.05 nm"
+        },
+        {
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "blank CSNPs (+ 22.25 mV)",
+          "pdi": null,
+          "sample": "blank CSNPs",
+          "size_nm": null,
+          "zeta_mV": 22.25
+        },
+        {
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "PTX-CSNPs (+ 32.77 mV)",
+          "pdi": null,
+          "sample": "PTX-CSNPs",
+          "size_nm": null,
+          "zeta_mV": 32.77
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "PTX-CSNPs",
+          "quote": "FTIR spectrum of PTX-CSNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "PTX-CSNPs",
+          "quote": "XRD pattern of PTX-CSNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10447510",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "AgNPs from green synthesis",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Indicate nanoparticle size of Ag through SEM"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 76.91,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "On average, the particle size is 76.91 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs from Eichhornia crassipes extract",
+          "quote": "EDX spectrum of AgNPs from extract Eichhornia crassipes"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "XRD patterns of AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "AgNPs coated cotton fabrics",
+          "quote": "Pure AgNPs coated cotton fabric in green synthesis"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12876553",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gamma-irradiated Ch-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) indicates that there are considerable differences in the distribution of particle sizes between chitosan nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles (Ch-NPs)",
+          "quote": "UV–Vis absorption spectrum of chitosan nanoparticles (Ch-NPs)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized chitosan nanoparticles",
+          "quote": "The FTIR spectrum of the synthesized chitosan nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11678683",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Micrographs of biosynthesized AgNP obtained by TEM on scale of 500 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNP",
+          "size_nm": 53.8,
+          "pdi": 0.23,
+          "zeta_mV": -25.66,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average diameter of the nanoparticles was 53.8 nm (±1.23), as shown in Figure 1B, with 0.23 of polydispersity index (PDI)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP",
+          "quote": "UV-vis absorption spectrum of fungal filtrate after addition of AgNO3."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP",
+          "quote": "X-ray diffraction pattern of AgNP"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP",
+          "quote": "Energy dispersive X-ray (EDX) spectrum of AgNP."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{"batch":"EX048","articles":[
+{"pmcid":"PMC12634998","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"TAuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM graphs of green-synthesized turmeric-gold nanoparticles from turmeric rhizome using hydro-alcoholic extract"}],
+"descriptors":[],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"TAuNPs","quote":"FT-IR spectroscopy of green-synthesized turmeric-gold nanoparticles from turmeric rhizome using hydro-alcoholic extract"}]},
+{"pmcid":"PMC7919026","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNSs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(B) and (C) TEM and FE-SEM images of AuNSs, respectively. Scale bars: (B) 100 nm, (C) 2 µm."},
+{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"AuNS-CCD/P-PhEA-PIP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (A) AuNSs, (B) AuNS-CCD/P, and (C) AuNS-CCD/P-PhEA-PIP at an acceleration voltage of 200 kV."}],
+"descriptors":[
+{"sample":"AuNSs","size_nm":121,"pdi":0.220,"zeta_mV":-48.9,"medium":"not_declared","source":"Table 2","quote":"AuNSs | 639 | 275 | 121 ± 18 | 0.220 | −48.9 ± 3.1 | 83 ± 30"},
+{"sample":"AuNS-CCD/P","size_nm":167,"pdi":0.418,"zeta_mV":-15.9,"medium":"not_declared","source":"Table 2","quote":"AuNS-CCD/P | 610 | 245 | 167 ± 36 | 0.418 | −15.9 ± 0.6 | 87 ± 27"},
+{"sample":"AuNS-CCD/P-PhEA-PIP","size_nm":178,"pdi":0.551,"zeta_mV":-15.5,"medium":"not_declared","source":"Table 2","quote":"AuNS-CCD/P-PhEA-PIP | 618 | 246 | 178 ± 39 | 0.551 | −15.5 ± 0.2 | 78 ± 23"}],
+"spectra":[{"technique":"Raman","fig":"Fig. 9","applies_to":"nanoparticle","sample":"AuNS-CCD/P-PhEA-PIP","quote":"SERS spectra of (E) AuNS-CCD/P and (F) AuNS-CCD/P-PhEA-PIP."}]},
+{"pmcid":"PMC9699398","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"R-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM image of R-AgNPs, (b) HR-TEM images of the R-AgNPs, (c) histograms of silver nanoparticles in TEM."}],
+"descriptors":[{"sample":"R-AgNPs","size_nm":17.41,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The dynamic light scattering (DLS) particle size of R-AgNPs was 17.41 ± 3.61 nm."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"R-AgNPs","quote":"UV–Vis spectrum of the R-AgNPs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"R-AgNPs","quote":"FT-IR spectra of R-AgNPs and rubropunctatin."}]},
+{"pmcid":"PMC6180500","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Au-4-COONa","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Uptake of Au-4-COONa NPs in BeWo cells after 24 h."}],
+"descriptors":[{"sample":"Au-3-PEG","size_nm":42.8,"pdi":null,"zeta_mV":null,"medium":"culture_medium","source":"text","quote":"the hydrodynamic diameter (dhyd) obtained with DLS increased from 42.8 nm at 0 h to 133 nm at 24 h"}],
+"spectra":[{"technique":"SAXS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Au-3-PEG","quote":"b, e Scattering intensity as function of scattering vector q and c, f pair distance distribution function"}]},
+{"pmcid":"PMC6317039","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"SPION-CCh-AA-Cur","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a,b) TEM micrographs of SPION-CCh-AA-Cur; size distribution of (c) magnetic cores and (d) agglomerates."}],
+"descriptors":[
+{"sample":"SPION-CCh","size_nm":108,"pdi":0.26,"zeta_mV":34,"medium":"not_declared","source":"Table 1","quote":"SPION-CCh | 108 ± 4 | 0.26 | +34 ± 6"},
+{"sample":"SPION-CCh-AA-Cur","size_nm":58,"pdi":0.21,"zeta_mV":-35,"medium":"not_declared","source":"Table 1","quote":"SPION-CCh-AA-Cur | 58 ± 9 | 0.21 | −35 ± 6"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"SPION-CCh-AA-Cur","quote":"FTIR spectra of SPION without polymer, SPION-CCh, SPION-CCh-AA-Cur."},
+{"technique":"SAXS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SPION-CCh/AA-Cur","quote":"Small-angle X-ray scattering (SAXS) measurements of SPION-CCh/AA-Cur revealed a bi-log-normal size distribution for the iron oxide cores (Figure 2)."}]},
+{"pmcid":"PMC12362733","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNPs and AuNSs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b) TEM micrographs displaying the morphology of the prepared particles: I) spherical AuNPs and II) AuNSs)."}],
+"descriptors":[
+{"sample":"AuNPs","size_nm":21,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average hydrodynamic diameters were measured to be 21 ± 2 nm for spherical AuNPs and 32 ± 5 nm for AuNSs"},
+{"sample":"AuNSs","size_nm":32,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average hydrodynamic diameters were measured to be 21 ± 2 nm for spherical AuNPs and 32 ± 5 nm for AuNSs"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"UV‐Vis absorption spectra of bare spherical AuNPs with λLSPR at 518 nm"}]},
+{"pmcid":"PMC12218398","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM micrographs of AgNPs and (b) Zeta potential of biologically synthesized AgNPs."}],
+"descriptors":[{"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-34,"medium":"not_declared","source":"Fig. 2","quote":"Figure 2b showed negatively charged nanoparticles with a zeta potential of -34 mV."}],
+"spectra":[{"technique":"EDS","fig":"Fig. 7","applies_to":"mixture","sample":"vicryl sutures coated with AgNPs","quote":"EDX analysis with element percentiles of vicryl sutures."}]},
+{"pmcid":"PMC12562744","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"SiO2-AgNPs1, SiO2-AgNPs2, SiO2-BiNPs1, SiO2-BiNPs2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) images of silica spheres coated with silver or bismuth nanoparticles"},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"SiO2-AgNPs1, SiO2-AgNPs2, SiO2-BiNPs1, SiO2-BiNPs2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of silica spheres coated with silver or bismuth nanoparticles"}],
+"descriptors":[
+{"sample":"SiO2-AgNPs1","size_nm":null,"pdi":null,"zeta_mV":-38.4,"medium":"water","source":"text","quote":"−38.4 mV for SiO2-AgNPs1, −36.1 mV for SiO2-AgNPs2, and −33.6 mV for SiO2-BiNPs1"},
+{"sample":"SiO2-AgNPs2","size_nm":null,"pdi":null,"zeta_mV":-36.1,"medium":"water","source":"text","quote":"−38.4 mV for SiO2-AgNPs1, −36.1 mV for SiO2-AgNPs2, and −33.6 mV for SiO2-BiNPs1"},
+{"sample":"SiO2-BiNPs1","size_nm":null,"pdi":null,"zeta_mV":-33.6,"medium":"water","source":"text","quote":"−38.4 mV for SiO2-AgNPs1, −36.1 mV for SiO2-AgNPs2, and −33.6 mV for SiO2-BiNPs1"},
+{"sample":"SiO2-BiNPs2","size_nm":null,"pdi":null,"zeta_mV":-5.9,"medium":"water","source":"text","quote":"The distinctly lower zeta potential observed for the SiO2-BiNPs2 sample (−5.9 mV)"}],
+"spectra":[{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SiO2-AgNPs / SiO2-BiNPs","quote":"X-ray diffraction patterns of pure silica (SiO2) spheres and silica spheres functionalized with Ag and Bi nanoparticles."}]},
+{"pmcid":"PMC12609339","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_dried_unstained","sample":"Kometa HAuCl4 (200 mg/L)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"the ‘Kometa’ callus culture extract treated with 200 mg/L HAuCl4 (c)"}],
+"descriptors":[
+{"sample":"‘Kometa’ HAuCl4","size_nm":1074,"pdi":0.61,"zeta_mV":-16,"medium":"water","source":"Table 2","quote":"1074 ± 10 ↑ | 0.61 ± 0.05 ↑ * | −16 ± 1 ↓ *"},
+{"sample":"‘Kometa’ AgNO3","size_nm":324,"pdi":0.44,"zeta_mV":-15,"medium":"water","source":"Table 2","quote":"324 ± 53 ↑ | 0.44 ± 0.03 ↑ * | −15 ± 1 ↓ *"},
+{"sample":"‘La Bella Campagnola’ HAuCl4","size_nm":1074,"pdi":0.54,"zeta_mV":-17,"medium":"water","source":"Table 2","quote":"1074 ± 19 ↑ | 0.54 ± 0.03 ↑ * | −17± 1 ↓ *"},
+{"sample":"‘La Bella Campagnola’ AgNO3","size_nm":320,"pdi":0.44,"zeta_mV":-16,"medium":"water","source":"Table 2","quote":"320 ± 9 ↓ | 0.44 ± 0.07 ↑ * | −16 ± 1 ↓ *"}],
+"spectra":[{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"Ag and Au NPs","quote":"A set of XRD patterns for Ag samples (A) and Au (B) prepared from ‘LaBella Campagnola’ and ‘Kometa’ sources."}]},
+{"pmcid":"PMC12884433","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"LE-AgNP (1:499)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(F) Transmission electron microscopy image. Magnification: 27800x."}],
+"descriptors":[
+{"sample":"AgNP 1:99","size_nm":289.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"1:99, 2:98, 1:199, and 1:499 were 289.6 ± 132, 165.8 ± 12.8, 104.1 ± 21.9, and 68.5 ± 17.2 nm"},
+{"sample":"AgNP 2:98","size_nm":165.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"1:99, 2:98, 1:199, and 1:499 were 289.6 ± 132, 165.8 ± 12.8, 104.1 ± 21.9, and 68.5 ± 17.2 nm"},
+{"sample":"AgNP 1:199","size_nm":104.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"1:99, 2:98, 1:199, and 1:499 were 289.6 ± 132, 165.8 ± 12.8, 104.1 ± 21.9, and 68.5 ± 17.2 nm"},
+{"sample":"AgNP 1:499","size_nm":68.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"1:99, 2:98, 1:199, and 1:499 were 289.6 ± 132, 165.8 ± 12.8, 104.1 ± 21.9, and 68.5 ± 17.2 nm"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNP 1:499","quote":"(D) UV–visible spectrophotometric analysis, with a ratio of 1:499 observed after 4 h of stirring."}]}
+]}

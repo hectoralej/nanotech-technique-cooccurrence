@@ -1,0 +1,495 @@
+{
+  "batch": "EX086",
+  "articles": [
+    {
+      "pmcid": "PMC8746316",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "AgNPs from Picea abies and Pinus nigra bark extracts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "scanning electron microscopy (SEM) micrographs of Picea abies"
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs from Picea abies and Pinus nigra",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs colloidal solutions",
+          "quote": "UV-Vis absorption spectra of AgNPs colloidal solutions"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "derived AgNPs",
+          "quote": "ATR-FTIR spectra of Picea abies"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "bark extract derived AgNPs",
+          "quote": "Raman spectra of Picea abies (A) and Pinus nigra (B) bark extract derived AgNPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "Elemental composition (EDX analysis)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9504860",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "M-Vit.E-CD-CS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of M-Vit.E-CD-CS NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "M-Vit.E-CD-CS NPs",
+          "size_nm": 178,
+          "pdi": 0.18,
+          "zeta_mV": -22.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the size of M-Vit.E-CD-CS NPs is 178 ± 1.5 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "M-Vit.E-CD-CS NPs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) spectra of Morin, vitamin E, β-CD, chitosan, and M-Vit.E-CD-CS NPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "M-Vit.E-CD-CS NPs",
+          "quote": "XRD: X-Ray Diffraction."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8184758",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Au/rGO NCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of rGO"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au/rGO NCs",
+          "size_nm": 24.69,
+          "pdi": null,
+          "zeta_mV": -7.95,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "average hydrodynamic diameters were 6.9 and 24.69 nm, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "rGO/Au NCs",
+          "quote": "UV–Vis spectra of rGO and rGO/Au NCs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "rGO/Au NCs",
+          "quote": "FTIR spectra of rGO and rGO/Au NCs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Au/rGO NCs",
+          "quote": "XRD patterns of rGO and Au/rGO NCs"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Au/rGO NCs",
+          "quote": "Raman spectra of prepared rGO, Au/rGO NCs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Au/rGO NCs",
+          "quote": "EDS pattern of Au/rGO NCs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9571213",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "neat and drug-loaded CS and Cys-CS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of neat and drug-loaded CS and Cys-CS NPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "prepared NPs",
+          "quote": "pXRD diffractograms of raw materials and the prepared NPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "prepared NPs",
+          "quote": "FTIR spectra of the raw materials and the prepared NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6831671",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Images obtained by transmission electron microscopy; scale bar 100 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 500,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the difference between the average diameter obtained by TEM (approximately 14 nm) and DLS (approximately 500 nm)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles",
+          "quote": "UV-Visible absorption spectroscopy of the synthesis of gold nanoparticles"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "X-ray diffractogram of AuNPs"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "Comparison of the Raman spectra of the Coffea arabica extract and AuNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "FTIR spectra of the Coffea arabica extract and AuNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9548353",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 4",
+          "variant": "SEM",
+          "sample": "empty and extract-loaded CS-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images of empty"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "empty and loaded CS-NP",
+          "quote": "Fourier‐transform infrared (FTIR) diagram of the chitosan powder"
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "empty and loaded CS-NP",
+          "quote": "X‐ray powder diffraction technique (XRD) patterns of chitosan powder"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9225145",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CC-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CC-AgNPs",
+          "quote": "UV-vis absorption spectra of CC-AgNPs recorded"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic CC-AgNPs",
+          "quote": "(a) FTIR spectra"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CC-AgNPs",
+          "quote": "XRD spectrum of CC-AgNPs from the Cynara cardunculus extract."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CC-AgNPs",
+          "quote": "EDX spectra of the CC-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8803101",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7.",
+          "variant": "SEM",
+          "sample": "aceclofenac-loaded mixed pluronic",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of (a) mixed pluronic (L81+ F108) and (b) aceclofenac encapsulated mixed pluronic."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6.",
+          "applies_to": "nanoparticle",
+          "sample": "aceclofenac with mixed pluronic",
+          "quote": "FT-IR spectra of (a) L81+ F108 mixed pluronic"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7076090",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "MLE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopic images of Melia leaf extract-silver nanoparticles"
+        },
+        {
+          "fig": "FIGURE 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MLE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Transmission electron microscopic images of AgNPs (scale bar indicates 50 nm)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "MLE-AgNPs",
+          "quote": "UV-visible absorption spectra of Melia leaf extract (MLE)-silver nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "MLE-AgNPs",
+          "quote": "Fourier-transform infrared spectra of synthesized Melia leaf extract (MLE)-silver nanoparticles (AgNPs)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "MLE-AgNPs",
+          "quote": "X-ray diffraction (XRD) pattern of Melia leaf extract-silver nanoparticles."
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "MLE-AgNPs",
+          "quote": "energy dispersive X-ray spectrometry spectrum of Melia leaf extract-silver nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9759534",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "micrographs of SEM (A), TEM (B) and EDXS (C)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "UV/visible spectra of chitosan (blue line) and chitosan nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "bio-synthesized chitosan nanoparticles",
+          "quote": "Examination of FTIR for the bio-synthesized chitosan nanoparticles"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "CNPs",
+          "quote": "XRD (C) of CNPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "EDXS"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{"batch":"EX045","articles":[
+{"pmcid":"PMC12772230","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"CS, QECS, FACS, QEFACS","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of CS, QECS, FACS, and QEFACS nanoparticles."}],
+"descriptors":[
+{"sample":"CS","size_nm":250,"pdi":0.25,"zeta_mV":45,"medium":"not_declared","source":"Table 2","quote":"CS | 250 ± 10 | 0.25 | +45 ± 3 | NA"},
+{"sample":"QE","size_nm":220,"pdi":0.22,"zeta_mV":-20,"medium":"not_declared","source":"Table 2","quote":"QE | 220 ± 8 | 0.22 | −20 ± 2 | NA"},
+{"sample":"FA","size_nm":230,"pdi":0.24,"zeta_mV":-18,"medium":"not_declared","source":"Table 2","quote":"FA | 230 ± 9 | 0.24 | −18 ± 3 | NA"},
+{"sample":"QECS","size_nm":275,"pdi":0.26,"zeta_mV":30,"medium":"not_declared","source":"Table 2","quote":"QECS | 275 ± 12 | 0.26 | +30 ± 3 | 82 ± 2"},
+{"sample":"FACS","size_nm":280,"pdi":0.28,"zeta_mV":32,"medium":"not_declared","source":"Table 2","quote":"FACS | 280 ± 11 | 0.28 | +32 ± 2 | 78 ± 3"},
+{"sample":"QEFACS","size_nm":300,"pdi":0.30,"zeta_mV":35,"medium":"not_declared","source":"Table 2","quote":"QEFACS | 300 ± 15 | 0.30 | +35 ± 4 | 75 ± 3"}],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CS, QE, FA, QECS, FACS, QEFACS","quote":"(B) XRD plot for the compounds and their combinations."}]},
+{"pmcid":"PMC7355705","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"MSN160 nm, MSN130 nm, MSN100 nm, MSN80 nm, MSN60 nm","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs of (a) MSN160 nm, (c) MSN130 nm, (e) MSN100 nm, (g) MSN80 nm, (i) MSN60 nm"}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSN160 nm","quote":"(c) Raman spectrum of MSN160 nm."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSN160 nm","quote":"while the primary amines from core functionalization are seen at 1630 cm−1 with IR spectroscopy (MSN160 nm, black line, Figure 3d)"}]},
+{"pmcid":"PMC12944296","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"CE-NP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(A) Spherical and solid nanoparticles with a particle size of ~200 nm."}],
+"descriptors":[
+{"sample":"Batch 7","size_nm":169.30,"pdi":0.08,"zeta_mV":-9.45,"medium":"water","source":"Table 4","quote":"7 | ACE: MEK (75:25) | Et/10 | 169.30 ± 1.30 | 0.08 ± 0.03 | −9.45 ± 1.73"},
+{"sample":"Batch 8","size_nm":171.37,"pdi":0.08,"zeta_mV":-12.57,"medium":"water","source":"Table 4","quote":"8 | ACE: MEK (75:25) | EtAc/10 | 171.37 ± 2.35 | 0.08 ± 0.01 | −12.57 ± 1.42"},
+{"sample":"Batch 9","size_nm":177.97,"pdi":0.07,"zeta_mV":-10.45,"medium":"water","source":"Table 4","quote":"9 | ACE: MEK (75:25) | n-hexane/10 | 177.97 ± 1.20 | 0.07 ± 0.03 | −10.45 ± 0.66"},
+{"sample":"Batch 10 (placebo)","size_nm":166.90,"pdi":0.11,"zeta_mV":-10.10,"medium":"water","source":"Table 4","quote":"10 (Placebo) | ACE: MEK (75:25) | Et/10 | 166.90 ± 0.96 | 0.11 ± 0.03 | −10.10 ± 0.78"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"CE-NP","quote":"Infrared spectra of the CE-NP patches and their components and physical mixtures"}]},
+{"pmcid":"PMC11782354","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"HRTEM","sample":"PGCMNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"PGCMNPs were quasi-spherical in shape (scale: 50 nm)"},
+{"fig":"Fig. 2","variant":"SEM","sample":"PGCMNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"B. Scanning electron micrograph of PGCMNPs with spherical morphology"}],
+"descriptors":[{"sample":"PGCMNPs","size_nm":null,"pdi":null,"zeta_mV":-38.7,"medium":"not_declared","source":"text","quote":"the zeta potential of PGCMNPs was found to be -38.7 ± 3.1 mV"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"PGCMNPs","quote":"In the FT-IR spectrum of PGCMNPs, peaks corresponding to O-H stretching (3151 cm-1), N-H stretching (3134 cm-1)"},
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"PGCMNPs","quote":"II. X-ray diffraction patterns of PGCMNPs."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"PGCMNPs","quote":"The elements in PGCMNPs were identified to be carbon (24.67 ± 4.37%), nitrogen (1.33 ± 0.09%)"}]},
+{"pmcid":"PMC13384227","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"SEM","sample":"KDP-loaded nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) Typical SEM image of the KDP-loaded nanoparticles"}],
+"descriptors":[],
+"spectra":[{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"KDP-loaded nanoparticle","quote":"FTIR spectrum of KDP (A), the blank nanoparticle (B) and KDP-loaded nanoparticle (C)."}]},
+{"pmcid":"PMC12389588","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"STEM","sample":"BGNSs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(c) STEM image of BGNSs, revealing an anisotropic surface topology with distinctive branches and protrusions."}],
+"descriptors":[
+{"sample":"PLGA NPs","size_nm":126.3,"pdi":null,"zeta_mV":-12.1,"medium":"not_declared","source":"Table 1","quote":"PLGA NPs | 126.3 ± 7.1 | −12.1 ± 2.6"},
+{"sample":"PLGA-oligochitosan","size_nm":160.3,"pdi":null,"zeta_mV":18.5,"medium":"not_declared","source":"Table 1","quote":"PLGA-oligochitosan | 160.3 ± 2.2 | +18.5 ± 1.2"},
+{"sample":"PLGA-seeds","size_nm":165.9,"pdi":null,"zeta_mV":13.4,"medium":"not_declared","source":"Table 1","quote":"PLGA-seeds | 165.9 ± 4.2 | +13.4 ± 1.3"},
+{"sample":"BGNS","size_nm":194.5,"pdi":null,"zeta_mV":-12.1,"medium":"not_declared","source":"Table 1","quote":"BGNS | 194.5 ± 2.5 | −12.1 ± 0.5"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"BGNSs","quote":"(c) UV–vis absorption spectrum of BGNSs with LSPR peak at ~800 nm."}]},
+{"pmcid":"PMC13280871","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"PCA@Fe3O4 and PAMAM–PCA@Fe3O4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (E) PCA@Fe3O4 and (F) PAMAM–PCA@Fe3O4."}],
+"descriptors":[
+{"sample":"Fe3O4","size_nm":123,"pdi":0.238,"zeta_mV":-46.3,"medium":"not_declared","source":"Table 1","quote":"Fe3O4 | –46.3 | 123 ± 5 | 0.238"},
+{"sample":"PCA@Fe3O4","size_nm":354,"pdi":0.745,"zeta_mV":-32.3,"medium":"not_declared","source":"Table 1","quote":"PCA@Fe3O4 | –32.3 | 354 ± 6 | 0.745"},
+{"sample":"PAMAM–PCA@Fe3O4","size_nm":411,"pdi":0.652,"zeta_mV":15.2,"medium":"not_declared","source":"Table 1","quote":"PAMAM–PCA@Fe3O4 | +15.2 | 411 ± 8 | 0.652"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"PCA@Fe3O4","quote":"(A) FTIR spectra of Fe3O4, CA, and PCA@Fe3O4;"}]},
+{"pmcid":"PMC12383472","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"GNP_R and GNP_R1","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images for GNP_R (A) and GNP_R1 (B). The bars in the images are 100 nm."},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"GNP_R1@Ic/D and GNP_R1@R/P/Ic/D","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images for functionalized GNP-R1, used in composition (9), Table 2"},
+{"fig":"Fig. 6","variant":"HRTEM","sample":"GNP_R1 with doxorubicin","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"HR-TEM images of (A) GNP_R1 with doxorubicin (D) (4/1 v/v), containing 50 mg/L Au"}],
+"descriptors":[
+{"sample":"GNP_R1","size_nm":46.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the average hydrodynamic diameter determined by dynamic light scattering (DLS) for GNP_R1 (46.8 nm)"},
+{"sample":"GNP_R","size_nm":63.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"is smaller than that for GNP_R (63.3 nm)"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"GNP_R1","quote":"UV-VIS spectra of GNP_R1 (Au 179 mg/L) aqueous dispersion"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"GNP_R and GNP_R1","quote":"X-ray diffraction patterns for GNP_R (A) and GNP_R1 nanoparticles (B)"}]},
+{"pmcid":"PMC13179216","context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+"panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC9033108","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"HRTEM","sample":"HE-AgNPs and HP-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High-resolution transmission electron microscopy images showing the morphology of (A,C) HE-AgNPs and (B,D) HP-AgNPs."}],
+"descriptors":[
+{"sample":"HE-AgNPs","size_nm":53.57,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 5","quote":"The hydrodynamic size (HDS) was found to be 53.57 nm and 33.94 nm for the HE-AgNPs and HP-AgNPs"},
+{"sample":"HP-AgNPs","size_nm":33.94,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 5","quote":"The hydrodynamic size (HDS) was found to be 53.57 nm and 33.94 nm for the HE-AgNPs and HP-AgNPs"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"HE-AgNPs and HP-AgNPs","quote":"UV-Vis spectra of HE-AgNPs (a) and HP-AgNPs (b)."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"HE-AgNPs and HP-AgNPs","quote":"XRD patterns showing the diffraction peaks of HE-AgNPs (A) and HP-AgNPs (B)."}]}
+]}

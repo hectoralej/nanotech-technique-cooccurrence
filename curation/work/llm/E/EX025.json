@@ -1,0 +1,579 @@
+{
+  "batch": "EX025",
+  "articles": [
+    {
+      "pmcid": "PMC9227914",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "6-β-CD-N-ODMA and PTX/6-β-CD-N-ODMA micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of 6-β-CD-N-ODMA (a) and PTX/6-β-CD-N-ODMA (b)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "PTX/6-β-CD-N-ODMA",
+          "quote": "FTIR spectra of PTX (a), 6-β-CD-N-ODMA (b), mixture (PTX and 6-β-CD-N-ODMA) (c), and PTX/6-β-CD-N-ODMA (d)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11604631",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_negstain",
+          "sample": "AP-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Transmission electron microscopy (TEM) images of AP-AgNPs (scale bar = 100 nm)."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "MRSA cells exposed to AP-AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy of MRSA cells after 24 h of exposure to AP-AgNPs in nutrient broth."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AP-AgNPs",
+          "size_nm": 27.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "According to TEM, AP-AgNPs are mostly spherical, and the average particle size is 27.7 nm."
+        },
+        {
+          "sample": "AP-AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -25.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential value was negative (− 25.4 ± 3.13 Mv), suggesting the good colloidal nature of biosynthesized nanoparticles."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AP-AgNPs",
+          "quote": "UV–Vis spectrum of fungal filtrate and AP-AgNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AP-AgNPs",
+          "quote": "XRD spectrum recorded for AP-AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "quote": "FTIR spectrum of silver nanoparticles synthesized by A. parasiticus"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8747160",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "zinc oxide nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of a group of zinc oxide NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ZnO-NPs",
+          "size_nm": 47,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average hydrodynamic nanoparticle diameter is 47 nm (Figure 1a)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "aqueous colloidal solution of zinc oxide NPs",
+          "quote": "Optical absorption of an aqueous colloidal solution of zinc oxide NPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "zinc oxide nanoparticles",
+          "quote": "Nanoparticle profile by Zn Kα1 and O Kα1."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "composite polymer materials with different zinc oxide nanoparticle filling",
+          "quote": "Absorption UV-Vis spectrum of composite polymer materials with different filling with zinc oxide nanoparticles."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "composite polymer material containing PLGA and ZnO nanoparticles",
+          "quote": "FTIR spectrum of composite polymer materials with different filling with zinc oxide nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10135330",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "Ac-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Field emission scanning electron microscopic (FE-SEM) images of AC-AgNPs"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "Ac-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The high-resolution transmission electron microscope (HR-TEM) analysis of Ac-AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ac-AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -17.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zetasizer analysis of the Ac-AgNPs revealed the negative value of −17.6 mV, which confirms that the nanoparticles were in the colloidal state (Figure 7A)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ac-AgNPs",
+          "quote": "The X-ray diffraction (XRD) pattern of Ac-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ac-AgNPs",
+          "quote": "The FT-IR (Fourier Transform Infrared Spectroscopy) analysis of Ac-AE (a) and Ac-AgNPs (b)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Ac-AgNPs",
+          "quote": "Energy dispersive X-ray spectroscopic analysis of Ac-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6403626",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "PCL-CAF1.5-Ac nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Field emission scanning electron microscopy (FESEM) image of nanoparticles (NPs) produced at 20 mL/min at 150,000× magnification for PCL-CAF1.5-Ac formulation."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "PCL-CAF1.5-W formulation",
+          "quote": "ATR-FTIR spectra of: (Bottom) PCL raw material; (Mid) caffeine; and (Top) nanoparticles with PCL-CAF1.5-W formulation."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10536778",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SN and SN-Cx conjugates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "UV-Vis spectra, TEM micrographs, zeta potential distribution, and size analysis via MADLS"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SN 2C8R4.5",
+          "size_nm": 92.34,
+          "pdi": null,
+          "zeta_mV": -50.01,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "A stable negatively charged nano-silver colloid (ζ = −50.01) was obtained with an average hydrodynamic diameter of 92.34 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "SN and SN-Cx",
+          "quote": "FTIR spectra of green tea phenolic extract (green line), SN (black line), Cx (blue line), and SN-Cx (red line) samples."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "SN, SN-Cx, and chlorhexidine diacetate",
+          "quote": "XRD of the SN sample 2C8R4.5 (black line), SN-Cx sample 2C8R4.5Cx+++ (red line), and chlorhexidine diacetate (blue line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13309419",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "SEM",
+          "sample": "QUE and/or CHX-loaded PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM imaging of 1.5%, 5%, 15% QUE and/or CHX loaded PLGA NP"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA NP",
+          "size_nm": 85,
+          "pdi": null,
+          "zeta_mV": -21.17,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "PLGA NP | 85,00 | –21,17"
+        },
+        {
+          "sample": "%1,5 QUE loaded PLGA NP",
+          "size_nm": 66.87,
+          "pdi": null,
+          "zeta_mV": -2.11,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%1,5 QUE loaded PLGA NP | 66,87 | –2,11"
+        },
+        {
+          "sample": "%5 QUE loaded PLGA NP",
+          "size_nm": 70.53,
+          "pdi": null,
+          "zeta_mV": -7.65,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%5 QUE loaded PLGA NP | 70,53 | –7,65"
+        },
+        {
+          "sample": "%15 QUE loaded PLGA NP",
+          "size_nm": 110.8,
+          "pdi": null,
+          "zeta_mV": -12.1,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%15 QUE loaded PLGA NP | 110,80 | –12,10"
+        },
+        {
+          "sample": "%1,5 CHX loaded PLGA NP",
+          "size_nm": 54.08,
+          "pdi": null,
+          "zeta_mV": -4.39,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%1,5 CHX loaded PLGA NP | 54,08 | –4,39"
+        },
+        {
+          "sample": "%5 CHX loaded PLGA NP",
+          "size_nm": 64.85,
+          "pdi": null,
+          "zeta_mV": -8.66,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%5 CHX loaded PLGA NP | 64,85 | –8,66"
+        },
+        {
+          "sample": "%15 CHX loaded PLGA NP",
+          "size_nm": 159.2,
+          "pdi": null,
+          "zeta_mV": -9.96,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "%15 CHX loaded PLGA NP | 159,20 | –9,96"
+        },
+        {
+          "sample": "1.5/1.5% CHX/QUE loaded PLGA NP",
+          "size_nm": 95.65,
+          "pdi": null,
+          "zeta_mV": -2.16,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "1.5/1.5% CHX/QUE loaded PLGA NP | 95,65 | –2,16"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "QUE/CHX-loaded PLGA NPs",
+          "quote": "FTIR spectra of 1.5%, 5%, 15% QUE and/or CHX loaded PLGA NP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8512371",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag NPs and Ag/RGO NCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "low-resolution TEM image of Ag NPs; (B) low-resolution TEM image of Ag/RGO NCs"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "Ag NPs and Ag/RGO NCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of Ag NPs; (B) SEM image of Ag/RGO NCs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag NPs",
+          "size_nm": 59.8,
+          "pdi": null,
+          "zeta_mV": 25.7,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "Ag NPs | 59.8 ± 2.8 | 65.2 ± 3.3 | 25.7 ± 1.5 | 21.3 ± 1.3"
+        },
+        {
+          "sample": "Ag/RGO NCs",
+          "size_nm": 43.4,
+          "pdi": null,
+          "zeta_mV": 28.3,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "Ag/RGO NCs | 43.4 ± 1.6 | 46.7 ± 2.3 | 28.3 ± 0.9 | 23.7 ± 1.1"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs and Ag/RGO NCs",
+          "quote": "UV-visible spectra of Ag NPs and Ag/RGO NCs prepared from orange peel extract."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs and Ag/RGO NCs",
+          "quote": "XRD spectra of Ag NPs and Ag/RGO NCs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Ag/RGO NCs",
+          "quote": "TEM-led EDS spectra of Ag/RGO NCs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13257120",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PLGA NP and lecithin-coated PLGA NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy showing morphology of (a) Naringin-loaded PLGA nanoparticles (PLGA NP) and (b) Naringin-loaded lecithin-coated PLGA nanoparticles (LC PLGA NP)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "optimized PLGA NP",
+          "size_nm": 201.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "The hydrodynamic diameter of the optimized PLGA NP determined by dynamic light scattering was found to be 201.2 ± 1.3 nm"
+        },
+        {
+          "sample": "LC PLGA NP",
+          "size_nm": 308,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text",
+          "quote": "resulted in a hydrodynamic diameter of 308 ± 3.2 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "NAR-loaded PLGA NP and LC PLGA NP",
+          "quote": "NAR-loaded lecithin-coated PLGA nanoparticles (LC PLGA NP)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "NAR-loaded PLGA NP and LC PLGA NP",
+          "quote": "NAR-loaded lecithin-coated PLGA nanoparticles (LC PLGA NP)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7711460",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "maleic acid capped AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "maleic acid capped silver nanoparticles (AgNPs); and (C) citric acid capped silver microparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "maleic acid capped AgNPs",
+          "size_nm": 39,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "with an average size of 39 nm ± 4 (Figure 3B)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "maleic acid capped AgNPs",
+          "quote": "The spectra show the absorption peaks of maleic acid capped AgNPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized silver nanoparticles and microparticles",
+          "quote": "energy-dispersive X-ray spectroscopy (EDS) analysis of synthesized silver nanoparticles and microparticles."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles and microparticles",
+          "quote": "X-ray diffraction (XRD) analysis of synthesized silver nanoparticles and microparticles."
+        }
+      ]
+    }
+  ]
+}

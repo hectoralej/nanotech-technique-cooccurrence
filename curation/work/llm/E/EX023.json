@@ -1,0 +1,554 @@
+{
+  "batch": "EX023",
+  "articles": [
+    {
+      "pmcid": "PMC12735866",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "copolymeric nanoparticles, 5 wt.% chelating agents",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Micrographs of copolymeric nanoparticles with 5 wt.% of chelating agents: (a) poly(AA:FA), (b) poly(AA:CUR), (c) poly(FA:CUR), and (d) poly(AA:FA:CUR)."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "copolymeric nanoparticles titrated with CaCl2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Micrographs of copolymeric nanoparticles with 5 wt.% of chelating agents: (a) poly(AA:FA), (b) poly(AA:CUR), (c) poly(FA:CUR), and (d) poly(AA:FA:CUR) titrated with CaCl2."
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "copolymeric nanoparticles titrated with MgCl2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Micrograph of copolymeric nanoparticles with 5 wt.% of chelating agents: (a) poly(AA:FA), (b) poly(AA:CUR), (c) poly(FA:CUR), and (d) poly(AA:FA:CUR) titrated with MgCl2."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Poly(AA:FA), 1 wt.%",
+          "size_nm": 108.9,
+          "pdi": 1.15,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Poly(AA:FA) | 108.9 ± 3.30 | 1.15"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 12",
+          "applies_to": "nanoparticle",
+          "sample": "titrated poly(AA:FA), poly(FA:CUR), poly(AA:FA:CUR)",
+          "quote": "Diffractograms of nanoparticles (red) poly(AA:FA), (orange ) poly(FA:CUR), and (blue) poly(AA:FA:CUR)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11794841",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "Halodule uninervis synthesized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy (SEM) micrograph showing the morphology of Halodule uninervis synthesized AuNPs at 500 nm scale resolution."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 200,
+          "pdi": null,
+          "zeta_mV": -27.66,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The presence of sizes between 200 and 300 nm is attributed to the size of AuNPs aggregates as indicated in SEM images."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "Halodule uninervis synthesized AuNPs",
+          "quote": "UV-visible spectrum of Halodule uninervis synthesized AuNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "Halodule uninervis synthesized AuNPs",
+          "quote": "X-ray diffraction (XRD) of Halodule uninervis synthesized AuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AuNPs",
+          "quote": "Fourier transform infrared (FTIR) spectra of (A) Halodule uninervis extract and (B) the biosynthesized AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11051026",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "OVM-COS-LUT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image (scale bar = 100/500 nm) of OVM-COS-LUT (c)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "OVM-COS-LUT",
+          "size_nm": 209.16,
+          "pdi": 0.25,
+          "zeta_mV": -20.71,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "OVM-COS-LUT | 209.16 ± 1.71 | 0.25 | −20.71 ± 0.68"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "OVM-COS-LUT",
+          "quote": "UV–Vis spectrum of OVM-COS and OVM-COS-LUT, ranging 300–700 nm (b)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "OVM-COS-LUT",
+          "quote": "FT-IR spectra (a) and XRD spectra (b) of COS, LUT, OVM, OVM-COS, and OVM-COS-LUT."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "OVM-COS-LUT",
+          "quote": "FT-IR spectra (a) and XRD spectra (b) of COS, LUT, OVM, OVM-COS, and OVM-COS-LUT."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12299047",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "biogenic MSNs before and after GOx immobilization",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) of MSNs pre- and post-immobilization (with different magnifications)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "free MSNs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -30.8,
+          "medium": "water",
+          "source": "text",
+          "quote": "The mean zeta potential for the free MSNs was found to be −30.8 mV"
+        },
+        {
+          "sample": "GOx-immobilized MSNs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 1.78,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The mean zeta potential for the nanoformulation was 1.78 mV, indicating a neutral charge [76]."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic MSNs and functionalized/GOx-immobilized MSNs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) of biogenic MSNs alone"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "free and immobilized MSNs",
+          "quote": "X-ray diffraction (XRD) of free and immobilized MSNs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11458297",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "CSNPs-I",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM of CSNPs with iodide, hemispherical particles (a), and irregular forms in (b)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CSNPs with and without iodine",
+          "size_nm": 180,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "It can be observed that NPs with and without iodine present an average size of 180 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs, CSNPs-I, CSNPs-IO3",
+          "quote": "FTIR of chitosan (a) and nanoparticles, without iodine (b) and with iodine, CSNPs-I (c) and CSNPs-IO3 (d)."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs, CSNPs-I, CSNPs-IO3",
+          "quote": "XRD patterns of chitosan (a), CSNPs (b), CSNPs-I (c), and CSNPs-IO3 (d)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11203139",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NP, NP-OA and NP-OA-D",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs at different magnifications: 25,000× (left) and 100,000× (right)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NP",
+          "size_nm": 352.7,
+          "pdi": 0.251,
+          "zeta_mV": -23.9,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NP | Aminopropyl-functionalized silica | 352.7 ± 2.6 | 0.251 | −23.9 ± 0.3 | - | -"
+        },
+        {
+          "sample": "NP-D",
+          "size_nm": 449.3,
+          "pdi": 0.359,
+          "zeta_mV": -40.7,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NP-D | NP loaded with D | 449.3 ± 3.1 | 0.359 | −40.7 ± 0.2 | 99.14 ± 0.83 | 19.63 ± 0.09"
+        },
+        {
+          "sample": "NP-OA",
+          "size_nm": 372.4,
+          "pdi": 0.219,
+          "zeta_mV": -50.2,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NP-OA | OA grafted NP | 372.4 ± 2.9 | 0.219 | −50.2 ± 0.4 | - | -"
+        },
+        {
+          "sample": "NP-OA-D",
+          "size_nm": 402.8,
+          "pdi": 0.142,
+          "zeta_mV": -14.5,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "NP-OA-D | NP-OA loaded with D | 402.8 ± 3.3 | 0.142 | −14.5 ± 0.4 | 97.66 ± 1.81 | 18.96 ± 0.23"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NP, NP-OA, NP-OA-D",
+          "quote": "FTIR spectra of (A) NP, OA and NP-OA and (B) NP-OA, D and NP-OA-D."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "NP, NP-OA, NP-D and NP-OA-D",
+          "quote": "Wide-angle (A) and small-angle (B) XRD patterns of doxorubicin"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10891966",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "doxorubicin-loaded chitosan–albumin nanogel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscopy of doxorubicin-loaded chitosan–albumin nanogel (b)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CA",
+          "size_nm": 29.2,
+          "pdi": 0.241,
+          "zeta_mV": 35.5,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "CA | 29.2 ± 5 | 0.241 | +35.5 | - | -"
+        },
+        {
+          "sample": "CA-DOX",
+          "size_nm": 28.8,
+          "pdi": 0.223,
+          "zeta_mV": 34.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "CA-DOX | 28.8 ± 6 | 0.223 | +34.4 | 74.7 | 718.7"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CA and CA-DOX",
+          "quote": "FTIR spectra of doxorubicin (a), doxorubicin-loaded chitosan–albumin nanoparticles (b), albumin (c) and empty chitosan–albumin nanoparticles (d) registered in KBr pellets."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CA and CA-DOX",
+          "quote": "XRD pattern of doxorubicin (DOX), albumin, empty chitosan–albumin nanoparticles (CA) and the drug-loaded nanoparticles (CA-DOX)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12559199",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biogenic Ag-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images at varying magnification levels, 50, 100, and 200 respectively illustrating spherical forms"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "synthesized Ag-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image illustrating the aggregation and surface structure of synthesized Ag-NPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized Ag-NPs",
+          "quote": "FT-IR for synthesized Ag-NPs compared to plant extract"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "biogenic Ag-NPs",
+          "quote": "XRD analysis confirmed the crystalline characteristics of biogenic Ag-NPs"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "synthesized Ag-NPs",
+          "quote": "EDX analysis revealing the metal constituents"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11433958",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "nanoneedles S1, S2 and S4",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the nanoneedles from (a) S1, (b) S2, and (c) S4."
+        },
+        {
+          "fig": "Figure 10",
+          "variant": "SEM",
+          "sample": "nanoneedles after compression test",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the nanoneedles after the compression test."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS/trans-Levo",
+          "size_nm": 435,
+          "pdi": 0.452,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 3",
+          "quote": "CS/trans-Levo | 435 ± 77 | 0.452 | 8.97 ± 1.27 | 24.5 ± 2.38"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "blank CS-trans NPs and Levo-loaded CS-trans NPs",
+          "quote": "XRD patterns of (a) pure Levo drug and (b) 1/3 CS/trans NPs and Levo-loaded NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12428356",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "silver nanoparticles synthesized using Malva parviflora fruit extract",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "The scale bar represents 2 µm."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "S. aureus treated and untreated cells",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrograph demonstrating the impact of M. parviflora AgNP treatment on S. aureus MRSA and S. aureus ATCC29213."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 572,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Figure 4b presents the hydrodynamic size distribution of the AgNPs based on DLS, which shows that the average size was 572 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "M. parviflora plant nanoparticles",
+          "quote": "UV-Vis absorption spectrum. (a) M. parviflora plant nanoparticles; (b) M. parviflora extract."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized with M. parviflora fruit extract",
+          "quote": "EDX spectrum of AgNPs synthesized with M. parviflora fruit extract."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized with M. parviflora fruit extract",
+          "quote": "FTIR spectrum of AgNPs synthesized with M. parviflora fruit extract, along with a summarized list of functional groups."
+        }
+      ]
+    }
+  ]
+}

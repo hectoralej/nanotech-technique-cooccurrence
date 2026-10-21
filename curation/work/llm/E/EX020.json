@@ -1,0 +1,668 @@
+{
+  "batch": "EX020",
+  "articles": [
+    {
+      "pmcid": "PMC11315693",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "CH-NPs, BER/CH-NPs, CRE/CH-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning Electron Microscope (SEM) micrograph and zeta potential of nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CH-NPs",
+          "size_nm": 16.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3; mean diameter measured by SEM",
+          "quote": "mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+        },
+        {
+          "sample": "BER/CH-NPs",
+          "size_nm": 16.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3; mean diameter measured by SEM",
+          "quote": "mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+        },
+        {
+          "sample": "CRE/CH-NPs",
+          "size_nm": 18.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 3; mean diameter measured by SEM",
+          "quote": "mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+        },
+        {
+          "sample": "BER/CH-NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 38.6,
+          "medium": "not_declared",
+          "source": "ZP; text",
+          "quote": "positive ZP of BER/CH-NPs and CRE/CH-NPs with ZP value 38.6 ± 3.8 and 38.8 ± 5.4 mV, respectively"
+        },
+        {
+          "sample": "CRE/CH-NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 38.8,
+          "medium": "not_declared",
+          "source": "ZP; text",
+          "quote": "positive ZP of BER/CH-NPs and CRE/CH-NPs with ZP value 38.6 ± 3.8 and 38.8 ± 5.4 mV, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CH-NPs, BER/CH-NPs, CRE/CH-NPs",
+          "quote": "FTIR spectrum of CH-NPs (Chitosan nanoparticles)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "CH-NPs, BER/CH-NPs, CRE/CH-NPs",
+          "quote": "X-Ray Diffraction (XRD) patterns of BER and CRE in crude and nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11280039",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "NLC and NLC control",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of NLC (A) and respective NLC control (B)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F7",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -41.07,
+          "medium": "not_declared",
+          "source": "zeta potential; initial F7",
+          "quote": "F7 showed the highest zeta potential values, with initial and final values of −41.07 and −54.83 mV, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "F1, F2, F3 and controls",
+          "quote": "FTIR−ATR spectra of F1 (A), F2 (B), F3 (C), and their respective controls and excipients."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12681785",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized quercetin liposomes (QLs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "surface morphology of optimized quercetin liposomes (QLs) formulation by TEM."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "quercetin liposome vesicles",
+          "size_nm": 501.9,
+          "pdi": 0.253,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 1a; DLS",
+          "quote": "average size of 501.9 ± 1.58 nm and a polydispersity index (PDI) of 0.253"
+        },
+        {
+          "sample": "quercetin liposome vesicles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -22.8,
+          "medium": "PBS",
+          "source": "PBS pH 7.4; text result",
+          "quote": "A value of –22.8 ± 0.53 mV was found for the quercetin liposome's zeta potential."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "quercetin liposome",
+          "quote": "Fourier-transform infrared spectroscopy (FTIR) of quercetin, physical mixture, and quercetin liposome."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11672701",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs_AS, AuNPs_AS, BMNPs_AS",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of AgNPs_AS 1:5."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs_AS",
+          "size_nm": 6.98,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 2A,B; TEM image-based size",
+          "quote": "average particle size of 6.98 nm ± 2.86 nm (Figure 2A,B)."
+        },
+        {
+          "sample": "AuNPs_AS",
+          "size_nm": 21.84,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 2C,D; TEM image-based size",
+          "quote": "average particle size of 21.84 ± 8.72 nm."
+        },
+        {
+          "sample": "BMNPs_AS",
+          "size_nm": 2.05,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 2E,F; TEM image-based size",
+          "quote": "average particle size of 2.05 nm ± 0.76 nm (Figure 2E,F)."
+        },
+        {
+          "sample": "AgNPs_AS",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -13.4,
+          "medium": "not_declared",
+          "source": "zeta potential; text",
+          "quote": "The zeta potential of the as-synthesized AgNPs, AuNPs, and BMNPs was −13.4 mV, +19 mV and −8.71 mV, respectively."
+        },
+        {
+          "sample": "AuNPs_AS",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 19,
+          "medium": "not_declared",
+          "source": "zeta potential; text",
+          "quote": "The zeta potential of the as-synthesized AgNPs, AuNPs, and BMNPs was −13.4 mV, +19 mV and −8.71 mV, respectively."
+        },
+        {
+          "sample": "BMNPs_AS",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -8.71,
+          "medium": "not_declared",
+          "source": "zeta potential; text",
+          "quote": "The zeta potential of the as-synthesized AgNPs, AuNPs, and BMNPs was −13.4 mV, +19 mV and −8.71 mV, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs, AuNPs, BMNPs",
+          "quote": "Absorbance spectra of BMNPs_AS."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs, AuNPs, BMNPs",
+          "quote": "FTIR spectra of the AS extract and the as-synthesized MNPs using the aqueous extract of AS."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs, AuNPs, BMNPs",
+          "quote": "XRD pattern of AgNPs, AuNPs, and BMNPs synthesized using aqueous extract of AS."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11513329",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 8",
+          "variant": "SEM",
+          "sample": "AZM, spray-dried lactose, AZM-PCL-MP, PCL-MP",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of (A) azithromycin (AZM), (B) spray-dried lactose LH206, (C) spray-dried AZM-PCL-MP formulation, (D) spray-dried PCL-MP formulation."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PCL-NPs",
+          "size_nm": 228,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; hydrodynamic diameter",
+          "quote": "placebo PCL-NPs presented mean hydrodynamic diameter of 228 ± 8 nm"
+        },
+        {
+          "sample": "AZM-PCL-NPs",
+          "size_nm": 195,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; hydrodynamic diameter",
+          "quote": "AZM-loaded formulations (AZM-PCL-NPs) presented mean hydrodynamic diameter around 195 ± 12 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "PCL-MPs and AZM-PCL-MPs",
+          "quote": "X-ray diffraction of azithromycin (AZM), lactose LH206, polycaprolactone (PCL), PluronicF127, dipalmitoylphosphatidylcholine (DPPC) and spray-dried formulations (PCL-MPs and AZM-PCL-MPs)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "AZM-PCL-MP formulation",
+          "quote": "FTIR spectrum of PCL, AZM and spray-dried AZM-PCL-MP formulation."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11279931",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 10",
+          "variant": "SEM",
+          "sample": "NLC-Blank and NLC-DTX",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of the optimized formulations: (a) NLC-Blank, (b) NLC-DTX."
+        },
+        {
+          "fig": "Figure 12",
+          "variant": "cryoTEM",
+          "sample": "NLC-Blank and NLC-DTX",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Cryo-TEM micrographs of the optimized formulations: (a) NLC-Blank (5000×), (b) NLC-DTX (5000×)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLC-DTX",
+          "size_nm": 199,
+          "pdi": 0.2793,
+          "zeta_mV": -28.73,
+          "medium": "not_declared",
+          "source": "Table 4; optimized formulation",
+          "quote": "NLC-DTX | 199 ± 7.21 | 0.2793 ± 0.0139 | 277 ± 14.00 | 0.2734 ± 0.0220 | −28.73 ± 3.55"
+        },
+        {
+          "sample": "NLC-Blank",
+          "size_nm": 187,
+          "pdi": 0.1955,
+          "zeta_mV": -35.63,
+          "medium": "not_declared",
+          "source": "Table 4; control",
+          "quote": "NLC-Blank | 187 ± 8.53 | 0.1955 ± 0.0379 | 327 ± 9.26 | 0.2327 ± 0.03646 | −35.63 ± 3.70"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "NLC-Blank and NLC-DTX",
+          "quote": "X-ray diffractograms recorded for NLC-Blank and NLC-DTX samples."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12389357",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "STEM",
+          "sample": "co-loaded APIs-LPs and PVP-APIs-LPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM images of co-loaded APIs-LPs: (A) EMPA-Cur-LPs; (B) EMPA-OA-LPs; (C) DAPA-Cur-LPs; (D) DAPA-OA-LPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LPs@1a",
+          "size_nm": 1796,
+          "pdi": 0.916,
+          "zeta_mV": -31.79,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "LPs@1a | 1796.00 ± 0.22 *** | 0.916 ± 0.017 ns | −31.79 ± 0.57 **"
+        },
+        {
+          "sample": "LPs@2a",
+          "size_nm": 871.8,
+          "pdi": 0.745,
+          "zeta_mV": -26.41,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "LPs@2a | 871.80 ± 0.15 *** | 0.745 ± 0.015 ns | −26.41 ± 0.51 **"
+        },
+        {
+          "sample": "LPs@1b",
+          "size_nm": 199.6,
+          "pdi": 0.351,
+          "zeta_mV": -16.29,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "LPs@1b | 199.60 ± 2.57 *** | 0.351 ± 0.019 ns | −16.29 ± 0.82 **"
+        },
+        {
+          "sample": "LPs@2b",
+          "size_nm": 191.6,
+          "pdi": 0.484,
+          "zeta_mV": -14.86,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "LPs@2b | 191.60 ± 1.85 *** | 0.484 ± 0.015 ns | −14.86 ± 0.34 **"
+        },
+        {
+          "sample": "Cur-LPs@1",
+          "size_nm": 166.3,
+          "pdi": 0.488,
+          "zeta_mV": -12.28,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "Cur-LPs@1 | 166.30 ± 4.70 ns | 0.488 ± 0.014 ns | −12.28 ± 4.47 ns"
+        },
+        {
+          "sample": "Cur-LPs@2",
+          "size_nm": 179.4,
+          "pdi": 0.045,
+          "zeta_mV": -13.4,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "Cur-LPs@2 | 179.40 ± 5.30 ns | 0.045 ± 0.011 ** | −13.40 ± 4.09 ns"
+        },
+        {
+          "sample": "OA-LPs@1",
+          "size_nm": 221.2,
+          "pdi": 0.321,
+          "zeta_mV": -20.31,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "OA-LPs@1 | 221.20 ± 4.30 ns | 0.321 ± 0.011 ns | −20.31 ± 3.12 ns"
+        },
+        {
+          "sample": "OA-LPs@2",
+          "size_nm": 236.8,
+          "pdi": 0.244,
+          "zeta_mV": -13.68,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "OA-LPs@2 | 236.80 ± 3.20 ns | 0.244 ± 0.015 ns | −13.68 ± 1.75 ns"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "LP formulations",
+          "quote": "X-ray diffraction patterns: (A) LP formulations and (B) API physical mixtures."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11677412",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "FeNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of FeNPs at different magnifications: 40.000× (a) and 80.000× (b)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FeNPs",
+          "size_nm": 398.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Zetasizer analysis; mean",
+          "quote": "average particle size of 398.9 nm observed in the zeta analysis"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "FeNPs",
+          "quote": "UV-Vis absorbance spectra of FeCl3 and FeNPs synthesized using extracts of Vitex agnus-castus seeds."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "FeNPs",
+          "quote": "The FTIR patterns of FeNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "FeNPs",
+          "quote": "XRD spectra of FeNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12719271",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "chitosan-based nano beta-sitosterol (BSC)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(C) FE-SEM image represents spherical shape of chitosan-based β-sitosterol particles (BSC)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "BSC",
+          "size_nm": 190,
+          "pdi": 0.592,
+          "zeta_mV": 16.3,
+          "medium": "not_declared",
+          "source": "DLS; text result; Figure 3A,B,E",
+          "quote": "190 ± 0.35 nm, 0.592 ± 0.40, and 16.3 ± 0.02 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "BSC",
+          "quote": "(D) X-ray diffractogram of chitosan showing intense peak at 2θ values of 10° and 20°"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "BSC and chitosan",
+          "quote": "FTIR spectrogram of chitosan-based nano β-sitosterol (BSC) and chitosan."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11945150",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "empty NLC and BRB-loaded NLC-B",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images of empty NLC (A) and BRB-loaded (NLC-B) nanoparticles (B) at 50 k magnification."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLC1",
+          "size_nm": 168.1,
+          "pdi": 0.184,
+          "zeta_mV": -32.8,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC1 | 168.1 ± 2.3 | 0.184 ± 0.02 | −32.8 ± 1.1"
+        },
+        {
+          "sample": "NLC2",
+          "size_nm": 167.2,
+          "pdi": 0.2,
+          "zeta_mV": -31.7,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC2 | 167.2 ± 1.8 | 0.200 ± 0.01 | −31.7 ± 2.3"
+        },
+        {
+          "sample": "NLC3",
+          "size_nm": 169.1,
+          "pdi": 0.218,
+          "zeta_mV": -33.3,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC3 | 169.1 ± 2.1 | 0.218 ± 0.01 | −33.3 ± 1.8"
+        },
+        {
+          "sample": "NLC-B1",
+          "size_nm": 158.2,
+          "pdi": 0.305,
+          "zeta_mV": -30.7,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC-B1 | 158.2 ± 1.8 | 0.305 ± 0.01 | −30.7 ± 0.8"
+        },
+        {
+          "sample": "NLC-B2",
+          "size_nm": 157.7,
+          "pdi": 0.208,
+          "zeta_mV": -29.2,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC-B2 | 157.7 ± 2.4 | 0.208 ± 0.02 | −29.2 ± 0.5"
+        },
+        {
+          "sample": "NLC-B3",
+          "size_nm": 159.2,
+          "pdi": 0.223,
+          "zeta_mV": -29.8,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "NLC-B3 | 159.2 ± 1.7 | 0.223 ± 0.03 | −29.8 ± 1.0"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "empty NLC and berberine-loaded NLC-B",
+          "quote": "FTIR spectra of the initial components, empty NLC, and berberine-loaded NLC-B (Myg—Mygliol® 812N; Prec—Precirol® 5 ATO)."
+        }
+      ]
+    }
+  ]
+}

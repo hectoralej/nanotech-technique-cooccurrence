@@ -1,0 +1,86 @@
+{"batch":"EX047","articles":[
+{"pmcid":"PMC9920178","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AMSN-CMC-FU","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The TEM image of AMSN-CMC-FU (A) and the SEM image of AMSN-CMC-FU (B)."}],
+"descriptors":[
+{"sample":"AMSN-CMC-FU","size_nm":249.4,"pdi":0.429,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The DLS analysis of AMSN-CMC-FU found a particle size of 249.4 nm with a polydispersity of 0.429 for AMSN-CMC-FU."},
+{"sample":"AMSN-CMC","size_nm":null,"pdi":null,"zeta_mV":-29.9,"medium":"not_declared","source":"text","quote":"the zeta potential for AMSN-CMC and loaded AMSN-CMC-FU were −29.9 ± 4 mV"},
+{"sample":"AMSN","size_nm":null,"pdi":null,"zeta_mV":6.36,"medium":"not_declared","source":"text","quote":"The values of the zeta potential of AMSN possess a positive potential of 6.36 ± 1.49"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AMSN-CMC-FU","quote":"FTIR spectra of 5-FU, AMSN, CMC, AMSN−CMC, and AMSN−CMC−FU."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AMSN-CMC-FU","quote":"Powder X-ray diffraction patterns (PXRD) of 5-FU, AMSN, CMC, AMSN-CMC, and AMSN-CMC-FU."}]},
+{"pmcid":"PMC9961718","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"Ca-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A). SEM image of Ca−AgNPs synthesized from Cassia auriculate."},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"Ca-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B). TEM images showing the sharper and size of the Ca−AgNPs."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ca-AgNPs","quote":"UV spectra of the flower extract and Ca-AgNPs synthesized from the Cassia auriculate flower extract."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ca-AgNPs","quote":"FTIR spectrum of (a) Cassia auriculate flower extract alone and (b) Ca−AgNPs synthesized from Cassia auriculate."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ca-AgNPs","quote":"XRD pattern of Ca−AgNPs synthesized from Cassia auriculate."}]},
+{"pmcid":"PMC10343853","context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},"panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC10703760","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscope examination for the resultant bionanosilver particles produced by the filtrate of the Lactobacillus acidophilus"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD patterns of nanoparticles prepared using Lactobacillus acidophilus"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectra of nanoparticles prepared using Lactobacillus acidophilus"}]},
+{"pmcid":"PMC10380883","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"Ag(0.5_15all)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs obtained for the first series of samples with 0.5% silver nitrate"},
+{"fig":"Fig. 3","variant":"SEM","sample":"Ag(0.25_15all)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs obtained for the second series of samples, with 0.25% silver nitrate"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag(0.5_15al)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Bright-field and high-resolution TEM, SAED, and size distribution of nanoparticles"}],
+"descriptors":[
+{"sample":"Ag(0.5_15)","size_nm":null,"pdi":null,"zeta_mV":-20.11,"medium":"not_declared","source":"text","quote":"The zeta potential value for the Ag(0.5_15) sample was −20.11 mV"},
+{"sample":"Ag(0.5_30)","size_nm":null,"pdi":null,"zeta_mV":-6.66,"medium":"not_declared","source":"text","quote":"−6.66 mV, where the instability of the Ag(0.5_30) sample was observed."}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag(0.5_15all)","quote":"X-ray diffractogram performed for the series of samples with 0.5% silver nitrate"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"mixture","sample":"Alg_HA_S","quote":"FT-IR spectra for the Alg, Alg_HA, Alg_S, and Alg_HA_S samples and HA."}]},
+{"pmcid":"PMC10574111","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_dried_unstained","sample":"Turkevich–Frens AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM acquisitions of AuNPs obtained by Turkevich–Frens method (a), Au seeds (b) and the relative SAED patterns (c,d)."},
+{"fig":"Fig. 4","variant":"TEM_dried_unstained","sample":"AuNSs (6 h, 9 h)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM acquisitions of the AuNSs after 6 and 9 h of synthetic approach (a,c)"},
+{"fig":"Fig. 8","variant":"TEM_dried_unstained","sample":"Turkevich–Frens AuNPs (1.8 Gy)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM acquisitions of the Turkevich–Frens AuNPs (a) and AuNSs (b) after 1.8 Gy irradiation dose"}],
+"descriptors":[
+{"sample":"Turkevich–Frens","size_nm":19,"pdi":null,"zeta_mV":-20,"medium":"water","source":"Table 2","quote":"Turkevich–Frens | −20 ± 2 | 19 ± 2"},
+{"sample":"Seeds","size_nm":7,"pdi":null,"zeta_mV":-11,"medium":"water","source":"Table 2","quote":"Seeds | −11 ± 1.3 | 7 ± 5"},
+{"sample":"Stars (6 h)","size_nm":60,"pdi":null,"zeta_mV":-16,"medium":"water","source":"Table 2","quote":"Stars (6 h) | −16 ± 3 | 60 ± 6"},
+{"sample":"Stars (9 h)","size_nm":68,"pdi":null,"zeta_mV":-20,"medium":"water","source":"Table 2","quote":"Stars (9 h) | −20 ± 2 | 68 ± 3"},
+{"sample":"Stars (12 h)","size_nm":70,"pdi":null,"zeta_mV":-24,"medium":"water","source":"Table 2","quote":"Stars (12 h) | −24 ± 2 | 70 ± 2"},
+{"sample":"Turkevich–Frens (1.8 Gy)","size_nm":20,"pdi":null,"zeta_mV":-21,"medium":"water","source":"Table 3","quote":"Turkevich–Frens | −21 ± 3 | 20 ± 1"},
+{"sample":"Stars (1.8 Gy)","size_nm":72,"pdi":null,"zeta_mV":-27,"medium":"water","source":"Table 3","quote":"Stars | −27 ± 2 | 72 ± 1"},
+{"sample":"Stars (2 Gy)","size_nm":68,"pdi":null,"zeta_mV":-22,"medium":"water","source":"Table 3","quote":"Stars | −22 ± 3 | 68 ± 3"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Turkevich–Frens AuNPs","quote":"Uv-vis spectra of AuNPs obtained with Turkevich–Frens method."},
+{"technique":"FTIR","fig":"Fig. 9","applies_to":"nanoparticle","sample":"Turkevich–Frens AuNPs (1.8 Gy)","quote":"ATR-FTIR spectra of Turkevich–Frens AuNPs before (black trace) and after (red trace) X-ray irradiation (1.8 Gy)"}]},
+{"pmcid":"PMC10300921","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"IONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the iron oxide nanoparticles at 50,000× magnification (a)"},
+{"fig":"Fig. 2","variant":"SEM","sample":"IONP:5-FU 0.5:1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of IONP:5-FU 0.5:1 (a), IONP:5-FU 1:1 (b), and IONP:5-FU 1.5:1 (c) at 50,000× magnification."}],
+"descriptors":[
+{"sample":"IONP:5-FU 0.5:1","size_nm":38.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"IONP:5-FU 0.5:1 | 38.6 | 42.4 | 45.8 | 46.7"},
+{"sample":"IONP:5-FU 1:1","size_nm":44.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"IONP:5-FU 1:1 | 44.8 | 48.6 | 55.5 | 56.8"},
+{"sample":"IONP:5-FU 1.5:1","size_nm":57.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"IONP:5-FU 1.5:1 | 57.6 | 63.9 | 66.2 | 69.4"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"IONPs","quote":"EDS spectra obtained for IONPs (a), IONP:5-FU 0.5:1 (b), IONP:5-FU 1:1 (c), and IONP:5-FU 1.5:1 (d)."}]},
+{"pmcid":"PMC10609782","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"AgNP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of silver nanoparticles observed under 4000 (I), 15,000 (II) and 300,000 (III) magnitude."}],
+"descriptors":[
+{"sample":"AgNP","size_nm":60.44,"pdi":0.510,"zeta_mV":-22.10,"medium":"not_declared","source":"Table 2","quote":"60.44 ± 0.96 | 0.510 ± 0.010 | −22.10 ± 1.48"},
+{"sample":"MT6-AgNP","size_nm":126.90,"pdi":0.426,"zeta_mV":-28.80,"medium":"not_declared","source":"Table 2","quote":"126.90 ± 3.75 | 0.426 ± 0.004 | −28.80 ± 0.46"},
+{"sample":"AgNP-MT6","size_nm":91.43,"pdi":0.426,"zeta_mV":-17.50,"medium":"not_declared","source":"Table 2","quote":"91.43 ± 0.66 | 0.426 ± 0.020 | −17.50 ± 0.55"},
+{"sample":"CuTP1-AgNP","size_nm":181.60,"pdi":0.375,"zeta_mV":-23.90,"medium":"not_declared","source":"Table 2","quote":"181.60 ± 3.55 | 0.375 ± 0.017 | −23.90 ± 1.21"},
+{"sample":"AgNP-CuTP1","size_nm":122.30,"pdi":0.428,"zeta_mV":-12.60,"medium":"not_declared","source":"Table 2","quote":"122.30 ± 6.49 | 0.428 ± 0.054 | −12.60 ± 1.84"}],
+"spectra":[{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNP","quote":"XRD patterns of silver nanoparticles."}]},
+{"pmcid":"PMC9824472","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"MMSNP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM image and SEM image of the MMSNP (B,C)."}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"MMSNP","quote":"FT−IR spectra of the magnetic core, MMSNP, MMSNP−SUN, and SUN (A)."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"MMSNP","quote":"The EDX spectrum of the MMSNPs (H)."}]},
+{"pmcid":"PMC10598810","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"SNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM image of SNPs (A) and NH2-SBA-15 (B) for visual control of nanoparticles"}],
+"descriptors":[
+{"sample":"SNPs","size_nm":103.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"exhibited an average size of 103.7 nm and 225.9 nm"},
+{"sample":"NH2-SBA-15","size_nm":225.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"exhibited an average size of 103.7 nm and 225.9 nm"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"SNPs and NH2-SBA-15","quote":"FT-IR spectra of SNPs and NH2-SBA-15 after extraction with ethanol"}]}
+]}

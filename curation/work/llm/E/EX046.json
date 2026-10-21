@@ -1,0 +1,114 @@
+{"batch":"EX046","articles":[
+{"pmcid":"PMC12783729","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Frankincense-chitosan-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of chitosan (a), Frankincense extract (b), and Frankincense-chitosan-NPs (c)."},
+{"fig":"Fig. 6","variant":"SEM","sample":"Frankincense-chitosan-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of chitosan (a), Frankincense extract (b), and Frankincense-chitosan-NPs (c)."}
+],
+"descriptors":[
+{"sample":"Frankincense-chitosan-NPs","size_nm":149.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Partial size (nm) | 493.9 ± 150 | 149.4 ± 55.8"}
+],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"frankincense–chitosan nanoparticles","quote":"X-ray spectrum of chitosan (Blue) and frankincense–chitosan nanoparticles (Red)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Frank-chitosan-NPs","quote":"and Frankincense-chitosan nanoparticles (Frank-chitosan-NPs, greenish-cyan)."}
+]},
+{"pmcid":"PMC8304341","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"MSN","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of MSN sample at different magnifications."}
+],
+"descriptors":[
+{"sample":"MSN","size_nm":null,"pdi":null,"zeta_mV":-23,"medium":"water","source":"text","quote":"MSN sample has a negative zeta potential (ζ = −23 mV)"},
+{"sample":"MSN-Cl","size_nm":null,"pdi":null,"zeta_mV":-8,"medium":"water","source":"text","quote":"The sample MSN-Cl has a less negative zeta potential (ζ = −8 mV)"},
+{"sample":"MSN-TETA","size_nm":null,"pdi":null,"zeta_mV":27,"medium":"water","source":"text","quote":"MSN-TETA system displays a positive zeta potential (ζ = +27 mV)"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 3","applies_to":"nanoparticle","sample":"MSN","quote":"(A) FTIR spectra and (B) Thermogravimetric analysis of MSN, MSN−Cl and MSN−TETA."},
+{"technique":"SAXS","fig":"Figure 2","applies_to":"nanoparticle","sample":"MSN","quote":"(A) SAXS patterns and (B) Adsorption/desorption N2 of MSN, MSN−Cl, MSN−TETA samples."},
+{"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"MSN-TETA-SMZ","quote":"(A) FT-IR spectra (B) TGA of MSN-SMZ and MSN-TETA-SMZ."}
+]},
+{"pmcid":"PMC13173837","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"TLCNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images depict TLCNPs as generally spherical and uniform, with an average size of 307 ± 34 nm"}
+],
+"descriptors":[
+{"sample":"TLCNPs","size_nm":317.39,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the TLCNPs had an average hydrodynamic diameter of approximately 317.39 nm"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"thymol","quote":"FT-IR spectrum of (a) thymol and (b) TLCNPs"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"TLCNPs","quote":"FT-IR spectrum of (a) thymol and (b) TLCNPs"}
+]},
+{"pmcid":"PMC9192808","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 4","variant":"SEM","sample":"IONPs, APTES@IONPs and PEG@IONPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of a) IONPs, b) APTES@IONPs and c) PEG@IONPs. Scale bars = 200 nm."}
+],
+"descriptors":[
+{"sample":"IONPs","size_nm":89,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean hydrodynamic sizes of the bare IONPs, APTES@IONPs, and PEG@IONPs were 89, 123, and 109 nm, respectively."},
+{"sample":"APTES@IONPs","size_nm":123,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean hydrodynamic sizes of the bare IONPs, APTES@IONPs, and PEG@IONPs were 89, 123, and 109 nm, respectively."},
+{"sample":"PEG@IONPs","size_nm":109,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean hydrodynamic sizes of the bare IONPs, APTES@IONPs, and PEG@IONPs were 89, 123, and 109 nm, respectively."}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"IONPs, APTES@IONPs and PEG@IONPs","quote":"FT-IR results for IONPs, APTES@IONPs and PEG@IONPs."},
+{"technique":"XRD","fig":"Figure 6","applies_to":"nanoparticle","sample":"IONPs, APTES@IONPs and PEG@IONPs","quote":"XRD results for IONPs, APTES@IONPs and PEG@IONPs."}
+]},
+{"pmcid":"PMC12842336","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"CBD-PLGA nanospheres","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of freeze-dried CBD-PLGA nanospheres showing (a) overall morphology and aggregation pattern (×8770)"}
+],
+"descriptors":[
+{"sample":"CBD-PLGA nanospheres","size_nm":178.0,"pdi":0.09,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"hydrodynamic diameter (Z-average) of 178.0 ± 0.84 nm with a polydispersity index (PDI) of 0.09 ± 0.01"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 3","applies_to":"mixture","sample":"CPN hydrogel","quote":"(a) FT-IR spectra of boric acid, CS-PVA-BA free, CS-PVA, and CPN hydrogels showing peaks at 3192 and 2259 cm−1,"}
+]},
+{"pmcid":"PMC6523107","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"G-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of: (a) yellow G-AgNPs; (b) red G-AgNPs; (c) blue G-AgNPs; and their respective size distributions (d–f)."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"G-AgNPs","quote":"UV-Vis extinction spectra of: (a) yellow G-AgNPs; (b) red G-AgNPs; and (c) blue G-AgNPs."}
+]},
+{"pmcid":"PMC10048031","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"Cur-Cs-Np","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of (a) nanoparticles (Cur-Cs-Np) and (b) Patch (Cur-Cs-Np-P)."}
+],
+"descriptors":[
+{"sample":"Cs-Np","size_nm":203.1,"pdi":0.27,"zeta_mV":36.3,"medium":"not_declared","source":"Table 1","quote":"Cs-Np | 203.1 ± 6.95 | +36.3 ± 1.25 | 0.27 ± 0.12 | ---- | -----"},
+{"sample":"Cur-Cs-Np","size_nm":229.4,"pdi":0.29,"zeta_mV":25.8,"medium":"not_declared","source":"Table 1","quote":"Cur-Cs-Np | 229.4 ± 9.53 | +25.8 ± 1.56 | 0.29 ± 0.11 | 53.2 ± 3.32 | 59.3 ± 2.98"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 1","applies_to":"nanoparticle","sample":"Cur-Cs-Np","quote":"ATR−FTIR spectra of (a) Curcumin, (b) Chitosan, (c) Cur─Cs─Np, (d) Ethyl cellulose and (e) Cur─Cs─Np─P."},
+{"technique":"FTIR","fig":"Figure 1","applies_to":"component","sample":"Curcumin","quote":"ATR−FTIR spectra of (a) Curcumin, (b) Chitosan, (c) Cur─Cs─Np, (d) Ethyl cellulose and (e) Cur─Cs─Np─P."}
+]},
+{"pmcid":"PMC5591228","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 4","variant":"SEM","sample":"NAu-rGO","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM micrograph of (a) rGO and (b) NAu-rGO nanocomposite."},
+{"fig":"Figure 4","variant":"HRTEM","sample":"NAu-rGO","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High-resolution TEM (HR-TEM) micrograph of (c) and (d) NAu-rGO nanocomposite."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"NAu-rGO","quote":"(a) UV–Vis spectra of GO (blue), rGO (red), and NAu-rGO nanocomposite (black)."},
+{"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"NAu-rGO","quote":"(b) XRD patterns of rGO (black), NAu-rGO(red) (Inset: XRD patterns of GO)"},
+{"technique":"Raman","fig":"Figure 2","applies_to":"nanoparticle","sample":"NAu-rGO","quote":"(c) Raman spectra of GO (black) and NAu-rGO nanocomposite (red)."},
+{"technique":"EDS","fig":"Supplementary Fig. 1","applies_to":"nanoparticle","sample":"Au NPs on rGO","quote":"The Energy-dispersive X-ray spectroscopy (EDS) study confirmed that the formed nanoparticles on the rGO surface are of Au NPs"}
+]},
+{"pmcid":"PMC13610326","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"Morin-PLGA-CS NPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Scanning electron microscopy (SEM) image depicting spherical and well-dispersed NPs with a relatively uniform size distribution (Scale bar: 500 nm)."}
+],
+"descriptors":[
+{"sample":"Morin-PLGA-CS NPs","size_nm":221.6,"pdi":0.29,"zeta_mV":23.3,"medium":"not_declared","source":"Fig. 1","quote":"Dynamic light scattering (DLS) analysis shows a Z-average hydrodynamic diameter of 221.6 nm, a PDI of 0.29, and a zeta potential of +23.3 mV"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Morin-PLGA-CS NPs","quote":"(D) Full-wavelength UV-Vis absorption spectra (200–600 nm) of free morin, Morin-PLGA-CS NPs, and"}
+]},
+{"pmcid":"PMC10097212","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 5","variant":"SEM","sample":"CB-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of CB-AgNPs obtained from Cleome brachycarpa."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"CB-AgNPs","quote":"UV–Visible spectrum at different time durations."},
+{"technique":"FTIR","fig":"Figure 4","applies_to":"nanoparticle","sample":"CB-AgNPs","quote":"FTIR spectrum of biogenically synthesized silver nanoparticles with extract."},
+{"technique":"EDS","fig":"Figure 6","applies_to":"nanoparticle","sample":"CB-AgNPs","quote":"EDX spectrum of CB-AgNPs."}
+]}
+]}

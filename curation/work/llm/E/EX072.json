@@ -1,0 +1,93 @@
+{"batch":"EX072","articles":[
+{"pmcid":"PMC10042639",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 4","variant":"HRTEM","sample":"SeWt-AgNPs and StAc-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM images for (a) AgNPs synthesized from seed extracts of W. tinctoria and (b) AgNPs synthesized from stem extracts of A. catechu."}],
+ "descriptors":[
+  {"sample":"SeWt-AgNPs","size_nm":39.75,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"SeWt-AgNPs had a median particle size of 39.75 nm (Figure 5(a))"},
+  {"sample":"StAc-AgNPs","size_nm":27.79,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"whereas the StAc-AgNPs had a median particle size of 27.79 nm (Figure 5(b))"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SeWt-AgNPs","quote":"UV-visible spectroscopy graph for (a) AgNPs synthesized from seed extracts of W. tinctoria"},
+  {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SeWt-AgNPs","quote":"XRD peaks for (a) AgNPs synthesized from seed extracts of W. tinctoria"},
+  {"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"SeWt-AgNPs","quote":"EDX results showing presence of silver element in (a) SeWt-AgNPs and (b) StAc-AgNPs."},
+  {"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"SeWt-AgNPs","quote":"FTIR peaks showing (a) functional groups of SeWt-AgNPs"}]},
+{"pmcid":"PMC9961410",
+ "context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+ "panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC6358969",
+ "context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"MnFe2O4/Au core/shell nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM image of the synthesized MnFe2O4/Au core/shell nanoparticles."},
+  {"fig":"Fig. 8","variant":"TEM_negstain","sample":"SMLs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image (dark field mode) of SMLs containing core/shell nanoparticles (obtained with a negative staining)."}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MnFe2O4/Au core/shell nanoparticles","quote":"UV-Visible absorption spectra of aqueous dispersions of manganese ferrite nanoparticles, gold nanoparticles, and MnFe2O4/Au core/shell nanoparticles."},
+  {"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"manganese ferrite/gold core/shell nanoparticles","quote":"XRD diffractogram of manganese ferrite (a) and manganese ferrite/gold core/shell nanoparticles (b)."}]},
+{"pmcid":"PMC9448409",
+ "context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"LORA-NLCs-2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrograph of the optimized LORA-NLCs-2."}],
+ "descriptors":[{"sample":"LORA-NLC-2","size_nm":156.11,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 3","quote":"Observed value of optimized formula (LORA-NLC-2) | 95.78 | 156.11 | 40.10 | 99.67"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"LORA-NLCs","quote":"FTIR spectra of pure Loratadine (LORA) and each pharmaceutical excipients of the optimized formula LORA-NLCs"},
+  {"technique":"Raman","fig":"Fig. 4","applies_to":"nanoparticle","sample":"LORA-NLCs-2","quote":"Raman spectra of pure Loratadine powder (LORA) and optimized formula (LORA-NLCs-2)."}]},
+{"pmcid":"PMC7559771",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 6","variant":"STEM","sample":"FAuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Scanning transmission electron microscopy (STEM) image of FAuNPs and (b) particle size distribution of FAuNPs."}],
+ "descriptors":[{"sample":"FAuNPs","size_nm":23,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Particle size distribution calculated from STEM image fitted with the Gaussian function indicating an average size of NPs of 23 nm (Figure 6b)."}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"FAuNPs","quote":"UV-Vis spectra of flavonoid coated gold nanoparticles (FAuNPs) synthesis"},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"FAuNPs","quote":"FTIR spectra of CF (red) and FAuNPs (blue)."},
+  {"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"FAuNPs","quote":"XRD analysis of FAuNPs."},
+  {"technique":"EDS","fig":"Fig. 7","applies_to":"nanoparticle","sample":"FAuNPs","quote":"EDS analysis (EDXA) of FAuNPs."}]},
+{"pmcid":"PMC10020323",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"chitosan nanoparticles (Cs-NP)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrograph descriptions of bentonite clay (a), date pit (b), and chitosan nanoparticles (c) with their size histograms"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"chitosan nanoparticles (Cs-NP)","quote":"FTIR spectra of bentonite clay (a), date pit (b), and chitosan nanoparticles (c)"},
+  {"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"chitosan nanoparticles (Cs-NP)","quote":"XRD spectra of bentonite clay (a), date pit (b), and chitosan nanoparticles (c)"},
+  {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"chitosan nanoparticles (Cs-NP)","quote":"EDX analysis of bentonite clay (a), date pit (b), and chitosan nanoparticles (c)"}]},
+{"pmcid":"PMC6126448",
+ "context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"SEM","sample":"17-AAG:HPβCD","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"(A) SEM of 17-AAG; HPβCD; 17-AAG:HPβCD and the physical mixture. Magnification: 600 X."},
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"17-AAG:HPβCD-loaded liposomes","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy of 17-AAG:HPβCD-loaded liposomes."}],
+ "descriptors":[
+  {"sample":"17-AAG:HPβCD-loaded liposome","size_nm":null,"pdi":null,"zeta_mV":22.6,"medium":"not_declared","source":"Table 3","quote":"17-AAG:HPβCD-loaded liposome | 89.23 ± 4.36 | 99.53 ± 0.30 | + 22.6 ± 1.85"},
+  {"sample":"Unloaded liposome","size_nm":null,"pdi":null,"zeta_mV":21.13,"medium":"not_declared","source":"Table 3","quote":"Unloaded liposome | – | – | + 21.13 ± 0.68"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"component","sample":"17-AAG:HPβCD","quote":"(C) FT-IR spectra of 17-AAG; HPβCD; 17-AAG:HPβCD and physical mixture."},
+  {"technique":"XRD","fig":"Fig. 1","applies_to":"component","sample":"17-AAG:HPβCD","quote":"(B) X-ray diffraction patterns of 17-AAG; HPβCD; 17-AAG:HPβCD and the physical mixture."}]},
+{"pmcid":"PMC9428247",
+ "context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"NLC-PB","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of: (A) 1:10 dilution, (B) 1:500 dilution of NLC-PB optimized formulation, and (C) 1:10 dilution of empty NLC (NLC-vehicle)."}],
+ "descriptors":[
+  {"sample":"NLC-PB (45 days)","size_nm":180.2,"pdi":0.199,"zeta_mV":-10.2,"medium":"not_declared","source":"text","quote":"After 45 days of storage, particle size was 180.2 ± 0.7 nm, PDI was 0.199 ± 0.001 and Z-potential was −10.2 ± 0.4 mV."},
+  {"sample":"Formulation 1","size_nm":150.2,"pdi":0.236,"zeta_mV":-9.56,"medium":"not_declared","source":"Table 1","quote":"1 | 100 | 400 | 10 | 10 | 60 | 150,2 | 0,236 | −9,56"},
+  {"sample":"Formulation 9","size_nm":240.1,"pdi":0.184,"zeta_mV":-14.1,"medium":"not_declared","source":"Table 1","quote":"9 | 400 | 400 | 10 | 10 | 80 | 240,1 | 0,184 | −14,1"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"NLC-PB","quote":"Overlaid FTIR spectra of PB, myristyl myristate, Poloxamer 188, NLC-vehicle, and NLC-PB."},
+  {"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"NLC-PB","quote":"XRD patterns of raw materials and nanoparticles with and without phenobarbital."}]},
+{"pmcid":"PMC8695619",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Ag@SiO2 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of the prepared (a)–(c) Ag nanoparticles and (d)–(f) Ag@SiO2 nanoparticles"},
+  {"fig":"Fig. 5","variant":"SEM","sample":"Ag@SiO2 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM of (a) Ag@SiO2 nanoparticles on ITO film"}],
+ "descriptors":[
+  {"sample":"Ag NPs","size_nm":50,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"the Ag nanoparticles have a spherical shape with the average size of 50 nm"},
+  {"sample":"Ag@SiO2 nanoparticles","size_nm":80,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"the Ag@SiO2 nanoparticles have an average size of 80 nm."}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag@SiO2 NPs","quote":"(A) UV-visible spectrum of Ag NPs and Ag@SiO2 NPs."},
+  {"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag@SiO2 nanoparticles","quote":"(B) XRD pattern of Ag NPs and Ag@SiO2 hybrid nanoparticles."},
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag@SiO2 nanoparticles","quote":"(C) FTIR spectra of Ag nanoparticles and Ag@SiO2 nanoparticles"},
+  {"technique":"Raman","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag@SiO2 nanoparticles","quote":"(D) The Raman spectra of Ag nanoparticles and Ag@SiO2 nanoparticles"}]},
+{"pmcid":"PMC9652403",
+ "context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"NGs@TMZ/ICG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"d TEM images of the NGs@TMZ/ICG before and after NIR irradiation (808 nm, 0.5 W cm−2, 5 min)."},
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"ARNGs@TMZ/ICG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"d, e TEM images of ARNGs@TMZ/ICG before (d) and after (e) NIR irradiation"}],
+ "descriptors":[
+  {"sample":"NGs@TMZ/ICG","size_nm":170,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"showed similar hydrodynamic sizes of around 170 nm (Fig. 2b) and slightly negative surface charges"},
+  {"sample":"ARNGs@TMZ/ICG","size_nm":190,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 3","quote":"had an average size of around 190 nm (Fig. 3b)"}],
+ "spectra":[
+  {"technique":"Raman","fig":"Fig. 2","applies_to":"nanoparticle","sample":"NGs@TMZ/ICG","quote":"The pristine NGs@TMZ/ICG exhibited two strong Raman peaks corresponding to the C=C bond (1520 cm−1)"}]}
+]}

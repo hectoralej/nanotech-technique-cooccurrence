@@ -1,0 +1,103 @@
+{"batch":"EX051","articles":[
+{"pmcid":"PMC11332291",
+ "context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 4","variant":"STEM","sample":"AuNPs–PEG–PEI–MTX","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(e) AuNPs–PEG–PEI, and (f) AuNPs–PEG–PEI–MTX"}],
+ "descriptors":[
+  {"sample":"AuNPs-p","size_nm":70,"pdi":null,"zeta_mV":-29.07,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter of AuNPs-p presented a dimension of 70 nm and a zeta potential of −29.07 mV"},
+  {"sample":"AuNPs–PEG–NH2","size_nm":93.8,"pdi":null,"zeta_mV":4.51,"medium":"not_declared","source":"text","quote":"hydrodynamic diameter value that undergoes from 70 to 93.8 nm while the zeta potential value is from −29.06 mV to +4.51 mV"}
+ ],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuNPs–PEG–MTX","quote":"The FTIR spectra of (a) AuNPs–PEG–MTX and each component of the synthesis"},
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuNPs–PEG–PEI–MTX","quote":"(b) AuNPs–PEG–PEI–MTX and each component of the synthesis"}
+ ]},
+{"pmcid":"PMC11303148",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 6","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM images of AgNPs depicting the morphology at two different resolutions"}],
+ "descriptors":[
+  {"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-19.7,"medium":"not_declared","source":"text","quote":"The zeta potential of the silver nanoparticle solution derived from the SBT extract was measured to be −19.7 mV"}
+ ],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectra of dried powder of Hippophae rhamnoides berries and silver nanoparticles"},
+  {"technique":"XRD","fig":null,"applies_to":"nanoparticle","sample":"AgNPs","quote":"The XRD pattern of AgNPs exhibited the appearance of four characteristic diffraction peaks at 38.1, 44.2, 64.4, and 77.6"}
+ ]},
+{"pmcid":"PMC10855246",
+ "context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"GNP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) Transmission electron microscopy (TEM) image of GNP."}],
+ "descriptors":[
+  {"sample":"GNP","size_nm":28.3,"pdi":null,"zeta_mV":-32.2,"medium":"not_declared","source":"text","quote":"Dynamic light scattering (DLS) analysis determined the average size of the nanoparticles to be 28.3 nm (Figure 1E), with a zeta potential of −32.2 mV"}
+ ],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"GNP","quote":"(A) Ultraviolet-Visible (UV-Vis) spectra of GNP."}
+ ]},
+{"pmcid":"PMC11387364",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 4","variant":"SEM","sample":"Lp-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM micrographs of Lp-AgNPs at 50.000 × (A) and 80.000 × (B) magnification"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Lp-AgNPs","quote":"UV–vis absorbance spectra monitoring the biosynthesis and stability of Lp-AgNPs (A)"},
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Lp-AgNPs","quote":"FTIR spectra of silver nanoparticles (AgNPs) derived from the peel (Lp-AgNPs) (A)"}
+ ]},
+{"pmcid":"PMC11330562",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"HRTEM","sample":"DdAgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM images of DdAgNPs"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"DdAgNPs","quote":"an absorption peak was observed at 416 nm"}
+ ]},
+{"pmcid":"PMC11606277",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"SEM","sample":"green AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Scanning electron microscopy 500 nm"},
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"green AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b) transmission electron microscopy 100 nm examination of green AgNPs"},
+  {"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"MRSA RM-Ph8 treated with AgNPs","shows_nanocarrier":false,"scale_bar_in_caption":true,"quote":"TEM examination of the new MRSA RM-Ph8 strain treated with AgNPs based on Artemisia annua extract at a 200-nm scale bar"}
+ ],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"green AgNPs","quote":"Fourier transform infrared spectra of the new green and chemical Sliver nanoparticles"}
+ ]},
+{"pmcid":"PMC11279549",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"Ag@Py-ST-X","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of AgNPs and Ag@Py-ST-X composites."},
+  {"fig":"Fig. 3","variant":"SEM","sample":"Ag@Py-ST-Cl@CNT","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The SEM image of CNTs and Ag@Py-ST-Cl@CNT."},
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag@Py-ST-X@CNT","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of CNTs and Ag@Py-ST-X@CNT."}
+ ],
+ "descriptors":[
+  {"sample":"Ag@Py-ST-X (X = Br)","size_nm":null,"pdi":null,"zeta_mV":-30,"medium":"not_declared","source":"Fig. 2","quote":"The values deduced from the (ζ) spectra (Figure 2), −30 mV, −24 mV, and −13 mV for X = Br, Cl, and NO2"},
+  {"sample":"Ag@Py-ST-X (X = Cl)","size_nm":null,"pdi":null,"zeta_mV":-24,"medium":"not_declared","source":"Fig. 2","quote":"The values deduced from the (ζ) spectra (Figure 2), −30 mV, −24 mV, and −13 mV for X = Br, Cl, and NO2"},
+  {"sample":"Ag@Py-ST-X (X = NO2)","size_nm":null,"pdi":null,"zeta_mV":-13,"medium":"not_declared","source":"Fig. 2","quote":"The values deduced from the (ζ) spectra (Figure 2), −30 mV, −24 mV, and −13 mV for X = Br, Cl, and NO2"}
+ ],
+ "spectra":[
+  {"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Ag@Py-ST-X@CNT","quote":"The XRD image of Ag@Py-ST-X@CNT."}
+ ]},
+{"pmcid":"PMC10826267",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of the synthesized AgNPs with scales 300 nm"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD diffraction pattern of synthesized AgNPs"}
+ ]},
+{"pmcid":"PMC11561361",
+ "context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Doxy/AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) AgNPs and (b) Doxy/AgNPs."}],
+ "descriptors":[
+  {"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":29,"medium":"not_declared","source":"Fig. 3","quote":"(3a and b) shows zeta potential were 29 mv and 48.5mv for AgNPs and Doxy/AgNPs respectively"},
+  {"sample":"Doxy/AgNPs","size_nm":null,"pdi":null,"zeta_mV":48.5,"medium":"not_declared","source":"Fig. 3","quote":"(3a and b) shows zeta potential were 29 mv and 48.5mv for AgNPs and Doxy/AgNPs respectively"}
+ ],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Doxy/AgNPs","quote":"UV-Visible absorbance spectra of AgNPs, Doxy and Doxy/AgNPs"},
+  {"technique":"FTIR","fig":null,"applies_to":"nanoparticle","sample":"AgNPs","quote":"In the FTIR analysis of AgNPs, the absorption peak at 3444.24 cm−1 related to the N–H stretching of the amino group"},
+  {"technique":"FTIR","fig":null,"applies_to":"nanoparticle","sample":"Doxy/AgNPs","quote":"Upon loading doxycycline on AgNPs, two peak absorptions were observed in the FTIR spectra"}
+ ]},
+{"pmcid":"PMC10892808",
+ "context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"ION@DPA-Dex-β-CD-SMT-Ag","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (a) IONs, (b) ION@DPA-Dex-β-CD and (c) ION@DPA-Dex-β-CD-SMT-Ag particles."}],
+ "descriptors":[
+  {"sample":"IONs","size_nm":108,"pdi":0.13,"zeta_mV":-26,"medium":"water","source":"Table 1","quote":"IONs | 8 ± 2 | 1.29 | 108 ± 1 | 0.13 | −26 ± 5 | -"},
+  {"sample":"ION@DPA-Dex-β-CD","size_nm":155,"pdi":0.07,"zeta_mV":-18,"medium":"water","source":"Table 1","quote":"ION@DPA-Dex-β-CD | 9 ± 2 | 1.28 | 155 ± 2 | 0.07 | −18 ± 4 | 10.8"},
+  {"sample":"ION@DPA-Dex-β-CD-SMT-Ag","size_nm":244,"pdi":0.29,"zeta_mV":-36,"medium":"water","source":"Table 1","quote":"ION@DPA-Dex-β-CD-SMT-Ag | 8 ± 2 | 1.26 | 244 ± 3 | 0.29 | −36 ± 2 | 13.1"}
+ ],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"ION-DPA-Dex-β-CD-SMT","quote":"(a–c) FTIR and (d) TGA analysis of IONs, β-CD, β-CD-Ts"}
+ ]}
+]}

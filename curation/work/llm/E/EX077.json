@@ -1,0 +1,121 @@
+{"batch":"EX077","articles":[
+{"pmcid":"PMC10378863","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_negstain","sample":"liposomes without VEGF","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of (A) liposomes without VEGF and (B) liposomes with VEGF."},
+{"fig":"Fig. 3","variant":"SEM","sample":"liposomal hydrogel","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The white arrow (f) indicates the presence of liposomes in the liposomal hydrogel."},
+{"fig":"Fig. 5","variant":"SEM","sample":"cells on hydrogel","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Surface cellular morphology viewed under FESEM at ×1000 magnification"}
+],
+"descriptors":[
+{"sample":"Liposomes without VEGF","size_nm":114,"pdi":0.221,"zeta_mV":30.7,"medium":"not_declared","source":"Table 1","quote":"Liposomes without VEGF | 114 ± 28 | 0.221 ± 0.01 | 30.7 ± 12.8"},
+{"sample":"Liposomes with VEGF","size_nm":171,"pdi":0.174,"zeta_mV":38.5,"medium":"not_declared","source":"Table 1","quote":"Liposomes with VEGF | 171 ± 31 | 0.174 ± 0.03 | 38.5 ± 12.9"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"unclear","sample":"liposomal hydrogel","quote":"The FTIR spectra of hydrogel without liposomes and liposomal hydrogel"}
+]},
+{"pmcid":"PMC7820125","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"NLC (F6)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphological features of NLC (F6) formulation in terms of FE-SEM (A) and TEM (B) images."},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"NLC (F6)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphological features of NLC (F6) formulation in terms of FE-SEM (A) and TEM (B) images."}
+],
+"descriptors":[
+{"sample":"F6 NLC","size_nm":230,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"was compatible with that measured by DLS (230 nm)."}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"NLC (F6)","quote":"FTIR-ATR (A) and DSC (B) analyses of NLC (F6) formulation and its excipients."}
+]},
+{"pmcid":"PMC10609251","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Characterization of phyco-synthesized AgNPs. (a) SEM image."}
+],
+"descriptors":[
+{"sample":"AgNPs","size_nm":179.3,"pdi":1.0,"zeta_mV":null,"medium":"PBS","source":"text","quote":"which was found to be 179.3 nm, and the polydispersity index (PDI), which was found to be 1.00"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"(a) UV-visible spectrum."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"(b) FTIR spectrum."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"(c) XRD analysis."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"(b) Elemental composition of AgNPs using EDX."}
+]},
+{"pmcid":"PMC8462918","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 9","variant":"SEM","sample":"PNIPAM/PVA/MO nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM microphotographs of nanoparticles from 0.5% (a) and 5% (b) PNIPAM/PVA concentration"},
+{"fig":"Fig. 10","variant":"TEM_prep_not_declared","sample":"PNIPAM/PVA/MO nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of nanoparticles with core-shell structure (0.5% PNIPAM/PVA concentration with methyl oleate 0.125% concentration)."},
+{"fig":"Fig. 11","variant":"SEM","sample":"BC/chitosan membrane","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of: BC/chitosan membrane surface (a,c)"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"bacterial cellulose","quote":"FTIR spectra of treated/untreated bacterial cellulose (individual component)"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"chitosan","quote":"FTIR spectra of uncrosslinked and physically crosslinked chitosan (individual component)."},
+{"technique":"Raman","fig":"Fig. 4","applies_to":"component","sample":"chitosan","quote":"RAMAN spectra of uncrosslinked and physical crosslinked chitosan."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"component","sample":"bacterial cellulose","quote":"XRD diffractograms of bacterial cellulose and calcium treated bacterial cellulose"},
+{"technique":"EDS","fig":"Fig. 11","applies_to":"mixture","sample":"BC/chitosan membrane","quote":"EDAX elemental analysis (f)"}
+]},
+{"pmcid":"PMC10383520","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"SA/CH-HAS-LIP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of HAS-LIP (a), CH-HAS-LIP (b) and SA/CH-HAS-LIP (c)."}
+],
+"descriptors":[
+{"sample":"HAS-LIP","size_nm":107.81,"pdi":0.15,"zeta_mV":-58.2,"medium":"not_declared","source":"Table 1","quote":"HAS-LIP | 107.81 ± 2.11 | 0.15 ± 0.05 | −58.20 ± 3.4"},
+{"sample":"CH-HAS-LIP","size_nm":212.32,"pdi":0.26,"zeta_mV":56.1,"medium":"not_declared","source":"Table 1","quote":"CH-HAS-LIP | 212.32 ± 7.73 | 0.26 ± 0.07 | 56.10 ± 4.29"},
+{"sample":"SA/CH-HAS-LIP","size_nm":533.71,"pdi":0.37,"zeta_mV":-49.4,"medium":"not_declared","source":"Table 1","quote":"SA/CH-HAS-LIP | 533.71 ± 12.39 | 0.37 ± 0.16 | −49.40 ± 6.72"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"SA/CH-HAS-LIP","quote":"FTIR spectra of HAS, CH, SA, HAS-LIP, CH-HAS-LIP and SA/CH-HAS-LIP."}
+]},
+{"pmcid":"PMC9227233","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"Halamphora cf. salinicola cells","shows_nanocarrier":false,"scale_bar_in_caption":true,"quote":"External (e) and internal (f) views of the siliceous frustule captured in SEM."},
+{"fig":"Fig. 6","variant":"SEM","sample":"NLCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of NLCs containing Miglyol® 810 N (A), microalgae oil (B)"}
+],
+"descriptors":[
+{"sample":"Miglyol 810 N NLC","size_nm":170.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"25 °C | 1 | 170.1 ± 0.7 | 184.2 ± 0.8 | 216.4 ± 1.5"},
+{"sample":"Microalgae oil NLC","size_nm":184.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"25 °C | 1 | 170.1 ± 0.7 | 184.2 ± 0.8 | 216.4 ± 1.5"},
+{"sample":"Halamphora crude oil with microalgae oil NLC","size_nm":216.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"25 °C | 1 | 170.1 ± 0.7 | 184.2 ± 0.8 | 216.4 ± 1.5"}
+],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"NLC dispersions","quote":"Comparison of diffractograms of the solid lipid and the studied dispersions of NLCs"}
+]},
+{"pmcid":"PMC9200859","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"ZnO and Ag@ZnO NCs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"FE-SEM micrographs of (a,b) ZnO, and (c,d) Ag0.2@ZnO, (e,f) Ag0.4@ZnO"},
+{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"ZnO and Ag@ZnO NCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-TEM images of (a1–a3) ZnO, and (b1–b3) Ag0.2@ZnO, (c1–c3) Ag0.4@ZnO, and (d1–d3) Ag0.8@ZnO NCs"},
+{"fig":"Fig. 7","variant":"STEM","sample":"Ag0.2@ZnO NC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) HAADF-STEM image and EDX maps of (b) Zn-K, (c) Zn-L"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"ZnO, Ag0.2@ZnO, Ag0.4@ZnO, Ag0.8@ZnO NCs","quote":"(a) UV–Vis DRS absorption spectra, (b) Tauc plots"},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"ZnO and Ag@ZnO NCs","quote":"(c) Powder XRD analyses, and (d) FTIR spectra of ZnO"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"ZnO and Ag@ZnO NCs","quote":"(d) FTIR spectra of ZnO, Ag0.2@ZnO, Ag0.4@ZnO, and Ag0.8@ZnO NCs."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"ZnO and Ag@ZnO NCs","quote":"FE-SEM–EDX spectra of (a) ZnO, (b) Ag0.2@ZnO"}
+]},
+{"pmcid":"PMC7692787","context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+"panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC7996753","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_negstain","sample":"ICG-encapsulated Z/PC-NP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"A representative negative staining TEM image of ICG-encapsulated Z/PC-NP."}
+],
+"descriptors":[
+{"sample":"Z/PC-NP without ICG","size_nm":229,"pdi":0.216,"zeta_mV":-9.3,"medium":"water","source":"Table 1","quote":"No | −9.3 ± 1.5 | 229 ± 36 | 0.216 ±0.047"},
+{"sample":"ICG-encapsulated Z/PC-NP","size_nm":216,"pdi":0.21,"zeta_mV":-47.9,"medium":"water","source":"Table 1","quote":"Yes | −47.9 ± 1.4 | 216 ± 33 | 0.210 ± 0.029"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"ICG-encapsulated Z/PC-NP","quote":"(b) A FTIR spectrum of zein powder, ICG powder, physical mixture and ICG-encapsulated Z/PC-NP."}
+]},
+{"pmcid":"PMC9503184","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"TA-SLN suspension","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) scanning electron microscopy (magnification 10,000×) photographs of the TA-SLN suspension."}
+],
+"descriptors":[
+{"sample":"TA-SLN optimal formulation","size_nm":492.33,"pdi":0.309,"zeta_mV":-21.7,"medium":"not_declared","source":"text","quote":"The optimal SLN suspension particle size, zeta potential and PDI were 492.33 ± 6.51 nm, −21.7 ± 0.51 mV and 0.309 ± 0.02, respectively."},
+{"sample":"Orthogonal run 1","size_nm":417.63,"pdi":0.27,"zeta_mV":-24.17,"medium":"not_declared","source":"Table 2","quote":"417.63 ± 7.44 | −24.17 | 0.27 ± 0.03"},
+{"sample":"Orthogonal run 2","size_nm":458.83,"pdi":0.35,"zeta_mV":-22.77,"medium":"not_declared","source":"Table 2","quote":"458.83 ± 1.62 | −22.77 | 0.35 ± 0.02"},
+{"sample":"Orthogonal run 3","size_nm":577.51,"pdi":0.4,"zeta_mV":-25.43,"medium":"not_declared","source":"Table 2","quote":"577.51 ± 9.97 | −25.43 | 0.40 ± 0.01"},
+{"sample":"Orthogonal run 4","size_nm":508.53,"pdi":0.27,"zeta_mV":-22.6,"medium":"not_declared","source":"Table 2","quote":"508.53 ± 8.11 | −22.60 | 0.27 ± 0.01"},
+{"sample":"Orthogonal run 5","size_nm":668.3,"pdi":0.34,"zeta_mV":-11.17,"medium":"not_declared","source":"Table 2","quote":"668.30 ± 1.25 | −11.17 | 0.34 ± 0.04"},
+{"sample":"Orthogonal run 6","size_nm":1225.21,"pdi":0.38,"zeta_mV":-22.0,"medium":"not_declared","source":"Table 2","quote":"1225.21 ± 5.29 | −22.00 | 0.38 ± 0.04"},
+{"sample":"Orthogonal run 7","size_nm":541.57,"pdi":0.39,"zeta_mV":-14.77,"medium":"not_declared","source":"Table 2","quote":"541.57 ± 4.72 | −14.77 | 0.39 ± 0.02"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"TA−SLN","quote":"FT-IR analysis of PVA, stearic acid, TA and TA−SLN."}
+]}
+]}

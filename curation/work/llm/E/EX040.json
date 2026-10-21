@@ -1,0 +1,105 @@
+{"batch":"EX040","articles":[
+{"pmcid":"PMC12313566",
+ "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 4","variant":"STEM","sample":"PLGA nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"STEM characterization of the PLGA nanoparticles."}],
+ "descriptors":[
+  {"sample":"PLGA-N","size_nm":117,"pdi":null,"zeta_mV":-30.4,"medium":"not_declared","source":"text","quote":"the PLGA-N nanoparticles have a diameter of 117 ± 3.16 nm and Zeta potential of −30.4 ± 0.81"},
+  {"sample":"PLGA-Cap","size_nm":96.84,"pdi":null,"zeta_mV":-26.8,"medium":"not_declared","source":"text","quote":"the PLGA-Cap have a diameter of 96.84 ± 3.95 nm and zeta potential of −26.8 ± 1.7 mV"}
+ ],
+ "spectra":[{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"PLGA nanoparticles","quote":"(A) Characterization of PLGA nanoparticles performed by FTIR-ATR."}]
+},
+{"pmcid":"PMC12073455",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"AuNPs/PAMAM 1:18","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of AuNPs/PAMAM of the 1:18 sample taken from 3 randomly selected areas."}],
+ "descriptors":[
+  {"sample":"AuNPs/PAMAM 1:15","size_nm":null,"pdi":null,"zeta_mV":43.0,"medium":"not_declared","source":"Table 1","quote":"1:15 | 43.0 (±2.9) | 13.7 (±0.7)"},
+  {"sample":"AuNPs/PAMAM 1:18","size_nm":null,"pdi":null,"zeta_mV":35.9,"medium":"not_declared","source":"Table 1","quote":"1:18 | 35.9 (±3.4) | 15.7 (±0.7)"},
+  {"sample":"AuNPs/PAMAM 1:20","size_nm":null,"pdi":null,"zeta_mV":30.3,"medium":"not_declared","source":"Table 1","quote":"1:20 | 30.3 (±0.9) | 18.6 (±0.6)"}
+ ],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs/PAMAM","quote":"UV-Vis spectra of synthesized AuNPs/PAMAM at varying PAMAM G4:HAuCl4 concentration ratios."},
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AuNPs/PAMAM","quote":"FTIR spectra of AuNPs/PAMAM with different PAMAM G4:HAuCl4 concentration ratios"}
+ ]
+},
+{"pmcid":"PMC12652063",
+ "context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+ "panels":[],
+ "descriptors":[],
+ "spectra":[]
+},
+{"pmcid":"PMC11429812",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 7","variant":"SEM","sample":"biosynthesized AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Biosynthesized AgNPs by F. oxysporum, where (A) scanning electron microscopy (SEM);"},
+  {"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"biosynthesized AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B,C) TEM micrograph;"}
+ ],
+ "descriptors":[{"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-15.5,"medium":"not_declared","source":"text","quote":"a negative zeta potential of −15.5 mV"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 3A","applies_to":"nanoparticle","sample":"biosynthesized AgNPs","quote":"analysis of the UV–Vis spectrum revealed a single peak for the biosynthesized AgNPs"},
+  {"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"AgNPs","quote":"(B) Fourier transform infrared (FTIR) spectrum of different functional groups responsible to stabilize or cap AgNPs."},
+  {"technique":"EDS","fig":"Fig. 7","applies_to":"nanoparticle","sample":"AgNPs","quote":"(F) EDX analysis showing the elemental component of native silver."}
+ ]
+},
+{"pmcid":"PMC10363985",
+ "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"NIPAAM–VP–AA polymeric nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(ii) TEM analysis showing the shape and size (scale bar = 0.2 μm)."}],
+ "descriptors":[{"sample":"NIPAAM–VP–AA polymeric NPs","size_nm":131,"pdi":0.2,"zeta_mV":null,"medium":"other","source":"text","quote":"The average particle size of NPs was found to be 131 nm with PDI 0.2 at 25°C as determined by DLS"}],
+ "spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"NIPAAM–VP–AA polymeric NPs","quote":"FT-IR spectroscopy analysis showing the IR spectra of (a) NIPAAM, (b) N-vinyl pyrrolidone (VP), (c) acrylic acid (AA), and (d) synthesized polymeric nanoparticles."}]
+},
+{"pmcid":"PMC11432420",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM analysis showing the shape and size of synthesized AuNPs using A. platensis methanolic extract."}],
+ "descriptors":[{"sample":"AuNPs (A. platensis methanolic extract)","size_nm":134.8,"pdi":0.403,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the z-average mean diameter of AuNPs of the A. platensis methanolic extract was 134.8 nm, with a polydispersity index (PDI) of 0.403"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"biosynthesized AuNPs","quote":"(A) UV-Vis spectral analysis of biosynthesized AuNPs using A. platensis methanolic extract."},
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"biosynthesized AuNPs","quote":"(B) FTIR spectra of the biosynthesized AuNPs."}
+ ]
+},
+{"pmcid":"PMC10416745",
+ "context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 1","variant":"SEM","sample":"NGL and NGL44","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d) SEM visualization of NGL; (e) SEM visualization of NGL44;"}],
+ "descriptors":[
+  {"sample":"NGL","size_nm":215,"pdi":null,"zeta_mV":28,"medium":"water","source":"text","quote":"Both nanoformulations (NGL and NGL44) showed an average size and zeta potential of approximately 215 nm and 28 mV in double-distilled water (pH 5.5)"},
+  {"sample":"NGL44","size_nm":215,"pdi":null,"zeta_mV":28,"medium":"water","source":"text","quote":"Both nanoformulations (NGL and NGL44) showed an average size and zeta potential of approximately 215 nm and 28 mV in double-distilled water (pH 5.5)"},
+  {"sample":"NGL, pH 5","size_nm":286,"pdi":null,"zeta_mV":null,"medium":"other","source":"text","quote":"A pH reduction to 5 resulted in hydrodynamic sizes of 286 and 269 nm for NGL and NGL44"},
+  {"sample":"NGL44, pH 5","size_nm":269,"pdi":null,"zeta_mV":null,"medium":"other","source":"text","quote":"A pH reduction to 5 resulted in hydrodynamic sizes of 286 and 269 nm for NGL and NGL44"}
+ ],
+ "spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"NGL, NGL44","quote":"(f) absorption spectra of the NGL, NGL44, and free HPTS;"}]
+},
+{"pmcid":"PMC12114622",
+ "context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 5","variant":"TEM_dried_unstained","sample":"CS-Au hydrogel","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of the CS-Au hydrogel exhibiting a (A) spherical morphology and (B) a cross-linking matrix."}
+ ],
+ "descriptors":[
+  {"sample":"CS-Au","size_nm":null,"pdi":null,"zeta_mV":11.1,"medium":"not_declared","source":"Table 1","quote":"CS-Au | +11.10 ± 0.1"},
+  {"sample":"CS-Au-5-FU","size_nm":null,"pdi":null,"zeta_mV":15.87,"medium":"not_declared","source":"Table 1","quote":"CS-Au-5-FU | +15.87 ± 1.18"}
+ ],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"CS-Au hydrogel","quote":"UV-vis spectroscopy of the CS-Au hydrogel after heating for 10 and 20 min."},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CS-Au, CS-Au-5-FU","quote":"FTIR spectra of CS, AuNP, 5-FU, CS-Au, and CS-Au-5-FU."}
+ ]
+},
+{"pmcid":"PMC10459258",
+ "context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 6","variant":"SEM","sample":"ETO+CBD-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"scanning electron microscopy microphotograph of ETO+CBD-NPs (II);"}],
+ "descriptors":[
+  {"sample":"Blank-NPs","size_nm":245,"pdi":0.029,"zeta_mV":-11.5,"medium":"water","source":"Table 3","quote":"Blank-NPs | 245 ± 2.1 | 0.029 ± 0.009 | −11.5 ± 0.26"},
+  {"sample":"ETO-NPs","size_nm":319,"pdi":0.145,"zeta_mV":-15.1,"medium":"water","source":"Table 3","quote":"ETO-NPs | 319 ± 24 | 0.145 ± 0.017 | −15.1 ± 0.12"},
+  {"sample":"CBD-NPs","size_nm":225,"pdi":0.038,"zeta_mV":-17.4,"medium":"water","source":"Table 3","quote":"CBD-NPs | 225 ± 4.4 | 0.038 ± 0.003 | −17.4 ± 0.70"},
+  {"sample":"ETO+CBD-NPs","size_nm":397,"pdi":0.256,"zeta_mV":-13.2,"medium":"water","source":"Table 3","quote":"ETO+CBD-NPs | 397 ± 6.2 | 0.256 ± 0.044 | −13.2 ± 0.15"}
+ ],
+ "spectra":[{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"PLGA NPs","quote":"FT-IR spectra of ETO (A), CBD (B), and PLGA NPs (C)."}]
+},
+{"pmcid":"PMC12077009",
+ "context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[{"fig":"Fig. 3B","variant":"TEM_prep_not_declared","sample":"prepared AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"B: TEM micrograph for the prepared AgNPs illustrating their different sizes ranging from 5–25 nm"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 3A","applies_to":"nanoparticle","sample":"prepared AgNPs","quote":"A: UV- visible spectrophotometry for the prepared AgNPs with a distinct peak at 420 nm"},
+  {"technique":"XRD","fig":"Fig. 4A","applies_to":"nanoparticle","sample":"prepared AgNPs","quote":"A: XRD for the prepared AgNPs with various distinctive peaks"},
+  {"technique":"FTIR","fig":"Fig. 4B","applies_to":"component","sample":"Bombyx mori silk","quote":"B: FTIR of Bombyx mori silk"},
+  {"technique":"FTIR","fig":"Fig. 4C","applies_to":"nanoparticle","sample":"APNPs","quote":"C: FTIR for the APNPs prepared by Bombyx mori silk"}
+ ]
+}
+]}

@@ -1,0 +1,119 @@
+{"batch":"EX070","articles":[
+{"pmcid":"PMC10198023","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"Clove AgNPs, Borohydride AgNPs, GSH-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM and EDS-spectra confirming presence of silver in AgNPs of (a) Clove AgNPs, (b) Borohydride AgNPs, (c) GSH-capped AgNPs."},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Clove AgNPs, Borohydride AgNPs, GSH-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrographs and size distribution histograms of (a) Clove AgNPs, (b) Borohydride AgNPs, (c) GSH-capped AgNPs."}],
+"descriptors":[
+{"sample":"clove AgNPs","size_nm":100.0,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"Average hydrodynamic size for clove AgNPs was 100.0 nm"},
+{"sample":"borohydride AgNPs","size_nm":136.4,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"for chemically synthesized borohydride AgNPs, the size was found to be 136.4 nm."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"Synthesized AgNPs and their respective UV–Vis absorption spectra"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"Figure 3 shows the XRD data, which confirms the crystalline nature of the synthesized AgNPs."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"EDX analysis revealed presence of silver in all three types of synthesized AgNPs"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Clove AgNPs, Borohydride AgNPs, GSH-capped AgNPs","quote":"FTIR spectra of (a) Clove AgNPs, (b) Borohydride AgNPs, (c) GSH-capped AgNPs."}]},
+
+{"pmcid":"PMC9736062","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 9","variant":"SEM","sample":"PEGylated chitosan nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of PEGylated chitosan nanoparticles at 5000×."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"component","sample":"TAF","quote":"The absorption spectra of TAF."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"component","sample":"PEGylated chitosan","quote":"FTIR analysis of synthesized PEGylated chitosan. (A) Deacetylated chitosan."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"TAF-loaded PEGylated chitosan nanoparticles","quote":"(D) TAF-loaded PEGylated chitosan nanoparticles."},
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"TAF PEGylated nanoparticles","quote":"Illustration of XRD of PEG (A), PEGylated chitosan (B), the drug (C), and TAF PEGylated nanoparticles (D)."}]},
+
+{"pmcid":"PMC8236044","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"MPs (spray-dried microparticles)","shows_nanocarrier":false,"scale_bar_in_caption":true,"quote":"Scanning electron micrographs of MPs (scale bar 2 µm)."},
+{"fig":"Fig. 2","variant":"SEM","sample":"NPs inside MPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"focused ion beam scanning electron microscopy (arrows point at the NPs inside the MPs; scale bar 1 µm)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"mixture","sample":"MPs","quote":"Fourier-transform infrared spectroscopy (E)"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"mixture","sample":"dry powder formulations","quote":"Powder XRD measurements of the dry powder samples"}]},
+
+{"pmcid":"PMC9783086","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"AF6","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of AF6 at magnification (A) 5 kX (B) 10 kX (C) 25 kX (D) 50 kX"}],
+"descriptors":[
+{"sample":"AF1","size_nm":100.72,"pdi":0.362,"zeta_mV":-6.87,"medium":"not_declared","source":"Table 3","quote":"AF1 | 100.72 ± 036 | −6.87 ± 0.25 | 0.362 ± 0.12"},
+{"sample":"AF2","size_nm":117.39,"pdi":0.443,"zeta_mV":-8.17,"medium":"not_declared","source":"Table 3","quote":"AF2 | 117.39 ± 0.0 | −8.17 ± 0.15 | 0.443 ± 0.23"},
+{"sample":"AF3","size_nm":127.39,"pdi":0.415,"zeta_mV":-9.37,"medium":"not_declared","source":"Table 3","quote":"AF3 | 127.39 ± 0.49 | −9.37 ± 0.15 | 0.415 ± 0.26"},
+{"sample":"AF4","size_nm":104.35,"pdi":0.175,"zeta_mV":-7.36,"medium":"not_declared","source":"Table 3","quote":"AF4 | 104.35 ± 0.52 | −7.36 ± 0.125 | 0.175 ± 0.14"},
+{"sample":"AF5","size_nm":126.09,"pdi":0.359,"zeta_mV":-8.98,"medium":"not_declared","source":"Table 3","quote":"AF5 | 126.09 ± 0.58 | −8.98 ± 0.25 | 0.359 ± 0.31"},
+{"sample":"AF6","size_nm":140.34,"pdi":0.067,"zeta_mV":-6.71,"medium":"not_declared","source":"Table 3","quote":"AF6 | 140.34 ± 1.13 | −6.71 ± 0.126 | 0.067 ± 0.08"},
+{"sample":"AF7","size_nm":180.36,"pdi":0.312,"zeta_mV":-13.81,"medium":"not_declared","source":"Table 3","quote":"AF7 | 180.36 ± 1.18 | −13.81 ± 0.35 | 0.312 ± 0.05"},
+{"sample":"AF8","size_nm":147.83,"pdi":0.135,"zeta_mV":-11.6,"medium":"not_declared","source":"Table 3","quote":"AF8 | 147.83 ± 1.0 | −11.6 ± 0.05 | 0.135 ± 0.31"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AF6","quote":"FTIR spectrum of (A) pure alprazolam (B) compritol 888 ATO (C) Tween 20 (D) physical mixture (ALP + compritol) (E) AF6."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"component","sample":"alprazolam","quote":"FTIR spectrum of (A) pure alprazolam (B) compritol 888 ATO"},
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"AF6","quote":"X-ray diffractogram for A (alprazolam), C (compritol), and AF6."}]},
+
+{"pmcid":"PMC12884453","context":{"article_kind":"research","carrier_type":"cubosome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"cryoTEM","sample":"LCNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Representative cryo-EM images of LCNPs. The inset shows the fast Fourier transform of the yellow box area"},
+{"fig":"Fig. 3","variant":"cryoTEM","sample":"LCNP/AVs and LCNP/RBCEVs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Representative cryo-EM images of LCNP/AVs (A) and LCNP/RBCEVs (B)"}],
+"descriptors":[
+{"sample":"LCNPs","size_nm":155,"pdi":0.22,"zeta_mV":-27,"medium":"water","source":"Table 1","quote":"LCNPs | Pn3m | 10.1 | 2.2 | 155 ± 6 | 0.22 ± 0.01 | –27 ± 1"},
+{"sample":"LCNP/RBCEVs 3.0 wt%","size_nm":229,"pdi":0.09,"zeta_mV":-39,"medium":"water","source":"Table 1","quote":"3.0 | Im3m | 13.9 | 2.4 | 229 ± 3 | 0.09 ± 0.02 | –39 ± 1"},
+{"sample":"LCNP/RBCEVs 6.5 wt%","size_nm":215,"pdi":0.05,"zeta_mV":-27,"medium":"water","source":"Table 1","quote":"6.5 | Im3m | 14.2 | 2.5 | 215 ± 8 | 0.05 ± 0.02 | –27 ± 1"},
+{"sample":"LCNP/AVs 6.5 wt%","size_nm":160,"pdi":0.14,"zeta_mV":-27,"medium":"water","source":"Table 1","quote":"6.5 | Pn3m | 9.9 | 2.2 | 160 ± 5 | 0.14 ± 0.03 | –27 ± 1"},
+{"sample":"AVs","size_nm":120,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"yielding monodisperse vesicles with ∼120 nm hydrodynamic size"},
+{"sample":"RBCEVs","size_nm":222,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"characterized by an average hydrodynamic diameter of ∼222 nm"}],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 4","applies_to":"nanoparticle","sample":"LCNP/RBCEVs","quote":"Mean Raman spectra ± standard deviation, calculated across all individual particles measured within samples of native RBCEVs, bare LCNPs, and LCNP/RBCEVs."},
+{"technique":"SAXS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"LCNPs","quote":"Left: SAXS profile of LCNPs, where Bragg peaks are indexed with the corresponding Miller indices of the Pn3m phase"},
+{"technique":"SAXS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"LCNP/RBCEVs and LCNP/AVs","quote":"SAXS profiles of LCNP/RBCEVs (B) and LCNP/AVs (C) obtained at different RBCEVs or AVs wt %"}]},
+
+{"pmcid":"PMC7915658","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"LIV-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Panel (c) demonstrates TEM image of LIV-AgNPs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"LIV-AgNPs","quote":"UV-Vis analysis of nanoparticles (NPs)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"LIV-AgNPs","quote":"FTIR analysis of LIV-AgNPs."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"LIV-AgNPs","quote":"X-ray diffraction (XRD) pattern of LIV-AgNPs."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"LIV-AgNPs","quote":"energy dispersive X-ray spectrum in panel (b) represents the percentage of Ag, C, O, NA, K and Si elements present in LIV-AgNPs"}]},
+
+{"pmcid":"PMC9217793","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Ag@TiO2-PPDOs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b) TEM of Ag@TiO2-PPDOs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ag@TiO2-PPDOs","quote":"(a) XRD spectra of Ag@TiO2-PPDOs (red arrows indicates peaks of PPDO crystal"},
+{"technique":"Raman","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ag@TiO2-PPDOs","quote":"(d) Raman spectrum of Ag@TiO2-PPDOs"},
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ag@TiO2-PPDOs","quote":"(f) UV-DRS determination of Ag@TiO2-PPDOs."},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag@TiO2-PPDOs","quote":"(b) SEM–EDS mapping of Ag@TiO2-PPDOs."}]},
+
+{"pmcid":"PMC7828524","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"AZA-LIPO","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM image of AZA-LIPO formulation"}],
+"descriptors":[
+{"sample":"AZA-LIPO optimized batch 7:3:1","size_nm":107,"pdi":0.035,"zeta_mV":-25,"medium":"water","source":"text","quote":"was found to be 107 ± 1.1 nm (Figure 4A), 0.035 ± 0.5 and −25 mV"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AZA-LIPO","quote":"FTIR spectra of AZA, excipients and AZA-LIPO formulation."},
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"AZA-LIPO","quote":"XRD of AZA, excipients and AZA-LIPO formulation."}]},
+
+{"pmcid":"PMC9043795","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"optimized E-SLNs (TKF 10)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(c) Transmission electron microscopy images of prepared optimized E-SLNs."}],
+"descriptors":[
+{"sample":"TKF 10 (optimized E-SLNs)","size_nm":155.2,"pdi":0.256,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The particle size of TKF 10, the optimized E-SLNs was 155.2 nm with a PDI of 0.256"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"E-SLNs","quote":"(a) FTIR spectra of ebastine, compritol, physical mixture and E-SLNs."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"E-SLNs","quote":"(b) XRD patterns of ebastine, compritol, physical mixture and E-SLNs."}]},
+
+{"pmcid":"PMC7796063","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"3-L1NPs-EG-4, 3-L1NPs-LA-4, 3-L1NPs-ETA-4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(f–h) TEM images of LNPs obtained with different types of DES."},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"3-L1NPs-EG-4, 6-L1NPs-EG-4, 9-L1NPs-EG-4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(f–h) TEM images of the LNPs obtained from different pre-dropping concentrations."}],
+"descriptors":[
+{"sample":"3-L1NPs-EG-4","size_nm":30.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"They are larger than the particle size (30.4 nm) obtained from the ChCl and EG system."},
+{"sample":"3-L1NPs-LA-4","size_nm":138.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"yielded an average particle size of 138.2 and 69.7 nm for L1"},
+{"sample":"3-L1NPs-ETA-4","size_nm":69.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"yielded an average particle size of 138.2 and 69.7 nm for L1"},
+{"sample":"3-L2NPs-EG-4","size_nm":91.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"an average size of 91.5 and 95.4 nm is noticed from the L2 and L3"},
+{"sample":"3-L3NPs-EG-4","size_nm":95.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"an average size of 91.5 and 95.4 nm is noticed from the L2 and L3"},
+{"sample":"9-L1NPs-EG-4","size_nm":101.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average particle size expands from 30.4 to 101.3 nm (Figure 4a,b)"},
+{"sample":"3-L1NPs-EG-6","size_nm":20.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the average size is found to reduce from 30.4 to 20.1 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"LNPs","quote":"Fourier transform infrared spectroscopy (FTIR) spectra of lignin and LNPs."}]}
+]}
