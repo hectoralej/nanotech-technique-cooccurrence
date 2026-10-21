@@ -1,4 +1,4 @@
-# Plan del equipo hasta la entrega (21 → 25 de octubre)
+﻿# Plan del equipo hasta la entrega (21 → 25 de octubre)
 
 Entrega del hackatón: **domingo 25 de octubre, 5:45 pm (Costa Rica)**. Video de **10 minutos máximo**, con **2–3 minutos del producto funcionando**. El jurado no lee cada línea de código: evalúa si la solución promete, si hay pruebas suficientes y si se entiende en video.
 
@@ -13,7 +13,7 @@ Entrega del hackatón: **domingo 25 de octubre, 5:45 pm (Costa Rica)**. Video de
 
 | Persona | Herramienta | Responsabilidad | Carpeta donde escribe |
 |---|---|---|---|
-| **Héctor** | Claude + ChatGPT | Datos (cerrar extracción, fusionar el repaso de Codex, congelar v0.1), guion y narración del video, integración final | `curation/` |
+| **Héctor** | Claude + ChatGPT | Datos (Codex congela la v0.1 y Claude la revisa), descarga de imágenes, **apoyo en el modelo** (tiene experiencia con CNN), integración final | `curation/` |
 | **Bryan** (desde el viernes 23) | Claude | Modelos sobre la base ya congelada e imágenes ya descargadas: backbone congelado, métricas honestas, archivos de predicción para la web, gráficas y 1 minuto del video | `modelos/` y `producto/modelo/` |
 | **Carlos** | Codex | Producto web: el atlas navegable que se muestra en el video (2–3 min), cierre corto de su revisión | `producto/web/` |
 
@@ -42,7 +42,7 @@ Archivos que Bryan entrega a Carlos **el sábado 24 antes de las 12 m** (Carlos 
 
 | Día | Héctor | Bryan | Carlos |
 |---|---|---|---|
-| **Mié 21 (noche)** | Enviar instrucciones; Codex hace el repaso de lotes | (no disponible) | Cerrar revisión (máx. 1 h); leer instrucciones |
+| **Mié 21 (noche)** | Enviar instrucciones; **Codex congela la v0.1** (`BRIEF_CODEX_CONGELAR_V01.md`) | (no disponible) | Cerrar revisión (máx. 1 h); leer instrucciones |
 | **Jue 22** | Fusionar repaso, **congelar v0.1 antes de las 6 pm**; Claude de Héctor **descarga todas las micrografías** (script, sin tokens) | (no disponible) | Esqueleto de la web con datos reales y modelo de prueba |
 | **Vie 23** | Guion del video (borrador) | Empieza con **datos v0.1 congelados e imágenes ya descargadas**: embeddings + modelo principal | Integrar imágenes reales; fichas por artículo |
 | **Sáb 24** | Guion final, grabar narración | JSON para la web **antes de las 12 m**; gráficas y 1 min de video en la tarde | Integrar JSON de Bryan; **web congelada a las 5 pm**; grabar demo de 2–3 min |
@@ -62,3 +62,9 @@ Archivos que Bryan entrega a Carlos **el sábado 24 antes de las 12 m** (Carlos 
 - Nada de AAV ni virus.
 - No abrir `curation/work/clave_modelo.csv` ni `curation/qc_codex/`.
 - Mensaje visible en la web y en el video: «Datos extraídos por IA y verificados por código; precisión estimada en una muestra revisada».
+
+## Quién lleva el video
+Héctor ya cargó la parte técnica. **El peso del video recae en Bryan y Carlos**: Carlos graba la demo del producto (2–3 min) y Bryan el minuto del modelo; juntos arman el guion y el montaje con la estructura de arriba. Héctor revisa los números, ayuda con el modelo y narra si hace falta.
+
+## Estado de la descarga de imágenes (21 oct)
+El script modelos/descargar_imagenes.py está probado: 40 artículos, 48 figuras, 0 fallos, ~4 s por artículo con 4 hilos. Descarga completa estimada: ~2 h y menos de 1 GB. Se lanza con python modelos/descargar_imagenes.py 0 4 (reanudable).
