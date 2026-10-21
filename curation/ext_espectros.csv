@@ -1,4 +1,8 @@
 ﻿pmcid,categoria_uso,doi_link,technique,fig,applies_to,sample,quote
+PMC11397097,nanomaterial,https://doi.org/10.3390/nano14171455,EDS,Figure 2,nanoparticle,GO/AgNP composites,"Representative SEM micrographs and EDS spectra of (a,d) GO, (b,e) GO/AgNP-1, and (c,f) GO/AgNP-2."
+PMC11397097,nanomaterial,https://doi.org/10.3390/nano14171455,UVVis,Figure 5,nanoparticle,GO/AgNP-1 and GO/AgNP-2,"Absorbance spectra (UV-vis) of (a) GO, (b) GO/AgNP-1, and (c) GO/AgNP-2."
+PMC11397097,nanomaterial,https://doi.org/10.3390/nano14171455,Raman,Figure 6,nanoparticle,GO/AgNP-1 and GO/AgNP-2,"Raman spectra of (a) GO, (b) GO/AgNP-1, and (c) GO/AgNP-2."
+PMC11397097,nanomaterial,https://doi.org/10.3390/nano14171455,FTIR,Figure 7,nanoparticle,GO/AgNP-1 and GO/AgNP-2,"FT-IR spectra of (a) GO, (b) GO/AgNP-1, and (c) GO/AgNP-2."
 PMC11112068,nanoportador,https://doi.org/10.3389/fphar.2024.1385213,UVVis,FIGURE 1,nanoparticle,CNP and CNP-LA,"UV-visible spectrum (200–800 nm) of chitosan nanoparticles (CNP), L. aspera methanolic extract loaded within chitosan nanoparticles (CNP-LA), and L. aspera methanolic extract alone (LA)."
 PMC11112068,nanoportador,https://doi.org/10.3389/fphar.2024.1385213,FTIR,FIGURE 2,nanoparticle,CNP and CNP-LA,"Fourier-transform infrared (FTIR) spectrum of (A) methanolic L. aspera extract (LA), (B) chitosan nanoparticles (CNPs)"
 PMC11112068,nanoportador,https://doi.org/10.3389/fphar.2024.1385213,EDS,FIGURE 3,nanoparticle,CNP and CNP-LA,Field emission scanning electron microscopy (FESEM) images with EDX of (A) chitosan nanoparticles and (B) L. aspera methanolic extract loaded within chitosan nanoparticles (CNP-LA).
@@ -15,16 +19,36 @@ PMC11769172,nanoportador,https://doi.org/10.3390/pharmaceutics17010112,XRD,Figur
 PMC11769172,nanoportador,https://doi.org/10.3390/pharmaceutics17010112,FTIR,Figure 3,component,PEG and RSV,"FTIR spectra of PEG, RSV, mLNP-RSV-P6K, and mLNP-RSV-P10K."
 PMC11769172,nanoportador,https://doi.org/10.3390/pharmaceutics17010112,FTIR,Figure 3,nanoparticle,mLNP-RSV-P6K and mLNP-RSV-P10K,"FTIR spectra of PEG, RSV, mLNP-RSV-P6K, and mLNP-RSV-P10K."
 PMC11769172,nanoportador,https://doi.org/10.3390/pharmaceutics17010112,Raman,Figure 4,nanoparticle,mLNP-RSV-P6K and mLNP-RSV-P10K,Raman spectra of (a) mLNP-RSV-P6K and (b) mLNP-RSV-P10K.
+PMC13210128,nanomaterial,https://doi.org/10.3390/nano16100608,UVVis,Figure 4,nanoparticle,Ag NPs,"Absorption spectra of Ag NPs 0.5%, 1%, 2.5%, and 5% belong to (w/v) AgNO3 addition conditions."
+PMC13210128,nanomaterial,https://doi.org/10.3390/nano16100608,FTIR,Figure 6,nanoparticle,Chi-Ag NPs,FTIR spectra of chitosan (black line) and Chi—Ag NPs (red line).
+PMC13210128,nanomaterial,https://doi.org/10.3390/nano16100608,EDS,Figure 9,nanoparticle,MNPs@Chi-Ag NPs nanocomposite,SEM images and EDX results of (a) MNPs; (b) Chi- AgNPs (which were prepared with 1% (w/v) AgNO3; (c) MNPs@Chi-Ag NPs nanocomposite.
+PMC13210128,nanomaterial,https://doi.org/10.3390/nano16100608,FTIR,Figure 11,nanoparticle,MNPS@Chi-Ag NPs,FTIR spectra of MNPs (blue line) and MNPS@Chi-Ag NPs (red line).
+PMC13210128,nanomaterial,https://doi.org/10.3390/nano16100608,XRD,Figure 12,nanoparticle,MNPS@Chi-Ag NPs,"XRD patterns of MNPs (blue line), Chi Ag NPs (orange line) and MNPS@Chi-Ag NPs (green line)."
+PMC13108755,nanomaterial,https://doi.org/10.1371/journal.pone.0346082,UVVis,Fig 2,nanoparticle,ZnChNPs,UV-Vis absorption spectra of synthesized ZnChNPs and precursor materials.
+PMC13108755,nanomaterial,https://doi.org/10.1371/journal.pone.0346082,EDS,Fig 4,nanoparticle,ZnChNPs,Energy Dispersive X-ray Spectroscopy (EDS) spectrum and corresponding elemental data.
+PMC13108755,nanomaterial,https://doi.org/10.1371/journal.pone.0346082,FTIR,Fig 5,nanoparticle,ZnChNPs,FTIR spectral comparison of pure Chitosan and ZnChNPs.Fourier-transform infrared (FTIR) spectra of pure chitosan (blue line) and ZnChNPs (black line).
+PMC13108755,nanomaterial,https://doi.org/10.1371/journal.pone.0346082,XRD,Fig 6,nanoparticle,ZnChNPs,"X-ray diffraction (XRD) pattern of ZnChNPs, showing characteristic diffraction peaks plotted against 2θ (degree)."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,XRD,Figure 4,component,pure HPD and Compritol 888 ATO,"Powder X-ray diffraction patterns of (a) pure HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,XRD,Figure 4,mixture,Physical mixture,"Powder X-ray diffraction patterns of (a) pure HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,XRD,Figure 4,nanoparticle,HPD-NLC,"Powder X-ray diffraction patterns of (a) pure HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,FTIR,Figure 5,component,HPD and Compritol 888 ATO,"FTIR images of (a) HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,FTIR,Figure 5,mixture,Physical mixture,"FTIR images of (a) HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
 PMC12030045,nanoportador,https://doi.org/10.3390/pharmaceutics17040478,FTIR,Figure 5,nanoparticle,HPD-NLC,"FTIR images of (a) HPD, (b) Compritol® 888 ATO, (c) Physical mixture, and (d) HPD-NLC."
+PMC11447203,nanomaterial,https://doi.org/10.1186/s11671-024-04076-8,FTIR,Fig. 5,nanoparticle,biosynthesized ZnO–NPs,(A) FTIR of biosynthesized ZnO–NPs from cyanobacterial strain Desertifilum sp. TN-15
+PMC11447203,nanomaterial,https://doi.org/10.1186/s11671-024-04076-8,XRD,Fig. 5,nanoparticle,biosynthesized ZnO–NPs,(B) X-Ray Diffraction (XRD) pattern of biosynthesized ZnO–NPs
+PMC11447203,nanomaterial,https://doi.org/10.1186/s11671-024-04076-8,EDS,Fig. 6,nanoparticle,biosynthesized ZnO–NPs,Analysis of synthetic ZnO–NPs elemental composition as revealed by EDX
+PMC12297327,nanoportador,https://doi.org/10.1038/s41598-025-11489-7,FTIR,Fig. 3,nanoparticle,lignin nanoparticles (LNPE7–LNPE9),FTIR of lignin nanoparticles prepared from EG (LNPE7-LNPE9) versus their black liquors (BLs).
 PMC8746631,nanoportador,https://doi.org/10.3390/molecules27010168,FTIR,Figure 2,nanoparticle,B-PLN1 to B-PLN4,"Comparative FTIR spectra of BTB, stearin, PLGA, SL and formulated lipid-polymer nanoparticles (B-PLN1 to B-PLN4)."
 PMC8746631,nanoportador,https://doi.org/10.3390/molecules27010168,FTIR,Figure 2,component,"BTB, stearin, PLGA, and SL","Comparative FTIR spectra of BTB, stearin, PLGA, SL and formulated lipid-polymer nanoparticles (B-PLN1 to B-PLN4)."
 PMC8746631,nanoportador,https://doi.org/10.3390/molecules27010168,XRD,Figure 3,nanoparticle,B-PLN1 to B-PLN4,XRD spectra of BTB and formulated lipid-polymer nanoparticles (B-PLN1-B-PLN4).
 PMC8746631,nanoportador,https://doi.org/10.3390/molecules27010168,XRD,Figure 3,component,BTB,XRD spectra of BTB and formulated lipid-polymer nanoparticles (B-PLN1-B-PLN4).
+PMC13402423,nanomaterial,https://doi.org/10.3389/fphar.2026.1809089,UVVis,FIGURE 3,nanoparticle,GC-AgNPs,UV-Vis absorption peak of GC-AgNPs.
+PMC13402423,nanomaterial,https://doi.org/10.3389/fphar.2026.1809089,EDS,FIGURE 5,nanoparticle,GC-AgNPs,Energy dispersive X-Ray diffraction spectrum of GC-AgNPs.
+PMC13402423,nanomaterial,https://doi.org/10.3389/fphar.2026.1809089,FTIR,FIGURE 8,nanoparticle,GC-AgNPs,FT-IR spectrum (a) Aqueous Leaf extract of Morus nigra (b) FT-IR spectrum of GC-AgNPs.
+PMC13116750,nanomaterial,https://doi.org/10.3390/ijms27083673,UVVis,Figure 2,nanoparticle,Ch NPs,UV–Vis absorption spectrum of synthesized Ch NPs.
+PMC13116750,nanomaterial,https://doi.org/10.3390/ijms27083673,EDS,Figure 3,nanoparticle,Ch NPs,EDS spectrum showing elemental composition;
+PMC13116750,nanomaterial,https://doi.org/10.3390/ijms27083673,FTIR,Figure 4,nanoparticle,Ch NPs,FTIR spectra of Bulk Ch and Ch NPs.
+PMC13116750,nanomaterial,https://doi.org/10.3390/ijms27083673,XRD,Figure 5,nanoparticle,Ch NPs,X-ray diffraction (XRD) pattern of Ch NPs.
 PMC11850822,nanoportador,https://doi.org/10.1038/s41598-025-91504-z,FTIR,Fig. 3,component,free PTX,"FT-IR spectra of (a) free PTX, (b) PTX-NLCPre and (c) PTX-NLCLec."
 PMC11850822,nanoportador,https://doi.org/10.1038/s41598-025-91504-z,FTIR,Fig. 3,nanoparticle,PTX-NLCPre and PTX-NLCLec,"FT-IR spectra of (a) free PTX, (b) PTX-NLCPre and (c) PTX-NLCLec."
 PMC11850822,nanoportador,https://doi.org/10.1038/s41598-025-91504-z,UVVis,Fig. 4,nanoparticle,"NLCPre, PTX-NLCPre, NLCLec, and PTX-NLCLec",UV-Vis spectra of nanoparticles: (a) NLCPre (b) PTX-NLCPre (c) NLCLec and (d) PTX-NLCLec.
@@ -47,17 +71,30 @@ PMC10144002,nanoportador,https://doi.org/10.3390/pharmaceutics15041128,FTIR,Figu
 PMC10144002,nanoportador,https://doi.org/10.3390/pharmaceutics15041128,SAXS,Figure 2,nanoparticle,"HMSNs, HMSNs-NH2, HMSNs-PDA","(H) SAXS patterns of HMSNs, HMSNs-NH2, and HMSNs-PDA."
 PMC10144002,nanoportador,https://doi.org/10.3390/pharmaceutics15041128,XRD,Figure 2,nanoparticle,DOX/HMSNs-PDA,"(I) XRD patterns of HMSNs-PDA, DOX/HMSNs-PDA, Phy-Mix of DOX, HMSNs-PDA (1:2, w/w), and DOX."
 PMC10144002,nanoportador,https://doi.org/10.3390/pharmaceutics15041128,XRD,Figure 2,mixture,"Phy-Mix of DOX and HMSNs-PDA (1:2, w/w)","(I) XRD patterns of HMSNs-PDA, DOX/HMSNs-PDA, Phy-Mix of DOX, HMSNs-PDA (1:2, w/w), and DOX."
+PMC7558301,nanoportador,https://doi.org/10.3390/nano10091869,FTIR,Figure 3,nanoparticle,LNPs and LNPs@AuNPs,FTIR spectra of the LNPs and LNPs@AuNPs.
+PMC7558301,nanoportador,https://doi.org/10.3390/nano10091869,UVVis,Figure 6,nanoparticle,LNPs and LNPs@AuNPs,"UV-Vis spectra of the LNPs, Au ions and LNPs@AuNPs."
 PMC9941671,nanoportador,https://doi.org/10.3389/fphar.2023.1025013,FTIR,FIGURE 5,nanoparticle,DOX-LPHNs,Fourier transform infrared (FT-IR) spectra of (A) DOX (Pure) (B) DOX-LPHNs.
 PMC9941671,nanoportador,https://doi.org/10.3389/fphar.2023.1025013,XRD,FIGURE 7,nanoparticle,DOX-LPHNs-4,"Powder X-RAY Diffraction of DOX, DOX-LPHNs-4, and Stearic acid."
 PMC9941671,nanoportador,https://doi.org/10.3389/fphar.2023.1025013,XRD,FIGURE 7,component,DOX and stearic acid,"Powder X-RAY Diffraction of DOX, DOX-LPHNs-4, and Stearic acid."
+PMC13356039,nanomaterial,https://doi.org/10.1038/s41598-026-56865-z,UVVis,Fig. 3,nanoparticle,Jan-AuNPs,UV-vis spectra of Jan-AuNPs (over a period of 1–5 h).
+PMC13356039,nanomaterial,https://doi.org/10.1038/s41598-026-56865-z,EDS,Fig. 4,nanoparticle,Jan-AuNPs,EDX analysis (G) and mapping analysis (H) of biosynthesized Jan-AuNPs.
+PMC13356039,nanomaterial,https://doi.org/10.1038/s41598-026-56865-z,FTIR,Fig. 5,nanoparticle,Jan-AuNPs,FTIR analysis of the hot water extract of J. rubens and biosynthesized Jan-AuNPs
+PMC13356039,nanomaterial,https://doi.org/10.1038/s41598-026-56865-z,XRD,Fig. 5,nanoparticle,Jan-AuNPs,XRD (B)
 PMC11533520,nanoportador,https://doi.org/10.1039/d4ra06514j,FTIR,Fig. 9,nanoparticle,F127-GA@ZnO,The FT-IR spectra of F127-GA@ZnO.
 PMC11533520,nanoportador,https://doi.org/10.1039/d4ra06514j,EDS,Fig. 11,nanoparticle,F127-GA@ZnO,EDS spectra of F127-GA@ZnO.
 PMC11533520,nanoportador,https://doi.org/10.1039/d4ra06514j,UVVis,Fig. 3,nanoparticle,ZnO and GA@ZnO,UV-Vis spectra of ZnO (black) and GA@ZnO (red).
 PMC11333711,nanoportador,https://doi.org/10.1038/s41598-024-68721-z,FTIR,Figure 1,nanoparticle,optimal formula F2,"(A) FT-IR spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula, and (VII) optimal formula (F2)."
 PMC11333711,nanoportador,https://doi.org/10.1038/s41598-024-68721-z,XRD,Figure 1,nanoparticle,optimal formula F2,"(C) XRD spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula and (VII) optimal formula (F2)."
 PMC11333711,nanoportador,https://doi.org/10.1038/s41598-024-68721-z,XRD,Figure 1,mixture,physical mixture,"(C) XRD spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula and (VII) optimal formula (F2)."
+PMC11125853,nanoportador,https://doi.org/10.3390/polym16101395,FTIR,Figure 4,nanoparticle,LNPAH and LNPIL,FTIR spectra of LNPAH (a) and LNPIL (b).
 PMC9460590,nanoportador,https://doi.org/10.3390/polym14173577,XRD,Figure 3,nanoparticle,LPHyNP,"XRD diffractograms of (a) AGN, (b) LPHyNP, (c) PLGA, (d) SPC-3, (e) trehalose, and (f) TPGS."
 PMC9460590,nanoportador,https://doi.org/10.3390/polym14173577,FTIR,Figure 4,nanoparticle,LPHyNP,"FT-IR spectra of (a) AGN, (b) LPHyNP, (c) PLGA, (d) SPC-3, and (e) TPGS."
+PMC13447371,nanomaterial,https://doi.org/10.3389/fmedt.2026.1782878,EDS,Figure 8,nanoparticle,iron oxide nanoparticles in lens,(a) EDS spectra.
+PMC13447371,nanomaterial,https://doi.org/10.3389/fmedt.2026.1782878,XRD,Figure 9,nanoparticle,iron oxide nanoparticle-embedded contact lens (C12),X-ray diffraction (XRD) pattern of iron oxide nanoparticle-embedded contact lens (C12).
+PMC13447371,nanomaterial,https://doi.org/10.3389/fmedt.2026.1782878,FTIR,Figure 9,mixture,clear lens and iron nanoparticle-embedded lens (C12),FTIR spectra for the clear lens and iron nanoparticle-embedded lens (C12).
+PMC12632125,nanomaterial,https://doi.org/10.1186/s12870-025-07617-0,EDS,Fig. 2,nanoparticle,ChNPs,"Characterization of ChNPs determined by SEM (A, B), TEM (C, D) and EDX (E)"
+PMC12632125,nanomaterial,https://doi.org/10.1186/s12870-025-07617-0,XRD,Fig. 3,nanoparticle,ChNPs,"Characterization of ChNPs determined by the ζ-potential (A), particles size analysis (B), XRD (C), and FTIR (D)"
+PMC12632125,nanomaterial,https://doi.org/10.1186/s12870-025-07617-0,FTIR,Fig. 3,nanoparticle,ChNPs,"XRD (C), and FTIR (D)"
 PMC12114638,nanoportador,https://doi.org/10.3390/pharmaceutics17050620,XRD,Figure 5,nanoparticle,NLC–Melox,"XRD spectra of the solid lipid, the physical mixture (melt), Melox, NLC–Melox, and NLC–Melox-loaded polymeric gels"
 PMC12114638,nanoportador,https://doi.org/10.3390/pharmaceutics17050620,XRD,Figure 5,mixture,physical mixture (melt),"XRD spectra of the solid lipid, the physical mixture (melt), Melox, NLC–Melox, and NLC–Melox-loaded polymeric gels"
 PMC12114638,nanoportador,https://doi.org/10.3390/pharmaceutics17050620,Raman,Figure 6,nanoparticle,NLC–Melox,"(a) Raman spectra of excipients (CO, surfactant, S.L, Melox), and NLC–Melox."
@@ -68,6 +105,13 @@ PMC10311593,nanoportador,https://doi.org/10.1021/acsnano.3c01186,SAXS,Figure 2,n
 PMC9227860,nanoportador,https://doi.org/10.3390/polym14122459,FTIR,Figure 4,nanoparticle,SLPN4,"Comparative FTIR spectra of pure SM, SLPN4, lipoid 90H, and chitosan."
 PMC9227860,nanoportador,https://doi.org/10.3390/polym14122459,XRD,Figure 5,nanoparticle,SLPN4,XRD spectra of pure SM and optimized LPHNPs (SLPN4).
 PMC9227860,nanoportador,https://doi.org/10.3390/polym14122459,FTIR,Figure 4,component,"pure SM, lipoid 90H, and chitosan","Comparative FTIR spectra of pure SM, SLPN4, lipoid 90H, and chitosan."
+PMC11775004,nanomaterial,https://doi.org/10.3389/fchem.2024.1513150,EDS,FIGURE 1,nanoparticle,AgNPC and AgNPCA,SEM and EDS analysis. AgNPC (A) SEM; (B) EDS; AgNPCA (C) SEM; (D) EDS.
+PMC11775004,nanomaterial,https://doi.org/10.3389/fchem.2024.1513150,XRD,FIGURE 2,nanoparticle,AgNPCA and AgNPC,X-ray diffraction (XRD) study of AgNPCA (red) and AgNPC (blue).
+PMC11775004,nanomaterial,https://doi.org/10.3389/fchem.2024.1513150,UVVis,FIGURE 3,nanoparticle,AgNPCA and AgNPC,"UV-vis analysis of AgNPCA, AgNPC, AgNPC1 and clove extract (200–500 nm)."
+PMC11775004,nanomaterial,https://doi.org/10.3389/fchem.2024.1513150,FTIR,FIGURE 4,nanoparticle,AgNPCA and AgNPC,"Fourier-Transform Infrared (FTIR) spectroscopic analysis of AgNPCA (red), AgNPC (blue) and pure clove extract (green)."
+PMC10216173,nanomaterial,https://doi.org/10.3390/bios13050514,FTIR,Figure 1,nanoparticle,UiO-66-NH2 MOF/PAMAM nanocomposite,FT-IR spectrum of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b).
+PMC10216173,nanomaterial,https://doi.org/10.3390/bios13050514,XRD,Figure 2,nanoparticle,UiO-66-NH2 MOF/PAMAM nanocomposite,The XRD pattern of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b).
+PMC10216173,nanomaterial,https://doi.org/10.3390/bios13050514,EDS,Figure 4,nanoparticle,UiO-66-NH2 MOF/PAMAM nanocomposite,EDS analysis of UiO-66-NH2 MOF (a) and UiO-66-NH2 MOF/PAMAM nanocomposite (b).
 PMC12117203,nanoportador,https://doi.org/10.3762/bjnano.16.50,FTIR,Figure 4,nanoparticle,APT-CD-NP4 and APT-PX-NP8,"(a) FTIR spectra and (b) X-ray diffractograms of APT, poloxamer 407, β-CD, APT-CD-NP4, and APT-PX-NP8."
 PMC12117203,nanoportador,https://doi.org/10.3762/bjnano.16.50,XRD,Figure 4,nanoparticle,APT-CD-NP4 and APT-PX-NP8,"(a) FTIR spectra and (b) X-ray diffractograms of APT, poloxamer 407, β-CD, APT-CD-NP4, and APT-PX-NP8."
 PMC12195063,nanoportador,https://doi.org/10.3390/medicines12020014,FTIR,Figure 2,nanoparticle,antibiotic-loaded liposomes,(A) Overlaid view of FTIR spectroscopic spectra
@@ -75,17 +119,27 @@ PMC12195063,nanoportador,https://doi.org/10.3390/medicines12020014,UVVis,Figure 
 PMC10172346,nanoportador,https://doi.org/10.1038/s41598-023-33893-7,SAXS,Figure 4,nanoparticle,CoQ10-MITO-Porter,(B) SAXS profiles of LNPs.
 PMC11359515,nanoportador,https://doi.org/10.3390/pharmaceutics16081061,FTIR,Figure 7,nanoparticle,blank LPHNPs and IVM-loaded LPHNPs F1–F5,"FTIR spectra of (a) pure IVM, (b) blank LPHNPs, and (c–g) IVM-loaded LPHNPs F1–F5."
 PMC11359515,nanoportador,https://doi.org/10.3390/pharmaceutics16081061,XRD,Figure 8,nanoparticle,IVM-loaded LPHNPs,"XRD patterns of (A) pure IVM, (B) PCL, lecithin, Pluronic F127 (poloxamer), and IVM-loaded LPHNPs."
+PMC13304926,nanomaterial,https://doi.org/10.3390/ph19060917,EDS,Figure 7,mixture,AgNP-Alg composite material,SEM image and EDS spectra and (b) elemental maps of a composite material
+PMC13304926,nanomaterial,https://doi.org/10.3390/ph19060917,Raman,Figure 9,mixture,Ag–Alg interactions and PP species,Raman spectra with assigned vibrational bands corresponding to (a) Ag–Alg interactions
+PMC12940844,nanomaterial,https://doi.org/10.3390/foods15040752,UVVis,Figure 1,nanoparticle,chitosan-inorganic oxide nanocomposites,(D) UV-Vis spectra
+PMC12940844,nanomaterial,https://doi.org/10.3390/foods15040752,FTIR,Figure 1,nanoparticle,chitosan-inorganic oxide nanocomposites,(E) FTIR spectra
+PMC12940844,nanomaterial,https://doi.org/10.3390/foods15040752,XRD,Figure 1,nanoparticle,chitosan-inorganic oxide nanocomposites,(F) XRD patterns of prepared material.
 PMC12944099,nanoportador,https://doi.org/10.3390/pharmaceutics18020183,XRD,Figure 2,nanoparticle,NLC-blank and NLC10NOR + 106CN,"Diffractogram of 6CN-Ethyl, norfloxacin, NLC, NLC10NOR + 106CN."
 PMC12944099,nanoportador,https://doi.org/10.3390/pharmaceutics18020183,FTIR,Figure 4,nanoparticle,NLC-blank and NLC10NOR + 106CN,"Infrared spectra of 6CN-Ethyl, norfloxacin, NLC, NLC10NOR + 106CN."
 PMC11945751,nanoportador,https://doi.org/10.3390/ph18030414,FTIR,Figure 3,nanoparticle,CTX-loaded liposomal formulations,"ATR-FTIR spectra of blank, CTX, and various CTX-loaded liposomal formulations."
 PMC11945751,nanoportador,https://doi.org/10.3390/ph18030414,XRD,Figure 5,nanoparticle,"F6, F7, F10",XRD patterns of pure CTX and CTX-loaded liposomal NPs. (A) Pure CTX; (B) F6; (C) F7; (D) F10.
 PMC10803469,nanoportador,https://doi.org/10.3389/fcimb.2023.1328519,FTIR,Figure 2,nanoparticle,NLC/CAN and NLC control,"FTIR-ATR spectra in the region between 4000-500 cm-1 of NLC/CAN, NLC and its excipients."
 PMC12442105,nanoportador,https://doi.org/10.1039/d5na00386e,XRD,Fig. 4,nanoparticle,freeze-dried ACP-PLHNs,p-XRD of pure ACP (a); a physical mixture of PCL and DPPC (b); pure mannitol (cryoprotectant) (c); and freeze-dried ACP-PLHNs (d).
+PMC10386423,nanomaterial,https://doi.org/10.3390/toxics11070561,XRD,Figure 4,nanoparticle,FeONPs,XRD diffractogram of Leptolyngbya sp. L-2 derived Biogenic FeONPs
+PMC10386423,nanomaterial,https://doi.org/10.3390/toxics11070561,FTIR,Figure 5,nanoparticle,FeONPs,FTIR spectrum of Leptolyngbya sp. L-2 derived Biogenic FeONPs.
+PMC10386423,nanomaterial,https://doi.org/10.3390/toxics11070561,EDS,Figure 6,nanoparticle,FeONPs,Elemental composition of Leptolyngbya sp. L-2 derived Biogenic FeONPs using EDX.
 PMC13206626,nanoportador,https://doi.org/10.3390/foods15101685,FTIR,Fig. 5,nanoparticle,blank NLC and BE-NLC,"Fourier transform infrared (FTIR) spectra of (a) barberry extract (BE), (b) blank NLC, and (c) barberry extract-loaded NLC (BE-NLC)."
 PMC13206626,nanoportador,https://doi.org/10.3390/foods15101685,XRD,Fig. 7,nanoparticle,blank NLC and BE-NLC,"X-ray diffraction (XRD) patterns of barberry extract (BE), blank NLC, and barberry extract-loaded NLC (BE-NLC)."
 PMC8229429,nanoportador,https://doi.org/10.3390/pharmaceutics13060821,XRD,Fig. 4,nanoparticle,liposomal 5-FU and empty liposomes,"X-ray diffraction pattern of free 5-FU, liposomal 5-FU and empty liposomes."
 PMC8229429,nanoportador,https://doi.org/10.3390/pharmaceutics13060821,FTIR,Fig. 5,nanoparticle,liposomal 5-FU and empty liposomes,"FT-IR spectra of free 5-FU, liposomal 5-FU and empty liposome."
 PMC13155039,nanoportador,https://doi.org/10.1002/smll.202600052,SAXS,Methods,nanoparticle,LNP samples,The dialyzed samples were used for batch‐mode dynamic light scattering (DLS) and small‐angle x‐ray scattering (SAXS).
+PMC12299627,nanomaterial,https://doi.org/10.3390/pharmaceutics17070826,UVVis,Figure 7,nanoparticle,F-AuNPs,UV-Vis absorption spectrum curve analysis for F-AuNPs
+PMC12299627,nanomaterial,https://doi.org/10.3390/pharmaceutics17070826,XRD,Figure 8,nanoparticle,F-AuNPs,XRD pattern of Au (JCPDS file no. 04-0784) (A) and F-AuNPs of T. decurrens (B) and S. cinereum (C).
 PMC13258012,nanoportador,https://doi.org/10.1371/journal.pone.0350929,XRD,Fig. 3,nanoparticle,5-FU loaded chitosan nanoparticles,XRD spectra of (a) pure 5-FU sample and (b) 5-FU loaded chitosan nanoparticles.
 PMC13258012,nanoportador,https://doi.org/10.1371/journal.pone.0350929,FTIR,Fig. 4,nanoparticle,5-FU loaded chitosan nanoparticles,"FTIR spectra of (a) 5-FU, (b) 5-FU loaded nanoparticles and (c) chitosan."
 PMC13258012,nanoportador,https://doi.org/10.1371/journal.pone.0350929,UVVis,Fig. 7,nanoparticle,5-FU loaded nanoparticles,UV-Visible spectrophotometry of 5-FU loaded nanoparticles.
@@ -94,18 +148,39 @@ PMC13416030,nanoportador,https://doi.org/10.3390/pharmaceutics18070804,FTIR,Fig.
 PMC9965523,nanoportador,https://doi.org/10.3390/membranes13020193,FTIR,Fig. 3,nanoparticle,AGL and MCS-AGL,"FTIR spectra of pure AG, SPC, Cholesterol, physical mixture, AGL, and MCS-AGL."
 PMC9965523,nanoportador,https://doi.org/10.3390/membranes13020193,XRD,Fig. 5,nanoparticle,AGL and MCS-AGL,"XRD diffraction patterns of pure AG, SPC, Cholesterol, physical mixture, AGL, and MCS-AGL."
 PMC11207542,nanoportador,https://doi.org/10.3390/pharmaceutics16060771,SAXS,Fig. 5,nanoparticle,different LNP formulations,SAXS profiles of the different LNP formulations.
+PMC12703698,nanomaterial,https://doi.org/10.1039/d5ra08159a,UVVis,Fig. 2,nanoparticle,AuNPs,UV-vis spectra of gold nanoparticles synthesized by C. tubulosa extract at different times
+PMC12703698,nanomaterial,https://doi.org/10.1039/d5ra08159a,FTIR,Fig. 5,nanoparticle,AuNPs,FT-IR spectrum of the synthesized AuNPs.
+PMC12703698,nanomaterial,https://doi.org/10.1039/d5ra08159a,XRD,Fig. 5,nanoparticle,AuNPs,XRD pattern of the synthesized AuNPs.
+PMC13287797,nanomaterial,https://doi.org/10.1038/s41598-026-58478-y,XRD,Fig. 3,nanoparticle,ZnONPs,XRD diffraction pattern of ZnONPs synthesized using H. sabdariffa extract
+PMC13287797,nanomaterial,https://doi.org/10.1038/s41598-026-58478-y,FTIR,Fig. 8,mixture,SCS,"FT-IR spectra of HE, ZnONPs, ChNPs + HE, and SCS."
 PMC9050139,nanoportador,https://doi.org/10.1039/c9ra10867j,XRD,Fig. 2,nanoparticle,melatonin-loaded NLC and melatonin-free NLC,"XRD patterns of melatonin, GMS, melatonin-loaded NLC and melatonin-free NLC"
 PMC9050139,nanoportador,https://doi.org/10.1039/c9ra10867j,FTIR,Fig. 2,nanoparticle,melatonin-loaded NLC,"FTIR spectra of melatonin, GMS and melatonin-loaded NLC."
 PMC8042373,nanoportador,https://doi.org/10.3389/fmolb.2021.627817,XRD,FIGURE 3,nanoparticle,sterosomes and CYM-loaded sterosomes,X-ray diffraction patterns of different components of sterosomes and CYM-loaded sterosomes.
 PMC8042373,nanoportador,https://doi.org/10.3389/fmolb.2021.627817,FTIR,FIGURE 4,nanoparticle,sterosomes and CYM-loaded sterosomes,Fourier-transform infrared (FT-IR) spectroscopic spectra of different components of sterosomes and CYM-loaded sterosomes.
+PMC12263525,nanomaterial,https://doi.org/10.1186/s11671-025-04281-z,FTIR,Fig. 3,nanoparticle,α-Fe2O3 NPs,FTIR spectra of a extract of Sorghum bicolor leaves and b α-Fe2O3 NPs
+PMC12263525,nanomaterial,https://doi.org/10.1186/s11671-025-04281-z,XRD,Fig. 4,nanoparticle,α-Fe2O3 NPs,XRD pattern of α-Fe2O3 NPs mediated by aqueous extract of Sorghum bicolor leaves
+PMC12263525,nanomaterial,https://doi.org/10.1186/s11671-025-04281-z,UVVis,Fig. 5,nanoparticle,α-Fe2O3 NPs,The UV-visible spectrum
+PMC12263525,nanomaterial,https://doi.org/10.1186/s11671-025-04281-z,EDS,Fig. 6,nanoparticle,α-Fe2O3 NPs,EDX spectrum
+PMC13350844,nanomaterial,https://doi.org/10.1038/s41598-026-60387-z,FTIR,Fig. 2,nanoparticle,Crab CS NPs and Comm CS NPs,"FTIR results of Crab CS, Crab CS NPs, Comm CS, and Comm CS NPs."
+PMC13350844,nanomaterial,https://doi.org/10.1038/s41598-026-60387-z,XRD,Fig. 3,nanoparticle,Crab CS NPs and Comm CS NPs,"XRD of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."
+PMC13350844,nanomaterial,https://doi.org/10.1038/s41598-026-60387-z,EDS,Fig. 5,nanoparticle,Crab CS NPs and Comm CS NPs,"EDX Elemental Composition of (A) Crab CS, (B) Crab CS NPs, (C) Comm CS and (D) Comm CS NPs."
 PMC8876599,nanoportador,https://doi.org/10.3390/pharmaceutics14020409,XRD,Figure 1,nanoparticle,blank SLNs and PTZ-loaded SLN2,"XRD spectrum of free PTZ (drug), blank SLNs (unloaded), and PTZ-loaded SLN2."
 PMC8876599,nanoportador,https://doi.org/10.3390/pharmaceutics14020409,FTIR,Figure 2,nanoparticle,blank-SLN2 and PTZ-loaded SLN2,"PTZ (drug in its free form), blank-SLN2 (unloaded SNLs), and PTZ-loaded SLN2 (drug-loaded SLNs)."
 PMC10861598,nanoportador,https://doi.org/10.1038/s41467-024-45666-5,SAXS,Fig. 1,nanoparticle,LNP compositions,"SAXS profiles of the LNP compositions shown in c, at different N/P ratios."
+PMC11206697,nanomaterial,https://doi.org/10.3390/ph17060743,UVVis,Figure 1,nanoparticle,AgNPs,UV-Vis spectra of the AgNPs synthesized by three isolates along with the control reaction.
+PMC11206697,nanomaterial,https://doi.org/10.3390/ph17060743,FTIR,Figure 4,nanoparticle,AgNPs synthesized by S. tendae GR-CHA-4,FTIR spectroscopy of AgNPs synthesized by S. tendae GR-CHA-4.
+PMC11206697,nanomaterial,https://doi.org/10.3390/ph17060743,XRD,Figure 5,nanoparticle,AgNPs synthesized by S. tendae GR-CHA-4,XRD pattern of AgNPs synthesized by S. tendae GR-CHA-4.
+PMC11206697,nanomaterial,https://doi.org/10.3390/ph17060743,EDS,Figure 6,nanoparticle,AgNPs synthesized by S. tendae GR-CHA-4,EDS spectra (b) of AgNPs synthesized by S. tendae GR-CHA-4.
 PMC12609401,nanoportador,https://doi.org/10.3390/ijms262110394,FTIR,Figure 3,nanoparticle,CSNPs and MAA-CSNFs,"FTIR spectra of CS (green), MAAPE (blue), CSNPs (black) and MAA-CSNFs (light blue)."
 PMC12609401,nanoportador,https://doi.org/10.3390/ijms262110394,XRD,Figure 5,nanoparticle,free CSNPs and MAA-loaded CSNPs,"XRD patterns of pure chitosan (black), free CSNPs (red), and CSNPs loaded with MAA extract (blue), MAA extract (purple) and pure TPP (green)."
 PMC9143250,nanoportador,https://doi.org/10.3390/ph15050568,FTIR,Figure 5,nanoparticle,optimized formulation,"FTIR spectra studies of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) control, (F) optimized formulation."
 PMC9143250,nanoportador,https://doi.org/10.3390/ph15050568,XRD,Figure 7,nanoparticle,formulation F4 and optimized formulation F12,"XRD pattern of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) formulation (F4), (F) optimized formulation (F12)."
 PMC10511430,nanoportador,https://doi.org/10.1038/s41598-023-42514-2,FTIR,Figure 3,nanoparticle,Cu/SLP,"The Fourier transform infrared spectra of (A) SLP, (B) CuNPs, and (C) Cu/SLP."
+PMC8591612,nanoportador,https://doi.org/10.1021/acs.jpcb.1c05319,SAXS,Figure 1,nanoparticle,LNPacetone and LNPTHF dispersions,"SAXS intensities of the LNPacetone, LNPTHF dispersions and SKL solution"
+PMC10889799,nanomaterial,https://doi.org/10.3390/ijms25042115,UVVis,Figure 3,nanoparticle,NC–GNPs,the UV-Vis absorption spectral analysis of optimized NCt and NC–GNPs
+PMC10889799,nanomaterial,https://doi.org/10.3390/ijms25042115,FTIR,Figure 3,nanoparticle,NC–GNPs,graph showing Fourier transform infrared spectra (FTIR) of NC–GNPs
+PMC10889799,nanomaterial,https://doi.org/10.3390/ijms25042115,XRD,Figure 3,nanoparticle,NC–GNPs,graph showing the X-ray diffraction (XRD) spectrum of synthesized NC–GNPs.
+PMC10889799,nanomaterial,https://doi.org/10.3390/ijms25042115,EDS,Figure 4,nanoparticle,NC–GNPs,the EDX profile showed the NC–GNPs capped with Au atom.
 PMC7281555,nanoportador,https://doi.org/10.3390/md18050270,FTIR,Figure 3,nanoparticle,UA-CS NPs,FTIR spectra of UA-CS NPs prepared from 1.2% chitosan and 0.5% UA in the presence of 0.5% TPP
 PMC7281555,nanoportador,https://doi.org/10.3390/md18050270,XRD,Figure 3,nanoparticle,UA-CS NPs and CS NPs,"XRD-spectra of UA (a), UA-CS NPs (b) and CS NPs (c)."
 PMC9320640,nanoportador,https://doi.org/10.3390/pharmaceutics14071393,FTIR,Figure 2,component,"pure TH, glyceryl monostearate, physical mixture","FTIR spectrum of pure TH (A), glyceryl monostearate (B), physical mixture of TH and GMS (C)."
@@ -113,18 +188,221 @@ PMC9320640,nanoportador,https://doi.org/10.3390/pharmaceutics14071393,XRD,Figure
 PMC10296856,nanoportador,https://doi.org/10.3390/foods12122371,FTIR,Figure 1,nanoparticle,nano-liposomal systems,FTIR spectra of nano-liposomal systems and microcapsules.
 PMC7563888,nanoportador,https://doi.org/10.3390/cells9092034,SAXS,Figure 3,nanoparticle,DOTAP/RNA intermediates and final PS particles,Double logarithmic plot of SAXS profiles of negatively charged PS particle intermediates (DOTAP/RNA
 PMC7563888,nanoportador,https://doi.org/10.3390/cells9092034,SAXS,Figure 4,nanoparticle,MPMID,Double logarithmic plot of the SAXS curve of MPMID.
+PMC11538059,nanomaterial,https://doi.org/10.3389/fphar.2024.1485525,XRD,FIGURE 1,nanoparticle,Ag/Ag₂O NPs,XRD Analysis of Ag/Ag₂O NPs synthesized from Olea europaea Leaf Extract.
+PMC11538059,nanomaterial,https://doi.org/10.3389/fphar.2024.1485525,FTIR,FIGURE 2,nanoparticle,Ag/Ag₂O NPs,FT-IR Analysis of: (A) Ag/Ag2O NPs synthesized from Olea europaea Leaf Extract
+PMC11538059,nanomaterial,https://doi.org/10.3389/fphar.2024.1485525,EDS,FIGURE 3,nanoparticle,Ag/Ag₂O NPs,EDX elemental analysis.
+PMC11538059,nanomaterial,https://doi.org/10.3389/fphar.2024.1485525,UVVis,FIGURE 4,nanoparticle,Ag/Ag₂O NPs,UV-vis spectra
+PMC12930960,nanomaterial,https://doi.org/10.1186/s13068-025-02734-2,UVVis,Fig. 4,nanoparticle,chitosan nanoparticles,UV/visible spectrum of chitosan (blue curve) and the biosynthesized chitosan nanoparticles (red curve)
+PMC12930960,nanomaterial,https://doi.org/10.1186/s13068-025-02734-2,EDS,Fig. 5,nanoparticle,chitosan nanoparticles,EDX (D) micrographs of chitosan nanoparticles
+PMC12930960,nanomaterial,https://doi.org/10.1186/s13068-025-02734-2,XRD,Fig. 6,nanoparticle,chitosan nanoparticles,XRD (A)
+PMC12930960,nanomaterial,https://doi.org/10.1186/s13068-025-02734-2,FTIR,Fig. 6,nanoparticle,chitosan nanoparticles,FTIR (C) analyses of chitosan nanoparticles
 PMC11322916,nanoportador,https://doi.org/10.1021/acsbiomaterials.4c00585,XRD,Figure 3,nanoparticle,NLC and NLCBZC,"X-ray diffractograms for the samples: BZC (A), CP (B), P68 (C), physical mixture, and NLC and NLCBZC (D)."
 PMC11422154,nanoportador,https://doi.org/10.1016/j.ijpx.2024.100284,FTIR,Fig. 3,nanoparticle,PL 1 and LMLX 1,"FT-IR spectroscopy of (a) pure meloxicam, (b) PL 1, and (c) LMLX 1."
+PMC8746983,nanoportador,https://doi.org/10.3390/nano12010176,FTIR,Figure 5,mixture,"LNPs, SA and SA/LNPs-40 beads","Comparison of the FT-IR spectra of LNPs, SA and SA/LNPs-40 beads."
+PMC12071938,nanomaterial,https://doi.org/10.3390/ijms26094130,UVVis,Figure 1,nanoparticle,AgChNPs,"UV-Vis spectra of biosynthesized AgNPs (black), AgChNPs 0.5% (red), 1% (blue), 2% (green)."
+PMC12071938,nanomaterial,https://doi.org/10.3390/ijms26094130,FTIR,Figure 3,nanoparticle,AgChNPs 1% pH 4,FTIR spectrum of biosynthesized AgNPs (green) and AgChNPs 1% pH 4 (red).
+PMC12071938,nanomaterial,https://doi.org/10.3390/ijms26094130,XRD,Figure 4,nanoparticle,"AgChNPs (1% Ch, pH 4)","The XRD pattern of biosynthesized AgChNPs (1% Ch, pH 4)."
+PMC12071938,nanomaterial,https://doi.org/10.3390/ijms26094130,EDS,Figure 6,nanoparticle,"AgChNPs (1% Ch, pH 4)","Energy dispersive X-ray (EDX) spectrum of biosynthesized AgChNPs (1% Ch, pH 4)."
+PMC13413050,nanomaterial,https://doi.org/10.3390/jfb17070345,FTIR,Figure 1,nanoparticle,CSNPs before and after silanization,FTIR spectra of CSNPs before and after silanization.
+PMC13413050,nanomaterial,https://doi.org/10.3390/jfb17070345,EDS,Figure 5,nanoparticle,CSNPs and silanized CSNPs,EDS: (A) CSNPs; (B) silanized CSNPs.
+PMC13413050,nanomaterial,https://doi.org/10.3390/jfb17070345,XRD,Figure 6,nanoparticle,CSNPs before and after silanization,XRD of CSNPs before and after silanization.
 PMC10300871,nanoportador,https://doi.org/10.3390/pharmaceutics15061605,XRD,Figure 4,nanoparticle,blank and morin-loaded SLNs,"X-ray diffraction (XRD) of the MRN-SLNs systems: (a) COM, MRN, blank SLNs-COM, and MRN-SLNs-COM10"
 PMC10300871,nanoportador,https://doi.org/10.3390/pharmaceutics15061605,Raman,Figure 6,nanoparticle,MRN-SLNs-PHO10 and MRN-SLNs-COM10,"MRN-SLNs-PHO10 (red dotted line), and MRN-SLNs-COM10 (green dotted line) systems."
 PMC11510464,nanoportador,https://doi.org/10.3390/pharmaceutics16101330,FTIR,Figure 3,nanoparticle,empty liposomes and Lipo-GEN-THQ,FTIR spectra: (A) thymoquinone (THQ); (B) gentamicin (GEN); (C) empty liposomes; (D) liposomal gentamicin–thymoquinone (Lipo-GEN-THQ) formula.
 PMC12057187,nanoportador,https://doi.org/10.1186/s12951-025-03370-6,SAXS,Fig. 1,nanoparticle,hexosomes and proteohexosomes,"Representative small-angle X-ray scattering diffraction patterns were obtained for hexosomes (1, black line) and proteohexosomes (2, orange line)"
+PMC9370869,nanomaterial,https://doi.org/10.3390/polym14153138,UVVis,Figure 3,nanoparticle,AgNPs,UV-Vis spectroscopy of reaction mixture indicating typical absorbance peak of AgNPs around 425 nm.
+PMC9370869,nanomaterial,https://doi.org/10.3390/polym14153138,XRD,Figure 4,nanoparticle,biogenic silver nanoparticles,X-ray diffraction pattern of biogenic silver nanoparticles.
+PMC9370869,nanomaterial,https://doi.org/10.3390/polym14153138,FTIR,Figure 5,nanoparticle,silver nanoparticles,FTIR depicting functional groups of silver nanoparticles vs. thyme extract.
+PMC9370869,nanomaterial,https://doi.org/10.3390/polym14153138,EDS,Figure 7,nanoparticle,AgNPs,"The EDS graph, with energy on X-axis and counts on Y-axis, shows the elemental composition of AgNPs"
+PMC12678815,nanomaterial,https://doi.org/10.1038/s41598-025-28057-8,XRD,Fig. 1,mixture,MAS and MAS/CS-NPs,XRD patterns of MAS and MAS/CS-NPs.
+PMC12678815,nanomaterial,https://doi.org/10.1038/s41598-025-28057-8,FTIR,Fig. 3,mixture,MAS/CS-NPs,FTIR spectra of (a) MAS/CS-NPs before adsorption and (b) MAS/CS-NPs after adsorption.
+PMC12678815,nanomaterial,https://doi.org/10.1038/s41598-025-28057-8,EDS,Fig. 5,mixture,MAS/CS-NPs,EDX graphs of (A) MAS/CS-NPs before adsorption and (B) MAS/CS-NPs after adsorption.
 PMC10390827,nanoportador,https://doi.org/10.3762/bjnano.14.66,FTIR,Figure 4,nanoparticle,NLC vehicle and NLC-BNZ,"ATR-FTIR spectra of BNZ, myristyl myristate, poloxamer 188, NLC VEHICLE, and NLC-BNZ."
 PMC10390827,nanoportador,https://doi.org/10.3762/bjnano.14.66,SAXS,Figure 7,nanoparticle,NLC-VEHICLE and NLC-BNZ,Lorentz/Kratky plot for SAXS patterns of NLC-VEHICLE (continuous line) and NLC-BNZ (dashed line).
 PMC10776786,nanoportador,https://doi.org/10.1038/s41598-023-50878-8,FTIR,Figure 7,nanoparticle,empty and DTX-loaded liposomes,FTIR spectrum of of Lp-CM-ChT80 (A) and Lp-CM-ChT80-DTX (B) liposome.
 PMC11858925,nanoportador,https://doi.org/10.3390/pharmaceutics17020255,SAXS,Figure 3,nanoparticle,"SLN, SLN/SV, and NLC/LN/SV","SAXS patterns of three different formulations (SLN, SLN/SV, and NLC/LN/SV)."
+PMC8587642,nanomaterial,https://doi.org/10.3390/polym13213800,FTIR,Figure 1,nanoparticle,Ag NPs@GO-FL-CS,"FTIR spectra of CS, FL-CS, GO-FL-CS, and Ag NPs@GO-FL-CS."
+PMC8587642,nanomaterial,https://doi.org/10.3390/polym13213800,EDS,Figure 2,nanoparticle,Ag NPs@GO-FL-CS,the EDX analysis spectrum
+PMC8587642,nanomaterial,https://doi.org/10.3390/polym13213800,XRD,Figure 5,nanoparticle,Ag NPs@GO-FL-CS,"XRD patterns of GO, CS, GO-FL-CS, and Ag NPs@GO-FL-CS"
 PMC13163820,nanoportador,https://doi.org/10.3390/ijms27094072,FTIR,Figure 2,nanoparticle,Tau-CS NPs,Fourier-transform infrared (FTIR) spectra of (A) chitosan
 PMC13163820,nanoportador,https://doi.org/10.3390/ijms27094072,UVVis,Figure 1,nanoparticle,Tau–CS NPs,UV–visible absorption spectrum of Tau–CS NPs
 PMC13610735,nanoportador,https://doi.org/10.3390/pharmaceutics18091087,FTIR,Figure 8,nanoparticle,loaded SHNs,"ATR-FTIR spectra of raw materials and loaded SHNs, recorded in the 4000–400 cm−1 range."
+PMC11270981,nanomaterial,https://doi.org/10.1021/acs.langmuir.4c01219,SAXS,Figure 4,nanoparticle,DOPC in D2O with different NaCl concentrations,SAXS scattering intensity for DOPC in D2O with different salt (NaCl) concentrations
+PMC6832892,nanomaterial,https://doi.org/10.3390/molecules24203803,FTIR,Figure 2,nanoparticle,Fe3O4-NPs,FTIR spectra of synthesized iron oxide nanoparticles.
+PMC6832892,nanomaterial,https://doi.org/10.3390/molecules24203803,UVVis,Figure 3,nanoparticle,iron oxide nanoparticles,UV-visible absorption spectra of iron oxide nanoparticles.
+PMC6832892,nanomaterial,https://doi.org/10.3390/molecules24203803,EDS,Figure 6,nanoparticle,Fe3O4 nanoparticles,Energy dispersive X-ray spectroscopy (EDX) analysis spectra for Fe3O4 nanoparticles.
+PMC6832892,nanomaterial,https://doi.org/10.3390/molecules24203803,XRD,Figure 7,nanoparticle,Fe3O4,XRD pattern with Rietveld refinement of Fe3O4.
 PMC13101956,nanoportador,https://doi.org/10.1039/d6ra01096b,FTIR,Fig. 2,component,MTX and MTX–Mn,FTIR spectra of MTX and MTX–Mn.
 PMC13101956,nanoportador,https://doi.org/10.1039/d6ra01096b,EDS,Fig. 2,nanoparticle,MTX–Mn coordination nanoparticles,Energy-dispersive X-ray spectroscopy (EDS) analysis confirming the presence of Mn in the MTX–Mn coordination nanoparticles.
+PMC9950487,nanoportador,https://doi.org/10.1038/s41598-023-30221-x,UVVis,Figure 5,nanoparticle,Fe3O4 NPs and SPION@PTX-Cs-PEG-FA,UV-Vis spectrophotometry absorption indicates a maximum absorbance above 300 nm
+PMC9950487,nanoportador,https://doi.org/10.1038/s41598-023-30221-x,XRD,Figure 6,nanoparticle,Fe3O4 NPs and SPION@PTX-Cs-PEG-FA,X-Ray diffraction patterns of Fe3O4 NPs (1) prepared by different wavelengths
+PMC9950487,nanoportador,https://doi.org/10.1038/s41598-023-30221-x,EDS,Figure 7,nanoparticle,SPION NPs,EDX of SPION NPs in solution KMnO4
+PMC9950487,nanoportador,https://doi.org/10.1038/s41598-023-30221-x,FTIR,Figure 12,nanoparticle,SPION and SPION@Cs-PTX-PEG-FA,"(a) FTIR spectra of PTX (a), SPION (b), FA (c), SPION@Cs (d)"
+PMC10333301,nanoportador,https://doi.org/10.1038/s41598-023-37660-6,UVVis,Figure 1,nanoparticle,CNPs,UV/visible spectra of chitosan (blue line) and chitosan nanoparticles
+PMC10333301,nanoportador,https://doi.org/10.1038/s41598-023-37660-6,EDS,Figure 2,nanoparticle,CNPs,Analyses of chitosan nanoparticles bio-synthesized using Lavendula angustifolia leaves extract with EDX
+PMC10333301,nanoportador,https://doi.org/10.1038/s41598-023-37660-6,FTIR,Figure 4,nanoparticle,CNPs,FTIR for the bio-synthesized chitosan nanoparticles
+PMC10333301,nanoportador,https://doi.org/10.1038/s41598-023-37660-6,XRD,Figure 4,nanoparticle,CNPs,XRD (D) of CNPs bio-synthesized using Lavendula angustifolia leaves extract.
+PMC10606122,nanoportador,https://doi.org/10.3390/foods12203737,FTIR,Figure 4,nanoparticle,gelatin-coated NLC with and without sage extract,"Fourier transform infrared (FTIR) spectra of sage extract (SE), gelatin (GL), nanocarrier structure lipid"
+PMC10606122,nanoportador,https://doi.org/10.3390/foods12203737,XRD,Figure 6,nanoparticle,SE-loaded GL-coated NLC,The X-ray diffraction (XRD) pattern of free sage extract (SE)
+PMC8584841,nanomaterial,https://doi.org/10.3390/ijms222111916,FTIR,Figure 2,mixture,"liposomes, PDA, and Liposome@PDA microspheres","FTIR spectra of liposomes, PDA, and Liposome@PDA microspheres."
+PMC8584841,nanomaterial,https://doi.org/10.3390/ijms222111916,FTIR,Figure 4,mixture,MB and Liposome@PDA microspheres,FTIR spectra of MB and Liposome@PDA microspheres before and after adsorption of MB.
+PMC12609468,nanoportador,https://doi.org/10.3390/polym17212934,FTIR,Figure 8,mixture,LNP/MC-treated cotton and groundwood,"ATR/FTIR spectra for unaged samples, both uncoated and 2 wt% LNP/MC-treated."
+PMC12484951,nanomaterial,https://doi.org/10.1038/s41598-025-97201-1,UVVis,Fig. 3,nanoparticle,AgNPs,"UV–Visible spectroscopy showing absorption spectrum of (A) leaf extract, 1mM silver nitrate, AgNPs"
+PMC12484951,nanomaterial,https://doi.org/10.1038/s41598-025-97201-1,EDS,Fig. 4,nanoparticle,AgNPs,EDX analysis of S. bryopteris derived AgNPs
+PMC12484951,nanomaterial,https://doi.org/10.1038/s41598-025-97201-1,FTIR,Fig. 7,nanoparticle,AgNPs,FTIR and (B) XRD pattern of green synthesized AgNPs.
+PMC12484951,nanomaterial,https://doi.org/10.1038/s41598-025-97201-1,XRD,Fig. 7,nanoparticle,AgNPs,XRD pattern of green synthesized AgNPs.
+PMC10005067,nanoportador,https://doi.org/10.3390/nano13050943,XRD,Figure 2,nanoparticle,PLGA and nfPLGA particles,"XRD, (b) RAMAN, and (c) FTIR analysis for pure PLGA and nfPLGA particles."
+PMC10005067,nanoportador,https://doi.org/10.3390/nano13050943,Raman,Figure 2,nanoparticle,PLGA and nfPLGA particles,RAMAN
+PMC10005067,nanoportador,https://doi.org/10.3390/nano13050943,FTIR,Figure 2,nanoparticle,PLGA and nfPLGA particles,FTIR analysis for pure PLGA and nfPLGA particles.
+PMC6673697,nanoportador,https://doi.org/10.1038/s41598-019-47486-w,FTIR,Figure 3,nanoparticle,NLC and NLC-NPX formulations,ATR-FTIR (A) and DSC (B) analyses of nanostructured lipid carriers (NLC)
+PMC11443663,nanoportador,https://doi.org/10.3762/bjnano.15.96,FTIR,Figure 2,nanoparticle,SNPs and DOX-SNPs,FTIR spectra of SNPs and DOX-SNPs.
+PMC12463224,nanomaterial,https://doi.org/10.1371/journal.pone.0321172,UVVis,Fig 5,nanoparticle,AgNPs,UV-visible spectra of AgNPs synthesized using C. asiatica
+PMC12463224,nanomaterial,https://doi.org/10.1371/journal.pone.0321172,FTIR,Fig 6,nanoparticle,AgNPs,FTIR spectra of AgNPs prepared using C. asiatica leaf and stem extracts.
+PMC12463224,nanomaterial,https://doi.org/10.1371/journal.pone.0321172,XRD,Fig 7,nanoparticle,AgNPs,Powder XRD patterns of AgNPs were synthesized using the leaf and stem extracts of C. asiatica.
+PMC12463224,nanomaterial,https://doi.org/10.1371/journal.pone.0321172,EDS,Fig 10,nanoparticle,AgNPs from leaf aqueous extract,EDX spectrum of synthesized AgNPs from leaf aqueous extract.
+PMC10019797,nanomaterial,https://doi.org/10.1038/s41598-023-30911-6,UVVis,Figure 2,nanoparticle,CNPs,UV/visible spectrum of the biosynthesized CNPs.
+PMC10019797,nanomaterial,https://doi.org/10.1038/s41598-023-30911-6,EDS,Figure 3,nanoparticle,CNPs,EDX (C).
+PMC10019797,nanomaterial,https://doi.org/10.1038/s41598-023-30911-6,FTIR,Figure 5,nanoparticle,CNPs,"Analyses of the biosynthesized CNPs with (A) ζ-potential, FTIR (B), XRD (C)."
+PMC10019797,nanomaterial,https://doi.org/10.1038/s41598-023-30911-6,XRD,Figure 5,nanoparticle,CNPs,XRD (C).
+PMC7559404,nanoportador,https://doi.org/10.3390/ph13090255,FTIR,Figure 3,nanoparticle,blank SLNs and optimized ELX loaded SLNs (F2),"FTIR spectra of pure eluxadoline (ELX), blank SLNs and optimized ELX loaded SLNs (F2)."
+PMC11421787,nanoportador,https://doi.org/10.1371/journal.pone.0310492,FTIR,Fig 2,nanoparticle,nanoliposomes and liposils,"FTIR spectra of plain ibrutinib, nanoliposomes and liposils formulation."
+PMC11421787,nanoportador,https://doi.org/10.1371/journal.pone.0310492,XRD,Fig 2,nanoparticle,nanoliposomes and liposils,"XRPD pattern of plain ibrutinib, nanoliposomes and liposils formulation."
+PMC12897965,nanomaterial,https://doi.org/10.3390/ijms27031210,UVVis,Figure 4,nanoparticle,AgNPs,Convolvulus arvensis nanoparticles.
+PMC12897965,nanomaterial,https://doi.org/10.3390/ijms27031210,EDS,Figure 7,nanoparticle,AgNPs,The elemental composition graph of AgNPs synthesized from C. arvensis extract by Energy-dispersive X-ray spectroscopy (EDX).
+PMC12897965,nanomaterial,https://doi.org/10.3390/ijms27031210,FTIR,Figure 8,nanoparticle,AgNPs,Characterization of AgNPs synthesized from Convolvulus arvensis extract by (FT-IR)
+PMC10556707,nanomaterial,https://doi.org/10.3389/fchem.2023.1273360,UVVis,FIGURE 3,nanoparticle,TA-SeNPs,Terminalia arjuna bark extract–reduced SeNPs.
+PMC10556707,nanomaterial,https://doi.org/10.3389/fchem.2023.1273360,FTIR,FIGURE 4,nanoparticle,TA-SeNP,Fourier-transform infrared spectroscopy analysis of the Terminalia arjuna bark extract and TA-SeNP.
+PMC10556707,nanomaterial,https://doi.org/10.3389/fchem.2023.1273360,XRD,FIGURE 5,nanoparticle,SeNPs,X-ray diffraction spectra of Terminalia arjuna bark extract–reduced SeNPs.
+PMC8618414,nanoportador,https://doi.org/10.3390/pharmaceutics13111912,XRD,Figure 6,nanoparticle,SLN/NLC,Diffractograms of raw material (a) used to produce cetyl palmitate (b) and myristyl myristate (c) nanoparticles.
+PMC10383343,nanomaterial,https://doi.org/10.3390/molecules28145519,UVVis,Figure 4,nanoparticle,Ag-NPs,UV–visible absorption spectra of Tanacetum vulgare aqueous extracts from flowers (a) and leaves (b)
+PMC10383343,nanomaterial,https://doi.org/10.3390/molecules28145519,EDS,Figure 5,nanoparticle,Ag-NPs from flowers,(a) SEM image with EDS analysis
+PMC10383343,nanomaterial,https://doi.org/10.3390/molecules28145519,FTIR,Figure 10,nanoparticle,Ag-NPs from tansy flowers,FT-IR/ATR spectra of the Tanaceti flos aqueous (green line)
+PMC11377334,nanoportador,https://doi.org/10.3389/fphar.2024.1437773,FTIR,FIGURE 1,nanoparticle,FTCLP,FTIR
+PMC10694205,nanomaterial,https://doi.org/10.3389/fmicb.2023.1291030,UVVis,Figure 2,nanoparticle,CM-AgNPs and bare AgNPs,"UV–Vis spectrum of Cm-fruit extract, CM-AgNPs and bare AgNPs"
+PMC10694205,nanomaterial,https://doi.org/10.3389/fmicb.2023.1291030,FTIR,Figure 3,nanoparticle,CM-AgNPs,FTIR spectra of Cm-fruit extract and CM-AgNPs.
+PMC10694205,nanomaterial,https://doi.org/10.3389/fmicb.2023.1291030,XRD,Figure 4,nanoparticle,CM-AgNPs,XRD patterns of CM-AgNPs.
+PMC10694205,nanomaterial,https://doi.org/10.3389/fmicb.2023.1291030,EDS,Figure 5,nanoparticle,CM-AgNPs,EDX spectra of CM-AgNPs
+PMC10374537,nanoportador,https://doi.org/10.1038/s41598-023-38054-4,EDS,Figure 5,nanoparticle,SF–CS NPs 5.0,EDX spectra.
+PMC10374537,nanoportador,https://doi.org/10.1038/s41598-023-38054-4,XRD,Figure 6,nanoparticle,SF–CS NPs,XRD patterns of (A) CS NPs (B) pure SF
+PMC10374537,nanoportador,https://doi.org/10.1038/s41598-023-38054-4,FTIR,Figure 7,nanoparticle,SF–CS NPs,FTIR spectrum of (A) pure SF
+PMC11279858,nanoportador,https://doi.org/10.3390/pharmaceutics16070913,FTIR,Figure 1,nanoparticle,liposomal formulations,The compatibility of all compounds that were used for the development of liposomes by FTIR.
+PMC12841268,nanomaterial,https://doi.org/10.3390/ijms27020582,UVVis,Figure 1,nanoparticle,AgNPs and Val-AgNPs,UV-Vis absorption spectral analysis and surface properties of AgNPs and Val-AgNPs
+PMC12841268,nanomaterial,https://doi.org/10.3390/ijms27020582,FTIR,Figure 2,nanoparticle,Val-AgNPs,"FTIR spectra presenting the functional groups for valsartan, reducing, and capping agents"
+PMC12841268,nanomaterial,https://doi.org/10.3390/ijms27020582,EDS,Figure 4,nanoparticle,Val-AgNPs,Energy-dispersive spectroscopy (EDS) pattern of Val-AgNPs
+PMC9968121,nanoportador,https://doi.org/10.3390/pharmaceutics15020389,FTIR,Figure 3,nanoparticle,loaded polymeric nanobeads,"FTIR Spectra of pure VRC (a), HPβCD (b) and Blank (c) and loaded polymeric nanobeads (d)."
+PMC9968121,nanoportador,https://doi.org/10.3390/pharmaceutics15020389,XRD,Figure 7,nanoparticle,Loaded HPβCD based polymeric nanobeads,"XRD diffractogram of VRC (a), HPβCD (b), Blank (c), and Loaded HPβCD based polymeric nanobeads (d)."
+PMC6149848,nanoportador,https://doi.org/10.3390/molecules22122215,FTIR,Figure 4,mixture,F3 and formulation components,"FT-IR spectra of H. cordata extracts, stearic acid (SA), poloxamer 188 (P188)"
+PMC12717261,nanoportador,https://doi.org/10.1038/s41598-025-27935-5,FTIR,Fig. 5,nanoparticle,drug-loaded soy-lecithin liposomes,(B) FTIR spectra of control and drug-loaded soy-lecithin liposomes in the 4000–400 cm⁻1 range.
+PMC12929781,nanomaterial,https://doi.org/10.1038/s41598-026-38677-3,UVVis,Fig. 1,nanoparticle,GG-AuNPs,UV-Vis spectrum of the biosynthesized GG-AuNPs.
+PMC12929781,nanomaterial,https://doi.org/10.1038/s41598-026-38677-3,FTIR,Fig. 2,nanoparticle,GG-AuNPs,FTIR spectrum of the algal extract and GG-AuNPs.
+PMC12929781,nanomaterial,https://doi.org/10.1038/s41598-026-38677-3,XRD,Fig. 4,nanoparticle,GG-AuNPs,Powder X-ray Diffraction results of bio-fabricated gold nanoparticles using red algae extract of Gracilaria gracilis.
+PMC12506271,nanoportador,https://doi.org/10.1186/s12885-025-15015-w,XRD,Fig. 14,nanoparticle,LPHNPs,XRD Spectra for Pure Drug (-) and LPHNPs (-)
+PMC12506271,nanoportador,https://doi.org/10.1186/s12885-025-15015-w,FTIR,Fig. 16,nanoparticle,LPHNPs,FTIR Spectra for Pure Drug (A) and LPHNPs (B)
+PMC9257980,nanoportador,https://doi.org/10.3389/fchem.2022.904973,FTIR,FIGURE 3,nanoparticle,SEO-SCF-NPs,FTIR spectra of SEO-SCF-NPs.
+PMC12196110,nanoportador,https://doi.org/10.3390/nano15120937,SAXS,Figure 4,nanoparticle,"ETHOWI, ETHOEI, and LIPOEI","Comparison among the SAXS profiles of ETHOWI (blue), ETHOEI (purple), and LIPOEI (yellow)."
+PMC12775131,nanomaterial,https://doi.org/10.1038/s41598-025-30539-8,UVVis,Fig. 2,nanoparticle,Amp–AgNPs,UV-visible absorption spectra of Amp–AgNPs synthesized using varying concentrations of ampicillin
+PMC12775131,nanomaterial,https://doi.org/10.1038/s41598-025-30539-8,XRD,Fig. 2,nanoparticle,Amp–AgNPs,XRD pattern
+PMC12775131,nanomaterial,https://doi.org/10.1038/s41598-025-30539-8,FTIR,Fig. 2,nanoparticle,Amp–AgNPs,"FTIR spectra of ampicillin, AgNPs, and Amp–AgNPs."
+PMC10675202,nanoportador,https://doi.org/10.3390/pharmaceutics15112551,FTIR,Figure 3,nanoparticle,CNPs and CNPs/Cc,"FTIR spectroscopy of C. cartilaginea (a), CNPs (b), and CNPs/Cc (c)."
+PMC10675202,nanoportador,https://doi.org/10.3390/pharmaceutics15112551,EDS,Figure 7,nanoparticle,CNPs and CNPs/Cc,Energy-dispersive X-ray spectrophotometry analysis of CNPs (a) and CNPs/Cc (b).
+PMC8780659,nanoportador,https://doi.org/10.3390/pharmaceutics14010131,FTIR,Figure 3,nanoparticle,SLN formulations,FTIR spectra of all lipids and all SLN formulations.
+PMC12640340,nanoportador,https://doi.org/10.1007/s00249-025-01790-8,SAXS,Fig. 10,nanoparticle,empty and protein-containing liposomes,SAXS data for empty liposomes as well as AqpZ and AqpZ-GFP containing liposomes
+PMC13414693,nanomaterial,https://doi.org/10.3390/ph19071102,UVVis,Figure 4,nanoparticle,B. subtilis-AgNPs,UV-Vis absorption spectrum of B. subtilis-AgNPs.
+PMC13414693,nanomaterial,https://doi.org/10.3390/ph19071102,FTIR,Figure 5,nanoparticle,B. subtilis CG1-AgNPs,Fourier Transform Infrared (FTIR) spectra of B. subtilis CG1-AgNPs recorded in the range of 4000–400 cm−1.
+PMC13414693,nanomaterial,https://doi.org/10.3390/ph19071102,EDS,Figure 7,nanoparticle,B. subtilis-AgNPs,The elemental composition graph extracted by energy-dispersive X-ray of B. subtilis-AgNPs.
+PMC10626515,nanoportador,https://doi.org/10.5599/admet.1789,UVVis,Figure 1.,nanoparticle,SeNPs,UV-Vis spectrum of SeNPs.
+PMC10626515,nanoportador,https://doi.org/10.5599/admet.1789,FTIR,Figure 3.,nanoparticle,PCL-triazole-Se and PCL-Se nanoparticles,"FTIR of PCL, PCL-triazole, PCL-triazole-Se and PCL-Se nanoparticles."
+PMC9140805,nanoportador,https://doi.org/10.3390/gels8050277,FTIR,Figure 3,nanoparticle,SLN formulation,"(a) FTIR and (b) PXRD spectrum of SIM, SLN formulation, Precirol ATO 5 and P407."
+PMC10458800,nanoportador,https://doi.org/10.3390/pharmaceutics15082162,UVVis,Figure 1,component,manganese ferrite and Au nanoparticles,Absorption spectrum of MnFe2O4 NPs dispersed in water
+PMC10458800,nanoportador,https://doi.org/10.3390/pharmaceutics15082162,FTIR,Figure 5,nanoparticle,AuNPs_MUA and AuNPs_ODT,FTIR spectra of AuNPs functionalized with ODT and with MUA.
+PMC12930731,nanomaterial,https://doi.org/10.1186/s12866-025-04706-w,FTIR,Fig. 4,nanoparticle,Cs NPs,FTIR spectra
+PMC12930731,nanomaterial,https://doi.org/10.1186/s12866-025-04706-w,XRD,Fig. 4,nanoparticle,Cs NPs,XRD pattern
+PMC10707881,nanoportador,https://doi.org/10.3390/molecules28237706,Raman,Figure 3,nanoparticle,SLN formulations,Raman spectra of different SLN formulations after freeze-drying
+PMC11990610,nanoportador,https://doi.org/10.3390/molecules30071549,FTIR,Figure 5,nanoparticle,DOX/HDZ-loaded liposomes,FTIR spectra of lyophilized liposomes encapsulating either DOX and HDZ together
+PMC13266089,nanomaterial,https://doi.org/10.1155/bca/9779231,UVVis,FIGURE 2,nanoparticle,FEA@AgNPs,UV–vis absorption spectrum of FEA‐AgNPs
+PMC13266089,nanomaterial,https://doi.org/10.1155/bca/9779231,FTIR,FIGURE 4,nanoparticle,FEA‐AgNPs,FT‐IR spectra of (a) Elaeagnus angustifolia flower extract (FEA) and (b) biosynthesized FEA‐AgNPs.
+PMC13266089,nanomaterial,https://doi.org/10.1155/bca/9779231,EDS,FIGURE 5,nanoparticle,AgNPs,EDS spectrum of AgNPs from the flower of Elaeagnus angustifolia extract.
+PMC13266089,nanomaterial,https://doi.org/10.1155/bca/9779231,XRD,FIGURE 9,nanoparticle,FEA@AgNPS,X‐ray diffraction (XRD) pattern of FEA@AgNPS.
+PMC10475053,nanomaterial,https://doi.org/10.1038/s41598-023-41823-w,XRD,Figure 1,nanoparticle,Fe3O4/CS NPs,XRD pattern
+PMC10475053,nanomaterial,https://doi.org/10.1038/s41598-023-41823-w,FTIR,Figure 1,nanoparticle,Fe3O4/CS NPs,FTIR analysis of Fe3O4/CS NPs adsorbent
+PMC10672792,nanoportador,https://doi.org/10.3390/molecules28227508,FTIR,Figure 1,nanoparticle,SLN2 formulation,"FTIR of Sulconazole (A), Phospholipon® 90 H (B), GMS (C) and SLN2 formulation (D)."
+PMC11816442,nanoportador,https://doi.org/10.3390/ijms26030922,FTIR,Figure 1,component,CMCS and peptide-functionalized CMCS,FTIR spectral profiles of CMCS and CMCS functionalized with TAT
+PMC12986702,nanomaterial,https://doi.org/10.3390/nano16050334,UVVis,Figure 1,nanoparticle,AgNPs,UV–Vis spectra of the biosynthesized AgNPs and AgNPs capped by different solvent extracts
+PMC12986702,nanomaterial,https://doi.org/10.3390/nano16050334,EDS,Figure 2,nanoparticle,AgNPs,SEM/EDX image of the biosynthesized AgNPs
+PMC12986702,nanomaterial,https://doi.org/10.3390/nano16050334,XRD,Figure 4,nanoparticle,AgNPs,XRD patterns of the biosynthesized AgNPs capped by different concentrations of AgNO3 and method.
+PMC12986702,nanomaterial,https://doi.org/10.3390/nano16050334,FTIR,Figure 5,nanoparticle,AgNPs,FTIR spectra of AgNPs.
+PMC10143989,nanoportador,https://doi.org/10.3390/polym15081933,FTIR,Figure 2,nanoparticle,different nanogel formulations,FT-IR spectra
+PMC10143989,nanoportador,https://doi.org/10.3390/polym15081933,UVVis,Figure 2,nanoparticle,different nanogel formulations,UV-vis spectra
+PMC10609381,nanoportador,https://doi.org/10.3390/mps6050097,FTIR,Figure 4,nanoparticle,"AMD-SLNs (P1, P3, P5)","FTIR spectra of pure AMD and AMD-SLNs (P1, P3, P5)."
+PMC10782224,nanoportador,https://doi.org/10.3389/fbioe.2023.1343694,UVVis,FIGURE 1,nanoparticle,PATSL,UV–vis spectra of PATSL before and after NIR laser irradiation
+PMC13319062,nanomaterial,https://doi.org/10.3389/fpls.2026.1824882,UVVis,Figure 2,nanoparticle,phycosynthesized AuNPs,UV-Visible absorption spectrum of phycosynthesized AuNPs
+PMC13319062,nanomaterial,https://doi.org/10.3389/fpls.2026.1824882,EDS,Figure 2,mixture,Sr-AuNP conjugate,SEM image and EDX spectrum showing gold deposition on the PGPR surface.
+PMC10575434,nanoportador,https://doi.org/10.3390/polym15193925,FTIR,Figure 1,nanoparticle,"CSNPs, CP-loaded CSNPs, FA-loaded CSNPs","FTIR spectra of (a) CS, (b) TPP, (c) CSNPs"
+PMC10575434,nanoportador,https://doi.org/10.3390/polym15193925,XRD,Figure 2,nanoparticle,"CSNPs, CP-loaded CSNPs, FA-loaded CSNPs","XRD pattern of (a) CS, (b) TPP, (c) CSNPs"
+PMC12140078,nanoportador,https://doi.org/10.1371/journal.pone.0315543,FTIR,Fig 3,nanoparticle,TO-SLN and TO-CH,"ATR-FTIR spectra of thyme oil (blue), TO-SLN (green) and TO-CH (red)."
+PMC9860715,nanoportador,https://doi.org/10.3390/pharmaceutics15010292,FTIR,Figure 3,nanoparticle,Lipo-IONP,Fourier transform infrared (FT-IR) spectroscopic profiles of Lipo-IONP.
+PMC10364344,nanomaterial,https://doi.org/10.2174/2211738511666230206112537,UVVis,Fig. (1),nanoparticle,LE-AuNPs,"UV-Visible spectra of L. eriocephalus plant extract, HAuCl4, and LE-AuNPs"
+PMC10364344,nanomaterial,https://doi.org/10.2174/2211738511666230206112537,XRD,Fig. (4),nanoparticle,LE-AuNPs,LE-AuNPs XRD pattern of LE-AuNPs synthesized using L. eriocephalus leaf extract.
+PMC10364344,nanomaterial,https://doi.org/10.2174/2211738511666230206112537,FTIR,Fig. (5),nanoparticle,LE-AuNPs,FTIR spectrum of (A) biogenic LE-AuNPs
+PMC10670406,nanoportador,https://doi.org/10.3390/gels9110841,FTIR,Figure 2,nanoparticle,drug-free and TBH-loaded nanogels,"FTIR spectra of (a) gelatin, (b) AA, (c) drug-free nanogel, (d) TBH, and (e) TBH-loaded nanogel."
+PMC10670406,nanoportador,https://doi.org/10.3390/gels9110841,XRD,Figure 5,nanoparticle,drug-free and TBH-loaded nanogel,"XRD pattern of (a) gelatin, (b) TBH, (c) drug-free nanogel, and (d) TBH-loaded nanogel."
+PMC10897223,nanoportador,https://doi.org/10.1038/s41598-024-54178-7,UVVis,Figure 3,nanoparticle,nano-encapsulated phytosterols,UV–Vis spectrum of the nano-encapsulated phytosterols
+PMC10897223,nanoportador,https://doi.org/10.1038/s41598-024-54178-7,FTIR,Figure 6,nanoparticle,optimized nanocapsules,FT-IR spectra of extracted phytosterols and optimized nanocapsules.
+PMC10458383,nanoportador,https://doi.org/10.3390/pharmaceutics15082033,FTIR,Figure 3,nanoparticle,optimum formula,(c) FTIR spectrum of the optimum formula and each component
+PMC10894868,nanomaterial,https://doi.org/10.1038/s41598-024-54698-2,EDS,Figure 3,nanoparticle,biosynthesized GNPs,Figure 3B showed the EDX analysis of the biosynthesized GNPs.
+PMC10894868,nanomaterial,https://doi.org/10.1038/s41598-024-54698-2,FTIR,Figure 4,nanoparticle,biosynthesized GNPs,Analyses of the biosynthesized GNPs with FTIR (A)
+PMC10894868,nanomaterial,https://doi.org/10.1038/s41598-024-54698-2,XRD,Figure 4,nanoparticle,biosynthesized GNPs,and XRD (C).
+PMC10064556,nanoportador,https://doi.org/10.1186/s40360-023-00662-1,EDS,Fig. 3,nanoparticle,uncoated and silica-coated CS-DS NPs,EDX spectra for (A) uncoated CS-DS NPs and (B) silica-coated CS-DS NPs
+PMC10064556,nanoportador,https://doi.org/10.1186/s40360-023-00662-1,FTIR,Fig. 8,nanoparticle,uncoated and silica-coated CS-DS NPs,FTIR of uncoated CS-DS NPs and silica-coated CS-DS NPs
+PMC7279150,nanoportador,https://doi.org/10.3390/nano10050898,Raman,Figure 3,nanoparticle,unloaded and FA-loaded NLCa and NLCb,Raman spectra of unloaded and FA-loaded NLCa and NLCb.
+PMC9965365,nanoportador,https://doi.org/10.3390/pharmaceutics15020608,EDS,Figure 7,component,SDSSD-DSPE conjugate,Elemental analysis by SEM/EDX.
+PMC11018589,nanomaterial,https://doi.org/10.1186/s11671-024-04008-6,UVVis,Fig. 1,nanoparticle,Cn-AgNPs,UV–Visible absorbance spectra of Cn-AgNPs optimised under the conditions
+PMC11018589,nanomaterial,https://doi.org/10.1186/s11671-024-04008-6,UVVis,Fig. 2,nanoparticle,Cn-AgNPs,UV/Vis spectral readings of Cn-AgNPs synthesized
+PMC11018589,nanomaterial,https://doi.org/10.1186/s11671-024-04008-6,UVVis,Fig. 3,nanoparticle,Cn-AgNPs,UV–Visible spectra showing the storage stability of synthesized Cn-AgNPs.
+PMC11018589,nanomaterial,https://doi.org/10.1186/s11671-024-04008-6,FTIR,Fig. 5,nanoparticle,Cn-AgNPs,FT-IR spectral details of silver nanoparticles bioinspired by aqueous extract of C. nucifera leaf sheath scale.
+PMC11018589,nanomaterial,https://doi.org/10.1186/s11671-024-04008-6,XRD,Fig. 5,nanoparticle,Cn-AgNPs,XRD pattern of Cn-AgNPs
+PMC10574865,nanoportador,https://doi.org/10.3390/polym15193875,FTIR,Figure 3,nanoparticle,empty and BR Ext-loaded NGs,"FTIR spectra of TPP, BR Ext, single CS, empty NGs, and BR Ext-loaded NGs."
+PMC10574865,nanoportador,https://doi.org/10.3390/polym15193875,UVVis,Figure 9,nanoparticle,BR Ext-loaded NG,"UV-visible spectra for: (a) free BR Ext, (a—inset) macroscopic aspect of BR Ext induced by pH variation, (b) BR Ext-loaded NG."
+PMC8706828,nanoportador,https://doi.org/10.3390/molecules26247491,FTIR,Figure 3,nanoparticle,GSH-NLCs and physical mixture,"FT-IR spectra of the pure drug (GSH), stearic acid (ST), oleic acid (OL), physical mixture (PhM), and glutathione nanostructure lipid carriers (GSH-NLCs)."
+PMC10992752,nanoportador,https://doi.org/10.1186/s40643-023-00709-5,FTIR,Fig. 5,nanoparticle,empty and peptide-loaded nanoliposomes,Effect of enzymolysis and loading peptides on chemical structures (FTIR) of protein and nanoliposomes
+PMC10876668,nanomaterial,https://doi.org/10.1038/s41598-024-54702-9,UVVis,Figure 2,nanoparticle,AgNPs,UV–Vis spectrum of the R. discolor extract and AgNPs.
+PMC10876668,nanomaterial,https://doi.org/10.1038/s41598-024-54702-9,EDS,Figure 4,nanoparticle,AgNPs,EDX spectrum (b) of biosynthesized AgNPs.
+PMC10876668,nanomaterial,https://doi.org/10.1038/s41598-024-54702-9,XRD,Figure 6,nanoparticle,AgNPs,XRD pattern of green synthesized AgNPs.
+PMC10876668,nanomaterial,https://doi.org/10.1038/s41598-024-54702-9,FTIR,Figure 7,nanoparticle,AgNPs,FTIR spectra of (a) AgNPs and (b) extract.
+PMC11314604,nanomaterial,https://doi.org/10.3390/plants13152042,EDS,Fig. 1,mixture,Fe2O3-NPs in alginate capsules,SEM-EDX analysis (Figure 1B) confirmed the incorporation of Fe2O3-NPs into the capsules
+PMC11314604,nanomaterial,https://doi.org/10.3390/plants13152042,EDS,Fig. 2,nanoparticle,Fe2O3-NPs,(d) elemental composition of the surface.
+PMC11678608,nanoportador,https://doi.org/10.3390/ijms252413701,UVVis,Fig. 2,nanoparticle,RB-AuSiO2_HSA,(c) Extinction spectrum of RB-AuSiO2_HSA in water.
+PMC10298864,nanomaterial,https://doi.org/10.3390/ijms241210226,FTIR,Fig. 4,mixture,SOPC MLVs with AuNPs,"FTIR spectra of pure SOPC MLVs (control) and SOPC MLVs with 0.5, 1, and 2 wt.% AuNPs."
+PMC12899753,nanomaterial,https://doi.org/10.3390/nano16030177,FTIR,Fig. 1,nanoparticle,Chlorella-AgNPs,ATR spectra of Chlorella vulgaris (blue) and Chlorella-AgNPs (orange).
+PMC12899753,nanomaterial,https://doi.org/10.3390/nano16030177,XRD,Fig. 3,nanoparticle,Chlorella-AgNPs,XRD analysis of the Chlorella-AgNPs.
+PMC13128909,nanomaterial,https://doi.org/10.1038/s41598-026-43957-z,UVVis,text,nanoparticle,AgNPs,Nanoparticles’ presence was confirmed in every sample by UV-visible absorption spectrum with maximum peak absorption between 420 and 450 nm
+PMC13128909,nanomaterial,https://doi.org/10.1038/s41598-026-43957-z,XRD,Fig. 2,nanoparticle,S3,Characterization of synthesized AgNPs in XRD analysis (A) S3
+PMC13128909,nanomaterial,https://doi.org/10.1038/s41598-026-43957-z,FTIR,Fig. 3,nanoparticle,S3,"Characterization of components on the surface of S3 AgNP, broth (NB), ML and RE."
+PMC12944578,nanomaterial,https://doi.org/10.3390/pharmaceutics18020261,UVVis,Fig. 2,nanoparticle,AgNPs,"(D) UV-Vis spectroscopic analysis of the biosynthesized AgNPs, displaying a SPR peak at 405 nm"
+PMC12944578,nanomaterial,https://doi.org/10.3390/pharmaceutics18020261,XRD,Fig. 3,nanoparticle,AgNPs,(C) AgNPs pattern under PXRD analysis.
+PMC13610659,nanomaterial,https://doi.org/10.3390/ph19091381,EDS,Fig. 3,nanoparticle,MCS 1,(B) combined EDX elemental map of MCS 1
+PMC13245114,nanomaterial,https://doi.org/10.1039/d6lf00152a,FTIR,Fig. 2,nanoparticle,SiO2 and SiO2-APTES NPs,Three main spectral regions in the FT-IR of SiO2 and SiO2-APTES NPs
+PMC13029765,nanomaterial,https://doi.org/10.3390/pharmaceutics18030314,UVVis,Fig. 1,nanoparticle,citrate-capped AgNPs,UV–visible absorption spectra showing normalised LSPR peaks corresponding to increasing nanoparticle size
+PMC13029769,nanomaterial,https://doi.org/10.3390/nano16060379,UVVis,Fig. 2,nanoparticle,rutin-reduced gold nanoparticles,UV–Vis spectrum of the rutin-phytoreduced nanoparticles.
+PMC13029769,nanomaterial,https://doi.org/10.3390/nano16060379,FTIR,Fig. 4,nanoparticle,rutin-reduced gold nanoparticles,FTIR spectra of rutin and rutin-reduced gold nanoparticles.
+PMC13028938,nanomaterial,https://doi.org/10.3390/pharmaceutics18030338,UVVis,Fig. 1,nanoparticle,AgNPs,UV-Vis’s spectrum of AgNPs and AgNPs-Alb indicating maximum peak at 414.5 nm.
+PMC12842212,nanomaterial,https://doi.org/10.3390/ijms27020952,UVVis,Fig. 3,nanoparticle,RW-AgNPs,(B) UV–Vis spectra of RW-AgNPs.
+PMC12842212,nanomaterial,https://doi.org/10.3390/ijms27020952,EDS,Fig. 4,mixture,RWALC,(G) EDX spectrum and (H) elemental composition of the RWALC.
+PMC13319874,nanoportador,https://doi.org/10.1007/s10266-025-01198-y,FTIR,Fig. 4,nanoparticle,CO@SNPs,"FTIR spectra of SNPs, CO, and CO@SNPs"
+PMC13036088,nanomaterial,https://doi.org/10.1038/s41598-026-43691-6,UVVis,Fig. 3,nanoparticle,KS-AgNPs,UV–vis spectra showing SPR bands of Ag nanoparticles formed at different concentrations of KS extract.
+PMC13036088,nanomaterial,https://doi.org/10.1038/s41598-026-43691-6,FTIR,Fig. 4,nanoparticle,KS-AgNPs,FTIR spectra of KS extract compared with that of green synthesized KS-AgNPs.
+PMC13396241,nanomaterial,https://doi.org/10.1038/s41598-026-56915-6,FTIR,Fig. 4,nanoparticle,BA-AgNPs,FTIR transmittance spectra of the BA-AgNPs.
+PMC13463746,nanomaterial,https://doi.org/10.1155/ijm/8867795,UVVis,Fig. 1,nanoparticle,BAgNPs,"(B) UV‐Vis spectra of biosynthesized BAgNP1, BAgNP3, and BAgNP5 after centrifugation steps aimed at removing interfering substances."
+PMC13463746,nanomaterial,https://doi.org/10.1155/ijm/8867795,FTIR,Fig. 3,nanoparticle,BAgNPs,"FTIR spectra of BAgNP1, BAgNP3, BAgNP5 and of the B. stercoris 2AT10 extract."
+PMC13515740,nanomaterial,https://doi.org/10.3390/nano16161011,FTIR,Fig. 3,component,fenugreek seed extracts,"ATR-FT-IR spectra of fenugreek seeds (EG-1), IN-1, BG-1 and EG-2."
+PMC13515740,nanomaterial,https://doi.org/10.3390/nano16161011,FTIR,Fig. 4,nanoparticle,AgNPs from aqueous extracts,AgNPs obtained from EG-1_fenugreek seeds aqueous extract (orange) (A2)
+PMC13515740,nanomaterial,https://doi.org/10.3390/nano16161011,FTIR,Fig. 5,nanoparticle,AgNPs from ethanolic extracts,AgNPs obtained from EG-1_fenugreek seeds ethanolic extract (orange) (A2)
+PMC13538093,nanomaterial,https://doi.org/10.3389/fchem.2026.1894101,UVVis,Fig. 1,nanoparticle,AgNPs,"peaks formed between 340 nm and 530 nm for the leaf, stem and tuber extracts."
+PMC13538093,nanomaterial,https://doi.org/10.3389/fchem.2026.1894101,EDS,Fig. 4,nanoparticle,AgNPs,Elemental composition of silver nanoparticles synthesized by K. nana extracts.
+PMC13538093,nanomaterial,https://doi.org/10.3389/fchem.2026.1894101,FTIR,Fig. 6,nanoparticle,AgNPs,"Fourier transform infrared spectroscopy of silver nanoparticles synthesized from Kedrostis nana leaf (A), stem (B) and tuber (C) extract."
+PMC13408812,nanoportador,https://doi.org/10.1038/s41598-026-61018-3,UVVis,Fig. 1,nanoparticle,Dox@AuNPs NC,"(a) UV/VIS spectra of AuNPs, Dox, Dox@AuNPs NC;"
+PMC13408812,nanoportador,https://doi.org/10.1038/s41598-026-61018-3,FTIR,Fig. 1,nanoparticle,Dox@AuNPs NC,(b) FTIR spectra;
+PMC13416288,nanoportador,https://doi.org/10.3390/molecules31142413,FTIR,Fig. 2,nanoparticle,PDA_Cyst 3:1 and PDA_Cyst 1:3 nanoparticles,FT-IR spectrum PDA_Cyst 3:1 (A); PDA_Cyst 1:3 (B); MSN@DOX (C); MSN@SO (D);
+PMC12944072,nanoportador,https://doi.org/10.3390/pharmaceutics18020171,FTIR,Fig. 1,nanoparticle,"MSN, MSN-NH2, HA-MSN","Fourier transform infrared (FTIR) spectra for MSN (black), MSN-NH2 (red) and HA-MSN (blue)."
+PMC10454236,nanomaterial,https://doi.org/10.3390/gels9080672,FTIR,Fig. 3,mixture,"PCL/CS, PCL/CS-BRO, PCL/CS-Ag NPs, PCL/CS-BRO-Ag NPs scaffolds","FTIR spectra of the gel-based PCL/CS, PCL/CS-BRO, PCL/CS-Ag NPs, and PCL/CS-BRO-Ag NPs scaffolds."
+PMC10056419,nanomaterial,https://doi.org/10.3390/pharmaceutics15030962,UVVis,Fig. 2,nanoparticle,AgNPs samples #1–3,UV-visible spectra of AgNPs samples #1–3 with concentrations of: sample #1—0.008 mg/mL

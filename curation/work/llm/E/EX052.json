@@ -1,0 +1,96 @@
+{"batch":"EX052","articles":[
+{"pmcid":"PMC11314604","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"Fe2O3-NPs capsules","shows_nanocarrier":false,"scale_bar_in_caption":true,"quote":"Scanning electron microscopy coupled with X-ray elemental microanalysis (SEM/EDX)."},
+  {"fig":"Fig. 2","variant":"STEM","sample":"Fe2O3-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"representative photograph captured by scanning transmission electron microscopy (STEM)"}],
+ "descriptors":[
+  {"sample":"Fe2O3-NPs","size_nm":304.1,"pdi":0.27,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"The mean hydrodynamic particle size of the Fe2O3-NPs was 304.1 nm, with a polydispersity index of 0.27"}],
+ "spectra":[
+  {"technique":"EDS","fig":"Fig. 1","applies_to":"mixture","sample":"Fe2O3-NPs in alginate capsules","quote":"SEM-EDX analysis (Figure 1B) confirmed the incorporation of Fe2O3-NPs into the capsules"},
+  {"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fe2O3-NPs","quote":"(d) elemental composition of the surface."}]
+},
+{"pmcid":"PMC11678608","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"RB-AuSiO2_HSA","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(a) Representative TEM image of RB-AuSiO2_HSA, scale bar = 20 nm."}],
+ "descriptors":[
+  {"sample":"RB-AuSiO2_HSA","size_nm":130.57,"pdi":0.241,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"with values of 130.57 ± 7.05 nm (PDI = 0.241) and 93.07 ± 2.36 nm (PDI = 0.153), respectively."},
+  {"sample":"RB-AuSiO2_COOH","size_nm":93.07,"pdi":0.153,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"with values of 130.57 ± 7.05 nm (PDI = 0.241) and 93.07 ± 2.36 nm (PDI = 0.153), respectively."}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"RB-AuSiO2_HSA","quote":"(c) Extinction spectrum of RB-AuSiO2_HSA in water."}]
+},
+{"pmcid":"PMC10298864","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"hydrophobic AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(A) TEM image of dodecanethiol-stabilized hydrophobic AuNPs. The scale bar corresponds to 2 nm."}],
+ "descriptors":[
+  {"sample":"hydrophobic AuNPs","size_nm":3.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"The DLS data showed a slight increase in the size of AuNPs (3.5 ± 1.6 nm) when compared to the TEM size."}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"mixture","sample":"SOPC MLVs with AuNPs","quote":"FTIR spectra of pure SOPC MLVs (control) and SOPC MLVs with 0.5, 1, and 2 wt.% AuNPs."}]
+},
+{"pmcid":"PMC12899753","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"Chlorella-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Bright-field TEM (BF-TEM) micrograph, as well as the corresponding SAED pattern and HRTEM image of Chlorella-AgNPs."}],
+ "descriptors":[
+  {"sample":"Chlorella-AgNPs","size_nm":null,"pdi":0.206,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Dynamic light scattering analysis revealed a monomodal size distribution with an average diameter between 60 and 80 nm and a PDI value of 0.206"},
+  {"sample":"Chlorella-AgNPs","size_nm":null,"pdi":null,"zeta_mV":-24.9,"medium":"not_declared","source":"text","quote":"Chlorella-AgNPs had a zeta potential of −24.9 mV."}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Chlorella-AgNPs","quote":"ATR spectra of Chlorella vulgaris (blue) and Chlorella-AgNPs (orange)."},
+  {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Chlorella-AgNPs","quote":"XRD analysis of the Chlorella-AgNPs."}]
+},
+{"pmcid":"PMC13128909","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"S3","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Bar: 100 nm, except for S3R3, that was 200 nm TEM."}],
+ "descriptors":[
+  {"sample":"S3","size_nm":null,"pdi":null,"zeta_mV":-26.22,"medium":"not_declared","source":"text","quote":"Zeta potential measurements revealed negative surface charges for S3 and S3R01 nanoparticles, -26,22mV and-18,23mV respectively."},
+  {"sample":"S3R01","size_nm":null,"pdi":null,"zeta_mV":-18.23,"medium":"not_declared","source":"text","quote":"Zeta potential measurements revealed negative surface charges for S3 and S3R01 nanoparticles, -26,22mV and-18,23mV respectively."}],
+ "spectra":[
+  {"technique":"UVVis","fig":"text","applies_to":"nanoparticle","sample":"AgNPs","quote":"Nanoparticles’ presence was confirmed in every sample by UV-visible absorption spectrum with maximum peak absorption between 420 and 450 nm"},
+  {"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"S3","quote":"Characterization of synthesized AgNPs in XRD analysis (A) S3"},
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"S3","quote":"Characterization of components on the surface of S3 AgNP, broth (NB), ML and RE."}]
+},
+{"pmcid":"PMC12944578","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) AgNPs morphology under SEM analysis."}],
+ "descriptors":[
+  {"sample":"AgNPs","size_nm":69.46,"pdi":0.182,"zeta_mV":null,"medium":"water","source":"text","quote":"with an average hydrodynamic diameter of 69.46 ± 3.7 nm and a PDI of 0.182 ± 0.031."},
+  {"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-30,"medium":"water","source":"text","quote":"Furthermore, a zeta potential of −30 ± 5 mV was also determined for the obtained AgNPs."}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"(D) UV-Vis spectroscopic analysis of the biosynthesized AgNPs, displaying a SPR peak at 405 nm"},
+  {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"(C) AgNPs pattern under PXRD analysis."}]
+},
+{"pmcid":"PMC13610659","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"STEM","sample":"MCS 1 and MCS 2","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Scale bars: 100 nm for BF-STEM images and 50 nm for the combined EDX elemental map."}],
+ "descriptors":[
+  {"sample":"MCS 1","size_nm":103.9,"pdi":0.204,"zeta_mV":null,"medium":"not_declared","source":"Figure 2","quote":"MCS 1 exhibited a Z-average hydrodynamic diameter of 103.9 nm and a polydispersity index (PDI) of 0.204"},
+  {"sample":"MCS 2","size_nm":79.65,"pdi":0.210,"zeta_mV":null,"medium":"not_declared","source":"Figure 2","quote":"MCS 2 showed a smaller Z-average diameter of 79.65 nm and a comparable PDI of 0.210"}],
+ "spectra":[
+  {"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MCS 1","quote":"(B) combined EDX elemental map of MCS 1"}]
+},
+{"pmcid":"PMC13245114","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"SEM","sample":"SiO2 NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image (a) and size distribution from DLS (b) of SiO2 NPs."},
+  {"fig":"Fig. 1","variant":"SEM","sample":"SiO2-APTES NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image (c) and size distribution from DLS (d) of SiO2-APTES NPs."}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SiO2 and SiO2-APTES NPs","quote":"Three main spectral regions in the FT-IR of SiO2 and SiO2-APTES NPs"}]
+},
+{"pmcid":"PMC13029765","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"citrate-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative TEM images of three synthesised citrate-capped AgNPs (A1–A3)."}],
+ "descriptors":[
+  {"sample":"AgNPs (~20.1 nm, LSPR 401 nm)","size_nm":20.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"average hydrodynamic diameters of 20.4 nm (LSPR 401 nm), 53.7 nm (LSPR 428 nm), and 79.0 nm (LSPR 450 nm)"},
+  {"sample":"AgNPs (~54.7 nm, LSPR 428 nm)","size_nm":53.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"average hydrodynamic diameters of 20.4 nm (LSPR 401 nm), 53.7 nm (LSPR 428 nm), and 79.0 nm (LSPR 450 nm)"},
+  {"sample":"AgNPs (~64.4 nm, LSPR 450 nm)","size_nm":79.0,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"average hydrodynamic diameters of 20.4 nm (LSPR 401 nm), 53.7 nm (LSPR 428 nm), and 79.0 nm (LSPR 450 nm)"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"citrate-capped AgNPs","quote":"UV–visible absorption spectra showing normalised LSPR peaks corresponding to increasing nanoparticle size"}]
+},
+{"pmcid":"PMC13029769","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_dried_unstained","sample":"rutin-reduced gold nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy of the rutin-reduced gold nanoparticles."}],
+ "descriptors":[
+  {"sample":"rutin-reduced gold nanoparticles","size_nm":104.1,"pdi":0.345,"zeta_mV":null,"medium":"not_declared","source":"Fig. 5","quote":"These exhibited an average hydrodynamic diameter of 104.1 nm with a polidispersity index (PDI) of 0.345"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"rutin-reduced gold nanoparticles","quote":"UV–Vis spectrum of the rutin-phytoreduced nanoparticles."},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"rutin-reduced gold nanoparticles","quote":"FTIR spectra of rutin and rutin-reduced gold nanoparticles."}]
+}
+]}

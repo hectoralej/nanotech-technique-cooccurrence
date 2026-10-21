@@ -265,6 +265,16 @@ def _f(x):
         return None
 
 
+def _qfound(q: str, pm: str):
+    """Cita verificable. Para citas de 3 palabras o mas: coincidencia aproximada (>= 90). Para etiquetas cortas de subfigura («XRD (B)», «EDX spectrum»):
+    solo si aparecen tal cual en el articulo (subcadena exacta tras normalizar), asi una etiqueta corta no pasa por azar de la busqueda aproximada."""
+    q = (q or "").strip()
+    if len(q.split()) >= 3:
+        return textprep.quote_found(q, pm)
+    nq = textprep.norm(q)
+    return (bool(nq) and len(nq) >= 3 and nq in textprep._norm_full(pm)), 100 if nq else 0
+
+
 def apply() -> None:
     """Lee work/llm/E/*.json, verifica cada cita contra el texto del articulo (rapidfuzz >= 90) y escribe las tablas ext_*.csv.
     Una fila cuya cita no aparece en el articulo se descarta. La categoria (E1/E2) la calcula este codigo, no el extractor."""
@@ -294,7 +304,7 @@ def apply() -> None:
             link = ("https://doi.org/" + doi) if isinstance(doi, str) and doi else f"https://pmc.ncbi.nlm.nih.gov/articles/{pm}/"
             P, D, S = [], [], []
             for x in rec.get("panels") or []:
-                ok, _ = textprep.quote_found(x.get("quote") or "", pm)
+                ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1
                     continue
@@ -302,7 +312,7 @@ def apply() -> None:
                     P.append(dict(pmcid=pm, doi_link=link, fig=x.get("fig"), variant=x.get("variant"), sample=x.get("sample"), scale_bar_in_caption=(True if x.get("scale_bar_in_caption") is True else None),
                                   image_file=gfx.get(_fignum(x.get("fig") or "")), quote=(x.get("quote") or "")[:200]))
             for x in rec.get("descriptors") or []:
-                ok, _ = textprep.quote_found(x.get("quote") or "", pm)
+                ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1
                     continue
@@ -316,7 +326,7 @@ def apply() -> None:
                 if any(v is not None for v in vals.values()):
                     D.append(dict(pmcid=pm, doi_link=link, sample=x.get("sample"), **vals, medium=x.get("medium"), source=x.get("source"), quote=(x.get("quote") or "")[:200]))
             for x in rec.get("spectra") or []:
-                ok, _ = textprep.quote_found(x.get("quote") or "", pm)
+                ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
                     bad += 1
                     continue

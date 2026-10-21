@@ -1,0 +1,621 @@
+{
+  "batch": "EX017",
+  "articles": [
+    {
+      "pmcid": "PMC10458383",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_negstain",
+          "sample": "optimized trehalosome formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM micrograph of the optimized trehalosome formulation"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "optimum formula",
+          "quote": "(c) FTIR spectrum of the optimum formula and each component"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10894868",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized GNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM photos of GNPs biosynthesized by S. albogriseolus"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "biosynthesized GNPs",
+          "size_nm": 14.15,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Figure 3; TEM particle-count histogram, not DLS",
+          "quote": "The histogram in Fig. 3A displays the distribution of particle sizes, which was determined by analyzing 133 particles with mean size of 14.15 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized GNPs",
+          "quote": "Figure 3B showed the EDX analysis of the biosynthesized GNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized GNPs",
+          "quote": "Analyses of the biosynthesized GNPs with FTIR (A)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized GNPs",
+          "quote": "and XRD (C)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10064556",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "uncoated and silica-coated CS-DS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images for (A) uncoated CS-DS NPs and (B) silica-coated CS-DS NPs"
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "uncoated and silica-coated CS-DS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images for (A) uncoated CS-DS NPs and (B) silica-coated CS-DS NPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "uncoated CS-DS NPs",
+          "size_nm": 190,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; hydrodynamic size; Fig. 4",
+          "quote": "silica-coated CS-DS NPs was about 210 ± 21 nm, which is larger than that of uncoated CS-DS NPs (190 ± 19 nm)"
+        },
+        {
+          "sample": "silica-coated CS-DS NPs",
+          "size_nm": 210,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; hydrodynamic size; Fig. 4",
+          "quote": "silica-coated CS-DS NPs was about 210 ± 21 nm, which is larger than that of uncoated CS-DS NPs (190 ± 19 nm)"
+        },
+        {
+          "sample": "uncoated CS-DS NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 48.75,
+          "medium": "not_declared",
+          "source": "Fig. 5",
+          "quote": "average zeta potential value of uncoated CS-DS NPs was 48.75 ± 4.88 mV, whereas that of silica-coated CS-DS NPs was -32 ± 3.2 mV"
+        },
+        {
+          "sample": "silica-coated CS-DS NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -32,
+          "medium": "not_declared",
+          "source": "Fig. 5",
+          "quote": "average zeta potential value of uncoated CS-DS NPs was 48.75 ± 4.88 mV, whereas that of silica-coated CS-DS NPs was -32 ± 3.2 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "uncoated and silica-coated CS-DS NPs",
+          "quote": "EDX spectra for (A) uncoated CS-DS NPs and (B) silica-coated CS-DS NPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 8",
+          "applies_to": "nanoparticle",
+          "sample": "uncoated and silica-coated CS-DS NPs",
+          "quote": "FTIR of uncoated CS-DS NPs and silica-coated CS-DS NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7279150",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "cryoTEM",
+          "sample": "NLCa and NLCb",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images of NLCa (a) and NLCb (b)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLCa",
+          "size_nm": 122.51,
+          "pdi": 0.101,
+          "zeta_mV": -4.85,
+          "medium": "water",
+          "source": "Table 1; PCS/Zetasizer",
+          "quote": "NLCa | 122.51 ± 5.98 * | 0.101 ± 0.007 | −4.85 ± 0.15"
+        },
+        {
+          "sample": "NLCb",
+          "size_nm": 99.88,
+          "pdi": 0.089,
+          "zeta_mV": -5.02,
+          "medium": "water",
+          "source": "Table 1; PCS/Zetasizer",
+          "quote": "NLCb | 99.88 ± 1.33 * | 0.089 ± 0.015 | −5.02 ± 0.02"
+        },
+        {
+          "sample": "FA-NLCa",
+          "size_nm": 87.77,
+          "pdi": 0.167,
+          "zeta_mV": -2.53,
+          "medium": "water",
+          "source": "Table 1; PCS/Zetasizer",
+          "quote": "FA-NLCa | 87.77 ± 6.30 ** | 0.167 ± 0.061 | −2.53 ± 0.03 *"
+        },
+        {
+          "sample": "FA-NLCb",
+          "size_nm": 62.86,
+          "pdi": 0.056,
+          "zeta_mV": -2.09,
+          "medium": "water",
+          "source": "Table 1; PCS/Zetasizer",
+          "quote": "FA-NLCb | 62.86 ± 0.75 ** | 0.056 ± 0.012 | −2.09 ± 0.05 *"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "unloaded and FA-loaded NLCa and NLCb",
+          "quote": "Raman spectra of unloaded and FA-loaded NLCa and NLCb."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9965365",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "SDSSD-DSPE conjugate",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "Elemental analysis by SEM/EDX. (A) DSPE-PEG2000-COOH, (B) SDSSD-DSPE. Scale bar: 100 μm."
+        },
+        {
+          "fig": "Figure 12",
+          "variant": "SEM",
+          "sample": "SDSSD-LPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Morphological assessment of SDSSD-LPs by cryo-SEM. Scale bar: 500 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SDSSD-LPs",
+          "size_nm": 185.17,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "optimized formulation particle size; measurement method not specified in evidence sentence",
+          "quote": "The particle size of optimized SDSSD-LPs was observed to be 185.17 ± 1.4 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "component",
+          "sample": "SDSSD-DSPE conjugate",
+          "quote": "Elemental analysis by SEM/EDX."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11018589",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "Cn-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning Electron Micrographs of Cn-AgNPs at different magnifications"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Cn-AgNPs",
+          "size_nm": 58.88,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 1C; DLS",
+          "quote": "The DLS graph of Cn-AgNPs shows that the average hydrodynamic diameter of the population of nanoparticles is 58.88 ± 5.7 nm (Fig. 1C)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "Cn-AgNPs",
+          "quote": "UV–Visible absorbance spectra of Cn-AgNPs optimised under the conditions"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "Cn-AgNPs",
+          "quote": "UV/Vis spectral readings of Cn-AgNPs synthesized"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "Cn-AgNPs",
+          "quote": "UV–Visible spectra showing the storage stability of synthesized Cn-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "Cn-AgNPs",
+          "quote": "FT-IR spectral details of silver nanoparticles bioinspired by aqueous extract of C. nucifera leaf sheath scale."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "Cn-AgNPs",
+          "quote": "XRD pattern of Cn-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10574865",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "empty NGs and BR Ext-loaded NGs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images with the representative frequency histograms and respective surface plots denoting the intensity of the NG in each case"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "BR Ext-loaded NGs (CS:TPP 3:1)",
+          "size_nm": 166,
+          "pdi": 0.3,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1; z-Av and PdI",
+          "quote": "3:1 | 45 ± 3 b | 166 ± 6 b | 0.30 ± 0.03 a"
+        },
+        {
+          "sample": "BR Ext-loaded NGs (CS:TPP 3:1)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 28,
+          "medium": "not_declared",
+          "source": "Table 2; ζ-Pot",
+          "quote": "BR Ext-loaded NGs | +28 ± 1 c"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "empty and BR Ext-loaded NGs",
+          "quote": "FTIR spectra of TPP, BR Ext, single CS, empty NGs, and BR Ext-loaded NGs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "BR Ext-loaded NG",
+          "quote": "UV-visible spectra for: (a) free BR Ext, (a—inset) macroscopic aspect of BR Ext induced by pH variation, (b) BR Ext-loaded NG."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8706828",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "GSH-NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrograph of the GSH-NLCs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GSH-NLCs",
+          "size_nm": 452.4,
+          "pdi": 0.5,
+          "zeta_mV": -38.5,
+          "medium": "not_declared",
+          "source": "DLS/Zetasizer; text",
+          "quote": "average particle size, PDI, and zeta potential were 452.4 ± 33.19 nm, 0.500 ± 0.12, and−38.5 ± 1.4, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "GSH-NLCs and physical mixture",
+          "quote": "FT-IR spectra of the pure drug (GSH), stearic acid (ST), oleic acid (OL), physical mixture (PhM), and glutathione nanostructure lipid carriers (GSH-NLCs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10992752",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "SEM",
+          "sample": "nanoliposomes loaded with Alc-200",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological characteristics (SEM-images) and DLS-images of nanoliposomes loaded with Alc-200 after production a–c and storage for 28 days (d-f)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank",
+          "size_nm": 82.9,
+          "pdi": 0.23,
+          "zeta_mV": -20.1,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Blank | 82.9 ± 1.9f | 0.23 ± 0.01 g | − 20.1 ± 1.1 g"
+        },
+        {
+          "sample": "Alc-50",
+          "size_nm": 96.3,
+          "pdi": 0.38,
+          "zeta_mV": -18.5,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Alc-50 | 96.3 ± 2.3e | 0.38 ± 0.01a | − 18.5 ± 0.8f"
+        },
+        {
+          "sample": "Alc-100",
+          "size_nm": 103.1,
+          "pdi": 0.29,
+          "zeta_mV": -17.6,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Alc-100 | 103.1 ± 1.1d | 0.29 ± 0.01ef | − 17.6 ± 0.6ef"
+        },
+        {
+          "sample": "Alc-200",
+          "size_nm": 107.8,
+          "pdi": 0.32,
+          "zeta_mV": -15.8,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Alc-200 | 107.8 ± 1.7bc | 0.32 ± 0.01c | − 15.8 ± 0.6 cd"
+        },
+        {
+          "sample": "Alc-300",
+          "size_nm": 104.3,
+          "pdi": 0.33,
+          "zeta_mV": -15.9,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Alc-300 | 104.3 ± 1.3 cd | 0.33 ± 0.01c | − 15.9 ± 0.5 cd"
+        },
+        {
+          "sample": "Pep-50",
+          "size_nm": 95.1,
+          "pdi": 0.31,
+          "zeta_mV": -17.1,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Pep-50 | 95.1 ± 1.2e | 0.31 ± 0.01de | − 17.1 ± 0.8de"
+        },
+        {
+          "sample": "Pep-100",
+          "size_nm": 110.2,
+          "pdi": 0.28,
+          "zeta_mV": -15.2,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Pep-100 | 110.2 ± 4.3abc | 0.28 ± 0.01f | − 15.2 ± 0.7bc"
+        },
+        {
+          "sample": "Pep-200",
+          "size_nm": 116.1,
+          "pdi": 0.32,
+          "zeta_mV": -13.4,
+          "medium": "water",
+          "source": "Table 2; DLS in distilled water",
+          "quote": "Pep-200 | 116.1 ± 7.2a | 0.32 ± 0.01 cd | − 13.4 ± 0.5a"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "empty and peptide-loaded nanoliposomes",
+          "quote": "Effect of enzymolysis and loading peptides on chemical structures (FTIR) of protein and nanoliposomes"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10876668",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "green-synthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AgNPs at optimized condition."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "green-synthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image (a) and EDX spectrum (b) of biosynthesized AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 151.7,
+          "pdi": 0.25,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Fig. 5; DLS hydrodynamic size",
+          "quote": "The results of this study indicated that the particle size and poly-dispersity index (PDI) values of AgNPs were 151.7 nm and 0.25, respectively (Fig. 5)."
+        },
+        {
+          "sample": "AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -44.2,
+          "medium": "not_declared",
+          "source": "zeta potential analyzer; text",
+          "quote": "The value of AgNPs zeta potential was − 44.2 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV–Vis spectrum of the R. discolor extract and AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "EDX spectrum (b) of biosynthesized AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "XRD pattern of green synthesized AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "FTIR spectra of (a) AgNPs and (b) extract."
+        }
+      ]
+    }
+  ]
+}
