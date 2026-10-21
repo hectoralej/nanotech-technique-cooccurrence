@@ -34,7 +34,7 @@ Micrografía del repositorio: TEM 51, SEM 24, cryo 10 artículos (proporción SE
 
 - Combinaciones de técnicas útiles (repositorio): `TEM+DLS+zeta` ×35; `SEM+DLS+zeta` ×13; `cryo+DLS+zeta` ×8; `TEM+DLS+zeta+FTIR` ×5; `TEM+DLS+zeta+FTIR+XRD` ×3; `TEM+DLS+zeta+DSC` ×3.
 - Cobertura de lotes (formulaciones con DLS o zeta medidos por artículo): 1: 9, 2: 17, 3: 7, 4: 17, 5: 4, 6: 7, 8: 7, 9: 2, 10: 3, 11: 3, 12: 9 (clave: nº de formulaciones: artículos).
-- Licencia (verificada contra Europe PMC, XML del artículo y página del editor cuando fue accesible): verde 66, amarillo 17, conflicto 2. Solo `verde` permite redistribuir figuras.
+- Licencia (verificada contra Europe PMC, XML del artículo y página del editor cuando fue accesible): verde 66, amarillo 19. Solo `verde` permite redistribuir figuras.
 - DOI que no resuelven: 0.
 
 ## 4. Pistas secundarias y expansión

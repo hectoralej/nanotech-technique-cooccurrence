@@ -102,6 +102,8 @@ def license_check(df: pd.DataFrame) -> pd.DataFrame:
         avail = [x for x in (col_epmc, col_xml, col_pub) if x]
         if not avail:
             final, why = "rojo", "sin licencia verificable"
+        elif len(set(avail)) > 1 and col_pub:
+            final, why = col_pub, f"la pagina del editor fija la licencia (fuente de mayor autoridad); discrepaban: epmc={col_epmc}, xml={col_xml}, editor={col_pub}"
         elif len(set(avail)) > 1:
             final, why = "conflicto", f"fuentes discrepan: epmc={col_epmc}, xml={col_xml}, editor={col_pub}"
         else:
@@ -352,7 +354,8 @@ def main() -> None:
         return "+".join(([r.micro_kind] if r.micro_kind else []) + ["DLS", "zeta"] + comp)
     A["techniques"] = A.apply(_techs, axis=1)
     repo = A[A.status == "repositorio"].copy()
-    cols = ["pmcid", "doi", "title", "journal", "year", "family", "carrier_type", "tier", "score", "s_micro", "s_dls", "s_zeta", "s_link", "s_batches", "s_complementary", "n_formulations",
+    repo["doi_link"] = [("https://doi.org/" + d) if isinstance(d, str) and d else ("https://pmc.ncbi.nlm.nih.gov/articles/" + p + "/") for d, p in zip(repo.doi, repo.pmcid)]   # sin DOI: enlace de PMC
+    cols = ["pmcid", "doi", "doi_link", "title", "journal", "year", "family", "carrier_type", "tier", "score", "s_micro", "s_dls", "s_zeta", "s_link", "s_batches", "s_complementary", "n_formulations",
             "micro_kind", "micro_variants", "complementary", "techniques", "license_epmc", "license_color", "license_note", "lab_cluster_id", "lab_cluster_size", "lineage_group",
             "duplicate_of", "hasSuppl", "has_SI_dependence"]
     save_csv(repo.sort_values(["tier", "family", "score"], ascending=[True, True, False])[cols], "articles_curated.csv")
