@@ -1,0 +1,52 @@
+{
+ "batch": "AC016",
+ "articles": [
+  {
+   "pmcid": "PMC9727730",
+   "decisions": [
+    {
+     "issue": "PMC9727730:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "(E) TEM image of Cbs-Cu-HA.",
+     "location": "Fig. 1 caption",
+     "reason": "Fig. 1E is a TEM panel of the drug-loaded HA cubosome itself, explicitly linked to the formulation."
+    },
+    {
+     "issue": "PMC9727730:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Aliquots of 100 μL of Cbs, Cbs-Cu, and Cbs-Cu-HA samples were added into 900 μL of PBS, and measurements were recorded.",
+     "location": "Methods > Particle Size and Zeta Potential Measurements by DLS",
+     "reason": "Methods state PBS as dispersant for DLS; Z-average sizes 106/125/152 nm reported for identified samples."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7279150",
+   "decisions": [
+    {
+     "issue": "PMC7279150:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Transmission electron microscopy (TEM) images of NLCa (a) and NLCb (b).",
+     "location": "Fig. 2 caption",
+     "reason": "Fig. 2 panels show cryo-TEM images of the NLC nanocarriers themselves, formulation explicitly identified."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8066468",
+   "decisions": [
+    {
+     "issue": "PMC8066468:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Structural characterization of prepared samples by transmission electron microscopy (TEM) is presented in Figure 1",
+     "location": "Results 3.1; Fig. 1 caption",
+     "reason": "Fig. 1 shows TEM panels of samples 1-4 (MCM-41 carriers, blank and loaded), explicitly linked to formulations."
+    }
+  ]
+  }
+ ]
+}

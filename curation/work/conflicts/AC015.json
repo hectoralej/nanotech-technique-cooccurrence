@@ -1,0 +1,459 @@
+{
+ "batch": "AC015",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\AC015.json",
+ "articles": [
+  {
+   "pmcid": "PMC8617923",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC8617923.txt",
+   "issues": [
+    {
+     "issue": "PMC8617923:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_negstain",
+       "sample": "PGZ-NP formulation 8",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "size_nm": null,
+        "morphology": "spherical, low dispersion"
+       },
+       "conditions": {
+        "prep_state": "negative stain 2% uranyl acetate, diluted 1:4 in water",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM-1010",
+        "n_images": null
+       },
+       "quote": "evidencing that PGZ-NPs were morphologically spherical and presented low dispersion",
+       "location": "Results > 3.1 (Fig. 2)"
+      },
+      {
+       "variant": "SEM",
+       "sample": "Spray-dried PGZ-NPs (condition not specified)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "paper_level",
+       "values": {
+        "size_nm": null,
+        "morphology": "aggregates polydisperse from nanometers to micrometers"
+       },
+       "conditions": {
+        "prep_state": "dried powder coated with carbon",
+        "scale_bar_present": null,
+        "instrument": "JEOL J-7100F",
+        "n_images": null
+       },
+       "quote": "SEM images of NP-based dried solids showed a high polydispersity of the aggregates present in the powder, from nanometers to micrometers in diameter",
+       "location": "Results > 3.1 (Fig. 3 caption: SEM after spray drying; text also cites Fig S1)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9047672",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9047672.txt",
+   "issues": [
+    {
+     "issue": "PMC9047672:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "cryoTEM",
+       "sample": "CUB",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "morphology": "quasi-spherical and squared-shaped; dense matrix with bright water-channel spots; small unilamellar vesicles also seen"
+       },
+       "conditions": {
+        "prep_state": "vitrified (ethane/propane), lacey carbon grid",
+        "scale_bar_present": true,
+        "instrument": "Tecnai F20 cryoTEM, 200 kV",
+        "n_images": null
+       },
+       "quote": "Cryo-TEM pictures of CUB formulation, shown in Figure 3a, are characterized by the simultaneous presence of quasi-spherical and squared-shaped nanoparticles",
+       "location": "Results > Physicochemical Issues (Fig. 3a)"
+      },
+      {
+       "variant": "cryoTEM",
+       "sample": "DHyCUB (200 uM DNR)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": null,
+        "morphology": "cubosomes with UCNPs embedded in lipid structure"
+       },
+       "conditions": {
+        "prep_state": "vitrified (ethane/propane), lacey carbon grid",
+        "scale_bar_present": true,
+        "instrument": "Tecnai F20 cryoTEM, 200 kV",
+        "n_images": null
+       },
+       "quote": "that is, all the UCNPs are embedded only within the cubosomes",
+       "location": "Results > Physicochemical Issues (Fig. 3b)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9047672:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "CUB",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 162,
+        "size_sd_nm": 7,
+        "pdi": 0.184,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "CUB | 162 ± 7 | 0.184 ± 0.010 | +13.5 ± 0.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "CUB*",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 154,
+        "size_sd_nm": 6,
+        "pdi": 0.163,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "CUB* | 154 ± 6 | 0.163 ± 0.010 | +40.4 ± 2.0",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "HyCUB",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 167,
+        "size_sd_nm": 8,
+        "pdi": 0.215,
+        "pdi_sd": 0.012
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "HyCUB | 167 ± 8 | 0.215 ± 0.012 | +14.6 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "HyCUB*",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 156,
+        "size_sd_nm": 6,
+        "pdi": 0.254,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "HyCUB* | 156 ± 6 | 0.254 ± 0.013 | +38.4 ± 2.0",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DHyCUB",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 169,
+        "size_sd_nm": 8,
+        "pdi": 0.253,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "DHyCUB | 169 ± 8 | 0.253 ± 0.013 | +14.4 ± 0.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DHyCUB*",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 163,
+        "size_sd_nm": 7,
+        "pdi": 0.25,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "instrument": "Malvern Nano Series Zetasizer",
+        "angle_deg": 173
+       },
+       "quote": "DHyCUB* | 163 ± 7 | 0.250 ± 0.013 | +38.7 ± 2.0",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "CUB",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 162,
+        "size_sd_nm": 7,
+        "pdi": 0.184,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "CUB | 162 ± 7 | 0.184 ± 0.010 | +13.5 ± 0.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "CUB*",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 154,
+        "size_sd_nm": 6,
+        "pdi": 0.163,
+        "pdi_sd": 0.01
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "CUB* | 154 ± 6 | 0.163 ± 0.010 | +40.4 ± 2.0",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "HyCUB",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 167,
+        "size_sd_nm": 8,
+        "pdi": 0.215,
+        "pdi_sd": 0.012
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "HyCUB | 167 ± 8 | 0.215 ± 0.012 | +14.6 ± 0.8",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "HyCUB*",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 156,
+        "size_sd_nm": 6,
+        "pdi": 0.254,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "HyCUB* | 156 ± 6 | 0.254 ± 0.013 | +38.4 ± 2.0",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DHyCUB (200 uM DNR)",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 169,
+        "size_sd_nm": 8,
+        "pdi": 0.253,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "DHyCUB | 169 ± 8 | 0.253 ± 0.013 | +14.4 ± 0.7",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "DHyCUB*",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 163,
+        "size_sd_nm": 7,
+        "pdi": 0.25,
+        "pdi_sd": 0.013
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "1:50 in double distilled water",
+        "instrument": "Malvern Zetasizer Nano Series"
+       },
+       "quote": "DHyCUB* | 163 ± 7 | 0.250 ± 0.013 | +38.7 ± 2.0",
+       "location": "Table 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC5874870",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC5874870.txt",
+   "issues": [
+    {
+     "issue": "PMC5874870:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "SEM",
+       "sample": "MCM-41",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 140,
+        "size_sd_nm": 20,
+        "morphology": "spherical, low heterogeneity"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "FE-SEM Sigma VD, ZEISS, 30 kV",
+        "n_images": 4
+       },
+       "quote": "presenting an average mean diameter of approximately 140 ± 20 nm",
+       "location": "Results > 3.1 SEM and TEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "MCM-41",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "well-defined hexagonal arrangement of uniform pores"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "Tecnai G2-20 SuperTwin, 200 kV",
+        "n_images": null
+       },
+       "quote": "The pore arrangement determined by TEM showed a well-defined hexagonal arrangement of uniform pores",
+       "location": "Results > 3.1 SEM and TEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "MCM-41/AP",
+       "identity": "process_intermediate",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "ordered structure preserved"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "Tecnai G2-20 SuperTwin, 200 kV",
+        "n_images": null
+       },
+       "quote": "Figure 1c,d show TEM images of MCM-41/AP and MCM-41/AP–FFA, respectively.",
+       "location": "Results > 3.1 SEM and TEM"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "MCM-41/AP-FFA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "ordered structure preserved"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "Tecnai G2-20 SuperTwin, 200 kV",
+        "n_images": null
+       },
+       "quote": "Figure 1c,d show TEM images of MCM-41/AP and MCM-41/AP–FFA, respectively.",
+       "location": "Results > 3.1 SEM and TEM"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

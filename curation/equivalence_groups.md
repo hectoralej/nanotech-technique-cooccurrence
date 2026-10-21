@@ -11,32 +11,32 @@ Regla: dos mediciones son del mismo grupo solo si coinciden en tecnica, variante
 - **EDS**: variante (SEM|TEM|independiente) + identidad
 - **otras**: tecnica + variante + identidad
 
-Grupos observados: 480. Los 25 mayores:
+Grupos observados: 563. Los 25 mayores:
 
 | Grupo | Mediciones | Articulos |
 |---|---|---|
-| `zeta|unspecified|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared` | 181 | 40 |
+| `zeta|unspecified|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared` | 239 | 52 |
 | `zeta|unspecified|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:not_declared` | 93 | 44 |
-| `UVVis|b_quantification|nanoparticle_loaded` | 55 | 38 |
-| `micrograph|TEM_negstain|nanoparticle_loaded|scale_nd|nosize` | 52 | 28 |
-| `DSC|DSC|nanoparticle_loaded` | 37 | 23 |
-| `micrograph|SEM|nanoparticle_loaded|scale_nd|nosize` | 34 | 23 |
+| `UVVis|b_quantification|nanoparticle_loaded` | 67 | 46 |
+| `micrograph|TEM_negstain|nanoparticle_loaded|scale_nd|nosize` | 57 | 32 |
+| `zeta|ELS|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared` | 52 | 11 |
+| `DSC|DSC|nanoparticle_loaded` | 46 | 29 |
+| `micrograph|SEM|nanoparticle_loaded|scale_nd|nosize` | 40 | 27 |
+| `DSC|DSC|pure_component` | 39 | 22 |
+| `zeta|unspecified|nanoparticle_empty|med:water|pH:nd|I:nd|model:not_declared` | 37 | 19 |
 | `UVVis|a_intrinsic|nanoparticle_empty` | 30 | 13 |
-| `DSC|DSC|pure_component` | 30 | 17 |
-| `zeta|unspecified|nanoparticle_empty|med:water|pH:nd|I:nd|model:not_declared` | 26 | 15 |
+| `XRD|powder|nanoparticle_loaded|rad:nd` | 26 | 21 |
+| `micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale_nd|nosize` | 26 | 20 |
 | `zeta|unspecified|nanoparticle_empty|med:nd|pH:nd|I:nd|model:not_declared` | 25 | 20 |
-| `XRD|powder|nanoparticle_loaded|rad:nd` | 20 | 17 |
-| `micrograph|TEM_prep_not_declared|nanoparticle_empty|scale_nd|nosize` | 20 | 13 |
-| `zeta|ELS|nanoparticle_loaded|med:water|pH:nd|I:nd|model:not_declared` | 20 | 6 |
+| `micrograph|TEM_prep_not_declared|nanoparticle_empty|scale_nd|nosize` | 24 | 16 |
+| `FTIR|KBr|nanoparticle_loaded|state:nd` | 24 | 17 |
+| `FTIR|KBr|pure_component|state:nd` | 21 | 13 |
 | `zeta|ELS|nanoparticle_loaded|med:nd|pH:nd|I:nd|model:not_declared` | 20 | 5 |
-| `micrograph|TEM_prep_not_declared|nanoparticle_loaded|scale_nd|nosize` | 19 | 15 |
-| `FTIR|KBr|pure_component|state:nd` | 17 | 9 |
-| `micrograph|TEM_dried_unstained|nanoparticle_loaded|scale_nd|nosize` | 17 | 13 |
-| `FTIR|unspecified|pure_component|state:nd` | 17 | 12 |
-| `UVVis|a_intrinsic|nanoparticle_loaded` | 17 | 16 |
-| `micrograph|TEM_dried_unstained|nanoparticle_empty|scale_nd|nosize` | 16 | 4 |
-| `XRD|powder|pure_component|rad:nd` | 16 | 11 |
+| `UVVis|a_intrinsic|nanoparticle_loaded` | 20 | 18 |
+| `micrograph|TEM_dried_unstained|nanoparticle_loaded|scale_nd|nosize` | 19 | 15 |
+| `XRD|powder|pure_component|rad:nd` | 18 | 13 |
+| `FTIR|unspecified|pure_component|state:nd` | 18 | 13 |
+| `NMR|NMR|pure_component` | 17 | 13 |
 | `micrograph|TEM_negstain|nanoparticle_loaded|scale|nosize` | 16 | 8 |
-| `NMR|NMR|pure_component` | 16 | 12 |
-| `FTIR|unspecified|nanoparticle_loaded|state:nd` | 16 | 14 |
-| `XRD|powder|nanoparticle_empty|rad:nd` | 15 | 10 |
+| `micrograph|cryoTEM|nanoparticle_loaded|scale|nosize` | 16 | 9 |
+| `XRD|powder|nanoparticle_empty|rad:nd` | 16 | 11 |

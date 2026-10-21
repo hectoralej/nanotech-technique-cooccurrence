@@ -1,6 +1,10 @@
 # Estado de la curación (2026-10-12)
 
-**Repositorio: 63 artículos** (26 del piloto + 21 de la ronda 1 + 16 de la ronda 2, tras la auditoría de Claude). Todas las métricas son **provisionales** hasta la revisión humana.
+**Repositorio: 86 artículos** (26 del piloto + 21 de la ronda 1 + 16 de la ronda 2 + 23 de la lista de verificación humana, tras la auditoría de Claude). Todas las métricas son **provisionales** hasta la revisión humana.
+
+**Lista para la revisión humana: `curation/verificacion_humana_80.csv`** (78 artículos, solo licencia CC BY, con el DOI como enlace). Guía en `GUIA_REVISION.md`. La clave del modelo está en `work/clave_modelo.csv`: **no abrirla hasta terminar**.
+
+**Corrección de licencias (2026-10-18):** el clasificador trataba los códigos cortos de Europe PMC («cc by-nc», «cc by-nc-nd») como CC BY. Ya está corregido. Con la regla nueva el repositorio tiene 66 artículos en verde (CC BY), 18 en amarillo (NC o ND) y 2 en conflicto. Las cifras de licencia que se dieron antes (43 verdes, 20 en conflicto) estaban mal.
 
 ## Hecho
 
@@ -16,11 +20,11 @@
 
 ## Pendiente
 
-1. **Revisión humana (Bryan y Carlos)** de `hoja_revision_humana.csv` (60 artículos del conjunto H001–H015, que aún no pasaron por los modelos) y de los 3 excluidos a mano. Sin eso no se certifica ningún umbral.
-2. **20 de los 63 artículos tienen conflicto de licencia** entre Europe PMC y el XML o el editor (CC BY-NC / -ND). No se redistribuyen figuras de ellos hasta revisarlo.
+1. **Revisión humana** de `verificacion_humana_80.csv` (78 artículos): dos personas, cada una en su copia, sin ver la del otro. Luego `python -m curation.human_sheet agreement a.csv b.csv` y `vs_model a.csv`. Revisar también las exclusiones a mano (`manual_review.csv`, `verificacion_excluidas.csv`). Sin eso no se certifica ningún umbral.
+2. **Licencias:** de los 86 artículos del repositorio, 18 son CC BY-NC/-ND (amarillo) y 2 tienen conflicto entre fuentes. Las figuras solo se redistribuyen de los 66 en verde. El editor bloquea la consulta automática en la mayoría de los casos (403), así que la verificación es con Europe PMC y el XML del artículo; la página del editor se revisa a mano en la lista de verificación.
 3. **Vacíos:** inorgánicas (2 artículos) y SAXS (7 mediciones en 3 artículos). Necesitan búsqueda dirigida de artículos nuevos (paso 7, no iniciado).
 4. **Archivo abierto en Excel:** `articles_curated.csv` estaba abierto y no se pudo sobrescribir. La versión nueva es `articles_curated_nuevo.csv`; al cerrar Excel, renombrarla.
-5. Quedan 591 candidatos sin leer con modelos (`pending.csv`; incluye los 60 del conjunto humano) si se quisiera ampliar más. Hay 89 casi-aprobados en `near_miss.csv`.
+5. Quedan 530 candidatos sin leer con modelos (`pending.csv`) si se quisiera ampliar más. Hay 148 casi-aprobados en `near_miss.csv`.
 
 ## Cómo reanudar una ronda
 

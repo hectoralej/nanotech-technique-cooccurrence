@@ -50,7 +50,13 @@ def lic_class(text: str | None) -> str | None:
     code = m.group(1) if m else None
     if code is None:                                  # texto de licencia sin URL (p. ej. "Creative Commons Attribution License")
         flat = re.sub(r"[\s\-]+", " ", t)
-        if "noncommercial" in flat or "non commercial" in flat:
+        if re.search(r"\bnc\b", flat) and re.match(r"\s*cc\b", flat):           # codigos cortos de Europe PMC: "cc by-nc", "cc by-nc-nd", "cc by-nc-sa"
+            code = "by-nc-nd" if re.search(r"\bnd\b", flat) else ("by-nc-sa" if re.search(r"\bsa\b", flat) else "by-nc")
+        elif re.match(r"\s*cc\b", flat) and re.search(r"\bnd\b", flat):
+            code = "by-nd"
+        elif re.match(r"\s*cc\b", flat) and re.search(r"\bsa\b", flat):
+            code = "by-sa"
+        elif "noncommercial" in flat or "non commercial" in flat:
             code = "by-nc-nd" if ("noderiv" in flat or "no deriv" in flat) else ("by-nc-sa" if "sharealike" in flat else "by-nc")
         elif "sharealike" in flat or "share alike" in flat:
             code = "by-sa"
@@ -235,7 +241,7 @@ def _reason(g: dict) -> str:
 
 
 def _group(pm: str, man: pd.DataFrame, rounds: dict) -> str:
-    return "piloto (azar)" if man.loc[pm, "set"] == "pilot" else rounds.get(pm, "otro")
+    return "piloto (azar)" if man.loc[pm, "set"] == "pilot" else rounds.get(pm, "verificación humana (azar y vacíos)")
 
 
 def singles_table(final: dict, man: pd.DataFrame, meta: pd.DataFrame, rounds: dict) -> pd.DataFrame:
@@ -320,6 +326,10 @@ def main() -> None:
         for m in pd.read_csv(mf, dtype={"pmcid": str}).itertuples():
             if m.decision == "excluir" and m.pmcid in set(A.pmcid):
                 A.loc[A.pmcid == m.pmcid, ["status", "reason"]] = ["excluido", f"revision manual: {m.reason}"]
+    # retractados (marca de Europe PMC): nunca entran al repositorio
+    retracted = set(meta[meta.pub_types.fillna("").str.contains("retract", case=False)].pmcid)
+    hit = A.pmcid.isin(retracted)
+    A.loc[hit, ["status", "reason"]] = ["excluido", "articulo retractado (marca 'Retracted Publication' de Europe PMC)"]
     # duplicados: conservar uno
     drop = {}
     for d in dups.itertuples():
@@ -356,7 +366,7 @@ def main() -> None:
     save_csv(ex, "excluded.csv")
     # pendientes
     cand = pd.read_csv(CUR / "data" / "candidates.csv", dtype={"pmcid": str})
-    save_csv(cand[~cand.pmcid.isin(set(A.pmcid) | set(SG.pmcid))][["pmcid", "primary_family", "title"]].assign(motivo="candidato aun sin extraccion (no seleccionado por el filtro barato)"), "pending.csv")
+    save_csv(cand[~cand.pmcid.isin(set(A.pmcid) | set(SG.pmcid) | retracted)][["pmcid", "primary_family", "title"]].assign(motivo="candidato aun sin extraccion (no seleccionado por el filtro barato)"), "pending.csv")
     # --- mediciones
     mrows = []
     for pm in ids:
@@ -430,7 +440,7 @@ def make_charts(A: pd.DataFrame, repo: pd.DataFrame, SG: pd.DataFrame) -> None:
     fig.suptitle(f"Niveles por familia ({len(repo)} artículos)", x=0.02, ha="left", fontsize=12.5)
     fig.tight_layout(rect=(0, 0, 1, .93)); fig.savefig(CUR / "grafico_niveles_por_familia.png", dpi=170); plt.close(fig)
     g = U.groupby("grupo").agg(n=("pmcid", "size"), repo=("repo", "sum"))
-    order = [x for x in ("piloto (azar)", "ronda 1", "ronda 2") if x in g.index]
+    order = [x for x in ("piloto (azar)", "ronda 1", "ronda 2", "verificación humana (azar y vacíos)") if x in g.index]
     g = g.loc[order]
     fig, ax = plt.subplots(figsize=(8.5, 3.4))
     y = range(len(g))

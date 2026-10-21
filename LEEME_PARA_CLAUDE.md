@@ -24,7 +24,8 @@ Todo sale de **texto completo de acceso abierto de Europe PMC**, con citas liter
 **Fase 2: curación estricta de calidad** (carpeta `curation/`)
 - Objetivo: un repositorio de artículos con **micrografía útil (TEM y variantes, o SEM) + DLS + zeta de una misma muestra**, con el medio declarado, sin virus ni dependientes de PCR. Reglas y puntaje fijados antes de ver resultados en `curation/SCORING.md` (niveles S ≥ 85, A 70–84, B 60–69).
 - Método: filtro por código → lectura con agentes Haiku y Sonnet → verificación de citas por código → arbitraje de desacuerdos → puerta y puntaje por código → licencia, duplicados y laboratorios → auditoría de Claude.
-- **Resultado: 63 artículos en el repositorio** (S 8, A 48, B 7): SLN/NLC 15, LNP 14, PLN 13, poliméricas 11, liposomas 8, inorgánicas 2. 175 artículos leídos con modelos; 89 casi-aprobados.
+- **Resultado: 86 artículos en el repositorio** (S 9, A 67, B 10): SLN/NLC 21, LNP 18, PLN 15, liposomas 15, poliméricas 14, inorgánicas 3. 273 artículos leídos con modelos; 148 casi-aprobados. Licencias: 66 CC BY (verde), 18 NC/ND (amarillo), 2 en conflicto.
+- **Lista de verificación humana (2026-10-18):** `curation/verificacion_humana_80.csv`, 78 artículos solo con CC BY, con el DOI como enlace (`https://doi.org/...`). Incluye una muestra aleatoria y artículos elegidos para llenar vacíos (SAXS, cryo-EM, inorgánicas, espectroscopía sobre la partícula). La clave del modelo está en `curation/work/clave_modelo.csv`: no abrir hasta terminar.
 - Piloto al azar de 100 artículos: 26 entraron (26 %). Las rondas 1 y 2 usaron un filtro barato por código (tabla con tamaño y zeta, y medio declarado junto a DLS y zeta) y rindieron 48–52 %.
 - Aprendizaje: Haiku sobre un extracto corto dejó fuera a 8 de 23 artículos que Sonnet aprobó (recall 65 %). Por eso la ronda 2 fue Sonnet primero y Haiku como segunda lectura.
 - Costo: unos 10,5 millones de tokens de subagentes en total; la ampliación bajó a ≈ 110 mil por artículo nuevo en el repositorio.
@@ -39,12 +40,12 @@ Todo sale de **texto completo de acceso abierto de Europe PMC**, con citas liter
 | `data/` | `articles_all.csv` (2.396 artículos y técnicas detectadas), `pairs.csv`, `evidence.csv`, `prevalence.csv`, `trend.csv` (tendencias), `hypotheses.csv`, `gold_*.csv` |
 | `data/cache/` | texto completo XML de Europe PMC (≈ 790 MB). Puede no venir en el `.rar`; se regenera con `run_all.ps1` (≈ 25 min) |
 | `src/`, `config/`, `tests/` | código de la fase 1, taxonomía de técnicas (`techniques.yaml`) y pruebas |
-| `curation/articles_curated.csv` | **la base de datos: los 63 artículos** con DOI, familia, nivel, puntaje, técnicas y licencia |
+| `curation/articles_curated.csv` | **la base de datos: los 86 artículos** con DOI, familia, nivel, puntaje, técnicas y licencia |
 | `curation/measurements.csv` | una fila por medición, con valores, condiciones y cita literal verificada |
-| `curation/near_miss.csv`, `excluded.csv`, `pending.csv` | casi-aprobados (89), excluidos con motivo, candidatos aún sin leer (591) |
+| `curation/near_miss.csv`, `excluded.csv`, `pending.csv` | casi-aprobados (148), excluidos con motivo, candidatos aún sin leer (530) |
 | `curation/Repositorio_articulos.docx` | referencias APA 7 |
 | `curation/INFORME.md`, `ESTADO.md` | informe completo y cómo reanudar |
-| `curation/hoja_revision_humana.csv`, `GUIA_REVISION.md` | 60 artículos para revisión humana |
+| `curation/verificacion_humana_80.csv`, `GUIA_REVISION.md` | 78 artículos para revisión humana, con el DOI como enlace; `curation/verificacion_excluidas.csv` lista los que se quitaron y por qué |
 | `curation/manual_review.csv` | 3 artículos que Claude excluyó a mano (se pueden revertir) |
 | `curation/prompts/` | instrucciones de los agentes (extracción, arbitraje) |
 | `curation/work/` | salidas crudas de los agentes y paquetes de texto (se pueden regenerar) |
@@ -59,10 +60,10 @@ Todo sale de **texto completo de acceso abierto de Europe PMC**, con citas liter
 
 ## 5. Pendiente y decisiones abiertas
 
-1. **Revisión humana** de `hoja_revision_humana.csv` y de los 3 excluidos a mano. Certifica los umbrales: puerta ≥ 0,95, kappa ≥ 0,80, licencia 100 %. Hasta entonces, todo es **provisional**.
-2. **20 de los 63 artículos tienen conflicto de licencia** (Europe PMC dice CC BY; el XML o el editor dicen CC BY-NC o -ND). No se redistribuyen figuras de ellos hasta resolverlo.
+1. **Revisión humana** de `verificacion_humana_80.csv` (cada persona en su copia, sin ver la del otro) y de los artículos excluidos a mano. Certifica los umbrales: puerta ≥ 0,95, kappa ≥ 0,80, licencia 100 %. Hasta entonces, todo es **provisional**.
+2. **Licencias:** de los 86 artículos, 18 son CC BY-NC/-ND y 2 tienen conflicto entre fuentes. Solo se redistribuyen figuras de los 66 en verde. (Un error del clasificador, ya corregido, había inflado antes los conflictos.)
 3. **Vacíos:** inorgánicas (2 artículos) y SAXS (7 mediciones en 3 artículos). Necesitan búsqueda dirigida de artículos nuevos.
-4. Decidir si se sigue ampliando con los 591 candidatos sin leer.
+4. Decidir si se sigue ampliando con los 530 candidatos sin leer.
 5. No se descargó el material suplementario (57 % de los candidatos lo tiene); el repositorio probablemente está subestimado.
 
 ## 6. Cómo prefiere Héctor que se trabaje

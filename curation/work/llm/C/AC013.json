@@ -1,0 +1,52 @@
+{
+  "batch": "AC013",
+  "articles": [
+    {
+      "pmcid": "PMC8591612",
+      "decisions": [
+        {
+          "issue": "PMC8591612:gate:zeta",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": null},
+          "quote": "the values were −34.8 mV (measured at pH 4.7) and −33.0 mV (measured at pH 4.6) for LNPsacetone and LNPsTHF, respectively",
+          "location": "Results and Discussion > Solvent Effects on the Size Distribution of LNPs",
+          "reason": "Numeric zeta for identifiable LNP samples with pH stated; Methods add dilution 10 times with DI water. Meets zeta-useful definition."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6138933",
+      "decisions": [
+        {
+          "issue": "PMC6138933:gate:dls",
+          "decision": "B",
+          "final": {"value": true, "identity": null, "variant": null, "medium": null},
+          "quote": "the prepared nanoparticles were diluted 1:20 (sample: redistilled distilled water) to avoid multi-scattering phenomena",
+          "location": "Methods > Particle size, Zeta potential and morphology",
+          "reason": "Numeric sizes for TPL-NLC and TPL-SLN (139.6 and 104.0 nm) with medium stated as redistilled water in Methods; DLS shown in Fig. 1b,d."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9647953",
+      "decisions": [
+        {
+          "issue": "PMC9647953:values:DLS",
+          "decision": "B",
+          "final": {"value": 40.65, "identity": "nanoparticle_loaded", "variant": null, "medium": "water"},
+          "quote": "The particle size of CO-SLN was reported with the average of 40.65 nm (shown in Fig. 1a).",
+          "location": "Results > Particle size, zeta potential and TEM analysis; Fig. 1a caption",
+          "reason": "Results tie 40.65 nm to the DLS Fig. 1a. 337.6 nm appears only in abstract/conclusion, contradicting it; keep 337.6 as alt abstract value."
+        },
+        {
+          "issue": "PMC9647953:values:zeta",
+          "decision": "B",
+          "final": {"value": -26.5, "identity": "nanoparticle_loaded", "variant": null, "medium": "water"},
+          "quote": "the zeta potential of the nanoparticles was measured − 26.5 mV (Fig. 1b)",
+          "location": "Results > Particle size, zeta potential and TEM analysis; Fig. 1b caption",
+          "reason": "Results give -26.5 mV tied to Fig. 1b; abstract/conclusion give -26.6 mV (alt). Medium double-distilled water per Methods."
+        }
+      ]
+    }
+  ]
+}

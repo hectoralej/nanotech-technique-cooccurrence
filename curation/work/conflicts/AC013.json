@@ -1,0 +1,222 @@
+{
+ "batch": "AC013",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\AC013.json",
+ "articles": [
+  {
+   "pmcid": "PMC8591612",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC8591612.txt",
+   "issues": [
+    {
+     "issue": "PMC8591612:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "LNPacetone",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -34.8
+       },
+       "conditions": {
+        "medium": "other:DI water (dispersion diluted 10x, ~0.02 wt%)",
+        "pH": 4.7,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Zetasizer Nano ZS90 (dip cell probe)"
+       },
+       "quote": "the values were −34.8 mV (measured at pH 4.7) and −33.0 mV (measured at pH 4.6) for LNPsacetone and LNPsTHF, respectively",
+       "location": "Results and Discussion > Solvent Effects on the Size Distribution of LNPs"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "LNPTHF",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -33.0
+       },
+       "conditions": {
+        "medium": "other:DI water (dispersion diluted 10x, ~0.02 wt%)",
+        "pH": 4.6,
+        "ionic_strength": null,
+        "model": "Smoluchowski",
+        "instrument": "Zetasizer Nano ZS90 (dip cell probe)"
+       },
+       "quote": "the values were −34.8 mV (measured at pH 4.7) and −33.0 mV (measured at pH 4.6) for LNPsacetone and LNPsTHF, respectively",
+       "location": "Results and Discussion > Solvent Effects on the Size Distribution of LNPs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC6138933",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC6138933.txt",
+   "issues": [
+    {
+     "issue": "PMC6138933:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "TPL-NLC",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 139.6,
+        "size_sd_nm": 2.53,
+        "pdi": 0.28,
+        "pdi_sd": 0.025
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "1:20 in redistilled water",
+        "instrument": "Malvern Zetasizer Nano-ZS",
+        "temperature": "room temperature"
+       },
+       "quote": "size and PDI for TPL-NLC and TPL-SLN were 139.6 ± 2.53 nm, 104.0 ± 1.82 nm and 0.280 ± 0.025, 0.278 ± 0.018",
+       "location": "Results > Penetration and characterization of TPL-NPs; Fig. 1b caption"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "TPL-SLN",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 104.0,
+        "size_sd_nm": 1.82,
+        "pdi": 0.278,
+        "pdi_sd": 0.018
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "1:20 in redistilled water",
+        "instrument": "Malvern Zetasizer Nano-ZS",
+        "temperature": "room temperature"
+       },
+       "quote": "size and PDI for TPL-NLC and TPL-SLN were 139.6 ± 2.53 nm, 104.0 ± 1.82 nm and 0.280 ± 0.025, 0.278 ± 0.018",
+       "location": "Results > Penetration and characterization of TPL-NPs; Fig. 1d caption"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9647953",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9647953.txt",
+   "issues": [
+    {
+     "issue": "PMC9647953:values:DLS",
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "CO-SLN",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 337.6,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "15 µl in 1 ml double-distilled water",
+        "instrument": "Zetasizer (Malvern)"
+       },
+       "quote": "Results revealed that CO-SLN possesses appropriate Physico-chemical characteristics including the size (337.6 nm)",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "CO-SLN",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 40.65,
+        "size_alt_abstract_nm": 337.6
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": "15 ul sample in 1 ml double-distilled water",
+        "instrument": "Zetasizer (Malvern)"
+       },
+       "quote": "The particle size of CO-SLN was reported with the average of 40.65 nm (shown in Fig. 1a).",
+       "location": "Results > Particle size, zeta potential and TEM analysis; Fig. 1a caption"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9647953:values:zeta",
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "CO-SLN",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -26.6,
+        "zeta_sd_mV": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern)"
+       },
+       "quote": "Results revealed that CO-SLN possesses appropriate Physico-chemical characteristics including the size (337.6 nm) with zeta potential of -26.6 mV",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "CO-SLN",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -26.5,
+        "zeta_alt_abstract_mV": -26.6
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer (Malvern)",
+        "dilution": "15 ul sample in 1 ml double-distilled water",
+        "temperature_C": 25
+       },
+       "quote": "the zeta potential of the nanoparticles was measured − 26.5 mV (Fig. 1b)",
+       "location": "Results > Particle size, zeta potential and TEM analysis; Fig. 1b caption"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

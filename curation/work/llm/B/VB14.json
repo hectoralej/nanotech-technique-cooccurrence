@@ -1,0 +1,3185 @@
+{
+ "pass": "B",
+ "batch": "VB14",
+ "articles": [
+  {
+   "pmcid": "PMC10933724",
+   "context": {
+    "summary": "Phospholipid vesicles (liposomes and ethanol-containing Et-PEVs, soy phosphatidylcholine) loaded with Satureja thymbra essential oil for skin delivery; size, zeta, stability, entrapment efficiency, cryo-TEM, SAXS, antioxidant and cytocompatibility studied.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "Empty liposomes",
+     "identity": "nanoparticle_empty",
+     "composition": "Phospholipon 90G 90 mg/mL in water, no essential oil",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S2",
+     "name": "S. thymbra liposomes",
+     "identity": "nanoparticle_loaded",
+     "composition": "Phospholipon 90G 90 mg/mL + S. thymbra essential oil 10 mg/mL in water",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S3",
+     "name": "Empty Et-PEVs",
+     "identity": "nanoparticle_empty",
+     "composition": "Phospholipon 90G 90 mg/mL + ethanol 50 uL/mL in water, no essential oil",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S4",
+     "name": "S. thymbra Et-PEVs",
+     "identity": "nanoparticle_loaded",
+     "composition": "Phospholipon 90G 90 mg/mL + ethanol 50 uL/mL + S. thymbra essential oil 10 mg/mL in water",
+     "formulation_defined_in": "text"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "vesicle morphology and size",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "predominantly unilamellar",
+      "size_note": "average size below 100 nm"
+     },
+     "conditions": {
+      "prep_state": "vitrified (cryo), 3 uL on glow-discharged grids",
+      "scale_bar_present": null,
+      "instrument": "Tecnai G2 T20 Sphera 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "The morphological evaluation performed by cryo-TEM indicated that the S. thymbra liposomes were characterized predominantly by a unilamellar structure",
+      "location": "Results > 2.2 (Fig. 3)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "vesicle morphology and size",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "unilamellar with a fraction of oligolamellar vesicles",
+      "size_note": "average size below 100 nm"
+     },
+     "conditions": {
+      "prep_state": "vitrified (cryo), 3 uL on glow-discharged grids",
+      "scale_bar_present": null,
+      "instrument": "Tecnai G2 T20 Sphera 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "which were unilamellar with a more relevant fraction of oligolamellar vesicles (Figure 3)",
+      "location": "Results > 2.2 (Fig. 3)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -12,
+      "zeta_sd_mV": 1.9
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Empty liposomes | 96 ± 3.8 | 0.33 ± 0.04 | −12 ± 1.9",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -18,
+      "zeta_sd_mV": 3.0
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "S. thymbra liposomes | *** 86 ± 0.2 | *** 0.20 ± 0.04 | *** −18 ± 3.0",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -12,
+      "zeta_sd_mV": 1.8
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Empty Et-PEVs | *** 107± 6.9 | 0.37 ± 0.06 | −12 ± 1.8",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -17,
+      "zeta_sd_mV": 2.7
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "S. thymbra Et-PEVs | °°°§§§ 79 ± 2.7 | °°°§§ 0.24 ± 0.03 | °°° −17 ± 2.7",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "mean diameter (MD) and polydispersity index",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 96,
+      "size_sd_nm": 3.8,
+      "pdi": 0.33,
+      "pdi_sd": 0.04
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "angle_deg": null,
+      "dilution": null,
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Empty liposomes | 96 ± 3.8 | 0.33 ± 0.04 | −12 ± 1.9",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "mean diameter (MD) and polydispersity index",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 86,
+      "size_sd_nm": 0.2,
+      "pdi": 0.2,
+      "pdi_sd": 0.04
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "angle_deg": null,
+      "dilution": null,
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "S. thymbra liposomes | *** 86 ± 0.2 | *** 0.20 ± 0.04 | *** −18 ± 3.0",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "mean diameter (MD) and polydispersity index",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 107,
+      "size_sd_nm": 6.9,
+      "pdi": 0.37,
+      "pdi_sd": 0.06
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "angle_deg": null,
+      "dilution": null,
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Empty Et-PEVs | *** 107± 6.9 | 0.37 ± 0.06 | −12 ± 1.8",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "mean diameter (MD) and polydispersity index",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 79,
+      "size_sd_nm": 2.7,
+      "pdi": 0.24,
+      "pdi_sd": 0.03
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "angle_deg": null,
+      "dilution": null,
+      "instrument": "Zetasizer nano-ZS"
+     },
+     "n_replicates": ">10",
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "S. thymbra Et-PEVs | °°°§§§ 79 ± 2.7 | °°°§§ 0.24 ± 0.03 | °°° −17 ± 2.7",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer structure from lamellar model fit",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "d_A": 58.0,
+      "eta1": 0.18,
+      "Nc": 3.5,
+      "pct_correlated_bilayers": 14,
+      "ZH_A": 15.1
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "instrument": "described in ref [27], not in packet"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "d (Å) | 58.0 ± 0.4 | - | 58.3 ± 0.4 | 61.1 ± 0.9",
+      "location": "Table 3 (columns: empty lipo, S.t. lipo, empty Et-PEV, S.t. Et-PEV)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer structure from lamellar model fit",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "d_A": null,
+      "eta1": null,
+      "Nc": null,
+      "pct_correlated_bilayers": null,
+      "ZH_A": 15.3,
+      "note": "lamellar parameters not measurable (predominantly unilamellar)"
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "instrument": "described in ref [27], not in packet"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "d (Å) | 58.0 ± 0.4 | - | 58.3 ± 0.4 | 61.1 ± 0.9",
+      "location": "Table 3 (columns: empty lipo, S.t. lipo, empty Et-PEV, S.t. Et-PEV)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer structure from lamellar model fit",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "d_A": 58.3,
+      "eta1": 0.09,
+      "Nc": 3.7,
+      "pct_correlated_bilayers": 12,
+      "ZH_A": 14.8
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "instrument": "described in ref [27], not in packet"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "d (Å) | 58.0 ± 0.4 | - | 58.3 ± 0.4 | 61.1 ± 0.9",
+      "location": "Table 3 (columns: empty lipo, S.t. lipo, empty Et-PEV, S.t. Et-PEV)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer structure from lamellar model fit",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "d_A": 61.1,
+      "eta1": 0.13,
+      "Nc": 3.2,
+      "pct_correlated_bilayers": 6,
+      "ZH_A": 15.3
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "temperature_C": null,
+      "instrument": "described in ref [27], not in packet"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "d (Å) | 58.0 ± 0.4 | - | 58.3 ± 0.4 | 61.1 ± 0.9",
+      "location": "Table 3 (columns: empty lipo, S.t. lipo, empty Et-PEV, S.t. Et-PEV)"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "DPPH/FRAP colorimetric antioxidant assays and HPLC-DAD not recorded as particle UVVis. Et-PEVs treated as ethanol-modified liposomes."
+  },
+  {
+   "pmcid": "PMC9736248",
+   "context": {
+    "summary": "Ethosomes and transethosomes (phosphatidylcholine, ethanol, polysorbate 80) without drug, characterized by DLS, zeta, cryo-TEM, SAXS and deformability, then tracked by TEM in ex vivo human skin in a bioreactor.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "ET (ethosomes)",
+     "identity": "nanoparticle_empty",
+     "composition": "PC 0.90, ethanol 29.10, water 70.00 (w/w%); no drug",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S2",
+     "name": "TET-1 (transethosomes)",
+     "identity": "nanoparticle_empty",
+     "composition": "PC 0.89, T80 0.30, ethanol 28.81, water 70.00 (w/w%); no drug",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S3",
+     "name": "TET-2 (transethosomes)",
+     "identity": "nanoparticle_empty",
+     "composition": "PC 2.69, T80 0.30, ethanol 27.01, water 70.00 (w/w%); no drug",
+     "formulation_defined_in": "table"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "vesicle morphology and lamellarity",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "mainly spherical, multilamellar; some larger unilamellar structures"
+     },
+     "conditions": {
+      "prep_state": "vitrified in liquid ethane, lacey carbon grid",
+      "scale_bar_present": null,
+      "instrument": "Zeiss/Leo EM922 Omega EFTEM, 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "ET vesicles (panels a and b) appeared mainly spherical and multilamellar, apart from some larger unilamellar structures.",
+      "location": "Results > 2.2.3 (Fig. 2)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "vesicle morphology and lamellarity",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "unilamellar spherical vesicles"
+     },
+     "conditions": {
+      "prep_state": "vitrified in liquid ethane, lacey carbon grid",
+      "scale_bar_present": null,
+      "instrument": "Zeiss/Leo EM922 Omega EFTEM, 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "A completely different organization was found in the case of TET-1 (panels c and d), showing unilamellar spherical vesicles.",
+      "location": "Results > 2.2.3 (Fig. 2)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "vesicle morphology and lamellarity",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "multilamellar and multivesicular vesicles"
+     },
+     "conditions": {
+      "prep_state": "vitrified in liquid ethane, lacey carbon grid",
+      "scale_bar_present": null,
+      "instrument": "Zeiss/Leo EM922 Omega EFTEM, 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Conversely, TET-2 was characterized by multilamellar and multivesicular vesicles.",
+      "location": "Results > 2.2.3 (Fig. 2)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "TEM_posstain",
+     "measurand": "vesicle diameter and fate inside ex vivo human skin (ultrathin sections)",
+     "assay_purpose": "particle localization in skin",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": 193.38,
+      "size_sd_nm": 20.77,
+      "n_particles_measured": 25,
+      "morphology": "roundish, electron-dense, dark rim"
+     },
+     "conditions": {
+      "prep_state": "skin fixed (PFA/glutaraldehyde), OsO4 post-fixed, Epon embedded, sections stained with lead citrate",
+      "scale_bar_present": true,
+      "instrument": "Philips Morgagni TEM 80 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The mean diameter ± s.d. of vesicles measured on TEM images was 193.38 ± 20.77 nm for ET",
+      "location": "Results > 2.4 (Figs. 4-6)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "TEM_posstain",
+     "measurand": "vesicle diameter and fate inside ex vivo human skin (ultrathin sections)",
+     "assay_purpose": "particle localization in skin",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": 151.72,
+      "size_sd_nm": 17.29,
+      "n_particles_measured": 25,
+      "morphology": "roundish, electron-dense, dark rim"
+     },
+     "conditions": {
+      "prep_state": "skin fixed (PFA/glutaraldehyde), OsO4 post-fixed, Epon embedded, sections stained with lead citrate",
+      "scale_bar_present": true,
+      "instrument": "Philips Morgagni TEM 80 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "151.72 ± 17.29 nm for TET-1 and 274.35 ± 41.18 nm for TET-2",
+      "location": "Results > 2.4 (Figs. 4-6)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "TEM_posstain",
+     "measurand": "vesicle diameter and fate inside ex vivo human skin (ultrathin sections)",
+     "assay_purpose": "particle localization in skin",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": 274.35,
+      "size_sd_nm": 41.18,
+      "n_particles_measured": 7,
+      "morphology": "roundish, homogeneous dark content"
+     },
+     "conditions": {
+      "prep_state": "skin fixed (PFA/glutaraldehyde), OsO4 post-fixed, Epon embedded, sections stained with lead citrate",
+      "scale_bar_present": true,
+      "instrument": "Philips Morgagni TEM 80 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "151.72 ± 17.29 nm for TET-1 and 274.35 ± 41.18 nm for TET-2",
+      "location": "Results > 2.4 (Figs. 4-6)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential (electrophoretic mobility)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -23.39,
+      "zeta_sd_mV": 0.2
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "Smoluchowski",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Zeta potential (mV) ± s.d. | −23.39 ± 0.20 | −33.65 ± 0.30 | −35.01 ± 0.71",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential (electrophoretic mobility)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -33.65,
+      "zeta_sd_mV": 0.3
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "Smoluchowski",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Zeta potential (mV) ± s.d. | −23.39 ± 0.20 | −33.65 ± 0.30 | −35.01 ± 0.71",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential (electrophoretic mobility)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -35.01,
+      "zeta_sd_mV": 0.71
+     },
+     "conditions": {
+      "medium": "not_declared",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "Smoluchowski",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "Zeta potential (mV) ± s.d. | −23.39 ± 0.20 | −33.65 ± 0.30 | −35.01 ± 0.71",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "Z-average diameter and dispersity index (PCS)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 206.32,
+      "size_sd_nm": 33.22,
+      "pdi": 0.14,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:20 v/v in bi-distilled water",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Z-Average (nm) 1 ± s.d. | 206.32 ± 33.22 | 146.21 ± 10.21 | 350.40 ± 23.61",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "Z-average diameter and dispersity index (PCS)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 146.21,
+      "size_sd_nm": 10.21,
+      "pdi": 0.13,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:20 v/v in bi-distilled water",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Z-Average (nm) 1 ± s.d. | 206.32 ± 33.22 | 146.21 ± 10.21 | 350.40 ± 23.61",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "Z-average diameter and dispersity index (PCS)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 350.4,
+      "size_sd_nm": 23.61,
+      "pdi": 0.23,
+      "pdi_sd": 0.04
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:20 v/v in bi-distilled water",
+      "instrument": "Zetasizer Nano-S90"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Z-Average (nm) 1 ± s.d. | 206.32 ± 33.22 | 146.21 ± 10.21 | 350.40 ± 23.61",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer form factor and Bragg peak",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "bilayer_thickness_nm": 4.8,
+      "positional_correlation_distance_nm": 29,
+      "note": "one weak Bragg peak"
+     },
+     "conditions": {
+      "temperature_C": 35,
+      "instrument": "bioSAXS beamline B21, Diamond Light Source",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The positional correlation distance between adjacent bilayers was larger in TET-2 (around 33 nm) than in the ET vesicles (around 29 nm).",
+      "location": "Results > 2.2.3 (Fig. 3)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer form factor and Bragg peak",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "bilayer_thickness_nm": 4.8,
+      "note": "no Bragg peak reported"
+     },
+     "conditions": {
+      "temperature_C": 35,
+      "instrument": "bioSAXS beamline B21, Diamond Light Source",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Accordingly, the bilayer thickness was measured as approximately 4.8 nm",
+      "location": "Results > 2.2.3 (Fig. 3)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "bilayer form factor and Bragg peak",
+     "assay_purpose": "vesicle internal structure",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "bilayer_thickness_nm": 4.8,
+      "positional_correlation_distance_nm": 33,
+      "note": "one weak Bragg peak"
+     },
+     "conditions": {
+      "temperature_C": 35,
+      "instrument": "bioSAXS beamline B21, Diamond Light Source",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The positional correlation distance between adjacent bilayers was larger in TET-2 (around 33 nm) than in the ET vesicles (around 29 nm).",
+      "location": "Results > 2.2.3 (Fig. 3)"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Zeta medium not stated in zeta paragraph (1:20 water dilution is given for size). Skin-section TEM rows show the vesicles themselves."
+  },
+  {
+   "pmcid": "PMC8617923",
+   "context": {
+    "summary": "Pioglitazone-loaded PLGA-PEG nanoparticles (nanoprecipitation, 2^3 factorial design) stabilized by Nano Spray Dryer; physicochemical, release, ex vivo corneal/scleral permeation, in vivo bioavailability and corneal SAXS studied.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "polymeric_NP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "PGZ-NP formulation 1",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 8.0 mg/mL, pH 3.5, PVA 2.0%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S2",
+     "name": "PGZ-NP formulation 2",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 9.0 mg/mL, pH 3.5, PVA 2.0%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S3",
+     "name": "PGZ-NP formulation 3",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 8.0 mg/mL, pH 4.5, PVA 2.0%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S4",
+     "name": "PGZ-NP formulation 4",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 8.0 mg/mL, pH 3.5, PVA 2.5%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S5",
+     "name": "PGZ-NP formulation 5",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 9.0 mg/mL, pH 4.5, PVA 2.0%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S6",
+     "name": "PGZ-NP formulation 6",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 9.0 mg/mL, pH 3.5, PVA 2.5%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S7",
+     "name": "PGZ-NP formulation 7",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 8.0 mg/mL, pH 4.5, PVA 2.5%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S8",
+     "name": "PGZ-NP formulation 8",
+     "identity": "nanoparticle_loaded",
+     "composition": "pioglitazone PLGA-PEG NPs; PLGA-PEG 9.0 mg/mL, pH 4.5, PVA 2.5%",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S9",
+     "name": "Spray 1 (spray-dried formulation 8, resuspended in water)",
+     "identity": "nanoparticle_loaded",
+     "composition": "PGZ-NP formulation 8 after Nano Spray Dryer B-90, nozzle 5.5 um, outlet 25 C",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S10",
+     "name": "Spray 2 (spray-dried formulation 8, resuspended in water)",
+     "identity": "nanoparticle_loaded",
+     "composition": "PGZ-NP formulation 8 after Nano Spray Dryer B-90, nozzle 7.0 um, outlet 25 C",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S11",
+     "name": "Spray 3 (spray-dried formulation 8, resuspended in water)",
+     "identity": "nanoparticle_loaded",
+     "composition": "PGZ-NP formulation 8 after Nano Spray Dryer B-90, nozzle 5.5 um, outlet 30 C",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S12",
+     "name": "Spray 4 (spray-dried formulation 8, resuspended in water)",
+     "identity": "nanoparticle_loaded",
+     "composition": "PGZ-NP formulation 8 after Nano Spray Dryer B-90, nozzle 7.0 um, outlet 30 C",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S13",
+     "name": "Spray-dried PGZ-NPs (condition not specified)",
+     "identity": "nanoparticle_loaded",
+     "composition": "PGZ-NPs after spray drying, which Spray condition not stated for SEM",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S14",
+     "name": "Pioglitazone (PGZ) drug",
+     "identity": "pure_component",
+     "composition": "free drug",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S15",
+     "name": "PVA",
+     "identity": "pure_component",
+     "composition": "polyvinyl alcohol surfactant",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S16",
+     "name": "PLGA-PEG",
+     "identity": "pure_component",
+     "composition": "polymer",
+     "formulation_defined_in": "not_defined"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "particle morphology and size",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "spherical, low dispersion"
+     },
+     "conditions": {
+      "prep_state": "negative stain 2% uranyl acetate, diluted 1:4 in water",
+      "scale_bar_present": null,
+      "instrument": "JEOL JEM-1010",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "evidencing that PGZ-NPs were morphologically spherical and presented low dispersion",
+      "location": "Results > 3.1 (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of spray-dried NP powder",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S13",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "aggregates polydisperse from nanometers to micrometers"
+     },
+     "conditions": {
+      "prep_state": "dried powder coated with carbon",
+      "scale_bar_present": null,
+      "instrument": "JEOL J-7100F",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua",
+      "dato_dudoso"
+     ],
+     "evidence": {
+      "quote": "SEM images of NP-based dried solids showed a high polydispersity of the aggregates present in the powder, from nanometers to micrometers in diameter",
+      "location": "Results > 3.1 (Fig. 3 caption: SEM after spray drying; text also cites Fig S1)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -2.47,
+      "zeta_sd_mV": 0.08
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "1 | 8.0 | 3.5 | 2.0 | 223.90 ± 1.60 | 0.09 ± 0.00 | −2.47 ± 0.08",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.3,
+      "zeta_sd_mV": 0.3
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "2 | 9.0 | 3.5 | 2.0 | 231.91 ± 0.77 | 0.08 ± 0.01 | −3.30 ± 0.30",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -2.54,
+      "zeta_sd_mV": 0.43
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "3 | 8.0 | 4.5 | 2.0 | 242.32 ± 2.85 | 0.16 ± 0.03 | −2.54 ± 0.43",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.28,
+      "zeta_sd_mV": 0.38
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "4 | 8.0 | 3.5 | 2.5 | 251.42 ± 0.66 | 0.20 ± 0.00 | −3.28 ± 0.38",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.42,
+      "zeta_sd_mV": 0.22
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "5 | 9.0 | 4.5 | 2.0 | 234.51 ± 0.90 | 0.17 ± 0.01 | −3.42 ± 0.22",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.82,
+      "zeta_sd_mV": 0.25
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "6 | 9.0 | 3.5 | 2.5 | 302.81 ± 1.94 | 0.23 ± 0.02 | −3.82 ± 0.25",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -2.76,
+      "zeta_sd_mV": 0.5
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "7 | 8.0 | 4.5 | 2.5 | 242.52 ± 3.51 | 0.16 ± 0.01 | −2.76 ± 0.50",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.34,
+      "zeta_sd_mV": 0.42
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "8 | 9.0 | 4.5 | 2.5 | 247.22 ± 2.77 | 0.17 ± 0.03 | −3.34 ± 0.42",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S9",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -6.93,
+      "zeta_sd_mV": 1.04
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 1 | 366.61 ± 13.48 | 0.39 ± 0.01 | −6.93 ± 1.04",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S10",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -7.57,
+      "zeta_sd_mV": 1.53
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 2 | 271.31 ± 2.78 | 0.24 ± 0.00 | −7.57 ± 1.53",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S11",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -6.48,
+      "zeta_sd_mV": 0.31
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 3 | 328.02 ± 1.34 | 0.29 ± 0.03 | −6.48 ± 0.31",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S12",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -9.87,
+      "zeta_sd_mV": 0.48
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS",
+      "dilution": "1:10 v/v in Milli-Q water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 4 | 276.64 ± 1.75 | 0.23 ± 0.00 | −9.87 ± 0.48",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 223.9,
+      "size_sd_nm": 1.6,
+      "pdi": 0.09,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "1 | 8.0 | 3.5 | 2.0 | 223.90 ± 1.60 | 0.09 ± 0.00 | −2.47 ± 0.08",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 231.91,
+      "size_sd_nm": 0.77,
+      "pdi": 0.08,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "2 | 9.0 | 3.5 | 2.0 | 231.91 ± 0.77 | 0.08 ± 0.01 | −3.30 ± 0.30",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 242.32,
+      "size_sd_nm": 2.85,
+      "pdi": 0.16,
+      "pdi_sd": 0.03
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "3 | 8.0 | 4.5 | 2.0 | 242.32 ± 2.85 | 0.16 ± 0.03 | −2.54 ± 0.43",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 251.42,
+      "size_sd_nm": 0.66,
+      "pdi": 0.2,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "4 | 8.0 | 3.5 | 2.5 | 251.42 ± 0.66 | 0.20 ± 0.00 | −3.28 ± 0.38",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 234.51,
+      "size_sd_nm": 0.9,
+      "pdi": 0.17,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "5 | 9.0 | 4.5 | 2.0 | 234.51 ± 0.90 | 0.17 ± 0.01 | −3.42 ± 0.22",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 302.81,
+      "size_sd_nm": 1.94,
+      "pdi": 0.23,
+      "pdi_sd": 0.02
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "6 | 9.0 | 3.5 | 2.5 | 302.81 ± 1.94 | 0.23 ± 0.02 | −3.82 ± 0.25",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 242.52,
+      "size_sd_nm": 3.51,
+      "pdi": 0.16,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "7 | 8.0 | 4.5 | 2.5 | 242.52 ± 3.51 | 0.16 ± 0.01 | −2.76 ± 0.50",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 247.22,
+      "size_sd_nm": 2.77,
+      "pdi": 0.17,
+      "pdi_sd": 0.03
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "8 | 9.0 | 4.5 | 2.5 | 247.22 ± 2.77 | 0.17 ± 0.03 | −3.34 ± 0.42",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S9",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 366.61,
+      "size_sd_nm": 13.48,
+      "pdi": 0.39,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 1 | 366.61 ± 13.48 | 0.39 ± 0.01 | −6.93 ± 1.04",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S10",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 271.31,
+      "size_sd_nm": 2.78,
+      "pdi": 0.24,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 2 | 271.31 ± 2.78 | 0.24 ± 0.00 | −7.57 ± 1.53",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S11",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 328.02,
+      "size_sd_nm": 1.34,
+      "pdi": 0.29,
+      "pdi_sd": 0.03
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 3 | 328.02 ± 1.34 | 0.29 ± 0.03 | −6.48 ± 0.31",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "average particle size (Zav) and PI after resuspension in water",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S12",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 276.64,
+      "size_sd_nm": 1.75,
+      "pdi": 0.23,
+      "pdi_sd": 0.0
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1:20 v/v in Milli-Q water",
+      "instrument": "Zetasizer Nano ZS"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Spray 4 | 276.64 ± 1.75 | 0.23 ± 0.00 | −9.87 ± 0.48",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "melting endotherm of pure drug",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S14",
+     "formulation_link": {
+      "where": "not_defined",
+      "confidence": "paper_level"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "Tm_max_C": 195.9,
+      "enthalpy_J_g": 140.33
+     },
+     "conditions": {
+      "heating": "30-240 C at 10 C/min, N2",
+      "instrument": "DSC 823e Mettler Toledo"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "an endothermic accident that corresponded to the fusion of the drug with a maximum temperature of 195.90 °C and an enthalpy of 140.33 J/g",
+      "location": "Results > 3.3 (Fig. 4A)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "melting endotherm of PVA",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S15",
+     "formulation_link": {
+      "where": "not_defined",
+      "confidence": "paper_level"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "Tm_max_C": 193.55,
+      "enthalpy_J_g": 5.32
+     },
+     "conditions": {
+      "heating": "30-240 C at 10 C/min, N2",
+      "instrument": "DSC 823e Mettler Toledo"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PVA showed an endothermic event corresponding to the melting process with a maximum at 193.55 °C and an enthalpy of 5.32 J/g.",
+      "location": "Results > 3.3 (Fig. 4A)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "glass transition of polymer",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S16",
+     "formulation_link": {
+      "where": "not_defined",
+      "confidence": "paper_level"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "Tg_C": 50
+     },
+     "conditions": {
+      "heating": "30-240 C at 10 C/min, N2",
+      "instrument": "DSC 823e Mettler Toledo"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PLGA-PEG glass transition (Tg) temperature was around 50 °C.",
+      "location": "Results > 3.3 (Fig. 4A)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of PGZ-NPs (no drug fusion peak)",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "inferred"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "drug_fusion_peak": "absent"
+     },
+     "conditions": {
+      "heating": "30-240 C at 10 C/min, N2",
+      "instrument": "DSC 823e Mettler Toledo"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "The thermogram of the PGZ-NPs did not show the drug fusion",
+      "location": "Discussion (Fig. 4A)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of pure drug",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S14",
+     "formulation_link": {
+      "where": "not_defined",
+      "confidence": "paper_level"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "crystalline"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The diffraction pattern of the drug indicated a crystalline structure unlike the polymer (Figure 4B).",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of PGZ-NPs before drying",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "inferred"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "amorphous, PLGA-PEG-like profile with small attenuated peaks"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "PGZ-NPs before the the drying process showed a profile similar to the PLGA-PEG, with small and attenuated peaks",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of spray-dried NPs",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S9",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "amorphous"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PVA, PGZ-NPs, and each NP formulation after the drying process (Spray 1, Spray 2, Spray 3, Spray 4) showed an amorphous structure.",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of spray-dried NPs",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S10",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "amorphous"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PVA, PGZ-NPs, and each NP formulation after the drying process (Spray 1, Spray 2, Spray 3, Spray 4) showed an amorphous structure.",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of spray-dried NPs",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S11",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "amorphous"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PVA, PGZ-NPs, and each NP formulation after the drying process (Spray 1, Spray 2, Spray 3, Spray 4) showed an amorphous structure.",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "crystallinity of spray-dried NPs",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S12",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "state": "amorphous"
+     },
+     "conditions": {
+      "radiation": "Cu Kα2",
+      "range_2theta": "2-60",
+      "instrument": "Siemens D500"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The PVA, PGZ-NPs, and each NP formulation after the drying process (Spray 1, Spray 2, Spray 3, Spray 4) showed an amorphous structure.",
+      "location": "Results > 3.3 (Fig. 4B)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "interaction drug-excipients (PGZ-NPs)",
+     "assay_purpose": "drug-excipient interaction",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "inferred"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "main_peaks_cm-1": null,
+      "finding": "no new covalent bonds observed"
+     },
+     "conditions": {
+      "range_cm-1": "500-4000",
+      "instrument": "Thermo Scientific Nicolet iZ10, ATR diamond, DTGS detector"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua",
+      "solo_lista_de_picos"
+     ],
+     "evidence": {
+      "quote": "FTIR spectra were achieved using a Thermo Scientific Nicolet iZ10 with an ATR diamond and DTGS detector",
+      "location": "Methods > 2.8 (Fig. 4C)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "spectra of spray-dried NPs",
+     "assay_purpose": "drug-excipient interaction",
+     "sample_id": "S13",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "raw_curve",
+     "values": {
+      "main_peaks_cm-1": null,
+      "finding": "peaks very similar, mainly surfactant"
+     },
+     "conditions": {
+      "range_cm-1": "500-4000",
+      "instrument": "Thermo Scientific Nicolet iZ10, ATR diamond, DTGS detector"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "Related to the drying formulation, the absorption peaks were very similar and corresponded mainly to the surfactant",
+      "location": "Discussion (Fig. 4C)"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [
+    {
+     "technique": "SEM",
+     "quote": "after the spray drying process, TEM (Figure 3) and SEM (Supplementary Materials, Figure S1) determinations were performed"
+    }
+   ],
+   "notes": "Text and Fig. 3 caption disagree on TEM vs SEM of dried NPs; Fig S1 is SEM in SI. DSC/XRD/FTIR of 'PGZ-NPs' assigned to formulation 8 by inference."
+  },
+  {
+   "pmcid": "PMC9047672",
+   "context": {
+    "summary": "Cubosomes (monoolein, Pluronic F108) with a layer-by-layer shell of chitosan, DNA and folic acid-chitosan, co-loading NaYF4:Er,Yb upconverting nanoparticles and daunorubicin for NIR-induced photodynamic therapy; physicochemical, optical and cell studies.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "other",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "CUB",
+     "identity": "nanoparticle_empty",
+     "composition": "monoolein/PF108 cubosomes with CHIT/DNA/FA-CHIT shell (empty)",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S2",
+     "name": "CUB*",
+     "identity": "nanoparticle_empty",
+     "composition": "empty cubosomes without outermost FA-CHIT layer",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S3",
+     "name": "HyCUB",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with NaYF4:Er,Yb UCNPs, FA-CHIT outer layer",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S4",
+     "name": "HyCUB*",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with UCNPs, without outer FA-CHIT layer",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S5",
+     "name": "DHyCUB (200 uM DNR)",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with UCNPs + daunorubicin 200 uM, FA-CHIT outer layer",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S6",
+     "name": "DHyCUB*",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with UCNPs + daunorubicin, without outer FA-CHIT layer",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S7",
+     "name": "DHyCUB (400 uM DNR)",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with UCNPs + daunorubicin 400 uM",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S8",
+     "name": "DHyCUB (600 uM DNR)",
+     "identity": "nanoparticle_loaded",
+     "composition": "cubosomes with UCNPs + daunorubicin 600 uM",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S9",
+     "name": "Daunorubicin (DNR)",
+     "identity": "pure_component",
+     "composition": "free drug",
+     "formulation_defined_in": "not_defined"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "cubosome morphology",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "quasi-spherical and squared-shaped; dense matrix with bright water-channel spots; small unilamellar vesicles also seen"
+     },
+     "conditions": {
+      "prep_state": "vitrified (ethane/propane), lacey carbon grid",
+      "scale_bar_present": true,
+      "instrument": "Tecnai F20 cryoTEM, 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "Cryo-TEM pictures of CUB formulation, shown in Figure 3a, are characterized by the simultaneous presence of quasi-spherical and squared-shaped nanoparticles",
+      "location": "Results > Physicochemical Issues (Fig. 3a)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "cryoTEM",
+     "measurand": "cubosome morphology and UCNP localization",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": null,
+      "morphology": "cubosomes with UCNPs embedded in lipid structure"
+     },
+     "conditions": {
+      "prep_state": "vitrified (ethane/propane), lacey carbon grid",
+      "scale_bar_present": true,
+      "instrument": "Tecnai F20 cryoTEM, 200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "that is, all the UCNPs are embedded only within the cubosomes",
+      "location": "Results > Physicochemical Issues (Fig. 3b)"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 13.5,
+      "zeta_sd_mV": 0.7
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "CUB | 162 ± 7 | 0.184 ± 0.010 | +13.5 ± 0.7",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 40.4,
+      "zeta_sd_mV": 2.0
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "CUB* | 154 ± 6 | 0.163 ± 0.010 | +40.4 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 14.6,
+      "zeta_sd_mV": 0.8
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "HyCUB | 167 ± 8 | 0.215 ± 0.012 | +14.6 ± 0.8",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 38.4,
+      "zeta_sd_mV": 2.0
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "HyCUB* | 156 ± 6 | 0.254 ± 0.013 | +38.4 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 14.4,
+      "zeta_sd_mV": 0.7
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 169 ± 8 | 0.253 ± 0.013 | +14.4 ± 0.7",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 38.7,
+      "zeta_sd_mV": 2.0
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB* | 163 ± 7 | 0.250 ± 0.013 | +38.7 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 14.0,
+      "zeta_sd_mV": 0.7
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 400 | 86 ± 3 | 170 ± 8 | 0.284 ± 0.014 | +14.0 ± 0.7",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 14.7,
+      "zeta_sd_mV": 0.8
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer Nano ZS",
+      "dilution": "1:50 in double distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 600 | 83 ± 3 | 173 ± 9 | 0.273 ± 0.014 | +14.7 ± 0.8",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 162,
+      "size_sd_nm": 7,
+      "pdi": 0.184,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "CUB | 162 ± 7 | 0.184 ± 0.010 | +13.5 ± 0.7",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 154,
+      "size_sd_nm": 6,
+      "pdi": 0.163,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "CUB* | 154 ± 6 | 0.163 ± 0.010 | +40.4 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 167,
+      "size_sd_nm": 8,
+      "pdi": 0.215,
+      "pdi_sd": 0.012
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "HyCUB | 167 ± 8 | 0.215 ± 0.012 | +14.6 ± 0.8",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 156,
+      "size_sd_nm": 6,
+      "pdi": 0.254,
+      "pdi_sd": 0.013
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "HyCUB* | 156 ± 6 | 0.254 ± 0.013 | +38.4 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 169,
+      "size_sd_nm": 8,
+      "pdi": 0.253,
+      "pdi_sd": 0.013
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 169 ± 8 | 0.253 ± 0.013 | +14.4 ± 0.7",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 163,
+      "size_sd_nm": 7,
+      "pdi": 0.25,
+      "pdi_sd": 0.013
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB* | 163 ± 7 | 0.250 ± 0.013 | +38.7 ± 2.0",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 170,
+      "size_sd_nm": 8,
+      "pdi": 0.284,
+      "pdi_sd": 0.014
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 400 | 86 ± 3 | 170 ± 8 | 0.284 ± 0.014 | +14.0 ± 0.7",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter (DH) and PdI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 173,
+      "size_sd_nm": 9,
+      "pdi": 0.273,
+      "pdi_sd": 0.014
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 173,
+      "dilution": "1:50 in double distilled water",
+      "instrument": "Malvern Zetasizer Nano Series"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "DHyCUB | 600 | 83 ± 3 | 173 ± 9 | 0.273 ± 0.014 | +14.7 ± 0.8",
+      "location": "Table 2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "internal nanostructure (Im3m lattice parameter)",
+     "assay_purpose": "internal nanostructure",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "phase": "Im3m",
+      "lattice_parameter_A": 134,
+      "peaks": "two peaks (sqrt2 undetectable)"
+     },
+     "conditions": {
+      "temperature_C": 25,
+      "instrument": "MicroMax-002, Cu Ka",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In general, the bicontinuous cubic Im3m internal nanostructure was retained and confirmed for all the samples, with a calculated lattice parameter of 134 Å.",
+      "location": "Results > Physicochemical Issues (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "internal nanostructure (Im3m lattice parameter)",
+     "assay_purpose": "internal nanostructure",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "phase": "Im3m",
+      "lattice_parameter_A": 134,
+      "peaks": "sqrt2, sqrt4, sqrt6"
+     },
+     "conditions": {
+      "temperature_C": 25,
+      "instrument": "MicroMax-002, Cu Ka",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In general, the bicontinuous cubic Im3m internal nanostructure was retained and confirmed for all the samples, with a calculated lattice parameter of 134 Å.",
+      "location": "Results > Physicochemical Issues (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "internal nanostructure (Im3m lattice parameter)",
+     "assay_purpose": "internal nanostructure",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "phase": "Im3m",
+      "lattice_parameter_A": 134,
+      "peaks": "sqrt2, sqrt4, sqrt6"
+     },
+     "conditions": {
+      "temperature_C": 25,
+      "instrument": "MicroMax-002, Cu Ka",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In general, the bicontinuous cubic Im3m internal nanostructure was retained and confirmed for all the samples, with a calculated lattice parameter of 134 Å.",
+      "location": "Results > Physicochemical Issues (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "internal nanostructure (Im3m lattice parameter)",
+     "assay_purpose": "internal nanostructure",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "phase": "Im3m",
+      "lattice_parameter_A": 134,
+      "peaks": "sqrt2, sqrt4, sqrt6"
+     },
+     "conditions": {
+      "temperature_C": 25,
+      "instrument": "MicroMax-002, Cu Ka",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In general, the bicontinuous cubic Im3m internal nanostructure was retained and confirmed for all the samples, with a calculated lattice parameter of 134 Å.",
+      "location": "Results > Physicochemical Issues (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "SAXS",
+     "variant": "SAXS",
+     "measurand": "internal nanostructure (Im3m lattice parameter)",
+     "assay_purpose": "internal nanostructure",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "phase": "Im3m",
+      "lattice_parameter_A": 134,
+      "peaks": "sqrt2, sqrt4, sqrt6"
+     },
+     "conditions": {
+      "temperature_C": 25,
+      "instrument": "MicroMax-002, Cu Ka",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In general, the bicontinuous cubic Im3m internal nanostructure was retained and confirmed for all the samples, with a calculated lattice parameter of 134 Å.",
+      "location": "Results > Physicochemical Issues (Fig. 2)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "daunorubicin encapsulation efficiency after cubosome disruption",
+     "assay_purpose": "drug quantification",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "lambda_max_nm": 495,
+      "EE_percent": 90
+     },
+     "conditions": {
+      "solvent": "THF/water 3:1 after disruption",
+      "instrument": "Metertech SP8001"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "reading the absorption maxima at λDNR = 495 nm",
+      "location": "Methods > DNR Encapsulation Efficiency; Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "daunorubicin encapsulation efficiency after cubosome disruption",
+     "assay_purpose": "drug quantification",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "lambda_max_nm": 495,
+      "EE_percent": 86
+     },
+     "conditions": {
+      "solvent": "THF/water 3:1 after disruption",
+      "instrument": "Metertech SP8001"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "reading the absorption maxima at λDNR = 495 nm",
+      "location": "Methods > DNR Encapsulation Efficiency; Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "daunorubicin encapsulation efficiency after cubosome disruption",
+     "assay_purpose": "drug quantification",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "lambda_max_nm": 495,
+      "EE_percent": 83
+     },
+     "conditions": {
+      "solvent": "THF/water 3:1 after disruption",
+      "instrument": "Metertech SP8001"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "reading the absorption maxima at λDNR = 495 nm",
+      "location": "Methods > DNR Encapsulation Efficiency; Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "a_intrinsic",
+     "measurand": "absorbance spectrum of free daunorubicin (overlap with UCNP emission)",
+     "assay_purpose": "spectral overlap",
+     "sample_id": "S9",
+     "formulation_link": {
+      "where": "not_defined",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "lambda_max_nm": null
+     },
+     "conditions": {
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "compared with absorbance spectra of DNR molecules",
+      "location": "Fig. 4 caption"
+     },
+     "confidence": "baja"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Table 2 rows for 400 and 600 uM DNR used for S7/S8; asterisk = no outermost FA-CHIT layer. Cryo-TEM sample asterisk status not stated."
+  }
+ ]
+}

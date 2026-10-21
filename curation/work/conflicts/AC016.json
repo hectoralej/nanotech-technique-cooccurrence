@@ -1,0 +1,353 @@
+{
+ "batch": "AC016",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\AC016.json",
+ "articles": [
+  {
+   "pmcid": "PMC9727730",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9727730.txt",
+   "issues": [
+    {
+     "issue": "PMC9727730:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_dried_unstained",
+       "sample": "Cbs-Cu-HA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "cubical structures",
+        "size_nm": null,
+        "size_sd_nm": null,
+        "n_particles_measured": null
+       },
+       "conditions": {
+        "prep_state": "drop on carbon-film nickel grid, blotted, dried in desiccator 24 h, no stain mentioned",
+        "scale_bar_present": null,
+        "instrument": "FEI Tecnai TF20, 300 kV",
+        "n_images": null
+       },
+       "quote": "The grid was left in a desiccator to dry for 24 h.",
+       "location": "Methods > TEM; Fig. 1E caption"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "Cbs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "SI_only",
+       "link": "explicit",
+       "values": {
+        "morphology": "cubical structures",
+        "size_nm": null
+       },
+       "conditions": {
+        "prep_state": "not_declared for Cbs",
+        "scale_bar_present": null,
+        "instrument": "FEI Tecnai TF20",
+        "n_images": null
+       },
+       "quote": "and of cubosomes without drug or HA (Cbs; Figure S5) show cubical structures",
+       "location": "Results > Characterization of Cubosomes"
+      }
+     ]
+    },
+    {
+     "issue": "PMC9727730:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "z_average",
+       "sample": "Cbs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 106,
+        "size_sd_nm": null,
+        "pdi": 0.155,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "which yielded a Z-average size of 106 nm for cubosomes without an external ligand",
+       "location": "Results"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Cbs-Cu-HA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 152,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "with a Z-average size of 152 nm (Figure 1B, Figure S2)",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "z_average",
+       "sample": "Cbs",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 106,
+        "size_sd_nm": null,
+        "pdi": 0.155,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "PBS",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "100 uL in 900 uL PBS",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "which yielded a Z-average size of 106 nm for cubosomes without an external ligand or cytotoxic drug payload",
+       "location": "Results > Characterization of Cubosomes; Fig. 1B"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Cbs-Cu",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 125,
+        "size_sd_nm": null,
+        "pdi": 0.159,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "PBS",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "100 uL in 900 uL PBS",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "Inclusion of CuAc caused an increase in cubosome size to 125 nm",
+       "location": "Results > Characterization of Cubosomes; Fig. 1B"
+      },
+      {
+       "variant": "z_average",
+       "sample": "Cbs-Cu-HA",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "size_nm": 152,
+        "size_sd_nm": null,
+        "pdi": 0.131,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "PBS",
+        "temperature_C": 25,
+        "angle_deg": 173,
+        "dilution": "100 uL in 900 uL PBS",
+        "instrument": "Zetasizer Nano ZS90"
+       },
+       "quote": "creating Cbs-Cu-HA nanoparticles, with a Z-average size of 152 nm",
+       "location": "Results > Characterization of Cubosomes; Fig. 1B"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC7279150",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7279150.txt",
+   "issues": [
+    {
+     "issue": "PMC7279150:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "cryoTEM",
+       "sample": "NLCa",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "multiple-type-III NLC with grape-like aggregates of small oil nanocomponents; bimodal distribution",
+        "size_nm": null,
+        "n_particles_measured": ">500"
+       },
+       "conditions": {
+        "prep_state": "vitrified in liquid ethane, copper grid with amorphous carbon film",
+        "scale_bar_present": null,
+        "instrument": "Hitachi 7700, 100 kV, 105 K",
+        "n_images": "30 fields at 5k and 30 fields at 40k"
+       },
+       "quote": "NLCa prepared with IPM induced the formation of a similar multiple-type-III NLC",
+       "location": "Results > 3.1; Fig. 2a,c"
+      },
+      {
+       "variant": "cryoTEM",
+       "sample": "NLCb",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "small spherical particles, type-II (amorphous) structure; monomodal distribution",
+        "size_nm": null,
+        "n_particles_measured": ">500"
+       },
+       "conditions": {
+        "prep_state": "vitrified in liquid ethane, copper grid with amorphous carbon film",
+        "scale_bar_present": null,
+        "instrument": "Hitachi 7700, 100 kV, 105 K",
+        "n_images": "30 fields at 5k and 30 fields at 40k"
+       },
+       "quote": "the presence of the EO in NLCb allowed the production of small spherically shaped particles with a type-II (amorphous) structure (Figure 2b)",
+       "location": "Results > 3.1; Fig. 2b,d"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC8066468",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC8066468.txt",
+   "issues": [
+    {
+     "issue": "PMC8066468:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "sample 1, blank MCM-41",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "rod-like, length ~350 nm, width ~150 nm, hexagonal pores 3-4 nm"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "The mesoporous silica particles have a rod-like shape, with a length of about 350 nm and a width of about 150 nm",
+       "location": "Results 3.1"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "sample 2, MCM-41/Napro",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "mesostructure unchanged after loading"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "After modification and naproxen loading the mesostructure, as evidenced by HRTEM (High-resolution transmission electron microscopy), remained unchanged",
+       "location": "Results 3.1"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "sample 3, MCM-41/Fe2O3",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "hexagonal symmetry retained; Fe2O3 as dark spots in silica grains"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "the regular hexagonal symmetry of MCM-41 silica is also retained (3A, 3B)",
+       "location": "Results 3.1"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "sample 4, MCM-41/Napro/Fe2O3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "Fe2O3 nanoparticles visible as dark spots inside silica grains"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "visible as dark spots inside the silica grains in Figure 1 (3A and 4A)",
+       "location": "Results 3.1"
+      },
+      {
+       "variant": "HRTEM",
+       "sample": "sample 1, blank MCM-41",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "sixfold symmetry FFT"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "(a) Fast Fourier transform (FFT) Image associated with HRTEM of blank MCM-41 (sample 1 in Figure 1)",
+       "location": "Fig. 2 caption"
+      },
+      {
+       "variant": "HRTEM",
+       "sample": "sample 2, MCM-41/Napro",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "sixfold FFT with reduced spot sharpness after drug loading"
+       },
+       "conditions": {
+        "prep_state": "sample on holey carbon-coated Cu grid, no stain stated",
+        "scale_bar_present": null,
+        "instrument": "JEOL 2100",
+        "n_images": null
+       },
+       "quote": "(b) FFT Image associated with HRTEM of the sample with drug MCM-41/Napro (sample 2 in Figure 1)",
+       "location": "Fig. 2 caption"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

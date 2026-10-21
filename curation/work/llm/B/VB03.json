@@ -1,0 +1,351 @@
+{
+  "pass": "B",
+  "batch": "VB03",
+  "articles": [
+    {
+      "pmcid": "PMC13335699",
+      "context": {
+        "summary": "mRNA lipid nanoparticles (ionizable lipids ETG-23, ETS-21, MC3, with DSPC, cholesterol, DMG-PEG2000) encoding the autoantigen MOG or p31 are tested as tolerizing vaccines in EAE and T1D mouse models; biodistribution, APC targeting and efficacy are studied.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "LNP",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "ETG-23-MOG", "identity": "nanoparticle_loaded", "composition": "ETG-23 / DSPC / Chol / DMG-PEG2000 47.5/10.5/40.5/1.5 mol%, MOG mRNA, N/P 10", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "ETS-21-MOG", "identity": "nanoparticle_loaded", "composition": "ETS-21 / DSPC / Chol / DMG-PEG2000 50/10/38.5/1.5 mol%, MOG mRNA, N/P 6", "formulation_defined_in": "text"},
+        {"id": "S3", "name": "MC3-MOG", "identity": "nanoparticle_loaded", "composition": "MC3 ionizable lipid LNP with MOG mRNA; ratios not given in packet", "formulation_defined_in": "not_defined"}
+      ],
+      "measurements": [],
+      "si_mentions": [
+        {"technique": "DLS", "quote": "A range of physicochemical properties is listed in Table S2 for each ionizable lipid used."}
+      ],
+      "notes": "Size/PDI measured with Zetasizer Nano ZS but values only in Table S2 (SI); no micrographs, no numeric characterization in packet."
+    },
+    {
+      "pmcid": "PMC9118843",
+      "context": {
+        "summary": "Gastric cancer patient-derived organoids are built and used to compare two clinically used paclitaxel nanoformulations (albumin-bound Albu-PTX and liposomal Lipo-PTX); the formulations are characterized by TEM, DLS and zeta, then tested in PDOs and PDX.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "other",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "Albu-PTX", "identity": "nanoparticle_loaded", "composition": "commercial albumin-bound paclitaxel; 1000 mg product contains 100 mg PTX", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "Lipo-PTX", "identity": "nanoparticle_loaded", "composition": "commercial liposomal paclitaxel; 1200 mg product contains 30 mg PTX", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "TEM_prep_not_declared",
+          "measurand": "representative TEM image of nanoformulation",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {},
+          "conditions": {"prep_state": "not_declared", "scale_bar_present": null, "instrument": "JEM-1400 TEM (JEOL), 120 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "Size distributions, zeta potentials, and representative TEM images of Albu-PTX and Lipo-PTX.", "location": "Fig. 3 caption"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "TEM_prep_not_declared",
+          "measurand": "representative TEM image of nanoformulation",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {},
+          "conditions": {"prep_state": "not_declared", "scale_bar_present": null, "instrument": "JEM-1400 TEM (JEOL), 120 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "Size distributions, zeta potentials, and representative TEM images of Albu-PTX and Lipo-PTX.", "location": "Fig. 3 caption"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": -15},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZEN 3600 Zetasizer"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado", "dato_dudoso"],
+          "evidence": {"quote": "narrow distributions that peak at approximately 100 nm and − 15 mV, respectively", "location": "Results > Efficacies of PTX nanoformulations"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": -15},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern ZEN 3600 Zetasizer"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado", "dato_dudoso"],
+          "evidence": {"quote": "narrow distributions that peak at approximately 100 nm and − 15 mV, respectively", "location": "Results > Efficacies of PTX nanoformulations"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "size distribution (peak approx.)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 100},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern ZEN 3600 Zetasizer"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado", "dato_dudoso"],
+          "evidence": {"quote": "narrow distributions that peak at approximately 100 nm and − 15 mV, respectively", "location": "Results > Efficacies of PTX nanoformulations"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "size distribution (peak approx.)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "paper_level"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 100},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern ZEN 3600 Zetasizer"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado", "dato_dudoso"],
+          "evidence": {"quote": "narrow distributions that peak at approximately 100 nm and − 15 mV, respectively", "location": "Results > Efficacies of PTX nanoformulations"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "Commercial products; single approximate value (~100 nm, ~-15 mV) reported for both formulations, exact values only in Fig. 3B."
+    },
+    {
+      "pmcid": "PMC11744570",
+      "context": {
+        "summary": "Sialic acid-targeting peptide-modified liposomes co-loaded with cyclosporine A and ferrostatin-1 (CF@SNPs) are prepared by thin-film hydration, characterized (DLS, zeta, cryo-TEM) and tested for retention and therapy in a dry eye disease mouse model.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "liposome",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "CF@SNPs", "identity": "nanoparticle_loaded", "composition": "soybean lecithin, cholesterol, DSPE-PEG2000, SA-PEG2000-DSPE, CsA and Fer-1 liposome", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "CF@NPs", "identity": "nanoparticle_loaded", "composition": "same lipid mix with SA-DSPE-PEG2000 replaced/substituted by DSPE-PEG2000 (no sialic acid ligand), CsA and Fer-1", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "cryoTEM",
+          "measurand": "particle morphology and diameter",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 145.8, "size_sd_nm": 22.94, "morphology": "spherical, individually dispersed"},
+          "conditions": {"prep_state": "vitrified (cryo)", "scale_bar_present": true, "instrument": "cryo-TEM (FEI), 200 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "size of CF@SNPs determined via cryo‐TEM was 145.8 ± 22.94 nm", "location": "Results > Preparation and Characterization"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": -20.2, "zeta_sd_mV": 5.33},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": null},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "Zeta potentials were ‐20.2 ± 5.33 mV and ‐26.9 ± 6.56 mV, respectively", "location": "Results > Preparation and Characterization"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": -26.9, "zeta_sd_mV": 6.56},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": null},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "Zeta potentials were ‐20.2 ± 5.33 mV and ‐26.9 ± 6.56 mV, respectively", "location": "Results > Preparation and Characterization"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "intensity_peak",
+          "measurand": "intensity-average hydrodynamic diameter (Dh)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 153.4, "size_sd_nm": 43.7, "pdi": null},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": null},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "were 153.4 ± 43.7 nm and 122.2 ± 21.1 nm, respectively", "location": "Results > Preparation and Characterization"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "intensity_peak",
+          "measurand": "intensity-average hydrodynamic diameter (Dh)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 122.2, "size_sd_nm": 21.1, "pdi": null},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": null},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "were 153.4 ± 43.7 nm and 122.2 ± 21.1 nm, respectively", "location": "Results > Preparation and Characterization"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "DLS variant mapped from 'intensity-average hydrodynamic diameter' (z-average vs intensity peak not stated); no PDI reported."
+    },
+    {
+      "pmcid": "PMC7559901",
+      "context": {
+        "summary": "Cationic OH4/DOPE (1/1) liposomes complexed with pDNA (lipoplexes, N/P 4) are characterized for size and charge with a 4.7 kb versus a 15.5 kb plasmid, and used to transfect an HIV-1 Gag-iGFP molecular clone plasmid into HEK293T cells.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "liposome",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "OH4/DOPE 1/1 liposomes", "identity": "nanoparticle_empty", "composition": "OH4 / DOPE 1/1 mol, 1 mg/mL in 10 mM MES pH 6.5", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "OH4/DOPE N/P 4 lipoplex with 15.5 kb DNA", "identity": "nanoparticle_loaded", "composition": "OH4/DOPE 1/1 with non-coding 15.5 kb pDNA at N/P 4", "formulation_defined_in": "text"},
+        {"id": "S3", "name": "OH4/DOPE N/P 4 lipoplex with 4.7 kb DNA", "identity": "nanoparticle_loaded", "composition": "OH4/DOPE 1/1 with 4.7 kb pDNA at N/P 4", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "cryoTEM",
+          "measurand": "liposome morphology (unilamellar vesicles)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "unilamellar liposomes"},
+          "conditions": {"prep_state": "vitrified, holey carbon grid, 2 mg/mL", "scale_bar_present": true, "instrument": "Libra 120 Plus, 120 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": [],
+          "evidence": {"quote": "OH4/DOPE 1/1 (n/n) formed unilamellar liposomes without extrusion, confirmed by Cryo-TEM (Figure 1B)", "location": "Results"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "TEM_negstain",
+          "measurand": "lipoplex morphology (lamellar substructure)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "figure", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "compact lipoplexes with lamellar substructure"},
+          "conditions": {"prep_state": "negative stain, 1% aqueous uranyl acetate, Formvar grid", "scale_bar_present": true, "instrument": "EM 900 (Zeiss)", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": [],
+          "evidence": {"quote": "Negative stain TEM of OH4/DOPE 1/1 (n/n) lipoplexes at N/P", "location": "Fig. 1 caption"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "AFM",
+          "measurand": "particle size/morphology by AFM",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "figure", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {},
+          "conditions": {"prep_state": "dried on silica wafer, washed with water and N2, intermittent contact mode", "scale_bar_present": null, "instrument": "Nanowizard 3 (JPK)", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "Additional AFM images serve as proof that the particle size is determined by DLS", "location": "Results"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "ELS",
+          "measurand": "zeta potential (laser Doppler velocimetry)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": 42},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano ZS ZEN3600, 25 C, 60 V"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "resulted in a zeta potential of 42 mV for the 15.5 kb DNA and 37 mV for the 4.7 kb DNA", "location": "Results"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "zeta",
+          "variant": "ELS",
+          "measurand": "zeta potential (laser Doppler velocimetry)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"zeta_mV": 37},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "Smoluchowski", "instrument": "Zetasizer Nano ZS ZEN3600, 25 C, 60 V"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "resulted in a zeta potential of 42 mV for the 15.5 kb DNA and 37 mV for the 4.7 kb DNA", "location": "Results"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "z-average hydrodynamic diameter and PDI",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 160, "pdi": 0.148},
+          "conditions": {"medium": "not_declared", "temperature_C": "25 or 37", "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano ZS ZEN3600"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "OH4/DOPE 1/1 (n/n) N/P 4 was characterized by lipoplexes with a diameter of 160 nm (PDI 0.148) for the 15.5 kb DNA", "location": "Results"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "z-average hydrodynamic diameter and PDI",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": 158, "pdi": 0.151},
+          "conditions": {"medium": "not_declared", "temperature_C": "25 or 37", "angle_deg": 173, "dilution": null, "instrument": "Zetasizer Nano ZS ZEN3600"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "158 nm (PDI 0.151) for the 4.7 kb DNA", "location": "Results"},
+          "confidence": "alta"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "Characterization used a non-coding 15.5 kb DNA; transfection used the HIV-1 Gag-iGFP clone. DLS/zeta medium not stated (lipoplexes prepared in 10 mM MES pH 6.5)."
+    }
+  ]
+}

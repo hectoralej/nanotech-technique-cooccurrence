@@ -1,0 +1,2531 @@
+{
+ "pass": "B",
+ "batch": "VB20",
+ "articles": [
+  {
+   "pmcid": "PMC10401763",
+   "context": {
+    "summary": "Soy lecithin/cholesterol liposomes (thin-film hydration, sonication) loaded with Allolobophora caliginosa coelomic fluid (ACCF); characterized by DLS, zeta, TEM, FTIR, XRD, UV-Vis; release, stability and antioxidant/anti-inflammatory/fibrinolytic activity studied.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "ACCF-liposomes",
+     "identity": "nanoparticle_loaded",
+     "composition": "225 mg soy lecithin, 25 mg cholesterol, 45 mg ACCF, hydrated in PBS pH 7.4",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S2",
+     "name": "free liposomes",
+     "identity": "nanoparticle_empty",
+     "composition": "liposomes without ACCF (FTIR comparison)",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S3",
+     "name": "ACCF",
+     "identity": "pure_component",
+     "composition": "Allolobophora caliginosa coelomic fluid",
+     "formulation_defined_in": "not_defined"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "particle morphology and diameter",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": 40,
+      "morphology": "vesicular, spherical, unilamellar, monodisperse"
+     },
+     "conditions": {
+      "prep_state": "negative stain 3% phosphotungstic acid on carbon-coated copper grid, air-dried",
+      "scale_bar_present": null,
+      "instrument": "JEOL JEM-1400 TEM, ~200 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "TEM photograph of the liposomes entrapped ACCF confirmed the formation of vesicular, spherical nano-liposomes with unilamellar configuration",
+      "location": "Results > The morphological surface of ACCF-liposomes; Fig. 1b,c"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -38.66,
+      "zeta_sd_mV": 0.33
+     },
+     "conditions": {
+      "medium": "buffer",
+      "pH": 7.0,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Zetasizer Nano ZS (Malvern)",
+      "dilution": "diluted with 0.2 M phosphate buffer (pH 7.0)"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "the zeta potential of ACCF-liposomes was -38.66±0.33mV",
+      "location": "Results > Average hydrodynamic diameter, zeta potential, and PDI; Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "average hydrodynamic size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "size_nm": 98,
+      "size_sd_nm": 0.33,
+      "pdi": 0.29,
+      "pdi_sd": 0.04
+     },
+     "conditions": {
+      "medium": "buffer",
+      "temperature_C": null,
+      "angle_deg": null,
+      "dilution": "diluted with 0.2 M phosphate buffer (pH 7.0)",
+      "instrument": "Zetasizer Nano ZS (Malvern)"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "the average hydrodynamic size of liposomes entrapped ACCF was 98 nm with a PDI of 0.29±0.04",
+      "location": "Results > Average hydrodynamic diameter, zeta potential, and PDI; Fig. 1a; Table 1/2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "KBr",
+     "measurand": "functional-group bands of liposome-entrapped ACCF",
+     "assay_purpose": "encapsulation / interaction check",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "interpretation": "no new/absent peaks vs ACCF and free liposomes"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "JASCO FTIR-6200",
+      "prep": "freeze-dried, KBr pellet"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "FT-IR spectrum of liposomes entrapped ACCF showed no appearance or disappearance of absorption peaks",
+      "location": "Results > FT-IR Spectra; Fig. 2a"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "unspecified",
+     "measurand": "bands of free liposomes",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       2927.45,
+       2777.04,
+       2356.62,
+       1839.78,
+       1639.23,
+       1519.65
+      ]
+     },
+     "conditions": {
+      "range_cm-1": "4000-400"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "The FT-IR spectrum of free liposomes showed bands at 2927.45, 2777.04, 2356.62, 1839.78, 1639.23, and 1519.65",
+      "location": "Results > FT-IR Spectra; Fig. 2a"
+     },
+     "confidence": "baja"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "unspecified",
+     "measurand": "bands of pure ACCF",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       3853.13,
+       3775.99,
+       3664.14,
+       3204.14,
+       2487.76,
+       2395.19,
+       2075.063
+      ]
+     },
+     "conditions": {
+      "range_cm-1": "4000-400"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "solo_lista_de_picos"
+     ],
+     "evidence": {
+      "quote": "characteristic bands at 3853.13, 3775.99, 3664.14, 3204.14, 2487.76, 2395.19, and 2075.063",
+      "location": "Results > FT-IR Spectra; Fig. 2a"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern and crystallite size",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [
+       31.7
+      ],
+      "range_2theta": "27-80",
+      "crystallite_size_nm": 21.62,
+      "radiation": "Cu Ka 1.5426 A"
+     },
+     "conditions": {
+      "instrument": "Rigaku Miniflex",
+      "kV_mA": "30/15",
+      "scan_range_2theta": "0-80",
+      "prep": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "dato_dudoso"
+     ],
+     "evidence": {
+      "quote": "ACCF-liposomes had distinct and narrow peaks ranging from 27° to 80°, with the highest peak at 2θ = 31.70°",
+      "location": "Results > XRD study; Fig. 2b"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "a_intrinsic",
+     "measurand": "absorption spectrum of ACCF-liposomes",
+     "assay_purpose": "optical absorption band",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "lambda_max_nm": 201,
+      "range_nm": "200-800"
+     },
+     "conditions": {
+      "instrument": "Cary 5000 double-beam UV-Vis-NIR",
+      "temperature": "room temperature",
+      "medium": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "medio_no_declarado"
+     ],
+     "evidence": {
+      "quote": "The UV–Vis spectrophotometer revealed a steady characteristic absorption band for ACCF-liposomes at 201 nm",
+      "location": "Results > Optical absorption and % transmittance; Fig. 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "free ACCF in supernatant at 360 nm for entrapment efficiency",
+     "assay_purpose": "drug quantification",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "lambda_nm": 360,
+      "entrapment_efficiency_percent": 77.58,
+      "ee_sd": 0.82
+     },
+     "conditions": {
+      "instrument": "Hitachi U-2001",
+      "calibration": "standard curve of ACCF absorbance vs concentration"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "liposomes had a greater ability to entrap ACCF with an entrapment efficiency of 77.58 ± 0.82%",
+      "location": "Results > Entrapment efficiency; Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "d_turbidity",
+     "measurand": "percent transmittance at 650 nm",
+     "assay_purpose": "transparency of dispersion",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "transmittance_percent": 99.2,
+      "transmittance_sd": 0.1,
+      "lambda_nm": 650
+     },
+     "conditions": {
+      "instrument": "Hitachi U-2001",
+      "blank": "distilled water"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "the transmittance percentage of ACCF-liposomes was 99.20 ± 0.10%",
+      "location": "Results > Optical absorption and % transmittance; Table 1"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "TEM size (40 nm), XRD crystallite size (21.62 nm) and DLS size (98 nm) differ; Table 2 PDI before storage (0.29 +/- 0.01) differs from Table 1 (0.29 +/- 0.04)."
+  },
+  {
+   "pmcid": "PMC9965523",
+   "context": {
+    "summary": "Andrographolide-loaded soy phosphatidylcholine/cholesterol nanoliposomes (AGL), optimized by Box-Behnken DoE and coated with mannosylated chitosan (MCS-AGL) for oral hepatitis therapy; physical, solid-state, release, permeation and PK evaluated.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "AGL",
+     "identity": "nanoparticle_loaded",
+     "composition": "optimized: 90 mg lipid (SPC/cholesterol), 30% sonication amplitude, 6 min; AG-loaded",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S2",
+     "name": "MCS-AGL",
+     "identity": "nanoparticle_loaded",
+     "composition": "AGL coated with 0.3% mannosylated chitosan",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S3",
+     "name": "AG",
+     "identity": "pure_component",
+     "composition": "pure andrographolide",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S4",
+     "name": "physical mixture",
+     "identity": "physical_mixture",
+     "composition": "SPC, cholesterol and AG physical mixture",
+     "formulation_defined_in": "not_defined"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_dried_unstained",
+     "measurand": "morphology of AGL",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "spherical"
+     },
+     "conditions": {
+      "prep_state": "drop on copper grid after dilution with distilled water, air-dried; no stain mentioned",
+      "scale_bar_present": true,
+      "instrument": "FEI Tecnai G2 Spirit Bio-Twin",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "TEM images of andrographolide liposomes (AGL) and Mannosylated chitosan-coated andrographolide liposomes (MCS-AGL)",
+      "location": "Fig. 6 caption (A: AGL at 100 nm scale)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "TEM_dried_unstained",
+     "measurand": "morphology of MCS-AGL with coating layer",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "coating layer observed on liposome surface"
+     },
+     "conditions": {
+      "prep_state": "drop on copper grid after dilution with distilled water, air-dried; no stain mentioned",
+      "scale_bar_present": true,
+      "instrument": "FEI Tecnai G2 Spirit Bio-Twin",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "a layer of MCS coating was observed on their surface, forming the MCS-AGL",
+      "location": "Abstract; Fig. 6 caption (B: MCS-AGL at 500 nm)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of AGL",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "text_value",
+     "values": {
+      "zeta_mV": -67.7
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern NanoZS",
+      "alternate_value_mV": -59.6
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "dato_dudoso",
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "The particle size, PDI, and zeta potential of the optimized AGL formulation were found to be 86.60 nm, 0.215, and −67.7 mV, respectively.",
+      "location": "Results > 3.3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "ELS",
+     "measurand": "zeta potential of MCS-AGL",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "text_value",
+     "values": {
+      "zeta_mV": 29.8
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern NanoZS"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "Similarly, we found that the zeta potential changed from −59.6 mV to 29.8 mV.",
+      "location": "Results > 3.3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI of AGL",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 86.6,
+      "pdi": 0.215
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": null,
+      "temperature_note": "room temperature",
+      "angle_deg": null,
+      "dilution": "diluted with double-distilled water",
+      "instrument": "Malvern NanoZS"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas",
+      "more_samples_than_recorded"
+     ],
+     "evidence": {
+      "quote": "Practically performed composition | 90 | 30 | 6 | 86.60 | 90.06",
+      "location": "Table 4; Results 3.3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size of MCS-AGL",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "text_value",
+     "values": {
+      "size_nm": 375.3,
+      "pdi": null,
+      "pdi_note": "PDI only described as below 0.3"
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": null,
+      "temperature_note": "room temperature",
+      "angle_deg": null,
+      "dilution": "diluted with double-distilled water",
+      "instrument": "Malvern NanoZS"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "sin_replicas"
+     ],
+     "evidence": {
+      "quote": "After coating, the particle size of the liposomes increased to 375.3 nm",
+      "location": "Results > 3.3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of AGL",
+     "assay_purpose": "encapsulation / interaction check",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "interpretation": "AG peaks reduced/disappeared in AGL"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "Bruker ALPHA II ATR-FTIR"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "some peaks of AG were found to have disappeared compared to the plain AG spectrum, showing the entrapment of AG into the lipids",
+      "location": "Results > 3.4.1; Fig. 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of MCS-AGL",
+     "assay_purpose": "coating confirmation",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "interpretation": "resembles MCS polymer spectrum"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "Bruker ALPHA II ATR-FTIR"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The IR spectra of MCS-AGL showed further reduction in the size and shape of the peaks, confirming the surface coating of the liposomes",
+      "location": "Results > 3.4.1; Fig. 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of pure andrographolide",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       3391.34,
+       3302.05,
+       1720
+      ]
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "Bruker ALPHA II ATR-FTIR"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "solo_lista_de_picos"
+     ],
+     "evidence": {
+      "quote": "The spectrum of AG showed peculiar peaks of the functional group -OH at 3391.34 cm−1, 3302.05 cm−1",
+      "location": "Results > 3.4.1; Fig. 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of physical mixture",
+     "assay_purpose": "pure component/mixture reference",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       2923,
+       1729
+      ]
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "Bruker ALPHA II ATR-FTIR"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "solo_lista_de_picos"
+     ],
+     "evidence": {
+      "quote": "The characteristic peaks between 3350–3450, 2923, 1729, and 2800–3000 cm−1 in the physical mixture confirm the presence of SPC, cholesterol, and AG",
+      "location": "Results > 3.4.1; Fig. 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of AGL",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       145.1
+      ],
+      "note": "AG melting peak absent"
+     },
+     "conditions": {
+      "range_C": "30-350",
+      "rate_C_min": 10,
+      "atmosphere": "N2 40 mL/min",
+      "sample_mass_mg": 5,
+      "instrument": "Shimadzu TA-60WS"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The thermogram of AGL illustrated a broad peak at 145.10 °C",
+      "location": "Results > 3.4.2; Fig. 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of MCS-AGL",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       87
+      ],
+      "note": "87 C peak attributed to chitosan"
+     },
+     "conditions": {
+      "range_C": "30-350",
+      "rate_C_min": 10,
+      "atmosphere": "N2 40 mL/min",
+      "sample_mass_mg": 5,
+      "instrument": "Shimadzu TA-60WS"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "the peak at 87 °C is of chitosan",
+      "location": "Results > 3.4.2; Fig. 4"
+     },
+     "confidence": "baja"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of pure AG",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       233.86
+      ],
+      "note": "melting point"
+     },
+     "conditions": {
+      "range_C": "30-350",
+      "rate_C_min": 10,
+      "atmosphere": "N2 40 mL/min",
+      "instrument": "Shimadzu TA-60WS"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The thermogram of AG illustrated a peak at 233.86 °C, which indicated its melting point",
+      "location": "Results > 3.4.2; Fig. 4"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of physical mixture",
+     "assay_purpose": "pure component/mixture reference",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       151.07,
+       173.22,
+       225.8
+      ]
+     },
+     "conditions": {
+      "range_C": "30-350",
+      "rate_C_min": 10,
+      "atmosphere": "N2 40 mL/min",
+      "instrument": "Shimadzu TA-60WS"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "showed two different peaks at 151.07 °C, 173.22 °C, and 225.80 °C",
+      "location": "Results > 3.4.2; Fig. 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of AGL",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "overlap of pure-component patterns; loss of AG crystallinity"
+     },
+     "conditions": {
+      "range_2theta": "5-80",
+      "instrument": "Rigaku",
+      "kV_mA": "40/15",
+      "radiation": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "the diffraction patterns obtained for AGL consisted of overlaps of spectra obtained from the pure components",
+      "location": "Results > 3.4.3; Fig. 5"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of MCS-AGL",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "broad peak, amorphous"
+     },
+     "conditions": {
+      "range_2theta": "5-80",
+      "instrument": "Rigaku",
+      "kV_mA": "40/15",
+      "radiation": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The diffraction peak of MCS-AGL shows similarity with the diffraction peak of AGL and MCS polymer",
+      "location": "Results > 3.4.3; Fig. 5"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of pure AG",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "highly crystalline"
+     },
+     "conditions": {
+      "range_2theta": "5-80",
+      "instrument": "Rigaku",
+      "kV_mA": "40/15",
+      "radiation": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The diffraction pattern of AG was highly crystalline in nature, as indicated by numerous peaks",
+      "location": "Results > 3.4.3; Fig. 5"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of physical mixture",
+     "assay_purpose": "pure component/mixture reference",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "few sharp AG peaks present"
+     },
+     "conditions": {
+      "range_2theta": "5-80",
+      "instrument": "Rigaku",
+      "kV_mA": "40/15",
+      "radiation": "not_declared"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "From the diffraction pattern of the physical mixture, the presence of a few sharp peaks confirms the existence of AG in the mixture",
+      "location": "Results > 3.4.3; Fig. 5"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "AGL zeta given as -67.7 mV (sec 3.3 first sentence) and -59.6 mV (same section later). 15 DoE runs (Table 2) have particle sizes but only the optimized AGL and MCS-AGL were recorded."
+  },
+  {
+   "pmcid": "PMC5702012",
+   "context": {
+    "summary": "Eluxadoline-loaded PLGA nanoparticles (single emulsion-evaporation, F1-F4) and Eudragit S100-coated optimized F3 (F3C) for oral colon-targeted delivery in IBS-D; size, zeta, EE, release, FTIR, XRD, SEM and rat pharmacokinetics.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "polymeric_NP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "F1",
+     "identity": "nanoparticle_loaded",
+     "composition": "ELUX-loaded plain PLGA NPs (PLGA 50-200 mg range; exact amount not given)",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S2",
+     "name": "F2",
+     "identity": "nanoparticle_loaded",
+     "composition": "ELUX-loaded plain PLGA NPs",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S3",
+     "name": "F3",
+     "identity": "nanoparticle_loaded",
+     "composition": "optimized ELUX-loaded plain PLGA NPs",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S4",
+     "name": "F4",
+     "identity": "nanoparticle_loaded",
+     "composition": "ELUX-loaded plain PLGA NPs",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S5",
+     "name": "F3C",
+     "identity": "nanoparticle_loaded",
+     "composition": "F3 coated with Eudragit S100 (5% w/v)",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S6",
+     "name": "ELUX",
+     "identity": "pure_component",
+     "composition": "pure eluxadoline powder",
+     "formulation_defined_in": "not_defined"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 260.32,
+      "size_sd_nm": 4.52,
+      "pdi": 0.114
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:100 with double distilled water, sonicated 5 min",
+      "instrument": "Malvern Particle Size Analyzer"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 260.19,
+      "size_sd_nm": 6.34,
+      "pdi": 0.107
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:100 with double distilled water, sonicated 5 min",
+      "instrument": "Malvern Particle Size Analyzer"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 273.76,
+      "size_sd_nm": 7.25,
+      "pdi": 0.327
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:100 with double distilled water, sonicated 5 min",
+      "instrument": "Malvern Particle Size Analyzer"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 279.76,
+      "size_sd_nm": 7.25,
+      "pdi": 0.345
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:100 with double distilled water, sonicated 5 min",
+      "instrument": "Malvern Particle Size Analyzer"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "particle size and PDI",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 302.06,
+      "size_sd_nm": 5.62,
+      "pdi": 0.431
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": 90,
+      "dilution": "1:100 with double distilled water, sonicated 5 min",
+      "instrument": "Malvern Particle Size Analyzer"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07",
+      "location": "Table 1"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -35.23,
+      "zeta_sd_mV": 2.54
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer",
+      "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54",
+      "location": "Table 1; Fig. 1/2 (zeta distributions)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -40.31,
+      "zeta_sd_mV": 1.56
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer",
+      "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56",
+      "location": "Table 1; Fig. 1/2 (zeta distributions)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -30.63,
+      "zeta_sd_mV": 2.47
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer",
+      "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47",
+      "location": "Table 1; Fig. 1/2 (zeta distributions)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -33.18,
+      "zeta_sd_mV": 4.54
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer",
+      "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54",
+      "location": "Table 1; Fig. 1/2 (zeta distributions)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -38.18,
+      "zeta_sd_mV": 2.07
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern Zetasizer",
+      "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07",
+      "location": "Table 1; Fig. 1/2 (zeta distributions)"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of plain F3 nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "spherical, smooth surface, some agglomeration"
+     },
+     "conditions": {
+      "prep_state": "dried on glass slide in desiccator, gold-palladium sputter-coated",
+      "scale_bar_present": null,
+      "instrument": "JEOL JSM-6360LV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "both plain and coated NPs were spherical in shape and have smooth surface with some agglomeration",
+      "location": "Results > SEM Analysis; Fig. 6A"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of Eudragit-coated F3C nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "spherical, smooth surface, some agglomeration; slightly bigger than plain"
+     },
+     "conditions": {
+      "prep_state": "dried on glass slide in desiccator, gold-palladium sputter-coated",
+      "scale_bar_present": null,
+      "instrument": "JEOL JSM-6360LV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "both plain and coated NPs were spherical in shape and have smooth surface with some agglomeration",
+      "location": "Results > SEM Analysis; Fig. 6B"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "KBr",
+     "measurand": "bands of pure ELUX",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "note": "sharp peaks in 400-1600 fingerprint region"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "ALPHA FT-IR (OPTIK)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The FT-IR spectra of ELUX showed a characteristic sharp peaks in the finger print region 400 cm-1–1600 cm-1",
+      "location": "Results > FT-IR; Fig. 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "KBr",
+     "measurand": "bands of F3 nanoparticles",
+     "assay_purpose": "encapsulation / interaction check",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "note": "ELUX bands diminished in fingerprint region"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "ALPHA FT-IR (OPTIK)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "All the characteristic absorption bands of ELUX diminished significantly in the finger print region of the drug in plain and coated PLGA NPs",
+      "location": "Results > FT-IR; Fig. 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "KBr",
+     "measurand": "bands of F3C nanoparticles",
+     "assay_purpose": "encapsulation / interaction check",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [],
+      "note": "ELUX bands diminished in fingerprint region"
+     },
+     "conditions": {
+      "range_cm-1": "4000-400",
+      "instrument": "ALPHA FT-IR (OPTIK)"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "All the characteristic absorption bands of ELUX diminished significantly in the finger print region of the drug in plain and coated PLGA NPs",
+      "location": "Results > FT-IR; Fig. 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of pure ELUX",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "several sharp peaks"
+     },
+     "conditions": {
+      "radiation": "Cu",
+      "kV_mA": "30/25",
+      "scan_rate_deg_min": 4,
+      "instrument": "Rigaku Ultima IV"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "several sharp peaks could be seen in pure ELUX",
+      "location": "Results > XRD; Fig. 5"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of F3 nanoparticles",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "ELUX sharp peaks disappeared or reduced"
+     },
+     "conditions": {
+      "radiation": "Cu",
+      "kV_mA": "30/25",
+      "scan_rate_deg_min": 4,
+      "instrument": "Rigaku Ultima IV"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "these peaks disappeared or reduced in intensity in the ELUX loaded PLGA NPs",
+      "location": "Results > XRD; Fig. 5"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of F3C nanoparticles",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "ELUX sharp peaks disappeared or reduced"
+     },
+     "conditions": {
+      "radiation": "Cu",
+      "kV_mA": "30/25",
+      "scan_rate_deg_min": 4,
+      "instrument": "Rigaku Ultima IV"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "these peaks disappeared or reduced in intensity in the ELUX loaded PLGA NPs",
+      "location": "Results > XRD; Fig. 5"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [],
+   "notes": "Fig. 5 caption says XRF but text says XRD. Per-formulation PLGA amounts not tabulated."
+  },
+  {
+   "pmcid": "PMC10136298",
+   "context": {
+    "summary": "Quercetin-loaded PLGA nanoparticles (nanoprecipitation) coated with chitosan and folic acid, optimized by face-central composite DoE for PSMA-targeted delivery to LnCap prostate cancer cells; DLS, SEM, FTIR, XRD, DSC, TGA, release, cytotoxicity and uptake.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "polymeric_NP",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {
+     "id": "S1",
+     "name": "uncoated nps",
+     "identity": "unclear",
+     "composition": "PLGA nanoparticles without chitosan/folic acid coating (loading with quercetin not stated explicitly for DLS table)",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S2",
+     "name": "coated nps",
+     "identity": "nanoparticle_loaded",
+     "composition": "optimized: 10 mg quercetin, 23 mg chitosan, 45 mg folic acid, PLGA core",
+     "formulation_defined_in": "text"
+    },
+    {
+     "id": "S3",
+     "name": "unloaded nanoparticles",
+     "identity": "nanoparticle_empty",
+     "composition": "unloaded coated nanoparticles (DSC/TGA comparison)",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S4",
+     "name": "quercetin",
+     "identity": "pure_component",
+     "composition": "native quercetin",
+     "formulation_defined_in": "not_defined"
+    },
+    {
+     "id": "S5",
+     "name": "P1",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 30 mg, chitosan 35 mg, folic acid 30 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S6",
+     "name": "P2",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 10 mg, chitosan 10 mg, folic acid 15 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S7",
+     "name": "P3",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 20 mg, chitosan 35 mg, folic acid 10 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S8",
+     "name": "P4",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 30 mg, chitosan 60 mg, folic acid 45 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S9",
+     "name": "P5",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 20 mg, chitosan 35 mg, folic acid 30 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S10",
+     "name": "P6",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 20 mg, chitosan 60 mg, folic acid 30 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S11",
+     "name": "P7",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 10 mg, chitosan 60 mg, folic acid 15 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S12",
+     "name": "P8",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 30 mg, chitosan 60 mg, folic acid 15 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S13",
+     "name": "P9",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 30 mg, chitosan 10 mg, folic acid 15 mg",
+     "formulation_defined_in": "table"
+    },
+    {
+     "id": "S14",
+     "name": "P10",
+     "identity": "nanoparticle_loaded",
+     "composition": "DoE formulation: quercetin 30 mg, chitosan 10 mg, folic acid 45 mg",
+     "formulation_defined_in": "table"
+    }
+   ],
+   "measurements": [
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter and PDI of uncoated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 159.8,
+      "size_sd_nm": 2.0,
+      "pdi": 0.068,
+      "pdi_sd": 0.01
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1 mg in 1 mL distilled water, further diluted with distilled water",
+      "instrument": "Malvern ZetaSizer NanoZS"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "Uncoated nps | 159.8 ± 2.0 | 0.068 ± 0.01",
+      "location": "Table 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "size_unspecified",
+     "measurand": "hydrodynamic diameter and PDI of coated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "size_nm": 206.2,
+      "size_sd_nm": 1.7,
+      "pdi": 0.069,
+      "pdi_sd": 0.002
+     },
+     "conditions": {
+      "medium": "water",
+      "temperature_C": 25,
+      "angle_deg": null,
+      "dilution": "1 mg in 1 mL distilled water, further diluted with distilled water",
+      "instrument": "Malvern ZetaSizer NanoZS"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Coated nps | 206.2 ± 1.7 | 0.069 ± 0.002",
+      "location": "Table 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of uncoated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -21.0,
+      "zeta_sd_mV": 1.6
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "Uncoated nps | 159.8 ± 2.0 | 0.068 ± 0.01 | −21.0 ± 1.6",
+      "location": "Table 4"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of coated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 1.84,
+      "zeta_sd_mV": 0.4
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Coated nps | 206.2 ± 1.7 | 0.069 ± 0.002 | +1.84 ± 0.4",
+      "location": "Table 4; Table 3"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P1",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S5",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -1.6,
+      "zeta_sd_mV": 1.45
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "more_samples_than_recorded"
+     ],
+     "evidence": {
+      "quote": "P1 | (1, 0, 0) | 9.04 ± 2.15 | −1.60 ± 1.45",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P2",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S6",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 2.33,
+      "zeta_sd_mV": 0.87
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P2 | (−1, −1, −1) | 3.01 ± 1.50 | +2.33 ± 0.87",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P3",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S7",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 2.4,
+      "zeta_sd_mV": 0.08
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P3 | (0, 0, −1) | 3.90 ± 1.05 | +2.40 ± 0.08",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P4",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S8",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -5.03,
+      "zeta_sd_mV": 0.67
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P4 | (1, 1, 1) | 8.27 ± 1.30 | −5.03 ± 0.67",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P5",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S9",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 3.79,
+      "zeta_sd_mV": 1.21
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P5 | (0, 0, 0) | 2.78 ± 1.71 | +3.79 ± 1.21",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P6",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S10",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -2.17,
+      "zeta_sd_mV": 0.63
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P6 | (0, 1, 0) | 1.83 ± 1.30 | −2.17 ± 0.63",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P7",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S11",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 3.83,
+      "zeta_sd_mV": 1.34
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P7 | (−1, 1, −1) | 1.71 ± 2.86 | +3.83 ± 1.34",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P8",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S12",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -4.93,
+      "zeta_sd_mV": 0.17
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P8 | (1, 1, −1) | 6.72 ± 1.30 | −4.93 ± 0.17",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P9",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S13",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": 1.07,
+      "zeta_sd_mV": 0.35
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P9 | (1, −1, −1) | 8.94 ± 1.30 | +1.07 ± 0.35",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of DoE formulation P10",
+     "assay_purpose": "DoE response (surface charge)",
+     "sample_id": "S14",
+     "formulation_link": {
+      "where": "table",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "zeta_mV": -3.37,
+      "zeta_sd_mV": 0.31
+     },
+     "conditions": {
+      "medium": "water",
+      "pH": null,
+      "ionic_strength": null,
+      "model": "not_declared",
+      "instrument": "Malvern ZetaSizer NanoZS",
+      "temperature_C": 25
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "P10 | (1, −1, 1) | 14.2 ± 2.39 | −3.37 ± 0.31",
+      "location": "Table 2"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of uncoated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "spherical, uniform"
+     },
+     "conditions": {
+      "prep_state": "suspension dropped on aluminum stubs, dried 48 h under vacuum, gold sputter-coated",
+      "scale_bar_present": true,
+      "instrument": "ZEISS SIGMA field-emission SEM, 5-15 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n",
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "Scanning electron micrographs of (A) uncoated nanoparticles and (B) coated nanoparticles.",
+      "location": "Fig. 4 caption; Results 3.2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "micrograph",
+     "variant": "SEM",
+     "measurand": "morphology of coated nanoparticles",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "morphology": "spherical, some adhesion between particles"
+     },
+     "conditions": {
+      "prep_state": "suspension dropped on aluminum stubs, dried 48 h under vacuum, gold sputter-coated",
+      "scale_bar_present": true,
+      "instrument": "ZEISS SIGMA field-emission SEM, 5-15 kV",
+      "n_images": null
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "tamano_sin_n"
+     ],
+     "evidence": {
+      "quote": "Scanning electron micrographs of (A) uncoated nanoparticles and (B) coated nanoparticles.",
+      "location": "Fig. 4 caption; Results 3.2"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of uncoated nanoparticles",
+     "assay_purpose": "coating confirmation",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       1750
+      ]
+     },
+     "conditions": {
+      "resolution_cm-1": 4,
+      "instrument": "PerkinElmer spectrometer, diamond ATR"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "while the strong characteristic PLGA band at 1750 cm−1 can be seen in both uncoated and coated nanoparticle spectra",
+      "location": "Results > 3.3; Fig. 5A"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "FTIR",
+     "variant": "ATR",
+     "measurand": "bands of coated nanoparticles",
+     "assay_purpose": "coating confirmation",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_cm-1": [
+       1750
+      ],
+      "note": "chitosan bands present, folic acid bands not clear"
+     },
+     "conditions": {
+      "resolution_cm-1": 4,
+      "instrument": "PerkinElmer spectrometer, diamond ATR"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The characteristic bands of chitosan can be seen in the spectrum of the coated nanoparticles but not in that of the uncoated nanoparticles",
+      "location": "Results > 3.3; Fig. 5A"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of pure quercetin",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "crystalline, sharp bands"
+     },
+     "conditions": {
+      "radiation": "Cu Ka",
+      "kV_mA": "40/15",
+      "range_2theta": "10-60",
+      "scan_rate_deg_min": 10,
+      "instrument": "Rigaku MiniFlex 600"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "XRD (Figure 5B) shows the crystallinity of quercetin and folic acid, showing several sharp bands",
+      "location": "Results > 3.3; Fig. 5B"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of uncoated nanoparticles",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S1",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "more crystalline, quercetin-like bands"
+     },
+     "conditions": {
+      "radiation": "Cu Ka",
+      "kV_mA": "40/15",
+      "range_2theta": "10-60",
+      "scan_rate_deg_min": 10,
+      "instrument": "Rigaku MiniFlex 600"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "The spectrum of the uncoated nanoparticles shows more crystallinity, with bands corresponding to those of quercetin",
+      "location": "Results > 3.3; Fig. 5B"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "XRD",
+     "variant": "powder",
+     "measurand": "diffraction pattern of coated nanoparticles",
+     "assay_purpose": "crystallinity",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "main_peaks_2theta": [],
+      "interpretation": "quercetin peaks indistinct, amorphous"
+     },
+     "conditions": {
+      "radiation": "Cu Ka",
+      "kV_mA": "40/15",
+      "range_2theta": "10-60",
+      "scan_rate_deg_min": 10,
+      "instrument": "Rigaku MiniFlex 600"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "In the spectrum of the coated nanoparticles, these peaks are indistinct and less intense",
+      "location": "Results > 3.3; Fig. 5B"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of native quercetin",
+     "assay_purpose": "pure component reference",
+     "sample_id": "S4",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "paper_level"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       125,
+       325
+      ],
+      "note": "melting and decomposition"
+     },
+     "conditions": {
+      "range_C": "0-400",
+      "rate_C_min": 10,
+      "atmosphere": "N2",
+      "sample_mass_mg": 5,
+      "instrument": "Mettler Toledo DSC STARe"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "native quercetin showed endothermic peaks at 125 and 325 °C",
+      "location": "Results > 3.4; Fig. 6A"
+     },
+     "confidence": "alta"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of loaded coated nanoparticles",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       100
+      ],
+      "note": "broad dehydration peak; quercetin peaks absent"
+     },
+     "conditions": {
+      "range_C": "0-400",
+      "rate_C_min": 10,
+      "atmosphere": "N2",
+      "sample_mass_mg": 5,
+      "instrument": "Mettler Toledo DSC STARe"
+     },
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "The thermograms of loaded coated nanoparticles are similar to that of the unloaded nanoparticles, with a broad endothermic peak at 100 °C",
+      "location": "Results > 3.4; Fig. 6A"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "DSC",
+     "variant": "DSC",
+     "measurand": "thermogram of unloaded nanoparticles",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "peaks_C": [
+       100
+      ],
+      "note": "broad dehydration peak"
+     },
+     "conditions": {
+      "range_C": "0-400",
+      "rate_C_min": 10,
+      "atmosphere": "N2",
+      "sample_mass_mg": 5,
+      "instrument": "Mettler Toledo DSC STARe"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "The thermograms of loaded coated nanoparticles are similar to that of the unloaded nanoparticles, with a broad endothermic peak at 100 °C",
+      "location": "Results > 3.4; Fig. 6A"
+     },
+     "confidence": "baja"
+    },
+    {
+     "technique": "TGA",
+     "variant": "TGA",
+     "measurand": "thermal degradation of loaded nanoparticles",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "degradation_stage_until_C": 450
+     },
+     "conditions": {
+      "range_C": "30-800",
+      "rate_C_min": 10,
+      "atmosphere": "N2",
+      "instrument": "PerkinElmer TGA 4000"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "the thermal degradation stage until 400 °C for the unloaded nanoparticles and 450 °C for the loaded nanoparticles",
+      "location": "Results > 3.4; Fig. 6B"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "TGA",
+     "variant": "TGA",
+     "measurand": "thermal degradation of unloaded nanoparticles",
+     "assay_purpose": "thermal behaviour",
+     "sample_id": "S3",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "inferred"
+     },
+     "shown_as": "figure_panel",
+     "values": {
+      "degradation_stage_until_C": 400
+     },
+     "conditions": {
+      "range_C": "30-800",
+      "rate_C_min": 10,
+      "atmosphere": "N2",
+      "instrument": "PerkinElmer TGA 4000"
+     },
+     "n_replicates": null,
+     "quality_flags": [
+      "muestra_ambigua"
+     ],
+     "evidence": {
+      "quote": "the thermal degradation stage until 400 °C for the unloaded nanoparticles and 450 °C for the loaded nanoparticles",
+      "location": "Results > 3.4; Fig. 6B"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "quercetin loading in nanoparticles (371 nm, calibration curve)",
+     "assay_purpose": "drug quantification",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "quercetin_loading_percent": 7.11,
+      "sd": 1.6,
+      "lambda_nm": 371
+     },
+     "conditions": {
+      "instrument": "Implen NP80 Nanophotometer",
+      "calibration": "quercetin standards in methanol"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Quercetin Loading | 7.02 | 7.11 ± 1.60",
+      "location": "Table 3; Methods 2.10"
+     },
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "b_quantification",
+     "measurand": "folic acid content of nanoparticles (283 nm, calibration curve)",
+     "assay_purpose": "drug/ligand quantification",
+     "sample_id": "S2",
+     "formulation_link": {
+      "where": "text",
+      "confidence": "explicit"
+     },
+     "shown_as": "table",
+     "values": {
+      "folic_acid_percent": 1.61,
+      "sd": 0.35,
+      "lambda_nm": 283
+     },
+     "conditions": {
+      "instrument": "Implen NP80 Nanophotometer",
+      "calibration": "folic acid standards in 0.2 M sodium carbonate"
+     },
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {
+      "quote": "Folic Acid Content | 1.24 | 1.61 ± 0.35",
+      "location": "Table 3; Methods 2.4"
+     },
+     "confidence": "media"
+    }
+   ],
+   "si_mentions": [
+    {
+     "technique": "DLS",
+     "quote": "increased from 159.8 ± 2.0 to 206.2 ± 1.7 nm upon coating with chitosan and folic acid (Figure S4(A,B-1))"
+    }
+   ],
+   "notes": "Zeta rows limited to uncoated, coated and DoE formulations P1-P10 (P11-P16 not recorded). DoE formulation compositions in Table 1."
+  }
+ ]
+}

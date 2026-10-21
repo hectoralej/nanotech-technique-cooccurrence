@@ -1,0 +1,80 @@
+{
+ "batch": "AC018",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\AC018.json",
+ "articles": [
+  {
+   "pmcid": "PMC9316859",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC9316859.txt",
+   "issues": [
+    {
+     "issue": "PMC9316859:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "ELS",
+       "sample": "Blank DOTAP4 liposomes, microfluidics (MF)",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": 48,
+        "zeta_sd_mV": 4
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano ZS"
+       },
+       "quote": "resulting in a particle size of 154.1 ± 23.7 nm and Zeta-potential of +48 ± 4 mV",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "blank DOTAP4 liposomes TF",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 48,
+        "zeta_sd_mV": 12
+       },
+       "conditions": {
+        "medium": "PBS",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Nano ZS"
+       },
+       "quote": "DLS-measured size of 133.4 ± 19.8 nm and a Zeta-potential of +48 ± 12 mV",
+       "location": "Results > 3.1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "blank DOTAP4 liposomes MF",
+       "identity": "nanoparticle_empty",
+       "shown_as": "text_value",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": 48,
+        "zeta_sd_mV": 4
+       },
+       "conditions": {
+        "medium": "PBS",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Nano ZS"
+       },
+       "quote": "resulting in a particle size of 154.1 ± 23.7 nm and Zeta-potential of +48 ± 4 mV",
+       "location": "Results > 3.1"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

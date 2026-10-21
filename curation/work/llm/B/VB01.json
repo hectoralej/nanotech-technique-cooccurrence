@@ -1,0 +1,463 @@
+{
+  "pass": "B",
+  "batch": "VB01",
+  "articles": [
+    {
+      "pmcid": "PMC12199344",
+      "context": {
+        "summary": "PEI-derived P6CIT lipopolymer nanoparticles (with cholesterol, DSPC, DMG-PEG2000) loaded with IL-10 mRNA, compared with MC3 LNPs, for intrathecal delivery to spinal cord/DRG gliocytes to treat paclitaxel-induced peripheral neuropathy in mice.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "PLN",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "P6CIT LPNPs", "identity": "nanoparticle_empty", "composition": "P6CIT lipopolymer:cholesterol:DSPC:DMG-PEG2000 16:12:8:4 (weight ratio)", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "P6CIT/mIL-10", "identity": "nanoparticle_loaded", "composition": "P6CIT LPNP encapsulating IL-10 mRNA; ionizable lipid to mRNA mass ratio 10:1", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "TEM_prep_not_declared",
+          "measurand": "particle morphology",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "uniform and spherical"},
+          "conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": null, "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "TEM images revealed that both P6CIT LPNPs and P6CIT/mIL‐10 had uniform and spherical structures (Figure 5B).", "location": "Results > Fig. 5B"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "TEM_prep_not_declared",
+          "measurand": "particle morphology",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "uniform and spherical"},
+          "conditions": {"prep_state": "not_declared", "scale_bar_present": true, "instrument": null, "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "TEM images of P6CIT and P6CIT/mIL‐10. Scale bar = 300 nm.", "location": "Fig. 5 caption (B)"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"zeta_mV": 13.07, "zeta_sd_mV": 0.26},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern DLS"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "The hydrodynamic size, PDI, and zeta potential of P6CIT LPNPs were 116.7 ± 1.6 nm, 0.191 ± 0.025, and 13.07 ± 0.26 mV, respectively", "location": "Results > P6CIT LPNPs Successfully Delivered mIL-10"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "text_value",
+          "values": {"zeta_mV": -6.93, "zeta_sd_mV": 0.45},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern DLS"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "the zeta potential decreased to −6.93 ± 0.45 mV, respectively (Figure 5A)", "location": "Results > P6CIT LPNPs Successfully Delivered mIL-10"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "hydrodynamic size and PDI",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 116.7, "size_sd_nm": 1.6, "pdi": 0.191, "pdi_sd": 0.025},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern DLS"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "The hydrodynamic size, PDI, and zeta potential of P6CIT LPNPs were 116.7 ± 1.6 nm, 0.191 ± 0.025, and 13.07 ± 0.26 mV, respectively", "location": "Results > P6CIT LPNPs Successfully Delivered mIL-10"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "hydrodynamic size",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 121.9, "size_sd_nm": 1.0, "pdi": null},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern DLS"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "After encapsulation of IL‐10 mRNA, the hydrodynamic size increased to 121.9 ± 1.0 nm", "location": "Results > P6CIT LPNPs Successfully Delivered mIL-10"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "hydrodynamic size and PDI after 12 h incubation in human CSF",
+          "assay_purpose": "stability",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "SI_only",
+          "values": {"size_nm": "approximately 100", "pdi": "approximately 0.2"},
+          "conditions": {"medium": "other:human CSF", "temperature_C": 37, "angle_deg": null, "dilution": null, "instrument": "Malvern DLS"},
+          "n_replicates": null,
+          "quality_flags": ["valores_solo_en_SI"],
+          "evidence": {"quote": "with the size and PDI remaining at approximately 100 nm and 0.2, respectively (Table S3, Supporting Information)", "location": "Results > P6CIT LPNPs Successfully Delivered mIL-10"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [
+        {"technique": "DLS", "quote": "with the size and PDI remaining at approximately 100 nm and 0.2, respectively (Table S3, Supporting Information)"}
+      ],
+      "notes": "MC3 LNP comparator has no numeric characterization in the packet; medium of DLS/zeta not stated."
+    },
+    {
+      "pmcid": "PMC8745861",
+      "context": {
+        "summary": "Lignin nanoparticles made by THF/water solvent exchange from birch and wheat BioLignin and poplar TGA lignin; size, zeta potential, SEM; PLL-coated LNPs bind plasmid DNA, show low cytotoxicity and transfect A549 cells (eGFP).",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "polymeric_NP",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "birch BioLignin LNPs (2 mg/mL starting lignin)", "identity": "nanoparticle_empty", "composition": "birch BioLignin, THF solution 2 mg/mL dialysed against water, uncoated", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "PLL-coated birch LNPs (2 mg/mL)", "identity": "nanoparticle_empty", "composition": "birch BioLignin LNPs coated with poly-L-lysine", "formulation_defined_in": "text"},
+        {"id": "S3", "name": "birch BioLignin LNPs 286 nm", "identity": "nanoparticle_empty", "composition": "birch BioLignin LNPs, uncoated, Z-average 286 nm", "formulation_defined_in": "text"},
+        {"id": "S4", "name": "wheat BioLignin LNPs 282 nm", "identity": "nanoparticle_empty", "composition": "wheat BioLignin LNPs, 282 nm", "formulation_defined_in": "text"},
+        {"id": "S5", "name": "poplar TGA lignin LNPs 322 nm", "identity": "nanoparticle_empty", "composition": "poplar thioglycolic acid lignin LNPs, 322 nm", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "SEM",
+          "measurand": "particle morphology and diameter",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "spherical, particles of varying diameters"},
+          "conditions": {"prep_state": "drop dried on glass slide at ambient temperature, sputter coated 10 nm Au/Pd", "scale_bar_present": true, "instrument": "FEI Nova 430, 18 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "Scanning electron micrographs showing LNPs made from: (A) birch BioLignin™ (286 nm diameter; 18 kV; 5000× magnification)", "location": "Fig. 3 caption (A)"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "SEM",
+          "measurand": "particle morphology and diameter",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S4",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "spherical, smallest variation in diameter"},
+          "conditions": {"prep_state": "drop dried on glass slide at ambient temperature, sputter coated 10 nm Au/Pd", "scale_bar_present": true, "instrument": "FEI Nova 430, 18 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "(B) wheat BioLignin™ (282 nm diameter; 18 kV; 1975× magnification)", "location": "Fig. 3 caption (B)"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "SEM",
+          "measurand": "particle morphology and diameter",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S5",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "spherical"},
+          "conditions": {"prep_state": "drop dried on glass slide at ambient temperature, sputter coated 10 nm Au/Pd", "scale_bar_present": true, "instrument": "FEI Nova 430, 10 kV", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "(C) Poplar TGA lignin (322 nm diameter; 10 kV; 4000× magnification)", "location": "Fig. 3 caption (C)"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "zeta",
+          "variant": "ELS",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"zeta_mV": -29.5},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Zetasizer Ultra"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "the zeta potential changed from −29.5 to + 43.2 mV", "location": "Results > 3.2"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "ELS",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"zeta_mV": 43.2},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Zetasizer Ultra"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "the zeta potential changed from −29.5 to + 43.2 mV", "location": "Results > 3.2"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "diameter of uncoated birch LNPs",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 341},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer Ultra"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "The diameter increased from 341 to 357 nm", "location": "Results > 3.2"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "diameter of PLL-coated birch LNPs",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 357},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer Ultra"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado", "sin_replicas"],
+          "evidence": {"quote": "The diameter increased from 341 to 357 nm", "location": "Results > 3.2"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "Z-average diameter",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 286},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "Malvern Zetasizer Ultra"},
+          "n_replicates": 3,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "when cells were exposed to birch LNPs with a Z-average diameter of 286 nm", "location": "Results > 3.4"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "Fig. 2A-C give Z-average, dispersity and zeta series for birch/wheat/poplar at six starting concentrations (curves only, no table); SEM size not measured from images."
+    },
+    {
+      "pmcid": "PMC13509044",
+      "context": {
+        "summary": "Reusable 3D-printed milli-fluidic split-and-recombine mixer with inline membrane extrusion for continuous production of SM-102-based mRNA/RNA LNPs; compared with bulk mixing and Ignite microfluidics for size, stability, encapsulation, and transfection.",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "LNP",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "Bulk mixing eGFP mRNA-LNP", "identity": "nanoparticle_loaded", "composition": "SM-102:DSPC:cholesterol:DMG-PEG2000 50:10:38.5:1.5 mol%, eGFP mRNA, N/P 6; vortex mixing then extrusion", "formulation_defined_in": "text"},
+        {"id": "S2", "name": "3DM eGFP mRNA-LNP", "identity": "nanoparticle_loaded", "composition": "same lipid composition, 3D-printed mixer without filter", "formulation_defined_in": "text"},
+        {"id": "S3", "name": "3DM-F eGFP mRNA-LNP", "identity": "nanoparticle_loaded", "composition": "same lipid composition, 3D-printed mixer with inline filter", "formulation_defined_in": "text"},
+        {"id": "S4", "name": "Ignite eGFP mRNA-LNP", "identity": "nanoparticle_loaded", "composition": "same lipid composition, NanoAssemblr Ignite", "formulation_defined_in": "text"},
+        {"id": "S5", "name": "yeast RNA LNP (3DM-F)", "identity": "nanoparticle_loaded", "composition": "same lipid composition, yeast RNA cargo, 3D mixer with inline filter, 20 mL/min", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential (near-neutral, within +/-10 mV)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "SI_only",
+          "values": {"zeta_range_mV": "within ±10 for all four workflows; 3DM-F largest absolute value"},
+          "conditions": {"medium": "DPBS", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": ["valores_solo_en_SI", "solo_lista_de_picos"],
+          "evidence": {"quote": "all synthesized LNP formulations exhibited near‐neutral surface charge (within ±10 mV)", "location": "Results > Comparison of LNP Size and Stability Across Various Workflows"},
+          "confidence": "media"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "Z-average diameter after dialysis",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 133.6},
+          "conditions": {"medium": "DPBS", "temperature_C": null, "angle_deg": null, "dilution": "1:100 (dialyzed samples)", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": [],
+          "evidence": {"quote": "bulk mixing produced LNPs with a markedly larger Z‐average diameter (∼133.6 nm)", "location": "Results > Comparison of LNP Size and Stability, Fig. 3d"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "Z-average diameter after dialysis",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S2",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 100.1},
+          "conditions": {"medium": "DPBS", "temperature_C": null, "angle_deg": null, "dilution": "1:100 (dialyzed samples)", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": [],
+          "evidence": {"quote": "3DM and Ignite yielded similar sizes (∼100.1 and 99.94 nm, respectively)", "location": "Results > Comparison of LNP Size and Stability, Fig. 3d"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "Z-average diameter after dialysis",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S3",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 108.9},
+          "conditions": {"medium": "DPBS", "temperature_C": null, "angle_deg": null, "dilution": "1:100 (dialyzed samples)", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": [],
+          "evidence": {"quote": "3DM‐F produced slightly larger LNPs (∼108.9 nm)", "location": "Results > Comparison of LNP Size and Stability, Fig. 3d"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "Z-average diameter after dialysis",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S4",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 99.94},
+          "conditions": {"medium": "DPBS", "temperature_C": null, "angle_deg": null, "dilution": "1:100 (dialyzed samples)", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": [],
+          "evidence": {"quote": "3DM and Ignite yielded similar sizes (∼100.1 and 99.94 nm, respectively)", "location": "Results > Comparison of LNP Size and Stability, Fig. 3d"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "z_average",
+          "measurand": "hydrodynamic diameter before dialysis during 30 min continuous run",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S5",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"size_nm": "approximately 50-55"},
+          "conditions": {"medium": "DPBS", "temperature_C": null, "angle_deg": null, "dilution": "1:10 (non-dialyzed samples)", "instrument": "Zetasizer Nano ZS"},
+          "n_replicates": 3,
+          "quality_flags": [],
+          "evidence": {"quote": "the system consistently generated LNPs with diameters of approximately 50–55 nm", "location": "Results > Long-Term Operational Stability; Fig. 5a"},
+          "confidence": "media"
+        },
+        {
+          "technique": "micrograph",
+          "variant": "cryoTEM",
+          "measurand": "particle morphology/size",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S5",
+          "formulation_link": {"where": "text", "confidence": "inferred"},
+          "shown_as": "SI_only",
+          "values": {},
+          "conditions": {"prep_state": "cryo", "scale_bar_present": null, "instrument": null, "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["valores_solo_en_SI"],
+          "evidence": {"quote": "as further supported by DLS analysis and cryo‐TEM imaging (Figure S5)", "location": "Results > Long-Term Operational Stability"},
+          "confidence": "baja"
+        }
+      ],
+      "si_mentions": [
+        {"technique": "zeta", "quote": "3DM‐F showed the largest absolute zeta potential among the tested samples"},
+        {"technique": "micrograph", "quote": "as further supported by DLS analysis and cryo‐TEM imaging (Figure S5)"}
+      ],
+      "notes": "PDI values and zeta numbers not given in text; Fig 2d (yeast RNA LNPs from 1D/2D/3D mixers) curves only. FE-SEM and EDXS were of the filter, not LNPs."
+    },
+    {
+      "pmcid": "PMC13289168",
+      "context": {
+        "summary": "Chimeric trivalent Echovirus VP1 antigen (VP1-III) designed by loop substitution, tested as recombinant protein and as mRNA-SM-102 LNP vaccine in mice for cross-neutralizing immunity; LNP characterized briefly (size, zeta, EE, TEM).",
+        "article_kind": "research",
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "LNP",
+        "depends_on_pcr_or_virus": false
+      },
+      "samples": [
+        {"id": "S1", "name": "VP1-III-mRNA LNP", "identity": "nanoparticle_loaded", "composition": "SM-102:DSPC:cholesterol:DMG-PEG2000 50:10:38.5:1.5 mol, VP1-III mRNA, microfluidic mixing", "formulation_defined_in": "text"}
+      ],
+      "measurements": [
+        {
+          "technique": "micrograph",
+          "variant": "TEM_prep_not_declared",
+          "measurand": "nanoparticle morphology",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "figure_panel",
+          "values": {"morphology": "spherical"},
+          "conditions": {"prep_state": "not_declared", "scale_bar_present": null, "instrument": "Hitachi H-7650", "n_images": null},
+          "n_replicates": null,
+          "quality_flags": ["tamano_sin_n"],
+          "evidence": {"quote": "transmission electron microscopy (TEM) revealed spherical LNPs consistent with the DLS data (Fig. 6C through E)", "location": "Results; Fig. 6E"},
+          "confidence": "media"
+        },
+        {
+          "technique": "zeta",
+          "variant": "unspecified",
+          "measurand": "zeta potential",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"zeta_mV": -1.7, "zeta_sd_mV": 0.8},
+          "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "ZetaPlus analyzer (Brookhaven)"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "particle size of 91.5 ± 16.4 nm, and zeta potential of −1.7 ± 0.8 mV", "location": "Results > VP1-III-mRNA; Fig. 6D"},
+          "confidence": "alta"
+        },
+        {
+          "technique": "DLS",
+          "variant": "size_unspecified",
+          "measurand": "particle size (hydrodynamic diameter)",
+          "assay_purpose": "particle characterization",
+          "sample_id": "S1",
+          "formulation_link": {"where": "text", "confidence": "explicit"},
+          "shown_as": "text_value",
+          "values": {"size_nm": 91.5, "size_sd_nm": 16.4, "pdi": null},
+          "conditions": {"medium": "not_declared", "temperature_C": null, "angle_deg": null, "dilution": null, "instrument": "ZetaPlus analyzer (Brookhaven)"},
+          "n_replicates": null,
+          "quality_flags": ["medio_no_declarado"],
+          "evidence": {"quote": "particle size of 91.5 ± 16.4 nm, and zeta potential of −1.7 ± 0.8 mV", "location": "Results > VP1-III-mRNA; Fig. 6D"},
+          "confidence": "media"
+        }
+      ],
+      "si_mentions": [],
+      "notes": "Vaccine/antigen paper; qPCR only as neutralization readout. LNP characterization is secondary; PDI value not given."
+    }
+  ]
+}

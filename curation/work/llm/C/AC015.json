@@ -1,0 +1,52 @@
+{
+ "batch": "AC015",
+ "articles": [
+  {
+   "pmcid": "PMC8617923",
+   "decisions": [
+    {
+     "issue": "PMC8617923:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "TEM images of PGZ-NPs in suspension before spray drying.",
+     "location": "Fig. 2 caption",
+     "reason": "Fig. 2 TEM and Fig. 3 SEM show the PGZ-NPs themselves; formulation 8 was the one selected and dried, so linkage is inferable."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC9047672",
+   "decisions": [
+    {
+     "issue": "PMC9047672:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Cryo-TEM pictures of (a) CUB and (b) DHyCUB. Scale bar represents 100 nm.",
+     "location": "Fig. 3 caption",
+     "reason": "Cryo-TEM panels of the cubosome nanocarriers (empty and loaded) with scale bar, explicitly linked to named formulations."
+    },
+    {
+     "issue": "PMC9047672:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "water"},
+     "quote": "All samples were diluted with double distilled water in the ratio 1:50 before DH and ζ-potential measurements.",
+     "location": "Methods > Cubosomes Size and ζ-Potential",
+     "reason": "Medium is stated in Methods (double distilled water, 1:50), so Table 1 DLS sizes for named samples are useful."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC5874870",
+   "decisions": [
+    {
+     "issue": "PMC5874870:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "(a) Scanning Electron Microscopy (SEM) images of MCM-41 and Transmition Electron Microscopy (TEM) images of (b) MCM-41, (c) MCM-41/AP, and (d) MCM-41/AP–FFA",
+     "location": "Fig. 1 caption",
+     "reason": "Fig. 1 panels show the MCM-41 nanoparticles and FFA-functionalized versions themselves, technique identifiable and explicitly linked to samples."
+    }
+   ]
+  }
+ ]
+}

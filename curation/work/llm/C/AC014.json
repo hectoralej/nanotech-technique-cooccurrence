@@ -1,0 +1,60 @@
+{
+ "batch": "AC014",
+ "articles": [
+  {
+   "pmcid": "PMC10249277",
+   "decisions": [
+    {
+     "issue": "PMC10249277:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "B TEM images of 2-BP/CPT-PLNs.",
+     "location": "Fig. 2 caption",
+     "reason": "Fig. 2B is a TEM panel of the loaded hybrid nanoparticles themselves, technique identifiable and explicitly linked to the formulation."
+    },
+    {
+     "issue": "PMC10249277:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "other:aqueous solution"},
+     "quote": "an average hydrodynamic size of 142.2 nm and a slightly positive surface potential of nearly 12 mV in an aqueous solution",
+     "location": "Results > Rational design and characterization of 2-BP/CPT-PLNs",
+     "reason": "Numeric DLS size for identifiable loaded PLNs; medium stated as aqueous solution (particles prepared/washed in deionized water). Vague but declared."
+    },
+    {
+     "issue": "PMC10249277:gate:zeta",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": "other:aqueous solution"},
+     "quote": "a slightly positive surface potential of nearly 12 mV in an aqueous solution",
+     "location": "Results > Rational design and characterization of 2-BP/CPT-PLNs",
+     "reason": "Numeric zeta (about 12 mV) for identifiable loaded PLNs with medium stated as aqueous solution."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC11511049",
+   "decisions": [
+    {
+     "issue": "PMC11511049:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Transmission electron microscopy of PLNs (PHA-2X3-DOPE 1:3) and CLs (2X3-DOPE 1:3) at various Na+ concentrations",
+     "location": "Fig. 7 caption",
+     "reason": "Fig. 7 panels are TEM (negative stain, per Methods 2.8) of the nanocarriers themselves, linked to named formulations."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC10574927",
+   "decisions": [
+    {
+     "issue": "PMC10574927:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "Scanning electron (SEM) micrographs of (a) bromocriptine mesylate–polycaprolactone nanoparticles (BM-PC NPs)",
+     "location": "Fig. 7 caption",
+     "reason": "Fig. 7 gives SEM micrographs of the BM-PCL and CS-coated nanoparticles themselves with scale bar, linked to named formulations."
+    }
+   ]
+  }
+ ]
+}

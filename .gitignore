@@ -10,3 +10,9 @@ curation/work/packets/
 # archivos locales
 curation/work/packets_short/
 .Rhistory
+
+# independencia de la revision humana: no se comparten hasta que los revisores terminen
+curation/work/clave_modelo.csv
+curation/work/verif_model.csv
+curation/work/verif_final.csv
+curation/qc_codex/

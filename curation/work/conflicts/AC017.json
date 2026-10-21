@@ -1,0 +1,702 @@
+{
+ "batch": "AC017",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\C\\AC017.json",
+ "articles": [
+  {
+   "pmcid": "PMC7916496",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC7916496.txt",
+   "issues": [
+    {
+     "issue": "PMC7916496:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "hss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 60,
+        "morphology": "primary particles with wide contacts between them"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM1011",
+        "n_images": null
+       },
+       "quote": "Mean particle size, TEM (nm) | 60 | 50",
+       "location": "Table 2 (columns hss-SiO2 | lss-SiO2)"
+      },
+      {
+       "variant": "TEM_prep_not_declared",
+       "sample": "lss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 50,
+        "morphology": "primary particles with wide contacts between them"
+       },
+       "conditions": {
+        "prep_state": "not_declared",
+        "scale_bar_present": null,
+        "instrument": "JEOL JEM1011",
+        "n_images": null
+       },
+       "quote": "Mean particle size, TEM (nm) | 60 | 50",
+       "location": "Table 2 (columns hss-SiO2 | lss-SiO2)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7916496:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "hss-SiO2",
+       "identity": "pure_component",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 220,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": 2,
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "Particle size distribution in the case of hss-SiO2 powder was broad with a modal value of 220 nm",
+       "location": "Results"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "lss-SiO2",
+       "identity": "pure_component",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "size_nm": 140,
+        "size_sd_nm": null,
+        "pdi": null,
+        "pdi_sd": null
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": 2,
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "narrower in the case of lss-SiO2 with a modal value around 140 nm",
+       "location": "Results"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "hss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 220
+       },
+       "conditions": {
+        "medium": "other:water pH 2, diluted",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "diluted",
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "Modal particle diameter, DLS (nm) | 220 | 142",
+       "location": "Table 2 (columns hss-SiO2 | lss-SiO2)"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "lss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 142
+       },
+       "conditions": {
+        "medium": "other:water pH 2, diluted",
+        "temperature_C": null,
+        "angle_deg": null,
+        "dilution": "diluted",
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "Modal particle diameter, DLS (nm) | 220 | 142",
+       "location": "Table 2 (columns hss-SiO2 | lss-SiO2)"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7916496:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "ELS",
+       "sample": "hss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": 0,
+        "note": "increased to about 0 mV by 48 h then almost constant; other values only in Fig. 7"
+       },
+       "conditions": {
+        "medium": "other:SBF",
+        "temperature_C": 37,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "until 48 h, the potential increased to 0 mV and remained almost constant",
+       "location": "Results > Fig. 7 discussion"
+      },
+      {
+       "variant": "ELS",
+       "sample": "lss-SiO2",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "inferred",
+       "values": {
+        "note": "increased until 96 h then decreased; no numeric value in text"
+       },
+       "conditions": {
+        "medium": "other:SBF",
+        "temperature_C": 37,
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Zetasizer Nano-ZS"
+       },
+       "quote": "zeta potential of lss-SiO2 was increasing until 96 h and then decreased",
+       "location": "Results > Fig. 7 discussion"
+      }
+     ]
+    },
+    {
+     "issue": "PMC7916496:gate:object",
+     "A_says": false,
+     "B_says": true,
+     "A_context": {
+      "summary": "Two silica nanoparticles (high and low specific surface area) used as fillers in PLDLA polymer nanocomposites for guided bone regeneration; study of particle surface properties, zeta potential in SBF and bioactivity.",
+      "article_kind": "research",
+      "nanocarrier_is_object_of_study": false,
+      "carrier_type": "inorganic_NP",
+      "depends_on_pcr_or_virus": false
+     },
+     "B_context": {
+      "summary": "Two commercial silica nanopowders (high and low specific surface area) characterized (DLS, TEM, FTIR, zeta in SBF) as nano-fillers in a PLDLA polymer matrix for guided bone regeneration; nanocomposite foils then tested for thermal, surface and cell behaviour.",
+      "article_kind": "research",
+      "nanocarrier_is_object_of_study": true,
+      "carrier_type": "inorganic_NP",
+      "depends_on_pcr_or_virus": false
+     }
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC13059125",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC13059125.txt",
+   "issues": [
+    {
+     "issue": "PMC13059125:gate:micro",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [],
+     "B_rows": [
+      {
+       "variant": "SEM",
+       "sample": "Lipo",
+       "identity": "nanoparticle_empty",
+       "shown_as": "figure_panel",
+       "link": "explicit",
+       "values": {
+        "morphology": "uniform, spherical-like, smooth surfaces"
+       },
+       "conditions": {
+        "prep_state": "air-dried on silicon wafers, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "Hitachi SU8010",
+        "n_images": null
+       },
+       "quote": "SEM observation revealed that both Lipo and NRP-1-loaded lipos exhibited uniform, spherical-like morphologies with smooth surfaces.",
+       "location": "Results > Characterization of Lipo and NRP-1-loaded lipos"
+      },
+      {
+       "variant": "SEM",
+       "sample": "NRP-1-loaded lipos",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "figure_panel",
+       "link": "paper_level",
+       "values": {
+        "morphology": "uniform, spherical-like, smooth surfaces"
+       },
+       "conditions": {
+        "prep_state": "air-dried on silicon wafers, gold sputter-coated, 10 kV",
+        "scale_bar_present": null,
+        "instrument": "Hitachi SU8010",
+        "n_images": null
+       },
+       "quote": "SEM observation revealed that both Lipo and NRP-1-loaded lipos exhibited uniform, spherical-like morphologies with smooth surfaces.",
+       "location": "Results > Characterization of Lipo and NRP-1-loaded lipos"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC5702012",
+   "packet": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\packets\\PMC5702012.txt",
+   "issues": [
+    {
+     "issue": "PMC5702012:gate:dls",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 260.32,
+        "size_sd_nm": 4.52,
+        "pdi": 0.114
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54 | 17.83 ± 1.45",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 260.19,
+        "size_sd_nm": 6.34,
+        "pdi": 0.107
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56 | 27.45 ± 2.06",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 273.76,
+        "size_sd_nm": 7.25,
+        "pdi": 0.327
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47 | 56.29 ± 2.56",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 279.76,
+        "size_sd_nm": 7.25,
+        "pdi": 0.345
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54 | 44.64 ± 3.67",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3C",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "size_nm": 302.06,
+        "size_sd_nm": 5.62,
+        "pdi": 0.431
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "temperature_C": 25,
+        "angle_deg": null,
+        "dilution": null,
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07 | 81.23 ± 3.39",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "size_unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "size_nm": 260.32,
+        "size_sd_nm": 4.52,
+        "pdi": 0.114
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:100 with double distilled water, sonicated 5 min",
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "size_nm": 260.19,
+        "size_sd_nm": 6.34,
+        "pdi": 0.107
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:100 with double distilled water, sonicated 5 min",
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "inferred",
+       "values": {
+        "size_nm": 273.76,
+        "size_sd_nm": 7.25,
+        "pdi": 0.327
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:100 with double distilled water, sonicated 5 min",
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "size_nm": 279.76,
+        "size_sd_nm": 7.25,
+        "pdi": 0.345
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:100 with double distilled water, sonicated 5 min",
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54",
+       "location": "Table 1"
+      },
+      {
+       "variant": "size_unspecified",
+       "sample": "F3C",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "inferred",
+       "values": {
+        "size_nm": 302.06,
+        "size_sd_nm": 5.62,
+        "pdi": 0.431
+       },
+       "conditions": {
+        "medium": "water",
+        "temperature_C": 25,
+        "angle_deg": 90,
+        "dilution": "1:100 with double distilled water, sonicated 5 min",
+        "instrument": "Malvern Particle Size Analyzer"
+       },
+       "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07",
+       "location": "Table 1"
+      }
+     ]
+    },
+    {
+     "issue": "PMC5702012:gate:zeta",
+     "A_says": false,
+     "B_says": true,
+     "A_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -35.23,
+        "zeta_sd_mV": 2.54
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54 | 17.83 ± 1.45",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -40.31,
+        "zeta_sd_mV": 1.56
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56 | 27.45 ± 2.06",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -30.63,
+        "zeta_sd_mV": 2.47
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47 | 56.29 ± 2.56",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -33.18,
+        "zeta_sd_mV": 4.54
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54 | 44.64 ± 3.67",
+       "location": "Table 1"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3C",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "explicit",
+       "values": {
+        "zeta_mV": -38.18,
+        "zeta_sd_mV": 2.07
+       },
+       "conditions": {
+        "medium": "not_declared",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer"
+       },
+       "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07 | 81.23 ± 3.39",
+       "location": "Table 1"
+      }
+     ],
+     "B_rows": [
+      {
+       "variant": "unspecified",
+       "sample": "F1",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "zeta_mV": -35.23,
+        "zeta_sd_mV": 2.54
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer",
+        "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+       },
+       "quote": "F1 | 260.32 ± 4.52 | 0.114 | -35.23 ± 2.54",
+       "location": "Table 1; Fig. 1/2 (zeta distributions)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F2",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "zeta_mV": -40.31,
+        "zeta_sd_mV": 1.56
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer",
+        "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+       },
+       "quote": "F2 | 260.19 ± 6.34 | 0.107 | -40.31 ± 1.56",
+       "location": "Table 1; Fig. 1/2 (zeta distributions)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -30.63,
+        "zeta_sd_mV": 2.47
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer",
+        "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+       },
+       "quote": "F3 | 273.76 ± 7.25 | 0.327 | -30.63 ± 2.47",
+       "location": "Table 1; Fig. 1/2 (zeta distributions)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F4",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "paper_level",
+       "values": {
+        "zeta_mV": -33.18,
+        "zeta_sd_mV": 4.54
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer",
+        "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+       },
+       "quote": "F4 | 279.76 ± 7.25 | 0.345 | -33.18 ± 4.54",
+       "location": "Table 1; Fig. 1/2 (zeta distributions)"
+      },
+      {
+       "variant": "unspecified",
+       "sample": "F3C",
+       "identity": "nanoparticle_loaded",
+       "shown_as": "table",
+       "link": "inferred",
+       "values": {
+        "zeta_mV": -38.18,
+        "zeta_sd_mV": 2.07
+       },
+       "conditions": {
+        "medium": "water",
+        "pH": null,
+        "ionic_strength": null,
+        "model": "not_declared",
+        "instrument": "Malvern Zetasizer",
+        "dilution": "1:100 with double distilled water (stated for the DLS/zeta suspension)"
+       },
+       "quote": "F3C | 302.06 ± 5.62 | 0.431 | -38.18 ± 2.07",
+       "location": "Table 1; Fig. 1/2 (zeta distributions)"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

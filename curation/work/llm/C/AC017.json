@@ -1,0 +1,76 @@
+{
+ "batch": "AC017",
+ "articles": [
+  {
+   "pmcid": "PMC7916496",
+   "decisions": [
+    {
+     "issue": "PMC7916496:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": "nanoparticle_empty", "variant": "TEM", "medium": null},
+     "quote": "Particle size distribution of silica powders determined by DLS method (water, pH = 2) and TEM morphology of: lss-SiO2 (A) and hss-SiO2 (B) powders.",
+     "location": "Fig. 1 caption",
+     "reason": "Fig. 1 shows TEM panels of each silica nanoparticle powder, technique and sample identifiable; B's table quote is weak but the figure supports it."
+    },
+    {
+     "issue": "PMC7916496:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": "nanoparticle_empty", "variant": null, "medium": "other:water pH 2"},
+     "quote": "Particle size distributions were determined by DLS method in diluted, well dispersed (pH = 2) water suspensions",
+     "location": "Results > Nanoparticles characteristics",
+     "reason": "Numeric modal DLS sizes (220 and 142 nm, Table 2) with medium stated (water, pH 2) for identifiable silica nanoparticles."
+    },
+    {
+     "issue": "PMC7916496:gate:zeta",
+     "decision": "B",
+     "final": {"value": true, "identity": "nanoparticle_empty", "variant": "ELS", "medium": "other:SBF"},
+     "quote": "until 48 h, the potential increased to 0 mV and remained almost constant",
+     "location": "Results > zeta potential discussion; Fig. 7 caption (SBF, 37 °C)",
+     "reason": "Zeta of silica powders measured in SBF at 37 °C, medium stated; one numeric value (0 mV, hss-SiO2) in text, rest in Fig. 7. Marginal but supported."
+    },
+    {
+     "issue": "PMC7916496:gate:object",
+     "decision": "B",
+     "final": {"value": true, "identity": null, "variant": null, "medium": null},
+     "quote": "The aim of this work was to study effect of the type of silica nanoparticles on the properties of nanocomposites",
+     "location": "Abstract",
+     "reason": "Nanoparticles themselves are characterized (DLS, TEM, BET, FTIR, zeta) and compared as the study variable; they are the object of study, not only a component."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC13059125",
+   "decisions": [
+    {
+     "issue": "PMC13059125:gate:micro",
+     "decision": "B",
+     "final": {"value": true, "identity": "nanoparticle_loaded", "variant": "SEM", "medium": null},
+     "quote": "(A) Characterization of Lipo and NRP-1-loaded lipos by SEM, Particle Size, and PDI.",
+     "location": "Fig. 4 caption",
+     "reason": "Fig. 4A shows SEM panels of the liposomes themselves (Lipo and NRP-1-loaded), technique identifiable and linked to formulations."
+    }
+   ]
+  },
+  {
+   "pmcid": "PMC5702012",
+   "decisions": [
+    {
+     "issue": "PMC5702012:gate:dls",
+     "decision": "B",
+     "final": {"value": true, "identity": "nanoparticle_loaded", "variant": null, "medium": "water"},
+     "quote": "The suspension of plain and coated NPs were diluted 1:100 times with double distilled water to obtain uniform dispersion.",
+     "location": "Methods > Particle Characteristics",
+     "reason": "Numeric sizes in Table 1 for F1-F4 and F3C; Methods state dilution in double distilled water for the DLS measurement."
+    },
+    {
+     "issue": "PMC5702012:gate:zeta",
+     "decision": "A",
+     "final": {"value": false, "identity": "nanoparticle_loaded", "variant": null, "medium": "not_declared"},
+     "quote": "The values of zeta potential of each sample (F1–F4) were obtained using “Malvern Zetasizer.” The samples were transferred to glass electrodes for ZP measurement",
+     "location": "Methods > Particle Characteristics",
+     "reason": "medio_no_declarado: water dilution is stated in the particle size/PDI sentences only; no medium or pH is given for the zeta measurement."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "pass": "B",
+ "batch": "VB22",
+ "articles": [
+  {
+   "pmcid": "PMC11707725",
+   "context": {
+    "summary": "Thallium-texaphyrin-lipid conjugates self-assembled by microfluidics with DPPC, cholesterol and DSPE-PEG2000 into liposome-like nanotexaphyrins to chelate and deliver Auger-emitting 201Tl3+; characterized by DLS, zeta, TEM, UV-Vis, stability and uptake in cancer cells.",
+    "article_kind": "research",
+    "nanocarrier_is_object_of_study": true,
+    "carrier_type": "liposome",
+    "depends_on_pcr_or_virus": false
+   },
+   "samples": [
+    {"id": "S1", "name": "Tl-nanotexaphyrins (natTl)", "identity": "nanoparticle_loaded", "composition": "Tl-texaphyrin-lipid 10-20% mol, DPPC 34.4-44.4%, cholesterol 40.6%, DSPE-PEG2000 5.0% (total molar lipid)", "formulation_defined_in": "text"},
+    {"id": "S2", "name": "Tl-texaphyrin-lipid conjugate", "identity": "pure_component", "composition": "nonradioactive Tl3+ chelated by texaphyrin-lipid, in ethanol", "formulation_defined_in": "text"}
+   ],
+   "measurements": [
+    {
+     "technique": "micrograph",
+     "variant": "TEM_negstain",
+     "measurand": "morphology of Tl-nanotexaphyrins",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "text", "confidence": "inferred"},
+     "shown_as": "figure_panel",
+     "values": {"morphology": "homogeneous particles (images only, no size measured from TEM)"},
+     "conditions": {"prep_state": "carbon-coated copper grid, negatively stained with 2% uranyl acetate", "scale_bar_present": true, "instrument": "FEI Tecnai 20, 200 kV", "n_images": 4},
+     "n_replicates": null,
+     "quality_flags": [],
+     "evidence": {"quote": "(c–f) TEM images of Tl-nanotexaphyrins in PBS at 80,000 magnification (scale bar: 200 nm) and 200,000 magnifications (scale bar: 100 nm).", "location": "Fig. 5 caption"},
+     "confidence": "alta"
+    },
+    {
+     "technique": "zeta",
+     "variant": "unspecified",
+     "measurand": "zeta potential of Tl-nanotexaphyrins",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "text", "confidence": "inferred"},
+     "shown_as": "text_value",
+     "values": {"zeta_mV": -1.5, "zeta_sd_mV": 0.4},
+     "conditions": {"medium": "not_declared", "pH": null, "ionic_strength": null, "model": "not_declared", "instrument": "Malvern Zetasizer Nano-ZS 90", "dilution": "none (undiluted suspension)"},
+     "n_replicates": 3,
+     "quality_flags": ["medio_no_declarado"],
+     "evidence": {"quote": "The measured zeta potential was slightly negative: −1.5 ± 0.4 mV (n = 3).", "location": "Results > Nanotexaphyrin formulation"},
+     "confidence": "media"
+    },
+    {
+     "technique": "DLS",
+     "variant": "z_average",
+     "measurand": "hydrodynamic diameter and PDI of Tl-nanotexaphyrins (text mean 147.4 nm; representative z-average in Fig. 5b 152.4 nm, PDI 0.167)",
+     "assay_purpose": "particle characterization",
+     "sample_id": "S1",
+     "formulation_link": {"where": "text", "confidence": "inferred"},
+     "shown_as": "table",
+     "values": {"size_nm": 147.4, "size_sd_nm": 1.4, "pdi": 0.15, "pdi_sd": 0.03, "representative_z_average_nm": 152.4, "representative_pdi": 0.167},
+     "conditions": {"medium": "PBS", "temperature_C": "4 (stability series 4, 25, 37)", "angle_deg": null, "dilution": "10-fold with PBS", "instrument": "Malvern Zetasizer Nano-ZS 90"},
+     "n_replicates": 3,
+     "quality_flags": [],
+     "evidence": {"quote": "average hydrodynamic diameter of 147.4 ± 1.4 nm and a PDI of 0.15 ± 0.03 (Figure 5b–f)", "location": "Results > Nanotexaphyrin formulation"},
+     "confidence": "media"
+    },
+    {
+     "technique": "UVVis",
+     "variant": "a_intrinsic",
+     "measurand": "absorption bands of Tl-texaphyrin-lipid complex (Soret-like and Q-like)",
+     "assay_purpose": "chelation confirmation / spectral characterization of the conjugate",
+     "sample_id": "S2",
+     "formulation_link": {"where": "text", "confidence": "paper_level"},
+     "shown_as": "SI_only",
+     "values": {"lambda_max_nm": [465, 760]},
+     "conditions": {"medium": "ethanol (99.9%), 6-7 fold dilution", "instrument": "Biochrom Ultraspec 3100 Pro"},
+     "n_replicates": null,
+     "quality_flags": ["valores_solo_en_SI"],
+     "evidence": {"quote": "characteristic absorption Soret-like and Q-like bands at 465 and 760 nm, respectively (Suppl. Figure 3b,c)", "location": "Results > Chelation by Texaphyrin-Lipids"},
+     "confidence": "alta"
+    }
+   ],
+   "si_mentions": [
+    {"technique": "UVVis", "quote": "characteristic absorption Soret-like and Q-like bands at 465 and 760 nm, respectively (Suppl. Figure 3b,c)"}
+   ],
+   "notes": "Stability series (Table 1) DLS in PBS at 4/25/37 C up to 72 h; zeta medium not stated; UV-Vis done on pure Tl-texaphyrin-lipid, not on nanoparticles."
+  }
+ ]
+}
