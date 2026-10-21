@@ -1,0 +1,78 @@
+{"batch":"EX184","articles":[
+{"pmcid":"PMC11653606","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"HRTEM","sample":"AuL1a/TiO2 after reaction","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM (a,b), HAADF‐STEM, (c) and nanoparticle size distribution (d) of AuL1a/TiO2 after reaction."}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 4","applies_to":"mixture","sample":"AuL1NPs/TiO2","quote":"Raman spectra of TiO2‐P90, AuL1a/TiO2 and AuL1NPs/TiO2."},
+{"technique":"UVVis","fig":"Fig. 5","applies_to":"mixture","sample":"AuL1a/TiO2 and AuL1NPs/TiO2 (fresh and after reaction)","quote":"UV–vis spectra for the (a) fresh samples and (b) After reaction samples."}]},
+
+{"pmcid":"PMC10536234","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"PP@AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM images acquired in direct (In-Lens, left) and back-scattered (QBSD, right) configurations from the samples of PP@AgNPs"}],
+"descriptors":[],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"PP@AgNPs","quote":"UV-Vis-NIR spectra of diluted suspensions."}]},
+
+{"pmcid":"PMC10349103","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"AuNPs/MWCNT/GCE","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) FESEM image and (b) EDX analysis of AuNPs/MWCNT/GCE."}],
+"descriptors":[],
+"spectra":[{"technique":"EDS","fig":"Fig. 2","applies_to":"mixture","sample":"AuNPs/MWCNT/GCE","quote":"(b) EDX analysis of AuNPs/MWCNT/GCE."}]},
+
+{"pmcid":"PMC9227432","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"SEM","sample":"Fe3O4 and encapsulated glucose oxidase","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM and TEM images of Fe3O4 (A,C) and encapsulated glucose oxidase (B,D)."}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"magnetic embedded enzymes","quote":"(E) X-ray diffraction image;"},
+{"technique":"EDS","fig":"Figure S2A,B","applies_to":"nanoparticle","sample":"magnetic nanoparticles","quote":"demonstrating the existence of C, O, and Fe in the magnetic nanoparticles"}]},
+
+{"pmcid":"PMC8305745","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Ag/MCM-48","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of various samples (A): MCM-48; (B): Ag/MCM-48."}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag/MCM-48","quote":"Powder XRD patterns of MCM-48 and Ag/MCM-48."}]},
+
+{"pmcid":"PMC8227673","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"PSNPs and y-PSNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative TEM images of PS nanomaterials (PSNPs and y-PSNPs) and AgNPs."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AgNPs mixed with PSNPs (5/10 and 5/100 µg/mL)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative transmission electron microscopy (TEM) images of 5 µg/mL AgNPs mixed with 10 and 100 µg/mL PSNPs."}],
+"descriptors":[
+{"sample":"PSNPs","size_nm":86.33,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Size (nm) (DLS) | 86.33 ± 10.20 | 112.87 ± 3.11 | 137.30 ± 0.25"},
+{"sample":"y-PSNPs","size_nm":112.87,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Size (nm) (DLS) | 86.33 ± 10.20 | 112.87 ± 3.11 | 137.30 ± 0.25"},
+{"sample":"AgNPs","size_nm":137.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Size (nm) (DLS) | 86.33 ± 10.20 | 112.87 ± 3.11 | 137.30 ± 0.25"}],
+"spectra":[{"technique":"EDS","fig":"Fig. 3","applies_to":"mixture","sample":"AgNPs/PSNPs and AgNO3/PSNPs","quote":"Representative transmission electron microscopy (TEM) images associated with its energy-dispersive X-ray spectroscopy (EDX) spectra"}]},
+
+{"pmcid":"PMC11294441","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AuNP@PVA-DASA in ethanol","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images and histograms of a AuNP@PVA in water, b AuNP@PVA in ethanol and c AuNP@PVA-DASA in ethanol"}],
+"descriptors":[
+{"sample":"AuNP@PVA in water","size_nm":15,"pdi":0.23,"zeta_mV":null,"medium":"water","source":"Fig. 4","quote":"a AuNP@PVA in water (15 nm; PDI = 0.23)"},
+{"sample":"AuNP@PVA in ethanol","size_nm":19,"pdi":0.25,"zeta_mV":null,"medium":"other","source":"Fig. 4","quote":"b AuNP@PVA in ethanol (19 nm; PDI = 0.25)"},
+{"sample":"AuNP@PVA-DASA in ethanol","size_nm":19,"pdi":0.36,"zeta_mV":null,"medium":"other","source":"Fig. 4","quote":"c AuNP@PVA-DASA in ethanol (19 nm; PDI = 0.36)"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AuNP@PVA-DASA","quote":"Ultraviolet–visible spectra of DASA, AuNP@PVA in ethanol, AuNP@PVA in water and AuNP@PVA-DASA in ethanol"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AuNP@PVA-DASA","quote":"Infrared spectra of AuNP@PVA-DASA, AuNP@PVA in ethanol, DASA and PVA"}]},
+
+{"pmcid":"PMC11000480","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"silver and silica nanoparticles loaded with ciprofloxacin","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscope results for ciprofloxacin loaded on both (a) silver and (b) silica nanoparticles."}],
+"descriptors":[
+{"sample":"SiO-NP","size_nm":79.3,"pdi":0.43,"zeta_mV":30.7,"medium":"not_declared","source":"Table-2","quote":"SiO-NP | 79.3 ± 3.3 | 0.43 ± 0.03 | 30.7 ± 1.4"},
+{"sample":"Ag-NP","size_nm":180.7,"pdi":0.62,"zeta_mV":28.3,"medium":"not_declared","source":"Table-2","quote":"Ag-NP | 180.7 ± 6.1 | 0.62 ± 0.12 | 28.3 ± 2.8"}],
+"spectra":[{"technique":"UVVis","fig":"Figure-2","applies_to":"nanoparticle","sample":"silver and silica nanoparticles","quote":"Optical absorption spectra for both silver nanoparticles (a) and silica nanoparticles (b) by surface plasmon resonance."}]},
+
+{"pmcid":"PMC11111742","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"te-AgNPs, gr-AgNPs and am-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM analysis of synthesized AgNPs from the O. tenuiflorum (a), O. gratissimum (b), and O. americanum (c) leaf extracts."}],
+"descriptors":[
+{"sample":"te-AgNPs","size_nm":69.0,"pdi":0.356,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The findings of the DLS study of te-AgNPs showed the zeta average diameter of 69.0 nm with PI value of 0.356."},
+{"sample":"gr-AgNPs","size_nm":46.9,"pdi":0.207,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Whereas gr-AgNPs have a zeta average diameter of 46.9 nm with a PI value of 0.207"},
+{"sample":"am-AgNPs","size_nm":58.5,"pdi":0.387,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"am-AgNPs have a zeta average diameter of 58.5 nm with a PI value of 0.3870"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"te-AgNPs","quote":"The surface plasmon resonance (SPR) peaks of te-AgNPs, gr-AgNPs, and gr-AgNPs were observed at 426.10 nm (Fig. 1a),"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs from Ocimum extracts","quote":"FT-IR analysis of synthesized AgNPs from the O. tenuiflorum (a), O. gratissimum (b), and O. americanum (c) leaf extracts."}]},
+
+{"pmcid":"PMC10887808","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of AgNPs at 45,000× (A) and 120,000× (B) magnifications."},
+{"fig":"Fig. 11","variant":"SEM","sample":"B1 hydrogel film","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of the B1 hydrogel film."},
+{"fig":"Fig. 12","variant":"SEM","sample":"E1 hydrogel film","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of the E1 hydrogel film."}],
+"descriptors":[{"sample":"AgNPs","size_nm":540.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the Z-average of AgNPs was 540.5 ± 27.72 nm"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV–Vis spectrum of AgNO3 and AgNPs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"FT-IR spectra of AgNPs and AgNO3 solution."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"mixture","sample":"PVA hydrogel films","quote":"FT-IR spectra of PVA hydrogel films and ibuprofen (IBU)."}]}
+]}

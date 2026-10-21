@@ -1,0 +1,118 @@
+{"batch": "EX162", "articles": [
+{"pmcid": "PMC10386037", "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_negstain", "sample": "Mex@MLipo", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) SPIO, (b) Mex@Lipo, and (c) Mex@MLipo"}
+ ],
+ "descriptors": [
+  {"sample": "Mex@MLipo", "size_nm": 176, "pdi": 0.16, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 2", "quote": "The Mex@MLipo had an average size of 176 nm and a PDI of 0.16"},
+  {"sample": "Mex@Lipo", "size_nm": null, "pdi": null, "zeta_mV": -32.44, "medium": "not_declared", "source": "text", "quote": "The Mex@Lipo and Mex@MLipo had a Zeta potential of −32.44 mV and −20.04 mV"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Mex@MLipo", "quote": "The Fourier transform infrared spectroscopy (FT-IR) spectrum of the Mex, Mex@Lipo, and Mex@MLipo"}
+ ]},
+{"pmcid": "PMC7504416", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 12", "variant": "SEM", "sample": "SNZ-3", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy (SEM) images showing the representative surface morphology of the composite epoxy coatings"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "SiO2 and ZnO nanoparticles", "quote": "Fourier transform infrared (FTIR) spectra of (a) SiO2 nanoparticles, (b) ZnO nanoparticles"},
+  {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "pristine silica and ZnO nanoparticles", "quote": "X-ray diffraction (XRD) patterns of pristine silica (left) and ZnO (right) nanoparticles."},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "mixture", "sample": "SiO2/ZnO-incorporated composite epoxy coatings", "quote": "XRD patterns of the SiO2/ZnO-incorporated composite epoxy coatings."},
+  {"technique": "EDS", "fig": "Fig. 13", "applies_to": "mixture", "sample": "SNZ-1", "quote": "SEM images (a–c) showing the highlighted area for EDX analysis for elemental mapping"}
+ ]},
+{"pmcid": "PMC7973235", "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "NAT/CLZ@CTS/PLGA NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "The morphology using TEM of (C) CTS/PLGA NPs, (D) NAT@CTS/PLGA NPs, (E) CLZ@CTS/PLGA NPs, and (F) NAT/CLZ@CTS/PLGA NPs."}
+ ],
+ "descriptors": [
+  {"sample": "CTS/PLGA NPs", "size_nm": 309.23, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the hydrodynamic diameters of the CTS/PLGA, the NAT@CTS/PLGA, the CLZ@CTS/PLGA, and the complete NAT/CLZ@CTS/PLGA NPs are 309.23 ± 12.76"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "electro-sprayed NPs", "quote": "(B) FT-IR spectra of electro-sprayed NPs."},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "electro-sprayed NPs", "quote": "(D) XRD patterns of electro-sprayed NPs."}
+ ]},
+{"pmcid": "PMC6723231", "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "EFV-loaded SLN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of optimized EFV-loaded SLN."},
+  {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "EFV-loaded NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of optimized EFV-loaded NLC."}
+ ],
+ "descriptors": [
+  {"sample": "EFV-loaded SLN", "size_nm": null, "pdi": null, "zeta_mV": -32.5, "medium": "water", "source": "text", "quote": "The optimized EFV-loaded SLN and NLC had a ZP of −32.5 ± 4.99 mV and −22.4 ± 3.72 mV"},
+  {"sample": "EFV-loaded NLC", "size_nm": null, "pdi": null, "zeta_mV": -22.4, "medium": "water", "source": "text", "quote": "The optimized EFV-loaded SLN and NLC had a ZP of −32.5 ± 4.99 mV and −22.4 ± 3.72 mV"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 10", "applies_to": "nanoparticle", "sample": "EFV-loaded SLN", "quote": "FT-IR spectra of optimized EFV-loaded SLN and GM following exposure to heat."}
+ ]},
+{"pmcid": "PMC10545585", "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "ATV/PG-Lip", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy images showing the morphology of blank PG-Lip and ATV/PG-Lip (a)"}
+ ],
+ "descriptors": [
+  {"sample": "ATV-loaded formulations (F4–F7)", "size_nm": null, "pdi": null, "zeta_mV": -18, "medium": "not_declared", "source": "text", "quote": "The average zeta potential for ATV-loaded formulations (F4–F7) was -18 ± 0.2 mV"}
+ ],
+ "spectra": []},
+{"pmcid": "PMC5995914", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "HRTEM", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "The representative HR-TEM images of AgNPs after completion of reaction at different magnification scales"}
+ ],
+ "descriptors": [
+  {"sample": "AgNPs", "size_nm": 50.62, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 4", "quote": "The calculated average particle size distribution of AgNPs was found to be 50.62 nm."}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNP biosynthesis", "quote": "(A) (i) UV-Vis absorbance spectra for (a) AgNP biosynthesis"},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "(A) X-ray diffractogram of biosynthesized AgNPs."},
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "The FTIR analysis of (a) S. edule fruit extract, (b) AgNPs obtained by adding equal volumes"}
+ ]},
+{"pmcid": "PMC11244471", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "MIP-mNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of (A) MIP-mNPs, (B) MIP-CPE sensor, (C) NIP-CPE sensor"}
+ ],
+ "descriptors": [
+  {"sample": "MIP-mNPs", "size_nm": 80.27, "pdi": 0.403, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average size of MIP-mNPs and NIP-mNPs was 80.27 nm (PDI:0.403) and 75.91 nm (PDI:0.469)"},
+  {"sample": "NIP-mNPs", "size_nm": 75.91, "pdi": 0.469, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average size of MIP-mNPs and NIP-mNPs was 80.27 nm (PDI:0.403) and 75.91 nm (PDI:0.469)"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "NIP-mNPs and MIP-mNPs", "quote": "FTIR spectra of (A) NIP-mNPs (red line) and (B) MIP-mNPs (black line)."}
+ ]},
+{"pmcid": "PMC9375701", "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy of SLNs."}
+ ],
+ "descriptors": [
+  {"sample": "F0", "size_nm": 10.10, "pdi": 0.412, "zeta_mV": 8.9, "medium": "not_declared", "source": "Table 2", "quote": "F0 | 10.10 ± 1.046 | 0.412 ± 0.012 | 8.9 ± 6.23 | 5.3 ± 0.652 | 3.0 ± 0.8"},
+  {"sample": "F1", "size_nm": 14.68, "pdi": 0.369, "zeta_mV": 18.7, "medium": "not_declared", "source": "Table 2", "quote": "F1 | 14.68 ± 1.841 | 0.369 ± 0.043 | 18.7 ± 8.80 | 5.5 ± 0.841 | 3.5 ± 1.1"},
+  {"sample": "F2", "size_nm": 76.74, "pdi": 0.297, "zeta_mV": 23.5, "medium": "not_declared", "source": "Table 2", "quote": "F2 | 76.74 ± 2.122 | 0.297 ± 0.004 | 23.5 ± 5.59 | 5.6 ± 0.893 | 4.5 ± 2.3"},
+  {"sample": "F3", "size_nm": 109.6, "pdi": 0.244, "zeta_mV": 32.1, "medium": "not_declared", "source": "Table 2", "quote": "F3 | 109.6 ± 4.363 | 0.244 ± 0.027 | 32.1 ± 7.09 | 5.6 ± 0.789 | 5.5 ± 2.8"},
+  {"sample": "F4", "size_nm": 122.4, "pdi": 0.313, "zeta_mV": 50.8, "medium": "not_declared", "source": "Table 2", "quote": "F4 | 122.4 ± 5.214 | 0.313 ± 0.016 | 50.8 ± 8.73 | 5.5 ± 0.854 | 23.3 ± 5.6"},
+  {"sample": "F5", "size_nm": 144.2, "pdi": 0.291, "zeta_mV": 62.6, "medium": "not_declared", "source": "Table 2", "quote": "F5 | 144.2 ± 6.931 | 0.291 ± 0.019 | 62.6 ± 7.98 | 5.5 ± 0.968 | 170 ± 18.4"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "unclear", "sample": "finasteride formulation", "quote": "FTIR of finasteride: formulation and its components."}
+ ]},
+{"pmcid": "PMC10254904", "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "COE/colistin 5", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of the synthesized nanoliposomes: COE 5 (a), colistin 5 (b), and COE/colistin 5 (c)."}
+ ],
+ "descriptors": [
+  {"sample": "COE 2", "size_nm": 91.67, "pdi": 0.143, "zeta_mV": -0.129, "medium": "not_declared", "source": "Table 4", "quote": "COE 2 | 91.67 | 0.143 | −0.129 | 90.2"},
+  {"sample": "Colistin 5", "size_nm": 132.8, "pdi": 0.338, "zeta_mV": -21.4, "medium": "not_declared", "source": "Table 4", "quote": "Colistin 5 | 132.8 | 0.338 | −21.4 | 67.9"},
+  {"sample": "COE/Colistin 5", "size_nm": 150.0, "pdi": 0.289, "zeta_mV": -19.9, "medium": "not_declared", "source": "Table 4", "quote": "COE/Colistin 5 | 150.0 | 0.289 | −19.9 | 93.7"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "COE/colistin-loaded liposomes", "quote": "FT-IR analyses of the COE, COE-loaded liposomes (5 mg/mL), colistin-loaded liposomes (5 mg/mL), and COE/colistin-loaded liposomes (5 mg/mL each)."}
+ ]},
+{"pmcid": "PMC9780945", "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "SEM", "sample": "SiO2@CisPt NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative SEM image of SiO2@CisPt NPs (a)"}
+ ],
+ "descriptors": [
+  {"sample": "SiO2 NPs", "size_nm": 197.53, "pdi": null, "zeta_mV": null, "medium": "water", "source": "Table 3", "quote": "Hydrodynamic diameter (nm) | 197.53 ± 6.0 | 317.9 ± 2.6"},
+  {"sample": "SiO2@CisPt NPs", "size_nm": 317.9, "pdi": 0.353, "zeta_mV": -20.2, "medium": "water", "source": "text", "quote": "For SiO2@CisPt NPs, the values were 317.9 ± 2.6 nm (hydrodynamic size), 0.353 ± 0.04 (PDI), and −20.2 ± 0.75 mV"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "SiO2@CisPt NPs", "quote": "FTIR spectrum of SiO2@CisPt NPs (a)."},
+  {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "SiO2 NPs", "quote": "XRD pattern of SiO2 NPs synthesized by the sol–gel method (b)."},
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "mixture", "sample": "PL-HA-GSNO-SiO2@CisPt lyophilized hydrogel", "quote": "EDS mapping of oxygen (a), carbon (b), sulfur (c), platinum (d), and silicon (e) atoms of PL-HA-GSNO-SiO2@CisPt lyophilized hydrogel."}
+ ]}
+]}

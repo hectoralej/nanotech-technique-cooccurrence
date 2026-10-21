@@ -1,0 +1,95 @@
+{"batch":"EX164","articles":[
+{"pmcid":"PMC8219778","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"free NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of free, Dox loaded NPs, Epo loaded NPs, and Dox-Epo loaded NPs."}],
+"descriptors":[
+{"sample":"Free-NPs","size_nm":144.9,"pdi":0.034,"zeta_mV":-9.51,"medium":"not_declared","source":"Table 1","quote":"Free-NPs | 0.034 | 144.9 ± 37.52 | -9.51 ± 0.316"},
+{"sample":"Epo-NPs","size_nm":175,"pdi":0.058,"zeta_mV":-9.72,"medium":"not_declared","source":"Table 1","quote":"Epo-NPs | 0.058 | 175 ± 51.9* | -9.72 ± 0.509"},
+{"sample":"Dox-NPs","size_nm":162.1,"pdi":0.075,"zeta_mV":-11.3,"medium":"not_declared","source":"Table 1","quote":"Dox-NPs | 0.075 | 162.1 ± 55.44* | -11.3 ± 1.22*"},
+{"sample":"Dox + Epo-NPs","size_nm":179.6,"pdi":0.047,"zeta_mV":-11.1,"medium":"not_declared","source":"Table 1","quote":"Dox + Epo-NPs | 0.047 | 179.6 ± 53.87* | -11.1 ± 0.115*"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"NPs","quote":"ATR-FTIR spectra of free NPs and NPs loaded with drugs."}]},
+{"pmcid":"PMC10385266","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_negstain","sample":"optimized Bimatoprost-loaded SLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM analysis of optimized Bimatoprost-loaded SLNs."}],
+"descriptors":[
+{"sample":"Formula 1","size_nm":184.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1 | 0 | 0 | 184.7 ± 11.4 | 72.7 ± 2.4"},
+{"sample":"Formula 2","size_nm":269.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"2 | −1 | −1 | 269.8 ± 18.2 | 61.4 ± 1.9"},
+{"sample":"Formula 3","size_nm":244.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"3 | −1 | 1 | 244.3 ± 13.7 | 68.5 ± 1.1"},
+{"sample":"Formula 4","size_nm":188.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"4 | 0 | 0 | 188.6 ± 9.5 | 71.4 ± 2.1"},
+{"sample":"Formula 5","size_nm":185.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"5 | 0 | 0 | 185.5 ± 7.6 | 72.8 ± 1.8"},
+{"sample":"Formula 6","size_nm":192.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"6 | 0 | 0 | 192.8 ± 11.1 | 70.4 ± 1.6"},
+{"sample":"Formula 7","size_nm":198.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"7 | 0 | 0 | 198.4 ± 12.4 | 72.6 ± 1.9"},
+{"sample":"Formula 8","size_nm":248.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"8 | 0 | −1.41421 | 248.2 ± 18.6 | 69.7 ± 0.9"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"component","sample":"Bimatoprost, GMS","quote":"FTIR spectra of Bimatoprost, GMS, and their physical mixture."}]},
+{"pmcid":"PMC8945545","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"P-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"For P-AgNPs, (A–C) SEM images of nanoparticles at different scales,"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"P-AgNPs and E-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs for (A–D) P-AgNPs and (G–J) E-AgNPs."}],
+"descriptors":[
+{"sample":"P-AgNPs","size_nm":108,"pdi":0.732,"zeta_mV":null,"medium":"water","source":"text","quote":"For P-AgNPs, the size distribution was 108 nm with PDI 0.732 (Figure 6A)"},
+{"sample":"E-AgNPs","size_nm":47.2,"pdi":0.509,"zeta_mV":null,"medium":"water","source":"text","quote":"the size from DLS measured was 47.2 nm with PDI value 0.509 (Figure 6B)"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 9","applies_to":"nanoparticle","sample":"P-AgNPs and E-AgNPs","quote":"(B) pure P-AgNPs, and (D) E-AgNPs, which demonstrate the active surface groups for respective samples."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"P-AgNPs","quote":"(G) EDX spectrum of the elemental mapped region showing sharp peak for silver element."}]},
+{"pmcid":"PMC8708980","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"EPL-SBE7 β-CD CS/sTPP NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) TEM image of EPL-SBE7 β-CD CS/sTPP NPs."}],
+"descriptors":[
+{"sample":"NP1","size_nm":348.4,"pdi":0.578,"zeta_mV":35.4,"medium":"not_declared","source":"Table 4","quote":"NP1 | 348.4 | 0.578 | 35.4"},
+{"sample":"NP2","size_nm":272.2,"pdi":0.366,"zeta_mV":38.9,"medium":"not_declared","source":"Table 4","quote":"NP2 | 272.2 | 0.366 | 38.9"},
+{"sample":"NP3","size_nm":263.1,"pdi":0.493,"zeta_mV":22.7,"medium":"not_declared","source":"Table 4","quote":"NP3 | 263.1 | 0.493 | 22.7"},
+{"sample":"NP4","size_nm":262.5,"pdi":0.302,"zeta_mV":37.3,"medium":"not_declared","source":"Table 4","quote":"NP4 | 262.5 | 0.302 | 37.3"},
+{"sample":"NP5","size_nm":247.5,"pdi":0.327,"zeta_mV":31.8,"medium":"not_declared","source":"Table 4","quote":"NP5 | 247.5 | 0.327 | 31.8"},
+{"sample":"NP6","size_nm":241.5,"pdi":0.363,"zeta_mV":32.9,"medium":"not_declared","source":"Table 4","quote":"NP6 | 241.5 | 0.363 | 32.9"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"NP1-NP6","quote":"(f) NP1, (g) NP2, (h) NP3, (i) NP4, (j) NP5 and (k) NP6."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"prepared NPs","quote":"Figure 2 illustrates the X-ray diffraction behavior of EPL, CS, sTPP, β-CD, SBE7 β-CD and the prepared NPs."}]},
+{"pmcid":"PMC10146358","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"STEM","sample":"NSA-SLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning TEM image (SE mode) of nicotine–stearic acid conjugate-loaded SLNs."}],
+"descriptors":[
+{"sample":"NSA-SLNs","size_nm":113.5,"pdi":0.211,"zeta_mV":-48.1,"medium":"not_declared","source":"text","quote":"were 113.5 ± 0.91 nm, 0.211 ± 0.01, and −48.1 ± 5.75 mV"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"NSA-SLNs","quote":"Overlaid XRD pattern: (A) lyophilized nicotine–stearic acid loaded SLNs"}]},
+{"pmcid":"PMC9570197","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"extracted IONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of extracted IONPs from particle loaded frustules captured in various magnification (a–c)."},
+{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"extracellular IONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of extracellular IONPs captured in various magnification (a–c)."}],
+"descriptors":[
+{"sample":"IONPs","size_nm":null,"pdi":null,"zeta_mV":24.6,"medium":"not_declared","source":"text","quote":"Zeta potential values of IONPs were measured as +24.6 mV (Figure 5)."}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 8","applies_to":"nanoparticle","sample":"extracellular IONPs","quote":"EDAX study of single particle confirming presence of iron, oxygen (d)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"extracellular IONPs","quote":"FTIR peaks revealed the functional groups present surrounding the surfaces of control silica, silica loaded particles and extracellular IONPs."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"synthesized IONPs","quote":"X-ray diffraction pattern of synthesized IONPs by P. trainorii."}]},
+{"pmcid":"PMC8629447","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"SIL NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"B Field emission scanning electron microscopy (FE-SEM) image of surface morphology of SIL NPs"}],
+"descriptors":[
+{"sample":"PLGA/PEG NPs","size_nm":180,"pdi":0.125,"zeta_mV":-5.48,"medium":"not_declared","source":"Table 2","quote":"PLGA/PEG NPs | 180±2.53 | 0.125 | -5.48±0.13"},
+{"sample":"SIL-loaded PLGA/PEG NPs","size_nm":220,"pdi":0.136,"zeta_mV":-6.8,"medium":"not_declared","source":"Table 2","quote":"SIL-loaded PLGA/PEG NPs | 220±6.37 | 0.136 | -6.8±0.26"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SIL-NPs","quote":"Infrared Spectra of SIL, PLGA/PEG and SIL-NPs"}]},
+{"pmcid":"PMC10692035","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"RH-MTX-SLNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrographs of a Placebo SLNs, b MTX-SLNs, c RH-SLNs, and d RH-MTX-SLNs"}],
+"descriptors":[
+{"sample":"Placebo-SLNs","size_nm":136.53,"pdi":0.36,"zeta_mV":-44.6,"medium":"not_declared","source":"Table 3","quote":"Placebo-SLNs | 136.53 ± 7.68 | 141.24 ± 5.31 | 0.36 ± 0.05 | 0.29 ± 0.08 | − 44.60 ± 1.04 | − 43.24 ± 2.10"},
+{"sample":"MTX-SLNs","size_nm":182.33,"pdi":0.30,"zeta_mV":-46.66,"medium":"not_declared","source":"Table 3","quote":"MTX-SLNs | 182.33 ± 2.83 | 186.52 ± 3.14 | 0.30 ± 0.01 | 0.34 ± 0.04 | − 46.66 ± 0.75 | − 44.97 ± 1.56"},
+{"sample":"RH-SLNs","size_nm":150.67,"pdi":0.32,"zeta_mV":-43.5,"medium":"not_declared","source":"Table 3","quote":"RH-SLNs | 150.67 ± 6.96 | 153.14 ± 7.21 | 0.32 ± 0.08 | 0.36 ± 0.02 | − 43.50 ± 2.48 | − 45.23 ± 3.25"},
+{"sample":"RH-MTX SLNs","size_nm":192.37,"pdi":0.37,"zeta_mV":-47.43,"medium":"not_declared","source":"Table 3","quote":"RH-MTX SLNs | 192.37 ± 3.07 | 196.94 ± 4.56 | 0.37 ± 0.02 | 0.39 ± 0.01 | − 47.43 ± 1.90 | − 45.14 ± 2.64"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"RH-MTX SLNs","quote":"FTIR spectra of RH, MTX, Precirol, Lecinol, Poloxamer, Physical mixture and RH-MTX SLNs"}]},
+{"pmcid":"PMC9565927","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"HA-reduced AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of HA-reduced AuNPs at 1/2 (A) and 1/3 (B) HA/Au3+ molar ratios."}],
+"descriptors":[
+{"sample":"1/2 AuNPs","size_nm":32.43,"pdi":0.057,"zeta_mV":-45.68,"medium":"not_declared","source":"Table 1","quote":"1/2 | 32.43 ± 0.23 | 0.057 ± 0.005 | −45.68 ± 0.79"},
+{"sample":"1/3 AuNPs","size_nm":27.36,"pdi":0.291,"zeta_mV":-42.05,"medium":"not_declared","source":"Table 1","quote":"1/3 | 27.36 ± 0.32 | 0.291 ± 0.030 | −42.05 ± 1.21"},
+{"sample":"1/4 AuNPs","size_nm":300.2,"pdi":0.312,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1/4 | 300.20 ± 7.32 | 0.312 ± 0.012 | n.a."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"HA-reduced AuNPs","quote":"UV-vis spectra of HA-reduced AuNPs at specific HA to HAuCl4·3H2O molar ratio"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"HA-reduced AuNPs 1/2","quote":"(C): EDX spectrum of HA-reduced AuNPs at 1/2 HA/Au3+ molar ratio."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"HA-capped AuNPs","quote":"(A) FTIR absorption spectra of HA-capped AuNPs together with crude HA powder."}]},
+{"pmcid":"PMC8271961","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"blank nanoparticles and cefotaxime-loaded PCL nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) images of (a) blank nanoparticles and (b) cefotaxime-loaded PCL nanoparticles."}],
+"descriptors":[
+{"sample":"blank nanoparticles","size_nm":200,"pdi":null,"zeta_mV":-16.8,"medium":"not_declared","source":"text","quote":"had an average size of 200 nm and 216 nm, respectively, with associated charges of −16.8 mV and −11.2"},
+{"sample":"cefotaxime-loaded PCL nanoparticles","size_nm":216,"pdi":null,"zeta_mV":-11.2,"medium":"not_declared","source":"text","quote":"had an average size of 200 nm and 216 nm, respectively, with associated charges of −16.8 mV and −11.2"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"drug-loaded polymeric NPs","quote":"Fourier transform infrared (FTIR) analysis of polycaprolactone, cefotaxime and drug-loaded polymeric NPs."}]}
+]}

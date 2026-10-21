@@ -1,0 +1,101 @@
+{
+  "batch": "EX056",
+  "articles": [
+    {
+      "pmcid": "PMC12799935",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "cryoTEM", "sample": "mRNA-loaded LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Representative cryo-EM images confirming spherical morphology."}],
+      "descriptors": [
+        {"sample": "DMG-PEG LNP, 1.5 mol%", "size_nm": 157, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Figure 1; DLS size", "quote": "Specifically, the average diameters for DMG-PEG and DSG-PEG LNPs at a 1.5% molar ratio were approximately 157 nm and 164 nm, respectively."},
+        {"sample": "DSG-PEG LNP, 1.5 mol%", "size_nm": 164, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Figure 1; DLS size", "quote": "Specifically, the average diameters for DMG-PEG and DSG-PEG LNPs at a 1.5% molar ratio were approximately 157 nm and 164 nm, respectively."}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10059782",
+      "context": {"article_kind": "research", "carrier_type": "PLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "Tri-PLNs and Se@Tri-PLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Characterization of Tri-PLNs and Se@Tri-PLNs by particle size distribution (A) and appearance/TEM micrographs (B)."}],
+      "descriptors": [
+        {"sample": "Se@Tri-PLNs", "size_nm": 123.1, "pdi": 0.183, "zeta_mV": null, "medium": "water", "source": "Figure 3A; size/PDI measured by DLS after dilution in deionized water", "quote": "The resultant Se@Tri-PLNs possessed a particle size of 123.1 nm around with a PDI of 0.183 (Figure 3A)."},
+        {"sample": "Tri-PLNs", "size_nm": 103.5, "pdi": null, "zeta_mV": null, "medium": "water", "source": "Figure 3A; size measured by DLS after dilution in deionized water", "quote": "The particle size was larger than that of unmodified Tri-PLNs (103.5 nm)."}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12109224",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "SEM", "sample": "GO, rGO, GO-AgNP, rGO-AgNP, AgNP composites", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE–SEM images of (A) GO, (B) rGO, (C) GO-AgNP, (D) rGO-AgNP, (E) AgNP with different magnifications."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "GO, rGO, GO-AgNP, rGO-AgNP, AgNP", "quote": "UV–vis spectra of (a) GO, (b) rGO, (c)GO-AgNP, (d) rGO-AgNP, (e) AgNP3."},
+        {"technique": "XRD", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "GO, GO-AgNP, rGO, rGO-AgNP, AgNP composites", "quote": "Powder XRD pattern of (a) GO, (b) GO-AgNP, (c) rGO, (d) rGO-AgNP, (e) AgNP composites."},
+        {"technique": "FTIR", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "GO, rGO, AgNP-GO, AgNP-rGO", "quote": "FTIR spectra of (a) GO, (b) rGO, (c) AgNP-GO, (d) AgNP -rGO- composites in the wave number ranging from 500 to 4000 cm−1."},
+        {"technique": "Raman", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "GO, rGO, GO-AgNP, rGO-AgNP", "quote": "Raman spectra of (a) GO, (b) rGO, (c) GO-AgNP, (d) rGO-AgNP in the wave number ranging from 500 to 5000 cm−1."}
+      ]
+    },
+    {
+      "pmcid": "PMC8148018",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "CSLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(a) FESEM image of the CSLNs (70,000×), (b) TEM image of the CSLNs (10,000×)."}],
+      "descriptors": [
+        {"sample": "optimized CSLN before autoclaving", "size_nm": 170.1, "pdi": 0.143, "zeta_mV": -9.67, "medium": "not_declared", "source": "Table 8", "quote": "Before | 5.8 ± 0.2 | 75.55 ± 2.31 | 170.1 ± 26.6 | 0.143 ± 0.026 | −9.67±1.47"},
+        {"sample": "optimized CSLN after autoclaving", "size_nm": 253.7, "pdi": 0.182, "zeta_mV": -9.5, "medium": "not_declared", "source": "Table 8", "quote": "After | 5.7±0.3 | 74.24± 3.6 | 253.7± 28.0 | 0.182 ± 0.032 | −9.50±1.86"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6480642",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 5", "variant": "SEM", "sample": "CS nanoparticles before and after lysozyme incubation", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of CS NPs before and after incubating in 0.2 mg/mL lysozyme solution at different time intervals."},
+        {"fig": "Figure 7", "variant": "TEM_prep_not_declared", "sample": "CS NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of CS NPs before and after incubating in 0.2 mg/mL lysozyme solution at 37 °C"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "CS NPs", "quote": "FTIR spectra of CS NPs before and after lysozyme treatment (characteristic peaks for amide I, II and glycosidic bonds are highlighted)."}]
+    },
+    {
+      "pmcid": "PMC11896884",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "FIGURE 2", "variant": "TEM_prep_not_declared", "sample": "silibinin-loaded micelle/liposome nanoparticles (SLNs)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) TEM image of silibinin‐loaded micelle/liposome nanoparticles (SLNs)."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "FIGURE 1", "applies_to": "nanoparticle", "sample": "free and silibinin-loaded micelle/liposome nanoparticles", "quote": "(B) FT‐IR spectrum of the (A) free micelle/liposome nanoparticles and (B) silibinin‐loaded micelle/liposome nanoparticles (SLNs)."},
+        {"technique": "EDS", "fig": "FIGURE 1", "applies_to": "nanoparticle", "sample": "silibinin-loaded micelle/liposome nanoparticles", "quote": "(D) EDX of silibinin‐loaded micelle/liposome nanoparticles (SLNs)."}
+      ]
+    },
+    {
+      "pmcid": "PMC13414797",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [], "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC6711028",
+      "context": {"article_kind": "research", "carrier_type": "PLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "cisplatin-loaded lipid-polymer hybrid nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscope image of lipid-polymer hybrid nanoparticles."}],
+      "descriptors": [
+        {"sample": "LPHNP lipid:chitosan 5:1", "size_nm": 213, "pdi": 0.34, "zeta_mV": 37.1, "medium": "not_declared", "source": "Table 1", "quote": "5:1 | 213.0 ± 1.38 | 0.34 | 37.1 ± 1.3 | 83.2 ± 1.2 | 1.69 ± 0.5"},
+        {"sample": "LPHNP lipid:chitosan 10:1", "size_nm": 218, "pdi": 0.43, "zeta_mV": 30.5, "medium": "not_declared", "source": "Table 1", "quote": "10:1 | 218.0 ± 0.79 | 0.43 | 30.5 ± 2.4 | 83.8 ± 0.8 | 1.86 ± 0.6"},
+        {"sample": "LPHNP lipid:chitosan 20:1", "size_nm": 181, "pdi": 0.21, "zeta_mV": 21.1, "medium": "not_declared", "source": "Table 1", "quote": "20:1 | 181.0 ± 0.43 | 0.21 | 21.1 ± 0.8 | 89.2 ± 0.5 | 2.07 ± 0.2"},
+        {"sample": "LPHNP lipid:chitosan 30:1", "size_nm": 200.9, "pdi": 0.34, "zeta_mV": 20.5, "medium": "not_declared", "source": "Table 1", "quote": "30:1 | 200.9 ± 2.14 | 0.34 | 20.5 ± 1.9 | 89.4 ± 2.3 | 2.11 ± 0.7"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11221646",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig 1", "variant": "SEM", "sample": "CD-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM of CD-AgNPs (a) at a magnification of 10,000X"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig 5", "applies_to": "nanoparticle", "sample": "Carbon nanodots and CD-AgNPs", "quote": "UV-Vis absorption spectra of Carbon nanodots and CD-AgNPs."},
+        {"technique": "FTIR", "fig": "Fig 6", "applies_to": "nanoparticle", "sample": "Carbon nanodots and CD-AgNPs", "quote": "FTIR spectra showing peaks corresponding to different functional groups; (a) Carbon nanodots (CDs) and CD-AgNPs;"}
+      ]
+    },
+    {
+      "pmcid": "PMC12943629",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning Electron Microscopy image (SEM) of the SLNs."}],
+      "descriptors": [{"sample": "SLNs", "size_nm": null, "pdi": 0.554, "zeta_mV": -16.4, "medium": "water", "source": "Text; size excluded because reported size was measured with Mastersizer 2000 (laser diffraction), not DLS", "quote": "The polydispersity index is 0.554 ± 0.03, and the zeta potential is −16.4 ± 2.5 mV"}],
+      "spectra": []
+    }
+  ]
+}

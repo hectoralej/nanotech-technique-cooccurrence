@@ -1,0 +1,90 @@
+{
+  "batch": "EX059",
+  "articles": [
+    {
+      "pmcid": "PMC13255757",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "OE-L+NLCs, OE-NLCs, L+NLCs, and blank NLCs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy (TEM) images showing morphology of nanostructured lipid carrier formulations."}],
+      "descriptors": [
+        {"sample": "OE-L+NLCs", "size_nm": 175.9, "pdi": 0.15, "zeta_mV": 44.02, "medium": "not_declared", "source": "Table 1; DLS", "quote": "OE-L+NLCs | 175.90 ± 4.94 a | +44.02 ± 0.54 a | 0.15 ± 0.00 a"},
+        {"sample": "OE-NLCs", "size_nm": 174.33, "pdi": 0.17, "zeta_mV": -41.69, "medium": "not_declared", "source": "Table 1; DLS", "quote": "OE-NLCs | 174.33 ± 0.92 a | −41.69 ± 1.62 b | 0.17 ± 0.00 b"},
+        {"sample": "L+NLCs", "size_nm": 164.83, "pdi": 0.15, "zeta_mV": 42.12, "medium": "not_declared", "source": "Table 1; DLS", "quote": "L+NLCs | 164.83 ± 1.44 b | +42.12 ± 0.66 c | 0.15 ± 0.00 a"},
+        {"sample": "NLCs", "size_nm": 151.67, "pdi": 0.17, "zeta_mV": -35.95, "medium": "not_declared", "source": "Table 1; DLS", "quote": "NLCs | 151.67 ± 3.51 c | −35.95 ± 0.32 d | 0.17 ± 0.00 c"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5575722",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "SEM", "sample": "disulfiram-encapsulated PLGA NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of disulfiram encapsulated PLGA NPs"}],
+      "descriptors": [{"sample": "disulfiram-encapsulated PLGA NPs", "size_nm": 165, "pdi": 0.32, "zeta_mV": null, "medium": "not_declared", "source": "Text; DLS", "quote": "The results of Zetasizer analysis showed that the average diameter of NPs was around 165 nm (PDI: 0.32)."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13028882",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "HPSL-2 nano-gels", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "The physiochemical characterization of HPSL-2 was examined using SEM analysis."}],
+      "descriptors": [
+        {"sample": "HPSL-1", "size_nm": 189.73, "pdi": 0.306, "zeta_mV": -26.39, "medium": "water", "source": "Table 3; DLS, size measured in ultrapure distilled water", "quote": "Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57", "quote2": "PDI Mean ± SD | 0.306 ± 0.025 | 0.427 ± 0.014 | 0.504 ± 0.061 | 0.596 ± 0.071", "quote3": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98"},
+        {"sample": "HPSL-2", "size_nm": 233.81, "pdi": 0.427, "zeta_mV": -29.88, "medium": "water", "source": "Table 3; DLS, size measured in ultrapure distilled water", "quote": "Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57", "quote2": "PDI Mean ± SD | 0.306 ± 0.025 | 0.427 ± 0.014 | 0.504 ± 0.061 | 0.596 ± 0.071", "quote3": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98"},
+        {"sample": "HPSL-3", "size_nm": 406.07, "pdi": 0.504, "zeta_mV": -23.72, "medium": "water", "source": "Table 3; DLS, size measured in ultrapure distilled water", "quote": "Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57", "quote2": "PDI Mean ± SD | 0.306 ± 0.025 | 0.427 ± 0.014 | 0.504 ± 0.061 | 0.596 ± 0.071", "quote3": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98"},
+        {"sample": "HPSL-4", "size_nm": 319.76, "pdi": 0.596, "zeta_mV": -25.69, "medium": "water", "source": "Table 3; DLS, size measured in ultrapure distilled water", "quote": "Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57", "quote2": "PDI Mean ± SD | 0.306 ± 0.025 | 0.427 ± 0.014 | 0.504 ± 0.061 | 0.596 ± 0.071", "quote3": "Zeta Potential Mean ± SD (mV) | −26.39 ± 4.14 | −29.88 ± 5.62 | −23.72 ± 7.64 | −25.69 ± 7.98"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9856913",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM analysis of LNPs"}],
+      "descriptors": [{"sample": "LNPs", "size_nm": 154, "pdi": 0.163, "zeta_mV": 29, "medium": "not_declared", "source": "Text; DLS hydrodynamic size; TEM/SEM sizes separately reported as 64 and 73 nm", "quote": "In the present study, DLS analysis revealed the hydrodynamic size of 154 nm [Figure 1].", "quote2": "Our DLS data showed PDI (Poly-dispersity index) as 0.163", "quote3": "Zeta potential of LNPs was observed to be +29 mV."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC8847346",
+      "context": {"article_kind": "research", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false},
+      "panels": [], "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC13125491",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "NLC-IB", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM morphology of NLC-IB with magnifications of (a) 20,000x; (b) 40,000x; (c) 80,000x; (d) 150,000x."}],
+      "descriptors": [{"sample": "NLC-IB formulation set", "size_nm": 299.76, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Text; DLS mean across studied formulations (range 193.4–433.9 nm)", "quote": "Particle size ranged from 193.4 to 433.9 nm, with a mean value of 299.76 nm."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12890410",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "Ch-Np powder", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HR-SEM analysis of ( A ) Ch-Np powder"}],
+      "descriptors": [{"sample": "Ch-Np powder", "size_nm": 200, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Text; approximate size from HR-SEM, not DLS", "quote": "The HR-SEM analysis revealed that Ch-Np showed an irregular particle size in the range of 200 nm ( Fig. 1A )."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12652887",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "OPT-SN-UFL", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image (c) of OPT-SN-UFL."}],
+      "descriptors": [{"sample": "SN-UFL 5 (OPT-SN-UFL)", "size_nm": 121.25, "pdi": 0.23, "zeta_mV": -35.2, "medium": "not_declared", "source": "Table 1; DLS; Figure 3 text reports size 118.60 ± 2.82 nm, table value used", "quote": "SN-UFL 5 | 0 | 0 | 121.25 ± 1.95 | 85.60 ± 1.10 | 0.23 ± 0.02 | −35.2 ± 2.10"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5316245",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "SEM", "sample": "mannitol-lyophilized TLM-SLNs, TLM-NLCs, and TLM-LNCs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM graphs of TLM-LNPs lyophilized with mannitol. A, B and C: TLM-SLNs; D, E and F: TLM-NLCs; G, H and I: TLM-LNCs"}],
+      "descriptors": [
+        {"sample": "TLM-SLN after lyophilization with mannitol", "size_nm": 193, "pdi": 0.13, "zeta_mV": -15.6, "medium": "not_declared", "source": "Table 1; after mannitol lyophilization", "quote": "193.0±2.64 Ab", "quote2": "-15.6±3.21 Ba", "quote3": "0.13±0.001Cb"},
+        {"sample": "TLM-NLC after lyophilization with mannitol", "size_nm": 156.6, "pdi": 0.27, "zeta_mV": -23.5, "medium": "not_declared", "source": "Table 1; after mannitol lyophilization", "quote": "156.6±7.63 Bb", "quote2": "-23.5±1.13 Ab", "quote3": "0.27±0.03 Ac"},
+        {"sample": "TLM-LNC after lyophilization with mannitol", "size_nm": 116.6, "pdi": 0.22, "zeta_mV": -16.3, "medium": "not_declared", "source": "Table 1; after mannitol lyophilization", "quote": "116.6±7.63 Cb", "quote2": "-16.3±2.51 Ba", "quote3": "0.22±0.01 Bb"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11597054",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "EX-ABD-AFF-GoldNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(D) BIO-TEM image of EX-ABD-AFF-GoldNPs"}],
+      "descriptors": [{"sample": "EX-ABD-AFF-GoldNPs", "size_nm": 183, "pdi": 0.15, "zeta_mV": -21, "medium": "water", "source": "Text; DLS size and PDI; zeta measured at pH 7.4 in deionized water", "quote": "The average hydrodynamic size of the EX-ABD-AFF-GoldNPs was 183 (±21) nm (PDI: 0.15)", "quote2": "The mean zeta potential was −21 (±6.3) mV (measured at pH 7.4 in deionized water (DW) by DLS)"}],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "EX-ABD-AFF-GoldNPs", "quote": "(F) UV-VIS spectrum of EX-ABD-AFF-GoldNPs"},
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "EX-ABD-AFF-GoldNPs", "quote": "Fourier transform infrared (FT-IR) spectroscopic profiles of EX-ABD-AFF-GoldNPs."}
+      ]
+    }
+  ]
+}

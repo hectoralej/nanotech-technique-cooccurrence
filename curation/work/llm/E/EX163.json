@@ -1,0 +1,85 @@
+{"batch":"EX163","articles":[
+{"pmcid":"PMC9459996","context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"cryoTEM","sample":"NG1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative cryo-TEM (a,b) macrographs and AFM 2D (c) and 3D (d) height images of NG1."}],
+"descriptors":[
+{"sample":"NG1","size_nm":153,"pdi":0.22,"zeta_mV":-13.0,"medium":"not_declared","source":"Table 1","quote":"NG1 | 153 ± 4 | −13.0 ± 1.2 | 0.22 ± 0.017"},
+{"sample":"NG2","size_nm":172,"pdi":0.23,"zeta_mV":-12.8,"medium":"not_declared","source":"Table 1","quote":"NG2 | 172 ± 5 | −12.8 ± 1.1 | 0.23 ± 0.015"},
+{"sample":"NG3","size_nm":173,"pdi":0.32,"zeta_mV":-13.2,"medium":"not_declared","source":"Table 1","quote":"NG3 | 173 ± 5 | −13.2 ± 1.2 | 0.32 ± 0.019"},
+{"sample":"NG1/DOX","size_nm":146,"pdi":0.40,"zeta_mV":-8.9,"medium":"not_declared","source":"Table 1","quote":"NG1/DOX | 146 ± 4 | −8.9 ± 1.0 | 0.40 ± 0.020"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"NG1","quote":"FTIR spectra of penthane-1,2,5-triol, citric acid and the nanogel (NG1) obtained on their basis."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"DOX-loaded nanogel","quote":"Wide-angle X-ray scattering spectra of pure doxorubicin and DOX-loaded nanogel."}]},
+{"pmcid":"PMC5764907","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"SLN+","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images showing the morphology of sorafenib nanoparticles with DOTAU (a) and inset (b)."}],
+"descriptors":[
+{"sample":"SLN+","size_nm":304,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"which confirm an average size of 304 nm as measured by DLS (d)."},
+{"sample":"SLN−","size_nm":null,"pdi":null,"zeta_mV":-54.9,"medium":"not_declared","source":"text","quote":"ζ = + 59.1 and − 54.9 mV for SLN+ and SLN−"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SLN−","quote":"(f) EDX spectra at I & II positions."}]},
+{"pmcid":"PMC10354092","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"NL-Cur+Dox","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Transmission electron microscopy image of NL-Cur+Dox"}],
+"descriptors":[
+{"sample":"NL-Cur+Dox","size_nm":239,"pdi":0.38,"zeta_mV":-36,"medium":"not_declared","source":"Table 1","quote":"NL-Cur+Dox | 239 ± 6.1 | 0.38 ± 0.08 | − 36 ± 2.4"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"NL-Cur+Dox","quote":"(d) Absorption spectrum of Dox, Cur, and NL-Cur+Dox."}]},
+{"pmcid":"PMC6494808","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"EPI-CAO-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b) TEM image of EPI-CAO-AuNPs;"}],
+"descriptors":[
+{"sample":"EPI-CAO-AuNPs","size_nm":141,"pdi":0.15,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"was 141 ± 6 nm (Fig. 3a) with 0.15 ± 0.01 of PDI"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"EPI-CAO-AuNPs","quote":"(c) XRD pattern of EPI-CAO-AuNPs;"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"EPI-CAO-AuNPs","quote":"(d) FT-IR spectra of EPI-CAO-AuNPs (i), EPI (ii), and CAO-AuNPs (iii)."}]},
+{"pmcid":"PMC9503791","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"R19-loaded NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of R19-loaded NPs prepared using (A) 100% TPGS"}],
+"descriptors":[
+{"sample":"100% TPGS","size_nm":108,"pdi":0.20,"zeta_mV":-1.7,"medium":"not_declared","source":"Table 2","quote":"100% TPGS | 108 ± 8 | 0.20 ± 0.06 | −1.7 ± 5.0 | 60 ± 6"},
+{"sample":"25% P123/75% TPGS","size_nm":92,"pdi":0.20,"zeta_mV":-6.6,"medium":"not_declared","source":"Table 2","quote":"25% P123/75% TPGS | 92 ± 7 | 0.20 ± 0.03 | −6.6 ± 19.6 | 57 ± 7"},
+{"sample":"50% P123/50% TPGS","size_nm":111,"pdi":0.14,"zeta_mV":-5.4,"medium":"not_declared","source":"Table 2","quote":"50% P123/50% TPGS | 111 ± 8 | 0.14 ± 0.01 | −5.4 ± 15.3 | 59 ± 10"},
+{"sample":"75% P123/25% TPGS","size_nm":112,"pdi":0.15,"zeta_mV":16.0,"medium":"not_declared","source":"Table 2","quote":"75% P123/25% TPGS | 112 ± 8 | 0.15 ± 0.05 | 16.0 ± 2.9 | 59 ± 6"},
+{"sample":"100% P123","size_nm":100,"pdi":0.17,"zeta_mV":-10.5,"medium":"not_declared","source":"Table 2","quote":"100% P123 | 100 ± 8 | 0.17 ± 0.02 | −10.5 ± 17.1 | 59 ± 7"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"R19-loaded NPs","quote":"FTIR spectra of R19, P123, TPGS, and R19-loaded NPs."}]},
+{"pmcid":"PMC10458271","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 10","variant":"TEM_prep_not_declared","sample":"RZ-NLCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (C) optimized RZ-NLCs (D) Optimized RZ-NLCG."}],
+"descriptors":[
+{"sample":"RZ-NLCs (0 month)","size_nm":118.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"PS (nm) | 118.4 ± 5.94 | 125.28 ± 2.31 | 129.32 ± 3.52 | 135.67 ± 5.94"}],
+"spectra":[]},
+{"pmcid":"PMC9611945","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Co-MION@CMC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(H) TEM image (inset: histogram of size distribution)."},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) Nanoparticle image and (D) size distribution histogram based on TEM analysis."},
+{"fig":"Fig. 4","variant":"STEM","sample":"AuNP//Co-MION@CMC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) Annular dark-field image (left) and TEM image (right)."}],
+"descriptors":[
+{"sample":"Co-MION@CMC","size_nm":null,"pdi":null,"zeta_mV":-41,"medium":"not_declared","source":"text","quote":"A zeta potential value of −41 ± 5 mV evidenced the anionic characteristics"},
+{"sample":"AuNPs","size_nm":null,"pdi":null,"zeta_mV":-50,"medium":"not_declared","source":"text","quote":"A zeta potential value of −50 ± 5 mV indicated that electrostatic forces effectively stabilized the AuNPs"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Co-MION@CMC","quote":"(G) XRD pattern with diffraction planes compared to magnetite’s ICCD file"},
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AuNPs","quote":"(A) UV–Vis spectrum (inset: digital image of colloidal suspension)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AuNP//Co-MION@CMC","quote":"(F) FTIR spectra obtained for the dual-nanozyme system (c) compared to Co-MION@CMC (a) and AuNPs (b)."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AuNP//Co-MION@CMC","quote":"(D) TEM image with EDS spectra."}]},
+{"pmcid":"PMC8622650","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"TEs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM of different types of TEs, with and without NIA. Scale bar 200 nm, amplification of 100,000×."}],
+"descriptors":[
+{"sample":"TE tween 80","size_nm":132,"pdi":0.295,"zeta_mV":-17,"medium":"water","source":"Table 2","quote":"TE tween 80 | 132 ± 9 | 0.295 ± 0.006 | −17 ± 4 | 5.3 ± 1.2"},
+{"sample":"TE oleic acid","size_nm":171,"pdi":0.296,"zeta_mV":-40,"medium":"water","source":"Table 2","quote":"TE oleic acid | 171 ± 18 | 0.296 ± 0.020 | −40 ± 2 | 6.7 ± 2.2"},
+{"sample":"TE jojoba oil","size_nm":215,"pdi":0.232,"zeta_mV":-21,"medium":"water","source":"Table 2","quote":"TE jojoba oil | 215 ± 6 | 0.232 ± 0.010 | −21 ± 6 | 7.6 ± 2.5"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"TEs","quote":"FTIR spectra of TE tween 80 w/NIA (bottom), TE oleic acid w/NIA (middle), and TE jojoba oil w/NIA (top)"}]},
+{"pmcid":"PMC10386213","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"SEM","sample":"AXT-NLC13","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) morphological evaluation by SEM."}],
+"descriptors":[
+{"sample":"AXT-NLC13","size_nm":108,"pdi":0.271,"zeta_mV":-42.3,"medium":"not_declared","source":"text","quote":"of 108 nm, 0.271, −42.3 mV, and 84.12%"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AXT-NLC13","quote":"FTIR spectra of (A) pure AXT and (B) optimized formulation (AXT-NLC13)."}]},
+{"pmcid":"PMC8038213","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Baked 10","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of the resulting AgNPs from colloidal samples: (a) Baked 1, (b) Baked 10, (c) Baked 100 and (d) Unbaked 10."}],
+"descriptors":[
+{"sample":"Baked 1","size_nm":364.6,"pdi":0.25,"zeta_mV":-15.5,"medium":"not_declared","source":"Table 1","quote":"Baked 1 | 364.6 ± 95.3 | 0.25 ± 0.04 | −15.5 ± 2.0"},
+{"sample":"Baked 10","size_nm":105.5,"pdi":0.29,"zeta_mV":-41.0,"medium":"not_declared","source":"Table 1","quote":"Baked 10 | 105.5 ± 12.6 | 0.29 ± 0.02 | −41.0 ± 9.0"},
+{"sample":"Baked 100","size_nm":456.5,"pdi":0.22,"zeta_mV":-0.7,"medium":"not_declared","source":"Table 1","quote":"Baked 100 | 456.5 ± 14.7 | 0.22 ± 0.01 | −0.7 ± 0.4"},
+{"sample":"Unbaked 10","size_nm":5958.8,"pdi":0.29,"zeta_mV":-0.3,"medium":"not_declared","source":"Table 1","quote":"Unbaked 10 | 5958.8 ± 499.6 | 0.29 ± 0.02 | −0.3 ± 0.1"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"colloidal samples","quote":"UV-Vis spectra of the colloidal samples."},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"samples powder","quote":"XRD patterns of samples powder prepared at various extract type and AgNO3 concentration."},
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"colloidal samples","quote":"FTIR spectra of the colloidal samples."}]}
+]}

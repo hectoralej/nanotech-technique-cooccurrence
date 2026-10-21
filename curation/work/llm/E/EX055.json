@@ -1,0 +1,107 @@
+{
+  "batch": "EX055",
+  "articles": [
+    {
+      "pmcid": "PMC9076931",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "SEM", "sample": "AgNPs and AgNPs–rGO–PANI", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM images of (A) AgNPs, (B), rGO, (C) PANI, (D) rGO–PANI, (E and F) AgNPs–rGO–PANI."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "AgNPs and AgNPs–rGO–PANI", "quote": "UV-visible spectra of (A) AgNPs, (B) GO, (C) rGO, (D) PANI, (E) rGO–PANI, and (F) AgNPs–rGO–PANI."},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs and AgNPs–rGO–PANI", "quote": "FTIR spectra showing the various functional groups present in AgNPs, GO, rGO, PANI and their involvement in the preparation of rGO–PANI, and AgNPs–rGO–PANI nanocomposite."},
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AgNPs and AgNPs–rGO–PANI", "quote": "XRD spectra are showing the characteristics peak of AgNPs, GO, rGO, PANI, rGO–PANI, and AgNPs–rGO–PANI nanocomposite."},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AgNPs and AgNPs–rGO–PANI", "quote": "EDX spectrum of (A) AgNPs, (B) GO, (C) rGO, (D) PANI, (E) rGO–PANI, and (F) AgNPs–rGO–PANI."}
+      ]
+    },
+    {
+      "pmcid": "PMC11280234",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "Jama and JamaNaDES", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron micrographs of Jama are shown in (A) and of JamaNaDES in (B)."},
+        {"fig": "Figure 8", "variant": "TEM_prep_not_declared", "sample": "Jama, protocols A–C", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of the three different cooling methods are observed in (A–C)."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "Jama and JamaNaDES", "quote": "the lipidic phase of the nanocarriers Jama and JamaNaDES are shown, along with NaDES spectrum profile (B)."},
+        {"technique": "XRD", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "Jama and JamaNaDES", "quote": "Diffractograms of the lipidic nanocarriers produced can be observed in (C): (a) Jama (absent of NaDES) and (b) JamaNaDES."}
+      ]
+    },
+    {
+      "pmcid": "PMC11450761",
+      "context": {"article_kind": "research", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false},
+      "panels": [], "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC11809167",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "STEM", "sample": "DSPC liposomes, with and without CBD", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "STEM images: (A) DSPC liposomes dried overnight, (B) DSPC liposomes with incorporated CBD dried overnight, and (C) DSPC liposomes dried for 2 h."}],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "prepared liposomes", "quote": "FTIR spectra of used substances and prepared liposomes in the full spectral range."}]
+    },
+    {
+      "pmcid": "PMC5609152",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_negstain", "sample": "pyE-LNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Particles were imaged with TEM and analysed for morphology and size via ImageJ."},
+        {"fig": "Fig. 3", "variant": "TEM_negstain", "sample": "pyE-LN-D and pyE-LN-CO", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Particle size and morphology were assessed by TEM (A)"}
+      ],
+      "descriptors": [{"sample": "pyE-LN-D and pyE-LN-CO", "size_nm": 30, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 3A; mean size by TEM/ImageJ, not DLS", "quote": "As illustrated in Fig. 3A, a mean particle size of approximately 30 nm was achieved for optimized pyE-LN-D and pyE-LN-CO particles"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11511049",
+      "context": {"article_kind": "research", "carrier_type": "PLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 7", "variant": "TEM_prep_not_declared", "sample": "PLNs (PHA-2X3-DOPE 1:3) and CLs (2X3-DOPE 1:3)", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy of PLNs (PHA-2X3-DOPE 1:3) and CLs (2X3-DOPE 1:3)"}],
+      "descriptors": [
+        {"sample": "CL (2X3/DOPE 1:3; PHA/lipids 0:1)", "size_nm": 236, "pdi": 0.55, "zeta_mV": 59, "medium": "water", "source": "Table 2; DLS in sterile water", "quote": "1:3 | 0:1 | 236 ± 20 | 0.55 ± 0.10 | 59 ± 2"},
+        {"sample": "PLN (2X3/DOPE 1:3; PHA/lipids 10:1)", "size_nm": 290, "pdi": 0.46, "zeta_mV": 59, "medium": "water", "source": "Table 2; DLS in sterile water", "quote": "10:1 | 290 ± 16 | 0.46 ± 0.01 | 59 ± 3"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6214226",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "SEM", "sample": "TD-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Characterization of TD-AgNPs.(A) UV–Vis absorption spectrum, (B) FTIR spectrum, (C) SEM image, (D) EDX spectrum, (E) TEM image, and (F) XRD pattern of TD-AgNPs."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "TD-AgNPs", "quote": "Characterization of TD-AgNPs.(A) UV–Vis absorption spectrum"},
+        {"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "TD-AgNPs", "quote": "(B) FTIR spectrum"},
+        {"technique": "EDS", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "TD-AgNPs", "quote": "(D) EDX spectrum"},
+        {"technique": "XRD", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "TD-AgNPs", "quote": "(F) XRD pattern of TD-AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC11360708",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "DA-CIT-SLNs-60", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy images of DA-CIT-SLNs-60 at the dried state. Panel (a) scale bar is 50 nm. Panel (b) scale bar is 20 nm."}],
+      "descriptors": [
+        {"sample": "DA-CIT-SLNs-60", "size_nm": 131, "pdi": 0.4, "zeta_mV": -10.2, "medium": "other", "source": "Table 1; size/PDI in double-distilled water, zeta in KCl (1 mM, pH 7)", "quote": "DA-CIT-SLNs-60 | 131 ± 20 | 0.40 ± 0.04 | −10.2 ± 1.1 | 77 ± 7 | 75 ± 2"},
+        {"sample": "DA-CIT-SLNs-120", "size_nm": 405, "pdi": 0.53, "zeta_mV": -7.8, "medium": "other", "source": "Table 1; size/PDI in double-distilled water, zeta in KCl (1 mM, pH 7)", "quote": "DA-CIT-SLNs-120 | 405 ± 25 ** | 0.53 ± 0.01 | −7.8 ± 0.4 | 65 ± 3 | 59 ± 8"},
+        {"sample": "DA-SLNs", "size_nm": 171, "pdi": 0.2, "zeta_mV": -2, "medium": "other", "source": "Table 1; size/PDI in double-distilled water, zeta in KCl (1 mM, pH 7)", "quote": "DA-SLNs c | 171 ± 6 ** | 0.20 ± 0.01 | −2.0 ± 0.7 ** | 19 ± 3 | -"},
+        {"sample": "CIT-SLNs", "size_nm": 201, "pdi": 0.45, "zeta_mV": -2.2, "medium": "other", "source": "Table 1; size/PDI in double-distilled water, zeta in KCl (1 mM, pH 7)", "quote": "CIT-SLNs d | 201 ± 24 ** | 0.45 ± 0.08 | −2.2 ± 0.2 ** | - | 80 ± 7"},
+        {"sample": "Plain SLNs", "size_nm": 141, "pdi": 0.35, "zeta_mV": -9.7, "medium": "other", "source": "Table 1; size/PDI in double-distilled water, zeta in KCl (1 mM, pH 7)", "quote": "Plain SLNs e | 141 ± 11 | 0.35 ± 0.17 | −9.7 ± 0.8 | - | -"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC8894456",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "TEM_prep_not_declared", "sample": "chitosan nanoparticles (CNPs)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM (A,B) and TEM (C,D) micrographs of chitosan nanoparticles biosynthesized using Pelargonium graveolens leaf extract."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "biosynthesized chitosan nanoparticles", "quote": "(B) UV–Vis spectrum of chitosan nanoparticles"},
+        {"technique": "FTIR", "fig": "Figure 6", "applies_to": "nanoparticle", "sample": "chitosan nanoparticles", "quote": "FTIR (A) and XRD (B) analyses of chitosan nanoparticles biosynthesized using Pelargonium graveolens leaf extract."},
+        {"technique": "XRD", "fig": "Figure 6", "applies_to": "nanoparticle", "sample": "chitosan nanoparticles", "quote": "FTIR (A) and XRD (B) analyses of chitosan nanoparticles biosynthesized using Pelargonium graveolens leaf extract."}
+      ]
+    },
+    {
+      "pmcid": "PMC12964396",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "cryoTEM", "sample": "masked MAG2-Lp", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative cryo-EM micrographs of masked MAG2-Lp with or without trigger at a magnification of 50,000×."},
+        {"fig": "Figure 5", "variant": "cryoTEM", "sample": "liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Positive staining cryo-EM images of liposomes (triplicate). White arrows indicate UA-stainable peptide clusters. Scale bar: 50 nm."}
+      ],
+      "descriptors": [], "spectra": []
+    }
+  ]
+}

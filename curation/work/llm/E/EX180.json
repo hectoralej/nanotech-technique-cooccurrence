@@ -1,0 +1,92 @@
+{"batch":"EX180","articles":[
+{"pmcid":"PMC8467987","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"untreated magnetite NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM pictures of untreated magnetite NPs (a,b) and NPs surface treated with MHX (c,d)."},
+  {"fig":"Fig. 9","variant":"SEM","sample":"magnetite NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a,b) SEM (a) and TEM (b) images of magnetite NPs revealing that the primary nanoparticles are agglomerates."},
+  {"fig":"Fig. 11","variant":"SEM","sample":"PLA-8M","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM and EDX elemental mapping on PLA-8M (a–c) and PLA-8Ms nanocomposites (d–g)"},
+  {"fig":"Fig. 12","variant":"TEM_prep_not_declared","sample":"PLA–4% magnetite nanocomposites","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM pictures at different magnifications of PLA–4% magnetite nanocomposites produced using untreated (a,b) and surface treated MNPs (c,d)."}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"EDS","fig":"Fig. 11","applies_to":"mixture","sample":"PLA-8M","quote":"SEM and EDX elemental mapping on PLA-8M (a–c) and PLA-8Ms nanocomposites (d–g)"}]},
+{"pmcid":"PMC7699838","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"SEM","sample":"HMSN-PDEAEMA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) the SEM image; (F) the TEM image of hollow mesoporous silica nanoparticles coated with PDEAEMA."},
+  {"fig":"Fig. 1","variant":"TEM_dried_unstained","sample":"HMSN-PDEAEMA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(F) the TEM image of hollow mesoporous silica nanoparticles coated with PDEAEMA."}],
+ "descriptors":[
+  {"sample":"HMSN-PDEAEMA","size_nm":680,"pdi":null,"zeta_mV":null,"medium":"PBS","source":"text","quote":"reducing the particle size from 900 to 680 nm at pH 8."}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"HMSN-PDEAEMA","quote":"(B) FTIR spectra of HMSN-CTAB, HMSNs without CTAB, HMSN-PDEAEMA, and HMSN-Br;"}]},
+{"pmcid":"PMC7693828","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MSN-NH2","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(C) 100 μL, and (D) 150 μL. Scale bar = 100 nm."},
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"DEX MSN-NH2","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of MSN-NH2 after drug loading. DEX MSN-NH2 (A), 5-FU MSN-NH2 (B),"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSN-NH2","quote":"FTIR spectra of MSN-NH2 prepared with different volumes of APTES"},
+  {"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"5-FU MSN-NH2","quote":"(A) FT-IR spectra of (a) 5-FU, (b) MSN-NH2, and (c) 5-FU MSN-NH2."}]},
+{"pmcid":"PMC7353209","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"SPIONs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Transmission electron microscopy (TEM) images of the nanoparticles (scale bar = 300 nm, inserts show SPIONs at higher magnification) (a)"},
+  {"fig":"Fig. 3","variant":"AFM","sample":"SPIONs and SPION@mSiO2","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"atomic force microscopy (AFM) topographical and phase images of SPIONs and SPION@mSiO2 (scale bar = 200 nm)"}],
+ "descriptors":[
+  {"sample":"SPIONs","size_nm":null,"pdi":null,"zeta_mV":19.6,"medium":"not_declared","source":"text","quote":"+19.6 ± 0.8 mV for unmodified SPIONs"},
+  {"sample":"SPION@SiO2","size_nm":null,"pdi":null,"zeta_mV":-12.2,"medium":"not_declared","source":"text","quote":"decreased to −12.2 ± 0.3 mV for SPION@SiO2"},
+  {"sample":"SPION@mSiO2","size_nm":null,"pdi":null,"zeta_mV":-26.1,"medium":"not_declared","source":"text","quote":"and −26.1 ± 0.1 mV for SPION@mSiO2."}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"the nanoparticles","quote":"Fourier transform infrared spectroscopy (FTIR) spectra of the nanoparticles (a)"}]},
+{"pmcid":"PMC7326045","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image showing individual nano particles of silver with an average size of ∼26 nm (B)."}],
+ "descriptors":[
+  {"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-8.9,"medium":"not_declared","source":"text","quote":"The charge of synthesized nanoparticles determined by Zeta potential was −8.9 mV"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-visible spectroscopy demonstrating a SPR band with a peak at 408 nm (A)"}]},
+{"pmcid":"PMC7662631","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"HRTEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) HR-TEM and (b) SAED images of AgNPs prepared using T. chebula fruit extract."}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"XRD","fig":"Figure 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction pattern of as-prepared AgNPs."}]},
+{"pmcid":"PMC7196283","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"ultrasmall Au NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative TEM images of (A) original ultrasmall Au NPs, (B) ultrasmall Au@Tat-R-EK NPs, and (C) ultrasmall Au@Tat-I-EK NPs."}],
+ "descriptors":[
+  {"sample":"peptide modified Au NPs","size_nm":4.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average hydrodynamic diameter of peptide modified Au NPs increased to 4.9 nm (Figure 2D)"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"ultrasmall Au NPs","quote":"(f) UV-vis spectra of ultrasmall Au NPs."}]},
+{"pmcid":"PMC7153621","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"SPIONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM image and (b) size distribution of SPIONs dispersed in water obtained by TEM and DLS."},
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"pSi microparticle after SPIONs infiltration","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of a pSi microparticle after SPIONs infiltration at: (a) 100 nm scale and (b) 20 nm scale"},
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"pSi microparticle after SPIONs decoration","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of a pSi microparticle after SPIONs decoration at 50 nm scale in: (a) PBS; (b) water."},
+  {"fig":"Fig. 6","variant":"STEM","sample":"pSi microparticle after SPIONs decoration","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"STEM (BF) images of: (a) a pSi microparticle after SPIONs decoration at 50 nm scale"}],
+ "descriptors":[
+  {"sample":"SPIONs","size_nm":7,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"with an average value of (7 ± 3) nm which is consistent with the TEM result"},
+  {"sample":"SPIONs (10 mmol/mg diamine)","size_nm":18,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"thus decreasing the average size distribution up to (18 ± 3) nm."}],
+ "spectra":[
+  {"technique":"EDS","fig":"Fig. 6","applies_to":"mixture","sample":"pSi microparticle after SPIONs decoration","quote":"the STEM mode allows evaluating the actual elemental distribution in the sample collecting EDS maps"}]},
+{"pmcid":"PMC7793086","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"SiO2-NP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Electron micrographs of fluorescent SiO2-NPs with sizes varying from 20 to 200 nm in diameter"},
+  {"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"CoFe2O4/SiO2-NP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Electron micrograph of fluorescent CoFe2O4/SiO2-NP of 60 nm diameter"},
+  {"fig":"Fig. 6","variant":"TEM_posstain","sample":"CoFe2O4/SiO2-NP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Electron micrograph demonstrating fluorescent CoFe2O4/SiO2 uptake in a HeLa cell"}],
+ "descriptors":[
+  {"sample":"SiO2-NP(1)","size_nm":28.8,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 1","quote":"The smallest-sized nanoparticles were distributed around 28.8 ± 5.3 nm, while the largest were around 210.7 ± 15.2 nm"},
+  {"sample":"SiO2-NP(2)","size_nm":57.8,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 1","quote":"DLS diam. (nm) 1 | 28.8 ± 5.3 | 57.8 ± 3.2"},
+  {"sample":"SiO2-NP(3)","size_nm":117.3,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 1","quote":"DLS diam. (nm) 1 | 28.8 ± 5.3 | 57.8 ± 3.2 | 117.3 ± 2.4"},
+  {"sample":"SiO2-NP(4)","size_nm":210.7,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 1","quote":"while the largest were around 210.7 ± 15.2 nm"},
+  {"sample":"CoFe2O4/SiO2","size_nm":62.1,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"had hydrodynamic diameters of 62.1 ± 3.2 nm"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"dual-color SiO2 NP","quote":"(c) Absorption spectra of dual-color SiO2 NP shows the dependence of the dual-color SiO2 NP absorption spectrum"}]},
+{"pmcid":"PMC7217893","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_negstain","sample":"AuNPs coated with Dex-40, Dex-10, Dxt and Cht","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of AuNPs coated with Dex-40 (A), Dex-10 (B), Dxt (C) and Cht (D) ligands."}],
+ "descriptors":[
+  {"sample":"Dex-40-AuNPs","size_nm":20,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"determined to be ∼20, ∼53, ∼40 and ∼55 nm for Dex-40-AuNPs, Dex-10-AuNPs, Dxt-AuNPs and Cht-AuNPs"},
+  {"sample":"Dex-10-AuNPs","size_nm":53,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"determined to be ∼20, ∼53, ∼40 and ∼55 nm for Dex-40-AuNPs, Dex-10-AuNPs, Dxt-AuNPs and Cht-AuNPs"},
+  {"sample":"Dxt-AuNPs","size_nm":40,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"determined to be ∼20, ∼53, ∼40 and ∼55 nm for Dex-40-AuNPs, Dex-10-AuNPs, Dxt-AuNPs and Cht-AuNPs"},
+  {"sample":"Cht-AuNPs","size_nm":55,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"determined to be ∼20, ∼53, ∼40 and ∼55 nm for Dex-40-AuNPs, Dex-10-AuNPs, Dxt-AuNPs and Cht-AuNPs"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Figure 1","applies_to":"nanoparticle","sample":"AuNPs coated with Dex-40, Dex-10, Dxt and Cht","quote":"(A) UV-Vis absorption spectra of AuNPs coated with Dex-40 (black), Dex-10 (red), Dxt (blue) and Cht (magenta) ligands"},
+  {"technique":"UVVis","fig":"Figure 4","applies_to":"mixture","sample":"insulin amyloid fibrils with biopolymer-coated AuNPs","quote":"UV-Vis spectra of insulin amyloid fibrils with biopolymer-coated AuNPs in glycine buffer after 3 h incubation at 65 °C"}]}
+]}

@@ -1,0 +1,120 @@
+{
+  "batch": "EX057",
+  "articles": [
+    {
+      "pmcid": "PMC9883368",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "cinnamon-, cumin-, and Ci-Cu-loaded NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM images and size of nanoparticles loaded with a cinnamon b cumin c Ci-Cu. d Ci-Cu size distribution (scale bar is 200 nm)"},
+        {"fig": "Fig. 3", "variant": "TEM_dried_unstained", "sample": "cinnamon-, cumin-, and Ci-Cu-loaded polymeric NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of nanoparticles loaded with a cinnamon b cumin c Ci–Cu (scale bar is 100 nm)"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Ci-Cu-loaded polymeric nanoparticles", "quote": "XRD diffractograms of Ci-Cu-loaded polymeric nanoparticles"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "cinnamon-, cumin-, and Ci-Cu-loaded polymeric NPs", "quote": "FTIR spectra of PLGA, cinnamon-loaded, cumin-loaded and Ci-Cu-loaded polymeric NPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC11944368",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "STEM", "sample": "Lip-Rh liposomes; sonication and sonication with extrusion", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "STEM micrographs of liposomes using as size-control methods: sonication alone (A,B) with the particles ranging between 100 and 5000 nm"}],
+      "descriptors": [
+        {"sample": "Lip-Rh, sonication alone", "size_nm": 518.9, "pdi": 0.9528, "zeta_mV": null, "medium": "not_declared", "source": "Figure 1; DLS hydrodynamic size", "quote": "The hydrodynamic size of Lip-Rh prepared by sonication alone was measured to be 518.9 nm, as illustrated in Figure 1A.", "quote2": "The polydispersity index (PDI), which quantifies the uniformity of particle size within the sample, was determined to be 0.9528."},
+        {"sample": "Lip-Rh, sonication with extrusion through 1 μm membrane", "size_nm": 409.8, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Figure 1; DLS hydrodynamic size", "quote": "The liposomes showed an average hydrodynamic diameter of 409.8 nm, indicating the intensity-weighted mean size of the particles within the sample."}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12224091",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "aqueous lignin nanoparticle suspensions", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of aqueous LNP suspensions concentrated at 1 wt % (a–c), 3 wt % (d–f), and 5 wt % (g–i) lignin"},
+        {"fig": "Figure 5", "variant": "SEM", "sample": "PVA-based films incorporating lignin particles", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "SEM images of PVA-based films incorporating 5 wt % (a, d), 10 wt % (b, e), and 20 wt % (c, d)"}
+      ],
+      "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC7408428",
+      "context": {"article_kind": "research", "carrier_type": "PLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "PLNP (P2), 7.5 (PEG):30 (PCL):5 (SA):1 (ANS)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy micrographs of the PLNP (P2) composed of 7.5 (PEG):30 (PCL):5 (SA):1 (ANS)."}],
+      "descriptors": [
+        {"sample": "ANS-PLNP T1", "size_nm": 218.16, "pdi": 0.11, "zeta_mV": -0.5, "medium": "not_declared", "source": "Table 2", "quote": "T1 | 218.16 ± 1.91 | 0.11 ± 0.02 | −0.50 ± 0.52 | 79.7"},
+        {"sample": "ANS-PLNP P1", "size_nm": 202.01, "pdi": 0.1, "zeta_mV": 2.56, "medium": "not_declared", "source": "Table 2", "quote": "P1 | 202.01 ± 2.02 | 0.10 ± 0.02 | 2.56 ± 6.78 | 80.1"},
+        {"sample": "ANS-PLNP P2", "size_nm": 205.96, "pdi": 0.11, "zeta_mV": 1.69, "medium": "not_declared", "source": "Table 2", "quote": "P2 | 205.96 ± 4.04 | 0.11 ± 0.02 | 1.69 ± 3.68 | 80.4"},
+        {"sample": "ANS-PLNP P3", "size_nm": 193.6, "pdi": 0.12, "zeta_mV": 6.01, "medium": "not_declared", "source": "Table 2", "quote": "P3 | 193.60 ± 2.89 | 0.12 ± 0.01 | 6.01 ± 4.74 | 81.3"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10864949",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "RFL-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of silver nanoparticles (AgNPs) synthesized from the dried leaves of Rubus fruticosus."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "silver nanoparticles", "quote": "UV-visible spectroscopy was utilized to examine silver nanoparticles derived from the dried leaves of Rubus fruticosus."},
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "RFL-silver nanoparticles", "quote": "EDX spectra of RFL-silver nanoparticles prepared from the dried leaves of Rubus fruticosus."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "X-ray diffraction pattern of silver nanoparticles (AgNPs) synthesized from the dried leaves of Rubus fruticosus."}
+      ]
+    },
+    {
+      "pmcid": "PMC12947224",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 12", "variant": "TEM_prep_not_declared", "sample": "NLC-RVL", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM of NLC-RVL at different magnifications. (A) 100 nm; (B) 50 nm."}],
+      "descriptors": [
+        {"sample": "NLC-20", "size_nm": 93.92, "pdi": 0.271, "zeta_mV": -28.55, "medium": "not_declared", "source": "Table 5; DLS", "quote": "NLC-20 | 93.92 ± 1.80 | 0.271 ± 0.01 | –28.55 ± 6.76 |"},
+        {"sample": "NLC-RVL-20", "size_nm": 89.97, "pdi": 0.283, "zeta_mV": -37.36, "medium": "not_declared", "source": "Table 5; DLS", "quote": "NLC-RVL-20 | 89.97 ± 1.14 | 0.283 ± 0.01 | –37.36 ± 0.59 | 265.9"},
+        {"sample": "NLC-200", "size_nm": 202.08, "pdi": 0.42, "zeta_mV": -46.83, "medium": "not_declared", "source": "Table 5; DLS", "quote": "NLC-200 | 202.08 ± 19.86 | 0.420 ± 0.11 | –46.83 ± 2.31 |"},
+        {"sample": "NLC-RVL-200", "size_nm": 175.92, "pdi": 0.349, "zeta_mV": -42.12, "medium": "not_declared", "source": "Table 5; DLS", "quote": "NLC-RVL-200 | 175.92 ± 28.05 | 0.349 ± 0.09 | –42.12 ± 2.03 | 304.7"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9009416",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "FIGURE 2", "variant": "SEM", "sample": "HA and Ce/Gd-doped HA nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) SEM images and (B) diameter distribution histograms of HA, 0.5Ce@HA, 1Ce@HA, 0.5Gd@HA, 1Gd@HA, 0.5Ce/1Gd@HA, and 1Ce/1Gd@HA nanoparticles."},
+        {"fig": "FIGURE 4", "variant": "SEM", "sample": "porous Ce/Gd@HA/PLGA scaffolds", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "(A) ESEM micrographs of porous scaffolds."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "FIGURE 1", "applies_to": "nanoparticle", "sample": "HA and Ce/Gd@HA nanoparticles", "quote": "(A) FTIR spectra"},
+        {"technique": "XRD", "fig": "FIGURE 1", "applies_to": "nanoparticle", "sample": "HA and Ce/Gd@HA nanoparticles", "quote": "(B) XRD step scan patterns from 20° to 55°."}
+      ]
+    },
+    {
+      "pmcid": "PMC12374651",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "RGD@LP-Y", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(B) TEM observation of RGD@LP-Y morphology."}],
+      "descriptors": [
+        {"sample": "LP", "size_nm": 100, "pdi": null, "zeta_mV": -60, "medium": "not_declared", "source": "Figure 1B–C; approximate size and zeta", "quote": "particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B).", "quote2": "Zeta potential measurements indicated that the liposomes exhibited potentials around -60 mV (Figure 1C)."},
+        {"sample": "RGD@LP", "size_nm": 100, "pdi": null, "zeta_mV": -60, "medium": "not_declared", "source": "Figure 1B–C; approximate size and zeta", "quote": "particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B).", "quote2": "Zeta potential measurements indicated that the liposomes exhibited potentials around -60 mV (Figure 1C)."},
+        {"sample": "LP-Y", "size_nm": 100, "pdi": null, "zeta_mV": -60, "medium": "not_declared", "source": "Figure 1B–C; approximate size and zeta", "quote": "particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B).", "quote2": "Zeta potential measurements indicated that the liposomes exhibited potentials around -60 mV (Figure 1C)."},
+        {"sample": "RGD@LP-Y", "size_nm": 100, "pdi": null, "zeta_mV": -60, "medium": "not_declared", "source": "Figure 1B–C; approximate size and zeta", "quote": "particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B).", "quote2": "Zeta potential measurements indicated that the liposomes exhibited potentials around -60 mV (Figure 1C)."}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12051533",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "CSL-LNPs, SO-LNPs, BJL-LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) TEM images of CSL-LNPs. (B) TEM images of SO-LNPs. (C) TEM images of BJL-LNPs."}],
+      "descriptors": [
+        {"sample": "CSL-LNP formulation 2", "size_nm": 170.6, "pdi": 0.112, "zeta_mV": 45.8, "medium": "not_declared", "source": "Table 1", "quote": "2 | 3.52% | 0.35% | 0.12% | 0.112 | 170.6 ± 0.3 | 45.8"},
+        {"sample": "SO-LNP formulation 2", "size_nm": 187.2, "pdi": 0.099, "zeta_mV": 44.7, "medium": "not_declared", "source": "Table 2", "quote": "2 | 3.52% | 0.35% | 0.12% | 0.099 | 187.2 ± 2.4 | 44.7"},
+        {"sample": "BJL-LNP formulation 2", "size_nm": 164.8, "pdi": 0.174, "zeta_mV": 49.8, "medium": "not_declared", "source": "Table 3; text reports zeta 48.8 ± 0.3 mV", "quote": "2 | 3.52% | 0.35% | 0.12% | 0.174 | 164.8 ± 2.3 | 49.8"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10700519",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "green-synthesized silver nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM analysis of silver nanoparticles: The images are presenting the morphology of the synthesized nanoparticles. Scale bar = 500 nm."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "synthesized silver nanoparticles", "quote": "UV–Vis spectroscopy of synthesized silver nanoparticles."},
+        {"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "synthesized silver nanoparticles", "quote": "FTIR of synthesized silver nanoparticles and plant extract."},
+        {"technique": "EDS", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "synthesized silver nanoparticles", "quote": "Energy-dispersive X-ray spectroscopy (EDS) of synthesized silver nanoparticles showing silver (Ag) as the major component of nanoparticles."},
+        {"technique": "XRD", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "synthesized silver nanoparticles", "quote": "X-ray diffraction (XRD) analysis of synthesized silver nanoparticles."}
+      ]
+    }
+  ]
+}

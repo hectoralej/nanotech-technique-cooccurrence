@@ -1,0 +1,112 @@
+{
+  "batch": "EX060",
+  "articles": [
+    {
+      "pmcid": "PMC11206491",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 8", "variant": "TEM_prep_not_declared", "sample": "SLN-BBS-COPA and SLN-W", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images acquired from (A) SLN-BBS-COPA and (B) SLN-W samples."}],
+      "descriptors": [
+        {"sample": "SLN 1", "size_nm": 242.8, "pdi": 0.168, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 1 | 2 | 0 | 242.8 ± 3.20 | 0.168 ± 0.010"},
+        {"sample": "SLN 2", "size_nm": 389.2, "pdi": 0.522, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 2 | 6 | 0 | 389.2 ± 64.70 | 0.522 ± 0.139"},
+        {"sample": "SLN 3", "size_nm": 98.0, "pdi": 0.393, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 3 | 2 | 5 | 98.0 ± 1.20 | 0.393 ± 0.026"},
+        {"sample": "SLN 4", "size_nm": 259.7, "pdi": 0.285, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 4 | 6 | 5 | 259.7± 4.40 | 0.285 ± 0.008"},
+        {"sample": "SLN 5C", "size_nm": 281, "pdi": 0.251, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 5C * | 4 | 2.5 | 281.0 ± 3.63 | 0.251 ± 0.049"},
+        {"sample": "SLN 6C", "size_nm": 331.9, "pdi": 0.272, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 6C * | 4 | 2.5 | 331.9 ± 5.61 | 0.272 ± 0.026"},
+        {"sample": "SLN 7C", "size_nm": 283.9, "pdi": 0.251, "zeta_mV": null, "medium": "not_declared", "source": "Table 6; DLS", "quote": "SLN 7C * | 4 | 2.5 | 283.9 ± 4.42 | 0.251 ± 0.032"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12440946",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "FIGURE 1", "variant": "TEM_prep_not_declared", "sample": "PLGA NP and γ-oryzanol@PLGA NP", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of PLGA NP (A) and γ-oryzanol@PLGA NP (B), Scale bar = 200 nm."}],
+      "descriptors": [
+        {"sample": "PLGA NP", "size_nm": 232.5, "pdi": 0.016, "zeta_mV": -25.97, "medium": "water", "source": "Table 1; DLS, samples dispersed in ultrapure water", "quote": "PLGA NP | 232.50 ± 1.27 | 0.016 ± 0.0096 | −25.97 ± 0.51 | - | -"},
+        {"sample": "γ-oryzanol@PLGA NP", "size_nm": 241.6, "pdi": 0.043, "zeta_mV": -19.84, "medium": "water", "source": "Table 1; DLS, samples dispersed in ultrapure water", "quote": "γ-oryzanol@PLGA NP | 241.60 ± 7.89 | 0.043 ± 0.035 | −19.84 ± 0.29 | 86.22 ± 3.43 | 7.89 ± 0.31"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13440150",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "SEM", "sample": "extracellular vesicles isolated from M. gallisepticum cells", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(I), extracellular vesicles isolated from M. gallisepticum cells."}],
+      "descriptors": [{"sample": "extracellular vesicles isolated from M. gallisepticum", "size_nm": 108.97, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Text; mean diameter from SEM/AFM vesicle characterization, not DLS", "quote": "The vesicles exhibited a mean diameter of 108.97 ± 19.33 nm and a mean height of 23.69 ± 8.15 nm."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC8241165",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "TPT-CLN", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM micrograph of TPT-CLN (B), the scale bar is 500 nm."}],
+      "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC11944981",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 23", "variant": "TEM_prep_not_declared", "sample": "wet-milled rice husks: nanofibers and SiO2 cluster", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of nanofibers and SiO2 cluster (A), cellulose nanofibrils (B), ordered structures (C), close-up of ordered structures (D)."}],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 24", "applies_to": "component", "sample": "natural rice husk and post-treated cellulose", "quote": "FTIR spectrum of natural rice husk (A); FTIR spectrum of cellulose post-treatment and wet-milling (B)."}]
+    },
+    {
+      "pmcid": "PMC9695231",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_negstain", "sample": "Pr-SLNs-8, Pr-QCT-SLNs-8, St-SLNs-2, St-QCT-SLNs-2, C-St-QCT-SLNs-2", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of different SLNs formulations"}],
+      "descriptors": [
+        {"sample": "Pr-SLNs-8", "size_nm": 264, "pdi": 0.25, "zeta_mV": null, "medium": "not_declared", "source": "Table 1; DLS", "quote": "Pr-SLNs-8 | Precirol | 10:1 | P188 | 0.5 | 264 ± 4 | 0.25 ± 0.02 | - | - | -"},
+        {"sample": "Pr-QCT-SLNs-8", "size_nm": 220, "pdi": 0.32, "zeta_mV": -33, "medium": "not_declared", "source": "Table 1; DLS", "quote": "220 ± 2 | 0.32 ± 0.02 | −33 ± 7"},
+        {"sample": "St-SLNs-2", "size_nm": 240, "pdi": 0.13, "zeta_mV": null, "medium": "not_declared", "source": "Table 1; DLS", "quote": "St-SLNs-2 | Stearic acid | 10:1 | P188 | 0.5 | 240 ± 5 | 0.13 ± 0.03 | - | - | -"},
+        {"sample": "St-QCT-SLNs-2", "size_nm": 262, "pdi": 0.23, "zeta_mV": -34, "medium": "not_declared", "source": "Table 1; DLS", "quote": "262 ± 7 | 0.23 ± 0.01 | −34 ± 7"},
+        {"sample": "C-St-QCT-SLNs-2", "size_nm": 275, "pdi": 0.21, "zeta_mV": 29, "medium": "not_declared", "source": "Table 1; DLS", "quote": "275 ± 3 | 0.21 ± 0.02 | 29 ± 6"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12655583",
+      "context": {"article_kind": "research", "carrier_type": "PLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "PEA-Hyb-np", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(B) TEM images of PEA-Hyb-np at low magnification"}],
+      "descriptors": [
+        {"sample": "PEA-PLGA-np", "size_nm": 386, "pdi": 0.384, "zeta_mV": -20.6, "medium": "water", "source": "Table 2; DLS; initial conventional formulation", "quote": "PEA-PLGA-np | 386 ± 15 | 0.384 ± 0.043 | −20.6 ± 1.7 | 3.9 ± 0.2"},
+        {"sample": "PEA/Ste-PLGA-np", "size_nm": 128, "pdi": 0.238, "zeta_mV": -33.9, "medium": "water", "source": "Table 2; DLS", "quote": "PEA/Ste-PLGA-np | 128 ± 8 | 0.238 ± 0.010 | −33.9 ± 0.4 | 31.3 ± 1.6"},
+        {"sample": "PEA/Gel-PLGA-np", "size_nm": 183, "pdi": 0.28, "zeta_mV": -25.3, "medium": "water", "source": "Table 2; DLS", "quote": "PEA/Gel-PLGA-np | 183 ± 30 | 0.280 ± 0.019 | −25.3 ± 1.3 | 56.8 ± 0.7"},
+        {"sample": "PEA-Hyb-np", "size_nm": 146, "pdi": 0.268, "zeta_mV": -29.6, "medium": "water", "source": "Table 2; DLS", "quote": "PEA-Hyb-np | 146 ± 7 | 0.268 ± 0.051 | −29.6 ± 0.8 | 79.1 ± 0.1"},
+        {"sample": "U-Hyb-np", "size_nm": 167, "pdi": 0.324, "zeta_mV": -30.7, "medium": "water", "source": "Table 2; DLS", "quote": "U-Hyb-np | 167 ± 6 | 0.324 ± 0.113 | −30.7 ± 0.8 | -"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "PEA-Hyb-np and U-Hyb-np", "quote": "IR spectra of (A) raw materials, (B) Naked PEA and binary physical mixtures of PEA-PLGA, PEA-Gelucire, and PEA-Stearic Acid; (C) PEA-Hyb-np and U-Hyb-np."}]
+    },
+    {
+      "pmcid": "PMC9503594",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 7", "variant": "TEM_prep_not_declared", "sample": "DMPC, DOPC, and PEGylated formulations", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electronic microscopy (TEM). Formulations: (A). DMPC; (B). DOPC; (C). DMPC/DSPE-PEG 5%"},
+        {"fig": "Figure 8", "variant": "cryoTEM", "sample": "DMPC liposomal formulations", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryogenic electron microscopy of DMPC liposomes."},
+        {"fig": "Figure 9", "variant": "cryoTEM", "sample": "DOPC liposomal formulations", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryogenic electron microscopy of DOPC liposomes."}
+      ],
+      "descriptors": [
+        {"sample": "DOPC", "size_nm": 202, "pdi": 0.143, "zeta_mV": -3.57, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DOPC | 202 ± 9 | 0.143 ± 0.019 | −3.57"},
+        {"sample": "DOPC/DSPE-PEG 5%", "size_nm": 155, "pdi": 0.084, "zeta_mV": -3.69, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DOPC/DSPE-PEG 5% | 155 ± 10 | 0.084 ± 0.014 | −3.69"},
+        {"sample": "DOPC/DSPE-PEG 10%", "size_nm": 154, "pdi": 0.079, "zeta_mV": -5.89, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DOPC/DSPE-PEG 10% | 154 ± 7 | 0.079 ± 0.009 | −5.89"},
+        {"sample": "DMPC", "size_nm": 193, "pdi": 0.069, "zeta_mV": -4.55, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DMPC | 193 ± 6 | 0.069 ± 0.024 | −4.55"},
+        {"sample": "DMPC/DSPE-PEG 5%", "size_nm": 157, "pdi": 0.09, "zeta_mV": -3.73, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DMPC/DSPE-PEG 5% | 157 ± 7 | 0.090 ± 0.014 | −3.73"},
+        {"sample": "DMPC/DSPE-PEG 10%", "size_nm": 142, "pdi": 0.19, "zeta_mV": -2.57, "medium": "other", "source": "Table 1; DLS size/PDI in PBS; zeta medium water or PBS", "quote": "DMPC/DSPE-PEG 10% | 142 ± 10 | 0.190 ± 0.020 | −2.57"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5582160",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_negstain", "sample": "SOD1-ASO CaP-lipid NPs, Ca/P ratio 100:1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "transmission electron micrograph (TEM) of SOD1-ASO CaP-lipid NPs visualized by negative staining (D)"}],
+      "descriptors": [{"sample": "SOD1-ASO CaP-lipid NPs, Ca/P ratio 100:1", "size_nm": 31, "pdi": 0.3, "zeta_mV": -4.9, "medium": "not_declared", "source": "Table 1; DLS", "quote": "31.0 ± 2.2", "quote2": "−4.9 ± 0.1", "quote3": "0.3 ± 0.006"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12294524",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 9", "variant": "TEM_prep_not_declared", "sample": "green-synthesized AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM image (B) of AgNPs."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV–Vis spectrum of AgNPs solution samples in varied reaction temperatures (A), diverse AgNO3 concentrations (B), and different reaction time (C)."},
+        {"technique": "FTIR", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "AgNPs and MRLE", "quote": "FTIR spectra of AgNPs and MRLE."},
+        {"technique": "XRD", "fig": "Figure 10", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "X-ray diffraction pattern of AgNPs."}
+      ]
+    }
+  ]
+}

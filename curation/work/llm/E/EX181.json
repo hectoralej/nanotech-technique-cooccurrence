@@ -1,0 +1,98 @@
+{"batch":"EX181","articles":[
+{"pmcid":"PMC10053001","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"C-Fe3O4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of obtained nanoparticles and nanoconjugates"},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"C-Fe3O4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of NPs and nanoconjugates"}],
+"descriptors":[
+{"sample":"C-Fe3O4","size_nm":116,"pdi":0.13,"zeta_mV":-18.6,"medium":"not_declared","source":"Table 1","quote":"C-Fe3O4 | 116 ± 7.90 | −18.6 ± 0.60 | 0.13"},
+{"sample":"C-Fe3O4-SiO2","size_nm":122,"pdi":0.22,"zeta_mV":-21.5,"medium":"not_declared","source":"Table 1","quote":"C-Fe3O4-SiO2 | 122 ± 0.20 | −21.5 ± 0.01 | 0.22"},
+{"sample":"C-Fe3O4-SiO2-HPG","size_nm":145.8,"pdi":0.15,"zeta_mV":-18.5,"medium":"not_declared","source":"Table 1","quote":"C-Fe3O4-SiO2-HPG | 145.8 ± 3.50 | −18.5 ± 0.20 | 0.15"},
+{"sample":"DPAPA NC","size_nm":221.9,"pdi":0.06,"zeta_mV":-24.2,"medium":"not_declared","source":"Table 1","quote":"DPAPA NC | 221.9 ± 16.00 | −24.2 ± 0.30 | 0.06"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"NPs and nanoconjugates","quote":"FTIR spectra of NPs and nanoconjugates."}]},
+
+{"pmcid":"PMC10386734","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"QER-TFS","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative TEM image of QER-TFS dispersion."}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"QER-TFS","quote":"Fourier transform-infrared spectra of QER, Lecithin, SDC, empty TFS (no drug), and QER-TFS."}]},
+
+{"pmcid":"PMC10316328","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"UD-SeNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Environmental scanning electron microscopy micrographs of L. sphaericus"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"UD-SeNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Electron microscopy micrographs of thin sections of L. sphaericus treated with 100 μM UD-SeNPs"},
+{"fig":"Fig. 5","variant":"STEM","sample":"selenium nano- and microstructures","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"HAADF-STEM images showing selenium nano- and microstructures"}],
+"descriptors":[
+{"sample":"BSA-SeNPs","size_nm":126.9,"pdi":null,"zeta_mV":-34.5,"medium":"water","source":"Table 1","quote":"BSA-SeNPs | 85 ± 27 | 126.9 ± 3.9 | –34.5 ± 0.8 | –14.7 ± 1.1"},
+{"sample":"UD-SeNPs","size_nm":129.0,"pdi":null,"zeta_mV":-26.6,"medium":"water","source":"Table 1","quote":"UD-SeNPs | 86 ± 21 | 129.0 ± 5.5 | –26.6 ± 1.7 | –5.8 ± 0.7"},
+{"sample":"CS-SeNPs","size_nm":137.7,"pdi":null,"zeta_mV":24.4,"medium":"water","source":"Table 1","quote":"CS-SeNPs | 73 ± 29 | 137.7 ± 6.7 | +24.4 ± 3.5 | +1.3 ± 0.4"},
+{"sample":"AgNPs","size_nm":81.8,"pdi":null,"zeta_mV":-29.8,"medium":"water","source":"Table 1","quote":"AgNPs | 58 ± 16 | 81.8 ± 1.1 | –29.8 ± 2.9 | –6.4 ± 0.6"}],
+"spectra":[
+{"technique":"EDS","fig":"Figures S1 and S2","applies_to":"nanoparticle","sample":"SeNPs","quote":"TEM images, SAED, and EDX spectra confirmed that the NPs were spherical in shape and consisted of Se"}]},
+
+{"pmcid":"PMC6629150","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig 1","variant":"TEM_dried_unstained","sample":"IONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM characterization of iron oxide nanoparticles"},
+{"fig":"Fig 2","variant":"SEM","sample":"EMS2/IONP spheres","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images and EDXS quantitative results of selected elements of MS1, MS1/IONP spheres"},
+{"fig":"Fig 7","variant":"SEM","sample":"EMS2/IONP spheres","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"The SEM images of A) EMS2/IONP spheres"}],
+"descriptors":[
+{"sample":"EMS2","size_nm":null,"pdi":null,"zeta_mV":-38.1,"medium":"not_declared","source":"Table 2","quote":"EMS2 | -38.1 [1.1] | 0.0"},
+{"sample":"EMS2/IONPs","size_nm":null,"pdi":null,"zeta_mV":-31.97,"medium":"not_declared","source":"Table 2","quote":"EMS2/IONPs | -31.97 [0.6]** | 0.029"},
+{"sample":"IONPs","size_nm":null,"pdi":null,"zeta_mV":-25.3,"medium":"not_declared","source":"Table 2","quote":"IONPs | -25.3 [0.9] | ND"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig 4","applies_to":"mixture","sample":"EMS2/IONP spheres","quote":"calculated after Fourier self-deconvolution of the amide I region of the FTIR spectra"}]},
+
+{"pmcid":"PMC6680995","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"CH","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM (left column) and TEM (right column) microphotographs of nanofibrous scaffolds loaded with AgNPs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 4","applies_to":"mixture","sample":"nanofibrous scaffolds loaded with AgNPs","quote":"FTIR of nanofibrous scaffolds loaded with AgNPs compared to unloaded scaffolds"}]},
+
+{"pmcid":"PMC9997948","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig 2","variant":"TEM_prep_not_declared","sample":"IONPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of (IONPs) obtained using S. costus root extracts"},
+{"fig":"Fig 4","variant":"SEM","sample":"IONPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM-EDX images (A) and the corresponding element analysis images (B) of (IONPs)"},
+{"fig":"Fig 6","variant":"SEM","sample":"E. coli treated with IONPs","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Morphological study of (A) untreated and (B) treated Escherichia coli by (IONPs) using SEM."}],
+"descriptors":[
+{"sample":"IONPs","size_nm":295,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The diameter of particle size for IONPs was varied from 100 to 300 nm, with an average of 295 nm"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig 4B","applies_to":"nanoparticle","sample":"IONPs","quote":"The element analysis of the biogenic IONPs prepared using SEM-EDX (Fig 4B)"}]},
+
+{"pmcid":"PMC9922004","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of AgNPs nanoparticles monolayer on PEI-modified silica wafers"},
+{"fig":"Figure 5","variant":"SEM","sample":"hydrogel with AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"The SEM images of hydrogels. (a) hydrogel without AgNPs; (b) hydrogel with AgNPs;"}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":24,"pdi":0.04,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter of obtained AgNPs, determined by DLS, was equal to 24 ± 5 nm with PDI (polydispersity index) of 0.04."}],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV–Vis absorption spectroscopy of silver nanoparticles solutions."}]},
+
+{"pmcid":"PMC10379397","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_dried_unstained","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Characterization of synthesized silver nanoparticles. (a) TEM images."}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":31.17,"pdi":null,"zeta_mV":-28.10,"medium":"not_declared","source":"text","quote":"hydrodynamic diameter in the range of 31.17 ± 0.20 nm (Supplementary Data S1) and zeta potential in the range of −28.10 ± 1.44 mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 1c","applies_to":"nanoparticle","sample":"AgNPs","quote":"(c) UV–Visible absorption spectra of synthesized silver nanoparticles after storage at 4 °C for 6 months"}]},
+
+{"pmcid":"PMC9856557","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 3","variant":"TEM_dried_unstained","sample":"DOX-loaded GNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of DOX-loaded GNPs before and after LIPUS exposure"}],
+"descriptors":[
+{"sample":"DOX-loaded GNPs before LIPUS","size_nm":null,"pdi":null,"zeta_mV":-30.29,"medium":"water","source":"text","quote":"Before LIPUS exposure, the average zeta potential was equal to −30.29 ± 1.00 mV"},
+{"sample":"DOX-loaded GNPs after LIPUS","size_nm":null,"pdi":null,"zeta_mV":-15.79,"medium":"water","source":"text","quote":"after LIPUS exposure, the average zeta potential was −15.79 ± 2.03 mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 3","applies_to":"nanoparticle","sample":"DOX-loaded GNPs","quote":"UV-vis spectra of DOX-loaded GNPs before and after LIPUS treatment."}]},
+
+{"pmcid":"PMC9919271","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 4","variant":"SEM","sample":"CX-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (a) CX-AuNPs and (b) CT-AuNPs."},
+{"fig":"Figure 5","variant":"TEM_prep_not_declared","sample":"CX-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) CX-AuNPs and (b) CT-AuNPs."}],
+"descriptors":[
+{"sample":"CX-AuNPs","size_nm":117,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The Z-average mean size for CX-AuNPs and CT-AuNPs was 117 nm and 119.6 nm, respectively"},
+{"sample":"CT-AuNPs","size_nm":119.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The Z-average mean size for CX-AuNPs and CT-AuNPs was 117 nm and 119.6 nm, respectively"}],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"CX-AuNPs and CT-AuNPs","quote":"UV-Visible spectrophotometric scan of CX-AuNPs and CT-AuNPs."}]}
+]}

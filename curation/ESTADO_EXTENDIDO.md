@@ -60,3 +60,21 @@ Tanda 4 hecha: EX118-EX122 (50 articulos, ~430 mil tokens). apply: 1.153 articul
 
 ## Checkpoint Claude 100 % (EX103-EX127, 21 oct)
 Tanda 5 hecha: EX123-EX127. Mis 25 lotes (250 articulos) completos: EX103-EX127 (~2,1 M tokens de Haiku). apply: 1.233 articulos leidos (E1 730, E2 425, no 78), 2 citas rechazadas (sin nuevas); 1.488 paneles, 1.649 descriptores, 2.395 espectros (incluye lo que Codex lleva de EX078-EX102). Uso: semanal 8 %, 5 horas 56 %. Siguiente: verificar EX078-EX102 y EX128-EX160 (Codex); quedan por repartir EX161-EX185 (E1) y EX055-EX067 (E2).
+
+## Checkpoint Claude E1 20 % (EX161-EX185, 21 oct)
+Tanda 1 hecha: EX161-EX165 (50 articulos, ~420 mil tokens). apply: 1.506 articulos leidos (E1 804, E2 566, no 136), 2 citas rechazadas (sin nuevas). Uso: semanal 8 %, 5 horas 60 %. E2 (EX055-EX067) lo hace Codex con BRIEF_CODEX_CORRIDA_5.md. Siguiente: tanda 2 = EX166-EX170.
+
+## Checkpoint Claude E1 40 % (EX161-EX185, 21 oct)
+Tanda 2 hecha: EX166-EX170 (50 articulos, ~390 mil tokens). apply: 1.586 articulos leidos (E1 838, E2 606, no 142), 2 citas rechazadas (sin nuevas). Uso: semanal 9 %, 5 horas 63 %. Siguiente: tanda 3 = EX171-EX175.
+
+## Checkpoint Claude E1 60 % (EX161-EX185, 21 oct)
+Tanda 3 hecha: EX171-EX175 (50 articulos, ~400 mil tokens). apply: 1.656 articulos leidos (E1 870, E2 635, no 151), 2 citas rechazadas (sin nuevas). Uso: semanal 9 %, 5 horas 67 %. Siguiente: tanda 4 = EX176-EX180, luego EX181-EX185.
+
+## Checkpoint Claude E1 80 % (EX161-EX185, 21 oct)
+Tanda 4 hecha: EX176-EX180 (50 articulos, ~400 mil tokens). apply: 1.726 articulos leidos (E1 894, E2 674, no 158), 2 citas rechazadas (sin nuevas). Uso: semanal 10 %, 5 horas 70 %. Falta la tanda 5 = EX181-EX185 (46 articulos).
+
+## Checkpoint Claude E1 100 % (EX161-EX185, 21 oct)
+Tanda 5 hecha: EX181-EX185. Mis 25 lotes E1 (236 articulos) completos (~2,0 M tokens de Haiku). apply: 1.772 articulos leidos (E1 921, E2 691, no 160), 2 citas rechazadas (sin nuevas); 2.042 paneles, 2.244 descriptores, 2.974 espectros. Uso: semanal 10 %, 5 horas 73 %. Codex ya lleva EX055-EX061 de E2 (BRIEF_CODEX_CORRIDA_5.md); faltan EX062-EX067. Siguiente: unir filas partidas, muestra de revision para Carlos (incluida la duda de la velocidad de Codex), congelar v0.1.
+
+## Cierre de extraccion (21 oct, noche)
+Todos los lotes EX001-EX185 tienen salida. apply: 1.824 articulos leidos (E1 932, E2 717, sin categoria 175), 2 citas rechazadas; 2.092 paneles, 2.314 descriptores, 3.005 espectros. Codex E2 (EX055-EX067): 122 articulos, 1,58 descriptores/articulo, 4 vacios; cada lote 1-5 min segun luna_progress.md; Codex no afirma lectura integra de los paquetes. Rendimiento por articulo (descriptores): Codex EX128-EX160 0,54 frente a Claude 1,65-1,80: revisar con muestra a mano (posible lectura superficial).

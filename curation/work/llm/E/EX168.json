@@ -1,0 +1,103 @@
+{"batch":"EX168","articles":[
+{"pmcid":"PMC9141191","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_negstain","sample":"CNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy images of CNPs: (A,B) average particle size around 50 ± 5 nm"},
+{"fig":"Fig. 2","variant":"TEM_negstain","sample":"SCNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy images of SCNPs: (A,B) average particle size around 78 ± 6 nm"}],
+"descriptors":[
+{"sample":"CNPs","size_nm":59.67,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"particle size distribution of CNPs assessed by dynamic light scattering (DLS) at 59.67 nm"},
+{"sample":"SCNPs","size_nm":170.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"particle size distribution for synthesized SCNPs by dynamic light scattering shows the average size at 170.4 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SCNPs","quote":"FT-IR spectra of SIL, CNPs, and SCNPs."}]},
+{"pmcid":"PMC12585037","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"GNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of GNPs with different magnification (a-d), and (e-f) are of GNPs/Ag hybrid particles."}],
+"descriptors":[
+{"sample":"0.1 vol.% GNPs/Ag formulation","size_nm":null,"pdi":null,"zeta_mV":35.2,"medium":"other","source":"text","quote":"The addition of surfactant increased the zeta potential from 15.7 mV to 35.2 mV for the 0.1 vol.% GNPs/Ag formulation"}],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 1","applies_to":"nanoparticle","sample":"GNPs","quote":"Raman spectra (a) GNPs, and (b) Ag nanoparticles."},
+{"technique":"Raman","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag nanoparticles","quote":"Raman spectra (a) GNPs, and (b) Ag nanoparticles."},
+{"technique":"UVVis","fig":"Fig. 5","applies_to":"mixture","sample":"Ag/GNP hybrid nanofluids","quote":"UV–Vis absorption spectra of Ag/GNP hybrid nanofluids at different concentrations"}]},
+{"pmcid":"PMC9000411","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"TPZ-loaded CSNPs (F2)","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of TPZ-loaded CSNPs (F2): Performed at 80,000 magnification and 200 nm scale (a)"}],
+"descriptors":[
+{"sample":"F1","size_nm":227.23,"pdi":0.833,"zeta_mV":20.6,"medium":"not_declared","source":"Table 2","quote":"F1 | 227.23 ± 20.11 | 0.833 ± 0.104 | +20.6 ± 0.82 | 61.40 ± 7.26 | 7.97 ± 0.94"},
+{"sample":"F2","size_nm":129.13,"pdi":0.373,"zeta_mV":31.4,"medium":"not_declared","source":"Table 2","quote":"F2 | 129.13 ± 21.48 | 0.373 ± 0.113 | +31.4 ± 2.07 | 82.15 ± 4.08 | 7.02 ± 0.35"},
+{"sample":"F3","size_nm":472.06,"pdi":0.576,"zeta_mV":36.6,"medium":"not_declared","source":"Table 2","quote":"F3 | 472.06 ± 45.17 | 0.576 ± 0.093 | +36.6 ± 2.06 | 69.92 ± 5.37 | 4.45 ± 0.34"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"TZP-CSNPs (F2)","quote":"XRD patterns of pure TZP (a), low MW CS (b), TPP (c), mannitol (d), TZP-CSNPs (F2) lyophilized with mannitol (e), and TZP-CSNPs (F2) (f)."}]},
+{"pmcid":"PMC10181159","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AuNP-PLU:2.0UV","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs of the AuNP-PLU:2.0UV sample (A) and of the AuNP-PLU:2.0 control (B) both with a scale bar of 0.5 µm"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNP-PLU:2.0UV","quote":"UV-vis spectra obtained from monitoring the AuNP-PLU:2.0UV formation from the precursor mixture"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"component","sample":"F127","quote":"ATR FTIR spectra obtained for aqueous solutions of F127 at a concentration of 2.0 mmol L−1"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AuNP-PLU:2.0UV","quote":"the AuNP-PLU:2.0UV sample after 10 min of photoexcitation"}]},
+{"pmcid":"PMC9148062","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"MLX-CS-NPs (F3)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative SEM images of the selected MLX-CS-NPs (F3)."}],
+"descriptors":[
+{"sample":"MLX-CS-NPs F1","size_nm":335,"pdi":0.41,"zeta_mV":49.2,"medium":"water","source":"Table 6","quote":"F1 | 335 ± 23 | 0.41± 0.0 | 49.2 ± 1.0 | 72 ± 4.5 | 5.6 ± 0.1"},
+{"sample":"MLX-CS-NPs F2","size_nm":597,"pdi":0.36,"zeta_mV":44.4,"medium":"water","source":"Table 6","quote":"F2 | 597 ± 14 | 0.36 ± 0.1 | 44.4 ± 2.8 | 75 ± 2.0 | 6.2 ± 0.2"},
+{"sample":"MLX-CS-NPs F3","size_nm":195,"pdi":0.42,"zeta_mV":28.2,"medium":"water","source":"Table 6","quote":"F3 | 195 ± 30 | 0.42 ± 0.0 | 28.2 ± 1.1 | 96 ± 1.5 | 5.6 ± 0.1"},
+{"sample":"MLX-CS-NPs F4","size_nm":266,"pdi":0.34,"zeta_mV":57.0,"medium":"water","source":"Table 6","quote":"F4 | 266 ± 24 | 0.34 ± 0.1 | 57.0 ± 1.1 | 71 ± 2.0 | 5.5 ± 0.1"},
+{"sample":"MLX-CS-NPs F5","size_nm":493,"pdi":0.46,"zeta_mV":55.9,"medium":"water","source":"Table 6","quote":"F5 | 493 ± 36 | 0.46 ± 0.0 | 55.9 ± 1.1 | 70 ± 2.5 | 6.3 ± 0.1"},
+{"sample":"MLX-CS-NPs F6","size_nm":242,"pdi":0.51,"zeta_mV":17.3,"medium":"water","source":"Table 6","quote":"F6 | 242 ± 35 | 0.51 ± 0.0 | 17.3 ± 0.5 | 91 ± 2.0 | 5.5 ± 0.2"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"MLX-CS-NPs","quote":"FTIR spectra of meloxicam (MLX), chitosan (CS), PEG 400, their physical mixture (PM), and MLX-CS-NPs."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"mixture","sample":"physical mixture (PM)","quote":"FTIR spectra of meloxicam (MLX), chitosan (CS), PEG 400, their physical mixture (PM), and MLX-CS-NPs."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"meloxicam (MLX)","quote":"FTIR spectra of meloxicam (MLX), chitosan (CS), PEG 400, their physical mixture (PM), and MLX-CS-NPs."}]},
+{"pmcid":"PMC9919024","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"AFM","sample":"HumAfFt-SPIONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"2D AFM micrograph (a) and 3D AFM image of HumAfFt-SPIONs (b)."}],
+"descriptors":[
+{"sample":"HumAfFt","size_nm":20.42,"pdi":0.392,"zeta_mV":-4.1,"medium":"water","source":"Table 1","quote":"HumAfFt | 20.42 | 0.392 | −4.1"},
+{"sample":"SPIONs","size_nm":27.65,"pdi":0.295,"zeta_mV":-31.3,"medium":"water","source":"Table 1","quote":"SPIONs | 27.65 | 0.295 | −31.3"},
+{"sample":"HumAfFt-SPIONs","size_nm":145.8,"pdi":0.202,"zeta_mV":-5.1,"medium":"water","source":"Table 1","quote":"HumAfFt-SPION | 145.8 | 0.202 | −5.1"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"HumAfFt-SPIONs complex","quote":"ATR-FTIR spectra of HumAfFt, SPIONs, and HumAfFt-SPIONs complex."},
+{"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"HumAfFt-SPIONs complex","quote":"EDX analysis of the HumAfFt-SPIONs complex aggregates"}]},
+{"pmcid":"PMC9506305","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"FS10-loaded Nps","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of empty Nps (blank) and FS10-loaded Nps."}],
+"descriptors":[
+{"sample":"empty PEG-PLGA Nps","size_nm":97.1,"pdi":0.144,"zeta_mV":null,"medium":"water","source":"Table 2","quote":"0 | 97.1 ± 1.3 | 105.1 ± 1.2 | 0.144 | 0.205"},
+{"sample":"FS10-loaded PEG-PLGA Nps","size_nm":105.1,"pdi":0.205,"zeta_mV":null,"medium":"water","source":"Table 2","quote":"0 | 97.1 ± 1.3 | 105.1 ± 1.2 | 0.144 | 0.205"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"empty PEG-PLGA Nps","quote":"FT-IR spectra of empty PEG-PLGA Nps (A) FS10-loaded PEG-PLGA Nps (B), and free FS10 (C)."},
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"FS10-loaded PEG-PLGA Nps","quote":"FT-IR spectra of empty PEG-PLGA Nps (A) FS10-loaded PEG-PLGA Nps (B), and free FS10 (C)."},
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"component","sample":"free FS10","quote":"FT-IR spectra of empty PEG-PLGA Nps (A) FS10-loaded PEG-PLGA Nps (B), and free FS10 (C)."}]},
+{"pmcid":"PMC6244793","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"GQDs-MSNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images and particle size distribution of prepared MSNs (a, b) and GQDs-MSNs nanocomposite nanoparticles (d, e)"},
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"GQDs-MSNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of HeLa cells treated with GQDs-MSNs showing the cellular uptake and intracellular translocation"}],
+"descriptors":[
+{"sample":"GQDs","size_nm":null,"pdi":null,"zeta_mV":-24.2,"medium":"water","source":"Table 1","quote":"GQDs | 3.65/0.81 | – | −24.2 / 1.2"},
+{"sample":"MSNs","size_nm":null,"pdi":null,"zeta_mV":-30.0,"medium":"water","source":"Table 1","quote":"MSNs | 44.08/7.18 | 442.33 / 1.06 | −30.0 / 0.3"},
+{"sample":"GQDs-MSNs","size_nm":null,"pdi":null,"zeta_mV":31.1,"medium":"water","source":"Table 1","quote":"GQDs-MSNs | 49.53/7.32 | 197.40 / 0.65 | +31.1 / 0.8"},
+{"sample":"DOX-MSNs","size_nm":null,"pdi":null,"zeta_mV":-6.9,"medium":"water","source":"Table 1","quote":"DOX-MSNs | – | – | −6.9 / 1.6"},
+{"sample":"DOX-GQDs-MSNs","size_nm":null,"pdi":null,"zeta_mV":30.8,"medium":"water","source":"Table 1","quote":"DOX-GQDs-MSNs | – | – | +30.8 / 1.8"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"GQDs-MSNs","quote":"FTIR spectra of prepared: GQDs (a), MSNs (b), GQDs-MSNs (c), amino-functionalized NH2-MSNs (d)"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"DOX-GQDs-MSNs","quote":"and loaded with doxorubicin DOX-MSNs (e) and DOX-GQDs-MSNs (f)"},
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"GQDs-MSNs","quote":"The XRD pattern does not reveal any structural changes of MSNs upon GQDs immobilization."}]},
+{"pmcid":"PMC9147688","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"H. acida-loaded PLGA nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM microphotographs of unloaded PLGA Np (left) and H. acida-loaded PLGA nanoparticles (right)."}],
+"descriptors":[
+{"sample":"HA-Np","size_nm":210,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean hydrodynamic particle size of both HA-Np and unloaded Np were 210 ± 3 nm and 193 ± 2 nm"},
+{"sample":"unloaded Np","size_nm":193,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The mean hydrodynamic particle size of both HA-Np and unloaded Np were 210 ± 3 nm and 193 ± 2 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"HA-Np","quote":"ATR-FTIR spectra of crude extract of H. acida (HA extract), blank nanoparticles (unloaded Np), and H. acida nanoparticles (HA-Np)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"HA extract","quote":"ATR-FTIR spectra of crude extract of H. acida (HA extract), blank nanoparticles (unloaded Np), and H. acida nanoparticles (HA-Np)."}]},
+{"pmcid":"PMC9078392","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"bare AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of bare AuNPs at pH 7.2."}],
+"descriptors":[
+{"sample":"bare AuNPs","size_nm":30,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The results indicate that the hydrodynamic diameter of the AuNPs is ∼30 nm and that of the bioconjugated nanoparticles is ∼41 nm."},
+{"sample":"AuNPs–HSA","size_nm":41,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The results indicate that the hydrodynamic diameter of the AuNPs is ∼30 nm and that of the bioconjugated nanoparticles is ∼41 nm."},
+{"sample":"AuNPs–HSA (20 μM HSA)","size_nm":145,"pdi":null,"zeta_mV":null,"medium":"water","source":"Fig. 2","quote":"Increasing the HSA concentration to 20 μM shows an increase in the AuNPs–HSA diameter to ∼145 nm"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AuNPs","quote":"Absorption spectra of the AuNPs [0.78 nM] at different concentrations of HSA (0.0–50 μM)."}]}
+]}

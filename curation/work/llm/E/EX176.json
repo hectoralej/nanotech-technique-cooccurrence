@@ -1,0 +1,83 @@
+{"batch":"EX176","articles":[
+{"pmcid":"PMC8538493","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"PMSF-1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of mesoporous silica samples: PMSF-1 (a-1), PMSF-2 (a-2)"},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"PMOF-1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of mesoporous organosilica samples: PMOF-1 (a-1), PMOF-2 (a-2)"},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"PMOFH-1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of mesoporous organosilica samples: PMOFH-1 (a-1), PMOFH-2 (a-2)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"SAXS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PMSF-1","quote":"SAXS patterns of mesoporous silica samples: PMSF-1 (a-A), PMSF-2 (a-B)"},
+{"technique":"SAXS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"PMOF-1","quote":"SAXS patterns of mesoporous organosilica samples: PMOF-1 (a-A), PMOF-2 (a-B)"}]},
+{"pmcid":"PMC11103698","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[],
+"descriptors":[
+{"sample":"AuNPs","size_nm":27,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"and DLS (27 ± 4 nm), see Figures S3–S5A, Supporting Information."}],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 3","applies_to":"component","sample":"tolmetin sodium","quote":"(d) a solid grain of tolmetin sodium as a reference spectrum"},
+{"technique":"Raman","fig":"Fig. 4","applies_to":"mixture","sample":"tolmetin at AuNP films","quote":"SERS spectra of tolmetin at interfacial AuNP films formed at (a) negative"}]},
+{"pmcid":"PMC11591955","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"DFX-loaded PLGA NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrograph showing shape and size distribution."},
+{"fig":"Fig. 1","variant":"SEM","sample":"DFX-loaded PLGA NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrograph showing smooth spherical surface and size distribution."}],
+"descriptors":[
+{"sample":"DFX PLGA NPs","size_nm":50,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"as measured by DLS with an average size diameter of 50 nm"}],
+"spectra":[]},
+{"pmcid":"PMC6604729","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"Ag-NP/cellulose-NF–A","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM micrographs of the paper-based SERS substrates Ag-NP/cellulose-NF–A (a,b)"},
+{"fig":"Fig. 2","variant":"HRTEM","sample":"Ag-NP/cellulose-NF–C","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM image of an individual silver nanoparticle showing the lattice of metallic silver (b)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag-NP/cellulose-NF","quote":"X-ray diffraction patterns (a) and diffuse reflectance UV–vis spectra (b)"},
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag-NP/cellulose-NF","quote":"diffuse reflectance UV–vis spectra (b) of Ag-NP/cellulose-NF–A, B, C, D, and E."},
+{"technique":"Raman","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Ag-NP/cellulose-NF–A","quote":"SERS spectra of Rhodamine 6G (R6G) at different concentrations obtained by employing Ag-NP/cellulose-NF–A"},
+{"technique":"Raman","fig":"Fig. 6","applies_to":"mixture","sample":"adenosine and thymidine surface mixture","quote":"SERS spectra of adenosine and thymidine (both 10 µM), and the surface mixture of adenosine and thymidine"}]},
+{"pmcid":"PMC11604443","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"CSNPs 4:1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Images for CSNPs 4:1 obtained by TEM."}],
+"descriptors":[
+{"sample":"6:1","size_nm":202,"pdi":0.563,"zeta_mV":61,"medium":"not_declared","source":"Table 4","quote":"6:01 | 202 ± 10 | 0.563 | 61 ± 2"},
+{"sample":"5:1","size_nm":205,"pdi":0.558,"zeta_mV":53,"medium":"not_declared","source":"Table 4","quote":"5:01 | 205 ± 12 | 0.558 | 53 ± 1"},
+{"sample":"4:1","size_nm":195,"pdi":0.528,"zeta_mV":51,"medium":"not_declared","source":"Table 4","quote":"4:01 | 195 ± 8 | 0.528 | 51 ± 1"},
+{"sample":"3:1","size_nm":178,"pdi":0.472,"zeta_mV":45,"medium":"not_declared","source":"Table 4","quote":"3:01 | 178 ± 18 | 0.472 | 45 ± 4"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"CSNPs","quote":"In Fourier Transform Infrared Spectroscopy (FTIR), the spectrum of CSNPs is represented by the black line (A)"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"component","sample":"CS","quote":"while the green line represents that of CS (B)."}]},
+{"pmcid":"PMC11903455","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 9","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) and Raman spectroscopy. (A, B) AgNPs (SEM)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 9","applies_to":"nanoparticle","sample":"AgNPs","quote":"The Raman spectrum of the silver nanoparticles was collected, as shown in Figure 9C."},
+{"technique":"Raman","fig":"Fig. 10","applies_to":"mixture","sample":"crocetin","quote":"Raman spectra of low, medium, and high concentrations of crocetin"}]},
+{"pmcid":"PMC10819281","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_negstain","sample":"optimized formulation 1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Typical TEM images of optimized formulation 1 (a) and optimized formulation 2 (b)"}],
+"descriptors":[
+{"sample":"Formulation 19","size_nm":158.4,"pdi":0.08,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"19 | 25 | 2|12 | 1.5 | 26 | 158.4 | 0.08"},
+{"sample":"Solution 1","size_nm":169.09,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"1 | 25 | 0.167 | 0.5 | 26 | 168.333 | 0.868436 | 169.09"},
+{"sample":"Solution 2","size_nm":175.15,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 6","quote":"2 | 50 | 0.1670 | 0.5 | 26 | 175.046 | 0.77953 | 175.15"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"brusatol- and docetaxel-loaded nanoparticles","quote":"Overlay of FT-IR spectra of blank nanoparticles (black), brusatol- and docetaxel-loaded nanoparticles (red)"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"pure brusatol","quote":"pure brusatol (dark blue), pure docetaxel (green), PLGA-PEG polymer (purple)"}]},
+{"pmcid":"PMC11051985","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"exfoliated BP NSs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopic (TEM) images of (a) exfoliated BP NSs"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"BP-PEG@Au-GSH-DOX","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM analysis of (a,d) exfoliated BP, (b,e) PEGylated BP, and (c,f) BP-PEG@Au-GSH-DOX"}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 2","applies_to":"nanoparticle","sample":"BP-PEG@Au-GSH-DOX NSs","quote":"Raman spectra. (a) Polyethylene glycol (PEG) modified black phosphorous (BP) nanosheets (NSs)"}]},
+{"pmcid":"PMC10843602","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"ivacaftor microparticles","quote":"Diffractograms of A- ivacaftor microparticles, B- physical mixture of ivacaftor and PLGA RG503H"}]},
+{"pmcid":"PMC5264386","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MWCNTs or Fe@MWCNTs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM observations of extracted MWCNTs or Fe@MWCNTs before (control) and after 168 h aging"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Fe@MWCNTs engulfed by macrophages","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A,B) CNTs engulfed by macrophages or (C) at the surface of the cell were observed."},
+{"fig":"Fig. 5","variant":"HRTEM","sample":"iron oxide nanoparticle released from Fe@MWCNTs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) HRTEM image of an iron oxide nanoparticle released from the nanotube walls after 48 h aging in macrophages"}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MWCNTs and Fe@MWCNTs","quote":"Raman spectrum of (C) MWCNTs and (D) Fe@MWCNTs for different times of aging in macrophages"}]}
+]}

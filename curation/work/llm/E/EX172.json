@@ -1,0 +1,75 @@
+{"batch":"EX172","articles":[
+{"pmcid":"PMC9962773","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"HC-LNC, HC-PNP, HC-ETZ","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy of HC loaded-nanosystems studied in this work: lipid nanocapsules (LNC), polymeric nanoparticles (PNP) and ethosomes (ETZ)."}],
+"descriptors":[
+{"sample":"HC-LNC","size_nm":76,"pdi":0.09,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"LNC | 76 ± 7 | 0.09 ± 0.01 | 80 ± 2 | 82 ± 4 | 0.05 ± 0.01 | 86 ± 1"},
+{"sample":"HCB-LNC","size_nm":82,"pdi":0.05,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"LNC | 76 ± 7 | 0.09 ± 0.01 | 80 ± 2 | 82 ± 4 | 0.05 ± 0.01 | 86 ± 1"},
+{"sample":"HC-PNP","size_nm":186,"pdi":0.04,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"PNP | 186 ± 4 | 0.04 ± 0.02 | 27 ± 2 | 211 ± 6 | 0.03 ± 0.01 | 78 ± 1"},
+{"sample":"HCB-PNP","size_nm":211,"pdi":0.03,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"PNP | 186 ± 4 | 0.04 ± 0.02 | 27 ± 2 | 211 ± 6 | 0.03 ± 0.01 | 78 ± 1"},
+{"sample":"HC-ETZ","size_nm":264,"pdi":0.55,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"ETZ | 264 ± 9 | 0.55 ± 0.08 | n/a | 153 ± 9 | 0.10 ± 0.02 | n/a"},
+{"sample":"HCB-ETZ","size_nm":153,"pdi":0.10,"zeta_mV":null,"medium":"not_declared","source":"Table 4","quote":"ETZ | 264 ± 9 | 0.55 ± 0.08 | n/a | 153 ± 9 | 0.10 ± 0.02 | n/a"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"mixture","sample":"HC/HCB + IPM, PLGA, PL and nanoformulations","quote":"FTIR spectra of pure API-black (named HC; HCB)"}]},
+
+{"pmcid":"PMC7145826","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"green synthesized AgNPs (T. polium)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) Transmission electron microscopy (D) Scanning electron microscopy micrographs of green synthesized AgNPs"},
+{"fig":"Fig. 2","variant":"SEM","sample":"green synthesized AgNPs (T. polium)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy micrographs of green synthesized AgNPs using T. polium extract"},
+{"fig":"Fig. 6","variant":"SEM","sample":"Ag nanofilm","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"(C) SEM micrographs of Ag nanofilm."}],
+"descriptors":[{"sample":"green synthesized AgNPs (T. polium)","size_nm":54.64,"pdi":null,"zeta_mV":-27,"medium":"not_declared","source":"Fig. 2","quote":"average diameter ∼54.64 nm (Fig. 2e) and the corresponding average zeta potential value is −27 ± 5.03 mV"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"(A) UV/visible spectra of AgNP synthesized with various concentrations of AgNO3"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectrum of vacuum-dried powder of AgNPs"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD patterns of AgNPs synthesized using an extract of T. polium."}]},
+
+{"pmcid":"PMC11008614","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"SEM","sample":"RhB-NPs (PLGA) in nanofibres","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs demonstrate the incorporation of nanoparticles directly into the nanofiber"}],
+"descriptors":[],
+"spectra":[]},
+
+{"pmcid":"PMC7559220","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"SEM","sample":"green synthesized AgNPs (Fagonia indica)","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM micrograph at the scale of 200 nm shows spherical nanoparticles."}],
+"descriptors":[{"sample":"green synthesized AgNPs (Fagonia indica)","size_nm":23.68,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"An average hydrodynamic particle size was calculated as 23.68 nm with a polydispersity index near 1."}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-vis spectrum of AgNPs mediated by leaf aqueous extracts of Fagonia indica"},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction (XRD) pattern of green-synthesized AgNPs showing Bragg reflection at angle 2 theta."}]},
+
+{"pmcid":"PMC5874724","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"LMWC-PLGA NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscope images of LMWC-PLGA nanoparticles showed nanosized spherical particles."}],
+"descriptors":[
+{"sample":"Control (uncoated)","size_nm":187.00,"pdi":0.206,"zeta_mV":45.00,"medium":"not_declared","source":"Table 2","quote":"Control | 187.00 ± 6.19 | 0.206 ±0.014 | +45.00 ± 4.30 | NA | NA"},
+{"sample":"F0","size_nm":220.70,"pdi":0.194,"zeta_mV":-2.80,"medium":"not_declared","source":"Table 2","quote":"F0 | 220.70 ± 1.77 | 0.194 ±0.002 | −2.80 ± 0.10 | 85.34% | 45.92%"},
+{"sample":"F0.25","size_nm":309.57,"pdi":0.295,"zeta_mV":34.00,"medium":"not_declared","source":"Table 2","quote":"F0.25 | 309.57 ± 1.12 | 0.295 ±0.011 | +34.00 ± 1.90 | 88.47% | 43.15%"},
+{"sample":"F0.5","size_nm":451.80,"pdi":0.297,"zeta_mV":50.13,"medium":"not_declared","source":"Table 2","quote":"F0.5 | 451.80 ± 7.19 | 0.297 ±0.106 | +50.13 ± 6.50 | 87.20% | 37.33%"},
+{"sample":"F1","size_nm":575.77,"pdi":0.319,"zeta_mV":33.47,"medium":"not_declared","source":"Table 2","quote":"F1 | 575.77 ± 2.67 | 0.319 ±0.130 | +33.47 ± 1.00 | 83.74% | 30.87%"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"F0, F0.5 and LMWC","quote":"FT-IR spectra of the LMWC raw material, the PLGA NPs (F0), and the LMWC-PLGA NPs (F0.5)."}]},
+
+{"pmcid":"PMC10301181","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"MION, Co10-MION, Co20-MION, Co40-MION","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphological and structural characterization of Cox-MION nanozymes"}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Cox-MION","quote":"Diffraction patterns (XRD) of Cox-MION (x = 0, 10, 20, and 40%) samples"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MION, Co10-MION, Co20-MION, Co40-MION","quote":"(D) FTIR spectra of (a) MION, (b) Co10-MION, (c) Co20-MION, and (d) Co40-MION."}]},
+
+{"pmcid":"PMC6058689","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_negstain","sample":"DOX-NPs, DOX-PDA-NPs, DOX-PDA-FA-NPs, DOX-PDA-RGD-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images, DLS size distribution, Fourier transform infrared spectra and XPS spectra analysis of DOX-NPs"}],
+"descriptors":[{"sample":"DOX-NPs","size_nm":162.9,"pdi":0.193,"zeta_mV":null,"medium":"buffer","source":"text","quote":"the obtained DOX-NPs had a mean particle size of 162.9 nm, PDI value of 0.193."}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"drug-free NPs, PDA-NPs, PDA-FA-NPs, PDA-RGD-NPs","quote":"Figure 2(B) presents the FTIR spectra of the drug-free NPs, PDA-NPs, PDA-FA-NPs, and PDA-RGD-NPs."}]},
+
+{"pmcid":"PMC6334796","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"HRTEM","sample":"MWCNTs decorated with Fe2O3 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"High magnification HRTEM images of MWCNTs decorated with Fe2O3 nanoparticles."},
+{"fig":"Fig. 9","variant":"TEM_prep_not_declared","sample":"CNT/Fe 1:1.5, calcined 15 and 30 min","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images showing nanocluster size (a) after calcination for 15 minutes and 30 minutes"}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Fe2O3 nanoparticles","quote":"XRD pattern for Fe2O3 nanoparticles (a) and decorated CNTs with Fe2O3 nanoparticles (b)."},
+{"technique":"Raman","fig":"Fig. 9","applies_to":"mixture","sample":"pristine and decorated CNTs","quote":"Raman spectra for pristine CNTs and decorated CNTs with different calcination periods"}]},
+
+{"pmcid":"PMC6333422","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"G3-CA4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of G3-CA4 conjugate (C)."}],
+"descriptors":[],
+"spectra":[{"technique":"UVVis","fig":"Fig. 2","applies_to":"mixture","sample":"CA4, G3-PAMAM, G3-CA4","quote":"Absorption spectra of CA4 () G3-PAMAM () and G3-CA4 conjugate () in water."}]},
+
+{"pmcid":"PMC8359560","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"DTX@HNT/Au-SORT","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"d–f transmission electron microscopy images of a, d HNTs; b, e AuNPs; and c, f DTX@HNT/Au-SORT"},
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"DTX@HNT/Au-SORT at low and high temperature","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b, c TEM images of DTX@HNT/Au-SORT at b low temperature of ca. − 50 °C"}],
+"descriptors":[
+{"sample":"DTX@HNT/Au-SORT","size_nm":130,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Finally, the mean size of the prepared DTX@HNT/Au-SORT particles can be estimated to be ca. 130 nm"},
+{"sample":"AuNPs","size_nm":10,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 4a","quote":"Based on dynamic light scattering (DLS) data (Fig. 4a), the mean size of the synthesized AuNPs is ca. 10 nm."},
+{"sample":"HNTs (ball-milled)","size_nm":110,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with an average HNT size of ca. 110 nm based on DLS data"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"mixture","sample":"non-treated HNTs, activated HNTs, HNT/CPS","quote":"Fourier-transform infrared (FTIR) spectra of non-treated HNTs, activated HNTs, and HNT/CPS"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"DTX@HNT/Au-SORT","quote":"energy-dispersive X-ray (EDX) spectra of the activated HNTs, HNT/CPS before and after exhaustive washing, and DTX@HNT/Au-SORT"}]}
+]}

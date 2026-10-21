@@ -1,0 +1,149 @@
+{
+ "batch": "EX179",
+ "articles": [
+  {
+   "pmcid": "PMC8624969",
+   "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "SPIONs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(a) TEM bright field image of the SPIONs; (b) High-resolution TEM image of an isolated SPION;"}
+   ],
+   "descriptors": [
+    {"sample": "SPIONs", "size_nm": 4.0, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 2", "quote": "a single and sharp peak was observed at a size of approximately 4.0 nm"}
+   ],
+   "spectra": [
+    {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "SPIONs", "quote": "(e) X-ray diffraction spectrum of the SPIONs"}
+   ]
+  },
+  {
+   "pmcid": "PMC8234454",
+   "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "NH-MSN, CN-MSN and COOH-MSN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of MSNs. There are no noticeable differences between any of the synthesized MSNs (NH-MSN, CN-MSN and COOH-MSN)."}
+   ],
+   "descriptors": [
+    {"sample": "NH-MSN", "size_nm": 71, "pdi": null, "zeta_mV": -3.96, "medium": "water", "source": "Table 1", "quote": "NH-MSN | NH2/OH | 71 | −3.96"},
+    {"sample": "CN-MSN", "size_nm": 280, "pdi": null, "zeta_mV": -7.06, "medium": "water", "source": "Table 1", "quote": "CN-MSN | CN/OH | 280 | −7.06"},
+    {"sample": "COOH-MSN", "size_nm": 66, "pdi": null, "zeta_mV": -39.7, "medium": "water", "source": "Table 1", "quote": "COOH-MSN | COOH/OH | 66 | −39.7"},
+    {"sample": "RB-PEG750-NP-a", "size_nm": 130, "pdi": null, "zeta_mV": -4.3, "medium": "water", "source": "Table 2", "quote": "RB-PEG750-NP-a | RB-OH-MSNPEG-NH2-MSN | 750 | 130 | −4.3 | 20"},
+    {"sample": "RB-PEG2000-NP-a", "size_nm": 99, "pdi": null, "zeta_mV": -25.0, "medium": "water", "source": "Table 2", "quote": "RB-PEG2000-NP-a | RB-OH-MSNPEG-NH2-MSN | 2000 | 99 | −25.0 | 20"},
+    {"sample": "RB-PEG5000-NP-a", "size_nm": 114, "pdi": null, "zeta_mV": -25.0, "medium": "water", "source": "Table 2", "quote": "RB-PEG5000-NP-a | RB-OH-MSNPEG-NH2-MSN | 5000 | 114 | −25.0 | 20"},
+    {"sample": "RB-PEG-NP-b", "size_nm": 95, "pdi": null, "zeta_mV": -29.0, "medium": "water", "source": "Table 2", "quote": "RB-PEG-NP-b | RB-NH2-MSNPEG-OH-MSN | 2000 | 95 | −29.0 | 10"},
+    {"sample": "RB-PEG-NP-c", "size_nm": 88, "pdi": null, "zeta_mV": -31.0, "medium": "water", "source": "Table 2", "quote": "RB-PEG-NP-c | RB-OH-MSNPEG-OH-MSN | 2000 | 88 | −31.0 | 20"}
+   ],
+   "spectra": [
+    {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "RB-PEG-MSNs", "quote": "Normalized absorption spectra of RB-PEG2000-NP-a (red), RB-PEG5000-NP-a (brown)"}
+   ]
+  },
+  {
+   "pmcid": "PMC8066659",
+   "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "SPIONs, SPION@CA, SPION@CA_Dox, SPION@CA_Epi", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of particle size distributions (a) bare superparamagnetic iron oxide nanoparticles (SPIONs), (b) SPION@CA, (c) SPION@CA_Dox, and (d) SPION@CA_Epi (scale bar = 50 nm)."}
+   ],
+   "descriptors": [
+    {"sample": "SPION@CA", "size_nm": 27, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "an average hydrodynamic diameter for SPION@CA is about 27 ± 3 nm"},
+    {"sample": "bare SPIONs", "size_nm": null, "pdi": null, "zeta_mV": -0.7, "medium": "not_declared", "source": "text", "quote": "For bare SPIONs, the Zeta potential was about –0.7 ± 0.03 mV."},
+    {"sample": "SPION@CA_Epi", "size_nm": 69, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Hydrodynamic diameter for SPION@CA_Epi is about 69 ± 3 nm (Figure S6)"},
+    {"sample": "SPION@CA_Dox", "size_nm": 88, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "while for SPION@CA_Dox is about 88 ± 6 nm (Figure S7)"}
+   ],
+   "spectra": [
+    {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "SPION@CA_Dox, SPION@CA_Epi", "quote": "FT-IR spectra for Dox, Epi, SPION@CA, SPION@CA_Dox, and SPION@CA@Epi."}
+   ]
+  },
+  {
+   "pmcid": "PMC8624563",
+   "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "GA–AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) TEM images for GA–AuNPs prepared at pH 6, 9, and 11."}
+   ],
+   "descriptors": [
+    {"sample": "GA–AuNPs pH 6", "size_nm": 52.0, "pdi": 0.259, "zeta_mV": 61.30, "medium": "not_declared", "source": "Table 2", "quote": "6 | 52.0 ± 18.1 | 61.30 ± 2.84 | 0.259"},
+    {"sample": "GA–AuNPs pH 9", "size_nm": 32, "pdi": 0.311, "zeta_mV": 48.26, "medium": "not_declared", "source": "Table 2", "quote": "9 | 32 ± 20.8 | 48.26 ± 1.84 | 0.311"},
+    {"sample": "GA–AuNPs pH 11", "size_nm": 40.8, "pdi": 0.141, "zeta_mV": -49.63, "medium": "not_declared", "source": "Table 2", "quote": "11 | 40.8 ± 15.4 | –49.63 ± 2.11 | 0.141"}
+   ],
+   "spectra": [
+    {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "GA–AuNPs", "quote": "(D) UV–visible absorption spectra for GA–AuNPs prepared at pH 11."}
+   ]
+  },
+  {
+   "pmcid": "PMC8156556",
+   "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Characterization of AuNPs by transmission electron microscopy (A)"},
+    {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "control pericytes", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy of pericytes in the control group at low (A) and high magnifications (B)."},
+    {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "AuNP-treated pericytes (30 ppm)", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy of the 30 ppm AuNP-treated pericyte group at low (A) and high magnifications (B–F)."}
+   ],
+   "descriptors": [],
+   "spectra": [
+    {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "AuNPs", "quote": "The UV-Vis spectrum of 20 nm-diameter AuNPs showed a single wavelength peak at approximately 522 nm (Figure 1B)."}
+   ]
+  },
+  {
+   "pmcid": "PMC8308985",
+   "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 1", "variant": "HRTEM", "sample": "AgNP1 to AgNP5", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HR-TEM micrographs of the five AgNPs studied in this work"}
+   ],
+   "descriptors": [],
+   "spectra": [
+    {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNP1 to AgNP5", "quote": "Surface plasmon resonance (a) and thermogravimetric analysis (TGA)/differential scanning calorimetry (DSC) (b) of the five formulations studied in this work."}
+   ]
+  },
+  {
+   "pmcid": "PMC8206346",
+   "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "AgNPs-PL", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of AgNPs-PL (a) and frequency of size distribution for AgNPs-PL (b)."},
+    {"fig": "Fig. 3", "variant": "SEM", "sample": "AgNPs-PL", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM micrograph (a) and EDS curve showing silver (b), potassium (c), zinc (d) distribution on coverslips of AgNPs-PL."},
+    {"fig": "Fig. 7", "variant": "SEM", "sample": "E. faecalis on root canal walls", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Representative field emission scanning electron microscopic images showing colonization of E. faecalis on root canal walls"}
+   ],
+   "descriptors": [],
+   "spectra": [
+    {"technique": "EDS", "fig": "Fig. 3", "applies_to": "mixture", "sample": "AgNPs-PL", "quote": "EDS curve showing silver (b), potassium (c), zinc (d) distribution on coverslips of AgNPs-PL."}
+   ]
+  },
+  {
+   "pmcid": "PMC8488142",
+   "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 2", "variant": "TEM_dried_unstained", "sample": "iron oxide NPs (6.1, 10.3, 16.2, 21.8 nm)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of starting iron oxide nanoparticles of (A) 6.1 nm (D) 10.3 nm (G) 16.2 nm, and (J) 21.8 nm"},
+    {"fig": "Fig. 5", "variant": "TEM_dried_unstained", "sample": "iron oxide at silica core/shell NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of iron oxide at silica core/shell nanoparticles after etching with 3 M HCl for (A) 2 h, and (C) 24 h"},
+    {"fig": "Fig. 8", "variant": "TEM_dried_unstained", "sample": "iron nitride at silica nanoparticles with mesoporous shell", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) TEM image and (B) N2 adsorption (filled circles) and desorption (empty circles) isotherms"}
+   ],
+   "descriptors": [],
+   "spectra": [
+    {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "iron nitride at silica core/shell NPs", "quote": "XRD patterns of 10.3 nm iron oxide nanoparticles coated with silica shells and reacted with ammonia gas"},
+    {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "iron oxide at silica core/shell NPs", "quote": "XRD patterns of iron oxide at silica core/shell nanoparticles with (A) 6.1 nm (B) 16.2 nm, and (C) 21.8 nm core"}
+   ]
+  },
+  {
+   "pmcid": "PMC8619896",
+   "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "[Ho]Fe3O4@CA, [Ho]Fe3O4@Au, [Ho]Fe3O4@Au-Tmab", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission Electron Microscopy images of NPs: (a) Citrate stabilized [Ho]Fe3O4@CA and [Ho]Fe3O4@Au"}
+   ],
+   "descriptors": [
+    {"sample": "[Ho]Fe3O4@CA", "size_nm": 36.1, "pdi": 0.240, "zeta_mV": -42.6, "medium": "PBS", "source": "Table 1", "quote": "[Ho]Fe3O4@CA | 36.1 ± 16.0 | −42.6 ± 6.1 | 0.240"},
+    {"sample": "[Ho]Fe3O4@Au", "size_nm": 64.8, "pdi": 0.223, "zeta_mV": -43.8, "medium": "PBS", "source": "Table 1", "quote": "[Ho]Fe3O4@Au | 64.8 ± 30.0 | −43.8 ± 7.0 | 0.223"},
+    {"sample": "[Ho]Fe3O4@Au-PEG", "size_nm": 55.5, "pdi": 0.190, "zeta_mV": -39.5, "medium": "PBS", "source": "Table 1", "quote": "[Ho]Fe3O4@Au-PEG | 55.5 ± 26.2 | −39.5 ± 5.6 | 0.190"},
+    {"sample": "[Ho]Fe3O4@Au-Tmab", "size_nm": 113.8, "pdi": 0.378, "zeta_mV": -25.2, "medium": "PBS", "source": "Table 1", "quote": "[Ho]Fe3O4@Au-Tmab | 113.8 ± 28.8 | −25.2 ± 5.2 | 0.378"}
+   ],
+   "spectra": [
+    {"technique": "UVVis", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "[166Ho]Fe3O4@Au", "quote": "UV-vis spectra for [166Ho]Fe3O4 and [166Ho]Fe3O4@Au."}
+   ]
+  },
+  {
+   "pmcid": "PMC8472662",
+   "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+   "panels": [
+    {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "BPEI-coated IONRs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopic (TEM) images of (A) uncoated IONR exhibiting significant agglomeration"},
+    {"fig": "Fig. 13", "variant": "SEM", "sample": "BPEI-coated IONRs in U87 cells", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "SEM images show the uptake and localisation of BPEI-coated IONRs in U87 cells at different concentrations after 24 h of incubation"},
+    {"fig": "Fig. 15", "variant": "TEM_prep_not_declared", "sample": "BPEI-coated IONRs in U87 cells", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM images of U87 cells’ sections."}
+   ],
+   "descriptors": [],
+   "spectra": [
+    {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "BPEI-coated IONRs", "quote": "Infra-red spectroscopy show changes in the spectrum of uncoated IONRs (red), IONR capped with BPEI (green)"}
+   ]
+  }
+ ]
+}

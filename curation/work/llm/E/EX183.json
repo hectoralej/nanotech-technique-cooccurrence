@@ -1,0 +1,71 @@
+{"batch":"EX183","articles":[
+{"pmcid":"PMC6418711","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"PIP-co-R3-ACP_Si","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (a) PIP-co-R3-ACP, (b) PIP-co-R3-ACP_Si, (c) PIP-co-R5-ACP_Si, (d) PIP-co-R3-V50_Si and (e) PIP-co-R5-V50_Si."}],
+"descriptors":[
+{"sample":"PIP-co-R3-ACP","size_nm":37.4,"pdi":1.3,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PIP-co-R3-ACP | 3:1 | 37.4 | 1.3 | 16.3 | 74.5"},
+{"sample":"PIP-co-R2-V50","size_nm":184.3,"pdi":1.1,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PIP-co-R2-V50 | 2:1 | 184.3 | 1.1 | 7.4 | 31.8"},
+{"sample":"PIP-co-R3-ACP-Si","size_nm":37.5,"pdi":1.2,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"PIP-co-R3-ACP-Si | 3:1 | 37.5 | 1.2 | 19.2 | 84.2 | 82.5 | 55.0"},
+{"sample":"PIP-co-R5-ACP-Si","size_nm":24.8,"pdi":1.5,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"PIP-co-R5-ACP-Si | 5:1 | 24.8 | 1.5 | 19.0 | 86.8 | 89.2 | 61.8"},
+{"sample":"PIP-co-R3-V50-Si","size_nm":90.9,"pdi":1.5,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"PIP-co-R3-V50-Si | 3:1 | 90.9 | 1.5 | 19.5 | 80.4 | 82.2 | 66.5"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"PIP-co-RAFT-SiO2","quote":"FT-IR spectra of VTS-SiO2 (modified nano-silica) and PIP-co-RAFT-SiO2 (PIP-co-R3-ACP-Si)."}]},
+
+{"pmcid":"PMC5224598","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"MSNs and Py@MSNs-HTCC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) images of MSNs (a) and pyraclostrobin-loaded HTCC-capped MSNs (b)"}],
+"descriptors":[
+{"sample":"MSNs","size_nm":288,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average diameters of MSNs and Py@MSNs-HTCC are 288 and 299 nm, respectively."},
+{"sample":"Py@MSNs-HTCC","size_nm":299,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average diameters of MSNs and Py@MSNs-HTCC are 288 and 299 nm, respectively."}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Py@MSNs-HTCC","quote":"Fourier transform infrared (FTIR) spectra of pyraclostrobin (Py), MSNs, HTCC and Py@MSNs-HTCC."}]},
+
+{"pmcid":"PMC5102014","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"MCN/mSiO2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM and STEM images of the MCN@C (A, D); MCN@C/mSiO2 (B, E); and MCN/mSiO2 (C, F) nanoparticles."}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MCN/mSiO2","quote":"The wide-angle XRD patterns (A) and magnetization curves measured at room temperature (B) of the MCN@C, MCN@C/mSiO2 and MCN/mSiO2 nanoparticles."}]},
+
+{"pmcid":"PMC5150121","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 3","variant":"SEM","sample":"apple extract loaded silver nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopic images of apple extract loaded silver nanoparticles."}],
+"descriptors":[{"sample":"apple extract loaded silver nanoparticles","size_nm":100,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The particle size of the silver nanoparticles was found to be in the range of 100 nm"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"apple extract loaded silver nanoparticles","quote":"UV-visible spectra for apple extract loaded silver nanoparticles."}]},
+
+{"pmcid":"PMC4846680","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"PEG–TRITC–Gd2O3–MSN","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrograph of synthesized MSN, with higher magnification inset (d), and fully synthesized PEG–TRITC–Gd2O3–MSN (e)."}],
+"descriptors":[{"sample":"PEG–TRITC–Gd2O3–MSN","size_nm":187.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the median hydrodynamic diameter of the particles was 187.3 nm"}],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"TRITC–Gd2O3–MSN","quote":"Powder X-ray diffraction patterns of TRITC–Gd2O3–MSN after surfactant removal."}]},
+
+{"pmcid":"PMC5133931","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"Sample 2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) the octadecyl-modified silica particles witha 1:1 ODTES/sodium silicate molar ratio (Sample 2)"}],
+"descriptors":[
+{"sample":"Sample 1","size_nm":140,"pdi":null,"zeta_mV":-63.3,"medium":"not_declared","source":"Table 1","quote":"1 | 0 | Onlysodium silicate | 1 | 140 ± 1.124 | −63.3 ± 1.35 | opaque fluid"},
+{"sample":"Sample 2","size_nm":163,"pdi":null,"zeta_mV":-67.8,"medium":"not_declared","source":"Table 1","quote":"2 | 3.07 | 1:1 | 0.67 | 163 ± 0.845 | −67.8 ± 1.53 | opaque gel"},
+{"sample":"Sample 3","size_nm":217,"pdi":null,"zeta_mV":-60.5,"medium":"not_declared","source":"Table 1","quote":"3 | 1.5 | 1:2 | 0.805 | 217 ± 1.567 | −60.5 ± 0.948 | opaque gel"},
+{"sample":"Sample 4","size_nm":311,"pdi":null,"zeta_mV":-87.2,"medium":"not_declared","source":"Table 1","quote":"4 | 0.61 | 1:5 | 0.91 | 311 ± 1.499 | −87.2 ± 2.21 | opaque gel"},
+{"sample":"Sample 5","size_nm":307,"pdi":null,"zeta_mV":-63.0,"medium":"not_declared","source":"Table 1","quote":"5 | 0.3 | 1:10 | 0.954 | 307 ± 3.303 | −63.0 ± 2.56 | opaque fluid"},
+{"sample":"Sample 6","size_nm":147,"pdi":null,"zeta_mV":-64.8,"medium":"not_declared","source":"Table 1","quote":"6 | 0.15 | 1:20 | 0.968 | 147 ± 1.130 | −64.8 ± 1.73 | opaque fluid"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"ODTES/sodium silicate hybrids","quote":"FT-IR spectra of ODTES/sodium silicate hybrids produced at different molar ratios."}]},
+
+{"pmcid":"PMC13177243","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"Au/pTh/GCE","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (A) pTh/GCE (B) Au/pTh/GCE (×10000 magnitude)"}],
+"descriptors":[],
+"spectra":[{"technique":"EDS","fig":"Fig. 2","applies_to":"mixture","sample":"Au/pTh/GCE","quote":"EDS spectrum of Au/pTh/GCE."}]},
+
+{"pmcid":"PMC12884762","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"SEM","sample":"Ca2⁺–Alg–pDA–AgNPs","shows_nanocarrier":false,"scale_bar_in_caption":true,"quote":"SEM micrographs (top panels, scale bar = 5 µm) and EDX elemental mapping (bottom panels) for:"}],
+"descriptors":[],
+"spectra":[{"technique":"FTIR","fig":"Figure S6","applies_to":"mixture","sample":"alginate hydrogel matrix","quote":"The FTIR spectra reported in Figure S6 (Supporting Information) illustrate the progressive chemical evolution of the alginate‐based hydrogel matrix"}]},
+
+{"pmcid":"PMC11649374","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"Ag-gly NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) Larger area TEM image of the Ag-gly NPs with the inset showing a crystalline lattice"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag NPs at pH 5","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"A) TEM image of the Ag NPs at pH 5."}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag-gly NPs","quote":"(D) XRD features of Ag-gly NPs."}]},
+
+{"pmcid":"PMC11206564","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"AgNPs under UV-A 1 h","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) The image of the colloid AgNPs generated from water hyacinth leaf extract under 1 h of UV-A light exposure"},
+{"fig":"Fig. 14","variant":"TEM_prep_not_declared","sample":"AgNPs at pH 4.5 to 12 (UV-A)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative TEM images and histogram of size distribution of as-prepared AgNPs produced under UV-A irradiation for 1 h"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 2","applies_to":"nanoparticle","sample":"AgNP solutions","quote":"Spectrum of the UV light absorption of sample solutions with and without UV exposure for 1 h."},
+{"technique":"XRD","fig":"Figure 10","applies_to":"nanoparticle","sample":"synthesized AgNPs","quote":"X-ray diffraction pattern of synthesized AgNPs."},
+{"technique":"FTIR","fig":"Figure 11","applies_to":"mixture","sample":"water hyacinth leaf extract","quote":"FITR spectrum of water hyacinth leaf extract before and after reactions with AgNO3."}]}
+]}

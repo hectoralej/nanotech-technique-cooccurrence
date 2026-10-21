@@ -1,0 +1,98 @@
+{"batch":"EX182","articles":[
+{"pmcid":"PMC11469222","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"AgAu NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrographs of: a–c) as‐synthesized particles"},
+{"fig":"Figure 3","variant":"STEM","sample":"AgAu NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HAADF‐STEM micrograph of an S. aureus cell incubated with AgAu NPs."}],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Figure 3","applies_to":"nanoparticle","sample":"AgAu NPs","quote":"Elemental composition of selected extra‐(1) and intracellular (2) particles (b) extracted from EDS measurements."}]},
+
+{"pmcid":"PMC6474111","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 4","variant":"SEM","sample":"hydrophilic and hydrophobic nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of (A) hydrophilic and (B) hydrophobic nanoparticles agglomerations 35,000× with a scale bar of 1 µm."},
+{"fig":"Figure 4","variant":"TEM_dried_unstained","sample":"hydrophilic and hydrophobic nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images show agglomerated (left, 30,000×, scale bar = 200 nm)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"hydrophilic and hydrophobic nanoparticles","quote":"X-ray diffraction spectra of hydrophilic and hydrophobic nanoparticles."}]},
+
+{"pmcid":"PMC6349747","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 3","variant":"TEM_prep_not_declared","sample":"Pep-NP-SPION/PTX","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of Pep-NP-SPION/PTX (C)"}],
+"descriptors":[
+{"sample":"NP-SPION/PTX","size_nm":129.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"the particle size of NP-SPION/PTX and Pep-NP-SPION/PTX were 129.8 ± 1.2 nm and 101.6 ± 1.0 nm"},
+{"sample":"Pep-NP-SPION/PTX","size_nm":101.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"the particle size of NP-SPION/PTX and Pep-NP-SPION/PTX were 129.8 ± 1.2 nm and 101.6 ± 1.0 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 2","applies_to":"component","sample":"SPION and OA-SPION","quote":"FTIR spectra of SPION and OA-SPION."}]},
+
+{"pmcid":"PMC6213141","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"SEM","sample":"MSNs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(a) mesoporous silica nanoparticles (MSNs), scale bar = 0.2 μm"},
+{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"MSNs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(b) MSNs, scale bar = 0.2 μm"},
+{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"Fen@MSNs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(d) Fen@MSNs, scale bar = 500 nm"}],
+"descriptors":[
+{"sample":"MSNs","size_nm":258.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"MSNs with an average diameter of 258.1 nm were synthesized"},
+{"sample":"Fen@MSNs","size_nm":258.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Both had a monodispersed spherical structure, and their average diameter was 258.1 nm."}],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 5","applies_to":"nanoparticle","sample":"Fen@MSNs","quote":"Fourier transform infrared (FTIR) spectra of Fenoxanil, MSNs, and Fen@MSNs."}]},
+
+{"pmcid":"PMC6266809","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"SiNPs-PDI","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of SiNPs-PDI with different particle size"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 6","applies_to":"mixture","sample":"SiNPs/PVDF nanocomposites","quote":"FTIR spectra of (a) neat PVDF and SiNPs/PVDF nanocomposites with silica nanoparticles of different diameters processed at 90 °C"}]},
+
+{"pmcid":"PMC6027231","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 2","variant":"TEM_prep_not_declared","sample":"HA-Ag50","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Transmission electron microscopy images of materials functionalized with AgNPs"}],
+"descriptors":[
+{"sample":"HA","size_nm":null,"pdi":null,"zeta_mV":-8.5,"medium":"not_declared","source":"Table 1","quote":"HA | 9.423(2) | 6.883(2) | 523(7) | 315(4) | -- | −8.5 | 10 (4)"},
+{"sample":"HA-Ag50","size_nm":null,"pdi":null,"zeta_mV":8.3,"medium":"not_declared","source":"Table 1","quote":"HA-Ag50 | 9.427(2) | 6.886(3) | 515(6) | 304(3) | 1.2 (1) | +8.3 | 25 (2)"},
+{"sample":"HSA10-Ag50","size_nm":null,"pdi":null,"zeta_mV":5.0,"medium":"not_declared","source":"Table 1","quote":"HSA10-Ag50 | 9.414(2) | 6.871(2) | 471(4) | 200(3) | 2.9 (1) | +5.0 | 114 (3)"},
+{"sample":"HSA20-Ag50","size_nm":null,"pdi":null,"zeta_mV":2.0,"medium":"not_declared","source":"Table 1","quote":"HSA20-Ag50 | 9.430 (2) | 6.880 (2) | 453(4) | 171(1) | 3.3 (1) | +2.0 | 121 (2)"}],
+"spectra":[
+{"technique":"XRD","fig":"Figure 1","applies_to":"nanoparticle","sample":"HA-AgX and HSAY-AgX","quote":"X-ray diffraction patterns of materials functionalized with silver nanoparticles (AgNPs)"}]},
+
+{"pmcid":"PMC5761131","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"c general shape (transmission electron micrograph)"},
+{"fig":"Fig. 2","variant":"SEM","sample":"RPS-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs (backscattered electrons) of RPS and RPS-AgNPs nanocomposites samples"}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":13.03,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"DLS showed AgNPs with average hydrodynamic diameter equal to 13.03 ± 1.65 nm"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1d","applies_to":"nanoparticle","sample":"AgNPs","quote":"d surface plasmon resonance (SPR) values for synthesized AgNPs"}]},
+
+{"pmcid":"PMC8241003","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"MSNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM images and (B) DLS size distribution of MSNs, MSNs@PDA and MSNs@PDA-PEP."}],
+"descriptors":[
+{"sample":"MSNs","size_nm":124.6,"pdi":null,"zeta_mV":-22.8,"medium":"not_declared","source":"Table 1","quote":"1 | 124.6 ± 7.3 | –22.8 ± 3.7 | N/A"},
+{"sample":"DOX-loaded MSNs","size_nm":125.1,"pdi":null,"zeta_mV":-14.7,"medium":"not_declared","source":"Table 1","quote":"2 | 125.1 ± 6.4 | –14.7 ± 2.4 | 16.61"},
+{"sample":"DOX-loaded MSNs@PDA","size_nm":168.3,"pdi":null,"zeta_mV":-17.3,"medium":"not_declared","source":"Table 1","quote":"3 | 168.3 ± 8.1 | –17.3 ± 3.1 | 16.48"},
+{"sample":"DOX-loaded MSNs@PDA-PEP","size_nm":170.2,"pdi":null,"zeta_mV":-15.9,"medium":"not_declared","source":"Table 1","quote":"4 | 170.2 ± 7.5 | –15.9 ± 1.6 | 16.25"}],
+"spectra":[
+{"technique":"FTIR","fig":"Figure 2","applies_to":"nanoparticle","sample":"MSNs@PDA-PEP","quote":"(B) FT-IR spectra of MSNs, MSNs@PDA and MSNs@PDA-PEP."}]},
+
+{"pmcid":"PMC5316225","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"PMA-IONs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images and dynamic light scattering (DLS) of iron oxide NPs (IONs)"},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"PMA-IONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of skin samples treated with semisolid-formulations loaded by PMA-IONs."}],
+"descriptors":[
+{"sample":"PMA-IONs","size_nm":31,"pdi":0.15,"zeta_mV":-64.80,"medium":"water","source":"Table 1","quote":"PMA-IONs | 31 ± 4 | 0.15 ± 0.04 | −64.80 ± 4.91 | 7.0"},
+{"sample":"HEC","size_nm":29,"pdi":0.44,"zeta_mV":-42.17,"medium":"water","source":"Table 1","quote":"HEC | 29 ± 15 | 0.44 ± 0.05 | −42.17 ± 1.68 | 5.0"},
+{"sample":"CMC","size_nm":47,"pdi":0.54,"zeta_mV":-79.77,"medium":"water","source":"Table 1","quote":"CMC | 47 ± 7 | 0.54 ± 0.03 | −79.77 ± 2.00 | 6.5"},
+{"sample":"CP","size_nm":52,"pdi":0.29,"zeta_mV":-72.83,"medium":"water","source":"Table 1","quote":"CP | 52 ± 4 | 0.29 ± 0.04 | −72.83 ± 5.25 | 6.0"}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PMA-IONs","quote":"On the right the EDX spectra taken from the nanoparticles highlighted in b."}]},
+
+{"pmcid":"PMC5508052","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"SNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM image, (B) SEM image, (C) DLS size distribution of SNPs"},
+{"fig":"Figure 2","variant":"TEM_negstain","sample":"ASNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of negatively stained ASNPs with magnification of 50000"},
+{"fig":"Figure 11","variant":"TEM_prep_not_declared","sample":"ASNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image for internalization of ASNPs across the cell membrane after 12 and 24 hours post treatment."}],
+"descriptors":[
+{"sample":"SNPs","size_nm":4.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"indicated that SNPs vary in size from 4.1 to 7.7 nm with mean diameter of 4.6 nm."},
+{"sample":"ASNPs","size_nm":117.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"ASNPs vary in size from 96.5 to 149 nm with mean diameter of 117.4 nm."}],
+"spectra":[
+{"technique":"UVVis","fig":"Figure 4A","applies_to":"nanoparticle","sample":"ASNPs","quote":"(A) UV-Vis spectra of ASNPs (solid line), SNPs (dotted line) and BSA (dashed line)."}]}
+]}

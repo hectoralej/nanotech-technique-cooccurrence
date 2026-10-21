@@ -1,0 +1,101 @@
+{
+  "batch": "EX061",
+  "articles": [
+    {
+      "pmcid": "PMC9066750",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "NeO-SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "a TEM images of NeO-SLNs with magnification of 46.460 KX"}],
+      "descriptors": [{"sample": "NeO-SLNs", "size_nm": 337.6, "pdi": 0.77, "zeta_mV": -26.5, "medium": "not_declared", "source": "Fig. 1; DLS mean diameter; two peaks also reported at 365.9 nm and 46.16 nm", "quote": "with the calculated mean particle size of 337.6 nm (Fig. 1b).", "quote2": "c Zeta potential and PDI were − 26.5 mV and 0.77, respectively"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12932164",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "FIGURE 11", "variant": "TEM_posstain", "sample": "S. typhimurium after CNC treatment", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM of antibacterial activity of CNCs on S. typhimurium."},
+        {"fig": "FIGURE 12", "variant": "TEM_posstain", "sample": "A. fumigatus after CNC treatment", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM of antifungal activity of CNCs on A. fumigatus"}
+      ],
+      "descriptors": [
+        {"sample": "TiO2NPs", "size_nm": 40.7, "pdi": null, "zeta_mV": -30.1, "medium": "not_declared", "source": "Text; DLS; printed size is '40. 7 nm'", "quote": "For TiO2NPs, CsNPs, and CNCs, dynamic light scattering (DLS) analysis revealed distinct peaks at 40. 7, 40.6, and 87.3 nm, respectively.", "quote2": "Zeta potential measurements yielded characteristic values of −30.1, 31.2, and 20.8. mV for TiO2NPs, CsNPs, and CNCs, respectively"},
+        {"sample": "CsNPs", "size_nm": 40.6, "pdi": null, "zeta_mV": 31.2, "medium": "not_declared", "source": "Text; DLS", "quote": "For TiO2NPs, CsNPs, and CNCs, dynamic light scattering (DLS) analysis revealed distinct peaks at 40. 7, 40.6, and 87.3 nm, respectively.", "quote2": "Zeta potential measurements yielded characteristic values of −30.1, 31.2, and 20.8. mV for TiO2NPs, CsNPs, and CNCs, respectively"},
+        {"sample": "CNCs", "size_nm": 87.3, "pdi": null, "zeta_mV": 20.8, "medium": "not_declared", "source": "Text; DLS", "quote": "For TiO2NPs, CsNPs, and CNCs, dynamic light scattering (DLS) analysis revealed distinct peaks at 40. 7, 40.6, and 87.3 nm, respectively.", "quote2": "Zeta potential measurements yielded characteristic values of −30.1, 31.2, and 20.8. mV for TiO2NPs, CsNPs, and CNCs, respectively"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9032237",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "uncoated and thiolated Lip-SeNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of (a) uncoated and (b) thiolated Lip-SeNPs. The latter show an irregular structure of the polymers on the surface of the Lip-SeNPs."}],
+      "descriptors": [
+        {"sample": "uncoated Lip-SeNPs", "size_nm": null, "pdi": null, "zeta_mV": -11.6, "medium": "not_declared", "source": "Text; size omitted because measured by NTA, not DLS; standardized zeta potential", "quote": "Measured at standardized conditions, the uncoated Lip-SeNPs had a negative zeta potential of −11.6 ± 2.2 mV (n = 3)"},
+        {"sample": "thiolated Lip-SeNPs", "size_nm": null, "pdi": null, "zeta_mV": 12.3, "medium": "not_declared", "source": "Text; size omitted because measured by NTA, not DLS; standardized zeta potential", "quote": "thiolated Lip-SeNPs showed a positive zeta potential of 12.3 ± 1.0 mV (n = 3)"}
+      ],
+      "spectra": [{"technique": "SAXS", "fig": "not_declared", "applies_to": "nanoparticle", "sample": "uncoated and thiolated Lip-SeNPs", "quote": "Synchrotron SAXS experiments were performed on uncoated and thiolated Lip-SeNPs."}]
+    },
+    {
+      "pmcid": "PMC12743692",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "MOMB-Ag-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "D TEM image of MOMB-Ag-NPs, displaying their spherical shape with a scale bar of 100 nm."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "MO-Ag-NPs", "quote": "B UV–visible absorption spectra of MO-Ag-NPs, demonstrating a characteristic peak at [specific wavelength, 450 nm]."},
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "MOMB-Ag-NPs", "quote": "C UV–visible absorption spectra of MOMB-Ag-NPs, demonstrating a characteristic peak at [specific wavelength, 664 nm]."}
+      ]
+    },
+    {
+      "pmcid": "PMC9610800",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_negstain", "sample": "uncoated and chitosan-coated SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of Poloxamer 407 based (A) uncoated SLNs and (B) CS-coated SLNs."}],
+      "descriptors": [
+        {"sample": "F1", "size_nm": 165.3, "pdi": 0.235, "zeta_mV": -26.3, "medium": "not_declared", "source": "Table 2; text reports zeta as meV; table reports mV", "quote": "165.3 ± 1.69", "quote2": "0.235 ± 0.006", "quote3": "−26.3 ± 2.04"},
+        {"sample": "F2", "size_nm": 320.4, "pdi": 0.312, "zeta_mV": -32.5, "medium": "not_declared", "source": "Table 2; text reports zeta as meV; table reports mV", "quote": "320.4 ± 1.03", "quote2": "0.312 ± 0.004", "quote3": "−32.5 ±1.45"},
+        {"sample": "F3", "size_nm": 198.3, "pdi": 0.203, "zeta_mV": 19.25, "medium": "not_declared", "source": "Table 2; text reports zeta as meV; table reports mV", "quote": "198.3 ± 1.98", "quote2": "0.203 ± 0.003", "quote3": "19.25 ±1.89"},
+        {"sample": "F4", "size_nm": 448.3, "pdi": 0.504, "zeta_mV": 22.4, "medium": "not_declared", "source": "Table 2; text reports zeta as meV; table reports mV", "quote": "448.3 ± 1.23", "quote2": "0.504 ± 0.0031", "quote3": "22.4 ±0.87"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13441918",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "FIGURE 2", "variant": "SEM", "sample": "blank UA-ChNPs and UA-ChNPs/DE", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Surface morphology of blank UA-ChNPs (A) and UA-ChNPs/DE (B) as observed by scanning electron microscopy (SEM)."}],
+      "descriptors": [{"sample": "UA-ChNPs/DE", "size_nm": 105.2, "pdi": null, "zeta_mV": 28.4, "medium": "water", "source": "Text; reported as DLS; diluted in distilled water", "quote": "DLS analysis revealed that UA-ChNPs/DE exhibited an average particle size of 105.2 nm", "quote2": "The nanoparticles exhibited a positive zeta potential of +28.4 ± 1.6 mV"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9146667",
+      "context": {"article_kind": "review", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false},
+      "panels": [], "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC10857429",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 7", "variant": "TEM_prep_not_declared", "sample": "biosynthesized Sym. Radix/AgNPs-3", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of biosynthesized Sym. Radix/AgNPs-3 (a,b) in different magnifications and histogram (c)."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Figure 3", "applies_to": "mixture", "sample": "Sym. Radix/AgNPs1 film", "quote": "SEM images and EDS spectra and element mapping of Sym. Radix/AgNPs1 films."},
+        {"technique": "UVVis", "fig": "Figure 9", "applies_to": "nanoparticle", "sample": "biosynthesized AgNPs", "quote": "UV-vis absorption spectra of plant extracts and biosynthesized AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC10160449",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "TEM_negstain", "sample": "DTIC-SLNs-9", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy (TEM) images of the prepared DTIC-SLNs-9 at 100 nm scale (A)"},
+        {"fig": "Figure 4", "variant": "TEM_negstain", "sample": "DTIC-SLNs-10 and DTIC-SLNs-11", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of DTIC-SLNs-10; without Kolliphor® (A)"}
+      ],
+      "descriptors": [
+        {"sample": "DTIC-SLNs-9", "size_nm": 198, "pdi": 0.24, "zeta_mV": -25.56, "medium": "not_declared", "source": "Table 2; DLS", "quote": "DTIC-SLNs-9 | -25.56±2.78 | 198±4.35 | 0.24±0.112"},
+        {"sample": "DTIC-SLNs-10", "size_nm": 821, "pdi": 0.51, "zeta_mV": -30.78, "medium": "not_declared", "source": "Table 2; DLS", "quote": "DTIC-SLNs-10 | -30.78±2.83 | 821±6.1 | 0.51±0.023"},
+        {"sample": "DTIC-SLNs-11", "size_nm": 715, "pdi": 0.27, "zeta_mV": -21.67, "medium": "not_declared", "source": "Table 2; DLS", "quote": "DTIC-SLNs-11 | -21.67±3.67 | 715±7.36 | 0.27±0.001"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12844752",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "Cy7-PLGA NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Representative SEM image of the NPs (scale bar: 1 µm; magnification: ×80,000)"}],
+      "descriptors": [{"sample": "Cy7-PLGA NPs", "size_nm": 182.3, "pdi": 0.352, "zeta_mV": null, "medium": "water", "source": "Figure 2B; DLS Z-average; number-weighted mean also reported as 92.9 ± 37.7 nm", "quote": "The hydrodynamic diameter was determined by DLS Z-average value of 182.3 ± 1.9 nm, with a polydispersity index (PDI) of 0.352."}],
+      "spectra": []
+    }
+  ]
+}

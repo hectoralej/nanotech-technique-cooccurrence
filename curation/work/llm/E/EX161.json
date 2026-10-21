@@ -1,0 +1,97 @@
+{"batch": "EX161", "articles": [
+{"pmcid": "PMC7601117", "context": {"article_kind": "research", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false}, "panels": [], "descriptors": [], "spectra": []},
+{"pmcid": "PMC8954626", "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "F5", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs (60 kV) of F5 (above) and F5 loading 2% indomethacin (F5-INDO) (below)"},
+  {"fig": "Fig. 5", "variant": "SEM", "sample": "XAN@CHT/NLC-INDO", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM surface analyses of CHT/INDO (A) bead, CHT/NLC-INDO (B,C) and a cross-section of XAN@CHT/NLC-INDO (D) nanobeads."}
+ ], "descriptors": [], "spectra": []},
+{"pmcid": "PMC6163634", "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "SEM", "sample": "CRG/ECH liposomes-100", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy images of (a) CRG/ECH liposomes-100, (b) CRG/ECH liposomes-400"}
+ ],
+ "descriptors": [
+  {"sample": "Conventional liposomes-100", "size_nm": 125.6, "pdi": 0.084, "zeta_mV": -14.6, "medium": "not_declared", "source": "Table 1", "quote": "Conventional liposomes-100 | 0.084 ± 0.015 | 130.2 ± 4.4 | 125.6 ± 2.5 | 100 | −14.6 ± 1.5"},
+  {"sample": "CRG/Ech Liposomes-100", "size_nm": 159.3, "pdi": 0.132, "zeta_mV": -24.4, "medium": "not_declared", "source": "Table 1", "quote": "CRG/Ech Liposomes-100 | 0.132 ± 0.15 | 140.8 ± 1.0 | 159.3 ± 5.8 | 100 | −24.4 ± 2.7"},
+  {"sample": "CRG/Ech Liposomes-400", "size_nm": 419.5, "pdi": 0.219, "zeta_mV": -15.6, "medium": "not_declared", "source": "Table 1", "quote": "CRG/Ech Liposomes-400 | 0.219 ± 0.023 | 334.5 ± 1.4 | 419.5 ± 12.0 | 100 | −15.6 ± 0.2"},
+  {"sample": "CRG/Ech Liposomes-100 + mucin", "size_nm": 158.1, "pdi": 0.116, "zeta_mV": -20.8, "medium": "other", "source": "Table 1", "quote": "CRG/Ech Liposomes-100 + mucin | 0.116 ± 0.014 | 140.0 ± 1.1 | 158.1 ± 3.3 | 100 | −20.8 ± 2.9"},
+  {"sample": "CRG/Ech Liposomes-400 + mucin", "size_nm": 408.1, "pdi": 0.227, "zeta_mV": -22.6, "medium": "other", "source": "Table 1", "quote": "CRG/Ech Liposomes-400 + mucin | 0.227 ± 0.016 | 343.7 ± 2.3 | 408.1 ± 9.9 | 100 | −22.6 ± 0.1"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "component", "sample": "Ech", "quote": "Absorption spectra of the Ech extracted with butanol from freshly prepared liposomes"}
+ ]},
+{"pmcid": "PMC10261010", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "SEM", "sample": "MSN/C3N4/CNH", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of MSN/C3N4/CNH."}
+ ], "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "MSN/C3N4/CNH", "quote": "FT-IR spectra of non-calcined silica-glucose sample (a), MSN (b), MSN/C3N4 (c), and MSN/C3N4/CNH (d)."},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "MSN/C3N4/CNH", "quote": "XRD patterns of MSN (a) and simulated CNH, and MSN/C3N4/CNH (b)."},
+  {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "MSN/C3N4/CNH", "quote": "EDS of MSN/C3N4/CNH."}
+ ]},
+{"pmcid": "PMC6968620", "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 6", "variant": "SEM", "sample": "F2", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of the nanoparticles (a) F2 and (b) F3."},
+  {"fig": "Fig. 7", "variant": "TEM_prep_not_declared", "sample": "F3", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of the nanoparticles (a) F2 and (b) F3."}
+ ],
+ "descriptors": [
+  {"sample": "F2", "size_nm": 202.9, "pdi": 0.195, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average size of F2 is 202.9 nm ± 4.56 nm and PDI is 0.195 ± 0.051"},
+  {"sample": "F3", "size_nm": 339.6, "pdi": 0.283, "zeta_mV": null, "medium": "not_declared", "source": "Table 2", "quote": "F3 | 339.6 nm ± 9.8nm | 0.283 ± 0.0404"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "F2 and F3", "quote": "FT-IR (a) CIP, (b) CS, (c) PLGA, (d) F2, and (e) F3."},
+  {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "F2 and F3", "quote": "XRD of (a) CIP, (b) PLGA, (c) CS, (d) F2, and (e) F3."}
+ ]},
+{"pmcid": "PMC7729133", "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "D-SLN and SMD-SLN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images (E,F) of D-SLN and SMD-SLN."}
+ ],
+ "descriptors": [
+  {"sample": "D-SLN", "size_nm": 216, "pdi": 0.048, "zeta_mV": null, "medium": "water", "source": "text", "quote": "After homogenization, the particle size and particle size distribution were decreased to 216 ± 32 nm with polydispersity index 0.048 ± 0.03."},
+  {"sample": "SMD-SLN", "size_nm": 485, "pdi": 0.230, "zeta_mV": null, "medium": "water", "source": "text", "quote": "The surface modified solid lipid particles showed average particle size 485 ± 43 nm with polydispersity index 0.230 ± 0.05"}
+ ],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "D-SLN and SMD-SLN", "quote": "X-ray diffraction pattern of Pure drug (A), Tamoxifen citrate (B), B-SLN (C), D-SLN and SMD-SLN (D)."}
+ ]},
+{"pmcid": "PMC10647797", "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "TEM_negstain", "sample": "ACP−Rh2−Lip", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM of different liposomes. (A) Empty−Lip, (B) Rh2−Lip, (C) ACP−Rh2−Lip, (D) CS−Rh2−Lip."}
+ ],
+ "descriptors": [
+  {"sample": "Lip", "size_nm": 183, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "showed 183 ± 5.52 nm for liposomes, 197 ± 6.7 nm for Auricultural cornea polysaccharide coated liposomes"},
+  {"sample": "ACP−Rh2−Lip", "size_nm": 197, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "showed 183 ± 5.52 nm for liposomes, 197 ± 6.7 nm for Auricultural cornea polysaccharide coated liposomes"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "different liposomes", "quote": "Fourier transform infrared spectra of different liposomes."}
+ ]},
+{"pmcid": "PMC12693316", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "MSNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of (a) MSNs exhibiting spherical to cashew-like morphologies and (c) BPA-MSNs after surface functionalization."}
+ ], "descriptors": [],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "calcined MSNs and BPA-MSNs", "quote": "XRD patterns of calcined MSNs and BPA-MSNs, showing the characteristic broad peak of amorphous silica"},
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "MSNs and BPA-MSNs", "quote": "EDX spectra of (a) MSNs and (b) BPA-MSNs."},
+  {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "BPA-MSNs", "quote": "FTIR spectra of the synthesized materials: (1) calcined MSNs, (2) TMPS-silanized MSNs"}
+ ]},
+{"pmcid": "PMC8781626", "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "SEM", "sample": "Metarhizium anisopliae–chitosan nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy (a) and high-resolution transmission electron microscopy (b) of Metarhizium anisopliae–chitosan nanoparticles."},
+  {"fig": "Fig. 4", "variant": "HRTEM", "sample": "Metarhizium anisopliae–chitosan nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "high-resolution transmission electron microscopy (b) of Metarhizium anisopliae–chitosan nanoparticles."}
+ ],
+ "descriptors": [
+  {"sample": "Metarhizium anisopliae–chitosan nanoparticles", "size_nm": 75.83, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 6", "quote": "The average size of M. anisopliae–chitosan nanoparticles was 75.83 nm (Figure 6)."}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Metarhizium anisopliae–chitosan nanoparticles", "quote": "Fourier transform infrared spectroscopy (A) and X-ray diffraction crystallography (B) of Metarhizium anisopliae–chitosan nanoparticles."},
+  {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Metarhizium anisopliae–chitosan nanoparticles", "quote": "Fourier transform infrared spectroscopy (A) and X-ray diffraction crystallography (B) of Metarhizium anisopliae–chitosan nanoparticles."}
+ ]},
+{"pmcid": "PMC7692391", "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "CC-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscope images of CC-NLC."}
+ ],
+ "descriptors": [
+  {"sample": "CC-NLC", "size_nm": 121.6, "pdi": 0.26, "zeta_mV": -26.5, "medium": "not_declared", "source": "Table 2", "quote": "Fresh | 121.6 ± 6.20 | 0.26 ± 0.03 | −26.5 ± 2.90 | 96.23 ± 3.14 | Clear emulsion"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "CC-NLC", "quote": "FT-IR spectra of CC, GMS, phys. mixture, CC-NLC, and blank-NLC."}
+ ]}
+]}

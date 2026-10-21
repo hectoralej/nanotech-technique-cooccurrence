@@ -1,0 +1,115 @@
+{
+  "batch": "EX058",
+  "articles": [
+    {
+      "pmcid": "PMC12469294",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "spray-dried and freeze-dried Yuja NE/NLC gels", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "FE-SEM microphotographs of Yuja dried gels"}],
+      "descriptors": [
+        {"sample": "Y-NE", "size_nm": 37.36, "pdi": 0.24, "zeta_mV": null, "medium": "not_declared", "source": "Table 1; DLS", "quote": "Y-NE | 37.36 ± 0.43 b | 0.24 ± 0.00 b"},
+        {"sample": "Y-NLC", "size_nm": 32.03, "pdi": 0.19, "zeta_mV": null, "medium": "not_declared", "source": "Table 1; DLS; table reports 32.03 ± 0.46 while text reports ± 0.19", "quote": "Y-NLC | 32.03 ± 0.46 a | 0.19 ± 0.00 a"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13415187",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "DX/CS and Aloe vera-coated DX/CS NPs, with and without eucalyptus extract", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of (a) DX/CS, (b) DX/CS/EE, (c) Aloe vera @ DX/CS and (d) Aloe vera @ DX/CS/EE NPs."},
+        {"fig": "Figure 3", "variant": "SEM", "sample": "DX/CS and Aloe vera-coated DX/CS NPs, with and without eucalyptus extract", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of (a) DX/CS, (b) DX/CS/EE, (c) Aloe vera @ DX/CS and (d) Aloe vera @ DX/CS/EE NPs."}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "DX/CS and Aloe vera-coated DX/CS NPs, with and without eucalyptus extract", "quote": "FTIR spectra of DX/CS NPs, DX/CS/EE NPs, Aloe vera @ DX/CS NPs, and Aloe vera @ DX/CS/EE NPs."}]
+    },
+    {
+      "pmcid": "PMC13220058",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_negstain", "sample": "R848/DOX@Lip and FA-CS-R848/DOX@Lip", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images showing the morphology of liposomal formulations. (A) TEM image of R848/DOX@Lip. (B) TEM image of FA-CS-R848/DOX@Lip."}],
+      "descriptors": [
+        {"sample": "R848/DOX@Lip", "size_nm": 210.47, "pdi": 0.18, "zeta_mV": -22.42, "medium": "not_declared", "source": "Table 1; DLS", "quote": "R848/DOX@Lip | 210.47 ± 2.18 | 0.18 ± 0.01 | −22.42 ± 1.17"},
+        {"sample": "FA-CS-R848/DOX@Lip", "size_nm": 221.53, "pdi": 0.25, "zeta_mV": 5.06, "medium": "not_declared", "source": "Table 1; DLS", "quote": "FA-CS-R848/DOX@Lip | 221.53 ± 3.82 | 0.25 ± 0.01 | 5.06 ± 0.12"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10974312",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_negstain", "sample": "LNP-GA and LNP-GA coupled with rNTD-S", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Electron micrography of negative staining preparation of glycyrrhizinic acid-based Lipid Nanoparticle (LNP-GA)"}],
+      "descriptors": [
+        {"sample": "LNP-GA", "size_nm": 211.5, "pdi": 0.283, "zeta_mV": -27.6, "medium": "not_declared", "source": "Table 1; DLS", "quote": "Glycyrrhizinic acid-based Lipid Nanoparticle (LNPs-GA) | 211.5 | 0.283 | −27.6 ± 9.19"},
+        {"sample": "LNP-GA plus rNTD-S", "size_nm": 347.3, "pdi": 0.648, "zeta_mV": -21.73, "medium": "not_declared", "source": "Table 1; DLS", "quote": "Glycyrrhizinic acid-based Lipid Nanoparticle (LNPs-GA) plus rNTD-S | 347.3 | 0.648 | −21.73 ± 8.41"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10910189",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "SEM", "sample": "green-synthesized AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of green-synthesized AgNPs"},
+        {"fig": "Figure 4", "variant": "SEM", "sample": "herbal formulation-mediated ZnONPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of green-synthesized ZnONPs"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "green-synthesized AgNPs", "quote": "UV-visible spectra of green synthesized AgNPs recorded at different time intervals"},
+        {"technique": "UVVis", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "herbal formulation-mediated ZnONPs", "quote": "UV-visible spectra of Ocimum tenuiflorum and Ocimum gratissimum herbal formulation-mediated ZnONPs"},
+        {"technique": "EDS", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "herbal formulation-based AgNPs", "quote": "EDX spectra of Ocimum tenuiflorum and Ocimum gratissimum herbal formulation-based AgNPs"},
+        {"technique": "EDS", "fig": "Figure 6", "applies_to": "nanoparticle", "sample": "herbal formulation-mediated ZnONPs", "quote": "EDX spectra of Ocimum tenuiflorum and Ocimum gratissimum herbal formulation-mediated ZnONPs"},
+        {"technique": "FTIR", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "green-synthesized AgNPs", "quote": "FT-IR spectra of green-synthesized AgNPs"},
+        {"technique": "FTIR", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "green-synthesized ZnONPs", "quote": "FT-IR spectra of green-synthesized ZnONPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC11768165",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "SEM", "sample": "spray-dried PTX-liposome, PTX-micelle, and PTX-SLN powders", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images for PTX-liposomes + trehalose (A), PTX-micelles + trehalose (B), PTX-SLNs+ trehalose (C)"}],
+      "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC11858838",
+      "context": {"article_kind": "research", "carrier_type": "nanogel", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [],
+      "descriptors": [
+        {"sample": "Fmoc-FF NGs", "size_nm": 174, "pdi": 0.176, "zeta_mV": -24.0, "medium": "not_declared", "source": "Table 1", "quote": "Fmoc-FF NGs | 174 ± 82 | 0.176 | −24.0 ± 0.1 | - | -"},
+        {"sample": "DOX-filled NGs", "size_nm": 241, "pdi": 0.183, "zeta_mV": -10.6, "medium": "not_declared", "source": "Table 1", "quote": "DOX-filled NGs | 241 ± 72 | 0.183 | −10.6 ± 0.4 | 13.7% | 63%"},
+        {"sample": "CUR-filled NGs", "size_nm": 204, "pdi": 0.167, "zeta_mV": -34.6, "medium": "not_declared", "source": "Table 1", "quote": "CUR-filled NGs | 204 ± 80 | 0.167 | −34.6 ± 1.2 | 30.1% | 90.8%"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13575751",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [],
+      "descriptors": [
+        {"sample": "Blank LPs", "size_nm": 137.05, "pdi": 0.153, "zeta_mV": -25.82, "medium": "not_declared", "source": "Table 3; DLS", "quote": "Blank LPs | 137.05 ± 2.77 | 0.153 ± 0.045 | -25.82 ± 1.54"},
+        {"sample": "Cel-LPs", "size_nm": 153.75, "pdi": 0.227, "zeta_mV": -31.68, "medium": "not_declared", "source": "Table 3; DLS", "quote": "Cel-LPs | 153.75 ± 2.13 | 0.227 ± 0.026 | -31.68 ± 0.40"},
+        {"sample": "Blank FA-LPs", "size_nm": 145.37, "pdi": 0.149, "zeta_mV": -21.81, "medium": "not_declared", "source": "Table 3; DLS", "quote": "Blank FA-LPs | 145.37 ± 1.93 | 0.149 ± 0.037 | -21.81 ± 0.45"},
+        {"sample": "FA-Cel-LPs", "size_nm": 110.65, "pdi": 0.23, "zeta_mV": -25.57, "medium": "not_declared", "source": "Table 3; DLS", "quote": "FA-Cel-LPs | 110.65 ± 1.24 | 0.230 ± 0.018 | -25.57 ± 1.06"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9671215",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "FIGURE 5", "variant": "TEM_negstain", "sample": "GR@LNPs, hollow @LNPs, and CLO#GR@Ls", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM characterization of the nanovector constructs considered in this work"},
+        {"fig": "FIGURE 7", "variant": "TEM_negstain", "sample": "GR@LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Ultrastructural TEM analysis. Left panels: prototypical specimens for the populations of GR@LNPs"}
+      ],
+      "descriptors": [
+        {"sample": "GR@LNPs, pellet fraction", "size_nm": 172, "pdi": 1.18, "zeta_mV": 0, "medium": "PBS", "source": "Table 2 mean and Table 3 average; TEM/DLS nanovector pellet fraction", "quote": "Mean | 172 ± 18 | 1.18 |", "quote2": "Average | 0 ± 3 mV | 44 ± 4 mV | −42 ± 20 mV"},
+        {"sample": "hollow LNPs, supernatant", "size_nm": 193, "pdi": 1.22, "zeta_mV": 44, "medium": "PBS", "source": "Table 2 mean and Table 3 average; hollow LNP supernatant", "quote": "Mean | 172 ± 18 | 1.18 | 193 ± 23 | 1.22 | 400 ± 200 | 1.50", "quote2": "Average | 0 ± 3 mV | 44 ± 4 mV | −42 ± 20 mV"},
+        {"sample": "CLO#GR@liposome formulation", "size_nm": 400, "pdi": 1.5, "zeta_mV": -42, "medium": "PBS", "source": "Table 2 mean and Table 3 average; commercial clodronate liposomes", "quote": "Mean | 172 ± 18 | 1.18 | 193 ± 23 | 1.22 | 400 ± 200 | 1.50", "quote2": "Average | 0 ± 3 mV | 44 ± 4 mV | −42 ± 20 mV"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12797472",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "Au NPs, ZIF-8, Au NPs@ZIF-8, Au NPs@ZIF-8/Ga", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative TEM images of Au NPs (top left insert indicates the diffraction pattern), ZIF-8, Au NPs@ZIF-8, and Au NPs@ZIF-8/Ga."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Au NPs@ZIF-8 and Au NPs@ZIF-8/Ga", "quote": "XRD patterns of Au NPs@ZIF-8 and Au NPs@ZIF-8/Ga"},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Au NPs@ZIF-8 and Au NPs@ZIF-8/Ga", "quote": "FTIR spectroscopy results are displayed in Fig. 1D."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{"batch":"EX177","articles":[
+{"pmcid":"PMC10221049","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"CS-NP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (c) CS-NP; (d) CS/Ig-NP."},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"CS-NP (v = 15 mL/h)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs of (a) CS-NP (v = 15 mL/h); (b) CS-NP (v = 70 mL/h) fabricated by the batch route."}],
+"descriptors":[],
+"spectra":[
+{"technique":"Raman","fig":"Fig. 7","applies_to":"nanoparticle","sample":"CS-NP","quote":"Raman spectra of CS-NP and CS/IgG-NP. IgG protein was used as a control."}]},
+{"pmcid":"PMC11925499","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) size distribution and SEM image of AuNPs"},
+{"fig":"Fig. 4","variant":"SEM","sample":"Au@TPP-DCD","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) size distribution and SEM image of Au@TPP-DCD"},
+{"fig":"Fig. 4","variant":"SEM","sample":"Au@DOX@TPP-DCD","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(H) size distribution and SEM images of Au@DOX@TPP-DCD and Au@CQ@TPP-DCD"},
+{"fig":"Fig. 4","variant":"AFM","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) 2D and 3D atomic force microscopy images of AuNPs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Au@DCD and Au@TPP-DCD","quote":"FT-IR spectra of Au@DCD and Au@TPP-DCD"}]},
+{"pmcid":"PMC11206292","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"HRTEM","sample":"MSN-23-A","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(b) HR-TEM images (white bar scales: 20 nm for the bottom with inverted contrast)"},
+{"fig":"Fig. 3","variant":"HRTEM","sample":"calcined MSN-23-A","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM image of calcined MSN-23-A on a typical cluster of US-MSN particles"},
+{"fig":"Fig. 4","variant":"HRTEM","sample":"calcined MSN-23-A","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM image of a typical cluster of nanoparticles of calcined MSN-23-A at different tilt angles"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"MSN-23-A","quote":"(a) XRD patterns, (b) HR-TEM images"}]},
+{"pmcid":"PMC11675405","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"mutant (M) and wildtype (W)","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM (transmission electron microscopy) micrographs of samples featuring the didodecyltrityl anchor in probe Pm"}],
+"descriptors":[
+{"sample":"AuNP/Cy5P + LipoPm + M","size_nm":154,"pdi":0.266,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"154 ± 80 (99.6%) | 4684 ± 789 (0.4%) | 0.266 ± 0.012"},
+{"sample":"AuNP/Cy5P + LipoPm + W","size_nm":79,"pdi":0.390,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"10 ± 3 (1%) | 79 ± 44 (96.9%) | 3684 ± 1074 (2.1%) | 0.390 ± 0.015"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AuNP–DNA associates","quote":"Optical absorption spectroscopy (A) and the size distribution of AuNP–DNA associates"}]},
+{"pmcid":"PMC10535558","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":true},
+"panels":[],
+"descriptors":[],
+"spectra":[]},
+{"pmcid":"PMC10138940","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"MIONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Micrographs of MIONs obtained using the TEM technique."}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"PEG-covered MIONs (S8)","quote":"ATR-FTIR spectra of PEG 2000, MIONs and PEG-covered MIONs (sample S8)."}]},
+{"pmcid":"PMC9628983","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"HRTEM","sample":"Au/A-TiO2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM images of Au/anatase TiO2 (Au/A-TiO2) (a) and Au/rutile TiO2 (Au/R-TiO2) (b)"},
+{"fig":"Fig. 1","variant":"HRTEM","sample":"Au/R-TiO2–NR","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d) HR-TEM image of Au/R-TiO2–NR prepared at Tc = 673 K and tc = 1 h."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Au/A-TiO2 and Au/R-TiO2","quote":"Kubelka–Munk-transformed absorption spectra of Au/A-TiO2 (a) and Au/R-TiO2 (b)"}]},
+{"pmcid":"PMC8304748","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MSN_H3","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(B–E) TEM micrographs (scale bar 50 nm) of MSNs (see also Table 1)"},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"MSN_H7","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs ((A–C), scale bar 50 nm)"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"MSN_Het2","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs (A–C, scale bar 50 nm)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MSN_H4","quote":"The FTIR spectra in ATR mode of MSN_H4 (Figure 1G black line), MSN_H5 (Figure 1G red line)"}]},
+{"pmcid":"PMC9417287","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNCs/MSN-NH2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a and b) Bright-field TEM image, (c) volume-slice electron tomography image."},
+{"fig":"Fig. 1","variant":"STEM","sample":"AuNCs/MSN-NH2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d) HAADF-STEM image, and STEM EDX mappings of AuNCs/MSN-NH2"}],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNCs/MSN-NH2","quote":"(e) EDX spectrum of AuNCs/MSN-NH2."}]},
+{"pmcid":"PMC9688994","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"Cur-MSNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image for the prepared Cur-MSNs."}],
+"descriptors":[
+{"sample":"Cur-MSNs","size_nm":92,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The mean particle size for drug-loaded MSNs was obtained at 92 nm."}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Cur-MSNs","quote":"The XRD pattern for the prepared nanoparticles."}]}
+]}

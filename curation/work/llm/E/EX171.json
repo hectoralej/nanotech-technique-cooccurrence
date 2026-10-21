@@ -1,0 +1,70 @@
+{"batch":"EX171","articles":[
+{"pmcid":"PMC6723278","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"V1-V3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Imaging of VP and CisPt co-loaded PLGA (V1), PEG-PLGA (V2), and FA-PLGA (V3) NCs by means of transmission electron microscopy (TEM)"}],
+"descriptors":[
+{"sample":"V1","size_nm":193,"pdi":0.16,"zeta_mV":-9,"medium":"not_declared","source":"Table 1","quote":"V1 | NCs-PLGA + VP + CisPt | 193 ± 6 | 0.16 ± 0.01 | −9 ± 1 | 92 ± 1 | 97 ± 3"},
+{"sample":"V2","size_nm":187,"pdi":0.12,"zeta_mV":-4,"medium":"not_declared","source":"Table 1","quote":"V2 | NCs-PLGA-PEG + VP + CisPt | 187 ± 5 | 0.12 ± 0.01 | −4 ± 1 | 88 ± 1 | 92 ± 1"},
+{"sample":"V3","size_nm":200,"pdi":0.20,"zeta_mV":-15,"medium":"not_declared","source":"Table 1","quote":"V3 | NCs-PLGA-FA + VP + CisPt | 200 ± 7 | 0.20 ± 0.02 | −15 ± 2 | 90 ± 2 | 95 ± 3"}],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"V1-V3","quote":"Ultraviolet - Visible (UV-VIS) spectra and images of the VP and CisPt co-loaded nanocarriers with various PLGA shells"}]},
+
+{"pmcid":"PMC8840532","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"SEM","sample":"Cp6 (Cp2+0.0025 AgNPs)","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"(D) Cp2+0.0025 AgNPs (Cp6)."}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction patterns of green synthesized silver nanoparticles (AgNPs) using M. frondosa leaf extract."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"mixture","sample":"Cp-Cp6","quote":"Fourier transform infrared (FTIR) spectra of (A) CH scaffolds (Cp)"}]},
+
+{"pmcid":"PMC6947415","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 6","variant":"SEM","sample":"spray-dried nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"A representative scanning electron microscopy micrograph of spray-dried nanoparticles."}],
+"descriptors":[{"sample":"HPMC-PLGA nanoparticles (formulation)","size_nm":448.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The prepared nanoparticles showed a narrow particle size distribution with an average particle size of 448.8 nm (Figure 7)."}],
+"spectra":[{"technique":"XRD","fig":"Fig. 9","applies_to":"nanoparticle","sample":"formulation","quote":"X-ray diffraction patterns of sitagliptin, PLGA, hydroxypropyl methylcellulose (HPMC), physical mixture of drug and polymers, and formulation."}]},
+
+{"pmcid":"PMC8880111","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 2","variant":"SEM","sample":"TiO2-NTs and Ag-NPs/TiO2-NTs (10 and 20 min)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Typical SEM images of TiO2-NTs (a) before and (b) after their Ag-NPs decoration at 10 min and (c) 20 min."},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag-NPs (20 min)/TiO2-NTs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Top view and (b) cross-section TEM images of Ag-NPs (20 min)/TiO2-NTs array."}],
+"descriptors":[],
+"spectra":[{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag-NPs/TiO2-NTs","quote":"EDX spectra of TiO2 nanotubes decorated with silver nanoparticles"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Ag-NPs/TiO2-NTs","quote":"X-ray diffractogram of pure TiO2 nanotubes decorated with silver nanoparticles."}]},
+
+{"pmcid":"PMC6940890","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"CS/TPP NPs (DoE Batch #9)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) TEM image of CS/TPP NPs (DoE Batch #9), obj. mag 30 kX."}],
+"descriptors":[
+{"sample":"DoE Batch #1","size_nm":162,"pdi":0.53,"zeta_mV":18.9,"medium":"not_declared","source":"Table 1","quote":"1 | 2.5 (+1) | 0.5 (+1) | 12 (+1) | 162 ± 28 | 0.53 ± 0.11 | +18.9 ± 0.6"},
+{"sample":"DoE Batch #2","size_nm":372,"pdi":0.37,"zeta_mV":34.6,"medium":"not_declared","source":"Table 1","quote":"2 | 2.5 (+1) | 0.5 (+1) | 5 (−1) | 372 ± 42 | 0.37 ± 0.02 | +34.6 ± 1.0"},
+{"sample":"DoE Batch #3","size_nm":40,"pdi":0.65,"zeta_mV":28.9,"medium":"not_declared","source":"Table 1","quote":"3 | 2.5 (+1) | 0.3 (−1) | 12 (+1) | 40 ± 12 | 0.65 ± 0.07 | +28.9 ± 4.6"},
+{"sample":"DoE Batch #4","size_nm":69,"pdi":0.33,"zeta_mV":20.9,"medium":"not_declared","source":"Table 1","quote":"4 | 2 (−1) | 0.5 (+1) | 12 (+1) | 69 ± 4 | 0.33 ± 0.01 | +20.9 ± 2.1"},
+{"sample":"DoE Batch #5","size_nm":39,"pdi":0.51,"zeta_mV":24.5,"medium":"not_declared","source":"Table 1","quote":"5 | 2 (−1) | 0.3 (−1) | 12 (+1) | 39 ± 12 | 0.51 ± 0.07 | +24.5 ± 6.5"},
+{"sample":"DoE Batch #6","size_nm":305,"pdi":0.35,"zeta_mV":27.4,"medium":"not_declared","source":"Table 1","quote":"6 | 2 (−1) | 0.5 (+1) | 5 (−1) | 305 ± 78 | 0.35 ± 0.07 | +27.4 ± 0.9"},
+{"sample":"DoE Batch #7","size_nm":225,"pdi":0.46,"zeta_mV":30.5,"medium":"not_declared","source":"Table 1","quote":"7 | 2.5 (+1) | 0.3 (−1) | 5 (−1) | 225 ± 79 | 0.46 ± 0.03 | +30.5 ± 4.1"},
+{"sample":"DoE Batch #9","size_nm":119,"pdi":0.40,"zeta_mV":25.5,"medium":"not_declared","source":"Table 1","quote":"9 | 2.25 (0) | 0.4 (0) | 8.5 (0) | 119 ± 10 | 0.40 ± 0.02 | +25.5 ± 3.0"}],
+"spectra":[]},
+
+{"pmcid":"PMC9060590","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"TNTs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs of the TNTs on Ti substrate: surface morphology with (a) low and (b) high magnification"},
+{"fig":"Fig. 2","variant":"SEM","sample":"TNTs/Ag","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs of the TNTs loaded with Ag NPs"}],
+"descriptors":[],
+"spectra":[{"technique":"EDS","fig":"Fig. 4","applies_to":"mixture","sample":"TNTs/Ag + CS–Gel","quote":"EDS point scanning spectra with quantitative composition data for the (a) TNTs/Ag + CS–Gel"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"mixture","sample":"TNTs coating","quote":"XRD spectra of (a) Ti, (b) TNTs coating after calcination at 450 °C"}]},
+
+{"pmcid":"PMC10096637","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 4","variant":"TEM_negstain","sample":"hollow BaCO3 nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM mages of (a) polymeric micelles and (b) hollow BaCO3 nanoparticles."}],
+"descriptors":[{"sample":"PEG-PAA-PS polymeric micelles (template)","size_nm":74,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The dynamic light scattering experiment shows that the hydrodynamic diameter (Dh) of the micelles is 74 nm (Figure 3)."}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"hollow BaCO3 nanoparticles","quote":"Fourier transform infrared (FTIR) spectrum of hollow BaCO3 nanoparticles."}]},
+
+{"pmcid":"PMC7321160","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_dried_unstained","sample":"LTP-AuNPs and LTP-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM micrographs and corresponding histograms for luteolin tetraphosphate derived gold nanoparticles (LTP AuNPs) A (9nm)"}],
+"descriptors":[],
+"spectra":[{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuNPs and AgNPs","quote":"XRD patterns of AuNPs (A) and AgNPS (C)"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AuNPs and AgNPs","quote":"Energy-Dispersive X-ray Spectroscopy (EDX) spectrum of AuNPs and AgNPs"}]},
+
+{"pmcid":"PMC10220606","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"SEM","sample":"PGEO@CSNP (films)","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Visual (a–d), superficial (e–h), and internal SEM (i–l) characteristics of pectin-based"}],
+"descriptors":[{"sample":"CSNPs","size_nm":317,"pdi":null,"zeta_mV":21.4,"medium":"not_declared","source":"text","quote":"The average particle size was 317 nm, with the zeta potential reaching +21.4 mV"}],
+"spectra":[{"technique":"FTIR","fig":"Fig. 2","applies_to":"mixture","sample":"films and CS/CSNPs","quote":"Infrared spectra of (a) films compositions: garlic essential oil (GEO, black)"}]},
+
+{"pmcid":"PMC7540761","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"GtAu NPs and OpAu NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(c) TEM image of GtAu NPs, and (d) TEM image of OpAu NPs"},
+{"fig":"Fig. 2","variant":"SEM","sample":"PEO-Gel-AA-COL-GtAu NPs and PEO-Gel-AA-COL-OpAu NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"areas marked with arrows indicate the entrapped AuNPs inside the nanofibres"}],
+"descriptors":[],
+"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"GtAu NPs and OpAu NPs","quote":"UV visible spectrum of Au NPs generated from green tea (GtAu NPs) and orange peel (OpAu NPs) extracts"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"mixture","sample":"PEO-Gel-AA-COL nanofibres","quote":"XRD patterns of PEO, Gel, AA, COL, PEO nanofibre"}]}
+]}

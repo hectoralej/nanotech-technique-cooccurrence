@@ -1,0 +1,101 @@
+{"batch":"EX169","articles":[
+{"pmcid":"PMC9420489","context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"PNIPAM-NG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"a. SEM morphology of the fabricated PNIPAM-NG shows the cross-linking and mesh like nature"},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"TT loaded NG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b. TEM image of TT loaded NG."}],
+"descriptors":[
+{"sample":"TT loaded NG","size_nm":120,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The TT loaded NGs diameter increased from 80 nm to 120 nm"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"NG","quote":"UV-vis spectrum of the NG with or without conjugated components shows peaks respective of the components."}]},
+{"pmcid":"PMC6027053","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) TEM images showing the size and shape of AuNPs;"}],
+"descriptors":[
+{"sample":"AuNPs","size_nm":18,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 1","quote":"DLS analysis revealed that the prepared AuNPs had an average size of 18 nm (Figure 1D)"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"(B) XRD images of AuNPs"},
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"(C) Fourier transform infrared images of AuNPs"},
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"(A) Ultraviolet-visible spectroscopy of AuNPs revealed a maximum absorption peak at approximately 530 nm."}]},
+{"pmcid":"PMC9028368","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"PLGA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the PLGA-NPs prepared with chloroform as organic solvent with different concentrations of PVA in the aqueous phase."},
+{"fig":"Fig. 3","variant":"SEM","sample":"PLGA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the PLGA-NPs prepared with chloroform as organic solvent with different concentrations of PVP in the aqueous phase."},
+{"fig":"Fig. 4","variant":"SEM","sample":"PLGA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the PLGA-NPs prepared with DCM as organic solvent with different concentrations of PVA in the aqueous phase."},
+{"fig":"Fig. 5","variant":"SEM","sample":"PLGA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the PLGA-NPs prepared with DCM as organic solvent with different concentrations of PVP in the aqueous phase."}],
+"descriptors":[
+{"sample":"PLGA-NPs PVA 9% w/v, chloroform","size_nm":317,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Contrary to this observation, the particle size was smallest (317 nm) at the highest (9%, w/v) concentration of PVA when chloroform was used"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"IND-loaded PLGA-NPs-5","quote":"FT-IR spectra of pure IND (A), PLGA (B), empty PLGA-NPs (C) and IND-loaded PLGA-NPs-5 (D)."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"empty PLGA-NPs","quote":"FT-IR spectra of pure IND (A), PLGA (B), empty PLGA-NPs (C) and IND-loaded PLGA-NPs-5 (D)."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"component","sample":"pure IND","quote":"FT-IR spectra of pure IND (A), PLGA (B), empty PLGA-NPs (C) and IND-loaded PLGA-NPs-5 (D)."}]},
+{"pmcid":"PMC9088810","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 7","variant":"SEM","sample":"CTESPC-containing NPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(A) High Resolution Scanning Electron Microscopy (HR-SEM) of dried CTESPC-containing NPs (fabricated at 25% n/n, ∼10.4% w/w carvacrol) (scale bar 1 μm)"}],
+"descriptors":[
+{"sample":"CTESPC-containing NPs (fabricated at 17% n/n)","size_nm":127.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 7","quote":"DLS diameter 127.8 ± 21.0 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"free carvacrol","quote":"Comparison of FT-IR spectra of free carvacrol (upper curve) and CTESPC (lower curve)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"CTESPC","quote":"Comparison of FT-IR spectra of free carvacrol (upper curve) and CTESPC (lower curve)."},
+{"technique":"UVVis","fig":"Fig. 5","applies_to":"component","sample":"carvacrol and CTESPC","quote":"Comparison of UV absorption spectrum of carvacrol and CTESPC."}]},
+{"pmcid":"PMC9695549","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"CA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron micrographs of the cellulose acetate nanoparticles (CA-NPs) with an increase of ×20,000"}],
+"descriptors":[
+{"sample":"CA-NPs","size_nm":508.3,"pdi":0.933,"zeta_mV":-2.52,"medium":"not_declared","source":"Table 1","quote":"CA-NPs | 216 ± 8.21 | 0.933 | 508.3 ± 49.7 | 1945 ± 87.6 | −2.52"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"CA-NPs","quote":"FTIR spectra of cellulose acetate nanoparticles (CA-NPs) (black line);"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"cellulose acetate from Sigma-Aldrich","quote":"cellulose acetate from Sigma-Aldrich (red line);"}]},
+{"pmcid":"PMC4879543","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNPs-S and AuNPs-P","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM observation of AuNPs-S (synthesized using apple extract by Sharma’s method) and AuNPs-P"}],
+"descriptors":[
+{"sample":"AuNPs","size_nm":null,"pdi":null,"zeta_mV":-9.39,"medium":"not_declared","source":"Fig. 6","quote":"In contrast, AuNPs exhibited completely negative Zeta potential (−9.39 mV)."}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"(b) X-ray diffraction patterns."},
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"The possible functional groups of the as-synthesized AuNPs were analyzed by Fourier Transform Infrared Spectrometry (FTIR)."},
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"(d) UV-vis spectra."}]},
+{"pmcid":"PMC7563361","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"CNP, pCNP, CNP-PCA and pCNP-PCA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM analysis of nanoparticle samples. (A) CNP, (B) pCNP, (C) CNP-PCA and (D) pCNP-PCA."},
+{"fig":"Fig. 6","variant":"TEM_dried_unstained","sample":"CNP, pCNP, CNP-PCA and pCNP-PCA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM analysis of nanoparticle samples. (A) CNP, (B) pCNP, (C) CNP-PCA and (D) pCNP-PCA."}],
+"descriptors":[
+{"sample":"CNP","size_nm":82.24,"pdi":0.25,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"The smallest size of 82.24 ± 2.67 nm was obtained at 250 µL of TPP for CNP with PDI of 0.25"},
+{"sample":"pCNP","size_nm":90.23,"pdi":0.25,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"90.23 ± 2.67 nm at 200 µL for pCNP with PDI of 0.25"},
+{"sample":"CNP-PCA","size_nm":159.0,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 4","quote":"CNP-PCA particle size expanded 93.4% from 82.2 to 159.0 nm"},
+{"sample":"pCNP-PCA","size_nm":196.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 4","quote":"The particle size of pCNP-PCA increased from 90.2 to 196.3 nm"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"CNP and PCNP","quote":"FTIR spectra of CS, TPP, CNP and PCNP have shown some of the important functional group in comparison."},
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"nanoparticle","sample":"CNP-PCA","quote":"FTIR spectra of PCNP-PCA, PCNP, CNP-PCA, CNP and PCA have shown some of the important functional group in comparison."},
+{"technique":"FTIR","fig":"Fig. 8","applies_to":"component","sample":"PCA","quote":"FTIR spectra of PCNP-PCA, PCNP, CNP-PCA, CNP and PCA have shown some of the important functional group in comparison."}]},
+{"pmcid":"PMC4736657","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"SN–AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"c TEM micrograph of SN–AgNPs. Scale bars correspond to 50 nm."},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"GLP-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"b TEM micrograph of GLP-AgNPs. Scale bars correspond to 50 nm."}],
+"descriptors":[
+{"sample":"SN–AgNPs","size_nm":21,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 2","quote":"The DLS histogram indicated that the average particle size of SN–AgNPs was around 21 nm"},
+{"sample":"GLP-AgNPs","size_nm":10,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 4","quote":"the average particle size of AgNPs was found to be 10 nm (Fig. 4c)"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SN–AgNPs","quote":"b UV–visible spectra of AgNPs synthesized via supernatant (SN)."},
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"GLP-AgNPs","quote":"a Characteristic surface plasmon resonance (SPR) of AgNPs synthesized via GLP."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"GLP-AgNPs","quote":"EDX spectrum of AgNPs stabilized by GLP molecule"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"GL–AgNPs","quote":"FT-IR spectra of a GLP only and b GL–AgNPs"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"component","sample":"GLP only","quote":"FT-IR spectra of a GLP only and b GL–AgNPs"}]},
+{"pmcid":"PMC7345782","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"BSA-loaded NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) TEM image of BSA-loaded NPs"},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"re-dissolved BSA-loaded NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) TEM image of re-dissolved BSA-loaded NPs"}],
+"descriptors":[
+{"sample":"BSA-loaded NPs","size_nm":137,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"DLS showed that the particle size of NPs is 137 nm while TEM indicated about 130 nm."},
+{"sample":"CS:TPP 3:1 (NPs)","size_nm":92,"pdi":0.14,"zeta_mV":16,"medium":"not_declared","source":"Table 1","quote":"3:1 | 92 ± 2 | 0.14 | 16 ± 0.4 | 53 ± 5 | 67 ± 1"},
+{"sample":"blank NPs (3:1)","size_nm":112,"pdi":0.23,"zeta_mV":19,"medium":"not_declared","source":"Table 1","quote":"blank NPs (3:1) | 112 ± 4 | 0.23 | 19 ± 0.5 | / | /"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BSA-loaded NPs","quote":"(C). Fourier transform infrared (FT-IR) spectra of (a) chitosan, (b) blank NPs, (c) BSA and (d) BSA-loaded NPs."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"BSA","quote":"(C). Fourier transform infrared (FT-IR) spectra of (a) chitosan, (b) blank NPs, (c) BSA and (d) BSA-loaded NPs."}]},
+{"pmcid":"PMC11666390","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) SEM image"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag NPs","quote":"(A) XRD showing the crystalline structure"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag NPs","quote":"(D) SEM-EDX."}]}
+]}
