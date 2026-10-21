@@ -74243,5 +74243,2020 @@
    "article-number": "289"
   },
   "resolves": true
+ },
+ "10.1002/smsc.202400145": {
+  "msg": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      8,
+      5
+     ]
+    ],
+    "date-time": "2026-08-05T02:08:36Z",
+    "timestamp": 1785895716214,
+    "version": "3.56.0"
+   },
+   "reference-count": 75,
+   "publisher": "Wiley",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        8,
+        13
+       ]
+      ],
+      "date-time": "2024-08-13T00:00:00Z",
+      "timestamp": 1723507200000
+     },
+     "content-version": "am",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+     "start": {
+      "date-parts": [
+       [
+        2024,
+        8,
+        13
+       ]
+      ],
+      "date-time": "2024-08-13T00:00:00Z",
+      "timestamp": 1723507200000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001023",
+     "name": "Australian Institute of Nuclear Science and Engineering",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "ALNGRA2317"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "ALNGRA2317"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001023",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100001023",
+     "name": "Australian Institute of Nuclear Science and Engineering",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "ALNSTU13134"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "ALNSTU13134"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001023",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100000923",
+     "name": "Australian Research Council",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "DE230101504"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "DE230101504"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100000923",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    },
+    {
+     "DOI": "10.13039/501100000923",
+     "name": "Australian Research Council",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "DE220100511"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "DE220100511"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100000923",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Small Science"
+   ],
+   "abstract": "<jats:p>Antimicrobial resistance (AMR) poses a global health crisis demanding innovative solutions. Traditional antibiotics, though pivotal over the past century in combating bacterial infections, face diminished efficacy against evolving bacterial defense mechanisms, especially in Gram\u2010negative strains. This study explores self\u2010assembled ionizable lipid nanoparticles (LNPs) with the incorporation of two ionizable lipid components (one cationic, one anionic) in nanocarriers for advanced antimicrobial drug delivery of the broad\u2010spectrum antibiotic Piperacillin (Pip). Incorporating cationic ionizable lipid ALC\u20100315, recognized as a functional lipid in the Pfizer\u2010BioNTech mRNA\u2010based SARS\u2010CoV\u20102 vaccine, into LNPs allowed mesophase transition, pH responsiveness, and ionization behavior in acidic environments found in sites of bacterial infections, to be studied using synchrotron small angle X\u2010ray scattering, dynamic light scattering, and a 2\u2010(p\u2010toluidino)\u20106\u2010naphthalene sulfonic acid assay. Incorporating another anionic ionizable lipid, oleic acid not only modulates the LNPs\u2019 physicochemical properties, such as size, internal phase nanostructure, and surface charge but also synergistically enhances the antimicrobial potency together with ALC\u20100315 with a benefit enhancing permeability and fusion with bacterial membranes. This study introduces a strategy for tailoring ionizable lipid compositions in LNPs, providing a new approach to antimicrobial treatment contributing to the fight against AMR.</jats:p>",
+   "DOI": "10.1002/smsc.202400145",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      14
+     ]
+    ],
+    "date-time": "2024-08-14T06:15:55Z",
+    "timestamp": 1723616155000
+   },
+   "source": "Crossref",
+   "is-referenced-by-count": 9,
+   "title": [
+    "Ionizable Lipid Containing Nanocarriers for Antimicrobial Agent Delivery"
+   ],
+   "prefix": "10.1002",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0002-7700-2392",
+     "authenticated-orcid": false,
+     "given": "Haitao",
+     "family": "Yu",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sampa",
+     "family": "Sarkar",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Z. L.",
+     "family": "Shaw",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Engineering STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Brendan",
+     "family": "Dyett",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Xudong",
+     "family": "Cai",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sue Lyn",
+     "family": "Yap",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Charlotte E.",
+     "family": "Conn",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Aaron",
+     "family": "Elbourne",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0001-7340-8611",
+     "authenticated-orcid": false,
+     "given": "Calum J.",
+     "family": "Drummond",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-9882-9014",
+     "authenticated-orcid": false,
+     "given": "Jiali",
+     "family": "Zhai",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "School of Science STEM College RMIT University  Melbourne Victoria 3000 Australia"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "311",
+   "published-online": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      13
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "e_1_2_8_2_1",
+     "volume-title": "Global Priority List of Antibiotic\u2010Resistant Bacteria to Guide Research, Discovery, and Development of New Antibiotics",
+     "author": "World Health Organization",
+     "year": "2017"
+    },
+    {
+     "key": "e_1_2_8_3_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41586-019-1665-6"
+    },
+    {
+     "key": "e_1_2_8_4_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.isci.2021.102304"
+    },
+    {
+     "key": "e_1_2_8_5_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.bmc.2016.06.044"
+    },
+    {
+     "key": "e_1_2_8_6_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s12551-021-00784-y"
+    },
+    {
+     "key": "e_1_2_8_7_1",
+     "volume-title": "Global Excess Deaths Associated with COVID\u201019 (Modelled Estimates)",
+     "author": "World Health Organization",
+     "year": "2021"
+    },
+    {
+     "key": "e_1_2_8_8_1",
+     "volume-title": "Antimicrobial Resistance: Global Report on Surveillance",
+     "author": "World Health Organization",
+     "year": "2014"
+    },
+    {
+     "key": "e_1_2_8_9_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "328",
+     "DOI": "10.25122/jml-2021-0097",
+     "volume": "2022",
+     "author": "Bin Liew K.",
+     "year": "2022",
+     "journal-title": "J. Med. Life"
+    },
+    {
+     "key": "e_1_2_8_10_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jconrel.2014.03.055"
+    },
+    {
+     "key": "e_1_2_8_11_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "50",
+     "DOI": "10.15212/bioi-2021-0003",
+     "volume": "2",
+     "author": "Deng Y.",
+     "year": "2021",
+     "journal-title": "BIO Integr."
+    },
+    {
+     "key": "e_1_2_8_12_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41467-019-12508-8"
+    },
+    {
+     "key": "e_1_2_8_13_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/adhm.202201151"
+    },
+    {
+     "key": "e_1_2_8_14_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsnano.8b03770"
+    },
+    {
+     "key": "e_1_2_8_15_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsnano.8b07961"
+    },
+    {
+     "key": "e_1_2_8_16_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/C1CS15148G"
+    },
+    {
+     "key": "e_1_2_8_17_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "227",
+     "DOI": "10.1007/978-981-33-4497-6_9",
+     "volume-title": "Nanocarriers: Drug Delivery System",
+     "author": "Patel B.",
+     "year": "2021"
+    },
+    {
+     "key": "e_1_2_8_18_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2020.11.124"
+    },
+    {
+     "key": "e_1_2_8_19_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsami.1c09909"
+    },
+    {
+     "key": "e_1_2_8_20_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2021.03.161"
+    },
+    {
+     "key": "e_1_2_8_21_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsami.9b01826"
+    },
+    {
+     "key": "e_1_2_8_22_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41578-021-00358-0"
+    },
+    {
+     "key": "e_1_2_8_23_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/molecules27061943"
+    },
+    {
+     "key": "e_1_2_8_24_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsnano.1c04996"
+    },
+    {
+     "key": "e_1_2_8_25_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/s41467-021-27493-0"
+    },
+    {
+     "key": "e_1_2_8_26_1",
+     "first-page": "24765",
+     "volume": "145",
+     "author": "Yu H.",
+     "year": "2023",
+     "journal-title": "J. Am. Chem. Soc."
+    },
+    {
+     "key": "e_1_2_8_27_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2020.09.081"
+    },
+    {
+     "key": "e_1_2_8_28_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijpharm.2021.120586"
+    },
+    {
+     "key": "e_1_2_8_29_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1586/14787210.5.3.365"
+    },
+    {
+     "key": "e_1_2_8_30_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.2165/00003495-200262140-00013"
+    },
+    {
+     "key": "e_1_2_8_31_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "2356",
+     "DOI": "10.1007/s00284-020-02008-0",
+     "volume": "77",
+     "author": "Savadi P.",
+     "year": "2020",
+     "journal-title": "Curr. Microbiol."
+    },
+    {
+     "key": "e_1_2_8_32_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1128/AAC.13.3.358"
+    },
+    {
+     "key": "e_1_2_8_33_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/anie.201804067"
+    },
+    {
+     "key": "e_1_2_8_34_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/21691401.2017.1307209"
+    },
+    {
+     "key": "e_1_2_8_35_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jddst.2021.103032"
+    },
+    {
+     "key": "e_1_2_8_36_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1080/10717544.2022.2079770"
+    },
+    {
+     "key": "e_1_2_8_37_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/ange.202304977"
+    },
+    {
+     "key": "e_1_2_8_38_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1002/smll.202309200"
+    },
+    {
+     "key": "e_1_2_8_39_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/la301874v"
+    },
+    {
+     "key": "e_1_2_8_40_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2021.06.031"
+    },
+    {
+     "key": "e_1_2_8_41_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1371/journal.pone.0003747"
+    },
+    {
+     "key": "e_1_2_8_42_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1038/ncomms9915"
+    },
+    {
+     "key": "e_1_2_8_43_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acs.nanolett.5b01751"
+    },
+    {
+     "key": "e_1_2_8_44_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/la701410n"
+    },
+    {
+     "key": "e_1_2_8_45_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/C5RA02604K"
+    },
+    {
+     "key": "e_1_2_8_46_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1039/f29767201525"
+    },
+    {
+     "key": "e_1_2_8_47_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acs.langmuir.6b04045"
+    },
+    {
+     "key": "e_1_2_8_48_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "16",
+     "DOI": "10.1016/j.chemphyslip.2018.11.004",
+     "volume": "218",
+     "author": "Kulkarni C. V.",
+     "year": "2019",
+     "journal-title": "Chem. Phys. Lipids"
+    },
+    {
+     "key": "e_1_2_8_49_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/jacs.3c11463"
+    },
+    {
+     "key": "e_1_2_8_50_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1128/AEM.71.5.2501-2510.2005"
+    },
+    {
+     "key": "e_1_2_8_51_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s10266-012-0092-z"
+    },
+    {
+     "key": "e_1_2_8_52_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1007/s00403-006-0713-x"
+    },
+    {
+     "key": "e_1_2_8_53_1",
+     "volume-title": "Organic Solvents:Physical Properties and Methods of Purification",
+     "author": "Riddick T. K.",
+     "year": "1986"
+    },
+    {
+     "key": "e_1_2_8_54_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1029/2010JD015520"
+    },
+    {
+     "key": "e_1_2_8_55_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "521",
+     "DOI": "10.1039/f19898500521",
+     "volume": "185",
+     "author": "Drummond C. J.",
+     "year": "1989",
+     "journal-title": "J. Chem. Soc., Faraday Trans. 1"
+    },
+    {
+     "key": "e_1_2_8_56_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/la00077a049"
+    },
+    {
+     "key": "e_1_2_8_57_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/nl050678i"
+    },
+    {
+     "key": "e_1_2_8_58_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/la101012a"
+    },
+    {
+     "key": "e_1_2_8_59_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.colsurfa.2016.09.069"
+    },
+    {
+     "key": "e_1_2_8_60_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2005.07.021"
+    },
+    {
+     "key": "e_1_2_8_61_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/j100120a028"
+    },
+    {
+     "key": "e_1_2_8_62_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/pharmaceutics13122041"
+    },
+    {
+     "key": "e_1_2_8_63_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/B978-0-323-46152-8.00007-X"
+    },
+    {
+     "key": "e_1_2_8_64_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1039/D0QO90001J",
+     "volume": "7",
+     "author": "Wang D. Y.",
+     "year": "2020",
+     "journal-title": "Front. Chem."
+    },
+    {
+     "key": "e_1_2_8_65_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.3390/molecules26072047"
+    },
+    {
+     "key": "e_1_2_8_66_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijpharm.2009.11.033"
+    },
+    {
+     "key": "e_1_2_8_67_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "34",
+     "DOI": "10.1016/j.jconrel.2012.06.002",
+     "volume": "163",
+     "author": "Bee S.",
+     "year": "2012",
+     "journal-title": "J. Controlled Release"
+    },
+    {
+     "key": "e_1_2_8_68_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsami.4c00921"
+    },
+    {
+     "key": "e_1_2_8_69_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2022.12.028"
+    },
+    {
+     "key": "e_1_2_8_70_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijpharm.2010.05.029"
+    },
+    {
+     "key": "e_1_2_8_71_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.jcis.2012.10.014"
+    },
+    {
+     "key": "e_1_2_8_72_1",
+     "first-page": "22",
+     "volume": "95",
+     "author": "Lambert P. A.",
+     "year": "2002",
+     "journal-title": "J. R. Soc. Med."
+    },
+    {
+     "key": "e_1_2_8_73_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.drup.2019.07.002"
+    },
+    {
+     "key": "e_1_2_8_74_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijpharm.2022.121782"
+    },
+    {
+     "key": "e_1_2_8_75_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1016/j.ijpharm.2017.04.082"
+    },
+    {
+     "key": "e_1_2_8_76_1",
+     "doi-asserted-by": "publisher",
+     "DOI": "10.1021/acsinfecdis.9b00031"
+    }
+   ],
+   "container-title": [
+    "Small Science"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smsc.202400145",
+     "content-type": "application/pdf",
+     "content-version": "vor",
+     "intended-application": "syndication"
+    },
+    {
+     "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/smsc.202400145",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      14
+     ]
+    ],
+    "date-time": "2024-08-14T06:16:06Z",
+    "timestamp": 1723616166000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://onlinelibrary.wiley.com/doi/10.1002/smsc.202400145"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      13
+     ]
+    ]
+   },
+   "references-count": 75,
+   "alternative-id": [
+    "10.1002/smsc.202400145"
+   ],
+   "URL": "https://doi.org/10.1002/smsc.202400145",
+   "archive": [
+    "Portico"
+   ],
+   "relation": {},
+   "ISSN": [
+    "2688-4046",
+    "2688-4046"
+   ],
+   "issn-type": [
+    {
+     "value": "2688-4046",
+     "type": "print"
+    },
+    {
+     "value": "2688-4046",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2024,
+      8,
+      13
+     ]
+    ]
+   },
+   "article-number": "2400145"
+  },
+  "resolves": true
+ },
+ "10.3390/cells9092034": {
+  "msg": {
+   "indexed": {
+    "date-parts": [
+     [
+      2026,
+      9,
+      29
+     ]
+    ],
+    "date-time": "2026-09-29T12:27:24Z",
+    "timestamp": 1790684844909,
+    "version": "4.1.0"
+   },
+   "reference-count": 69,
+   "publisher": "MDPI AG",
+   "issue": "9",
+   "license": [
+    {
+     "start": {
+      "date-parts": [
+       [
+        2020,
+        9,
+        5
+       ]
+      ],
+      "date-time": "2020-09-05T00:00:00Z",
+      "timestamp": 1599264000000
+     },
+     "content-version": "vor",
+     "delay-in-days": 0,
+     "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+   ],
+   "funder": [
+    {
+     "DOI": "10.13039/501100001659",
+     "name": "Deutsche Forschungsgemeinschaft",
+     "doi-asserted-by": "publisher",
+     "award": [
+      "SFB1066"
+     ],
+     "award-info": [
+      {
+       "award-number": [
+        "SFB1066"
+       ]
+      }
+     ],
+     "id": [
+      {
+       "id": "10.13039/501100001659",
+       "id-type": "DOI",
+       "asserted-by": "publisher"
+      }
+     ]
+    }
+   ],
+   "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+   },
+   "short-container-title": [
+    "Cells"
+   ],
+   "abstract": "<jats:p>Hybrid nanoparticles from lipidic and polymeric components were assembled to serve as vehicles for the transfection of messenger RNA (mRNA) using different portions of the cationic lipid DOTAP (1,2-Dioleoyl-3-trimethylammonium-propane) and the cationic biopolymer protamine as model systems. Two different sequential assembly approaches in comparison with a direct single-step protocol were applied, and molecular organization in correlation with biological activity of the resulting nanoparticle systems was investigated. Differences in the structure of the nanoparticles were revealed by thorough physicochemical characterization including small angle neutron scattering (SANS), small angle X-ray scattering (SAXS), and cryogenic transmission electron microscopy (cryo-TEM). All hybrid systems, combining lipid and polymer, displayed significantly increased transfection in comparison to lipid/mRNA and polymer/mRNA particles alone. For the hybrid nanoparticles, characteristic differences regarding the internal organization, release characteristics, and activity were determined depending on the assembly route. The systems with the highest transfection efficacy were characterized by a heterogenous internal organization, accompanied by facilitated release. Such a system could be best obtained by the single step protocol, starting with a lipid and polymer mixture for nanoparticle formation.</jats:p>",
+   "DOI": "10.3390/cells9092034",
+   "type": "journal-article",
+   "created": {
+    "date-parts": [
+     [
+      2020,
+      9,
+      6
+     ]
+    ],
+    "date-time": "2020-09-06T23:12:49Z",
+    "timestamp": 1599433969000
+   },
+   "page": "2034",
+   "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+   "source": "Crossref",
+   "is-referenced-by-count": 87,
+   "title": [
+    "Hybrid Biopolymer and Lipid Nanoparticles with Improved Transfection Efficacy for mRNA"
+   ],
+   "prefix": "10.3390",
+   "volume": "9",
+   "author": [
+    {
+     "ORCID": "https://orcid.org/0000-0001-9246-6673",
+     "authenticated-orcid": false,
+     "given": "Christian D.",
+     "family": "Siewert",
+     "sequence": "first",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-5517-5970",
+     "authenticated-orcid": false,
+     "given": "Heinrich",
+     "family": "Haas",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "BioNTech RNA Pharmaceuticals, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Vera",
+     "family": "Cornet",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Sara S.",
+     "family": "Nogueira",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "BioNTech RNA Pharmaceuticals, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Thomas",
+     "family": "Nawroth",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0003-0568-9540",
+     "authenticated-orcid": false,
+     "given": "Lukas",
+     "family": "Uebbing",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Antje",
+     "family": "Ziller",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Jozef",
+     "family": "Al-Gousous",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-6050-0176",
+     "authenticated-orcid": false,
+     "given": "Aurel",
+     "family": "Radulescu",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "J\u00fclich Centre for Neutron Science JCNS at Heinz Maier-Leibnitz Centrum MLZ, D-85748 Garching, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-0747-3965",
+     "authenticated-orcid": false,
+     "given": "Martin A.",
+     "family": "Schroer",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "European Molecular Biology Laboratory EMBL Hamburg Outstation c/o Deutsches Elektronen Synchrotron DESY, 22603 Hamburg, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Clement E.",
+     "family": "Blanchet",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "European Molecular Biology Laboratory EMBL Hamburg Outstation c/o Deutsches Elektronen Synchrotron DESY, 22603 Hamburg, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Dmitri I.",
+     "family": "Svergun",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "European Molecular Biology Laboratory EMBL Hamburg Outstation c/o Deutsches Elektronen Synchrotron DESY, 22603 Hamburg, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "ORCID": "https://orcid.org/0000-0002-3991-5721",
+     "authenticated-orcid": false,
+     "given": "Markus P.",
+     "family": "Radsak",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "IIIrd Dept. of Medicine, Johannes Gutenberg University Medical Center, Johannes Gutenberg University, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Ugur",
+     "family": "Sahin",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "BioNTech RNA Pharmaceuticals, D-55131 Mainz, Germany"
+      },
+      {
+       "name": "Exp. Oncology, IIIrd Dept. of Medicine, TRON, Johannes Gutenberg University Medical Center, Johannes Gutenberg University, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    },
+    {
+     "given": "Peter",
+     "family": "Langguth",
+     "sequence": "additional",
+     "affiliation": [
+      {
+       "name": "Department of Pharmaceutics and Biopharmaceutics, Johannes Gutenberg University Mainz, D-55131 Mainz, Germany"
+      }
+     ],
+     "role": [
+      {
+       "vocabulary": "crossref",
+       "role": "author"
+      }
+     ]
+    }
+   ],
+   "member": "1968",
+   "published-online": {
+    "date-parts": [
+     [
+      2020,
+      9,
+      5
+     ]
+    ]
+   },
+   "reference": [
+    {
+     "key": "ref_1",
+     "doi-asserted-by": "crossref",
+     "first-page": "692",
+     "DOI": "10.1038/nature14426",
+     "article-title": "Mutant MHC class II epitopes drive therapeutic immune responses to cancer",
+     "volume": "520",
+     "author": "Kreiter",
+     "year": "2015",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "ref_2",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Pascolo, S. (2008). Vaccination with messenger RNA (mRNA). Handb. Exp. Pharmacol., 221\u2013235.",
+     "DOI": "10.1007/978-3-540-72167-3_11"
+    },
+    {
+     "key": "ref_3",
+     "doi-asserted-by": "crossref",
+     "first-page": "222",
+     "DOI": "10.1038/nature23003",
+     "article-title": "Personalized vaccines for cancer immunotherapy",
+     "volume": "547",
+     "author": "Sahin",
+     "year": "2017",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "ref_4",
+     "doi-asserted-by": "crossref",
+     "first-page": "396",
+     "DOI": "10.1038/nature18300",
+     "article-title": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy",
+     "volume": "534",
+     "author": "Kranz",
+     "year": "2016",
+     "journal-title": "Nature"
+    },
+    {
+     "key": "ref_5",
+     "doi-asserted-by": "crossref",
+     "first-page": "55",
+     "DOI": "10.1007/978-1-62703-260-5_4",
+     "article-title": "Synthetic mRNAs with Superior Translation and Stability Properties",
+     "volume": "969",
+     "author": "Kowalska",
+     "year": "2013",
+     "journal-title": "Methods Mol. Biol."
+    },
+    {
+     "key": "ref_6",
+     "doi-asserted-by": "crossref",
+     "first-page": "238",
+     "DOI": "10.1016/j.jconrel.2010.10.020",
+     "article-title": "mRNA as gene therapeutic: How to control protein expression",
+     "volume": "150",
+     "author": "Tavernier",
+     "year": "2011",
+     "journal-title": "J. Control. Release"
+    },
+    {
+     "key": "ref_7",
+     "doi-asserted-by": "crossref",
+     "first-page": "7",
+     "DOI": "10.1016/j.jconrel.2013.11.006",
+     "article-title": "The development of an in vitro assay to screen lipid based nanoparticles for siRNA delivery",
+     "volume": "174",
+     "author": "Zhang",
+     "year": "2014",
+     "journal-title": "J. Control. Release"
+    },
+    {
+     "key": "ref_8",
+     "doi-asserted-by": "crossref",
+     "first-page": "227",
+     "DOI": "10.1016/j.jconrel.2015.12.032",
+     "article-title": "Materials for non-viral intracellular delivery of messenger RNA therapeutics",
+     "volume": "240",
+     "author": "Kauffman",
+     "year": "2016",
+     "journal-title": "J. Control. Release"
+    },
+    {
+     "key": "ref_9",
+     "doi-asserted-by": "crossref",
+     "first-page": "133",
+     "DOI": "10.1038/gt.2017.5",
+     "article-title": "Nanotechnologies in delivery of mRNA therapeutics using nonviral vector-based delivery systems",
+     "volume": "24",
+     "author": "Guan",
+     "year": "2017",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_10",
+     "doi-asserted-by": "crossref",
+     "first-page": "221",
+     "DOI": "10.1586/14760584.2015.986104",
+     "article-title": "Lipid-based mRNA vaccine delivery systems",
+     "volume": "14",
+     "author": "Midoux",
+     "year": "2014",
+     "journal-title": "Expert Rev. Vaccines"
+    },
+    {
+     "key": "ref_11",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1038/s41467-018-03705-y",
+     "article-title": "Progress and challenges towards targeted delivery of cancer therapeutics",
+     "volume": "9",
+     "author": "Rosenblum",
+     "year": "2018",
+     "journal-title": "Nat. Commun."
+    },
+    {
+     "key": "ref_12",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Hart, S.L. (2017). Prospects for RNA delivery with nanotechnologies. Gene Ther., 24.",
+     "DOI": "10.1038/gt.2017.15"
+    },
+    {
+     "key": "ref_13",
+     "doi-asserted-by": "crossref",
+     "first-page": "319",
+     "DOI": "10.4155/tde-2016-0006",
+     "article-title": "mRNA vaccine delivery using lipid nanoparticles",
+     "volume": "7",
+     "author": "Reichmuth",
+     "year": "2016",
+     "journal-title": "Ther. Deliv."
+    },
+    {
+     "key": "ref_14",
+     "doi-asserted-by": "crossref",
+     "first-page": "6077",
+     "DOI": "10.1073/pnas.86.16.6077",
+     "article-title": "Cationic liposome-mediated RNA transfection",
+     "volume": "86",
+     "author": "Malone",
+     "year": "1989",
+     "journal-title": "Proc. Natl. Acad. Sci. USA"
+    },
+    {
+     "key": "ref_15",
+     "doi-asserted-by": "crossref",
+     "first-page": "2723",
+     "DOI": "10.2217/nnm-2016-0275",
+     "article-title": "Translating nanoparticulate-personalized cancer vaccines into clinical applications: Case study with RNA-lipoplexes for the treatment of melanoma",
+     "volume": "11",
+     "author": "Grabbe",
+     "year": "2016",
+     "journal-title": "Nanomedicine"
+    },
+    {
+     "key": "ref_16",
+     "doi-asserted-by": "crossref",
+     "first-page": "1084",
+     "DOI": "10.1038/s41565-019-0591-y",
+     "article-title": "The Onpattro story and the clinical translation of nanomedicines containing nucleic acid-based drugs",
+     "volume": "14",
+     "author": "Akinc",
+     "year": "2019",
+     "journal-title": "Nat. Nanotechnol."
+    },
+    {
+     "key": "ref_17",
+     "doi-asserted-by": "crossref",
+     "first-page": "1937",
+     "DOI": "10.2147/IJN.S198353",
+     "article-title": "Lipid-polymer hybrid nanoparticles as a nextgeneration drug delivery platform: State of the art, emerging technologies, and perspectives",
+     "volume": "14",
+     "author": "Mukherjee",
+     "year": "2019",
+     "journal-title": "Int. J. Nanomed."
+    },
+    {
+     "key": "ref_18",
+     "doi-asserted-by": "crossref",
+     "first-page": "474",
+     "DOI": "10.1016/j.nano.2012.11.010",
+     "article-title": "Core-shell-type lipid-polymer hybrid nanoparticles as a drug delivery platform",
+     "volume": "9",
+     "author": "Mandal",
+     "year": "2013",
+     "journal-title": "Nanomed. Nanotechnol. Biol. Med."
+    },
+    {
+     "key": "ref_19",
+     "doi-asserted-by": "crossref",
+     "first-page": "1519",
+     "DOI": "10.1039/C5BM00198F",
+     "article-title": "Biomaterials for mRNA delivery",
+     "volume": "3",
+     "author": "Islam",
+     "year": "2015",
+     "journal-title": "Biomater. Sci."
+    },
+    {
+     "key": "ref_20",
+     "doi-asserted-by": "crossref",
+     "first-page": "427",
+     "DOI": "10.1016/j.ejpb.2013.07.002",
+     "article-title": "Lipid-polymer hybrid nanoparticles as a new generation therapeutic delivery platform: A review",
+     "volume": "85",
+     "author": "Hadinoto",
+     "year": "2013",
+     "journal-title": "Eur. J. Pharm. Biopharm."
+    },
+    {
+     "key": "ref_21",
+     "doi-asserted-by": "crossref",
+     "first-page": "130",
+     "DOI": "10.1016/j.mimet.2019.03.017",
+     "article-title": "Lipid-polymer hybrid nanoparticles: Synthesis strategies and biomedical applications",
+     "volume": "160",
+     "author": "Dave",
+     "year": "2019",
+     "journal-title": "J. Microbiol. Methods"
+    },
+    {
+     "key": "ref_22",
+     "doi-asserted-by": "crossref",
+     "first-page": "1",
+     "DOI": "10.1002/1521-4141(200001)30:1<1::AID-IMMU1>3.0.CO;2-#",
+     "article-title": "In vivo application of RNA leads to induction of specific cytotoxic T lymphocytes and antibodies",
+     "volume": "30",
+     "author": "Hoerr",
+     "year": "2000",
+     "journal-title": "Eur. J. Immunol."
+    },
+    {
+     "key": "ref_23",
+     "doi-asserted-by": "crossref",
+     "first-page": "1557",
+     "DOI": "10.1002/eji.200425656",
+     "article-title": "Toll-like receptor-dependent activation of several human blood cell types by protamine-condensed mRNA",
+     "volume": "35",
+     "author": "Scheel",
+     "year": "2005",
+     "journal-title": "Eur. J. Immunol."
+    },
+    {
+     "key": "ref_24",
+     "doi-asserted-by": "crossref",
+     "first-page": "111",
+     "DOI": "10.1248/bpb.35.111",
+     "article-title": "mRNA Delivery through Fibronectin Associated Liposome-Apatite.pdf",
+     "volume": "35",
+     "author": "Zohra",
+     "year": "2012",
+     "journal-title": "Biol. Pharm. Bull."
+    },
+    {
+     "key": "ref_25",
+     "first-page": "6712",
+     "article-title": "Systemic gene therapy in human xenograft tumor models by liposomal delivery of the E1A gene",
+     "volume": "62",
+     "author": "Ueno",
+     "year": "2002",
+     "journal-title": "Cancer Res."
+    },
+    {
+     "key": "ref_26",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Aied, A., Greiser, U., Pandit, A., and Wang, W. (2013). Polymer gene delivery: Overcoming the obstacles. Drug Discov. Today, 18.",
+     "DOI": "10.1016/j.drudis.2013.06.014"
+    },
+    {
+     "key": "ref_27",
+     "doi-asserted-by": "crossref",
+     "first-page": "358",
+     "DOI": "10.1038/mt.2012.250",
+     "article-title": "Systemic Delivery of Modified mRNA Encoding Herpes Simplex Virus 1 Thymidine Kinase for Targeted Cancer Gene Therapy",
+     "volume": "21",
+     "author": "Wang",
+     "year": "2013",
+     "journal-title": "Mol. Ther."
+    },
+    {
+     "key": "ref_28",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Nchinda, G., Uberla, K., and Zschornig, O. (2002). Characterization of cationic lipid DNA transfection complexes differing in susceptability to serum inhibition. BMC Biotechnol., 2.",
+     "DOI": "10.1186/1472-6750-2-12"
+    },
+    {
+     "key": "ref_29",
+     "doi-asserted-by": "crossref",
+     "first-page": "5",
+     "DOI": "10.1038/sj.gt.3301840",
+     "article-title": "Increased receptor-mediated gene delivery to the liver by protamine-enhanced-asialofetuin-lipoplexes",
+     "volume": "10",
+     "author": "Arangoa",
+     "year": "2003",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_30",
+     "doi-asserted-by": "crossref",
+     "first-page": "930",
+     "DOI": "10.1038/sj.gt.3300683",
+     "article-title": "Characterization of cationic lipid-protamine-DNA (LPD) complexes for intravenous gene delivery",
+     "volume": "5",
+     "author": "Li",
+     "year": "1998",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_31",
+     "doi-asserted-by": "crossref",
+     "first-page": "891",
+     "DOI": "10.1038/sj.gt.3300482",
+     "article-title": "In vivo gene transfer via intravenous administration of cationic lipid\u2013protamine\u2013DNA (LPD) complexes",
+     "volume": "4",
+     "author": "Li",
+     "year": "1997",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_32",
+     "doi-asserted-by": "crossref",
+     "first-page": "961",
+     "DOI": "10.1038/sj.gt.3300484",
+     "article-title": "Protamine sulfate enhances lipid-mediated gene transfer",
+     "volume": "4",
+     "author": "Sorgi",
+     "year": "1997",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_33",
+     "doi-asserted-by": "crossref",
+     "first-page": "4654",
+     "DOI": "10.1021/mp400470p",
+     "article-title": "Mechanistic understanding of gene delivery mediated by highly efficient multicomponent envelope-type nanoparticle systems",
+     "volume": "10",
+     "author": "Pozzi",
+     "year": "2013",
+     "journal-title": "Mol. Pharm."
+    },
+    {
+     "key": "ref_34",
+     "doi-asserted-by": "crossref",
+     "first-page": "120",
+     "DOI": "10.1016/j.ijpharm.2011.02.001",
+     "article-title": "Cryogenic transmission electron microscopy (cryo-TEM) for studying the morphology of colloidal drug delivery systems",
+     "volume": "417",
+     "author": "Kuntsche",
+     "year": "2011",
+     "journal-title": "Int. J. Pharm."
+    },
+    {
+     "key": "ref_35",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Ashkar, R., Bilheux, H.Z., Bordallo, H., Briber, R., Callaway, D.J.E., Cheng, X., Chu, X.-Q., Curtis, J.E., Dadmun, M., and Fenimore, P. (2018). Neutron scattering in the biological sciences: Progress and prospects. Acta Cryst., 1129\u20131168.",
+     "DOI": "10.1107/S2059798318017503"
+    },
+    {
+     "key": "ref_36",
+     "doi-asserted-by": "crossref",
+     "first-page": "460",
+     "DOI": "10.1016/j.chemphyslip.2010.03.010",
+     "article-title": "Applications of neutron and X-ray scattering to the study of biologically relevant model membranes",
+     "volume": "163",
+     "author": "Pabst",
+     "year": "2010",
+     "journal-title": "Chem. Phys. Lipids"
+    },
+    {
+     "key": "ref_37",
+     "doi-asserted-by": "crossref",
+     "first-page": "3700",
+     "DOI": "10.1016/j.bbagen.2016.04.022",
+     "article-title": "Structural characterization in mixed lipid membrane systems by neutron and X-ray scattering",
+     "volume": "1861",
+     "author": "Kiselev",
+     "year": "2017",
+     "journal-title": "Biochim. Biophys. Acta Gen. Subj."
+    },
+    {
+     "key": "ref_38",
+     "doi-asserted-by": "crossref",
+     "first-page": "5660",
+     "DOI": "10.1016/j.biomaterials.2010.03.059",
+     "article-title": "Effects of the nanostructure of dendrimer/DNA complexes on their endocytosis and gene expression",
+     "volume": "31",
+     "author": "Peng",
+     "year": "2010",
+     "journal-title": "Biomaterials"
+    },
+    {
+     "key": "ref_39",
+     "doi-asserted-by": "crossref",
+     "first-page": "86",
+     "DOI": "10.1016/j.biomaterials.2015.11.032",
+     "article-title": "Structure-property relationship for in vitro siRNA delivery performance of cationic 2-hydroxypropyl-\u03b2-cyclodextrin: PEG-PPG-PEG polyrotaxane vectors",
+     "volume": "84",
+     "author": "Badwaik",
+     "year": "2016",
+     "journal-title": "Biomaterials"
+    },
+    {
+     "key": "ref_40",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Siewert, C., Haas, H., Nawroth, T., Ziller, A., Nogueira, S.S., Schroer, M.A., Blanchet, C.E., Svergun, D.I., Radulescu, A., and Bates, F. (2018). Investigation of charge ratio variation in mRNA \u2013 DEAE-dextran polyplex delivery systems. Biomaterials, 1\u20139.",
+     "DOI": "10.1016/j.biomaterials.2018.10.020"
+    },
+    {
+     "key": "ref_41",
+     "doi-asserted-by": "crossref",
+     "first-page": "2609",
+     "DOI": "10.1039/C6SM02835G",
+     "article-title": "Properties of polyplexes formed through interaction between hydrophobically-modified poly(ethylene imine)s and calf thymus DNA in aqueous solution",
+     "volume": "13",
+     "author": "Bellettini",
+     "year": "2017",
+     "journal-title": "Soft Matter"
+    },
+    {
+     "key": "ref_42",
+     "doi-asserted-by": "crossref",
+     "first-page": "642",
+     "DOI": "10.1021/acs.molpharmaceut.7b01022",
+     "article-title": "Incorporation of mRNA in lamellar lipid matrices for parenteral administration",
+     "volume": "15",
+     "author": "Ziller",
+     "year": "2018",
+     "journal-title": "Mol. Pharm."
+    },
+    {
+     "key": "ref_43",
+     "doi-asserted-by": "crossref",
+     "first-page": "12119",
+     "DOI": "10.1021/la101448m",
+     "article-title": "DNA Lipoplexes: Formation of the Inverse Hexagonal Phase Observed by Coarse-Grained Molecular Dynamics Simulation",
+     "volume": "26",
+     "author": "Corsi",
+     "year": "2010",
+     "journal-title": "Langmuir"
+    },
+    {
+     "key": "ref_44",
+     "doi-asserted-by": "crossref",
+     "first-page": "609",
+     "DOI": "10.1529/biophysj.103.033480",
+     "article-title": "Nanostructure of cationic lipid-oligonucleotide complexes",
+     "volume": "87",
+     "author": "Weisman",
+     "year": "2004",
+     "journal-title": "Biophys. J."
+    },
+    {
+     "key": "ref_45",
+     "doi-asserted-by": "crossref",
+     "first-page": "810",
+     "DOI": "10.1126/science.275.5301.810",
+     "article-title": "Structure of DNA-cationic liposome complexes: DNA intercalation in multilamellar membranes in distinct interhelical packing regimes",
+     "volume": "275",
+     "author": "Koltover",
+     "year": "1997",
+     "journal-title": "Science"
+    },
+    {
+     "key": "ref_46",
+     "doi-asserted-by": "crossref",
+     "first-page": "78",
+     "DOI": "10.1126/science.281.5373.78",
+     "article-title": "An inverted hexagonal phase of cationic liposome-DNA complexes related to DNA release and delivery",
+     "volume": "281",
+     "author": "Koltover",
+     "year": "1998",
+     "journal-title": "Science"
+    },
+    {
+     "key": "ref_47",
+     "doi-asserted-by": "crossref",
+     "first-page": "255",
+     "DOI": "10.1016/0022-2836(75)90131-X",
+     "article-title": "Comparison of neutron and X-ray scattering of dilute myoglobin solutions",
+     "volume": "93",
+     "author": "Ibel",
+     "year": "1975",
+     "journal-title": "J. Mol. Biol."
+    },
+    {
+     "key": "ref_48",
+     "doi-asserted-by": "crossref",
+     "first-page": "457",
+     "DOI": "10.1021/bm501519u",
+     "article-title": "Small angle neutron scattering studies on the internal structure of poly(lactide-co-glycolide)-block-poly(ethylene glycol) nanoparticles as drug delivery vehicles",
+     "volume": "16",
+     "author": "Yang",
+     "year": "2014",
+     "journal-title": "Biomacromolecules"
+    },
+    {
+     "key": "ref_49",
+     "doi-asserted-by": "crossref",
+     "first-page": "051903",
+     "DOI": "10.1103/PhysRevE.69.051903",
+     "article-title": "Models to analyze small-angle neutron scattering from unilamellar lipid vesicles",
+     "volume": "69",
+     "author": "Nagle",
+     "year": "2004",
+     "journal-title": "Phys. Rev. E"
+    },
+    {
+     "key": "ref_50",
+     "doi-asserted-by": "crossref",
+     "first-page": "181",
+     "DOI": "10.1107/S0108767307046569",
+     "article-title": "Small-angle scattering and its interplay with crystallography, contrast variation in SAXS and SANS",
+     "volume": "64",
+     "author": "Stuhrmann",
+     "year": "2008",
+     "journal-title": "Acta Crystallogr. Sect. A Found. Crystallogr."
+    },
+    {
+     "key": "ref_51",
+     "doi-asserted-by": "crossref",
+     "first-page": "191",
+     "DOI": "10.1107/S0021889881009102",
+     "article-title": "Small-angle neutron scattering of aqueous dispersions of lipids and lipid mixtures. A contrast variation study",
+     "volume": "14",
+     "author": "Knoll",
+     "year": "1981",
+     "journal-title": "J. Appl. Crystallogr."
+    },
+    {
+     "key": "ref_52",
+     "doi-asserted-by": "crossref",
+     "unstructured": "Qian, S., Dean, R., Urban, V.S., and Chaudhuri, B.N. (2013). The internal organization of mycobacterial partition assembly: Does the DNA wrap a protein core?. PLoS ONE, 8.",
+     "DOI": "10.1371/annotation/3e3f4f53-4492-4c6e-8426-364bd585b9b8"
+    },
+    {
+     "key": "ref_53",
+     "doi-asserted-by": "crossref",
+     "first-page": "961",
+     "DOI": "10.1038/gt.2010.52",
+     "article-title": "Phosphorothioate cap analogs increase stability and translational efficiency of RNA vaccines in immature dendritic cells and induce superior immune responses in vivo",
+     "volume": "17",
+     "author": "Kuhn",
+     "year": "2010",
+     "journal-title": "Gene Ther."
+    },
+    {
+     "key": "ref_54",
+     "doi-asserted-by": "crossref",
+     "first-page": "4268",
+     "DOI": "10.1021/bi00231a024",
+     "article-title": "Electrophoretic and hydrodynamic properties of duplex ribonucleic acid molecules transcribed in vitro: Evidence that A-tracts do not generate curvature in RNA",
+     "volume": "30",
+     "author": "Gast",
+     "year": "1991",
+     "journal-title": "Biochemistry"
+    },
+    {
+     "key": "ref_55",
+     "doi-asserted-by": "crossref",
+     "first-page": "012026",
+     "DOI": "10.1088/1742-6596/351/1/012026",
+     "article-title": "KWS-2, the high intensity/wide Q-range small-angle neutron diffractometer for soft-matter and biology at FRM II",
+     "volume": "351",
+     "author": "Radulescu",
+     "year": "2012",
+     "journal-title": "J. Phys. Conf. Ser."
+    },
+    {
+     "key": "ref_56",
+     "doi-asserted-by": "crossref",
+     "first-page": "37",
+     "DOI": "10.1146/annurev-physchem-040412-110132",
+     "article-title": "Small-angle X-Ray scattering on biological macromolecules and nanocomposites in solution",
+     "volume": "64",
+     "author": "Blanchet",
+     "year": "2013",
+     "journal-title": "Annu. Rev. Phys. Chem."
+    },
+    {
+     "key": "ref_57",
+     "doi-asserted-by": "crossref",
+     "first-page": "911",
+     "DOI": "10.1088/0034-4885/39/10/001",
+     "article-title": "The study of biological structures by neutron scattering from solution",
+     "volume": "39",
+     "author": "Jacrot",
+     "year": "1976",
+     "journal-title": "Rep. Prog. Phys."
+    },
+    {
+     "key": "ref_58",
+     "doi-asserted-by": "crossref",
+     "first-page": "191",
+     "DOI": "10.1017/S0033583507004635",
+     "article-title": "X-ray solution scattering (SAXS) combined with crystallography and computation: Defining accurate macromolecular structures, conformations and assemblies in solution",
+     "volume": "40",
+     "author": "Putnam",
+     "year": "2007",
+     "journal-title": "Q. Rev. Biophys."
+    },
+    {
+     "key": "ref_59",
+     "doi-asserted-by": "crossref",
+     "first-page": "1106",
+     "DOI": "10.1002/recl.19490681203",
+     "article-title": "R\u00f6ntgenuntersuchung gel\u00f6ster Fadenmolek\u00fcle",
+     "volume": "68",
+     "author": "Kratky",
+     "year": "1949",
+     "journal-title": "Recl. Des. Trav. Chim. Des. Pays-Bas."
+    },
+    {
+     "key": "ref_60",
+     "doi-asserted-by": "crossref",
+     "first-page": "83",
+     "DOI": "10.1007/BF01512792",
+     "article-title": "X-ray small angle scattering of close packed colloidal systems",
+     "volume": "124",
+     "author": "Porod",
+     "year": "1951",
+     "journal-title": "Kolloid Zeitschrift."
+    },
+    {
+     "key": "ref_61",
+     "doi-asserted-by": "crossref",
+     "first-page": "716",
+     "DOI": "10.1107/S0021889810015773",
+     "article-title": "A new Guinier\u2013Porod model",
+     "volume": "43",
+     "author": "Hammouda",
+     "year": "2010",
+     "journal-title": "J. Appl. Crystallogr."
+    },
+    {
+     "key": "ref_62",
+     "doi-asserted-by": "crossref",
+     "first-page": "26",
+     "DOI": "10.1080/10448639208218770",
+     "article-title": "Neutron News Neutron scattering lengths and cross sections",
+     "volume": "3",
+     "author": "Sears",
+     "year": "1992",
+     "journal-title": "Neutron News."
+    },
+    {
+     "key": "ref_63",
+     "doi-asserted-by": "crossref",
+     "first-page": "431",
+     "DOI": "10.1107/S160057671500254X",
+     "article-title": "Versatile sample environments and automation for biological solution X-ray scattering experiments at the P12 beamline (PETRA III, DESY)",
+     "volume": "48",
+     "author": "Blanchet",
+     "year": "2015",
+     "journal-title": "J. Appl. Crystallogr."
+    },
+    {
+     "key": "ref_64",
+     "doi-asserted-by": "crossref",
+     "first-page": "52",
+     "DOI": "10.1016/j.nima.2012.06.008",
+     "article-title": "Automated acquisition and analysis of small angle X-ray scattering data",
+     "volume": "689",
+     "author": "Franke",
+     "year": "2012",
+     "journal-title": "Nucl. Instruments Methods Phys. Res. Sect. A Accel. Spectrometers Detect. Assoc. Equip."
+    },
+    {
+     "key": "ref_65",
+     "doi-asserted-by": "crossref",
+     "first-page": "1277",
+     "DOI": "10.1107/S0021889803012779",
+     "article-title": "PRIMUS: A Windows PC-based system for small-angle scattering data analysis",
+     "volume": "36",
+     "author": "Konarev",
+     "year": "2003",
+     "journal-title": "J. Appl. Crystallogr."
+    },
+    {
+     "key": "ref_66",
+     "doi-asserted-by": "crossref",
+     "first-page": "3909",
+     "DOI": "10.1021/acs.molpharmaceut.8b00370",
+     "article-title": "Monitoring translation activity of mRNA-loaded nanoparticles in mice",
+     "volume": "15",
+     "author": "Rosigkeit",
+     "year": "2018",
+     "journal-title": "Mol. Pharm."
+    },
+    {
+     "key": "ref_67",
+     "doi-asserted-by": "crossref",
+     "first-page": "189",
+     "DOI": "10.1016/B978-0-12-801122-5.00009-X",
+     "article-title": "Experimental approaches for measuring pKa\u2019s in RNA and DNA",
+     "volume": "549",
+     "author": "Thaplyal",
+     "year": "2014",
+     "journal-title": "Methods Enzymol."
+    },
+    {
+     "key": "ref_68",
+     "doi-asserted-by": "crossref",
+     "first-page": "1725",
+     "DOI": "10.1021/mp300561y",
+     "article-title": "Design of hybrid lipid/retroviral-like particle gene delivery vectors",
+     "volume": "10",
+     "author": "Keswani",
+     "year": "2013",
+     "journal-title": "Mol. Pharm."
+    },
+    {
+     "key": "ref_69",
+     "doi-asserted-by": "crossref",
+     "first-page": "4006",
+     "DOI": "10.1016/j.biomaterials.2009.02.050",
+     "article-title": "High performance mRNA transfection through carbonate apatite-cationic liposome conjugates",
+     "volume": "30",
+     "author": "Zohra",
+     "year": "2009",
+     "journal-title": "Biomaterials"
+    }
+   ],
+   "container-title": [
+    "Cells"
+   ],
+   "original-title": [],
+   "language": "en",
+   "link": [
+    {
+     "URL": "https://www.mdpi.com/2073-4409/9/9/2034/pdf",
+     "content-type": "unspecified",
+     "content-version": "vor",
+     "intended-application": "similarity-checking"
+    }
+   ],
+   "deposited": {
+    "date-parts": [
+     [
+      2025,
+      10,
+      11
+     ]
+    ],
+    "date-time": "2025-10-11T10:07:06Z",
+    "timestamp": 1760177226000
+   },
+   "score": 1,
+   "resource": {
+    "primary": {
+     "URL": "https://www.mdpi.com/2073-4409/9/9/2034"
+    }
+   },
+   "subtitle": [],
+   "short-title": [],
+   "issued": {
+    "date-parts": [
+     [
+      2020,
+      9,
+      5
+     ]
+    ]
+   },
+   "references-count": 69,
+   "journal-issue": {
+    "issue": "9",
+    "published-online": {
+     "date-parts": [
+      [
+       2020,
+       9
+      ]
+     ]
+    }
+   },
+   "alternative-id": [
+    "cells9092034"
+   ],
+   "URL": "https://doi.org/10.3390/cells9092034",
+   "relation": {},
+   "ISSN": [
+    "2073-4409"
+   ],
+   "issn-type": [
+    {
+     "value": "2073-4409",
+     "type": "electronic"
+    }
+   ],
+   "subject": [],
+   "published": {
+    "date-parts": [
+     [
+      2020,
+      9,
+      5
+     ]
+    ]
+   }
+  },
+  "resolves": true
  }
 }

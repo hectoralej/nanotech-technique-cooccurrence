@@ -1,0 +1,35 @@
+{
+ "batch": "RB06",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB06.json",
+ "articles": [
+  {
+   "pmcid": "PMC9823929",
+   "title": "Advances in the Mechanistic Understanding of Iron Oxide Nanoparticles' Radiosensitizing Properties.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "carboxylated IONPs",
+       "value": 21.0
+      },
+      {
+       "sample": "PEG5000-IONPs",
+       "value": 28.0
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The measurements of the size distribution and the ζ-potential of the nanoparticles suspended in aqueous media were performed by photon correlation spectroscopy (PCS) with a Zetasizer nano zs (Malvern Instruments, Malver, UK) using a He–Ne laser (633 nm). The ζ-potential was determined directly in a solution containing NaCl (0.01 mM)."
+      },
+      {
+       "where": "results",
+       "text": "While no difference in the core size was noticed by TEM (Figure 1C), PCS indicated a slight increase in the mean hydrodynamic size from 21 for carboxylated IONPs to 28 nm for PEGylated ones (Figure 1E). The evolution of the zeta potential value at pH 7 from −37 mV to −4 mV after PEG treatment, confirmed the surface modification."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 **Para ti y para tu Codex.** Este archivo se entiende solo. Lee todo antes de empezar.
 
 ## El proyecto en cinco líneas
-Estamos armando una base de datos abierta que empareja micrografías (TEM, SEM, cryo) con la formulación y las mediciones de tamaño (DLS) y potencial zeta de la misma muestra, para nanoportadores (liposomas, LNP, SLN/NLC, PLN, poliméricas e inorgánicas). Los datos salen de artículos de acceso abierto, con citas textuales verificadas. Hoy hay **85 artículos**; **66 tienen licencia CC BY** (verde). Todo es provisional hasta que personas lo verifiquen, y esa es tu parte.
+Estamos armando una base de datos abierta que empareja micrografías (TEM, SEM, cryo) con la formulación y las mediciones de tamaño (DLS) y potencial zeta de la misma muestra, para nanoportadores (liposomas, LNP, SLN/NLC, PLN, poliméricas e inorgánicas). Los datos salen de artículos de acceso abierto, con citas textuales verificadas. Hoy hay **87 artículos**; **68 tienen licencia CC BY** (verde). Todo es provisional hasta que personas lo verifiquen, y esa es tu parte.
 
 **Plazo duro del hackatón: domingo 25 de octubre, 5:45 pm (hora de Costa Rica).** Los datos se congelan el **22 de octubre**; por eso tu tarea 1 es la urgente.
 
@@ -11,14 +11,14 @@ Estamos armando una base de datos abierta que empareja micrografías (TEM, SEM, 
 Repositorio (privado, puedes leerlo): https://github.com/hectoralej/nanotech-technique-cooccurrence
 
 Los archivos que usarás están en la carpeta `curation/`:
-- `verificacion_repositorio_verde.csv`: tu tarea 1 (66 artículos).
+- `verificacion_repositorio_verde.csv`: tu tarea 1 (68 artículos).
 - `verificacion_humana_80.csv` y `GUIA_REVISION.md`: tu tarea 2.
 - `articles_curated.csv` y `measurements.csv`: los datos completos, solo para consultar.
 
 No tienes acceso de escritura a GitHub, y no hace falta. **Cómo entregar:** guarda tu archivo completado con tu nombre (por ejemplo `verificacion_repositorio_verde_carlos.csv`) y envíaselo a Héctor por el chat del equipo. Él o Bryan lo suben al repositorio.
 
 ## Tarea 1 (urgente, para el 22 de octubre): verificar el repositorio verde
-**Archivo:** `curation/verificacion_repositorio_verde.csv`. Una fila por artículo (66). Cada fila trae el enlace al artículo y lo que el modelo extrajo de **una** muestra: tamaño, zeta, medio y variante de micrografía, con la figura o tabla donde buscarlo.
+**Archivo:** `curation/verificacion_repositorio_verde.csv`. Una fila por artículo (68). Cada fila trae el enlace al artículo y lo que el modelo extrajo de **una** muestra: tamaño, zeta, medio y variante de micrografía, con la figura o tabla donde buscarlo.
 
 Por cada fila:
 1. Abre el enlace de `doi_link` (es `https://doi.org/...`). Si falla, copia el DOI en el navegador.

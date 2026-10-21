@@ -1,0 +1,292 @@
+{
+ "batch": "RB01",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB01.json",
+ "articles": [
+  {
+   "pmcid": "PMC10615991",
+   "title": "Recombinant protein embedded liposome on gold nanoparticle based on LSPR method to detect Corona virus.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "bare liposome",
+       "value": 102.0
+      },
+      {
+       "sample": "R/Li",
+       "value": 106.0
+      },
+      {
+       "sample": "Au@Li",
+       "value": 103.0
+      },
+      {
+       "sample": "Au@R/Li",
+       "value": 109.0
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "D DLS size distribution depending on sonication time and the extrusion of AuNPs, Au@Li and Au@R/Li. E Surface zeta potentials of AuNPs, Au@Li and Au@R/Li in PBS."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC10962080",
+   "title": "Synergistic dual cell therapy for atherosclerosis regression: ROS-responsive Bio-liposomes co-loaded with Geniposide and",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "TK-MLP@(GP + EM) NPs",
+       "value": 184.6
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "Additionally, the average diameter of TK-MLP@(GP + EM) NPs, as measured by DLS, was approximately 184.6 nm (Fig. 1H), with a zeta potential of -46.93 mV (Fig. 1I). The cumulative drug release rates of GP and EM from TK-MLP@(GP + EM) NPs in PBS over 72 h were found to be 44.4% and 31.4%, respectively."
+      },
+      {
+       "where": "figure",
+       "text": "(H&I) Particle size and zeta potential of TK-MLP@(GP + EM) NPs analyzed by DLS. (J&K) Release profile investigation of GP and EM in PBS and H2O2."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "TK-MLP@(GP + EM) NPs",
+       "value": -46.93
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "Additionally, the average diameter of TK-MLP@(GP + EM) NPs, as measured by DLS, was approximately 184.6 nm (Fig. 1H), with a zeta potential of -46.93 mV (Fig. 1I). The cumulative drug release rates of GP and EM from TK-MLP@(GP + EM) NPs in PBS over 72 h were found to be 44.4% and 31.4%, respectively."
+      },
+      {
+       "where": "figure",
+       "text": "(H&I) Particle size and zeta potential of TK-MLP@(GP + EM) NPs analyzed by DLS. (J&K) Release profile investigation of GP and EM in PBS and H2O2."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11376094",
+   "title": "Synthesis and bioactivity of a novel surfactin-based lipopeptide for mRNA delivery.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "OleSurf LNP",
+       "value": 84.91
+      },
+      {
+       "sample": "MC3 LNP",
+       "value": 71.61
+      },
+      {
+       "sample": "LP2000",
+       "value": 227.12
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "other",
+       "text": "Over the past 25 years, studies have extensively explored the capacity of numerous cationic lipids to bind mRNA and facilitate its delivery in both cells (in vitro) and in animal models (in vivo).12 Initial attempts to use conventional liposomes were hindered by the limited binding between mRNA and neutral or negatively charged liposomes.13 However, subsequent investigations revealed that the utilization of cationic "
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "OleSurf LNP",
+       "value": 1.3
+      },
+      {
+       "sample": "MC3 LNP",
+       "value": 5.14
+      },
+      {
+       "sample": "LP2000",
+       "value": -2.05
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "other",
+       "text": "Over the past 25 years, studies have extensively explored the capacity of numerous cationic lipids to bind mRNA and facilitate its delivery in both cells (in vitro) and in animal models (in vivo).12 Initial attempts to use conventional liposomes were hindered by the limited binding between mRNA and neutral or negatively charged liposomes.13 However, subsequent investigations revealed that the utilization of cationic "
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11377347",
+   "title": "Design and evaluation of magnetic-targeted bilosomal gel for rheumatoid arthritis: flurbiprofen delivery using superpara",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "optimized FBP-loaded bilosomes",
+       "value": 35.9
+      },
+      {
+       "sample": "FSB (FBP/SPION-loaded bilosomes)",
+       "value": 36.24
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "A Zetasizer, equipped with a helium–neon laser (Mastersizer 3,000, Malvern Instrument Ltd., Worcestershire, United Kingdom), was utilized for these measurements. Prior to each assessment, the bilosomal dispersions were appropriately diluted with deionized water to ensure that the light scattering amplitude remained within the sensitivity range of the instrument."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11397862",
+   "title": "Optimization of Polylactide-Co-Glycolide-Rifampicin Nanoparticle Synthesis, In Vitro Study of Mucoadhesion and Drug Rele",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "PLGA-RIF NPs (optimized, CCD)",
+       "value": -26.0
+      },
+      {
+       "sample": "NP1",
+       "value": -30.9
+      },
+      {
+       "sample": "NP2",
+       "value": -13.1
+      },
+      {
+       "sample": "NP3",
+       "value": -28.2
+      },
+      {
+       "sample": "NP4",
+       "value": -20.1
+      },
+      {
+       "sample": "NP5",
+       "value": -22.8
+      }
+     ],
+     "n_rows": 12,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Nanoparticle diameter and polydispersity index (PDI) were measured using a Dynamic Light Scattering by Zetasizer Nano S90 device manufactured by Malvern Instruments Ltd., Malvern, UK. For this purpose, 5–8 drops of nanoparticle suspension were redispersed in 1.5–2 mL of distilled water."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11434648",
+   "title": "Adipose-Derived Stem-Cell-Membrane-Coated PLGA-PEI Nanoparticles Promote Wound Healing via Efficient Delivery of miR-21.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "mNVs",
+       "value": 167.5
+      },
+      {
+       "sample": "m/miR-NC",
+       "value": 172.4
+      },
+      {
+       "sample": "m/NP/miR-NC",
+       "value": 198.4
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "(A) Surface morphology of mNVs, m/miR-NC, and m/NP/miR-NC detected by TEM, where magnification of the image in the red dashed box is shown on the right, the red dashed lines in Magnified represent the bilayer structure of the cell membrane, scale bar (black) = 200 nm, and scale bar (red) = 40 nm; (B) Coomassie Brilliant Blue staining expression profile of cell membrane proteins in cell lysate, mNVs, m/miR-NC, and m/N"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11707725",
+   "title": "Synthesis and Characterization of Thallium-Texaphyrin Nanoparticles and Their Assessment as Potential Delivery Systems f",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "Tl-nanotexaphyrins (natTl)",
+       "value": -1.5
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Characterization ofnatTl-nanotexaphyrins: To determine the hydrodynamic diameter, polydispersity index (PDI), and surface charge of the nanoparticles, Tl-nanotexaphyrins were characterized using a Malvern Zetasizer Nano-ZS 90 device. The Tl-nanotexaphyrin suspension was diluted 10 times with PBS for the size measurements, whereas no dilutions were made for the zeta potential measurements."
+      },
+      {
+       "where": "methods",
+       "text": "The Tl-nanotexaphyrin suspension was diluted 10 times with PBS for the size measurements, whereas no dilutions were made for the zeta potential measurements."
+      },
+      {
+       "where": "results",
+       "text": "The measured zeta potential was slightly negative: −1.5 ± 0.4 mV (n = 3). Stability assessments of Tl-nanotexaphyrins in PBS over 72 h and across a temperature range of 4–37 °C indicated consistent size and dispersity (Table 1)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11841042",
+   "title": "Apolipoprotein Fusion Enables Spontaneous Functionalization of mRNA Lipid Nanoparticles with Antibody for Targeted Cance",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Con LNPs (bare mRNA@LNP)",
+       "value": 132.0
+      },
+      {
+       "sample": "ApoA1-GrAb-LNPs (LP 10,000:1)",
+       "value": 140.0
+      },
+      {
+       "sample": "ApoE3-GrAb-LNPs (LP 10,000:1 or higher)",
+       "value": 173.0
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "other",
+       "text": "Encapsulation efficiency of Fluc, EGFP, and p53 mRNA in HerLNPs (Figure S1A) and their hydrodynamic size and PDI value in PBS (Figure S1B)."
+      },
+      {
+       "where": "other",
+       "text": "Z-average size of LNP and GrAb-LNPs in mouse serum (Figure S2)."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

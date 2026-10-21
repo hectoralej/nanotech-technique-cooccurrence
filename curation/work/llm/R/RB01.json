@@ -1,0 +1,55 @@
+{
+ "batch": "RB01",
+ "articles": [
+  {
+   "pmcid": "PMC10615991",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Only zeta sentence names PBS; DLS medium not stated"}
+   ]
+  },
+  {
+   "pmcid": "PMC10962080",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS mentioned only for drug release, not measurement"},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "PBS mentioned only for drug release, not measurement"}
+   ]
+  },
+  {
+   "pmcid": "PMC11376094",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Sentence is background text without measurement medium"},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Sentence is background text without measurement medium"}
+   ]
+  },
+  {
+   "pmcid": "PMC11377347",
+   "decisions": [
+    {"technique": "zeta", "medium": "water", "applies_to": "all_samples", "quote": "Prior to each assessment, the bilosomal dispersions were appropriately diluted with deionized water", "reason": "Methods states dispersions diluted with deionized water before measurement"}
+   ]
+  },
+  {
+   "pmcid": "PMC11397862",
+   "decisions": [
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Dispersion in distilled water described for diameter/PDI, not zeta"}
+   ]
+  },
+  {
+   "pmcid": "PMC11434648",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "No sentence states the measurement medium"}
+   ]
+  },
+  {
+   "pmcid": "PMC11707725",
+   "decisions": [
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "PBS dilution applies to size only; zeta had no dilution"}
+   ]
+  },
+  {
+   "pmcid": "PMC11841042",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS size sentence and serum size sentence conflict; not all samples"}
+   ]
+  }
+ ]
+}

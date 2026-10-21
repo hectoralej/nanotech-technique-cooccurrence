@@ -1,0 +1,339 @@
+{
+ "batch": "RB02",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB02.json",
+ "articles": [
+  {
+   "pmcid": "PMC11923376",
+   "title": "Dexamethasone loaded DNA scavenger nanogel for systemic lupus erythematosus treatment.",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "G3ALG",
+       "value": -20.0
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "The characterization of nanogels. a–d) Particle size distribution and TEM visuals for G4DSP, G3DSP, CSDSP, and G3ALG nanogels. e) Zeta potential of nanogels. f) TEM images of G3DSP nanogels after incubation in buffer containing 1 mM H2O2 for 0 days, 3 day, and 7 days. g) Changes in G3DSP nanogels' size distribution after a 12-h exposure to 1 mM H2O2 at 37 °C. h) Evaluation of nanogels' DNA trapping ability in PBS and"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC11934984",
+   "title": "Ionizable Lipid Containing Nanocarriers for Antimicrobial Agent Delivery.",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "MO-5%ALC-5%OA",
+       "value": 10.0
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "LNP characterization, including DLS and zeta potential measurements, SAXS, cryo‐TEM, and TNS assay were performed following the procedures reported in our recent work.[ 25 , 36 , 37 ] The details of experimental methods are described in the supporting information. pH values of all LNP samples (diluted 10× with Milli‐Q water) after preparation were tested using a Mettler Toledo bench‐top pH meter."
+      },
+      {
+       "where": "results",
+       "text": "The zeta potential and pH of the LNP samples were measured in water (Figure 6g and Table S2, Supporting Information)."
+      },
+      {
+       "where": "figure",
+       "text": "Scale bar: 100 nm. e) Size, f) PDI, and g) Zeta potential in water of LNPs and Pip@LNPs, n = 3. h) Normalized cationic surface charge of Pip@LNPs measured using TNS assay, n = 3. i) Antimicrobial activity (inhibition, %) of Pip‐loaded cubosomes for Gram‐negative P. aeruginosa after 24 h incubation at 37 °C, n = 3."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12029178",
+   "title": "Encapsulation of Sulforaphane from Cruciferous Vegetables in mPEG-PLGA Nanoparticles Enhances Cadmium's Inhibitory Effec",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "blank mPEG-PLGA NP",
+       "value": 95.5
+      },
+      {
+       "sample": "NP-Cd",
+       "value": 106.5
+      },
+      {
+       "sample": "NP-SFN",
+       "value": 105.8
+      },
+      {
+       "sample": "NP-Cd-SFN",
+       "value": 102.1
+      },
+      {
+       "sample": "NP-RhoB",
+       "value": 106.5
+      }
+     ],
+     "n_rows": 5,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "The stability and colloidal properties of Cd-SFN-NP were evaluated by analyzing the variations in particle size and zeta potential over a 5-day period in 37 °C pH 7.4 PBS buffer and physiological saline."
+      },
+      {
+       "where": "figure",
+       "text": "Scale bar, 100 nm (c) Size distribution of mPEG-PLGA NP, NP-Cd, NP-SFN and NP-Cd-SFN. (d) The drug release curves of NP-Cd-SFN in pH 5.5 and 7.4 PBS buffer solutions over 48 h."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "NP-Cd-SFN",
+       "value": -14.48
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "The stability and colloidal properties of Cd-SFN-NP were evaluated by analyzing the variations in particle size and zeta potential over a 5-day period in 37 °C pH 7.4 PBS buffer and physiological saline."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12141937",
+   "title": "Unlocking the in vivo therapeutic potential of radiation-activated photodynamic therapy for locally advanced rectal canc",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "LPHNPs",
+       "value": 66.7
+      },
+      {
+       "sample": "LPHNPs-VP",
+       "value": 69.36
+      },
+      {
+       "sample": "FA-LPHNPs-VP",
+       "value": 71.89
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "As shown in Fig. 2f, there were no statistically significant changes (p > 0.05; Two-way ANOVA with Tukey's multiple comparison post hoc test) in nanoparticle size and PDI (approximately 70 nm with a PDI of ∼0.2 over 4 weeks), indicating the FA-LPHNPs-VP have good stability for 4 weeks without aggregation and precipitation in water."
+      },
+      {
+       "where": "figure",
+       "text": "TEM images of FA-LPHNPs-VP at (a) 100,000× and (b) 300,000× magnification (scale bar, 100 and 50 nm, respectively); (c) Size distribution of FA-LPHNPs-VP/intensity; (d) The absorbance spectra of LPHNPs-VP, Folic acid molecules and FA-LPHNPs-VP, the arrow indicates the peak at 282 nm for FA-LPHNPs-VP; (e) Fluorescence spectra of LPHNPs-VP and FA-LPHNPs-VP; (f) Long-term stability study of FA-LPHNPs-VP by checking part"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12181854",
+   "title": "An imaging-guided self-amplifying photo-immunotherapeutic nanoparticle for STING pathway activation and enhanced cancer ",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "SSOL (without CREKA)",
+       "value": 274.7
+      },
+      {
+       "sample": "SSCOL",
+       "value": 276.2
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The particle size distribution, zeta potential, and polymer dispersity index (PDI) were measured using dynamic light scattering (DLS, ZEN3600, Malvern Instruments, UK) with a Malvern particle size analyzer. Continuous monitoring of changes in the distribution, zeta potential, and PDI of SSCOL dispersed in fetal bovine serum (FBS) was performed over a 6-day period."
+      },
+      {
+       "where": "results",
+       "text": "No significant changes were observed in either the size distribution or zeta potential of SSCOL in FBS over the 6-day observation period, confirming the in vitro stability of SSCOL under physiological conditions (Figure S1B, D)."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "SSOL (without CREKA)",
+       "value": -17.7
+      },
+      {
+       "sample": "SSCOL",
+       "value": -8.28
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The particle size distribution, zeta potential, and polymer dispersity index (PDI) were measured using dynamic light scattering (DLS, ZEN3600, Malvern Instruments, UK) with a Malvern particle size analyzer. Continuous monitoring of changes in the distribution, zeta potential, and PDI of SSCOL dispersed in fetal bovine serum (FBS) was performed over a 6-day period."
+      },
+      {
+       "where": "methods",
+       "text": "Continuous monitoring of changes in the distribution, zeta potential, and PDI of SSCOL dispersed in fetal bovine serum (FBS) was performed over a 6-day period."
+      },
+      {
+       "where": "results",
+       "text": "No significant changes were observed in either the size distribution or zeta potential of SSCOL in FBS over the 6-day observation period, confirming the in vitro stability of SSCOL under physiological conditions (Figure S1B, D)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12285696",
+   "title": "Engineering hybrid nanoparticles for targeted codelivery of triptolide and &lt;i&gt;CYP3A4&lt;/i&gt;-siRNA against pulmo",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "TP-siRC@Lip",
+       "value": 135.77
+      },
+      {
+       "sample": "TP-siRC@tHyNPs",
+       "value": 150.0
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "To evaluate the stability of TP-siRC@tHyNPs, particle size was monitored under various conditions, including serum stability (10% Exo-free serum, 37°C, 24 hours), storage stability (PBS, 4°C, 35 days), and varying dilution (PBS solutions diluted to 2-, 5-, and 10-fold)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12316038",
+   "title": "Engineered RAP-anchored copper-escorting liposomes for FDX1-targeted cuproptosis in glioblastoma therapy‌.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "LPs",
+       "value": 101.2
+      },
+      {
+       "sample": "RAP-LPs",
+       "value": 104.6
+      },
+      {
+       "sample": "LPs@ESCu",
+       "value": 111.0
+      },
+      {
+       "sample": "RAP-LPs@ESCu",
+       "value": 115.1
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "(C-E) Particle-size distribution, PDI and Zeta potentials of LPs, RAP-LPs, LPs@ESCu and RAP-LPs@ESCu obtained by DLS. (F-G) Time-dependent changes of size and PDI of LPs, RAP-LPs, LPs@ESCu and RAP-LPs@ESCu incubated in water at 4 ℃."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "LPs",
+       "value": -11.22
+      },
+      {
+       "sample": "RAP-LPs",
+       "value": -8.87
+      },
+      {
+       "sample": "LPs@ESCu",
+       "value": -10.56
+      },
+      {
+       "sample": "RAP-LPs@ESCu",
+       "value": -9.13
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "(C-E) Particle-size distribution, PDI and Zeta potentials of LPs, RAP-LPs, LPs@ESCu and RAP-LPs@ESCu obtained by DLS. (F-G) Time-dependent changes of size and PDI of LPs, RAP-LPs, LPs@ESCu and RAP-LPs@ESCu incubated in water at 4 ℃."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC12547751",
+   "title": "Engineering Two-in-One Nanoparticles for Simultaneous Delivery of Graphene Quantum Dot and Pemetrexed.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "N-PMT NPs",
+       "value": 143.5
+      },
+      {
+       "sample": "S-PMT NPs",
+       "value": 139.6
+      },
+      {
+       "sample": "optimized PMT NPs",
+       "value": 157.02
+      },
+      {
+       "sample": "CCD formulation 1",
+       "value": 159.5
+      },
+      {
+       "sample": "CCD formulation 2",
+       "value": 160.8
+      },
+      {
+       "sample": "CCD formulation 3",
+       "value": 139.5
+      }
+     ],
+     "n_rows": 12,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Additionally, to assess the physical stability of the NPs under physiologically relevant conditions, the formulations were dispersed in Dulbecco’s Modified Eagle Medium (DMEM supplemented with 10% fetal bovine serum) and their hydrodynamic size distribution was monitored by DLS over 24 h at 37 °C."
+      },
+      {
+       "where": "results",
+       "text": "PMT NPs were successfully synthesized using a water-in-oil-in-water (W1/O/W2) double-emulsion technique, a widely recognized method for producing stable nanoparticles with uniform size distribution."
+      },
+      {
+       "where": "results",
+       "text": "Additionally, to evaluate the physical stability of the NPs under physiologically relevant conditions, the optimized formulations were dispersed in DMEM and their hydrodynamic size distribution was monitored by DLS for 24 h at 37 °C."
+      },
+      {
+       "where": "figure",
+       "text": "DLS results of the N-PMT NPs and S-PMT NPs, showing the hydrodynamic diameter (A) and correlation function (B) data. Release profiles of free PMT and PMT NPs at pH 5.5 and pH 7.4 (C)."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

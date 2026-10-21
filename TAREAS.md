@@ -2,7 +2,7 @@
 
 **Plazo duro:** el video del hackatón se entrega el **domingo 25 de octubre, 5:45 pm (hora de Costa Rica)**.
 
-**Estado de los datos hoy:** 85 artículos en el repositorio: 66 con licencia CC BY y 19 NC/ND, sin conflictos de licencia. Se quitó uno retractado. Las imágenes aún no están extraídas y la verificación humana no está hecha. Todo es provisional.
+**Estado de los datos hoy:** 87 artículos en el repositorio: 68 con licencia CC BY y 19 NC/ND, sin conflictos de licencia. Se quitó uno retractado. Las imágenes aún no están extraídas y la verificación humana no está hecha. Todo es provisional.
 
 Cada persona tiene su archivo:
 - **Bryan:** [TAREAS_BRYAN.md](TAREAS_BRYAN.md)
@@ -28,7 +28,7 @@ Cada persona tiene su archivo:
 | 7 | Guion y grabación del video (E) | 24 y 25 oct |
 
 ## Claude
-Rescate del medio no declarado (unos 30 artículos), pares imagen–formulación con los paneles de Bryan, regeneración de tablas, cálculo de acuerdos y subida a GitHub.
+Rescate del medio no declarado (hecho: aportó 1 artículo nuevo; ver ESTADO.md), pares imagen–formulación con los paneles de Bryan, regeneración de tablas, cálculo de acuerdos y subida a GitHub.
 
 ## Ruta crítica
 - **20 oct:** Héctor 1 y 2. Bryan empieza la tarea 1 (figuras). Carlos empieza su tarea 1.
@@ -37,4 +37,4 @@ Rescate del medio no declarado (unos 30 artículos), pares imagen–formulación
 - **23 y 24 oct:** modelos, interfaz y guion.
 - **25 oct, antes de las 5:45 pm:** subir el video.
 
-Si el rescate no termina el 21 de octubre, la v0.1 sale con los 85 artículos actuales y el rescate pasa a la v0.2.
+Si el rescate no termina el 21 de octubre, la v0.1 sale con los 87 artículos actuales y el rescate pasa a la v0.2.

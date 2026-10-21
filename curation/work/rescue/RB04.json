@@ -1,0 +1,441 @@
+{
+ "batch": "RB04",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB04.json",
+ "articles": [
+  {
+   "pmcid": "PMC5582160",
+   "title": "Improving the Delivery of SOD1 Antisense Oligonucleotides to Motor Neurons Using Calcium Phosphate-Lipid Nanoparticles.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs, Ca/P 100:1 (lead)",
+       "value": 31.0
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 20/1",
+       "value": 61.0
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 50/1",
+       "value": 52.3
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 1/50",
+       "value": 39.9
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 1/20",
+       "value": 50.4
+      }
+     ],
+     "n_rows": 5,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The change in particle size (number peak area) was recorded by DLS. The corresponding anti-dilution ability was also detected to ensure that the CaP-NPs retain their size upon dilution in complete DMEM media supplemented with 10% FCS."
+      },
+      {
+       "where": "results",
+       "text": "No significant difference in particle size was observed when the particles were incubated at 37°C in PBS at pH 7.4, and pH 6.5, however, particle size increased sharply to 84.8 nm 4 h post incubation at pH 5, indicating particle disassembly."
+      },
+      {
+       "where": "results",
+       "text": "No significant change in particle size was detected when CaP-lipid NPs were diluted 1:10 and 1:50 in complete DMEM supplemented with 10% FCS (Figure S4), indicating the as-prepared CaP-lipid NPs are likely to retain colloidal stability in circulation when delivered systemically in future in vivo studies."
+      },
+      {
+       "where": "figure",
+       "text": "Schematic representation of SOD1-ASO loaded CaP-lipid NP formulation (A), particle size (d.nm) of SOD1-ASO loaded (black) and non-loaded (red) CaP-lipid NPs determined by DLS (B), zeta potential of SOD1-ASO CaP-lipid NP (C), transmission electron micrograph (TEM) of SOD1-ASO CaP-lipid NPs visualized by negative staining (D), pH-sensitivity as indicated by change in number size (d.nm) of CaP-lipid NPs in PBS at pH 7.4"
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs, Ca/P 100:1 (lead)",
+       "value": -4.9
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 20/1",
+       "value": -6.3
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 50/1",
+       "value": -7.2
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 1/50",
+       "value": -6.6
+      },
+      {
+       "sample": "SOD1-ASO CaP-lipid NPs Ca/P 1/20",
+       "value": -6.4
+      },
+      {
+       "sample": "Non-loaded CaP-lipid NPs",
+       "value": -0.3
+      }
+     ],
+     "n_rows": 6,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "Schematic representation of SOD1-ASO loaded CaP-lipid NP formulation (A), particle size (d.nm) of SOD1-ASO loaded (black) and non-loaded (red) CaP-lipid NPs determined by DLS (B), zeta potential of SOD1-ASO CaP-lipid NP (C), transmission electron micrograph (TEM) of SOD1-ASO CaP-lipid NPs visualized by negative staining (D), pH-sensitivity as indicated by change in number size (d.nm) of CaP-lipid NPs in PBS at pH 7.4"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC5936752",
+   "title": "Induction of Cytotoxic T-Lymphocyte Responses Upon Subcutaneous Administration of a Subunit Vaccine Adjuvanted With an E",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "CAF09",
+       "value": 393.0
+      },
+      {
+       "sample": "CAF24a",
+       "value": 133.0
+      },
+      {
+       "sample": "CAF24b",
+       "value": 93.0
+      },
+      {
+       "sample": "CAF24c",
+       "value": 96.0
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "For undiluted samples, the particle sizes were independent of the sample concentration. For viscosity and refractive indexes, the values of water were used (values provided by Malvern Instruments)."
+      },
+      {
+       "where": "methods",
+       "text": "The particle size distribution was reflected in the PDI, which ranges from 0 for a monodisperse to 1.0 for an entirely heterodisperse dispersion. The zeta-potentials of the formulations were measured for samples diluted 100 times in milliQ-water."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC6410246",
+   "title": "Transferrin-Conjugated Polymeric Nanoparticle for Receptor-Mediated Delivery of Doxorubicin in Doxorubicin-Resistant Bre",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Dox/F127&P123",
+       "value": 72.5
+      },
+      {
+       "sample": "Dox/F127&P123-Tf",
+       "value": 90.8
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "For isocratic elution with a mobile phase comprising of methanol: water: acetic acid (50:49:1 v/v, pH 3.0), an Inertsil C18 column (150 mm × 4.6 mm, 5 μm particle size; Cosmosil, Nacalai Tesque Inc., San Diego, CA, USA) was used at a flow rate of 1.0 mL/min and column temperature of 25 °C."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC6617603",
+   "title": "Lipid-polymer hybrid nanoparticles for controlled delivery of hydrophilic and lipophilic doxorubicin for breast cancer t",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "FH1",
+       "value": 204.8
+      },
+      {
+       "sample": "FH2",
+       "value": 207.5
+      },
+      {
+       "sample": "FH3",
+       "value": 201.4
+      },
+      {
+       "sample": "FB1",
+       "value": 182.4
+      },
+      {
+       "sample": "FB2",
+       "value": 183.8
+      },
+      {
+       "sample": "FB3",
+       "value": 185.8
+      }
+     ],
+     "n_rows": 7,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "To evaluate the possible in vivo behavior, the stability of the prepared nanoparticles was determined in FBS, RPMI, and DMEM;100 mg of the powdered NPs were dispersed in the 2 mL of the respective solution and keep at 37°C under constant stirring of 100 rpm; 200 μL of each sample was collected at constant periods of time intervals and analyzed by using the Zetasizer Nano ZSP (Malvern Instruments) for any change in th"
+      },
+      {
+       "where": "results",
+       "text": "The findings of particle size, PDI, and zeta-potential revealed good stability (Figure 5). LPHNPs showed slightly larger sized particles in DMEM and RPMI media that might be due to the interaction between the NPs and the proteins present in the growth media."
+      },
+      {
+       "where": "figure",
+       "text": "Colloidal stability studies, indicating the variation in particle size (A), PDI (B), and zeta-potential (C) in PBS, DMEM, and RPMI up to 4 hours at 37°C."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "FH1",
+       "value": -31.7
+      },
+      {
+       "sample": "FH2",
+       "value": -29.8
+      },
+      {
+       "sample": "FH3",
+       "value": -28.8
+      },
+      {
+       "sample": "FB1",
+       "value": -32.5
+      },
+      {
+       "sample": "FB2",
+       "value": -32.0
+      },
+      {
+       "sample": "FB3",
+       "value": -29.6
+      }
+     ],
+     "n_rows": 7,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "To evaluate the possible in vivo behavior, the stability of the prepared nanoparticles was determined in FBS, RPMI, and DMEM;100 mg of the powdered NPs were dispersed in the 2 mL of the respective solution and keep at 37°C under constant stirring of 100 rpm; 200 μL of each sample was collected at constant periods of time intervals and analyzed by using the Zetasizer Nano ZSP (Malvern Instruments) for any change in th"
+      },
+      {
+       "where": "results",
+       "text": "The findings of particle size, PDI, and zeta-potential revealed good stability (Figure 5). LPHNPs showed slightly larger sized particles in DMEM and RPMI media that might be due to the interaction between the NPs and the proteins present in the growth media."
+      },
+      {
+       "where": "figure",
+       "text": "Colloidal stability studies, indicating the variation in particle size (A), PDI (B), and zeta-potential (C) in PBS, DMEM, and RPMI up to 4 hours at 37°C."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC7125308",
+   "title": "Co-Delivery of Curcumin and Cisplatin to Enhance Cytotoxicity of Cisplatin Using Lipid-Chitosan Hybrid Nanoparticles.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "LPHNP lipid:chitosan 5:1",
+       "value": 437.3
+      },
+      {
+       "sample": "LPHNP lipid:chitosan 10:1",
+       "value": 276.7
+      },
+      {
+       "sample": "LPHNP lipid:chitosan 20:1",
+       "value": 225.5
+      },
+      {
+       "sample": "LPHNP lipid:chitosan 30:1",
+       "value": 392.7
+      },
+      {
+       "sample": "LPHNP lipid:chitosan 40:1",
+       "value": 353.9
+      },
+      {
+       "sample": "LPHNP lipid:chitosan 60:1",
+       "value": 680.1
+      }
+     ],
+     "n_rows": 6,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The dynamic light scattering technique was used for the determination of size. 50µL of nanoparticle solution was placed in a cuvette and size was determined. Phosphate buffer saline was used for dilution to measure the surface charge."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC7522541",
+   "title": "Conferring receptors on recipient cells with extracellular vesicles for targeted drug delivery.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "LP-PTX",
+       "value": 47.92
+      },
+      {
+       "sample": "Ab-LP-PTX",
+       "value": 48.79
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "Characterization of drug delivery liposome and treatment efficacy. a, Morphologic characterization of LP-PTX and Ab-LP-PTX by electron microscopy (scale bar, 50 nm). b, Characterization of LP-PTX and Ab-LP-PTX, including size distribution, PDI, zeta potential, PTX loading efficiency, and PTX release profile. c, In vitro release of PTX from LP-PTX and Ab-LP-PTX at 37 °C, respectively. d, fluorescent images showing Ab-"
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "LP-PTX",
+       "value": -5.18
+      },
+      {
+       "sample": "Ab-LP-PTX",
+       "value": -6.43
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "figure",
+       "text": "Characterization of drug delivery liposome and treatment efficacy. a, Morphologic characterization of LP-PTX and Ab-LP-PTX by electron microscopy (scale bar, 50 nm). b, Characterization of LP-PTX and Ab-LP-PTX, including size distribution, PDI, zeta potential, PTX loading efficiency, and PTX release profile. c, In vitro release of PTX from LP-PTX and Ab-LP-PTX at 37 °C, respectively. d, fluorescent images showing Ab-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC7564015",
+   "title": "Remote loading paclitaxel-doxorubicin prodrug into liposomes for cancer combination therapy.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Blank Cu Glu LPs",
+       "value": 112.4
+      },
+      {
+       "sample": "PSD LPs",
+       "value": 128.5
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "As shown in Fig. 3, PSD LPs could be stored at 4 °C for at least 1 month with no obvious change in particle size, PDI and zeta potential. Besides, after incubating with PBS containing 10% FBS, PSD LPs displayed nearly the same particle size and PDI as previously for even 72 h."
+      },
+      {
+       "where": "results",
+       "text": "Besides, after incubating with PBS containing 10% FBS, PSD LPs displayed nearly the same particle size and PDI as previously for even 72 h."
+      },
+      {
+       "where": "results",
+       "text": "Nevertheless, PSD NPs exhibited an apparent increase in particle size and PDI. What's more, after incubated with PBS containing 10% FBS for 48 h, the solution for PSD NPs appeared obvious insoluble substance (data not shown)."
+      },
+      {
+       "where": "figure",
+       "text": "(A) The particle size, PDI and (B) zeta potential variation of PSD LPs at 4 °C for 30 days, the particle size and PDI of PSD NPs (C) and PSD LPs (D) incubated in PBS containing 10% FBS (v/v) under 100 rpm shaking at 37 °C."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "Blank Cu Glu LPs",
+       "value": -21.1
+      },
+      {
+       "sample": "PSD LPs",
+       "value": -21.3
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "As shown in Fig. 3, PSD LPs could be stored at 4 °C for at least 1 month with no obvious change in particle size, PDI and zeta potential. Besides, after incubating with PBS containing 10% FBS, PSD LPs displayed nearly the same particle size and PDI as previously for even 72 h."
+      },
+      {
+       "where": "figure",
+       "text": "(A) The particle size, PDI and (B) zeta potential variation of PSD LPs at 4 °C for 30 days, the particle size and PDI of PSD NPs (C) and PSD LPs (D) incubated in PBS containing 10% FBS (v/v) under 100 rpm shaking at 37 °C."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC7696353",
+   "title": "Lipidic Cubic-Phase Nanoparticles (Cubosomes) Loaded with Doxorubicin and Labeled with <sup>177</sup>Lu as a Potential T",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Blank cubosomes",
+       "value": 181.0
+      },
+      {
+       "sample": "DOTAGA-OA cubosomes",
+       "value": 153.0
+      },
+      {
+       "sample": "DOX DOTAGA-OA cubosomes",
+       "value": 160.0
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The average size, polydispersity, and zeta potential (ζ) of cubosomes were determined using dynamic light scattering (DLS, Zetasizer Nano ZS Malvern, UK) at 25 °C, assuming the viscosity of pure water and presented as an average of three separate measurements."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "Blank cubosomes",
+       "value": -27.0
+      },
+      {
+       "sample": "DOTAGA-OA cubosomes",
+       "value": -11.0
+      },
+      {
+       "sample": "DOX DOTAGA-OA cubosomes",
+       "value": -19.0
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The average size, polydispersity, and zeta potential (ζ) of cubosomes were determined using dynamic light scattering (DLS, Zetasizer Nano ZS Malvern, UK) at 25 °C, assuming the viscosity of pure water and presented as an average of three separate measurements."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

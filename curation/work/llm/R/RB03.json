@@ -1,0 +1,27 @@
+{"batch": "RB03", "articles": [
+{"pmcid": "PMC12862453", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "DLS sentence names instrument and temperature only; no measurement medium stated."}
+]},
+{"pmcid": "PMC13051216", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "FBS incubation is a serum stability test, not the DLS measurement medium."}
+]},
+{"pmcid": "PMC13114049", "decisions": [
+{"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Distilled water is stated for particle size only; zeta medium not declared."}
+]},
+{"pmcid": "PMC13276060", "decisions": [
+{"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Deionized water sentence covers diameter and PDI, not zeta potential."}
+]},
+{"pmcid": "PMC13403891", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS with 10% FBS is a time-course stability experiment, not the general size measurement."}
+]},
+{"pmcid": "PMC13414797", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Water dilution is stated only for ZP measurements, not DLS."}
+]},
+{"pmcid": "PMC5293363", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Double-distilled water is stated for zeta potential only; size medium not declared."}
+]},
+{"pmcid": "PMC5415764", "decisions": [
+{"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS is used for the stability study, not declared as the DLS measurement medium."},
+{"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "PBS is used for the stability study, not declared as the zeta measurement medium."}
+]}
+]}

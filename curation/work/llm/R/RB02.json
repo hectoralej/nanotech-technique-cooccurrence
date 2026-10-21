@@ -1,0 +1,56 @@
+{
+ "batch": "RB02",
+ "articles": [
+  {
+   "pmcid": "PMC11923376",
+   "decisions": [
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Only figure caption mentions zeta potential; no medium stated for the measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC11934984",
+   "decisions": [
+    {"technique": "zeta", "medium": "water", "applies_to": "all_samples", "quote": "The zeta potential and pH of the LNP samples were measured in water", "reason": "Results state zeta potential of all LNP samples was measured in water."}
+   ]
+  },
+  {
+   "pmcid": "PMC12029178",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Stability study in PBS and saline covers only NP-Cd-SFN; not a clear measurement medium for all samples."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Stability study in PBS and saline; two media, not clearly the zeta measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC12141937",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Water mentioned only in long-term storage stability context, not as measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC12181854",
+   "decisions": [
+    {"technique": "DLS", "medium": "serum", "applies_to": "some", "quote": "Continuous monitoring of changes in the distribution, zeta potential, and PDI of SSCOL dispersed in fetal bovine serum (FBS)", "reason": "Measurement sample SSCOL dispersed in FBS; SSOL not stated, so applies to some samples."},
+    {"technique": "zeta", "medium": "serum", "applies_to": "some", "quote": "Continuous monitoring of changes in the distribution, zeta potential, and PDI of SSCOL dispersed in fetal bovine serum (FBS)", "reason": "Zeta measured on SSCOL dispersed in FBS; SSOL not stated, so applies to some samples."}
+   ]
+  },
+  {
+   "pmcid": "PMC12285696",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Several media listed for stability and dilution tests; not a single clear measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC12316038",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "Water appears only for 4 C storage stability in figure caption, not the measurement."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "quote": "", "reason": "No sentence states the medium used for zeta potential measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC12547751",
+   "decisions": [
+    {"technique": "DLS", "medium": "culture_medium", "applies_to": "all_samples", "quote": "the formulations were dispersed in Dulbecco’s Modified Eagle Medium (DMEM supplemented with 10% fetal bovine serum)", "reason": "Methods state the formulations were dispersed in DMEM with 10% FBS for DLS size monitoring."}
+   ]
+  }
+ ]
+}

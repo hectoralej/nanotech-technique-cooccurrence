@@ -48,12 +48,33 @@ def _adopt_rows(base: dict, src: dict, tech: str) -> None:
     base["measurements"] = [m for m in base["measurements"] if m["technique"] != tech] + rows
 
 
+def load_overlay() -> dict:
+    f = CUR / "work" / "rescue" / "overlay.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
+
+def _apply_overlay(base: dict, ov: dict) -> None:
+    """Medio rescatado (cita verificada por codigo): se escribe en las filas de DLS/zeta con valor, identidad util y medio no declarado."""
+    S = {s["id"]: s for s in base.get("samples", []) or []}
+    for m in base.get("measurements", []):
+        t = m.get("technique")
+        if t not in ov or eq.identity_of(m, S) not in eq.USEFUL_IDENTITY:
+            continue
+        c = m.setdefault("conditions", {})
+        if eq.medium_class(c.get("medium")) != "nd":
+            continue
+        c["medium"] = ov[t]["medium"]
+        m["quality_flags"] = sorted(set((m.get("quality_flags") or []) + ["medio_rescatado"]) - {"medio_no_declarado"})
+        m.setdefault("evidence", {})["rescue_quote"] = ov[t]["quote"]
+
+
 def finalize(which: str = "all") -> pd.DataFrame:
     A, B = merge.load("A"), merge.load("B")
     arb = load_arbitration()
     cmp_ = merge.compare(which).set_index("pmcid")
     man = pd.read_csv(CUR / "work" / "manifest.csv", dtype={"pmcid": str}).set_index("pmcid")
     finals, rows = [], []
+    overlay = load_overlay()
     for pm in cmp_.index:
         a, b, c = A[pm], B[pm], cmp_.loc[pm]
         base = json.loads(json.dumps(b))
@@ -100,6 +121,14 @@ def finalize(which: str = "all") -> pd.DataFrame:
         for f in ("micro", "dls", "zeta", "object", "research", "viral_pcr"):
             if f"{pm}:gate:{f}" not in arb or arb[f"{pm}:gate:{f}"]["decision"] == "unresolved":
                 gate[f] = g2[f] if ga[f] == gb[f] else gate[f]
+        ov = overlay.get(pm)
+        if ov:
+            _apply_overlay(base, ov)
+            g3 = eq.gate(base)
+            for f in ("dls", "zeta"):
+                gate[f] = bool(gate[f] or g3[f])
+            gate["dls_dudoso"], gate["zeta_dudoso"] = bool(g3["dls_dudoso"] and not gate["dls"]), bool(g3["zeta_dudoso"] and not gate["zeta"])
+            notes.append("medio rescatado: " + ",".join(sorted(ov)))
         gate["gate"] = bool(gate["micro"] and gate["dls"] and gate["zeta"] and gate["research"] and gate["object"] and not gate["viral_pcr"])
         # complementarias confirmadas por ambas pasadas (tecnica + clase de identidad)
         confirmed = set()
@@ -115,6 +144,21 @@ def finalize(which: str = "all") -> pd.DataFrame:
         rows.append(dict(pmcid=pm, family=base["family"], set=base["set"], gate=gate["gate"], disputed=bool(disputed), disputed_why="|".join(disputed),
                          micro=gate["micro"], dls=gate["dls"], zeta=gate["zeta"], dls_dudoso=gate["dls_dudoso"], zeta_dudoso=gate["zeta_dudoso"],
                          object=gate["object"], research=gate["research"], viral_pcr=gate["viral_pcr"], arbitrated=bool(notes)))
+    # articulos con UNA sola pasada que ganan el medio por el rescate: entran como finales, marcados 'una_pasada'
+    for pm, ov in overlay.items():
+        if pm in cmp_.index or pm not in (set(A) | set(B)) or pm not in man.index:
+            continue
+        base = json.loads(json.dumps(B.get(pm) or A[pm]))
+        gate = dict(eq.gate(base))
+        _apply_overlay(base, ov)
+        g3 = eq.gate(base)
+        gate = dict(g3)
+        base["complementary_confirmed"] = []
+        base["gate"], base["disputed"], base["arbitration_notes"] = gate, [], ["una sola pasada", "medio rescatado: " + ",".join(sorted(ov))]
+        base["family"], base["set"] = man.loc[pm, "family"], man.loc[pm, "set"]
+        finals.append(base)
+        rows.append(dict(pmcid=pm, family=base["family"], set=base["set"], gate=gate["gate"], disputed=False, disputed_why="", micro=gate["micro"], dls=gate["dls"], zeta=gate["zeta"],
+                         dls_dudoso=gate["dls_dudoso"], zeta_dudoso=gate["zeta_dudoso"], object=gate["object"], research=gate["research"], viral_pcr=gate["viral_pcr"], arbitrated=True))
     with open(CUR / "work" / "final.jsonl", "w", encoding="utf-8") as fh:
         for r in finals:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")

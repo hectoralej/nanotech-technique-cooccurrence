@@ -1,0 +1,295 @@
+{
+ "batch": "RB05",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB05.json",
+ "articles": [
+  {
+   "pmcid": "PMC8148018",
+   "title": "Systematic Development and Characterization of Novel, High Drug-Loaded, Photostable, Curcumin Solid Lipid Nanoparticle H",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "CSLNs (optimized curcumin SLN)",
+       "value": 170.1
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "The evaporation of water could also be responsible for the increased viscosity and subsequent particle size as stability studies were conducted in polyethylene terephthalate bottles which are not air-tight or water vapor resistant."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "CSLNs (optimized curcumin SLN)",
+       "value": -9.67
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "While zeta potential is a measure of the electrostatic repulsive forces, it does not consider the attractive van der Waals forces [57]. Considering that PEG forms hydrogen bonds with water molecules, we expect some stability being assigned because of that too."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC8745861",
+   "title": "Delivery of DNA into Human Cells by Functionalized Lignin Nanoparticles.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "birch BioLignin LNPs (2 mg/mL starting lignin)",
+       "value": 341.0
+      },
+      {
+       "sample": "PLL-coated birch LNPs (2 mg/mL)",
+       "value": 357.0
+      },
+      {
+       "sample": "birch BioLignin LNPs 286 nm",
+       "value": 286.0
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "For example, LNPs formed from birch and wheat BioLignin™ at a concentration of 20 mg mL−1 had similar Z-average diameters; however, at lower concentrations, the diameters of LNPs formed from wheat BioLignin™ were smaller, indicating weaker interactions at the nanoscale range compared to birch BioLignin™, possibly due to greater solubility in water."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "birch BioLignin LNPs (2 mg/mL starting lignin)",
+       "value": -29.5
+      },
+      {
+       "sample": "PLL-coated birch LNPs (2 mg/mL)",
+       "value": 43.2
+      }
+     ],
+     "n_rows": 2,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "While the hydrophobic domains of the lignin will be in the LNP’s core, these deprotonated acid moieties will interact with water on the surface of the LNPs and cause the negative zeta potential."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9029372",
+   "title": "Dual Responsive poly(vinyl caprolactam)-Based Nanogels for Tunable Intracellular Doxorubicin Delivery in Cancer Cells.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Cys-BIS-P(VCL-HEA) nanogels (pristine)",
+       "value": 182.0
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "results",
+       "text": "The prepared nanogels are highly stable to pH 7.4 at 37 °C, as discussed in their stability behavior from DLS studies."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9134222",
+   "title": "Systematic Development of Solid Lipid Nanoparticles of Abiraterone Acetate with Improved Oral Bioavailability and Antica",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "optimized drug-loaded SLNs",
+       "value": 197.2
+      },
+      {
+       "sample": "BBD trial 1",
+       "value": 224.0
+      },
+      {
+       "sample": "BBD trial 2",
+       "value": 560.0
+      },
+      {
+       "sample": "BBD trial 3",
+       "value": 185.0
+      },
+      {
+       "sample": "BBD trial 4",
+       "value": 529.0
+      },
+      {
+       "sample": "BBD trial 5",
+       "value": 204.0
+      }
+     ],
+     "n_rows": 13,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Chromatographic separation of the analyte and internal standard in rat plasma was performed on a C18 column (100 mm, 1.7 μm particle size), using ammonium acetate (2 mM) in water (pH 3.5) and acetonitrile with 0.1% formic acid as the mobile phase mixture."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9311980",
+   "title": "Effects of Gold Nanoparticles Functionalized with Bioactive Compounds from <i>Cornus mas</i> Fruit on Aorta Ultrastructu",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "AuNPsCM",
+       "value": -21.9
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The obtained gold colloid was centrifuged for 30 min at 14,000 rpm, and the resulted residue consisting in AuNPs was twice washed with bi-distilled water and air dried and further characterized by appropriate techniques such as UV-vis spectroscopy (using a Perkin-Elmer Lambda 25 spectrophotometer), transmission electron microscopy (using a Hitachi Automatic H-7650 microscope operated at 120 kV), Fourier transform inf"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9346610",
+   "title": "Cubosomal Lipid Formulation for Combination Cancer Treatment: Delivery of a Chemotherapeutic Agent and Complexed α-Parti",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "blank cubosomes",
+       "value": 140.0
+      },
+      {
+       "sample": "DOX cubosomes",
+       "value": 160.0
+      },
+      {
+       "sample": "DOTAGA-OA cubosomes",
+       "value": 130.0
+      },
+      {
+       "sample": "DOX DOTAGA-OA cubosomes",
+       "value": 150.0
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "DLS (Zetasizer Nano ZS Malvern, U.K.) was used to determine the average size, polydispersity (PDI), and zeta potential (ζ) of cubosomes. The measurements were performed at 25 °C, and the viscosity of pure water was assumed."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "blank cubosomes",
+       "value": -29.0
+      },
+      {
+       "sample": "DOX cubosomes",
+       "value": -24.0
+      },
+      {
+       "sample": "DOTAGA-OA cubosomes",
+       "value": -20.0
+      },
+      {
+       "sample": "DOX DOTAGA-OA cubosomes",
+       "value": -17.0
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "DLS (Zetasizer Nano ZS Malvern, U.K.) was used to determine the average size, polydispersity (PDI), and zeta potential (ζ) of cubosomes. The measurements were performed at 25 °C, and the viscosity of pure water was assumed."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9736248",
+   "title": "Ex Vivo Evaluation of Ethosomes and Transethosomes Applied on Human Skin: A Comparative Study.",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "ET (ethosomes)",
+       "value": -23.39
+      },
+      {
+       "sample": "TET-1 (transethosomes)",
+       "value": -33.65
+      },
+      {
+       "sample": "TET-2 (transethosomes)",
+       "value": -35.01
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Zetasizer Nano-S90 (Malvern Instr., Malvern, England), with a 5 mW helium neon laser and a wavelength output of 633 nm, was employed for the vesicle size analysis of ET and TET. Measurements were performed at 25 °C at a 90° angle and a run time of at least 180 s, diluting samples with bi-distilled water in a 1:20 v/v ratio."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC9785794",
+   "title": "Polymeric Nanoparticles with Embedded Eu(III) Complexes as Molecular Probes for Temperature Sensing.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "NPs_Eu1",
+       "value": 116.0
+      },
+      {
+       "sample": "NPs_Eu2",
+       "value": 100.0
+      },
+      {
+       "sample": "NPs_Eu2_TPP",
+       "value": 99.0
+      },
+      {
+       "sample": "NPs_Eu3",
+       "value": 101.0
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The ζ-potential in the 10−3 M NaCl solution was also determined using The Malvern Zetasizer."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

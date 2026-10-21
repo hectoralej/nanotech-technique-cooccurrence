@@ -1,0 +1,56 @@
+{
+ "batch": "RB05",
+ "articles": [
+  {
+   "pmcid": "PMC8148018",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Only water evaporation and results discussion; no measurement medium stated."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Water mentioned only as PEG hydrogen bonding, not as measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC8745861",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Water solubility discussed in results; not the measurement dispersion medium."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Water-surface interaction explains charge; no measurement medium stated."}
+   ]
+  },
+  {
+   "pmcid": "PMC9029372",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Only pH 7.4 stability mentioned; no measurement dispersion medium stated."}
+   ]
+  },
+  {
+   "pmcid": "PMC9134222",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Water in sentence is an HPLC mobile phase, not the DLS measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC9311980",
+   "decisions": [
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Bi-distilled water used for washing residue during preparation, not for zeta measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC9346610",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Viscosity of pure water assumed, but dispersion medium is not explicitly stated."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Same sentence; does not explicitly state the sample medium for zeta."}
+   ]
+  },
+  {
+   "pmcid": "PMC9736248",
+   "decisions": [
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Bi-distilled water dilution sentence refers to vesicle size analysis, not zeta specifically."}
+   ]
+  },
+  {
+   "pmcid": "PMC9785794",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "NaCl solution stated only for zeta-potential, not for DLS size measurement."}
+   ]
+  }
+ ]
+}

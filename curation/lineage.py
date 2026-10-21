@@ -95,7 +95,10 @@ def build(final_ids: list[str], recs: dict, meta: pd.DataFrame, lic_color: dict[
         for q in final_ids[i + 1:]:
             r = fuzz.ratio(str(titles[p]).lower(), str(titles[q]).lower())
             shared_vals = len(vf[p] & vf[q])
-            if r >= 92 or shared_vals >= 3:
+            # valores iguales solo cuentan como reutilizacion si hay un laboratorio en comun (mismo ultimo autor o >= 2 autores compartidos);
+            # tres cifras redondeadas iguales entre grupos distintos son una coincidencia frecuente
+            same_lab = bool((last[p] and last[p] == last[q]) or len(set(authors[p]) & set(authors[q])) >= 2)
+            if r >= 92 or (shared_vals >= 3 and same_lab):
                 dups.append(dict(a=p, b=q, title_similarity=round(r, 1), shared_numeric_values=shared_vals,
                                  reason="titulo casi identico" if r >= 92 else "valores de DLS/zeta compartidos (posible reutilizacion de datos)"))
     # linaje

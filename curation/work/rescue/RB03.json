@@ -1,0 +1,297 @@
+{
+ "batch": "RB03",
+ "output": "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\curation\\work\\llm\\R\\RB03.json",
+ "articles": [
+  {
+   "pmcid": "PMC12862453",
+   "title": "Novel Wide-Spectrum Virucidal Lipid Nanoparticles.",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "POSTAN",
+       "value": 105.0
+      },
+      {
+       "sample": "CN1",
+       "value": 102.0
+      },
+      {
+       "sample": "CN2",
+       "value": 97.0
+      }
+     ],
+     "n_rows": 3,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The hydrodynamic diameter (HD) and polydispersity index (PDI) of the nanoparticles were determined via dynamic light scattering (DLS) measurements with a Malvern Zetasizer Nano ZS90 at a scattering angle of 90° at 25 °C (Malvern Panalytical, Malvern, UK), with size distribution analyzed in intensity mode. The zeta potential (ZP) was measured via laser Doppler microelectrophoresis with the same instrument after diluti"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC13051216",
+   "title": "Transferrin-modified liposomes enhance chemosensitivity in hepatocellular carcinoma by suppressing RDM1-mediated DNA rep",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "AA@Tf-Lip",
+       "value": 153.05
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Stability characterization of AA@Tf-Lip: (1) Serum stability: AA@Tf-Lip was incubated with 10% FBS, and the particle size and PDI were detected at different time points (0, 2, 4, 6, 12, 24, 36 h); (2) Storage stability: AA@Tf-Lip was stored at 4°C, and the particle size and PDI were detected at different days (0, 1, 2, 3, 4, 5, 6, 7 days)."
+      },
+      {
+       "where": "results",
+       "text": "Stability tests showed that AA@Tf-Lip had good serum stability (particle size variation <10% over 36 h, PDI maintained at 0.15-0.22) and storage stability (physicochemical properties changed <15% after 7 days at 4°C) (Supplementary Figure 3)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC13114049",
+   "title": "Liposomal Piceatannol Mitigates Methotrexate-Induced Oxidative Renal Injury via Modulation of Nrf2/HO-1, TLR4/NF-κB, MAP",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "PIC-LNPs",
+       "value": -37.0
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The supernatant containing PIC-LNPs was characterized for particle size, polydispersity index (PDI), and zeta potential using a Zetasizer Nano ZS (Malvern Instruments, Malvern, UK). Particle size was measured in distilled water, and zeta potential was measured in triplicate."
+      },
+      {
+       "where": "methods",
+       "text": "Particle size was measured in distilled water, and zeta potential was measured in triplicate."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC13276060",
+   "title": "Glucosamine/chitosan blend surface-engineered rutin-loaded polymer/lipid hybrid nanoparticles for neuroprotection in ind",
+   "needs": {
+    "zeta": {
+     "rows": [
+      {
+       "sample": "F1",
+       "value": -6.54
+      },
+      {
+       "sample": "F2",
+       "value": -8.36
+      },
+      {
+       "sample": "F3",
+       "value": -7.15
+      },
+      {
+       "sample": "F4",
+       "value": -18.2
+      },
+      {
+       "sample": "F5",
+       "value": -5.09
+      },
+      {
+       "sample": "F6",
+       "value": -10.9
+      }
+     ],
+     "n_rows": 7,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Prepared formulations were adequately diluted with deionized water, and then they were assessed for their diameters and PDI using ZetaSizer Nano ZS (Malvern Instruments Ltd., UK)."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC13403891",
+   "title": "Spatiotemporally Ultrasound-Controlled Nanoparticles Reprogramming Immunostimulatory Antigen-Presenting Cancer-Associate",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "mRNA/V@M NPs",
+       "value": 208.0
+      }
+     ],
+     "n_rows": 1,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The stability of the physiological solution was investigated by dynamic light scattering (DLS). mRNA/V@M NPs were dispersed into PBS containing 10% fetal bovine serum (FBS) to monitor temporal changes in nanoparticle size."
+      },
+      {
+       "where": "results",
+       "text": "To assess the stability of mRNA/V@M NPs NPs, we performed dynamic light scattering (DLS) measurements in serum (10% FBS in PBS) to simulate the complex vascular environment over 48 h."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC13414797",
+   "title": "Development and Optimization of 7,8-Dihydroxyflavone-Loaded Polylysine/Lecithin Nanoparticles for Potential Intranasal D",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "STD1",
+       "value": 207.4
+      },
+      {
+       "sample": "STD2",
+       "value": 218.8
+      },
+      {
+       "sample": "STD3",
+       "value": 224.0
+      },
+      {
+       "sample": "STD4",
+       "value": 236.5
+      },
+      {
+       "sample": "STD5",
+       "value": 209.8
+      },
+      {
+       "sample": "STD6",
+       "value": 222.5
+      }
+     ],
+     "n_rows": 8,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Z-Ave, PDI, and ZP of NPs were determined by photon correlation spectroscopy and electrophoretic light scattering (NanoZS90; Malvern Instruments, Malvern, UK). The samples were diluted in water for ZP measurements (1:10) to obtain uniform dispersion with good scattering intensity."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC5293363",
+   "title": "Co-delivery of paclitaxel and TOS-cisplatin via TAT-targeted solid lipid nanoparticles with synergistic antitumor activi",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "Blank SLNs",
+       "value": 82.6
+      },
+      {
+       "sample": "CDDP SLNs",
+       "value": 82.9
+      },
+      {
+       "sample": "TOS-CDDP SLNs",
+       "value": 85.1
+      },
+      {
+       "sample": "PTX SLNs",
+       "value": 83.6
+      },
+      {
+       "sample": "PTX/TOS-CDDP SLNs",
+       "value": 84.9
+      },
+      {
+       "sample": "TAT PTX/TOS-CDDP SLNs",
+       "value": 108.6
+      }
+     ],
+     "n_rows": 6,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "Particle size (mean volume diameter) and polydispersity index (PDI) of all formulations were measured by photon correlation spectroscopy using Zetasizer Nano ZS (Malvern Instruments, Malvern, UK).44 To obtain information concerning the stabilities of the prepared samples, their zeta potentials were determined with Zetasizer Nano ZS, and the medium used was double-distilled water."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "pmcid": "PMC5415764",
+   "title": "Co-delivery of paclitaxel and tetrandrine via iRGD peptide conjugated lipid-polymer hybrid nanoparticles overcome multid",
+   "needs": {
+    "DLS": {
+     "rows": [
+      {
+       "sample": "P/non-iRGD LPN",
+       "value": 107.3
+      },
+      {
+       "sample": "P/iRGD LPN",
+       "value": 110.1
+      },
+      {
+       "sample": "P + T/non-iRGD LPN",
+       "value": 128.5
+      },
+      {
+       "sample": "P + T/iRGD LPN",
+       "value": 139.5
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The particle size, polydispersity index and zeta potential of three batches of LPNs were determined by dynamic light scattering (DLS, Malvern Zetasizer Nano ZSP) at 25 °C. The stability of the LPNs in PBS (pH 7.4) with or without 10% FBS at 4 °C was evaluated."
+      },
+      {
+       "where": "figure",
+       "text": "Characterization of PTX and TET co-loaded LPN.(A) Particle size distribution measured by DLS and TEM image of LPN. (Top-right) The magnified view of LPN showing the core-lipid shell structure; (B) Stability of conjugated P+T/iRGD LPN* and unconjugated P+T/iRGD LPN▲ in PBS or 10% FBS for 14 days storage; (C) in vitro release of PTX and TET in response to redox environment."
+      }
+     ]
+    },
+    "zeta": {
+     "rows": [
+      {
+       "sample": "P/non-iRGD LPN",
+       "value": -18.2
+      },
+      {
+       "sample": "P/iRGD LPN",
+       "value": -17.7
+      },
+      {
+       "sample": "P + T/non-iRGD LPN",
+       "value": -16.8
+      },
+      {
+       "sample": "P + T/iRGD LPN",
+       "value": -17.2
+      }
+     ],
+     "n_rows": 4,
+     "sentences": [
+      {
+       "where": "methods",
+       "text": "The particle size, polydispersity index and zeta potential of three batches of LPNs were determined by dynamic light scattering (DLS, Malvern Zetasizer Nano ZSP) at 25 °C. The stability of the LPNs in PBS (pH 7.4) with or without 10% FBS at 4 °C was evaluated."
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

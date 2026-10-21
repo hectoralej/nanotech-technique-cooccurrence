@@ -2,6 +2,8 @@
 
 **Repositorio: 86 artículos** (26 del piloto + 21 de la ronda 1 + 16 de la ronda 2 + 23 de la lista de verificación humana, tras la auditoría de Claude). Todas las métricas son **provisionales** hasta la revisión humana.
 
+**Actualización del 2026-10-20:** el repositorio tiene **87 artículos** (68 CC BY, 19 NC/ND, 0 en conflicto). Cambios de hoy: el rescate del medio no declarado (`rescue.py`, regla 1 de `POLITICA_PUERTA.md`) aportó 1 artículo; la regla de duplicados se hizo más estricta (antes sacaba artículos distintos por coincidir en 3 valores redondeados) y recuperó otro; se descartó a mano PMC11377347 por varias inconsistencias. Quedan **14 artículos que la revisión de Codex aprueba y que mi extracción no**; en casi todos Sonnet extrajo con una sola pasada y le faltó DLS o zeta útil (límite de 12 filas, valores en el suplemento, identidad de muestra dudosa).
+
 **Lista para la revisión humana: `curation/verificacion_humana_80.csv`** (78 artículos, solo licencia CC BY, con el DOI como enlace). Guía en `GUIA_REVISION.md`. La clave del modelo está en `work/clave_modelo.csv`: **no abrirla hasta terminar**.
 
 **Corrección de licencias (2026-10-18):** el clasificador trataba los códigos cortos de Europe PMC («cc by-nc», «cc by-nc-nd») como CC BY. Ya está corregido. Con la regla nueva el repositorio tiene 66 artículos en verde (CC BY), 18 en amarillo (NC o ND) y 2 en conflicto. Las cifras de licencia que se dieron antes (43 verdes, 20 en conflicto) estaban mal.

@@ -1,0 +1,58 @@
+{
+ "batch": "RB04",
+ "articles": [
+  {
+   "pmcid": "PMC5582160",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Only dilution stability tests in DMEM and PBS; no measurement medium stated."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Only a figure caption mentions PBS, and it concerns pH sensitivity, not zeta."}
+   ]
+  },
+  {
+   "pmcid": "PMC5936752",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Water is cited only for viscosity and refractive index, not as dispersion medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC6410246",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "The only sentence describes an HPLC mobile phase, not the size measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC6617603",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "FBS, RPMI and DMEM are stability incubation media, not the measurement medium."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "FBS, RPMI and DMEM are stability incubation media, not the measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC7125308",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS dilution is stated only for surface charge, not for size measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC7522541",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Only a figure caption, with no medium stated for the measurement."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Only a figure caption, with no medium stated for the measurement."}
+   ]
+  },
+  {
+   "pmcid": "PMC7564015",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "PBS with 10% FBS is an incubation stability test, not the measurement medium."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "PBS with 10% FBS is an incubation stability test, not the measurement medium."}
+   ]
+  },
+  {
+   "pmcid": "PMC7696353",
+   "decisions": [
+    {"technique": "DLS", "medium": "not_found", "applies_to": "unclear", "reason": "Pure water viscosity is assumed as a parameter, not stated as dispersion medium."},
+    {"technique": "zeta", "medium": "not_found", "applies_to": "unclear", "reason": "Pure water viscosity is assumed as a parameter, not stated as dispersion medium."}
+   ]
+  }
+ ]
+}

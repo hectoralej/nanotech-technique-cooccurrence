@@ -1,7 +1,7 @@
 pmcid,family,set,gate,disputed,disputed_why,micro,dls,zeta,dls_dudoso,zeta_dudoso,object,research,viral_pcr,arbitrated
 PMC9177731,LNP,pilot,True,False,,True,True,True,False,False,True,True,False,True
 PMC10674285,inorganic,pilot,False,False,,True,False,False,False,False,True,True,False,True
-PMC12547751,polymeric,pilot,False,False,,True,False,False,True,True,True,True,False,False
+PMC12547751,polymeric,pilot,False,False,,True,True,False,False,True,True,True,False,True
 PMC11841042,LNP,pilot,False,False,,True,False,False,True,False,True,True,False,False
 PMC8004209,inorganic,pilot,False,False,,False,True,True,False,False,True,True,False,False
 PMC11644305,SLN_NLC,pilot,True,False,,True,True,True,False,False,True,True,False,True
@@ -178,3 +178,5 @@ PMC10136298,polymeric,main,True,False,,True,True,True,False,False,True,True,Fals
 PMC10160449,SLN_NLC,gap,True,False,,True,True,True,False,False,True,True,False,False
 PMC10295105,liposome,gap,True,False,,True,True,True,False,False,True,True,False,False
 PMC9316859,liposome,gap,True,False,,True,True,True,False,False,True,True,False,True
+PMC11377347,inorganic,main,True,False,,True,True,True,False,False,True,True,False,True
+PMC11934984,LNP,main,True,False,,True,True,True,False,False,True,True,False,True

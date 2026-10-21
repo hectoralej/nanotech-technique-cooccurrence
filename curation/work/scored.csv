@@ -1,7 +1,7 @@
 pmcid,family,gate,same_sample,score,tier,s_micro,s_dls,s_zeta,s_link,s_batches,n_formulations,s_complementary,complementary,micro_kind,micro_variants
 PMC9177731,LNP,True,True,65,B,15,15,20,15,0,1,0,,cryo,cryoTEM
 PMC10674285,inorganic,False,False,20,fuera,15,0,0,0,0,0,5,UVVis(3)|EDS(1)|EDS(1),TEM,TEM_dried_unstained
-PMC12547751,polymeric,False,False,15,fuera,15,0,0,0,0,0,0,,TEM,TEM_dried_unstained
+PMC12547751,polymeric,False,False,45,fuera,15,20,0,0,10,12,0,,TEM,TEM_dried_unstained
 PMC11841042,LNP,False,False,18,fuera,15,0,0,0,0,0,3,NTA(3),cryo,cryoTEM
 PMC8004209,inorganic,False,False,56,fuera,0,20,20,0,10,6,6,UVVis(3)|UVVis(3),,
 PMC11644305,SLN_NLC,True,True,90,S,10,20,20,15,10,6,15,UVVis(1)|UVVis(1)|UVVis(1)|UVVis(1)|FTIR(3)|FTIR(3)|FTIR(3)|FTIR(3),TEM,TEM_prep_not_declared
@@ -178,3 +178,5 @@ PMC10136298,polymeric,True,True,85,S,15,20,20,8,10,11,12,FTIR(3)|XRD(3)|TGA(3)|T
 PMC10160449,SLN_NLC,True,True,80,A,15,20,20,15,10,11,0,,TEM,TEM_negstain|TEM_prep_not_declared
 PMC10295105,liposome,True,True,75,A,15,20,20,15,5,2,0,,cryo,cryoTEM
 PMC9316859,liposome,True,True,75,A,15,15,20,15,10,12,0,,TEM,TEM_negstain
+PMC11377347,inorganic,True,True,73,A,15,20,20,8,10,11,0,,SEM,SEM
+PMC11934984,LNP,True,True,75,A,15,20,20,15,5,3,0,,cryo,cryoTEM
