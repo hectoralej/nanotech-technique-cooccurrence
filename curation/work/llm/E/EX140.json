@@ -1,0 +1,358 @@
+{
+  "batch": "EX140",
+  "articles": [
+    {
+      "pmcid": "PMC9036744",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized Fe3O4-NPs",
+          "quote": "UV–Vis graphs showing different dilutions"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9400661",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PDMAC49-P(HBA-stat-DAAM)302 vesicles with silica nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM images recorded for DS-ADH crosslinked PDMAC49-P(HBA-stat-DAAM)302 vesicles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "vesicles loaded with silica nanoparticles",
+          "quote": "SAXS patterns recorded for a 1.0% w/w aqueous dispersion of PDMAC49-P(HBA-stat-DAAM)302 vesicles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9658858",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "AgNPs and CIP-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) SEM image of AgNPs; (b) SEM image of CIP-AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 33.5,
+          "pdi": null,
+          "zeta_mV": -14.5,
+          "medium": "not_declared",
+          "source": "text; average size and zeta potential",
+          "quote": "average size of the AgNPs from 33.5 nm to 98.32 nm",
+          "quote2": "zeta potential from −14.5 mV to +15.8 mV"
+        },
+        {
+          "sample": "CIP-AgNPs",
+          "size_nm": 98.32,
+          "pdi": null,
+          "zeta_mV": 15.8,
+          "medium": "not_declared",
+          "source": "text; average size and zeta potential",
+          "quote": "average size of the AgNPs from 33.5 nm to 98.32 nm",
+          "quote2": "zeta potential from −14.5 mV to +15.8 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "CIP, AgNPs and CIP-AgNPs",
+          "quote": "FTIR Spectra of CIP, AgNPs and CIP-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9229810",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "HRTEM",
+          "sample": "Ag-2 and Ag-20",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The HR-TEM micrographs of Ag-2 and Ag-20 samples."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "embedded Ag nanoparticles in Ag-20",
+          "size_nm": 10,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size upper bound",
+          "quote": "the average of the embedded nanoparticles seemed to be 3–10"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles supported on bio-based silica",
+          "quote": "XRD patterns of the prepared silver nanoparticles supported on bio-based silica."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6432388",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "MSN-OH and MSN-PDMAEMA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a) MSN-OH and (b) MSN-PDMAEMA"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN-OH",
+          "size_nm": 79.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; particle size",
+          "quote": "MSN-OH, 79.5 ± 15.5 nm"
+        },
+        {
+          "sample": "MSN-PDMAEMA",
+          "size_nm": 84.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; particle size",
+          "quote": "MSN-PDMAEMA, 84.6 ± 7.1 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-OH, MSN-Br, MSN-PDMAEMA and PDMAEMA",
+          "quote": "Fourier transform-infrared (FT-IR) spectra of (a) MSN-OH; (b) MSN-Br; (c) MSN-PDMAEMA; and (d) PDMAEMA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5599524",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "green-synthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images of synthesized silver nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized with R. acetosa leaf extract",
+          "quote": "XRD pattern of the crystal structure of the silver nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5541566",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1.",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au-NPs stabilized with Lx",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of Au-NPs stabilized with Lx."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Au-NPs stabilized by L1",
+          "size_nm": 12,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "n-heptane/AOT/water reverse micelles",
+          "source": "text; DLS size",
+          "quote": "the size value of the Au-NPs stabilized by L1 obtained from DLS technique was 12 ± 2 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2.",
+          "applies_to": "nanoparticle",
+          "sample": "Au-NPs stabilized by L1-L3",
+          "quote": "Absorption spectra of Au-NPs in presence sulphonated imidazolium salts"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5675726",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NPs of 7, 11 and 18 nm",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of NPs of 7 (a), 11 (b) and 18 nm (c) in diameter."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "NPs of 7, 11 and 18 nm",
+          "quote": "XRD spectra of NPs of 7 (a), 11 (b) and 18 nm (c) in diameter."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10747331",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "silver NPs obtained in OChT-12/24-R solution",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM (a) and HRTEM-images (b) of silver NPs obtained in OChT-12/24-R solution."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 68,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size range lower bound",
+          "quote": "The average size of AgNPs was 68–77 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "The evolution of the absorption spectra during Ag+ reduction."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6629650",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope image showing average diameters of AuNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; TEM average diameter",
+          "quote": "The AuNPs used in this study had an average diameter of 5 nm"
+        }
+      ],
+      "spectra": []
+    }
+  ]
+}

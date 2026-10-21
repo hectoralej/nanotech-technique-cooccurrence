@@ -1,0 +1,309 @@
+{
+  "batch": "EX144",
+  "articles": [
+    {
+      "pmcid": "PMC12656303",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Blank-NLCs and CUR-NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of CUR-NLCs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5618355",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gallic acid-intercalated Zn/Al-LDH/Gd nanoparticles coated with AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) micrograph (A)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "gallic acid and Au-coated LDH/Gd nanocomposites",
+          "quote": "X-ray diffractograms of"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12473073",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "chitosan (CS) nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of CS NPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS NPs, 2 µM protocol",
+          "size_nm": 125,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size",
+          "quote": "CS NPs with an average size of 125 nm after 30 min of stirring"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CS NPs",
+          "quote": "Raman spectra obtained from raw, unprocessed chitosan and differently sized CS NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12994587",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1.",
+          "variant": "SEM",
+          "sample": "CG- and nCG-liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (A) CG and (B) nCG"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CG",
+          "size_nm": 513,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; DLS hydrodynamic diameter",
+          "quote": "CG exhibited a hydrodynamic diameter (dH) of 513 nm due to aggregation"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 1.",
+          "applies_to": "mixture",
+          "sample": "CG encapsulated in liposome",
+          "quote": "Raman spectra of CG encapsulated in a liposome"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5020055",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "SEM",
+          "sample": "silver nanoparticles synthesized using C. tamala extract",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FEG-SEM of SNPs synthesized using C. tamala leaf extract"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SNPs",
+          "size_nm": 25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size range lower bound",
+          "quote": "with an average size ranging from ∼25–50 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "SNPs synthesized using C. tamala extract",
+          "quote": "UV-Vis spectra of SNP synthesized using C. tamala extract"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13441772",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "Exemestane-loaded PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM micrograph of freeze-dried Exemestane-loaded PLGA nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Exemestane-loaded PLGA nanoparticles",
+          "quote": "FTIR spectra confirming drug–polymer compatibility"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12192994",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DMPC liposomal formulations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs obtained for DMPC_Ctrl, DMPC_NMN, DMPC_Mgel, and DMPC_NMN_Mgel."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "DMPC_Ctrl, DMPC_NMN, DMPC_Mgel, DMPC_NMN_Mgel",
+          "quote": "EDS spectra obtained for DMPC_Ctrl, DMPC_NMN, DMPC_Mgel, and DMPC_NMN_Mgel."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12012204",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized AgNPs by T. funiculosus",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AgNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AgNPs",
+          "quote": "XRD Pattern"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12029633",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PLGA particles and PLGA/ZnO/IO composites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of PLGA particles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12135973",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "cryoTEM",
+          "sample": "PEGylated liposomes before and after DOX loading",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-EM images of the PEGylated liposomes as pristine and after DOX loading"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "pristine liposomes",
+          "quote": "SAXS data (from top down) of the three types of Pristine-18, -20 and -22 liposomes"
+        }
+      ]
+    }
+  ]
+}

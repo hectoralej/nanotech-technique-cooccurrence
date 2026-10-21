@@ -1,0 +1,305 @@
+{
+  "batch": "EX145",
+  "articles": [
+    {
+      "pmcid": "PMC6151007",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of silver nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "silver nanoparticles",
+          "size_nm": 11.83,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "caption; TEM average size",
+          "quote": "average size, 11.83 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver and PEG-coated silver nanoparticles",
+          "quote": "UV-vis spectrum of (a) silver nanoparticles and (b) poly(ethylene glycol) coated silver nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12304043",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "SEM",
+          "sample": "uncoated and lactose-coated NAC-PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Morphological characterization of developed (A) uncoated NAC-PLGA NPs by FE-SEM, (B) lactose-coated NAC-PLGA NPs by FE-SEM"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "NAC, PLGA and lactose-coated NAC-PLGA NPs",
+          "quote": "FTIR characterization of (A) NAC (drug), (B) PLGA (polymer), (C) NAC-PLGA-lactose (physical mixture)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12249999",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "DMPC and DOPC liposomal formulations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs (20,000×, 40,000×) obtained for DMPC_Ctrl, DMPC_CAF, DOPC_Ctrl, DOPC_HAMA"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "DMPC/DOPC formulations",
+          "quote": "EDS results obtained for DMPC_Ctrl, DMPC_CAF, DOPC_Ctrl, DOPC_HAMA"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6215593",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "green-synthesized silver and copper nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images of green-synthesized"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver and copper nanoparticles",
+          "quote": "UV-Vis spectra of (a) silver nanoparticles and (b) copper nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12378271",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS-S3 and CS-S3-DH nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (a) and (b) and particle-size distribution (c) and (d) of CS-S3 and CS-S3-DH nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "CS, SSMA and CS-S3",
+          "quote": "XRD analyses of (a) CS, (b) SSMA, and (c) CS-S3"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11941038",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "E-lips and β-lips with surface modifications",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images (c) of E-lips, E-CS-lips, E-CS-LF-lips"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "liposomal formulations",
+          "quote": "FTIR spectra of βC, CS, LF and E-lips"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4714747",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanoparticles dispersed in hexane",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of gold nanoparticles dispersed in hexane"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles dispersed in hexane",
+          "quote": "Visible absorption spectrum of gold nanoparticles dispersed in hexane"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12298364",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "FeONPs, Cur-FeONPs and IFNα-PLGANPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a) FeONPs, (b) Cur-FeONPs and (c) IFNα-PLGANPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Cur-FeONPs, FeONPs and IFNα-PLGANPs",
+          "quote": "FTIR spectra for (a) Cur-FeONPs, free Cur, and the uncoated FeONPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11868053",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "oligosaccharide nanoliposome",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscope images of oligosaccharide nanoliposome in magnifications of (A) 500 nm and (B) 1 µm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "mixture",
+          "sample": "free drug and drug-loaded liposome",
+          "quote": "FT-IR spectrum of free drug (A), drug-free liposome (B), Nanoliposome containing drug (C)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5302630",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "AgNWs-AgNPs-GN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "High resolution transmission electron microscopy (HRTEM) images of the AgNWs-AgNPs-GN"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "GO and AgNWs-AgNPs-GN",
+          "quote": "X-ray powder diffractometer (XRD) patterns of graphene oxide (GO) and AgNWs-AgNPs-GN"
+        }
+      ]
+    }
+  ]
+}

@@ -55,3 +55,79 @@
 - 2026-10-21 09:53 Phoenix — EX086 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
 - 2026-10-21 09:53 Phoenix — EX087 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
 - CHECKPOINT 40% (100/250 artículos; EX078–EX087): diez lotes guardados; todas las citas incluidas en los lotes 078–087 aparecen en los paquetes (≤25 palabras); orden de artículos correcto; no hay scale_bar_in_caption:false. No se ejecutó screen, packets, fetch ni apply.
+- 2026-10-21 09:59 Phoenix — EX088 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:59 Phoenix — EX089 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:59 Phoenix — EX090 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:59 Phoenix — EX091 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- 2026-10-21 09:59 Phoenix — EX092 — 10 artículos — JSON en orden; citas contrastadas con paquete (≤25 palabras), scale_bar_in_caption solo true/null.
+- CHECKPOINT 60% (150/250 artículos; EX078–EX092): quince lotes guardados; orden verificado, todas las citas coinciden con paquetes y tienen ≤25 palabras; no hay scale_bar_in_caption:false. No se ejecutó screen, packets, fetch ni apply.
+
+- 2026-10-21 10:03 Phoenix — EX094: output written and checked (10 articles in order; citations exact and ≤25 words; no scale_bar_in_caption=false).
+
+- 2026-10-21 10:03 Phoenix — EX094 citation validation completed after correction; all quotes exact and within 25 words.
+
+- 2026-10-21 10:06 Phoenix — Checkpoint 80%: EX078–EX097 completed (20/25 batches; 200/250 records), outputs checked for sequence, citation exactness/≤25 words, and prohibited false scale-bar values. Extraction only; no screen/packets/fetch/apply stages run.
+
+- 2026-10-21 10:08 Phoenix — EX098: output written; global checks passed (10 in order, citations verified, no false scale-bar value).
+
+- 2026-10-21 10:08 Phoenix — EX099: output written; global checks passed (10 in order, citations verified, no false scale-bar value).
+
+- 2026-10-21 10:08 Phoenix — EX100: output written; global checks passed (10 in order, citations verified, no false scale-bar value).
+
+- 2026-10-21 10:08 Phoenix — EX101: output written; global checks passed (10 in order, citations verified, no false scale-bar value).
+
+- 2026-10-21 10:08 Phoenix — EX102: output written; global checks passed (10 in order, citations verified, no false scale-bar value).
+
+- 2026-10-21 10:08 Phoenix — Checkpoint 100%: EX078–EX102 complete (25/25 batches; 250/250 articles). Global validation confirms outputs present, expected order/count, exact citations ≤25 words, no scale_bar_in_caption=false. Extraction only; no screen, packets, fetch, or apply stages executed.
+
+- 2026-10-21 10:39 Phoenix — EX128: written; 10 articles in order; citations checked against packets; no scale_bar_in_caption=false.
+
+- 2026-10-21 10:39 Phoenix — EX129: written; 10 articles in order; citations checked against packets; no scale_bar_in_caption=false.
+
+- 2026-10-21 10:39 Phoenix — EX130: written; 10 articles in order; citations checked against packets; no scale_bar_in_caption=false.
+
+- 2026-10-21 10:39 Phoenix — EX131: written; 10 articles in order; citations checked against packets; no scale_bar_in_caption=false.
+
+- 2026-10-21 10:39 Phoenix — EX132: written; 10 articles in order; citations checked against packets; no scale_bar_in_caption=false.
+
+- 2026-10-21 10:39 Phoenix — Checkpoint after EX128–EX132: 5/33 batches (50/330 articles); extraction only, no prohibited commands run.
+
+- 2026-10-21 10:49 Phoenix — EX133: salida revisada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 10:49 Phoenix — EX134: salida revisada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 10:49 Phoenix — EX135: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 10:49 Phoenix — EX136: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 10:49 Phoenix — EX137: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 10:49 Phoenix — Checkpoint EX133–EX137: 5 lotes / 50 artículos completados en este bloque; salida global EX128–EX137 (10/33 lotes). Extracción solamente; no se ejecutaron screen, packets, fetch ni apply. Hallazgo de estructura: EX152 contiene actualmente 3 registros, el rango EX128–EX160 suma 323 frente a 330 indicados en el brief.
+
+- 2026-10-21 11:00 Phoenix — EX138: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:00 Phoenix — EX139: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:00 Phoenix — EX140: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:00 Phoenix — EX141: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:00 Phoenix — EX142: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:00 Phoenix — Checkpoint EX138–EX142: 5 lotes / 50 artículos completados en este bloque; salida global EX128–EX142 (15/33 lotes). Extracción solamente; no se ejecutaron screen, packets, fetch ni apply.
+
+- 2026-10-21 11:11 Phoenix — EX143: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:11 Phoenix — EX144: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:11 Phoenix — EX145: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:11 Phoenix — EX146: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:11 Phoenix — EX147: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:11 Phoenix — Checkpoint EX143–EX147: 5 lotes / 50 artículos completados; salida global EX128–EX147 (20/33 lotes). Extracción solamente; no se ejecutaron screen, packets, fetch ni apply.
+
+- 2026-10-21 11:23 Phoenix — EX148: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:23 Phoenix — EX149: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:23 Phoenix — EX150: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:23 Phoenix — EX151: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:23 Phoenix — EX152: salida escrita y validada; 3 artículos disponibles en el lote actual.
+- 2026-10-21 11:23 Phoenix — Checkpoint EX148–EX152: 5 lotes procesados; 43 artículos en los archivos de lote de este bloque. Extracción solamente; no se ejecutaron screen, packets, fetch ni apply. El total actual del rango EX128–EX160 sigue en 323 (el brief prevé 330; EX152 aporta 3 artículos).
+
+- 2026-10-21 11:29 Phoenix — EX153: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:29 Phoenix — EX154: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:29 Phoenix — EX155: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:29 Phoenix — EX156: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:29 Phoenix — EX157: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:29 Phoenix — Checkpoint EX153–EX157: 5 lotes / 50 artículos completados; salida global EX128–EX157 (30/33 lotes). Extracción solamente; no se ejecutaron screen, packets, fetch ni apply.
+
+- 2026-10-21 11:35 Phoenix — EX158: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:35 Phoenix — EX159: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:35 Phoenix — EX160: salida escrita y validada; 10 artículos en orden, citas literales ≤25 palabras, sin scale_bar_in_caption=false.
+- 2026-10-21 11:35 Phoenix — Checkpoint final EX158–EX160. EX128–EX160: 33/33 lotes procesados; 323 registros según los lotes existentes. Verificación global: JSON válido, orden y conteos por lote coinciden, citas literales presentes en sus paquetes y ≤25 palabras, sin scale_bar_in_caption=false. No se ejecutaron screen, packets, fetch ni apply. El brief indica 330 artículos, pero EX152.json contiene solo 3; no se inventaron 7 registros faltantes.

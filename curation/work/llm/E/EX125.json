@@ -1,0 +1,121 @@
+{"batch":"EX125","articles":[
+{"pmcid":"PMC6036865","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"gold nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"a) SEM image of gold nanoparticles;"},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"bioreduced green synthesized gold nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b) TEM image of bioreduced green synthesized gold nanoparticles."}
+],
+"descriptors":[
+{"sample":"Au NPs","size_nm":null,"pdi":null,"zeta_mV":-41.4,"medium":"not_declared","source":"text","quote":"The results of zeta potential value for Au NPs obtained from A. bettzickiana leaves extract were found to be −41.4"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Au NPs","quote":"a) UV–vis spectrum of synthesized gold nanoparticles Alternanthera bettzickiana"},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Au NPs","quote":"b) XRD spectrum green synthesized gold nanoparticles"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Au NPs","quote":"c) EDAX spectrum shows presence elemental gold"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Au NPs","quote":"d) FTIR spectrum of green synthesized gold nanoparticles."}
+]},
+{"pmcid":"PMC6163711","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"Au NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of Au NPs in the presence of different volumes of the broth extract"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Au NPs (a)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of Au NPs treated for 1 h with (a) 3 mL of extract and 0.7ml HAuCl4·3H2O"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Au NPs","quote":"UV–visible spectra of Au nanoparticles (NPs) formed after 1 h"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Au NPs","quote":"X-ray diffraction (XRD) pattern of Au NPs synthesized using C. olitorius"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"capped Au NPs","quote":"Fourier-transform infrared (FTIR) spectra of (A) a plain mallow leaf and (B) capped Au NPs"}
+]},
+{"pmcid":"PMC6023009","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron micrographs showing the formation of spherical and pseudospherical nanoparticles."}
+],
+"descriptors":[
+{"sample":"AgNPs","size_nm":8.23,"pdi":null,"zeta_mV":-40.8,"medium":"not_declared","source":"text","quote":"with a hydrodynamic diameter of (±SD) 8.23 nm ± 0.91 nm and a zeta potential value of −40.80 mV ± 9.54 mV"},
+{"sample":"AgNPs + AMP","size_nm":4.69,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with a hydrodynamic diameter of 4.69 nm ± 0.51 nm"},
+{"sample":"AgNPs + AMK","size_nm":947.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with a hydrodynamic diameter of 947.90 nm ± 65.30 nm"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV–visible absorption spectra of silver nanoparticles and their combinations with antibiotics"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"mixture","sample":"AgNPs + AMP","quote":"FTIR spectra of the antibiotics and their combinations with silver nanoparticles"}
+]},
+{"pmcid":"PMC4848283","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"OAM-MNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b TEM image of OAM-MNPs."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Lf-M-PAEEP-PLLA-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"c TEM image of Lf-M-PAEEP-PLLA-NPs."}
+],
+"descriptors":[
+{"sample":"Lf-M-PAEEP-PLLA-NPs","size_nm":218.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"and Lf-M-PAEEP-PLLA-NPs were 8.6 ± 0.3, 165.7 ± 0.6, and 218.2 ± 0.4 nm"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Lf-M-PAEEP-PLLA-NPs","quote":"FTIR spectra of OAM-MNPs, M-PAEEP-PLLA-NPs, and Lf-M-PAEEP-PLLA-NPs"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Lf-M-PAEEP-PLLA-NPs","quote":"XRD curves of OAM-MNPs and Lf-M-PAEEP-PLLA-NPs"}
+]},
+{"pmcid":"PMC5318683","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"BRN capped Au-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"[A] BRN capped gold nanoparticles (BRN capped Au-NPs)"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"Au-BRN-LvN-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"[B] BRN capped gold nanoparticles conjugated with levofloxacin (Au-BRN-LvN-NPs)"}
+],
+"descriptors":[
+{"sample":"Au-BRN-LvN-NPs","size_nm":null,"pdi":null,"zeta_mV":-9.01,"medium":"not_declared","source":"text","quote":"The zeta potential of Au-BRN-LvN-NPs was found to be -9.01 mV and that of its unconjugated form 'BRN capped Au-NPs' -13.8 mV"},
+{"sample":"BRN capped Au-NPs","size_nm":null,"pdi":null,"zeta_mV":-13.8,"medium":"not_declared","source":"text","quote":"The zeta potential of Au-BRN-LvN-NPs was found to be -9.01 mV and that of its unconjugated form 'BRN capped Au-NPs' -13.8 mV"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Au-BRN-LvN-NPs","quote":"UV-visible absorption spectra of BRN capped gold nanoparticles conjugated with levofloxacin (Au-BRN-LvN-NPs)"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"component","sample":"Pure levofloxacin","quote":"Fourier transform infrared (FTIR) spectra of [A] Pure levofloxacin"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Au-BRN-LvN-NPs","quote":"[B] BRN capped gold nanoparticles conjugated with levofloxacin (Au-BRN-LvN-NPs)"}
+]},
+{"pmcid":"PMC4850392","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"CMT-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a,b) FE-SEM images of silver nanoparticles."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"CMT-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d,e) TEM images of AgNPs in low and high magnification."},
+{"fig":"Fig. 2","variant":"HRTEM","sample":"CMT-capped AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(f,g) High resolution TEM image demonstrating the lattice pattern"}
+],
+"descriptors":[
+{"sample":"CMT-capped AgNPs","size_nm":128,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average size measured from DLS was found to be 128 nm in terms of percent intensity distribution"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CMT-capped AgNPs","quote":"UV-Visible spectra of silver with concentration of silver nitrate (1 to 5 mM)"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CMT-capped AgNPs","quote":"(c) EDX pattern of silver nanoparticle."}
+]},
+{"pmcid":"PMC4794166","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"FITC/FA@[Fe3O4@Au] NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"B: TEM of FITC/FA@[Fe3O4@Au] NPs."},
+{"fig":"Fig. 1","variant":"SEM","sample":"FITC/FA@[Fe3O4@Au] NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"C: SEM of FITC/FA@[Fe3O4@Au] NPs."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"[Fe3O4@Au] NPs","quote":"The energy dispersive X-ray spectrum of [Fe3O4@Au] NPs."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SF-loaded FITC/FA@[Fe3O4@Au] NPs","quote":"The FT-IR spectra of free SF, FITC/FA@[Fe3O4@Au] NPs, and SF-loaded FITC/FA@[Fe3O4@Au] NPs"}
+]},
+{"pmcid":"PMC9648023","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"b TEM images of AuNPs"},
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"DOX-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"c DOX –AuNPs nanocomposite"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs","quote":"a UV- Visible Spectrum of spherical AuNPs"},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"DOX-AuNPs","quote":"FT-IR transmission spectrum of pure DOX (A), DOX - AuNPs (B)"}
+]},
+{"pmcid":"PMC9680518","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"MSN-FP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) SEM Image of MSN-FP"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"MSN-FP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(C) TEM images of MNS-FP"}
+],
+"descriptors":[
+{"sample":"MSN-FP","size_nm":400,"pdi":0.382,"zeta_mV":-10,"medium":"not_declared","source":"text","quote":"the hydrodynamic diameter of the MSN-FP was 400 nm with PDI of 0.382 and charge was −10 mV"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSN-FP","quote":"FTIR analysis of MSN, MSN-FP, MSN-FP-Nasal spray, poloxamer and FP."},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"MSN-FP","quote":"XRD patterns of MSN, poloxamer, CMC, MSN-FP and pure FP."}
+]},
+{"pmcid":"PMC9611363","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[],
+"descriptors":[
+{"sample":"AuNP","size_nm":23.93,"pdi":0.10,"zeta_mV":-14.7,"medium":"not_declared","source":"Table 1","quote":"AuNP | 23.93 | 0.10 | −14.7"},
+{"sample":"Hypericin-AuNP","size_nm":771.97,"pdi":0.64,"zeta_mV":-32.1,"medium":"not_declared","source":"Table 1","quote":"Hypericin-AuNP | 771.97 | 0.64 | −32.1"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Hyp-AuNP","quote":"UV-Vis characterization of Hyp-AuNP compound compared to AuNP surface plasmon resonance"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Hyp-AuNP","quote":"FTIR results of Hyp-AuNP compound, AuNP, and hypericin."}
+]}
+]}

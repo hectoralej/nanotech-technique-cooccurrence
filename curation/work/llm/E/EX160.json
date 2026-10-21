@@ -1,0 +1,281 @@
+{
+  "batch": "EX160",
+  "articles": [
+    {
+      "pmcid": "PMC8920399",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2.",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MITC NPs and HACE/MITC NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy image of nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1.",
+          "applies_to": "nanoparticle",
+          "sample": "HA-modified ceramide and MITC NPs",
+          "quote": "Ceramide modified by hyaluronic acid was characterized via Fourier transform infrared spectroscopy"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10674550",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag-Cell-NCMs and dye-adsorbed Ag-Cell-NCMs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Ag-Cell-NCMs (a), and Ag-Cell-NCM-adsorbed CV dye (b)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NPs fabricated by A. indica",
+          "quote": "The UV-Vis absorption spectra of Ag-NPs at different times"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9608470",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "void and CURC-loaded P123 micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM images of samples of void (a) and CURC-loaded P123 micelles (b)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "polymeric micelles with and without curcumin",
+          "quote": "FTIR spectra of polymeric micelles with and without encapsulated Curcumin"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8601793",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1.",
+          "variant": "TEM_prep_not_declared",
+          "sample": "penicillin SLNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Penicillin SLNs under a transmission electron microscope (TEM). (b) Penicillin SLNs particle size distribution diagram. Scar bar: 100 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "penicillin SLNs",
+          "size_nm": 112.3,
+          "pdi": 0.212,
+          "zeta_mV": -27.6,
+          "medium": "not_declared",
+          "source": "text; mean particle size",
+          "quote": "The PS, PI, and ZP of penicillin SLNs were 112.3 ± 11.9 nm, 0.212 ± 0.03, and −27.6 ± 5.5 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "penicillin SLN, F68 and ATO",
+          "quote": "X-ray diffraction (XRD) patterns."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6835524",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "thermosensitive liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images (a,b) of thermosensitive liposomes (TSLs)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC7796292",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "CXBiFe hybrid nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM and TEM images together with nanoparticle size histograms corresponding to samples"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CXBiFe samples",
+          "quote": "investigated samples through (I). XRD"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9610626",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank micelles and Dox-micelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Physical appearance and particle size distribution histogram from DLS, and morphology from TEM"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC8170742",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "SLN-DTX-Anis nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of SLN -DTX- Anis nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "Anisamide, spermine, DTX-SLN-Anis and blank SLN",
+          "quote": "FT-IR spectra of (A) Anisamide, (B) Spermine, (C) DTX-SLN-Anis"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6032249",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_negstain",
+          "sample": "PC liposomes at pH 7.4 and 5.0",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the PC liposomes after incubation at pH 7.4 (a) and pH 5.0 (b) for 24 h."
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC7854642",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "KIT-5-biguanidine-Au(0) nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the KIT-5-biguanidine-Au(0) nanocomposite."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "KIT-5, KIT-5-biguanidine and KIT-5-biguanidine-Au(0)",
+          "quote": "FT-IR spectra of (a) KIT-5, (b) KIT-5-biguanidine, and (c) KIT-5-biguanidine-Au(0)."
+        }
+      ]
+    }
+  ]
+}

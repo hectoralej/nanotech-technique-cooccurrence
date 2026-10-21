@@ -1,0 +1,269 @@
+{
+  "batch": "EX156",
+  "articles": [
+    {
+      "pmcid": "PMC9911601",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs stabilized in chitosan",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of AgNPs stabilized in Chitosan."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles stabilized in chitosan",
+          "quote": "UV–visible absorption spectrum of silver nanoparticles stabilized in Chitosan."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10850913",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "placebo and optimized ENZ-PLGA-PSAR-TPGS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (C) PLGA-PSAR-TPGS NPs (Placebo), (D) ENZ-PLGA-PSAR-TPGS"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "ENZ-PLGA-PSAR-TPGS NPs",
+          "quote": "FT-IR spectra of ENZ, PLGA, PSAR, TPGS"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7376178",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "m-DDSLNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of m-DDSLNs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "AmB, PM, GMS, PSLNs, DDSLNs, m-DDSLNs",
+          "quote": "FTIR spectra for AmB, PM, GMS, PSLNs, DDSLNs, m-DDSLNs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7035742",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "rosuvastatin liposomal NPs and chitosomes nano-formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of rosuvastatin liposomal NPs (a) and chitosomes nano-formulation (b)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "mixture",
+          "sample": "rosuvastatin, phospholipid, chitosan, liposomal NPs and chitosomes",
+          "quote": "Fourier-transformed infrared spectra of rosuvastatin, phospholipid, chitosan, liposomal NPs and chitosomes nano-formulation"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5525242",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "lignin nanoparticles in DLNPs/PVA and OLNPs/PVA films",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the cross section of a DLNPs/PVA and b OLNPs/PVA composite film with 4 wt% lignin nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "mixture",
+          "sample": "PVA and composite films containing lignin nanoparticles",
+          "quote": "FTIR spectra of neat PVA and the composite films with 4 wt% lignin nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7763337",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11417028",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "HNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(B) HNPs (400,00x)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "free Hes and HNPs",
+          "quote": "XRD diffractograms of free Hes and HNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7068958",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "Pluronic F127, Compritol, Span 80, docetaxel, Blank-SLN and SLN-DTX",
+          "quote": "Vibrational spectra in the infrared region of Pluronic F127, Compritol, Span 80, docetaxel, Blank-SLN and SLN-DTX."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7381745",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "FDPC-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of FDPC-NPs under 50-fold dilution"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "DPC-NPs",
+          "quote": "UV-vis spectral characteristics of the DPC-NPs self-assembly process"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10403506",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "cubosome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "cryoTEM",
+          "sample": "phytantriol cubosome stabilized with Pluronic F-127",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-EM and accompanying FFT analysis of LLC particles stabilised by Pluronic F-127."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "phytantriol cubosomes",
+          "quote": "SAXS results with a table comparing lattice parameters"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{"batch":"EX108","articles":[
+{"pmcid":"PMC9225580","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"Chi/Ag-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images (A,B), SAED pattern (C), DLS (D),and zeta potential (E) of Chi-Ag-NPs."},
+{"fig":"Fig. 3","variant":"SEM","sample":"Chi/Ag-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) SEM image and (B) EDX spectrum of prepared Chi/Ag-NPs."}],
+"descriptors":[
+{"sample":"Chi/Ag-NPs","size_nm":117.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The Chi/Ag-NPs produced were a polydispersed combination of spherical Chi/Ag-NPs with an average diameter of 117.6 nm (Figure 2D)."}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Chi/Ag NPs","quote":"FTIR spectrum (A) and XRD pattern (B) of Chi/Ag NPs."},
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Chi/Ag NPs","quote":"FTIR spectrum (A) and XRD pattern (B) of Chi/Ag NPs."},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Chi/Ag-NPs","quote":"(B) EDX spectrum of prepared Chi/Ag-NPs."}]},
+{"pmcid":"PMC8007807","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"CSNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Representative SEM image of chitosan nanoparticles."}],
+"descriptors":[
+{"sample":"Purified CSNP","size_nm":130,"pdi":0.21,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Purified CSNP | 130 ± 35.7 | 0.21 ± 0.043 | 3"},
+{"sample":"CSNPs dispersed in CS-PCL solution","size_nm":176,"pdi":0.19,"zeta_mV":null,"medium":"other","source":"Table 1","quote":"CSNPs dispersed in CS-PCL solution | 176 ± 27.6 | 0.19 ± 0.038 | 3"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CSNPs","quote":"FT-IR spectra of the samples: chitosan (a), CSNPs (b), PCL (c), and CSNPs/PCL 50/25 composite membrane (d)."}]},
+{"pmcid":"PMC9382538","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"PCSNs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of synthesized biotic superparamagnetic nanoparticles from Pouteria caimito fruit aqueous extract."}],
+"descriptors":[
+{"sample":"PCSNs","size_nm":null,"pdi":null,"zeta_mV":-13.7,"medium":"not_declared","source":"text","quote":"Zeta potential analysis of PCSNs showed the uniform surface charge distribution and designates the surface charge is equal to −13.7 mV."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"PCSNs","quote":"UV absorption spectroscopic image of synthesized biotic superparamagnetic nanoparticles from Pouteria caimito fruit aqueous extract"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"PCSNs","quote":"EDX image of synthesized biotic superparamagnetic nanoparticles from Pouteria caimito fruit aqueous extract."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"PCSNs","quote":"FTIR image of synthesized biotic superparamagnetic nanoparticles from Pouteria caimito fruit aqueous extract"}]},
+{"pmcid":"PMC7910951","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"nanoparticle","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b) (i) SEM (scanning electron microscopy) image of nanoparticle."}],
+"descriptors":[
+{"sample":"Formulation 1","size_nm":416.0,"pdi":0.503,"zeta_mV":-33.5,"medium":"water","source":"Table 2","quote":"F 1 | 3 | 2 | 416.0 | 0.503 | −33.5 ± 4.8 | 69.5"},
+{"sample":"Formulation 2","size_nm":318.4,"pdi":0.410,"zeta_mV":-30.3,"medium":"water","source":"Table 2","quote":"F 2 | 3 | 3 | 318.4 | 0.410 | −30.3 ± 3.9 | 65.7"},
+{"sample":"Formulation 3","size_nm":128.4,"pdi":0.219,"zeta_mV":-34.6,"medium":"water","source":"Table 2","quote":"F 3 | 3 | 5 | 128.4 | 0.219 | −34.6 ± 9.1 | 63.7"},
+{"sample":"Formulation 4","size_nm":110.0,"pdi":0.260,"zeta_mV":-38.5,"medium":"water","source":"Table 2","quote":"F 4 | 3 | 8 | 110.0 | 0.260 | −38.5 ± 4.8 | 34.9"},
+{"sample":"Formulation 5","size_nm":220.6,"pdi":0.560,"zeta_mV":-22.5,"medium":"water","source":"Table 2","quote":"F 5 | 3 | 10 | 220.6 | 0.560 | −22.5 ± 6.4 | 14.8"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"PEG-PCL-PEG","quote":"Fourier-transform infrared spectroscopy of PEG, ε-caprolactone and PEG-PCL-PEG (polyethylene glycol-polycaprolactone-polyethylene glycol)."}]},
+{"pmcid":"PMC7725814","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"SEM","sample":"FPEGSO-MLDH","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FESEM of (A) core–shell nanoparticles (FPEGSO-MLDH)"},
+{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"FPEGSO-MLDH","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Transmission electron micrographs for (A) core–shell nanoparticle (FPEGSO-MLDH) (50 nm bar)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"FPEGSO-MLDH","quote":"(E) core–shell nanoparticles (FPEGSO-MLDH)"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"FPVASO-MLDH","quote":"(E) core–shell nanoparticles (FPVASO-MLDH)"},
+{"technique":"EDS","fig":"Fig. 6","applies_to":"nanoparticle","sample":"FPEGSO-MLDH","quote":"(B) SEM–EDX spectra"}]},
+{"pmcid":"PMC8393993","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"RSGNP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of the (a) RSGNP, (b) OPE-RSGNP, (c) CSGNP, and (d) OPE-CSGNP."}],
+"descriptors":[
+{"sample":"RSGNP","size_nm":304.1,"pdi":0.395,"zeta_mV":-23.1,"medium":"not_declared","source":"Table 3","quote":"RSGNP | 304.1 ± 4.49 D | 0.395 ± 0.01 C | −23.1 ± 0.85 A"},
+{"sample":"OPE-RSGNP","size_nm":318,"pdi":0.514,"zeta_mV":-22.6,"medium":"not_declared","source":"Table 3","quote":"OPE-RSGNP | 318 ± 3.11 C | 0.514 ± 0.06 A | −22.6 ± 1.23 A"},
+{"sample":"CSGNP","size_nm":425.26,"pdi":0.485,"zeta_mV":-28.1,"medium":"not_declared","source":"Table 3","quote":"CSGNP | 425.26 ± 6.49 B | 0.485 ± 0.08 B | −28.1 ± 0.95 B"},
+{"sample":"OPE-CSGNP","size_nm":490,"pdi":0.483,"zeta_mV":-29.9,"medium":"not_declared","source":"Table 3","quote":"OPE-CSGNP | 490 ± 8.67 A | 0.483 ± 0.10 B | −29.9 ± 2.57 B"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"RSGNP","quote":"FTIR spectra of the (a) OPE, RSG, RSGNP, OPE-RSGNP, (b) OPE, CSG, CSGNP and OPE-CSGNP."}]},
+{"pmcid":"PMC7763323","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"C Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy(SEM) images of synthesized Ag NPs from Catharanthus roseus"},
+{"fig":"Fig. 5","variant":"SEM","sample":"A Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) images of synthesized Ag NPs from Azadirachta indica"},
+{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"C Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of biosynthesized silver nanoparticles from (A) Catharanthus roseus"}],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"C Ag NPs","quote":"(A) X-ray diffraction (XRD) analysis of Catharanthus roseus silver nanoparticles (C Ag NPs)"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"C Ag NPs","quote":"(B) FTIR spectra of Catharanthus roseus silver nanoparticles (C Ag NPs)"},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"C Ag NPs","quote":"energy dispersive X-ray (EDX) spectrum of C Ag NPs"}]},
+{"pmcid":"PMC8308158","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"Se@TMZ/Eud-Cs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM images of (A) SNPs, (B) Se@TMZ/Eud, and (C) Se@TMZ/Eud-Cs."}],
+"descriptors":[
+{"sample":"SNPs","size_nm":169,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"SNPs and Se@TMZ/Eud-Cs exhibited an average diameter of 169 and 228 nm, respectively."},
+{"sample":"Se@TMZ/Eud-Cs","size_nm":228,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"SNPs and Se@TMZ/Eud-Cs exhibited an average diameter of 169 and 228 nm, respectively."}],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Se@TMZ/Eud-Cs","quote":"EDAX spectra obtained for Se@TMZ/Eud-Cs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Se@TMZ/Eud-Cs","quote":"FTIR spectra of: (A) Se@TMZ/Eud-Cs, (B) SNPs, (C) Eud, (D) Cs, and (E) TMZ."}]},
+{"pmcid":"PMC8402186","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"silver nanocomposites","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of concentrated (~2300 ppm (a) and diluted (~50 ppm) (b) silver nanocomposites"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"silver nanocomposites","quote":"(a) UV–visible spectrum of the nanoparticle dispersion."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"silver nanocomposites","quote":"the XRD pattern of highly crystalline synthesized silver nanocomposites"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"silver nanocomposites","quote":"(e) EDS pattern of synthesized silver nanocomposites"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"silver nanocomposites","quote":"FTIR spectrum of synthesized silver nanocomposites."}]},
+{"pmcid":"PMC7914360","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_negstain","sample":"Py-TPE/siRNA@PMP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(D) TEM image of Py-TPE/siRNA@PMP. Scale bar: 100 nm."}],
+"descriptors":[
+{"sample":"Py-TPE/siRNA@PMP","size_nm":null,"pdi":null,"zeta_mV":15.81,"medium":"not_declared","source":"text","quote":"The zeta potentials of Py-TPE/siRNA@PMP, Py-TPE@PMP, Py-TPE/siRNA@PM, Py-TPE@PM, PMP and PM were 15.81 mV, 22.83 mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Py-TPE/siRNA@PMP","quote":"(A) UV-Vis absorption spectra of Py-TPE/siRNA@PMP, Py-TPE@PMP, Py-TPE/siRNA@PM, Py-TPE@PM, PMP and PM."}]}
+]}

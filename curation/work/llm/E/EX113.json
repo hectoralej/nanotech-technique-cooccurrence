@@ -1,0 +1,116 @@
+{"batch":"EX113","articles":[
+{"pmcid":"PMC6829902","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"SEM","sample":"UV PET95:5:0.5","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of (a) UV PET100:0:0.5, (b) UV PET95:5:0.5, (c) γ60 PET100:0:50, and (d) γ60 PET90:10:30."},
+{"fig":"Fig. 7","variant":"SEM","sample":"fiber PET-fabric","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images of fiber PET-fabric: (a) Unmodified PET, (b) and (c) UV PET95:5:0.5"},
+{"fig":"Fig. 9","variant":"SEM","sample":"surface of UV PET95:5:0.5","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM images, EDS mapping of silver, and EDS spectrum from PET fabric modified with hydrogel and AgNPs"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"unclear","sample":"UV PET95:5:0.5 67% hydrogel","quote":"FTIR-ATR spectra of (a) unmodified PET, (b) UV PET95:5:0.5 67% hydrogel"},
+{"technique":"EDS","fig":"Fig. 9","applies_to":"nanoparticle","sample":"PET fabric modified with hydrogel and AgNPs","quote":"SEM images, EDS mapping of silver, and EDS spectrum from PET fabric modified with hydrogel and AgNPs"}]},
+
+{"pmcid":"PMC6459462","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"HRTEM","sample":"gold nanospheres","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"HR-TEM images of gold nanospheres. The scale bars represent a 5 nm, b 20 nm, c 20 nm, and d 5 nm."},
+{"fig":"Fig. 5","variant":"HRTEM","sample":"gold nanostars","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"HR-TEM images of gold nanostars. The scale bars represent a 200 nm, b 50 nm, and c 5 nm."},
+{"fig":"Fig. 6","variant":"HRTEM","sample":"gold nanorods","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"HR-TEM images of gold nanorods. The scale bars represent a 100 nm, b 200 nm, and c 5 nm."}],
+"descriptors":[
+{"sample":"nanospheres without chitosan","size_nm":28.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Without chitosan capping, the hydrodynamic sizes of nanospheres and nanostars were 28.4 and 97.8 nm, respectively."},
+{"sample":"nanostars without chitosan","size_nm":97.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Without chitosan capping, the hydrodynamic sizes of nanospheres and nanostars were 28.4 and 97.8 nm, respectively."},
+{"sample":"nanospheres with chitosan","size_nm":190.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"With chitosan capping, the hydrodynamic size was increased to 190.7 nm for nanospheres and to 123.9 nm for nanostars."},
+{"sample":"nanostars with chitosan","size_nm":123.9,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"With chitosan capping, the hydrodynamic size was increased to 190.7 nm for nanospheres and to 123.9 nm for nanostars."},
+{"sample":"nanospheres without chitosan","size_nm":null,"pdi":null,"zeta_mV":-12.73,"medium":"not_declared","source":"text","quote":"For the nanospheres, the zeta potential was altered from − 12.73 to 42.28 mV."},
+{"sample":"nanospheres with chitosan","size_nm":null,"pdi":null,"zeta_mV":42.28,"medium":"not_declared","source":"text","quote":"For the nanospheres, the zeta potential was altered from − 12.73 to 42.28 mV."},
+{"sample":"nanostars without chitosan","size_nm":null,"pdi":null,"zeta_mV":-42.46,"medium":"not_declared","source":"text","quote":"The zeta potential of the nanostars was altered from − 42.46 to 47.44 nm."},
+{"sample":"nanostars with chitosan","size_nm":null,"pdi":null,"zeta_mV":47.44,"medium":"not_declared","source":"text","quote":"The zeta potential of the nanostars was altered from − 42.46 to 47.44 nm."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"nanospheres","quote":"b UV-visible spectra of nanospheres before and after chitosan capping"},
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"gold nanospheres","quote":"FT-IR spectra of a green tea extract used for synthesis and b gold nanospheres"}]},
+
+{"pmcid":"PMC6667606","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"TEM_dried_unstained","sample":"Acyl-CO-AuNPs and CO-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs from a 4.7 nm acylated chitosan AuNPs, b 3.5 nm chitosan AuNPs (0.1 M NaBH4)"}],
+"descriptors":[
+{"sample":"CO-AuNPs","size_nm":null,"pdi":null,"zeta_mV":43.3,"medium":"not_declared","source":"Table 2","quote":"COa | 534 | 43.3 | 36.9 | 3.492 ± 1.343"},
+{"sample":"Acyl-CO-AuNPs","size_nm":null,"pdi":null,"zeta_mV":40.2,"medium":"not_declared","source":"Table 2","quote":"Acyl-COb | 507 | 40.2 | 34.4 | 4.659 ± 1.975"},
+{"sample":"COS@1","size_nm":null,"pdi":null,"zeta_mV":52.2,"medium":"not_declared","source":"Table 2","quote":"COS@1c | 533 | 52.2 | 44.9 | 7.385 ± 2.427"},
+{"sample":"COS@2","size_nm":null,"pdi":null,"zeta_mV":55.3,"medium":"not_declared","source":"Table 2","quote":"COS@2d | 530 | 55.3 | 46.9 | 15.642 ± 3.541"},
+{"sample":"COS@3","size_nm":null,"pdi":null,"zeta_mV":51.6,"medium":"not_declared","source":"Table 2","quote":"COS@3e | 535 | 51.6 | 44.9 | 10.061 ± 4.727"},
+{"sample":"COS@4","size_nm":null,"pdi":null,"zeta_mV":46.3,"medium":"not_declared","source":"Table 2","quote":"COS@4f | 536 | 46.3 | 31.6 | 13.992 ± 3.984"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"CO-AuNPs","quote":"UV-Vis spectra for nanocomposites. Values in the insets correspond to the maximum wavelength of the localized surface plasmon resonance."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"component","sample":"chitosan, acyl-chitosan, chitosan oligosaccharide","quote":"FT-IR spectra of chitosan, acyl-chitosan, and chitosan oligosaccharide."}]},
+
+{"pmcid":"PMC7023053","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"taurine-capped AuNPs λmax515 nm","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Taurine-capped AuNPs with λmax515 nm had an average diameter of 6.9 nm, as shown in (A)."}],
+"descriptors":[
+{"sample":"taurine-capped AuNPs λmax515 nm","size_nm":73.09,"pdi":0.38,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"average hydrodynamic radius and PDI for the nanoparticles absorbing at λmax515 and λmax545 nm were 73.09 nm (PDI: 0.38) and 106.8 nm (PDI: 0.16)"},
+{"sample":"taurine-capped AuNPs λmax545 nm","size_nm":106.8,"pdi":0.16,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"average hydrodynamic radius and PDI for the nanoparticles absorbing at λmax515 and λmax545 nm were 73.09 nm (PDI: 0.38) and 106.8 nm (PDI: 0.16)"},
+{"sample":"taurine-capped AuNPs λmax515 nm","size_nm":null,"pdi":null,"zeta_mV":-32.5,"medium":"not_declared","source":"text","quote":"The taurine-capped gold nanospheres (λmax515 nm and λmax545 nm) showed negative zeta potential values of −32.5 and −40.5 mV"},
+{"sample":"taurine-capped AuNPs λmax545 nm","size_nm":null,"pdi":null,"zeta_mV":-40.5,"medium":"not_declared","source":"text","quote":"The taurine-capped gold nanospheres (λmax515 nm and λmax545 nm) showed negative zeta potential values of −32.5 and −40.5 mV"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 7","applies_to":"nanoparticle","sample":"taurine-capped gold nanospheres","quote":"XRD pattern of the taurine-capped gold nanospheres index at (111), (200), (220) and (311)"},
+{"technique":"Raman","fig":"Fig. 6","applies_to":"nanoparticle","sample":"λmax515 nm and λmax545 nm gold nanospheres","quote":"showed the Raman spectra of the λmax515 nm and λmax545 nm gold nanospheres capped with taurine"}]},
+
+{"pmcid":"PMC6981428","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"colloidal silver solution","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscope images of the colloidal silver solution."},
+{"fig":"Fig. 7","variant":"SEM","sample":"Ag/CS/SBA-15 nanofibers","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Representative SEM images of the electrospun nanofibers."},
+{"fig":"Fig. 8","variant":"HRTEM","sample":"AgNP extracted from composites","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) The HRTEM image of selected AgNP with visible lattice planes (111) and the interplanar spacing (d111 = 0.236 nm)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"silver nanoparticle colloidal solutions","quote":"(A) UV-Vis absorption spectra of silver nanoparticle colloidal solutions (freshly prepared and after storage for 24 h)"},
+{"technique":"SAXS","fig":"Fig. 3","applies_to":"mixture","sample":"Ag/CS/silica composites","quote":"Experimental small angle X-ray scattering (SAXS)profiles for Ag/CS/silica composites"},
+{"technique":"XRD","fig":"text","applies_to":"nanoparticle","sample":"Ag/CS/silica nanofiber composites","quote":"The wide-angle XRD patterns recorded for nanocomposites revealed the presence of intense diffraction peaks"}]},
+
+{"pmcid":"PMC6470966","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"SPIONs and SPION@HP","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images (a,b,d,e) and particle size distributions (c,f) of SPIONs (a–c) and SPION@HP (d–f), respectively (scale bar = 200 nm and 100 nm)."}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SPION@HP","quote":"FT-IR spectra of heparin (a); Poloxamer (b); HP (c); SPIONs (d); and SPION@HP (e)."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"SPION@HP and SPIONs","quote":"XRD patterns (a) and magnetization curves (b) of SPION@HP (i) and SPIONs (ii)."}]},
+
+{"pmcid":"PMC6745189","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"HRTEM","sample":"MG-MSN","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) HR-TEM micrograph of MG-MSN and (B) in vitro release profile of MG from MG-MSN."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MG-MSN","quote":"UV-vis absorption spectra of free MG and MG-MSN."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MG-MSN","quote":"FTIR analyses of MG encapsulated MSN, in comparison with MSN and free MG."}]},
+
+{"pmcid":"PMC6487423","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"AP-MSN solid dispersion","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (a) raw AP, (b) MSN and (c) AP-MSN solid dispersion"},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AP-MSN solid dispersion","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) MSN and (b) AP-MSN solid dispersion"}],
+"descriptors":[
+{"sample":"AP-MSN solid dispersion","size_nm":49,"pdi":0.113,"zeta_mV":-15.0,"medium":"not_declared","source":"text","quote":"The AP-MSN solid dispersion particle size, zeta potential, and polymer dispersity index were 49 nm, -15.0 mV, and 0.113, respectively."}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AP-MSN solid dispersion","quote":"FTIR spectra of the samples. (a) raw AP, (b) MSN, (c) AP-MSN solid dispersion, (d) physical mixture of AP/MSN 1:1"},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AP-MSN solid dispersion","quote":"XRD patterns of the samples. (a) Raw AP, (b) MSN, (c) AP-MSN solid dispersion, (d) physical mixture of AP/MSN 1:1"}]},
+
+{"pmcid":"PMC8622407","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"CGNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron images of (a1,a2) GNPs at different magnifications and (b1,b2) CGNPs at different magnifications."},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"GNPs and CGNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM Micrograph images of GNPs (a1,a2) and CGNPs (b1,b2)."}],
+"descriptors":[
+{"sample":"GNPs","size_nm":51.59,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Z-average size by DLS for GNPs and CGNPs was estimated as 51.59 and 95.07 nm, respectively (Figure 3)."},
+{"sample":"CGNPs","size_nm":95.07,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"Z-average size by DLS for GNPs and CGNPs was estimated as 51.59 and 95.07 nm, respectively (Figure 3)."},
+{"sample":"GNPs","size_nm":null,"pdi":null,"zeta_mV":-16.6,"medium":"not_declared","source":"text","quote":"Zeta potential of GNPs and CGNPs was found to be −16.6 and −25.7 mV, respectively"},
+{"sample":"CGNPs","size_nm":null,"pdi":null,"zeta_mV":-25.7,"medium":"not_declared","source":"text","quote":"Zeta potential of GNPs and CGNPs was found to be −16.6 and −25.7 mV, respectively"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CGNPs","quote":"UV-Visible spectrophotometric characterization of GNPs and CGNPs."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"CGNPs","quote":"FTIR spectra of (a) pure ceftriaxone and (b) CGNPs."}]},
+
+{"pmcid":"PMC8073043","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"BSA-Silver NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Physical characterizations of BSA-Silver NPs: (A) representative TEM images,"},
+{"fig":"Fig. 4","variant":"TEM_posstain","sample":"BSA-Silver NPs in B16F10 cells","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"BIO-TEM examination of BSA-Silver NPs: (A) B16F10 cells without treatment; cells incubated with BSA-Silver NPs for (B) 1 h or (C) 4 h."}],
+"descriptors":[
+{"sample":"BSA-Silver NPs","size_nm":121.2,"pdi":0.095,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the mean hydrodynamic size of the NPs was 121.2 (±43) nm (PDI: 0.095)"},
+{"sample":"BSA-Silver NPs","size_nm":null,"pdi":null,"zeta_mV":-31.3,"medium":"not_declared","source":"text","quote":"while the zeta potential was −31.3 (±5.3) mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"BSA-Silver NPs","quote":"The representative surface plasmon resonance peak of silver NPs was observed at 420 nm from the BSA-Silver NPs’ UV-VIS spectrum."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"BSA-Silver NPs","quote":"the peaks at 1530 and 1640 cm−1 responsible for the amide bonds in the BSA verified the presence of the BSA coating"}]}
+]}

@@ -1,0 +1,268 @@
+{
+  "batch": "EX150",
+  "articles": [
+    {
+      "pmcid": "PMC12469702",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTEG30 and PTEG30-co-PPMAn polymers",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) PTEG30, (b) PTEG30-co-PPMA30"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5361116",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Dop-TMSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of Dop-TMSNs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "TMSNs and Dop-TMSNs",
+          "quote": "FT-IR spectra of the TMSNs and Dop-TMSNs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12566698",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "zein polymeric nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of zein polymeric nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5572432",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Nanomag-D-SPIO and SPIONs-C595",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images of (A) Nanomag®-D-SPIO and (B) SPIONs-C595."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPIONs-C595",
+          "size_nm": 87.4,
+          "pdi": 0.3,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; z-average hydrodynamic diameter",
+          "quote": "The z-average hydrodynamic diameter of nanoparticle was increased after conjugation with C595 mAb to 87.4±0.7 nm with a polydispersity index of 0.3"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "SPIONs-C595",
+          "quote": "X-ray diffraction pattern of SPIONs-C595."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6070787",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HMSN loaded with sodium phosphomolybdate",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM, TEM, and EDS images and spectrums obtained on HMSN loaded with sodium phosphomolybdate"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PMA template spheres",
+          "size_nm": 150,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; diameter",
+          "quote": "PMA spheres to be used as core templates were effectively synthesised as monodisperse spherical nanoparticles with a diameter of around 150 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6117648",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiQDs@Isoc@MNs nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM (A,B) and SEM (D) images of SiQDs@Isoc@MNs nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12989150",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank AgNPs and amoxicillin-loaded AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission Electron Microscopy (TEM) images of nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13393022",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "spherical nanoparticles",
+          "size_nm": 14.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; SEM mean diameter",
+          "quote": "SEM images (Figure B) revealed predominantly spherical nanoparticles with an average diameter of 14.7 ± 4.2 nm (n = 100)"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13029097",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNP-C250 and AgNP-A1000",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "FTIR of silver nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13032946",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Moringa Oleifera-loaded AgNPs (MO-AgNPs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM of Moringa Oleifera -loaded silver nanoparticle (MO-AgNPs)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "green-synthesized AgNPs using Moringa Oleifera extract",
+          "quote": "UV-visible spectroscopy of green synthesized silver nanoparticles using Moringa Oleifera leaves extract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "batch": "EX138",
+  "articles": [
+    {
+      "spectra": [
+        {
+          "quote": "βCD-AgNPs LSPR absorbances recorded at λmax = 384 nm",
+          "technique": "UVVis",
+          "sample": "βCD-AgNPs",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle"
+        },
+        {
+          "quote": "X-ray diffraction of βCD-AgNPs.",
+          "technique": "XRD",
+          "sample": "βCD-AgNPs",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 1",
+          "quote": "HRTEM micrograph of a typical 50 nm βCD-AgNPs",
+          "sample": "βCD-AgNPs",
+          "variant": "HRTEM",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; DLS size",
+          "size_nm": 52.0,
+          "quote": "The DLS size is found to be 52.0 nm/dimeter",
+          "sample": "βCD-AgNPs",
+          "medium": "not_declared"
+        }
+      ],
+      "pmcid": "PMC8399024"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "UV-Vis spectral analysis of synthesized (A) AgNPs of strawberry and (B) AgNPs of ginger methanolic extracts.",
+          "technique": "UVVis",
+          "sample": "strawberry and ginger AgNPs",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 1",
+          "quote": "TEM analysis for the shape and size of the synthesized AgNPs",
+          "sample": "strawberry and ginger extract AgNPs",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [
+        {
+          "quote": "mean sizes 5.89 nm and 5.77 nm for strawberry and ginger, respectively",
+          "pdi": null,
+          "size_nm": 5.89,
+          "quote2": "Zeta potential values of the AgNPs of the methanolic extract of strawberry were −39.4 mV",
+          "medium": "not_declared",
+          "zeta_mV": -39.4,
+          "sample": "strawberry AgNPs",
+          "source": "text; TEM size and zeta potential"
+        },
+        {
+          "quote": "mean sizes 5.89 nm and 5.77 nm for strawberry and ginger, respectively",
+          "pdi": null,
+          "size_nm": 5.77,
+          "quote2": "for AgNPs of ginger methanolic extract it was −42.6 mV",
+          "medium": "not_declared",
+          "zeta_mV": -42.6,
+          "sample": "ginger AgNPs",
+          "source": "text; TEM size and zeta potential"
+        }
+      ],
+      "pmcid": "PMC8300822"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "SAXS patterns recorded in situ during the aqueous emulsion polymerization of TFEMA",
+          "technique": "SAXS",
+          "sample": "PTFEMA/silica nanocomposite particles",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Fig. 1",
+          "quote": "plus TEM images",
+          "sample": "PTFEMA/silica nanocomposite particles",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP"
+      },
+      "descriptors": [],
+      "pmcid": "PMC8565378"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "ATR-FTIR spectra of gold nanoparticles (AuNPs, right Y-axis) and carbon nanotube samples (CNTs, left Y-axis).",
+          "technique": "FTIR",
+          "sample": "AuNPs",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [],
+      "pmcid": "PMC9231238"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "FTIR spectra of both bare heparin (A), silica (B), SiO2−Hep_1 (C), SiO2−Hep_3 (D), and SiO2−Hep_5 (E) hybrid nanoparticles.",
+          "technique": "FTIR",
+          "sample": "SiO2-Hep hybrid nanoparticles",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 1",
+          "quote": "TEM micrographs of SiO2-Hep_1 (A,B), SiO2-Hep_2 (C,D), SiO2-Hep_3 (E,F).",
+          "sample": "SiO2-Hep hybrid nanoparticles",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; DLS mean hydrodynamic diameter",
+          "size_nm": 90,
+          "quote": "DLS analysis showed a mean hydrodynamic diameter of about 90 nm in the case of the SiO2-Hep_3 sample",
+          "sample": "SiO2-Hep_3",
+          "medium": "not_declared"
+        }
+      ],
+      "pmcid": "PMC9460005"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "FTIR spectra of the glass slide, hydrophilic silica, polyacrylic acid and coating with particle loading 95 vol. %.",
+          "technique": "FTIR",
+          "sample": "glass slide, hydrophilic silica and polyacrylic acid coating",
+          "fig": "Figure 3",
+          "applies_to": "mixture"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": false,
+          "fig": "Figure 4",
+          "quote": "SEM images of coatings with particle loading (vol. %)",
+          "sample": "silica/polyacrylic acid coatings",
+          "variant": "SEM",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; particle size",
+          "size_nm": 22,
+          "quote": "particle size of the silica in the colloidal solution is around 22 nm",
+          "sample": "silica in colloidal solution",
+          "medium": "colloidal solution"
+        }
+      ],
+      "pmcid": "PMC9655888"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "UV-vis spectra of the as-prepared m-CS and AuNP/m-CS nanocomposites.",
+          "technique": "UVVis",
+          "sample": "AuNP/m-CS nanocomposites",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 1",
+          "quote": "Typical TEM images and (d) corresponding AuNP size distribution of 0.1 mM AuNP/m-CS, 1.0 mM AuNP/m-CS, and 2.0 mM AuNP/m-CS nanocomposites.",
+          "sample": "AuNP/m-CS nanocomposites",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; TEM size",
+          "size_nm": 11.1,
+          "quote": "11.1 ± 3.1, 12.4 ± 3.5, and 12.6 ± 2.8 nm",
+          "sample": "AuNP/l-CS",
+          "medium": "not_declared"
+        },
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; TEM size",
+          "size_nm": 12.4,
+          "quote": "11.1 ± 3.1, 12.4 ± 3.5, and 12.6 ± 2.8 nm",
+          "sample": "AuNP/m-CS",
+          "medium": "not_declared"
+        }
+      ],
+      "pmcid": "PMC9611015"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "UV-VIS absorption spectrum for the AgNPs at different concentrations.",
+          "technique": "UVVis",
+          "sample": "Geranium AgNPs",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 1",
+          "quote": "micrographs of the AgNPs obtained with the Geranium extract",
+          "sample": "Geranium-extract AgNPs",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; average diameter",
+          "size_nm": 38.5,
+          "quote": "produced nanoparticles with an average diameter of 38.5 ± 18.5 nm",
+          "sample": "Geranium AgNPs",
+          "medium": "not_declared"
+        }
+      ],
+      "pmcid": "PMC10096921"
+    },
+    {
+      "spectra": [
+        {
+          "quote": "FTIR spectra of gentamicin sulfate (GS), SiO2 NPs (sample G0), and silica-gentamicin nanostructured solution (sample G1)",
+          "technique": "FTIR",
+          "sample": "gentamicin sulfate, SiO2 NPs and silica-gentamicin solution",
+          "fig": "Figure 1",
+          "applies_to": "mixture"
+        }
+      ],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 3",
+          "quote": "TEM images of SiO2 NPs (sample G0) and silica-gentamicin nanostructured solution (sample G1), obtained as dispersions.",
+          "sample": "SiO2 NPs and silica-gentamicin nanostructured solution",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP"
+      },
+      "descriptors": [],
+      "pmcid": "PMC8074919"
+    },
+    {
+      "spectra": [],
+      "panels": [
+        {
+          "shows_nanocarrier": true,
+          "fig": "Figure 2",
+          "quote": "Typical TEM image for oxidative firing samples (80:20)",
+          "sample": "AuAg nanoparticles in oxidative-fired glaze",
+          "variant": "TEM_prep_not_declared",
+          "scale_bar_in_caption": null
+        }
+      ],
+      "context": {
+        "virus_or_pcr": false,
+        "nanocarrier_is_object_of_study": true,
+        "article_kind": "research",
+        "carrier_type": "nanomaterial"
+      },
+      "descriptors": [
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; TEM mean core size",
+          "size_nm": 9.9,
+          "quote": "showing a wide distribution of NP sizes with an average diameter of 9.9 ± 8.8 nm",
+          "sample": "oxidative-fired AuAg NPs",
+          "medium": "not_declared"
+        },
+        {
+          "zeta_mV": null,
+          "pdi": null,
+          "source": "text; TEM mean core size",
+          "size_nm": 12.7,
+          "quote": "showing a wide distribution of NP sizes with an average diameter of 12.7 ± 12 nm",
+          "sample": "reductive-fired AuAg NPs",
+          "medium": "not_declared"
+        }
+      ],
+      "pmcid": "PMC8401758"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "batch": "EX157",
+  "articles": [
+    {
+      "pmcid": "PMC6516671",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "rGO-AuNP nanocomposites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of CAG vs. rGO-AuNP nanocomposites."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Fig 4",
+          "applies_to": "nanoparticle",
+          "sample": "CAG composite, GO and graphite",
+          "quote": "Raman spectra of synthesized nanocomposite CAG, GO and graphite."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11676632",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC7593694",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Cs-SLN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image of Cs-SLN with 200 nm magnification."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "GMS, PM, AmB, Cs and Cs-SLN",
+          "quote": "FTIR Spectra of GMS, PM, AmB, Cs, Cs-SLN."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9565570",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "cryoTEM",
+          "sample": "CHX liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-electron microscopic images showing the surface morphology of CHX liposomes."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "plain CHX and CHX liposomal formulation",
+          "quote": "FTIR spectroscopic results."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10179555",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "LNP-F3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "LNP-F3 surface morphology evaluated by SEM analysis; scale bar: 300 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "RSV and lipid formulations",
+          "quote": "X-ray diffractograms of (A) pure RSV"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7072962",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "HRTEM",
+          "sample": "CTR-gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "High resolution transmission electron microscopy (HR-TEM) images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CTR-GNPs",
+          "quote": "X-ray dispersion (XRD) pattern"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10982938",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "AMP-NP and NorChit-NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Negative staining TEM micrographs of (A) AMP-NP and (B) NorChit-NP (scale bars: 50 nm)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "NorChit-NP and AMP-NP",
+          "quote": "Raman spectroscopy spectra of NorChit-NP and AMP-NP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8399280",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "L-NLC, CT-NLC and N-NLC",
+          "quote": "Raman spectra of L-NLC, CT-NLC, and N-NLC."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "L-NLC, CT-NLC and N-NLC",
+          "quote": "XRD spectra of representative samples L-NLC, CT-NLC, and N-NLC."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9415452",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "liposomes and nanocochleates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) liposomes and (b) nanocochleates."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "liposomes and nanocochleates",
+          "quote": "Energy-dispersive X-ray spectra (counts vs. energy) of (a) liposomes and (b) nanocochleates."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10346814",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized lignin nanoparticles from rice husk",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph (B), and particle size distribution from SEM micrograph (C) of the optimized lignin nanoparticles from rice husk"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "mixture",
+          "sample": "polylactic acid-based composite films with lignin",
+          "quote": "Fourier-transform infrared spectra of polylactic acid (PLA)-based composite films with 10% of lignin."
+        }
+      ]
+    }
+  ]
+}

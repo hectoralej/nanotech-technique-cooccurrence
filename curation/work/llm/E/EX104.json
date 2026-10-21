@@ -1,0 +1,112 @@
+{"batch":"EX104","articles":[
+{"pmcid":"PMC9146234","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_dried_unstained","sample":"LH-AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of LH-AuNPs showed spherical or hexagonal shapes with lattice fringes s with sizes ranging from 5 to 30 nm"}
+],
+"descriptors":[
+{"sample":"LH-AuNPs","size_nm":null,"pdi":null,"zeta_mV":-26.1,"medium":"buffer","source":"text","quote":"The zeta potential of the LH-AuNPs was −26.1 mV ± 0.2 mV; the suspension of LH-AuNPs in a buffer formed a stable colloid"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"LH-AuNPs","quote":"(A) UV–Vis spectrum of LH-AuNPs."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"LH-AuNPs","quote":"XRD spectrum recorded for LH-AuNPs showed clear peaks of cubic phases"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"LH-AuNPs","quote":"FTIR spectrum of LH-AuNPs exhibited two peaks related to OH/NH and C=O groups."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"LH-AuNPs","quote":"EDX spectrum of the biosynthesized AuNPs showed strong signals in the gold region"}
+]},
+{"pmcid":"PMC9300829","context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+"panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC9607875","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 8","variant":"SEM","sample":"Ag and Cu particle-coated cotton fibres","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM analysis of (A) untreated cotton, (B) cotton treated with citric acid, (C1) phytochemicals-coated, (D1) copper particle-coated, and (E1) silver particle-coated cotton fibres"}
+],
+"descriptors":[
+{"sample":"silver nanoparticles","size_nm":600,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The average particle sizes found for silver and copper were 600 and 500 nm, respectively."},
+{"sample":"copper nanoparticles","size_nm":500,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The average particle sizes found for silver and copper were 600 and 500 nm, respectively."},
+{"sample":"extracted phytochemicals","size_nm":312,"pdi":null,"zeta_mV":-41.6,"medium":"water","source":"text","quote":"The average particle size and zeta potential of the extracted phytochemicals were about 312 nm and −41.6 mV"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"mixture","sample":"cotton fabrics","quote":"FTIR spectra of untreated cotton, cotton treated with citric acid, and cotton treated with phytochemicals."},
+{"technique":"XRD","fig":"Fig. 7","applies_to":"mixture","sample":"silver-coated and copper-coated cotton","quote":"XRD analysis: (a) silver-coated cotton and (b) copper-coated cotton."},
+{"technique":"EDS","fig":"Fig. 8","applies_to":"mixture","sample":"phytochemical-, copper- and silver-coated cotton","quote":"with EDX spectra of (C2) phytochemical-coated, (D2) copper particle-coated, and (E2) silver particle-coated cotton fibres."}
+]},
+{"pmcid":"PMC9413267","context":{"article_kind":"research","carrier_type":"micelle","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"PLGA–PEG–PLGA hydrogel (20 wt%)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Cryo-SEM analysis of 20 wt% PLGA–PEG–PLGA blend samples demonstrates the creation of a distinctive hydrogel mesh structure at 37 °C."}
+],
+"descriptors":[
+{"sample":"PLGA–PEG–PLGA spherical micelles","size_nm":37.92,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the Z–mean size of the spherical micelles is about 37.92 nm"}
+],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 6","applies_to":"mixture","sample":"micro-TMZ@PLGA–PEG–PLGA hydrogel","quote":"XRD data for TMZ, micro-TMZ, PLGA–PEG–PLGA hydrogel (blank) and micro-TMZ@PLGA–PEG–PLGA hydrogel (100 mg/mL)"}
+]},
+{"pmcid":"PMC9656711","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM analysis of AgNPs (a) SEM (b) Particle size distribution."}
+],
+"descriptors":[
+{"sample":"AgNPs","size_nm":28.32,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Fig. 3","quote":"the average size of AgNPs is 28.32 nm"}
+],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"EDX Analysis of AgNPs (left) EDX spectrum (right) EDX micrograph."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD Analysis of AgNPs."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AgNPs","quote":"FT-IR Analysis of AgNPs."}
+]},
+{"pmcid":"PMC9573385","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_dried_unstained","sample":"chitosan nanoparticles (CSNPs)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image (a); histogram of the particle size distribution of synthesized chitosan nanoparticles (CSNPs)"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CSNPs","quote":"FT-IR spectra of chitosan and prepared chitosan nanoparticles."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"mixture","sample":"cotton fabrics treated with CSNPs","quote":"FT-IR spectra of untreated cotton fabrics, cotton fabrics treated with CSNPs, Acid Blue 317 dyed and treated cotton fabrics"}
+]},
+{"pmcid":"PMC6805850","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"biosynthesized silica NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of biosynthesized silica NPs using wheat husk ash."}
+],
+"descriptors":[
+{"sample":"biogenic nanosilica","size_nm":20,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average particle size of the majority of nanosilica particles is approximately around 20 nm."}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"biogenic silica NPs","quote":"UV-vis absorption spectrum of biogenic silica NPs synthesized using wheat husk ash."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"amorphous green silica NPs","quote":"XRD pattern of amorphous green silica NPs fabricated using wheat husk ash."}
+]},
+{"pmcid":"PMC6993129","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"TEM_dried_unstained","sample":"CP-PPA, CROSS-CP-PPA, CPS-HMP and CROSS-CPS-HMP NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (A) CP-PPA NPs, (B) CROSS-CP-PPA NPs, (C) CPS-HMP NPs, and (D) CROSS-CPS-HMP NPs."}
+],
+"descriptors":[
+{"sample":"C-TPP","size_nm":205.4,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"C-TPP | Size (nm) | 205.4 ± 3.8"},
+{"sample":"C-PPA","size_nm":118.0,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"C-PPA | Size (nm) | 118.0 ± 2.4"},
+{"sample":"C-HMP","size_nm":458.8,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"C-HMP | Size (nm) | 458.8 ± 21.5"},
+{"sample":"CP-TPP","size_nm":148.3,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"CP-TPP | Size (nm) | 148.3 ± 11.2"},
+{"sample":"CP-PPA","size_nm":133.5,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"CP-PPA | Size (nm) | 133.5 ± 8.0"},
+{"sample":"CP-HMP","size_nm":415.4,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"CP-HMP | Size (nm) | 415.4 ± 16.7"},
+{"sample":"CPS-TPP","size_nm":156.6,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"CPS-TPP | Size (nm) | 156.6 ± 3.3"},
+{"sample":"CPS-PPA","size_nm":120.6,"pdi":null,"zeta_mV":null,"medium":"water","source":"Table 3","quote":"CPS-PPA | Size (nm) | 120.6 ± 3.3"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"unclear","sample":"chitosan, derivatives and NPs","quote":"IR spectrums of unmodified parent chitosan, corresponding derivatives, and NPs (ionotropically and covalently crosslinked)."}
+]},
+{"pmcid":"PMC9064276","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"GNPs stabilized with 1 and 5 mM l-ascorbic acid","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of aqueous colloidal suspension of GNPs stabilized with (a) 1, (b) 5 mM l-ascorbic acid"}
+],
+"descriptors":[
+{"sample":"PVP–GNP1","size_nm":20,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PVP–GNP1 | 1.0 | 545 | 17 | 20"},
+{"sample":"PVP–GNP2","size_nm":16,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PVP–GNP2 | 2.5 | 531 | 14 | 16"},
+{"sample":"PVP–GNP3","size_nm":11,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PVP–GNP3 | 5.0 | 525 | 9 | 11"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"GNP colloidal suspension and PVP–GNP thin films","quote":"UV-visible spectra of l-ascorbic acid-stabilized (a) GNP colloidal suspension and (b) PVP–GNP thin films"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"mixture","sample":"PVP and GNP thin films","quote":"XRD patterns of (a) PVP and thin films implanted with GNPs stabilized with (b) 1, (c) 2.5 and (d) 5 mM l-ascorbic acid."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"GNPs stabilized with l-ascorbic acid","quote":"FT-IR spectra of pure l-ascorbic acid and GNPs stabilized with 1, 2.5 and 5 mM l-ascorbic acid."}
+]},
+{"pmcid":"PMC8464825","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"optimal H/CS/PLGA NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of the optimal H/CS/PLGA NPs formulation."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"H/CS/PLGA NPs","quote":"ATR-FTIR spectra of HARF (A), blank formulation (CS/PLGA NPs; (B)), and optimized H/CS/PLGA NPs formulation (C)."}
+]}
+]}

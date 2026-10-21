@@ -1,0 +1,66 @@
+{
+  "batch": "EX152",
+  "articles": [
+    {
+      "pmcid": "PMC12412931",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "lab-scale and upscaled AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of lab-scale and upscaled AuNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig 3",
+          "applies_to": "mixture",
+          "sample": "AuNPs, TMM extract and chitosan",
+          "quote": "FTIR spectra of AuNPs and their individual constituents"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12679589",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP colloidal solutions",
+          "quote": "Characterization of the as-prepared AgNPs colloidal solutions"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11829840",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

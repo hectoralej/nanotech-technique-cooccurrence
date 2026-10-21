@@ -1,4 +1,4 @@
-# Punto de reinicio (21 de octubre, mediodía). Lee esto primero.
+﻿# Punto de reinicio (21 de octubre, mediodía). Lee esto primero.
 
 ## Quién es quién
 Héctor (dueño, decide), Bryan (usa Claude, descarga figuras y define el esquema), Carlos (usa Codex, verifica a mano; lee GitHub pero no escribe), ChatGPT/Codex «Luna» (extractor con acceso a archivos locales), Claude (orquesta, verifica con código, corre agentes Haiku). Héctor prefiere respuestas en español, concisas, con checkpoints, y que se pida visto bueno antes de gastar mucho.
@@ -11,9 +11,9 @@ Hackatón: el video se entrega el **domingo 25 de octubre, 5:45 pm (Costa Rica)*
 2. **Conjunto ampliado para imágenes** (nuevo): regla flexible = micrografía + (descriptor nanométrico o espectro FTIR/XRD/UV-Vis/SAXS/EDS/Raman). Categorías E1 (micrografía+descriptor+espectro) y E2. `categoria_uso`: `nanoportador` o `nanomaterial` (síntesis verde, comerciales; lignina = polimérica). Solo CC BY/CC0. Código: `curation/extended.py` (`rank`, `fetch`, `screen`, `packets`, `export`, `apply`). Salidas: `curation/ext_articulos.csv`, `ext_paneles.csv` (con archivo de imagen), `ext_descriptores.csv`, `ext_espectros.csv`.
 
 ## Estado del conjunto ampliado
-- `python -m curation.extended apply` → **723 artículos leídos: E1 484, E2 205, no 34; 2 citas rechazadas**; 886 paneles, 1.097 descriptores, 1.467 espectros.
+- `python -m curation.extended apply` → **1.233 artículos leídos: E1 730, E2 425, no 78; 2 citas rechazadas**; 1.488 paneles, 1.649 descriptores, 2.395 espectros (21 oct, tarde).
 - Descarga de textos terminada (2.435/2.435). Lotes de 10 artículos: EX001–EX185 (EX001–EX054 y EX068–EX152 y EX153–EX185 son E1; EX055–EX067 son E2). `work/ext/exportados.csv` es la fuente de verdad.
-- **Reparto:** Codex hizo EX001–EX036 y está haciendo EX078–EX102 (`BRIEF_CODEX_CORRIDA_3.md`, va por ~50 %); Claude hizo EX037–EX051, EX052–EX054 y EX068–EX077. **Por repartir:** EX103–EX185 y EX055–EX067.
+- **Reparto:** Codex hizo EX001–EX036 y está haciendo EX078–EX102 (`BRIEF_CODEX_CORRIDA_3.md`, va por ~50 %); Claude hizo EX037–EX054, EX068–EX077 y EX103–EX127 (hecho). Codex: EX078–EX102 y EX128–EX160 (`BRIEF_CODEX_CORRIDA_4.md`). **Por repartir:** EX161–EX185 y EX055–EX067.
 - Flujo: Haiku (o Codex) lee `work/ext/batches/EX###.json` + `packets/` y escribe `work/llm/E/EX###.json` según `curation/prompts/extended_schema.md`; `apply` verifica citas (aproximadas ≥90; etiquetas cortas solo literales) y que los números existan en el artículo.
 - Costo medido: Haiku ≈ 8–9 mil tokens por artículo (≈ 2,3 M tokens para 250 artículos hoy; 5 % del límite semanal). Hacer checkpoints a 20/40/60/80 % y revisar `get_usage` entre tandas.
 
@@ -30,3 +30,4 @@ Hackatón: el video se entrega el **domingo 25 de octubre, 5:45 pm (Costa Rica)*
 - Todo modelo se parte **por artículo** (`pmcid`). Sin AAV ni virus.
 - Los nombres de los límites de uso: el semanal se reinició el 21 oct (7:00 UTC); el de 5 horas se reinicia a las 21:10 UTC.
 - Si el equipo se duerme se detienen las descargas y las sesiones: conectar el cargador y desactivar la suspensión.
+

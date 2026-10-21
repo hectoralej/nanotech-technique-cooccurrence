@@ -1,0 +1,296 @@
+{
+  "batch": "EX155",
+  "articles": [
+    {
+      "pmcid": "PMC11570291",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "GO, GO-Asp and GO-Asp-Fe3O4",
+          "quote": "FT-IR absorption spectra of GO, GO-Asp, and GO-Asp-Fe3O4."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "GO-Asp and GO-Asp-Fe3O4",
+          "quote": "Raman spectra of GO-Asp and GO-Asp-Fe3O4."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6209991",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MPA-capped CdTe/CdSe/ZnSe quantum dots",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image (A). SAED (B), EDX spectrum (C) and XRD spectra (D)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CdTe/CdSe/ZnSe quantum dots",
+          "size_nm": 3.75,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; calculated particle size range lower bound",
+          "quote": "ranges from 3.75–4.28 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "quantum dots",
+          "quote": "EDX spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9570096",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DXI-loaded nanostructured lipid carriers",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Transmission electron microscopic images of DXI-loaded nanostructured lipid carriers (DXI-NLC) with 500 nm and 200 nm scale."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "DXI-NLC, DXI and empty NLC",
+          "quote": "X-ray diffractogram pattern of DXI-NLC, DXI and empty NLC."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11852597",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "nano pH sensor",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of the nano pH sensor"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "pyranine-loaded nano pH sensor",
+          "quote": "Ultraviolet–visible absorption spectra of pyranine unloaded nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7913486",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AST-SLN and AST-SSLN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images of (a) AST-SLN and (b) AST-SSLN."
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11940450",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "CP/CS/AgNPs and sensor surfaces",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the (a) CP-, (b) CP/CS-, (c) CP/CS/AgNPs-, and (d) CP/CS/AgNPs/MPBA-based sensor surfaces."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CP, CP/CS, CP/CS/AgNPs, CP/CS/AgNPs/MPBA surfaces",
+          "quote": "EDX spectra of (a) CP, (b) CP/CS, (c) CP/CS/AgNPs, and (d) CP/CS/AgNPs/MPBA surfaces."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5750030",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1.",
+          "applies_to": "nanoparticle",
+          "sample": "MAC, Gn-PPI and GnM",
+          "quote": "FTIR spectra of MAC, Gn-PPI and GnM (n = 2, 3, 4, 5)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7560103",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "orobol-loaded formulations F1 to F4",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological shapes of the orobol-loaded formulations (F1 to F4) observed by transmission electron microscopy (TEM)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "orobol and lyophilized SLNs",
+          "quote": "X-ray diffraction patterns (relative intensity) of the orobol, solid lipids"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8675807",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "epirubicin-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanned electron micrograph of epirubicin‐loaded liposomes"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "F8 liposome formulation",
+          "size_nm": 234,
+          "pdi": 0.22,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; mean average size and PDI",
+          "quote": "F8 is the best formulation with a minimum average size of 234 ± 9.86 nm and acceptable PDI of 0.22 ± 0.05"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "mixture",
+          "sample": "components and liposomal formulations",
+          "quote": "Fourier transform‐infrared spectra of different components and formulations."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6946659",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "cubosome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank and coated/uncoated CIS, PAX and DUAL cubosomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images for morphological analysis of cubosomes."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "blank, free cisplatin, free paclitaxel, coated and uncoated cubosomes",
+          "quote": "X-ray diffractograms of blank, free cisplatin, free paclitaxel, coated and uncoated CIS, PAX, and DUAL cubosomes."
+        }
+      ]
+    }
+  ]
+}

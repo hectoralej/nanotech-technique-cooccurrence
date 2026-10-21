@@ -1,0 +1,319 @@
+{
+  "batch": "EX141",
+  "articles": [
+    {
+      "pmcid": "PMC5438326",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "KIT-6 and CMK-8 materials",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "High-magnification TEM images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "KIT-6 and CMK-8",
+          "quote": "Small-angle XRD patterns"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13610103",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DG-COS NPs and HNK/DG-COS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images of DG-COS NPs and HNK/DG-COS NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DG-COS NPs",
+          "size_nm": 110.3,
+          "pdi": null,
+          "zeta_mV": 25.3,
+          "medium": "not_declared",
+          "source": "text; DLS hydrated particle size",
+          "quote": "hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm",
+          "quote2": "with zeta potentials of 25.3 ± 0.6 mV and 34.6 ± 1.0 mV"
+        },
+        {
+          "sample": "HNK/DG-COS NPs",
+          "size_nm": 198.5,
+          "pdi": null,
+          "zeta_mV": 34.6,
+          "medium": "not_declared",
+          "source": "text; DLS hydrated particle size",
+          "quote": "hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm",
+          "quote2": "with zeta potentials of 25.3 ± 0.6 mV and 34.6 ± 1.0 mV"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12896970",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscopy (TEM) images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "quote": "X-ray diffraction (XRD) patterns of LUT-Lip and LUT-P-Lip"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13033468",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "piracetam-loaded solid lipid nanoparticle-2 (PSLN-2)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "A Scanning electron microscopy (SEM) of piracetam loaded solid lipid nanoparticle-2 (PSLN-2) with a magnification of 204 × (Scale 200 nm)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "piracetam and excipients / loaded solid lipid nanoparticles",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) analysis of piracetam, polylactic-co-glycolic acid (PLGA)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13609942",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized 5% LAE-LBN formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative transmission electron microscopy (TEM) image of the optimized 5% LAE-LBN formulation, demonstrating uniformly dispersed spherical nanoparticles. Scale bar = 50 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "LAE-LBNs and blank nanocarrier",
+          "quote": "Fourier-transform infrared (FTIR) spectra of (A) aqueous LAE used as the reference (LAE-Aq), (B) the blank nanocarrier"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5588630",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "cobalt ferrite NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of cobalt ferrite NPs synthesized hydrothermally"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CoFe2O4@Met NPs",
+          "quote": "EDX spectrum"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CoFe2O4@Met–Au nanoparticles",
+          "quote": "Absorption spectra of methionine (1), tetrachlorauric acid (2)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6403993",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "nHAP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Characterization of nHAP by SEM (bar = 20 μm)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHAP",
+          "quote": "Characterization of nHAP by SEM (bar = 20 μm)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13609951",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Lipo and Lipo-Cur",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Lipo and Lipo-Cur"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Lipo",
+          "size_nm": 126.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; DLS mean particle size",
+          "quote": "DLS measurements showed mean particle sizes of 126.2 nm for Lipo and 134.8 nm for Lipo-Cur"
+        },
+        {
+          "sample": "Lipo-Cur",
+          "size_nm": 134.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; DLS mean particle size",
+          "quote": "DLS measurements showed mean particle sizes of 126.2 nm for Lipo and 134.8 nm for Lipo-Cur"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13115488",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative TEM micrographs at magnifications of 25,000× (a) and 50,000× (b) with corresponding scale bars of 200 and 100 nm, respectively."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "raw materials, nanoparticles, and nanoparticle-embedded thermosensitive gels",
+          "quote": "Raman spectrum peaks of raw materials, nanoparticles, and nanoparticle-embedded thermosensitive gels."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13325854",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "mRNA-LNP formulation",
+          "size_nm": 60,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "storage buffers",
+          "source": "text; DLS and cryo-TEM particle-size range lower bound",
+          "quote": "Dynamic light scattering (DLS) and cryo-TEM revealed particle sizes in the range of 60–120 nm"
+        }
+      ],
+      "spectra": []
+    }
+  ]
+}

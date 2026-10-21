@@ -45,3 +45,18 @@ Tanda 5 hecha: EX073-EX077. Mis 25 lotes (250 articulos) completos: EX037-EX051 
 
 ## Checkpoint Claude 100 % (21 oct)
 Tanda 5 hecha: EX073-EX077. Mis 25 lotes (250 articulos) completos: EX037-EX051 y EX068-EX077 (~2,3 M tokens de Haiku, 5 % del limite semanal). apply ahora salta filas que no son objetos. Siguiente: verificar EX078-EX102 de Codex, repartir EX103-EX185 y EX055-EX067.
+
+## Checkpoint Claude 20 % (EX103-EX127, 21 oct)
+Tanda 1 hecha: EX103-EX107 (50 articulos, ~420 mil tokens de Haiku). apply: 953 articulos leidos (E1 562, E2 333, no 58), 2 citas rechazadas (sin nuevas). Uso: semanal 6 %, 5 horas 45 %. Siguiente: tanda 2 = EX108-EX112.
+
+## Checkpoint Claude 40 % (EX103-EX127, 21 oct)
+Tanda 2 hecha: EX108-EX112 (50 articulos, ~400 mil tokens). apply: 1.023 articulos leidos (E1 605, E2 353, no 65), 2 citas rechazadas (sin nuevas). Uso: semanal 7 %, 5 horas 48 %. Siguiente: tanda 3 = EX113-EX117.
+
+## Checkpoint Claude 60 % (EX103-EX127, 21 oct)
+Tanda 3 hecha: EX113-EX117 (50 articulos, ~410 mil tokens). apply: 1.103 articulos leidos (E1 646, E2 384, no 73), 2 citas rechazadas (sin nuevas). Uso: semanal 7 %, 5 horas 51 %. Siguiente: tanda 4 = EX118-EX122, luego EX123-EX127.
+
+## Checkpoint Claude 80 % (EX103-EX127, 21 oct)
+Tanda 4 hecha: EX118-EX122 (50 articulos, ~430 mil tokens). apply: 1.153 articulos leidos (E1 675, E2 403, no 75), 2 citas rechazadas (sin nuevas). Uso: semanal 7 %, 5 horas 53 %. Falta la tanda 5 = EX123-EX127.
+
+## Checkpoint Claude 100 % (EX103-EX127, 21 oct)
+Tanda 5 hecha: EX123-EX127. Mis 25 lotes (250 articulos) completos: EX103-EX127 (~2,1 M tokens de Haiku). apply: 1.233 articulos leidos (E1 730, E2 425, no 78), 2 citas rechazadas (sin nuevas); 1.488 paneles, 1.649 descriptores, 2.395 espectros (incluye lo que Codex lleva de EX078-EX102). Uso: semanal 8 %, 5 horas 56 %. Siguiente: verificar EX078-EX102 y EX128-EX160 (Codex); quedan por repartir EX161-EX185 (E1) y EX055-EX067 (E2).

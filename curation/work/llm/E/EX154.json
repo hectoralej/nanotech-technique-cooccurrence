@@ -1,0 +1,300 @@
+{
+  "batch": "EX154",
+  "articles": [
+    {
+      "pmcid": "PMC7599702",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag-NPs derived from endophytic S. laurentii R-1",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission eelectron microscopy (TEM) image showing the spherical shape with sizes ranging from 7 to 15 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag-NPs",
+          "size_nm": 11,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "caption; TEM size range midpoint",
+          "quote": "sizes ranging from 7 to 15 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-NPs",
+          "quote": "Ultraviolet-visible (UV-vis) spectroscopic analysis"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5717630",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3.",
+          "applies_to": "nanoparticle",
+          "sample": "loaded chitosan nanoparticles",
+          "quote": "XRD plot of (i) pure chitosan powder, (ii) niclosamide drug alone, (iii) loaded chitosan nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6627627",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PT-NLC and P-PT-NLC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images of PT-NLC (a) and P-PT-NLC (b)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "PT-NLC and P-PT-NLC",
+          "quote": "powder X-ray diffraction"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11055082",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Mg0.75Ca0.25Fe2O4 nanocubes and gold nanorods",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of Mg0.75Ca0.25Fe2O4 nanocubes and (b) respective size histogram"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Mg0.75Ca0.25Fe2O4 nanoparticles",
+          "quote": "X-ray diffractogram of Mg0.75Ca0.25Fe2O4 nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11547690",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "blank lipid nanoparticles",
+          "size_nm": 88.09,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text; particle size",
+          "quote": "particle sizes of blank lipid nanoparticles (B/LNPs) and E-T/LNPs in water were 88.09 ± 0.15 nm and 77.80 ± 1.01 nm"
+        },
+        {
+          "sample": "E-T/LNPs",
+          "size_nm": 77.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "text; particle size",
+          "quote": "particle sizes of blank lipid nanoparticles (B/LNPs) and E-T/LNPs in water were 88.09 ± 0.15 nm and 77.80 ± 1.01 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5869654",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs and GO-Ag composites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope (TEM) images of pristine silver nanoparticles (Ag NPs)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "GO and GO-Ag composites",
+          "quote": "The XRD graph of GO, GO–SH, GO-Ag 0.1 M"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6468524",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "carbon nanodots (CNDTs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of CNDTs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CNDTs",
+          "quote": "Raman spectrum of CNDTs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8831049",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 10",
+          "variant": "TEM_prep_not_declared",
+          "sample": "optimized RBO-NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of optimized RBO-NLCs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 11",
+          "applies_to": "mixture",
+          "sample": "pure RBO and RBO-NLCs",
+          "quote": "p-XRD of (a) pure RBO and (b) RBO-NLCs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8978894",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_dried_unstained",
+          "sample": "MnFe2O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Typical TEM image of an aqueous (ammonium sulfate buffer) dispersion of MnFe2O4 NPs dried on the surface of a TEM sample holder"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MnFe2O4 NPs",
+          "size_nm": 14.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "aqueous buffer",
+          "source": "text; log-normal fit mean diameter",
+          "quote": "their mean diameter was estimated as 14.4 ± 5.2 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11031593",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "lignin nanoparticles (LNPs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of micropore formation in PL (a, b, and c) versus LNP (d, e, and f)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "PL and LNPs",
+          "quote": "FT-IR analysis of functional groups in PL and LNPs."
+        }
+      ]
+    }
+  ]
+}

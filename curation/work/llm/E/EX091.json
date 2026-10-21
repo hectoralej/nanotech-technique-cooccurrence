@@ -1,0 +1,338 @@
+{
+  "batch": "EX091",
+  "articles": [
+    {
+      "pmcid": "PMC9181961",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "S and S-DA nano-silica",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images for S (a) and S-DA (b)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "S",
+          "size_nm": 35,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "a very narrow particle size distribution of S around 35 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "S and S-DA",
+          "quote": "Characterization of S and S-DA by XRD"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "S and S-DA",
+          "quote": "FTIR spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6539362",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PAMAM G4.0 and oil/PAMAM G4.0",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of polyamidoamine dendrimer PAMAM G4.0 (A) and oil/PAMAM G4.0 (B)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "oil/PAMAM G4.0",
+          "quote": "FT-IR spectra of (a) oil/PAMAM G4.0"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9958700",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "H@Ag-NPs and H@Au-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM micrographs of H@Ag-NPs (A,B) and H@Au-NPs (C,D)"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "H@Ag-NPs and H@Au-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy micrographs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "H@Ag-NPs and H@Au-NPs",
+          "quote": "UV-Vis spectroscopy graphs of H@Ag-NPs and H@Au-NPs synthesized by Haloxylon salicornicum."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "H@Ag-NPs and H@Au-NPs",
+          "quote": "XRD graphs of H@Ag-NPs (A) and H@Au-NPs (B)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6523103",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10055761",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "MIO-NPs and NCPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of (a) cellulose, (b) MIO-NPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "MIO-NPs and NCPs",
+          "quote": "FTIR spectra of cellulose-SCB, cellulose-WTP, MIO-NPs, WTP/MIO-NCPs, and SCB/MIO-NCPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "MIO-NPs and NCPs",
+          "quote": "XRD patterns of cellulose-WTP, cellulose-SCB, SCB/MIO-NCPs, WTP/MIO-NCPs, and MIO-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7404285",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of the gold nanoparticles obtained from the dendrimer compound 4 at different magnifications."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Au NPs",
+          "quote": "The visible spectrum of the colloidal suspension of Au NPs in water"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles",
+          "quote": "EDX spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8494549",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "LAAgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM micrograph of synthesised LAAgNPs (5%)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "LAAgNPs",
+          "quote": "UV-Vis spectrum of LAAgNPs at various concentrations."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "LAAgNPs",
+          "quote": "XRD graph of synthesised LAAgNPs (5%)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "LAAgNPs",
+          "quote": "FTIR–ATR graph of synthesised LAAgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7231721",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1:",
+          "variant": "SEM",
+          "sample": "chitosan nanoparticle",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of synthesized chitosan nanoparticle"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2:",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "Analysis of Chitosan Nanoparticles Using FTIR"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7871398",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CHX-loaded/MSN and CHX-loaded/MSN-PLGA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image for CHX-loaded/MSN"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CHX-loaded/MSN",
+          "size_nm": 98,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "A significant reduction in z-average diameter from ∼98 to ∼84 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "CHX-loaded/MSN",
+          "quote": "Raman spectra of all synthesized nanoparticles MSN, PLGA and pure chlorhexidine powder are shown"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "component",
+          "sample": "CHX, MSN, and PLGA",
+          "quote": "The FTIR spectra of pure CHX, synthesized MSN and PLGA has been shown for reference."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7863965",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

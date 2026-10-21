@@ -1,0 +1,428 @@
+{
+  "batch": "EX092",
+  "articles": [
+    {
+      "pmcid": "PMC7058794",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM analysis depicting shape and size of as-synthesized AgNPs"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "Ag-Cu nanocomposites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of the as-synthesized Ag-Cu nanocomposites using Olax scandens leaf extract."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag-Cu NCs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The size of the as-synthesized nanocomposites as observed by Dynamic Light Scattering analysis was found to be in the range from 20 to 50 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag-Cu nanocomposites",
+          "quote": "UV-visible absorption spectrum of as-synthesized Ag-Cu nanocomposite synthesized using Olax leaf extract"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7890493",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1.",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SPCIONPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of SPCIONPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPCIONPs",
+          "size_nm": 22,
+          "pdi": null,
+          "zeta_mV": 27.1,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the average particle size of a single particle was about 22 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1.",
+          "applies_to": "nanoparticle",
+          "sample": "CS, SPIONPs, and SPCIONPs",
+          "quote": "FT-IR spectra of CS, SPIONPs, and SPCIONPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7177945",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "SNC-PC-X1 and SNC-PC-X2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "FESEM micrographs of (a & b) PC-X1 and PC-X2, respectively (Scale = 1 µm); (c & d) SNC-PC-X1 and SNC-PC-X2"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "SNC-PC-X1 and SNC-PC-X2",
+          "quote": "UV-Vis spectrum of 2-weight % solutions of PC, SNC-PC-X1 and SNC-PC-X2"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "SNC-PC-X1 and SNC-PC-X2",
+          "quote": "FTIR spectra of PC, PC-X1, PC-X2, SNC-PC-X1 and SNC-PC-X2."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "SNC-PC-X1 and SNC-PC-X2",
+          "quote": "XRD diffractogram of PC, SNC-PC-X1 and SNC-PC-X2 with reference SNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8747314",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "ACR-PCL-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscope (SEM) images of the optimized ACR-PCL-NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "optimized ACR-PCL-NPs",
+          "size_nm": 469.2,
+          "pdi": 0.27,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The particle size and PDI of the optimized ACR-PCL-NPs were 469.2 ± 5.6 nm and 0.270 ± 0.19, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "ACR-PCL-NPs",
+          "quote": "FTIR spectra of acriflavine, pure PCL, and prepared nanoparticles (ACR-PCL-NPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7537904",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of AuNPs showed spherical-shaped particles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "The obtained NPs were collected by centrifugation and analyzed by UV spectroscopy"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig 4",
+          "applies_to": "AuNPs",
+          "quote": "X-ray diffraction (XRD) patterns of the synthesized AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8537834",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "G4K and BBB4-G4K particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of G4K (a) and BBB4-G4K (b) particles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "G4K, BBB4, and BBB4-G4K",
+          "quote": "ATR-FTIR spectra of G4K (purple line), BBB4 (green line), and BBB4-G4K (dark red line)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9966621",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "CCG-NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images showing the spherical morphology of CCG-NP"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "C2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 20.2,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the zeta potential values were 20.2 ± 3.81, −18.6 ± 3.06, and −16.6 ± 3.27 mV for C2"
+        },
+        {
+          "sample": "C10",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "−18.6 ± 3.06, and −16.6 ± 3.27 mV for C2, C10, and C16"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CCG-NPs",
+          "quote": "FTIR spectra of C2, C10, curcumin, gold (III) chloride"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "C2, C10, and C16",
+          "quote": "The image shown is an XRD spectrum of (a) C2, (b) C10, and (c) C16 in their amorphous state."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CCG-NP",
+          "quote": "EDX spectra of CCG-NP (a) C2, (b) C10, (c) C16."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8228277",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "empty and PPE-loaded CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of (a1) empty CSNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "empty CSNPs",
+          "size_nm": 173.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "Empty CSNPs showed the lowest mean particle size (Z-average diameter, 173.9 nm)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "empty and PPE-loaded CSNPs",
+          "quote": "FT-IR spectra of (a) chitosan, (b) STPP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12598807",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "biogenic iron oxide nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of IONPs by the biological method."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 and Fe2O3 NPs",
+          "quote": "XRD pattern of Fe3O4&Fe2O3 NPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 and Fe2O3 NPs",
+          "quote": "UV‐Vis spectrum of Fe3O4&Fe2O3 NPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "biologically derived IONPs",
+          "quote": "FTIR spectra of biologically derived IONPs and Hemp extract."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5460590",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PAMAM-G7 dendrimer NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM Image of the PAMAM-G7 at different magnifications"
+        },
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "PAMAM-G7",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM Image of the PAMAM-G7"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PAMAM-G7",
+          "size_nm": 20,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "PAMAM-G7 NPs were shown to have a spherical shape with a mean diameter size of 20 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "PAMAM-G7",
+          "quote": "FTIR spectra of PAMAM-G7"
+        }
+      ]
+    }
+  ]
+}

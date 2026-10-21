@@ -1,0 +1,148 @@
+{
+  "batch": "EX112",
+  "articles": [
+    {
+      "pmcid": "PMC10598446",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "Paenibacillus sp. MAHUQ-63-mediated synthesized AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-TEM analysis of Paenibacillus sp. MAHUQ-63-mediated synthesized AgNPs (d–f)."},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "Paenibacillus sp. MAHUQ-63-mediated synthesized AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-TEM image (b) and distribution of silver element in sample (c)."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Paenibacillus sp. MAHUQ-63-mediated synthesized AgNPs", "quote": "EDX spectrum (a), FE-TEM image (b) and distribution of silver element in sample (c)."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Paenibacillus sp. MAHUQ-63-mediated green AgNPs", "quote": "XRD spectrum (a) and selected area electron diffraction (SAED) pattern (b) of Paenibacillus sp. MAHUQ-63-mediated green AgNPs."},
+        {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "AgNPs synthesized by Paenibacillus sp. MAHUQ-63", "quote": "FTIR spectra of AgNPs synthesized by Paenibacillus sp. MAHUQ-63."}
+      ]
+    },
+    {
+      "pmcid": "PMC9959160",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "FESEM micrograph of AgNPs at 100 nm scale"},
+        {"fig": "Fig. 5", "variant": "HRTEM", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HR-TEM micrographs showing the presence of AgNPs recorded at (a) 10 nm, (b) 20 nm, and (c) 50 nm magnification levels"}
+      ],
+      "descriptors": [
+        {"sample": "AgNPs", "size_nm": 61.23, "pdi": 0.21, "zeta_mV": -30.1, "medium": "not_declared", "source": "text", "quote": "AgNPs had an average particle size, polydispersity index (PDI), and zeta potential of 61.23 nm, 0.21, and −30.1 mV, respectively"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV-vis absorption spectra of AgNPs."},
+        {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "FL-AgNPs", "quote": "Comparative FTIR spectra of Fenugreek leaf extract (FLE) and biosynthesized silver nanoparticles (FL-AgNPs)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10190534",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "GNP", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) images of gold nanoparticles (GNPs) with their size distribution and DLS profile."},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "PEG-GNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) images of PEG‐GNPs with their size distribution and DLS profile."},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "GNP-PEG-Paclitaxel", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) images of GNP‐PEG‐Paclitaxel with their size distribution and DLS profile."}
+      ],
+      "descriptors": [
+        {"sample": "GNP", "size_nm": null, "pdi": null, "zeta_mV": -4.82, "medium": "not_declared", "source": "text", "quote": "The surface potential of PEG‐GNPs (−6.13 mV) has a more negative zeta potential than GNPs (−4.82 mV)."},
+        {"sample": "PEG-GNPs", "size_nm": null, "pdi": null, "zeta_mV": -6.13, "medium": "not_declared", "source": "text", "quote": "The surface potential of PEG‐GNPs (−6.13 mV) has a more negative zeta potential than GNPs (−4.82 mV)."}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "GNPs", "quote": "The absorption spectrum of the synthesised gold nanoparticles (GNPs)."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "pegylated GNPs containing paclitaxel", "quote": "FT‐IR Spectra of (a) pegylated gold nanoparticles (GNPs) containing paclitaxel"},
+        {"technique": "UVVis", "fig": "Fig. 6", "applies_to": "component", "sample": "paclitaxel", "quote": "Absorption spectrum curve of paclitaxel at different concentrations"}
+      ]
+    },
+    {
+      "pmcid": "PMC10588637",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "BT-AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-TEM image was utilized to determine the morphology and size of BT-AuNPs."}
+      ],
+      "descriptors": [
+        {"sample": "BT-AuNPs", "size_nm": 62.7, "pdi": 0.29, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "BT-AuNPs had a hydrodynamic diameter of 62.7 nm and a polydispersity index of 0.29"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "BT-AuNPs", "quote": "UV−vis spectrum of BT-AuNPs and BT"},
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "BT-AuNPs", "quote": "EDX was analyzed to detect the Au peak of BT-AuNPs"},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "BT-AuNPs", "quote": "FT-IR analysis was utilized to confirm chemical linkage confirmation in BT-AuNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC8309574",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 8", "variant": "TEM_prep_not_declared", "sample": "PMAA/AuNPs composite film", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Micrographs of gold nanoparticles in PMAA/AuNPs composite film. Electrolyte 3."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "SAXS", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "AuNPs in PMAA/AuNPs composite", "quote": "SAXS spectra of AuNPs size distribution for composites formed from electrolyte 3 (a)"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "PMAA/AuNPs composites", "quote": "X-ray diffraction patterns of PMAA/AuNPs of composites formed from electrolytes 3 (1) and 4 (2)."}
+      ]
+    },
+    {
+      "pmcid": "PMC7838927",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "TiO2 NWs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Field emission scanning electron microscopy (FE-SEM) images of the as-synthesized TiO2 Nanowires (NWs) at 5000×"},
+        {"fig": "Fig. 2", "variant": "HRTEM", "sample": "10%Ag@TiO2 NWs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "High-resolution transmittance electron microscopy (HRTEM) images of 10%Ag@TiO2-P25 (A), 10%Ag@TiO2 NWs (B)"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "10%Ag@TiO2 NW", "quote": "X-ray diffraction patterns (XRD) of TiO2 NW (A,a), 10%Ag@TiO2 NW (A,b)"},
+        {"technique": "Raman", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "10%Ag@TiO2-P25", "quote": "Raman spectra of TiO2-P25 (A,a), 10%Ag@TiO2-P25 (A,b)"},
+        {"technique": "UVVis", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "10%Ag@TiO2 NW", "quote": "UV–vis spectra of TiO2 NW (A,a), 10%Ag@TiO2-P25 (A,b), 10%Ag@TiO2 NW (A,c)"}
+      ]
+    },
+    {
+      "pmcid": "PMC8043924",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "PCL/Chit scaffolds", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "FE-SEM images of the PCL/Chit scaffolds with different percentages of PEO"},
+        {"fig": "Fig. 7", "variant": "SEM", "sample": "AuNP-decorated PCL/chitosan scaffolds", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "FE-SEM images of the AuNPs-decorated PCL/chitosan scaffolds which were fabricated by using both reducing agents"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 6", "applies_to": "mixture", "sample": "AuNP-decorated PCL/Chit scaffolds", "quote": "UV-Visible absorbance spectra of the conductive scaffolds fabricated using THPC alone (A)"}
+      ]
+    },
+    {
+      "pmcid": "PMC8398640",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "AFM", "sample": "GO", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "AFM image of GO"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "GO-Au", "quote": "UV-Vis absorption spectra, where the peak at 520 nm is the absorption wavelength of AuNPs"},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "component", "sample": "GO", "quote": "(B) FTIR spectra"}
+      ]
+    },
+    {
+      "pmcid": "PMC8769522",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Au-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission Electron Microscopy (TEM) Au-NPs gold nanoparticle-protein-free control"},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "exotoxin/Au-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission Electron Microscopy (TEM) exotoxin/Au-NPs gold nanoparticles-exotoxin control"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Exotoxin A-Nano-gold", "quote": "Analysis of Energy-dispersive-x-ray spectroscopy (EDX) for Exotoxin A-Nano-gold indicate."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "component", "sample": "exotoxin A", "quote": "Fourier transform infrared spectrometry (FTIR) spectrum of exotoxin purification before conjugation with gold nanoparticles"},
+        {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "exotoxin A-gold conjugate", "quote": "Fourier transform infrared spectrometry (FTIR) spectra of gold nanoparticles conjugated with exotoxin A"}
+      ]
+    },
+    {
+      "pmcid": "PMC8675824",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "S1, S2, S3", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "illustrated by TEM images of (a) S1, (b) S2 and (c) S3"}
+      ],
+      "descriptors": [
+        {"sample": "S1", "size_nm": 123.3, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle sizes are, respectively, 123.3, 191.3 and 72.2 nm for S1, S2 and S3"},
+        {"sample": "S2", "size_nm": 191.3, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle sizes are, respectively, 123.3, 191.3 and 72.2 nm for S1, S2 and S3"},
+        {"sample": "S3", "size_nm": 72.2, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle sizes are, respectively, 123.3, 191.3 and 72.2 nm for S1, S2 and S3"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "MSNs before drug loading", "quote": "Represents FTIR spectra (a) before drug loading"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Dox-loaded MSNs", "quote": "(b) FTIR spectra of Dox‐loaded samples compared with native drug"},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "S1, S2, S3", "quote": "XRD patterns of samples S1, S2 and S3"}
+      ]
+    }
+  ]
+}

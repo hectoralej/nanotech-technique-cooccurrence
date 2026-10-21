@@ -1,0 +1,335 @@
+{
+  "batch": "EX139",
+  "articles": [
+    {
+      "pmcid": "PMC8512180",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "D-SPIONs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the D-SPIONs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "D-SPIONs",
+          "size_nm": 20,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; TEM average size",
+          "quote": "was approximately 20 ± 3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "D-SPIONs",
+          "quote": "FTIR spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7908990",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "starch-capped AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of AgNPs (20 nm resolution)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "starch-capped AgNPs",
+          "quote": "UV-Vis spectrum of starch capped AgNPs’ suspension"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8145217",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MgIONPs@TMAH, RES NPs and BNF NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM and SAED images of the prepared hydrophilic magnesium iron oxide@tetramethyl ammonium hydroxide nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MgIONPs@TMAH",
+          "size_nm": 167,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; DLS mean hydrodynamic size",
+          "quote": "The mean hydrodynamic size of MgIONPs@TMAH obtained by DLS was 167.0 ± 0.8 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MgIONPs@TMAH",
+          "quote": "XRD spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10254252",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "unfunctionalized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image displaying in black the relatively monodispersed, spherical AuNPs (scale bar is 500 nm)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 20,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; TEM mean core diameter",
+          "quote": "mean core diameter of 20 ± 2 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "citrate-stabilized AuNPs",
+          "quote": "UV–Vis absorption spectrum"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10054154",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs prepared using WEOP plant extracts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM images of AgNPs synthesized by using WEOP"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "plant-extract synthesized AgNPs",
+          "quote": "UV-Vis spectra (λ in nm)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6893062",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNP samples S1–S6",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission Electron Microscope of gold nanoparticle samples"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles",
+          "quote": "UV-Vis. spectra of gold nanoparticle"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6930568",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "organosilica monolith particles loaded with gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the organosilica monolith particles with a MTMS/SHTMS/SHDMS = 3:1:2 composition loaded with gold nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "porous organosilica monoliths with and without Au",
+          "quote": "Fourier transform infrared (FTIR) spectra of the porous organosilica monoliths with and without Au"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8511990",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GSE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The TEM imaging of GSE-AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "GSE-AgNPs",
+          "quote": "FTIR analysis"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8626174",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "HAART-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM images of HAART-AgNPs (0.5 M)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "AgNPs and HAART",
+          "quote": "IR spectra of (a) AgNPs and (b) HAART"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7962535",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "MSNs and PDEAEMA-attached MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of unmodified MSNs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs",
+          "size_nm": 220,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; SEM average diameter",
+          "quote": "with an average diameter of ca. 220 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "modified silica nanoparticles",
+          "quote": "FTIR spectra of the modified silica nanoparticles"
+        }
+      ]
+    }
+  ]
+}

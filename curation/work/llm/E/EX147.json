@@ -1,0 +1,260 @@
+{
+  "batch": "EX147",
+  "articles": [
+    {
+      "pmcid": "PMC6279782",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13413824",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Vepris reflexa flavonoid- and saponin-derived AgNPs",
+          "quote": "UV-vis spectra of silver nanoparticles synthesized using (A) flavonoid extract and (B) saponin extract from Vepris reflexa"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11859453",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "HRTEM",
+          "sample": "LPHNp-DCX-Chi-Tn",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological analysis of LPHNp-DCX-Chi-Tn using HR-TEM"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "LPHNp",
+          "quote": "Raman spectrum of DSPE-PEG (a), DSPE-PEG-Biotin (b), PLGA (c), LPHNp (d)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12696789",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "IONP@SiO2-acac core-shell nanoparticles and lanthanide-functionalized variants",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of: core@shell IONP@SiO2‐acac nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "IONP@SiO2-acac",
+          "size_nm": 25.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; TEM core size",
+          "quote": "a single spherical IONP core of 25.6 ± 0.8 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "IONP@SiO2-acac/(Tb/Eu)9@SiO2 nanoparticles",
+          "quote": "STEM‐EDS elemental mapping"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13392885",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "polymeric nanoparticles",
+          "size_nm": null,
+          "pdi": 0.2,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size below 400 nm",
+          "quote": "The average particle size was below 400 nm",
+          "quote2": "presenting a polydispersity index (PDI) of 0.2"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11990716",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "HRTEM",
+          "sample": "AgNPs and NSD",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM, HR-TEM, and d-spacing analysis of (a) AgNPs and (b) NSD"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and NSD",
+          "quote": "FTIR spectra highlighting functional groups"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13277445",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "IgY/ChNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -28.7,
+          "medium": "not_declared",
+          "source": "text; zeta potential",
+          "quote": "zeta potentials of IgY/ChNPs, Poly/ChNPs, IgY-Poly/ChNPs and IgY-coated-Poly/ChNPs were −28.7, −28.3, −46.9 and −26.5 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "IgY/ChNPs, Poly/ChNPs, IgY-Poly/ChNPs and IgY-coated-Poly/ChNPs",
+          "quote": "FTIR Spectra (A)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13259242",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "particles extracted from Ag-treated cotton fabrics",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of particles extracted by ultrasonication from cotton fabrics surface-modified"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "lignin–Ag-treated cotton fabrics",
+          "quote": "ATR–FTIR spectra of α-chitosan, β-chitosan, untreated cotton"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13040952",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "ASP@PLGA-PEG nanoparticles",
+          "size_nm": 177.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "caption; DLS average diameter",
+          "quote": "the average diameter was approximately 177.1 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12371686",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "nanoparticles",
+          "size_nm": 187.6,
+          "pdi": 0.3,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; DLS average hydrodynamic diameter",
+          "quote": "The average hydrodynamic diameter, determined by DLS measurements, is 187.6 ± 4.6 nm, with a polydispersity index of 0.30"
+        }
+      ],
+      "spectra": []
+    }
+  ]
+}

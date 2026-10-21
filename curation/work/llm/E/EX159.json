@@ -1,0 +1,261 @@
+{
+  "batch": "EX159",
+  "articles": [
+    {
+      "pmcid": "PMC10233837",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "commercial and in-house manganese oxide nanocrystals",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of In-house (a) MnO and (b) Mn3O4"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "manganese oxide nanocrystals",
+          "quote": "XRD spectra for (a) In-house MnO"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7696174",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "RSV-SLNs and SLNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphology of RSV-SLNs and SLNs observed by TEM"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "RSV, RSV-SLNs and SLNs",
+          "quote": "Raman spectra of RSV, RSV-SLNs and SLNs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9654586",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC10673925",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "c Transmission electron microscope (TEM) images of NPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "NPs",
+          "quote": "Small angle X-ray scattering (SAXS) patterns"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6631245",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DTX-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "PLGA, docetaxel and DTX-NPs",
+          "quote": "X-ray Diffraction (XRD) patterns of (a) PLGA, (b) docetaxel and DTX-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11127077",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "gabapentin SLN formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the GP-SLN formulation showing cubical shaped nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "gabapentin, Gelucire 48/16 and physical mixture",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) spectra of a) gabapentin, b) Gelucire 48/16, and c) physical mixture"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9414144",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "blank and sorafenib-functionalized liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of blank liposomes (A) and sorafenib-functionalized liposomes (B)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "sorafenib-loaded nanoliposomes",
+          "quote": "Raman spectra of pure (blue line) and sorafenib-loaded nanoliposomes (red curve)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10503197",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "mixture",
+          "sample": "GA-Ag NPs, DT and DT-Ag",
+          "quote": "Infrared spectra of GA-Ag NPs, DT, and DT-Ag."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6540247",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "HRTEM",
+          "sample": "dazomet-loaded chitosan nanoparticles (CDENs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "High-resolution transmission electron microscopy (HRTEM) images of the synthesized dazomet-loaded chitosan nanoparticles (CDENs)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "dazomet, chitosan and chitosan-dazomet nanoparticles",
+          "quote": "FTIR spectrum of (A) pure dazomet, (B) chitosan"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10819627",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "LS-SLNp",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "scanning electron microscopy (SEM)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "batch": "EX142",
+  "articles": [
+    {
+      "pmcid": "PMC11827557",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "HRTEM",
+          "sample": "BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM micrograph, particle size histogram, and SAED patterns for BpAgNPs, PEG–BpAgNPs, and Cum–PEG–BpAgNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs",
+          "quote": "The FTIR spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5778387",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2.",
+          "variant": "SEM",
+          "sample": "empty and disulfiram-loaded PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphology of disulfiram-loaded, and empty poly-lactide-co-glycolide nanoparticles using scanning electron microscopy technique."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA nanoparticles",
+          "size_nm": 100,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; mean diameter range lower bound",
+          "quote": "The mean diameter size of all the nanoparticles was reported to be ranging between 100 and 125 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4.",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA nanoparticles under stabilizers",
+          "quote": "Comparative X-ray diffraction graph plots of intensity peaks against Bragg's angle"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 5.",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA nanoparticles under stabilizers",
+          "quote": "Raman peak shift of functional groups present in poly-lactide-co-glycolide nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12844820",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "cryoTEM",
+          "sample": "diclofenac-loaded liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "representative Cryo-TEM images of loaded diclofenac formulated by the different proposed methods"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11946831",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HESP-SLNs and HESP-NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy of the optimized HESP-SLNs (A) and HESP-NLCs (B)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "HESP-SLNs",
+          "quote": "Raman spectroscopy of pure HESP powder and HESP-SLNs."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "HESP-NLCs",
+          "quote": "Raman spectroscopy of pure HESP powder and HESP-NLCs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12845254",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "cryoTEM",
+          "sample": "LNPs dialyzed in PBS",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Morphological analysis of LNPs dialyzed in PBS using cryoTEM."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LNPs in PBS",
+          "size_nm": 76,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "text; particle size",
+          "quote": "The particle size of LNPs in PBS decreased from 86 nm at a lipid mixture concentration of 5 mg/mL to 76 nm at 70 mg/mL"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6359657",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "mesoporous silica nanoparticles (MSNs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of mesoporous silica nanoparticles (MSNs)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs",
+          "quote": "Small-angle XRD patterns of MSNs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "IMC, IMC-MSNRs, IMC-MSNSs, MSNRs, and MSNSs",
+          "quote": "FTIR spectra (a) and XRD patterns (b) of IMC, IMC-MSNRs, IMC-MSNSs, MSNRs, and MSNSs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6415364",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12880976",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "exosomes, SPION-liposomes and hybrid system",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) characterization of nanocarrier components and hybrid system."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "exosomes",
+          "size_nm": 49.09,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average diameter range lower bound",
+          "quote": "intact circular vesicles with average diameter of 49.09-54.14 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "mixture",
+          "sample": "drug, SPION, caffeine, phospholipid and Caff/SPION-liposomes",
+          "quote": "FTIR spectra of the physical mixture of drug and SPION, caffeine, SPION, phospholipid, and P5"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13619771",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "HRTEM",
+          "sample": "uncoated DPZ-NLCs and optimized DPZ-PEGylated NLCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images of (A) uncoated DPZ-NLCs and (B) optimized DPZ-PEGylated NLCs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "optimized DPZ-PEGylated NLCs",
+          "size_nm": 128.75,
+          "pdi": null,
+          "zeta_mV": -21.12,
+          "medium": "not_declared",
+          "source": "text; average particle size and zeta potential",
+          "quote": "The optimized DPZ-PEGylated NLCs displayed an average PS of approximately 128.75 nm",
+          "quote2": "The ZP values averaged − 21.12 ± 1.34 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 8",
+          "applies_to": "mixture",
+          "sample": "DPZ, DSPE-PEG2000 and optimized DPZ-PEGylated NLCs",
+          "quote": "XRD patterns of (A) pure DPZ, (B) DSPE-PEG2000, and (C) optimized lyophilized DPZ-PEGylated NLCs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5269579",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "HRTEM",
+          "sample": "GA-RGO/AuNPs composite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM and (F) SAED pattern of GA-RGO/AuNPs composite."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs on GA-RGO",
+          "size_nm": 43,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average diameter",
+          "quote": "with an average diameter of 43 ± 5 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "GO, RGO and RGO/AuNPs composites",
+          "quote": "Raman spectra and (B) XRD patterns for (a) GO, (b) RGO and (c) RGO/AuNPs composites."
+        }
+      ]
+    }
+  ]
+}

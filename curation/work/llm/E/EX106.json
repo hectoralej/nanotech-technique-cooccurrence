@@ -1,0 +1,101 @@
+{"batch":"EX106","articles":[
+{"pmcid":"PMC7589671","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag-NPs synthesized by S. antimycoticus L-1","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) transmission electron microscopy (TEM) image"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Ag-NPs","quote":"(A) UV–Vis spectra of Ag-NPs at different interval times"},
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Ag-NPs","quote":"FT-IR spectrum of the Ag-NPs derived from endophytic S. antimycoticus L-1"},
+  {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Ag-NPs","quote":"(B) X-ray diffraction (XRD) analysis"},
+  {"technique":"EDS","fig":"Fig. 7","applies_to":"mixture","sample":"Ag-NPs on cotton fabric","quote":"EDX of the treated sample with elemental analysis of the Ag-NPs contents"}]},
+{"pmcid":"PMC7694170","context":{"article_kind":"research","carrier_type":"micelle","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 8","variant":"TEM_dried_unstained","sample":"SPMO2 micelles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Transmission electron microscope (TEM) image and (d) size distribution profile of SPMO2 micelles under no stimulation"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"component","sample":"SP and SPBr","quote":"Fourier-transform infrared (FTIR) spectra of (a) OH-PLLA-SS-PLLA-OH (SP) and (b) iBuBr-PLLA-SS-PLLA-iBuBr (SPBr)"}]},
+{"pmcid":"PMC7824182","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"AFM","sample":"SPION@Au-CS-FA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) atomic force microscope (AFM)"},
+  {"fig":"Fig. 1","variant":"SEM","sample":"SPION@Au-CS-FA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(b) scanning electron microscope (SEM)"},
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"SPION@Au-CS-FA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(c) transmission electron microscope (TEM) images"}],
+ "descriptors":[
+  {"sample":"SPION","size_nm":23.1,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Size | 23.1 ± 2 | 37.3 ± 3 | 68.3 ± 6 | 81.8 ± 3 | 102.6 ± 7"},
+  {"sample":"SPION@Au","size_nm":37.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Size | 23.1 ± 2 | 37.3 ± 3 | 68.3 ± 6 | 81.8 ± 3 | 102.6 ± 7"},
+  {"sample":"SPION@Au-CS","size_nm":68.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Size | 23.1 ± 2 | 37.3 ± 3 | 68.3 ± 6 | 81.8 ± 3 | 102.6 ± 7"},
+  {"sample":"SPION@Au-CS-FA","size_nm":81.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Size | 23.1 ± 2 | 37.3 ± 3 | 68.3 ± 6 | 81.8 ± 3 | 102.6 ± 7"},
+  {"sample":"SPION@Au-CS-DOX-FA","size_nm":102.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 2","quote":"Size | 23.1 ± 2 | 37.3 ± 3 | 68.3 ± 6 | 81.8 ± 3 | 102.6 ± 7"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SPION@Au core-shell NPs","quote":"UV visible (a) and XRD (b) characterization of the prepared SPION@Au core-shell NPs"},
+  {"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SPION and SPION@Au","quote":"powder X-ray diffraction (XRD) patterns of the SPION and SPION@Au core-shell NPs"},
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SPION@Au-CS-DOX-FA","quote":"FT-IR spectra (c) of the prepared SPION@Au-CS-doxorubicin (DOX)-FA NPs"}]},
+{"pmcid":"PMC7464675","context":{"article_kind":"research","carrier_type":"micelle","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"PAH-SS-PLGA micelle","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of PAH-SS-PLGA-micelle in the absence (a) and presence of 5 mM GSH (b)"}],
+ "descriptors":[
+  {"sample":"PAH-ss-PLGA micelle","size_nm":161.73,"pdi":0.22,"zeta_mV":22.73,"medium":"water","source":"Table 1","quote":"PAH-ss-PLGA micelle | 161.73 ± 2.5 | 0.22 ± 0.02 | 22.73 ± 1.17"},
+  {"sample":"PAH-ss-PLGA-TOS","size_nm":172.93,"pdi":0.13,"zeta_mV":21.57,"medium":"water","source":"Table 1","quote":"PAH-ss-PLGA-TOS | 172.93 ± 1.1 | 0.13 ± 0.02 | 21.57 ± 0.84"},
+  {"sample":"PAH-ss-PLGA-Curcumin","size_nm":174.17,"pdi":0.16,"zeta_mV":19.77,"medium":"water","source":"Table 1","quote":"PAH-ss-PLGA-Curcumin | 174.17 ± 1.7 | 0.16 ± 0. 02 | 19.77 ± 1.42"},
+  {"sample":"PAH-ss-PLGA-Curcumin-TOS","size_nm":201,"pdi":0.21,"zeta_mV":17.57,"medium":"water","source":"Table 1","quote":"PAH-ss-PLGA-Curcumin-TOS | 201 ± 2.1 | 0.21 ± 0.01 | 17.57 ± 0.54"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"component","sample":"PAH, PAH-Cit, PAH-SS-PLGA","quote":"FTIR peak of (a) PAH, PAH-Cit, and (b) PAH-SS-PLGA"}]},
+{"pmcid":"PMC9503097","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 5","variant":"SEM","sample":"Fe3O4 NPs; Fe3O4 NPs+PEG; Fe3O4 NPs+PEG+Gen","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images and EDX of (A) Fe3O4 NPs, (B) Fe3O4 NPs+PEG, and (C) Fe3O4 NPs+PEG+Gen"},
+  {"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"Fe3O4 NPs; Fe3O4 NPs+PEG; Fe3O4 NPs+PEG+Gen","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images and histograms of particle size distribution of (A) Fe3O4 NPs"}],
+ "descriptors":[
+  {"sample":"Fe3O4 NPs","size_nm":69.6,"pdi":0.452,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the average size distribution for Fe3O4 was 69.6 nm with a PDI (polydispersity) of 0.452"},
+  {"sample":"Fe3O4 NPs+PEG","size_nm":74.4,"pdi":0.303,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"for Fe3O4 NPs+PEG it was 74.4 nm with a PDI of 0.303"},
+  {"sample":"Fe3O4 NPs+PEG+Gen","size_nm":92.3,"pdi":0.289,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"for Fe3O4 NPs+PEG+Gen it was 92.3 nm and the PDI was 0.289"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Fe3O4 NPs; Fe3O4 NPs+PEG; Fe3O4 NPs+Gen; Fe3O4 NPs+PEG+Gen","quote":"FTIR spectra analysis of (A) Fe3O4 NPs, (B) Fe3O4 NPs+PEG, (C) Fe3O4 NPs+Gen, and (D) Fe3O4 NPs+PEG+Gen"},
+  {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"Fe3O4 NPs; Fe3O4 NPs+PEG; Fe3O4 NPs+PEG+Gen","quote":"XRD patterns of (A) Fe3O4 NPs, (B) Fe3O4 NPs+PEG, and (C) Fe3O4 NPs+PEG+Gen"},
+  {"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Fe3O4 NPs; Fe3O4 NPs+PEG; Fe3O4 NPs+PEG+Gen","quote":"SEM images and EDX of (A) Fe3O4 NPs, (B) Fe3O4 NPs+PEG, and (C) Fe3O4 NPs+PEG+Gen"}]},
+{"pmcid":"PMC7471236","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"SEM","sample":"CuO NPs; FOL-PLGA-CuO NPs; CD-1; CD-2; CD-3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM of (a) CuO NPs; b FOL-PLGA-CuO NPs; c CD-1; d CD-2; e CD-3"},
+  {"fig":"Fig. 3","variant":"TEM_negstain","sample":"CuO NPs; FOL-PLGA-CuO NPs; CD-1; CD-2; CD-3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM of (a) CuO NPs; b FOL-PLGA-CuO NPs; c CD-1; d CD-2; e CD-3"}],
+ "descriptors":[
+  {"sample":"CuO NPs","size_nm":115.24,"pdi":0.112,"zeta_mV":22.7,"medium":"not_declared","source":"Table 1","quote":"CuO NPs | 115.24 ± 2.3 | 22.7 ± 0.1 | 0.112 ± 0.01"},
+  {"sample":"FOL-PLGA-CuO NPs","size_nm":164.98,"pdi":0.211,"zeta_mV":-25.7,"medium":"not_declared","source":"Table 1","quote":"FOL-PLGA-CuO NPs | 164.98 ± 1.3 | − 25.7 ± 0.1 | 0.211 ± 0.03"},
+  {"sample":"CD-1","size_nm":180.23,"pdi":0.345,"zeta_mV":-26.5,"medium":"not_declared","source":"Table 1","quote":"CD-1 | 180.23 ± 1.1 | − 26.5 ± 1.3 | 0.345 ± 0.01"},
+  {"sample":"CD-2","size_nm":195.13,"pdi":0.312,"zeta_mV":-26.3,"medium":"not_declared","source":"Table 1","quote":"CD-2 | 195.13 ± 1.6 | − 26.3 ± 0.1 | 0.312 ± 0.02"},
+  {"sample":"CD-3","size_nm":189.45,"pdi":0.223,"zeta_mV":-24.5,"medium":"not_declared","source":"Table 1","quote":"CD-3 | 189.45 ± 1.4 | − 24.5 ± 0.2 | 0.223 ± 0.03"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"CuO NPs, FOL-PLGA-CuO NPs, CD-1, CD-2, CD-3","quote":"FTIR Spectra of free docetaxel, doxorubicin, CuO NPs, FOL-PLGA-CuO NPs, CD-1, CD-2 and CD-3"}]},
+{"pmcid":"PMC7760523","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 4","variant":"SEM","sample":"AS-g-PAni@MS","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of (a) bare MSNs and (b) AS-g-PAni@MS nanocomposite"},
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"AS-g-PAni@MS","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of AS-g-PAni@MS nanocomposite showing the distribution of MSNs in the polymer matrix"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AS-g-PAni@MS","quote":"FTIR spectra of (a) calcined mesoporous silica nanoparticles (MSNs), (b) L-ascorbic acid, (c) pure PAni and (d) AS-g-PAni@MS nanocomposite"},
+  {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSNs; AS-g-PAni@MS","quote":"XRD spectra of mesoporous silica nanoparticles (black line) and AS-g-PAni@MS nanocomposite (blue line)"}]},
+{"pmcid":"PMC8122830","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Chitosan-P; EGCG-g-chitosan-P","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a) Chitosan-P and (b) EGCG-g-chitosan-P"}],
+ "descriptors":[
+  {"sample":"Chitosan-P","size_nm":139.10,"pdi":0.844,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The results indicate that the Chitosan-P has an average size of 139.10 ± 4.09 nm and a polydispersity index of 0.844 ± 0.130"},
+  {"sample":"EGCG-g-chitosan-P","size_nm":362.93,"pdi":0.523,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"EGCG-g-chitosan-P presents an average size of 362.93 ± 28.36 nm and a polydispersity index of 0.523 ± 0.036"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"EGCG-g-chitosan-P","quote":"FTIR spectra of epigallocatechin gallate (EGCG) (a), chitosan nanoparticles (Chitosan-P) (b) and EGCG-grafted-chitosan nanoparticles (EGCG-g-chitosan-P) (c)"}]},
+{"pmcid":"PMC8895461","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"AgNPs@Pull; AuNPs@Pull","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (a, b) AgNPs@Pull and (c, d) AuNPs@Pull"},
+  {"fig":"Fig. 4","variant":"SEM","sample":"AgNPs@Pull","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Self-assembly of AgNPs@Pull sample into (d) circular, (e) wormlike, (f) ringlike, and (g) featherlike arrays"}],
+ "descriptors":[
+  {"sample":"AgNPs@Pull","size_nm":null,"pdi":null,"zeta_mV":-23.2,"medium":"other","source":"text","quote":"the charges were −23.2 ± 4.85 mV and −17.9 ± 6.92 mV for AgNPs@Pull and AuNPs@Pull solutions"},
+  {"sample":"AuNPs@Pull","size_nm":null,"pdi":null,"zeta_mV":-17.9,"medium":"other","source":"text","quote":"the charges were −23.2 ± 4.85 mV and −17.9 ± 6.92 mV for AgNPs@Pull and AuNPs@Pull solutions"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs@Pull","quote":"UV–vis absorption spectra of (a) pristine Pull, Ag(I)-Pull solution before reduction, and AgNPs@Pull"},
+  {"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs@Pull; AuNPs@Pull","quote":"Comparison of XRD pattern of pristine pullulan with (a) AgNPs@Pull (b) AuNPs@Pull"},
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs@Pull","quote":"FTIR spectra of (e) pristine Pull and AgNPs@Pull"}]},
+{"pmcid":"PMC8773451","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"SEM","sample":"Cs-NPs; Cv–Cs-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of empty chitosan NPs (a) and carvacrol-loaded nanoparticles (b)"}],
+ "descriptors":[
+  {"sample":"Cv–Cs-NP","size_nm":281.6,"pdi":null,"zeta_mV":null,"medium":"PBS","source":"Table 2","quote":"The empty chitosan nanoparticles and the loaded carvacrol nanoparticles showed a hydrodynamic diameter of 384.5 and 281.6 nm respectively"},
+  {"sample":"Cs-NP","size_nm":384.5,"pdi":null,"zeta_mV":null,"medium":"PBS","source":"Table 2","quote":"The empty chitosan nanoparticles and the loaded carvacrol nanoparticles showed a hydrodynamic diameter of 384.5 and 281.6 nm respectively"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Cs-NPs; Cv–Cs-NPs","quote":"ATR-FTIR spectra of Cs-NPs Chitosan (blue line) and Cv–Cs-NPs (green line)"}]}
+]}

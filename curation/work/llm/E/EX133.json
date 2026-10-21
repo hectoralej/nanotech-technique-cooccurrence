@@ -1,0 +1,348 @@
+{
+  "batch": "EX133",
+  "articles": [
+    {
+      "pmcid": "PMC11826982",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "MSNs with pp OC12 and mm OC12",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A) SEM image of MSNs with pp OC12"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "nanofibers with mm OC12 MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A–C) SEM images of the NFs with 6 wt.% mm OC12 MSNs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12146780",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "SPIONs, AC, and SPION-AC nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM images showcasing the morphological features of (a and d) SPIONs, (b and e) AC"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "HRTEM",
+          "sample": "SPIONs and SPION-AC nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images of SPIONs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "SPIONs and SPION-15% AC nanocomposites",
+          "quote": "XRD patterns of the synthesized SPIONs and SPION-15% AC nanocomposites"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "SPIONs and SPION-AC nanocomposite",
+          "quote": "corresponding EDAX spectra in panels (g, h and i)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6474148",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "C-GNPs and E-GNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) image of C-GNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "C-GNPs and E-GNPs",
+          "quote": "The absorption spectrum of C-GNPs showing λmax at 530 nm."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9104402",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs synthesized by S. officinarum extract",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images (100 nm scale bar) of AgNPs synthesized by S. officinarum extract"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized by S. officinarum extract",
+          "quote": "FTIR spectrums of AgNPs synthesized by S. officinarum extract."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9502869",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "L-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of L-NPs synthesized via sol-gel template-based chemistry"
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "E-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of a single E-NPs showing the core-shell structure"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "L-NPs",
+          "size_nm": 122.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; mean diameter from SEM",
+          "quote": "The nanoparticles present a defined spherical shape, a grouped mean diameter of 122.7 ± 42.7 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "L-NPs",
+          "quote": "ATR-FTIR spectrum of a representative L-NPs sample."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8875903",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanoparticles synthesized with cyclodextrins",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of gold nanoparticles synthesized at 0.1% HAuCl4"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles with immobilized β-cyclodextrin",
+          "quote": "Normalized FTIR spectra of β-cyclodextrin Cavamax W7 and of gold nanoparticles with immobilized β-cyclodextrin"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11902652",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs solution",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AuNPs solution"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12259841",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "γ.MnO2-CS and γ.MnO2-CS/AuNPs/SA/GCE",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of γ.MnO2-CS (A) and γ.MnO2-CS/AuNPs/SA/GCE (B)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "γ.MnO2-CS",
+          "size_nm": 25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; approximate diameter from FE-SEM histogram",
+          "quote": "a histogram was constructed which reveals a relatively narrow size distribution with an average particle diameter of approximately 25 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "γ.MnO2-CS",
+          "quote": "XRD pattern of γ.MnO2-CS."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12512229",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "PCL-AgNPs fiber scaffolds",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (A) neat PCL; (B) PCL-0.4%AgNPs; and (C) PCL-1%AgNPs scaffolds."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "PCL-AgNPs scaffolds",
+          "quote": "FT-IR spectra of (A) neat PCL; (B) PCL-0.4%AgNPs; (C) PCL-1%AgNPs scaffolds."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12719879",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Zn0.4Fe2.6O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (bright field) of Zn0.4Fe2.6O4 NPs (40 nm)."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Zn0.4Fe2.6O4 and Zn0.4Fe2.6O4@MnFe2O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Zn0.4Fe2.6O4 NPs (bright-field images)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Zn0.4Fe2.6O4 NPs",
+          "size_nm": 40,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average size from HRTEM",
+          "quote": "High-resolution TEM images (Figure 1a) reveal well-defined, monodisperse polyhedral Zn0.4Fe2.6O4 nanoparticles with an average size of approximately 40 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Zn0.4Fe2.6O4 and Zn0.4Fe2.6O4@MnFe2O4",
+          "quote": "FTIR spectra of Zn0.4Fe2.6O4 NPs (45 nm in red) and Zn0.4Fe2.6O4@MnFe2O4 (50 nm in black)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "batch": "EX158",
+  "articles": [
+    {
+      "pmcid": "PMC10214913",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "HRTEM",
+          "sample": "CHI-AuNP-TSC and CHI-AuNP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images of a CHI-AuNP-TSC"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "CHI-AuNP-TSC and CHI-AuNP deposited on ITO",
+          "quote": "The XRD patterns of bare ITO, CHI-AuNP-TSC"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5470464",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of CNNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CSNPs",
+          "size_nm": 39,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average diameter",
+          "quote": "CSNP are spherical in shape with the average diameters of 39 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNDs",
+          "quote": "XRD pattern of AuNDs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11707065",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "optimized TNF-loaded SLN formulation (TF10)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrographs of optimized TNF-loaded SLN formulation (TF10)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "optimized TNF-loaded SLN formulation (TF10)",
+          "quote": "X-ray diffraction graphs. (a) Pure drug tenofovir"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9180108",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "blank and LC-EO liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images of blank liposomes (b) and LC-EO liposomes (c). Scale bar: 1.0 μm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "control nanoliposomes",
+          "size_nm": 101.27,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; particle size",
+          "quote": "The particle size of nanoliposome in the control group was 101.27 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "blank liposomes, LC-EO and LC-EO liposomes",
+          "quote": "FTIR spectra of blank liposomes, LC-EO, and LC-EO liposomes"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10780480",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "TMZ-loaded lipid nanosystems",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM imaging of TMZ-loaded abietic acid"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "PC, Ph, abietic acid and TMZ mixtures",
+          "quote": "FTIR spectra of PC in ethanol"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11120860",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DMY-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A–C) TEM images of DMY-AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "DMY-AgNPs",
+          "quote": "UV-vis spectra for DMY-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6182570",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "G4@IONPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "b TEM image"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "G4@IONPs",
+          "size_nm": 10,
+          "pdi": null,
+          "zeta_mV": 35,
+          "medium": "water, pH 7, 25 °C",
+          "source": "text; TEM size and DLS hydrodynamic size/zeta potential",
+          "quote": "The size of G4@IONPs was 10 ± 4 nm measured by TEM",
+          "quote2": "Hydrodynamic size of G4@IONPs was 120 nm as measured by DLS, and surface potential of these NPs was +35 mV"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC7920302",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "RT-SLNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of RT-SLNs at different magnification"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "RT-SLNs",
+          "size_nm": 25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "caption; radius distribution peak",
+          "quote": "Gaussian distribution of the radius peaked at 25 ± 10 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "RT and SLNs",
+          "quote": "Experimental Raman spectrum of RT (a) and SLNs (b)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9323322",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DSPE-EB nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of DSPE-EB nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DSPE-EB nanoparticles",
+          "size_nm": 118,
+          "pdi": null,
+          "zeta_mV": 17.7,
+          "medium": "not_declared",
+          "source": "text; DLS hydrodynamic diameter and zeta potential",
+          "quote": "the as-prepared DSPE-EB nanoparticles had a hydrodynamic diameter of 118 nm",
+          "quote2": "The zeta potential of DSPE-EB nanoparticle is 17.7 mV"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9008749",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Pd@Py2PZ@MSN catalyst",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM;"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "Pd@Py2PZ@MSN catalyst",
+          "quote": "XRD results of the Pd@Py2PZ@MSN catalyst."
+        }
+      ]
+    }
+  ]
+}

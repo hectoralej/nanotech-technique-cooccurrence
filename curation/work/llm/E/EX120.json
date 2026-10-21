@@ -1,0 +1,112 @@
+{"batch": "EX120", "articles": [
+{"pmcid": "PMC11313420",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "SEM", "sample": "PVDF/AgNPs nanofibers", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrographs of the PVDF and PVDF/AgNPs with different concentrations of incorporated AgNPs"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "PVDF/AgNPs", "quote": "EDS analysis of (a) pure PVDF (b) PVDF/0.1% AgNPs (c) PVDF/0.3% AgNPs"},
+  {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "component", "sample": "PVDF", "quote": "FTIR absorbance spectra of the PVDF: (a) PVDF/0.1% AgNPs"}
+ ]},
+{"pmcid": "PMC10857521",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 1", "variant": "SEM", "sample": "PLA/Ag", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of the electrospun fiber mats of (a) neat PLA, (b) PLA/Ag-1"},
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "PLA/Ag", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images and EDS spectra of electrospun fiber mats based on PLA"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "mixture", "sample": "PLA/Ag", "quote": "FTIR spectra of silver nitrates, PLA, and PLA/Ag electrospun fiber mats."},
+  {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "PLA/Ag", "quote": "SEM images and EDS spectra of electrospun fiber mats based on PLA"}
+ ]},
+{"pmcid": "PMC11085059",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "SEM", "sample": "ginger AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of AgNPs synthesized using ginger rhizome extract"}
+ ],
+ "descriptors": [
+  {"sample": "ginger AgNPs", "size_nm": 81.6, "pdi": 0.510, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "average diameter of 81.6 nm and a PDI of 0.510"},
+  {"sample": "ginger AgNPs", "size_nm": null, "pdi": null, "zeta_mV": -17.1, "medium": "not_declared", "source": "Table 2", "quote": "Zeta potential (mV) at pH 7 | −17.1 ± 5.52 (STD DEV)"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "ginger AgNPs", "quote": "UV–visible absorbance spectra of AgNPs of ginger rhizome extract"},
+  {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "ginger AgNPs", "quote": "FTIR spectra of AgNPs synthesized using ginger rhizome extract"},
+  {"technique": "XRD", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "ginger AgNPs", "quote": "XRD patterns of AgNPs synthesized using ginger rhizome extract"}
+ ]},
+{"pmcid": "PMC11428305",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 8", "variant": "SEM", "sample": "nail treated with F-OEO/bioAgNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs illustrating the antifungal effect of the formulations containing oregano essential oil"}
+ ],
+ "descriptors": [],
+ "spectra": []},
+{"pmcid": "PMC11597128",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "ML-derived AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of ML-derived silver nanoparticles: (a) 50 nm, (b) 120 nm, and (c) histogram"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "ML-derived AgNPs", "quote": "FTIR spectra of Moringa leaf (ML)-derived silver nanoparticles"},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "ML-derived AgNPs", "quote": "XRD spectra of ML-derived silver nanoparticles"}
+ ]},
+{"pmcid": "PMC11397093",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 6", "variant": "SEM", "sample": "GB-AgNPs, CI-AgNPs, AC-AgNPs, RO-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of AgNPs: (a) GB-AgNPs, (b) CI-AgNPs, (c) AC-AgNPs, and (d) RO-AgNPs"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "GB-AgNPs, CI-AgNPs, AC-AgNPs, RO-AgNPs", "quote": "Uv-vis spectra of bio-synthesized AgNPs"},
+  {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "GB-AgNPs, CI-AgNPs, AC-AgNPs, RO-AgNPs", "quote": "FT-IR images of GB-AgNPs, CI-AgNPs, AC-AgNPs, and RO-AgNPs"}
+ ]},
+{"pmcid": "PMC11519663",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "(PAm/CS)-(0.3/0.01)-10", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM photomicrographs of three AgNPs hydrogel nanocomposites (a) (PAm/CS)-(0.3/0.01)-10"},
+  {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "(PAm/CS)-(0.3/0.01)-10", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM photomicrographs of three AgNPs hydrogel nanocomposites (a) (PAm/CS)-(0.3/0.01)-10"}
+ ],
+ "descriptors": [
+  {"sample": "(PAm/CS)-(0.3/0.01)-10", "size_nm": 16.4, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle size are 16.4 ± 6, 19 ± 4 and 31 ± 7 nm"},
+  {"sample": "(PAm/CS)-(0.3/0.02)-10", "size_nm": 19, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle size are 16.4 ± 6, 19 ± 4 and 31 ± 7 nm"},
+  {"sample": "(PAm/CS)-(0.03/0.3)-10", "size_nm": 31, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle size are 16.4 ± 6, 19 ± 4 and 31 ± 7 nm"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "(PAm/CS)-(0.3/0.01)-10", "quote": "FT-IR spectra analysis of (a) (PAm/CS) hydrogel, (b) (PAm/CS)-(0.3/0.01)-5"},
+  {"technique": "XRD", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "(PAm/CS)-(0.3/0.01)-10", "quote": "XRD patterns of (a) (PAm/CS)-(0.3/0.01)-10, (b) (PAm/CS)-(0.3/0.02)-10, and (c) (PAm/CS)-(0.3/0.03)-10"}
+ ]},
+{"pmcid": "PMC12693451",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "STEM", "sample": "Cc, CHe, CPo (chitosan starting materials)", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "STEM analysis of the starting material: (a) Cc—chitosan from crustaceans"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs (ascorbic acid reduction)", "quote": "UV-Vis spectrum registered for the solution containing silver nanoparticles synthesised"},
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "component", "sample": "Cc, CHe, CPo (chitosan)", "quote": "The FTIR-ATR spectra for the samples are presented as follows"}
+ ]},
+{"pmcid": "PMC12029507",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 1", "variant": "SEM", "sample": "Ag-F NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of Ag NPs (c) and Ag-F NPs (d)"}
+ ],
+ "descriptors": [
+  {"sample": "Ag-F NPs", "size_nm": 11, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "with an average diameter of approximately 11 nm ± 3"}
+ ],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Ag NPs and Ag-F NPs", "quote": "XRD spectra of Ag NPs and Ag-F NPs (a)"},
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Ag and Ag-F NPs", "quote": "FT-IR spectra of Ag and Ag-F NPs (b)"}
+ ]},
+{"pmcid": "PMC11996280",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "SEM", "sample": "Ag1-DC in acrylic resin", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Field emission scanning electron microscopy (FE-SEM) images from the acrylic resin containing (A) 0.2% Ag1-DC"},
+  {"fig": "Fig. 5", "variant": "SEM", "sample": "Ag2-DC nanocomposite", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Field emission scanning electron microscopy (FE-SEM) images from the Ag2-DC nanocomposite"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "mixture", "sample": "acrylic resin with D1", "quote": "the X-ray diffraction (XRD) patterns related to the acrylic resin containing D1"},
+  {"technique": "EDS", "fig": "Fig. 6", "applies_to": "mixture", "sample": "acrylic resin with Ag1-DC", "quote": "Energy-dispersive X-ray (EDX) analysis related to the acrylic resin containing (A) 0.5 wt% Ag1-DC"}
+ ]}
+]}

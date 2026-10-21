@@ -1,0 +1,498 @@
+{
+  "batch": "EX135",
+  "articles": [
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": true,
+          "sample": "commercial MNPs before and after LbL functionalisation",
+          "quote": "TEM images of bare MNPs (A) and after LbL functionalisation (B). Scale bars = 200 nm.",
+          "fig": "Fig. 5",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "commercialised MNPs supplied by Merck and characterised by a 200 nm particle size",
+          "sample": "commercial MNPs",
+          "source": "text; supplier-characterized particle size",
+          "zeta_mV": null,
+          "size_nm": 200,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "MNPs before and after LbL functionalisation",
+          "applies_to": "nanoparticle",
+          "quote": "FTIR-ATR spectra of the MNPs before and after LbL functionalisation.",
+          "technique": "FTIR",
+          "fig": "Fig. 4"
+        }
+      ],
+      "pmcid": "PMC11265571",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "Ag NPs@Bipy-PAN",
+          "quote": "SEM images with various magnifications of Ag NPs@Bipy-PAN.",
+          "fig": "Fig. 2",
+          "shows_nanocarrier": true,
+          "variant": "SEM"
+        },
+        {
+          "scale_bar_in_caption": null,
+          "sample": "Ag NPs@Bipy-PAN",
+          "quote": "TEM images with various magnifications of Ag NPs@Bipy-PAN.",
+          "fig": "Fig. 2",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "The average particle size of Ag nanoparticles was 9.2 nm",
+          "sample": "Ag nanoparticles",
+          "source": "text; average particle size",
+          "zeta_mV": null,
+          "size_nm": 9.2,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "Ag NPs@Bipy-PAN",
+          "applies_to": "nanoparticle",
+          "quote": "Area EDX spectra of Ag NPs@Bipy-PAN.",
+          "technique": "EDS",
+          "fig": "Fig. 2"
+        }
+      ],
+      "pmcid": "PMC11358378",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "nanomaterial",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "MCM-41 and MCM-48 silica particles",
+          "quote": "TEM micrographs for MCM-41 (a) and MCM-48 (b) particles.",
+          "fig": "Figure 2",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        },
+        {
+          "scale_bar_in_caption": null,
+          "sample": "MCM-41@MOE and MCM-48@MOE",
+          "quote": "SEM micrographs of (a) MCM-41@MOE, (b) MCM-41@APTES@MOE, (c) MCM-48@MOE and (d) MCM-48@APTES@MOE.",
+          "fig": "Figure 3",
+          "shows_nanocarrier": true,
+          "variant": "SEM"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "variable sizes in the range of 200–400 nm",
+          "sample": "MCM-41",
+          "source": "text; SEM size range upper bound",
+          "zeta_mV": null,
+          "size_nm": 300,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "quote": "agglomerated silica particles with variable sizes between 100 and 300 nm",
+          "sample": "MCM-48",
+          "source": "text; SEM size range midpoint",
+          "zeta_mV": null,
+          "size_nm": 200,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "MCM samples loaded with MOE",
+          "applies_to": "mixture",
+          "quote": "FTIR spectra and band assignments for samples loaded with MOE.",
+          "technique": "FTIR",
+          "fig": "Figure 5"
+        }
+      ],
+      "pmcid": "PMC11054826",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "MSN and dye-MSN@TiO2",
+          "quote": "SEM image of pristine MSN (A) and dye-MSN@TiO2 (B).",
+          "fig": "Fig. 1",
+          "shows_nanocarrier": true,
+          "variant": "SEM"
+        },
+        {
+          "scale_bar_in_caption": null,
+          "sample": "MSN and dye-MSN@TiO2",
+          "quote": "SEM and TEM images of MSN and dye-MSN@TiO2 particles.",
+          "fig": "Fig. 1",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "Resulting dye-MSN@TiO2 particles show sizes of 151 ± 38 nm",
+          "sample": "dye-MSN@TiO2",
+          "source": "text; SEM size",
+          "zeta_mV": null,
+          "size_nm": 151,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "Dye-MSN@TiO2",
+          "applies_to": "nanoparticle",
+          "quote": "Representative XRD pattern of Dye-MSN@TiO2.",
+          "technique": "XRD",
+          "fig": "Fig. 3"
+        }
+      ],
+      "pmcid": "PMC11197426",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "NH2-AgNPs",
+          "quote": "Transmission electron microscopy (TEM) micrographs of amino-functionalized silver nanoparticles (NH2-AgNPs)",
+          "fig": "Figure 2",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        },
+        {
+          "scale_bar_in_caption": null,
+          "sample": "SNAT particles associated with SARS-CoV-2",
+          "quote": "HR-TEM analysis of electrostatic interaction between SARS-CoV-2 virus and SNAT particles.",
+          "fig": "Figure 3",
+          "shows_nanocarrier": true,
+          "variant": "HRTEM"
+        }
+      ],
+      "descriptors": [
+        {
+          "medium": "not_declared",
+          "zeta_mV": 41,
+          "quote2": "Both NH2-AgNPs and SNAT had high positive mean surface zeta potentials: +41 mV and +22 mV",
+          "quote": "The average hydrodynamic diameters (HDDs) for NH2-AgNPs and SNAT were similar: 4.3 nm and 5.0 nm",
+          "source": "text; DLS hydrodynamic diameter and zeta potential",
+          "sample": "NH2-AgNPs",
+          "size_nm": 4.3,
+          "pdi": null
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "SNAT interacting with SARS-CoV-2",
+          "applies_to": "mixture",
+          "quote": "Energy dispersive spectroscopy (EDS) elemental mapping of SNAT interaction with SARS-CoV-2 virus particle.",
+          "technique": "EDS",
+          "fig": "Figure 3"
+        }
+      ],
+      "pmcid": "PMC11280845",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "nanomaterial",
+        "article_kind": "research",
+        "virus_or_pcr": true
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "GNR-BSA",
+          "quote": "TEM image of GNR-BSA (D).",
+          "fig": "Figure 1",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "The average hydrodynamic sizes of GNR before and after MPS coating were 85.7 (±4.8) nm and 87.1 (±4.1) nm",
+          "sample": "GNR",
+          "source": "text; hydrodynamic size before MPS coating",
+          "zeta_mV": null,
+          "size_nm": 85.7,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "quote": "The average hydrodynamic sizes of GNR before and after MPS coating were 85.7 (±4.8) nm and 87.1 (±4.1) nm",
+          "sample": "GNR after MPS",
+          "source": "text; hydrodynamic size after MPS coating",
+          "zeta_mV": null,
+          "size_nm": 87.1,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "medium": "not_declared",
+          "zeta_mV": 14.3,
+          "quote2": "The increased zeta potential (+14.3 ± 3.1 mV) suggests effective conjugation with BSA",
+          "quote": "The hydrodynamic size of GNR-BSA was 118.9 (±6.3) nm",
+          "source": "text; hydrodynamic size and zeta potential",
+          "sample": "GNR-BSA",
+          "size_nm": 118.9,
+          "pdi": null
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "GNR and GNR-BSA",
+          "applies_to": "nanoparticle",
+          "quote": "The UV-vis spectra of GNR and GNR-BSA (A).",
+          "technique": "UVVis",
+          "fig": "Figure 1"
+        }
+      ],
+      "pmcid": "PMC11508353",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "MSN and nano-RA",
+          "quote": "TEM image of bare mesoporous silica nanoparticles (MSN)",
+          "fig": "Figure 2",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "the average hydrodynamic diameter increases up to 250 nm with a PdI value of 0.",
+          "sample": "nano-RA/MH",
+          "source": "text; DLS hydrodynamic diameter",
+          "zeta_mV": null,
+          "size_nm": 250,
+          "pdi": null,
+          "medium": "deionized water"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "MSN, AMNS, nano-RA, nano-RA/MH, MH, and RA",
+          "applies_to": "mixture",
+          "quote": "Fourier-transform infrared (FT-IR) spectra of MSN (black line), AMNS (blue line), nano-RA (red line), nano-RA/MH (orange line), MH (green line), and RA (purple line).",
+          "technique": "FTIR",
+          "fig": "Figure 3"
+        }
+      ],
+      "pmcid": "PMC7238062",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "SiO2 and SiO2/HA hybrid nanoparticles",
+          "quote": "SEM micrographs of (A) SiO2_p and (B) SiO2_c nanoparticles",
+          "fig": "Figure 1",
+          "shows_nanocarrier": true,
+          "variant": "SEM"
+        },
+        {
+          "scale_bar_in_caption": null,
+          "sample": "SiO2/HA hybrid nanoparticles",
+          "quote": "TEM micrographs at different magnifications of (A,C) SiO2/HA_p and (B,D) SiO2/HA_c.",
+          "fig": "Figure 2",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "revealed nanoparticles with a spherical shape and a narrow size distribution of about 400 nm in diameter",
+          "sample": "SiO2_p",
+          "source": "text; SEM diameter",
+          "zeta_mV": null,
+          "size_nm": 400,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "quote": "revealed a narrow size distribution of pseudospherical particles of about 90 nm in mean diameter",
+          "sample": "SiO2/HA hybrid nanoparticles",
+          "source": "text; SEM mean diameter",
+          "zeta_mV": null,
+          "size_nm": 90,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "SiO2/HA_p and SiO2/HA_c",
+          "applies_to": "nanoparticle",
+          "quote": "FT-IR spectra of SiO2/HA_p and SiO2/HA_c hybrid NPs.",
+          "technique": "FTIR",
+          "fig": "Figure 4"
+        }
+      ],
+      "pmcid": "PMC7240412",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "inorganic_NP",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "AgNPs synthesized with natural aqueous extracts",
+          "quote": "SEM for the prepared AgNPs incorporating natural aqueous extract",
+          "fig": "Figure 3",
+          "shows_nanocarrier": true,
+          "variant": "SEM"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "16.59 ± 0.78, 45.94 ± 1.07, and 81.04 ± 0.98 nm, respectively, for Thymus vulgaris, Mentha piperita, and Zingiber officinale",
+          "sample": "AgNPs, Thymus vulgaris extract",
+          "source": "text; particle size analyzer peak",
+          "zeta_mV": null,
+          "size_nm": 16.59,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "quote": "16.59 ± 0.78, 45.94 ± 1.07, and 81.04 ± 0.98 nm, respectively, for Thymus vulgaris, Mentha piperita, and Zingiber officinale",
+          "sample": "AgNPs, Mentha piperita extract",
+          "source": "text; particle size analyzer peak",
+          "zeta_mV": null,
+          "size_nm": 45.94,
+          "pdi": null,
+          "medium": "not_declared"
+        },
+        {
+          "quote": "16.59 ± 0.78, 45.94 ± 1.07, and 81.04 ± 0.98 nm, respectively, for Thymus vulgaris, Mentha piperita, and Zingiber officinale",
+          "sample": "AgNPs, Zingiber officinale extract",
+          "source": "text; particle size analyzer peak",
+          "zeta_mV": null,
+          "size_nm": 81.04,
+          "pdi": null,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "AgNPs with plant extracts",
+          "applies_to": "nanoparticle",
+          "quote": "FTIR spectroscopy of AgNPs incorporating natural aqueous extract",
+          "technique": "FTIR",
+          "fig": "Figure 4"
+        }
+      ],
+      "pmcid": "PMC9017581",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "nanomaterial",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    },
+    {
+      "panels": [
+        {
+          "scale_bar_in_caption": null,
+          "sample": "biogenerated AgNPs",
+          "quote": "Transmission Electron Microscopy (TEM) micrographs",
+          "fig": "Figure 3",
+          "shows_nanocarrier": true,
+          "variant": "TEM_prep_not_declared"
+        }
+      ],
+      "descriptors": [
+        {
+          "quote": "the hydrodynamic size is 23.45 nm, while the polydispersity index (PDI) was 0.242",
+          "sample": "biogenerated AgNPs",
+          "source": "text; DLS hydrodynamic size",
+          "zeta_mV": null,
+          "size_nm": 23.45,
+          "pdi": 0.242,
+          "medium": "not_declared"
+        }
+      ],
+      "spectra": [
+        {
+          "sample": "C. procumbens synthesized AgNPs",
+          "applies_to": "nanoparticle",
+          "quote": "UV–vis absorption kinetic spectra of C. procumbens synthesized silver nanoparticles",
+          "technique": "UVVis",
+          "fig": "Figure 1"
+        },
+        {
+          "sample": "C. procumbens extract and AgNPs",
+          "applies_to": "mixture",
+          "quote": "FTIR spectra of C. procumbens extract and AgNPs.",
+          "technique": "FTIR",
+          "fig": "Figure 2"
+        }
+      ],
+      "pmcid": "PMC9842608",
+      "context": {
+        "nanocarrier_is_object_of_study": true,
+        "carrier_type": "nanomaterial",
+        "article_kind": "research",
+        "virus_or_pcr": false
+      }
+    }
+  ]
+}

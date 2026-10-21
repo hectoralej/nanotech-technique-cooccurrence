@@ -1,0 +1,143 @@
+{"batch":"EX103","articles":[
+{"pmcid":"PMC7560243","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"chitosan-AuNPs in PVA films","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of PVA nanostructured films with: (a) chitosan-AuNPs for a concentration of 0.4 and (b) 1.3 mM of HAuCl4"},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"AuNPs at 0.4-1.3 mM HAuCl4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Photographs of AuNPs obtained by TEM at the different concentrations of HAuCl4·3H2O (mM)"}
+],
+"descriptors":[
+{"sample":"chitosan-AuNPs 0.4 mM","size_nm":320,"pdi":1.4,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"0.4 | 209 | 320 | 1.4"},
+{"sample":"chitosan-AuNPs 0.7 mM","size_nm":246,"pdi":1.4,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"0.7 | 160 | 246 | 1.4"},
+{"sample":"chitosan-AuNPs 1.0 mM","size_nm":203,"pdi":1.5,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1.0 | 114 | 203 | 1.5"},
+{"sample":"chitosan-AuNPs 1.3 mM","size_nm":187,"pdi":1.6,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"1.3 | 90 | 187 | 1.6"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AuNPs","quote":"UV–Vis absorption spectra of AuNPs prepared at different HAuCl4·3H2O concentrations"},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"chitosan-AuNPs","quote":"XRD spectra of chitosan-AuNPs for the different HAUCl4·3H2O concentrations used."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"chitosan-AuNPs/SWCNT-COOH","quote":"FTIR spectra of (a) chitosan-AuNPs, (b) SWCNT-COOH and (c) self-assembled chitosan-AuNPs/SWCNT-COOH nanostructures."}
+]},
+{"pmcid":"PMC8150711","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"NPA, NPB, NPB-FA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographies of: (A) NPA (B) NPB-FA (C) NPB and (D) NPB-FA."}
+],
+"descriptors":[
+{"sample":"NPA","size_nm":170.4,"pdi":0.128,"zeta_mV":-39.0,"medium":"not_declared","source":"Table 1","quote":"NPA | 170.400 ± 5.781 | 0.128 ± 0.028 | −39.00 ± 1.40"},
+{"sample":"NPA-FA","size_nm":178.6,"pdi":0.056,"zeta_mV":-33.7,"medium":"not_declared","source":"Table 1","quote":"NPA-FA | 178.600 ± 0.289 | 0.056 ± 0.035 | −33.70 ± 1.31"},
+{"sample":"NPB","size_nm":158.7,"pdi":0.13,"zeta_mV":-29.7,"medium":"not_declared","source":"Table 1","quote":"NPB | 158.700 ± 1.700 | 0.130 ± 0.023 | −29.70 ± 0.90"},
+{"sample":"NPB-FA","size_nm":219.3,"pdi":0.207,"zeta_mV":-23.8,"medium":"not_declared","source":"Table 1","quote":"NPB-FA | 219.300 ± 2.751 | 0.207 ± 0.028 | −23.80 ± 2.22"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"NPA, NPA-FA","quote":"FT-IR curves of FA (a) PLA polymer (b) HP-β-CD (c) unloaded NPA (d) and FA-loaded NPA nanoparticles (e)."},
+{"technique":"FTIR","fig":"Fig. 7","applies_to":"nanoparticle","sample":"NPB, NPB-FA","quote":"FT-IR curves of FA (a) PLGA polymer (b) HP-β-CD (c) unloaded NPB (d) and FA-loaded NPB nanoparticles (e)."}
+]},
+{"pmcid":"PMC7178312","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"DPLE-mediated composite; HEL-mediated composite","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM micrographs for (a,b) DPLE-mediated composite and (d,e) HEL-mediated composite at (a,d) 50 nm and (b,e) 100 nm magnifications"}
+],
+"descriptors":[
+{"sample":"DPLE-mediated composite","size_nm":null,"pdi":null,"zeta_mV":45.6,"medium":"not_declared","source":"text","quote":"the ZP obtained for the DPLE- and HEL-mediated composites is +45.6 ± 12.3 mV and +55.6 ± 10.1 mV"},
+{"sample":"HEL-mediated composite","size_nm":null,"pdi":null,"zeta_mV":55.6,"medium":"not_declared","source":"text","quote":"the ZP obtained for the DPLE- and HEL-mediated composites is +45.6 ± 12.3 mV and +55.6 ± 10.1 mV"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"DPLE-mediated composite","quote":"FTIR spectra of (a) chitosan, DPLE leaves extract, and DPLE-mediated composite"},
+{"technique":"UVVis","fig":"Fig. 4","applies_to":"nanoparticle","sample":"DPLE-mediated composite","quote":"Comparative UV-vis spectra of (a) AgNO3 solution, DPLE leaves extract, and DPLE-mediated composite"},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AgNPs in composite","quote":"XRD pattern of AgNPs in the composite obtained by treating 5 mL of (a) DPLE and (b) HEL leaves extracts"}
+]},
+{"pmcid":"PMC7470130","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"BRU-loaded PLGA NPs prepared with PVA","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Size distribution, zeta potential, and scanning electron microscope of BRU-loaded PLGA NPs prepared with PVA."}
+],
+"descriptors":[
+{"sample":"NNP1","size_nm":199,"pdi":0.337,"zeta_mV":-16.6,"medium":"not_declared","source":"Table 4","quote":"NNP1 | 199 ± 3.0 | 0.337 | −16.6 ± 1.7"},
+{"sample":"NNP2","size_nm":204,"pdi":0.542,"zeta_mV":-19.7,"medium":"not_declared","source":"Table 4","quote":"NNP2 | 204 ± 8.1 | 0.542 | −19.7 ± 3.0"},
+{"sample":"NNP3","size_nm":206,"pdi":0.297,"zeta_mV":-22.8,"medium":"not_declared","source":"Table 4","quote":"NNP3 | 206 ± 7.7 | 0.297 | −22.8 ± 2.3"},
+{"sample":"NNP4","size_nm":110,"pdi":0.211,"zeta_mV":-23.3,"medium":"not_declared","source":"Table 4","quote":"NNP4 | 110 ± 2.08 | 0.211 | −23.3 ± 5.2"},
+{"sample":"NP1","size_nm":215,"pdi":0.423,"zeta_mV":2.42,"medium":"not_declared","source":"Table 4","quote":"NP1 | 215 ± 4.1 | 0.423 | 2.42 ± 0.37"},
+{"sample":"NP2","size_nm":238,"pdi":0.318,"zeta_mV":1.09,"medium":"not_declared","source":"Table 4","quote":"NP2 | 238 ± 3.6 | 0.318 | 1.09 ± 0.15"},
+{"sample":"NP3","size_nm":253,"pdi":0.368,"zeta_mV":1.79,"medium":"not_declared","source":"Table 4","quote":"NP3 | 253 ± 8.7 | 0.368 | 1.79 ± 0.83"},
+{"sample":"NP4","size_nm":124,"pdi":0.21,"zeta_mV":1.36,"medium":"not_declared","source":"Table 4","quote":"NP4 | 124 ± 0.57 | 0.210 | 1.36 ± 0.12"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"unclear","sample":"BRU, PEG, PLGA, PVA and BRU NPs","quote":"FTIR spectra of pure BRU, PEG, PLGA, PVA, and NP formulations prepared with PVA."}
+]},
+{"pmcid":"PMC9036376","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 8","variant":"HRTEM","sample":"AuNPs produced by BAECs and BASMC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SAED and HR-TEM of AuNPs produced by (A) BAECs and (B) BASMC."}
+],
+"descriptors":[
+{"sample":"AuNPs by BAECs","size_nm":75,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"BAEC | 75 ± 5 | 23 ± 2 | 2.3 ± 1 | 6 ± 1"},
+{"sample":"AuNPs by BASMC","size_nm":74,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"BASMC | 74 ± 6 | 23 ± 4 | 2.3 ± 2 | 5 ± 1"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNPs from BAECs and BASMCs","quote":"UV-Visible spectra of the AuNPs isolated from (A) BAECs and (B) BASMCs exposed to 0.75 mM HAuCl4"},
+{"technique":"XRD","fig":"Fig. 10","applies_to":"nanoparticle","sample":"AuNPs from spent media","quote":"XRD of AuNPs isolated from the spent media of BAECs and BASMCs."},
+{"technique":"FTIR","fig":"Fig. 11","applies_to":"nanoparticle","sample":"AuNPs from BAECs and BASMCs","quote":"FTIR of powdered AuNPs produced by BAECs and BASMCs"}
+]},
+{"pmcid":"PMC7463453","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"PN-1 to PN-4","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Photomicrographs of polymeric nanoparticles (a) PN-1, (b) PN-2 (c) PN-3, and (d) PN-4."}
+],
+"descriptors":[
+{"sample":"PN1","size_nm":440,"pdi":0.42,"zeta_mV":18.15,"medium":"not_declared","source":"Table 3","quote":"PN1 | HPMC_CS 70/30 C-B 1/2 | 440 ± 2.13 | 0.42 ± 4.13 | 18.15 ± 11.20"},
+{"sample":"PN2","size_nm":497,"pdi":0.58,"zeta_mV":21.1,"medium":"not_declared","source":"Table 3","quote":"PN2 | HPMC_CS 70/30 C-B 3/2 | 497 ± 1.93 | 0.58 ± 10.0 | 21.10 ± 0.82"},
+{"sample":"PN3","size_nm":494,"pdi":0.5,"zeta_mV":22.85,"medium":"not_declared","source":"Table 3","quote":"PN3 | HPMC_CS 70/30 C-B 2/1 | 494 ± 0.47 | 0.50 ± 2.08 | 22.85 ± 2.16"},
+{"sample":"PN4","size_nm":486,"pdi":0.47,"zeta_mV":23.7,"medium":"not_declared","source":"Table 3","quote":"PN4 | HPMC_CS 70/30 C-B 2/3 | 486 ± 0.82 | 0.47 ± 8.41 | 23.70 ± 0.59"},
+{"sample":"PN5","size_nm":546,"pdi":0.69,"zeta_mV":22.15,"medium":"not_declared","source":"Table 3","quote":"PN5 | HPMC_CS 30/70 C-B1/2 | 546 ± 0.38 | 0.69 ± 11.00 | 22.15 ± 2.87"},
+{"sample":"PN6","size_nm":554,"pdi":0.42,"zeta_mV":22.2,"medium":"not_declared","source":"Table 3","quote":"PN6 | HPMC_CS 30/70 C-B 3/2 | 554 ± 1.04 | 0.42 ± 6.12 | 22.20 ± 2.54"},
+{"sample":"PN7","size_nm":628,"pdi":0.61,"zeta_mV":23.7,"medium":"not_declared","source":"Table 3","quote":"PN7 | HPMC_CS 30/70 C-B 2/1 | 628 ± 1.77 | 0.61 ± 12.70 | 23.70 ± 0.59"},
+{"sample":"PN8","size_nm":632,"pdi":0.47,"zeta_mV":27.5,"medium":"not_declared","source":"Table 3","quote":"PN8 | HPMC_CS 30/70 C-B 2/3 | 632 ± 1.57 | 0.47 ± 5.49 | 27.50 ± 10.10"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"component","sample":"chitosan","quote":"FTIR spectra for chitosan (a) and hydroxypropylmethylcellulose (b)."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"component","sample":"ceftriaxone","quote":"FTIR spectra for ceftriaxone (a) and extract of S. brasiliensis (b)."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"PN-4","quote":"FTIR spectra of the polymeric nanoparticle (PN) (a) and PN containing extract and active pharmaceutical ingredients (API) (PN-4) (b)."}
+]},
+{"pmcid":"PMC6633902","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"[AuNPs]cal/silicahex and [AuNPs]red/silicahex films","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of a) [AuNPs]cal/silicahex films at 250 and b) 450 °C"},
+{"fig":"Fig. 7","variant":"TEM_prep_not_declared","sample":"[AuNPs]cal/silicahex and [AuNPs]red/silicahex films","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"a) TEM images of [AuNPs]cal/silicahex films at 250 and b) 450 °C"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"[AuNPs]cal/silicahex","quote":"XRD patterns in the small-angle region of a) [AuNPs]cal/silicahex films after calcination"},
+{"technique":"XRD","fig":"Fig. 6","applies_to":"nanoparticle","sample":"[AuNPs]cal/silicahex","quote":"XRD patterns for the wide-angle region of a) [AuNPs]cal/silicahex"},
+{"technique":"UVVis","fig":"Fig. 8","applies_to":"nanoparticle","sample":"[AuNPs]cal/silicahex and [AuNPs]red/silicahex","quote":"Absorption spectra of a) [AuNPs]cal/silicahex and b) [AuNPs]red/silicahex films"}
+]},
+{"pmcid":"PMC7979291","context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_dried_unstained","sample":"chitosan nanogel","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Characterization of chitosan nanogel: (a) FT-IR spectra, (b) appearance before formulation, (c) TEM image, and (d) mean size distribution."}
+],
+"descriptors":[
+{"sample":"chitosan nanogel","size_nm":25.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average particle size of the chitosan nanogel was 25.6 ± 1.5 nm"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"chitosan nanogel","quote":"Characterization of chitosan nanogel: (a) FT-IR spectra"}
+]},
+{"pmcid":"PMC9463142","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"biosynthesized Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) FE-SEM analysis, (c and d) TEM analysis, and (b) Particle size distribution of biosynthesized Ag NPs."}
+],
+"descriptors":[
+{"sample":"biosynthesized Ag NPs","size_nm":4.7,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"ranging in size from 1 to 9 nm and with an average size of 4.7 nm"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"biosynthesized Ag NPs","quote":"The positive result of color change and UV–visible spectroscopy of biosynthesized Ag NPs (a)"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"biosynthesized Ag NPs","quote":"EDX analysis (b), XRD results (c), and FT-IR spectra analysis (d)."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"nanoparticle","sample":"biosynthesized Ag NPs","quote":"EDX analysis (b), XRD results (c), and FT-IR spectra analysis (d)."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"biosynthesized Ag NPs","quote":"EDX analysis (b), XRD results (c), and FT-IR spectra analysis (d)."}
+]},
+{"pmcid":"PMC7447811","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"SEM","sample":"PLGA-PEG microspheres (drug-loaded and control)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of (A) PLGA-PEG_PGS, (B) PLGA-PEG_PGS-LHRH, (C) PLGA-PEG_PTX, (D) PLGA-PEG_PTX-LHRH, (E) PLGA-PEG microspheres."},
+{"fig":"Fig. 6","variant":"SEM","sample":"drug-loaded PLGA-PEG microspheres after degradation","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of surfaces of drug-loaded PLGA-PEG microspheres after 57 days exposure to phosphate buffer saline"}
+],
+"descriptors":[
+{"sample":"PLGA-PEG","size_nm":3140,"pdi":0.82,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PLGA-PEG | 0.80 ± 0.26 | 3.14 ± 0.09 | 0.82"},
+{"sample":"PLGA-PEG_PGS","size_nm":5440,"pdi":0.67,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PLGA-PEG_PGS | 1.23 ± 0.18 | 5.44 ± 0.23 | 0.67"},
+{"sample":"PLGA-PEG_PGS-LHRH","size_nm":6920,"pdi":0.47,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PLGA-PEG_ PGS-LHRH | 1.16 ± 0.18 | 6.92 ± 0.44 | 0.47"},
+{"sample":"PLGA-PEG_PTX","size_nm":5260,"pdi":0.58,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PLGA-PEG_PTX | 0.88 ± 0.18 | 5.26 ± 0.53 | 0.58"},
+{"sample":"PLGA-PEG_PTX-LHRH","size_nm":6020,"pdi":0.39,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"PLGA-PEG_PTX-LHRH | 1.03 ± 0.37 | 6.02 ± 0.80 | 0.39"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"drug-loaded PLGA-PEG microspheres","quote":"FTIR spectra of the synthesized drug-loaded (PLGA-PEG_PGS, PLGA-PEG_PGS-LHRH, PLGA-PEG_PTX, PLGA-PEG_PTX-LHRH) microspheres and control (PLGA-PEG) microspheres."}
+]}
+]}

@@ -1,0 +1,275 @@
+{
+  "batch": "EX149",
+  "articles": [
+    {
+      "pmcid": "PMC12361501",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "RSHH-loaded PLGA nanoparticles (RSHH-PLGA-NP)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Characterization of RSHH-loaded PLGA nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "RSHH-PLGA-NP",
+          "size_nm": 204.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; zeta sizer average size",
+          "quote": "The particle size, measured using a zeta sizer, showed an average size of 204.9 ± 35.77 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC5791091",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "mesoporous silica nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) image"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs",
+          "size_nm": 30,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; approximate uniform particle size",
+          "quote": "all the MSNs exhibited spherical morphologies with a uniform particle size (about 30 nm)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs",
+          "quote": "Fourier-transform infrared (FT-IR) spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11768399",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "polymeric nanoparticles with and without amphotericin B",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy images of polymeric nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "NL PNP, PNP + AmB, and AmB FD",
+          "quote": "UV-Visible scanning spectra of NL PNP, PNP + AmB, and AmB FD samples."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5712992",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "iron oxide MNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of iron oxide MNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12516539",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6215302",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12561150",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "chitosan-free and CHIVAX-loaded chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphology analysis by transmission electron microscopy (TEM) of chitosan-free nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "free- and CHIVAX 2.1-loaded chitosan nanoparticles",
+          "quote": "FTIR spectra of free- and CHIVAX 2.1-loaded chitosan nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6193170",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNR, IO and LDGI",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM images of GNR, IO, and LDGI."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "IO, GNR and LDGI",
+          "quote": "UV–vis spectra of IO, GNR, and LDGI."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12030174",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "p(TA-co-LYS) nanogels",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of p(TA-co-LYS) nanogels."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "p(TA-co-LYS) nanogels",
+          "size_nm": 287,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "10 mM KNO3",
+          "source": "text; SEM image mean diameter",
+          "quote": "The average diameters of p(TA-co-LYS) nanogels were determined as 287 ± 57 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "TA, LYS and p(TA-co-LYS) nanogels",
+          "quote": "FT-IR spectra of TA, LYS"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5877385",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_negstain",
+          "sample": "PEG-coated gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of PEG-coated gold nanoparticles. Samples were negative stained with 1% phosphotungstic acid; thereafter, images were taken. Scale bars = 200, 20 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "PEG and PDC binding to gold nanoparticles",
+          "quote": "Fourier Transformed Infra-Red spectra of PEG and PDC binding to gold nanoparticles."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{"batch":"EX114","articles":[
+{"pmcid":"PMC8467971","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"A-BG-AgNPs and E-BG-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images (a) A-BG-AgNPs and (b) E-BG-AgNPs."},
+{"fig":"Fig. 10","variant":"TEM_posstain","sample":"E. coli treated with A-BG-AgNPs","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"TEM (a–c) and SEM (d–f) images of E. coli with and without treatment with AgNPs (20 µg/mL)."},
+{"fig":"Fig. 11","variant":"TEM_posstain","sample":"S. aureus","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"TEM images of S. aureus treated with (a) A-BG-AgNPs, (b) E-BG-AgNPs and (c) untreated bacteria cells"}],
+"descriptors":[
+{"sample":"A-BG-AgNPs","size_nm":null,"pdi":null,"zeta_mV":-33.0,"medium":"other","source":"text","quote":"Negative Zeta potential values of −33.0 ± 0.6 and −32.7 ± 0.5 mV were observed (n = 3) for the A-BG-AgNPs and E-BG-AgNPs, respectively."},
+{"sample":"E-BG-AgNPs","size_nm":null,"pdi":null,"zeta_mV":-32.7,"medium":"other","source":"text","quote":"Negative Zeta potential values of −33.0 ± 0.6 and −32.7 ± 0.5 mV were observed (n = 3) for the A-BG-AgNPs and E-BG-AgNPs, respectively."}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"A-BG-AgNPs and E-BG-AgNPs","quote":"UV–vis spectra of purified A-BG-AgNPs and E-BG-AgNPs"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"A-BG-AgNPs and E-BG-AgNPs","quote":"X-ray diffraction pattern of A- and E-BG-AgNPs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"A-BG-AgNPs and E-BG-AgNPs","quote":"FT-IR spectra of (a) A-BGE and A-BG-AgNPs; (b) E-BGE and E-BG-AgNPs."}]},
+
+{"pmcid":"PMC8150796","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"biosynthesized AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Micrographs of biosynthesized AgNPs obtained by TEM."}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":86.72,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter of AgNPs was 86.72 nm and the polydispersity index (PdI) was low"},
+{"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-28.6,"medium":"not_declared","source":"text","quote":"In addition, AgNPs showed a negative zeta potential (−28.6 mV) (Figure 1d)."},
+{"sample":"AgNPs-MB","size_nm":null,"pdi":null,"zeta_mV":-13.9,"medium":"other","source":"text","quote":"zeta potential of AgNPs-MB, AgNPs-NMBN, and AgNPs-NMBN-Zn were −13.9 mV, −17 mV, and −9.25 mV"},
+{"sample":"AgNPs-NMBN","size_nm":null,"pdi":null,"zeta_mV":-17,"medium":"other","source":"text","quote":"zeta potential of AgNPs-MB, AgNPs-NMBN, and AgNPs-NMBN-Zn were −13.9 mV, −17 mV, and −9.25 mV"},
+{"sample":"AgNPs-NMBN-Zn","size_nm":null,"pdi":null,"zeta_mV":-9.25,"medium":"other","source":"text","quote":"zeta potential of AgNPs-MB, AgNPs-NMBN, and AgNPs-NMBN-Zn were −13.9 mV, −17 mV, and −9.25 mV"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs-PS associations","quote":"Optical absorption spectrum of AgNPs-PS associations compared to the isolated compounds."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"(d) Energy dispersive X-ray (EDX) spectrum of AgNPs."}]},
+
+{"pmcid":"PMC8706101","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"F-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) transmission electron microscopy (average size ~15 nm) HR-TEM and higher magnification in the insets"}],
+"descriptors":[
+{"sample":"F-AgNPs","size_nm":47,"pdi":0.447,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter of F-AgNPs was 47 nm (Figure 1C) with a particle distribution index of 0.447"},
+{"sample":"F-AgNPs","size_nm":null,"pdi":null,"zeta_mV":-20.03,"medium":"not_declared","source":"text","quote":"a zeta potential of −20.03 mV (Figure 1D)"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"F-AgNPs","quote":"(A) UV–visible spectroscopy (λMax 420 nm)"},
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"F-AgNPs","quote":"(E) XRD and (F) FTIR analyses."},
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"F-AgNPs","quote":"FTIR measurements were accomplished to identify the presence of various functional groups in the biomolecules"}]},
+
+{"pmcid":"PMC8623640","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of silver nanoparticles green synthesized using leaf extracts of Tridax procumbens."}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":138.0,"pdi":0.460,"zeta_mV":null,"medium":"water","source":"text","quote":"Particle size was found to be 138.0 ± 2.1 nm with a relatively monodispersed distribution (polydispersity index: 0.460 ± 0.3)."},
+{"sample":"AgNPs","size_nm":null,"pdi":null,"zeta_mV":-20.4,"medium":"water","source":"text","quote":"The surface of the particles was profound to be negatively charged with a zeta potential of −20.4 ± 5.20 mV"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectrums of Tridax procumbens leaf powder extract (A) and green synthesized silver nanoparticles (B"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction patterns of silver nanoparticles green synthesized in Tridax procumbens L aqueous extract"}]},
+
+{"pmcid":"PMC8242066","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B) Example of TEM image of AgNPs."},
+{"fig":"Fig. 3","variant":"HRTEM","sample":"single silver nanoparticle","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(A) Representative HRTEM images of single silver nanoparticle with lattice fringes."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs_L and AgNPs_H","quote":"(A) UV–Vis absorption spectra of biosynthesized AgNPs_L (circle) and AgNPs_H (diamond)."},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"EDS elemental mapping images of silver (red), sulfur (blue), and an overlay of the Ag and S."}]},
+
+{"pmcid":"PMC8131587","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"AgNPs and AgCNCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d,e) surface topological analysis of AgNPs and AgCNCs, respectively using scanning electron microscope."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs and AgCNCs","quote":"(b,c) UV–visible spectra of AgNPs and AgCNCs, respectively."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"(a) spectral analysis of silver nanoparticles (AgNPs), (b) spectral analysis of chitosan"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs and AgCNCs","quote":"Elemental analysis of nanomaterials using energy dispersive x-ray technique."}]},
+
+{"pmcid":"PMC8149228","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"SPIONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) TEM micrograph of SPIONs."}],
+"descriptors":[
+{"sample":"SPION@CMD","size_nm":null,"pdi":null,"zeta_mV":-72.4,"medium":"not_declared","source":"text","quote":"Zeta potential was measured at ∼−72.4 mV for SPION@CMD and ∼−31.5 mV for SPION@CMD@triptorelin"},
+{"sample":"SPION@CMD@triptorelin","size_nm":null,"pdi":null,"zeta_mV":-31.5,"medium":"not_declared","source":"text","quote":"Zeta potential was measured at ∼−72.4 mV for SPION@CMD and ∼−31.5 mV for SPION@CMD@triptorelin"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"SPIONs","quote":"XRD pattern of sample SPIONs synthesized by a coprecipitation method."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"SPIONs coated with triptorelin","quote":"FTIR spectra of Fe3O4 and SPIONs coated with triptorelin."}]},
+
+{"pmcid":"PMC8232158","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"chemically synthesized silver nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Images showing the TEM picture of silver nanoparticles (A) and EDX pattern (B)."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"biologically synthesized silver nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of Magnetospirillum magnetotacticum with silver nanoparticles (A), silver nanoparticles (B)"}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"component","sample":"P. grandiflora tubers extract","quote":"FTIR spectrum of P. grandiflora tubers extract prepared using different solvent"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"silver nanoparticles conjugated with extracts","quote":"FTIR spectrum of plant extracts conjugated with silver nanoparticles."},
+{"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"silver nanoparticles","quote":"Images showing the TEM picture of silver nanoparticles (A) and EDX pattern (B)."}]},
+
+{"pmcid":"PMC8234839","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"SEM","sample":"TCE-Ag-1, TCE-Ag-2, TCE-Ag-3","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM-based comparative analysis of morphologies of TCE-Ag-1 (A), TCE-Ag-2 (B), and TCE-Ag-3 (C) NPs."},
+{"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"TCE-Ag-NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM and ImageJ-based comparative analysis of TCE-Ag-NPs."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"TCE-Ag NPs","quote":"the appearance of sharp peaks at 488, 482, and 434 nm in UV-vis spectra (Figure 1)"},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"TCE-Ag-3","quote":"Comparison of FTIR spectra of TCE and TCE-capped Ag−3."},
+{"technique":"Raman","fig":"Fig. 3","applies_to":"nanoparticle","sample":"TCE-Ag-3","quote":"Raman spectroscopic analysis of TCE bio-actives plausibly capped of TCE-Ag-3."}]},
+
+{"pmcid":"PMC10674166","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[],
+"descriptors":[
+{"sample":"pristine acrylic fabric","size_nm":null,"pdi":null,"zeta_mV":-14.69,"medium":"not_declared","source":"text","quote":"The zeta potential of the pristine acrylic fabric was recorded as −14.69 mV."},
+{"sample":"HMDA-treated acrylic fabric","size_nm":null,"pdi":null,"zeta_mV":-1.74,"medium":"not_declared","source":"text","quote":"Following treatment with HMDA, the zeta potential increased to −1.74 mV"},
+{"sample":"AgNPs-coated treated acrylic fabric","size_nm":null,"pdi":null,"zeta_mV":-5.62,"medium":"not_declared","source":"text","quote":"Coating the treated acrylic fabric with AgNPs resulted in a decrease in the zeta potential to −5.62 mV"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"unclear","sample":"pristine and treated acrylic before and after enzyme immobilization","quote":"ATR-FTIR spectra of pristine acrylic and treated acrylic before and after enzyme immobilization."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs@TA-HMDA","quote":"The SEM–energy-dispersive X-ray (EDX) spectra of (a) AgNPs@TA-HMDA and (b) Ag(I)@TA-HMDA."}]}
+]}

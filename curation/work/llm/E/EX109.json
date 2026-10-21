@@ -1,0 +1,83 @@
+{"batch":"EX109","articles":[
+{"pmcid":"PMC8073516","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Ag NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images and particle size distribution of Ag NPs (a) and Ag NPs after one month placement (b)."}],
+"descriptors":[
+{"sample":"Ag NPs","size_nm":null,"pdi":null,"zeta_mV":-42.9,"medium":"not_declared","source":"text","quote":"The zeta potential of Ag NPs was −42.9 mV, indicating that there was a strong electrostatic repulsion"}],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"Ag NPs","quote":"UV-Vis of honeysuckle extract (a) and Ag NPs (b)."},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Ag NPs","quote":"XRD pattern of Ag NPs."},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"Ag NPs","quote":"The FT-IR of Ag NPs (a) and Honeysuckle extract (b)."}]},
+{"pmcid":"PMC8747428","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"G3.0@mPEG","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM (a,b), statistical graph from TEM (c,d) and DLS (e,f) results of G3.0 and G3.0@mPEG, respectively."}],
+"descriptors":[
+{"sample":"G3.0","size_nm":5.8,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with 5.8 ± 0.6 nm for G3.0 and 123.5 ± 5.2 nm for G3.0@mPEG"},
+{"sample":"G3.0@mPEG","size_nm":123.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with 5.8 ± 0.6 nm for G3.0 and 123.5 ± 5.2 nm for G3.0@mPEG"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"G3.0@mPEG","quote":"FT-IR spectra of mPEG-NPC, G3.0 and G3.0@mPEG."}]},
+{"pmcid":"PMC7356180","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"magnetite/silver","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of (E) magnetite/silver nanoparticles"}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"magnetite/silver","quote":"UV-Visible spectra of magnetite (red), silver NPs (green) and magnetite/silver (blue)."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"magnetite/silver","quote":"(C) FTIR spectra of bare pDMAEMA (Red), magnetite/silver (Blue), magnetite/silver-pDMAEMA (green)"}]},
+{"pmcid":"PMC5516678","context":{"article_kind":"research","carrier_type":"not_a_nanocarrier","nanocarrier_is_object_of_study":false,"virus_or_pcr":false},
+"panels":[],"descriptors":[],"spectra":[]},
+{"pmcid":"PMC8466504","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"HRTEM","sample":"Fe3O4@CeO2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(a) Field Emission Transmission Electron Microscope (FE-TEM) images and lattice fringe spacing of Fe3O4@CeO2"},
+{"fig":"Fig. 5","variant":"SEM","sample":"Fe3O4@CeO2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Field Emission-Scanning Electron Microscope (FE-SEM) images for nanoparticle sizing of"}],
+"descriptors":[
+{"sample":"Fe3O4@CeO2","size_nm":175,"pdi":0.448,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Fe3O4@CeO2 | 175 | 0.448"},
+{"sample":"Fe3O4@CeO2-APTES","size_nm":125,"pdi":0.732,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Fe3O4@CeO2-APTES | 125 | 0.732"},
+{"sample":"Fe3O4@CeO2-APTES-HA","size_nm":146,"pdi":0.218,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"Fe3O4@CeO2-APTES-HA | 146 | 0.218"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Fe3O4@CeO2","quote":"Fourier transform infrared spectroscopy (FT-IR) spectra of: (a) Fe3O4, Fe3O4@CeO2 and Fe3O4@CeO2-APTES"},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"Fe3O4@CeO2","quote":"X-ray Diffraction (XRD) patterns of co-precipitated Fe3O4 and synthesized Fe3O4@CeO2."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Fe3O4@CeO2-APTES-HA","quote":"EDS analysis for ingredient identification of: (d) Fe3O4@CeO2-APTES-HA"}]},
+{"pmcid":"PMC8241001","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_negstain","sample":"DCNPopt","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of DCNPopt."}],
+"descriptors":[
+{"sample":"DCNPopt","size_nm":212.86,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"with a particle size of 212.86 nm and DEE 80.449%"},
+{"sample":"Formulation 7","size_nm":248,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"7 | 1 | −1 | 1 | 248 | 75.15"},
+{"sample":"Formulation 3","size_nm":257,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"3 | 12 | 1 | −1 | 257 | 86.62"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"DCNPopt","quote":"FTIR spectra of (A) Chitosan (B) Doxycycline hydrochloride (C) DCNPopt."}]},
+{"pmcid":"PMC8100210","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_dried_unstained","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM of biosynthesized AgNPs."}],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV-Vis spectrum of biosynthesized AgNPs."},
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD pattern of biosynthesized AgNPs."},
+{"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"FTIR spectrum of biosynthesized AgNPs. AgNPs (A) and control (B)."}]},
+{"pmcid":"PMC6432552","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"MSP@PNAMAm-p","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of (a) MSP (magnetic supraparticle); (b) MSP@PNAMAm-p; (c) MSP@PNAMAm. The scale bar is 100 nm."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"PNAMAm","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of PNAMAm with different amount of MBA as crosslinker: (a) 20%; (b) 30%; (c) 40%; (d) 50%. The scale bar is 200 nm."}],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"component","sample":"PNAMAm-p","quote":"(f) FT-IR spectra of (I) NAMAm-p; (II) PNAMAm-p; and (III) PNAMAm."}]},
+{"pmcid":"PMC8076435","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"a SEM analysis of green-synthesized AgNPs under optimal conditions"}],
+"descriptors":[
+{"sample":"AgNPs","size_nm":98.21,"pdi":0.254,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the average size of AgNPs was 98.21 ± 1.54 nm with a polydispersity Index (PdI) of 0.254 ± 0.134"}],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"a XRD pattern, b EDS spectrum, and c Zeta potential of AgNPs synthesized using Juniperus polycarpos extract"},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"a XRD pattern, b EDS spectrum, and c Zeta potential of AgNPs synthesized using Juniperus polycarpos extract"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"The FTIR spectrum of the AgNPs synthesized by Juniperus polycarpos extract"}]},
+{"pmcid":"PMC4873127","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"Q-loaded NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscope micrographs of (a) void-PLGA NPs; (b) Q-loaded NPs; (c) NF1 and (d) NF2."},
+{"fig":"Fig. 4","variant":"TEM_dried_unstained","sample":"NF2","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscope image of NF2 illustrating the three layers of"}],
+"descriptors":[
+{"sample":"void NPs","size_nm":null,"pdi":null,"zeta_mV":-2.0,"medium":"water","source":"text","quote":"the values recorded are -2.0 mv, -10.0 mv, +3.0 mv and +8.0 mv respectively"},
+{"sample":"Q-loaded NPs","size_nm":null,"pdi":null,"zeta_mV":-10.0,"medium":"water","source":"text","quote":"the values recorded are -2.0 mv, -10.0 mv, +3.0 mv and +8.0 mv respectively"},
+{"sample":"NF2","size_nm":null,"pdi":null,"zeta_mV":8.0,"medium":"water","source":"text","quote":"the values recorded are -2.0 mv, -10.0 mv, +3.0 mv and +8.0 mv respectively"}],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"NF2","quote":"FTIR spectra of (a) pure—Q (b) BSA (c) PLGA (d) NF1 and (e) NF2."}]}
+]}

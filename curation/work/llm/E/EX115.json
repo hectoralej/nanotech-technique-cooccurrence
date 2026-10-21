@@ -1,0 +1,129 @@
+{"batch": "EX115", "articles": [
+{"pmcid": "PMC9959119",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "Fe3O4@-PEG-SFB", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of the synthesized powders (A) Fe3O4@-PEG-SFB; (B) their particle size distribution;"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Fe3O4@-PEG_SFB", "quote": "XRD of powdered (A) Fe3O4 nanoparticles; (B) pure PEG; (C) Fe3O4@PEG; (D) SFB, (E) Fe3O4@-PEG_SFB."},
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Fe3O4@-PEG-SFB", "quote": "FTIR spectra for (A) Fe3O4@−PEG-SFB; (B) SFB; (C) pure PEG; (D) Fe3O4 nanoparticles."}
+ ]},
+{"pmcid": "PMC9925352",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 1", "variant": "SEM", "sample": "AuNPs-d-PLL", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "C) SEM image of the AuNPs-d-PLL (scale bar 2 µm)"}
+ ],
+ "descriptors": [
+  {"sample": "AuNPs-d-PLL", "size_nm": 118.8, "pdi": 0.097, "zeta_mV": 32, "medium": "not_declared", "source": "Table 1", "quote": "AuNPs-d-PLL | 118.8 ± 1 | 0.097 ±0.005 | 131 ± 1 | 89 ± 1 | 101 ± 30 | 32 ± 1.3"},
+  {"sample": "AuNPs-d-PLL-PEG", "size_nm": 133.1, "pdi": 0.083, "zeta_mV": 21, "medium": "not_declared", "source": "Table 1", "quote": "AuNPS-d-PLL-PEG | 133.1 ± 0.9 | 0.083 ± 0.02 | 144.4 ± 0.3 | 114.13 ± 8 | 156.13 ± 0.3 | 21 ± 1"},
+  {"sample": "AuNPs-d-PLL-PEG-FA", "size_nm": 125.5, "pdi": 0.091, "zeta_mV": 30, "medium": "not_declared", "source": "Table 1", "quote": "AuNPs-d-PLL-PEG-FA | 125.5 ± 5 | 0.091± 0.033 | 143.3 ± 3 | 113.9 ± 10 | 155.06 ± 4.5 | 30 ± 0.9"},
+  {"sample": "AuNPs-d-PLL.siRNA 25 nM", "size_nm": 123.5, "pdi": 0.160, "zeta_mV": -21.13, "medium": "not_declared", "source": "Table 2", "quote": "AuNPs-d-PLL.siRNA 25 nM | 123.5 ± 2.2 | 0.160 ± 0.043 | 132.43 ± 7 | 94.26 ± 2 | 137.26 ± 11 | -21.13 ± 0.5"},
+  {"sample": "AuNPs-d-PLL-PEG.siRNA 25 nM", "size_nm": 135, "pdi": 0.094, "zeta_mV": -14.13, "medium": "not_declared", "source": "Table 2", "quote": "AuNPs-d-PLL-PEG.siRNA 25 nM | 135 ± 4 | 0.094 ± 0.010 | 149 ± 3 | 111.6 ± 12.5 | 164.0 ± 8 | -14.13 ± 4.87"},
+  {"sample": "AuNPs-d-PLL-PEG-FA.siRNA 25 nM", "size_nm": 193.5, "pdi": 0.113, "zeta_mV": -11.41, "medium": "not_declared", "source": "Table 2", "quote": "AuNPs-d-PLL-PEG-FA.siRNA 25 nM | 193.5 ± 1.9 | 0.113 ± 0.022 | 213.43 ± 7.53 | 187.33 ± 1.67 | 229.23 ± 35.3 | -11.41 ± 3.78"},
+  {"sample": "AuNPs-d-PLL.siRNA 50 nM", "size_nm": 139.6, "pdi": 0.207, "zeta_mV": -23.6, "medium": "not_declared", "source": "Table 3", "quote": "AuNPs-d-PLL.siRNA 50 nM | 139.6 ± 1.3 | 0.207 ± 0.023 | 168.7 ± 14.3 | 81.94 ± 7.94 | 78.97 ± 3.92 | -23.6 ± 2"},
+  {"sample": "AuNPs-d-PLL-PEG.siRNA 50 nM", "size_nm": 134, "pdi": 0.146, "zeta_mV": -4.4, "medium": "not_declared", "source": "Table 3", "quote": "AuNPs-d-PLL-PEG.siRNA 50 nM | 134 ± 1 | 0.146 ± 0.015 | 147.9 ± 6.1 | 94.47 ± 10 | 164.13 ± 20 | -4.4 ± 1.4"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AuNPs-d-PLL", "quote": "UV-Vis spectra of AuNPs-d-PLL, AuNPs-d-PLL-PEG, and AuNPs-d-PLL-PEG-FA."},
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "component", "sample": "SH-PEG-FA", "quote": "A) FTIR analysis of the NHS-activated folic acid (FA-NHS) dot line, SH-PEG-NH2 solid line, and SH-PEG-FA dash line."}
+ ]},
+{"pmcid": "PMC10028272",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "SEM", "sample": "biogenic AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE- SEM images of biogenic AgNPs from T. cordifolialeaves."}
+ ],
+ "descriptors": [
+  {"sample": "Green-synthesized AgNPs", "size_nm": null, "pdi": 0.201, "zeta_mV": -11.37, "medium": "not_declared", "source": "Table 2", "quote": "Green-synthesized AgNPs | 0.201 ± 0.005 | 43.82 ± 1.02–91.28 ± 1.12 | −11.37 mV"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV- Visible absorption spectra of AgNPs from leaf extract of Tinospora cordifolia showing absorbance peak at the wavelength of 430 nm."}
+ ]},
+{"pmcid": "PMC10004207",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM of AgNPs."}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "EDX of AgNPs."},
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "FTIR of AgNPs."},
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "However, the characterizing absorption peak was obtained at 418 nm"}
+ ]},
+{"pmcid": "PMC10043739",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "Ch/Q-Ag NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) the chitosan/quercetin- (Ch/Q-) and (b) the chitosan/caffeic acid (Ch/CA-)-capped Ag NPs."}
+ ],
+ "descriptors": [
+  {"sample": "Ch/Q-Ag NPs", "size_nm": 11.2, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average particle size of the Ch/Q-Ag NPs was calculated as 11.2 ± 2.4 nm"},
+  {"sample": "Ch/CA-Ag NPs", "size_nm": 10.3, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "whereas it was found to be 10.3 ± 2.4 nm for the Ch/CA-Ag NPs."}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Ch/Q-Ag NPs", "quote": "UV–vis absorption spectra of (a) chitosan-only (Ch-), (b) chitosan/quercetin (Ch/Q-), and (c) chitosan/caffeic acid (Ch/CA-) capped Ag NPs."},
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Ch/Q- and Ch/CA-Ag NPs", "quote": "FTIR spectra of (a) the chitosan/quercetin (Ch/Q-)-, and (b) the chitosan/caffeic acid (Ch/CA-)-capped Ag NPs"}
+ ]},
+{"pmcid": "PMC8399051",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "S. queretaroensis-mediated AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrographs of the silver nanoparticles biosynthesized by aqueous S. queretaroensis peel extract in colloidal solution"}
+ ],
+ "descriptors": [
+  {"sample": "S. queretaroensis-mediated AgNPs", "size_nm": 98.96, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "with a majority of AgNPs in the range of 60 to 200 nm and an average particle size of 98.96 nm."}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "S. queretaroensis-mediated AgNPs", "quote": "UV-vis absorption spectra of biosynthesized silver nanoparticles, aqueous S. queretaroensis peel extract, and silver nitrate salt solution."},
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "biosynthesized silver nanoparticles", "quote": "Fourier Transform Infrared Spectroscopy analysis of (a) S. queretaroensis peel aqueous extract and (b) biosynthesized silver nanoparticles."}
+ ]},
+{"pmcid": "PMC8400837",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "six biosynthesized AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron micrographs of six biosynthesized AuNPs by six bioactive medicinal plant extracts."},
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "biosynthesized AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs of biosynthesized AuNPs by six bioactive medicinal plant extracts."}
+ ],
+ "descriptors": [
+  {"sample": "Juglans regia AuNPs", "size_nm": 27, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "with the average size of ≈27 and ≈107 nm, respectively."},
+  {"sample": "Urtica dioica AuNPs", "size_nm": 107, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "with the average size of ≈27 and ≈107 nm, respectively."}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "biosynthesized AuNPs", "quote": "UV-Visible spectra of biosynthesized AuNPs by water extracts of six medicinal plants used in folkloric medicine of Middle East countries."},
+  {"technique": "EDS", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "biosynthesized AuNPs", "quote": "The results of energy-dispersive X-ray analysis of the biosynthesized AuNPs mediated by six water extracts of medicinal plants."}
+ ]},
+{"pmcid": "PMC8468306",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "J-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Size measurements were analyzed by ImageJ software constructed from TEM micrographs at scale bars: 100 nm."},
+  {"fig": "Fig. 9", "variant": "TEM_prep_not_declared", "sample": "Amp-J-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Ampicillin-J-AgNPs nanocomposite (A) and their frequency distribution with mean particle size (B)."},
+  {"fig": "Fig. 5", "variant": "SEM", "sample": "J-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of J-AgNPs having a clear spherical shape and well-dispersed NPs."},
+  {"fig": "Fig. 11", "variant": "TEM_prep_not_declared", "sample": "MDA MB 231 cells treated with J-AgNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM images of MDA MB 231 cell lines, where untreated cell (Ctrl) exhibiting rounded shape cell with complete organelles and nucleus."}
+ ],
+ "descriptors": [
+  {"sample": "J-AgNPs", "size_nm": 91.51, "pdi": null, "zeta_mV": -34.7, "medium": "not_declared", "source": "text", "quote": "the zeta sizer and potential measurements showed an average of a 91.51 nm diameter and −34.7 mV, respectively"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "J-AgNPs", "quote": "confirmed by the UV spectra of NPs at 409 nm"},
+  {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "J-AgNPs", "quote": "describing the weights of the carbon, oxygen, and silver atoms using EDS (B,C)."},
+  {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "J-AgNPs", "quote": "FTIR absorbance peaks of aqueous extracts of J. integerrima (A) and J-AgNPs (B) presenting peaks of the extract organic materials."}
+ ]},
+{"pmcid": "PMC8465188",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 6", "variant": "SEM", "sample": "hydrogel with AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs (cross-sections) of the corresponding hydrogels loaded with Ag nanoparticles (b)."}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "CS1/PVA1E2/AgNPs", "quote": "FT–IR spectra of chitosan (CS), poly(vinyl alcohol) (PVA), cross-linked hydrogels (CS1/PVA1E2), and hydrogel loaded with silver nanoparticles (CS1/PVA1E2/AgNPs)."},
+  {"technique": "XRD", "fig": "Fig. 6", "applies_to": "mixture", "sample": "hydrogel with AgNPs", "quote": "XRD patterns of hydrogel without and with AgNPs after immersion in 10 mM AgNO3 (c)."},
+  {"technique": "EDS", "fig": "Fig. 6", "applies_to": "mixture", "sample": "hydrogel with AgNPs", "quote": "Energy-dispersed X-ray spectrometry (EDS) patterns of the hydrogel with AgNPs after immersion in 10 mM AgNO3 (d)."}
+ ]},
+{"pmcid": "PMC8401344",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "NanoBro", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "transmission electron microscopy (TEM) of NanoBro was obtained with magnification of 100,000× and energy of 80 kW"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "NanoBro", "quote": "UV-Vis spectra of NanoBro colloidal suspension produced with HEPES-buffered Bro (line 1)"},
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "NanoBro", "quote": "UV-Vis spectra acquired during the time-course of the NanoBro synthesis."}
+ ]}
+]}

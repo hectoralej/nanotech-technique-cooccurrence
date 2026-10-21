@@ -1,0 +1,134 @@
+{"batch": "EX121", "articles": [
+{"pmcid": "PMC13064485",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "GSNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Characterization of GSNPs. A: UV-vis spectra, B: DSL analysis, C: TEM profiles"},
+  {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "S. mansoni tegument (control and treated)", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM of the tegumental surface of an S. mansoni male."}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "GSNPs", "quote": "Characterization of GSNPs. A: UV-vis spectra"},
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "GSNPs", "quote": "E: FTIR spectra of GSNPs"}
+ ]},
+{"pmcid": "PMC12388491",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Lup-2gβCD-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images and size distribution of the AgNPs nanoparticles"}
+ ],
+ "descriptors": [
+  {"sample": "Lup-2gβCD-AgNPs", "size_nm": 8.5, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Most particles were within the 8–15 nm range, with an average size of 8.5 ± 1.17 nm."}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Lup(Lac)-2gβCD-AgNPs", "quote": "(a)-UV-vis spectrum of Lup(Lac)-2gβCD-AgNPs"},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Lup-2gβCD-AgNPs", "quote": "XRD pattern of Lup-2gβCD-AgNPs"},
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Lup-2gβCD-AgNPs", "quote": "(c)-Lup-2gβCD-AgNPs"}
+ ]},
+{"pmcid": "PMC6804264",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "SEM", "sample": "CMSN; E-CMSN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A), SEM images of CMSN; (B), SEM images of E-CMSN"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "CMSN", "quote": "FTIR spectra of D-tartaric acid, D-APTES, chiral mesoporous silica nanoparticles (CMSN)"},
+  {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "NMS/CMSN", "quote": "(A), XRD patterns of NMS, CMSN, NMS/CMSN, physical mixture of NMS and CMSN (1:3, w/w)"}
+ ]},
+{"pmcid": "PMC9267809",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "“cold” and “hot” AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM-obtained images of “cold” and “hot” AuNP samples"}
+ ],
+ "descriptors": [
+  {"sample": "“cold” AuNPs", "size_nm": 37.9, "pdi": null, "zeta_mV": null, "medium": "other", "source": "text", "quote": "13.1 nm ± 2.1 vs. 37.9 nm ± 5.7, respectively"},
+  {"sample": "“cold” AuNPs", "size_nm": null, "pdi": null, "zeta_mV": -39.4, "medium": "other", "source": "text", "quote": "−39.4 mV vs. −37.7 mV and −35.8 mV vs. −30.5 mV, respectively"},
+  {"sample": "“hot” AuNPs", "size_nm": 13.1, "pdi": null, "zeta_mV": null, "medium": "other", "source": "text", "quote": "13.1 nm ± 2.1 vs. 37.9 nm ± 5.7, respectively"},
+  {"sample": "“hot” AuNPs", "size_nm": null, "pdi": null, "zeta_mV": -35.8, "medium": "other", "source": "text", "quote": "−39.4 mV vs. −37.7 mV and −35.8 mV vs. −30.5 mV, respectively"},
+  {"sample": "“cold” AuNPs with protein corona", "size_nm": 109.3, "pdi": null, "zeta_mV": null, "medium": "other", "source": "text", "quote": "37.9 nm vs. 109.3 nm and 13.1 nm vs. 86.7 nm, respectively"},
+  {"sample": "“cold” AuNPs with protein corona", "size_nm": null, "pdi": null, "zeta_mV": -37.7, "medium": "other", "source": "text", "quote": "−39.4 mV vs. −37.7 mV and −35.8 mV vs. −30.5 mV, respectively"},
+  {"sample": "“hot” AuNPs with protein corona", "size_nm": 86.7, "pdi": null, "zeta_mV": null, "medium": "other", "source": "text", "quote": "37.9 nm vs. 109.3 nm and 13.1 nm vs. 86.7 nm, respectively"},
+  {"sample": "“hot” AuNPs with protein corona", "size_nm": null, "pdi": null, "zeta_mV": -30.5, "medium": "other", "source": "text", "quote": "−39.4 mV vs. −37.7 mV and −35.8 mV vs. −30.5 mV, respectively"}
+ ],
+ "spectra": [
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "“cold” and “hot” AuNPs", "quote": "EDS-obtained images of “cold” and “hot” AuNP samples"},
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "“cold” and “hot” AuNPs", "quote": "FTIR characterization of both “cold” and “hot” AuNPs"}
+ ]},
+{"pmcid": "PMC9000498",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "Rc-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microphotographs of red currant AgNPs"}
+ ],
+ "descriptors": [
+  {"sample": "Rc-AgNPs", "size_nm": 85, "pdi": 0.17, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 6", "quote": "Average size of 85 nm with a PDI of 0.17"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Rc-AgNPs", "quote": "UV–Vis spectrum showing the LSPR peak of synthesised Rc-AgNPs at 435 nm"},
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Rc-AgNPs", "quote": "The Fourier transform infrared (FTIR) spectrum of red currant AgNPs (NPs)"},
+  {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Rc-AgNPs", "quote": "Energy-dispersive X-ray (EDX) spectrum of red currant AgNPs"}
+ ]},
+{"pmcid": "PMC9224969",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "cit-AuNPs; pep-AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images and histograms of the gold nanoparticles"}
+ ],
+ "descriptors": [
+  {"sample": "cit-AuNPs", "size_nm": 22.26, "pdi": 0.410, "zeta_mV": -44.14, "medium": "not_declared", "source": "Table 1", "quote": "cit-AuNPs | 22.26 | 18.94 | 654.57 | 0.410 | −44.14"},
+  {"sample": "pep-AuNPs", "size_nm": 27.72, "pdi": 0.496, "zeta_mV": -42.96, "medium": "not_declared", "source": "Table 1", "quote": "pep-AuNPs | 27.72 | 20.97 | 572.03 | 0.496 | −42.96"}
+ ],
+ "spectra": [
+  {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "cit-AuNPs", "quote": "UV-VIS absorption spectra of the citrate-stabilized gold nanoparticles (cit-AuNPs)"},
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "cit-AuNPs; pep-AuNPs", "quote": "FTIR spectra of the nanoparticles and the stabilizing agents"}
+ ]},
+{"pmcid": "PMC9724295",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "DOX-CHS-GNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "B TEM image of DOX-CHS-GNPs"}
+ ],
+ "descriptors": [
+  {"sample": "CHS-GNPs", "size_nm": 93.75, "pdi": 0.241, "zeta_mV": -15.50, "medium": "water", "source": "Table 1", "quote": "CHS-GNPs | 93.75 ± 2.52 | 83 ± 5.0 | − 15.50 ± 5.09 | 0.241 ± 0.06"},
+  {"sample": "DOX-CHS-GNPs", "size_nm": 175.8, "pdi": 0.244, "zeta_mV": -34.00, "medium": "water", "source": "Table 1", "quote": "DOX-CHS-GNPs | 175.8 ± 1.94 | 147 ± 5.0 | − 34.00 ± 5.67 | 0.244 ± 0.08"},
+  {"sample": "DOX-CHS-GNPs-CS", "size_nm": 208.9, "pdi": 0.12, "zeta_mV": -25.70, "medium": "water", "source": "Table 1", "quote": "DOX-CHS-GNPs-CS | 208.9 ± 2.08 | 191 ± 5.0 | − 25.70 ± 5.90 | 0.12 ± 0.03"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "DOX-CHS-GNPs", "quote": "FT-IR spectrum of CHS (A), CHS-GNPs (B), DOX (C), DOX-CHS-GNPs (D), CS (E), and DOX-CHS-GNPs-CS (F)"},
+  {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "CHS-GNPs", "quote": "XRD spectrum of synthesized GNPs"}
+ ]},
+{"pmcid": "PMC9666511",
+ "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "MPSNP/PVA nanocomposite", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Analysis of MPSNP/PVA nanocomposite; (a) TEM image"},
+  {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "NCF/PVA nanocomposite", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Analysis of NCF/PVA nanocomposite; (a) TEM image"}
+ ],
+ "descriptors": [
+  {"sample": "MPSNP/PVA nanocomposite", "size_nm": 50, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 5e", "quote": "The size of MPSNP/PVA nanocomposite characteristic by DLS (Fig. 5e) illustrates the size of MPSNP/PVA nanocomposite at about 50 nm"},
+  {"sample": "NCF/PVA nanocomposite", "size_nm": null, "pdi": null, "zeta_mV": -10.1, "medium": "not_declared", "source": "Fig. 6e", "quote": "The Zeta potential of the prepared nano-composite illustrated in Fig. 6e, showed the high zeta potential value at − 10.1 mV"}
+ ],
+ "spectra": [
+  {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "MPSNP/PVA nanocomposite", "quote": "Analysis of MPSNP/PVA nanocomposite; (a) TEM image; (b,c) AFM images; (d) XRD pattern"},
+  {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "NCF/PVA nanocomposite", "quote": "Analysis of NCF/PVA nanocomposite; (a) TEM image; (b,c) AFM images; (d) XRD pattern"},
+  {"technique": "FTIR", "fig": "Fig. 9", "applies_to": "mixture", "sample": "paper treated with CNF/PVA nanocomposite", "quote": "FTIR spectra of samples treated with CNF/PVA nanocomposite"}
+ ]},
+{"pmcid": "PMC6409721",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "bare SPIONs; SPIONs-CPTES; SPIONs-CPTES-HAPtS", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) images of (A) bare superparamagnetic iron nanoparticles (SPIONs)"}
+ ],
+ "descriptors": [],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "component", "sample": "HAPtS", "quote": "(A) Fourier-transform infrared (FTIR) spectrum, (B) UV-visible spectrum"},
+  {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "SPIONs-CPTES-HAPtS", "quote": "Infrared spectra of (A) bare SPIONs, SPIONs-CPTES, and SPIONs-CPTES-HAPtS"},
+  {"technique": "XRD", "fig": "Figure S1", "applies_to": "nanoparticle", "sample": "bare SPIONs", "quote": "The crystallinity of the synthesized powder of bare SPIONs was checked by the XRD pattern, shown in Figure S1"}
+ ]},
+{"pmcid": "PMC6487395",
+ "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+ "panels": [
+  {"fig": "Fig. 9", "variant": "SEM", "sample": "MNPs; MNPs-COOH; MNPs-COOH-Cur", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of MNPs (a), MNPs-COOH (b) and MNPs-COOH-Cur (c)"}
+ ],
+ "descriptors": [
+  {"sample": "MNP-COOH", "size_nm": 37.7, "pdi": 0.558, "zeta_mV": -15.4, "medium": "water", "source": "Table 3", "quote": "MNP-COOH | 37.7 ± 6.52 | 0.558 | -15.4 ± 5.01"}
+ ],
+ "spectra": [
+  {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "MNP; MNP-OA; MNP-OA-KMNO4; MNP-COOH", "quote": "Fourier transform infrared spectra of a) MNP, b) MNP-OA, c) MNP-OA-KMNO4 and d) MNP-COOH"},
+  {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "MNP-COOH-CUR", "quote": "Characterization of MNP-COOH, Curcumin and MNP-COOH-CUR with FTIR spectra"},
+  {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "MNP (pure Fe3O4 and synthesized Fe3O4)", "quote": "pure Fe3O4 (I, Blue) compared with synthesized Fe3O4 (II, Red)"}
+ ]}
+]}

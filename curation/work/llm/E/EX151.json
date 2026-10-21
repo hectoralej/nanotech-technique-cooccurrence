@@ -1,0 +1,265 @@
+{
+  "batch": "EX151",
+  "articles": [
+    {
+      "pmcid": "PMC13609315",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of MSNs (c) at 60K× and (d) at 100K×."
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13245370",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13132192",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) of silver nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig 1",
+          "applies_to": "nanoparticle",
+          "sample": "silver nanoparticles",
+          "quote": "X-ray diffraction (XRD)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12881427",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs extracted from milk samples",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of m-AgNPs extracted from different milks"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag2O NPs",
+          "size_nm": 25,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "milk",
+          "source": "text; Scherrer crystallite-size lower bound",
+          "quote": "yielded values ranging from 25 to 29 nm across all types of milk"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ag2O and Ag0 NPs extracted from milk",
+          "quote": "X-ray diffractograms of nanoparticulate Ag extracted from milks"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12662862",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [
+        {
+          "sample": "vinyl silica nanoparticles",
+          "size_nm": 150,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "hydrogel",
+          "source": "text; nominal particle size",
+          "quote": "hydrogels containing 2.5 wt% of 150 nm VSNPs"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 5",
+          "applies_to": "mixture",
+          "sample": "PAMPS/PAAm hydrogels containing VSNPs",
+          "quote": "FTIR spectra comparing Fresh and Swollen PAMPS/PAAm hydrogels containing 2.5 wt. % 150 nm vinyl silica nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12473889",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs synthesized by ultrasound",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "size distribution of the different AuNPs obtained by the analysis of the transmission electron microscopy (TEM) images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12491477",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanospheres and nanorods",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of: (a) AuNSp5, (b) AuNSp10, (c) AuNSp20"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "commercial gold nanospheres and gold nanorods",
+          "quote": "Absorption spectra of the used nanoparticles solutions of commercial gold nanospheres"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12715997",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 6",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AuNPs",
+          "quote": "Normalized UV–Vis spectra of biosynthesis AuNP from USE and GSE."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 10",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AuNP and AgNP",
+          "quote": "Fourier‐transform infrared spectroscopy (FTIR) of USE, GSE, and biosynthesis of AuNP and AgNP from USE and GSE."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12325095",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSN and MSN-AP-PdCur",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "MSN TEM micrography and mean diameter size distribution of MSN."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN",
+          "size_nm": 114,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average diameter",
+          "quote": "MSN presents a semispherical appearance with a narrow size distribution and an average diameter of 114 ± 7 nm"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12606588",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 4",
+          "variant": "SEM",
+          "sample": "VACAgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image shows morphological properties and EDX"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

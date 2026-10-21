@@ -1,0 +1,120 @@
+{"batch":"EX117","articles":[
+{"pmcid":"PMC8912105","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"IONP@CA","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of IONP@CA (a), and size distribution graph (histogram) (b) (scale bar = 100 nm)."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"IONPs@CA_GMP_Tb3+","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images (a,b) and EDS spectrum (c) of IONPs@CA_GMP_Tb3+ (scale bar = 100 nm and 200 nm)."}
+],
+"descriptors":[
+{"sample":"IONPs@CA_GMP_Tb3+","size_nm":null,"pdi":null,"zeta_mV":-15.8,"medium":"not_declared","source":"text","quote":"increases the value of the zeta potential to about (−15.8 ± 1.0) mV for the conjugate."}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"IONPs@CA_GMP_Tb3+","quote":"FTIR spectra of: IONPs@CA_GMP_Tb3+ (red curve), GMP (magenta curve), CA (blue curve), IONPs@CA (black curve)."},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"IONPs@CA_GMP_Tb3+","quote":"TEM images (a,b) and EDS spectrum (c) of IONPs@CA_GMP_Tb3+ (scale bar = 100 nm and 200 nm)."}
+]},
+{"pmcid":"PMC9321465","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM and HR-TEM micrographs (b,c), SAED patterns (d) and size distribution (e) of AgNPs."},
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"Mg3(PO4)2","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"TEM micrographs (b,c), SAED patterns (d) and size distribution (e) of Mg3(PO4)2."},
+{"fig":"Fig. 5","variant":"SEM","sample":"AgNPs/Mg3(PO4)2 coatings","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"Top-view SEM images (a,b) and Cross-section SEM images (c,d) of the AgNPs/Mg3(PO4)2 coatings at different magnifications."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD spectrum (a), TEM and HR-TEM micrographs (b,c), SAED patterns (d) and size distribution (e) of AgNPs."},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"component","sample":"Mg3(PO4)2","quote":"XRD spectrum (a), TEM micrographs (b,c), SAED patterns (d) and size distribution (e) of Mg3(PO4)2."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"mixture","sample":"AgNPs/Mg3(PO4)2 drop-cast","quote":"IR map (a) and FT-IR spectra (b) of AgNPs/Mg3(PO4)2 drop-cast."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"mixture","sample":"AgNPs/Mg3(PO4)2 coatings","quote":"IR maps (a–c) and FT-IR spectra (a’–c’) of AgNPs/Mg3(PO4)2 coatings obtained by MAPLE tehnicque at 200 mJ/cm2 (a,a’)"}
+]},
+{"pmcid":"PMC9321507","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"CS-capped AgNPs incorporated PVA membranes","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs of PVA and CS-capped AgNP-incorporated PVA hybrid membranes"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"mixture","sample":"CS-capped AgNPs incorporated PVA membranes","quote":"FTIR spectra of pure PVA, Chitosan, CS-capped AgNPs incorporated hybrid PVA membranes"},
+{"technique":"XRD","fig":"Fig. 2","applies_to":"mixture","sample":"CS-capped AgNP-incorporated PVA membranes","quote":"Wide-angle X-ray diffraction patterns of CS-capped AgNP-incorporated PVA membranes"}
+]},
+{"pmcid":"PMC9137737","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"biosynthesized AgNPs and AuNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"UV–vis, TEM, and SEM micrographs for biosynthesized AgNPs and AuNPs."},
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"chitosan–AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(d,e) TEM micrographs of chitosan–AgNPs and chitosan–AuNPs, respectively."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"biosynthesized AgNPs and AuNPs","quote":"UV–vis, TEM, and SEM micrographs for biosynthesized AgNPs and AuNPs."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"chitosan-AgNPs","quote":"XRD of (a) chitosan-AgNPs, (b) chitosan-AuNPs, and (c) FTIR of chitosan"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"chitosan–AgNPs","quote":"(c) FTIR of chitosan, chitosan–AgNPs and chitosan–AuNPs"}
+]},
+{"pmcid":"PMC9935520","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_dried_unstained","sample":"Cit-Au NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of Cit-Au NPs (A), their particle size distribution (B) and their electron diffraction pattern (C)."}
+],
+"descriptors":[
+{"sample":"Cit-Au NPs","size_nm":21,"pdi":0.224,"zeta_mV":-29.4,"medium":"not_declared","source":"Table 1","quote":"Cit-Au NPs | 21 ± 4.1 nm | 0.224 | − 11.1 ± 2.6 mV | − 29.4 ± 3.1 mV"},
+{"sample":"Ga-Au NPs","size_nm":28.2,"pdi":0.320,"zeta_mV":-46.2,"medium":"not_declared","source":"Table 1","quote":"Ga-Au NPs | 28.2 ± 6 nm | 0.320 | − 16 ± 2.3 mV | − 46.2 ± 5.3 mV"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"gallic acid conjugated gold nanoparticles","quote":"Representation of the FTIR spectrum for gallic acid, trisodium citrate, gallic acid conjugated gold nanoparticles"},
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"Cit-Au NPs and Ga-Au NPs","quote":"The UV–VIS absorption spectra of freshly and three months post synthesized Cit-Au NPs and Ga-Au NPs (A)"}
+]},
+{"pmcid":"PMC10624884","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"SPIONs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) FT-IR spectrum, and (E) TEM."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SPIONs","quote":"(A) X-ray diffraction, (B) VSM, (C) UV–Vis analysis spectrum, (D) FT-IR spectrum, and (E) TEM."},
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SPIONs","quote":"The UV–Vis spectra analysis displayed a peak at 259 nm due to the surface plasmon resonance."},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"SPIONs","quote":"FT-IR spectra were also used to determine which functional groups were present in the biosynthesized SPIONs (Fig. 3D)."}
+]},
+{"pmcid":"PMC10308203","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"pAuNP-Tablet","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(D) TEM image analyses indicating spherical AuNPs with an average particle size of 12 ± 1.45 nm."}
+],
+"descriptors":[
+{"sample":"pAuNP-Tablet","size_nm":36.9,"pdi":0.22,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"the hydrodynamic diameter of the pAuNP-Tablet and pAuNP-Solution was found to be 36.9 nm with 22% PDI"},
+{"sample":"pAuNP-Solution","size_nm":91.77,"pdi":0.24,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"and 91.77 nm with 24% PDI, respectively"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"pAuNP-Tablet","quote":"(E) FTIR analyses showing that the pullulan polymer was well structured in the formation of the pAuNP-Tablet."},
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"pAuNP-Solution","quote":"(A) UV-vis spectroscopy showing a peak at 520 nm."}
+]},
+{"pmcid":"PMC9856065","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MPnS","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(A) Transmission electron microscopy (TEM) image of MPnS, scale bar: 200 nm."}
+],
+"descriptors":[
+{"sample":"GNPs","size_nm":18,"pdi":null,"zeta_mV":-26,"medium":"not_declared","source":"text","quote":"The GNPs’ average diameter and zeta potential were found to be 18 ± 2 nm and −26 mV"},
+{"sample":"IONPs","size_nm":55,"pdi":null,"zeta_mV":-30,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter and surface charge of IONPs were found to be 55 ± 3 nm and −30 ± 2 mV"},
+{"sample":"MPnS","size_nm":66,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The average diameter of MPnS was further verified by DLS and was found to be 66 ± 2 nm."},
+{"sample":"MPnS","size_nm":null,"pdi":null,"zeta_mV":-27,"medium":"not_declared","source":"text","quote":"a corresponding negative zeta potential of −27 ± 2 mV"},
+{"sample":"MPnS-mAb","size_nm":72,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"text","quote":"The hydrodynamic diameter of the MPnS-mAb resulted in an expected increase from 66 ± 2 nm to 72 ± 1 nm"},
+{"sample":"MPnS-mAb","size_nm":null,"pdi":null,"zeta_mV":-15,"medium":"not_declared","source":"text","quote":"zeta potential increasing from −27 ± 2 mV to −15 ± 3 mV"}
+],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MPnS","quote":"(E) UV-Vis absorption spectra of MPnS and the conjugate, confirming the successful antibody conjugation"},
+{"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"MPnS","quote":"(B) Energy-dispersive X-ray spectroscopy (EDS) of MPnS, showing the presence of bimetallic system."}
+]},
+{"pmcid":"PMC10525761","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AgNPs-S","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"(C,D) Morphological analysis of AgNPs-S via TEM analysis, scale bar = 20 nm."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs-S","quote":"(A) UV–visible absorption spectra of AgNPs-S."},
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs-S","quote":"(B) FT-IR analysis of AgNPs-S."}
+]},
+{"pmcid":"PMC9823439","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"BA-HOBt GNP, OA-HOBt GNP and UA-HOBt GNP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images (A) and histograms (B) representing the hydrodynamic size variation of GNP BA-HOBt GNP"}
+],
+"descriptors":[
+{"sample":"GNP","size_nm":16,"pdi":0.07,"zeta_mV":-28.2,"medium":"not_declared","source":"Table 2","quote":"GNP | 16 ± 0.8 | 0.07 | −28.2 ± 1.1"},
+{"sample":"BA-HOBt GNP","size_nm":103,"pdi":0.20,"zeta_mV":-23.2,"medium":"not_declared","source":"Table 2","quote":"BA-HOBt GNP | 103 ± 7.3 | 0.20 | −23.2 ± 0.7"},
+{"sample":"OA-HOBt GNP","size_nm":99,"pdi":0.13,"zeta_mV":-24.0,"medium":"not_declared","source":"Table 2","quote":"OA-HOBt GNP | 99 ± 5.8 | 0.13 | −24.0 ± 0.9"},
+{"sample":"UA-HOBt GNP","size_nm":101,"pdi":0.16,"zeta_mV":-23.8,"medium":"not_declared","source":"Table 2","quote":"UA-HOBt GNP | 101 ± 6.7 | 0.16 | −23.8 ± 0.5"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"BA-HOBt GNP, OA-HOBt GNP and UA-HOBt GNP","quote":"Comparative FTIR spectra of BA-HOBt GNP (A), OA-HOBt GNP (B) and UA-HOBt GNP (C) with GNP and the unformulated parent compound."},
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"citrate-capped GNP","quote":"UV-VIS spectra and nanosuspension physical aspects of citrate-capped GNP, BA-HOBt GNP, OA-HOBt GNP and UA-HOBt GNP."}
+]}
+]}

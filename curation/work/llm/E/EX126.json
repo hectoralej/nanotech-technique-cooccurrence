@@ -1,0 +1,114 @@
+{"batch":"EX126","articles":[
+{"pmcid":"PMC9340775","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"TpAgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images (A) and (B) spherical shape of biosynthesized TpAgNPs."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"TpAgNPs","quote":"UV–Vis spectra of TpAgNPs synthesized by different concentrations of AgNO3 and plant extract"},
+{"technique":"FTIR","fig":"Fig. 3","applies_to":"nanoparticle","sample":"TpAgNPs","quote":"FTIR spectral analyses of (A) plant extract and (B) synthesized TpAgNPs of T. pallida."},
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"TpAgNPs","quote":"X-ray diffraction analysis of biosynthesized TpAgNPs from T. pallida."}
+]},
+{"pmcid":"PMC9460488","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of the green synthesized AgNPs at different times."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AgNPs","quote":"UV–Vis absorption spectra of AgNPs taken at different synthesis times."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs at 50 min","quote":"FTIR spectra of aqueous extract of Thuja orientalis and AgNPs obtained at 50 min of synthesis"}
+]},
+{"pmcid":"PMC9416099","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"AS-AgNPs coated cotton fabrics","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM (a) and EDX analysis (b) of AS-AgNPs coated cotton fabrics"},
+{"fig":"Fig. 6","variant":"HRTEM","sample":"AS-AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM analysis of synthesized AS-AgNPs."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AS-AgNPs","quote":"UV–Vis spectrum of synthesized AS-AgNPs."},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AS-AgNPs","quote":"Spectrum of FT-IR analysis of synthesized AS-AgNPs."},
+{"technique":"EDS","fig":"Fig. 5","applies_to":"mixture","sample":"AS-AgNPs coated cotton fabrics","quote":"EDX analysis (b) of AS-AgNPs coated cotton fabrics"}
+]},
+{"pmcid":"PMC5618345","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"PSA nanospheres","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM micrographs of PSA nanospheres under preparation conditions of the acrylic acid (AA) amount"},
+{"fig":"Fig. 11","variant":"TEM_prep_not_declared","sample":"PSA0","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM images of the PSA0 nanospheres with different scale bars (A) 100 nm, (B) 50 nm."},
+{"fig":"Fig. 12","variant":"TEM_prep_not_declared","sample":"nAg@PSA","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Representative TEM images of nAg@PSA composite nanospheres obtained from PSA0 nanospheres with different scale bars"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 13","applies_to":"nanoparticle","sample":"nAg@PSA","quote":"XRD of nAg@PSA composite nanospheres obtained from PSA0 nanospheres."},
+{"technique":"UVVis","fig":"Fig. 14","applies_to":"nanoparticle","sample":"nAg@PSA","quote":"Absorption spectra of PSA0 nanospheres and nAg@PSA composite nanospheres obtained from PSA0 nanospheres"}
+]},
+{"pmcid":"PMC5636091","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 6","variant":"SEM","sample":"AuNPs deposited on βCD-AT crystals","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) AuNPs deposited on the βCD-AT crystals."},
+{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"AuNPs covered with the IC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(B)TEM micrograph (left) of AuNPs covered with the IC"}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"EDS","fig":"Fig. 7","applies_to":"nanoparticle","sample":"βCD-AT-AuNPs","quote":"Energy-dispersive x-ray analysis."},
+{"technique":"UVVis","fig":"Fig. 8","applies_to":"nanoparticle","sample":"AuNPs","quote":"(A) Absorbance spectrum of AuNPs deposited on IC microcrystals using sputtering for 30 s."}
+]},
+{"pmcid":"PMC5453926","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 5","variant":"SEM","sample":"gold nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"SEM images of the gold nanoparticles, glutathione and 0.16% APTES trials on a p-type silicon."}
+],
+"descriptors":[],
+"spectra":[
+{"technique":"UVVis","fig":"Fig. 2","applies_to":"mixture","sample":"AuNps","quote":"Absorbance spectra of the AuNps, GSH, and APTES solutions over a 3.5 hour GSH peptide denaturation"},
+{"technique":"FTIR","fig":"Fig. 6","applies_to":"component","sample":"glutathione peptide","quote":"FTIR absorbance spectra of the glutathione peptide as a function of the accelerated heat stress exposure time."}
+]},
+{"pmcid":"PMC5434635","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 2","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron micrographs (SEM) of AgNPs and elemental profiling using EDX."},
+{"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Confirmation of elliptical shape of AgNPs by TEM a in fresh and b 1-year-old colloidal sample"}
+],
+"descriptors":[
+{"sample":"AgNPs","size_nm":63.65,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The average size of ~90% AgNPs was 63.65 ± 12.71 nm by DLS with a good dispersity"}
+],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"XRD pattern of AgNPs"},
+{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"elemental profiling using EDX"}
+]},
+{"pmcid":"PMC5650735","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"nanomag®-D-spio","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"A) SEM morphology of the nanomag®-D-spio"},
+{"fig":"Fig. 4","variant":"SEM","sample":"SPIONs-C595","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"A) SEM morphology of the SPIONs-C595"}
+],
+"descriptors":[
+{"sample":"nanomag®-D-spio","size_nm":51.3,"pdi":0.20,"zeta_mV":-28.9,"medium":"not_declared","source":"Table 1","quote":"Nanomag®-D-spio | 51.3±0.1 | 59.6±0.1 | 253.9±0.3 | 0.20±0.1 | 34.1 | −28.9±1.0"},
+{"sample":"SPION-C595","size_nm":87.4,"pdi":0.30,"zeta_mV":0.262,"medium":"not_declared","source":"Table 1","quote":"SPION-C595 | 87.4±0.7 | 131.8±8.9 | 91.1±8.4 | 0.30±0.1 | 71.4 | 0.262±0.1"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"SPION-C595","quote":"FT-IR result of freeze dried nanomag®-D-spio (sample 1) and SPION-C595 (sample 2)."},
+{"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"nanomag®-D-spio","quote":"B) EDAX spectrum of nanomag®-D-spio in black line."},
+{"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"SPIONs-C595","quote":"B) EDAX spectrum of SPIONs-C595 in black line."}
+]},
+{"pmcid":"PMC6318674","context":{"article_kind":"research","carrier_type":"nanogel","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"MSN-CMC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) images of (a) MSN; (b) MSN-NH2 and (c) MSN-CMC."}
+],
+"descriptors":[
+{"sample":"MSN","size_nm":167,"pdi":null,"zeta_mV":-34.2,"medium":"water","source":"Table 1","quote":"MSN | 7.3 | 167 ± 5 | −34.2 ± 2"},
+{"sample":"MSN-NH2","size_nm":210,"pdi":null,"zeta_mV":38.48,"medium":"water","source":"Table 1","quote":"MSN-NH2 | 17.5 | 210 ± 7 | 38.48 ± 3"},
+{"sample":"MSN-CMC","size_nm":333,"pdi":null,"zeta_mV":-3.07,"medium":"water","source":"Table 1","quote":"MSN-CMC | 30.7 | 333 ± 4 | −3.07 ± 2"}
+],
+"spectra":[
+{"technique":"XRD","fig":"Fig. 3","applies_to":"nanoparticle","sample":"MSN","quote":"(a) X-Ray Diffraction (XRD) patterns of MSN and MSN-NH2"},
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"MSN-CMC","quote":"Fourirer Transform Infrared Spectroscopy (FT-IR) Spectra of MSN, MSN-NH2 and MSN-CMC."}
+]},
+{"pmcid":"PMC10671674","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+"panels":[
+{"fig":"Fig. 3","variant":"SEM","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image at 37,000 magnifications showing the spherical shape of AgNPs and a size range between 28 nm and 52 nm."}
+],
+"descriptors":[
+{"sample":"AgNPs 22 °C–4 °C","size_nm":37,"pdi":0.225,"zeta_mV":-10.9,"medium":"not_declared","source":"text","quote":"AgNPs demonstrated average diameters of 37 nm, a polydispersity index (PDI) of 0.225, and a zeta potential value of −10.9 ± 2.3 mV"},
+{"sample":"AgNPs 100 °C","size_nm":156,"pdi":0.295,"zeta_mV":-31.7,"medium":"not_declared","source":"Table 2","quote":"100 °C | 156 ± 4 | 0.295 ± 0.009 | −31.7 ± 4.6"},
+{"sample":"AgNPs ambient RT (22 °C)","size_nm":99,"pdi":0.273,"zeta_mV":-33.8,"medium":"not_declared","source":"Table 2","quote":"Ambient RT (22 °C) | 99 ± 4 | 0.273 ± 0.037 | −33.8 ± 8.9"}
+],
+"spectra":[
+{"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"biosynthesized AgNPs","quote":"FTIR spectra of Jacobaea maritima and biosynthesized AgNPs in the wavelength range of 4000–400 cm−1"},
+{"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"biosynthesized AgNPs","quote":"XRD of biosynthesized AgNPs confirms the crystalline nature of NPs."}
+]}
+]}

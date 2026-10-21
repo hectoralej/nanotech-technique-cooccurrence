@@ -1,0 +1,299 @@
+{
+  "batch": "EX148",
+  "articles": [
+    {
+      "pmcid": "PMC13568845",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "TEM_dried_unstained",
+          "sample": "TTC-U2-p(MEA)94-b-p(DMAc)33 (P1)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Dry‐state TEM micrograph of TTC‐U2‐p(MEA)94‐b‐p(DMAc)33 (P1). Scale bar = 500 nm."
+        },
+        {
+          "fig": "FIGURE 4",
+          "variant": "cryoTEM",
+          "sample": "macroCTA combinations with sticker",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo‐TEM images of macroCTA combinations (100, 50%, 20%, and 10% with sticker, from left to right) dispersed in water"
+        }
+      ],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13306553",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "ligand-stabilized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Physicochemical characterization of ligand-stabilized silver nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "NaCitr-, Cyst-, kt- and dc-AgNPs",
+          "quote": "UV–Vis spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12030667",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "nano spray-dried polymeric micelle formulation",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopic images of the polymeric micelle formulation at various hyaluronic acid concentrations. The unit of scale is 10 µm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "nano spray-dried products and polymeric-micelle-forming components",
+          "quote": "Diffractograms of the nano spray-dried products"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5827706",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs produced with β-CD",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM (i, ii), TEM (iv, vi, vii) and colored STEM (v) images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-3",
+          "quote": "EDX mappings for C, O and Si elements"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12608785",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "non-decorated and FA/TAT-decorated PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Transmission electron microscopy (TEM) images of (A) non-decorated, and (B) FA-, (C) TAT-, (D) FA/TAT-decorated PLGA NPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "FA/TAT-decorated PLGA NPs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6027406",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs and FMSNs",
+          "quote": "Low angle XRD patterns of (a) MSNs and FMSNs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12245000",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "adalimumab-loaded PLGA nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of adalimumab‐loaded PLGA nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "adalimumab-loaded PLGA-based NPs",
+          "quote": "FTIR analysis of the adalimumab‐loaded PLGA‐based NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4847092",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "HRTEM",
+          "sample": "GO-Ag composite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphology of graphene oxide sheets (GO) and silver nanoparticles on GO sheets (GO-Ag)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "reduced GO",
+          "quote": "X-ray diffraction (XRD) pattern of reduced GO"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12731052",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "NP-TRIMEL",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "DLS, superficial charge and SEM of NP-TRIMEL."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NP-TRIMEL",
+          "size_nm": 227,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; mean DLS hydrodynamic size",
+          "quote": "DLS analysis revealed an average hydrodynamic size ranging 211–256 nm (mean = 227 ± 16 nm)",
+          "quote2": "a low polydispersity index (PDI; <0.1)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "NP-TRIMEL",
+          "quote": "Representative EDS mapping images of NP-TRIMEL nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4937429",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "MSNs and Fe(0)@MCM-41 particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the MSNs and zero-valent Fe impregnated particles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Fe-MSNs",
+          "size_nm": 250,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text; average length",
+          "quote": "Their average length constituted 250 nm and the average diameters varied from 100 to 150 nm"
+        }
+      ],
+      "spectra": []
+    }
+  ]
+}

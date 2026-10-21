@@ -1,0 +1,92 @@
+{"batch":"EX105","articles":[
+{"pmcid":"PMC5943567","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AuNP, AuNP Peg, AuNP + Bet, AuNP Peg + Bet","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) analysis and particle size distribution for nanogold samples"},
+  {"fig":"Fig. 3","variant":"SEM","sample":"AuNP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Scanning electron microscopy (SEM) analysis of gold nanoparticles sample (AuNP)."}],
+ "descriptors":[
+  {"sample":"AuNP","size_nm":43,"pdi":null,"zeta_mV":-52.87,"medium":"not_declared","source":"Table 2","quote":"AuNP | 43 ± 5 | 0.8 | –52.87"},
+  {"sample":"AuNP + Bet","size_nm":66,"pdi":null,"zeta_mV":-46.19,"medium":"not_declared","source":"Table 2","quote":"AuNP + Bet | 66 ± 7 | 0.7 | –46.19"},
+  {"sample":"AuNP Peg","size_nm":67,"pdi":null,"zeta_mV":-27.59,"medium":"not_declared","source":"Table 2","quote":"AuNP Peg | 67 ± 8 | 0.8 | –27.59"},
+  {"sample":"AuNP Peg + Bet","size_nm":88,"pdi":null,"zeta_mV":-34.76,"medium":"not_declared","source":"Table 2","quote":"AuNP Peg + Bet | 88 ± 10 | 0.8 | –34.76"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNP formulations","quote":"Recorded UV-Vis spectra for AuNP formulations: AuNP, AuNP + Bet, AuNP Peg and AuNP Peg + Bet (A)"},
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"AuNP formulations","quote":"FTIR spectra of AuNP formulations (B)"},
+  {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AuNP","quote":"EDX spectra of gold nanoparticles sample (AuNP)."}]},
+{"pmcid":"PMC8753913","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"SP/GOx NPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image and c Enlarged SEM image of SP/GOx NPs"}],
+ "descriptors":[
+  {"sample":"SP/GOx NPs","size_nm":255,"pdi":null,"zeta_mV":null,"medium":"water","source":"Fig. 1","quote":"SP/GOx NPs was mono-dispersed in water with an average diameter about 255 nm"}],
+ "spectra":[
+  {"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"SP/GOx NPs","quote":"d–h EDS mapping images of SP/GOx NPs"}]},
+{"pmcid":"PMC7073201","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"field emission–transmission electron microscopy (FE–TEM) images of synthesized silver nanoparticles (D,E)"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"AgNPs","quote":"It is reported that the absorption peak at about 400–450 nm is due to surface plasmon resonance of AgNPs"},
+  {"technique":"EDS","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"Energy dispersive X-ray (EDX) spectrum of synthesized AgNPs (A)"},
+  {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction pattern (A) and elemental mapping and selected area diffraction (SAED) pattern (B) of synthesized AgNPs"},
+  {"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"Fourier-transform infrared spectroscopy (FTIR) spectra of synthesized silver nanoparticles"}]},
+{"pmcid":"PMC9411138","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"HRTEM","sample":"CNPs and NiCNC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM analysis of (f) CNPs and (g) NiCNC"},
+  {"fig":"Fig. 1","variant":"SEM","sample":"CNPs and NiCNC","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"FE-SEM analysis of (d) CNPs and (e) NiCNC"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CNPs and NiCNC","quote":"(c) UV–Vis spectra of CNPs and NiCNC"},
+  {"technique":"EDS","fig":"Fig. 1","applies_to":"nanoparticle","sample":"NiCNC and CNPs","quote":"EDXS analysis of (j) NiCNC and (k) CNPs"},
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CNPs and NiCNC","quote":"FT-IR analysis of (l) CNPs and (m) NiCNC"}]},
+{"pmcid":"PMC7766514","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 3","variant":"TEM_prep_not_declared","sample":"AgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"field emission-transmission electron microscopy (FE-TEM) images of ecofriendly synthesized silver nanoparticles (D,E)"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 3","applies_to":"nanoparticle","sample":"AgNPs","quote":"ultraviolet–visible (UV–vis) spectra (C)"},
+  {"technique":"EDS","fig":"Fig. 4","applies_to":"nanoparticle","sample":"AgNPs","quote":"Energy dispersive X-ray (EDX) spectrum of ecofriendly synthesized AgNPs (A)"},
+  {"technique":"XRD","fig":"Fig. 5","applies_to":"nanoparticle","sample":"AgNPs","quote":"X-ray diffraction pattern (A) and selected area diffraction (SAED) pattern (B) of ecofriendly synthesized AgNPs"},
+  {"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"AgNPs","quote":"Fourier transform infrared (FT-IR) spectra of ecofriendly synthesized silver nanoparticles"}]},
+{"pmcid":"PMC9481351","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 1","variant":"TEM_prep_not_declared","sample":"CNFs","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Representative transmission electron microscopy (TEM) image of CNFs. Scale bars: (c and d) 100 nm; (e and f) 200 nm."}],
+ "descriptors":[
+  {"sample":"CFNs","size_nm":152,"pdi":0.192,"zeta_mV":25,"medium":"not_declared","source":"text","quote":"Similarly CFNs have a size of 152 nm, PDI = 0.192, and zeta potential of 25 mV by DLS (Table 1)"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 2","applies_to":"nanoparticle","sample":"CFNs","quote":"(e) The FTIR spectra of CS, fucoidan, and CFNs"}]},
+{"pmcid":"PMC7693976","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"SEM","sample":"PVA NFs","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM image of polyvinyl alcohol (PVA) nanofibers"},
+  {"fig":"Fig. 3","variant":"SEM","sample":"Ag/PVA CNFs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM images of Ag/PVA CNFs prepared with various concentrations of AgNO3"},
+  {"fig":"Fig. 4","variant":"TEM_prep_not_declared","sample":"Ag/PVA CNFs (0.066 mol/L AgNO3)","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM image of Ag/PVA CNFs prepared with AgNO3 concentration at 0.066 mol/L"}],
+ "descriptors":[],
+ "spectra":[
+  {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"PVA NFs and Ag/PVA CNFs","quote":"(a) XRD patterns of PVA NFs and Ag/PVA CNFs"},
+  {"technique":"UVVis","fig":"Fig. 5","applies_to":"nanoparticle","sample":"Ag/PVA CNFs","quote":"(a) UV-vis spectra of Ag/PVA CNFs prepared with different AgNO3 concentrations"},
+  {"technique":"FTIR","fig":"Fig. 5","applies_to":"nanoparticle","sample":"PVA NFs and Ag/PVA CNFs","quote":"FTIR spectra of PVA NFs and Ag/PVA CNFs prepared with AgNO3 concentration of 0.066 mol/L"}]},
+{"pmcid":"PMC9599193","context":{"article_kind":"research","carrier_type":"PLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 2","variant":"HRTEM","sample":"CUR-NP","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HR-TEM images and size distribution histogram of CUR-NP"}],
+ "descriptors":[
+  {"sample":"CUR-NP","size_nm":49.5,"pdi":0.27,"zeta_mV":null,"medium":"not_declared","source":"Table 1","quote":"CUR-NP | 49.5 ± 0.8 | 0.27 ± 0.03"}],
+ "spectra":[
+  {"technique":"FTIR","fig":"Fig. 1","applies_to":"nanoparticle","sample":"CUR loaded PLU-NP","quote":"FT-IR spectra of CUR loaded PLU-NP, Plain-NP, and free CUR"}]},
+{"pmcid":"PMC7462267","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 5","variant":"TEM_prep_not_declared","sample":"A. abrotanum-AgNPs (1) and A. arborescens-AgNPs (2)","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"TEM micrographs of nanoparticles observed at 50 nm scale"}],
+ "descriptors":[
+  {"sample":"A. abrotanum-AgNPs (1)","size_nm":37,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The average hydrodynamic size of “green” nanoparticles was around 37 nm for A. abrotanum-AgNPs (1), and 30 nm for A. arborescens-AgNPs (2), respectively"},
+  {"sample":"A. arborescens-AgNPs (2)","size_nm":30,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"The average hydrodynamic size of “green” nanoparticles was around 37 nm for A. abrotanum-AgNPs (1), and 30 nm for A. arborescens-AgNPs (2), respectively"},
+  {"sample":"AgNPs (3)","size_nm":60,"pdi":null,"zeta_mV":null,"medium":"water","source":"text","quote":"However, dynamic light scattering analyses revealed their average size to be around 60 nm (Fig 3C)"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 2","applies_to":"nanoparticle","sample":"A. abrotanum-AgNPs (1), A. arborescens-AgNPs (2), AgNPs (3)","quote":"Uv-vis spectra of A. abrotanum-AgNPs (1) (blue line), A. arborescens-AgNPs (2) (green line) and AgNPs (3) (violet line)"},
+  {"technique":"FTIR","fig":"Fig. 4","applies_to":"nanoparticle","sample":"green nanoparticles","quote":"FT-IR spectra of “green” nanoparticles compared to the spectra of plant extracts"},
+  {"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"A. abrotanum-AgNPs (1) and A. arborescens-AgNPs (2)","quote":"XRD pattern of “green” nanoparticles A. abrotanum-AgNPs (1) and A. arborescens-AgNPs (2)"}]},
+{"pmcid":"PMC7662494","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+ "panels":[
+  {"fig":"Fig. 8","variant":"SEM","sample":"ceftriaxone loaded chitosan nanoparticles","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"SEM image of ceftriaxone loaded chitosan nanoparticles"}],
+ "descriptors":[
+  {"sample":"ceftriaxone-encapsulated chitosan nanoparticles","size_nm":250,"pdi":null,"zeta_mV":38.5,"medium":"not_declared","source":"text","quote":"Ceftriaxone-encapsulated chitosan nanoparticles reveal an average particle size of 250 nm and a zeta potential value of 38.5 mV"}],
+ "spectra":[
+  {"technique":"UVVis","fig":"Fig. 4","applies_to":"unclear","sample":"S1, S2, S3","quote":"UV–VIS spectrum of S1, S2, S3."},
+  {"technique":"FTIR","fig":"Fig. 6","applies_to":"nanoparticle","sample":"ceftriaxone loaded chitosan nanoparticles","quote":"FTIR spectrum of ceftriaxone loaded chitosan nanoparticles"}]}
+]}
