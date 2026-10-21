@@ -1,0 +1,514 @@
+{
+  "batch": "EX139",
+  "articles": [
+    {
+      "pmcid": "PMC8512180",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "dendrimer-functionalized SPIONs (D-SPIONs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Shows the (a–c) TEM images of the D-SPIONs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPIONs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -24,
+          "medium": "water",
+          "source": "zeta potential; paired with D-SPIONs result",
+          "quote": "The surface charge study of SPIONs and D-SPIONs, as performed through zeta potential measurement, was −24 and −0.6 mV, respectively."
+        },
+        {
+          "sample": "D-SPIONs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -0.6,
+          "medium": "water",
+          "source": "zeta potential; paired with SPIONs result",
+          "quote": "The surface charge study of SPIONs and D-SPIONs, as performed through zeta potential measurement, was −24 and −0.6 mV, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "SPIONs and dendrimer-functionalized D-SPIONs",
+          "quote": "(e) FTIR spectra"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7908990",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "HRTEM",
+          "sample": "starch-capped AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(E) HRTEM image of AgNPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "starch-capped AgNPs",
+          "quote": "(B) UV-Vis spectrum of starch capped AgNPs’ suspension"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8145217",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MgIONPs@TMAH, RES NPs and BNF NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) TEM and SAED images of the prepared hydrophilic magnesium iron oxide@tetramethyl ammonium hydroxide nanoparticles (MgIONPs@TMAH), (B) RES NPs, and (C) BNF NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MgIONPs@TMAH",
+          "size_nm": 167,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS mean hydrodynamic size; ±0.8 nm reported",
+          "quote": "The mean hydrodynamic size of MgIONPs@TMAH obtained by DLS was 167.0 ± 0.8 nm (Figure 3B)."
+        },
+        {
+          "sample": "MgIONPs@TMAH",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -12,
+          "medium": "not_declared",
+          "source": "zeta potential; ±0.1 mV reported",
+          "quote": "A low zeta potential value (−12.0 ± 0.1 mV) implies that the NP may show poor stability in aqueous solutions."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MgIONPs@TMAH",
+          "quote": "(A) XRD spectrum"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MgIONPs@TMAH",
+          "quote": "(C) absorbance spectrum of the prepared MgIONPs@TMAH."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10254252",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "unfunctionalized citrate-stabilized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(a) TEM image displaying in black the relatively monodispersed, spherical AuNPs (scale bar is 500 nm)."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "2-TU-functionalized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(a) TEM image displaying in black the relatively monodispersed, spherical 2-TU-AuNPs (scale bar is 100 nm)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 32,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter; ±3 nm reported; TEM core size excluded",
+          "quote": "The measurement of the hydrodynamic diameter obtained from the Zetasizer Nano was 32 ± 3 nm."
+        },
+        {
+          "sample": "2-TU-AuNPs",
+          "size_nm": 45,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter after functionalization; ±5 nm reported",
+          "quote": "After functionalization, Zetasizer results showed an increase in the hydrodynamic diameter, shifting from 32 ± 3 nm to 45 ± 5 nm (Figure 5a)"
+        },
+        {
+          "sample": "AuNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -38,
+          "medium": "not_declared",
+          "source": "zeta potential; ±5 mV reported",
+          "quote": "negative charges on the surface of AuNPs (−38 ± 5 mV)."
+        },
+        {
+          "sample": "2-TU-AuNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -14,
+          "medium": "not_declared",
+          "source": "zeta potential after functionalization; ±1 mV reported",
+          "quote": "The Z-potential results also indicated a surface charge increase from −38 ± 5 mV to −14 ± 1 mV (Figure 5b)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "citrate-stabilized AuNPs",
+          "quote": "(c) UV–Vis absorption spectrum revealing an LSPR peak at 520 nm."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "2-TU in solution and 2-TU-AuNPs",
+          "quote": "(c) UV–Vis absorption spectra of the 2-TU in solution (red line) and 2-TU-AuNPs (green line) confirming the functionalization of AuNPs with 2-TU."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure S2",
+          "applies_to": "mixture",
+          "sample": "2-TU and 2-TU-AuNPs",
+          "quote": "Raman measurements were conducted in the range of 300–1300 cm−1 for 2-TU and 2-TU-AuNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10054154",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs synthesized from daisy, garlic and leek extracts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative TEM images of AgNPs synthesized by using WEOP of:"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and corresponding aqueous plant extracts",
+          "quote": "UV-Vis spectra (λ in nm) of WEOP of"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6893062",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanoparticle samples S1–S6",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission Electron Microscope of gold nanoparticle samples (S1-S6)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs prepared using different trisodium citrate ratios",
+          "quote": "UV-Vis. spectra of gold nanoparticle prepared by adding different molar ratios of trisodium citrate"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "AuNPs embedded in PEDOT:PSS/CuPc/C60 multilayer films",
+          "quote": "Normalized absorption spectra of CuPc, C60, different sizes of gold nanoparticle embedded in PEDOT: PSS/CuPc/C60 multilayer films."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6930568",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "porous organosilica monoliths with varying silane precursor ratios",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the porous organosilica monoliths fabricated from silane co-precursor"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "porous organosilica monoliths with different surfactants",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of POMs with different surfactants"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "porous organosilica monolith particles loaded with AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the organosilica monolith particles with a MTMS/SHTMS/SHDMS = 3:1:2 composition loaded with gold nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "porous organosilica monoliths with and without Au and monolith precursor",
+          "quote": "Fourier transform infrared (FTIR) spectra of the porous organosilica monoliths with and without Au"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8511990",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "GSE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The FE-SEM imaging of GSE-AgNPs."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GSE-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The TEM imaging of GSE-AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GSE-AgNPs",
+          "size_nm": 91.89,
+          "pdi": 0.189,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS Z-average and PDI; intensity peak reported separately",
+          "quote": "GSE-AgNPs had the Z-Average of 91.89 nm with a polydispersity index (PDI) value of 0.189"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2A",
+          "applies_to": "nanoparticle",
+          "sample": "GSE-AgNPs",
+          "quote": "GSE-AgNPs had the highest absorbance broad peak (~1.3 cm−1) at the wavelength of ~415 nm (Figure 2A)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "GSE and GSE-AgNPs",
+          "quote": "FTIR analysis. Nicolet 6700 FTIR Spectrometer was used to identify the functional groups in (A) GSE and (B) GSE-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8626174",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "HAART-AgNPs at 0.5, 1, 1.5 and 2 M",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM images of HAART-AgNPs (0.5 M) (A1 and A2)"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "HRTEM",
+          "sample": "HAART-AgNPs at 0.5, 1, 1.5 and 2 M with lattice fringes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM images of (a) HAART-AgNPs (0.5 M), (b) HAART-AgNPs (1 M), (c) HAART-AgNPs (1.5 M), and (d) HAART-AgNPs (2 M)"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "HAART-AgNPs at 0.5, 1, 1.5 and 2 M",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images and EDX spectra of HAART-AgNPs (0.5 M)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "component",
+          "sample": "AgNPs and HAART components (efavirenz, emtricitabine, tenofovir disoproxil fumarate)",
+          "quote": "IR spectra of (a) AgNPs and (b) HAART (efavirenz, emtricitabine, and tenofovir disoproxil fumarate)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "HAART-AgNPs at 0.5, 1, 1.5 and 2 M",
+          "quote": "IR spectra of (a) HAART-AgNPs (0.5 M), (b) HAART-AgNPs (1 M), (c) HAART-AgNPs (1.5 M), and (d) HAART-AgNPs (2 M)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "HAART-AgNPs at 0.5, 1, 1.5 and 2 M",
+          "quote": "SEM images and EDX spectra of HAART-AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7962535",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "as-made and PDEAEMA-coated mesoporous silica nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM and TEM images of fabricated mesoporous silica nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN-PDEAEMA at pH 5",
+          "size_nm": 600,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "PBS",
+          "source": "DLS size at pH 5",
+          "quote": "DLS data indicate that the size of MSN-PDEAEMA increased with decreasing the pH value and reached ca. 600 nm at pH = 5."
+        },
+        {
+          "sample": "MSN-PDEAEMA (pH above 7.5)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -5,
+          "medium": "PBS",
+          "source": "zeta potential around −5 mV",
+          "quote": "At pH above 7.5, the surface charge was ca. −5 mV, resulting from the deprotonation process."
+        },
+        {
+          "sample": "MSN-PDEAEMA-Cys (pH above 7)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -15,
+          "medium": "PBS",
+          "source": "average zeta potential around −15 mV",
+          "quote": "MSN-PDEAEMA-Cys and MSN-PDEAEMA-Cys-POEGMEMA showed a negative surface charge with an average of −15 mV when the samples were exposed to a pH value above 7"
+        },
+        {
+          "sample": "MSN-PDEAEMA-Cys-POEGMEMA (pH above 7)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -15,
+          "medium": "PBS",
+          "source": "average zeta potential around −15 mV",
+          "quote": "MSN-PDEAEMA-Cys and MSN-PDEAEMA-Cys-POEGMEMA showed a negative surface charge with an average of −15 mV when the samples were exposed to a pH value above 7"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "functionalized silica nanoparticle formulations",
+          "quote": "FTIR spectra of the modified silica nanoparticles: (A) as-made MSNs, (B) hexadecyltrimethylammonium bromide (CTAB)-free MSNs, (C) MSN–Br, (D) MSN-PDEAEMA, (E) MSN-PDEAEMA-cysteine (Cys), and (F) MSN-PDEAEMA-Cys-POEGMEMA."
+        }
+      ]
+    }
+  ]
+}

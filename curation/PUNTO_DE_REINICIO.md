@@ -33,3 +33,6 @@ Hackatón: el video se entrega el **domingo 25 de octubre, 5:45 pm (Costa Rica)*
 
 
 
+
+## Repaso pendiente de Codex (21 oct, noche)
+EX078-EX102 y EX128-EX160 de Codex salieron incompletos (se dejo descriptores y espectros). Codex los repasa con curation/BRIEF_CODEX_REPASO_RIGUROSO.md; salida en work/llm/E_v2/; auditoria en work/ext/auditoria_E_v2.md. Claude debe despues: (1) hacer que pply fusione E y E_v2 eligiendo, por articulo, la version con mas filas verificadas; (2) correr pply y mirar citas rechazadas; (3) reportar el rendimiento v2 (objetivo >= 1,2 desc/art y >= 1,5 espectros/art).

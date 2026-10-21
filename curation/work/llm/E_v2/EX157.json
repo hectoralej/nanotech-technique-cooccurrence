@@ -1,0 +1,174 @@
+{
+  "batch": "EX157",
+  "articles": [
+    {
+      "pmcid": "PMC6516671",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "CAG and rGO-AuNP nanocomposites", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(A) CAG composite at 0.5 μm scale"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "Raman", "fig": "Fig. 4", "applies_to": "mixture", "sample": "CAG, GO and graphite", "quote": "Raman spectra of synthesized nanocomposite CAG, GO and graphite."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "GO, CAG and CR", "quote": "(A) FT-IR spectra of GO, CAG, and CR."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "mixture", "sample": "GO and CAG", "quote": "(B) XRD analysis of GO and CAG."},
+        {"technique": "UVVis", "fig": "Fig. 6", "applies_to": "mixture", "sample": "GO, citrate-AuNPs, CAG and CR", "quote": "UV-Vis absorption spectra.Panel of GO, citrate-AuNPs, CAG, and CR."}
+      ]
+    },
+    {
+      "pmcid": "PMC11676632",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "commercial and cricket-derived chitosan pellets", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of chitosan pellets observed at 500× magnification"}
+      ],
+      "descriptors": [
+        {"sample": "CNP formulation F-01", "size_nm": 581.4, "pdi": 0.89, "zeta_mV": 32.7, "medium": "not_declared", "source": "Table 4", "quote": "F-01 | CSC 0.10:CA 0.075 | 3.34 | 581.4 ± 12.5 b,c | 0.89 ± 0.07 c | 32.7 ± 1.8 c"},
+        {"sample": "CNP formulation F-02", "size_nm": 300.1, "pdi": 0.86, "zeta_mV": 21.8, "medium": "not_declared", "source": "Table 4", "quote": "F-02 | CSC 0.10:CA 0.250 | 2.86 | 300.1 ± 19.8 a | 0.86 ± 0.09 c | 21.8 ± 2.1 b"},
+        {"sample": "CNP formulation F-03", "size_nm": 243.3, "pdi": 0.91, "zeta_mV": 13.5, "medium": "not_declared", "source": "Table 4", "quote": "F-03 | CSC 0.10:CA 0.750 | 2.48 | 243.3 ± 18.7 a | 0.91 ± 0.07 c | 13.5 ± 0.9 a,b"},
+        {"sample": "CNP formulation F-04", "size_nm": 860.6, "pdi": 1.0, "zeta_mV": 57.7, "medium": "not_declared", "source": "Table 4", "quote": "F-04 | CSC 0.10:GA 0.075 | 3.86 | 860.6 ± 55.7 d | 1.00 ± 0.00 c | 57.7 ± 1.1 d"},
+        {"sample": "CNP formulation F-05", "size_nm": 661.0, "pdi": 1.0, "zeta_mV": 55.1, "medium": "not_declared", "source": "Table 4", "quote": "F-05 | CSC 0.10:GA 0.250 | 3.86 | 661.0 ± 59.1 c | 1.00 ± 0.00 c | 55.1 ± 4.0 d"},
+        {"sample": "CNP formulation F-06", "size_nm": 617.7, "pdi": 0.95, "zeta_mV": 40.7, "medium": "not_declared", "source": "Table 4", "quote": "F-06 | CSC 0.10:GA 0.750 | 3.82 | 617.7 ± 24.4 c | 0.95 ± 0.06 c | 40.7 ± 6.1 c"},
+        {"sample": "CNP formulation F-07", "size_nm": 256.4, "pdi": 0.28, "zeta_mV": 21.4, "medium": "not_declared", "source": "Table 4", "quote": "F-07 | CSC 0.10:SC 0.075 | 4.52 | 256.4 ± 2.20 a | 0.28 ± 0.02 a | 21.4 ± 0.7 b"},
+        {"sample": "CNP formulation F-08", "size_nm": 209.5, "pdi": 0.21, "zeta_mV": 12.2, "medium": "not_declared", "source": "Table 4", "quote": "F-08 | CSC 0.10:SC 0.250 | 4.96 | 209.5 ± 0.7 a | 0.21 ± 0.00 a | 12.2 ± 1.2 a"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "component", "sample": "commercial and cricket-derived chitosan", "quote": "FT-IR spectra (a)"},
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "component", "sample": "commercial and cricket-derived chitosan", "quote": "XRD diffractograms (b)"}
+      ]
+    },
+    {
+      "pmcid": "PMC7593694",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "Cs-SLN", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(C) SEM image of Cs-SLN (scale bar, 5 μm)."},
+        {"fig": "Fig. 1", "variant": "TEM_negstain", "sample": "Cs-SLN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(D) TEM image of Cs-SLN with 200 nm magnification."}
+      ],
+      "descriptors": [
+        {"sample": "PSLN", "size_nm": 37.6, "pdi": 0.31, "zeta_mV": -7, "medium": "water", "source": "Table 1", "quote": "PSLN | 37.6 ± 0.38 | 0.31 ± 0.03 | −7 ± 0.316"},
+        {"sample": "DSLN", "size_nm": 148, "pdi": 0.308, "zeta_mV": 1.14, "medium": "water", "source": "Table 1", "quote": "DSLN | 148 ± 3.60 | 0.308 ± 0.05 | 1.14 ± 0.01"},
+        {"sample": "Cs-SLN", "size_nm": 373.9, "pdi": 0.342, "zeta_mV": 18, "medium": "water", "source": "Table 1", "quote": "Cs-SLN | 373.9 ± 1.41 | 0.342 ± 0.02 | 18 ± 0.07"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "GMS, PM, AmB, Cs and Cs-SLN", "quote": "(A) FTIR Spectra of GMS, PM, AmB, Cs, Cs-SLN."},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "mixture", "sample": "GMS, AmB, PM, Cs and Cs-SLN", "quote": "(B) XRD Spectra of GMS, AmB, PM, Cs, Cs-SLN."}
+      ]
+    },
+    {
+      "pmcid": "PMC9565570",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "cryoTEM", "sample": "CHX liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(a,b) Cryo-EM images of multiple liposomes at 200 nm scale"}
+      ],
+      "descriptors": [
+        {"sample": "CHX liposome Batch 1", "size_nm": 148.2, "pdi": null, "zeta_mV": 24.1, "medium": "not_declared", "source": "Table 1", "quote": "1 | 90 | 10 | 10 | 36 ± 2.42 | 148.2 ± 4.52 | 24.1 ± 2.60"},
+        {"sample": "CHX liposome Batch 2", "size_nm": 156, "pdi": null, "zeta_mV": 29.3, "medium": "not_declared", "source": "Table 1", "quote": "2 | 90 | 10 | 20 | 48 ± 1.76 | 156.0 ± 5.36 | 29.3 ± 2.42"},
+        {"sample": "CHX liposome Batch 3", "size_nm": 178.4, "pdi": null, "zeta_mV": 28.1, "medium": "not_declared", "source": "Table 1", "quote": "3 | 90 | 10 | 30 | 76 ± 2.80 | 178.4 ± 4.41 | 28.1 ± 2.56"},
+        {"sample": "CHX liposome Batch 4", "size_nm": 206.4, "pdi": null, "zeta_mV": 34.2, "medium": "not_declared", "source": "Table 1", "quote": "4 | 90 | 10 | 40 | 56 ± 2.67 | 206.4 ± 3.63 | 34.2 ± 2.60"},
+        {"sample": "CHX liposome Batch 5", "size_nm": 223.6, "pdi": null, "zeta_mV": 37.8, "medium": "not_declared", "source": "Table 1", "quote": "5 | 90 | 10 | 50 | 52 ± 2.45 | 223.6 ± 3.63 | 37.8 ± 2.12"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "plain CHX, physical mixture and CHX liposomal formulation", "quote": "FTIR spectroscopic results. (Drug) Plain CHX, (1) physical mixture of CHX and excipients and, (2) CHX liposomal formulation."}
+      ]
+    },
+    {
+      "pmcid": "PMC10179555",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "LNP-F3", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "LNP-F3 surface morphology evaluated by SEM analysis; scale bar: 300 nm."}
+      ],
+      "descriptors": [
+        {"sample": "LNP-F1", "size_nm": 101.17, "pdi": 0.279, "zeta_mV": -22.0, "medium": "not_declared", "source": "Table 2", "quote": "LNP-F1 | 101.17 ± 6.68 | 0.279 ± 0.001 | −22.0. ± 10.10"},
+        {"sample": "LNP-F2", "size_nm": 126.1, "pdi": 0.337, "zeta_mV": -21.5, "medium": "not_declared", "source": "Table 2", "quote": "LNP-F2 | 126.10 ± 8.30 | 0.337 ± 0.033 | −21.50 ± 9.16"},
+        {"sample": "LNP-F3", "size_nm": 162.86, "pdi": 0.267, "zeta_mV": -21.4, "medium": "not_declared", "source": "Table 2", "quote": "LNP-F3 | 162.86 ± 3.12 | 0.267 ± 0.010 | −21.40 ± 7.33"},
+        {"sample": "LNP-NC", "size_nm": 624.65, "pdi": 0.541, "zeta_mV": -0.55, "medium": "not_declared", "source": "Table 4", "quote": "LNP-NC | - | - | 624.65 ± 54.75 | 0.541 ± 0.139 | −0.55 ± 5.13"},
+        {"sample": "LNP-T (A)", "size_nm": 640.25, "pdi": 0.516, "zeta_mV": -0.21, "medium": "not_declared", "source": "Table 4", "quote": "LNP-T (A) | Trehalose | 1:3 | 640.25 ± 124.35 | 0.516 ± 0.055 | −0.21 ± 7.93"},
+        {"sample": "LNP-So (A)", "size_nm": 372.55, "pdi": 0.479, "zeta_mV": -0.79, "medium": "not_declared", "source": "Table 4", "quote": "LNP-So (A) | Sorbitol | 1:3 | 372.55 ± 72.85 | 0.479 ± 0.029 | −0.79 ± 4.96"},
+        {"sample": "LNP-M (A)", "size_nm": 1442.5, "pdi": 0.888, "zeta_mV": -0.8, "medium": "not_declared", "source": "Table 4", "quote": "LNP-M (A) | Mannitol | 1:3 | 1442.50 ± 502.50 | 0.888 ± 0.112 | −0.80 ± 5.04"},
+        {"sample": "LNP-Su (A)", "size_nm": 403.4, "pdi": 0.513, "zeta_mV": -1.59, "medium": "not_declared", "source": "Table 4", "quote": "LNP-Su (A) | Sucrose | 1:3 | 403.40 ± 12.30 | 0.513 ± 0.055 | −1.59 ± 8.22"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "mixture", "sample": "pure RSV, MIX-BL and fresh/stored MIX-F", "quote": "X-ray diffractograms of (A) pure RSV (black line); (B) MIX-BL (red line)"}
+      ]
+    },
+    {
+      "pmcid": "PMC7072962",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "HRTEM", "sample": "CTR-GNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(A) low magnification (scale bar, 200 nm)"}
+      ],
+      "descriptors": [
+        {"sample": "CTR-GNPs", "size_nm": 89, "pdi": 0.24, "zeta_mV": -26.93, "medium": "not_declared", "source": "text", "quote": "CTR-GNPs were 89 ± 5.21 nm, −26.93 ± 1.41 mV, and 0.24 ± 0.01"}
+      ],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "CTR-GNPs", "quote": "(G) energy dispersive spectroscopy (EDS) analysis of CTR-GNPs."},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "CTR-GNPs", "quote": "(A) X-ray dispersion (XRD) pattern"},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "CTR-GNPs", "quote": "(B) Fourier-transform infrared spectroscopy (FT-IR) spectra of CTR-GNPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC10982938",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_negstain", "sample": "AMP-NP and NorChit-NP", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Negative staining TEM micrographs of (A) AMP-NP and (B) NorChit-NP (scale bars: 50 nm)."},
+        {"fig": "Fig. 5", "variant": "TEM_negstain", "sample": "NPs in contact with H. pylori and NP controls", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Scale bars: 200 nm (A1,A3,A5,B1,B3,B5,B7,B9,B11,C1,C3) and 50 nm (A2,A4,A6,B2,B4,B6,B8,B10,B12,C2,C4)."}
+      ],
+      "descriptors": [
+        {"sample": "AMP-NP", "size_nm": null, "pdi": null, "zeta_mV": 14.3, "medium": "not_declared", "source": "Table 5", "quote": "AMP-NP | 113 ± 43 | 107 | 157 | 2.1 ± 0.1 | 14.3 ± 7"},
+        {"sample": "NorChit-NP", "size_nm": null, "pdi": null, "zeta_mV": 5.9, "medium": "not_declared", "source": "Table 5", "quote": "NorChit-NP | 107 ± 55 | 93 | 164 | 2.2 ± 0.2 | 5.9 ± 3"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "NorChit-NP and AMP-NP", "quote": "(A) Fourier-transform infrared spectroscopy (FTIR)"},
+        {"technique": "Raman", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "NorChit-NP and AMP-NP", "quote": "(B) Raman spectroscopy spectra of NorChit-NP and AMP-NP"}
+      ]
+    },
+    {
+      "pmcid": "PMC8399280",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "CT-NLC, N-NLC and L-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) images of: CT-NLC (a,b); N-NLC (c,d); L-NLC (e,f)."}
+      ],
+      "descriptors": [
+        {"sample": "L-NLC with Lavandula oil", "size_nm": 200, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "NLC prepared with Lavandula, Mentha, or Rosmarinus showed the presence of small-sized nanoparticles of about 200 nm"},
+        {"sample": "M-NLC with Mentha oil", "size_nm": 200, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "NLC prepared with Lavandula, Mentha, or Rosmarinus showed the presence of small-sized nanoparticles of about 200 nm"},
+        {"sample": "R-NLC with Rosmarinus oil", "size_nm": 200, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "NLC prepared with Lavandula, Mentha, or Rosmarinus showed the presence of small-sized nanoparticles of about 200 nm"}
+      ],
+      "spectra": [
+        {"technique": "Raman", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "L-NLC, CT-NLC and N-NLC", "quote": "Raman spectra of L-NLC, CT-NLC, and N-NLC."},
+        {"technique": "Raman", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "L-NLC, CT-NLC and N-NLC", "quote": "Raman spectra of NLC prepared with Lavandula (L-NLC), Tegosoft CT (CT-NLC), and Neem oil (N-NLC)"},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "L-NLC, CT-NLC and N-NLC", "quote": "XRD spectra of representative samples L-NLC, CT-NLC, and N-NLC."}
+      ]
+    },
+    {
+      "pmcid": "PMC9415452",
+      "context": {"article_kind": "research", "carrier_type": "other", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "quercetin-loaded liposomes and nanocochleates", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) liposomes and (b) nanocochleates."}
+      ],
+      "descriptors": [
+        {"sample": "QL1", "size_nm": 213, "pdi": null, "zeta_mV": -45.32, "medium": "not_declared", "source": "Table 4", "quote": "QL1 | 70.5 ± 5.23 | 213 ± 3 | −45.32 | Spherical"},
+        {"sample": "QL4", "size_nm": 150, "pdi": null, "zeta_mV": -53.65, "medium": "not_declared", "source": "Table 4", "quote": "QL4 | 72.4 ± 5.34 | 150 ± 2 | −53.65 | Spherical"},
+        {"sample": "QL5", "size_nm": 132, "pdi": null, "zeta_mV": -55.34, "medium": "not_declared", "source": "Table 4", "quote": "QL5 | 66 ± 2.34 | 132 ± 5 | −55.34 | Spherical"},
+        {"sample": "QL7", "size_nm": 111.06, "pdi": null, "zeta_mV": -40.33, "medium": "not_declared", "source": "Table 4", "quote": "QL7 | 74.2 ± 2.34 | 111.06 ± 2 | −40.33 | Spherical"},
+        {"sample": "QL8", "size_nm": 238, "pdi": null, "zeta_mV": -46.24, "medium": "not_declared", "source": "Table 4", "quote": "QL8 | 65 ± 1.56 | 238 ± 3 | −46.24 | Spherical"},
+        {"sample": "QN1", "size_nm": 670, "pdi": null, "zeta_mV": -39.54, "medium": "not_declared", "source": "Table 5", "quote": "QN1 | 78.2 ± 4.23 | 670 ± 3 | −39.54"},
+        {"sample": "QN2", "size_nm": 544, "pdi": null, "zeta_mV": -26.32, "medium": "not_declared", "source": "Table 5", "quote": "QN2 | 85 ± 3.25 | 544 ± 2 | −26.32"},
+        {"sample": "QN3", "size_nm": 502, "pdi": null, "zeta_mV": -18.52, "medium": "not_declared", "source": "Table 5", "quote": "QN3 | 88.62 ± 4.20 | 502 ± 4 | −18.52"}
+      ],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "mixture", "sample": "quercetin-loaded liposomes and nanocochleates", "quote": "Energy-dispersive X-ray spectra (counts vs. energy) of (a) liposomes and (b) nanocochleates."}
+      ]
+    },
+    {
+      "pmcid": "PMC10346814",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "rice husk lignin nanoparticles at varying electrospray parameters", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrograph of LNPS synthetized at: (A): 5 mg/mL, 0.5 mL/h, 20 kV, 20 cm"},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "optimized rice husk lignin nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrograph (A), TEM micrograph (B), and particle size distribution from SEM micrograph (C) of the optimized lignin nanoparticles from rice husk"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "mixture", "sample": "PLA-based composite films with lignin", "quote": "Fourier-transform infrared spectra of polylactic acid (PLA)-based composite films with 10% of lignin."}
+      ]
+    }
+  ]
+}

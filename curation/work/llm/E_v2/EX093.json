@@ -1,0 +1,493 @@
+{
+  "batch": "EX093",
+  "articles": [
+    {
+      "pmcid": "PMC12564578",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "silica nanoparticles U2-100 through U10-100",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of the studied silica nanoparticles: (A) U2-100, (B,C) U4-100, (D) U6-100"
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "silica samples U2-540, U6-540 and U10-540",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Characteristic TEM images of samples U2-540 (A–C), U6-540 (D–F), and U10-540 (G–I)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "calcined mesoporous silica",
+          "quote": "Infrared spectra of calcined mesoporous silica samples."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "mesoporous silica samples",
+          "quote": "SAXS diffractograms of the mesoporous silica samples prepared with gemini surfactants of different spacer lengths."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6130564",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "DNHK-loaded PLGA 85:15 and PLGA 85:15 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM images of (A) DNHK-loaded PLGA 85:15 and (B) PLGA 85:15 nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DNHK-loaded PLGA 85:15 NPs",
+          "size_nm": 215,
+          "pdi": 0.102,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "average diameter was 215 nm, and the homogeneity in the diameter sizes, since the polydispersion index (PI) was 0.102."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "component",
+          "sample": "DNHK extracted from PLGA NPs",
+          "quote": "(C) Electronic absorption spectra of DNHK extracted from the PLGA nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12586659",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 9",
+          "variant": "SEM",
+          "sample": "SFNPs, AgNPs and cotton with SF-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a) S0, (b) SFNPs, (c) AgNPs, (d) S3."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "SF, AgNPs, SFNPs and SF-AgNPs",
+          "quote": "UV–Vis spectra of (a) SF, (b) AgNPs (c) SFNPs, (d) SF-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "SF, AgNPs and SFNPs",
+          "quote": "XRD patterns of (a) Pure SF, (b) SF-AgNPs, (c) SFNPs, (d) AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "SFNPs and AgNPs",
+          "quote": "FTIR analysis of synthesized nanoparticles (a) SFNPs, and (b) AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 10",
+          "applies_to": "nanoparticle",
+          "sample": "SFNPs, AgNPs and S3",
+          "quote": "Energy-dispersive X-ray spectroscopy (EDS) spectra: (a) S0, (b) SFNPs, (c) AgNPs, and (d) S3."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13352959",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PLGA and TRAIL-loaded PEG-Apt-PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of PLGA and"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "TRAIL-loaded PEG-aptamer PLGA NPs",
+          "size_nm": 473.4,
+          "pdi": 0.218,
+          "zeta_mV": -6.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "473.4 ± 18.36, the polydispersity index was 0.218 ± 0.061, and the zeta potential value was −6.3 ± 0.2 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "component",
+          "sample": "PEG-aptamer conjugate",
+          "quote": "FTIR analysis after PEG"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12224490",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "hydrogel films with AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images for the surface of the hydrogels: (Cr-HG), (GT-HG), and (AV-HG)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(a) UV-VIS absorption spectra of synthesized AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs AV-HG and GT-HG",
+          "quote": "The X-ray diffraction (XRD) patterns for AgNPs for (b) (AV-HG), and (c) (GT-HG)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs loaded in hydrogel patches",
+          "quote": "EDX spectrum for the three hydrogels (d) (Cr-HG), (e) (AV-HG), and (f) (GT-HG)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13492477",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "PLGA NPs and UreNMs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "SEM was used to visualize PLGA NPs (B) and PLGA–PEI-urease (UreNMs) (C) (scale bar = 1000 nm)."
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PLGA NPs and PLGA-PEI NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM was used to obtain representative images of PLGA (E) and PLGA–PEI NPs (F) (scale bar = 50 nm)."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "UreNMs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "UreNMs in water were kept at 37 °C, and their morphology was checked by SEM every week (scale bar = 150 nm)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PLGA NPs",
+          "size_nm": 177.48,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "mean hydrodynamic diameter increased to 177.48 ± 13.47 nm"
+        },
+        {
+          "sample": "PLGA-PEI NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 45.68,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "from −12.91 ± 1.45 mV (PLGA) to 45.68 ± 3.35 mV (PLGA–PEI)"
+        },
+        {
+          "sample": "UreNMs",
+          "size_nm": 227.45,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "hydrodynamic diameter resulted in 227.45 ± 16.74 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "PLGA NPs and UreNMs",
+          "quote": "SAXS was used to measure the scattering profile of PLGA NPs (C) and UreNMs (D)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12349574",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "IO-AgNPs and MIO-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph of I. obliquus sample (a), IO–AgNPs (b), MIO (c), and MIO–AgNPs (d) systems."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "I. obliquus, IO-AgNPs and MIO-AgNPs",
+          "quote": "FTIR spectra of I. obliquus sample (black line), IO–AgNPs (green line), MIO (red line), and MIO–AgNPs (blue line) systems."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "I. obliquus and IO-AgNPs",
+          "quote": "XRD patterns of the I. obliquus sample (black line) and the IO–AgNP system (red line)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "I. obliquus and IO-AgNPs",
+          "quote": "EDX analysis of the I. obliquus sample (a) and IO–AgNP system (b)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5489932",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "micelle",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SMA-CDF and FA-SMA-CDF nanomicelles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(b) surface morphology of SMA-CDF and FA-SMA-CDF by transmission electron microscopy (TEM)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FA-SMA-CDF",
+          "size_nm": 193.6,
+          "pdi": 0.175,
+          "zeta_mV": -7.12,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "FA-SMA-CDF | 193.6 ± 20 nm | 0.175 ± 0.05 | –7.12 ± 4 | 75.98 ± 12"
+        },
+        {
+          "sample": "SMA-CDF",
+          "size_nm": 183,
+          "pdi": 0.183,
+          "zeta_mV": -34,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "SMA-CDF | 183 ± 31 nm | 0.183 ± 0.07 | –34 ± 5 | 70.21 ± 9"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "CDF, FA, SMA and FA-SMA conjugate",
+          "quote": "FTIR and characterization of CDF, FA, SMA and the FA-SMA conjugate."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12053025",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "AgNPs synthesized using F. equiseti",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of silver nanoparticles synthesized using F. equiseti filtrate"
+        },
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image showing spherical morphology of AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -24.7,
+          "medium": "water",
+          "source": "Fig. 2",
+          "quote": "Zeta potential analysis showing colloidal stability with a zeta potential of –24.7 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "a UV–Vis absorption spectrum of AgNPs showing surface plasmon resonance (SPR) at ~ 420 nm"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "b FTIR spectrum indicating functional groups responsible for nanoparticle stabilization"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "c XRD pattern confirming the crystalline structure of AgNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8851817",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "BCP NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of BCP NPs (l)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank PLGA NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -14.97,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential of Blank PLGA NPs and BCP NPs were − 14.97 ± 0.54 mV and − 24.27 ± 1.11 mV, respectively"
+        },
+        {
+          "sample": "BCP NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -24.27,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential of Blank PLGA NPs and BCP NPs were − 14.97 ± 0.54 mV and − 24.27 ± 1.11 mV, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "CPI-613, 3-BPA, blank PLGA NPs and BCP NPs",
+          "quote": "XRD of CPI-613,3-BPA, Blank PLGA NPs and CBP NPs (o)"
+        }
+      ]
+    }
+  ]
+}

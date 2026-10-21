@@ -1,0 +1,509 @@
+{
+  "batch": "EX098",
+  "articles": [
+    {
+      "pmcid": "PMC8304942",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "wrinkled mesoporous silica nanospheres",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(C) SEM micrographs of WMS nanospheres"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "WMS synthesized with different co-solvents and acid concentrations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "WMS typical homogeneity and size dispersion as seen by SEM"
+        }
+      ],
+      "descriptors": [
+        {"sample":"WMS formulation 1 (isopropanol/Urea/HCl 1 mM)","size_nm":36.90,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"1 | 36.90 ± 3.31"},
+        {"sample":"WMS formulation 2 (isopropanol/Urea/HCl 0.75 mM)","size_nm":43.03,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"2 | 43.03 ± 4.75"},
+        {"sample":"WMS formulation 3 (isopropanol/Urea/HCl 0.5 mM)","size_nm":61.94,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"3 | 61.94 ± 6.26"},
+        {"sample":"WMS formulation 4 (isopropanol/Urea/HCl 0.25 mM)","size_nm":95.42,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"4 | 95.42 ± 8.44"},
+        {"sample":"WMS formulation 5 (isopropanol/HMT/HCl 1 mM)","size_nm":227.27,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"5 | 227.27 ± 14.99"},
+        {"sample":"WMS formulation 6 (isopropanol/HMT/HCl 0.75 mM)","size_nm":237.18,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"6 | 237.18 ± 11.79"},
+        {"sample":"WMS formulation 7 (isopropanol/HMT/HCl 0.5 mM)","size_nm":246.64,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"7 | 246.64 ± 50.10"},
+        {"sample":"WMS formulation 8 (isopropanol/HMT/HCl 0.25 mM)","size_nm":271.86,"pdi":null,"zeta_mV":null,"medium":"water suspension","source":"DLS Table 1","quote":"8 | 271.86 ± 22.46"}
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "WMS systems",
+          "quote": "Chemical composition by EDS."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "WMS systems",
+          "quote": "FT-IR spectra."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "WMS systems",
+          "quote": "Wide-angle XRD pattern."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10975591",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9182795",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Chi/AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (A), SAED pattern (B), SEM image (C), and (D) EDX spectrum of Chi/AuNPs."
+        },
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "Chi/AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (A), SAED pattern (B), SEM image (C), and (D) EDX spectrum of Chi/AuNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Chi/AuNPs",
+          "quote": "(D) EDX spectrum of Chi/AuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Chi/AuNPs",
+          "quote": "FTIR spectrum (A)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Chi/AuNPs",
+          "quote": "XRD pattern (B)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6801874",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CNP° and CNP°-CGA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Images of Transmission Electron Microscopy (TEM) morphological analysis of (A) CNP° and (B) CNP°-CGA."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "CNP° and CNP°-CGA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Images of FESEM morphological analysis of (A) CNP° and (B) CNP°-CGA."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CNP° (0 µM CGA)",
+          "size_nm": 80.89,
+          "pdi": 0.26,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "0 µM (CNP°) | 80.89 ± 5.16 | 0.26 ± 0.01"
+        },
+        {
+          "sample": "CNP°-CGA 2 µM",
+          "size_nm": 91.99,
+          "pdi": 0.3,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "2 µM | 91.99 ± 18.28 | 0.30 ± 0.04"
+        },
+        {
+          "sample": "CNP°-CGA 10 µM",
+          "size_nm": 82.6,
+          "pdi": 0.28,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "10 µM | 82.60 ± 15.81 | 0.28 ± 0.06"
+        },
+        {
+          "sample": "CNP°-CGA 20 µM",
+          "size_nm": 134.44,
+          "pdi": 0.29,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "20 µM | 134.44 ± 18.29 | 0.29 ± 0.03"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "nanoparticle",
+          "sample": "CNP°, CNP°-CGA and precursor compounds",
+          "quote": "FTIR spectra of CS, TPP, CNP°, CGA, and CNP°-GCA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4735866",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "HRTEM",
+          "sample": "green synthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM micrograph (A) and EDX spectrum (B) of green synthesized silver nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs synthesized using Aloe vera leaf extract",
+          "size_nm": 30.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "the size distribution histogram of DLS indicated that the average size was 30.5 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Aloe vera-synthesized AgNPs",
+          "quote": "UV–vis absorption spectrum of (A) silver nitrate (1 mM) and silver nanoparticles (B) synthesized using extract of fresh Aloe vera leaf."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "green synthesized AgNPs",
+          "quote": "EDX spectrum (B) of green synthesized silver nanoparticles."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "The XRD pattern of AgNPs was recorded by a Bruker D8 diffractometer"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "HSA/MG incubated with AgNPs",
+          "quote": "UV absorbance spectra of HSA and MG with varied concentrations of AgNP incubated at 37 °C for 6 days."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "HSA–MG with and without AgNPs",
+          "quote": "FTIR profiles of Amide I and Amide II bands"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6778085",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_negstain",
+          "sample": "NP and Folate-NP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of NP (a) and Folate-NP (b). The scale bar corresponds to 50 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NP (water)",
+          "size_nm": 171.6,
+          "pdi": 0.181,
+          "zeta_mV": -42.8,
+          "medium": "water",
+          "source": "DLS Table 1",
+          "quote": "NP | 171.6 ± 5.99 | 0.181 ± 0.05 | −42.8 ± 2.5"
+        },
+        {
+          "sample": "Folate-NP (water)",
+          "size_nm": 153.7,
+          "pdi": 0.177,
+          "zeta_mV": -45.1,
+          "medium": "water",
+          "source": "DLS Table 1",
+          "quote": "Folate-NP | 153.7 ± 14.2 | 0.177 ± 0.04 | −45.1 ± 3.2"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC4801843",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "phytosynthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph depicting uniformly dispersed spherical AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "phytosynthesized AgNPs",
+          "quote": "XRD crystallography of phytosynthesized AgNPs showing four prominent peaks of a typical silver crystal"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "EDX spectrum showing the presence of silver nano crystallite"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "flower bud extract and stabilized AgNPs",
+          "quote": "FTIR spectra. A Flower bud extract. B Stabilized AgNPs showing peaks indicating functional groups"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6480189",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "chitosan powder, freshly prepared CS Np and lyophilized CS Np",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning Electron Microscopy images of (A) chitosan powder; (B) freshly prepared CS Np and (C,D) lyophilized CS Np."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(F) depicts the transmission electron microscopic image of chitosan nanoparticles."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "AFM",
+          "sample": "chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "2D and (B) 3D atomic force micrograph of chitosan nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS Np",
+          "size_nm": 197.8,
+          "pdi": 0.244,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "bare nanoparticles have an average size of 197.8 ± 49.18 nm with a PDI 0.244."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles and chitosan powder",
+          "quote": "Fourier-transform infrared spectroscopy (FTIR) spectra of chitosan nanoparticles and chitosan powder."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4912549",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "HRTEM",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images (a), SEM images (b), XRD images (c), and particle size distribution (d) of AgNPs"
+        },
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images (a), SEM images (b), XRD images (c), and particle size distribution (d) of AgNPs"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs during six-month stability study",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Stability of AgNPs in aqueous solution for 6 months at RT."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs during synthesis",
+          "quote": "UV-vis absorption spectra of AgNPs during synthesis process, with various amount of extract at 80 °C for 3 h"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "extract and synthesized AgNPs",
+          "quote": "UV-vis absorption (a) and FTIR (b) spectrums of extracts and synthesized AgNPs"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "extracts and synthesized AgNPs",
+          "quote": "UV-vis absorption (a) and FTIR (b) spectrums of extracts and synthesized AgNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "HRTEM images (a), SEM images (b), XRD images (c), and particle size distribution (d) of AgNPs"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs during six-month stability study",
+          "quote": "Stability of AgNPs in aqueous solution for 6 months at RT. Photographs of a UV-vis and b TEM images"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6401867",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CSNPs and CS@PCA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and particle size histograms of (a) CSNPs and (b) CS@PCA"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CSNP, PCA and CS@PCA",
+          "quote": "FT-IR spectra of (a) CSNP, (b) PCA and (c) CS@PCA."
+        }
+      ]
+    }
+  ]
+}

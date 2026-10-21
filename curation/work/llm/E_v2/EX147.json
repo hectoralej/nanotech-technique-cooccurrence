@@ -1,0 +1,137 @@
+{
+  "batch": "EX147",
+  "articles": [
+    {
+      "pmcid": "PMC6279782",
+      "context": {"article_kind": "research", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false},
+      "panels": [], "descriptors": [], "spectra": []
+    },
+    {
+      "pmcid": "PMC13413824",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 11", "variant": "TEM_prep_not_declared", "sample": "VS-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of synthesized Vepris reflexa saponins-AgNPs (VS-AgNPs), showing predominantly spherical nanoparticle morphology."},
+        {"fig": "Fig. 12", "variant": "TEM_prep_not_declared", "sample": "VF-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of synthesized Vepris reflexa flavonoid-AgNPs (VF-AgNPs), showing predominantly spherical nanoparticle morphology."},
+        {"fig": "Fig. 13", "variant": "TEM_prep_not_declared", "sample": "SS-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of synthesized Senna italica saponins-AgNPs (SS-AgNPs), showing predominantly spherical nanoparticle morphology."},
+        {"fig": "Fig. 14", "variant": "TEM_prep_not_declared", "sample": "SF-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of synthesized Senna italica flavonoid-AgNPs (SF-AgNPs), showing predominantly spherical nanoparticle morphology."}
+      ],
+      "descriptors": [
+        {"sample": "SS-AgNPs", "size_nm": 189.9, "pdi": 0.35, "zeta_mV": 57.9, "medium": "not_declared", "source": "Table 2", "quote": "SS-AgNPs | 189.9 | 0.35 | +57.9"},
+        {"sample": "SF-AgNPs", "size_nm": 98.0, "pdi": 0.15, "zeta_mV": -35.0, "medium": "not_declared", "source": "Table 2", "quote": "SF-AgNPs | 98.0 | 0.15 | −35.0"},
+        {"sample": "VS-AgNPs", "size_nm": 35.46, "pdi": 0.11, "zeta_mV": 41.0, "medium": "not_declared", "source": "Table 2", "quote": "VS-AgNPs | 35.46 | 0.11 | +41.0"},
+        {"sample": "VF-AgNPs", "size_nm": 103.3, "pdi": 0.12, "zeta_mV": 59.5, "medium": "not_declared", "source": "Table 2", "quote": "VF-AgNPs | 103.3 | 0.12 | +59.5"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "V. reflexa AgNPs", "quote": "UV-vis spectra of silver nanoparticles synthesized using (A) flavonoid extract and (B) saponin extract from Vepris reflexa"},
+        {"technique": "UVVis", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "S. italica AgNPs", "quote": "UV-vis spectra of silver nanoparticles synthesized using (A) flavonoid extract and (B) saponin extract from Senna italica"},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "SS-AgNP and SF-AgNP", "quote": "Powder X-ray diffraction (pXRD) chromatograms of SS-AgNP (A) and SF-AgNP (B) nanoparticles"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "VS-AgNP and VF-AgNP", "quote": "Powder X-ray diffraction (pXRD) chromatograms of VS-AgNP (A) and VF-AgNP (B) nanoparticles"},
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "mixture", "sample": "SS extract and SS-AgNPs", "quote": "FT−IR spectrum of S. italica saponin extract (SS) and S. italica saponin silver nanoparticles (SS-AgNPs)."},
+        {"technique": "FTIR", "fig": "Fig. 8", "applies_to": "mixture", "sample": "SF extract and SF-AgNPs", "quote": "FT−IR spectrum of S. italica flavonoid extract (SF) and S. italica flavonoid silver nanoparticles (SF-AgNPs)."},
+        {"technique": "FTIR", "fig": "Fig. 9", "applies_to": "mixture", "sample": "VF extract and VF-AgNPs", "quote": "FT−IR spectrum of V. reflexa saponin extract (VF) and V. reflexa saponin silver nanoparticles (VF-AgNPs)."},
+        {"technique": "FTIR", "fig": "Fig. 10", "applies_to": "mixture", "sample": "VF extract and VF-AgNPs", "quote": "FT−IR spectrum of V. reflexa flavonoids extract (VF)"}
+      ]
+    },
+    {
+      "pmcid": "PMC11859453",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "HRTEM", "sample": "LPHNp-DCX-Chi-Tn", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Morphological analysis of LPHNp-DCX-Chi-Tn using HR-TEM"},
+        {"fig": "Fig. 2", "variant": "AFM", "sample": "LPHNp-DCX-Chi-Tn", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "and AFM (C,D)."}
+      ],
+      "descriptors": [
+        {"sample": "LPHNp", "size_nm": 201.9, "pdi": 0.1, "zeta_mV": 32.1, "medium": "not_declared", "source": "Table 1", "quote": "LPHNp | 201.9 ± 2.3 | 0.1 ± 0.01 | 32.1 ± 1.2"},
+        {"sample": "LPHNp-Chi-Tn mAb", "size_nm": 205.5, "pdi": 0.2, "zeta_mV": 36.6, "medium": "not_declared", "source": "Table 1", "quote": "LPHNp-Chi-Tn mAb | 205.5 ± 1.5 | 0.2 ± 0.01 | 36.6 ± 1.6"},
+        {"sample": "LPHNp-DCX", "size_nm": 222.5, "pdi": 0.1, "zeta_mV": 36.0, "medium": "not_declared", "source": "Table 1", "quote": "LPHNp-DCX | 222.5 ± 1.3 | 0.1 ± 0.02 | 36.0 ± 0.9"},
+        {"sample": "LPHNp-DCX-Chi-Tn mAb", "size_nm": 232.3, "pdi": 0.2, "zeta_mV": 37.6, "medium": "not_declared", "source": "Table 1", "quote": "LPHNp-DCX-Chi-Tn mAb | 232.3 ± 2.4 | 0.2 ± 0.02 | 37.6 ± 0.8"}
+      ],
+      "spectra": [{"technique": "Raman", "fig": "Fig. 1", "applies_to": "mixture", "sample": "DSPE-PEG, DSPE-PEG-Biotin, PLGA, LPHNp, DOTAP-Cl, and crodamol", "quote": "Raman spectrum of DSPE-PEG (a), DSPE-PEG-Biotin (b), PLGA (c), LPHNp (d), DOTAP-Cl (e), and crodamol (f)."}]
+    },
+    {
+      "pmcid": "PMC12696789",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "IONP@SiO2 core-shell nano-objects", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Scale bar = 100 nm."},
+        {"fig": "Fig. 2", "variant": "STEM", "sample": "IONP@SiO2-acac/(Tb/Eu)9@SiO2 nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "STEM‐bright field images (a,e)"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "IONP@SiO2-acac/(Tb/Eu)9@SiO2 nanoparticles", "quote": "STEM‐EDS elemental mapping of IONP@SiO2‐acac/(Tb/Eu)9@SiO2 nanoparticles"}]
+    },
+    {
+      "pmcid": "PMC13392885",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 3", "variant": "SEM", "sample": "Nano_Empty and Nano_RIF", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Morphology and distribution of fucoidan-coated PIBCA nanoparticles analyzed by scanning electron microscopy."}],
+      "descriptors": [{"sample": "fucoidan-coated PIBCA nanoparticles (formulation result)", "size_nm": null, "pdi": 0.2, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average particle size was below 400 nm (Figure A), with a narrow size distribution, presenting a polydispersity index (PDI) of 0.2."}],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 4", "applies_to": "mixture", "sample": "fucoidan, rifampicin, Nano_Empty and Nano_RIF", "quote": "FTIR spectra of fucoidan (a), rifampicin (RIF) (b), empty nanoparticles (Nano_Empty) (c), and rifampicin-loaded nanoparticles (Nano_RIF) (d)"}]
+    },
+    {
+      "pmcid": "PMC11990716",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "AgNPs and NSD", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrographs and EDX spectra of (a) AgNPs; (b) NSD"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "AgNPs and NSD", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM, HR-TEM, and d-spacing analysis of (a) AgNPs and (b) NSD"},
+        {"fig": "Fig. 4", "variant": "HRTEM", "sample": "AgNPs and NSD", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HR-TEM images"},
+        {"fig": "Fig. 5", "variant": "SEM", "sample": "MG63 cells treated with AgNPs", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "Micrographs showing the morphology of MG63"}
+      ],
+      "descriptors": [
+        {"sample": "AgNPs", "size_nm": null, "pdi": null, "zeta_mV": -44.77, "medium": "not_declared", "source": "text", "quote": "Additionally, the AgNPs demonstrated high stability, as indicated by the negative zeta potential value of −44.77 ± 6.32 mV (Figure 2c)."},
+        {"sample": "NSD (AgNPs with T80)", "size_nm": null, "pdi": null, "zeta_mV": -52.77, "medium": "not_declared", "source": "text", "quote": "On the other hand, the addition of T80 increased the stability of the AgNPs showing a zeta potential of −52.77 ± 18.32 mV"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "Physicochemical characterization of AgNPs and NSD: (a) SPR showing characteristic absorption peak"},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs and NSD", "quote": "(d) FTIR spectra highlighting functional groups."},
+        {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AgNPs and NSD", "quote": "SEM micrographs and EDX spectra of (a) AgNPs; (b) NSD"}
+      ]
+    },
+    {
+      "pmcid": "PMC13277445",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "SEM", "sample": "IgY/ChNPs, Poly/ChNPs, IgY-Poly/ChNPs and IgY-coated-Poly/ChNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM imaging of the prepared IgY NPs (I) IgY/ChNPs, (II) Poly/ChNPs, (III) IgY-Poly/ChNPs and (IV) IgYcoated-Poly/ChNPs."}],
+      "descriptors": [
+        {"sample": "IgY/ChNPs", "size_nm": 165.9, "pdi": 0.319, "zeta_mV": -28.7, "medium": "not_declared", "source": "Table 2", "quote": "IgY/ChNPs | 165.9 ± 15.95 | −28.7 ± 4.31 | 0.319"},
+        {"sample": "Poly/ChNPs", "size_nm": 124.2, "pdi": 0.384, "zeta_mV": -28.3, "medium": "not_declared", "source": "Table 2", "quote": "Poly/ChNPs | 124.2 ± 18.09 | −28.3 ± 4.34 | 0.384"},
+        {"sample": "IgY-Poly/ChNPs", "size_nm": 198.1, "pdi": 0.536, "zeta_mV": -46.9, "medium": "not_declared", "source": "Table 2", "quote": "IgY-Poly/ChNPs | 198.1 ± 15.11 | −46.9 ± 4.46 | 0.536"},
+        {"sample": "IgY-coated-Poly/ChNPs", "size_nm": 290.7, "pdi": 0.412, "zeta_mV": -26.5, "medium": "not_declared", "source": "Table 2", "quote": "IgY-coated-Poly/ChNPs | 290.7 ± 18.59 | −26.5 ± 7.54 | 0.412"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "chitosan, IgY, IgY/ChNPs, polymyxin B, Poly/ChNPs, IgY-Poly/ChNPs and IgY-coated-Poly/ChNPs", "quote": "chitosan (a), IgY (b), IgY/ChNPs (c), polymyxin B (d), poly/ChNPs (e), IgY-Poly/ChNPs (f) and IgY-coated- Poly/ChNPs (g)."}]
+    },
+    {
+      "pmcid": "PMC13259242",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "Cot-αCS-L-Ag and Cot-βCS-L-Ag fabrics", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of Cot-αCS-L-Ag and Cot-βCS-L-Ag at magnifications of 100× (a,b) and 1000× (c,d)."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "treated cotton fabric EDS maps", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM–EDS elemental mapping images of nitrogen (N) and silver (Ag) distribution on treated cotton fabrics"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "AgNPs extracted from α- and β-chitosan-modified cotton", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of particles extracted by ultrasonication from cotton fabrics surface-modified with (a) Cot-αCS-L-Ag and (b) Cot-βCS-L-Ag."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Ag species on treated cotton fabrics", "quote": "SEM–EDS elemental mapping images of nitrogen (N) and silver (Ag) distribution on treated cotton fabrics"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "chitosan, cotton, lignin-treated and lignin–Ag-treated fabrics", "quote": "ATR–FTIR spectra of α-chitosan, β-chitosan, untreated cotton, chitosan-modified cotton fabrics (Cot-αCS and Cot-βCS), lignin-treated cotton fabrics"}
+      ]
+    },
+    {
+      "pmcid": "PMC13040952",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "ASP@PLGA-PEG nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Representative transmission electron microscopy (TEM) images showing the morphology of ASP@PLGA-PEG nanoparticles; scale bars = 200 nm."},
+        {"fig": "Fig. 9", "variant": "TEM_prep_not_declared", "sample": "mouse myocardium", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "(H) Representative TEM images of myocardial ultrastructure."}
+      ],
+      "descriptors": [{"sample": "ASP@PLGA-PEG nanoparticles", "size_nm": 177.1, "pdi": null, "zeta_mV": -28.64, "medium": "water", "source": "Fig. 1 / text", "quote": "The mean diameter by DLS was 177.1 ± 12.4 nm (Fig. 1A) and the zeta potential was −28.64 mV"}],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 2", "applies_to": "mixture", "sample": "ASP, FITC, ASP-FITC, PLGA-PEG and PLGA-PEG-FITC", "quote": "UV–vis absorption spectra of ASP, FITC, and ASP-FITC."}]
+    },
+    {
+      "pmcid": "PMC12371686",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "MSN", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM (a) and TEM (b) micrographs of the MSN sample. Scale bar: 1 μm (a) and 0.1 μm (b)."},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "MSN", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM (a) and TEM (b) micrographs of the MSN sample. Scale bar: 1 μm (a) and 0.1 μm (b)."},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "PCL-CHT/MSN hybrid membranes", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "SEM micrographs in the BSD signal of the top (a, c, e, g, i) and bottom surfaces"}
+      ],
+      "descriptors": [{"sample": "MSN", "size_nm": 187.6, "pdi": 0.30, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average hydrodynamic diameter, determined by DLS measurements, is 187.6 ± 4.6 nm, with a polydispersity index of 0.30."}],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "MSN", "quote": "XRD pattern of the MSN sample."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "MSN and MSN-Daidz", "quote": "Properties of MSN and MSN-Daidz samples: (a) pore volume distribution, (b) FTIR spectra, and (c) zeta potential pattern."}
+      ]
+    }
+  ]
+}

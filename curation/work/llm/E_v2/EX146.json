@@ -1,0 +1,130 @@
+{
+  "batch": "EX146",
+  "articles": [
+    {
+      "pmcid": "PMC13222546",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "CNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "scale bars: 100 nm"},
+        {"fig": "Fig. 5", "variant": "SEM", "sample": "CNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) SEM image of fabricated CNPs"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "CNPs", "quote": "FTIR analysis of chitosan nanoparticles (CNPs) and A. digitata fruit shell extract."},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "CNPs", "quote": "(B) their EDX analysis indicating the elemental composition."}
+      ]
+    },
+    {
+      "pmcid": "PMC5834410",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "chitosan/AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Ag NPs", "quote": "a XRD patterns"},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "chitosan and Ag NPs", "quote": "b FTIR spectra"},
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Ag NPs (water)", "quote": "c UV–Vis absorbance spectrum of Ag NPs (water)"}
+      ]
+    },
+    {
+      "pmcid": "PMC5098795",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "calcium/zinc-loaded polymeric nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM"},
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "calcium/zinc-loaded polymeric nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FESEM"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "calcium/zinc-loaded polymeric nanoparticles", "quote": "EDX"},
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "calcium/zinc-loaded polymeric nanoparticles", "quote": "XRD"},
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "calcium/zinc-loaded polymeric nanoparticles", "quote": "EDX"}
+      ]
+    },
+    {
+      "pmcid": "PMC6099628",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "fucoidan-coated and chitosan–fucoidan complex-coated AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(A) 0.2 µm, (B,C) 100 nm, and (D) 50 nm."}],
+      "descriptors": [
+        {"sample": "fucoidan-coated AgNPs", "size_nm": 53.1, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "average size of chitosan–fucoidan complex-coated AgNPs (73.1 nm) is larger than that of fucoidan-coated AgNPs (53.1 nm)."},
+        {"sample": "chitosan–fucoidan complex-coated AgNPs", "size_nm": 73.1, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "average size of chitosan–fucoidan complex-coated AgNPs (73.1 nm) is larger than that of fucoidan-coated AgNPs (53.1 nm)."}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV-visible (UV-Vis) spectrum of AgNPs synthesized with fucoidan at different reaction time."},
+        {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "fucoidan-coated AgNPs with chitosan", "quote": "Fourier transform infrared spectroscopy (FT-IR) spectrum of (A) chitosan, (B) fucoidan, and (C) fucoidan-coated AgNPs with chitosan."}
+      ]
+    },
+    {
+      "pmcid": "PMC12658821",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "STEM", "sample": "AmB-loaded PLA/PCL nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "STEM-HAADF"}],
+      "descriptors": [
+        {"sample": "PLA NL", "size_nm": 134.4, "pdi": 0.179, "zeta_mV": -30.8, "medium": "not_declared", "source": "Table 1", "quote": "PLA | 134.4 | 0.179 | –30.8"},
+        {"sample": "PLA + AmB", "size_nm": 205.1, "pdi": 0.160, "zeta_mV": -25.5, "medium": "not_declared", "source": "Table 1", "quote": "205.1 | 0.160 | –25.5"},
+        {"sample": "PCL NL", "size_nm": 183.7, "pdi": 0.070, "zeta_mV": -29.1, "medium": "not_declared", "source": "Table 1", "quote": "PCL | 183.7 | 0.070 | –29.1"},
+        {"sample": "PCL + AmB", "size_nm": 227.7, "pdi": 0.093, "zeta_mV": -19.1, "medium": "not_declared", "source": "Table 1", "quote": "227.7 | 0.093 | –19.1"}
+      ],
+      "spectra": [{"technique": "Raman", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AmB-loaded polymeric nanoparticles", "quote": "Raman"}]
+    },
+    {
+      "pmcid": "PMC5713367",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "NCG-AgNPs and PhCG-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative transmission electron microscopy (TEM) images of AgNPs."}],
+      "descriptors": [
+        {"sample": "NCG-AgNPs hydrogel", "size_nm": null, "pdi": null, "zeta_mV": -78.9, "medium": "not_declared", "source": "text", "quote": "NCG-AgNPs, and PhCG-AgNPs presented the following values: −70.7 (standard deviation, SD = 3.47); −78.9 (SD = 3.47) and −77.5 (SD = 3.06), respectively."},
+        {"sample": "PhCG-AgNPs hydrogel", "size_nm": null, "pdi": null, "zeta_mV": -77.5, "medium": "not_declared", "source": "text", "quote": "NCG-AgNPs, and PhCG-AgNPs presented the following values: −70.7 (standard deviation, SD = 3.47); −78.9 (SD = 3.47) and −77.5 (SD = 3.06), respectively."}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "component", "sample": "cashew gum and phthalated-cashew gum", "quote": "Attenuated total reflection (ATR)—Fourier transform infrared (FTIR) spectra of natural cashew gum (NCG) and phthalated-cashew gum (PhCG)."},
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "NCG-AgNPs and PhCG-AgNPs", "quote": "UV-Vis spectra and photographs of NCG-AgNPs and PhCG-AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC5511230",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "Fe3O4/ICG@PLGA/PFP NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM images of Fe3O4/ICG@PLGA/PFP NPs (a) 10000×; scale bar, 2 μm; (b) 70000×; scale bar, 200 nm"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Fe3O4/ICG@PLGA/PFP NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM image of Fe3O4/ICG@PLGA/PFP NPs with a large amount of black Fe3O4 NPs embedded in the spherical shell (70000×; scale bar, 200 nm)"}
+      ],
+      "descriptors": [{"sample": "Fe3O4/ICG@PLGA/PFP NPs", "size_nm": 289.6, "pdi": 0.028, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "average diameter of 289.6 ± 67.4 nm, and polydispersity index of 0.028 (Fig. 2d)."}],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Fe3O4/ICG@PLGA/PFP NPs", "quote": "UV-Vis-NIR absorption spectra of Fe3O4/ICG@PLGA/PFP NPs, free ICG and Fe3O4 NPs."}]
+    },
+    {
+      "pmcid": "PMC5793059",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "CHI/AgCl NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscope (TEM) images of CHI/AgCl NPs with reaction temperature."},
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "CHI-FITC/AgCl NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of CHI-FITC/AgCl NPs with concentration of silver nitrate solution."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "CHI/AgCl NPs", "quote": "UV-Vis spectra"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "CHI/AgCl and CHI-FITC/AgCl NPs", "quote": "X-ray diffractometer (XRD) Patterns of (a) CHI/AgCl NPs and (b) CHI-FITC/AgCl NPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC6077779",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM Images of spherical silica NPs."},
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "PLGA/SiO2 composite fibers", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "The bar for A, B and C is 5 μm and for D, E and F is 500 nm"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "PLGA/SiO2 composite fibers", "quote": "EDX analysis of area a (G), b (H) and c (I)."},
+        {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "PLGA/SiO2 composite fibers", "quote": "EDX mapping of silicon for PLGA (A), PLGA/SiO2-2.5 (B) and PLGA/SiO2-5 (C)"}
+      ]
+    },
+    {
+      "pmcid": "PMC4960788",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "Ag-Extract NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of Ag-Extract NPs"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "Ag-Extract NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of Ag-Extract NPs"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV-Vis spectrum of AgNPs"},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Ag-Extract NPs", "quote": "FTIR spectrum (a) M. charantia extract (Curve-1) (b) Ag-Extract NPs (Curve-2)"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "batch": "EX138",
+  "articles": [
+    {
+      "pmcid": "PMC8399024",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "HRTEM",
+          "sample": "βCD-AgNPs with β-cyclodextrin coating",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM micrograph of a typical 50 nm βCD-AgNPs with 2.4 nm of βCD macromolecule coating"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "βCD-AgNPs",
+          "size_nm": 52,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size; sentence reports 52.0 nm diameter",
+          "quote": "The DLS size is found to be 52.0 nm/dimeter"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "βCD-AgNPs",
+          "quote": "X-ray diffraction of βCD-AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure S3",
+          "applies_to": "nanoparticle",
+          "sample": "βCD-AgNPs capped with β-cyclodextrin",
+          "quote": "Energy Disperse Spectroscopy (EDS) presented in Figure S3 (Supplementary Materials) demonstrates the presence of silver, carbon, and oxygen"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8300822",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "strawberry- and ginger-extract AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM analysis for the shape and size of the synthesized AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "strawberry-extract AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -39.4,
+          "medium": "not_declared",
+          "source": "zeta potential value",
+          "quote": "AgNPs of the methanolic extract of strawberry were −39.4 mV"
+        },
+        {
+          "sample": "ginger-extract AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -42.6,
+          "medium": "not_declared",
+          "source": "zeta potential value",
+          "quote": "for AgNPs of ginger methanolic extract it was −42.6 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "strawberry- and ginger-extract AgNPs",
+          "quote": "UV-Vis spectral analysis of synthesized (A) AgNPs of strawberry and (B) AgNPs of ginger methanolic extracts."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8565378",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTFEMA/silica nanocomposite particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) Schematic representation (plus TEM images)"
+        },
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PTFEMA/silica nanocomposite particles during early polymerization",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Volume-average size distributions and polydispersities determined by DLS and corresponding TEM images"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "final PTFEMA/silica nanocomposite particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Postmortem TEM image of the final PTFEMA/silica nanoparticles showing well-defined core–shell nanocomposites."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PTFEMA/silica nanocomposite at 140 min",
+          "size_nm": 244,
+          "pdi": 0.03,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS volume-average diameter and polydispersity",
+          "quote": "a volume-average particle diameter of 244 nm (DLS polydispersity = 0.03) was observed"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "polymer/silica nanocomposite particles during polymerization",
+          "quote": "SAXS patterns recorded in situ during the aqueous emulsion polymerization"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "polymer/silica nanocomposite particle formation",
+          "quote": "Evolution in I(q) recorded during the time-resolved SAXS experiment"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 7",
+          "applies_to": "nanoparticle",
+          "sample": "PTFEMA/silica nanocomposite particle formation",
+          "quote": "In situ SAXS studies conducted during the aqueous emulsion polymerization of TFEMA"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9231238",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles (AuNPs)",
+          "quote": "ATR-FTIR spectra of gold nanoparticles (AuNPs, right Y-axis)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "carbon nanotube samples (CNTs)",
+          "quote": "carbon nanotube samples (CNTs, left Y-axis)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "C. arietinum plants grown under AuNP and CNT influence",
+          "quote": "ATR-FTIR spectra of C. arietinum plant samples grown under the influence of Au NPs and CNTs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9460005",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2-Hep_1 through SiO2-Hep_5 hybrid nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of SiO2-Hep_1 (A,B), SiO2-Hep_2 (C,D), SiO2-Hep_3 (E,F). SiO2-Hep_4 (G,H) and SiO2-Hep_5 (I,J) nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SiO2-Hep_3",
+          "size_nm": 90,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS mean hydrodynamic diameter, approximately",
+          "quote": "DLS analysis showed a mean hydrodynamic diameter of about 90 nm in the case of the SiO2-Hep_3 sample."
+        },
+        {
+          "sample": "SiO2-Hep_1",
+          "size_nm": 100,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS approximate mean hydrodynamic diameter",
+          "quote": "Much larger particle sizes, of about 100 nm, were observed for both SiO2-Hep_1 and SiO2-Hep_5 NPs."
+        },
+        {
+          "sample": "SiO2-Hep_5",
+          "size_nm": 100,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS approximate mean hydrodynamic diameter",
+          "quote": "Much larger particle sizes, of about 100 nm, were observed for both SiO2-Hep_1 and SiO2-Hep_5 NPs."
+        },
+        {
+          "sample": "SiO2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 15,
+          "medium": "not_declared",
+          "source": "Table 5 zeta potential, ±0.8 mV",
+          "quote": "SiO2 | +15 ± 0.8 | 44/39/0/0/0 | 20"
+        },
+        {
+          "sample": "SiO2-Hep_1",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 20,
+          "medium": "not_declared",
+          "source": "Table 5 zeta potential, ±1.1 mV",
+          "quote": "SiO2-Hep_1 | +20 ± 1.1 | 40/50/6/0/0 | 26"
+        },
+        {
+          "sample": "SiO2-Hep_3",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -19,
+          "medium": "not_declared",
+          "source": "Table 5 zeta potential, ±0.6 mV",
+          "quote": "SiO2-Hep_3 | −19 ± 0.6 | 23/48/23/4/2 | 45"
+        },
+        {
+          "sample": "SiO2-Hep_5",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -33,
+          "medium": "not_declared",
+          "source": "Table 5 zeta potential, ±0.9 mV",
+          "quote": "SiO2-Hep_5 | −33 ± 0.9 | 30/56/10/3/2 | 102"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "bare heparin, silica, and SiO2-Hep hybrid nanoparticles",
+          "quote": "FTIR spectra of both bare heparin (A), silica (B), SiO2−Hep_1 (C), SiO2−Hep_3 (D), and SiO2−Hep_5 (E) hybrid nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9655888",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "silica-PAA coatings with particle loading 37–84 vol.%",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of coatings with particle loading (vol. %) of (a) 37, (b) 53, (c) 70, (d) 77, (e) 84."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "coatings with different silica particle loadings",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of coatings with different particle loadings."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LUDOX TM-40",
+          "size_nm": 113,
+          "pdi": 0.417,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 3 DLS Z-average",
+          "quote": "LUDOX TM-40 | 113 | 0.417"
+        },
+        {
+          "sample": "LUDOX TM-40 (5X dilution)",
+          "size_nm": 28,
+          "pdi": 0.254,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 3 DLS Z-average",
+          "quote": "LUDOX TM-40 (5X dilution) | 28 | 0.254"
+        },
+        {
+          "sample": "SS6 (5X dilution)",
+          "size_nm": 81,
+          "pdi": 0.264,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 3 DLS Z-average; SS6 formulation not expanded in packet",
+          "quote": "SS6 (5X dilution) | 81 | 0.264"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "glass slide, hydrophilic silica, polyacrylic acid and 95 vol.% coating",
+          "quote": "FTIR spectra of the glass slide, hydrophilic silica, polyacrylic acid and coating with particle loading 95 vol. %."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9611015",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_dried_unstained",
+          "sample": "AuNP/m-CS nanocomposites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Typical TEM images"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_dried_unstained",
+          "sample": "AuNP/(l, m, h)-CS nanocomposites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and (d) the corresponding AuNP size distribution"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "m-CS and AuNP/m-CS nanocomposites",
+          "quote": "(b) UV-vis spectra of the as-prepared m-CS and AuNP/m-CS nanocomposites."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "untreated chitosan and AuNP/chitosan nanocomposites",
+          "quote": "(b) UV-vis spectra of untreated (l, m, h)-CS and APM-treated 0.5 mM AuNP/(l, m, h)-CS nanocomposites."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure S3",
+          "applies_to": "mixture",
+          "sample": "APM-treated AuNP/chitosan nanocomposites",
+          "quote": "The chemical structural properties of the treated samples were studied by FTIR (Figure S3)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10096921",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Geranium-extract AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM and UV-Vis analysis of the AgNPs: (a) micrographs of the AgNPs obtained with the Geranium extract"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Geranium-extract AgNPs",
+          "quote": "UV-VIS absorption spectrum for the AgNPs at different concentrations."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8074919",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2 NPs and silica-gentamicin nanostructured solution",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of SiO2 NPs (sample G0) and silica-gentamicin nanostructured solution (sample G1), obtained as dispersions."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "gentamicin sulfate, SiO2 NPs and silica-gentamicin nanostructured solution",
+          "quote": "FTIR spectra of gentamicin sulfate (GS), SiO2 NPs (sample G0), and silica-gentamicin nanostructured solution (sample G1), obtained as powders."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8401758",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au/Ag nanoparticles in glaze (oxidative firing 80:20)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Typical TEM image for oxidative firing samples (80:20) and corresponding histogram analysis of core size"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au/Ag nanoparticles in glaze (reductive firing 80:20)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Typical TEM image for reductive firing samples (80:20) and corresponding histogram analysis of core size"
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "TEM-determined NP core sizes and reductive 100% Ag sample",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(B) TEM image of reductive 0:100 or 100% Ag sample showing distinct Ag-NPs have formed during firing."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NP-bearing glaze fields fired in reductive environments",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM imaging (insets) with EDS analysis of field with NPs"
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "80:20 reductive sample with Au/Ag nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM image of 80:20 reductive sample with corresponding EDS elemental mapping"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "NP-bearing glaze fields fired reductively",
+          "quote": "TEM imaging (insets) with EDS analysis of field with NPs"
+        }
+      ]
+    }
+  ]
+}

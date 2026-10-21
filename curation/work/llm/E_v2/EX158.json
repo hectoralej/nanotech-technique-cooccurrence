@@ -1,0 +1,164 @@
+{
+  "batch": "EX158",
+  "articles": [
+    {
+      "pmcid": "PMC10214913",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "CHI-AuNP-TSC and CHI-AuNP on ITO", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FESEM images of a CHI-AuNP-TSC, b CHI-AuNP deposited on ITO substrates"},
+        {"fig": "Fig. 5", "variant": "HRTEM", "sample": "CHI-AuNP-TSC and CHI-AuNP", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HRTEM images of a CHI-AuNP-TSC"},
+        {"fig": "Fig. 12", "variant": "SEM", "sample": "bacteria on AuNP sensing surfaces", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "FESEM images of the presence of bacteria on sensing surfaces"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "CHI-AuNP-TSC and CHI-AuNP", "quote": "c EDS mapping"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "mixture", "sample": "bare ITO, CHI-AuNP-TSC and CHI-AuNP", "quote": "a The XRD patterns of bare ITO, CHI-AuNP-TSC, and CHI-AuNP deposited on ITO substrates"},
+        {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "mixture", "sample": "CHI-AuNP, CHI-AuNP-TSC and pristine CHI", "quote": "b FTIR spectra of as synthesized CHI-AuNP, CHI-AuNP-TSC, and pristine CHI deposited on ITO substrates"},
+        {"technique": "UVVis", "fig": "Fig. 7", "applies_to": "mixture", "sample": "CHI-AuNP-TSC and CHI-AuNP on ITO", "quote": "UV–visible absorption spectra of a CHI-AuNP-TSC and b CHI-AuNP deposited on ITO substrates"}
+      ]
+    },
+    {
+      "pmcid": "PMC5470464",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "chitosan nanoparticles (CSNPs)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(b) TEM image of CNNPs"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "electrosynthesized AuNDs on electrode", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(c) SEM image and;"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "component", "sample": "CS and CSNPs", "quote": "(a) FTIR spectra"},
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "AuNDs", "quote": "(d) XRD pattern of AuNDs."}
+      ]
+    },
+    {
+      "pmcid": "PMC11707065",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 8", "variant": "SEM", "sample": "optimized TNF-loaded SLNs (TF10)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs of optimized TNF-loaded SLN formulation (TF10)."}
+      ],
+      "descriptors": [
+        {"sample": "TF1", "size_nm": 573.31, "pdi": 0.580, "zeta_mV": -17.72, "medium": "not_declared", "source": "Table 3", "quote": "TF1 | 573.31 ± 2.34 | 0.580 ± 0.163 | −17.72 ± 2.34"},
+        {"sample": "TF3", "size_nm": 993.84, "pdi": 0.527, "zeta_mV": -21.43, "medium": "not_declared", "source": "Table 3", "quote": "TF3 | 993.84 ± 4.56 | 0.527 ± 0.008 | −21.43 ± 2.34"},
+        {"sample": "TF4", "size_nm": 86.71, "pdi": 0.151, "zeta_mV": -8.78, "medium": "not_declared", "source": "Table 3", "quote": "TF4 | 86.71 ± 6.45 | 0.151 ± 0.058 | −8.78 ± 2.38"},
+        {"sample": "TF7", "size_nm": 720.12, "pdi": 0.393, "zeta_mV": -22.68, "medium": "not_declared", "source": "Table 3", "quote": "TF7 | 720.12 ± 4.89 | 0.393 ± 0.42 | −22.68 ± 2.98"},
+        {"sample": "TF9", "size_nm": 96.80, "pdi": 0.298, "zeta_mV": -7.45, "medium": "not_declared", "source": "Table 3", "quote": "TF9 | 96.80 ± 2.67 | 0.298 ± 0.005 | −7.45 ± 3.67"},
+        {"sample": "TF10", "size_nm": 449.90, "pdi": 0.304, "zeta_mV": -18.10, "medium": "not_declared", "source": "Table 3", "quote": "TF10 | 449.90 ± 4.79 | 0.304 ± 0.004 | −18.10 ± 2.35"},
+        {"sample": "TF12", "size_nm": 79.09, "pdi": 0.271, "zeta_mV": -5.74, "medium": "not_declared", "source": "Table 3", "quote": "TF12 | 79.09 ± 3.97 | 0.271 ± 0.012 | −5.74 ± 3.56"},
+        {"sample": "TF13", "size_nm": 732.50, "pdi": 0.549, "zeta_mV": -23.02, "medium": "not_declared", "source": "Table 3", "quote": "TF13 | 732.50 ± 2.65 | 0.549 ± 0.123 | −23.02 ± 1.14"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "component", "sample": "pure tenofovir and physical mixture of TNF/excipients", "quote": "FTIR spectral analysis: (a) IR spectra of drug (tenofovir) and (b) IR spectra of physical mixture"},
+        {"technique": "XRD", "fig": "Fig. 7", "applies_to": "mixture", "sample": "pure tenofovir, physical mixture and optimized TNF-loaded SLN", "quote": "X-ray diffraction graphs. (a) Pure drug tenofovir; (b) physical mixture of TNF + excipients; (c) optimized TNF-loaded SLN formulation (TF10)."}
+      ]
+    },
+    {
+      "pmcid": "PMC9180108",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "V. parahaemolyticus before and after LC-EO treatment", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "SEM images of V. parahaemolyticus before (b) and after (c) 0.5 mg/mL LC-EO treatment. CK: Control group. Scale bar: 1.0 μm."},
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "blank and LC-EO liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM images of blank liposomes (b) and LC-EO liposomes (c). Scale bar: 1.0 μm."}
+      ],
+      "descriptors": [
+        {"sample": "control nanoliposome", "size_nm": 101.27, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The particle size of nanoliposome in the control group was 101.27 nm"},
+        {"sample": "LC-EO nanoliposomes, lower end of concentration range", "size_nm": 149.92, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "mean diameters of the liposomes increased from 149.92 nm to 185.39 nm"},
+        {"sample": "LC-EO nanoliposomes, upper end of concentration range", "size_nm": 185.39, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "mean diameters of the liposomes increased from 149.92 nm to 185.39 nm"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "blank liposomes, LC-EO and LC-EO liposomes", "quote": "FTIR spectra of blank liposomes, LC-EO, and LC-EO liposomes (a)."}
+      ]
+    },
+    {
+      "pmcid": "PMC10780480",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "TMZ-loaded abietic acid and A. sibirica lipid nanosystems", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM imaging of TMZ-loaded abietic acid (a) and A. sibirica (b) PC/DSPE–PEG2000/Ch lipid nanosystems"}
+      ],
+      "descriptors": [
+        {"sample": "lipid system, no terpene and no TMZ", "size_nm": 145, "pdi": 0.17, "zeta_mV": -27.5, "medium": "not_declared", "source": "Table 1", "quote": "1 | PC/DSPE–PEG2000/Ch | – | - | 78 ± 2 | 145 ± 1 | 0.17 ± 0.02 | –27.5 ± 0.5"},
+        {"sample": "A. sibirica lipid system, no TMZ", "size_nm": 137, "pdi": 0.2, "zeta_mV": -27, "medium": "not_declared", "source": "Table 1", "quote": "2 | PC/DSPE–PEG2000/Ch | A. sibirica, 1 | - | 68 ± 1 | 137 ± 1 | 0.2 ± 0.01 | –27 ± 1"},
+        {"sample": "abietic acid lipid system, no TMZ", "size_nm": 123, "pdi": 0.14, "zeta_mV": -15, "medium": "not_declared", "source": "Table 1", "quote": "3 | PC/DSPE–PEG2000/Ch | Ab. acid, 1 | - | 68 ± 1 | 123 ± 1 | 0.14 ± 0.01 | –15 ± 1"},
+        {"sample": "TMZ-loaded lipid system, no terpene", "size_nm": 157, "pdi": 0.19, "zeta_mV": -32, "medium": "not_declared", "source": "Table 1", "quote": "4 | PC/DSPE–PEG2000/Ch | – | TMZ | 91 ± 1 | 157 ± 1 | 0.19 ± 0.01 | –32 ± 1"},
+        {"sample": "TMZ-loaded lipid system, no terpene, alternate sample", "size_nm": 297, "pdi": 0.16, "zeta_mV": -28, "medium": "not_declared", "source": "Table 1", "quote": "4 * | PC/DSPE–PEG2000/Ch | – | TMZ | 190 ± 2 | 297 ± 5 | 0.16 ± 0.02 | –28 ± 1"},
+        {"sample": "A. sibirica lipid system with TMZ", "size_nm": 145, "pdi": 0.21, "zeta_mV": -25, "medium": "not_declared", "source": "Table 1", "quote": "5 | PC/DSPE–PEG2000/Ch | A. sibirica, 1 | TMZ | 91 ± 1 | 145 ± 1 | 0.21 ± 0.01 | –25 ± 1"},
+        {"sample": "A. sibirica lipid system with TMZ, alternate sample", "size_nm": 225, "pdi": 0.21, "zeta_mV": -17, "medium": "not_declared", "source": "Table 1", "quote": "164 ± 8 | 225 ± 1 | 0.21 ± 0.01 | –17 ± 1"},
+        {"sample": "abietic acid lipid system with TMZ", "size_nm": 118, "pdi": 0.14, "zeta_mV": -18, "medium": "not_declared", "source": "Table 1", "quote": "6 | PC/DSPE–PEG2000/Ch | Ab. acid, 1 | TMZ | 68 ± 1 | 118 ± 1 | 0.14 ± 0.01 | –18 ± 1"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "PC, terpene mixtures and TMZ", "quote": "FTIR spectra of PC in ethanol (1, red)"}
+      ]
+    },
+    {
+      "pmcid": "PMC11120860",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "DMY-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A–C) TEM images of DMY-AgNPs."}
+      ],
+      "descriptors": [
+        {"sample": "DMY-AgNPs", "size_nm": 19.9, "pdi": 0.197, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 2", "quote": "the average size of DMY-AgNPs was 19.9 ± 1.17 nm, with a PDI of 0.197 ± 0.0196"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "DMY-AgNPs synthesized under varying conditions", "quote": "UV-vis spectra for DMY-AgNPs synthesized in different (D) DMY volume, (E) pH, (F) temperature and (G) time."},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "DMY and DMY-AgNPs", "quote": "(H) FTIR spectra for DMY and DMY-AgNPs."},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "DMY-AgNPs", "quote": "(I) XRD pattern of DMY-AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC6182570",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "G4@IONPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "b TEM image"}
+      ],
+      "descriptors": [
+        {"sample": "G4@IONPs at pH 7 and 25 °C", "size_nm": 120, "pdi": null, "zeta_mV": 35, "medium": "not_declared", "source": "text", "quote": "G4@IONPs was 120 nm as measured by DLS, and surface potential of these NPs was +35 mV"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "IONPs and G4@IONPs", "quote": "f XRD identifies the crystal structure and shows all diffraction peaks assigned to IONPs"},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "IONPs and G4@IONPs", "quote": "g FT-IR spectra of pure IONPs and G4@IONPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC7920302",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "RT-SLNs with 5% theoretical rutin", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of RT-SLNs at different magnification (a,b)"}
+      ],
+      "descriptors": [
+        {"sample": "RT-SLNs 2% rutin", "size_nm": null, "pdi": null, "zeta_mV": -23, "medium": "not_declared", "source": "Table 1", "quote": "2 | 40 ± 0.5 | <30 | −23 ± 0.05"},
+        {"sample": "RT-SLNs 5% rutin", "size_nm": null, "pdi": null, "zeta_mV": -21, "medium": "not_declared", "source": "Table 1", "quote": "5 | 60 ± 0.3 | <30 | −21 ± 0.03"},
+        {"sample": "RT-SLNs 8% rutin", "size_nm": null, "pdi": null, "zeta_mV": -21, "medium": "not_declared", "source": "Table 1", "quote": "8 | 80 ± 2.0 | >30 | −21 ± 0.08"},
+        {"sample": "RT-SLNs 10% rutin", "size_nm": null, "pdi": null, "zeta_mV": -20, "medium": "not_declared", "source": "Table 1", "quote": "10 | 170 ± 4.4 | >30 | −20 ± 0.06"}
+      ],
+      "spectra": [
+        {"technique": "Raman", "fig": "Fig. 3", "applies_to": "mixture", "sample": "rutin and SLNs", "quote": "Experimental Raman spectrum of RT (a) and SLNs (b)."},
+        {"technique": "Raman", "fig": "Fig. 4", "applies_to": "mixture", "sample": "rutin, SLNs and RT-SLNs", "quote": "for RT (black line), SLNs (red line), and RT-SLNs (green line) systems."}
+      ]
+    },
+    {
+      "pmcid": "PMC9323322",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "DSPE-EB nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "DLS size distribution and TEM images of DSPE-EB nanoparticles"}
+      ],
+      "descriptors": [
+        {"sample": "DSPE-EB nanoparticles", "size_nm": 118, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "hydrodynamic diameter of 118 nm."}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "mixture", "sample": "DSPE-EB nanoparticles and free EB in ethanol", "quote": "the absorption spectra of DSPE-EB nanoparticles and free EB in ethanol (B)."}
+      ]
+    },
+    {
+      "pmcid": "PMC9008749",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "Pd@Py2PZ@MSN catalyst", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) TEM; (B) SEM"},
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "recovered Pd@Py2PZ@MSN catalyst", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of the recovered Pd@Py2PZ@MSN catalyst."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Pd@Py2PZ@MSN catalyst", "quote": "(C) EDS"},
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Pd@Py2PZ@MSN catalyst", "quote": "(D) XRD results of the Pd@Py2PZ@MSN catalyst."},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Pd@Py2PZ@MSN catalyst", "quote": "(A) FT-IR"}
+      ]
+    }
+  ]
+}

@@ -78,3 +78,9 @@ Tanda 5 hecha: EX181-EX185. Mis 25 lotes E1 (236 articulos) completos (~2,0 M to
 
 ## Cierre de extraccion (21 oct, noche)
 Todos los lotes EX001-EX185 tienen salida. apply: 1.824 articulos leidos (E1 932, E2 717, sin categoria 175), 2 citas rechazadas; 2.092 paneles, 2.314 descriptores, 3.005 espectros. Codex E2 (EX055-EX067): 122 articulos, 1,58 descriptores/articulo, 4 vacios; cada lote 1-5 min segun luna_progress.md; Codex no afirma lectura integra de los paquetes. Rendimiento por articulo (descriptores): Codex EX128-EX160 0,54 frente a Claude 1,65-1,80: revisar con muestra a mano (posible lectura superficial).
+
+## Repaso de Codex (21 oct, noche)
+Comparacion con Haiku sobre 50 articulos (EX130,137,144,151,158): Codex 28 filas de descriptores y 45 tecnicas de espectro frente a 68 y 78 de Haiku; en 25 de 50 articulos Haiku hallo un espectro que Codex no. Rendimiento bajo en EX078-EX102 (0,44 desc/art) y EX128-EX160 (0,16-0,67). Decision: Codex repasa esos 58 lotes con BRIEF_CODEX_REPASO_RIGUROSO.md (salida en work/llm/E_v2/, auditoria en work/ext/auditoria_E_v2.md). Pendiente de Claude: fusionar E y E_v2 (mejor por articulo) en apply y verificar citas de E_v2. Los 5 lotes de Haiku para la comparacion estan en el scratchpad de la sesion (no en el repo).
+
+## Repaso riguroso de Codex fusionado (21 oct, tarde)
+Codex entrego E_v2 de los 58 lotes (EX078-EX102, EX128-EX160; 573 articulos; 1,80 desc/art y 2,20 espectros/art frente a 0,2-0,7 antes). apply ahora une E y E_v2 (dedup por fig/muestra/tecnica; cada fila se verifica) y repara comas finales en memoria (E_v2/EX143.json tenia una). Resultado: 1.824 articulos, E1 1.130, E2 577, no 117; 2.726 paneles, 3.251 descriptores, 4.015 espectros; 2 citas rechazadas, 35 numeros no hallados (anulados); solo 11 citas v2 pasan de 25 palabras. Codex dice que quedan citas largas y filas de tabla por completar: no bloquea.

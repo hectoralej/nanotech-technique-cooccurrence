@@ -282,13 +282,32 @@ def apply() -> None:
     rk = pd.read_csv(EXT / "rank.csv", dtype=str).drop_duplicates("pmcid").set_index("pmcid")
     arts, pans, descs, specs = [], [], [], []
     bad_total = 0
-    for f in sorted((CUR / "work" / "llm" / "E").glob("*.json")):
-        try:
-            d = json.loads(f.read_text(encoding="utf-8-sig"))
-        except Exception as exc:  # noqa: BLE001
-            print("archivo invalido:", f.name, str(exc)[:80])
-            continue
-        for rec in d.get("articles", []):
+    recs = {}          # pmcid -> registro; E_v2 (repaso riguroso) se une a E: las filas se verifican una a una mas abajo
+    for sub in ("E", "E_v2"):
+        for f in sorted((CUR / "work" / "llm" / sub).glob("*.json")):
+            txt = f.read_text(encoding="utf-8-sig")
+            try:
+                d = json.loads(txt)
+            except Exception:  # noqa: BLE001  coma final antes de ] o }: se repara solo en memoria
+                try:
+                    d = json.loads(re.sub(r",(\s*[\]}])", r"\1", txt))
+                except Exception as exc:  # noqa: BLE001
+                    print("archivo invalido:", sub, f.name, str(exc)[:80])
+                    continue
+            for rec in d.get("articles", []):
+                if not isinstance(rec, dict) or not rec.get("pmcid"):
+                    continue
+                old = recs.get(rec["pmcid"])
+                if old is None:
+                    recs[rec["pmcid"]] = rec
+                    continue
+                for key, ident in (("panels", ("fig", "variant", "sample")), ("descriptors", ("sample", "size_nm", "zeta_mV")), ("spectra", ("technique", "fig", "sample"))):
+                    seen = {tuple(str(x.get(k)) for k in ident) for x in (old.get(key) or []) if isinstance(x, dict)}
+                    old[key] = list(old.get(key) or []) + [x for x in (rec.get(key) or []) if isinstance(x, dict) and tuple(str(x.get(k)) for k in ident) not in seen]
+                if rec.get("context"):
+                    old["context"] = rec["context"]          # el repaso riguroso manda en el contexto
+    if True:
+        for rec in recs.values():
             pm = rec.get("pmcid")
             if pm not in rk.index or not (FT_DIR / f"{pm}.xml").exists():
                 continue

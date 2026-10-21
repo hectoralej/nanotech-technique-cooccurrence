@@ -1,0 +1,434 @@
+{
+  "batch": "EX134",
+  "articles": [
+    {
+      "pmcid": "PMC6470230",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "MSNPs, native and PCN-functionalized (SEM and TEM)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning and Transmission electron micrographs of synthesized mesoporous silica nanoparticles. (a) Scanning electron micrographs of mesoporous silica nanoparticles without PCN loading."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "native MSNPs and PCN-MSNPs",
+          "quote": "Fourier transform infrared (FT-IR) spectra."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9000066",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ag nanoparticles released from finished textiles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM spectrogram of fabrics and TEM spectrogram of Ag."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "finished fabrics with Ag nanoparticles",
+          "quote": "The XRD spectrum of fabrics."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7449903",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HMSNs and CaO2@HMSNs-PAA (CHP)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "(A-D) Transmission electron microscopy (TEM) images of HMSNs (A, C) and CaO2@HMSNs-PAA (CHP) (B, D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CaO2@HMSNs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -14.67,
+          "medium": "not_declared",
+          "source": "zeta potential after CaO2 loading",
+          "quote": "Then, the zeta potential was measured to be -14.67 mV after CaO2 loading and further decreased to -28.37 mV after additional PAA coating."
+        },
+        {
+          "sample": "CaO2@HMSNs-PAA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -28.37,
+          "medium": "not_declared",
+          "source": "zeta potential after PAA coating",
+          "quote": "Then, the zeta potential was measured to be -14.67 mV after CaO2 loading and further decreased to -28.37 mV after additional PAA coating."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "HMSNs",
+          "quote": "(E-F) Energy-dispersive X-ray spectroscopy (EDS) spectra of HMSNs (E) and CHP (F)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "CaO2@HMSNs-PAA (CHP)",
+          "quote": "(E-F) Energy-dispersive X-ray spectroscopy (EDS) spectra of HMSNs (E) and CHP (F)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7587551",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "HRTEM",
+          "sample": "FA-DEX-VBL-SPION nanocomposite, SEM/HRTEM",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM image (A), HRTEM image (B)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FA-DEX-VBL-SPION",
+          "size_nm": 74,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS hydrodynamic diameter ~74 ± 13 nm; zeta result is qualitative only",
+          "quote": "DLS (Malvern Zetasizer ZS, Malvern, UK), which showed that the hydrodynamic diameter of NPs was ~ 74 ± 13 nm (Figure 2C)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "FA-DEX-VBL-SPION",
+          "quote": "(A) FTIR spectra analysis of DEX (I), SPION (II), VBL (III), FA (IV), DEX-SPION (V), and FA-DEX-VBL-SPION (VI)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8009513",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "halloysite nanotube (HNT)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(b) TEM micrograph of a HNT sample"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SPION@OA and SPION-in-HNT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of (a) as-synthesized SPION@OA (in the inset the SPION diameter distribution); (b–e) SPION-in-HNT prepared by prefunctionalization of HNT with TDP in the lumen."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SPION-in-A-HNT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of SPION-in-A-HNT (A-HNT = Australian Camel Lake halloysites)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPION3@OA",
+          "size_nm": 10.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "other",
+          "source": "DLS table value; reported dispersion ±3.0 nm; associated TEM mean 6.1 ±1.3 nm not entered as DLS",
+          "quote": "a hydrodynamic diameter of 10.9. ± 3.0 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "component",
+          "sample": "HNT, HNT-TDP and TDP",
+          "quote": "(a) FTIR spectrum of HNT–TDP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7075327",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "hydrogels with silver nanoparticles at 1 mM and 4 mM",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Electron micrographs of the hydrogels with silver nanoparticles at different concentrations"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "hydrogels with AgNP at 1, 2 and 4 mM",
+          "quote": "Ultraviolet-visible (UV–Vis) absorption spectra of sodium alginate, gelatin, and hydrogel with silver nanoparticles at different concentrations (1 mM, 2 mM, and 4 mM)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "hydrogels with silver nanoparticles at 1, 2 and 4 mM; alginate and gelatin components",
+          "quote": "Fourier Transform Infra-red (FT–IR) spectra of (A) sodium alginate, (B) gelatin, and of hydrogels with silver nanoparticles at different concentrations"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9417799",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "as synthesized and APDMES-grafted silica nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph and diameter distribution for (a) as synthesized silica nanoparticles and (b) APDMES grafted silica nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "as synthesized silica nanoparticles and APDMES-grafted particles",
+          "quote": "SAXS data comparing as synthesized silica nanoparticles to APDMES grafted particles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8840600",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "vancomycin-functionalized gold nanoparticles (V-GNPs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM of V-GNPs representing spherical monodispersed particles at the scale of (A) 20; (B) 50; (C) 100 nm with an average size of ~24 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "V-GNPs",
+          "size_nm": 77,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter; TEM size excluded",
+          "quote": "The size of the V-GNPs measured by DLS was found to be 77 nm (Figure S1A)."
+        },
+        {
+          "sample": "V-GNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18,
+          "medium": "not_declared",
+          "source": "zeta potential result",
+          "quote": "In this study, the estimated zeta potential of the synthesized V-GNPs was −18 mV, indicating the good stability of the GNPs (Figure S1B)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "V-GNPs",
+          "quote": "(B) UV–Visible spectra (SPR band at 524 nm)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "vancomycin and vancomycin-loaded gold nanoparticles",
+          "quote": "FTIR spectra of pure vancomycin and vancomycin-loaded gold nanoparticles (V-GNPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11325498",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "nanoparticle seeds",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(b) TEM image of the seeds."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MA1, MA2, MA3 and MA4 colloids",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of colloids in a stable final stage after NaOH addition"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "nanoparticle seeds",
+          "quote": "(a) UV–vis spectrum"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "MA1, MA2, MA3 and MA4 colloids",
+          "quote": "Extinction spectra of colloids"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 8",
+          "applies_to": "mixture",
+          "sample": "MA-capped colloids, blank and with 1 mM 4-MBA",
+          "quote": "SERS spectra of blank MA-capped colloids and 1 mM 4-MBA recorded in MA-capped and hydroxylamine-reduced colloids"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 9",
+          "applies_to": "mixture",
+          "sample": "MA1 colloid with 4-CMC",
+          "quote": "SERS spectra of the MA1 colloid with 4-CMC"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11266895",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "biosynthesized senna–AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of biosynthesized senna–AgNPs."
+        },
+        {
+          "fig": "FIGURE 7",
+          "variant": "SEM",
+          "sample": "biosynthesized pistachio–AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of biosynthesized pistachio–AgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "pistachio- and senna-derived AgNPs",
+          "quote": "(a, b) Ultraviolet–visible spectrum of pistachio and senna‐derived AgNPs showing peak absorbance (OD = 0.649Ao, OD = 0.837Ao) at 425 nm and 437.5 nm, respectively"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs of C. angustifolia and P. vera",
+          "quote": "FTIR spectrum of silver nanoparticles of C. angustifolia (a) and P. vera (b)."
+        }
+      ]
+    }
+  ]
+}

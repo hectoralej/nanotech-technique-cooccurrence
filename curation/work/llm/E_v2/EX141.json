@@ -1,0 +1,642 @@
+{
+  "batch": "EX141",
+  "articles": [
+    {
+      "pmcid": "PMC5438326",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "KIT-6 and CMK-8 mesoporous structures",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "High-magnification TEM images."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 1",
+          "applies_to": "component",
+          "sample": "KIT-6 and CMK-8",
+          "quote": "Small-angle XRD patterns."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 1",
+          "applies_to": "mixture",
+          "sample": "Ag/CMK-8-Nafion membranes",
+          "quote": "EDX elemental mappings of C, Ag, and Ag/CMK-8-Nafion membranes"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 5",
+          "applies_to": "mixture",
+          "sample": "CMK-8-Nafion and Ag/CMK-8-Nafion membranes",
+          "quote": "Absorption spectra of CMK-8-Nafion with and without silver NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13610103",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DG-COS NPs and HNK/DG-COS NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) images of DG-COS NPs and HNK/DG-COS NPs."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "MRSA treated with nanoparticle formulations",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy (SEM) images of MRSA after 12 h incubation"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DG-COS NPs",
+          "size_nm": 110.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrated size; PDI and zeta omitted because evidence exceeds quote limit",
+          "quote": "hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm"
+        },
+        {
+          "sample": "HNK/DG-COS NPs",
+          "size_nm": 198.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrated size; PDI and zeta omitted because evidence exceeds quote limit",
+          "quote": "hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs",
+          "quote": "Fourier-transform infrared (FTIR) spectra of DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs",
+          "quote": "Raman spectra of DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs",
+          "quote": "X-ray diffraction (XRD) patterns of DG, COS, HNK, DG-COS NPs, and HNK/DG-COS NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12896970",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "transmission electron microscopy (TEM) images"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "LUT-Lip, Day 30",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -38.16,
+          "medium": "not_declared",
+          "source": "text; zeta potential after storage",
+          "quote": "the zeta potential of LUT-Lip decreased significantly from −52.14 mV to −38.16 mV by Day 30"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "quote": "X-ray diffraction (XRD) patterns of LUT-Lip and LUT-P-Lip"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "quote": "Fourier transform infrared (FTIR) spectra of LUT-Lip and LUT-P-Lip"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 7",
+          "applies_to": "mixture",
+          "sample": "LUT-Lip and LUT-P-Lip",
+          "quote": "Raman spectra of LUT-Lip and LUT-P-Lip"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13033468",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "SEM",
+          "sample": "piracetam-loaded solid lipid nanoparticles PSLN-2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscopy (SEM) of piracetam loaded solid lipid nanoparticle-2 (PSLN-2) with a magnification of 204 × (Scale 200 nm)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PSLN-1",
+          "size_nm": 127.01,
+          "pdi": 0.8,
+          "zeta_mV": -45.1,
+          "medium": "water",
+          "source": "Table 1; Zetasizer DLS and PDI",
+          "quote": "127.01 ± 2.1 | 0.8 ± 0.7 | − 45.1 ± 1.1"
+        },
+        {
+          "sample": "PSLN-2",
+          "size_nm": 87.3,
+          "pdi": 0.2,
+          "zeta_mV": -38.2,
+          "medium": "water",
+          "source": "Table 1; Zetasizer DLS and PDI",
+          "quote": "87.3 ± 1.1 | 0.2 ± 0.5 | − 38.2 ± 0.3"
+        },
+        {
+          "sample": "PSLN-3",
+          "size_nm": 185.1,
+          "pdi": 0.5,
+          "zeta_mV": -29.7,
+          "medium": "water",
+          "source": "Table 1; Zetasizer DLS and PDI",
+          "quote": "185.1 ± 1.8 | 0.5 ± 1.6 | − 29.7 ± 1.9"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "piracetam, excipients, physical mixture, and PSLNs",
+          "quote": "Fourier transform infrared spectroscopy (FTIR) analysis of piracetam, polylactic-co-glycolic acid (PLGA)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "piracetam and PSLNs",
+          "quote": "X-ray diffraction analysis (XRD) of piracetam and PSLNs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13609942",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_negstain",
+          "sample": "optimized 5% LAE-LBN formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative transmission electron microscopy (TEM) image of the optimized 5% LAE-LBN formulation"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank nanocarrier, Day 0",
+          "size_nm": 202.2,
+          "pdi": 0.2,
+          "zeta_mV": -1.64,
+          "medium": "not_declared",
+          "source": "Table 1, Day 0",
+          "quote": "Blank nanocarrier |  | Day 0 | 202.20 ± 2.72 | 0.20 ± 0.01 | −1.64 ± 1.55"
+        },
+        {
+          "sample": "1% LAE-LBN, Day 0",
+          "size_nm": 131.23,
+          "pdi": 0.19,
+          "zeta_mV": 23.28,
+          "medium": "not_declared",
+          "source": "Table 1, Day 0",
+          "quote": "1% LAE- |  | Day 0 | 131.23 ± 0.95 | 0.19 ± 0.01 | 23.28 ± 2.58"
+        },
+        {
+          "sample": "5% LAE-LBN, Day 0",
+          "size_nm": 61.46,
+          "pdi": 0.06,
+          "zeta_mV": 46.97,
+          "medium": "not_declared",
+          "source": "Table 1, Day 0",
+          "quote": "5% LAE |  | Day 0 | 61.46 ± 0.55 | 0.06 ± 0.02 | 46.97 ± 10.80"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "aqueous LAE, blank nanocarrier and LAE-LBNs",
+          "quote": "Fourier-transform infrared (FTIR) spectra of (A) aqueous LAE used as the reference"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5588630",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "cobalt ferrite nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of cobalt ferrite NPs synthesized hydrothermally"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "HRTEM",
+          "sample": "CoFe2O4@Met NPs decorated with gold species",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM image of CoFe2O4@Met NPs after sonication"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "cobalt ferrite NPs",
+          "quote": "XRD pattern of the as-formed NPs are shown in panels b) and c)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CoFe2O4@Met NPs with gold species",
+          "quote": "their EDX spectrum (b)."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "methionine, tetrachlorauric acid and gold species solution",
+          "quote": "Absorption spectra of methionine (1), tetrachlorauric acid (2) and reddish-pink colored solution"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "methionine, methionine sulfoxide, cobalt ferrite NPs with and without gold",
+          "quote": "FTIR spectra of methionine (a, a′), methionine sulfoxide (b, b′)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6403993",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "nHAP particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Characterization of nHAP by SEM (bar = 20 μm)"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "PLGA-nHAP microsphere scaffold",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images showed surface fusing of PLGA-nHAP microspheres in the cavity-shaped microsphere scaffold"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "cavity-shaped PLGA-nHAP microsphere scaffold",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "Characterization of cavity-shaped PLGA-nHAP microsphere scaffolds through SEM observation"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "gelatin-nHAP cryogel scaffold",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Characterization of gelatin-nHAP cryogel scaffold through SEM"
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "cell mineral deposition in cryogel and hybrid scaffolds",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Qualitative assessment of mineralization through SEM and quantitative estimation of mineral composition by EDS"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHAP",
+          "quote": "Characterization of nHAP by SEM (bar = 20 μm) (A), EDS (B)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHAP",
+          "quote": "FTIR (C)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "nHAP",
+          "quote": "XRD (D)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "PLGA-nHAP microsphere scaffolds",
+          "quote": "elemental mapping of Ca (green dots) and P (red dots) atoms (B), FTIR (C)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "PLGA-nHAP microsphere scaffolds",
+          "quote": "FTIR (C) and XRD (D)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "gelatin-nHAP cryogel scaffold",
+          "quote": "Characterization of gelatin-nHAP cryogel scaffold through SEM (A), FTIR (B)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "gelatin-nHAP cryogel scaffold",
+          "quote": "FTIR (B) and XRD (C)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 9",
+          "applies_to": "component",
+          "sample": "mineral deposition from cell differentiation",
+          "quote": "quantitative estimation of mineral composition by EDS of the cryogel scaffold"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13609951",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Lipo and Lipo-Cur",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Lipo and Lipo-Cur"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "bacteria treated with Lipo-Cur",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "SEM images showing morphological changes in S. aureus"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Lipo",
+          "size_nm": 126.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS mean particle size",
+          "quote": "DLS measurements showed mean particle sizes of 126.2 nm for Lipo and 134.8 nm for Lipo-Cur"
+        },
+        {
+          "sample": "Lipo-Cur",
+          "size_nm": 134.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS mean particle size",
+          "quote": "DLS measurements showed mean particle sizes of 126.2 nm for Lipo and 134.8 nm for Lipo-Cur"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "Cur, Lipo and Lipo-Cur",
+          "quote": "FTIR spectra of Cur, Lipo, and Lipo-Cur"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "Cur, Lipo and Lipo-Cur",
+          "quote": "UV-Vis absorption spectra of Cur, Lipo, and Lipo-Cur."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13115488",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "NLC",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "apigenin-loaded NLC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Representative TEM micrographs at magnifications of 25,000× (a) and 50,000× (b)"
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "blank and nanoloaded thermoresponsive gels",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological and structural analysis of the bank (a–c) and nanoloaded thermoresponsive gel (d–f) as examined by SEM."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NLC-AP-loaded 10% P407 hydrogel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of the 10% P407 hydrogel loaded with NLC-AP (NP-10)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NLC-AP",
+          "size_nm": 188.5,
+          "pdi": 0.25,
+          "zeta_mV": -17,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "NLC-AP | 4.57 | 1.50 | 3.57 | 250 | 188.5 ± 2.2 | 0.25 ± 0.03 | −17 ± 2.0"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "raw materials, nanoparticles and nanoparticle-embedded thermosensitive gels",
+          "quote": "Raman spectrum peaks of raw materials, nanoparticles, and nanoparticle-embedded thermosensitive gels."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "NLC-CO, NLC-AP and NP-10 components",
+          "quote": "Raman mapping for the NLC–CO components"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13325854",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "LNP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "cryoTEM",
+          "sample": "mRNA-LNPs stored in Tris and histidine buffers",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Cryo-TEM images of mRNA-LNPs in (e) Tris and (f) histidine buffers"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "SAXS",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "empty LNPs with LP-01, MC3 and SM-102 in storage buffers",
+          "quote": "Effect of buffer species and ionizable lipid on empty LNP internal structure."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "mRNA-containing LNPs",
+          "quote": "SAXS profiles of mRNA-containing LNPs at pH 7.4"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "mRNA-LNPs before and after freeze–thaw",
+          "quote": "SAXS profile of mRNA-LNPs before (5 °C) and after freeze–thaw"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "LP-01 mRNA-LNPs in different Tris molarities",
+          "quote": "Freeze–thaw stability of mRNA-LNPs with different Tris molarities"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure S6",
+          "applies_to": "nanoparticle",
+          "sample": "mRNA-LNPs at varying N/P ratios",
+          "quote": "mRNA-LNP at varying N/P ratios (1, 3, 4.5 (original), 9, and 12) were analyzed by SAXS"
+        }
+      ]
+    }
+  ]
+}

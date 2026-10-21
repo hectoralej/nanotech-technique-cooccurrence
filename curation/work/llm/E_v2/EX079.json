@@ -1,0 +1,151 @@
+{
+  "batch": "EX079",
+  "articles": [
+    {
+      "pmcid": "PMC9774588",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "empty and rosemary-oleoresin nanoliposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) (empty nanoliposomes) and (b) (RO nanoliposomes)."}],
+      "descriptors": [
+        {"sample": "Empty nanoliposome", "size_nm": 95.31, "pdi": 0.266, "zeta_mV": -14.27, "medium": "not_declared", "source": "Table 1", "quote": "Empty nanoliposome | 95.31 ± 1.02 a | 0.266 ± 0.005 a | −14.27 ± 0.32 a"},
+        {"sample": "Coated 13 mg RO", "size_nm": 160.48, "pdi": 0.281, "zeta_mV": -15.37, "medium": "not_declared", "source": "Table 1", "quote": "Coated 13 mg RO | 160.48 ± 0.95 b | 0.281 ± 0.005 a | −15.37 ± 0.21 b"},
+        {"sample": "Coated 26 mg RO", "size_nm": 162.32, "pdi": 0.283, "zeta_mV": -16.03, "medium": "not_declared", "source": "Table 1", "quote": "Coated 26 mg RO | 162.32 ± 0.86 b | 0.283 ± 0.006 a | −16.03 ± 0.28 c"},
+        {"sample": "Coated 39 mg RO", "size_nm": 162.65, "pdi": 0.269, "zeta_mV": -16.07, "medium": "not_declared", "source": "Table 1", "quote": "Coated 39 mg RO | 162.65 ± 0.96 b | 0.269 ± 0.008 a | −16.07 ± 0.33 c"},
+        {"sample": "Coated 52 mg RO", "size_nm": 162.25, "pdi": 0.266, "zeta_mV": -16.3, "medium": "not_declared", "source": "Table 1", "quote": "Coated 52 mg RO | 162.25 ± 1.21 b | 0.266 ± 0.007 a | −16.30 ± 0.12 c"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "empty and rosemary-oleoresin nanoliposomes", "quote": "FTIR spectra of RO, empty nanoliposomes, and RO nanoliposomes."}]
+    },
+    {
+      "pmcid": "PMC7284436",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 5", "variant": "SEM", "sample": "lyophilized RP-SLN/RP-NLC and hydrogel formulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of (A) lyophilized RP-SLN formulation, (B) lyophilized RP-NLC formulation"}
+      ],
+      "descriptors": [
+        {"sample": "RP-SLN", "size_nm": 210.6, "pdi": 0.21, "zeta_mV": -28.4, "medium": "water", "source": "Table 2", "quote": "RP-SLN | 210.6 ± 3.6 | 0.21 ± 0.06 | −28.4 ± 0.9"},
+        {"sample": "RP-NLC", "size_nm": 193.2, "pdi": 0.18, "zeta_mV": -30.5, "medium": "water", "source": "Table 2", "quote": "RP-NLC | 193.2 ± 2.1 | 0.18 ± 0.03 | −30.5 ± 1.5"}
+      ],
+      "spectra": [{"technique": "XRD", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "optimized RP-SLN and RP-NLC formulations", "quote": "XRD spectra of pure drug, pure lipid, physical mixture of drug and lipid, lyophilized optimized RP-SLN formulation and RP-NLC formulation."}]
+    },
+    {
+      "pmcid": "PMC11011725",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM–(D)"},
+        {"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM–(D)"}
+      ],
+      "descriptors": [
+        {"sample": "AgNPs", "size_nm": null, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The produced AgNPs have a polydispersity index PDI < 0.25"},
+        {"sample": "AuNPs", "size_nm": 20, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "DLS analysis (Figure 2E) shows a narrow size distribution of AuNPs with an average hydrodynamic diameter of approximately 20 nm"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "Surface analysis of AgNPs, with XRD–(A)"},
+        {"technique": "EDS", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "EDS–(B)"},
+        {"technique": "UVVis", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "AgNPs", "quote": "UV-VIS–(F)"},
+        {"technique": "XRD", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "AuNPs", "quote": "Surface analysis of AuNPs, with XRD–(A)"},
+        {"technique": "EDS", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "AuNPs", "quote": "EDS–(B)"},
+        {"technique": "UVVis", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "AuNPs", "quote": "UV-VIS–(F)"},
+        {"technique": "Raman", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "Leu dipeptides immobilized on AgNPs", "quote": "SERS spectra of Leu1–Leu10 phosphonate dipeptides immobilized on AgNPs surface."},
+        {"technique": "Raman", "fig": "Figure 5", "applies_to": "nanoparticle", "sample": "Leu dipeptides immobilized on AgNPs", "quote": "SERS spectra of Leu1–Leu10 phosphonate dipeptides immobilized on AgNPs surface."},
+        {"technique": "Raman", "fig": "Figure 6", "applies_to": "component", "sample": "Leu phosphonate dipeptides", "quote": "FT-Raman spectra of Leu1–Leu10 phosphonate dipeptides."}
+      ]
+    },
+    {
+      "pmcid": "PMC8491732",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "chitosan nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of chitosan nanoparticles: (a) Gly-CS-VE, (b) Gal-Gly-CS-VE"}],
+      "descriptors": [
+        {"sample": "Gly-CS-VE", "size_nm": 178.9, "pdi": 0.147, "zeta_mV": 19.8, "medium": "not_declared", "source": "Table 1", "quote": "Gly-CS-VE | 178.90 ± 2.30 | 19.80 ± 0.44 | 0.147 ± 0.003 | 198.57 ± 2.46 | 52.77 ± 0.49 | 0.156 ± 0.024"},
+        {"sample": "Gal-CS-VE", "size_nm": 142.07, "pdi": 0.176, "zeta_mV": 7.57, "medium": "not_declared", "source": "Table 1", "quote": "Gal-CS-VE | 142.07 ± 4.89 | 7.57 ± 0.45 | 0.176 ± 0.015 | 165.10 ± 3.57 | 22.57 ± 3.43 | 0.196 ± 0.033"},
+        {"sample": "Gly-CS-DCA", "size_nm": 142.73, "pdi": 0.164, "zeta_mV": 24.47, "medium": "not_declared", "source": "Table 1", "quote": "Gly-CS-DCA | 142.73 ± 1.10 | 24.47 ± 0.97 | 0.164 ± 0.017 | 165.07 ± 1.46 | 40.00 ± 1.20 | 0.139 ± 0.021"},
+        {"sample": "Gal-Gly-CS-DCA", "size_nm": 159.9, "pdi": 0.134, "zeta_mV": 17.17, "medium": "not_declared", "source": "Table 1", "quote": "Gal-Gly-CS-DCA | 159.90 ± 2.60 | 17.17 ± 1.55 | 0.134 ± 0.018 | 156.53 ± 2.78 | 30.20 ± 5.48 | 0.164 ± 0.015"},
+        {"sample": "DOX-loaded Gly-CS-VE", "size_nm": 198.57, "pdi": 0.156, "zeta_mV": 52.77, "medium": "not_declared", "source": "Table 1", "quote": "Gly-CS-VE | 178.90 ± 2.30 | 19.80 ± 0.44 | 0.147 ± 0.003 | 198.57 ± 2.46 | 52.77 ± 0.49 | 0.156 ± 0.024"},
+        {"sample": "DOX-loaded Gal-CS-VE", "size_nm": 165.1, "pdi": 0.196, "zeta_mV": 22.57, "medium": "not_declared", "source": "Table 1", "quote": "Gal-CS-VE | 142.07 ± 4.89 | 7.57 ± 0.45 | 0.176 ± 0.015 | 165.10 ± 3.57 | 22.57 ± 3.43 | 0.196 ± 0.033"},
+        {"sample": "DOX-loaded Gly-CS-DCA", "size_nm": 165.07, "pdi": 0.139, "zeta_mV": 40.0, "medium": "not_declared", "source": "Table 1", "quote": "Gly-CS-DCA | 142.73 ± 1.10 | 24.47 ± 0.97 | 0.164 ± 0.017 | 165.07 ± 1.46 | 40.00 ± 1.20 | 0.139 ± 0.021"},
+        {"sample": "DOX-loaded Gal-Gly-CS-DCA", "size_nm": 156.53, "pdi": 0.164, "zeta_mV": 30.2, "medium": "not_declared", "source": "Table 1", "quote": "Gal-Gly-CS-DCA | 159.90 ± 2.60 | 17.17 ± 1.55 | 0.134 ± 0.018 | 156.53 ± 2.78 | 30.20 ± 5.48 | 0.164 ± 0.015"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "component", "sample": "chitosan derivatives", "quote": "FT-IR spectra of chitosan derivatives."},
+        {"technique": "UVVis", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "DOX-loaded chitosan nanoparticles", "quote": "UV-Vis absorption spectra of DOX solution, CS and DOX loaded chitosan nanoparticles."}
+      ]
+    },
+    {
+      "pmcid": "PMC8779429",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "cisplatin-loaded pH-sensitive liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of the developed CDDP@PLs."}],
+      "descriptors": [
+        {"sample": "PL1", "size_nm": 206.4, "pdi": 0.417, "zeta_mV": -24.6, "medium": "not_declared", "source": "Table 1", "quote": "PL1 | 45:50:05 | 33.48:24.33:14.02 | 5.0 | 206.4 ± 2.26 | 0.417 ± 0.008 | −24.6 ± 1.72"},
+        {"sample": "PL2", "size_nm": 194.3, "pdi": 0.422, "zeta_mV": -22.8, "medium": "not_declared", "source": "Table 1", "quote": "PL2 | 50:45:05 | 37.20:21.90:14.02 | 5.0 | 194.3 ± 2.21 | 0.422 ± 0.010 | −22.8 ± 2.01"},
+        {"sample": "PL3", "size_nm": 191.2, "pdi": 0.386, "zeta_mV": -22.5, "medium": "not_declared", "source": "Table 1", "quote": "PL3 | 55:40:05 | 40.92:19.46:14.02 | 5.0 | 191.2 ± 1.67 | 0.386 ± 0.009 | −22.5 ± 0.38"},
+        {"sample": "PL4", "size_nm": 171.9, "pdi": 0.371, "zeta_mV": -20.2, "medium": "not_declared", "source": "Table 1", "quote": "PL4 | 60:35:05 | 44.64:17.03:14.02 | 5.0 | 171.9 ± 2.26 | 0.371 ± 0.011 | −20.2 ± 2.69"},
+        {"sample": "PL5", "size_nm": 153.2, "pdi": 0.261, "zeta_mV": -17.8, "medium": "not_declared", "source": "Table 1", "quote": "PL5 | 65:30:05 | 48.36:14.60:14.02 | 5.0 | 153.2 ± 3.08 | 0.261 ± 0.007 | −17.8 ± 1.26"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "cisplatin-loaded liposomes", "quote": "FTIR analysis of cisplatin (a), CHEMS (b), DOPE (c), DSPE-PEG2000 (d), and CDDP@PLs (e)."}]
+    },
+    {
+      "pmcid": "PMC5198023",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "TEM_prep_not_declared", "sample": "blank and deoxyarbutin-loaded NLCs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy imaging of (left) blank NLCs and (right) dArb-NLCs."}],
+      "descriptors": [{"sample": "optimized 1% dArb-NLC", "size_nm": 434.9, "pdi": 0.219, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "stable smallest particle size NLC (434.9 ± 21.48 nm) with a polydispersity index of 0.219 ± 0.004."}],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 2", "applies_to": "mixture", "sample": "dArb, lipids, excipients and physical mixtures", "quote": "Fourier transform infrared spectra of (a) CP, Myr, and dArb alone and a mixture of CP-Myr-dArb"}]
+    },
+    {
+      "pmcid": "PMC10056764",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "SEM", "sample": "AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM micrograph showing the formation of nano-sized, anisotropic, triangular, and monodisperse silver particles."},
+        {"fig": "Figure 3", "variant": "SEM", "sample": "starch scaffold with and without AgNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM micrographs of (A,B) jackfruit starch granules; (C,D) cross-sections of the starch scaffold and (E,F) starch–AgNPs scaffold"}
+      ],
+      "descriptors": [{"sample": "AgNPs in colloidal solution", "size_nm": 33.27, "pdi": 0.205, "zeta_mV": -33.39, "medium": "not_declared", "source": "text", "quote": "The nanoparticles in the DLS result (Inset of Figure 2A) had an average size of 33.27 nm and a polydispersity index (PDI) of 0.205"}],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "AgNPs colloidal solution", "quote": "UV-Vis spectrum of the AgNPs colloidal solution."},
+        {"technique": "EDS", "fig": "Figure 3", "applies_to": "mixture", "sample": "starch–AgNPs scaffold", "quote": "EDS analysis of the starch–AgNPs scaffold"},
+        {"technique": "XRD", "fig": "Figure 4", "applies_to": "mixture", "sample": "starch–AgNPs scaffold", "quote": "XRD patterns of the (A) jackfruit starch, (B) starch scaffold, and (C) starch–AgNPs scaffold."},
+        {"technique": "FTIR", "fig": "Figure 5", "applies_to": "mixture", "sample": "starch–AgNPs scaffold", "quote": "FTIR spectra of the (A) jackfruit starch, (B) starch scaffold, and (C) starch–AgNPs scaffold."}
+      ]
+    },
+    {
+      "pmcid": "PMC8431461",
+      "context": {"article_kind": "research", "carrier_type": "not_a_nanocarrier", "nanocarrier_is_object_of_study": false, "virus_or_pcr": false},
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9726895",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "PSPE-loaded liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy micrograph of PSPE liposomes with 0.2% was obtained at a scale of 500 nm"}],
+      "descriptors": [
+        {"sample": "primary liposomes, PSPE 0.2%", "size_nm": 101, "pdi": null, "zeta_mV": -11.9, "medium": "not_declared", "source": "Table 1", "quote": "0.2 | 101.00 ± 0.05e | 177.00 ± 0.03e | −11.9 ± 0.2e | 18.9 ± 0.4e"},
+        {"sample": "secondary liposomes, PSPE 0.2%", "size_nm": 177, "pdi": null, "zeta_mV": 18.9, "medium": "not_declared", "source": "Table 1", "quote": "0.2 | 101.00 ± 0.05e | 177.00 ± 0.03e | −11.9 ± 0.2e | 18.9 ± 0.4e"},
+        {"sample": "primary liposomes, PSPE 0.4%", "size_nm": 111, "pdi": null, "zeta_mV": -11.1, "medium": "not_declared", "source": "Table 1", "quote": "0.4 | 111.00 ± 0.03d | 158.00 ± 0.02d | −11.1 ± 0.3d | 19.8 ± 0.8d"},
+        {"sample": "secondary liposomes, PSPE 0.4%", "size_nm": 158, "pdi": null, "zeta_mV": 19.8, "medium": "not_declared", "source": "Table 1", "quote": "0.4 | 111.00 ± 0.03d | 158.00 ± 0.02d | −11.1 ± 0.3d | 19.8 ± 0.8d"},
+        {"sample": "primary liposomes, PSPE 0.6%", "size_nm": 131, "pdi": null, "zeta_mV": -9.8, "medium": "not_declared", "source": "Table 1", "quote": "0.6 | 131.00 ± 0.05c | 171.00 ± 0.02c | −9.8 ± 0.4c | 17.7 ± 0.6c"},
+        {"sample": "secondary liposomes, PSPE 0.6%", "size_nm": 171, "pdi": null, "zeta_mV": 17.7, "medium": "not_declared", "source": "Table 1", "quote": "0.6 | 131.00 ± 0.05c | 171.00 ± 0.02c | −9.8 ± 0.4c | 17.7 ± 0.6c"},
+        {"sample": "primary liposomes, PSPE 1%", "size_nm": 158, "pdi": null, "zeta_mV": -9.0, "medium": "not_declared", "source": "Table 1", "quote": "1 | 158.00 ± 0.03a | 1350.00 ± 0.03a | −9.0 ± 0.2a | 13.2 ± 0.9a"},
+        {"sample": "secondary liposomes, PSPE 1%", "size_nm": 1350, "pdi": null, "zeta_mV": 13.2, "medium": "not_declared", "source": "Table 1", "quote": "1 | 158.00 ± 0.03a | 1350.00 ± 0.03a | −9.0 ± 0.2a | 13.2 ± 0.9a"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "PSPE/lecithin and primary liposomes", "quote": "Fourier transform infrared spectrometry spectrum for PSPE/lecithin and primary liposomes."},
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "chitosan-coated secondary liposomes", "quote": "Fourier transform infrared spectrometry spectrum for chitosan/PSPE/lecithin and secondary liposomes."}
+      ]
+    },
+    {
+      "pmcid": "PMC12343858",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 7", "variant": "SEM", "sample": "iron oxide and Ag-doped iron oxide nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrographs of the synthesized NPs"},
+        {"fig": "Fig. 9", "variant": "TEM_prep_not_declared", "sample": "iron oxide and Ag-doped iron oxide nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Typical TEM images of the synthesized NPs at various magnifications"},
+        {"fig": "Fig. 17", "variant": "SEM", "sample": "E. coli and K. pneumoniae cells", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM micrographs of E. coli (a, c, and e) and K. pneumoniae (b, d, and f)"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Fe3O4/Fe2O3 and Ag-doped iron oxide nanoparticles", "quote": "UV–visible absorption spectra of (a) Fe3O4 NPs and Fe2O3 NPs"},
+        {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "iron oxide and Ag-doped iron oxide nanoparticles", "quote": "FTIR spectra of the IONPs synthesized in green via magnetotactic bacteria and silver-doped IONPs"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Fe2O3 and Fe3O4 nanoparticles", "quote": "FTIR spectra of the IONPs synthesized in green via magnetotactic bacteria"},
+        {"technique": "Raman", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "Fe2O3 and Fe3O4 nanoparticles", "quote": "From the Raman shift spectrum of Fe2O3 NPs, several distinct wavenumber shifts were assigned"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "iron oxide and Ag-doped iron oxide nanoparticles", "quote": "XRD patterns of the synthesized NPs"},
+        {"technique": "EDS", "fig": "Fig. 8", "applies_to": "nanoparticle", "sample": "iron oxide and Ag-doped iron oxide nanoparticles", "quote": "EDX analysis of the synthesized NPs"}
+      ]
+    }
+  ]
+}

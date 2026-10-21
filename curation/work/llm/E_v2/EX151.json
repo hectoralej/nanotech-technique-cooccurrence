@@ -1,0 +1,127 @@
+{
+  "batch": "EX151",
+  "articles": [
+    {
+      "pmcid": "PMC13609315",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "mesoporous silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of MSNs (a) at 1K× and (b) at 2.5K×."},
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "mesoporous silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of MSNs (c) at 60K× and (d) at 100K×."},
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "electrospun nanofibers M12, M15, M16", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Representative SEM images at 5K× of formulations M12, M15, and M16."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "M16, M16a, M16b, M16c nanofibers", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of M16, M16a, M16b, and M16c nanofibers at 5K×."}
+      ],
+      "descriptors": [{"sample": "green-synthesized MSNs", "size_nm": null, "pdi": null, "zeta_mV": -24.1, "medium": "not_declared", "source": "text", "quote": "The nanoparticles exhibited a negative surface charge with a zeta potential of −24.1 mV"}],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. S1c", "applies_to": "nanoparticle", "sample": "MSNs", "quote": "The FTIR spectrum confirmed the characteristic silica framework"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "raw nanofibers, silica-containing nanofibers, and MSN/HPE-loaded nanofibers", "quote": "FTIR spectra of the raw nanofibers (M16), silica-containing nanofibers (Fiber + Si) (M16a), and MSN/HPE-loaded nanofibers (M16c)."}
+      ]
+    },
+    {
+      "pmcid": "PMC13245370",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [],
+      "descriptors": [{"sample": "chitosan-confined Se–Ag nanohybrids", "size_nm": 2749, "pdi": 0.01094, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Dynamic light scattering (DLS) analysis reveals a mean hydrodynamic diameter (Z_avg) of 2749 nm with a very low polydispersity index (PDI = 0.01094)."}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13132192",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "AFM", "sample": "silver nanoparticle gel", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Atomic force microscopy (AFM)"},
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "silver nanoparticle gel", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) of silver nanoparticles gel."},
+        {"fig": "Fig. 2", "variant": "AFM", "sample": "gold nanoparticle gel", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Atomic force microscopy (AFM)"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "gold nanoparticle gel", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy (TEM) of gold nanoparticles gel."}
+      ],
+      "descriptors": [
+        {"sample": "AgNPs in gel", "size_nm": 10, "pdi": 0.22, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Results of the DLS histogram showed that the average particle size (P.S.) and polydispersity index (PDI) were 10 nm, 0.22 (AgNPs)"},
+        {"sample": "AuNPs in gel", "size_nm": 15, "pdi": 0.21, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "15 nm, 0.21 (AuNPs), respectively (Figs 1 and 2)."}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "silver nanoparticles gel", "quote": "(C) X-ray diffraction (XRD)"},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "gold nanoparticles gel", "quote": "(C) X-ray diffraction (XRD)"}
+      ]
+    },
+    {
+      "pmcid": "PMC12881427",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "AgNPs extracted from skim, 2% fat and whole milk", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of m-AgNPs extracted from different milks after 10 days of incubation with AgNO3 at 20 °C."}],
+      "descriptors": [],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Ag2O and Ag0 nanoparticles extracted from milks", "quote": "X-ray diffractograms of nanoparticulate Ag extracted from milks 10 days after spiking with AgNO3."}]
+    },
+    {
+      "pmcid": "PMC12662862",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 8", "variant": "SEM", "sample": "interpenetrating-network hydrogel with vinyl silica nanoparticles", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of a IPNG with 150 nm VSNPs at 20 wt% loading"}],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "PAMPS/PAAm hydrogels containing VSNPs", "quote": "FTIR spectra comparing Fresh and Swollen PAMPS/PAAm hydrogels containing 2.5 wt. % 150 nm vinyl silica nanoparticles (VSNP)"}]
+    },
+    {
+      "pmcid": "PMC12473889",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "AuNPs synthesized with citrate, L-cysteine, cysteamine and L-arginine", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "The scale bar is 50 nm for all images"}],
+      "descriptors": [
+        {"sample": "AuNP-Citrate", "size_nm": 7.2, "pdi": 0.198, "zeta_mV": -40.1, "medium": "not_declared", "source": "Table 1", "quote": "AuNP-Citrate | 4.9 ± 1.3 | 7.2 ± 0.5 | 0.198 ± 0.018 | −40.1 ± 1.8"},
+        {"sample": "AuNP-Cysteamine", "size_nm": 6.4, "pdi": 0.138, "zeta_mV": 36.5, "medium": "not_declared", "source": "Table 1", "quote": "AuNP-Cysteamine | 5.3 ± 0.9 | 6.4 ± 1.4 | 0.138 ± 0.028 | +36.5 ± 1.9"},
+        {"sample": "AuNP-Cysteine", "size_nm": 6.3, "pdi": 0.541, "zeta_mV": -25.6, "medium": "not_declared", "source": "Table 1", "quote": "AuNP-Cysteine | 5.5 ± 1.6 | 6.3 ± 1.8 | 0.541 ± 0.128 | −25.6 ± 1.3"},
+        {"sample": "AuNP-Arginine", "size_nm": 12.4, "pdi": 0.313, "zeta_mV": -40.5, "medium": "not_declared", "source": "Table 1", "quote": "AuNP-Arginine | 6.2 ± 2.6 | 12.4 ± 2.8 | 0.313 ± 0.067 | −40.5 ± 1.5"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "AuNPs synthesized/capped with citrate, L-cysteine, cysteamine and L-arginine", "quote": "Absorption spectra of AuNPs synthesized/capped using sodium citrate (B), L-cysteine (C), cysteamine (D), and L-arginine (E)"}
+      ]
+    },
+    {
+      "pmcid": "PMC12491477",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "gold nanospheres and nanorods", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of: (a) AuNSp10, (b) AuNSp20, (c) AuNR808, (d) AuNR980, (e) AuNR6"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "AuNR6", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of AuNR6."},
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "AuNSp5/10/20 and AuNR808/980/6", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of: (a) AuNSp5, (b) AuNSp10, (c) AuNSp20, (d) AuNR808, (e) AuNR980, (f) AuNR6"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "commercial gold nanospheres and nanorods", "quote": "Absorption spectra of the used nanoparticles solutions of commercial gold nanospheres."}]
+    },
+    {
+      "pmcid": "PMC12715997",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 11", "variant": "HRTEM", "sample": "USE/GSE-derived AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "HRTEM images for USE‐AuNP‐rt (A1—colloidal solution; A2–A4 (scale bar: 200, 100, 10 nm))"},
+        {"fig": "Fig. 12", "variant": "HRTEM", "sample": "USE/GSE-derived AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "HRTEM images for USE‐AgNP‐rt (A1—colloidal solution; A2–A4 (scale bar: 200, 100, 10 nm))"}
+      ],
+      "descriptors": [
+        {"sample": "GSE-AuNP-rt", "size_nm": 130, "pdi": 0.175, "zeta_mV": -19.1, "medium": "not_declared", "source": "Table 1", "quote": "GSE‐AuNP‐rt | Gold | 130 | −19.1 | 0.175"},
+        {"sample": "GSE-AuNP-hot", "size_nm": 116, "pdi": 0.165, "zeta_mV": -19.6, "medium": "not_declared", "source": "Table 1", "quote": "GSE‐AuNP‐hot | Gold | 116 | −19.6 | 0.165"},
+        {"sample": "USE-AuNP-rt", "size_nm": 134, "pdi": 0.274, "zeta_mV": -10.4, "medium": "not_declared", "source": "Table 1", "quote": "USE‐AuNP‐rt | Gold | 134 | −10.4 | 0.274"},
+        {"sample": "USE-AuNP-hot", "size_nm": 143, "pdi": 0.450, "zeta_mV": -7.2, "medium": "not_declared", "source": "Table 1", "quote": "USE‐AuNP‐hot | Gold | 143 | −7.2 | 0.450"},
+        {"sample": "GSE-AgNP-rt", "size_nm": 666.7, "pdi": 0.400, "zeta_mV": -21.5, "medium": "not_declared", "source": "Table 1", "quote": "GSE‐AgNP‐rt | Silver | 666.7 | −21.5 | 0.400"},
+        {"sample": "GSE-AgNP-hot", "size_nm": 731, "pdi": 0.270, "zeta_mV": -23.5, "medium": "not_declared", "source": "Table 1", "quote": "GSE‐AgNP‐hot | Silver | 731 | −23.5 | 0.270"},
+        {"sample": "USE-AgNP-rt", "size_nm": 163, "pdi": 0.440, "zeta_mV": -22.0, "medium": "not_declared", "source": "Table 1", "quote": "USE‐AgNP‐rt | Silver | 163 | −22.0 | 0.440"},
+        {"sample": "USE-AgNP-hot", "size_nm": 209, "pdi": 0.400, "zeta_mV": -19.6, "medium": "not_declared", "source": "Table 1", "quote": "USE‐AgNP‐hot | Silver | 209 | −19.6 | 0.400"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "AuNPs synthesized from USE/GSE extracts", "quote": "Normalized UV–Vis spectra of biosynthesis AuNP from USE and GSE."},
+        {"technique": "UVVis", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "AgNPs synthesized from USE/GSE extracts", "quote": "Normalized UV–Vis spectra of biosynthesis AgNP from USE and GSE."},
+        {"technique": "FTIR", "fig": "Fig. 10", "applies_to": "mixture", "sample": "USE, GSE, AuNPs and AgNPs", "quote": "Fourier‐transform infrared spectroscopy (FTIR) of USE, GSE, and biosynthesis of AuNP and AgNP from USE and GSE."}
+      ]
+    },
+    {
+      "pmcid": "PMC12325095",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "MSN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "MSN TEM micrography and mean diameter size distribution of MSN."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "MSN and MSN-AP-PdCur", "quote": "XRD diffraction patterns of MSN (a) and MSN‐AP‐PdCur (b)"},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "MSN, MSN-AP, MSN-AP-PdCur and PdCur complex", "quote": "FT‐IR spectra from each isolated material for the preparation of MSN‐AP‐PdCur"}
+      ]
+    },
+    {
+      "pmcid": "PMC12606588",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 4", "variant": "SEM", "sample": "VACAgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image shows morphological properties and EDX"}],
+      "descriptors": [{"sample": "VACAgNPs", "size_nm": 132.9, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Figure 6b and Figure 6c displays the DLS results, showing a mean particle size of 132.9 nm with a standard deviation of 14.63 nm."}],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "VACAgNPs", "quote": "SEM image shows morphological properties and EDX"},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "VACAgNPs", "quote": "EDS layered image (a), Ag (b), Fe (c), Cl (d), N (e), O (f), Si (g), and C (h) mapping of VACAgNPs"}
+      ]
+    }
+  ]
+}

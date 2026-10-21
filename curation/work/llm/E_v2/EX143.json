@@ -1,0 +1,596 @@
+{
+  "batch": "EX143",
+  "articles": [
+    {
+      "pmcid": "PMC5701649",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "HA-CMC-PLGA NPs and TF-HA-CMC-PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Scanning electron microscope images and dynamic lighting scattering measurements of HA-CMC-PLGA NPs"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "TF, HA-CMC-PLGA NPs and TF-HA-CMC-PLGA NPs",
+          "quote": "FT-IR spectra and magnification FT-IR spectra of TF, HA-CMC-PLGA NPs"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "HA and TF-CMCS-PLGA-HA",
+          "quote": "UV-vis spectra of HA in acetone and TF-CMCS-PLGA-HA in aqueous solution"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5706264",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "cAuNP14–DPPC before and during heating",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of cAuNP14–DPPC; (c) before heating and after"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "cryoTEM",
+          "sample": "cAuNP31–DPPC at 25 and 50 °C",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-TEM images of cAuNP31–DPPC"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "cryoTEM",
+          "sample": "cAuNP31–DPPC over heating time",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Cryo-TEM images of cAuNP31–DPPC heated at 50 °C"
+        },
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "cAuNP14–DPPC",
+          "quote": "Time-dependent UV–vis absorption spectra of cAuNP14–DPPC solutions"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "cAuNP31 and cAuNP31–DPPC",
+          "quote": "UV–vis absorption spectra of solutions of cAuNP31"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "cAuNP31–DPPC",
+          "quote": "Time-dependent UV–vis absorption spectra of cAuNP31–DPPC solutions"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12185197",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "crystalline CoQ, CoQ physical mixture and SLN-CoQ",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Microscopic images observed by scanning electron microscope."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SLN-CoQ",
+          "size_nm": 91.6,
+          "pdi": 0.32,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size/PDI",
+          "quote": "DLS analysis revealed that the SLN-CoQ had an average particle size of 91.6 ± 8.2 nm with a PDI of 0.32 ± 0.02"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "SL-CoQ, PM-CoQ, TPGS, SA, soy lecithin and crystalline CoQ",
+          "quote": "Drug–polymer interaction studies of CoQ samples using FT-IR."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6117638",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "HRTEM",
+          "sample": "CAO-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Electron microscopy characterization of CAO-AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CAO-AuNPs",
+          "size_nm": 35,
+          "pdi": 0.31,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "particle size analyzer; size/PDI",
+          "quote": "particle average size was 35 ± 8 nm (Figure 5A) with a polydispersity index value of 0.31 ± 0.02"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "CAO-AuNPs and CAO",
+          "quote": "Fourier transform-infrared (FT-IR) spectra of CAO-AuNPs (a) and CAO (b)."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "CAO-AuNPs",
+          "quote": "ultraviolet-visible (UV-Vis) spectra of CAO-AuNPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "CAO-AuNPs and CAO",
+          "quote": "X-ray diffraction (XRD) pattern of CAO-AuNPs, (C) XRD pattern of CAO."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13520975",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "triple-layered core-shell nanogel",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Physical and chemical characterization of the triple-layered core-shell nanogel."
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "SEM",
+          "sample": "E. coli exposed to nanogel",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Live/dead bacterial staining and SEM image"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "first-layer nanoparticles",
+          "size_nm": 78.1,
+          "pdi": null,
+          "zeta_mV": 14.2,
+          "medium": "not_declared",
+          "source": "DLS size/zeta",
+          "quote": "first layer nanoparticles exhibited a particle size of 78.1 ± 3.0 nm and a zeta potential of 14.2 ± 1.6 mV"
+        },
+        {
+          "sample": "secondary-layer nanoparticles",
+          "size_nm": 92.3,
+          "pdi": null,
+          "zeta_mV": 5.7,
+          "medium": "not_declared",
+          "source": "DLS size/zeta",
+          "quote": "secondary layer nanoparticles exhibited an increased particle size of 92.3 ± 2.6 nm and a decreased zeta potential of 5.7 ± 0.4 mV"
+        },
+        {
+          "sample": "triple-layered core-shell nanogel",
+          "size_nm": 110,
+          "pdi": null,
+          "zeta_mV": -21.2,
+          "medium": "not_declared",
+          "source": "DLS size/zeta",
+          "quote": "particle size of the tertiary nanogel further increased to 110.0 ± 2.7 nm, and the zeta potential was reversed to −21.2 ± 2.6 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "mixture",
+          "sample": "QCS and triple-layered nanogel",
+          "quote": "FTIR of QCS (A)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "triple-layered core-shell nanogel",
+          "quote": "SEM and EDS"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "triple-layered core-shell nanogel under stress conditions",
+          "quote": "FTIR spectrophotometer (G: high temperature"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13168170",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "DCPA-H2O and Cur/DCPA-H2O liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of DCPA-H2O and Cur/DCPA-H2O liposomes"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "bacteria treated with Cur/DCPA-H2O liposomes",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "mixture",
+          "sample": "curcumin, DCPA-H2O and Cur/DCPA-H2O liposomes",
+          "quote": "UV-vis spectra between 260 nm and 600 nm of curcumin"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12847354",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "SLN",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "optimized PIP-SLNs formulation F6",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning Electron Micrograph of the optimized PIP-SLNs formulation (F6)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PIP-SLN F1",
+          "size_nm": 480,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F1 | 358 | -- | 76 | 350 | 59.5 ± 1.8 | 47.3 ± 1.4 | 480.0 ± 26.6"
+        },
+        {
+          "sample": "PIP-SLN F2",
+          "size_nm": 1384,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F2 | 537 | -- | 76 | 350 | 53.12 ± 1.1 | 56.6 ± 2.5 | 1384.0 ± 10.2"
+        },
+        {
+          "sample": "PIP-SLN F3",
+          "size_nm": 728,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F3 | 358 | -- | 152 | 350 | 57.7 ± 0.9 | 50.9 ± 2.1 | 728.0 ± 44.3"
+        },
+        {
+          "sample": "PIP-SLN F4",
+          "size_nm": 255,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F4 | 537 | -- | 152 | 350 | 65.03 ± 2.1 | 60.3 ± 3.0 | 255.0 ± 27.0"
+        },
+        {
+          "sample": "PIP-SLN F5",
+          "size_nm": 669,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F5 | 358 | 284 | -- | 350 | 42.8 ± 3.6 | 61.5 ± 1.1 | 669.0 ± 26.7"
+        },
+        {
+          "sample": "PIP-SLN F6",
+          "size_nm": 191.2,
+          "pdi": null,
+          "zeta_mV": -20.2,
+          "medium": "water",
+          "source": "Table 2; DLS size and zeta from text",
+          "quote": "and smallest particle size (191.2 ± 27.9 nm), favorable zeta potential (−20.2 ± 1.3) and therefore was selected for further investigations."
+        },
+        {
+          "sample": "PIP-SLN F7",
+          "size_nm": 759,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F7 | 358 | 568 | -- | 350 | 45.8 ± 1.5 | 57.7 ± 2.5 | 759.0 ± 10.2"
+        },
+        {
+          "sample": "PIP-SLN F8",
+          "size_nm": 498,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 2; DLS size",
+          "quote": "F8 | 537 | 568 | -- | 350 | 45.01 ± 1.9 | 65.3 ± 1.8 | 498.0 ± 26.8"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 1",
+          "applies_to": "component",
+          "sample": "PIP and lipid excipients",
+          "quote": "FTIR spectra depict transmittance as a function of wave number for PIP"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5449992",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Fe3O4@Au core-shell nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images (scale bar: 100 nm)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Fe3O4@Au NPs",
+          "size_nm": 100,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS mean diameter",
+          "quote": "the mean diameter of the produced Fe3O4@Au NPs was 100 nm by dynamic light scattering analysis"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 NPs",
+          "quote": "Energy dispersive X-ray spectrum of Fe3O4 NPs"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Fe3O4 NPs and Fe3O4@Au NPs",
+          "quote": "UV-visible-near infrared (NIR) extinction spectrum of Fe3O4 NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12957416",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_posstain",
+          "sample": "bevacizumab-loaded PLGA NPs and BEVA-GC PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of bevacizumab-loaded PLGA nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Blank PLGA NPs",
+          "size_nm": 164.43,
+          "pdi": 0.062,
+          "zeta_mV": -19.3,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "Blank PLGA NPs | - | 164.43 ± 5.26 | 0.062 ± 0.032 | -19.30 ± 2.32"
+        },
+        {
+          "sample": "Blank-GC PLGA NPs",
+          "size_nm": 274.18,
+          "pdi": 0.174,
+          "zeta_mV": -21.49,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "Blank-GC PLGA NPs | - | 274.18 ± 8.96 | 0.174 ± 0.037 | -21.49 ± 2.50"
+        },
+        {
+          "sample": "BEVA PLGA NPs 1:10",
+          "size_nm": 264.2,
+          "pdi": 0.084,
+          "zeta_mV": -18.54,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "BEVA PLGA NPs | 1:10 | 264.20 ± 9.81 | 0.084 ± 0.032 | -18.54 ± 2.19"
+        },
+        {
+          "sample": "BEVA PLGA NPs 1:25",
+          "size_nm": 273.8,
+          "pdi": 0.093,
+          "zeta_mV": -18.78,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "1:25 | 273.80 ± 11.80 | 0.093 ± 0.029 | -18.78 ± 1.88"
+        },
+        {
+          "sample": "BEVA PLGA NPs 1:50",
+          "size_nm": 266.53,
+          "pdi": 0.107,
+          "zeta_mV": -17.89,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "1:50 | 266.53 ± 7.28 | 0.107 ± 0.047 | -17.89 ± 2.24"
+        },
+        {
+          "sample": "BEVA-GC PLGA NPs 1:10",
+          "size_nm": 314.83,
+          "pdi": 0.168,
+          "zeta_mV": -17.62,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "BEVA-GC PLGA NPs | 1:10 | 314.83 ± 17.17 | 0.168 ± 0.058 | -17.62 ± 1.27"
+        },
+        {
+          "sample": "BEVA-GC PLGA NPs 1:25",
+          "size_nm": 291.89,
+          "pdi": 0.127,
+          "zeta_mV": -19.97,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "1:25 | 291.89 ± 14.96 | 0.127 ± 0.047 | -19.97 ± 2.25"
+        },
+        {
+          "sample": "BEVA-GC PLGA NPs 1:50",
+          "size_nm": 272.79,
+          "pdi": 0.146,
+          "zeta_mV": -19.56,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "1:50 | 272.79 ± 8.87 | 0.146 ± 0.049 | -19.56 ± 2.14"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 9",
+          "applies_to": "nanoparticle",
+          "sample": "bevacizumab-loaded PLGA NPs",
+          "quote": "FTIR analysis of the bevacizumab-loaded PLGA-based NPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 10",
+          "applies_to": "nanoparticle",
+          "sample": "bevacizumab-loaded PLGA NPs",
+          "quote": "X-Ray diffraction analysis of the bevacizumab-loaded PLGA-based NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12913696",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "ICG@ES-Cu liposome",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images displayed the quasi‐spherical morphology of ICG@ES‐Cu Lip, with scale bar of 400 nm"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ICG@ES-Cu Lip",
+          "size_nm": 208.3,
+          "pdi": null,
+          "zeta_mV": -38.1,
+          "medium": "not_declared",
+          "source": "text; mean size and zeta potential",
+          "quote": "mean particle size and zeta potential of 208.3 ± 1.07 nm (Figure 1B) and −38.1 ± 1.01 mV (Figure 1C)"
+        }
+      ],
+      "spectra": []
+    }
+  ]
+}

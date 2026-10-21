@@ -1,0 +1,586 @@
+{
+  "batch": "EX097",
+  "articles": [
+    {
+      "pmcid": "PMC10302373",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "pure ZnO films",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM image of pure ZnO and elemental mapping using EDS."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Au-decorated ZnO films",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM images of one drop Au-casted films and elemental mapping using EDS"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "pure ZnO nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM image for pure ZnO."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "HRTEM",
+          "sample": "Au-decorated ZnO nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Different HRTEM images for (one drop Au): (a) ZnO:−Au 5 nm, (b) ZnO:−Au 7 nm, (c) ZnO:−Au 10 nm (d) ZnO:−Au 15 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "ZnO and Au-decorated ZnO films",
+          "quote": "XRD patterns for pure ZnO and one drop Au with different sizes"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "pure ZnO",
+          "quote": "elemental mapping using EDS."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Au-decorated ZnO films",
+          "quote": "elemental mapping using EDS"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "pure and Au-decorated ZnO films",
+          "quote": "(a) Absorption, (b) transmission spectra, and (c) Tauc plot for pure and Au-decorated ZnO thick films."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 12",
+          "applies_to": "nanoparticle",
+          "sample": "pure ZnO",
+          "quote": "UV−vis absorption spectra for pure ZnO."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 13",
+          "applies_to": "nanoparticle",
+          "sample": "Au-decorated ZnO films degrading MB",
+          "quote": "UV-vis absorption spectra depicting the degradation profile of MB"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8874531",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS and PEG-CS nanoparticle formulations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images for (A) AA/CS NPs, (B) OX/CS NPs, (C) AA-OX/CS NPs, (D) AA/PEG-CS NPs, (E) OX/PEG-CS NPs, and (F) AA-OX/PEG-CS NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS NPs",
+          "size_nm": 290.3,
+          "pdi": 0.41,
+          "zeta_mV": 27.6,
+          "medium": "not_declared",
+          "source": "DLS Table 1",
+          "quote": "CS NPs | 290.30 ± 7.45 | 0.41 ± 0.009 | +27.60 ± 1.48"
+        },
+        {
+          "sample": "AA/CS NPs",
+          "size_nm": 157.2,
+          "pdi": 0.31,
+          "zeta_mV": 22.02,
+          "medium": "not_declared",
+          "source": "DLS Table 1",
+          "quote": "AA/CS NPs | 157.20 ± 2.40 | 0.31 ± 0.04 | +22.02 ± 1.50"
+        },
+        {
+          "sample": "OX/CS NPs",
+          "size_nm": 188.1,
+          "pdi": 0.25,
+          "zeta_mV": 22.58,
+          "medium": "not_declared",
+          "source": "DLS Table 1",
+          "quote": "OX/CS NPs | 188.10 ± 9.70 | 0.25 ± 0.06 | +22.58 ± 1.85"
+        },
+        {
+          "sample": "AA-OX/CS NPs",
+          "size_nm": 261.1,
+          "pdi": 0.43,
+          "zeta_mV": 40.4,
+          "medium": "not_declared",
+          "source": "DLS Table 1",
+          "quote": "AA-OX/CS NPs | 261.10 ± 9.19 | 0.43 ± 0.03 | +40.40 ± 2.71"
+        },
+        {
+          "sample": "PEG-CS NPs",
+          "size_nm": 273.3,
+          "pdi": 0.3,
+          "zeta_mV": 15.73,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "PEG-CS NPs | 273.30 ± 2.69 | 0.30 ± 0.07 | +15.73 ± 0.98"
+        },
+        {
+          "sample": "AA/PEG-CS NPs",
+          "size_nm": 152.2,
+          "pdi": 0.31,
+          "zeta_mV": 21.84,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "AA/PEG-CS NPS | 152.20 ± 2.40 | 0.31 ± 0.04 | +21.84 ± 1.54"
+        },
+        {
+          "sample": "OX/PEG-CS NPs",
+          "size_nm": 156.6,
+          "pdi": 0.24,
+          "zeta_mV": 21.31,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "OX/PEG-CS NPs | 156.60 ± 4.82 | 0.24 ± 0.03 | +21.31 ± 1.78"
+        },
+        {
+          "sample": "AA-OX/PEG-CS NPs",
+          "size_nm": 176.0,
+          "pdi": 0.26,
+          "zeta_mV": 28.23,
+          "medium": "not_declared",
+          "source": "DLS Table 2",
+          "quote": "AA-OX/PEG CS NPs | 176.00 ± 4.21 | 0.26 ± 0.04 | +28.23 ± 0.93"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CS and PEG-CS formulations with AA/OX",
+          "quote": "FTIR spectra of (a) pure ascorbic acid, (b) pure oxaliplatin"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10180680",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "D- and L-AuNH@CTAB",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of D-AuNH@CTAB (image (a)) and L-AuNH@CTAB (image (b))."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "D- and L-AuNH@D-Pen",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Some examples of SEM images of D-AuNH@D-Pen (b) and L-AuNH@D-Pen (c) are reported."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "D-AuNH@D-Pen population 1",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 50.8,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "a minority part is represented by AuNPs with a surface charge of 50.8 mV (about 34% of the total population)"
+        },
+        {
+          "sample": "D-AuNH@D-Pen population 2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 37.3,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "the rest shows an electrostatic charge of 37.3 mV (about 66%)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "Au@CTAB seeds and chiral AuNPs",
+          "quote": "(a) UV-Vis spectra and (b) ECD spectra of Au@CTAB seed and chiral AuNPs."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "L−AuNH@CTAB and D−AuNH@CTAB",
+          "quote": "Raman spectrum of L−AuNH@CTAB"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "L−AuNH@CTAB and CTAB",
+          "quote": "(b) FTIR spectra of L−AuNH@CTAB (black spectrum) and CTAB (blue line)."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "D-AuNH@D-Pen and L-AuNH@D-Pen",
+          "quote": "(a) Raman spectra of D-AuNH@D-Pen and L-AuNH@D-Pen after the exchange of CTAB with penicillamine"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "penicillamine and AuNP conjugates",
+          "quote": "(b) comparison of FTIR spectra of penicillamine, D-AuNH@D-Pen, and D-AuNH@CTAB."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "D-AuNH@D-Pen and L-AuNH@D-Pen",
+          "quote": "(a) UV-Vis spectra of D-AuNH@D-Pen (red line) and L-AuNH@D-Pen (blue line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9370884",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "Alg-Chi NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "scanning electron micrograph of Alg−Chi NPs at 40.000X and size distribution of Alg−Chi NPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Alg−Chi NPs",
+          "size_nm": 134.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "the size of the nanoparticles, which was determined to be 134.6 nm by DLS."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Alg−Chi NPs",
+          "quote": "FTIR spectrum of Alg−Chi NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10097174",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "bone-shaped gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "UV-Vis absorption spectrum and TEM images of bone-shaped gold nanoparticles."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "STEM",
+          "sample": "silica-coated gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a–d) TEM images of gold nanoparticles coated with silica using MPTMS."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "nanotags observed in HeLa and HEP G2 cells",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of HeLa and HEP G2 cells after incubation with nanotags."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "bone-shaped gold nanoparticles",
+          "quote": "UV-Vis absorption spectrum and TEM images of bone-shaped gold nanoparticles."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "silica-coated gold nanoparticles",
+          "quote": "(f) EDX line scan for Si Kα, O Kα, and Au Lα signals of the particle shown in (e)."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "nanotags before and after folic-acid functionalization",
+          "quote": "SERS spectra of nanotags colloidal solutions before and after functionalization with folic acid"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "nanotags in HeLa cells",
+          "quote": "SERS spectra recorded from the nanoparticle agglomerates in different randomly selected HeLa cells."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12250871",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "synthesized and commercial chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of chitosan nanoparticles synthesized at (a) 40 amplitudes, (b) 60 amplitudes, (c) 80 amplitudes, and (d) commercial chitosan nanoparticles."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan nanoparticles",
+          "quote": "FTIR-ATR spectrum of chitosan nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10146258",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au nanoparticles in Au-acetone system",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images in a light (a) and dark (b) field, and the size distribution (c) of Au nanoparticles in the Au-acetone system."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Fe nanoparticles in Fe-acetone system",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (a) and the size distribution (b) of Fe nanoparticles from the Fe-acetone system."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "Au nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Au NPs SEM micrographs at various magnifications."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "AuAcMTX conjugate nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM-image of morphology of AuAcMTX conjugate nanoparticles (a) and its elemental mappings"
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "FeAcMTX conjugate nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM-image of morphology of FeAcMTX conjugate nanoparticles (a) and its elemental mappings"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "AuAcMTX",
+          "quote": "Energy dispersive X-ray spectrum from AuAcMTX: C—58.5 at. %; O—20.1 at. %; N—7.0 at. %; Au—8.4 at. %."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 8",
+          "applies_to": "nanoparticle",
+          "sample": "FeAcMTX",
+          "quote": "Energy dispersive X-ray spectrum from FeAcMTX: C—51.5 at. %; O—37.3 at. %; N—12.9 at. %; Fe—14.1 at. %."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "Au NPs and FeOx NPs",
+          "quote": "PXRD diffractograms of Au NPs (a) and FeOx NPs (b)."
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "Au and Fe nanoparticles and their MTX conjugates",
+          "quote": "SAXS patterns from the iron and gold nanoparticles obtained in an acetone medium and their conjugates with methotrexate"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11280287",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC8541160",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "mino/AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM and histogram of mino/AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "mino/AgNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -23.4,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential of mino/AgNPs was found to be −23.4 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "mino/AgNPs",
+          "quote": "UV-visible spectrum of minocycline-modified silver nanoparticles."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "mino/AgNPs",
+          "quote": "UV-visible spectra indicating the stability of mino/AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "mino/AgNPs",
+          "quote": "X-ray Diffraction of minocycline-modified silver nanoparticles."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "mino/AgNPs and minocycline",
+          "quote": "FT-IR Spectra of minocycline (Red) and minocycline-modified silver nanoparticles (Blue)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10866797",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

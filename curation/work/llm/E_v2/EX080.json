@@ -1,0 +1,151 @@
+{
+  "batch": "EX080",
+  "articles": [
+    {
+      "pmcid": "PMC8708285",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 4", "variant": "SEM", "sample": "MRSA and E. coli treated with TBNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of (E) MRSA in PBS, (F) MRSA treated with TBNPs under the laser"}],
+      "descriptors": [{"sample": "TBNPs", "size_nm": 201.7, "pdi": 0.074, "zeta_mV": -8.14, "medium": "not_declared", "source": "text", "quote": "The average size of the TBNPs measured by dynamic light scattering was 201.7 nm with a polydispersity index of 0.074"}],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "TBNPs", "quote": "FTIR spectra of TB, PLGA, and TBNPs."},
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "TBNPs", "quote": "Ultraviolet–visible absorption spectra of TBNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC9695989",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 6", "variant": "SEM", "sample": "hispolon, SBEβCD, dry mixture and HSC inclusion complex powders", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscopic images of powders of inclusion complexes and pure components."}],
+      "descriptors": [
+        {"sample": "SL", "size_nm": 117, "pdi": 0.129, "zeta_mV": -28.5, "medium": "not_declared", "source": "Table 4", "quote": "SL | 117 ± 5 | 0.129 | −28.5 ± 7.4"},
+        {"sample": "H-SL", "size_nm": 130, "pdi": 0.160, "zeta_mV": -26.4, "medium": "not_declared", "source": "Table 4", "quote": "H-SL | 130 ± 8 | 0.160 | −26.4 ± 8.0"},
+        {"sample": "CD-SL", "size_nm": 124, "pdi": 0.194, "zeta_mV": -42.9, "medium": "not_declared", "source": "Table 4", "quote": "CD-SL | 124 ± 6 | 0.194 | −42.9 ± 13.6"},
+        {"sample": "H-CD-SL", "size_nm": 126, "pdi": 0.135, "zeta_mV": -27.8, "medium": "not_declared", "source": "Table 4", "quote": "H-CD-SL | 126 ± 5 | 0.135 | −27.8 ± 7.7"},
+        {"sample": "HSC-SL-10%", "size_nm": 126, "pdi": 0.129, "zeta_mV": -31.4, "medium": "not_declared", "source": "Table 4", "quote": "HSC-SL-10% | 126 ± 10 | 0.129 | −31.4 ± 6.6"},
+        {"sample": "HSC-SL-20%", "size_nm": 114, "pdi": 0.219, "zeta_mV": -34.4, "medium": "not_declared", "source": "Table 4", "quote": "HSC-SL-20% | 114 ± 7.3 | 0.219 | −34.4 ± 6.8"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 4", "applies_to": "mixture", "sample": "hispolon-SBEβCD complex and pure components", "quote": "Fourier Transform (FTIR) spectra of the inclusion complex and pure components."}]
+    },
+    {
+      "pmcid": "PMC12358747",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "DR-AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM pictures of DR-AuNPs at 10 nm (a), at 20 nm (b)."},
+        {"fig": "Figure 4", "variant": "SEM", "sample": "MRSA cells after DR-AuNP treatment", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "Scanning electron microscopy pictures of MRSA cells treated for 24 h"}
+      ],
+      "descriptors": [{"sample": "DR-AuNPs", "size_nm": null, "pdi": null, "zeta_mV": 41.1, "medium": "water", "source": "text", "quote": "The zeta potential of all the examined NPs was 41.1 ± 7.27 mV"}],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "DR-AuNPs", "quote": "UV-vis spectral examination and color intensity of DR-AuNPs at different time intervals of 45 min."},
+        {"technique": "XRD", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "leaf extract and DR-AuNPs", "quote": "XRD patterns of (a) D. retrospiciens aqueous leaf extract and (b) DR-AuNPs"},
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "leaf extract and DR-AuNPs", "quote": "FTIR spectra for (a) aqueous leaf extract of D. retrospiciens and (b) phyto-engineered DR-AgNPs."},
+        {"technique": "EDS", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "DR-AuNPs", "quote": "EDX spectrum of DR-AuNPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC8085149",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 8", "variant": "TEM_prep_not_declared", "sample": "functionalized few-layer black phosphorus", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy of exfoliated and functionalised black phosphorus nanoparticles"},
+        {"fig": "Figure 9", "variant": "SEM", "sample": "functionalized few-layer black phosphorus", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy before and after functionalisation of FLBP"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 10", "applies_to": "nanoparticle", "sample": "few-layer black phosphorus and conjugates", "quote": "Fourier-transform infrared (FTIR) spectra for few layer black phosphorus (FLBP) and its conjugates"},
+        {"technique": "Raman", "fig": "Figure 11", "applies_to": "nanoparticle", "sample": "few-layer black phosphorus and conjugates", "quote": "Raman spectra for few layer black phosphorus (FLBP) and its conjugates"}
+      ]
+    },
+    {
+      "pmcid": "PMC9849584",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "FIGURE 1", "variant": "TEM_prep_not_declared", "sample": "freeze-dried naringin liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image at 10,000 times magnification (A) and the size distribution of freeze-dried Ng liposomes (B)."}],
+      "descriptors": [{"sample": "freeze-dried Ng liposomes", "size_nm": 136.9, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The mean diameter of the freeze-dried Ng liposomes was 136.9 nm (±16.4 nm)"}],
+      "spectra": [{"technique": "FTIR", "fig": "FIGURE 2", "applies_to": "nanoparticle", "sample": "Ng liposomes and Ng-lipo/SAIB depots", "quote": "FTIR spectra of Naringin (A), Ng liposomes (B), SAIB (C). and Ng-lipo/SAIB (D) depots."}]
+    },
+    {
+      "pmcid": "PMC11728425",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 1", "variant": "SEM", "sample": "Aspergillus flavus", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM imaging."},
+        {"fig": "Figure 7", "variant": "SEM", "sample": "biogenic AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image"},
+        {"fig": "Figure 7", "variant": "TEM_prep_not_declared", "sample": "biogenic AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "synthesized AgNPs", "quote": "Ultraviolet-visible absorption spectrum of the synthesized AgNPs"},
+        {"technique": "EDS", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "native silver nanoparticles", "quote": "EDX examination illustrating the elemental composition of native silver."},
+        {"technique": "XRD", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "silver nanoparticles", "quote": "XRD pattern of silver nanoparticles"},
+        {"technique": "FTIR", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "silver nanoparticles", "quote": "FTIR spectroscopy to identify functional groups that stabilize or cap AgNPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC8709497",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "empty and VCM-loaded PLGA15C nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Typical TEM images of NPs prepared by double-emulsion using PLGA15C"},
+        {"fig": "Figure 6", "variant": "cryoTEM", "sample": "empty and VCM-loaded PLGA/PLA nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative cryo-TEM images of (A) empty PLGA15C NPs"},
+        {"fig": "Figure 7", "variant": "SEM", "sample": "empty and VCM-loaded PLGA15C nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images (top) with EDX analysis (below) of (A) empty PLGA15C NPs"},
+        {"fig": "Figure 8", "variant": "STEM", "sample": "VCM-loaded PLGA15C nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "STEM image of VCM-loaded PLGA15C NPs in which inner aqueous compartments are visible."},
+        {"fig": "Figure 9", "variant": "STEM", "sample": "VCM-loaded PLGA15C nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "STEM image of VCM-loaded PLGA15C NPs"}
+      ],
+      "descriptors": [
+        {"sample": "PLA8C", "size_nm": 319, "pdi": 0.18, "zeta_mV": -1.6, "medium": "KCl", "source": "Table 1", "quote": "319 | 0.18 ± 0.05 | −1.6 ± 0.1"},
+        {"sample": "PLA15C", "size_nm": 322, "pdi": 0.25, "zeta_mV": -1.7, "medium": "KCl", "source": "Table 1", "quote": "322 | 0.25 ± 0.07 | −1.7 ± 0.1"},
+        {"sample": "PLGA13C", "size_nm": 312, "pdi": 0.13, "zeta_mV": -1.9, "medium": "KCl", "source": "Table 1", "quote": "312 | 0.13 ± 0.01 | −1.9 ± 0.1"},
+        {"sample": "PLGA15C", "size_nm": 325, "pdi": 0.19, "zeta_mV": -1.9, "medium": "KCl", "source": "Table 1", "quote": "325 | 0.19 ± 0.02 | −1.9 ± 0.1"},
+        {"sample": "PLGA23C", "size_nm": 323, "pdi": 0.18, "zeta_mV": -1.3, "medium": "KCl", "source": "Table 1", "quote": "323 | 0.18 ± 0.03 | −1.3 ± 0.1"},
+        {"sample": "PLGA28C", "size_nm": 326, "pdi": 0.21, "zeta_mV": -0.7, "medium": "KCl", "source": "Table 1", "quote": "326 | 0.21 ± 0.03 | −0.7 ± 0.3"},
+        {"sample": "PLGA54C", "size_nm": 324, "pdi": 0.14, "zeta_mV": -1.4, "medium": "KCl", "source": "Table 1", "quote": "324 | 0.14 ± 0.01 | −1.4 ± 0.3"},
+        {"sample": "PLGA61C", "size_nm": 350, "pdi": 0.16, "zeta_mV": -1.4, "medium": "KCl", "source": "Table 1", "quote": "350 | 0.16 ± 0.03 | −1.4 ± 0.1"}
+      ],
+      "spectra": [
+        {"technique": "EDS", "fig": "Figure 7", "applies_to": "nanoparticle", "sample": "VCM-loaded PLGA15C nanoparticles", "quote": "EDX analysis (below) of (A) empty PLGA15C NPs, (B) VCM-loaded PLGA15C NPs."},
+        {"technique": "EDS", "fig": "Figure 8", "applies_to": "nanoparticle", "sample": "VCM-loaded PLGA15C nanoparticles", "quote": "Chemical mapping for elemental analysis of (B) carbon (red) and (C) nitrogen (yellow)."},
+        {"technique": "EDS", "fig": "Figure 9", "applies_to": "nanoparticle", "sample": "VCM-loaded PLGA15C nanoparticles", "quote": "EDX line scanning profiles on (B) the elemental mapping of the nitrogen and (C) of the carbon."},
+        {"technique": "FTIR", "fig": "Figure 10", "applies_to": "nanoparticle", "sample": "empty and VCM-loaded PLA8C nanoparticles", "quote": "ATR-FTIR spectra of VCM (red), empty PLA8C NPs (purple), VCM-loaded PLA8C NPs (green)."}
+      ]
+    },
+    {
+      "pmcid": "PMC9737214",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 2", "variant": "TEM_prep_not_declared", "sample": "CLP-loaded and chitosan-coated liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of CLP-loaded liposomes and CS-coated CLP liposomes"}],
+      "descriptors": [
+        {"sample": "Blank liposomes", "size_nm": 72.83, "pdi": 0.22, "zeta_mV": -44.1, "medium": "not_declared", "source": "Table 1", "quote": "Blank liposomes | 72.83 ± 4.72 d | 0.22 ± 0.04 e | −44.10 ± 2.50 c"},
+        {"sample": "0% CCL (uncoated CS)", "size_nm": 83.45, "pdi": 0.38, "zeta_mV": -27.3, "medium": "not_declared", "source": "Table 1", "quote": "0% CCL(uncoated CS) | 83.45 ± 3.21 c | 0.38 ± 0.02 d | −27.30 ± 1.48 b"},
+        {"sample": "0.2% CCL", "size_nm": 118.47, "pdi": 0.29, "zeta_mV": -11.77, "medium": "not_declared", "source": "Table 1", "quote": "0.2% CCL | 118.47 ± 6.38 b | 0.29 ± 0.03 c | −11.77 ± 0.71 a"},
+        {"sample": "0.5% CCL", "size_nm": 121.67, "pdi": 0.25, "zeta_mV": -10.47, "medium": "not_declared", "source": "Table 1", "quote": "0.5% CCL | 121.67 ± 2.23 b | 0.25 ± 0.02 b | −10.47 ± 0.44 a"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Figure 5", "applies_to": "mixture", "sample": "CCL, chitosan, and Bacillus culture filtrate", "quote": "FT-IR spectra of 0% and 0.5% CCL, CS, and culture filtrate of Bs KB21."}]
+    },
+    {
+      "pmcid": "PMC10304856",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 4", "variant": "SEM", "sample": "flower-like Fe2O3 nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "FESEM image of Fe2O3 nanoparticles at 200 nm showing the flower-like morphology."},
+        {"fig": "Figure 5", "variant": "HRTEM", "sample": "Fe2O3 nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "HRTEM micrograph of Fe2O3 nanoparticles at 200 nm"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "Fe2O3 nanoparticles", "quote": "UV-vis absorption spectrum of Fe2O3 nanoparticles showing a conformational peak at 558 nm."},
+        {"technique": "XRD", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "Fe2O3 nanoparticles", "quote": "The intense and sharp peaks in the XRD pattern of Fe2O3 nanoparticles show the phase purity"},
+        {"technique": "FTIR", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "Fe2O3 nanoparticles", "quote": "FTIR spectra of Fe2O3 nanoparticles within the wavelength of 4000–400 cm−1."},
+        {"technique": "EDS", "fig": "Figure 4", "applies_to": "nanoparticle", "sample": "Fe2O3 nanoparticles", "quote": "EDX spectrum shows the peaks of Fe and O atoms in nanoparticles."}
+      ]
+    },
+    {
+      "pmcid": "PMC9101097",
+      "context": {"article_kind": "research", "carrier_type": "micelle", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Figure 8", "variant": "TEM_prep_not_declared", "sample": "unloaded and CyA-loaded Myrj S100-b-PCL88 micelles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative TEM images obtained from unloaded Myrj S100-b-PCL88 (A) and CyA-loaded Myrj S100-b-PCL88 micelles (B)"}],
+      "descriptors": [
+        {"sample": "Myrj S100-b-PCL44 (before CyA loading)", "size_nm": 49.8, "pdi": 0.38, "zeta_mV": -7.0, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL44 | 49.8 ± 14.9 | 0.38 ± 0.14 | −7.0 ± 1.8"},
+        {"sample": "Myrj S100-b-PCL88 (before CyA loading)", "size_nm": 70.3, "pdi": 0.20, "zeta_mV": -4.7, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL88 | 70.3 ± 2.4 | 0.20 ± 0.04 | −4.7 ± 0.3"},
+        {"sample": "Myrj S100-b-PCL131 (before CyA loading)", "size_nm": 72.6, "pdi": 0.21, "zeta_mV": -9.4, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL131 | 72.6 ± 1.3 | 0.21 ± 0.02 | −9.4 ± 0.7"},
+        {"sample": "Myrj S100-b-PCL44 (after CyA loading)", "size_nm": 41.1, "pdi": 0.44, "zeta_mV": -4.9, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL44 | 41.1 ± 5.6 | 0.44 ± 0.06 | −4.9 ± 3.2"},
+        {"sample": "Myrj S100-b-PCL88 (after CyA loading)", "size_nm": 81.9, "pdi": 0.18, "zeta_mV": -6.8, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL88 | 81.9 ± 2.9 | 0.18 ± 0.01 | −6.8 ± 2.1"},
+        {"sample": "Myrj S100-b-PCL131 (after CyA loading)", "size_nm": 63.5, "pdi": 0.28, "zeta_mV": -1.6, "medium": "not_declared", "source": "Table 2", "quote": "Myrj S100-b-PCL131 | 63.5 ± 13.1 | 0.28 ± 0.05 | −1.6 ± 1.7"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 4", "applies_to": "component", "sample": "Myrj S100 and Myrj-b-PCL copolymers", "quote": "FTIR spectra of Myrj S100 (A), Myrj S100-b-PCL44 (B), Myrj S100-b-PCL88 (C)"},
+        {"technique": "XRD", "fig": "Figure 5", "applies_to": "component", "sample": "Myrj S100 and Myrj-b-PCL copolymers", "quote": "XRD diffractograms (peaks with d-values) of Myrj S100 (A), Myrj S100-b-PCL44 (B)"}
+      ]
+    }
+  ]
+}

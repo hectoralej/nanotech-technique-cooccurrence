@@ -1,0 +1,172 @@
+{
+  "batch": "EX156",
+  "articles": [
+    {
+      "pmcid": "PMC9911601",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "AgNPs stabilized in chitosan", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of AgNPs stabilized in Chitosan."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "silver nanoparticles stabilized in chitosan", "quote": "UV–visible absorption spectrum of silver nanoparticles stabilized in Chitosan."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "silver nanoparticles stabilized in chitosan", "quote": "Typical XRD pattern of silver nanoparticles stabilized in Chitosan."},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "component", "sample": "chitosan", "quote": "XRD pattern of chitosan."},
+        {"technique": "EDS", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "chitosan-based Ag NPs", "quote": "EDX of the prepared chitosan-based Ag NPs stabilized in Chitosan."},
+        {"technique": "FTIR", "fig": "Fig. 8", "applies_to": "mixture", "sample": "pure chitosan and AgNPs stabilized in chitosan", "quote": "FTIR spectra of pure Chitosan and the prepared silver nanoparticles stabilized in Chitosan."}
+      ]
+    },
+    {
+      "pmcid": "PMC10850913",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 5", "variant": "SEM", "sample": "placebo and optimized ENZ-PLGA-PSAR-TPGS NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FESEM images of (A) PLGA-PSAR-TPGS NPs (Placebo), (B) ENZ-PLGA-PSAR-TPGS NPs (optimized formulation)"},
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "placebo and optimized ENZ-PLGA-PSAR-TPGS NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images (C) PLGA-PSAR-TPGS NPs (Placebo), (D) ENZ-PLGA-PSAR-TPGS NPs (optimized formulation)"}
+      ],
+      "descriptors": [
+        {"sample": "DF1", "size_nm": 206.2, "pdi": null, "zeta_mV": 12.6, "medium": "not_declared", "source": "Table 2", "quote": "DF1 | +1 | 0 | 0 | 206.2 ± 0.9 | 12.6 ± 0.8 | 68.2 ± 1.5"},
+        {"sample": "DF12", "size_nm": 178.9, "pdi": null, "zeta_mV": 8.4, "medium": "not_declared", "source": "Table 2", "quote": "DF12 | −1 | 0 | +1 | 178.9 ± 2.3 | 8.4 ± 0.4 | 46.6 ± 1.8"},
+        {"sample": "DF14", "size_nm": 212.8, "pdi": null, "zeta_mV": 12.8, "medium": "not_declared", "source": "Table 2", "quote": "DF14 | +1 | +1 | 0 | 212.8 ± 0.7 | 12.8 ± 1.8 | 75.4 ± 0.9"},
+        {"sample": "DF15", "size_nm": 208.6, "pdi": null, "zeta_mV": 13.1, "medium": "not_declared", "source": "Table 2", "quote": "DF15 | +1 | 0 | +1 | 208.6 ± 1.6 | 13.1 ± 2.4 | 71.2 ± 0.7"},
+        {"sample": "F15 initial", "size_nm": 208.6, "pdi": 0.238, "zeta_mV": 13.11, "medium": "not_declared", "source": "Table 9", "quote": "F15 | Initial | 3 months | 208.6 ± 1.6 | 13.11 ± 0.14 | 0.238 ± 0.02"},
+        {"sample": "F15 after 3 months at 2–8 °C", "size_nm": 209.5, "pdi": 0.245, "zeta_mV": 12.65, "medium": "other", "source": "Table 9", "quote": "F15 | 2–8 °C | 3 months | 209.5 ± 1.02 | 12.65 ± 0.12 | 0.245 ± 0.04"},
+        {"sample": "F15 after 3 months at 25 ± 2 °C", "size_nm": 211.6, "pdi": 0.285, "zeta_mV": 11.34, "medium": "other", "source": "Table 9", "quote": "F15 | 25 ± 2 °C | 3 months | 211.6 ± 0.9 | 11.34 ± 1.5 | 0.285 ± 0.12"},
+        {"sample": "F15 after 3 months at 40 ± 2 °C", "size_nm": 217, "pdi": 0.270, "zeta_mV": 11.01, "medium": "other", "source": "Table 9", "quote": "F15 | 40 ± 2 °C | 3 months | 217 ± 0.6 | 11.01 ± 1.3 | 0.270 ± 0.36"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 6", "applies_to": "mixture", "sample": "ENZ, PLGA, PSAR, TPGS, placebo and drug-loaded NPs", "quote": "B. FT-IR spectra of ENZ, PLGA, PSAR, TPGS, PLGA-PSAR NPs, Physical Mix, Placebo (PLGA-PSAR-TPGS NPs) and DF (ENZ-PLGA-PSAR-TPGS NPs)"},
+        {"technique": "XRD", "fig": "Fig. 6", "applies_to": "mixture", "sample": "ENZ, placebo and ENZ-PLGA-PSAR-TPGS NPs", "quote": "D. XRD pattern of ENZ, Placebo (PLGA-PSAR-TPGS NPs) and DF (ENZ-PLGA-PSAR-TPGS NPs)."}
+      ]
+    },
+    {
+      "pmcid": "PMC7376178",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_negstain", "sample": "m-DDSLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(c) TEM image of m-DDSLNs."},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "m-DDSLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(d) SEM image of m-DDSLNs."}
+      ],
+      "descriptors": [
+        {"sample": "PSLNs", "size_nm": 38.16, "pdi": 0.40, "zeta_mV": -8.44, "medium": "water", "source": "Table 1", "quote": "PSLNs | 38.16 ± 0.51 | 0.40 ± 0.21 | − 8.44 ± 0.20"},
+        {"sample": "DDSLNs", "size_nm": 141, "pdi": 0.248, "zeta_mV": -12.3, "medium": "water", "source": "Table 1", "quote": "DDSLNs | 141 ± 3.2 | 0.248 ± 0.11 | − 12.3 ± 1.89"},
+        {"sample": "m-DDSLNs", "size_nm": 164.3, "pdi": 0.392, "zeta_mV": -14.7, "medium": "water", "source": "Table 1", "quote": "m-DDSLNs | 164.3 ± 17.6 | 0.392 ± 0.18 | − 14.7 ± 3.40"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "mixture", "sample": "AmB, PM, GMS, PSLNs, DDSLNs and m-DDSLNs", "quote": "(a) FTIR spectra for AmB, PM, GMS, PSLNs, DDSLNs, m-DDSLNs."},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "mixture", "sample": "GMS, PM, AmB, HPCD and m-DDSLNs", "quote": "(b) XRD pattern for GMS, PM, AmB, HPCD, m-DDSLNs."}
+      ]
+    },
+    {
+      "pmcid": "PMC7035742",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_negstain", "sample": "rosuvastatin liposomal NPs and chitosomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of rosuvastatin liposomal NPs (a) and chitosomes nano-formulation (b)"}
+      ],
+      "descriptors": [
+        {"sample": "chitosome formulation run 1", "size_nm": 239.48, "pdi": 0.344, "zeta_mV": 12.66, "medium": "not_declared", "source": "Table 1", "quote": "1 | 1.0 | 0.01 | 0.4 | 239.48 ± 5.33 | 0.344 ± 0.065 | 90.88 ± 1.65 | 12.66 ± 1.58"},
+        {"sample": "chitosome formulation run 3", "size_nm": 112.19, "pdi": 0.288, "zeta_mV": -1.83, "medium": "not_declared", "source": "Table 1", "quote": "3 | 2.5 | 0.04 | 0.2 | 112.19 ± 2.90 | 0.288 ± 0.009 | 85.14 ± 5.04 | − 1.83 ± 0.55"},
+        {"sample": "chitosome formulation run 4", "size_nm": 554.33, "pdi": 0.573, "zeta_mV": 26.74, "medium": "not_declared", "source": "Table 1", "quote": "4 | 2.5 | 0.01 | 0.6 | 554.33 ± 11.06 | 0.573 ± 0.045 | 94.59 ± 1.62 | 26.74 ± 0.26"},
+        {"sample": "chitosome formulation run 8", "size_nm": 163.13, "pdi": 0.391, "zeta_mV": -8.14, "medium": "not_declared", "source": "Table 1", "quote": "8 | 2.5 | 0.01 | 0.2 | 163.13 ± 3.29 | 0.391 ± 0.053 | 87.94 ± 2.04 | − 8.14 ± 0.51"},
+        {"sample": "chitosome formulation run 10", "size_nm": 132.77, "pdi": 0.439, "zeta_mV": -10.07, "medium": "not_declared", "source": "Table 1", "quote": "10 | 1.0 | 0.025 | 0.2 | 132.77 ± 4.46 | 0.439 ± 0.061 | 87.61 ± 2.07 | −10.07 ± 1.26"},
+        {"sample": "chitosome formulation run 12", "size_nm": 132.97, "pdi": 0.318, "zeta_mV": -6.92, "medium": "not_declared", "source": "Table 1", "quote": "12 | 4.0 | 0.025 | 0.2 | 132.97 ± 2.11 | 0.318 ± 0.022 | 84.78 ± 3.09 | −6.92 ± 0.16"},
+        {"sample": "chitosome formulation run 15", "size_nm": 259.77, "pdi": 0.382, "zeta_mV": 14.87, "medium": "not_declared", "source": "Table 1", "quote": "15 | 2.5 | 0.025 | 0.4 | 259.77 ± 3.69 | 0.382 ± 0.043 | 85.15 ± 4.07 | 14.87 ± 1.89"},
+        {"sample": "optimized flexible liposomal NPs", "size_nm": 230.34, "pdi": 0.508, "zeta_mV": -10.29, "medium": "not_declared", "source": "text", "quote": "average size of 230.34 ± 8.73 nm, PDI value of 0.508 ± 0.075, zeta potential value of − 10.29 ± 0.46 mV"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "rosuvastatin, phospholipid, chitosan, liposomal NPs and chitosomes", "quote": "Fourier-transformed infrared spectra of rosuvastatin, phospholipid, chitosan, liposomal NPs and chitosomes nano-formulation"}
+      ]
+    },
+    {
+      "pmcid": "PMC5525242",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "DLNPs/PVA and OLNPs/PVA composite film cross sections", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM images of the cross section of a DLNPs/PVA and b OLNPs/PVA composite film with 4 wt% lignin nanoparticles"}
+      ],
+      "descriptors": [
+        {"sample": "DLNPs", "size_nm": 195, "pdi": 0.08, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "DLNPs gave an average particle size of 195 nm with a polydispersity index (PDI) of 0.08"},
+        {"sample": "OLNPs", "size_nm": 197, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "OLNPs exhibited a similar average particle size (197 nm)"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "mixture", "sample": "DLNPs/PVA and OLNPs/PVA composite films", "quote": "UV–Vis light transmittance spectra and digital photographs of a and b DLNPs/PVA and c and d OLNPs/PVA composite films"},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "PVA and composite films with lignin nanoparticles", "quote": "FTIR spectra of neat PVA and the composite films with 4 wt% lignin nanoparticles"}
+      ]
+    },
+    {
+      "pmcid": "PMC7763337",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 10", "variant": "TEM_prep_not_declared", "sample": "AgNPs extracted from BP/AgP and AgNPs on BP/AgP surface", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(B) TEM image of a small part of solid surface with AgNP (BP/AgP), scale bar = 20 nm."},
+        {"fig": "Fig. 11", "variant": "SEM", "sample": "BP, BP/AgP and BP/AgNP nanocomposites", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of the investigated nanocomposites, (A) BP, (B–D) BP/AgP, and (E,F) BP/AgNP."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "mixture", "sample": "BP, BP/AgP and BP/AgNP", "quote": "X-ray powder diffraction pattern of the investigated materials, BP, BP/AgP, and BP/AgNP."},
+        {"technique": "SAXS", "fig": "Fig. 6", "applies_to": "mixture", "sample": "BP, BP/AgP and BP/AgNP", "quote": "Experimental small-angle X-ray scattering (SAXS)profiles of BP, BP/AgP, and BP/AgNP samples"},
+        {"technique": "EDS", "fig": "Fig. 11", "applies_to": "nanoparticle", "sample": "AgNPs on BP/AgP and BP/AgNP", "quote": "combination of SEM imaging with energy-dispersive X-ray spectroscopy (EDX). Blue objects represent the map of AgL signals."},
+        {"technique": "UVVis", "fig": "Fig. 16", "applies_to": "nanoparticle", "sample": "silver nanoparticles and chitosan biopolymer/AgNP composite", "quote": "(A) UV–VIS absorption spectra of 20–30 nm silver nanoparticles solution (AgNP)"}
+      ]
+    },
+    {
+      "pmcid": "PMC11417028",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "free hesperidin and HNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "(A) SEM of free Hes, (B) HNPs (400,00x)"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "HNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(C) TEM of HNPs."}
+      ],
+      "descriptors": [
+        {"sample": "HNPs", "size_nm": 358.03, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The mean particle sizes of the produced HNPs in this study were 358.03 ± 5.71 nm."}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "mixture", "sample": "free hesperidin and HNPs", "quote": "XRD diffractograms of free Hes and HNPs."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "free hesperidin and HNPs", "quote": "Analysis using FTIR spectroscopy: (A) Free Hes (B) Modified nano hesperidin loaded in cross-linked chitosan HNPs"}
+      ]
+    },
+    {
+      "pmcid": "PMC7068958",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "SLN-DTX and blank-SLN", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Morphology of SLN-DTX and blank-SLN was assessed by transmission electron microscopy (TEM)"},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "murine breast adenocarcinoma cells", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron micrograph (SEM). Control cells (without treatment), cells treated with SLN-DTX or DTX."}
+      ],
+      "descriptors": [
+        {"sample": "SLN-DTX", "size_nm": 126, "pdi": 0.19, "zeta_mV": -15, "medium": "not_declared", "source": "text", "quote": "Mean particle size was 126 ± 5.0 nm with PDI of 0.19 ± 0.01, and zeta potential was − 15 ± 0.5 mV."},
+        {"sample": "blank-SLN", "size_nm": null, "pdi": null, "zeta_mV": -11, "medium": "not_declared", "source": "text", "quote": "The zeta potential value of blank-SLN and SLN-DTX were − 11 and − 15 mV, respectively."}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "F127, Compritol, Span 80, docetaxel, Blank-SLN and SLN-DTX", "quote": "a Vibrational spectra in the infrared region of Pluronic F127, Compritol, Span 80, docetaxel, Blank-SLN and SLN-DTX."},
+        {"technique": "Raman", "fig": "Fig. 3", "applies_to": "mixture", "sample": "docetaxel and SLN-DTX", "quote": "b Raman spectra of docetaxel. The highlights represent docetaxel bands in SLN-DTX spectra."}
+      ]
+    },
+    {
+      "pmcid": "PMC7381745",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "DPC-NPs under hydrogen-bond-blocker concentrations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(C) TEM images of DPCs under different concentrations of hydrogen bond blocker (urea)."},
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "DPC-NPs at different pH values", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(E) TEM images of DPCs at different pH values."},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "FDPC-NPs under 50-fold dilution", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(B) TEM images of FDPC-NPs under 50-fold dilution."},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "DPCs and FDPC-NPs at pH 6.5 and 7.4", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(C) TEM images of DPCs and FDPC-NPs at pH 6.5 and 7.4 at different time points."},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "FITC-labeled NPs and peptide", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(F-H) Size and TEM characterization of FITC-labeled NPs at pH 7.4 (F), FITC-labeled peptide at pH 7.4 (G) and FITC-labeled NPs at pH 6.5 (H)."},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "SMMC-7721 cells treated with FDPC-NPs or DOX", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "(D) SEM images of SMMC7721 cells treated with 200 µl of DMEM, DOX (50 µM) or FDPC-NPs (50 µM) for 12h."}
+      ],
+      "descriptors": [
+        {"sample": "DPC-NPs at pH 4.0, 1 h", "size_nm": null, "pdi": null, "zeta_mV": 34.7, "medium": "not_declared", "source": "text", "quote": "At pH 4.0, Zeta potential was +34.7 mV (1 h)"},
+        {"sample": "DPC-NPs at pH 6.0, 1 h", "size_nm": null, "pdi": null, "zeta_mV": 15.3, "medium": "not_declared", "source": "text", "quote": "at pH 6.0 and pH 8.0, Zeta potential of DPC-NPs was +15.3 mV and 8.5 mV (1 h)"},
+        {"sample": "DPC-NPs at pH 8.0, 1 h", "size_nm": null, "pdi": null, "zeta_mV": 8.5, "medium": "not_declared", "source": "text", "quote": "at pH 6.0 and pH 8.0, Zeta potential of DPC-NPs was +15.3 mV and 8.5 mV (1 h)"},
+        {"sample": "FDPC-NPs", "size_nm": 80.85, "pdi": null, "zeta_mV": -9.03, "medium": "not_declared", "source": "text", "quote": "The size of FDPC-NPs was 80.85±5.4 nm, and the zeta potential was -9.03±2.85 mV."}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "DPC-NPs self-assembly process", "quote": "(A) UV-vis spectral characteristics of the DPC-NPs self-assembly process."}
+      ]
+    },
+    {
+      "pmcid": "PMC10403506",
+      "context": {"article_kind": "research", "carrier_type": "cubosome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "cryoTEM", "sample": "rod-shaped phytantriol cubosome", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(A) Electron micrograph of a rod-shaped phytantriol cubosome. Scale bar indicates 100 nm."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "SAXS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "phytantriol, monoolein and phytantriol/tocopherol acetate LLC particles", "quote": "SAXS results with a table comparing lattice parameters (a) and d-space values to those calculated via FFT analysis of cryo-EM micrographs."}
+      ]
+    }
+  ]
+}

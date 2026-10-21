@@ -1,0 +1,446 @@
+{
+  "batch": "EX133",
+  "articles": [
+    {
+      "pmcid": "PMC11826982",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "MSNs with pp OC12 and mm OC12",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A) SEM image of MSNs with pp OC12 ; B) SEM image of MSNs with mm OC12"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "3D-printed objects with MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "B&C) SEM images of broken edges of 3D‐printed objects with MSNs ( mm OC12 )"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "electrospun nanofibers containing mm OC12 MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A–C) SEM images of the NFs with 6 wt.% mm OC12 MSNs with different magnifications"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs without luminophore",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -31.3,
+          "medium": "water",
+          "source": "Table 1; average/median sizes are SEM-derived, omitted as DLS size",
+          "quote": "No luminophore | −31.3 | 41.6 | 41.1 | –"
+        },
+        {
+          "sample": "MSNs with pp OC12",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -24.1,
+          "medium": "water",
+          "source": "Table 1; average/median sizes are SEM-derived, omitted as DLS size",
+          "quote": "pp OC12 | −24.1 | 53.1 | 47.7 | 10.8"
+        },
+        {
+          "sample": "MSNs with mm OC12",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -38.5,
+          "medium": "water",
+          "source": "Table 1; average/median sizes are SEM-derived, omitted as DLS size",
+          "quote": "mm OC12 | −38.5 | 88.9 | 81.3 | 9.9"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "electrospun nanofibers with mm OC12 MSNs",
+          "quote": "spatially resolved EDX measurements for the elements silicon (green) and carbon (red)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12146780",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "SPIONs, activated carbon and SPION-AC nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FESEM images showcasing the morphological features of (a and d) SPIONs, (b and e) AC, and (c and f) the SPION-AC nanocomposite"
+        },
+        {
+          "fig": "Fig. 5",
+          "variant": "HRTEM",
+          "sample": "SPIONs and SPION-AC nanocomposite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a and d) HRTEM images of SPIONs, (b, c and e) morphological features of the SPION-AC nanocomposite"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPIONs",
+          "size_nm": 182.1,
+          "pdi": 0.2,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS results; zeta potential appears in a separate sentence",
+          "quote": "The SPIONs exhibit a hydrodynamic diameter of 182.1 nm and a polydispersity index of 0.2"
+        },
+        {
+          "sample": "SPIONs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 21.6,
+          "medium": "not_declared",
+          "source": "Fig. 3(b) zeta result; kept separate from DLS size row because separate citation",
+          "quote": "Fig. 3(b) presents a zeta potential value of 21.6 mV for the SPIONs"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "SPIONs and SPION-15% AC nanocomposites",
+          "quote": "XRD patterns of the synthesized SPIONs and SPION-15% AC nanocomposites"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "SPION-AC nanocomposite",
+          "quote": "their corresponding EDAX spectra in panels (g, h and i)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6474148",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "C-GNPs and E-GNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) Transmission electron microscopy (TEM) image of C-GNPs shows that the nanoparticles are spherical in shape and ~25 nm in size."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "PC3, RWPE1, MDA-MB-231 and MCF-10A cells after GNP exposure",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of PC3 and RWPE1 cells after 24 h treatment with C-GNPs (A) and E-GNPs (E)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "C-GNPs",
+          "size_nm": 41.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter; zeta potential reported separately",
+          "quote": "hydrodynamic diameters of C-GNPs and E-GNPs were 41.7 and 90.3 nm"
+        },
+        {
+          "sample": "E-GNPs",
+          "size_nm": 90.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic diameter; zeta potential reported separately",
+          "quote": "hydrodynamic diameters of C-GNPs and E-GNPs were 41.7 and 90.3 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "C-GNPs",
+          "quote": "The absorption spectrum of C-GNPs showing λmax at 530 nm."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "E-GNPs",
+          "quote": "The absorption spectrum of E-GNPs showing λmax at 530 nm."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9104402",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "sugarcane extract AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images (100 nm scale bar) of AgNPs synthesized by S. officinarum extract"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "text",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized by S. officinarum extract",
+          "quote": "The maximum absorption spectrum peak was observed at 420 nm, revealing the formation of AgNPs by the stem extract of S. officinarum."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized by S. officinarum extract",
+          "quote": "FTIR spectrums of AgNPs synthesized by S. officinarum extract."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9502869",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "L-NPs (SEM) and E-NPs (TEM/AFM), represented by TEM image",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(C) TEM image of a single E-NPs showing the core-shell structure"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "E-NPs representative sample",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -50,
+          "medium": "water",
+          "source": "Zetasizer zeta measurement; approximate maximum of distribution",
+          "quote": "A narrow zeta potential distribution with a maximum value close to −50 mV was seen for a representative sample"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "linseed oil and L-NPs",
+          "quote": "(A) ATR-FTIR spectrum of LO; (B) ATR-FTIR spectrum of a representative L-NPs sample."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8875903",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "cyclodextrin-capped gold nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of gold nanoparticles synthesized at 0.1% HAuCl4 at room temperature"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles with immobilized β-cyclodextrin",
+          "quote": "Normalized FTIR spectra of β-cyclodextrin Cavamax W7 and of gold nanoparticles with immobilized β-cyclodextrin synthesized under reflux conditions."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11902652",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM images of AuNPs solution; (b) AuNP particle size distribution"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "component",
+          "sample": "CSMA and chitosan",
+          "quote": "infrared spectrograms of CSMA and CS"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12259841",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "γ.MnO2-CS and γ.MnO2-CS/AuNPs/SA/GCE",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of γ.MnO2-CS (A) and γ.MnO2-CS/AuNPs/SA/GCE (B)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "γ.MnO₂-CS",
+          "size_nm": 75.37,
+          "pdi": 0.351,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS reported mean size and PDI; zeta is in a separate sentence",
+          "quote": "Moreover, γ.MnO₂-CS exhibited a narrow size distribution (polydispersity index = 0.351) with an average particle size of 75.37 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "γ.MnO₂-CS",
+          "quote": "XRD pattern of γ.MnO2-CS."
+        },
+        {
+          "technique": "EDS",
+          "fig": "text",
+          "applies_to": "nanoparticle",
+          "sample": "γ.MnO₂-CS",
+          "quote": "The EDX spectrum of γ.MnO₂-CS exhibited peaks at 0.5 keV and 5.9 keV, corresponding to oxygen (O) and manganese (Mn), respectively."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3S(C)",
+          "applies_to": "nanoparticle",
+          "sample": "γ.MnO₂-CS nanohybrids",
+          "quote": "The FT-IR spectra of γ.MnO₂-CS nanohybrids in the range of 500–3500 cm⁻¹"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12512229",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12719879",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Zn0.4Fe2.6O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM images (bright field) of Zn0.4Fe2.6O4 NPs (40 nm)."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Zn0.4Fe2.6O4 and Zn0.4Fe2.6O4@MnFe2O4 NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(1) TEM images of Zn0.4Fe2.6O4 NPs (bright-field images): 5 nm (a), 10 nm (b), 18 nm (c) and 45 nm (d)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure S1",
+          "applies_to": "nanoparticle",
+          "sample": "core and core–shell SPIONs",
+          "quote": "X-ray diffraction patterns of NPs (Figure S1, Supporting Information File 1) were obtained with a PANalytical X’Pert Pro MPD diffractometer."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Zn0.4Fe2.6O4 and Zn0.4Fe2.6O4@MnFe2O4",
+          "quote": "FTIR spectra of Zn0.4Fe2.6O4 NPs (45 nm in red) and Zn0.4Fe2.6O4@MnFe2O4 (50 nm in black)."
+        }
+      ]
+    }
+  ]
+}

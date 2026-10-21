@@ -1,0 +1,499 @@
+{
+  "batch": "EX094",
+  "articles": [
+    {
+      "pmcid": "PMC11858835",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "EC-AuNP and MEC-AuNP carrier systems",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image of E. cannabinum (a), EC-AuNPs system (b), MEC carrier system (c), and MEC-AuNPs carrier system (d)."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM image of AuNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "E. cannabinum, EC-AuNPs and MEC-AuNPs",
+          "quote": "FTIR spectra of E. cannabinum sample, EC-AuNPs system, MEC carrier, and MEC-AuNPs system."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "E. cannabinum and EC-AuNPs",
+          "quote": "Powder XRD patterns of E. cannabinum sample (a), EC-AuNPs system (b)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "E. cannabinum and EC-AuNPs",
+          "quote": "EDX analysis of the E. cannabinum (a) and EC-AuNPs system (b)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9396382",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 3",
+          "variant": "SEM",
+          "sample": "CHNPs and FCHNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrograph of synthesized nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FCHNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 45.6,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential measurements revealed that the cationic FCHNPs (45.6 mV > 24.5 mV) possess more charges than CHNPs."
+        },
+        {
+          "sample": "CHNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 24.5,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The zeta potential measurements revealed that the cationic FCHNPs (45.6 mV > 24.5 mV) possess more charges than CHNPs."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "commercial and fungal chitosan NPs",
+          "quote": "FTIR spectra of (A) commercially available chitosan (CH) and synthesized nanoparticles (CHNPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12816178",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "nano α-TCP-based composites",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Representative SEM images of the nano α-TCP-based composites and their corresponding EDS spectra."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "nano α-TCP and AgNPs, samples A-E",
+          "quote": "FTIR spectra of nano α-TCP and AgNPs for Samples A to E."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "nano α-TCP and AgNPs, samples A-E",
+          "quote": "XRD spectra of the nano α-TCP and AgNPs for Samples A to E."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 8",
+          "applies_to": "mixture",
+          "sample": "nano α-TCP-based composites",
+          "quote": "Representative SEM images of the nano α-TCP-based composites and their corresponding EDS spectra."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13390215",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "SEM",
+          "sample": "clear resin with nanozeolite and chitosan NPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": true,
+          "quote": "Representative SEM images showing surface topography and nanoparticle distribution within the 3D-printed clear resin."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "resin, NZ and chitosan NP groups",
+          "quote": "Fourier Transform Infrared Spectroscopy (FTIR) spectra of the control (CR), 0.25 wt% NZ, 0.5 wt% NZ"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11675958",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "mesoporous silica nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs and size distributions of MSNs prepared from sodium silicate obtained with different PEG concentration"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs before and after ion exchange",
+          "quote": "A comparison of EDS data (a) before and (b) after ion exchange."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "mesoporous silica with CTAC/PEG and after removal",
+          "quote": "The infrared spectrum of mesoporous silica nanoparticles with CTAC/PEG composites (a) and after removal of CTAC and PEG molecules (b)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13118594",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNC formulations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM micrographs of the (A) AuNC, (B) PAM-AuNC, (C) PEG-PAM-AuNC"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "FAuNC and TPP-linked FAuNC",
+          "quote": "UV–vis spectra of (A) FAuNC without TPP+ and (B) TPP+-linked FAuNC."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNCs and functionalized AuNCs",
+          "quote": "FTIR spectra of AuNCs and FAuNCs showing changes in bond vibrations"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10878759",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "STEM",
+          "sample": "AgNPs and AgNPs-PTX",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) STEM image of AgNPs and (b) STEM image of AgNPs-PTX."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 3.12,
+          "pdi": 0.2,
+          "zeta_mV": -47.3,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "AgNPs | 3.12 | 2.32–5.61 | 0.200 | −47.3 | 0.314"
+        },
+        {
+          "sample": "AgNPs-PTX",
+          "size_nm": 34.56,
+          "pdi": null,
+          "zeta_mV": -25.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "AgNPs-PTX | 34.56 | 24.36-58.77 | 0.535 | −25.4 | 3.39"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "paclitaxel, AgNPs and AgNPs-PTX",
+          "quote": "The UV-VIS spectrum of (a) paclitaxel, (b) AgNPs, and (c) AgNPs-PTX."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs, PTX and AgNPs-PTX",
+          "quote": "The FTIR spectrum of (a) AgNPs, (b) PTX, and (c) AgNPs-PTX."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and AgNPs-PTX",
+          "quote": "(a) EDX analysis of AgNPs and (b) EDX analysis of AgNPs-PTX."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5997812",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "Ce-CMEO-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopic (SEM) image of chitosan encapsulated C. martinii essential oil nanoparticles (Ce-CMEO-NPs)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 100 ppm",
+          "size_nm": 455,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 200 ppm",
+          "size_nm": 459,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455 | 459"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 300 ppm",
+          "size_nm": 464,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455 | 459 | 464"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 400 ppm",
+          "size_nm": 468,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455 | 459 | 464 | 468"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 500 ppm",
+          "size_nm": 472,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455 | 459 | 464 | 468 | 472"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 600 ppm",
+          "size_nm": 476,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "472 | 476"
+        },
+        {
+          "sample": "Ce-CMEO-NPs, CMEO 700 ppm",
+          "size_nm": 480,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2",
+          "quote": "Particle size (nm) | 455 | 459 | 464 | 468 | 472 | 476 | 480"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "nanoparticle",
+          "sample": "chitosan, CMEO and Ce-CMEO-NPs",
+          "quote": "Fourier transform infrared (FT-IR) spectra of (A) chitosan, (B) C. martinii essential oil (CMEO), and (C) chitosan encapsulated C. martinii essential oil nanoparticles (Ce-CMEO-NPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12048588",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6197026",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "ASA-CS nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM of ASA/CS nanoparticles."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "ASA-CS, CS Mw 120×10⁴ Da",
+          "size_nm": 142.17,
+          "pdi": 0.337,
+          "zeta_mV": 42.29,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 120 | 25.47 | 17.69 | 142.17 ± 20.56 | 42.29 ± 0.34 | 0.337"
+        },
+        {
+          "sample": "ASA-CS, CS Mw 88×10⁴ Da",
+          "size_nm": 101.55,
+          "pdi": 0.303,
+          "zeta_mV": 40.96,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 88 | 39.48 | 22.41 | 101.55 ± 18.36 | 40.96 ± 0.95 | 0.303"
+        },
+        {
+          "sample": "ASA-CS, CS Mw 53×10⁴ Da",
+          "size_nm": 86.78,
+          "pdi": 0.216,
+          "zeta_mV": 40.43,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 53 | 44.76 | 26.55 | 86.78 ± 21.60 | 40.43 ± 0.73 | 0.216"
+        },
+        {
+          "sample": "ASA-CS, CS Mw 32×10⁴ Da",
+          "size_nm": 79.52,
+          "pdi": 0.104,
+          "zeta_mV": 39.62,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 32 | 46.67 | 27.12 | 79.52 ± 22.13 | 39.62 ± 0.86 | 0.104"
+        },
+        {
+          "sample": "ASA-CS, CS Mw 3.8×10⁴ Da",
+          "size_nm": 81.66,
+          "pdi": 0.153,
+          "zeta_mV": 36.24,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 3.8 | 45.81 | 23.94 | 81.66 ± 19.67 | 36.24 ± 1.02 | 0.153"
+        },
+        {
+          "sample": "ASA-CS, CS Mw 2.2×10⁴ Da",
+          "size_nm": 78.71,
+          "pdi": 0.121,
+          "zeta_mV": 31.03,
+          "medium": "water",
+          "source": "Table 1",
+          "quote": "0.75 | 2.2 | 45.09 | 24.07 | 78.71 ± 21.35 | 31.03 ± 0.63 | 0.121"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "CS, ASA, ASA-CS conjugates and ASA-CS NPs",
+          "quote": "FT-IR of (a) CS, (b) ASA, (c) ASA-CS conjugates and (d) ASA-CS nanoparticles."
+        }
+      ]
+    }
+  ]
+}

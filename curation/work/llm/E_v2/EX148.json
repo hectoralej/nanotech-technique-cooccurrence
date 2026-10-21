@@ -1,0 +1,139 @@
+{
+  "batch": "EX148",
+  "articles": [
+    {
+      "pmcid": "PMC13568845",
+      "context": {"article_kind": "research", "carrier_type": "micelle", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_posstain", "sample": "TTC-U2-p(MEA)94-b-p(DMAc)33 (P1)", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Dry‐state TEM micrograph of TTC‐U2‐p(MEA)94‐b‐p(DMAc)33 (P1). Scale bar = 500 nm."},
+        {"fig": "Fig. 2", "variant": "cryoTEM", "sample": "TTC-U2-p(MEA)94-b-p(DMAc)33 (P1)", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryo‐TEM micrograph of TTC‐U2‐p(MEA)94‐b‐p(DMAc)33 (P1). Scale bar = 500 nm."},
+        {"fig": "Fig. 3", "variant": "TEM_posstain", "sample": "macroCTA combinations P1-P6", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Corresponding TEM micrographs and contour length distributions of P1‐P5"},
+        {"fig": "Fig. 4", "variant": "cryoTEM", "sample": "macroCTA combinations", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Cryo‐TEM images of macroCTA combinations (100, 50%, 20%, and 10% with sticker, from left to right) dispersed in water"},
+        {"fig": "Fig. 6", "variant": "TEM_posstain", "sample": "P5 reaction", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Dry‐state TEM images of evolution (from left to right) of fiber formation during t‐PISA for a reaction equivalent to P5. Scale bar = 1 µm."},
+        {"fig": "Fig. 8", "variant": "TEM_posstain", "sample": "filomicelles after sonication", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Individual TEM micrographs and corresponding contour length distributions"}
+      ],
+      "descriptors": [{"sample": "P6 spherical micelles", "size_nm": 30, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "Fig. 3", "quote": "For 0% sticker (P6), the z‐average diameter (d h = 30 nm) obtained from DLS"}],
+      "spectra": [{"technique": "SAXS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "P1 filomicelles", "quote": "SAXS data (open symbols) of P1 at RT."}]
+    },
+    {
+      "pmcid": "PMC13306553",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "NaCitr-AgNPs, Cyst-AgNPs, kt-AgNPs and dc-AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Physicochemical characterization of ligand-stabilized silver nanoparticles (NaCitr-AgNPs, Cyst-AgNPs, kt-AgNPs, dc-AgNPs) by UV–Vis spectra, TEM micrographs and Zeta potential (ζ) values."},
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "electrospun PCL/PEO dc–AgNP nanofibers", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM of electrospun PCL/PEO dc–AgNP nanofibers at (×180), (×500) and (×2000) magnifications."},
+        {"fig": "Fig. 5", "variant": "SEM", "sample": "electrospun PCL/PEO dc–AgNP nanofibers", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM micrograph of the electrospun membrane"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "ligand-stabilized AgNPs", "quote": "by UV–Vis spectra, TEM micrographs and Zeta potential (ζ) values."},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "dc–AgNPs in PCL/PEO nanofibers", "quote": "EDS spectrum confirming the presence of Ag derived from the incorporated silver nanoparticles."},
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "mixture", "sample": "dc–AgNPs, PCL, PEO and electrospun PCL/PEO dc-AgNP nanofibers", "quote": "ATR–FTIR spectra of dc–AgNPs, PCL (80 k Mn), PEO (300 k Mn), and electrospun PCL/PEO dc-AgNP nanofibers"}
+      ]
+    },
+    {
+      "pmcid": "PMC12030667",
+      "context": {"article_kind": "research", "carrier_type": "micelle", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "nano spray-dried polymeric micelle formulation", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscopic images of the polymeric micelle formulation at various hyaluronic acid concentrations."}],
+      "descriptors": [
+        {"sample": "HyA 0.1% w/v polymeric micelles", "size_nm": 75.4, "pdi": 0.415, "zeta_mV": -15.3, "medium": "not_declared", "source": "Table 3", "quote": "75.4 ± 7.4"},
+        {"sample": "HyA 0.2% w/v polymeric micelles", "size_nm": 102.3, "pdi": 0.325, "zeta_mV": -23.1, "medium": "not_declared", "source": "Table 3", "quote": "102.3 ± 5.4"},
+        {"sample": "HyA 0.3% w/v polymeric micelles", "size_nm": 114.5, "pdi": 0.365, "zeta_mV": -27.5, "medium": "not_declared", "source": "Table 3", "quote": "114.5 ± 3.7"},
+        {"sample": "HyA 0.4% w/v polymeric micelles", "size_nm": 107.3, "pdi": 0.245, "zeta_mV": -34.5, "medium": "not_declared", "source": "Table 3", "quote": "107.3 ± 2.1"},
+        {"sample": "HyA 0.5% w/v polymeric micelles", "size_nm": 213.8, "pdi": 0.564, "zeta_mV": -35.8, "medium": "not_declared", "source": "Table 3", "quote": "213.8 ± 14.5"}
+      ],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 2", "applies_to": "mixture", "sample": "nano spray-dried products, polymeric micelle components and vinpocetine", "quote": "Diffractograms of the nano spray-dried products (HyA0.1–0.5%_PM) and the initial polymeric-micelle forming components and the active substance, vinpocetine (VP)."}]
+    },
+    {
+      "pmcid": "PMC5827706",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "MSNs synthesized with β-CD, HP-β-CD and HP-γ-CD", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "electron microscopy images (S-TEM, TEM and SEM) of MSNs of various shapes"},
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "MSN-20, MSN-1 and MSN-2", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM (i, ii), TEM (iv, vi, vii) and colored STEM (v) images"},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "MSN-3", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of MSNs."},
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "MSN-6-9", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (i, iii, iv) and colored STEM (ii) images"},
+        {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "MSN-10-12", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (i, ii), colored STEM (iii, iv) images"},
+        {"fig": "Fig. 7", "variant": "SEM", "sample": "MSN-14 and MSN-15", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM (i), colored STEM (ii) and TEM (iii) images of MSNs"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "MSN-3", "quote": "EDX mappings for C, O and Si elements"},
+        {"technique": "FTIR", "fig": "Fig. S1", "applies_to": "nanoparticle", "sample": "CD-functionalized silica particles", "quote": "FTIR was used to confirm adsorbed CDs on silica particles (Figure S1b, Supporting Information File 1)."},
+        {"technique": "XRD", "fig": "Fig. 9", "applies_to": "nanoparticle", "sample": "MSNs", "quote": "Wide-angle XRD patterns of the MSNs in the 2θ range of 2–10°."}
+      ]
+    },
+    {
+      "pmcid": "PMC12608785",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "non-decorated, FA-, TAT- and FA/TAT-decorated PLGA NPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Images obtained at 100,000× magnification. Scale bars represent 100 nm."}],
+      "descriptors": [
+        {"sample": "PLGA NPs", "size_nm": 159, "pdi": 0.06, "zeta_mV": -3.6, "medium": "buffer", "source": "Table 1", "quote": "PLGA NPs | 159 ± 12 | 0.06 ± 0.02 | −3.6 ± 1.7"},
+        {"sample": "FA-decorated PLGA NPs", "size_nm": 174, "pdi": 0.07, "zeta_mV": -2.8, "medium": "buffer", "source": "Table 1", "quote": "FA-decorated PLGA NPs | 174 ± 8 * | 0.07 ± 0.02 | −2.8 ± 1.1"},
+        {"sample": "TAT-decorated PLGA NPs", "size_nm": 188, "pdi": 0.05, "zeta_mV": -2.6, "medium": "buffer", "source": "Table 1", "quote": "TAT-decorated PLGA NPs | 188 ± 8 * | 0.05 ± 0.02 | −2.6 ± 1.1"},
+        {"sample": "FA/TAT-decorated PLGA NPs", "size_nm": 174, "pdi": 0.08, "zeta_mV": -2.5, "medium": "buffer", "source": "Table 1", "quote": "FA/TAT-decorated PLGA NPs | 174 ± 4 * | 0.08 ± 0.02 | −2.5 ± 0.1"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "FA, TAT and non-decorated/FA/TAT-decorated PLGA NPs", "quote": "Fourier transform infrared spectroscopy (FTIR) spectra"}]
+    },
+    {
+      "pmcid": "PMC6027406",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "magnetite and mesoporous silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM analysis of MNPs and FMNPs"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "MSNs and FMSNs", "quote": "Low angle XRD patterns of (a) MSNs and FMSNs"},
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Fe3O4 and functionalized magnetite particles", "quote": "Wide angle X-Ray powder diffraction (XRD) patterns"},
+        {"technique": "FTIR", "fig": "Fig. S3–S6", "applies_to": "nanoparticle", "sample": "magnetite- and silica-based nanoparticles", "quote": "The FTIR and UV-vis spectral analyses gave further support to these observations (for details: see Supporting Materials, Figures S3–S6)."},
+        {"technique": "UVVis", "fig": "Fig. S3–S6", "applies_to": "nanoparticle", "sample": "magnetite- and silica-based nanoparticles", "quote": "The FTIR and UV-vis spectral analyses gave further support to these observations (for details: see Supporting Materials, Figures S3–S6)."}
+      ]
+    },
+    {
+      "pmcid": "PMC12245000",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "adalimumab-loaded PLGA NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of adalimumab‐loaded PLGA nanoparticles."}],
+      "descriptors": [
+        {"sample": "Blank PLGA NPs", "size_nm": 164.43, "pdi": 0.062, "zeta_mV": -19.30, "medium": "not_declared", "source": "Table 2", "quote": "Blank PLGA NPs | – | 164.43 ± 5.26 | 0.062 ± 0.032 | −19.30 ± 2.32"},
+        {"sample": "Blank-GC PLGA NPs", "size_nm": 274.18, "pdi": 0.174, "zeta_mV": -21.49, "medium": "not_declared", "source": "Table 2", "quote": "Blank‐GC PLGA NPs | – | 274.18 ± 8.96 | 0.174 ± 0.037 | −21.49 ± 2.50"},
+        {"sample": "ADA PLGA NPs (1:10)", "size_nm": 284.20, "pdi": 0.081, "zeta_mV": -18.87, "medium": "not_declared", "source": "Table 2", "quote": "ADA PLGA NPs | 1:10 | 284.20 ± 7.31 | 0.081 ± 0.027 | −18.87 ± 2.69"},
+        {"sample": "ADA PLGA NPs (1:25)", "size_nm": 283.80, "pdi": 0.073, "zeta_mV": -19.27, "medium": "not_declared", "source": "Table 2", "quote": "1:25 | 283.80 ± 11.80 | 0.073 ± 0.029 | −19.27 ± 1.88"},
+        {"sample": "ADA PLGA NPs (1:50)", "size_nm": 266.53, "pdi": 0.077, "zeta_mV": -18.72, "medium": "not_declared", "source": "Table 2", "quote": "1:50 | 266.53 ± 8.13 | 0.077 ± 0.041 | −18.72 ± 2.24"},
+        {"sample": "ADA-GC PLGA NPs (1:10)", "size_nm": 304.83, "pdi": 0.177, "zeta_mV": -17.26, "medium": "not_declared", "source": "Table 2", "quote": "ADA–GC PLGA NPs | 1:10 | 304.83 ± 24.47 | 0.177 ± 0.038 | −17.26 ± 0.87"},
+        {"sample": "ADA-GC PLGA NPs (1:25)", "size_nm": 271.89, "pdi": 0.171, "zeta_mV": -20.79, "medium": "not_declared", "source": "Table 2", "quote": "1:25 | 271.89 ± 8.96 | 0.171 ± 0.037 | −20.79 ± 2.65"},
+        {"sample": "ADA-GC PLGA NPs (1:50)", "size_nm": 272.79, "pdi": 0.157, "zeta_mV": -19.02, "medium": "not_declared", "source": "Table 2", "quote": "1:50 | 272.79 ± 7.87 | 0.157 ± 0.041 | −19.02 ± 1.34"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 9", "applies_to": "nanoparticle", "sample": "adalimumab-loaded PLGA-based NPs", "quote": "FTIR analysis of the adalimumab‐loaded PLGA‐based NPs."}]
+    },
+    {
+      "pmcid": "PMC4847092",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "HRTEM", "sample": "graphene oxide sheets (GO)", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Image of GO sheets under high-resolution transmission electron microscopes (HR-TEM) at 50,000×"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "GO-Ag sheets", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "image of GO-Ag under field-emission scanning electron microscopes (FE-SEM) at 50,000×"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 3", "applies_to": "component", "sample": "reduced graphene oxide", "quote": "X-ray diffraction (XRD) pattern of reduced GO shows the strongest peak at 25.8° and the distance of d (002) is 0.348 nm."}]
+    },
+    {
+      "pmcid": "PMC12731052",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "NP-TRIMEL", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative SEM image of NP-TRIMEL nanoparticles"}],
+      "descriptors": [
+        {"sample": "NP-TRIMEL", "size_nm": 227, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "DLS analysis revealed an average hydrodynamic size ranging 211–256 nm (mean = 227 ± 16 nm)"},
+        {"sample": "NP-empty", "size_nm": 251, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Control nanoparticles showed similar hydrodynamic sizes: NP-empty, 251 ± 23 nm and NP-Veh, 224 ± 28 nm (both with PDI < 0.1)."},
+        {"sample": "NP-Veh", "size_nm": 224, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "Control nanoparticles showed similar hydrodynamic sizes: NP-empty, 251 ± 23 nm and NP-Veh, 224 ± 28 nm (both with PDI < 0.1)."}
+      ],
+      "spectra": [{"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "NP-TRIMEL", "quote": "Representative EDS mapping images of NP-TRIMEL nanoparticles for carbon (red) and nitrogen (green)."}]
+    },
+    {
+      "pmcid": "PMC4937429",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "MSNs and Fe(0) @ MCM-41", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "SEM images of the MSNs and zero-valent Fe impregnated particles. Scale bar, 100 nm."},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "C6 cells co-incubated with MSNs and Fe(0) @ MCM-41", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy of the C6 cells co-incubated with MSNs and Fe(0) @ MCM-41 particles. Scale bar, 200 nm."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Fe(0) @ MCM-41", "quote": "Energy dispersive X-ray (EDX) spectra of Fe(0) @ MCM-41."},
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Fe(0) @ MCM-41", "quote": "X-ray difractometry pattern of Fe(0) @ MCM-41 nanoparticles."}
+      ]
+    }
+  ]
+}

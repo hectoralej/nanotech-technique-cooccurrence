@@ -1,0 +1,627 @@
+{
+  "batch": "EX129",
+  "articles": [
+    {
+      "pmcid": "PMC10221215",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "HA–QtN#AgNPs and PF/HA–QtN#AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of (a) HA–QtN#AgNPs and (b) PF/HA–QtN#AgNPs. The scale bars indicate 100 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "HA-QtN@AgNPs",
+          "size_nm": 72.11,
+          "pdi": null,
+          "zeta_mV": -42.33,
+          "medium": "water",
+          "source": "Table 1; DLS in DI water",
+          "quote": "1 | HA-QtN@AgNPs | −42.33 ± 1.67 | 72.11± 1.31"
+        },
+        {
+          "sample": "PF/HA-QtN@AgNPs",
+          "size_nm": 131.22,
+          "pdi": null,
+          "zeta_mV": -28.9,
+          "medium": "water",
+          "source": "Table 1; DLS in DI water",
+          "quote": "2 | PF/HA-QtN@AgNPs | −28.9 ± 1.98 | 131.22 ± 3.51"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "HA-QtN#AgNPs and PF/HA-QtN#AgNPs",
+          "quote": "UV–Vis spectra of (a) HA-QtN#AgNPs and (b) PF/HA-QtN#AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "HA−QtN#AgNPs and PF/HA−QtN#AgNPs",
+          "quote": "FTIR bands of (a) HA−QtN#AgNPs, (b) PEG−FA, and (c) PF/HA−QtN#AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10727426",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 1",
+          "variant": "SEM",
+          "sample": "OL/WPNs and OL/Ag-NPs of Tofahy and Shemlali",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of encapsulated olive leaf nanoparticles (OL/WPNs) of Tofahy (A) and Shemlali (B); SEM analysis of Ag-NPs reduced by olive leaf extracts (OL/Ag-NPs)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Tofahy OL/Ag-NPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -21.5,
+          "medium": "not_declared",
+          "source": "Figure 1C / Table 2 cited in results; size is only comparative, not numeric",
+          "quote": "Tofahy OL/Ag-NPs showed slight aggregation (Fig 1C) due to their Ƹ-potential value of -21.50 mV (Table 2), which partially increased their particle size."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig 2",
+          "applies_to": "mixture",
+          "sample": "OLE, OL/WPNs and OL/Ag-NPs",
+          "quote": "FTIR analysis of different olive leaf extract preparations of Tofahy (A) and Shemlali (B) varieties"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9110278",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Cs/AgNPs and Cs-OSi/AgNP colloidal solutions",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "C TEM image of Cs/Ag NP solution."
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "cotton-Cs/AgNPs and cotton-Cs-OSH/AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of the (A, B) cotton fabric, C, D cotton-Cs/AgNPs sample and E, F cotton-Cs-OSH/AgNPs sample"
+        },
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "washed cotton fabric",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "The SEM images of the cotton fabric after 10 times washing at different magnifications"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "Cs/AgNP and Cs-OSi/AgNP colloidal solutions",
+          "quote": "The as-prepared colloidal solutions display strong UV–vis absorption in the visible region which is attributed to the surface plasmon resonance (SPR) of AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 3",
+          "applies_to": "mixture",
+          "sample": "cotton-Cs/AgNPs and cotton-Cs-OSH/AgNPs",
+          "quote": "Figure 3 shows EDS spectra of the cotton and cotton-Cs/Ag NPs fabrics."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8519957",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NH2-MSNs and chitosan-PEG-coated NH2-MSN-siRNA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM and SEM images of the nanoparticles. NH2-MSNs at TEM and SEM monographs represent around 70 nm (A,D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -10.8,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "MSN | − 10.8 ± 1.5"
+        },
+        {
+          "sample": "NH2-MSN",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 16.2,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN | 16.2 ± 1.1"
+        },
+        {
+          "sample": "NH2-MSN-siRNA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -15.2,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA | − 15.2 ± 1.6"
+        },
+        {
+          "sample": "NH2-MSN-siRNA-CS",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 18.5,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA-CS | 18.5 ± 2.2"
+        },
+        {
+          "sample": "NH2-MSN-siRNA-CS-PEG",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -8.4,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA-CS-PEG | − 8.4 ± 0.6"
+        },
+        {
+          "sample": "NH2-MSN-siRNA-CS-PEG-Folate",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 9,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA-CS-PEG-Folate | 9.0 ± .1.5"
+        },
+        {
+          "sample": "NH2-MSN-siRNA-CS-PEG-TAT",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 9.8,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA-CS-PEG-TAT | 9.8 ± 0.9"
+        },
+        {
+          "sample": "NH2-MSN-siRNA-CS-PEG TAT/folate",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 1.7,
+          "medium": "water",
+          "source": "Table 1; zeta measured in DI water",
+          "quote": "NH2-MSN-siRNA-CS-PEG TAT/folate | 1.7 ± 0.6"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-NH2",
+          "quote": "MSN-NH2XRD patterns revealed the locations of the peaks associated with the mesoporous silica structure (C)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs before and after CTAB extraction",
+          "quote": "The FTIR spectra obtained before and after CTAB extraction from MSNs confirmed the successful elimination of CTAB and the addition of the aminopropyl moiety (D)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8016642",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "BSA-AuNCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Characterizations of BSA‐AuNCs: A, UV‐vis absorbance spectroscopy. Inset: preparation of BSA‐AuNCs; B, 3D fluorescence spectroscopy; C, particles size; and D, TEM image."
+        },
+        {
+          "fig": "FIGURE 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNCs, MSN and MSN@AuNCs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "A, Schematic of MSN@AuNCs and TEM images of AuNCs, MSN and MSN@AuNCs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN",
+          "size_nm": 200,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Nanoparticle analyser; approx. size in Figure 2C",
+          "quote": "the average sizes of the MSNs and MSN@AuNCs were approximately 200 nm and 250 nm, respectively"
+        },
+        {
+          "sample": "MSN@AuNCs",
+          "size_nm": 250,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Nanoparticle analyser; approx. size in Figure 2C",
+          "quote": "the average sizes of the MSNs and MSN@AuNCs were approximately 200 nm and 250 nm, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 1",
+          "applies_to": "nanoparticle",
+          "sample": "BSA‐AuNCs",
+          "quote": "A, UV‐vis absorbance spectroscopy."
+        },
+        {
+          "technique": "EDS",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSN@AuNCs",
+          "quote": "D, EDX spectrum of MSN@AuNCs; and E, EDX mappings of MSN@AuNCs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7795496",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "native MSNs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images demonstrating the diameter and internal structure of MSNs: (a) MSNs images on the 50 nm scale-bar"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "native MSNs",
+          "size_nm": 232.97,
+          "pdi": 0.31,
+          "zeta_mV": null,
+          "medium": "other",
+          "source": "DLS; suspension in 10−2 M KCl, adjusted to neutral pH",
+          "quote": "the hydrodynamic size of native MSNs was 232.97 ± 9.56 nm with an ideal PDI of 0.31 ± 0.063."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "native MSNs",
+          "quote": "MSNs demonstrated three distinct diffraction peaks, assigned as (100), (110) and (200) planes"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "native MSNs",
+          "quote": "FT-IR spectra of native MSNs demonstrating the (−OH) signal"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-SH (1) and MSN-SH (2)",
+          "quote": "(a) FT-IR spectra of MSN-SH (1) synthesized in PBS pH 5 and MSN-SH (2) synthesized in anhydrous PhMe."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-PLH (1) and MSN-PLH (2)",
+          "quote": "FT-IR spectra of MSN-PLH (1) and MSN-PLH (2)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "MSN-PLH-TAM",
+          "quote": "FT-IR spectra of MSN-PLH-TAM synthesized from the reaction between MSN-PLH (2) and TAM-TEG-OMs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8068147",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "RS1N",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological features of sample RS1N, as observed by SEM (a) and TEM (b) and size distribution of the particles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "obtained phytosynthesized nanoparticles",
+          "quote": "X-ray diffractograms of the obtained nanoparticles."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure S1",
+          "applies_to": "nanoparticle",
+          "sample": "phytosynthesized nanoparticles",
+          "quote": "The preliminary evaluation of the NPs using UV-Vis spectrometry (Supplementary Material, Figure S1) supports the phytosynthesis success."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8093520",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "An-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AgNPs obtained using aqueous extracts of A. hierochuntica."
+        },
+        {
+          "fig": "FIGURE 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Ar-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images showing the size of the AgNPs obtained using an aqueous extract of A. absinthium."
+        },
+        {
+          "fig": "FIGURE 7",
+          "variant": "SEM",
+          "sample": "AgNP-treated C. albicans",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "(B) SEM image of An-AgNP-treated C. albicans showing abnormal cell size and morphology."
+        },
+        {
+          "fig": "FIGURE 8",
+          "variant": "SEM",
+          "sample": "AgNP-treated P. aeruginosa",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "(B) SEM image of An-AgNP-treated P. aeruginosa showing abnormal cell morphology."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "An-AgNPs",
+          "size_nm": 114,
+          "pdi": null,
+          "zeta_mV": -1.2,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "An-AgNPs | 114 ± 2.04 | −1.2"
+        },
+        {
+          "sample": "Ar-AgNPs",
+          "size_nm": 125.5,
+          "pdi": null,
+          "zeta_mV": -0.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "Ar-AgNPs | 125.5 ± 2.5 | −0.4"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "An-AgNPs and Ar-AgNPs",
+          "quote": "FTIR analysis of An-AgNPs obtained using aqueous extracts of A. hierochuntica (A) and That for AgNPs obtained using an aqueous extract of A. absinthium (B)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10384829",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "gold core–shell nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM and (E) images used to determine the particle diameter of core–shell nanoparticles and core thickness."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Seed AuNPs",
+          "size_nm": 17,
+          "pdi": null,
+          "zeta_mV": -39,
+          "medium": "not_declared",
+          "source": "Table 1; DLS hydrodynamic diameter",
+          "quote": "Seed AuNPs | 13 | 4 × 109 | 17 ± 3 | −39 ± 3"
+        },
+        {
+          "sample": "Seed-mediated grown AuNPs",
+          "size_nm": 44,
+          "pdi": null,
+          "zeta_mV": -39,
+          "medium": "not_declared",
+          "source": "Table 1; DLS hydrodynamic diameter",
+          "quote": "Seed-mediated grown AuNPs | 28 | 4 × 108 | 44 ± 10 | −39 ± 2"
+        },
+        {
+          "sample": "Seed-mediated grown AuNPs with SiO2 shell",
+          "size_nm": 52,
+          "pdi": null,
+          "zeta_mV": -43,
+          "medium": "not_declared",
+          "source": "Table 1; DLS hydrodynamic diameter",
+          "quote": "Seed-mediated grown AuNPs with SiO2 shell | 35 | 3 × 108 | 52 ± 20 | −43 ± 2"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "seed AuNPs, grown AuNPs and core–shell particles",
+          "quote": "(A) UV–vis spectra for seed particles, nanoparticles after seed-mediated growth, and core–shell particles."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles and malachite green dye",
+          "quote": "Comparison of Raman spectra for all synthesized gold nanoparticles and 30 μL of 100 μM malachite green dye (MG)."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "malachite green dye on SERS substrates",
+          "quote": "Calibration curve demonstrating the linear dependence of Raman scattering of MG at 1616 cm−1."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "BSA on AuNPs@SiO2 substrate",
+          "quote": "Raman spectra of BSA with and without enhancement on the AuNPs@SiO2 core–shell substrate."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10626528",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "SEM",
+          "sample": "gold electrodeposits in mesoporous silica film",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Top-view SEM images of gold electrodeposited in the mesoporous silica films with different nucleation potentials and times"
+        },
+        {
+          "fig": "Fig. 6",
+          "variant": "SEM",
+          "sample": "gold electrodeposits after silica removal",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Top-view SEM images of the samples of gold electrodeposited into mesoporous silica/TiN substrates after removing the silica"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "gold electrodeposits in mesoporous silica film",
+          "quote": "The XRD patterns of gold electrodeposited in the mesoporous silica film, the mesoporous silica film on TiN substrate and gold standard pattern ICSD-52249."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure S2",
+          "applies_to": "nanoparticle",
+          "sample": "sample 3 gold electrodeposits",
+          "quote": "S2† shows the EDX mapping and spectrum of sample 3"
+        },
+        {
+          "technique": "SAXS",
+          "fig": "Fig. 8",
+          "applies_to": "nanoparticle",
+          "sample": "gold fractal-like networks",
+          "quote": "The SAXS data are obtained from the horizontal cuts of the GISAXS patterns in Fig. 8"
+        }
+      ]
+    }
+  ]
+}

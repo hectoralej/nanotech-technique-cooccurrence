@@ -1,0 +1,571 @@
+{
+  "batch": "EX131",
+  "articles": [
+    {
+      "pmcid": "PMC6960605",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SNPs and SNPs-g-PDEAEMA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) SNPs, (b) SNPs-g-PDEAEMA and the particle size distribution."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "SNPs, SNPs-KH550, SNPs-Br, SNPs-g-PDEAEMA",
+          "quote": "FT-IR spectra of (a) SNPs, (b) SNPs-KH550, (c) SNPs-Br and (d) SNPs-g-PDEAEMA."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9864186",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "UCNPs@cAMS-6 and drug-loaded derivatives",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM and (b) SEM image of the UCNPs@cAMS-6;"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "UCNPs@sAMS-6",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 16.5,
+          "medium": "not_declared",
+          "source": "Zeta-potential result",
+          "quote": "The surface charge of UCNPs@sAMS-6 is 16.5 mV"
+        },
+        {
+          "sample": "UCNPs@cAMS-6",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -15.9,
+          "medium": "not_declared",
+          "source": "Zeta-potential result",
+          "quote": "UCNPs@cAMS-6 is −15.9 mV"
+        },
+        {
+          "sample": "UCNPs@cAMS-6@DOX&MS",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -2.62,
+          "medium": "not_declared",
+          "source": "Zeta-potential result",
+          "quote": "the surface charge of the UCNPs@cAMS-6@DOX&MS decreased to −2.62 mV"
+        },
+        {
+          "sample": "UCNPs@cAMS-6@DOX&MS@Lyso",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 7.04,
+          "medium": "not_declared",
+          "source": "Zeta-potential result",
+          "quote": "the surface charge changed to 7.04 mV"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9180545",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "S/M/L silica particles, unfunctionalized and functionalized",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of particles: (A) S−SR, (B) S−NH2−SR, (C) S−Gal−SR"
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "M−Lac−SR particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) TEM image of M−Lac−SR particles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "M particles functionalised with APTES and galactose",
+          "quote": "FTIR spectra of the ‘M’ particles functionalised with APTES (M−NH2) and galactose (M−Gal)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "M−Lac particles",
+          "quote": "low angle PXRD patterns of M−Lac particles before (AS) and after (SR) template removal"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "M particles functionalised with APTES and lactose",
+          "quote": "FTIR spectra of ‘M’ particles functionalised with APTES (M−NH2) and lactose (M−Lac)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9785464",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "STEM",
+          "sample": "AuNSs, AuNFs and AuNRs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM images of (A) AuNSs, (B) AuNFs, and (C) AuNRs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNSs (as-synthesized)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -61,
+          "medium": "not_declared",
+          "source": "Zeta potential at pH 6.3",
+          "quote": "The zeta potential (ZP) of as-synthesized AuNSs and AuNFs was −61.0 ± 0.3 mV (pH 6.3)"
+        },
+        {
+          "sample": "AuNFs (as-synthesized)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -58.1,
+          "medium": "not_declared",
+          "source": "Zeta potential at pH 3.9",
+          "quote": "and −58.1 ± 1.0 mV (pH 3.9), respectively."
+        },
+        {
+          "sample": "AuNRs (as-synthesized)",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 71.3,
+          "medium": "not_declared",
+          "source": "Zeta potential at pH 2.6",
+          "quote": "The AuNRs carried a strong positive surface charge (ZP = +71.3 ± 4.9 mV, pH 2.6)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "UV-VIS spectra of AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6415439",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs, MSNs@PDA and MSNs@PDA-PSPP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The transmission electron microscopy (TEM) images of (A,B) MSNs, (C,D) MSNs@PDA and (E,F) MSNs@PDA-PSPP."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs-DOX, MSNs-DOX@PDA and MSNs-DOX@PDA-PSPP",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The TEM images of (A) MSNs-DOX; (B) MSNs-DOX@PDA and (C) MSNs-DOX@PDA-PSPP;"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs-DOX",
+          "size_nm": 123.3,
+          "pdi": 0.139,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2; size measured with NanoSizer",
+          "quote": "MSNs-DOX | 123.3 ± 0.96 | 0.139 | 12.75 ± 0.42"
+        },
+        {
+          "sample": "MSNs-DOX@PDA",
+          "size_nm": 180.5,
+          "pdi": 0.106,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2; size measured with NanoSizer",
+          "quote": "MSNs-DOX@PDA | 180.5 ± 1.20 | 0.106 | 9.86 ± 1.33"
+        },
+        {
+          "sample": "MSNs-DOX@PDA-PSPP",
+          "size_nm": 225.9,
+          "pdi": 0.182,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 2; size measured with NanoSizer",
+          "quote": "MSNs-DOX@PDA-PSPP | 225.9 ± 3.12 | 0.182 | 8.83 ± 1.19"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs@PDA, PSPP-SH and MSNs@PDA-PSPP",
+          "quote": "(A) Fourier transform infrared FTIR spectra of MSNs@PDA, PSPP-SH and MSNs@PDA-PSPP;"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6415400",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs, MSNs@lip-1 and MSNs@lip-2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological characterization of MSNs, MSNs@lip-1 and MSNs@lip-2"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs",
+          "size_nm": 120,
+          "pdi": 0.169,
+          "zeta_mV": -14.8,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "MSNs | 120 ± 12 | 0.169 | −14.8 ± 2.4"
+        },
+        {
+          "sample": "DSPC Liposomes",
+          "size_nm": 126,
+          "pdi": 0.101,
+          "zeta_mV": 12.7,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "DSPC Liposomes | 126 ± 27 | 0.101 | 12.7 ± 0.6"
+        },
+        {
+          "sample": "MSNs@lip-1",
+          "size_nm": 162,
+          "pdi": 0.204,
+          "zeta_mV": 8.6,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "MSNs@lip-1 | 162 ± 41 | 0.204 | 8.6 ± 1.7"
+        },
+        {
+          "sample": "MSNs@lip-2",
+          "size_nm": 384,
+          "pdi": 0.286,
+          "zeta_mV": 13.3,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "MSNs@lip-2 | 384 ± 103 | 0.286 | 13.3 ± 2.2"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs, MSNs@lip-1 and MSNs@lip-2",
+          "quote": "(a) FTIR spectra show the presence of P=O and P–O in MSNs@lip-1 and MSNs@lip-2"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8875691",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "C-AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) micrograph images of C-AuNPs representing spherical monodispersed C-AuNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "C-AuNPs",
+          "size_nm": 65,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS result Figure 4A; zeta −23 mV is reported separately",
+          "quote": "As depicted in Figure 4A, C-AuNPs showed an average particle size of 65 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "C-AuNPs",
+          "quote": "UV–Visible spectra of C-AuNPs showing a characteristic surface plasmon absorption band at 532 nm."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "Pure CTX and C-AuNPs",
+          "quote": "Fourier transform infrared (FTIR) spectra of (A) Pure CTX, (B) C-AuNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6781278",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSN, MSN-PEI and MSN-PEI-FA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "the TEM images of (d) MSN, (e) MSN-PEI, and (f) MSN-PEI-FA"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSN",
+          "size_nm": 95.64,
+          "pdi": 0.222,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted",
+          "quote": "the average size was 95.64 nm, maximum content of particles at 72.42 nm was 15.6%, and polydispersity (PDI) was 0.222."
+        },
+        {
+          "sample": "MSN-PEI",
+          "size_nm": 98.38,
+          "pdi": 0.241,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted",
+          "quote": "the average size was 98.38 nm, maximum content of particles at 94.15 nm was 18.1%, and PDI was 0.241."
+        },
+        {
+          "sample": "MSN-PEI-FA",
+          "size_nm": 97.32,
+          "pdi": 0.234,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted",
+          "quote": "The maximum content of particles at 92.29 nm was 15.9%, average size was 97.32 nm, and PDI was 0.234."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MSN, MSN-PEI and MSN-PEI-FA",
+          "quote": "(a) The full FTIR spectra of MSN, MSN-PEI, and MSN-PEI-FA"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6720288",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNP 800, GNP 2000 and GNP 6000",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Core diameter (CD) and Hydrodynamic Diameter (HD) were obtained from TEM images and DLS, respectively."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GNP 800",
+          "size_nm": 23,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "other",
+          "source": "DLS; 10 mM KNO3",
+          "quote": "23 ± 4 nm, 35 ± 2 nm, and 53 ± 2 nm for GNP 800, GNP 2000, and GNP 6000, respectively"
+        },
+        {
+          "sample": "GNP 2000",
+          "size_nm": 35,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "other",
+          "source": "DLS; 10 mM KNO3",
+          "quote": "23 ± 4 nm, 35 ± 2 nm, and 53 ± 2 nm for GNP 800, GNP 2000, and GNP 6000, respectively"
+        },
+        {
+          "sample": "GNP 6000",
+          "size_nm": 53,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "other",
+          "source": "DLS; 10 mM KNO3",
+          "quote": "23 ± 4 nm, 35 ± 2 nm, and 53 ± 2 nm for GNP 800, GNP 2000, and GNP 6000, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "GNP 800, GNP 2000 and GNP 6000",
+          "quote": "The UV-visible spectra of the GNP before and after the different treatments are represented by solid black lines and dashed gray lines, respectively."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure S2",
+          "applies_to": "nanoparticle",
+          "sample": "GNPs before and after stability treatments",
+          "quote": "UV-visible spectra were recorded (Figure S2) after 0 h, 0.5 h, 1 h, 24 h, 48 h, 72 h"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure S3",
+          "applies_to": "nanoparticle",
+          "sample": "GNP 800",
+          "quote": "see Figure S3 for the UV-visible spectrum and the TEM image of GNP 800 in full size"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6600702",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "STEM",
+          "sample": "SPION-PEG and SPION-CCh",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Bright-field scanning transmission electron microscopy (STEM) images: (A) SPION-PEG, (B) SPION-CCh."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SPION-CCh",
+          "size_nm": 121,
+          "pdi": null,
+          "zeta_mV": 32,
+          "medium": "water",
+          "source": "Table 1; DLS in water suspension",
+          "quote": "SPION-CCh | 121 | +32 ± 6"
+        },
+        {
+          "sample": "SPION-CCh-B",
+          "size_nm": 195,
+          "pdi": null,
+          "zeta_mV": -12,
+          "medium": "water",
+          "source": "Table 1; DLS in water suspension",
+          "quote": "SPION-CCh-B | 195 | −12 ± 5"
+        },
+        {
+          "sample": "SPION-ACh-Gd",
+          "size_nm": 93,
+          "pdi": null,
+          "zeta_mV": -34,
+          "medium": "water",
+          "source": "Table 1; DLS in water suspension",
+          "quote": "SPION-ACh-Gd | 93 | −34 ± 7"
+        },
+        {
+          "sample": "SPION-PEG",
+          "size_nm": 49,
+          "pdi": null,
+          "zeta_mV": -9,
+          "medium": "water",
+          "source": "Table 1; DLS in water suspension",
+          "quote": "SPION-PEG | 49 | −9 ± 4"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "microcrystalline magnetite, SPION-CCh, SPION-ACh-Gd, SPION-CCh-B and SPION-PEG",
+          "quote": "XRD patterns of microcrystalline magnetite, SPION-CCh, SPION-ACh-Gd, SPION-CCh-B and SPION-PEG."
+        }
+      ]
+    }
+  ]
+}

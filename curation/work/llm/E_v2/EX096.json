@@ -1,0 +1,587 @@
+{
+  "batch": "EX096",
+  "articles": [
+    {
+      "pmcid": "PMC9774676",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "biosynthesized silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images (a–d) of the AgNPs demonstrate that their spherical shape ranges from 29 to 70 nm in size."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "UD-AgNPs",
+          "quote": "UV–visible spectra of Urtica dioica extract (A), silver nitrate (B), and biosynthesized nanoparticles of UD (C)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "UD-AgNPs",
+          "quote": "The functional groups of Urtica dioica leaf extract responsible for the formation and stability of silver nanoparticles (UD-AgNPs) were investigated using FTIR (D)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized silver nanoparticles",
+          "quote": "An elemental analysis of AgNPs was confirmed by EDX (e)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12494413",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC9457024",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "MCM-41, MCM-41-TMSPM, MCM-41-PAA, Ca@MCM-41-PAA_5-FU",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a,b) MCM-41, (c,d) MCM-41-TMSPM, (e,f) MCM-41-PAA, (g,h) Ca@MCM-41-PAA_5-FU."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MCM-41, MCM-41-TMSPM, MCM-41-PAA, Ca@MCM-41-PAA_5-FU",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) MCM-41, (b) MCM-41-TMSPM, (c) MCM-41-PAA, and (d) Ca@MCM-41-PAA_5-FU."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MCM-41",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18.3,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "MCM-41 | −18.3"
+        },
+        {
+          "sample": "MCM-41-TMSPM",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -0.135,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "MCM-41-TMSPM | −0.135"
+        },
+        {
+          "sample": "MCM-41-PAA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -51,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "MCM-41-PAA | −51"
+        },
+        {
+          "sample": "MCM-41_5-FU",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 0.132,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "MCM-41_5-FU | 0.132"
+        },
+        {
+          "sample": "MCM-41-PAA_5-FU",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -57.2,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "MCM-41-PAA_5-FU | −57.2"
+        },
+        {
+          "sample": "Ca@MCM-41-PAA_5-FU",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 0.0108,
+          "medium": "aqueous suspension",
+          "source": "Table 2",
+          "quote": "Ca@MCM-41-PAA_5-FU | 0.0108"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ca@MCM-41-PAA_5-FU",
+          "quote": "FE-TEM image (a), EDS mapping (b–h) and spectra (i) of Ca@MCM-41-PAA_5-FU."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "MCM-41 and functionalized forms",
+          "quote": "Low-angle XRD patterns of (a) MCM-41, (b) MCM-41-TMSPM, (c) MCM-41-PAA, and (d) Ca@MCM-41-PAA_5-FU."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "5-FU and loaded MCM-41 formulations",
+          "quote": "Wide-angle XRD patterns of (a) 5-FU, (b) MCM-41_5-FU, (c) MCM-41-PAA_5-FU, and (d) Ca@MCM-41-PAA_5-FU."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "MCM-41 and functionalized forms",
+          "quote": "FT-IR spectra of (a) MCM-41, (b) MCM-41-TMSPM, (c) MCM-41-PAA, and (d) Ca@MCM-41-PAA_5-FU."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9291017",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 6",
+          "variant": "SEM",
+          "sample": "methotrexate-loaded Eudragit S100 nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of methotrexate loaded nanoparticles prepared using Eudragit S100."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FMVs1",
+          "size_nm": 259,
+          "pdi": 0.185,
+          "zeta_mV": -0.344,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVs1 | 60 | 1:10 | 259 ± 1.15 | −0.344 ± 0.10 | 0.185 ± 0.015"
+        },
+        {
+          "sample": "FMVs2",
+          "size_nm": 165.7,
+          "pdi": 0.215,
+          "zeta_mV": -0.163,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVs2 | 80 | 1:10 | 165.7 ± 1.85 | −0.163 ± 0.11 | 0.215 ± 0.010"
+        },
+        {
+          "sample": "FMVs3",
+          "size_nm": 188.6,
+          "pdi": 0.233,
+          "zeta_mV": -1.85,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVs3 | 99 | 1:10 | 188.6 ± 3.1 | −1.85 ± 0.15 | 0.233 ± 0.008"
+        },
+        {
+          "sample": "FMVt4",
+          "size_nm": 270,
+          "pdi": 0.207,
+          "zeta_mV": 0.171,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVt4 | 1 | 1:10 | 270 ± 2 | 0.171 ± 0.14 | 0.207 ± 0.022"
+        },
+        {
+          "sample": "FMVt5",
+          "size_nm": 188.6,
+          "pdi": 0.233,
+          "zeta_mV": -1.85,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVt5 | 3 | 1:10 | 188.6 ± 3.1 | −1.85 ± 0.15 | 0.233 ± 0.008"
+        },
+        {
+          "sample": "FMVt6",
+          "size_nm": 192.5,
+          "pdi": 0.237,
+          "zeta_mV": -2.48,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVt6 | 6 | 1:10 | 192.5 ± 2.83 | −2.48 ± 0.20 | 0.237 ± 0.006"
+        },
+        {
+          "sample": "FMVr7",
+          "size_nm": 165.7,
+          "pdi": 0.215,
+          "zeta_mV": -0.163,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVr7 | Poloxamer-407 | 1:10 | 165.7 ± 1.85 | −0.163 ± 0.11 | 0.215 ± 0.010"
+        },
+        {
+          "sample": "FMVr10",
+          "size_nm": 187.7,
+          "pdi": 0.437,
+          "zeta_mV": -0.59,
+          "medium": "not_declared",
+          "source": "DLS Table 3",
+          "quote": "FMVr10 | PVA | 1:10 | 187.7 ± 1.09 | −0.59 ± 0.36 | 0.437 ± 0.020"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "FIGURE 4",
+          "applies_to": "nanoparticle",
+          "sample": "methotrexate and MTX-Eudragit S100 nanoparticles",
+          "quote": "XRD curve of (A) MTX, (B) Eudragit S100 (C) Poloxamer-407 and (D) MTX- Eudragit S100 nanoparticles (MSX8)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9695521",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Pt1Sn2/DMSN and Pt3Sn9/DMSN catalysts",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and EDS elemental mapping of calcined (A1,A2) Pt1Sn2/DMSN and (B1–B3) Pt3Sn9/DMSN catalyst."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "HRTEM",
+          "sample": "spent Pt1Sn2/DMSN catalyst",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HRTEM images and EDS elemental mapping of spent Pt1Sn2/DMSN catalyst."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "PtSn/DMSN catalysts",
+          "quote": "XRD patterns of calcined PtSn/DMSN catalysts with different ratios of Pt and Sn"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "PtSn/DMSN catalysts",
+          "quote": "Raman spectra of calcined PtSn/DMSN catalysts with different ratios of Pt and Sn"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9654512",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "wasp chitosan nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "Morphology of chitosan nanoparticles visualized by transmission electron microscopy. The scale bars correspond to 1 μm (a,b), 100 nm (c)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "WCSNPs",
+          "size_nm": 477,
+          "pdi": 0.241,
+          "zeta_mV": 43.9,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The average hydrodynamic diameter of chitosan nanoparticles measured by DLS was found to be 477 nm with a polydispersity index (PDI) of 0.241."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "WCS and WCSNP",
+          "quote": "FTIR images of (a) WCS; (b) WCSNP."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10428608",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "HRTEM",
+          "sample": "Ag NPs, Se NPs, and Ag-Se NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Average particle size, and shape for the synthesized NPs where, (a) HRTEM for Ag NPs, (b) HRTEM for Se NPs"
+        },
+        {
+          "fig": "Fig. 4",
+          "variant": "SEM",
+          "sample": "Ag NPs, Se NPs, and Ag-Se NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological characters and surface shape for the synthesized NPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Ag NPs",
+          "size_nm": 45.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "was strongminded by the DLS technique to be 45.8 nm, 49.2 nm, and 66.5 nm, respectively"
+        },
+        {
+          "sample": "Se NPs",
+          "size_nm": 49.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "was strongminded by the DLS technique to be 45.8 nm, 49.2 nm, and 66.5 nm, respectively"
+        },
+        {
+          "sample": "Ag-Se NPs",
+          "size_nm": 66.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS",
+          "quote": "was strongminded by the DLS technique to be 45.8 nm, 49.2 nm, and 66.5 nm, respectively"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs, Se NPs, and Ag-Se NPs",
+          "quote": "Gamma-rays screening by UV-Vis. spectrophotometry for the synthesis of Ag NPs (a), Se NPs (b), and bimetallic Ag-Se NPs (c)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "bimetallic Ag-Se NPs",
+          "quote": "Elemental investigation for the synthesized bimetallic Ag-Se NPs using EDX analysis"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs, Se NPs, and Ag-Se NPs",
+          "quote": "XRD spectra for the synthesized Ag NPs, Se NPs, and bimetallic Ag-Se NPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9330094",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CSNPs and A. vera gel-CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM of synthesized A. vera gel incorporated with CSNPs (A), CSNPs (B), and diameter of some particles (C)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs and A. vera gel-CSNPs",
+          "quote": "UV–vis spectra of CSNPs and A. vera gel incorporated with CSNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "CSNPs",
+          "quote": "FTIR spectra of CSNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "A. vera gel incorporated with CSNPs",
+          "quote": "FTIR spectra of A. vera gel incorporated to CSNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10403537",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "The biosynthesized AuNPs, as detected by the micrographs of TEM (A1, A2)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -10.9,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "having a Zeta potential of − 10.9 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AuNPs",
+          "quote": "UV/visible spectrum of the biosynthesized AuNPs (a single SPR band at 530–535 nm)."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "biosynthesized AuNPs",
+          "quote": "EDX analysis (B) and particle size analyzer measurement (C) of the biosynthesized AuNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs and cell-free supernatant",
+          "quote": "Analyses of the biosynthesized AuNPs with (A) zeta potential, (B) FTIR of AuNPs, (C) FTIR of cell-free supernatant and (D) XRD."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "Analyses of the biosynthesized AuNPs with (A) zeta potential, (B) FTIR of AuNPs, (C) FTIR of cell-free supernatant and (D) XRD."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8955295",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "SCM8–1 formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM Images for the SCM8–1 formulation showing the regular-shaped particles."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SCM8–1 formulation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images SCM8–1 formulation showing the spherical-shaped particles with their particle size values (scale bar: 200 nm)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SCM8-1",
+          "size_nm": null,
+          "pdi": 0.6,
+          "zeta_mV": 38.75,
+          "medium": "not_declared",
+          "source": "text",
+          "quote": "The obtained PDI was 0.60 ± 0.01 and ZP was 38.75 ± 0.35 mV for SCM8-1."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "SCM8-1 and ingredients",
+          "quote": "FTIR spectra for (a) TEOS, (b) chitosan HCl, (c) MβCD, (d) non-medicated physical mixture of SCM8–1 as well as (e) non-medicated SCM8–1."
+        }
+      ]
+    }
+  ]
+}

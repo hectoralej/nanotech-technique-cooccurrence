@@ -1,0 +1,422 @@
+{
+  "batch": "EX132",
+  "articles": [
+    {
+      "pmcid": "PMC13343874",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13209944",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "WA-HA and WA-Ag nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM imaging provided further insight into particle size and structural morphology (Figure 2G,H)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "WA-HA NPs",
+          "size_nm": 94,
+          "pdi": 0.2006,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS result, Figure 2A; zeta value appears in separate sentence",
+          "quote": "The hydrodynamic diameter of the WA-HA NPs was measured at 94 nm with a polydispersity index (PdI) of 0.2006 (Figure 2A)."
+        },
+        {
+          "sample": "WA-Ag NPs",
+          "size_nm": 111.6,
+          "pdi": 0.224,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS result, Figure 2B; zeta value appears in separate sentence",
+          "quote": "the WA-Ag NPs exhibited a larger hydrodynamic size of 111.6 nm and a PdI of 0.224 (Figure 2B)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 2I",
+          "applies_to": "nanoparticle",
+          "sample": "WA-HA NPs",
+          "quote": "The EDS spectrum of WA-HA NPs (Figure 2I) showed dominant peaks corresponding to carbon (C), oxygen (O), and nitrogen (N)"
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 2K",
+          "applies_to": "nanoparticle",
+          "sample": "WA-Ag NPs",
+          "quote": "the EDS spectrum of WA-Ag NPs (Figure 2K) exhibited distinct peaks corresponding to metallic silver (Ag)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12915908",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 7",
+          "variant": "SEM",
+          "sample": "gold nanoparticles synthesized at multiple flow rates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of gold nanoparticles synthesized at total flow rates of 500 μL/min (a, b), 2000 μL/min (d, e), and 5000 μL/min (g, h)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 6",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles collected at multiple flow rates",
+          "quote": "UV-Vis spectra of five different total flow rates."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC13413392",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "mesoporous nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Representative SEM micrographs of mesoporous nanoparticles. Magnification ×20,000."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MNSiCaCe nanoparticles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -29.4,
+          "medium": "not_declared",
+          "source": "Reported zeta potential; particle-size range is not DLS",
+          "quote": "The nanoparticles exhibited a zeta potential of −29.4 ± 1.4 mV (mean ± standard deviation)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MNSi and MNSiCaCe nanoparticles",
+          "quote": "FTIR spectra of the synthesized nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8837818",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "IONPs and IONPs/C",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of (i) bare IONPs and (ii) IONPs/C with average particle size of 35 ± 5 nm."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "IONPs",
+          "size_nm": 34,
+          "pdi": 0.26,
+          "zeta_mV": -24,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "1. | IONPs | 34 | 0.26 | −24"
+        },
+        {
+          "sample": "IONPs/C",
+          "size_nm": 51,
+          "pdi": 0.22,
+          "zeta_mV": 22,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "2. | IONPs/C | 51 | 0.22 | 22"
+        },
+        {
+          "sample": "IONPs/CG",
+          "size_nm": 65,
+          "pdi": 0.27,
+          "zeta_mV": 21,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "3. | IONPs/CG | 65 | 0.27 | 21"
+        },
+        {
+          "sample": "IONPs/CS",
+          "size_nm": 66,
+          "pdi": 0.35,
+          "zeta_mV": 20,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "4. | IONPs/CS | 66 | 0.35 | 20"
+        },
+        {
+          "sample": "IONPs/CGS",
+          "size_nm": 77,
+          "pdi": 0.35,
+          "zeta_mV": 18,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "5. | IONPs/CGS | 77 | 0.35 | 18"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "IONPs and IONPs/C",
+          "quote": "(F) FT-IR spectrum of IONPs, and IONPs/C"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6473966",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 13",
+          "variant": "SEM",
+          "sample": "RTM6 epoxy containing CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographics of (a) neat epoxy resin and (b) RTM6 + 1 wt% CSNPs"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "functionalized silica NPs and core/shell CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) micrographs of (a) functionalized silica NPs and (b) CSNPs."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CSNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscopy (TEM) micrographs of CSNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "functionalized silica NPs and CSNPs",
+          "quote": "Fourier transform infrared (FTIR) spectra of functionalized silica nanoparticles (NPs) (blue curve) and CSNPs (red curve)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9064035",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2–cyclen nanochelator",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image (A), TEM image (B), DLS size distribution (C) of SiO2–cyclen nanochelator"
+        },
+        {
+          "fig": "Fig. 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Aβ aggregates with/without metal ions and nanochelator treatments",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of Aβ (A), Aβ + Cu2+ (B), Aβ + Zn2+ (C)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SiO2–cyclen particles",
+          "size_nm": 65.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS, Fig. 1C",
+          "quote": "The average hydrodynamic diameter of SiO2–cyclen particles was determined by dynamic light scattering, which give a mean diameter of 65.2 ± 4.9 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 1",
+          "applies_to": "nanoparticle",
+          "sample": "SiO2, SiO2–Cl and SiO2–cyclen",
+          "quote": "FT-IR spectra (KBr) of SiO2, SiO2–Cl and SiO2–cyclen (D)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6825627",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "OAMNPPF127FA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron micrograph of OAMNPPF127FA"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MNP",
+          "size_nm": 124.2,
+          "pdi": 2.313,
+          "zeta_mV": -2.1,
+          "medium": "water",
+          "source": "Table 1; DLS in Milli-Q water",
+          "quote": "MNP | 124.2 ± 9.2 | − 2.1 | 2.313"
+        },
+        {
+          "sample": "OAMNPPF127FA",
+          "size_nm": 94.2,
+          "pdi": 1.011,
+          "zeta_mV": -25.5,
+          "medium": "water",
+          "source": "Table 1; DLS in Milli-Q water",
+          "quote": "OAMNPPF127FA | 94.2 ± 6.3 | − 25.5 | 1.011"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "MNP, OAMNP and OAMNPPF127FA",
+          "quote": "Fourier transform infrared spectra of MNP, OA, OAMNP, PF127NH2, PF127FA, and OAMNPPF127FA"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "OAMNPPF127FA",
+          "quote": "The recorded XRD pattern is shown in Fig. 6."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7059613",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNP and GNP-NN-32",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Characterization of GNP-NN-32 by TEM. (A) GNP, (B) GNP-NN-32."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GNP",
+          "size_nm": 18,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS average hydrodynamic diameter",
+          "quote": "The hydrodynamic diameter of the GNP measurement with DLS was observed to be 10-25 nm, with an average size of 18 nm."
+        },
+        {
+          "sample": "GNP-NN-32",
+          "size_nm": 95,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS average hydrodynamic diameter",
+          "quote": "The hydrodynamic diameter of GNP-NN-32 was found to be 90-99 nm, with an average size of 95 nm (Fig. 2)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "GNP, NN-32 and GNP-NN-32",
+          "quote": "Characterization of GNP-NN-32 by UV-VIS Spectroscopy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7231366",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "not_a_nanocarrier",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": false
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    }
+  ]
+}

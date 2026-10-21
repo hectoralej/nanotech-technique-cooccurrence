@@ -1,0 +1,162 @@
+{
+  "batch": "EX154",
+  "articles": [
+    {
+      "pmcid": "PMC7599702",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "biosynthesized Ag-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(A) Transmission eelectron microscopy (TEM) image showing the spherical shape with sizes ranging from 7 to 15 nm"},
+        {"fig": "Fig. 7", "variant": "SEM", "sample": "cotton fabric treated with Ag-NPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscope (SEM) image (A) Blank cotton fabric; (B) treated cotton fabrics with Ag-NPs 100 ppm"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "biosynthesized Ag-NPs", "quote": "Ultraviolet-visible (UV-vis) spectroscopic analysis and the color change of silver nanoparticles (Ag-NPs) synthesized by endophytic S. laurentii R-1."},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Ag-NPs", "quote": "Fourier transform infrared (FT-IR) spectrum of the Ag-NPs derived from endophytic S. laurentii R-1."},
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Ag-NPs", "quote": "X-ray diffraction (XRD) spectra exhibiting the crystalline nature of Ag-NPs synthesized by endophytic S. laurentii R-1."},
+        {"technique": "EDS", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "Ag-NPs on treated cotton fabric", "quote": "energy dispersive X-ray spectroscopy (EDX) of a treated sample with elemental analysis of the Ag-NPs contents."}
+      ]
+    },
+    {
+      "pmcid": "PMC5717630",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Nic-Chi Np's", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(b) TEM image"},
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "Nic-Chi Np's and raw niclosamide powder", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM images of (e) Nic-Chi Np's and (f) raw niclosamide powder"},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "untreated and treated A549 and MCF-7 cells", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "scale bar, 2 µm (untreated) and 1 µm (treated)."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "mixture", "sample": "niclosamide, void chitosan nanoparticles and Nic-Chi Np's", "quote": "(a) UV–visible absorption spectra of niclosamide alone (in ethanol), chitosan void nanoparticles, i.e. without drug, and Nic-Chi Np's"},
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "mixture", "sample": "chitosan, niclosamide and loaded chitosan nanoparticles", "quote": "(a) XRD plot of (i) pure chitosan powder, (ii) niclosamide drug alone, (iii) loaded chitosan nanoparticles (Nic-Chi Np's)."},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "chitosan, niclosamide and Nic-Chi Np's", "quote": "(b) FTIR analysis of pure chitosan powder, niclosamide drug alone and Nic-Chi Np's."}
+      ]
+    },
+    {
+      "pmcid": "PMC6627627",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 4", "variant": "TEM_negstain", "sample": "PT-NLC and P-PT-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy images of PT-NLC (a) and P-PT-NLC (b)."},
+        {"fig": "Fig. 4", "variant": "STEM", "sample": "P-PT-NLC", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "scanning transmission electron microscopy-energy dispersive X-ray spectroscopy (STEM-EDS) image (c)"}
+      ],
+      "descriptors": [
+        {"sample": "PT-NLC code 4", "size_nm": 115.2, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "code 4 showed the smallest particle size (115.2 ± 3.9 nm)"},
+        {"sample": "PT-NLC code 1", "size_nm": null, "pdi": null, "zeta_mV": 2.24, "medium": "not_declared", "source": "text", "quote": "Code 1 showed a high LC value (3.44 ± 0.01%) and the lowest ZP value (2.24 ± 0.5 mV)"},
+        {"sample": "P-PT-NLC", "size_nm": 171, "pdi": null, "zeta_mV": -8.0, "medium": "not_declared", "source": "text", "quote": "The particle size and ZP of P-PT-NLC were 171 ± 0.31 nm and −8.0 ± 0.77 mV, respectively."},
+        {"sample": "PT-NLC with poloxamer 188", "size_nm": 161.8, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "When the poloxamer 188 or Tween 80 was individually used as a surfactant, the particle size of the formulation was 161.8 or 259.8 nm, respectively."},
+        {"sample": "PT-NLC with Tween 80", "size_nm": 259.8, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "When the poloxamer 188 or Tween 80 was individually used as a surfactant, the particle size of the formulation was 161.8 or 259.8 nm, respectively."}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "mixture", "sample": "excipients, PT and PT-NLC formulations", "quote": "powder X-ray diffraction (b) analysis."},
+        {"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "P-PT-NLC", "quote": "EDS mapping image of uranium elements (d) and STEM-EDS line analysis (e) of P-PT-NLC."}
+      ]
+    },
+    {
+      "pmcid": "PMC11055082",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "ferrite nanocubes, gold nanorods and coupled magneto-plasmonic nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "(e) TEM image of magnetic nanoparticles coupled with plasmonic nanorods. Scale bar: 100 nm."},
+        {"fig": "Fig. 7", "variant": "TEM_prep_not_declared", "sample": "magneto-plasmonic elastic liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM image of DPPC:SP80 (85:15) magneto-plasmonic elastic liposomes (scale bar: 200 nm)."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Mg0.75Ca0.25Fe2O4 nanoparticles", "quote": "(a) X-ray diffractogram of Mg0.75Ca0.25Fe2O4 nanoparticles"},
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "Mg0.75Ca0.25Fe2O4 nanoparticles", "quote": "(b) UV-Vis–NIR absorption spectra of Mg0.75Ca0.25Fe2O4 nanoparticles dispersed in water"},
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "gold nanorods dispersed in CTAB", "quote": "(c) UV-Vis–NIR absorption spectra of gold nanorods dispersed in CTAB."},
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "diluted and uncoupled AuNRs", "quote": "(d) UV-Vis–NIR absorption spectra of diluted AuNRs solution and uncoupled AuNRs."},
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "coupled magneto-plasmonic nanoparticles", "quote": "(e) UV-Vis–NIR absorption spectrum of the coupled magneto-plasmonic nanoparticles."}
+      ]
+    },
+    {
+      "pmcid": "PMC11547690",
+      "context": {"article_kind": "research", "carrier_type": "LNP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "E-T/LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(E) TEM of E-T/LNPs."}
+      ],
+      "descriptors": [
+        {"sample": "B/LNPs in water", "size_nm": 88.09, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "(B/LNPs) and E-T/LNPs in water were 88.09 ± 0.15 nm and 77.80 ± 1.01 nm, respectively"},
+        {"sample": "E-T/LNPs in water", "size_nm": 77.8, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "(B/LNPs) and E-T/LNPs in water were 88.09 ± 0.15 nm and 77.80 ± 1.01 nm, respectively"},
+        {"sample": "E-T/LNPs in PBS", "size_nm": 85.11, "pdi": null, "zeta_mV": null, "medium": "PBS", "source": "text", "quote": "E-T/LNPs in water and phosphate-buffered solution (PBS) were 77.80 ± 1.01 nm and 85.11 ± 1.02 nm, respectively."},
+        {"sample": "E-T/LNPs", "size_nm": null, "pdi": null, "zeta_mV": -6.77, "medium": "not_declared", "source": "text", "quote": "The zeta potential of E-T/LNPs (Figure 1C) was −6.77 ± 3.08 mV."}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "B/LNPs, E-T/LNPs, E-T, F127, TET and EMO", "quote": "(F) The FT-IR spectra (B/LNPs, E-T/LNPs, E-T, F127, TET, EMO)."}
+      ]
+    },
+    {
+      "pmcid": "PMC5869654",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "GO, GO-SH and GO-Ag composites", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "images of (a) pristine graphene oxide (GO); (b) thiol grafted graphene oxide (GO–SH)"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Ag NPs, GO and GO-Ag composites", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(a) Transmission electron microscope (TEM) images of pristine silver nanoparticles (Ag NPs)"}
+      ],
+      "descriptors": [
+        {"sample": "GO nanosheets", "size_nm": 962.83, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The average hydrodynamic diameter (AHD) of GO was recorded at 962.83 ± 141 nm (n = 3)."}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "mixture", "sample": "GO, GO-SH and GO-Ag composites", "quote": "(a) The XRD graph of GO, GO–SH, GO-Ag 0.1 M, GO-Ag 0.2 M; and GO-Ag 0.25 M composites"},
+        {"technique": "Raman", "fig": "Fig. 3", "applies_to": "mixture", "sample": "graphite, GO and GO-Ag 0.2 M composites", "quote": "(b) Raman analysis of graphite, GO, and GO-Ag 0.2 M composites."},
+        {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "mixture", "sample": "GO, GO-SH and GO-Ag composites", "quote": "FTIR analysis of (a) GO, GO–SH, GO-Ag 0.1 M, GO-Ag 0.2 M, and GO-Ag 0.25 M composites"},
+        {"technique": "UVVis", "fig": "Fig. 5", "applies_to": "mixture", "sample": "GO, Ag nanoparticles, GO-SH and GO-Ag composite", "quote": "(a) UV-visible spectra of pristine GO, pristine Ag nanoparticles, GO–SH, and GO-Ag 0.2 M composite"}
+      ]
+    },
+    {
+      "pmcid": "PMC6468524",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "carbon nanodots", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(D) TEM image of CNDTs."},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "carbon nanodots", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(E) SEM image of CNDTs."},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "exfoliated graphite electrode", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "(F) SEM image of the exfoliated graphite electrode."},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "CNDTs@G2-PPI on exfoliated graphite electrode", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(I) SEM image of CNDTs@G2-PPI on the exfoliated graphite electrode."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "carbon nanodots", "quote": "(A) XRD spectrum of carbon nanodots (CNDTs)."},
+        {"technique": "Raman", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "carbon nanodots", "quote": "(B) Raman spectrum of CNDTs."},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "carbon nanodots", "quote": "(C) Fourier transform infrared spectroscopy (FTIR) of CNDTs."}
+      ]
+    },
+    {
+      "pmcid": "PMC8831049",
+      "context": {"article_kind": "research", "carrier_type": "NLC", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 10", "variant": "TEM_prep_not_declared", "sample": "optimized RBO-NLCs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of optimized RBO-NLCs."}
+      ],
+      "descriptors": [
+        {"sample": "optimized RBO-NLCs, initial", "size_nm": 114.23, "pdi": 0.649, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "particle size (114.23 ± 2.75 nm), entrapment efficiency (87.7 ± 1.79%w/w), and PDI (0.649 ± 0.043)."},
+        {"sample": "RBO-NLCs, 1 month", "size_nm": 127.78, "pdi": 0.711, "zeta_mV": null, "medium": "not_declared", "source": "Table 13", "quote": "1 | No | No | 127.78 | 1.26 | 0.711 | 0.067 | 86.47 | 0.91"},
+        {"sample": "RBO-NLCs, 3 months", "size_nm": 131.91, "pdi": 0.703, "zeta_mV": null, "medium": "not_declared", "source": "Table 13", "quote": "3 | No | No | 131.91 | 2.50 | 0.703 | 0.054 | 85.87 | 0.79"},
+        {"sample": "RBO-NLCs, 6 months", "size_nm": 135.44, "pdi": 0.707, "zeta_mV": null, "medium": "not_declared", "source": "Table 13", "quote": "6 | No | No | 135.44 | 1.31 | 0.707 | 0.067 | 85.13 | 0.91"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 11", "applies_to": "mixture", "sample": "RBO and RBO-NLCs", "quote": "p-XRD of (a) pure RBO and (b) RBO-NLCs."},
+        {"technique": "FTIR", "fig": "Fig. 12", "applies_to": "mixture", "sample": "RBO and RBO-NLCs", "quote": "FT-IR spectra of (a) RBO (drug alone) and (b) RBO-NLCs."}
+      ]
+    },
+    {
+      "pmcid": "PMC8978894",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "MnFe2O4 nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM sample holder (grid). Scale: 50 nm."},
+        {"fig": "Fig. 2", "variant": "cryoTEM", "sample": "non-magnetic DOX-loaded folate-targeted PEGylated magnetoliposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(B) Cryo-TEM representative image of a non-magnetic aliquot of DFPML"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "MnFe2O4 NPs", "quote": "(D) XRD spectrum of powder-dried NPs."},
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "component", "sample": "DSPE-PEG-FA", "quote": "(C) FTIR spectrum of the synthetic molecule DSPE-PEG-FA, responsible for the folate-targeting property of DFPML."}
+      ]
+    },
+    {
+      "pmcid": "PMC11031593",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "lignin nanoparticles (LNPs)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM analysis of micropore formation in PL (a, b, and c) versus LNP (d, e, and f)"}
+      ],
+      "descriptors": [
+        {"sample": "LNP", "size_nm": 208, "pdi": 0.14, "zeta_mV": -13.3, "medium": "not_declared", "source": "Table 1", "quote": "LNP | −13.3 ± −2.1 | 208 ± 18 | 74*"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "pristine lignin (PL) and LNPs", "quote": "FT-IR analysis of functional groups in PL and LNPs."}
+      ]
+    }
+  ]
+}

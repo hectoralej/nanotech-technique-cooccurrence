@@ -1,0 +1,161 @@
+{
+  "batch": "EX159",
+  "articles": [
+    {
+      "pmcid": "PMC10233837",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "MnO and Mn3O4 nanocrystals; commercial manganese oxide nanocrystals", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of In-house (a) MnO and (b) Mn3O4; US Nano’s (c) Mn2O3 and (d) Mn3O4"},
+        {"fig": "Figure 5", "variant": "SEM", "sample": "PLGA-encapsulated manganese oxide nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of PLGA-encapsulated In-house (a) MnO and (b) Mn3O4 NPs"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "manganese oxide nanocrystals", "quote": "XRD spectra for (a) In-house MnO, (b) Nanoshel’s MnO, (c) US Nano’s Mn2O3"},
+        {"technique": "EDS", "fig": "Supporting Figure S2", "applies_to": "nanoparticle", "sample": "manganese oxide nanocrystals", "quote": "scanning electron microscopy–energy-dispersive X-ray spectroscopy (SEM-EDS) was performed on all of the nanocrystals (Supporting Figure S2)."},
+        {"technique": "FTIR", "fig": "Supporting Figure S4", "applies_to": "nanoparticle", "sample": "manganese oxide nanocrystals and nanoparticles", "quote": "First, Fourier transform infrared spectroscopy (FTIR) was used on all of the nanocrystals to assess the coating (Supporting Figure S4)."}
+      ]
+    },
+    {
+      "pmcid": "PMC7696174",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 1", "variant": "TEM_prep_not_declared", "sample": "RSV-SLNs and SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Morphology of RSV-SLNs and SLNs observed by TEM (A,B)"}
+      ],
+      "descriptors": [
+        {"sample": "RSV-SLNs", "size_nm": 156.1, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "The equivalent mean hydrodynamic diameter was about 156.10 nm"},
+        {"sample": "SLNs", "size_nm": 78.3, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the SLNs revealed a particle size distribution with an average diameter 78.30 nm"}
+      ],
+      "spectra": [
+        {"technique": "Raman", "fig": "Figure 3", "applies_to": "nanoparticle", "sample": "RSV-SLNs and SLNs", "quote": "Raman spectra of RSV, RSV-SLNs and SLNs (A)"}
+      ]
+    },
+    {
+      "pmcid": "PMC9654586",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 6", "variant": "TEM_prep_not_declared", "sample": "B. subtilis ATCC6633 cells after incubation", "shows_nanocarrier": false, "scale_bar_in_caption": true, "quote": "The TEM micrographs of B. subtilis ATCC6633: overnight culture, cells incubated with LV"},
+        {"fig": "Figure 9", "variant": "TEM_prep_not_declared", "sample": "HPCDpol-Cu2+ particles adsorbed on bacterial cells", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "The TEM microphotographs of HPCDpol-Cu2+ particle adsorption on B. subtilis ATCC 6633"}
+      ],
+      "descriptors": [
+        {"sample": "HPCDpol", "size_nm": 110, "pdi": null, "zeta_mV": 9.2, "medium": "buffer", "source": "Table 1", "quote": "HPCDpol | 110 ± 15 | 9.2 ± 1.2 | 100 ± 15"},
+        {"sample": "MCDpol", "size_nm": 165, "pdi": null, "zeta_mV": 22.9, "medium": "buffer", "source": "Table 1", "quote": "MCDpol | 165 ± 15 | 22.9 ± 1.2 | 130 ± 15"},
+        {"sample": "SBECDpol", "size_nm": 110, "pdi": null, "zeta_mV": -13.4, "medium": "buffer", "source": "Table 1", "quote": "SBECDpol | 110 ± 15 | −13.4 ± 0.9 | 115 ± 13"},
+        {"sample": "AMCDpol", "size_nm": 122, "pdi": null, "zeta_mV": 10.2, "medium": "buffer", "source": "Table 1", "quote": "AMCDpol | 122 ± 17 | 10.2 ± 2.2 | 122 ± 15"},
+        {"sample": "Liposomes DPPC:CL = 80:20", "size_nm": 105, "pdi": null, "zeta_mV": -20.9, "medium": "buffer", "source": "Table 1", "quote": "Liposomes DPPC:Cl = 80:20 (weight %) | 105 ± 7 | −20.9 ± 3.2"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure S1", "applies_to": "nanoparticle", "sample": "cyclodextrin polymers", "quote": "The structure of the polymers was studied by FTIR and NMR spectroscopy (Figure S1)."},
+        {"technique": "XRD", "fig": "Figure 3", "applies_to": "mixture", "sample": "levofloxacin and cyclodextrin polymer complexes", "quote": "we obtained powder X-ray diffraction (PXRD) patterns (Figure 3)"}
+      ]
+    },
+    {
+      "pmcid": "PMC10673925",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscope (TEM) images of NPs"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron microscope (SEM) images of NPs"},
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "CVSN particles in intestinal tissue", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Bio-TEM images of the mucosa from the duodenum, jejunum and ileum of mice"},
+        {"fig": "Fig. 6", "variant": "TEM_prep_not_declared", "sample": "nanoparticle uptake in Caco-2 cells", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "bio-TEM images of the cellular uptake of NPs on Caco-2 cells"}
+      ],
+      "descriptors": [
+        {"sample": "SSN, MSN, VSN, AVSN and CVSN", "size_nm": 130, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "All NPs were homogeneous in shape and size, with average particle sizes of 80 nm and hydrated particle sizes of 130 nm"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "NPs", "quote": "Fourier transform infrared (FTIR) spectra of NPs."},
+        {"technique": "SAXS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "mesoporous silica nanoparticles", "quote": "Small angle X-ray scattering (SAXS) patterns"},
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "IMC-loaded MSN, VSN and CVSN", "quote": "FTIR spectra and b X-ray diffraction (XRD) patterns of IMC@MSN, IMC@VSN, and IMC@CVSN"},
+        {"technique": "XRD", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "IMC-loaded MSN, VSN and CVSN", "quote": "FTIR spectra and b X-ray diffraction (XRD) patterns of IMC@MSN, IMC@VSN, and IMC@CVSN"}
+      ]
+    },
+    {
+      "pmcid": "PMC6631245",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 8", "variant": "SEM", "sample": "DTX-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Surface morphology (a) SEM image"},
+        {"fig": "Figure 8", "variant": "TEM_prep_not_declared", "sample": "DTX-NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "(b) TEM image, (c) Layer of PLX in TEM image."}
+      ],
+      "descriptors": [
+        {"sample": "BBD1", "size_nm": 202.2, "pdi": 0.22, "zeta_mV": -10.8, "medium": "not_declared", "source": "Table 8", "quote": "BBD1 | 202.2 | −10.8 | 74.28 | 0.22"},
+        {"sample": "BBD2", "size_nm": 296.5, "pdi": 0.243, "zeta_mV": -27.4, "medium": "not_declared", "source": "Table 8", "quote": "BBD2 | 296.5 | −27.4 | 52.85 | 0.243"},
+        {"sample": "BBD3", "size_nm": 229.8, "pdi": 0.245, "zeta_mV": -6.08, "medium": "not_declared", "source": "Table 8", "quote": "BBD3 | 229.8 | −6.08 | 73.74 | 0.245"},
+        {"sample": "BBD4", "size_nm": 233.5, "pdi": 0.154, "zeta_mV": -26.4, "medium": "not_declared", "source": "Table 8", "quote": "BBD4 | 233.5 | −26.4 | 52.57 | 0.154"},
+        {"sample": "BBD5", "size_nm": 223.1, "pdi": 0.294, "zeta_mV": -6.15, "medium": "not_declared", "source": "Table 8", "quote": "BBD5 | 223.1 | −6.15 | 60.99 | 0.294"},
+        {"sample": "BBD6", "size_nm": 259.1, "pdi": 0.229, "zeta_mV": -21.8, "medium": "not_declared", "source": "Table 8", "quote": "BBD6 | 259.1 | −21.8 | 55 | 0.229"},
+        {"sample": "BBD7", "size_nm": 420.8, "pdi": 0.362, "zeta_mV": 34.5, "medium": "not_declared", "source": "Table 8", "quote": "BBD7 | 420.8 | 34.5 | 37.42 | 0.362"},
+        {"sample": "BBD8", "size_nm": 219.6, "pdi": 0.135, "zeta_mV": -36.7, "medium": "not_declared", "source": "Table 8", "quote": "BBD8 | 219.6 | −36.7 | 57.5 | 0.135"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 5", "applies_to": "mixture", "sample": "formulation, polymer and docetaxel", "quote": "FTIR spectra of (a) formulation, polymer and docetaxel drug, (b) mannitol."},
+        {"technique": "XRD", "fig": "Figure 6", "applies_to": "nanoparticle", "sample": "DTX-NPs", "quote": "X-ray Diffraction (XRD) patterns of (a) PLGA, (b) docetaxel and DTX-NPs."}
+      ]
+    },
+    {
+      "pmcid": "PMC11127077",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "SEM", "sample": "GP-SLN formulation", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of the GP-SLN formulation showing cubical shaped nanoparticles"}
+      ],
+      "descriptors": [
+        {"sample": "optimized GP-SLN", "size_nm": 185.3, "pdi": 0.282, "zeta_mV": -24, "medium": "not_declared", "source": "text", "quote": "The particle size, PDI, and zeta potential of the optimized GP-SLN formulation were found to be 185.3±45.6 nm, 0.282±0.03, and -24±3.53 mV respectively"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 5", "applies_to": "mixture", "sample": "gabapentin, Gelucire 48/16, physical mixture", "quote": "Fourier transform infrared spectroscopy (FTIR) spectra of a) gabapentin, b) Gelucire 48/16, and c) physical mixture"}
+      ]
+    },
+    {
+      "pmcid": "PMC9414144",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 3", "variant": "TEM_prep_not_declared", "sample": "blank and sorafenib-functionalized liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of blank liposomes (A) and sorafenib-functionalized liposomes (B)."}
+      ],
+      "descriptors": [
+        {"sample": "Lipo", "size_nm": null, "pdi": null, "zeta_mV": 5.05, "medium": "not_declared", "source": "Table 1", "quote": "Lipo | 183 | 93.3 | 5.3 × 1012 | 5.05"},
+        {"sample": "Lipo_SOR", "size_nm": null, "pdi": null, "zeta_mV": 11.29, "medium": "not_declared", "source": "Table 1", "quote": "Lipo_SOR | 127–320 | 70.7 | 9.2 × 1010 | 11.29"}
+      ],
+      "spectra": [
+        {"technique": "Raman", "fig": "Figure 1", "applies_to": "component", "sample": "pure sorafenib", "quote": "Raman spectrum of pure sorafenib molecules (the excitation laser is 785 nm)."},
+        {"technique": "Raman", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "blank and sorafenib-loaded nanoliposomes", "quote": "Raman spectra of pure (blue line) and sorafenib-loaded nanoliposomes (red curve)"}
+      ]
+    },
+    {
+      "pmcid": "PMC10503197",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "GA-Ag NPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Particle size of GA-Ag NPs as a function of pH and related TEM images."},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "GA-Ag NPs attached to tendon fibers", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image showing GA-Ag NPs attached to the fibers of DT-Ag"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "GA-Ag NPs on tendon graft and in solution", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image showing fibers and GA-Ag NPs in the grafted group after ultrasonication"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "GA-Ag NP solutions", "quote": "Absorption spectra of GA-Ag NP solutions with different concentrations."},
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "DT-Ag and DT", "quote": "Results of EDS analysis for DT and DT-Ag."},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "GA-Ag NPs, DT and DT-Ag", "quote": "Infrared spectra of GA-Ag NPs, DT, and DT-Ag."}
+      ]
+    },
+    {
+      "pmcid": "PMC6540247",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 4", "variant": "HRTEM", "sample": "dazomet-loaded chitosan nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "High-resolution transmission electron microscopy (HRTEM) images of the synthesized dazomet-loaded chitosan nanoparticles"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Figure 1", "applies_to": "nanoparticle", "sample": "chitosan-dazomet nanoparticles", "quote": "Powder XRD patterns of (A) pure dazomet, (B) chitosan, and chitosan-dazomet nanoparticles"},
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "chitosan-dazomet nanoparticles", "quote": "FTIR spectrum of (A) pure dazomet, (B) chitosan, and chitosan-dazomet nanoparticles"}
+      ]
+    },
+    {
+      "pmcid": "PMC10819627",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Figure 2", "variant": "SEM", "sample": "LS extract-loaded solid lipid nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "scanning electron microscopy (SEM) (a,b)"}
+      ],
+      "descriptors": [
+        {"sample": "LS-SLNp", "size_nm": 72.5, "pdi": null, "zeta_mV": null, "medium": "not_declared", "source": "text", "quote": "the average particle size was found in Zetasizer as 72.5 nm for LS-SLNp."}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Figure 2", "applies_to": "nanoparticle", "sample": "LS extract-loaded solid lipid nanoparticle", "quote": "FT-IR (e,f) analysis."}
+      ]
+    }
+  ]
+}

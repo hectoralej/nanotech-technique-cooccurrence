@@ -1,0 +1,105 @@
+{
+ "batch":"EX142",
+ "articles":[
+  {
+   "pmcid":"PMC11827557","context":{"article_kind":"research","carrier_type":"other","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Fig. 2","variant":"SEM","sample":"BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"(E) SEM and EDX of BpAgNPs, (F) SEM and EDX PEG–BpAgNPs"},{"fig":"Fig. 3","variant":"HRTEM","sample":"BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM micrograph, particle size histogram, and SAED patterns for BpAgNPs"}],
+   "descriptors":[],"spectra":[{"technique":"UVVis","fig":"Fig. 1","applies_to":"mixture","sample":"Bp extract, BpAgNPs, PEG and conjugates","quote":"UV-vis absorption spectra for the Bp aqueous extract, BpAgNPs, PEG"},{"technique":"FTIR","fig":"Fig. 2","applies_to":"mixture","sample":"BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs","quote":"The FTIR spectra, SEM micrograph, and EXD of analyzed samples"},{"technique":"EDS","fig":"Fig. 2","applies_to":"nanoparticle","sample":"BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs","quote":"SEM and EDX of BpAgNPs, (F) SEM and EDX PEG–BpAgNPs"},{"technique":"XRD","fig":"Fig. 4","applies_to":"nanoparticle","sample":"BpAgNPs, PEG–BpAgNPs and Cum–PEG–BpAgNPs","quote":"XRD peaks of BpAgNPs, PEG–BpAgNPs, and Cum–PEG–BpAgNPs."}]
+  },
+  {
+   "pmcid":"PMC5778387","context":{"article_kind":"research","carrier_type":"polymeric_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 2","variant":"SEM","sample":"empty and disulfiram-loaded PLGA nanoparticles stabilized with different agents","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Morphology of disulfiram-loaded, and empty poly-lactide-co-glycolide nanoparticles using scanning electron microscopy technique."}],
+   "descriptors":[],"spectra":[{"technique":"XRD","fig":"Figure 4","applies_to":"nanoparticle","sample":"empty and disulfiram-loaded PLGA nanoparticles","quote":"Change in degree of crystallinity of poly-lactide-co-glycolide nanoparticles"},{"technique":"Raman","fig":"Figure 5","applies_to":"mixture","sample":"PLGA nanoparticles, polymer and drug mixture","quote":"Raman peak shift of functional groups present in poly-lactide-co-glycolide nanoparticles"}]
+  },
+  {
+   "pmcid":"PMC12844820","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 8","variant":"cryoTEM","sample":"diclofenac-loaded liposomes prepared by sonication, microfluidics and microreactor","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"representative Cryo-TEM images of loaded diclofenac formulated by the different proposed methods"}],
+   "descriptors":[
+    {"sample":"pilot batch 12, diclofenac liposome","size_nm":87.04,"pdi":0.160,"zeta_mV":-24.6,"medium":"water","source":"Table 5; DLS size/PDI, ZP measured in PBS","quote":"12 | 87.04 | 0.160 | −24.6 | 94.0"},
+    {"sample":"pilot batch 13, diclofenac liposome","size_nm":92.17,"pdi":0.234,"zeta_mV":-19.1,"medium":"water","source":"Table 5; DLS size/PDI, ZP measured in PBS","quote":"13 | 92.17 | 0.234 | −19.1 | 86.3"},
+    {"sample":"microfluidic batch 14","size_nm":35.03,"pdi":0.076,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"14 | 7:1 | 6 | 35.03 | 0.076 | 91.89"},
+    {"sample":"microfluidic batch 15","size_nm":53.99,"pdi":0.075,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"15 | 3:1 | 6 | 53.99 | 0.075 | 92.07"},
+    {"sample":"microfluidic batch 16","size_nm":61.01,"pdi":0.12,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"16 | 3:1 | 4 | 61.01 | 0.120 | 92.50"},
+    {"sample":"microfluidic batch 17","size_nm":33.9,"pdi":0.127,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"17 | 7:1 | 4 | 33.90 | 0.127 | 92.23"},
+    {"sample":"microfluidic batch 18","size_nm":57.46,"pdi":0.037,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"18 | 3:1 | 8 | 57.46 | 0.037 | 82.99"},
+    {"sample":"microfluidic batch 19","size_nm":35.85,"pdi":0.068,"zeta_mV":null,"medium":"water","source":"Table 6; DLS Z-average and PDI","quote":"19 | 7:1 | 8 | 35.85 | 0.068 | 92.10"}
+   ],
+   "spectra":[]
+  },
+  {
+   "pmcid":"PMC11946831","context":{"article_kind":"research","carrier_type":"SLN","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 7","variant":"TEM_prep_not_declared","sample":"optimized HESP-SLNs and HESP-NLCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy of the optimized HESP-SLNs (A) and HESP-NLCs (B)."}],
+   "descriptors":[
+    {"sample":"HESP-SLNs1","size_nm":275,"pdi":0.339,"zeta_mV":-31.7,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs1 | Stearic acid | 2% | Span® 60 | 40% | 275 ± 2.26 | −31.7 ± 2.47 | 0.339 ± 0.132"},
+    {"sample":"HESP-SLNs2","size_nm":252,"pdi":0.246,"zeta_mV":-36.2,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs2 | Stearic acid | 2% | Span® 60 | 20% | 252 ± 3.12 | −36.2 ± 1.52 | 0.246 ± 0.155"},
+    {"sample":"HESP-SLNs3","size_nm":300.8,"pdi":0.366,"zeta_mV":-23.5,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs3 | Compritol® ATO 888 | 2% | Span® 60 | 40% | 300.8 ± 5.23 | −23.5 ± 4.25 | 0.366 ± 0.191"},
+    {"sample":"HESP-SLNs4","size_nm":267.7,"pdi":0.317,"zeta_mV":-35.4,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs4 | Compritol® ATO 888 | 2% | Span® 60 | 20% | 267.7 ± 1.89 | −35.4 ± 3.53 | 0.317 ± 0.129"},
+    {"sample":"HESP-SLNs5","size_nm":363.9,"pdi":0.476,"zeta_mV":-25.3,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs5 | Stearic acid | 2% | Pluronic® F127 | 40% | 363.9 ± 3.14 | −25.3 ± 2.59 | 0.476 ± 0.151"},
+    {"sample":"HESP-SLNs6","size_nm":354.4,"pdi":0.435,"zeta_mV":-22.9,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs6 | Stearic acid | 2% | Pluronic® F127 | 20% | 354.4 ± 2.33 | −22.9 ± 2.12 | 0.435 ± 0.129"},
+    {"sample":"HESP-SLNs7","size_nm":375.4,"pdi":0.571,"zeta_mV":-23.3,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs7 | Compritol® ATO 888 | 2% | Pluronic® F127 | 40% | 375.4 ± 2.82 | −23.3 ± 0.52 | 0.571 ± 0.161"},
+    {"sample":"HESP-SLNs8","size_nm":369.5,"pdi":0.492,"zeta_mV":-32.3,"medium":"not_declared","source":"Table 1; DLS factorial run","quote":"HESP-SLNs8 | Compritol® ATO 888 | 2% | Pluronic® F127 | 20% | 369.5 ± 1.42 | −32.3 ± 3.71 | 0.492 ± 0.146"}
+   ],
+   "spectra":[{"technique":"Raman","fig":"Figure 9","applies_to":"mixture","sample":"pure HESP and HESP-SLNs","quote":"Raman spectroscopy of pure HESP powder and HESP-SLNs."},{"technique":"Raman","fig":"Figure 10","applies_to":"mixture","sample":"pure HESP and HESP-NLCs","quote":"Raman spectroscopy of pure HESP powder and HESP-NLCs."}]
+  },
+  {
+   "pmcid":"PMC12845254","context":{"article_kind":"research","carrier_type":"LNP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 2","variant":"cryoTEM","sample":"LNPs dialyzed in PBS","shows_nanocarrier":true,"scale_bar_in_caption":true,"quote":"Morphological analysis of LNPs dialyzed in PBS using cryoTEM."}],
+   "descriptors":[
+    {"sample":"Poly(A)-LNP, 5 mg/mL, PBS","size_nm":86,"pdi":0.08,"zeta_mV":-2,"medium":"PBS","source":"Table 1; DLS","quote":"5 | 86 ± 6 | 0.08 ± 0.03 | 96 ± 1 | −2 ± 1"},
+    {"sample":"Poly(A)-LNP, 15 mg/mL, PBS","size_nm":82,"pdi":0.10,"zeta_mV":-2,"medium":"PBS","source":"Table 1; DLS","quote":"15 | 82 ± 3 | 0.10 ± 0.02 | 96 ± 3 | −2 ± 5"},
+    {"sample":"Poly(A)-LNP, 30 mg/mL, PBS","size_nm":84,"pdi":0.11,"zeta_mV":4,"medium":"PBS","source":"Table 1; DLS","quote":"30 | 84 ± 8 | 0.11 ± 0.04 | 96 ± 2 | 4 ± 0"},
+    {"sample":"Poly(A)-LNP, 40 mg/mL, PBS","size_nm":83,"pdi":0.11,"zeta_mV":8,"medium":"PBS","source":"Table 1; DLS","quote":"40 | 83 ± 8 | 0.11 ± 0.03 | 96 ± 2 | 8 ± 1"},
+    {"sample":"Poly(A)-LNP, 50 mg/mL, PBS","size_nm":80,"pdi":0.09,"zeta_mV":9,"medium":"PBS","source":"Table 1; DLS","quote":"50 | 80 ± 14 | 0.09 ± 0.05 | 96 ± 3 | 9 ± 4"},
+    {"sample":"Poly(A)-LNP, 60 mg/mL, PBS","size_nm":80,"pdi":0.08,"zeta_mV":10,"medium":"PBS","source":"Table 1; DLS","quote":"60 | 80 ± 8 | 0.08 ± 0.04 | 97 ± 2 | 10 ± 2"},
+    {"sample":"Poly(A)-LNP, 70 mg/mL, PBS","size_nm":76,"pdi":0.09,"zeta_mV":11,"medium":"PBS","source":"Table 1; DLS","quote":"70 | 76 ± 6 | 0.09 ± 0.02 | 98 ± 3 | 11 ± 3"},
+    {"sample":"Poly(A)-LNP, 15 mg/mL, Tris-sucrose","size_nm":108,"pdi":0.19,"zeta_mV":25,"medium":"buffer","source":"Table 1; DLS","quote":"15 | 82 ± 3 | 0.10 ± 0.02 | 96 ± 3 | −2 ± 5 | 108 | 0.19 | 93 | +25"}
+   ],
+   "spectra":[]
+  },
+  {
+   "pmcid":"PMC6359657","context":{"article_kind":"research","carrier_type":"inorganic_NP","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 1","variant":"TEM_prep_not_declared","sample":"mesoporous silica nanoparticles and nanorods","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"TEM images of mesoporous silica nanoparticles (MSNs)."}],
+   "descriptors":[],"spectra":[{"technique":"XRD","fig":"Figure 2","applies_to":"nanoparticle","sample":"MSNs","quote":"Small-angle XRD patterns of MSNs (a)"},{"technique":"FTIR","fig":"Figure 3","applies_to":"mixture","sample":"IMC, IMC-MSNRs, IMC-MSNSs, MSNRs and MSNSs","quote":"FTIR spectra (a)"},{"technique":"XRD","fig":"Figure 3","applies_to":"mixture","sample":"IMC, IMC-MSNRs, IMC-MSNSs, MSNRs and MSNSs","quote":"XRD patterns (b) of IMC, IMC-MSNRs, IMC-MSNSs, MSNRs, and MSNSs."}]
+  },
+  {
+   "pmcid":"PMC6415364","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 3","variant":"SEM","sample":"PLGA nanoporous nanofibers at different concentrations","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs and the diameter distribution histograms of nanoporous fibers"},{"fig":"Figure 5","variant":"SEM","sample":"PLGA nanoporous nanofibers at different humidities","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs and the diameter distribution histograms of nanoporous fibers"},{"fig":"Figure 8","variant":"SEM","sample":"PLGA/MWCNT nanofibers","shows_nanocarrier":false,"scale_bar_in_caption":null,"quote":"SEM micrographs and the diameter distribution histogramsof PLGA/MWCNTnanofibers"}],
+   "descriptors":[],"spectra":[{"technique":"XRD","fig":"Figure 10","applies_to":"mixture","sample":"PLGA/MWCNT and PLGA nanofibers","quote":"X-ray diffraction spectra of PLGA/MWCNTs (a) and PLGA nanofibers (b)"},{"technique":"FTIR","fig":"Figure 11","applies_to":"mixture","sample":"PLGA/MWCNT and PLGA nanofibers","quote":"Infrared spectra of PLGA/MWCNT nanofibers (a) and PLGA nanofibers (b)"}]
+  },
+  {
+   "pmcid":"PMC12880976","context":{"article_kind":"research","carrier_type":"liposome","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Fig. 8","variant":"TEM_prep_not_declared","sample":"exosomes, Caff/SPION-liposomes and their hybrid","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"Transmission electron microscopy (TEM) characterization of nanocarrier components and hybrid system."}],
+   "descriptors":[
+    {"sample":"Caff/liposome P1","size_nm":1598,"pdi":0.60,"zeta_mV":-5.69,"medium":"not_declared","source":"Table 1; DLS","quote":"P1 | 15 | 15 | 10 | 94.35 ± 1.9 | 1598 ± 12.4 | 0.60 ± 0.005 | −5.69 ± 1.8"},
+    {"sample":"Caff/liposome P2","size_nm":267.49,"pdi":0.44,"zeta_mV":-31.30,"medium":"not_declared","source":"Table 1; DLS","quote":"P2 | 10 | 7.5 | 15 | 86.73 ± 1.1 | 267.49 ± 3.9 | 0.44 ± 0.07 | −31.30 ± 2.3"},
+    {"sample":"Caff/liposome P3","size_nm":208.41,"pdi":0.21,"zeta_mV":-43.90,"medium":"not_declared","source":"Table 1; DLS","quote":"P3 | 10 | 0 | 10 | 84.97 ± 1.0 | 208.41 ± 2.2 | 0.21 ± 0.03 | −43.90 ± 1.6"},
+    {"sample":"Caff/liposome P4","size_nm":202.80,"pdi":0.21,"zeta_mV":-41.62,"medium":"not_declared","source":"Table 1; DLS","quote":"P4 | 12.5 | 0 | 5 | 87.89 ± 1.2 | 202.80 ± 5.15 | 0.21 ± 0.06 | −41.62 ± 1.4"},
+    {"sample":"Caff/liposome P5","size_nm":179.73,"pdi":0.19,"zeta_mV":-35.50,"medium":"not_declared","source":"Table 1; DLS","quote":"P5 | 12.5 | 0 | 15 | 89.79 ± 2.1 | 179.73 ± 3.1 | 0.19 ± 0.02 | −35.50 ± 1.1"},
+    {"sample":"Caff/liposome P6","size_nm":414,"pdi":0.62,"zeta_mV":-32.50,"medium":"not_declared","source":"Table 1; DLS","quote":"P6 | 12.5 | 7.5 | 10 | 89.65 ± 1.5 | 414.0 ± 2.3 | 0.62 ± 0.03 | −32.50 ± 0.9"},
+    {"sample":"Caff/liposome P7","size_nm":1511,"pdi":0.73,"zeta_mV":-11,"medium":"not_declared","source":"Table 1; DLS","quote":"P7 | 15 | 15 | 5 | 89.52 ± 0.9 | 1511.0 ± 6.9 | 0.73 ± 0.04 | −11.0 ± 1.4"},
+    {"sample":"Caff/liposome P8","size_nm":536.90,"pdi":0.69,"zeta_mV":-38.20,"medium":"not_declared","source":"Table 1; DLS","quote":"P8 | 12.5 | 7.5 | 10 | 89.65 ± 1.1 | 536.90 ± 4.7 | 0.69 ± 0.05 | −38.20 ± 1.9"}
+   ],
+   "spectra":[{"technique":"FTIR","fig":"Fig. 5","applies_to":"mixture","sample":"drug, SPION, phospholipid and Caff/SPION-liposomes","quote":"FTIR spectra of the physical mixture of drug and SPION, caffeine, SPION, phospholipid, and P5"}]
+  },
+  {
+   "pmcid":"PMC13619771","context":{"article_kind":"research","carrier_type":"NLC","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Fig. 6","variant":"HRTEM","sample":"uncoated and PEGylated DPZ-NLCs","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM images of (A) uncoated DPZ-NLCs and (B) optimized DPZ-PEGylated NLCs"}],
+   "descriptors":[
+    {"sample":"DPZ-PEGylated NLC design run 11","size_nm":282.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"11 | 0 | −1.68179 | 0 | 282.2 ± 3.27 | 84.6 ± 2.13"},
+    {"sample":"DPZ-PEGylated NLC design run 16","size_nm":138.5,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"16* | 0 | 0 | 0 | 138.5 ± 2.26 | 90.0 ± 1.42"},
+    {"sample":"DPZ-PEGylated NLC design run 19","size_nm":135.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"19* | 0 | 0 | 0 | 135.2 ± 1.22 | 92.4 ± 1.36"},
+    {"sample":"DPZ-PEGylated NLC design run 7","size_nm":95.12,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"7 | −1 | 1 | 1 | 95.12 ± 3.45 | 82.7 ± 2.48"},
+    {"sample":"DPZ-PEGylated NLC design run 3","size_nm":280.3,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"3 | −1 | 1 | −1 | 280.3 ± 2.31 | 81.5 ± 1.59"},
+    {"sample":"DPZ-PEGylated NLC design run 10","size_nm":165.6,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"10 | 1.68179 | 0 | 0 | 165.6 ± 3.21 | 81.2 ± 2.13"},
+    {"sample":"DPZ-PEGylated NLC design run 5","size_nm":168.2,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"5 | −1 | −1 | 1 | 168.2 ± 2.64 | 77.9 ± 2.78"},
+    {"sample":"DPZ-PEGylated NLC design run 2","size_nm":402.4,"pdi":null,"zeta_mV":null,"medium":"not_declared","source":"Table 5, observed response size","quote":"2 | 1 | −1 | −1 | 402.4 ± 3.68 | 82.2 ± 2.13"}
+   ],
+   "spectra":[{"technique":"XRD","fig":"Fig. 8","applies_to":"mixture","sample":"pure DPZ, DSPE-PEG2000 and lyophilized DPZ-PEGylated NLCs","quote":"XRD patterns of (A) pure DPZ, (B) DSPE-PEG2000, and (C) optimized lyophilized DPZ-PEGylated NLCs."}]
+  },
+  {
+   "pmcid":"PMC5269579","context":{"article_kind":"research","carrier_type":"nanomaterial","nanocarrier_is_object_of_study":true,"virus_or_pcr":false},
+   "panels":[{"fig":"Figure 2","variant":"HRTEM","sample":"GA-RGO/AuNPs composite","shows_nanocarrier":true,"scale_bar_in_caption":null,"quote":"HRTEM and (F) SAED pattern of GA-RGO/AuNPs composite."}],
+   "descriptors":[],"spectra":[{"technique":"FTIR","fig":"Figure 3","applies_to":"mixture","sample":"gallic acid and GA-RGO/AuNPs composite","quote":"FTIR spectra for (a) GA and (b) GA-RGO/AuNPs composite."},{"technique":"Raman","fig":"Figure 4","applies_to":"mixture","sample":"GO, RGO and RGO/AuNPs composites","quote":"Raman spectra and (B) XRD patterns for (a) GO, (b) RGO"},{"technique":"XRD","fig":"Figure 4","applies_to":"mixture","sample":"GO, RGO and RGO/AuNPs composites","quote":"XRD patterns for (a) GO, (b) RGO and (c) RGO/AuNPs composites."}]
+  }
+ ]
+}

@@ -1,0 +1,619 @@
+{
+  "batch": "EX130",
+  "articles": [
+    {
+      "pmcid": "PMC10011373",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "LA2(R) and LA2(O) actinobacteria colonies",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM Images of Pure colony of Actinobacteria (A) LA2(R) and (B) LA2(O)"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "RAgNPs and OAgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of AgNPs from supernatant of (A) RAgNPs and (B) OAgNPs."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "RAgNPs and OAgNPs",
+          "quote": "Characterization of (LA2 R) synthesized AgNPs by using FTIR Spectroscopy."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "text",
+          "applies_to": "nanoparticle",
+          "sample": "RAgNPs and OAgNPs",
+          "quote": "The surface plasmon resonance (SPR) peak of the AgNPs is responsible for the characteristic absorption maxima at 412 nm"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8624078",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au nanoparticles deposited on NiFe2O4",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(C,D); TEM image of Au nanoparticles deposited on the NiFe2O4."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "NiFe2O4 and Au@NiFe2O4",
+          "quote": "XRD patterns of NiFe2O4 and Au@NiFe2O4"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "NiFe2O4 and Au@NiFe2O4",
+          "quote": "UV–Vis spectra of NiFe2O4 and Au@NiFe2O4."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure S1",
+          "applies_to": "nanoparticle",
+          "sample": "NiFe2O4 and Au@NiFe2O4",
+          "quote": "The FT-IR spectra for the crystalline NiFe2O4 and Au@NiFe2O4 nanocomposites were observed in the region from 4000 to 450 cm−1, as exhibited in Figure S1."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8196760",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "green-synthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(A) TEM micrographs of green synthesized spherical AgNPs."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "CG, CG1 and CG4 composite films",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (A) CG (B) CG1 (C) CG4."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "green-synthesized AgNPs",
+          "quote": "FTIR spectra of (A) Lyophilized aqueous M.frondosa leaf extract (B) Lyophilized AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "mixture",
+          "sample": "CG and CG1–CG4 films containing AgNPs",
+          "quote": "FTIR spectra of (A) CG (2% chitosan, 2% gelatin, 0.5% PEG, 0.075% AgNPs)"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 8",
+          "applies_to": "mixture",
+          "sample": "synthesized nanocomposite films",
+          "quote": "UV–Visible spectra of the synthesized nanocomposite films."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC8234497",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 12",
+          "variant": "TEM_prep_not_declared",
+          "sample": "NS-MPH and NS-CYT associated with AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of NS-MPH associated with AuNPs (A), NS-CYT associated with AuNPs (B)"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "NSs, NS-MPH and NS-CYT",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of NSs (A,B), MPH (C), NS-MPH (D), CYT (E), and NS-CYT (F)."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "NS-MPH associated with AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of NS-MPH associated with the AuNPs."
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "NS-CYT associated with AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of NS-CYT associated with the AuNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": 19,
+          "pdi": 0.21,
+          "zeta_mV": -46,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "AuNPs | 19 ± 2 | −46 ± 0.4 | 0.21"
+        },
+        {
+          "sample": "AuNP-NS-MPH",
+          "size_nm": 633,
+          "pdi": 0.47,
+          "zeta_mV": -31,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "AuNP-NS-MPH | 633 ± 43 | −31 ± 0.5 | 0.47"
+        },
+        {
+          "sample": "AuNP-NS-CYT",
+          "size_nm": 618,
+          "pdi": 0.45,
+          "zeta_mV": -35,
+          "medium": "not_declared",
+          "source": "Table 4",
+          "quote": "AuNP-NS-CYT | 618 ± 38 | −35 ± 0.5 | 0.45"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "NS-MPH-AuNP",
+          "quote": "EDS analysis of NS-MPH associated with the AuNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "NS-CYT-AuNP",
+          "quote": "EDS analysis of NS-CYT associated with the AuNPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 13",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs deposited on NS-MPH and NS-CYT inclusion compounds",
+          "quote": "UV–Vis spectra of the AuNPs deposited on the ICs’ surface."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6119933",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs@Citrate",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "UV-Vis spectrum (a) histogram (b) and low magnification TEM images (c,d) of AuNPs@Citrate."
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs@EHL-2, AuNPs@EHL-3 and AuNPs@EHL-5",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of AuNPs@EHL when different amounts of protein are added"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs@EHL-1",
+          "size_nm": 266.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        },
+        {
+          "sample": "AuNPs@EHL-2",
+          "size_nm": 90.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        },
+        {
+          "sample": "AuNPs@EHL-3",
+          "size_nm": 54.4,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        },
+        {
+          "sample": "AuNPs@EHL-4",
+          "size_nm": 51.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        },
+        {
+          "sample": "AuNPs@EHL-5",
+          "size_nm": 60.8,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        },
+        {
+          "sample": "AuNPs@EHL-6",
+          "size_nm": 51.3,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "Table 1; Z-average/PDI/zeta, diluted in water",
+          "quote": "Z-Average value (nm) | 266.4 | 90.3 | 54.4 | 51.7 | 60.8 | 51.3"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs@Citrate",
+          "quote": "UV-Vis spectrum (a) histogram (b) and low magnification TEM images (c,d) of AuNPs@Citrate."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs@EHL samples",
+          "quote": "UV-Vis spectra of the different AuNPs@EHL samples synthesized"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs@EHL-3",
+          "quote": "UV-Vis spectra show a redshift in the LSPR band from 519 nm to 528 nm (see Figure 3)"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs@Citrate and AuNPs@EHL-3",
+          "quote": "UV-Vis study of the effects of adding of 200 L NaCl 2 M to 3 mL of AuNPs@Citrate (a) and AuNPs@EHL-3 (b)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6038652",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "biosynthesized AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM (a) and TEM (b) image of biosynthesized AgNPs using aqueous seed extract of Phoenix dactylifera."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "MRSA cells after AgNP treatment",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrograph of MRSA. (a and b) Untreated control cells."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "HRTEM",
+          "sample": "MRSA cells after AgNP treatment",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM micrograph of MRSA: (a) Untreated control cell;"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DSE-AgNPs",
+          "size_nm": 32.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size distribution histogram",
+          "quote": "The size distribution histogram of DLS indicates that the average diameter of synthesized AgNPs was 32.1 nm (Figure 4)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "DSE-AgNPs",
+          "quote": "UV-visible spectra of aqueous solution of 10−3 M AgNO3 with the Phoenix dactylifera seed extract."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6135834",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "The UV spectrum (a) zeta potential (b) particle size and particle size distribution (c) transmission electron microscopy (d)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -34.8,
+          "medium": "not_declared",
+          "source": "Figure 1; mean zeta potential; no DLS size value in packet",
+          "quote": "The zeta potential of the AuNPs showed a negative surface charge and the mean zeta potential equalled (−34.8 mV) (Fig. 1b)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "The UV spectrum (a) zeta potential (b) particle size and particle size distribution (c)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs",
+          "quote": "X-ray diffraction (e) of formed gold nanoparticles (AuNPs)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6432224",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au/PNIPAm/PEI and Ag@Au/PNIPAm/PEI nanocomposites",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) PNIPAm/PEI microgel templates; (b) Au/PNIPAm/PEI nanocomposite particles prepared at room temperature"
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "HRTEM",
+          "sample": "Au and Ag@Au nanoparticles within microgel templates",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) HRTEM image of Au nanoparticle embedded within a microgel template"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "AFM",
+          "sample": "PNIPAM/PEI microgel particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "AFM micrographs of PNIPAM/PEI microgel particles measured in a fluid mode at different temperatures"
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au/PNIPAm/PEI nanocomposites before and after catalysis",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (a) before catalysis and (b) after catalysis."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "PNIPAm/PEI",
+          "size_nm": 384,
+          "pdi": null,
+          "zeta_mV": 34,
+          "medium": "other",
+          "source": "Table 1; 1 mM NaCl medium for zeta measurements",
+          "quote": "PNIPAm/PEI | 384 | +34"
+        },
+        {
+          "sample": "Au@PNIPAm/PEI",
+          "size_nm": 284,
+          "pdi": null,
+          "zeta_mV": 15,
+          "medium": "other",
+          "source": "Table 1; 1 mM NaCl medium for zeta measurements",
+          "quote": "Au@PNIPAm/PEI | 284 | +15"
+        },
+        {
+          "sample": "Ag@Au/PNIPAm/PEI",
+          "size_nm": 270,
+          "pdi": null,
+          "zeta_mV": 5,
+          "medium": "other",
+          "source": "Table 1; 1 mM NaCl medium for zeta measurements",
+          "quote": "Ag@Au/PNIPAm/PEI | 270 | +5"
+        }
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC6273738",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "Au/SG",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image (A); Corresponding size distribution (B) of Au/SG after 4 h of stirring times."
+        },
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "SG and Au/SG suspension",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM image and EDXRF spectra of SG and Au/SG formation after 4 h of reaction time"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Au/SG",
+          "quote": "UV–Vis absorption spectra of SG (a); Au/SG suspension (b) after 4 h of stirring time."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9370457",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "cationic and anionic dendronized AuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of AuNPs stabilized by (a,b) cationic dendronized AuNP-(dendron-NH2), and (c,d) anionic dendronized AuNP-(dendron-CO2H)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNP–citrate",
+          "size_nm": 60,
+          "pdi": 0.06,
+          "zeta_mV": -49,
+          "medium": "water",
+          "source": "Table 1; DLS in ultrapure water",
+          "quote": "AuNP–citrate | −49 ± 9 | 60 ± 2 | 0.06 ± 0.01"
+        },
+        {
+          "sample": "AuNP–(dendron-NH2)",
+          "size_nm": 109,
+          "pdi": 0.19,
+          "zeta_mV": 27,
+          "medium": "water",
+          "source": "Table 1; DLS in ultrapure water",
+          "quote": "AuNP–(dendron-NH2) | 27 ± 6 | 109 ± 1 | 0.19 ± 0.09"
+        },
+        {
+          "sample": "AuNP–(dendron-CO2H)",
+          "size_nm": 80,
+          "pdi": 0.05,
+          "zeta_mV": -31,
+          "medium": "water",
+          "source": "Table 1; DLS in ultrapure water",
+          "quote": "AuNP–(dendron-CO2H) | −31 ± 8 | 80 ± 1 | 0.05 ± 0.01"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "all AuNP formulations",
+          "quote": "Absorption spectra in the visible region for all AuNPs at 100 μM in PBS 0.1 M."
+        }
+      ]
+    }
+  ]
+}

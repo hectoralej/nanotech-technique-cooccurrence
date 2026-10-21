@@ -1,0 +1,39 @@
+{
+  "batch": "EX152",
+  "articles": [
+    {
+      "pmcid": "PMC12412931",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "lab-scale and upscaled AuNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM micrograph of lab-scale and upscaled AuNPs at a magnification of 50 nm."}],
+      "descriptors": [
+        {"sample": "lab-scale AuNPs", "size_nm": 186.5, "pdi": 0.3, "zeta_mV": 37.6, "medium": "not_declared", "source": "Table 1", "quote": "Lab scale | 186.5 ± 0.52 | 0.3 ± 0.00 | +37.6 ± 0.64"},
+        {"sample": "upscaled AuNPs", "size_nm": 152.9, "pdi": 0.3, "zeta_mV": 37.3, "medium": "not_declared", "source": "Table 1", "quote": "Up-scaled | 152.9 ± 1.56 | 0.3 ± 0.00 | +37.3 ± 0.26"}
+      ],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "lab-scale and upscaled AuNPs", "quote": "The presence of AuNPs was confirmed by UV-Vis spectrophotometry (Fig 1)"},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "AuNPs, TMM extract and chitosan", "quote": "FTIR spectra of AuNPs and their individual constituents (TMM extract and chitosan)."}
+      ]
+    },
+    {
+      "pmcid": "PMC12679589",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "AgNPs/gel colloidal solution", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of AgNPs/gel"},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "AgNPs/gel colloidal solution", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of AgNPs/gel colloidal solution"},
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "treated cotton gauze", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM micrographs of (A and B) untreated cotton gauze (control), (C and D) AgNP/SBPBTT1/gel-treated cotton gauze"}
+      ],
+      "descriptors": [{"sample": "AgNPs/Gel colloidal solution", "size_nm": 170, "pdi": 0.54, "zeta_mV": null, "medium": "water", "source": "text", "quote": "the mean size distribution was 170 ± 71 nm and the PDI value was 0.54 (Fig. 3E)"}],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "AgNPs/gel colloidal solution", "quote": "UV-visible spectrophotometer range from 300 to 900 nm"}]
+    },
+    {
+      "pmcid": "PMC11829840",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "renal biopsy containing silica nanoparticles", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy image of a renal biopsy sample"},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "powdered CP tablet silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron micrographs of powdered CP tablets with particle sizes of 10–20 nm"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "EDS", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "silica particles in powdered CP tablet", "quote": "Elemental analysis with LVSEM-EDS indicated blue dots for Si and green dots for O"}]
+    }
+  ]
+}

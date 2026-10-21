@@ -1,0 +1,110 @@
+{
+  "batch": "EX149",
+  "articles": [
+    {
+      "pmcid": "PMC12361501",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "RSHH-PLGA-NP", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images depicting the spherical morphology and uniform dispersion of nanoparticles"}],
+      "descriptors": [{"sample": "RSHH-PLGA-NP", "size_nm": 204.9, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "The particle size, measured using a zeta sizer, showed an average size of 204.9 ± 35.77 nm"}],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 2", "applies_to": "component", "sample": "RSHH", "quote": "FTIR spectrum of RSHH compared with reference compounds (hemicellulose and commercial xylan)."}]
+    },
+    {
+      "pmcid": "PMC5791091",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "mesoporous silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy (SEM) image (a)"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "mesoporous silica nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "transmission electron microscopy (TEM) image (b)"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "MSNs", "quote": "Fourier-transform infrared (FT-IR) spectra (d)"}]
+    },
+    {
+      "pmcid": "PMC11768399",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_posstain", "sample": "PLA and PCL nanoparticles, unloaded and AmB-loaded", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy images of polymeric nanoparticles."}],
+      "descriptors": [
+        {"sample": "PCL NL", "size_nm": 114.6, "pdi": 0.126, "zeta_mV": -29.0, "medium": "not_declared", "source": "Table 1", "quote": "PCL | 114.6 ± 10.2 | 0.126 ± 0.021 | −29.0 ± 7.6"},
+        {"sample": "PCL + AmB", "size_nm": 163.4, "pdi": 0.142, "zeta_mV": -24.6, "medium": "not_declared", "source": "Table 1", "quote": "163.4 ± 1.8 | 0.142 ± 0.033 | −24.6 ± 3.0"},
+        {"sample": "PLA NL", "size_nm": 171.9, "pdi": 0.118, "zeta_mV": -31.8, "medium": "not_declared", "source": "Table 1", "quote": "PLA | 171.9 ± 5.9 | 0.118 ± 0.018 | −31.8 ± 9.6"},
+        {"sample": "PLA + AmB", "size_nm": 202.4, "pdi": 0.114, "zeta_mV": -28.2, "medium": "not_declared", "source": "Table 1", "quote": "202.4 ± 16.1 | 0.114 ± 0.030 | −28.2 ± 8.5"}
+      ],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 3", "applies_to": "mixture", "sample": "NL PNP, AmB-loaded PNPs, and free AmB", "quote": "UV-Visible scanning spectra of NL PNP, PNP + AmB, and AmB FD samples."}]
+    },
+    {
+      "pmcid": "PMC5712992",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "iron oxide MNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of iron oxide MNPs"},
+        {"fig": "Fig. 7", "variant": "TEM_prep_not_declared", "sample": "HBMLs with/without iron oxide MNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "TEM of HBMLs mononuclear blood leukocytes."},
+        {"fig": "Fig. 8", "variant": "TEM_prep_not_declared", "sample": "AMMSCs with chitosan-encapsulated MNP aggregates", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Aggregates of LTE MNPs encapsulated by chitozan"}
+      ],
+      "descriptors": [
+        {"sample": "iron oxide MNPs in suspension", "size_nm": 56, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "The average hydrodynamic diameter of MNPs in suspension was 56 nm."},
+        {"sample": "chitosan-stabilized MNPs", "size_nm": null, "pdi": null, "zeta_mV": 52, "medium": "water", "source": "text", "quote": "Their zeta-potential after the adsorption step was +52 mV"}
+      ],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "iron oxide MNPs", "quote": "XRD plot for iron oxide MNPs"}]
+    },
+    {
+      "pmcid": "PMC12516539",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "COL-OXY-PLGA@MS", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of COL-OXY-PLGA@MS."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "COL-OXY-PLGA@MS freeze-dried powder", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM images of COL-OXY-PLGA@MS freeze-dried powder."},
+        {"fig": "Fig. 5", "variant": "SEM", "sample": "E. coli cells after treatment", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscopic (SEM) images illustrating the morphological change of the bacterial cell membrane of E. coli 58"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "PVA, PLGA, OXY, COL and microspheres", "quote": "FTIR spectra of PVA, PLGA, OXY, COL, MS."}]
+    },
+    {
+      "pmcid": "PMC6215302",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "biodegradable microcapsules containing magnetite MNPs", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "transmission electron microscopy (TEM) (inset figure) images of biodegradable microcapsules containing magnetite MNPs."}],
+      "descriptors": [{"sample": "magnetite hydrosol MNPs", "size_nm": 13, "pdi": null, "zeta_mV": -31, "medium": "not_declared", "source": "text", "quote": "magnetite hydrosol (diameter, 13 ± 5 nm and zeta potential, −31 ± 9 mV measured by the DLS method)"}],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC12561150",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "chitosan-free and CVX-loaded chitosan nanoparticles at 1, 2 and 5 mg/mL", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Morphology analysis by transmission electron microscopy (TEM) of chitosan-free nanoparticles (a) and CHIVAX 2.1 (CVX)-loaded chitosan nanoparticles"}],
+      "descriptors": [
+        {"sample": "CNPs 1 mg/mL", "size_nm": 38.5, "pdi": 0.22, "zeta_mV": 38.8, "medium": "water", "source": "Table 3", "quote": "CNPs | 1 | 1.663 ± 0.002 a | 38.5 ± 9.1 a | 0.22 ± 0.05 a | +38.8 ± 1.2 a"},
+        {"sample": "CNPs 2 mg/mL", "size_nm": 92.3, "pdi": 0.28, "zeta_mV": 40.4, "medium": "water", "source": "Table 3", "quote": "2 | 2.967 ± 0. 005 b | 92.3 ± 6.6 b | 0.28 ± 0.04 ab | +40.4 ± 2.5 a"},
+        {"sample": "CNPs 5 mg/mL", "size_nm": 316.8, "pdi": 0.30, "zeta_mV": 46.5, "medium": "water", "source": "Table 3", "quote": "5 | 6.012 ± 0.003 c | 316.8 ± 8.5 c | 0.30 ± 0.07 ab | +46.5 ± 5.1 a"},
+        {"sample": "CVX-CNPs 1 mg/mL", "size_nm": 87.9, "pdi": 0.29, "zeta_mV": 26.5, "medium": "water", "source": "Table 3", "quote": "CVX-CNPs | 1 | 1.671 ± 0.005 a | 87.9 ± 10.6 d | 0.29 ± 0.08 ab | +26.5 ± 2.6 b"},
+        {"sample": "CVX-CNPs 2 mg/mL", "size_nm": 161.8, "pdi": 0.36, "zeta_mV": 11.7, "medium": "water", "source": "Table 3", "quote": "2 | 2.976 ± 0.008 b | 161.8 ± 11.9 e | 0.36 ± 0.11 ab | +11.7 ± 1.8 c"},
+        {"sample": "CVX-CNPs 5 mg/mL", "size_nm": 542.5, "pdi": 0.41, "zeta_mV": 4.6, "medium": "water", "source": "Table 3", "quote": "5 | 6.007 ± 0.004 c | 542.5 ± 40.1 f | 0.41 ± 0.09 b | +4.6 ± 1.2 d"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "free and CHIVAX-loaded chitosan nanoparticles", "quote": "FTIR spectra of free- and CHIVAX 2.1-loaded chitosan nanoparticles."}]
+    },
+    {
+      "pmcid": "PMC6193170",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "GNR, IO and LDGI nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Representative TEM images of GNR, IO, and LDGI."},
+        {"fig": "Fig. 4", "variant": "TEM_prep_not_declared", "sample": "exocytosis of LDGI from MSCs-LDGI", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of exocytosis of LDGI from MSCs‐LDGI post 24 h incubation."}
+      ],
+      "descriptors": [{"sample": "LDGI", "size_nm": null, "pdi": null, "zeta_mV": 20, "medium": "water", "source": "text", "quote": "The LDGI had a positive zeta potential at +20 mV, confirming the successful cationic lipid coating (Figure 1d)."}],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 1", "applies_to": "mixture", "sample": "IO, GNR and LDGI", "quote": "UV–vis spectra of IO, GNR, and LDGI."}]
+    },
+    {
+      "pmcid": "PMC12030174",
+      "context": {"article_kind": "research", "carrier_type": "nanogel", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "p(TA-co-LYS) nanogels", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM image of p(TA-co-LYS) nanogels."}],
+      "descriptors": [{"sample": "p(TA-co-LYS) nanogels", "size_nm": 379, "pdi": null, "zeta_mV": null, "medium": "other", "source": "text", "quote": "the hydrodynamic diameters of p(TA-co-LYS) nanogels in the swollen state were 379 ± 13 nm"}],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "TA, LYS and p(TA-co-LYS) nanogels", "quote": "FT-IR spectra of TA, LYS, and p(TA-co-LYS) nanogels."},
+        {"technique": "EDS", "fig": "Fig. S1b", "applies_to": "nanoparticle", "sample": "p(TA-co-LYS) nanogels", "quote": "The result of the energy-dispersive X-ray (EDX) analysis of p(TA-co-LYS) is given in Figure S1b."}
+      ]
+    },
+    {
+      "pmcid": "PMC5877385",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 6", "variant": "TEM_negstain", "sample": "naked and PEG/PDC-coated gold nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "TEM images of PEG-coated gold nanoparticles. Samples were negative stained with 1% phosphotungstic acid"}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "mixture", "sample": "PEG and peptide-drug-conjugate-bound gold nanoparticles", "quote": "Fourier Transformed Infra-Red spectra of PEG and PDC binding to gold nanoparticles."},
+        {"technique": "UVVis", "fig": "Fig. S5", "applies_to": "nanoparticle", "sample": "AuNPs before and after PEG/PDC coating", "quote": "530 nm surface plasmon band peak of the AuNPs"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "batch": "EX136",
+  "articles": [
+    {
+      "pmcid": "PMC10145101",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "synthesized silver nanoparticles (SNPs)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of the synthesized SNPs at different resolutions."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "synthesized SNPs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -12,
+          "medium": "not_declared",
+          "source": "zeta potential distribution maximum total counts",
+          "quote": "The maximum total counts at −12 mV by zeta potential (Figure 7b) indicated that the synthesized SNPs are of good stability"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "TSADE, TSDESNPs, TSFPE and TSFESNPs",
+          "quote": "FT-IR spectra (a) TSADE, (b) TSDESNPs, (c) TSFPE, (d) TSFESNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 6",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPS",
+          "quote": "The XRD pattern of Ag NPS is shown in Figure 6."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10308821",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "AuNPs synthesized using amino acids 1–8 and 12–20",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of AuNPs synthesized using amino acids 1–8 and 12–20."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AuNPs using amino acid 2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 36,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "2 | 10 | 41 | 4 | 10 | 46 | 4 | 9 | 36 ± 6 | 528"
+        },
+        {
+          "sample": "AuNPs using amino acid 3",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 31,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "3 | 9 | 27 | 5 | 19 | 28 | 5 | 18 | 31 ± 1 | 522"
+        },
+        {
+          "sample": "AuNPs using amino acid 4",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 24,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "4 | 10 | 49 | 4 | 8 | 47 | 3 | 6 | 24 ± 1 | 526"
+        },
+        {
+          "sample": "AuNPs using amino acid 5",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 28,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "5 | 9 | 18 | 5 | 28 | 21 | 4 | 19 | 28 ± 1 | 518"
+        },
+        {
+          "sample": "AuNPs using amino acid 6",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 31,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "6 | 8 | 26 | 1 | 4 | 24 | 1 | 4 | 31 ± 1 | 524"
+        },
+        {
+          "sample": "AuNPs using amino acid 12",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 33,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "12 | 7 | 13 | 3 | 23 | 14 | 5 | 36 | 33 ± 2 | 522"
+        },
+        {
+          "sample": "AuNPs using amino acid 14",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 37,
+          "medium": "not_declared",
+          "source": "Table 1 zeta; DCS sizes excluded",
+          "quote": "14 | 13 | 69 | 11 | 16 | 72 | 11 | 15 | 37 ± 3 | 534"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "AuNPs synthesized with salts of amino acids",
+          "quote": "Absorption spectra of AuNPs synthesized with salts of amino acids 1–8 and 12–20 with indicated λmax."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9269196",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "rod-shaped Au-NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image showing the morphology of rod Au-NP."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "biofilms of C. albicans, E. coli and S. aureus after Au-NP treatment and controls",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM analysis of biofilm structure."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "developed Au-NP",
+          "size_nm": 82.5,
+          "pdi": 0.323,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size and PDI; zeta reported separately",
+          "quote": "The particle size was found to be 82.5 nm with a PDI value of 0.323."
+        },
+        {
+          "sample": "developed Au-NP",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 34.8,
+          "medium": "not_declared",
+          "source": "zeta potential; ±0.14 mV reported",
+          "quote": "As displayed in Figure 2B, the zeta potential of the developed Au-NP was 34.8 ± 0.14 mV."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "fabricated Au-NPs",
+          "quote": "The band of the surface plasmon resonance appeared to be within 510–540 nm with a characteristic absorption peak at 525 nm."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "developed Au-NPs",
+          "quote": "FTIR spectrum of the developed Au-NPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7600797",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_dried_unstained",
+          "sample": "biostable AgNPs synthesized using B. hispida peel extract",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM analysis"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs synthesized using B. hispida peel extract",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -28,
+          "medium": "not_declared",
+          "source": "zeta potential; DLS size not numerically reported",
+          "quote": "The zeta potential of the prepared AgNPs was −28 mV (Figure 2D), suggesting higher stability of the particles."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(A) UV–visible spectroscopy"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(E) FTIR spectroscopy."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7760612",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNPs with and without PVA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and size distribution plots of GNPs, 0.6 mM gold ions loading, Ct/Au = 6"
+        },
+        {
+          "fig": "Figure 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNPs at Ct/Au ratios 1–15",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of GNPs (5 mM gold ions, 0.5% PVA)"
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNPs at Ct/Au ratios 1 and 3",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of GNPs and size distribution histograms"
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "GNPs and Au/PVA nanocomposite after anti-solvent precipitation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM image of GNPs (10 mM gold ions, Ct/Au = 3)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GNPs, no PVA",
+          "size_nm": 8.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS number-weighted mean diameter; text/table report 8.9 ± 1.9 nm",
+          "quote": "hydrodynamic diameter of the system with PVA was 12.0 ± 2.8 nm compared to the 8.9 ± 1.9 nm for the system without PVA"
+        },
+        {
+          "sample": "GNPs with 0.03% PVA",
+          "size_nm": 12.0,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS number-weighted mean; text says ±2.8 nm while Table 1 says ±2.9 nm",
+          "quote": "hydrodynamic diameter of the system with PVA was 12.0 ± 2.8 nm compared to the 8.9 ± 1.9 nm for the system without PVA"
+        },
+        {
+          "sample": "GNPs, no PVA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -44.1,
+          "medium": "water",
+          "source": "zeta potential; ±8.0 mV reported",
+          "quote": "zeta potential of GNPs with and without a PVA layer equaled −24.0 ± 7.5 mV and −44.1 ± 8.0 mV"
+        },
+        {
+          "sample": "GNPs with PVA layer",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -24,
+          "medium": "water",
+          "source": "Table 1 zeta; ±7.5 mV reported",
+          "quote": "zeta potential of GNPs with and without a PVA layer equaled −24.0 ± 7.5 mV and −44.1 ± 8.0 mV"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "gold colloidal suspensions with PVA",
+          "quote": "UV–vis spectra of gold colloidal suspensions"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 8",
+          "applies_to": "mixture",
+          "sample": "gold colloidal suspension with PVA and supernatant after precipitation",
+          "quote": "(c) UV–vis absorption of the gold colloidal suspension with PVA and supernatant after anti-solvent precipitation"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 9",
+          "applies_to": "mixture",
+          "sample": "PVA hydrogel and GNPs/PVA nanocomposite",
+          "quote": "FT-IR spectrum for PVA hydrogel and GNPs/PVA nanocomposite from anti-solvent precipitation."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7309969",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MSNs and MSNs-NH2-FA-RGD",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (A) MSNs and (B) MSNs-NH2-FA-RGD."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MSNs",
+          "size_nm": 188.6,
+          "pdi": 0.267,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "ZetaSizer/particle size analyzer; DLS values from Figure 2C",
+          "quote": "average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)"
+        },
+        {
+          "sample": "MSNs-NH2-FA-RGD",
+          "size_nm": 204.1,
+          "pdi": 0.269,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "ZetaSizer/particle size analyzer; DLS values from Figure 2C",
+          "quote": "average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)"
+        },
+        {
+          "sample": "MSNs",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -18.4,
+          "medium": "water",
+          "source": "zeta potential; ±4.30 mV reported",
+          "quote": "Zeta potential of MSNs in distilled water was -18.4 ± 4.30 mV."
+        },
+        {
+          "sample": "MSNs-NH2",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 25.6,
+          "medium": "water",
+          "source": "zeta potential; ±3.8 mV reported",
+          "quote": "Because of the amino group on the surface, zeta potential of MSNs-NH2 was reversed to 25.6 ± 3.8 mV after the process of amination."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MSNs, MSNs-NH2, MSNs-NH2-FA and MSNs-NH2-FA-RGD",
+          "quote": "FTIR spectra (A) and thermograms (B) of MSNs (a), MSNs-NH2 (b), MSNs-NH2-FA (c), and MSNs-NH2-FA-RGD (d)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7369735",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2 and SiO2-NH2 nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of (a) SiO2 NPs (amplified image), (b) SiO2-NH2 NPs (amplified image)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "SiO2 NPs",
+          "size_nm": 206,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS average hydrodynamic diameter; ±15 nm reported",
+          "quote": "The average hydrodynamic particle sizes of SiO2 and SiO2-NH2 NPs were around 206 ± 15 and 187 ± 10 nm in D.I. water."
+        },
+        {
+          "sample": "SiO2-NH2 NPs",
+          "size_nm": 187,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS average hydrodynamic diameter; ±10 nm reported",
+          "quote": "The average hydrodynamic particle sizes of SiO2 and SiO2-NH2 NPs were around 206 ± 15 and 187 ± 10 nm in D.I. water."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "SiO2, SiO2-NH2, SiO2@ICG and SiO2-NH2@ICG NPs",
+          "quote": "(e) Fourier-transform infrared (FTIR) spectra of SiO2, SiO2-NH2, SiO2@ICG and SiO2-NH2@ICG NPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "ICG and ICG-loaded silica nanoparticles",
+          "quote": "(b) UV–vis spectra of ICG, SiO2-NH2@ICG, SiO2@ICG, SiO2-NH2 and SiO2 NPs in aqueous solution"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10643307",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "IONPs and IO@AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Transmission electron microscope (TEM) images of iron oxide nanoparticles (IONPs) and iron-silver bimetallic nanoparticles (IO@AgNPs)"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "IONPs and IO@AgNPs",
+          "quote": "X-ray diffraction (XRD) of iron oxide nanoparticles (IONPs) (a) and iron-silver bimetallic nanoparticles (IO@AgNPs) (b)"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "IONPs and IO@AgNPs",
+          "quote": "UV–visible spectra of iron oxide nanoparticles (IONPs) and iron-silver bimetallic nanoparticles (IO@AgNPs)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9671459",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "citrate-coated magnetite nanoparticles (IONps)",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images and size distribution of the magnetite nanoparticle (IONps)."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig 1",
+          "applies_to": "nanoparticle",
+          "sample": "citrate-coated iron oxide nanoparticles",
+          "quote": "X-Ray diffraction pattern of citrate-coated iron oxide nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9680943",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "pristine Ag NPs, Ag@NO2, Ag@CCH and Ag@CN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM and (b), (d), (f) and (h) TEM images"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "Ag, Ag@NO2, Ag@CCH and Ag@CN NPs",
+          "quote": "Normalized extinction spectra of Ag, Ag@NO2, Ag@CCH and Ag@CN NPs."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "Ag@NO2, Ag@CCH and Ag@CN SERS inks",
+          "quote": "SERS spectra of the (a) Ag@NO2, (b) Ag@CCH and (c) Ag@CN inks"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig. 5",
+          "applies_to": "mixture",
+          "sample": "combined Ag@NO2, Ag@CCH and Ag@CN inks",
+          "quote": "The corresponding Raman spectra of numbers 8, 6, 0 and 1 are displayed on the right part of the image."
+        },
+        {
+          "technique": "Raman",
+          "fig": "Fig. 6",
+          "applies_to": "mixture",
+          "sample": "Ag@CCH ink before and after water, ethanol, oil, acid or alkaline treatment",
+          "quote": "For each word, the SERS spectra were recorded before and after the corresponding treatment"
+        }
+      ]
+    }
+  ]
+}

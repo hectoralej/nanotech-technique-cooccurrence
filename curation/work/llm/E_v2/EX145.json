@@ -1,0 +1,622 @@
+{
+  "batch": "EX145",
+  "articles": [
+    {
+      "pmcid": "PMC6151007",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "lichen-mediated silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images of silver nanoparticles"
+        },
+        {
+          "fig": "Fig. 6",
+          "variant": "SEM",
+          "sample": "lichen-mediated silver nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of silver nanoparticles"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Usnea longissima AgNPs",
+          "size_nm": 437.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; overall average diameter, separate intensity peak reported",
+          "quote": "peak-1 shows the abundance of particles with average hydrodynamic diameter of 184.5 nm with an intensity of 59.4% but overall average is 437.1 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "AgNPs and PEG-coated AgNPs",
+          "quote": "UV-vis spectrum of (a) silver nanoparticles and (b) poly(ethylene glycol) coated silver nanoparticles"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 8",
+          "applies_to": "mixture",
+          "sample": "aqueous-alcoholic lichen extract and AgNPs",
+          "quote": "FTIR spectra of (a) aqueous-alcoholic extract and (b) silver nanoparticles"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12304043",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "HRTEM",
+          "sample": "uncoated and lactose-coated NAC-PLGA NPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "uncoated NAC-PLGA NPs by HR-TEM"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "NAC-PLGA F1",
+          "size_nm": 480,
+          "pdi": 0.42,
+          "zeta_mV": -8.3,
+          "medium": "not_declared",
+          "source": "Table I; DLS size/PDI/ZP",
+          "quote": "F1 | 1:5 | 0.25% | 480 ± 6 | 0.42 ± 0.05 | −8.3 ± 0.6"
+        },
+        {
+          "sample": "NAC-PLGA F2",
+          "size_nm": 310,
+          "pdi": 0.15,
+          "zeta_mV": -11.5,
+          "medium": "not_declared",
+          "source": "Table I; DLS size/PDI/ZP",
+          "quote": "F2 | 1:10 | 0.50% | 310 ± 3 | 0.15 ± 0.01 | −11.5 ± 0.4"
+        },
+        {
+          "sample": "NAC-PLGA F3",
+          "size_nm": 540,
+          "pdi": 0.31,
+          "zeta_mV": -12.6,
+          "medium": "not_declared",
+          "source": "Table I; DLS size/PDI/ZP",
+          "quote": "F3 | 1:15 | 0.75% | 540 ± 7 | 0.31 ± 0.06 | −12.6 ± 0.3"
+        },
+        {
+          "sample": "lactose-coated reconstituted NAC-PLGA NPs",
+          "size_nm": 320,
+          "pdi": 0.2,
+          "zeta_mV": -11.8,
+          "medium": "not_declared",
+          "source": "DLS size/PDI/ZP after freeze-drying",
+          "quote": "320 ± 3 nm, 0.20 ± 0.10, and −11.8 ± 0.6 mV, respectively."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "NAC, PLGA, physical mixture and lactose-coated NAC-PLGA NPs",
+          "quote": "FTIR characterization of (A) NAC (drug), (B) PLGA (polymer)"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "NAC, PLGA, physical mixture and lactose-coated NAC-PLGA NPs",
+          "quote": "Powder x-ray diffraction (PXRD) of (A) NAC (drug), (B) PLGA (polymer)"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12249999",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 4",
+          "variant": "SEM",
+          "sample": "DMPC/DOPC liposomal formulations",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs (20,000×, 40,000×) obtained for DMPC_Ctrl"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "DMPC_Ctrl",
+          "size_nm": 164.63,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1, DLS hydrodynamic diameter",
+          "quote": "Hydrodynamic diameter (nm) | 164.63 | 230.53 | 116.5 | 166.2 | 146.53"
+        },
+        {
+          "sample": "DMPC_CAF",
+          "size_nm": 230.53,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1, DLS hydrodynamic diameter",
+          "quote": "Hydrodynamic diameter (nm) | 164.63 | 230.53 | 116.5 | 166.2 | 146.53"
+        },
+        {
+          "sample": "DOPC_Ctrl",
+          "size_nm": 116.5,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1, DLS hydrodynamic diameter",
+          "quote": "Hydrodynamic diameter (nm) | 164.63 | 230.53 | 116.5 | 166.2 | 146.53"
+        },
+        {
+          "sample": "DOPC_HAMA",
+          "size_nm": 166.2,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1, DLS hydrodynamic diameter",
+          "quote": "Hydrodynamic diameter (nm) | 164.63 | 230.53 | 116.5 | 166.2 | 146.53"
+        },
+        {
+          "sample": "DMPC + CAF_DOPC + HAMA",
+          "size_nm": 146.53,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Table 1, DLS hydrodynamic diameter",
+          "quote": "Hydrodynamic diameter (nm) | 164.63 | 230.53 | 116.5 | 166.2 | 146.53"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "DMPC/DOPC liposomal formulations",
+          "quote": "EDS results obtained for DMPC_Ctrl, DMPC_CAF, DOPC_Ctrl, DOPC_HAMA"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC6215593",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "green-synthesized silver and copper nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscopy (SEM) images of green-synthesized (a) silver nanoparticles"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "silver and copper nanoparticles",
+          "quote": "UV-Vis spectra of (a) silver nanoparticles and (b) copper nanoparticles."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "silver and copper nanoparticles",
+          "quote": "XRD patterns of biogenically synthesized (a) silver nanoparticles and (b) copper nanoparticles."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "text",
+          "applies_to": "mixture",
+          "sample": "algal extract and biosynthesized metal nanoparticles",
+          "quote": "Fourier transform infrared (FTIR) spectrum of the experimental samples revealed two types of vibrations"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12378271",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "polymeric_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 6",
+          "variant": "TEM_prep_not_declared",
+          "sample": "CS-S3 and CS-S3-DH nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM images (a) and (b) and particle-size distribution"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "CS-S1",
+          "size_nm": 186,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS average particle diameter",
+          "quote": "The average particle size decreases from 186 ± 0.8 for CS-S1"
+        },
+        {
+          "sample": "CS-S2",
+          "size_nm": 71,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS average particle diameter",
+          "quote": "to 71 ± 0.03 for CS-S2."
+        },
+        {
+          "sample": "CS-S3",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 28.7,
+          "medium": "not_declared",
+          "source": "Table 1; zeta potential",
+          "quote": "the value 28.7 mV for CS-S3"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 2",
+          "applies_to": "mixture",
+          "sample": "CS, SMA, SSMA and CS-S3",
+          "quote": "FTIR spectrum of CS, SMA, SSMA, and CS-S3"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Fig. 4",
+          "applies_to": "mixture",
+          "sample": "CS, SSMA and CS-S3",
+          "quote": "XRD analyses of (a) CS, (b) SSMA, and (c) CS-S3"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 7",
+          "applies_to": "mixture",
+          "sample": "DH, CS-S3 and CS-S3-DH",
+          "quote": "FTIR of (a) DH, (b) CS-S3, and (c) CS-S3-DH"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11941038",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "E-lips, β-lips and chitosan/lactoferrin-modified liposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images (c) of E-lips, E-CS-lips, E-CS-LF-lips"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "E-lips (unloaded βC)",
+          "size_nm": 167,
+          "pdi": 0.2,
+          "zeta_mV": -25,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "E-lips | 167 ± 8 c | −25 ± 1 a | 0.20 ± 0.03 c"
+        },
+        {
+          "sample": "β-lips, 0.5% βC",
+          "size_nm": 231,
+          "pdi": 0.24,
+          "zeta_mV": -30.6,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "0.5% | 231 ± 5 b | −30.6 ± 0.3 b | 0.24 ± 0.04 b"
+        },
+        {
+          "sample": "β-lips, 1.0% βC",
+          "size_nm": 258,
+          "pdi": 0.25,
+          "zeta_mV": -30.7,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "1.0% | 258 ± 3 ab | −30.7 ± 0.8 b | 0.25 ± 0.05 b"
+        },
+        {
+          "sample": "β-lips, 1.5% βC",
+          "size_nm": 268,
+          "pdi": 0.28,
+          "zeta_mV": -31.9,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "1.5% | 268 ± 6 a | −31.9 ± 0.3 b | 0.28 ± 0.04 a"
+        },
+        {
+          "sample": "β-lips, 2.0% βC",
+          "size_nm": 267,
+          "pdi": 0.25,
+          "zeta_mV": -30.5,
+          "medium": "not_declared",
+          "source": "Table 1; DLS",
+          "quote": "2.0% | 267 ± 7 a | −30.5 ± 0.7 b | 0.25 ± 0.02 b"
+        },
+        {
+          "sample": "CS-modified liposomes, 0% CS",
+          "size_nm": 259,
+          "pdi": 0.27,
+          "zeta_mV": -33.0,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "0% | 259 ± 3 f | −33.0 ± 0.9 e | 0.27 ± 0.01 e"
+        },
+        {
+          "sample": "CS-modified liposomes, 0.5% CS",
+          "size_nm": 483,
+          "pdi": 0.52,
+          "zeta_mV": 44.7,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "0.5% | 483 ± 5 e | 44.7 ± 0.4 d | 0.52 ± 0.01 bc"
+        },
+        {
+          "sample": "CS-modified liposomes, 0.6% CS",
+          "size_nm": 508,
+          "pdi": 0.55,
+          "zeta_mV": 47.4,
+          "medium": "not_declared",
+          "source": "Table 2; DLS",
+          "quote": "0.6% | 508 ± 8 d | 47.4 ± 0.4 c | 0.55 ± 0.01 ab"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "β-carotene, chitosan, lactoferrin and liposome formulations",
+          "quote": "FTIR spectra of βC, CS, LF and E-lips"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC4714747",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "gold nanoparticles dispersed in hexane",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrograph of gold nanoparticles dispersed in hexane"
+        },
+        {
+          "fig": "Fig 3",
+          "variant": "SEM",
+          "sample": "bare and β-CD-GNPs-modified capillary",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM photographs of (C) bare capillary and (D) etched β-CD-GNPs capillary"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig 2",
+          "applies_to": "nanoparticle",
+          "sample": "gold nanoparticles dispersed in hexane",
+          "quote": "Visible absorption spectrum of gold nanoparticles dispersed in hexane."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig 3",
+          "applies_to": "mixture",
+          "sample": "free SH-β-CD and β-CD-GNPs-based capillary",
+          "quote": "FT-IR spectra of (A) free SH-β-CD and (B) β-CD-GNPs based capillary"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC12298364",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "SEM",
+          "sample": "FeONPs, Cur-FeONPs and IFNα-PLGANPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of (a) FeONPs, (b) Cur-FeONPs and (c) IFNα-PLGANPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "FeONPs",
+          "size_nm": 95.37,
+          "pdi": 0.151,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS hydrodynamic average/PDI",
+          "quote": "zeta average of 95.37 nm (PDI = 0.151)"
+        },
+        {
+          "sample": "Cur-FeONPs",
+          "size_nm": 111,
+          "pdi": 0.279,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS hydrodynamic average/PDI",
+          "quote": "increasing to 111.00 nm (PDI = 0.279)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "mixture",
+          "sample": "Cur-FeONPs, free Cur, uncoated FeONPs, IFNα-PLGANPs, pure IFNα and PLGA",
+          "quote": "FTIR spectra for (a) Cur-FeONPs, free Cur, and the uncoated FeONPs"
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "mixture",
+          "sample": "FeONPs, Cur, Cur-FeONPs, PLGA, IFNα and IFNα-PLGANPs",
+          "quote": "Images of the XRD spectra for (a) FeONPs, free Cur, and Cur-FeONPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11868053",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "liposome",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 2",
+          "variant": "SEM",
+          "sample": "oligosaccharide nanoliposomes",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron microscope images of oligosaccharide nanoliposome"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "drug-free nanoliposomes",
+          "size_nm": 112.6,
+          "pdi": 0.279,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size/PDI",
+          "quote": "average size of 112.6 nm with a PDI of 0.279 for drug-free nanoliposomes"
+        },
+        {
+          "sample": "drug-containing nanoliposomes",
+          "size_nm": 188,
+          "pdi": 0.385,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS size/PDI",
+          "quote": "average size of 188.0 nm with a PDI of 0.385 for nanoliposome-loaded drugs"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 5",
+          "applies_to": "mixture",
+          "sample": "free drug, drug-free liposome and drug-containing nanoliposome",
+          "quote": "FT-IR spectrum of free drug (A), drug-free liposome (B), Nanoliposome containing drug (C)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC5302630",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "AgNWs and AgNWs-AgNPs-GN composite",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Field emission scanning electron microscopy (FE-SEM) images of the AgNWs (A)"
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "AgNWs-AgNPs-GN hybrid nanomaterial",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "High resolution transmission electron microscopy (HRTEM) images of the AgNWs-AgNPs-GN"
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "SEM",
+          "sample": "electrically conductive adhesive filled with AgNWs-AgNPs-GN",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "SEM images of cross-section morphology of electrically conductive adhesives"
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Figure 4",
+          "applies_to": "mixture",
+          "sample": "GO and AgNWs-AgNPs-GN composites",
+          "quote": "X-ray powder diffractometer (XRD) patterns of graphene oxide (GO) and AgNWs-AgNPs-GN"
+        },
+        {
+          "technique": "Raman",
+          "fig": "Figure 5",
+          "applies_to": "mixture",
+          "sample": "GO, GN and AgNWs-AgNPs-GN",
+          "quote": "Raman spectra of GO, GN and AgNWs-AgNPs-GN"
+        }
+      ]
+    }
+  ]
+}

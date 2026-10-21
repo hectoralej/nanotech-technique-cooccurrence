@@ -1,0 +1,174 @@
+{
+  "batch": "EX153",
+  "articles": [
+    {
+      "pmcid": "PMC5660180",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 5", "variant": "TEM_prep_not_declared", "sample": "AuNPs-rGO composite", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) rGO, (b) AuNPs-rGO and corresponding EDS of AuNPs-rGO (c)."},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "AuNPs-rGO composite", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "loading of chitosan. Scale bar = 500 nm."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "mixture", "sample": "GO, AuNPs and AuNPs-rGO", "quote": "UV-vis spectra of the (a) GO, (b) AuNPs and (c) AuNPs− rGO."},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "GO and AuNPs-rGO", "quote": "FTIR spectra of (a) GO and (b) AuNPs-rGO."},
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "mixture", "sample": "GO, rGO, AuNPs and AuNPs-rGO", "quote": "XRD profiles of (a) GO, (b) rGO, (c) AuNPs and (d) AuNPs-rGO."},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "AuNPs-rGO composite", "quote": "corresponding EDS of AuNPs-rGO (c)."},
+        {"technique": "Raman", "fig": "Fig. 7", "applies_to": "mixture", "sample": "rGO, GO and AuNPs-rGO", "quote": "Raman spectra of rGO (red line), GO (green line) and AuNPs-rGO (blue line)."},
+        {"technique": "UVVis", "fig": "Fig. 8", "applies_to": "nanoparticle", "sample": "AuNPs-rGO with NO2− additions", "quote": "(a) UV-vis absorption spectra of AuNPs-rGO"},
+        {"technique": "UVVis", "fig": "Fig. 9", "applies_to": "nanoparticle", "sample": "AuNPs-rGO with different anions", "quote": "(a) UV-vis absorption spectra of AuNPs-rGO with different anions."}
+      ]
+    },
+    {
+      "pmcid": "PMC7891889",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "AFM", "sample": "Fe3O4, MNP composite and dm@LMNP nanoformulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Surface morphology observation through AFM and SEM techniques"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "Fe3O4, MNP composite and dm@LMNP nanoformulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Surface morphology observation through AFM and SEM techniques"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Fe3O4, MNP composite and dm@LMNP nanoformulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of (a) Fe3O4 nanoparticles, (b) MNP composited particles and (c) dm@LMNP nanoformulations"}
+      ],
+      "descriptors": [
+        {"sample": "bare Fe3O4 nanoparticles", "size_nm": null, "pdi": null, "zeta_mV": 18.2, "medium": "not_declared", "source": "text", "quote": "bare MN have positive surface charge of +18.2 mV"},
+        {"sample": "PLGA-coated MNP", "size_nm": null, "pdi": null, "zeta_mV": -20.2, "medium": "not_declared", "source": "text", "quote": "PLGA coated MNP and dm@LMNP composited materials have negative surface change of −20.2 and −7.2, respectively"},
+        {"sample": "dm@LMNP composite", "size_nm": null, "pdi": null, "zeta_mV": -7.2, "medium": "not_declared", "source": "text", "quote": "PLGA coated MNP and dm@LMNP composited materials have negative surface change of −20.2 and −7.2, respectively"}
+      ],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Fe3O4, MNP and dm@LMNP nanoformulations", "quote": "Analysis results of XRD patterns (a) Fe3O4 nanoparticles, (b) MNP composited particles and (c) dm@LMNP nanoformulations"},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "dexamethasone, Fe3O4, MNP and dm@LMNP nanoformulations", "quote": "FTIR spectrums of (a) dexamethasone, (b) Fe3O4 nanoparticles, (c) MNP and (d) dm@LMNP nanoformulations."},
+        {"technique": "Raman", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "dm@LMNP", "quote": "Raman and UV-visible spectroscopic techniques to examine the ROS scavenging ability of the dm@LMNP."},
+        {"technique": "UVVis", "fig": "Fig. 7", "applies_to": "nanoparticle", "sample": "dm@LMNP", "quote": "Raman and UV-visible spectroscopic techniques to examine the ROS scavenging ability of the dm@LMNP."}
+      ]
+    },
+    {
+      "pmcid": "PMC10003139",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 8", "variant": "TEM_prep_not_declared", "sample": "rhodamine B-loaded SLN F9", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of optimized SLN formulation (F9) loaded with rhodamine B."},
+        {"fig": "Fig. 9", "variant": "TEM_prep_not_declared", "sample": "SLN F9 without rhodamine B", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of optimized SLN formulation (F9) without rhodamine B."}
+      ],
+      "descriptors": [
+        {"sample": "SLN F1", "size_nm": 99.05, "pdi": 0.358, "zeta_mV": -19.16, "medium": "water", "source": "Table 2", "quote": "F1 | 99.05 ± 4.62 | 0.358 ± 0.03 | −19.16 ± 0.37"},
+        {"sample": "SLN F2", "size_nm": 138.33, "pdi": 0.528, "zeta_mV": -18.66, "medium": "water", "source": "Table 2", "quote": "F2 | 138.33 ± 1.89 | 0.528 ± 0.02 | −18.66 ± 0.23"},
+        {"sample": "SLN F3", "size_nm": 1925.60, "pdi": 0.716, "zeta_mV": -17.56, "medium": "water", "source": "Table 2", "quote": "F3 | 1925.60 ± 75.07 | 0.716 ± 0.07 | −17.56 ± 0.28"},
+        {"sample": "SLN F4", "size_nm": 639.46, "pdi": 1.0, "zeta_mV": -15.36, "medium": "water", "source": "Table 2", "quote": "F4 | 639.46 ± 39.71 | 1 ± 0.00 | −15.36 ± 0.51"},
+        {"sample": "SLN F5", "size_nm": 98.28, "pdi": 0.259, "zeta_mV": -17.66, "medium": "water", "source": "Table 2", "quote": "F5 | 98.28 ± 5.63 | 0.259 ± 0.08 | −17.66 ± 0.20"},
+        {"sample": "SLN F6", "size_nm": 101.89, "pdi": 0.195, "zeta_mV": -17.4, "medium": "water", "source": "Table 2", "quote": "F6 | 101.89 ± 2.84 | 0.195 ± 0.03 | −17.4 ± 0.36"},
+        {"sample": "SLN F7", "size_nm": 394.10, "pdi": 0.191, "zeta_mV": -16.76, "medium": "water", "source": "Table 2", "quote": "F7 | 394.10 ± 18.37 | 0.191 ± 0.03 | −16.76 ± 0.80"},
+        {"sample": "SLN F8", "size_nm": 213.63, "pdi": 0.556, "zeta_mV": -22.06, "medium": "water", "source": "Table 2", "quote": "F8 | 213.63 ± 0.50 | 0.556 ± 0.03 | −22.06 ± 0.66"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "pure drug, P407, egg lecithin, GMS, optimized Val-loaded SLN", "quote": "FTIR spectra of (a) Pure drug; (b) P407; (c) egg lecithin; (d) GMS; (e) optimized Val-loaded SLN (F9)."},
+        {"technique": "XRD", "fig": "Fig. 7", "applies_to": "mixture", "sample": "pure drug, P407, egg lecithin, GMS, optimized Val-loaded SLN", "quote": "XRD spectra of (a) Pure drug; (b) P407; (c) egg lecithin; (d) GMS; (e) optimized Val-loaded SLN (F9)."}
+      ]
+    },
+    {
+      "pmcid": "PMC11595114",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "HMSNs and LpTW20-HMSNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM images of (a,b) HMSNs and (c,d) LpTW20-HMSNs"},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "core/shell nanoparticles and HMSNs after etching", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (e,f) SiO2@CTAB-SiO2 Core/Shell Nanoparticles and (g,h) HMSNs after etching."}
+      ],
+      "descriptors": [
+        {"sample": "LpTW20-HMSNs", "size_nm": 182.1, "pdi": 0.519, "zeta_mV": -33.1, "medium": "not_declared", "source": "Table 1", "quote": "LpTW20-HMSNs | 182.1 ± 15.96 | 0.519 ± 0.08 | −33.1 ± 4.51"},
+        {"sample": "LpTW80-HMSNs", "size_nm": 170.4, "pdi": 0.370, "zeta_mV": -33.7, "medium": "not_declared", "source": "Table 1", "quote": "LpTW80-HMSNs | 170.4 ± 24.98 | 0.370 ± 0.07 | −33.7 ± 0.61"},
+        {"sample": "LpTW2080-HMSNs", "size_nm": 170.9, "pdi": 0.425, "zeta_mV": -32.6, "medium": "not_declared", "source": "Table 1", "quote": "LpTW2080-HMSNs | 170.9 ± 6.29 | 0.425 ± 0.19 | −32.6 ± 8.62"},
+        {"sample": "Lp-HMSNs", "size_nm": 175.8, "pdi": 0.421, "zeta_mV": -30.1, "medium": "not_declared", "source": "Table 1", "quote": "Lp-HMSNs | 175.8 ± 17.61 | 0.421 ± 0.09 | −30.1 ± 2.48"},
+        {"sample": "HMSNs", "size_nm": 152.4, "pdi": 0.514, "zeta_mV": -26.2, "medium": "not_declared", "source": "Table 1", "quote": "HMSNs | 152.4 ± 6.91 | 0.514 ± 0.18 | −26.2 ± 2.43"},
+        {"sample": "LpTW20", "size_nm": 78.96, "pdi": 0.455, "zeta_mV": -33.4, "medium": "not_declared", "source": "Table 1", "quote": "LpTW20 | 78.96 ± 17.34 | 0.455 ± 0.07 | −33.4 ± 0.53"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "HMSNs and LpTW20-HMSNs", "quote": "The FT-IR spectra of HMSNs and LpTW20-HMSNs."},
+        {"technique": "XRD", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "HMSNs and LpTW20-HMSNs", "quote": "Powder XRD patterns obtained from the HCl/ethanol extraction method for as-synthesized HMSNs and LpTW20-HMSNs"},
+        {"technique": "FTIR", "fig": "Fig. 7", "applies_to": "mixture", "sample": "Caf, HMSNs and Caf@HMSNs", "quote": "FT-IR spectra of pure Caf, HMSNs, and Caf@HMSNs."}
+      ]
+    },
+    {
+      "pmcid": "PMC7692172",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "lignin nanoparticles (LNP)", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Field-emission scanning electron microscopy (FESEM) images of lignin nanoparticles (LNP)"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "ZnO nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "ZnO"},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "ZnO@LNP nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "ZnO@LNP nanoparticles."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "PLA films with embedded nanoparticles", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Microstructure surface investigation of PLA systems"},
+        {"fig": "Fig. 4", "variant": "SEM", "sample": "fractured PLA-based nanocomposite films", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "FESEM investigation of fractured surfaces for PLA based formulations."}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "ZnO@LNP", "quote": "X-ray diffraction (XRD) patterns"},
+        {"technique": "EDS", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "ZnO@LNP", "quote": "Energy Dispersive X-Ray (EDX) analysis (e) of ZnO@LNP."}
+      ]
+    },
+    {
+      "pmcid": "PMC7854673",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 5", "variant": "HRTEM", "sample": "AuNPs, PEG-functionalized AuNPs, FA-conjugated and Dtx-loaded gold nanoformulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "HR-TEM images of the gold nanoformulations"},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "gold nanoformulations", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FESEM image and Elemental mapping with EDS spectrum of gold nanoformulations"}
+      ],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "UV–Vis absorption spectra of the synthesized gold nanoformulations"},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "FTIR spectra of gold nanoformulations"},
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "XRD pattern of the gold nanoformulations"},
+        {"technique": "EDS", "fig": "Fig. 5", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "EDS spectrum"},
+        {"technique": "EDS", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "EDS spectrum of gold nanoformulations."},
+        {"technique": "Raman", "fig": "Fig. 8", "applies_to": "nanoparticle", "sample": "gold nanoformulations", "quote": "Raman spectra of the gold nanoformulations"}
+      ]
+    },
+    {
+      "pmcid": "PMC11021454",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 5", "variant": "SEM", "sample": "Fe3O4@SiO2@TAD-G2-SO3H nanocatalyst", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "FE-SEM images and histogram for particles size of Fe3O4@SiO2@TAD-G2-SO3H."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "Fe3O4-based catalyst formulations", "quote": "FT-IR spectra of Fe3O4 (a), Fe3O4@SiO2 (b), Fe3O4@SiO2 -PrNH2 (c), Fe3O4@SiO2-TzCl2 (d), Fe3O4@SiO2@TAD-G1 (e), Fe3O4@SiO2 -Tz-BEA-TzCl4 (f), Fe3O4@SiO2@TAD-G2 (g), Fe3O4@SiO2@TAD-G2-SO3H (h)."},
+        {"technique": "XRD", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "Fe3O4 and Fe3O4@SiO2@TAD-G2-SO3H", "quote": "XRD patterns of Fe3O4 (a), JCPDS file No. 19–0629), and Fe3O4@SiO2@TAD-G2-SO3H (b)."},
+        {"technique": "EDS", "fig": "Fig. 6", "applies_to": "nanoparticle", "sample": "Fe3O4@SiO2@TAD-G2-SO3H", "quote": "EDX spectrum and EDX and map analysis for Fe3O4@SiO2@TAD-G2-SO3H."},
+        {"technique": "FTIR", "fig": "Fig. 10", "applies_to": "nanoparticle", "sample": "fresh and reused Fe3O4@SiO2@TAD-G2-SO3H nanocatalyst", "quote": "FT-IR spectra of the fresh and reused nanocatalyst."}
+      ]
+    },
+    {
+      "pmcid": "PMC6099699",
+      "context": {"article_kind": "research", "carrier_type": "SLN", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "Cur-SLNs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "Transmission electron microscopy (TEM) of curcumin-loaded solid lipid nanoparticles (Cur-SLNs), scale bar, 100 nm"}],
+      "descriptors": [{"sample": "Cur-SLNs", "size_nm": null, "pdi": null, "zeta_mV": -25.3, "medium": "not_declared", "source": "text", "quote": "the zeta potential value of Cur-SLNs was about −25.3 ± 1.3 mV"}],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "mixture", "sample": "SLNs, curcumin and Cur-SLNs", "quote": "X-ray diffraction (XRD) curves of SLNs, curcumin, and Cur-SLNs;"},
+        {"technique": "FTIR", "fig": "Fig. 1", "applies_to": "mixture", "sample": "SLNs, curcumin and Cur-SLNs", "quote": "FTIR analysis of SLNs, curcumin, and Cur-SLNs;"}
+      ]
+    },
+    {
+      "pmcid": "PMC11435421",
+      "context": {"article_kind": "research", "carrier_type": "liposome", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "optimized DSDL liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images confirmed the spherical shape of liposomes and size within 200 nm"},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "surface-camouflaged liposomes", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM photographs represented the spherical morphology of surface-camouflaged liposomes"}
+      ],
+      "descriptors": [
+        {"sample": "LP1", "size_nm": 152.8, "pdi": 0.375, "zeta_mV": -7.36, "medium": "not_declared", "source": "Table 2", "quote": "LP1 | 45 | 15 | 7.5 | 152.8 ± 1.54 | 0.375 ± 0.046 | −7.36"},
+        {"sample": "LP2", "size_nm": 189.4, "pdi": 0.423, "zeta_mV": -11.32, "medium": "not_declared", "source": "Table 2", "quote": "LP 2 | 60 | 15 | 5 | 189.4 ± 2.06 | 0.423 ± 0.068 | −11.32"},
+        {"sample": "LP3", "size_nm": 135.5, "pdi": 0.355, "zeta_mV": -9.1, "medium": "not_declared", "source": "Table 2", "quote": "LP 3 | 30 | 15 | 5 | 135.5 ± 1.36 | 0.355 ± 0.034 | −9.1"},
+        {"sample": "LP4", "size_nm": 143.5, "pdi": 0.362, "zeta_mV": -6.31, "medium": "not_declared", "source": "Table 2", "quote": "LP 4 | 30 | 15 | 10 | 143.5 ± 1.48 | 0.362 ± 0.081 | −6.31"},
+        {"sample": "LP5", "size_nm": 149.2, "pdi": 0.348, "zeta_mV": -8.26, "medium": "not_declared", "source": "Table 2", "quote": "LP 5 | 30 | 20 | 7.5 | 149.2 ± 1.59 | 0.348 ± 0.059 | −8.26"},
+        {"sample": "LP6", "size_nm": 164.3, "pdi": 0.318, "zeta_mV": -9.69, "medium": "not_declared", "source": "Table 2", "quote": "LP 6 | 45 | 20 | 5 | 164.3 ± 1.85 | 0.318 ± 0.047 | −9.69"},
+        {"sample": "LP7", "size_nm": 194.6, "pdi": 0.463, "zeta_mV": -9.2, "medium": "not_declared", "source": "Table 2", "quote": "LP 7 | 60 | 15 | 10 | 194.6 ± 2.18 | 0.463 ± 0.065 | −9.2"},
+        {"sample": "LP8", "size_nm": 180.6, "pdi": 0.494, "zeta_mV": -10.3, "medium": "not_declared", "source": "Table 2", "quote": "LP 8 | 60 | 10 | 7.5 | 180.6 ± 2.03 | 0.494 ± 0.072 | −10.3"}
+      ],
+      "spectra": [
+        {"technique": "FTIR", "fig": "Fig. 4", "applies_to": "component", "sample": "TPGS, TPGS-COOH, trastuzumab and iRGD", "quote": "FTIR spectra of (a) TPGS and TPGS-COOH; (b) Trast, TPGS-COOH, and Trast-TPGS-COOH; and (c) iRGD, TPGS-COOH, and iRGD-TPGS-COOH."},
+        {"technique": "FTIR", "fig": "Fig. 5", "applies_to": "mixture", "sample": "TPGS, E-80, cholesterol/drugs and DSDL formulations", "quote": "FTIR spectra of (a) TPGS, TPGS-COOH, E-80, LCH, and GFB and (b) DSDL and non-DSDL formulations."},
+        {"technique": "XRD", "fig": "Fig. 7", "applies_to": "mixture", "sample": "E-80, cholesterol, TPGS, GFB and DSDL", "quote": "XRD spectra of E-80, cholesterol, TPGS, GFB, and DSDL formulation."}
+      ]
+    },
+    {
+      "pmcid": "PMC8596756",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "LB-, BB- and PB-LNPs", "shows_nanocarrier": true, "scale_bar_in_caption": true, "quote": "acetone/water (3 : 1) approaches. Scale bars are 200 nm."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "SAXS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "LB-LNPs, PB-LNPs and BB-LNPs", "quote": "SAXS intensities of LNPs in aqueous solution"},
+        {"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "raw LB, PB and BB lignins and corresponding LNPs", "quote": "FTIR spectra and (d–f) 1H NMR of raw LB, PB, and BB lignins and corresponding LNPs."}
+      ]
+    }
+  ]
+}

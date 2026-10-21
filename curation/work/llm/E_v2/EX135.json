@@ -1,0 +1,439 @@
+{
+  "batch": "EX135",
+  "articles": [
+    {
+      "pmcid": "PMC11265571",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 5",
+          "variant": "TEM_prep_not_declared",
+          "sample": "commercial MNPs before and after layer-by-layer functionalisation",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": true,
+          "quote": "TEM images of bare MNPs (A) and after LbL functionalisation (B). Scale bars = 200 nm."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "component",
+          "sample": "cocoa pod husks and extracted pectin",
+          "quote": "Infrared spectrum analysis of cocoa pod husks and extracted pectin (A)"
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "MNPs before and after LbL functionalisation",
+          "quote": "(B) FTIR-ATR spectra of the MNPs before and after LbL functionalisation."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11358378",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 2",
+          "variant": "TEM_negstain",
+          "sample": "Ag NPs@Bipy-PAN",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(d,e,f) TEM images with various magnifications of Ag NPs@Bipy-PAN."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "EDS",
+          "fig": "Fig. 2",
+          "applies_to": "nanoparticle",
+          "sample": "Ag NPs@Bipy-PAN",
+          "quote": "(g) Area EDX spectra of Ag NPs@Bipy-PAN."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11054826",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "MCM-41 and MCM-48 particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs for MCM-41 (a) and MCM-48 (b) particles."
+        },
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "MCM-41@MOE, MCM-41@APTES@MOE, MCM-48@MOE and MCM-48@APTES@MOE",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of (a) MCM-41@MOE, (b) MCM-41@APTES@MOE, (c) MCM-48@MOE and (d) MCM-48@APTES@MOE."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "MCM mesoporous silica samples loaded with MOE",
+          "quote": "FTIR spectra and band assignments for samples loaded with MOE."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 7",
+          "applies_to": "mixture",
+          "sample": "evolved gases from thermal analysis of MCM-41@MOE",
+          "quote": "The 3D FTIR diagram for evolved gases from the thermal analysis of MCM-41@MOE"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11197426",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 1",
+          "variant": "TEM_prep_not_declared",
+          "sample": "pristine MSN and dye-MSN@TiO2 particles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM and TEM images of MSN and dye-MSN@TiO2 particles."
+        },
+        {
+          "fig": "Fig. 2",
+          "variant": "STEM",
+          "sample": "dye-MSN@TiO2",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "STEM image of dye-MSN@TiO2 (top left) and the corresponding elemental mapping."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "XRD",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "Dye-MSN@TiO2",
+          "quote": "(B) Representative XRD pattern of Dye-MSN@TiO2."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "CTAB-MSN, calcined MSN and dye-MSN@TiO2 formulations",
+          "quote": "(C) ATR absorbance spectra of CTAB-MSN (a), calcined MSN (b), SG-MSN@TiO2 (c), fluo-MSN@SiO2@TiO2 (d), R800-MSN@TiO2 (e), RhB-MSN@TiO2 (f), R6G-MSN@TiO2 (g)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC11280845",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "other",
+        "nanocarrier_is_object_of_study": false,
+        "virus_or_pcr": true
+      },
+      "panels": [],
+      "descriptors": [],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC11508353",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "TEM_negstain",
+          "sample": "GNR-BSA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM image of GNR-BSA (D)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "GNR",
+          "size_nm": 85.7,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic size before MPS coating; ±4.8 nm reported",
+          "quote": "The average hydrodynamic sizes of GNR before and after MPS coating were 85.7 (±4.8) nm and 87.1 (±4.1) nm, respectively (Figure 1B)."
+        },
+        {
+          "sample": "GNR-MPS",
+          "size_nm": 87.1,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic size after MPS coating; ±4.1 nm reported",
+          "quote": "The average hydrodynamic sizes of GNR before and after MPS coating were 85.7 (±4.8) nm and 87.1 (±4.1) nm, respectively (Figure 1B)."
+        },
+        {
+          "sample": "GNR-BSA",
+          "size_nm": 118.9,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic size; ±6.3 nm reported",
+          "quote": "The hydrodynamic size of GNR-BSA was 118.9 (±6.3) nm, indicating successful functionalization; however, slight nanoparticle aggregation is possible (Figure 1B)."
+        },
+        {
+          "sample": "GNR",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 45,
+          "medium": "not_declared",
+          "source": "zeta potential; ±6.3 mV reported",
+          "quote": "The surface charge of GNR was +45 (±6.3) mV, impacted by the conjugated CTAB."
+        },
+        {
+          "sample": "GNR-BSA",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 14.3,
+          "medium": "not_declared",
+          "source": "zeta potential; ±3.1 mV reported",
+          "quote": "The increased zeta potential (+14.3 ± 3.1 mV) suggests effective conjugation with BSA through electrostatic attraction"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "GNR and GNR-BSA",
+          "quote": "The UV-vis spectra of GNR and GNR-BSA (A)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7238062",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "inorganic_NP",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "bare MSN and rosmarinic acid-functionalized nano-RA",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) TEM image of bare mesoporous silica nanoparticles (MSN), (b) TEM image of rosmarinic acid–functionalized silica nanocarrier (nano-RA)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "all nanomaterials, general DLS result",
+          "size_nm": 205,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS; general average across functionalization steps, PDI only reported as <0.3",
+          "quote": "maintaining an average of 205 nm with a good polydispersity index lower than 0.3"
+        },
+        {
+          "sample": "nano-RA/MH",
+          "size_nm": 250,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "water",
+          "source": "DLS hydrodynamic diameter; PDI result is truncated in packet",
+          "quote": "where the average hydrodynamic diameter increases up to 250 nm"
+        },
+        {
+          "sample": "bare mesoporous silica nanoparticles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -27,
+          "medium": "water",
+          "source": "zeta potential",
+          "quote": "from bare mesoporous silica nanoparticles (−27 mV)"
+        },
+        {
+          "sample": "amine-functionalized nanoparticles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": 17,
+          "medium": "water",
+          "source": "zeta potential",
+          "quote": "to particles functionalized with amino groups (+17 mV)"
+        },
+        {
+          "sample": "RA-functionalized nanoparticles",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -30,
+          "medium": "water",
+          "source": "zeta potential",
+          "quote": "then to particles with RA immobilized on surface through an amide bond (−30 mV)"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "MSN, AMNS, nano-RA, nano-RA/MH, MH and RA",
+          "quote": "Fourier-transform infrared (FT-IR) spectra of MSN (black line), AMNS (blue line), nano-RA (red line), nano-RA/MH (orange line), MH (green line), and RA (purple line)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC7240412",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 1",
+          "variant": "SEM",
+          "sample": "SiO2_p, SiO2_c and SiO2/HA hybrid nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM micrographs of (A) SiO2_p and (B) SiO2_c nanoparticles and (C) SiO2/HA_p and (D) SiO2/HA_c hybrid nanoparticles."
+        },
+        {
+          "fig": "Figure 2",
+          "variant": "TEM_prep_not_declared",
+          "sample": "SiO2/HA_p and SiO2/HA_c hybrid nanoparticles",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs at different magnifications of (A,C) SiO2/HA_p and (B,D) SiO2/HA_c."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "SiO2/HA_p and SiO2/HA_c hybrid nanoparticles",
+          "quote": "FT-IR spectra of SiO2/HA_p and SiO2/HA_c hybrid NPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 6",
+          "applies_to": "component",
+          "sample": "APTS, bare HA and HA-APTS hybrid precursor",
+          "quote": "FT-IR spectra of APTS, bare HA and the HA-APTS hybrid precursor."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9017581",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "AgNPs synthesized using Thymus vulgaris, Mentha piperita and Zingiber officinale",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "SEM for the prepared AgNPs incorporating natural aqueous extract of (a‐c) Thymus vulgaris, Mentha piperita, and Zingiber officinalis."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs incorporating Thymus vulgaris, Mentha piperita and Zingiber officinale extracts",
+          "quote": "FTIR spectroscopy of AgNPs incorporating natural aqueous extract of Thymus vulgaris (a), Mentha piperita (b), and Zingiber officinalis (c)."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC9842608",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "HRTEM",
+          "sample": "biogenic AgNPs from C. procumbens",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "micrographs; (a) corresponding high-resolution analysis by Transmission Electron Microscopy (HRTEM), (b) analysis biogenerated AgNPs"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs from C. procumbens",
+          "size_nm": 23.45,
+          "pdi": 0.242,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS hydrodynamic mean diameter and PDI",
+          "quote": "it was found by DLS (dynamic light scattering) that the hydrodynamic size is 23.45 nm, while the polydispersity index (PDI) was 0.242."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "C. procumbens-synthesized AgNPs",
+          "quote": "UV–vis absorption kinetic spectra of C. procumbens synthesized silver nanoparticles every 20 min for 6 h."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "C. procumbens extract and AgNPs",
+          "quote": "FTIR spectra of C. procumbens extract and AgNPs."
+        }
+      ]
+    }
+  ]
+}

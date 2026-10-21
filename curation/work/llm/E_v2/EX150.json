@@ -1,0 +1,119 @@
+{
+  "batch": "EX150",
+  "articles": [
+    {
+      "pmcid": "PMC12469702",
+      "context": {"article_kind": "research", "carrier_type": "nanogel", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "PTEG30 and PTEG30-co-PPMAn nanogels", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM images of (a) PTEG30, (b) PTEG30-co-PPMA30, (c) PTEG30-co-PPMA50, (d) PTEG30-co-PPMA70, (e) PTEG30-co-PPMA100, and (f) PTEG30-co-PPMA120."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "E. coli and S. aureus after nanogel treatment", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "SEM images of PTEG30-co-PPMA70-treated (b) E. coli and (e) S. aureus"}
+      ],
+      "descriptors": [{"sample": "PTEG30-co-PPMA70", "size_nm": null, "pdi": null, "zeta_mV": -33.1, "medium": "not_declared", "source": "text", "quote": "The results indicated that PTEG30-co-PPMA70 itself exhibited a zeta potential of −33.1 mV"}],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 1", "applies_to": "component", "sample": "PTEG30 and PTEG30-co-PPMAn copolymer", "quote": "(d) FT-IR curves of PTEG30 and PTEG30-co-PPMAn."}]
+    },
+    {
+      "pmcid": "PMC5361116",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "Dop-TMSNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM photograph of Dop-TMSNs."},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "Dop-TMSNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of Dop-TMSNs."}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 4", "applies_to": "nanoparticle", "sample": "TMSNs and Dop-TMSNs", "quote": "FT-IR spectra of the TMSNs and Dop-TMSNs."}]
+    },
+    {
+      "pmcid": "PMC12566698",
+      "context": {"article_kind": "research", "carrier_type": "polymeric_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 3", "variant": "TEM_negstain", "sample": "AML-ZNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of zein polymeric nanoparticles"},
+        {"fig": "Fig. 4", "variant": "TEM_negstain", "sample": "alginate-coated AML-ZNs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM image of alginate-coated zein polymeric nanoparticles"}
+      ],
+      "descriptors": [],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 3", "applies_to": "mixture", "sample": "free amlodipine, zein, Labrafac, poloxamer 407, PEG 400 and AML-ZN", "quote": "Fourier transform infrared spectra for free amlodipine, Zein, Labrafac, poloxamer 407, PEG 400, and optimum AML-ZN formulation"}]
+    },
+    {
+      "pmcid": "PMC5572432",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "Nanomag-D-SPIO and SPIONs-C595", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy images of (A) Nanomag®-D-SPIO and (B) SPIONs-C595."}],
+      "descriptors": [
+        {"sample": "Nanomag®-D-SPIO", "size_nm": 51.3, "pdi": 0.20, "zeta_mV": -28.9, "medium": "not_declared", "source": "Table 1", "quote": "Nanomag®-D-SPIO | 51.3±0.07 | 59.6±0.0 | 0.20±0.0 | -28.9±1.0"},
+        {"sample": "SPIONs-C595", "size_nm": 87.4, "pdi": 0.30, "zeta_mV": 0.262, "medium": "not_declared", "source": "Table 1", "quote": "SPIONs-C595 | 87.4±0.7 | 131.8±8.9 | 0.30±0.03 | 0.262±1.0"}
+      ],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "SPIONs-C595", "quote": "X-ray diffraction pattern of SPIONs-C595."}]
+    },
+    {
+      "pmcid": "PMC6070787",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "SEM", "sample": "PMA templates and silica-shell particles before calcination", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM and TEM images and EDS spectrums obtained: On PMA templates (a–c); on particles before calcination"},
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "PMA templates and silica-shell particles before calcination", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM and TEM images and EDS spectrums obtained: On PMA templates (a–c); on particles before calcination"},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "HMSN loaded with sodium phosphomolybdate before/after PDDA", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM, TEM, and EDS images and spectrums obtained on HMSN loaded with sodium phosphomolybdate"},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "HMSN loaded with sodium phosphomolybdate before/after PDDA", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM, TEM, and EDS images and spectrums obtained on HMSN loaded with sodium phosphomolybdate"}
+      ],
+      "descriptors": [{"sample": "PMA-templated silica nanoparticles before calcination", "size_nm": null, "pdi": null, "zeta_mV": 31.0, "medium": "water", "source": "text", "quote": "nanoparticles of the silica shell on the PMA template (before calcination) present a positive zeta potential (+31.0 mV)"}],
+      "spectra": [
+        {"technique": "EDS", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "PMA templates and silica-shell particles before calcination", "quote": "SEM and TEM images and EDS spectrums obtained: On PMA templates (a–c); on particles before calcination"},
+        {"technique": "EDS", "fig": "Fig. 3", "applies_to": "nanoparticle", "sample": "HMSN loaded with sodium phosphomolybdate", "quote": "SEM, TEM, and EDS images and spectrums obtained on HMSN loaded with sodium phosphomolybdate"}
+      ]
+    },
+    {
+      "pmcid": "PMC6117648",
+      "context": {"article_kind": "research", "carrier_type": "inorganic_NP", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "CdTeQDs@MNs@PEG1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (D), SEM (E) images and size histogram (F) of CdTeQDs@MNs@PEG1 nanoparticles."},
+        {"fig": "Fig. 1", "variant": "SEM", "sample": "CdTeQDs@MNs@PEG1", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (D), SEM (E) images and size histogram (F) of CdTeQDs@MNs@PEG1 nanoparticles."},
+        {"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "SiQDs@Isoc@MNs nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (A,B) and SEM (D) images of SiQDs@Isoc@MNs nanoparticles."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "SiQDs@Isoc@MNs nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM (A,B) and SEM (D) images of SiQDs@Isoc@MNs nanoparticles."}
+      ],
+      "descriptors": [
+        {"sample": "CdTeQDs@MNs", "size_nm": null, "pdi": null, "zeta_mV": -13.4, "medium": "not_declared", "source": "text", "quote": "changes from ca. −13.4 ± 0.2 mV to −34.3 ± 0.7 mV"},
+        {"sample": "CdTeQDs@MNs@PEG1", "size_nm": null, "pdi": null, "zeta_mV": -34.3, "medium": "not_declared", "source": "text", "quote": "changes from ca. −13.4 ± 0.2 mV to −34.3 ± 0.7 mV"}
+      ],
+      "spectra": [{"technique": "XRD", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "SiQDs@Isoc@MNs nanoparticles", "quote": "X-ray diffraction (XRD) of SiQDs@Isoc@MNs."}]
+    },
+    {
+      "pmcid": "PMC12989150",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 2", "variant": "TEM_prep_not_declared", "sample": "blank AgNPs and AgNPs-Amox", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission Electron Microscopy (TEM) images of nanoparticles."},
+        {"fig": "Fig. 8", "variant": "SEM", "sample": "S. aureus and MRSA biofilms treated with AgNPs-Amox", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron microscopy (SEM) images showing the effect of nanoparticles on biofilms"}
+      ],
+      "descriptors": [
+        {"sample": "AgNPs-Amox", "size_nm": 230, "pdi": null, "zeta_mV": null, "medium": "water", "source": "Table 1", "quote": "Z average diameter (nm) ± SD | 230 nm ± 2.1 | 120 nm ± 2.1"},
+        {"sample": "blank AgNPs", "size_nm": 120, "pdi": null, "zeta_mV": null, "medium": "water", "source": "Table 1", "quote": "Z average diameter (nm) ± SD | 230 nm ± 2.1 | 120 nm ± 2.1"}
+      ],
+      "spectra": []
+    },
+    {
+      "pmcid": "PMC13393022",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 1", "variant": "SEM", "sample": "Fe3O4@AAc nanoparticles", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "SEM micrograph and corresponding particle size distribution histogram of Fe3O4@AAc nanoparticles."}],
+      "descriptors": [],
+      "spectra": [
+        {"technique": "XRD", "fig": "Fig. 1", "applies_to": "nanoparticle", "sample": "Fe3O4@AAc nanoparticles", "quote": "X-ray diffraction (XRD) pattern of Fe3O4@AAc nanoparticles"},
+        {"technique": "FTIR", "fig": "Fig. S2", "applies_to": "nanoparticle", "sample": "Fe3O4@AAc nanoparticles", "quote": "Fourier-transform infrared spectroscopy (FTIR) was used to confirm the functionalization of Fe3O4 nanoparticles with anacardic acid (AAc) (Figure S2"}
+      ]
+    },
+    {
+      "pmcid": "PMC13029097",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [
+        {"fig": "Fig. 1", "variant": "TEM_prep_not_declared", "sample": "AgNP-C250 and AgNP-A1000", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "Transmission electron microscopy AgNPs. (A) AgNP-C250; (B) AgNP-A1000."},
+        {"fig": "Fig. 3", "variant": "SEM", "sample": "bacterial cellulose hydrogel nanofibers", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs of bacterial cellulose hydrogel nanofibers."},
+        {"fig": "Fig. 6", "variant": "SEM", "sample": "biofilms and AgNP-containing cellulose hydrogel", "shows_nanocarrier": false, "scale_bar_in_caption": null, "quote": "Scanning electron micrographs of the antibiofilm activity of silver nanoparticles against Staphylococcus aureus."}
+      ],
+      "descriptors": [
+        {"sample": "AgNP-A1000", "size_nm": 35, "pdi": 0.29, "zeta_mV": 36.56, "medium": "not_declared", "source": "Table 1", "quote": "A1000 | 431 | 35 ± 9.07 | 0.29 ± 0.01 | +36.56 ± 1.29"},
+        {"sample": "AgNP-C250", "size_nm": 59, "pdi": 0.30, "zeta_mV": 32.75, "medium": "not_declared", "source": "Table 1", "quote": "C250 | 478 | 59 ± 11.05 | 0.30 ± 0.02 | +32.75 ± 1.84"}
+      ],
+      "spectra": [{"technique": "FTIR", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "silver nanoparticles", "quote": "FTIR of silver nanoparticles."}]
+    },
+    {
+      "pmcid": "PMC13032946",
+      "context": {"article_kind": "research", "carrier_type": "nanomaterial", "nanocarrier_is_object_of_study": true, "virus_or_pcr": false},
+      "panels": [{"fig": "Fig. 3", "variant": "TEM_prep_not_declared", "sample": "Moringa oleifera-loaded AgNPs", "shows_nanocarrier": true, "scale_bar_in_caption": null, "quote": "TEM of Moringa Oleifera -loaded silver nanoparticle (MO-AgNPs)"}],
+      "descriptors": [{"sample": "MO-AgNPs", "size_nm": 25.74, "pdi": null, "zeta_mV": null, "medium": "water", "source": "text", "quote": "Dynamic Light Scattering (DLS) analysis demonstrated a mean hydrodynamic diameter of 25.74 ± 10.14 nm"}],
+      "spectra": [{"technique": "UVVis", "fig": "Fig. 2", "applies_to": "nanoparticle", "sample": "green-synthesized AgNPs", "quote": "UV-visible spectroscopy of green synthesized silver nanoparticles using Moringa Oleifera leaves extract"}]
+    }
+  ]
+}

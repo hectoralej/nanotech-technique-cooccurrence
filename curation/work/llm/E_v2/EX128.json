@@ -1,0 +1,634 @@
+{
+  "batch": "EX128",
+  "articles": [
+    {
+      "pmcid": "PMC10215745",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 2",
+          "variant": "SEM",
+          "sample": "cellulose gel and cellulose gel with HA",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrograph of cellulose gel and cellulose gel with HA."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 57.88,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS result",
+          "quote": "PSD measurements further confirmed the formation of AgNPs with an average size of 57.88 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "cellulose and HA",
+          "quote": "Cellulose and HA (B) show a wider band exactly at 3454 cm−1, relating to the incorporation of the two biopolymers."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs synthesized with arginine: KOH",
+          "quote": "UV-vis absorption scan spectrum of AgNPs synthesized with arginine: KOH."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10707927",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "BAuNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM graphs of BAuNPs in aqueous extract from leaves of S. officinalis."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "BAuNPs",
+          "size_nm": 21.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "Zeta potential analyzer; reported mean particle size",
+          "quote": "The sizes of the obtained BAuNPs nanoparticles, measured using zeta potential as a mean value of the formed BAuNPs composite size, was 21.6 nm"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "BAuNPs",
+          "quote": "UV-Vis spectroscopy graphs of green-synthesized gold nanoparticles using aqueous extract from leaves of S. officinalis as a reducing agent."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "BAuNPs",
+          "quote": "Energy-dispersive X-ray spectroscopy spectra of BAuNPs from the extracts of S. officinalis."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 5",
+          "applies_to": "nanoparticle",
+          "sample": "S. officinalis BAuNPs",
+          "quote": "Fourier transform infrared spectroscopy (FT-IR) spectrum analysis of green-synthesized S. officinalis BAuNPs"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10215515",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_negstain",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a) FTIR analysis. (b) Transmission electron microscopic analysis. (c) Particle size distribution."
+        },
+        {
+          "fig": "Figure 6",
+          "variant": "SEM",
+          "sample": "Alternaria alternata mycelia after AgNP treatment",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Scanning electron micrographs of Alternaria alternata mycelia after 5 days of cultivation at 26 °C: (a) control; (b) treatment with 150µM AgNPs."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "SEM",
+          "sample": "A. alternata hyphae treated with AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "(A) ESEM micrographs of pathogenic A. alternata hyphae after treatment with AgNPs showing pores and cavities were formed on the surface."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "bio-transformed compounds",
+          "quote": "(a) FTIR analysis."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "(C) Elemental analysis of the EDX spectrum of synthesized AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10054846",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "MK-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "(a,b) SEM Image of MK-AgNPs. (c) Particle size analyzer of MK-AgNPs."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "MK-AgNPs",
+          "size_nm": 42.6,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS (reported in results)",
+          "quote": "Mean particle size of the synthesized MK-AgNPs was found to be 42.6 nm under dynamic light scattering."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 1",
+          "applies_to": "nanoparticle",
+          "sample": "MK-AgNPs",
+          "quote": "(b) UV–visible spectra of MK-AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "MK-AgNPs",
+          "quote": "(a) X-ray diffraction pattern of MK-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 2",
+          "applies_to": "mixture",
+          "sample": "MK-AgNPs with capping metabolites",
+          "quote": "(b) FTIR Analysis of synthesized MK-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10216392",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "TEM_prep_not_declared",
+          "sample": "TCF-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Morphological characterization of silver nanoparticles synthesized using a green approach: (a) SEM image, (b) TEM image."
+        }
+      ],
+      "descriptors": [],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "TCF-AgNPs",
+          "quote": "UV-visible absorption spectra of Terminalia chebula-mediated silver nanoparticles recorded at various time intervals."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "Terminalia chebula-mediated AgNPs",
+          "quote": "FT-IR spectra of Terminalia chebula-mediated silver nanoparticles."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10441246",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "FIGURE 4",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs from Fusarium culmorum JTW1",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of AgNPs from the Fusarium culmorum strain JTW1."
+        },
+        {
+          "fig": "FIGURE 9",
+          "variant": "SEM",
+          "sample": "pullulan films enriched with AgNPs",
+          "shows_nanocarrier": false,
+          "scale_bar_in_caption": null,
+          "quote": "Representative images showing the structure of the films using a scanning electron microscope."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs from F. culmorum JTW1",
+          "size_nm": null,
+          "pdi": null,
+          "zeta_mV": -30.1,
+          "medium": "not_declared",
+          "source": "Figure 5; zeta measurement. TEM mean size 15.1 nm excluded from size_nm",
+          "quote": "The zeta potential measurements showed that bionanoparticles capped with biomolecules from the F. culmorum strain JTW1 were negatively charged (−30.1 mV) (Figure 5)."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 2",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV–visible spectra of control and AgNPs from the Fusarium culmorum strain JTW1."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "FTIR spectra of control (A) and AgNPs from the Fusarium culmorum strain JTW1 (B)."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "FIGURE 7",
+          "applies_to": "mixture",
+          "sample": "pullulan films enriched with AgNPs",
+          "quote": "ATR–FTIR analysis of pure film and pullulan films enriched in different concentrations of AgNPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "FIGURE 10",
+          "applies_to": "mixture",
+          "sample": "pullulan films enriched with AgNPs",
+          "quote": "UV–Vis transmittance spectra of films prepared from synthesized pullulan from Aureobasidium pullulans"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10381808",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 6",
+          "variant": "HRTEM",
+          "sample": "Bl.AgNPs, Hc.AgNPs and Sc.AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "Figure 6 shows the HRTEM results and the selected-area electron diffraction (SEAD) patterns"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "Bl.AgNPs",
+          "size_nm": 83.54,
+          "pdi": null,
+          "zeta_mV": -23.4,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "Bl.AgNPs | Hc.AgNPs | Sc.AgNPs\nZeta potential (mV) | −23.4 | −18.8 | −31.3\nHydrodynamic size (nm) | 83.54 | 98.91 | 108.1"
+        },
+        {
+          "sample": "Hc.AgNPs",
+          "size_nm": 98.91,
+          "pdi": null,
+          "zeta_mV": -18.8,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "Bl.AgNPs | Hc.AgNPs | Sc.AgNPs\nZeta potential (mV) | −23.4 | −18.8 | −31.3\nHydrodynamic size (nm) | 83.54 | 98.91 | 108.1"
+        },
+        {
+          "sample": "Sc.AgNPs",
+          "size_nm": 108.1,
+          "pdi": null,
+          "zeta_mV": -31.3,
+          "medium": "not_declared",
+          "source": "Table 1",
+          "quote": "Bl.AgNPs | Hc.AgNPs | Sc.AgNPs\nZeta potential (mV) | −23.4 | −18.8 | −31.3\nHydrodynamic size (nm) | 83.54 | 98.91 | 108.1"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure 2",
+          "applies_to": "nanoparticle",
+          "sample": "Bl.AgNPs, Hc.AgNPs and Sc.AgNPs",
+          "quote": "The UV-Vis absorption spectra for the green-synthesized AgNP samples using three natural extracts"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 3",
+          "applies_to": "nanoparticle",
+          "sample": "Bl.AgNPs, Hc.AgNPs and Sc.AgNPs",
+          "quote": "UV-Vis absorption results representing the stability investigation studies of (A,B) Bl.AgNPs;"
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10461022",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Fig. 8",
+          "variant": "SEM",
+          "sample": "AgNPs and Ch-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE-SEM images of AgNPs of A. atrobrunnea at a magnification of 30.000X magnification (A)"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": null,
+          "pdi": 0.341,
+          "zeta_mV": -19.7,
+          "medium": "not_declared",
+          "source": "Table 1; paired Z-size values 339 and 43.39 are ambiguous, so size omitted",
+          "quote": "AgNPs | −19.7 | 0.341 | 339"
+        },
+        {
+          "sample": "Ch-AgNPs",
+          "size_nm": null,
+          "pdi": 0.66,
+          "zeta_mV": 38.9,
+          "medium": "not_declared",
+          "source": "Table 1; paired Z-size values 763.7 and 156.1 are ambiguous, so size omitted",
+          "quote": "Ch-AgNPs | 38.9 | 0.66 | 763.7"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV–vis spectrum of A. atrobrunnea AgNPs."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 4",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "UV–vis spectra of the AgNPs from A. atrobrunnea filtrate at different (25, 30, 35, 40, and 45 °C) (A)"
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Fig. 5",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and Ch-AgNPs",
+          "quote": "UV–vis spectra of A. atrobrunnea’ AgNPs and Ch-AgNPs."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Fig. 6",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs and Ch-AgNPs",
+          "quote": "FTIR spectrum of (A) Chitosan, and (B) AgNPs synthesized by A. atrobrunnea (C) Ch-AgNPs."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10179898",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanogel",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 3",
+          "variant": "SEM",
+          "sample": "NS–QRC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE–SEM micrographs of QRC (A,B), NS–QRC (C,D) at different magnifications: 10,000× (A), 5000× (B), 60,000× (C,D)."
+        },
+        {
+          "fig": "Figure 7",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM (A), UV–Visible spectra (B), XRPD (C), and SAED (D) of AgNPs."
+        },
+        {
+          "fig": "Figure 8",
+          "variant": "TEM_prep_not_declared",
+          "sample": "AgNP–NS–QRC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "TEM micrographs of AgNP–NS–QRC. The AgNPs are both dispersed (A) and aggregated (B) in the NS–QRC formulations."
+        },
+        {
+          "fig": "Figure 9",
+          "variant": "SEM",
+          "sample": "AgNP–NS–QRC",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE–SEM micrographs of AgNP–NS–QRC."
+        },
+        {
+          "fig": "Figure A1",
+          "variant": "SEM",
+          "sample": "β-cyclodextrin nanosponges",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "FE–SEM micrographs of the synthesized NSs at different magnifications: 60,000× (A), 50,000× (B)."
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "AgNPs",
+          "size_nm": 31,
+          "pdi": 0.21,
+          "zeta_mV": -33,
+          "medium": "not_declared",
+          "source": "Table 5",
+          "quote": "AgNPs | 31 ± 3 | −33 ± 5 | 0.21"
+        },
+        {
+          "sample": "NSs",
+          "size_nm": 175,
+          "pdi": 0.22,
+          "zeta_mV": -35,
+          "medium": "not_declared",
+          "source": "Table 6",
+          "quote": "NSs | 175 ± 18 | −35 ± 2 | 0.22"
+        },
+        {
+          "sample": "NS–QRC",
+          "size_nm": 233,
+          "pdi": 0.33,
+          "zeta_mV": -22,
+          "medium": "not_declared",
+          "source": "Table 6",
+          "quote": "NS–QRC | 233 ± 5 | −22 ± 3 | 0.33"
+        },
+        {
+          "sample": "AgNP–NS–QRC (Day 0)",
+          "size_nm": 261,
+          "pdi": 0.48,
+          "zeta_mV": -28,
+          "medium": "not_declared",
+          "source": "Table A1",
+          "quote": "AgNP–NS–QRC (Day 0) | 261 ± 11 | −28 ± 5 | 0.48"
+        },
+        {
+          "sample": "AgNP–NS–QRC (Day 20)",
+          "size_nm": 273,
+          "pdi": 0.56,
+          "zeta_mV": -23,
+          "medium": "not_declared",
+          "source": "Table A1",
+          "quote": "AgNP–NS–QRC (Day 20) | 273 ± 15 | −23 ± 8 | 0.56"
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "UVVis",
+          "fig": "Figure A3",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP–NS–QRC",
+          "quote": "UV–Visible spectra of AgNP–NS–QRC following storage at room temperature (25 °C) for 20 days."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "TEM (A), UV–Visible spectra (B), XRPD (C), and SAED (D) of AgNPs."
+        },
+        {
+          "technique": "XRD",
+          "fig": "Figure 7",
+          "applies_to": "nanoparticle",
+          "sample": "AgNPs",
+          "quote": "TEM (A), UV–Visible spectra (B), XRPD (C), and SAED (D) of AgNPs."
+        },
+        {
+          "technique": "EDS",
+          "fig": "Figure 10",
+          "applies_to": "nanoparticle",
+          "sample": "AgNP–NS–QRC",
+          "quote": "EDS mapping of AgNP–NS–QRC."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 11",
+          "applies_to": "nanoparticle",
+          "sample": "free AgNPs and AgNP–NS–QRC",
+          "quote": "UV–Visible spectrum of free AgNPs and the AgNP–NS–QRC complex."
+        }
+      ]
+    },
+    {
+      "pmcid": "PMC10434256",
+      "context": {
+        "article_kind": "research",
+        "carrier_type": "nanomaterial",
+        "nanocarrier_is_object_of_study": true,
+        "virus_or_pcr": false
+      },
+      "panels": [
+        {
+          "fig": "Figure 5",
+          "variant": "HRTEM",
+          "sample": "G-AgNPs",
+          "shows_nanocarrier": true,
+          "scale_bar_in_caption": null,
+          "quote": "HR-TEM images of silver nanoparticles: (A) and (B) G-AgNPs at different magnifications"
+        }
+      ],
+      "descriptors": [
+        {
+          "sample": "G-AgNPs",
+          "size_nm": 120,
+          "pdi": null,
+          "zeta_mV": null,
+          "medium": "not_declared",
+          "source": "DLS; separate zeta result not combined because no single joined literal quote supports both",
+          "quote": "The particle size distribution indicates that G-AgNPs were monodispersed in nature, with an average diameter of ~120 nm."
+        }
+      ],
+      "spectra": [
+        {
+          "technique": "FTIR",
+          "fig": "Figure 1",
+          "applies_to": "component",
+          "sample": "crude biosurfactant",
+          "quote": "FTIR spectrum of extracted crude biosurfactant from Pseudomonas aeruginosa PP4."
+        },
+        {
+          "technique": "FTIR",
+          "fig": "Figure 3",
+          "applies_to": "component",
+          "sample": "herbal infused oil",
+          "quote": "FTIR spectrum of prepared herbal infused oil from Tridax procumbens."
+        },
+        {
+          "technique": "UVVis",
+          "fig": "Figure 4",
+          "applies_to": "nanoparticle",
+          "sample": "G-AgNPs",
+          "quote": "UV–Vis spectra of synthesized Gelatin stabilized silver nanoparticle (G-AgNPs)."
+        }
+      ]
+    }
+  ]
+}
