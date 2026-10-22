@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import re
 import sys
+import unicodedata
 
 import pandas as pd
 
@@ -265,6 +266,81 @@ def _f(x):
         return None
 
 
+def _sample_key(value: str) -> str:
+    """Nombre de muestra para identificar duplicados sin perder identificadores como F1/F2."""
+    sample = unicodedata.normalize("NFKC", str(value or "")).lower()
+    sample = re.sub(r"\s*\([^()]*\)\s*$", "", sample)
+    sample = "".join(ch if ch.isalnum() or ch.isspace() else " " for ch in sample)
+    return " ".join(sample.split())
+
+
+def _descriptor_conflict(a: dict, b: dict) -> bool:
+    """Conflicto de valores medidos o de medios declarados que impide unir filas."""
+    for key in ("size_nm", "pdi", "zeta_mV"):
+        av, bv = _f(a.get(key)), _f(b.get(key))
+        if av is not None and bv is not None and av != bv:
+            return True
+    am = str(a.get("medium") or "").strip()
+    bm = str(b.get("medium") or "").strip()
+    am_declared = bool(am and am.casefold() != "not_declared")
+    bm_declared = bool(bm and bm.casefold() != "not_declared")
+    return bool(am_declared and bm_declared and am.casefold() != bm.casefold())
+
+
+def _merge_descriptor_rows(rows: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Une complementos compatibles del mismo sample; conserva principal y audita cada pareja."""
+    merged: list[dict] = []
+    keys: list[str] = []
+    audit: list[dict] = []
+    for row in rows:
+        incoming = dict(row)
+        key = _sample_key(incoming.get("sample"))
+        candidates = [i for i, current in enumerate(merged)
+                      if key and key == keys[i] and not _descriptor_conflict(current, incoming)]
+        ambiguous = any(_descriptor_conflict(merged[a], merged[b])
+                        for offset, a in enumerate(candidates) for b in candidates[offset + 1:])
+        target = candidates[0] if candidates and not ambiguous else None
+        if target is None:
+            merged.append(incoming)
+            keys.append(key)
+            continue
+
+        current = merged[target]
+        current_has_size = _f(current.get("size_nm")) is not None
+        incoming_has_size = _f(incoming.get("size_nm")) is not None
+        if incoming_has_size and not current_has_size:
+            main, secondary = incoming, current
+        else:
+            main, secondary = current, incoming
+        source_principal = main.get("source")
+        source_secondary = secondary.get("source")
+        quote_secondary = secondary.get("quote_full", secondary.get("quote"))
+        reason_fields = []
+        for field in ("size_nm", "pdi", "zeta_mV"):
+            if _f(main.get(field)) is None and _f(secondary.get(field)) is not None:
+                main[field] = secondary[field]
+                reason_fields.append(field)
+        main_medium = str(main.get("medium") or "").strip()
+        secondary_medium = str(secondary.get("medium") or "").strip()
+        if (not main_medium or main_medium.casefold() == "not_declared") and secondary_medium and secondary_medium.casefold() != "not_declared":
+            main["medium"] = secondary_medium
+            reason_fields.append("medium")
+        if not str(main.get("source") or "").strip() and str(secondary.get("source") or "").strip():
+            main["source"] = secondary["source"]
+            reason_fields.append("source")
+        audit.append({
+            "muestra": main.get("sample"),
+            "filas_antes": 2,
+            "motivo": "Misma muestra normalizada; sin contradicción; complementa " + (", ".join(reason_fields) or "fila/cita de muestra repetida") + ("; source distinto, se conserva el principal" if source_principal != source_secondary else ""),
+            "source_principal": source_principal,
+            "source_secundaria": source_secondary,
+            "quote_secundaria": quote_secondary,
+        })
+        merged[target] = main
+        keys[target] = _sample_key(main.get("sample"))
+    return merged, audit
+
+
 def _qfound(q: str, pm: str):
     """Cita verificable. Para citas de 3 palabras o mas: coincidencia aproximada (>= 90). Para etiquetas cortas de subfigura («XRD (B)», «EDX spectrum»):
     solo si aparecen tal cual en el articulo (subcadena exacta tras normalizar), asi una etiqueta corta no pasa por azar de la busqueda aproximada."""
@@ -280,7 +356,7 @@ def apply() -> None:
     Una fila cuya cita no aparece en el articulo se descarta. La categoria (E1/E2) la calcula este codigo, no el extractor."""
     import json
     rk = pd.read_csv(EXT / "rank.csv", dtype=str).drop_duplicates("pmcid").set_index("pmcid")
-    arts, pans, descs, specs = [], [], [], []
+    arts, pans, descs, specs, descriptor_joins = [], [], [], [], []
     bad_total = 0
     recs = {}          # pmcid -> registro; E_v2 (repaso riguroso) se une a E: las filas se verifican una a una mas abajo
     for sub in ("E", "E_v2"):
@@ -343,7 +419,7 @@ def apply() -> None:
                         v = None
                     vals[k] = v
                 if any(v is not None for v in vals.values()):
-                    D.append(dict(pmcid=pm, doi_link=link, sample=x.get("sample"), **vals, medium=x.get("medium"), source=x.get("source"), quote=(x.get("quote") or "")[:200]))
+                    D.append(dict(pmcid=pm, doi_link=link, sample=x.get("sample"), **vals, medium=x.get("medium"), source=x.get("source"), quote=(x.get("quote") or "")[:200], quote_full=x.get("quote") or ""))
             for x in [r for r in (rec.get("spectra") or []) if isinstance(r, dict)]:
                 ok, _ = _qfound(x.get("quote") or "", pm)
                 if not ok:
@@ -351,6 +427,7 @@ def apply() -> None:
                     continue
                 if x.get("technique") in SPEC_OK:
                     S.append(dict(pmcid=pm, doi_link=link, technique=x.get("technique"), fig=x.get("fig"), applies_to=x.get("applies_to"), sample=x.get("sample"), quote=(x.get("quote") or "")[:200]))
+            D, local_joins = _merge_descriptor_rows(D)
             bad_total += bad
             pert = (ctx.get("article_kind") == "research" and ctx.get("nanocarrier_is_object_of_study") is True and ctx.get("carrier_type") != "not_a_nanocarrier"
                     and not ctx.get("virus_or_pcr"))
@@ -367,8 +444,9 @@ def apply() -> None:
                              numbers_not_found=unverified))
             if tier != "no":
                 pans += P
-                descs += D
+                descs += [{k: v for k, v in row.items() if k != "quote_full"} for row in D]
                 specs += S
+                descriptor_joins.extend(dict(pmcid=pm, **join) for join in local_joins)
     A = pd.DataFrame(arts)
     A.to_csv(CUR / "ext_articulos.csv", index=False, encoding="utf-8-sig")
     if A.empty:
@@ -380,8 +458,12 @@ def apply() -> None:
         if len(df):
             df.insert(1, "categoria_uso", df.pmcid.map(cat))
         df.to_csv(CUR / name, index=False, encoding="utf-8-sig")
+    joins_path = CUR / "v0.1" / "filas_unidas.csv"
+    joins_path.parent.mkdir(parents=True, exist_ok=True)
+    join_columns = ["pmcid", "muestra", "filas_antes", "motivo", "source_principal", "source_secundaria", "quote_secundaria"]
+    pd.DataFrame(descriptor_joins, columns=join_columns).to_csv(joins_path, index=False, encoding="utf-8-sig")
     print(f"{len(A)} articulos leidos | E1: {int((A.tier == 'E1').sum())} | E2: {int((A.tier == 'E2').sum())} | no: {int((A.tier == 'no').sum())} | citas rechazadas: {bad_total}")
-    print(f"paneles {len(pans)} | descriptores {len(descs)} | espectros {len(specs)}")
+    print(f"paneles {len(pans)} | descriptores {len(descs)} | espectros {len(specs)} | uniones de filas {len(descriptor_joins)}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,141 @@
+{
+  "version": "v0.1",
+  "antes": {
+    "articulos": 1824,
+    "E1": 1130,
+    "E2": 577,
+    "no": 117,
+    "paneles": 2726,
+    "descriptores": 3251,
+    "espectros": 4015
+  },
+  "despues": {
+    "articulos": 1824,
+    "E1": 1130,
+    "E2": 577,
+    "no": 117,
+    "paneles": 2726,
+    "descriptores": 3116,
+    "espectros": 4015
+  },
+  "families": {
+    "inorganic": 985,
+    "liposome": 143,
+    "LNP": 52,
+    "PLN": 12,
+    "polymeric": 492,
+    "SLN_NLC": 140
+  },
+  "carrier_type": {
+    "cubosome": 3,
+    "inorganic_NP": 272,
+    "liposome": 128,
+    "LNP": 20,
+    "micelle": 25,
+    "nanoemulsion": 2,
+    "nanogel": 52,
+    "nanomaterial": 761,
+    "NLC": 67,
+    "not_a_nanocarrier": 32,
+    "other": 45,
+    "PLN": 16,
+    "polymeric_NP": 328,
+    "SLN": 73
+  },
+  "license_epmc": {
+    "cc by": 1823,
+    "cc0": 1
+  },
+  "tier": {
+    "E1": 1130,
+    "E2": 577,
+    "no": 117
+  },
+  "categoria_uso": {
+    "nanomaterial": 761,
+    "nanoportador": 1063
+  },
+  "year": {
+    "2016": 35,
+    "2017": 60,
+    "2018": 89,
+    "2019": 98,
+    "2020": 137,
+    "2021": 198,
+    "2022": 280,
+    "2023": 278,
+    "2024": 208,
+    "2025": 259,
+    "2026": 182
+  },
+  "paneles_por_variant": {
+    "cryoTEM": 64,
+    "HRTEM": 117,
+    "SEM": 969,
+    "STEM": 47,
+    "TEM_dried_unstained": 79,
+    "TEM_negstain": 87,
+    "TEM_posstain": 12,
+    "TEM_prep_not_declared": 1351
+  },
+  "descriptores_por_rango_size_nm": {
+    "100–<500 nm": 1730,
+    "sin tamaño": 366,
+    ">1000 nm": 31,
+    "500–1000 nm": 109,
+    "10–<100 nm": 827,
+    "<10 nm": 53
+  },
+  "espectros_por_tecnica": {
+    "EDS": 500,
+    "FTIR": 1559,
+    "Raman": 143,
+    "SAXS": 81,
+    "UVVis": 847,
+    "XRD": 885
+  },
+  "uniones": 135,
+  "filas_extremas": 5,
+  "filas_image_file_vacias": 0,
+  "articulos_con_quotes_rejected_mayor_0": 2,
+  "articulos_con_numbers_not_found_mayor_0": 13,
+  "duplicados_exactos_descriptor": 0,
+  "duplicados_misma_muestra_y_mediciones": 1,
+  "detalle_duplicados_misma_muestra_y_mediciones": [
+    {
+      "keys": {
+        "pmcid": "PMC7309969",
+        "sample": "MSNs",
+        "size_nm": "188.6",
+        "pdi": "0.267",
+        "zeta_mV": "-18.4"
+      },
+      "rows": [
+        {
+          "pmcid": "PMC7309969",
+          "categoria_uso": "nanoportador",
+          "doi_link": "https://doi.org/10.3389/fphar.2020.00898",
+          "sample": "MSNs",
+          "size_nm": "188.6",
+          "pdi": "0.267",
+          "zeta_mV": "-18.4",
+          "medium": "deionized water",
+          "source": "text; laser particle-size analyzer and zeta potential",
+          "quote": "average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)"
+        },
+        {
+          "pmcid": "PMC7309969",
+          "categoria_uso": "nanoportador",
+          "doi_link": "https://doi.org/10.3389/fphar.2020.00898",
+          "sample": "MSNs",
+          "size_nm": "188.6",
+          "pdi": "0.267",
+          "zeta_mV": "-18.4",
+          "medium": "water",
+          "source": "ZetaSizer/particle size analyzer; DLS values from Figure 2C",
+          "quote": "average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)"
+        }
+      ]
+    }
+  ]
+}
