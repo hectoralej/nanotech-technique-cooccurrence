@@ -1,0 +1,175 @@
+{
+  "id": "tamano_AF_ridge",
+  "tarea": "tamano",
+  "variante": "AF",
+  "entradas": [
+    "clase_modelo",
+    "carrier_type",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman",
+    "met_nanoprecipitacion",
+    "met_emulsion_evaporacion",
+    "met_pelicula_lipidica",
+    "met_gelificacion_ionica",
+    "met_microfluidica",
+    "met_sonicacion",
+    "met_homogeneizacion_alta_presion",
+    "met_extrusion",
+    "met_sintesis_verde",
+    "met_sol_gel",
+    "met_coprecipitacion",
+    "met_hidrotermal",
+    "mat_quitosano",
+    "mat_PLGA",
+    "mat_PEG",
+    "mat_colesterol",
+    "mat_fosfatidilcolina_lecitina",
+    "mat_acido_estearico_lipido_solido",
+    "mat_plata",
+    "mat_oro",
+    "mat_silice",
+    "mat_oxido_hierro",
+    "mat_oxido_zinc",
+    "mat_oxido_titanio",
+    "mat_grafeno",
+    "mat_almidon_celulosa",
+    "ctx_carga_farmaco",
+    "ctx_DLS"
+  ],
+  "n_filas": 2749,
+  "n_articulos": 1080,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "r2": {
+      "valor": 0.24385540519509785,
+      "ic95": [
+        0.1933064594905663,
+        0.2943756424342142
+      ]
+    },
+    "mae_log10": {
+      "valor": 0.2825882003668905,
+      "ic95": [
+        0.2687376296596202,
+        0.29676255807241775
+      ]
+    },
+    "error_mediano_relativo_nm": {
+      "valor": 0.4495800606496949,
+      "ic95": [
+        0.42421213791781515,
+        0.4853768202351764
+      ]
+    },
+    "mae_nm": {
+      "valor": 103.89996981171245,
+      "ic95": [
+        92.3422420783215,
+        117.06399325465915
+      ]
+    }
+  },
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 2202,
+      "n_test": 547,
+      "train_articulos": 859,
+      "test_articulos": 221,
+      "alpha": 100.0,
+      "r2": 0.21337432370815235,
+      "mae_log10": 0.3000201124685071,
+      "error_mediano_relativo_nm": 0.4755911806103159,
+      "mae_nm": 103.87519347345466
+    },
+    {
+      "fold": 1,
+      "n_train": 2239,
+      "n_test": 510,
+      "train_articulos": 872,
+      "test_articulos": 208,
+      "alpha": 100.0,
+      "r2": 0.28666219364125733,
+      "mae_log10": 0.28436771917150244,
+      "error_mediano_relativo_nm": 0.4502949504087529,
+      "mae_nm": 81.31893615142961
+    },
+    {
+      "fold": 2,
+      "n_train": 2201,
+      "n_test": 548,
+      "train_articulos": 859,
+      "test_articulos": 221,
+      "alpha": 100.0,
+      "r2": 0.22942298981516718,
+      "mae_log10": 0.27166744568111023,
+      "error_mediano_relativo_nm": 0.4489206260554488,
+      "mae_nm": 93.99709110910862
+    },
+    {
+      "fold": 3,
+      "n_train": 2155,
+      "n_test": 594,
+      "train_articulos": 863,
+      "test_articulos": 217,
+      "alpha": 100.0,
+      "r2": 0.22283059020792384,
+      "mae_log10": 0.3023243073100678,
+      "error_mediano_relativo_nm": 0.47969417934289105,
+      "mae_nm": 131.46764313323897
+    },
+    {
+      "fold": 4,
+      "n_train": 2199,
+      "n_test": 550,
+      "train_articulos": 867,
+      "test_articulos": 213,
+      "alpha": 100.0,
+      "r2": 0.25142704344805566,
+      "mae_log10": 0.25316731951893345,
+      "error_mediano_relativo_nm": 0.40259105382251026,
+      "mae_nm": 104.95716872046047
+    }
+  ],
+  "clases": null,
+  "r2_por_clase": [
+    {
+      "clase": "sin_clase",
+      "n": 69,
+      "r2": -0.29893732509635074
+    },
+    {
+      "clase": "inorganico",
+      "n": 434,
+      "r2": 0.1287461192263747
+    },
+    {
+      "clase": "lipidico",
+      "n": 741,
+      "r2": -0.015323747424909717
+    },
+    {
+      "clase": "nanomaterial",
+      "n": 634,
+      "r2": 0.12188433250974728
+    },
+    {
+      "clase": "polimerico",
+      "n": 871,
+      "r2": 0.018553908931758456
+    }
+  ],
+  "predicciones": "modelos\\tabular_v2\\resultados\\predicciones_tamano_AF_ridge.csv",
+  "fingerprint": "0fe5d2175471a56662bc9b6cb5e141978beaef2fa37b7e8d81eaeaaad396c7bc"
+}

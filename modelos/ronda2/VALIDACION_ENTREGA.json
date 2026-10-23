@@ -1,0 +1,24 @@
+{
+  "estado": "PASS",
+  "A": "10 figuras con fuente QC secundaria explícita y figura11 reservada",
+  "B": {
+    "estado": "PASS",
+    "modelos": 30,
+    "clasificadores_con_probabilidades": 17,
+    "articulos_en_folds_distintos": 0,
+    "materiales_excluidos_de_clasificacion": true,
+    "predicciones_y_probabilidades_reproducibles": true,
+    "fuentes_inalteradas": true
+  },
+  "C": {
+    "estado": "PASS",
+    "tests": 6,
+    "datos_reales_kabre_disponibles": false,
+    "sinteticos": "resultados_sintetico/comparacion_justa.json, etiquetados true y aislados",
+    "limitacion_anidamiento": "La prueba verifica selección directa con etiquetas de entrenamiento; no demuestra procedencia estrictamente anidada de las predicciones OOF suministradas."
+  },
+  "D": "12 puntos y diagnósticos verificados",
+  "fuentes_inalteradas": true,
+  "figuras_v2_revision_visual": "4 PNG abiertos y legibles",
+  "comparacion_imagen_real": "pendiente de Kabré"
+}

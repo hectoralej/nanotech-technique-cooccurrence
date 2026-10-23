@@ -1,0 +1,95 @@
+{
+  "figuras": [
+    {
+      "figura": 1,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "600f07805f33fdbce8f342590eb484300ec5155b908d497379fd1f190f097710",
+        "svg": "698c1a7fec5b15d0d762cdebb85638b5a694c6164c0889f6540a43f5d89a84b7"
+      }
+    },
+    {
+      "figura": 2,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "4b0e2f59b72996a65946d414e2a54668f84caea77181c303858d72c6120cfae3",
+        "svg": "0d0d33142733165a73f4c9729d72852225a9f500dcdf1ac2224a4ae44669d557"
+      }
+    },
+    {
+      "figura": 3,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "281c527e38835c137cc9f2fc3ad44d3c4674a949faa3da66371faaf9b41ecb69",
+        "svg": "d3d2f54d9dd492a496448c520d5a3271a9730abc362eedffb14f0175e14f127e"
+      }
+    },
+    {
+      "figura": 4,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "302006d2c631dea997038964c331cabb02f97b04394bcb5aa586ec02f49a0fca",
+        "svg": "a0fbe492c435fb2a8602ab74cf58d9513cc4a51f153f2a2789cc4b75b2e6fa41"
+      }
+    },
+    {
+      "figura": 5,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "9e25ca881f25fce8879c143f4330d6598412ad99084132c6383e65d1ba094c47",
+        "svg": "1270389e97bde9d4dff55ddd8f3960fc8ccf92d3ce5041c71d8a1f91c95c5890"
+      }
+    },
+    {
+      "figura": 6,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "eb54de4ca6807c825d6f7da99c7da860b757045e18f3652640af20adf6ff89ce",
+        "svg": "8a54c23ba3562eb534ebe3af43b6a52c01834aee1a4a91e799fb801af32869aa"
+      }
+    },
+    {
+      "figura": 7,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "ef827229195735b24e383998d7a2e47d671c04c78d333a97d00ee84ed9997aa5",
+        "svg": "dab5af6f3e49706568f20c9b00f6d7b7aa7ec434d11d7a8034da5b85d93ce01f"
+      }
+    },
+    {
+      "figura": 8,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "1171dd75b4bb982a15e316f99ced12da611dc0bff409ab8752bd4714014dc1cb",
+        "svg": "da8569e47c131e5e1e5c67dd4f4a269dbf817d4f83b01349596b5ccaeaa062b5"
+      }
+    },
+    {
+      "figura": 9,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "c830f4ba444c18470500c79d6861d793f720aa920892360329b8a3e5e8f2edb9",
+        "svg": "17414a8e099c3b888eab92ecb4919d64beb5bdad4c2cc8436f4607f69b1e9862"
+      }
+    },
+    {
+      "figura": 10,
+      "regeneracion_identica": true,
+      "hashes": {
+        "png": "912dfeb496aef35164824ec81aa49212b379c065350e555d23e42c9ed1225232",
+        "svg": "0ab7e2bf552b61756428719e69e6908c0f6d7fa315b6a87a4df41c7a48560cec"
+      }
+    }
+  ],
+  "paleta": {
+    "lipidico": "#0072B2",
+    "polimerico": "#D55E00",
+    "inorganico": "#009E73",
+    "nanomaterial": "#CC79A7",
+    "otro": "#888888"
+  },
+  "fuente": "DejaVu Sans / DejaVu Sans Mono (fallback de Inter/IBM Plex Mono)",
+  "fuente_qc_sustituida": "equipo/qc_carlos/RESUMEN_QC.md ausente; cifras verificadas en LEEME v0.1",
+  "revision_visual": "PASS: abiertos los diez PNG finales; paleta consistente; fuentes sans-serif y números monoespaciados, texto legible sin recortes",
+  "scripts_independientes": "PASS: 10 procesos independientes; PNG/SVG idénticos tras corrección tipográfica"
+}

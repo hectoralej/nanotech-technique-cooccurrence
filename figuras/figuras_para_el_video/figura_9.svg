@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1920px" height="1080px" viewBox="0 0 1382.4 777.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 777.6 
+L 1382.4 777.6 
+L 1382.4 0 
+L 0 0 
+z
+" style="fill: #f7f9f8"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 304.128 590.976 
+L 1175.04 590.976 
+L 1175.04 233.28 
+L 304.128 233.28 
+z
+" style="fill: #f7f9f8"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 304.128 574.717091 
+L 984.528 574.717091 
+L 984.528 481.809039 
+L 304.128 481.809039 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #dce3e6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 304.128 458.582026 
+L 984.528 458.582026 
+L 984.528 365.673974 
+L 304.128 365.673974 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #dce3e6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 304.128 342.446961 
+L 984.528 342.446961 
+L 984.528 249.538909 
+L 304.128 249.538909 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #dce3e6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 304.128 574.717091 
+L 984.528 574.717091 
+L 984.528 481.809039 
+L 304.128 481.809039 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #087e78"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 304.128 458.582026 
+L 916.488 458.582026 
+L 916.488 365.673974 
+L 304.128 365.673974 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #087e78"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 304.128 342.446961 
+L 899.478 342.446961 
+L 899.478 249.538909 
+L 304.128 249.538909 
+z
+" clip-path="url(#pbb7f6f0db7)" style="fill: #087e78"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m6a739895ad" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m6a739895ad" x="304.128" y="590.976" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle" x="304.128" y="613.171312" transform="rotate(-0 304.128 613.171312)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m6a739895ad" x="474.228" y="590.976" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle" x="474.228" y="613.171312" transform="rotate(-0 474.228 613.171312)">25</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m6a739895ad" x="644.328" y="590.976" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle" x="644.328" y="613.171312" transform="rotate(-0 644.328 613.171312)">50</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m6a739895ad" x="814.428" y="590.976" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle" x="814.428" y="613.171312" transform="rotate(-0 814.428 613.171312)">75</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m6a739895ad" x="984.528" y="590.976" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: middle" x="984.528" y="613.171312" transform="rotate(-0 984.528 613.171312)">100</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #17232d" x="739.584" y="639.572563" transform="rotate(-0 739.584 639.572563)">Evidencias «sí» sobre lo comprobable (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="mcae7d1efa5" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mcae7d1efa5" x="304.128" y="528.263065" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: end" x="297.128" y="536.261502" transform="rotate(-0 297.128 536.261502)">Micrografías</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mcae7d1efa5" x="304.128" y="412.128" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: end" x="297.128" y="419.726438" transform="rotate(-0 297.128 419.726438)">Descriptores</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mcae7d1efa5" x="304.128" y="295.992935" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: end" x="297.128" y="303.590591" transform="rotate(-0 297.128 303.590591)">Espectros</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 304.128 590.976 
+L 304.128 233.28 
+" style="fill: none; stroke: #67757f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 304.128 590.976 
+L 1175.04 590.976 
+" style="fill: none; stroke: #67757f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 24px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #17232d" x="1004.94" y="534.49744" transform="rotate(-0 1004.94 534.49744)">19/19 · 100.0 %</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 24px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #17232d" x="1004.94" y="418.362375" transform="rotate(-0 1004.94 418.362375)">9/10 · 90.0 %</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 24px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #17232d" x="1004.94" y="302.22731" transform="rotate(-0 1004.94 302.22731)">14/16 · 87.5 %</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 36px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17232d" x="76.032" y="71.525925" transform="rotate(-0 76.032 71.525925)">En la muestra, las micrografías fueron 19/19 comprobables</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 22px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17232d" x="76.032" y="159.897363" transform="rotate(-0 76.032 159.897363)">Muestra de 20 artículos · revisión asistida por IA</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #17232d" x="76.032" y="701.256112" transform="rotate(-0 76.032 701.256112)">Fuente secundaria: LEEME v0.1; no está disponible el RESUMEN_QC original.</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #67757f" x="76.032" y="748.8288" transform="rotate(-0 76.032 748.8288)">Fuente: Nano2Predict v0.1 · extraído con IA y verificado por código</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbb7f6f0db7">
+   <rect x="304.128" y="233.28" width="870.912" height="357.696"/>
+  </clipPath>
+ </defs>
+</svg>

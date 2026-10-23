@@ -1,0 +1,114 @@
+{
+  "id": "zeta_logistica",
+  "tarea": "zeta",
+  "variante": "metodos_contexto",
+  "entradas": [
+    "log10_size_nm",
+    "pdi",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman",
+    "met_nanoprecipitacion",
+    "met_emulsion_evaporacion",
+    "met_pelicula_lipidica",
+    "met_gelificacion_ionica",
+    "met_microfluidica",
+    "met_sonicacion",
+    "met_homogeneizacion_alta_presion",
+    "met_extrusion",
+    "met_sintesis_verde",
+    "met_sol_gel",
+    "met_coprecipitacion",
+    "met_hidrotermal",
+    "ctx_carga_farmaco",
+    "ctx_DLS"
+  ],
+  "n_filas": 1945,
+  "n_articulos": 729,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.7352185089974294,
+      "ic95": [
+        0.7027540182665771,
+        0.7698132128015359
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.6221418981798457,
+      "ic95": [
+        0.5779119577175965,
+        0.6650725059356306
+      ]
+    }
+  },
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 1565,
+      "n_test": 380,
+      "train_articulos": 587,
+      "test_articulos": 142,
+      "repeticion_identica": true,
+      "exactitud": 0.6763157894736842,
+      "f1_macro": 0.5470535221094863
+    },
+    {
+      "fold": 1,
+      "n_train": 1545,
+      "n_test": 400,
+      "train_articulos": 576,
+      "test_articulos": 153,
+      "repeticion_identica": true,
+      "exactitud": 0.745,
+      "f1_macro": 0.6400338791643139
+    },
+    {
+      "fold": 2,
+      "n_train": 1552,
+      "n_test": 393,
+      "train_articulos": 582,
+      "test_articulos": 147,
+      "repeticion_identica": true,
+      "exactitud": 0.7302798982188295,
+      "f1_macro": 0.571983396350485
+    },
+    {
+      "fold": 3,
+      "n_train": 1514,
+      "n_test": 431,
+      "train_articulos": 582,
+      "test_articulos": 147,
+      "repeticion_identica": true,
+      "exactitud": 0.7958236658932715,
+      "f1_macro": 0.7314641744548287
+    },
+    {
+      "fold": 4,
+      "n_train": 1604,
+      "n_test": 341,
+      "train_articulos": 589,
+      "test_articulos": 140,
+      "repeticion_identica": true,
+      "exactitud": 0.718475073313783,
+      "f1_macro": 0.5816806379063586
+    }
+  ],
+  "clases": [
+    "negativo",
+    "positivo"
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos\\tabular_v2\\resultados\\predicciones_zeta_logistica.csv",
+  "fingerprint": "3a29d5caf6cc75c030c628354fba8eb317232f5e79eaea011ac992e43789fa1d"
+}

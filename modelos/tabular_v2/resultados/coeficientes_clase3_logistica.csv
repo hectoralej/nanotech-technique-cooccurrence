@@ -1,0 +1,751 @@
+﻿fold,clase,variable_transformada,coeficiente
+0,inorganico,categorical__medium_10 mM KNO3,-0.42499850870416445
+0,inorganico,categorical__medium_5 mM saline,-0.8971492518245723
+0,inorganico,categorical__medium_PBS,0.39685027380830185
+0,inorganico,categorical__medium_Tris buffer,-0.04213460058347851
+0,inorganico,categorical__medium_aqueous buffer,-0.0015557493157397936
+0,inorganico,categorical__medium_aqueous dispersion,0.24481661628681473
+0,inorganico,categorical__medium_aqueous solution,-0.31396361013719837
+0,inorganico,categorical__medium_aqueous suspension,0.3651793108954425
+0,inorganico,categorical__medium_buffer,-0.2293982893195163
+0,inorganico,categorical__medium_culture_medium,0.062153628336797655
+0,inorganico,categorical__medium_deionized water,0.8494462924539371
+0,inorganico,categorical__medium_mineral oil,-0.09700148762187265
+0,inorganico,categorical__medium_not_declared,-0.21111798512645868
+0,inorganico,categorical__medium_other,-0.3018849533114779
+0,inorganico,categorical__medium_serum,0.12733360191302315
+0,inorganico,categorical__medium_storage buffers,-0.007124989291804093
+0,inorganico,categorical__medium_water,0.23699953415300867
+0,inorganico,"categorical__medium_water, pH 7, 25 °C",0.007985376760456702
+0,inorganico,numeric__log10_size_nm,-0.33595136007731385
+0,inorganico,numeric__zeta_mV,-0.11595170152595148
+0,inorganico,numeric__pdi,-0.21486777182806874
+0,inorganico,numeric__medio_declarado,0.09307010759552016
+0,inorganico,numeric__year,-0.2112007481663217
+0,inorganico,numeric__n_paneles,-0.05290172941671434
+0,inorganico,numeric__tiene_TEM,0.2893168808085592
+0,inorganico,numeric__tiene_SEM,0.21919827212492846
+0,inorganico,numeric__tiene_cryoTEM,-0.5505261335051891
+0,inorganico,numeric__tiene_FTIR,0.2573838917736208
+0,inorganico,numeric__tiene_XRD,0.1146777062290687
+0,inorganico,numeric__tiene_UVVis,0.48392581040034843
+0,inorganico,numeric__tiene_SAXS,0.17516511317265915
+0,inorganico,numeric__tiene_EDS,0.2429074717338903
+0,inorganico,numeric__tiene_Raman,-0.13855470164959527
+0,inorganico,numeric__met_nanoprecipitacion,-0.7130291080382688
+0,inorganico,numeric__met_emulsion_evaporacion,-0.4410923653726402
+0,inorganico,numeric__met_pelicula_lipidica,-0.3417903124569746
+0,inorganico,numeric__met_gelificacion_ionica,-0.9045252292631976
+0,inorganico,numeric__met_microfluidica,-0.189741955716012
+0,inorganico,numeric__met_sonicacion,-0.2500712265807437
+0,inorganico,numeric__met_homogeneizacion_alta_presion,-0.3765931476857115
+0,inorganico,numeric__met_extrusion,-0.4147825385055662
+0,inorganico,numeric__met_sintesis_verde,0.04043053633055391
+0,inorganico,numeric__met_sol_gel,-0.004159709555142574
+0,inorganico,numeric__met_coprecipitacion,0.321710819149055
+0,inorganico,numeric__met_hidrotermal,0.328108763380664
+0,inorganico,numeric__ctx_carga_farmaco,-0.39219568519789527
+0,inorganico,numeric__ctx_DLS,0.14896740243872914
+0,inorganico,numeric__missingindicator_log10_size_nm,0.14796079069882115
+0,inorganico,numeric__missingindicator_zeta_mV,-0.12879103175726078
+0,inorganico,numeric__missingindicator_pdi,0.3621889981072172
+0,lipidico,categorical__medium_10 mM KNO3,-0.01621963909757517
+0,lipidico,categorical__medium_5 mM saline,-0.039967837455031796
+0,lipidico,categorical__medium_PBS,-0.1474647717971401
+0,lipidico,categorical__medium_Tris buffer,0.4767251844000836
+0,lipidico,categorical__medium_aqueous buffer,0.017884747551561116
+0,lipidico,categorical__medium_aqueous dispersion,-0.006419630393387512
+0,lipidico,categorical__medium_aqueous solution,-0.1274309738800297
+0,lipidico,categorical__medium_aqueous suspension,-0.01893616495369056
+0,lipidico,categorical__medium_buffer,-0.9999683065965037
+0,lipidico,categorical__medium_culture_medium,-0.020525249949375705
+0,lipidico,categorical__medium_deionized water,0.7199741382106478
+0,lipidico,categorical__medium_mineral oil,-0.13287913580898175
+0,lipidico,categorical__medium_not_declared,0.09234623440381111
+0,lipidico,categorical__medium_other,-0.05761256578775162
+0,lipidico,categorical__medium_serum,-0.004674793104126051
+0,lipidico,categorical__medium_storage buffers,0.1235788860484057
+0,lipidico,categorical__medium_water,0.19686532316262023
+0,lipidico,"categorical__medium_water, pH 7, 25 °C",-0.0005618977290141863
+0,lipidico,numeric__log10_size_nm,0.21961450859804046
+0,lipidico,numeric__zeta_mV,-0.17506423555968512
+0,lipidico,numeric__pdi,0.21818676698981776
+0,lipidico,numeric__medio_declarado,-0.11792536257886473
+0,lipidico,numeric__year,0.22588471415422615
+0,lipidico,numeric__n_paneles,0.017107486666333983
+0,lipidico,numeric__tiene_TEM,-0.2355214379475936
+0,lipidico,numeric__tiene_SEM,-0.2279635956642389
+0,lipidico,numeric__tiene_cryoTEM,0.3803502935553861
+0,lipidico,numeric__tiene_FTIR,-0.6111412522773
+0,lipidico,numeric__tiene_XRD,-0.03944766769791526
+0,lipidico,numeric__tiene_UVVis,-0.5774485022246177
+0,lipidico,numeric__tiene_SAXS,-0.2019399809544245
+0,lipidico,numeric__tiene_EDS,-0.2819850109939934
+0,lipidico,numeric__tiene_Raman,0.1504275638833589
+0,lipidico,numeric__met_nanoprecipitacion,0.07338612676571465
+0,lipidico,numeric__met_emulsion_evaporacion,0.09900044614630066
+0,lipidico,numeric__met_pelicula_lipidica,0.4682994216794085
+0,lipidico,numeric__met_gelificacion_ionica,0.0962116043048347
+0,lipidico,numeric__met_microfluidica,0.1520761414335966
+0,lipidico,numeric__met_sonicacion,0.3936791819400679
+0,lipidico,numeric__met_homogeneizacion_alta_presion,0.4088266519538541
+0,lipidico,numeric__met_extrusion,0.4035660409979553
+0,lipidico,numeric__met_sintesis_verde,0.08585702076904975
+0,lipidico,numeric__met_sol_gel,0.005898015925913585
+0,lipidico,numeric__met_coprecipitacion,-0.17985375504020615
+0,lipidico,numeric__met_hidrotermal,0.03228405146656961
+0,lipidico,numeric__ctx_carga_farmaco,0.29082573627694963
+0,lipidico,numeric__ctx_DLS,-0.11216025655889754
+0,lipidico,numeric__missingindicator_log10_size_nm,-0.10674015078719795
+0,lipidico,numeric__missingindicator_zeta_mV,0.034135916318109034
+0,lipidico,numeric__missingindicator_pdi,-0.26944637484160455
+0,polimerico,categorical__medium_10 mM KNO3,0.4412181478017406
+0,polimerico,categorical__medium_5 mM saline,0.9371170892796028
+0,polimerico,categorical__medium_PBS,-0.24938550201116264
+0,polimerico,categorical__medium_Tris buffer,-0.4345905838166036
+0,polimerico,categorical__medium_aqueous buffer,-0.016328998235821297
+0,polimerico,categorical__medium_aqueous dispersion,-0.23839698589342695
+0,polimerico,categorical__medium_aqueous solution,0.4413945840172271
+0,polimerico,categorical__medium_aqueous suspension,-0.34624314594175265
+0,polimerico,categorical__medium_buffer,1.2293665959160183
+0,polimerico,categorical__medium_culture_medium,-0.04162837838742203
+0,polimerico,categorical__medium_deionized water,-1.5694204306645918
+0,polimerico,categorical__medium_mineral oil,0.22988062343085408
+0,polimerico,categorical__medium_not_declared,0.1187717507226469
+0,polimerico,categorical__medium_other,0.3594975190992286
+0,polimerico,categorical__medium_serum,-0.12265880880889683
+0,polimerico,categorical__medium_storage buffers,-0.11645389675660149
+0,polimerico,categorical__medium_water,-0.4338648573156279
+0,polimerico,"categorical__medium_water, pH 7, 25 °C",-0.007423479031442457
+0,polimerico,numeric__log10_size_nm,0.11633685147927354
+0,polimerico,numeric__zeta_mV,0.2910159370856373
+0,polimerico,numeric__pdi,-0.0033189951617500118
+0,polimerico,numeric__medio_declarado,0.02485525498334268
+0,polimerico,numeric__year,-0.014683965987908871
+0,polimerico,numeric__n_paneles,0.03579424275038124
+0,polimerico,numeric__tiene_TEM,-0.05379544286096221
+0,polimerico,numeric__tiene_SEM,0.008765323539301357
+0,polimerico,numeric__tiene_cryoTEM,0.17017583994980406
+0,polimerico,numeric__tiene_FTIR,0.3537573605036754
+0,polimerico,numeric__tiene_XRD,-0.07523003853115268
+0,polimerico,numeric__tiene_UVVis,0.09352269182427082
+0,polimerico,numeric__tiene_SAXS,0.026774867781756174
+0,polimerico,numeric__tiene_EDS,0.03907753926010436
+0,polimerico,numeric__tiene_Raman,-0.011872862233769496
+0,polimerico,numeric__met_nanoprecipitacion,0.6396429812725543
+0,polimerico,numeric__met_emulsion_evaporacion,0.34209191922633964
+0,polimerico,numeric__met_pelicula_lipidica,-0.1265091092224346
+0,polimerico,numeric__met_gelificacion_ionica,0.8083136249583667
+0,polimerico,numeric__met_microfluidica,0.03766581428241586
+0,polimerico,numeric__met_sonicacion,-0.14360795535932203
+0,polimerico,numeric__met_homogeneizacion_alta_presion,-0.03223350426814493
+0,polimerico,numeric__met_extrusion,0.011216497507610572
+0,polimerico,numeric__met_sintesis_verde,-0.1262875570996008
+0,polimerico,numeric__met_sol_gel,-0.0017383063707621877
+0,polimerico,numeric__met_coprecipitacion,-0.14185706410884522
+0,polimerico,numeric__met_hidrotermal,-0.36039281484723285
+0,polimerico,numeric__ctx_carga_farmaco,0.10136994892094489
+0,polimerico,numeric__ctx_DLS,-0.036807145879830305
+0,polimerico,numeric__missingindicator_log10_size_nm,-0.04122063991161983
+0,polimerico,numeric__missingindicator_zeta_mV,0.0946551154391483
+0,polimerico,numeric__missingindicator_pdi,-0.09274262326561351
+1,inorganico,categorical__medium_10 mM KNO3,-0.2972447902892981
+1,inorganico,categorical__medium_5 mM saline,-0.9838787036379985
+1,inorganico,categorical__medium_DMSO,-0.09978640063334145
+1,inorganico,categorical__medium_KCl,-0.034954409871501634
+1,inorganico,categorical__medium_PBS,0.6359239232691625
+1,inorganico,categorical__medium_Tris buffer,-0.06702700343936432
+1,inorganico,categorical__medium_aqueous buffer,-0.0008367624531829235
+1,inorganico,categorical__medium_aqueous dispersion,0.3421471084667909
+1,inorganico,categorical__medium_aqueous solution,-0.14148964920660914
+1,inorganico,categorical__medium_aqueous suspension,0.13324404059288023
+1,inorganico,categorical__medium_buffer,-0.4749935419318967
+1,inorganico,categorical__medium_culture_medium,0.20324336736549223
+1,inorganico,categorical__medium_deionized water,0.35221250901565504
+1,inorganico,categorical__medium_mineral oil,-0.049466486300221275
+1,inorganico,categorical__medium_not_declared,-0.17532494351070044
+1,inorganico,categorical__medium_other,-0.5290577378769927
+1,inorganico,categorical__medium_serum,0.16406312327553513
+1,inorganico,categorical__medium_water,0.17123094431026267
+1,inorganico,categorical__medium_water suspension,0.5693083585149729
+1,inorganico,numeric__log10_size_nm,-0.26722666994210653
+1,inorganico,numeric__zeta_mV,-0.15915715437320146
+1,inorganico,numeric__pdi,-0.06738289167925127
+1,inorganico,numeric__medio_declarado,-0.06950473711496027
+1,inorganico,numeric__year,-0.201978325576108
+1,inorganico,numeric__n_paneles,0.2943785732824112
+1,inorganico,numeric__tiene_TEM,0.36712998091324184
+1,inorganico,numeric__tiene_SEM,0.07251485088837144
+1,inorganico,numeric__tiene_cryoTEM,-0.8344677795519946
+1,inorganico,numeric__tiene_FTIR,0.24351914224385146
+1,inorganico,numeric__tiene_XRD,0.11859888596294102
+1,inorganico,numeric__tiene_UVVis,0.3847385151545636
+1,inorganico,numeric__tiene_SAXS,0.03128987144629228
+1,inorganico,numeric__tiene_EDS,0.13438220414175292
+1,inorganico,numeric__tiene_Raman,0.04853405501357701
+1,inorganico,numeric__met_nanoprecipitacion,-0.7475483080250112
+1,inorganico,numeric__met_emulsion_evaporacion,-0.6398148524095116
+1,inorganico,numeric__met_pelicula_lipidica,-0.2824515600257686
+1,inorganico,numeric__met_gelificacion_ionica,-0.9617440425427902
+1,inorganico,numeric__met_microfluidica,-0.3584692060589941
+1,inorganico,numeric__met_sonicacion,-0.17845482678480631
+1,inorganico,numeric__met_homogeneizacion_alta_presion,-0.40455158616546594
+1,inorganico,numeric__met_extrusion,-0.8740656069900758
+1,inorganico,numeric__met_sintesis_verde,0.014525005838374726
+1,inorganico,numeric__met_sol_gel,-0.02031574379726313
+1,inorganico,numeric__met_coprecipitacion,0.5982005046882282
+1,inorganico,numeric__met_hidrotermal,0.31351133052876917
+1,inorganico,numeric__ctx_carga_farmaco,-0.35247388687511694
+1,inorganico,numeric__ctx_DLS,0.1924684472822217
+1,inorganico,numeric__missingindicator_log10_size_nm,0.2318441390652717
+1,inorganico,numeric__missingindicator_zeta_mV,-0.061791915224206864
+1,inorganico,numeric__missingindicator_pdi,0.406200983960467
+1,lipidico,categorical__medium_10 mM KNO3,-0.025188425074494033
+1,lipidico,categorical__medium_5 mM saline,-0.07881677086640866
+1,lipidico,categorical__medium_DMSO,-0.14231546540577253
+1,lipidico,categorical__medium_KCl,-0.7371351259589709
+1,lipidico,categorical__medium_PBS,-0.1670723974322682
+1,lipidico,categorical__medium_Tris buffer,0.5303859190242337
+1,lipidico,categorical__medium_aqueous buffer,0.0009682987260882668
+1,lipidico,categorical__medium_aqueous dispersion,-0.014366892992422027
+1,lipidico,categorical__medium_aqueous solution,-0.13451680476130673
+1,lipidico,categorical__medium_aqueous suspension,-0.018440018414751902
+1,lipidico,categorical__medium_buffer,-0.7030802435939448
+1,lipidico,categorical__medium_culture_medium,-0.047422868362786905
+1,lipidico,categorical__medium_deionized water,1.1660837038337106
+1,lipidico,categorical__medium_mineral oil,-0.058625904104380004
+1,lipidico,categorical__medium_not_declared,0.1100461856224195
+1,lipidico,categorical__medium_other,0.07029146678784132
+1,lipidico,categorical__medium_serum,-0.004499260619686894
+1,lipidico,categorical__medium_water,0.3999280023890609
+1,lipidico,categorical__medium_water suspension,-0.045985998827836105
+1,lipidico,numeric__log10_size_nm,0.12583343587549334
+1,lipidico,numeric__zeta_mV,-0.06679574055221892
+1,lipidico,numeric__pdi,0.10424627773566672
+1,lipidico,numeric__medio_declarado,-0.08312717606896088
+1,lipidico,numeric__year,0.1934240695597882
+1,lipidico,numeric__n_paneles,-0.1572507977266115
+1,lipidico,numeric__tiene_TEM,-0.23640949376354836
+1,lipidico,numeric__tiene_SEM,-0.11103368649547339
+1,lipidico,numeric__tiene_cryoTEM,0.5460462164344628
+1,lipidico,numeric__tiene_FTIR,-0.5212568099499855
+1,lipidico,numeric__tiene_XRD,0.010871079076180214
+1,lipidico,numeric__tiene_UVVis,-0.47466916083822436
+1,lipidico,numeric__tiene_SAXS,-0.10146138534904067
+1,lipidico,numeric__tiene_EDS,-0.09862392927441568
+1,lipidico,numeric__tiene_Raman,0.030784478041010855
+1,lipidico,numeric__met_nanoprecipitacion,0.10127676655272465
+1,lipidico,numeric__met_emulsion_evaporacion,0.19407121543486797
+1,lipidico,numeric__met_pelicula_lipidica,0.41425210279624003
+1,lipidico,numeric__met_gelificacion_ionica,0.07469615921930918
+1,lipidico,numeric__met_microfluidica,0.16779709102259402
+1,lipidico,numeric__met_sonicacion,0.28965605893745544
+1,lipidico,numeric__met_homogeneizacion_alta_presion,0.4271496102436906
+1,lipidico,numeric__met_extrusion,0.6864519089131187
+1,lipidico,numeric__met_sintesis_verde,0.04101192362962599
+1,lipidico,numeric__met_sol_gel,-0.00737662694006548
+1,lipidico,numeric__met_coprecipitacion,0.20525468391687168
+1,lipidico,numeric__met_hidrotermal,0.029857171076081768
+1,lipidico,numeric__ctx_carga_farmaco,0.34952882462736234
+1,lipidico,numeric__ctx_DLS,-0.22730629660736096
+1,lipidico,numeric__missingindicator_log10_size_nm,-0.09561981527544099
+1,lipidico,numeric__missingindicator_zeta_mV,0.0215819569763281
+1,lipidico,numeric__missingindicator_pdi,-0.34348094081887715
+1,polimerico,categorical__medium_10 mM KNO3,0.32243321536379144
+1,polimerico,categorical__medium_5 mM saline,1.0626954745044026
+1,polimerico,categorical__medium_DMSO,0.24210186603911393
+1,polimerico,categorical__medium_KCl,0.7720895358304715
+1,polimerico,categorical__medium_PBS,-0.46885152583689405
+1,polimerico,categorical__medium_Tris buffer,-0.46335891558486964
+1,polimerico,categorical__medium_aqueous buffer,-0.00013153627290535207
+1,polimerico,categorical__medium_aqueous dispersion,-0.3277802154743679
+1,polimerico,categorical__medium_aqueous solution,0.2760064539679159
+1,polimerico,categorical__medium_aqueous suspension,-0.11480402217812825
+1,polimerico,categorical__medium_buffer,1.1780737855258454
+1,polimerico,categorical__medium_culture_medium,-0.15582049900270506
+1,polimerico,categorical__medium_deionized water,-1.518296212849363
+1,polimerico,categorical__medium_mineral oil,0.10809239040460146
+1,polimerico,categorical__medium_not_declared,0.06527875788828119
+1,polimerico,categorical__medium_other,0.4587662710891513
+1,polimerico,categorical__medium_serum,-0.15956386265584888
+1,polimerico,categorical__medium_water,-0.5711589466993243
+1,polimerico,categorical__medium_water suspension,-0.5233223596871356
+1,polimerico,numeric__log10_size_nm,0.14139323406661214
+1,polimerico,numeric__zeta_mV,0.2259528949254178
+1,polimerico,numeric__pdi,-0.03686338605641481
+1,polimerico,numeric__medio_declarado,0.15263191318391653
+1,polimerico,numeric__year,0.008554256016311565
+1,polimerico,numeric__n_paneles,-0.1371277755558016
+1,polimerico,numeric__tiene_TEM,-0.13072048714969445
+1,polimerico,numeric__tiene_SEM,0.038518835607099684
+1,polimerico,numeric__tiene_cryoTEM,0.2884215631175346
+1,polimerico,numeric__tiene_FTIR,0.2777376677061268
+1,polimerico,numeric__tiene_XRD,-0.12946996503912792
+1,polimerico,numeric__tiene_UVVis,0.08993064568365998
+1,polimerico,numeric__tiene_SAXS,0.07017151390274964
+1,polimerico,numeric__tiene_EDS,-0.03575827486733482
+1,polimerico,numeric__tiene_Raman,-0.07931853305458786
+1,polimerico,numeric__met_nanoprecipitacion,0.6462715414722868
+1,polimerico,numeric__met_emulsion_evaporacion,0.44574363697464636
+1,polimerico,numeric__met_pelicula_lipidica,-0.1318005427704746
+1,polimerico,numeric__met_gelificacion_ionica,0.8870478833234804
+1,polimerico,numeric__met_microfluidica,0.19067211503640238
+1,polimerico,numeric__met_sonicacion,-0.11120123215264872
+1,polimerico,numeric__met_homogeneizacion_alta_presion,-0.022598024078224133
+1,polimerico,numeric__met_extrusion,0.18761369807694958
+1,polimerico,numeric__met_sintesis_verde,-0.05553692946799673
+1,polimerico,numeric__met_sol_gel,0.02769237073733095
+1,polimerico,numeric__met_coprecipitacion,-0.8034551886050953
+1,polimerico,numeric__met_hidrotermal,-0.34336850160485405
+1,polimerico,numeric__ctx_carga_farmaco,0.002945062247757494
+1,polimerico,numeric__ctx_DLS,0.03483784932513905
+1,polimerico,numeric__missingindicator_log10_size_nm,-0.136224323789832
+1,polimerico,numeric__missingindicator_zeta_mV,0.040209958247878354
+1,polimerico,numeric__missingindicator_pdi,-0.0627200431415864
+2,inorganico,categorical__medium_10 mM KNO3,-0.3885806776538707
+2,inorganico,categorical__medium_5 mM saline,-0.7355470809519663
+2,inorganico,categorical__medium_DMSO,-0.16063150301034657
+2,inorganico,categorical__medium_KCl,-0.023518864285509422
+2,inorganico,categorical__medium_PBS,0.14430058211619312
+2,inorganico,categorical__medium_Tris buffer,-0.058334275371322575
+2,inorganico,categorical__medium_aqueous buffer,-0.0006502025133026943
+2,inorganico,categorical__medium_aqueous solution,-0.2661750801517416
+2,inorganico,categorical__medium_aqueous suspension,0.3109432669015872
+2,inorganico,categorical__medium_buffer,-0.3294430935009972
+2,inorganico,categorical__medium_deionized water,1.1898245455727
+2,inorganico,categorical__medium_not_declared,-0.20022253494192405
+2,inorganico,categorical__medium_other,-0.46671733752437156
+2,inorganico,categorical__medium_storage buffers,-0.002759535821993468
+2,inorganico,categorical__medium_water,0.06870699307707533
+2,inorganico,categorical__medium_water suspension,0.6386816776662987
+2,inorganico,"categorical__medium_water, pH 7, 25 °C",0.04552562193453427
+2,inorganico,numeric__log10_size_nm,-0.18550233111536354
+2,inorganico,numeric__zeta_mV,-0.21354876335477643
+2,inorganico,numeric__pdi,-0.19123413383536458
+2,inorganico,numeric__medio_declarado,0.06093348013889546
+2,inorganico,numeric__year,-0.1604256438343249
+2,inorganico,numeric__n_paneles,0.1035374899220955
+2,inorganico,numeric__tiene_TEM,0.35105725867985244
+2,inorganico,numeric__tiene_SEM,0.19643568625612756
+2,inorganico,numeric__tiene_cryoTEM,-0.6138893808953344
+2,inorganico,numeric__tiene_FTIR,0.3008835877153602
+2,inorganico,numeric__tiene_XRD,0.0620152891123619
+2,inorganico,numeric__tiene_UVVis,0.4608632295770988
+2,inorganico,numeric__tiene_SAXS,0.027580211264301248
+2,inorganico,numeric__tiene_EDS,0.09544608497827765
+2,inorganico,numeric__tiene_Raman,0.026698297931393642
+2,inorganico,numeric__met_nanoprecipitacion,-0.6641850430442364
+2,inorganico,numeric__met_emulsion_evaporacion,-0.6157975652270083
+2,inorganico,numeric__met_pelicula_lipidica,-0.35848239037577584
+2,inorganico,numeric__met_gelificacion_ionica,-0.947851269686144
+2,inorganico,numeric__met_microfluidica,-0.49709222577896633
+2,inorganico,numeric__met_sonicacion,-0.2738924695615494
+2,inorganico,numeric__met_homogeneizacion_alta_presion,-0.19298236519307033
+2,inorganico,numeric__met_extrusion,-0.532121327753993
+2,inorganico,numeric__met_sintesis_verde,0.05852405181959533
+2,inorganico,numeric__met_sol_gel,-0.0007654368189469643
+2,inorganico,numeric__met_coprecipitacion,0.26213800869995163
+2,inorganico,numeric__met_hidrotermal,0.23193072062623646
+2,inorganico,numeric__ctx_carga_farmaco,-0.3317418824410819
+2,inorganico,numeric__ctx_DLS,0.18089017615574438
+2,inorganico,numeric__missingindicator_log10_size_nm,0.15550249788074086
+2,inorganico,numeric__missingindicator_zeta_mV,-0.04966459845444715
+2,inorganico,numeric__missingindicator_pdi,0.376926871112212
+2,lipidico,categorical__medium_10 mM KNO3,-0.012661636766679751
+2,lipidico,categorical__medium_5 mM saline,-0.019401815621519297
+2,lipidico,categorical__medium_DMSO,-0.05926581639326691
+2,lipidico,categorical__medium_KCl,-0.680069410535965
+2,lipidico,categorical__medium_PBS,0.29428525801701416
+2,lipidico,categorical__medium_Tris buffer,0.5651926674894318
+2,lipidico,categorical__medium_aqueous buffer,0.005787428062616138
+2,lipidico,categorical__medium_aqueous solution,-0.08736129056199146
+2,lipidico,categorical__medium_aqueous suspension,-0.012730891141482778
+2,lipidico,categorical__medium_buffer,-0.4657389990563
+2,lipidico,categorical__medium_deionized water,-0.3360918729167767
+2,lipidico,categorical__medium_not_declared,0.1018963109988406
+2,lipidico,categorical__medium_other,0.07863385620832017
+2,lipidico,categorical__medium_storage buffers,0.15228250414991876
+2,lipidico,categorical__medium_water,0.5240789255303561
+2,lipidico,categorical__medium_water suspension,-0.02403008524349993
+2,lipidico,"categorical__medium_water, pH 7, 25 °C",-0.0017281234605736827
+2,lipidico,numeric__log10_size_nm,0.16651819163469542
+2,lipidico,numeric__zeta_mV,-0.06733841245863982
+2,lipidico,numeric__pdi,0.20577133133233852
+2,lipidico,numeric__medio_declarado,-0.19327130234755538
+2,lipidico,numeric__year,0.2272610719175176
+2,lipidico,numeric__n_paneles,-0.09397683141692878
+2,lipidico,numeric__tiene_TEM,-0.33682393342030187
+2,lipidico,numeric__tiene_SEM,-0.3366946694530575
+2,lipidico,numeric__tiene_cryoTEM,0.503887490904791
+2,lipidico,numeric__tiene_FTIR,-0.5941658686141631
+2,lipidico,numeric__tiene_XRD,0.014566537483093108
+2,lipidico,numeric__tiene_UVVis,-0.5892248601122569
+2,lipidico,numeric__tiene_SAXS,-0.13173893594325123
+2,lipidico,numeric__tiene_EDS,-0.0750767146152479
+2,lipidico,numeric__tiene_Raman,0.07394297041514446
+2,lipidico,numeric__met_nanoprecipitacion,0.02886178744537306
+2,lipidico,numeric__met_emulsion_evaporacion,0.24683508082889719
+2,lipidico,numeric__met_pelicula_lipidica,0.473090309017358
+2,lipidico,numeric__met_gelificacion_ionica,0.09404758350836347
+2,lipidico,numeric__met_microfluidica,0.22505189440131473
+2,lipidico,numeric__met_sonicacion,0.3277446693838713
+2,lipidico,numeric__met_homogeneizacion_alta_presion,0.5005382613814999
+2,lipidico,numeric__met_extrusion,0.6151580342301498
+2,lipidico,numeric__met_sintesis_verde,0.01867412677959488
+2,lipidico,numeric__met_sol_gel,0.04106492427257832
+2,lipidico,numeric__met_coprecipitacion,-0.09683126720321918
+2,lipidico,numeric__met_hidrotermal,0.05111517320563225
+2,lipidico,numeric__ctx_carga_farmaco,0.34221567849412843
+2,lipidico,numeric__ctx_DLS,-0.16906809632064193
+2,lipidico,numeric__missingindicator_log10_size_nm,-0.11285620388246959
+2,lipidico,numeric__missingindicator_zeta_mV,-0.050871051064552274
+2,lipidico,numeric__missingindicator_pdi,-0.36356112425508647
+2,polimerico,categorical__medium_10 mM KNO3,0.4012423144205507
+2,polimerico,categorical__medium_5 mM saline,0.7549488965734849
+2,polimerico,categorical__medium_DMSO,0.21989731940361343
+2,polimerico,categorical__medium_KCl,0.7035882748214778
+2,polimerico,categorical__medium_PBS,-0.43858584013320834
+2,polimerico,categorical__medium_Tris buffer,-0.5068583921181102
+2,polimerico,categorical__medium_aqueous buffer,-0.005137225549313468
+2,polimerico,categorical__medium_aqueous solution,0.35353637071373434
+2,polimerico,categorical__medium_aqueous suspension,-0.2982123757601049
+2,polimerico,categorical__medium_buffer,0.7951820925572997
+2,polimerico,categorical__medium_deionized water,-0.8537326726559235
+2,polimerico,categorical__medium_not_declared,0.0983262239430893
+2,polimerico,categorical__medium_other,0.3880834813160501
+2,polimerico,categorical__medium_storage buffers,-0.1495229683279259
+2,polimerico,categorical__medium_water,-0.592785918607431
+2,polimerico,categorical__medium_water suspension,-0.6146515924228008
+2,polimerico,"categorical__medium_water, pH 7, 25 °C",-0.04379749847396057
+2,polimerico,numeric__log10_size_nm,0.018984139480666684
+2,polimerico,numeric__zeta_mV,0.28088717581341577
+2,polimerico,numeric__pdi,-0.01453719749697456
+2,polimerico,numeric__medio_declarado,0.13233782220865972
+2,polimerico,numeric__year,-0.06683542808320166
+2,polimerico,numeric__n_paneles,-0.009560658505163954
+2,polimerico,numeric__tiene_TEM,-0.014233325259552398
+2,polimerico,numeric__tiene_SEM,0.14025898319692565
+2,polimerico,numeric__tiene_cryoTEM,0.11000188999054741
+2,polimerico,numeric__tiene_FTIR,0.2932822808987984
+2,polimerico,numeric__tiene_XRD,-0.07658182659545383
+2,polimerico,numeric__tiene_UVVis,0.12836163053515595
+2,polimerico,numeric__tiene_SAXS,0.10415872467895718
+2,polimerico,numeric__tiene_EDS,-0.02036937036302948
+2,polimerico,numeric__tiene_Raman,-0.10064126834653789
+2,polimerico,numeric__met_nanoprecipitacion,0.6353232555988628
+2,polimerico,numeric__met_emulsion_evaporacion,0.3689624843981082
+2,polimerico,numeric__met_pelicula_lipidica,-0.11460791864158976
+2,polimerico,numeric__met_gelificacion_ionica,0.8538036861777792
+2,polimerico,numeric__met_microfluidica,0.27204033137764927
+2,polimerico,numeric__met_sonicacion,-0.05385219982231908
+2,polimerico,numeric__met_homogeneizacion_alta_presion,-0.30755589618843
+2,polimerico,numeric__met_extrusion,-0.0830367064761598
+2,polimerico,numeric__met_sintesis_verde,-0.07719817859919091
+2,polimerico,numeric__met_sol_gel,-0.04029948745362934
+2,polimerico,numeric__met_coprecipitacion,-0.16530674149673064
+2,polimerico,numeric__met_hidrotermal,-0.2830458938318691
+2,polimerico,numeric__ctx_carga_farmaco,-0.010473796053044559
+2,polimerico,numeric__ctx_DLS,-0.011822079835109023
+2,polimerico,numeric__missingindicator_log10_size_nm,-0.0426462939982689
+2,polimerico,numeric__missingindicator_zeta_mV,0.10053564951899968
+2,polimerico,numeric__missingindicator_pdi,-0.013365746857123204
+3,inorganico,categorical__medium_5 mM saline,-0.7424105647667474
+3,inorganico,categorical__medium_DMSO,-0.15384389497561313
+3,inorganico,categorical__medium_KCl,-0.006849780295159264
+3,inorganico,categorical__medium_PBS,0.8831540454006503
+3,inorganico,categorical__medium_Tris buffer,-0.026134389855369273
+3,inorganico,categorical__medium_aqueous dispersion,0.36709222767310906
+3,inorganico,categorical__medium_buffer,-0.8742824644112684
+3,inorganico,categorical__medium_culture_medium,0.02972473595511165
+3,inorganico,categorical__medium_deionized water,0.45810057770800966
+3,inorganico,categorical__medium_mineral oil,-0.06368673695020195
+3,inorganico,categorical__medium_not_declared,-0.18517590507307505
+3,inorganico,categorical__medium_other,-0.5809904805154125
+3,inorganico,categorical__medium_serum,0.15161515743789195
+3,inorganico,categorical__medium_storage buffers,-0.0053693828813846795
+3,inorganico,categorical__medium_water,0.10307635242117015
+3,inorganico,categorical__medium_water suspension,0.39101576934003174
+3,inorganico,"categorical__medium_water, pH 7, 25 °C",0.04573222010168948
+3,inorganico,numeric__log10_size_nm,-0.2618313857335837
+3,inorganico,numeric__zeta_mV,-0.33469625631839217
+3,inorganico,numeric__pdi,-0.19873800035926975
+3,inorganico,numeric__medio_declarado,0.07505624731699631
+3,inorganico,numeric__year,-0.1610035597700379
+3,inorganico,numeric__n_paneles,0.12227707042024097
+3,inorganico,numeric__tiene_TEM,0.2434557832681403
+3,inorganico,numeric__tiene_SEM,0.15886472432309154
+3,inorganico,numeric__tiene_cryoTEM,-0.7742138043750662
+3,inorganico,numeric__tiene_FTIR,0.15533435735006298
+3,inorganico,numeric__tiene_XRD,0.1467793735333288
+3,inorganico,numeric__tiene_UVVis,0.386535876078159
+3,inorganico,numeric__tiene_SAXS,0.2567164035867517
+3,inorganico,numeric__tiene_EDS,0.20455974867021526
+3,inorganico,numeric__tiene_Raman,0.042733800708172245
+3,inorganico,numeric__met_nanoprecipitacion,-0.8497033600016762
+3,inorganico,numeric__met_emulsion_evaporacion,-0.6399259509920472
+3,inorganico,numeric__met_pelicula_lipidica,-0.3974124171383679
+3,inorganico,numeric__met_gelificacion_ionica,-0.8677364717328143
+3,inorganico,numeric__met_microfluidica,-0.1361848248368574
+3,inorganico,numeric__met_sonicacion,-0.24883272311636423
+3,inorganico,numeric__met_homogeneizacion_alta_presion,-0.4078410197543099
+3,inorganico,numeric__met_extrusion,-0.6987553257675198
+3,inorganico,numeric__met_sintesis_verde,0.0754748002532973
+3,inorganico,numeric__met_sol_gel,-0.05949661609869558
+3,inorganico,numeric__met_coprecipitacion,0.21031378429119074
+3,inorganico,numeric__met_hidrotermal,0.3560117763124698
+3,inorganico,numeric__ctx_carga_farmaco,-0.25810573103610024
+3,inorganico,numeric__ctx_DLS,0.2780857727135321
+3,inorganico,numeric__missingindicator_log10_size_nm,0.17677789265194352
+3,inorganico,numeric__missingindicator_zeta_mV,-0.10549501146589013
+3,inorganico,numeric__missingindicator_pdi,0.33568787430342145
+3,lipidico,categorical__medium_5 mM saline,-0.04838376305466744
+3,lipidico,categorical__medium_DMSO,-0.16430805893625644
+3,lipidico,categorical__medium_KCl,-0.3057823204275195
+3,lipidico,categorical__medium_PBS,-0.2524519895963477
+3,lipidico,categorical__medium_Tris buffer,0.3347114140841705
+3,lipidico,categorical__medium_aqueous dispersion,-0.014471527235836844
+3,lipidico,categorical__medium_buffer,-0.5172017753564718
+3,lipidico,categorical__medium_culture_medium,-0.012853053390744277
+3,lipidico,categorical__medium_deionized water,1.0930329911805543
+3,lipidico,categorical__medium_mineral oil,-0.15164892556204265
+3,lipidico,categorical__medium_not_declared,0.06827197195398253
+3,lipidico,categorical__medium_other,-0.06739573131652916
+3,lipidico,categorical__medium_serum,-0.005765204027007649
+3,lipidico,categorical__medium_storage buffers,0.06868176200878574
+3,lipidico,categorical__medium_water,0.07972603344748297
+3,lipidico,categorical__medium_water suspension,-0.041499159628863504
+3,lipidico,"categorical__medium_water, pH 7, 25 °C",-0.0038534016009191263
+3,lipidico,numeric__log10_size_nm,0.19549641808490859
+3,lipidico,numeric__zeta_mV,-0.00578761720746074
+3,lipidico,numeric__pdi,0.21041448289011552
+3,lipidico,numeric__medio_declarado,-0.057424194819532155
+3,lipidico,numeric__year,0.23730572071924375
+3,lipidico,numeric__n_paneles,-0.17264708699351614
+3,lipidico,numeric__tiene_TEM,-0.2583554047147712
+3,lipidico,numeric__tiene_SEM,-0.32208203019818343
+3,lipidico,numeric__tiene_cryoTEM,0.4757618772812235
+3,lipidico,numeric__tiene_FTIR,-0.45397284135759086
+3,lipidico,numeric__tiene_XRD,0.07182350191791916
+3,lipidico,numeric__tiene_UVVis,-0.44335226626434454
+3,lipidico,numeric__tiene_SAXS,-0.12449461677170118
+3,lipidico,numeric__tiene_EDS,-0.10765439529571318
+3,lipidico,numeric__tiene_Raman,0.045833017634378824
+3,lipidico,numeric__met_nanoprecipitacion,0.159324945117564
+3,lipidico,numeric__met_emulsion_evaporacion,0.2980852426228342
+3,lipidico,numeric__met_pelicula_lipidica,0.609793755353378
+3,lipidico,numeric__met_gelificacion_ionica,0.11838569517964971
+3,lipidico,numeric__met_microfluidica,0.05012742487722794
+3,lipidico,numeric__met_sonicacion,0.28159175199920866
+3,lipidico,numeric__met_homogeneizacion_alta_presion,0.40096011378460616
+3,lipidico,numeric__met_extrusion,0.5916822780233565
+3,lipidico,numeric__met_sintesis_verde,0.09713072862868351
+3,lipidico,numeric__met_sol_gel,0.03389932269760298
+3,lipidico,numeric__met_coprecipitacion,-0.10587513246550369
+3,lipidico,numeric__met_hidrotermal,-0.01205842358362082
+3,lipidico,numeric__ctx_carga_farmaco,0.28975453901328435
+3,lipidico,numeric__ctx_DLS,-0.29340074408499855
+3,lipidico,numeric__missingindicator_log10_size_nm,-0.11815294151818252
+3,lipidico,numeric__missingindicator_zeta_mV,0.054356237105332286
+3,lipidico,numeric__missingindicator_pdi,-0.23389852676195053
+3,polimerico,categorical__medium_5 mM saline,0.7907943278214143
+3,polimerico,categorical__medium_DMSO,0.31815195391186757
+3,polimerico,categorical__medium_KCl,0.3126321007226788
+3,polimerico,categorical__medium_PBS,-0.6307020558043012
+3,polimerico,categorical__medium_Tris buffer,-0.3085770242288011
+3,polimerico,categorical__medium_aqueous dispersion,-0.3526207004372715
+3,polimerico,categorical__medium_buffer,1.3914842397677405
+3,polimerico,categorical__medium_culture_medium,-0.01687168256436737
+3,polimerico,categorical__medium_deionized water,-1.5511335688885663
+3,polimerico,categorical__medium_mineral oil,0.21533566251224384
+3,polimerico,categorical__medium_not_declared,0.11690393311909741
+3,polimerico,categorical__medium_other,0.6483862118319416
+3,polimerico,categorical__medium_serum,-0.14584995341088414
+3,polimerico,categorical__medium_storage buffers,-0.06331237912740087
+3,polimerico,categorical__medium_water,-0.18280238586865397
+3,polimerico,categorical__medium_water suspension,-0.34951660971116605
+3,polimerico,"categorical__medium_water, pH 7, 25 °C",-0.04187881850077034
+3,polimerico,numeric__log10_size_nm,0.06633496764867297
+3,polimerico,numeric__zeta_mV,0.34048387352585213
+3,polimerico,numeric__pdi,-0.011676482530844873
+3,polimerico,numeric__medio_declarado,-0.017632052497467604
+3,polimerico,numeric__year,-0.07630216094919912
+3,polimerico,numeric__n_paneles,0.0503700165732727
+3,polimerico,numeric__tiene_TEM,0.014899621446622456
+3,polimerico,numeric__tiene_SEM,0.16321730587509045
+3,polimerico,numeric__tiene_cryoTEM,0.29845192709384627
+3,polimerico,numeric__tiene_FTIR,0.2986384840075265
+3,polimerico,numeric__tiene_XRD,-0.2186028754512412
+3,polimerico,numeric__tiene_UVVis,0.05681639018618894
+3,polimerico,numeric__tiene_SAXS,-0.13222178681505042
+3,polimerico,numeric__tiene_EDS,-0.09690535337450681
+3,polimerico,numeric__tiene_Raman,-0.08856681834254514
+3,polimerico,numeric__met_nanoprecipitacion,0.6903784148841139
+3,polimerico,numeric__met_emulsion_evaporacion,0.3418407083692154
+3,polimerico,numeric__met_pelicula_lipidica,-0.2123813382150077
+3,polimerico,numeric__met_gelificacion_ionica,0.7493507765531577
+3,polimerico,numeric__met_microfluidica,0.08605739995962743
+3,polimerico,numeric__met_sonicacion,-0.03275902888284361
+3,polimerico,numeric__met_homogeneizacion_alta_presion,0.006880905969707938
+3,polimerico,numeric__met_extrusion,0.1070730477441632
+3,polimerico,numeric__met_sintesis_verde,-0.17260552888197805
+3,polimerico,numeric__met_sol_gel,0.025597293401090866
+3,polimerico,numeric__met_coprecipitacion,-0.10443865182568768
+3,polimerico,numeric__met_hidrotermal,-0.34395335272885014
+3,polimerico,numeric__ctx_carga_farmaco,-0.031648807977181316
+3,polimerico,numeric__ctx_DLS,0.015314971371472886
+3,polimerico,numeric__missingindicator_log10_size_nm,-0.05862495113376401
+3,polimerico,numeric__missingindicator_zeta_mV,0.05113877436055306
+3,polimerico,numeric__missingindicator_pdi,-0.10178934754146872
+4,inorganico,categorical__medium_10 mM KNO3,-0.34599796313683556
+4,inorganico,categorical__medium_DMSO,-0.22382451679508494
+4,inorganico,categorical__medium_KCl,-0.005221737599567644
+4,inorganico,categorical__medium_PBS,0.25305765536557445
+4,inorganico,categorical__medium_aqueous buffer,-0.0008226202729653918
+4,inorganico,categorical__medium_aqueous dispersion,0.2526259351608249
+4,inorganico,categorical__medium_aqueous solution,-0.21337036734197734
+4,inorganico,categorical__medium_aqueous suspension,0.17618390944952922
+4,inorganico,categorical__medium_buffer,-0.03975891833359073
+4,inorganico,categorical__medium_culture_medium,0.1319490651165992
+4,inorganico,categorical__medium_deionized water,0.44341295110397383
+4,inorganico,categorical__medium_mineral oil,-0.08156317417364477
+4,inorganico,categorical__medium_not_declared,-0.23645849838704466
+4,inorganico,categorical__medium_other,-0.7441325239226062
+4,inorganico,categorical__medium_serum,0.08414396834220329
+4,inorganico,categorical__medium_storage buffers,-0.0023739149217689237
+4,inorganico,categorical__medium_water,-0.32368971548547193
+4,inorganico,categorical__medium_water suspension,0.7067383380024582
+4,inorganico,"categorical__medium_water, pH 7, 25 °C",0.00488490463210692
+4,inorganico,numeric__log10_size_nm,-0.2804519097557862
+4,inorganico,numeric__zeta_mV,-0.23951907278474047
+4,inorganico,numeric__pdi,-0.19969469055636144
+4,inorganico,numeric__medio_declarado,0.2620669048554601
+4,inorganico,numeric__year,-0.18402617236651328
+4,inorganico,numeric__n_paneles,0.007774300675802197
+4,inorganico,numeric__tiene_TEM,0.43464301356984314
+4,inorganico,numeric__tiene_SEM,0.1651326915899628
+4,inorganico,numeric__tiene_cryoTEM,-0.6905923053929213
+4,inorganico,numeric__tiene_FTIR,0.16723050435802617
+4,inorganico,numeric__tiene_XRD,0.10529987789954404
+4,inorganico,numeric__tiene_UVVis,0.44951116585805967
+4,inorganico,numeric__tiene_SAXS,-0.019527492976927255
+4,inorganico,numeric__tiene_EDS,0.11233152901291019
+4,inorganico,numeric__tiene_Raman,0.033707373920690197
+4,inorganico,numeric__met_nanoprecipitacion,-0.7476781556285894
+4,inorganico,numeric__met_emulsion_evaporacion,-0.7403516389451246
+4,inorganico,numeric__met_pelicula_lipidica,-0.5002323011039448
+4,inorganico,numeric__met_gelificacion_ionica,-0.9155984193835583
+4,inorganico,numeric__met_microfluidica,-0.06557990569009789
+4,inorganico,numeric__met_sonicacion,-0.2029687759257723
+4,inorganico,numeric__met_homogeneizacion_alta_presion,-0.37611913926073226
+4,inorganico,numeric__met_extrusion,-0.3836690653192529
+4,inorganico,numeric__met_sintesis_verde,0.06278694771820006
+4,inorganico,numeric__met_sol_gel,0.018358867521038446
+4,inorganico,numeric__met_coprecipitacion,0.35458905548063707
+4,inorganico,numeric__met_hidrotermal,0.3240967866695742
+4,inorganico,numeric__ctx_carga_farmaco,-0.249144401417078
+4,inorganico,numeric__ctx_DLS,0.1330426463338547
+4,inorganico,numeric__missingindicator_log10_size_nm,0.16880350184364218
+4,inorganico,numeric__missingindicator_zeta_mV,-0.17108986402693935
+4,inorganico,numeric__missingindicator_pdi,0.381661084688295
+4,lipidico,categorical__medium_10 mM KNO3,-0.021685066694011105
+4,lipidico,categorical__medium_DMSO,-0.13902585932190178
+4,lipidico,categorical__medium_KCl,-0.46218850250952276
+4,lipidico,categorical__medium_PBS,-0.10798603380005509
+4,lipidico,categorical__medium_aqueous buffer,0.018328123294885864
+4,lipidico,categorical__medium_aqueous dispersion,-0.009616113046818793
+4,lipidico,categorical__medium_aqueous solution,-0.10113560001422896
+4,lipidico,categorical__medium_aqueous suspension,-0.01340254500863114
+4,lipidico,categorical__medium_buffer,-0.7252580459859203
+4,lipidico,categorical__medium_culture_medium,-0.05885897407431785
+4,lipidico,categorical__medium_deionized water,0.9777474965454898
+4,lipidico,categorical__medium_mineral oil,-0.08840384712519064
+4,lipidico,categorical__medium_not_declared,0.08920249091654595
+4,lipidico,categorical__medium_other,0.18110506232838025
+4,lipidico,categorical__medium_serum,-0.0027384272903420684
+4,lipidico,categorical__medium_storage buffers,0.08201313869499839
+4,lipidico,categorical__medium_water,0.4352476112629069
+4,lipidico,categorical__medium_water suspension,-0.04200605111409668
+4,lipidico,"categorical__medium_water, pH 7, 25 °C",-0.0004950952773866687
+4,lipidico,numeric__log10_size_nm,0.1423383588410583
+4,lipidico,numeric__zeta_mV,-0.03792889239887253
+4,lipidico,numeric__pdi,0.16360360500714388
+4,lipidico,numeric__medio_declarado,-0.18493592016190252
+4,lipidico,numeric__year,0.16395787961299518
+4,lipidico,numeric__n_paneles,-0.11507444230796486
+4,lipidico,numeric__tiene_TEM,-0.22344888656518866
+4,lipidico,numeric__tiene_SEM,-0.1145339400068256
+4,lipidico,numeric__tiene_cryoTEM,0.46249025032375274
+4,lipidico,numeric__tiene_FTIR,-0.48358664061726064
+4,lipidico,numeric__tiene_XRD,-0.028954097651426782
+4,lipidico,numeric__tiene_UVVis,-0.5720854723831735
+4,lipidico,numeric__tiene_SAXS,-0.020148180117348136
+4,lipidico,numeric__tiene_EDS,-0.13433793903326208
+4,lipidico,numeric__tiene_Raman,0.009979550281472271
+4,lipidico,numeric__met_nanoprecipitacion,0.10519163237057966
+4,lipidico,numeric__met_emulsion_evaporacion,0.2633084934466291
+4,lipidico,numeric__met_pelicula_lipidica,0.4932564803186817
+4,lipidico,numeric__met_gelificacion_ionica,0.12517857761964618
+4,lipidico,numeric__met_microfluidica,0.05757175313906123
+4,lipidico,numeric__met_sonicacion,0.2840480901561971
+4,lipidico,numeric__met_homogeneizacion_alta_presion,0.3755347255891423
+4,lipidico,numeric__met_extrusion,0.450626713674122
+4,lipidico,numeric__met_sintesis_verde,0.09275961509019508
+4,lipidico,numeric__met_sol_gel,-0.059770851787316635
+4,lipidico,numeric__met_coprecipitacion,-0.24263602621668234
+4,lipidico,numeric__met_hidrotermal,-0.1416432728925773
+4,lipidico,numeric__ctx_carga_farmaco,0.2974776985398757
+4,lipidico,numeric__ctx_DLS,-0.18818460619372485
+4,lipidico,numeric__missingindicator_log10_size_nm,-0.18042785018982374
+4,lipidico,numeric__missingindicator_zeta_mV,-0.06548471415418793
+4,lipidico,numeric__missingindicator_pdi,-0.22832354286988538
+4,polimerico,categorical__medium_10 mM KNO3,0.3676830298308465
+4,polimerico,categorical__medium_DMSO,0.3628503761169869
+4,polimerico,categorical__medium_KCl,0.4674102401090917
+4,polimerico,categorical__medium_PBS,-0.14507162156551892
+4,polimerico,categorical__medium_aqueous buffer,-0.017505503021920516
+4,polimerico,categorical__medium_aqueous dispersion,-0.2430098221140058
+4,polimerico,categorical__medium_aqueous solution,0.31450596735620556
+4,polimerico,categorical__medium_aqueous suspension,-0.16278136444089877
+4,polimerico,categorical__medium_buffer,0.7650169643195127
+4,polimerico,categorical__medium_culture_medium,-0.0730900910422813
+4,polimerico,categorical__medium_deionized water,-1.4211604476494673
+4,polimerico,categorical__medium_mineral oil,0.1699670212988354
+4,polimerico,categorical__medium_not_declared,0.14725600747049641
+4,polimerico,categorical__medium_other,0.5630274615942266
+4,polimerico,categorical__medium_serum,-0.08140554105186118
+4,polimerico,categorical__medium_storage buffers,-0.07963922377322974
+4,polimerico,categorical__medium_water,-0.11155789577743483
+4,polimerico,categorical__medium_water suspension,-0.6647322868883585
+4,polimerico,"categorical__medium_water, pH 7, 25 °C",-0.004389809354720244
+4,polimerico,numeric__log10_size_nm,0.13811355091472666
+4,polimerico,numeric__zeta_mV,0.2774479651836124
+4,polimerico,numeric__pdi,0.036091085549216834
+4,polimerico,numeric__medio_declarado,-0.07713098469355584
+4,polimerico,numeric__year,0.02006829275351463
+4,polimerico,numeric__n_paneles,0.10730014163217257
+4,polimerico,numeric__tiene_TEM,-0.21119412700464898
+4,polimerico,numeric__tiene_SEM,-0.050598751583137626
+4,polimerico,numeric__tiene_cryoTEM,0.2281020550691732
+4,polimerico,numeric__tiene_FTIR,0.3163561362592395
+4,polimerico,numeric__tiene_XRD,-0.07634578024812326
+4,polimerico,numeric__tiene_UVVis,0.1225743065251182
+4,polimerico,numeric__tiene_SAXS,0.039675673094280876
+4,polimerico,numeric__tiene_EDS,0.02200641002035356
+4,polimerico,numeric__tiene_Raman,-0.043686924202163864
+4,polimerico,numeric__met_nanoprecipitacion,0.6424865232580123
+4,polimerico,numeric__met_emulsion_evaporacion,0.47704314549848215
+4,polimerico,numeric__met_pelicula_lipidica,0.006975820785257759
+4,polimerico,numeric__met_gelificacion_ionica,0.7904198417639107
+4,polimerico,numeric__met_microfluidica,0.008008152551034048
+4,polimerico,numeric__met_sonicacion,-0.08107931423043031
+4,polimerico,numeric__met_homogeneizacion_alta_presion,0.0005844136715849469
+4,polimerico,numeric__met_extrusion,-0.06695764835486617
+4,polimerico,numeric__met_sintesis_verde,-0.15554656280839735
+4,polimerico,numeric__met_sol_gel,0.04141198426628182
+4,polimerico,numeric__met_coprecipitacion,-0.11195302926395456
+4,polimerico,numeric__met_hidrotermal,-0.18245351377699812
+4,polimerico,numeric__ctx_carga_farmaco,-0.04833329712279632
+4,polimerico,numeric__ctx_DLS,0.055141959859879415
+4,polimerico,numeric__missingindicator_log10_size_nm,0.011624348346177897
+4,polimerico,numeric__missingindicator_zeta_mV,0.23657457818112773
+4,polimerico,numeric__missingindicator_pdi,-0.1533375418184143

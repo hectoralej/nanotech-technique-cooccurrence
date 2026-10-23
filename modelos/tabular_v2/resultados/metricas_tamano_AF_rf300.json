@@ -1,0 +1,170 @@
+{
+  "id": "tamano_AF_rf300",
+  "tarea": "tamano",
+  "variante": "AF",
+  "entradas": [
+    "clase_modelo",
+    "carrier_type",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman",
+    "met_nanoprecipitacion",
+    "met_emulsion_evaporacion",
+    "met_pelicula_lipidica",
+    "met_gelificacion_ionica",
+    "met_microfluidica",
+    "met_sonicacion",
+    "met_homogeneizacion_alta_presion",
+    "met_extrusion",
+    "met_sintesis_verde",
+    "met_sol_gel",
+    "met_coprecipitacion",
+    "met_hidrotermal",
+    "mat_quitosano",
+    "mat_PLGA",
+    "mat_PEG",
+    "mat_colesterol",
+    "mat_fosfatidilcolina_lecitina",
+    "mat_acido_estearico_lipido_solido",
+    "mat_plata",
+    "mat_oro",
+    "mat_silice",
+    "mat_oxido_hierro",
+    "mat_oxido_zinc",
+    "mat_oxido_titanio",
+    "mat_grafeno",
+    "mat_almidon_celulosa",
+    "ctx_carga_farmaco",
+    "ctx_DLS"
+  ],
+  "n_filas": 2749,
+  "n_articulos": 1080,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "r2": {
+      "valor": 0.2548514417071688,
+      "ic95": [
+        0.19653829099033038,
+        0.3085970631800198
+      ]
+    },
+    "mae_log10": {
+      "valor": 0.2764287387009508,
+      "ic95": [
+        0.2619338291613379,
+        0.29129228363712173
+      ]
+    },
+    "error_mediano_relativo_nm": {
+      "valor": 0.42155475850761054,
+      "ic95": [
+        0.39638140254978355,
+        0.4511763946431837
+      ]
+    },
+    "mae_nm": {
+      "valor": 102.0583397306378,
+      "ic95": [
+        90.38234110890106,
+        114.91853311901836
+      ]
+    }
+  },
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 2202,
+      "n_test": 547,
+      "train_articulos": 859,
+      "test_articulos": 221,
+      "r2": 0.22569976723298513,
+      "mae_log10": 0.2939968887822292,
+      "error_mediano_relativo_nm": 0.45948963226483924,
+      "mae_nm": 101.03813179503976
+    },
+    {
+      "fold": 1,
+      "n_train": 2239,
+      "n_test": 510,
+      "train_articulos": 872,
+      "test_articulos": 208,
+      "r2": 0.27817103184394165,
+      "mae_log10": 0.28119653575995596,
+      "error_mediano_relativo_nm": 0.44382012952114536,
+      "mae_nm": 82.48555582771353
+    },
+    {
+      "fold": 2,
+      "n_train": 2201,
+      "n_test": 548,
+      "train_articulos": 859,
+      "test_articulos": 221,
+      "r2": 0.283451218652209,
+      "mae_log10": 0.2523957235624524,
+      "error_mediano_relativo_nm": 0.38604157711590403,
+      "mae_nm": 89.05537295799118
+    },
+    {
+      "fold": 3,
+      "n_train": 2155,
+      "n_test": 594,
+      "train_articulos": 863,
+      "test_articulos": 217,
+      "r2": 0.25336952257559275,
+      "mae_log10": 0.2942910549109525,
+      "error_mediano_relativo_nm": 0.44919126786982155,
+      "mae_nm": 128.70527266052696
+    },
+    {
+      "fold": 4,
+      "n_train": 2199,
+      "n_test": 550,
+      "train_articulos": 867,
+      "test_articulos": 213,
+      "r2": 0.21154816720314962,
+      "mae_log10": 0.25918968756023114,
+      "error_mediano_relativo_nm": 0.3947631131827224,
+      "mae_nm": 105.39928729849167
+    }
+  ],
+  "clases": null,
+  "r2_por_clase": [
+    {
+      "clase": "sin_clase",
+      "n": 69,
+      "r2": -0.3410156825037409
+    },
+    {
+      "clase": "inorganico",
+      "n": 434,
+      "r2": 0.23024157252819444
+    },
+    {
+      "clase": "lipidico",
+      "n": 741,
+      "r2": 0.008281817345146103
+    },
+    {
+      "clase": "nanomaterial",
+      "n": 634,
+      "r2": 0.07101337150632314
+    },
+    {
+      "clase": "polimerico",
+      "n": 871,
+      "r2": 0.07143643227575369
+    }
+  ],
+  "predicciones": "modelos\\tabular_v2\\resultados\\predicciones_tamano_AF_rf300.csv",
+  "fingerprint": "a8ccbfbb889a3c6dd591dc30878a0fbb05822b8a67f4170862cf736656556ebd"
+}

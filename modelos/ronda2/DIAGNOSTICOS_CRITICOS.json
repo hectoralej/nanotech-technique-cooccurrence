@@ -1,0 +1,95 @@
+{
+  "doi_duplicados_pmcids_distintos": [],
+  "filas_por_articulo_max": 9,
+  "regresion_ponderacion": {
+    "r2_filas": 0.2846918396514878,
+    "r2_peso_igual_articulo": 0.29054437108223197,
+    "mae_log_filas": 0.269358939641212,
+    "mae_log_peso_igual_articulo": 0.28761295678582216
+  },
+  "clasificacion_ponderacion": {
+    "f1_filas": 0.6438423908757934,
+    "f1_peso_igual_articulo": 0.6323225126615547,
+    "accuracy_filas": 0.6621532364597094,
+    "accuracy_peso_igual_articulo": 0.6690681046218098
+  },
+  "mayor_asociacion_year": {
+    "bandera": "met_sintesis_verde",
+    "correlacion_year": 0.10830744226735887,
+    "MI_prefijo_doi": 0.02808726922798879
+  },
+  "mayor_MI_prefijo_doi": {
+    "bandera": "met_sintesis_verde",
+    "correlacion_year": 0.10830744226735887,
+    "MI_prefijo_doi": 0.02808726922798879
+  },
+  "oro_condicional_SEM": {
+    "False": 0.3065380493033226,
+    "True": 0.43023255813953487
+  },
+  "calibracion_descriptiva": {
+    "brier_multiclase_suma": 0.45428020408484315,
+    "ECE_10_bins": 0.054752119430981835,
+    "bins": [
+      {
+        "lo": 0.2,
+        "hi": 0.30000000000000004,
+        "n": 3,
+        "exactitud": 0.3333333333333333,
+        "confianza": 0.2928637436669426
+      },
+      {
+        "lo": 0.30000000000000004,
+        "hi": 0.4,
+        "n": 99,
+        "exactitud": 0.3939393939393939,
+        "confianza": 0.3704395093545621
+      },
+      {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 369,
+        "exactitud": 0.43089430894308944,
+        "confianza": 0.4553930008450394
+      },
+      {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 531,
+        "exactitud": 0.4934086629001883,
+        "confianza": 0.5524131697010303
+      },
+      {
+        "lo": 0.6000000000000001,
+        "hi": 0.7000000000000001,
+        "n": 462,
+        "exactitud": 0.5865800865800865,
+        "confianza": 0.6463717529951699
+      },
+      {
+        "lo": 0.7000000000000001,
+        "hi": 0.8,
+        "n": 444,
+        "exactitud": 0.6936936936936937,
+        "confianza": 0.7503075835021366
+      },
+      {
+        "lo": 0.8,
+        "hi": 0.9,
+        "n": 364,
+        "exactitud": 0.7774725274725275,
+        "confianza": 0.8474621055809178
+      },
+      {
+        "lo": 0.9,
+        "hi": 1.0,
+        "n": 756,
+        "exactitud": 0.9021164021164021,
+        "confianza": 0.9612878128053937
+      }
+    ]
+  },
+  "PDI_negativos": 0,
+  "zeta_ceros_excluidos": 1,
+  "banderas_distintas_en_muestra_30": 14
+}

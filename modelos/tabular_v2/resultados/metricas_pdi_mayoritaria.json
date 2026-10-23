@@ -1,0 +1,114 @@
+{
+  "id": "pdi_mayoritaria",
+  "tarea": "pdi",
+  "variante": "metodos_contexto",
+  "entradas": [
+    "log10_size_nm",
+    "zeta_mV",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman",
+    "met_nanoprecipitacion",
+    "met_emulsion_evaporacion",
+    "met_pelicula_lipidica",
+    "met_gelificacion_ionica",
+    "met_microfluidica",
+    "met_sonicacion",
+    "met_homogeneizacion_alta_presion",
+    "met_extrusion",
+    "met_sintesis_verde",
+    "met_sol_gel",
+    "met_coprecipitacion",
+    "met_hidrotermal",
+    "ctx_carga_farmaco",
+    "ctx_DLS"
+  ],
+  "n_filas": 1611,
+  "n_articulos": 547,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.62756052141527,
+      "ic95": [
+        0.5871884371640356,
+        0.6675096427162263
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.38558352402745993,
+      "ic95": [
+        0.369955083260298,
+        0.4003033179637559
+      ]
+    }
+  },
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 1284,
+      "n_test": 327,
+      "train_articulos": 431,
+      "test_articulos": 116,
+      "repeticion_identica": true,
+      "exactitud": 0.6819571865443425,
+      "f1_macro": 0.40545454545454546
+    },
+    {
+      "fold": 1,
+      "n_train": 1307,
+      "n_test": 304,
+      "train_articulos": 434,
+      "test_articulos": 113,
+      "repeticion_identica": true,
+      "exactitud": 0.618421052631579,
+      "f1_macro": 0.3821138211382114
+    },
+    {
+      "fold": 2,
+      "n_train": 1303,
+      "n_test": 308,
+      "train_articulos": 445,
+      "test_articulos": 102,
+      "repeticion_identica": true,
+      "exactitud": 0.6168831168831169,
+      "f1_macro": 0.3815261044176707
+    },
+    {
+      "fold": 3,
+      "n_train": 1225,
+      "n_test": 386,
+      "train_articulos": 432,
+      "test_articulos": 115,
+      "repeticion_identica": true,
+      "exactitud": 0.5880829015544041,
+      "f1_macro": 0.3703099510603589
+    },
+    {
+      "fold": 4,
+      "n_train": 1325,
+      "n_test": 286,
+      "train_articulos": 446,
+      "test_articulos": 101,
+      "repeticion_identica": true,
+      "exactitud": 0.6398601398601399,
+      "f1_macro": 0.39019189765458423
+    }
+  ],
+  "clases": [
+    "monodisperso",
+    "no_monodisperso"
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos\\tabular_v2\\resultados\\predicciones_pdi_mayoritaria.csv",
+  "fingerprint": "bb72d577ca9be234e0d1c620dac46377a4d9d554fe4b2f44417c920a0baf837c"
+}

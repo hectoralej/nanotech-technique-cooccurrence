@@ -1,0 +1,117 @@
+{
+  "id": "clase4_rf",
+  "tarea": "clase4",
+  "variante": "metodos_contexto",
+  "entradas": [
+    "log10_size_nm",
+    "zeta_mV",
+    "pdi",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman",
+    "met_nanoprecipitacion",
+    "met_emulsion_evaporacion",
+    "met_pelicula_lipidica",
+    "met_gelificacion_ionica",
+    "met_microfluidica",
+    "met_sonicacion",
+    "met_homogeneizacion_alta_presion",
+    "met_extrusion",
+    "met_sintesis_verde",
+    "met_sol_gel",
+    "met_coprecipitacion",
+    "met_hidrotermal",
+    "ctx_carga_farmaco",
+    "ctx_DLS"
+  ],
+  "n_filas": 3028,
+  "n_articulos": 1201,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.6334214002642008,
+      "ic95": [
+        0.6011741182582002,
+        0.6638825419622522
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.6099790898164293,
+      "ic95": [
+        0.5789873126860066,
+        0.6392371284516062
+      ]
+    }
+  },
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 2429,
+      "n_test": 599,
+      "train_articulos": 959,
+      "test_articulos": 242,
+      "repeticion_identica": true,
+      "exactitud": 0.6527545909849749,
+      "f1_macro": 0.6305052460062556
+    },
+    {
+      "fold": 1,
+      "n_train": 2465,
+      "n_test": 563,
+      "train_articulos": 972,
+      "test_articulos": 229,
+      "repeticion_identica": true,
+      "exactitud": 0.5950266429840142,
+      "f1_macro": 0.5738434950251567
+    },
+    {
+      "fold": 2,
+      "n_train": 2411,
+      "n_test": 617,
+      "train_articulos": 952,
+      "test_articulos": 249,
+      "repeticion_identica": true,
+      "exactitud": 0.6223662884927067,
+      "f1_macro": 0.5931316908078027
+    },
+    {
+      "fold": 3,
+      "n_train": 2374,
+      "n_test": 654,
+      "train_articulos": 961,
+      "test_articulos": 240,
+      "repeticion_identica": true,
+      "exactitud": 0.6269113149847095,
+      "f1_macro": 0.6072789147701202
+    },
+    {
+      "fold": 4,
+      "n_train": 2433,
+      "n_test": 595,
+      "train_articulos": 960,
+      "test_articulos": 241,
+      "repeticion_identica": true,
+      "exactitud": 0.66890756302521,
+      "f1_macro": 0.6476511693590135
+    }
+  ],
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos\\tabular_v2\\resultados\\predicciones_clase4_rf.csv",
+  "fingerprint": "613e6912595d542dc2e991bc09a89b7726a887b59c30ab56c4ba2b4e800156e0"
+}
