@@ -1,0 +1,82 @@
+{
+  "id": "clase4_mayoritaria",
+  "nombre": "Clase mayoritaria",
+  "tarea": "clase_4",
+  "variante": "4",
+  "entradas": [],
+  "n_filas": 3028,
+  "n_articulos": 1201,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.30779392338177014,
+      "ic95": [
+        0.27500496839256644,
+        0.3396926303534748
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.11767676767676767,
+      "ic95": [
+        0.10784466529582819,
+        0.1267800621958963
+      ]
+    }
+  },
+  "linea_base": "clase4_mayoritaria",
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 2429,
+      "n_test": 599,
+      "articulos_train": 959,
+      "articulos_test": 242,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.32220367278797996,
+      "f1_macro": 0.12184343434343434
+    },
+    {
+      "fold": 1,
+      "n_train": 2465,
+      "n_test": 563,
+      "articulos_train": 972,
+      "articulos_test": 229,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.3285968028419183,
+      "f1_macro": 0.12366310160427807
+    },
+    {
+      "fold": 2,
+      "n_train": 2411,
+      "n_test": 617,
+      "articulos_train": 952,
+      "articulos_test": 249,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.293354943273906,
+      "f1_macro": 0.11340852130325814
+    },
+    {
+      "fold": 3,
+      "n_train": 2374,
+      "n_test": 654,
+      "articulos_train": 961,
+      "articulos_test": 240,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.3119266055045872,
+      "f1_macro": 0.11888111888111888
+    },
+    {
+      "fold": 4,
+      "n_train": 2433,
+      "n_test": 595,
+      "articulos_train": 960,
+      "articulos_test": 241,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.28403361344537814,
+      "f1_macro": 0.1106020942408377
+    }
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos/tabular/resultados/predicciones_clase4_mayoritaria.csv",
+  "fingerprint": "58f3947de66bab93ddbda902a95bd4853eff83b8e294e9dc5c3584dc2dbaedd7"
+}

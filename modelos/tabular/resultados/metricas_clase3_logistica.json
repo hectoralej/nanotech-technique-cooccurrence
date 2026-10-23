@@ -1,0 +1,99 @@
+{
+  "id": "clase3_logistica",
+  "nombre": "Logística multinomial",
+  "tarea": "clase_3",
+  "variante": "3",
+  "entradas": [
+    "log10_size_nm",
+    "zeta_mV",
+    "pdi",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman"
+  ],
+  "n_filas": 2262,
+  "n_articulos": 776,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.5755968169761273,
+      "ic95": [
+        0.5350540001326217,
+        0.6134671131255938
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.575920961621658,
+      "ic95": [
+        0.5339038130839975,
+        0.6124148782737969
+      ]
+    }
+  },
+  "linea_base": "clase3_mayoritaria",
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 1812,
+      "n_test": 450,
+      "articulos_train": 623,
+      "articulos_test": 153,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.56,
+      "f1_macro": 0.5554499788174061
+    },
+    {
+      "fold": 1,
+      "n_train": 1848,
+      "n_test": 414,
+      "articulos_train": 626,
+      "articulos_test": 150,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.6400966183574879,
+      "f1_macro": 0.6379540242792029
+    },
+    {
+      "fold": 2,
+      "n_train": 1804,
+      "n_test": 458,
+      "articulos_train": 618,
+      "articulos_test": 158,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5676855895196506,
+      "f1_macro": 0.5853539423692212
+    },
+    {
+      "fold": 3,
+      "n_train": 1777,
+      "n_test": 485,
+      "articulos_train": 620,
+      "articulos_test": 156,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.554639175257732,
+      "f1_macro": 0.5583991057441188
+    },
+    {
+      "fold": 4,
+      "n_train": 1807,
+      "n_test": 455,
+      "articulos_train": 617,
+      "articulos_test": 159,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5626373626373626,
+      "f1_macro": 0.5546932549250513
+    }
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos/tabular/resultados/predicciones_clase3_logistica.csv",
+  "fingerprint": "58f3947de66bab93ddbda902a95bd4853eff83b8e294e9dc5c3584dc2dbaedd7"
+}

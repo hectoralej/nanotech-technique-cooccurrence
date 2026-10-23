@@ -1,0 +1,99 @@
+{
+  "id": "clase3_hgb",
+  "nombre": "HistGradientBoosting",
+  "tarea": "clase_3",
+  "variante": "3",
+  "entradas": [
+    "log10_size_nm",
+    "zeta_mV",
+    "pdi",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman"
+  ],
+  "n_filas": 2262,
+  "n_articulos": 776,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.5455349248452697,
+      "ic95": [
+        0.5110005364608687,
+        0.5787646004894685
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.539719661067459,
+      "ic95": [
+        0.5040673555218136,
+        0.5724443309791809
+      ]
+    }
+  },
+  "linea_base": "clase3_mayoritaria",
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 1812,
+      "n_test": 450,
+      "articulos_train": 623,
+      "articulos_test": 153,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5688888888888889,
+      "f1_macro": 0.5454949465960953
+    },
+    {
+      "fold": 1,
+      "n_train": 1848,
+      "n_test": 414,
+      "articulos_train": 626,
+      "articulos_test": 150,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5676328502415459,
+      "f1_macro": 0.556174545410324
+    },
+    {
+      "fold": 2,
+      "n_train": 1804,
+      "n_test": 458,
+      "articulos_train": 618,
+      "articulos_test": 158,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5524017467248908,
+      "f1_macro": 0.5514461517004968
+    },
+    {
+      "fold": 3,
+      "n_train": 1777,
+      "n_test": 485,
+      "articulos_train": 620,
+      "articulos_test": 156,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.4845360824742268,
+      "f1_macro": 0.4875961979812467
+    },
+    {
+      "fold": 4,
+      "n_train": 1807,
+      "n_test": 455,
+      "articulos_train": 617,
+      "articulos_test": 159,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5604395604395604,
+      "f1_macro": 0.5533962993183937
+    }
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos/tabular/resultados/predicciones_clase3_hgb.csv",
+  "fingerprint": "58f3947de66bab93ddbda902a95bd4853eff83b8e294e9dc5c3584dc2dbaedd7"
+}

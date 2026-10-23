@@ -1,0 +1,8 @@
+{
+  "dummy_r2": -0.0030861408569018423,
+  "media_clase_r2": 0.17976778529112591,
+  "referencia_r2": 0.18,
+  "diferencia": -0.0002322147088740789,
+  "explicacion": "Media global OOF R²=-0.0031; media por clase OOF R²=0.1798; diferencia frente a 0,18=-0.0002. La comparación usa filas descriptor individuales, cinco folds oficiales por artículo, media de log10(tamaño) calculada solo con entrenamiento y filtros 1–5000 nm. El valor previo 0,18 es aproximado y no incluye sus predicciones ni su partición de origen; por ello la igualdad exacta no es comprobable. La magnitud reproduce el piso comunicado.",
+  "estado": "PASS"
+}

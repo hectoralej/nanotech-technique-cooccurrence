@@ -1,0 +1,50 @@
+{
+  "filas": 3116,
+  "articulos": 1229,
+  "filas_por_fold": {
+    "0": 618,
+    "1": 579,
+    "2": 623,
+    "3": 676,
+    "4": 620
+  },
+  "articulos_por_fold": {
+    "0": 248,
+    "1": 236,
+    "2": 253,
+    "3": 245,
+    "4": 247
+  },
+  "articulos_con_fold_importado": 1229,
+  "articulos_fallback": [],
+  "valores_fuera_de_rango_vaciados": {
+    "size_nm": 1,
+    "pdi": 4,
+    "zeta_mV": 0
+  },
+  "datos_validos": {
+    "size_nm": 2749,
+    "pdi": 1611,
+    "zeta_mV": 1946
+  },
+  "proporcion_medio_no_declarado": 0.7458279845956355,
+  "tiene_TEM": "Incluye TEM, HRTEM, STEM y cryoTEM; tiene_cryoTEM identifica además el subconjunto cryo.",
+  "validacion_1": "PASS",
+  "protected_inputs": {
+    "curation\\ext_articulos.csv": "6ed9b51a4a455f3fabefb998d528e0b292c806a3c1abb1864bae8ec19f2c81d1",
+    "curation\\ext_descriptores.csv": "0bc4e127b56af4df51cc36be09d26a8f00b0e01c010cdf48c135995a77610f21",
+    "curation\\ext_espectros.csv": "8efa9eee6b4fdd47177a92f01bc306d63edd27385296fc189896c0de0aa83c7e",
+    "curation\\ext_paneles.csv": "f44920cba5b5e0bbb4809488476d1665afab0224ba4c52c1e8f2ba30f8c8cf9e",
+    "curation\\tabla_modelo.py": "640555b2eb0f26ca9ca61a49a4b33e55b9946fdda830ac054e796fb3a201ea0a",
+    "curation\\v0.1\\CAMBIOS.md": "f9618a2cad729ea91e79f1a94bef2928669c77319d2228d33419dfb6f5fd6154",
+    "curation\\v0.1\\checksums.txt": "164bedd443b4fc4f6a848144364c43fae357993d116ccd1859bd4ea527be75e4",
+    "curation\\v0.1\\filas_unidas.csv": "1890c79f206a4286517fb3938f87794e1c890edbec418bf877acfee09d45a81b",
+    "curation\\v0.1\\LEEME.md": "89f24a98ef0eb737a3c020fcad186b280d07b16b18968815e785b7751a871004",
+    "curation\\v0.1\\NOTA_VALORES_EXTREMOS.md": "99f32530c8333778a01a1631bd3b6fc3a82d67901a9d8cbd47e640dc92a3faa6",
+    "curation\\v0.1\\RESUMEN_NUMEROS.json": "fd7c0d1fe46073c946bc8d89c5b57d1ebaa5b75ab51aa07261b943aa4435ab33",
+    "curation\\v0.1\\tabla_modelo.csv": "4d79b4bac3d6aac4d73ab7a8e5265233000e5c1d049cca80f66c7e230d823970",
+    "curation\\v0.1\\VALIDACION.md": "2a20b0bc94d4a96adb3ec00d74e907f3a9a4939b0b0e3e37f8319a46d7499542",
+    "curation\\v0.1\\VALIDACION_TABLA_MODELO.md": "66320242a353860803453dcd3accf5a0a884bf88c50f45609a552356748f4387",
+    "curation\\v0.1\\valores_extremos.csv": "a6697349f235aa5bcf96148c62759a74c0de6d0c0cf5ff81c72a1719f3f6d592"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "clase3_rf",
+  "nombre": "RandomForest balanceado",
+  "tarea": "clase_3",
+  "variante": "3",
+  "entradas": [
+    "log10_size_nm",
+    "zeta_mV",
+    "pdi",
+    "medio_declarado",
+    "medium",
+    "year",
+    "n_paneles",
+    "tiene_TEM",
+    "tiene_SEM",
+    "tiene_cryoTEM",
+    "tiene_FTIR",
+    "tiene_XRD",
+    "tiene_UVVis",
+    "tiene_SAXS",
+    "tiene_EDS",
+    "tiene_Raman"
+  ],
+  "n_filas": 2262,
+  "n_articulos": 776,
+  "evaluacion": "5 particiones por artículo",
+  "metricas": {
+    "exactitud": {
+      "valor": 0.5707338638373121,
+      "ic95": [
+        0.5334209229636157,
+        0.6063375143948911
+      ]
+    },
+    "f1_macro": {
+      "valor": 0.5690650089720898,
+      "ic95": [
+        0.5307780408474011,
+        0.603506478139851
+      ]
+    }
+  },
+  "linea_base": "clase3_mayoritaria",
+  "por_fold": [
+    {
+      "fold": 0,
+      "n_train": 1812,
+      "n_test": 450,
+      "articulos_train": 623,
+      "articulos_test": 153,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5866666666666667,
+      "f1_macro": 0.583062585241762
+    },
+    {
+      "fold": 1,
+      "n_train": 1848,
+      "n_test": 414,
+      "articulos_train": 626,
+      "articulos_test": 150,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.6400966183574879,
+      "f1_macro": 0.6317705377790538
+    },
+    {
+      "fold": 2,
+      "n_train": 1804,
+      "n_test": 458,
+      "articulos_train": 618,
+      "articulos_test": 158,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.5807860262008734,
+      "f1_macro": 0.5767336213247843
+    },
+    {
+      "fold": 3,
+      "n_train": 1777,
+      "n_test": 485,
+      "articulos_train": 620,
+      "articulos_test": 156,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.48041237113402063,
+      "f1_macro": 0.4821354896867172
+    },
+    {
+      "fold": 4,
+      "n_train": 1807,
+      "n_test": 455,
+      "articulos_train": 617,
+      "articulos_test": 159,
+      "repeticion_entrenamiento_predicciones_identicas": true,
+      "exactitud": 0.578021978021978,
+      "f1_macro": 0.569468375356676
+    }
+  ],
+  "r2_por_clase": [],
+  "predicciones": "modelos/tabular/resultados/predicciones_clase3_rf.csv",
+  "fingerprint": "58f3947de66bab93ddbda902a95bd4853eff83b8e294e9dc5c3584dc2dbaedd7"
+}
