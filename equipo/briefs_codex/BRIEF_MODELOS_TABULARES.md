@@ -23,7 +23,13 @@
 - **A (sin mediciones):** `clase_modelo`, `carrier_type`, `medio_declarado`/`medium`, `year`, `tiene_*` de microscopía y espectros, `n_paneles`.
 - **B:** A + `zeta_mV` y `pdi` (con indicador de «faltante» y mediana por fold de entrenamiento como imputación).
 
-**Modelos:** (a) `DummyRegressor` (media global), (b) media por `clase_modelo`, (c) `Ridge` (one-hot + estandarizar; elige `alpha` con validación **interna por grupos**), (d) `RandomForestRegressor` (300 árboles, `min_samples_leaf=3`, `random_state=0`).
+**Escalera de modelos** (se entrenan **en este orden** y se reporta cada peldaño; el objetivo es ver cuánto aporta cada nivel de complejidad):
+1. `DummyRegressor` (media global) y media por `clase_modelo` (el piso).
+2. **Regresión lineal múltiple** simple (`LinearRegression`, one-hot + estandarizar): primer modelo de verdad; se interpretan sus coeficientes.
+3. `Ridge` (elige `alpha` con validación **interna por grupos**, rejilla `[0.01, 0.1, 1, 10, 100]`).
+4. `RandomForestRegressor` (300 árboles, `min_samples_leaf=3`, `random_state=0`; segunda corrida con `min_samples_leaf=1` y 500 árboles para ver la sensibilidad).
+5. `HistGradientBoostingRegressor` (`max_iter=300`, `learning_rate=0.05`, `random_state=0`).
+Los hiperparámetros se eligen **solo con los datos de entrenamiento** de cada partición. En el informe, una tabla con un renglón por peldaño y la mejora sobre el anterior.
 
 **Evaluación:** validación cruzada de 5 particiones con la columna `fold` (por artículo). Reporta R², MAE de log10 y error mediano relativo en nm. Intervalos de confianza del 95 % con **bootstrap por artículo** (1.000 remuestreos). R² también por clase. Importancia de variables: coeficientes de Ridge y **importancia por permutación** en los datos de prueba.
 
@@ -36,13 +42,16 @@
 
 **PROHIBIDO como entrada (la respuesta disfrazada):** `family`, `carrier_type`, `categoria_uso`, el título, el texto de `sample`, `clase_modelo` y cualquier columna derivada de ellas. Escribe una prueba automática que falle si alguna de esas columnas está en la matriz de entrada.
 
-**Modelos:** clase mayoritaria (línea base), `LogisticRegression` multinomial con estandarización, `RandomForestClassifier` (300 árboles, `class_weight="balanced"`, `random_state=0`). Evaluación por `fold` (por artículo): exactitud, F1 macro, matriz de confusión normalizada, y IC 95 % por bootstrap de artículos. Importancia por permutación.
+**Escalera de modelos** (mismo orden y reporte por peldaño): (1) clase mayoritaria; (2) `LogisticRegression` multinomial con estandarización (primer modelo de verdad, con coeficientes); (3) `RandomForestClassifier` (300 árboles, `class_weight="balanced"`, `random_state=0`); (4) `HistGradientBoostingClassifier` (`max_iter=300`, `learning_rate=0.05`, `random_state=0`). Evaluación por `fold` (por artículo): exactitud, F1 macro, matriz de confusión normalizada, y IC 95 % por bootstrap de artículos. Importancia por permutación.
 
 **Validación 3:** la línea base de la clase mayoritaria coincide con la proporción de la clase más grande; la prueba de columnas prohibidas pasa; repetir el entrenamiento con la misma semilla da las mismas métricas.
 
 ## 4. Si sobra tiempo (opcionales, mismo formato y validación)
 - Signo del zeta (negativo/positivo): hoy el 68 % es negativo (79 % en lipídica, 52 % en polimérica).
 - PDI < 0,3 (monodisperso): hoy el 62 % cumple.
+
+## 4b. Después de esta tarea (no la hagas todavía)
+Esta es la base de una escalera más larga: tras los modelos tabulares seguirán los modelos de imágenes en el clúster Kabré (embeddings, CNN con ajuste fino, transformer) y, al final, un modelo multimodal que combine imagen, descriptores y espectros. Deja el código modular (`tabular_data.py` reutilizable) y guarda las predicciones fuera de muestra de cada modelo en `modelos\tabular\resultados\predicciones_*.csv` (`pmcid, sample, y_real, y_pred, fold`) para poder comparar y combinar modelos después.
 
 ## 5. Entregables
 - `modelos\tabular\`: `tabular_data.py`, `modelo_tamano.py`, `modelo_clase.py`, `dataset_descriptores.csv`, `resultados\` (tablas CSV y gráficas PNG de coeficientes/importancias).

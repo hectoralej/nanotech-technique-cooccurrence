@@ -10,7 +10,24 @@ Encontrado en la web:
 
 **No se encontró** documentación pública sobre acceso a internet desde los nodos de cómputo, cuota de disco ni la lista actual de colas. Nada de eso se debe dar por supuesto: se comprueba en la sección 2. La fuente oficial es la documentación del CNCA (`cluster.cenat.ac.cr`) o su soporte (`cnca@cenat.ac.cr`).
 
+## 1b. Lo que muestran las capturas del portal de Héctor (23 oct)
+- **Acceso:** SSH por el puerto **22022** (`ssh -p 22022 usuario@…`) con **doble factor** (QR en una app de autenticación; al entrar piden contraseña y luego el código de 6 dígitos). También hay un portal web, **Kabré OnDemand** (versión 3.0.3), con: *Files* (explorador y **subida de archivos desde el navegador**), *Jobs*, *Clusters* (terminal de Kabré), *Interactive Apps* (**Jupyter Notebook** y **RStudio**) y *Mutüä*.
+- **Formulario de Jupyter:** cola, horas, nodos, núcleos (por defecto 4), memoria (por defecto 16 GB), nodo exclusivo y aviso por correo.
+- **Colas visibles:** `nukwa`, `nukwa-wide`, `nukwa-long`, `nukwa-debug`, `nukwa-v100`, `nukwa-l40s`, `kura`, `kura-wide`, `kura-long`, `kura-debug`, `kura-test`, `dribe`, `dribe-long`, `dribe-debug`.
+
+**Lectura (a confirmar con `sinfo`/el reconocimiento de abajo, no es un hecho verificado):**
+- `nukwa-v100` y `nukwa-l40s` son colas **por tipo de GPU**: V100 (32 GB, la que describía el artículo sísmico) y **L40S (48 GB, arquitectura más reciente)**. Para entrenar una CNN o un transformer, la **L40S** debería ser la más potente; la V100 sigue siendo buena.
+- `nukwa` a secas, `-wide` y `-long` parecen variantes por tamaño y duración sobre los mismos nodos; `-debug` es para pruebas cortas.
+- `kura` y `dribe` no aparecen en ninguna fuente que encontré. **No asumir que tienen GPU**: pueden ser nodos de CPU. Se comprueba con `sinfo` (columna de recursos `GRES`).
+
+**Colas recomendadas:** `nukwa-debug` para la prueba de humo; `nukwa-l40s` para entrenamiento (si hay GPU libre; si hay cola larga, `nukwa-v100`); `kura*` solo si el reconocimiento muestra GPU.
+
+**Dos ventajas de OnDemand:** (1) se puede **subir el zip desde el navegador** (*Files → Upload*) sin `scp` ni el segundo factor por SSH; (2) un Jupyter en un nodo con GPU incluye una **terminal** (*New → Terminal*): ahí se ejecuta la prueba de humo directamente en el nodo de cómputo, que es justo donde hay que medir si hay internet.
+
+**Seguridad:** no compartir el QR, los códigos de 6 dígitos ni la contraseña con nadie, ni con ninguna IA. Las salidas de la prueba de humo no contienen secretos.
+
 ## 2. Reconocimiento (30 minutos, Héctor, hoy)
+**Camino más corto (sin SSH):** en OnDemand → *Interactive Apps → Jupyter Notebook* → cola `nukwa-debug`, 1 hora, 4 núcleos, 16 GB → *Launch*. Dentro: *Upload* de `modelos/kabre/prueba_de_humo.py` y, en una terminal, `python prueba_de_humo.py`. Pega a Claude el JSON que escribe (nodo, GPU, internet, librerías, disco). Después repite en `nukwa-l40s`. Los comandos de abajo sirven si prefieres el SSH.
 Desde el nodo de acceso (login), anotando la salida de cada comando en `KABRE_NOTAS.md` (sin contraseñas ni claves):
 1. `hostname; whoami; echo $HOME; df -h $HOME` y `quota -s` (si existe): espacio disponible.
 2. `sinfo` (si usa Slurm) o `qstat -q` (si usa PBS): colas, GPU y límites de tiempo. `scontrol show partition` da los máximos.
