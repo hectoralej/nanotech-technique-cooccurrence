@@ -1,0 +1,7 @@
+{
+  "estado": "PASS",
+  "tests": 6,
+  "datos_reales_kabre_disponibles": false,
+  "sinteticos": "resultados_sintetico/comparacion_justa.json, etiquetados true y aislados",
+  "limitacion_anidamiento": "La prueba verifica selección directa con etiquetas de entrenamiento; no demuestra procedencia estrictamente anidada de las predicciones OOF suministradas."
+}

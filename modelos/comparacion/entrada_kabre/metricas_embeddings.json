@@ -1,0 +1,74 @@
+{
+  "n_imagenes": 2100,
+  "n_articulos": 1641,
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "evaluacion": "5 particiones por articulo (columna fold)",
+  "linea_base_clase_mayoritaria": 0.4538,
+  "modelos": {
+    "resnet50": {
+      "accuracy": 0.439,
+      "f1_macro": 0.3906,
+      "matriz_confusion": [
+        [
+          109,
+          30,
+          163,
+          69
+        ],
+        [
+          28,
+          120,
+          94,
+          77
+        ],
+        [
+          147,
+          66,
+          557,
+          183
+        ],
+        [
+          59,
+          79,
+          183,
+          136
+        ]
+      ]
+    },
+    "dinov2_vits14": {
+      "accuracy": 0.4162,
+      "f1_macro": 0.3947,
+      "matriz_confusion": [
+        [
+          158,
+          41,
+          118,
+          54
+        ],
+        [
+          34,
+          146,
+          51,
+          88
+        ],
+        [
+          228,
+          121,
+          428,
+          176
+        ],
+        [
+          73,
+          117,
+          125,
+          142
+        ]
+      ]
+    }
+  }
+}

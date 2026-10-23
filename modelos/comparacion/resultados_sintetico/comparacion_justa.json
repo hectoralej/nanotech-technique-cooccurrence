@@ -1,0 +1,278 @@
+{
+  "sintetico": true,
+  "n_articulos_manifest": 1179,
+  "n_articulos_comunes": 1179,
+  "faltan_predicciones_para": [],
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "tabular": "modelos\\tabular_v2\\resultados\\predicciones_clase4_mediciones_logistica.csv",
+  "entradas_tabulares": [
+    "log10_size_nm",
+    "zeta_mV",
+    "pdi",
+    "indicadores_faltante"
+  ],
+  "experimentos": [
+    {
+      "modelo_imagen": "predicciones_simulado",
+      "fuente_scores": "probabilidades por clase suministradas",
+      "metodos": {
+        "solo_tabular": {
+          "n_articulos": 1179,
+          "pmcid_hash": "fb0c25224b6b2c8f18f537219a9bd76d370932d1bc99cf62b3d90981c9676f36",
+          "folds_hash": "1bdd4ce6c3741f97ba5c54f9ea553f818420b8b3d8affc9aea8ffc884a8b5a5f",
+          "metricas": {
+            "exactitud": {
+              "valor": 0.46649703138252757,
+              "ic95": [
+                0.4384860050890585,
+                0.4944868532654792
+              ]
+            },
+            "f1_macro": {
+              "valor": 0.4044767585688288,
+              "ic95": [
+                0.3779317806503185,
+                0.4307453297402045
+              ]
+            }
+          },
+          "matriz_confusion_normalizada": [
+            [
+              0.08823529411764706,
+              0.1323529411764706,
+              0.5049019607843137,
+              0.27450980392156865
+            ],
+            [
+              0.02857142857142857,
+              0.4489795918367347,
+              0.16326530612244897,
+              0.35918367346938773
+            ],
+            [
+              0.06506024096385542,
+              0.12048192771084337,
+              0.6385542168674698,
+              0.17590361445783131
+            ],
+            [
+              0.06031746031746032,
+              0.24126984126984127,
+              0.2,
+              0.4984126984126984
+            ]
+          ]
+        },
+        "solo_imagen": {
+          "n_articulos": 1179,
+          "pmcid_hash": "fb0c25224b6b2c8f18f537219a9bd76d370932d1bc99cf62b3d90981c9676f36",
+          "folds_hash": "1bdd4ce6c3741f97ba5c54f9ea553f818420b8b3d8affc9aea8ffc884a8b5a5f",
+          "metricas": {
+            "exactitud": {
+              "valor": 0.8829516539440203,
+              "ic95": [
+                0.8642917726887193,
+                0.9007633587786259
+              ]
+            },
+            "f1_macro": {
+              "valor": 0.8793232558305578,
+              "ic95": [
+                0.8595760477013533,
+                0.8977162364285524
+              ]
+            }
+          },
+          "matriz_confusion_normalizada": [
+            [
+              0.8676470588235294,
+              0.049019607843137254,
+              0.049019607843137254,
+              0.03431372549019608
+            ],
+            [
+              0.02857142857142857,
+              0.9306122448979591,
+              0.024489795918367346,
+              0.0163265306122449
+            ],
+            [
+              0.03855421686746988,
+              0.05542168674698795,
+              0.8578313253012049,
+              0.04819277108433735
+            ],
+            [
+              0.03492063492063492,
+              0.047619047619047616,
+              0.02857142857142857,
+              0.8888888888888888
+            ]
+          ]
+        },
+        "fusion_media": {
+          "n_articulos": 1179,
+          "pmcid_hash": "fb0c25224b6b2c8f18f537219a9bd76d370932d1bc99cf62b3d90981c9676f36",
+          "folds_hash": "1bdd4ce6c3741f97ba5c54f9ea553f818420b8b3d8affc9aea8ffc884a8b5a5f",
+          "metricas": {
+            "exactitud": {
+              "valor": 0.8320610687022901,
+              "ic95": [
+                0.8125530110262935,
+                0.851590330788804
+              ]
+            },
+            "f1_macro": {
+              "valor": 0.8220924672287282,
+              "ic95": [
+                0.799216854053356,
+                0.8435544987359154
+              ]
+            }
+          },
+          "matriz_confusion_normalizada": [
+            [
+              0.696078431372549,
+              0.0784313725490196,
+              0.1568627450980392,
+              0.06862745098039216
+            ],
+            [
+              0.04081632653061224,
+              0.8326530612244898,
+              0.044897959183673466,
+              0.08163265306122448
+            ],
+            [
+              0.01927710843373494,
+              0.04578313253012048,
+              0.8674698795180723,
+              0.06746987951807229
+            ],
+            [
+              0.01904761904761905,
+              0.050793650793650794,
+              0.05714285714285714,
+              0.873015873015873
+            ]
+          ]
+        },
+        "fusion_ponderada": {
+          "n_articulos": 1179,
+          "pmcid_hash": "fb0c25224b6b2c8f18f537219a9bd76d370932d1bc99cf62b3d90981c9676f36",
+          "folds_hash": "1bdd4ce6c3741f97ba5c54f9ea553f818420b8b3d8affc9aea8ffc884a8b5a5f",
+          "metricas": {
+            "exactitud": {
+              "valor": 0.904156064461408,
+              "ic95": [
+                0.8871925360474979,
+                0.9219677692960135
+              ]
+            },
+            "f1_macro": {
+              "valor": 0.9011568363056894,
+              "ic95": [
+                0.8832132549402055,
+                0.9192898077587272
+              ]
+            }
+          },
+          "matriz_confusion_normalizada": [
+            [
+              0.8725490196078431,
+              0.029411764705882353,
+              0.058823529411764705,
+              0.0392156862745098
+            ],
+            [
+              0.02857142857142857,
+              0.9224489795918367,
+              0.02040816326530612,
+              0.02857142857142857
+            ],
+            [
+              0.024096385542168676,
+              0.033734939759036145,
+              0.8939759036144578,
+              0.04819277108433735
+            ],
+            [
+              0.009523809523809525,
+              0.044444444444444446,
+              0.022222222222222223,
+              0.9238095238095239
+            ]
+          ]
+        }
+      },
+      "pesos_por_fold": [
+        {
+          "fold_test": 0,
+          "peso_tabular": 0.2,
+          "folds_seleccion": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "train_articulos": 942,
+          "train_pmids_hash": "b3e10b351e0df1d29e99c175147aacef66fc121b1b9676b0cd9b28fc4ebaeae8"
+        },
+        {
+          "fold_test": 1,
+          "peso_tabular": 0.2,
+          "folds_seleccion": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "train_articulos": 955,
+          "train_pmids_hash": "511e3a8ac0b27ededadbbd7dd897ea76f238362a5c0bbd3a3620cb915bced9d9"
+        },
+        {
+          "fold_test": 2,
+          "peso_tabular": 0.2,
+          "folds_seleccion": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "train_articulos": 935,
+          "train_pmids_hash": "ffb89e9ee55a0f29d9de85f74ed95ab7247024a2c3a4bf4aca03cd2704e100b2"
+        },
+        {
+          "fold_test": 3,
+          "peso_tabular": 0.2,
+          "folds_seleccion": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "train_articulos": 944,
+          "train_pmids_hash": "2f58947fad2918951b32112af10be5984487be9467560079a21227af2075d6da"
+        },
+        {
+          "fold_test": 4,
+          "peso_tabular": 0.2,
+          "folds_seleccion": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "train_articulos": 940,
+          "train_pmids_hash": "6337962d578b6790ab8a3fc618dc1836a51630e06a3b268e13ca9178f6d9a3d8"
+        }
+      ]
+    }
+  ],
+  "limite": "Pesos elegidos exclusivamente con etiquetas de otros folds sobre scores OOF. Para anidamiento totalmente estricto se necesitan scores internos por outer-fold del clúster; el protocolo suministrado no contiene esa procedencia. No se afirma validación externa ni calibración de scores reconstruidos."
+}
