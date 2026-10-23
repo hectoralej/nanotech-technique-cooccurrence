@@ -1,0 +1,45 @@
+{
+  "prueba": false,
+  "tarea": "clase de portador a partir de la micrografía (figura completa)",
+  "backbone": "DINOv2 ViT-S/14 + ResNet50 congelados (vectores) → PCA 64 → SVM rbf",
+  "evaluacion": "5 particiones por artículo (columna fold); cada predicción es fuera de muestra",
+  "n_imagenes": 2100,
+  "n_articulos": 1641,
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "accuracy": 0.5262,
+  "accuracy_balanceada": 0.4324,
+  "f1_macro": 0.442,
+  "linea_base": 0.4538,
+  "matriz_confusion": [
+    [
+      93,
+      13,
+      230,
+      35
+    ],
+    [
+      20,
+      135,
+      99,
+      65
+    ],
+    [
+      60,
+      33,
+      758,
+      102
+    ],
+    [
+      22,
+      76,
+      240,
+      119
+    ]
+  ],
+  "nota": "Resultado exploratorio: se probaron varias variantes sobre las mismas particiones; la cifra puede ser algo optimista. La clase mayoritaria da exactitud 0,454 pero F1 macro ~0,16."
+}

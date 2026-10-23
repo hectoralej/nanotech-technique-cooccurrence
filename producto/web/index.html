@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atlas navegable de evidencia sobre nanoportadores y técnicas de caracterización.">
+  <title>Nano2Predict · Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#explorar">Explorador</a>
+      <a id="model-nav" href="#modelo" hidden>Modelo</a>
+      <a href="#metodo">Cómo se construyó</a>
+    </nav>
+    <span class="edition">Atlas de evidencia · prototipo</span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <p class="eyebrow">EVIDENCIA ABIERTA · NANOTECNOLOGÍA</p>
+        <h1>De la literatura a<br>la evidencia navegable.</h1>
+        <p class="intro">Un atlas de artículos, micrografías y mediciones de nanoportadores con citas que permiten volver a la fuente.</p>
+        <a class="text-link" href="#explorar">Explorar la base <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note">
+        <span class="note-rule"></span>
+        <p>Encuentra una formulación, revisa cómo se caracterizó y abre el artículo original desde la ficha.</p>
+        <span class="note-foot">EUROPE PMC · ARTÍCULOS DE ACCESO ABIERTO</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Contenido de la base">
+      <div class="stat"><span id="count-articles">—</span><label>artículos</label></div>
+      <div class="stat"><span id="count-panels">—</span><label>micrografías</label></div>
+      <div class="stat"><span id="count-descriptors">—</span><label>filas de descriptores</label></div>
+      <div class="stat"><span id="count-spectra">—</span><label>espectros</label></div>
+      <p class="data-stamp" id="data-stamp">Cargando datos…</p>
+    </section>
+
+    <section class="explorer-section" id="explorar">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONSULTA</p><h2>Explorador de artículos</h2></div>
+        <p class="section-caption">Filtra por sistema y técnica; selecciona un resultado para abrir su evidencia.</p>
+      </div>
+      <div class="filters">
+        <label class="search-field"><span>Buscar</span><input id="search" type="search" placeholder="Título, DOI o PMCID" autocomplete="off"></label>
+        <label><span>Portador</span><select id="family"><option value="">Todos los portadores</option></select></label>
+        <label><span>Categoría</span><select id="usage"><option value="">Todas</option></select></label>
+        <label><span>Grupo</span><select id="tier"><option value="">Todos</option><option>E1</option><option>E2</option></select></label>
+        <label><span>Microscopía</span><select id="variant"><option value="">Todas</option></select></label>
+        <label><span>Espectro</span><select id="technique"><option value="">Todas</option></select></label>
+      </div>
+      <div class="explorer-grid">
+        <div class="results-pane">
+          <div class="results-header"><span id="result-count">Artículos</span><span id="page-label"></span></div>
+          <div id="results" class="results-list" aria-live="polite"></div>
+          <div class="pagination"><button id="previous" type="button">Anterior</button><button id="next" type="button">Siguiente</button></div>
+        </div>
+        <article id="detail" class="detail-pane" aria-live="polite">
+          <div class="empty-detail"><span class="empty-symbol">↗</span><p>Selecciona un artículo para ver su ficha.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="model-section" id="modelo" hidden aria-label="Evaluación del modelo"></section>
+
+    <section class="method-section" id="metodo">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRAZABILIDAD</p><h2>Cómo se construyó</h2></div>
+        <p class="section-caption">Cada registro conserva una ruta de vuelta al dato publicado.</p>
+      </div>
+      <div class="method-steps">
+        <div><span>01</span><h3>Búsqueda</h3><p>Localización de artículos de acceso abierto en Europe PMC.</p></div>
+        <div><span>02</span><h3>Extracción con IA</h3><p>Identificación de paneles, técnicas, muestras y mediciones.</p></div>
+        <div><span>03</span><h3>Verificación de citas</h3><p>Comprobación por código de las citas textuales frente a la fuente.</p></div>
+        <div><span>04</span><h3>Control de calidad</h3><p>Revisión asistida de una muestra y registro de discrepancias.</p></div>
+      </div>
+      <div class="qc-block">
+        <div><p class="eyebrow">MUESTRA REVISADA</p><h3>Control de calidad</h3><p id="qc-note">Cargando resultados de la muestra…</p></div>
+        <div id="qc-table" class="qc-table"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Nano2Predict</span><span>Atlas de evidencia científica</span><a href="#inicio">Volver arriba ↑</a></footer>
+  <aside class="quality-notice">Datos extraídos por IA y verificados por código. Precisión estimada en una muestra revisada.</aside>
+  <script src="app.js" defer></script>
+</body>
+</html>
