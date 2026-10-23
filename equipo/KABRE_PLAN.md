@@ -1,4 +1,4 @@
-# Kabré: qué sabemos, qué hay que comprobar y cómo trabajar allí
+﻿# Kabré: qué sabemos, qué hay que comprobar y cómo trabajar allí
 
 Acceso: solo Héctor. Plazo del proyecto: domingo 25 de octubre, 5:45 pm. **Regla de oro: el producto no puede depender de Kabré.** Todo lo que se haga allí tiene una versión de respaldo en la computadora (modelo congelado en CPU); Kabré es un extra para subir la calidad.
 
@@ -20,14 +20,14 @@ Encontrado en la web:
 - `nukwa` a secas, `-wide` y `-long` parecen variantes por tamaño y duración sobre los mismos nodos; `-debug` es para pruebas cortas.
 - `kura` y `dribe` no aparecen en ninguna fuente que encontré. **No asumir que tienen GPU**: pueden ser nodos de CPU. Se comprueba con `sinfo` (columna de recursos `GRES`).
 
-**Colas recomendadas:** `nukwa-debug` para la prueba de humo; `nukwa-l40s` para entrenamiento (si hay GPU libre; si hay cola larga, `nukwa-v100`); `kura*` solo si el reconocimiento muestra GPU.
+**Colas recomendadas (según Héctor: Nukwa más potentes, Kura más lentos):** pruebas y tareas ligeras en `kura-test`/`kura-debug` (y `nukwa-debug` para comparar); entrenamiento de redes (CNN, transformer) en `nukwa-l40s` o `nukwa-v100`, solo cuando la tarea lo requiera. Si el reconocimiento muestra que `kura` no tiene GPU, solo sirve para tareas de CPU.
 
 **Dos ventajas de OnDemand:** (1) se puede **subir el zip desde el navegador** (*Files → Upload*) sin `scp` ni el segundo factor por SSH; (2) un Jupyter en un nodo con GPU incluye una **terminal** (*New → Terminal*): ahí se ejecuta la prueba de humo directamente en el nodo de cómputo, que es justo donde hay que medir si hay internet.
 
 **Seguridad:** no compartir el QR, los códigos de 6 dígitos ni la contraseña con nadie, ni con ninguna IA. Las salidas de la prueba de humo no contienen secretos.
 
 ## 2. Reconocimiento (30 minutos, Héctor, hoy)
-**Camino más corto (sin SSH):** en OnDemand → *Interactive Apps → Jupyter Notebook* → cola `nukwa-debug`, 1 hora, 4 núcleos, 16 GB → *Launch*. Dentro: *Upload* de `modelos/kabre/prueba_de_humo.py` y, en una terminal, `python prueba_de_humo.py`. Pega a Claude el JSON que escribe (nodo, GPU, internet, librerías, disco). Después repite en `nukwa-l40s`. Los comandos de abajo sirven si prefieres el SSH.
+**Camino más corto (sin SSH):** en OnDemand → *Interactive Apps → Jupyter Notebook* → cola `nukwa-debug`, 1 hora, 4 núcleos, 16 GB → *Launch*. Dentro: *Upload* de `modelos/kabre/01_prueba_de_humo.ipynb` (cuaderno de Jupyter), ábrelo y ejecuta su celda. Pega a Claude el JSON que escribe (nodo, GPU, internet, librerías, disco). Después repite en `nukwa-l40s`. Los comandos de abajo sirven si prefieres el SSH.
 Desde el nodo de acceso (login), anotando la salida de cada comando en `KABRE_NOTAS.md` (sin contraseñas ni claves):
 1. `hostname; whoami; echo $HOME; df -h $HOME` y `quota -s` (si existe): espacio disponible.
 2. `sinfo` (si usa Slurm) o `qstat -q` (si usa PBS): colas, GPU y límites de tiempo. `scontrol show partition` da los máximos.
@@ -70,3 +70,4 @@ Desde el nodo de acceso (login), anotando la salida de cada comando en `KABRE_NO
 - **Bryan:** video (guion y montaje junto a Carlos) y validaciones científicas (revisar que las conclusiones y las limitaciones del video sean correctas; cotejar una muestra de extracciones). Si queda tiempo, apoya a Carlos con la interfaz.
 - **Carlos:** web (Atlas) y grabación de la demo.
 Si Bryan deja de hacer el modelo de imágenes, su archivo `INSTRUCCIONES_CLAUDE_BRYAN.md` se reemplaza por uno de video y validación.
+
