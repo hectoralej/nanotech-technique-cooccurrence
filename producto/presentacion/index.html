@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Presentación interactiva de Nano2Predict: base de evidencia sobre nanoportadores, con citas verificadas por código, y modelos evaluados con honestidad.">
+  <title>Nano2Predict · Presentación</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="barra">
+    <a class="marca" href="#portada" aria-label="Nano2Predict, portada"><span class="marca-sello">N</span><span>Nano2Predict</span></a>
+    <div class="progreso" role="progressbar" aria-label="Progreso de la presentación" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progreso-relleno"></span></div>
+    <span class="contador" id="contador" aria-live="polite">1 / 11</span>
+    <a class="enlace-atlas" href="../web/" target="_blank" rel="noopener">Abrir el Atlas ↗</a>
+    <button class="boton-icono" id="btn-presentar" type="button" aria-pressed="false" title="Modo presentar (P)">Presentar</button>
+  </header>
+
+  <nav class="puntos" id="puntos" aria-label="Secciones de la presentación"></nav>
+
+  <main id="contenido">
+
+    <!-- 0 · Portada -->
+    <section class="dia dia-portada" id="portada" data-titulo="Portada" aria-labelledby="t-portada">
+      <div class="envoltura">
+        <p class="sobretitulo">HACKATÓN · NANOINFORMÁTICA · BASE v0.1</p>
+        <h1 id="t-portada">De la literatura a la evidencia que se puede comprobar.</h1>
+        <p class="entrada">Nano2Predict reúne micrografías, medidas y espectros de nanoportadores, cada dato con la cita del artículo de donde sale. Y pone a prueba, con honestidad, qué se puede predecir con ellos.</p>
+        <div class="cifras" id="cifras-portada" aria-label="Contenido de la base"></div>
+        <div class="acciones">
+          <button class="boton boton-primario" type="button" data-ir="siguiente">Comenzar <span aria-hidden="true">→</span></button>
+          <a class="boton" href="../web/" target="_blank" rel="noopener">Abrir el Atlas <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="atajos"><kbd>←</kbd> <kbd>→</kbd> cambiar de sección · <kbd>P</kbd> modo presentar · <kbd>F</kbd> pantalla completa</p>
+      </div>
+    </section>
+
+    <!-- 1 · Problema -->
+    <section class="dia" id="problema" data-titulo="El problema" aria-labelledby="t-problema">
+      <div class="envoltura dos-col">
+        <div>
+          <p class="sobretitulo">1 · EL PROBLEMA</p>
+          <h2 id="t-problema">Los datos existen, pero están encerrados en PDFs.</h2>
+          <p class="texto">Cada laboratorio mide el tamaño, la carga y la forma de sus nanopartículas y lo publica en un artículo: en tablas, en pies de figura, en frases sueltas. Para entrenar un modelo hacen falta <strong>tres cosas juntas</strong>:</p>
+          <ol class="tres">
+            <li><span class="num">1</span><div><strong>La micrografía</strong><small>la imagen de microscopía electrónica</small></div></li>
+            <li><span class="num">2</span><div><strong>Las medidas de la misma muestra</strong><small>tamaño, PDI y potencial zeta</small></div></li>
+            <li><span class="num">3</span><div><strong>La fuente</strong><small>DOI y cita textual para volver al artículo</small></div></li>
+          </ol>
+          <p class="destacado">Sin esa base, no hay modelos. Así que empezamos por construirla.</p>
+        </div>
+        <figure class="figura">
+          <img src="assets/figuras/figura_1.png" alt="Cobertura de la base: 1.824 artículos leídos, 1.707 con evidencia, 2.726 micrografías, 3.116 descriptores y 4.015 espectros." width="1920" height="1080">
+          <figcaption>Figura 1. Cobertura de la base v0.1. «Micrografías» son registros de panel: las unidades no se suman entre sí.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 2 · Cómo se construyó -->
+    <section class="dia" id="construccion" data-titulo="Cómo se construyó" aria-labelledby="t-construccion">
+      <div class="envoltura">
+        <p class="sobretitulo">2 · CÓMO SE CONSTRUYÓ</p>
+        <h2 id="t-construccion">Cada dato lleva su cita, y un programa comprueba que existe.</h2>
+        <ol class="pasos" aria-label="Cuatro pasos de la construcción">
+          <li><span class="paso-n">01</span><h3>Búsqueda</h3><p>Europe PMC, solo acceso abierto. Licencias: 1.823 CC BY y 1 CC0, para poder mostrar las imágenes con crédito al DOI.</p></li>
+          <li><span class="paso-n">02</span><h3>Extracción con IA</h3><p>Un modelo de lenguaje lee el texto completo y propone micrografías, técnicas, tamaño, PDI, zeta y espectros.</p></li>
+          <li><span class="paso-n">03</span><h3>Verificación por código</h3><p>La cita textual y los números deben aparecer en el artículo. Si no, se rechazan. Solo 2 artículos tuvieron citas rechazadas.</p></li>
+          <li><span class="paso-n">04</span><h3>Control de calidad</h3><p>Muestra de 20 artículos revisada con ayuda de una IA. Estimación preliminar, no la precisión global.</p></li>
+        </ol>
+
+        <div class="extractor" id="extractor" aria-labelledby="t-extractor">
+          <div class="extractor-cabecera">
+            <h3 id="t-extractor">Un dato real, de la figura a la cita</h3>
+            <div class="pestanas" role="tablist" id="extractor-pestanas" aria-label="Ejemplos reales"></div>
+          </div>
+          <div class="extractor-cuerpo">
+            <figure class="extractor-figura">
+              <img id="ex-imagen" alt="" loading="lazy">
+              <figcaption id="ex-pie"></figcaption>
+            </figure>
+            <div class="extractor-datos">
+              <h4>Lo que extrajo la IA</h4>
+              <dl class="campos" id="ex-campos"></dl>
+              <h4>Cita textual del artículo</h4>
+              <blockquote class="cita" id="ex-cita"></blockquote>
+              <ul class="verificacion" id="ex-verif" aria-live="polite"></ul>
+              <div class="extractor-acciones">
+                <button class="boton" type="button" id="ex-falso" aria-pressed="false">¿Y si la IA inventa el tamaño?</button>
+                <a class="enlace" id="ex-doi" target="_blank" rel="noopener">Abrir el artículo (DOI) ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · Calidad -->
+    <section class="dia" id="calidad" data-titulo="Control de calidad" aria-labelledby="t-calidad">
+      <div class="envoltura dos-col">
+        <div>
+          <p class="sobretitulo">2 · CONTROL DE CALIDAD</p>
+          <h2 id="t-calidad">Revisamos una muestra de 20 artículos. La revisión fue asistida por IA.</h2>
+          <div class="calidad-barras" id="calidad-barras" role="list"></div>
+          <p class="aviso"><strong>Cómo leerlo:</strong> «no comprobable» no es un error: el dato no pudo contrastarse con lo visible del artículo. La muestra es pequeña y la revisión no fue humana; es una estimación preliminar por campo, no la precisión de toda la base.</p>
+        </div>
+        <figure class="figura">
+          <img src="assets/figuras/figura_9.png" alt="Control de calidad asistido por IA en 20 artículos: micrografías 19 de 19, descriptores 9 de 10, espectros 14 de 16 sobre lo comprobable." width="1920" height="1080" loading="lazy">
+          <figcaption>Figura 9. Aciertos sobre lo comprobable. Fuente: <code>equipo/qc_carlos/RESUMEN_QC.md</code>.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 4 · Línea de tiempo -->
+    <section class="dia" id="camino" data-titulo="Línea de tiempo" aria-labelledby="t-camino">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · EL CAMINO</p>
+        <h2 id="t-camino">De una hipótesis preregistrada a una base congelada.</h2>
+        <div class="linea" id="linea" role="list"></div>
+        <div class="linea-detalle" id="linea-detalle" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- 5 · La base en figuras -->
+    <section class="dia" id="figuras" data-titulo="La base en figuras" aria-labelledby="t-figuras">
+      <div class="envoltura">
+        <p class="sobretitulo">4 · LA BASE EN FIGURAS</p>
+        <h2 id="t-figuras">Qué hay dentro de la base.</h2>
+        <div class="galeria">
+          <figure class="galeria-grande">
+            <img id="gal-img" alt="" width="1920" height="1080">
+            <figcaption id="gal-pie"></figcaption>
+          </figure>
+          <div class="galeria-miniaturas" id="gal-mini" role="tablist" aria-label="Figuras"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Atlas -->
+    <section class="dia" id="atlas" data-titulo="El Atlas" aria-labelledby="t-atlas">
+      <div class="envoltura">
+        <p class="sobretitulo">5 · EL PRODUCTO</p>
+        <h2 id="t-atlas">El Atlas: la base, navegable.</h2>
+        <div class="dos-col atlas-cols">
+          <div>
+            <ul class="lista-rasgos">
+              <li><strong>Filtra por portador y técnica.</strong> Por ejemplo, liposomas con cryoTEM.</li>
+              <li><strong>Cada ficha trae su cita.</strong> Micrografía, DOI, tamaño, PDI, zeta y la frase del artículo que respalda cada medida.</li>
+              <li><strong>El modelo, por separado.</strong> La etiqueta de la base y la predicción nunca se mezclan; la predicción es exploratoria. Se muestran las micrografías más parecidas, siempre de otros artículos.</li>
+            </ul>
+            <div class="acciones">
+              <a class="boton boton-primario" href="../web/" target="_blank" rel="noopener">Abrir el Atlas <span aria-hidden="true">↗</span></a>
+              <button class="boton" type="button" id="btn-vista">Cargar vista previa aquí</button>
+            </div>
+            <p class="nota">Si la vista previa queda en blanco, sirve la carpeta con <code>python -m http.server 8000</code> desde <code>producto/</code> y abre <code>http://localhost:8000/web/</code>.</p>
+          </div>
+          <div class="vista" id="vista" aria-live="polite">
+            <div class="vista-vacia"><span aria-hidden="true">↗</span><p>La vista previa del Atlas se carga solo si la pides.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · Modelos -->
+    <section class="dia" id="modelos" data-titulo="Modelos" aria-labelledby="t-modelos">
+      <div class="envoltura">
+        <p class="sobretitulo">6 · MODELOS</p>
+        <h2 id="t-modelos">Una escalera de lo simple a lo complejo, siempre contra una línea base.</h2>
+        <div class="pestanas pestanas-grandes" role="tablist" id="modelo-pestanas" aria-label="Pregunta que responde el modelo">
+          <button role="tab" type="button" data-tab="tamano" aria-selected="true">¿El tamaño?</button>
+          <button role="tab" type="button" data-tab="clase" aria-selected="false">¿El tipo de portador? (con medidas)</button>
+          <button role="tab" type="button" data-tab="imagen" aria-selected="false">¿Y con la imagen?</button>
+        </div>
+        <div class="modelo-cuerpo">
+          <div class="grafica" id="grafica" role="img"></div>
+          <aside class="lectura">
+            <h3 id="lectura-titulo"></h3>
+            <p id="lectura-texto"></p>
+            <label class="interruptor"><input type="checkbox" id="chk-ic" checked><span>Mostrar intervalos de confianza 95 %</span></label>
+            <p class="advertencia" id="lectura-aviso"></p>
+          </aside>
+        </div>
+        <p class="pie-modelo"><strong>Todo se evalúa separando por artículo</strong> (5 particiones): nunca hay figuras o muestras del mismo artículo en entrenamiento y en prueba. Los resultados son modestos, y los presentamos como modestos.</p>
+      </div>
+    </section>
+
+    <!-- 8 · Decisiones -->
+    <section class="dia" id="decisiones" data-titulo="Decisiones" aria-labelledby="t-decisiones">
+      <div class="envoltura">
+        <p class="sobretitulo">7 · DECISIONES</p>
+        <h2 id="t-decisiones">Qué decidimos, por qué, y con qué evidencia.</h2>
+        <div class="filtros">
+          <div class="chips" id="dec-chips" role="group" aria-label="Sección"></div>
+          <label class="campo"><span>Estado</span>
+            <select id="dec-estado"><option value="">Todos</option><option>Cerrada</option><option>Abierta</option><option>En curso</option><option>Pendiente</option></select>
+          </label>
+          <label class="campo campo-buscar"><span>Buscar</span><input id="dec-buscar" type="search" placeholder="Palabra clave" autocomplete="off"></label>
+          <span class="conteo" id="dec-conteo" aria-live="polite"></span>
+        </div>
+        <div class="tabla-envoltura"><table class="tabla-dec" id="dec-tabla">
+          <thead><tr><th>#</th><th>Decisión</th><th>Por qué</th><th>Evidencia</th><th>Estado</th></tr></thead>
+          <tbody></tbody>
+        </table></div>
+      </div>
+    </section>
+
+    <!-- 9 · Limitaciones -->
+    <section class="dia" id="limitaciones" data-titulo="Limitaciones" aria-labelledby="t-limitaciones">
+      <div class="envoltura">
+        <p class="sobretitulo">8 · LIMITACIONES</p>
+        <h2 id="t-limitaciones">Lo que sabemos que nos falta.</h2>
+        <div class="tarjetas" id="limites"></div>
+        <div class="no-afirmamos">
+          <h3>Lo que no afirmamos</h3>
+          <ul>
+            <li>Que los datos estén validados por personas: el control de calidad fue en 20 artículos y asistido por IA.</li>
+            <li>Que el modelo «acierte» o funcione en producción: son resultados exploratorios, sin validación externa.</li>
+            <li>Que se pueda predecir el tamaño: el error relativo mediano sigue en ≈ 44 %.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 · Siguientes pasos y créditos -->
+    <section class="dia" id="siguientes" data-titulo="Siguientes pasos y créditos" aria-labelledby="t-siguientes">
+      <div class="envoltura dos-col">
+        <div>
+          <p class="sobretitulo">9 · SIGUIENTES PASOS</p>
+          <h2 id="t-siguientes">Lo que sigue.</h2>
+          <ol class="siguientes" id="lista-siguientes"></ol>
+        </div>
+        <div>
+          <p class="sobretitulo">CRÉDITOS</p>
+          <h2>Gracias.</h2>
+          <ul class="creditos">
+            <li><strong>Europe PMC</strong> por abrir el acceso a la literatura científica. Los artículos y figuras usados son de licencia CC BY, con crédito al DOI.</li>
+            <li><strong>Kabré (CeNAT · Laboratorio Nacional de Computación Avanzada, CNCA)</strong>, donde se calcularon los vectores de imagen.</li>
+            <li><strong>El profesor del curso de Quimioinformática</strong>, por sus preguntas y su guía.</li>
+            <li><strong>Equipo:</strong> Héctor (datos y modelos), Carlos (Atlas) y Bryan (presentación y video).</li>
+          </ul>
+          <details class="reproducir">
+            <summary>Reproducir esta presentación</summary>
+            <pre><code>python producto/presentacion/construir_datos.py
+cd producto
+python -m http.server 8000
+# abrir http://localhost:8000/presentacion/</code></pre>
+          </details>
+          <p class="firma">Nano2Predict · base v0.1 · <span id="sello-datos"></span></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="aviso-calidad">Datos extraídos por IA y verificados por código. Precisión estimada en una muestra revisada.</aside>
+  <script src="datos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
