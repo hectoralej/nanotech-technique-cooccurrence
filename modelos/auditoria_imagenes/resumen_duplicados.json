@@ -1,0 +1,10 @@
+{
+  "umbral_hamming": 6,
+  "imagenes": 2149,
+  "pares_entre_articulos": 8,
+  "pares_en_distinto_fold": 5,
+  "pares_distinta_clase": 8,
+  "imagenes_con_casi_duplicado_en_otro_fold": 10,
+  "acierto_con_duplicado": 0.7,
+  "acierto_sin_duplicado": 0.513
+}
