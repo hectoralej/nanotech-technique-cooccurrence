@@ -1,0 +1,378 @@
+﻿id,lote,pmcid,sample,size_nm,pdi,zeta_mV,medium,source,quote
+DESC-0001,D001,PMC11112068,"CNP-LA (TPP 0.5%, extract 1%)",369.0,1.8,32.4,not_declared,Table 1,1 | 369.0 ± 72.0 | 32.4 ± 1.2 | 1.8 ± 0.6 | 83.2 ± 0.5
+DESC-0003,D001,PMC11112068,"CNP-LA (TPP 0.5%, extract 5%)",375.7,1.2,29.5,not_declared,Table 1,5 | 375.7 ± 89.0 | 29.5 ± 1.9 | 1.2 ± 0.8 | 94.1 ± 3.5
+DESC-0005,D001,PMC11112068,"CNP (TPP 1%, extract absent)",250.0,1.1,39.9,not_declared,Table 1,1 | - | 250.0 ± 53.0b | 39.9 ± 0.3 | 1.1 ± 2.7c | 92.6 ± 4.4b
+DESC-0006,D001,PMC11112068,"CNP-LA (TPP 1%, extract 1%)",401.9,3.8,32.7,not_declared,Table 1,1 | 401.9 ± 76.7 | 32.7 ± 0.7 | 3.8 ± 3.1 | 98.6 ± 0.3
+DESC-0007,D001,PMC11112068,"CNP-LA (TPP 1%, extract 2%)",440.9,1.4,22.1,not_declared,Table 1,2 | 440.9 ± 89.9 | 22.1 ± 0.5 | 1.4 ± 0.4 | 92.5 ± 0.0
+DESC-0010,D001,PMC12470970,DPPC_Ctrl,401.93,,-4.06,not_declared,Results,"DLS results revealed a mean hydrodynamic diameter of 401.93 nm for the control liposome sample, DPPC_Ctrl."
+DESC-0011,D001,PMC12470970,DPPC_HA,1608.63,,-12.43,not_declared,Results,"Upon incorporation of hyaluronic acid, the hydrodynamic diameter increased markedly, reaching a mean value of 1608.63 nm in the DPPC_HA sample."
+DESC-0015,D001,PMC11769172,mLNP-P6K (E),392.76,0.517,-18.89,water,Table 2,mLNP-P6K (E) | 1:5 | 392.76 ±
+DESC-0016,D001,PMC11769172,mLNP-P6K (F),475.43,0.573,-19.76,water,Table 2,mLNP-P6K (F) | 1:8 | 475.43 ±
+DESC-0018,D001,PMC11769172,mLNP-P10K (E),255.22,0.618,-18.77,water,Table 2,mLNP-P10K (E) | 1:5 | 255.22 ±
+DESC-0019,D001,PMC11769172,mLNP-P10K (F),285.69,0.582,-18.93,water,Table 2,mLNP-P10K (F) | 1:8 | 285.69 ±
+DESC-0020,D001,PMC13108755,ZnChNPs,256.2,0.25,-25.1,not_declared,text; Table 1 cited,DLS measurements showed particle diameters ranging from 82.3 to 861.5 nm with an average size of 256.2 nm and a PDI of 0.25
+DESC-0035,D001,PMC13402423,GC-AgNPs,103.0,,-31.4,not_declared,text; DLS/Zeta,"The Z-average particle size was observed at 103 nm (Figure 7a), which is larger than the size reported by FESEM and TEM analysis."
+DESC-0040,D001,PMC11850822,NLCLec-50,186.1,0.073,-20.2,not_declared,Table 2,NLCLec-50 | 186.1 | 68.80 | 0.0730 | −20.2
+DESC-0043,D001,PMC10401763,ACCF-liposomes,98.0,0.29,-38.66,not_declared,Results; Fig. 1a and Table 1,Figure 1a and Table 1 demonstrate that the average hydrodynamic size of liposomes entrapped ACCF was 98 nm with a PDI of 0.29±0.04
+DESC-0051,D001,PMC12692535,SIN-NLCs,174.1,0.18,-22.65,not_declared,Results; Figure 4C,"174.10 ± 1.97 nm (Figure 4C), with a polydispersity index (PDI) of 0.18 ± 0.01."
+DESC-0063,D001,PMC12913382,LipoPEI,115.0,0.18,24.5,not_declared,Results; Figure 1A,exhibited an average particle size of 115 ± 5 nm with a low PDI of 0.18 ± 0.02
+DESC-0064,D001,PMC12913382,pDNA Bmp2 @LipoPEI,266.0,0.22,16.0,not_declared,Results; Figure 1A,"average size to 266 ± 12 nm (Figure 1A), while the PDI remained low at 0.22 ± 0.03."
+DESC-0065,D001,PMC11125853,LNPAH,82.0,,,not_declared,text; FESEM image analysis,"Figure 5a,c show FESEM images of cluster-structured lignin nanoparticles with higher mean diameters for LNPAH (82 ± 20 nm)"
+DESC-0070,D001,PMC11085645,NHA,252.0,,-23.6,not_declared,Results; Figure 1F,"312 nm ± 127 nm and 252 nm ± 93 nm, respectively, as shown in Figure 1F."
+DESC-0084,D001,PMC12940844,CSNPs,210.0,,12.9,water,text; DLS,Dynamic light scattering (DLS) analysis (Figure 1B) revealed that CSNPs exhibited a narrow size distribution with a mean hydrodynamic diameter of approximately 210 nm
+DESC-0085,D001,PMC12940844,CS-SiO2,635.0,,14.1,water,text; DLS,CS-SiO2 had a mean diameter of 635 ± 15 nm
+DESC-0086,D001,PMC12940844,CS-ZnO,650.0,,7.6,water,text; DLS,CS-ZnO measured 650 ± 25 nm
+DESC-0087,D001,PMC12940844,CS-CuO,720.0,,5.4,water,text; DLS,CS-CuO displayed slightly larger particles averaging 720 ± 30 nm
+DESC-0097,D001,PMC10803469,F5 (control),303.5,,-35.7,water,Results,The control formulation (F5) exhibited an average particle size of 303.5 ± 46.3 nm
+DESC-0116,D002,PMC9050139,optimum Mel-NLC,119.0,0.09,-18.56,not_declared,text,particle size of 119 nm with a polydispersity index of 0.09
+DESC-0119,D002,PMC13350844,Crab CsNPs,192.74,,25.15,water,text; DLS,The DLS results of crab CsNPs appeared to be the optimal CS-NPs with minimum particle size (192.74 ± 3.25 nm)
+DESC-0122,D002,PMC12609401,CSNFs,220.0,0.251,20.3,not_declared,text,"CSNFs (220 ± 20 nm) and non-encapsulated CSNPs (190 ± 19 nm), along with low polydispersity indexes (0.251 and 0.241, respectively)."
+DESC-0123,D002,PMC12609401,CSNPs,190.0,0.241,19.2,not_declared,text,"CSNFs (220 ± 20 nm) and non-encapsulated CSNPs (190 ± 19 nm), along with low polydispersity indexes (0.251 and 0.241, respectively)."
+DESC-0125,D002,PMC10889799,NC–GNPs,76.99,,-20.9,not_declared,text; DLS/zeta,The average hydrodynamic size distribution analyzed by DLS was found to be 76.99 nm
+DESC-0132,D002,PMC11538059,Ag/Ag₂O NPs,25.0,,,not_declared,text; SEM image analysis,"These compounds control the size and shape of the NPs, leading to a consistent particle size of around 25 nm"
+DESC-0135,D002,PMC8746983,LNP suspension,133.2,,-39.2,water,text; DLS/Zeta,Zeta potential and the average diameter of LNPs change slightly (Figure 3) from −39.2 mV to −37.6 mV
+DESC-0137,D002,PMC13413050,CSNPs,359.43,0.25,45.38,not_declared,text; DLS/Zeta,The CSNPs had a Z-average of 359.43 nm (PDI = 0.25)
+DESC-0138,D002,PMC13413050,silanized CSNPs,371.9,0.21,38.59,not_declared,text; DLS/Zeta,the silanized CSNPs’ Z-average increased to 371.9 nm (PDI = 0.21)
+DESC-0141,D002,PMC11510464,Lipo-GEN-THQ,107.9,0.15,-16.89,not_declared,Table 1,Hydrodynamic size (nm) | 107.9 (2.45) | 104.5 (1.66)
+DESC-0147,D002,PMC8587642,Ag NPs@GO-FL-CS 100,30.0,,,not_declared,text; TEM,"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"
+DESC-0148,D002,PMC8587642,Ag NPs@GO-FL-CS 200,35.5,,,not_declared,text; TEM,"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"
+DESC-0149,D002,PMC8587642,Ag NPs@GO-FL-CS 300,20.3,,,not_declared,text; TEM,"Ag crystallites with average sizes of 30.0, 35.5, and 20.3 nm, respectively"
+DESC-0151,D002,PMC11707725,Tl-nanotexaphyrins,147.4,0.15,-1.5,PBS,text,average hydrodynamic diameter of 147.4 ± 1.4 nm and a PDI of 0.15 ± 0.03
+DESC-0152,D002,PMC6832892,Fe3O4 nanoparticles,9.48,,,not_declared,text; TEM; Scherrer estimate corroborates,The obtained particle size coincidences with that calculated from Scherrer equation with average particle size of around 9.48 nm.
+DESC-0157,D002,PMC10005067,nfPLGA,161.0,0.185,,water,text; DLS,the hydrodynamic diameter of nfPLGA particles in water was between 100 and 200 nm with an average (mean) of 161.0 nm
+DESC-0158,D002,PMC6673697,NLC,278.4,,-11.5,not_declared,text; DLS,The selected optimized formulation presented particle size around 278.4 ± 5.2 nm for NLC
+DESC-0159,D002,PMC6673697,NLC-NPX,289.5,,-15.4,not_declared,text; DLS,and 289.5 ± 3.6 nm for NLC-NPX.
+DESC-0164,D002,PMC10383343,Ag-NPs from tansy flower extract,100.0,,-22.15,not_declared,text; DLS/Zeta,average hydrodynamic diameter of about 100 nm and more
+DESC-0175,D002,PMC10458800,DPPC PMLs with AuNPs_MUA (0 h),195.0,0.27,31.1,not_declared,Table 4,195 ± 7 | 203 ± 10 | 0.27 ± 0.04
+DESC-0176,D002,PMC10707881,DA-co-GSE-SLNs,187.0,0.49,-4.1,not_declared,Table 1,DA-co-GSE-SLNs b | 187 ± 4 | 0.49 ± 0.04
+DESC-0182,D002,PMC10894868,biosynthesized GNPs,14.15,,,not_declared,"Figure 3; TEM particle-count histogram, not DLS","The histogram in Fig. 3A displays the distribution of particle sizes, which was determined by analyzing 133 particles with mean size of 14.15 nm."
+DESC-0183,D002,PMC10064556,uncoated CS-DS NPs,190.0,,48.75,not_declared,DLS; hydrodynamic size; Fig. 4,"silica-coated CS-DS NPs was about 210 ± 21 nm, which is larger than that of uncoated CS-DS NPs (190 ± 19 nm)"
+DESC-0184,D002,PMC10064556,silica-coated CS-DS NPs,210.0,,-32.0,not_declared,DLS; hydrodynamic size; Fig. 4,"silica-coated CS-DS NPs was about 210 ± 21 nm, which is larger than that of uncoated CS-DS NPs (190 ± 19 nm)"
+DESC-0191,D002,PMC10574865,BR Ext-loaded NGs (CS:TPP 3:1),166.0,0.3,28.0,not_declared,Table 1; z-Av and PdI,3:1 | 45 ± 3 b | 166 ± 6 b | 0.30 ± 0.03 a
+DESC-0201,D003,PMC10876668,AgNPs,151.7,0.25,-44.2,not_declared,Fig. 5; DLS hydrodynamic size,"The results of this study indicated that the particle size and poly-dispersity index (PDI) values of AgNPs were 151.7 nm and 0.25, respectively (Fig. 5)."
+DESC-0211,D003,PMC12300693,S3,304.9,0.274,20.42,not_declared,DLS hydrodynamic diameter and PDI (text); zeta (Table 3),S3 had a hydrodynamic diameter of 304.90 ± 27.44 nm and a moderate PDI of 0.274 ± 0.033.
+DESC-0218,D003,PMC9647953,CO-SLN,40.65,,-26.5,water,Fig. 1a; DLS; text,The particle size of CO-SLN was reported with the average of 40.65 nm (shown in Fig. 1a).
+DESC-0219,D003,PMC11642680,Fe3O4-SA,48.0,,42.0,not_declared,DLS; Figure 8 and Figure 9; size before silica shell,hydrodynamic diameter by shell formation with silica from 48 nm to 146 nm
+DESC-0220,D003,PMC11642680,Fe3O4-SA-SiO2,146.0,,-10.0,not_declared,DLS; Figure 8 and Figure 9; size after silica shell,hydrodynamic diameter by shell formation with silica from 48 nm to 146 nm
+DESC-0221,D003,PMC12114681,CNPs,397.6,0.6,20.4,not_declared,DLS and Table 1,Hydrodynamic diameter (nm) | 397.6 ± 51.6 | 422.1 ± 12.4
+DESC-0222,D003,PMC12114681,CNPs-pDNA polyplexes,422.1,0.6,19.7,not_declared,DLS and Table 1,Hydrodynamic diameter (nm) | 397.6 ± 51.6 | 422.1 ± 12.4
+DESC-0223,D003,PMC9457851,C1,443.7,0.883,,not_declared,"Table 3; Z-average, particle-size analyzer",C1 | 443.70 | 0.8830 | 99.99
+DESC-0224,D003,PMC9457851,C2,540.4,1.045,,not_declared,"Table 3; Z-average, particle-size analyzer",C2 | 540.40 | 1.0450 | 99.97
+DESC-0225,D003,PMC9457851,C3,318.1,1.244,,not_declared,"Table 3; Z-average, particle-size analyzer",C3 | 318.10 | 1.2440 | 99.99
+DESC-0226,D003,PMC9457851,C4,278.7,0.891,,not_declared,"Table 3; Z-average, particle-size analyzer",C4 | 278.70 | 0.8910 | 99.99
+DESC-0227,D003,PMC9457851,C5,292.4,1.03,,not_declared,"Table 3; Z-average, particle-size analyzer",C5 | 292.40 | 1.0300 | 99.99
+DESC-0237,D003,PMC11315693,CH-NPs,16.8,,,not_declared,Fig. 3; mean diameter measured by SEM,"mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+DESC-0238,D003,PMC11315693,BER/CH-NPs,16.7,,38.6,not_declared,Fig. 3; mean diameter measured by SEM,"mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+DESC-0239,D003,PMC11315693,CRE/CH-NPs,18.3,,38.8,not_declared,Fig. 3; mean diameter measured by SEM,"mean diameter of 16.8 ± 2.3, 16.7 ± 2.3 and 18.3 ± 3.2 nm, respectively (Fig. 3)"
+DESC-0241,D003,PMC12681785,quercetin liposome vesicles,501.9,0.253,-22.8,PBS,Fig. 1a; DLS,average size of 501.9 ± 1.58 nm and a polydispersity index (PDI) of 0.253
+DESC-0242,D003,PMC11672701,AgNPs_AS,6.98,,-13.4,not_declared,"Figure 2A,B; TEM image-based size","average particle size of 6.98 nm ± 2.86 nm (Figure 2A,B)."
+DESC-0243,D003,PMC11672701,AuNPs_AS,21.84,,19.0,not_declared,"Figure 2C,D; TEM image-based size",average particle size of 21.84 ± 8.72 nm.
+DESC-0244,D003,PMC11672701,BMNPs_AS,2.05,,-8.71,not_declared,"Figure 2E,F; TEM image-based size","average particle size of 2.05 nm ± 0.76 nm (Figure 2E,F)."
+DESC-0283,D003,PMC11279758,Formula 3 EMP-ALG-PEG-NPs,135.4,0.44,-19.3,not_declared,Table 1; zeta-sizer; formula 3,3 | 11.25 | 1:1 | 135.40 ± 18.60 | 0.44 ± 0.13
+DESC-0284,D003,PMC10459396,POH-loaded NLCs,287.0,0.143,-32.5,not_declared,DLS; abstract result,NLCs prepared using hot homogenization exhibited an average diameter of 287 nm and a spherical morphology with a polydispersity index of 0.143.
+DESC-0296,D003,PMC12735866,"Poly(AA:FA), 1 wt.%",108.9,1.15,,not_declared,Table 2,Poly(AA:FA) | 108.9 ± 3.30 | 1.15
+DESC-0297,D003,PMC11794841,AuNPs,200.0,,-27.66,not_declared,text,The presence of sizes between 200 and 300 nm is attributed to the size of AuNPs aggregates as indicated in SEM images.
+DESC-0313,D003,PMC10978976,CTNp,118.7,0.36,33.1,not_declared,text,The diameter of the nanoparticle as measured by zetasizer was 118.7 nm with PDI value of 0.36 (Fig. 4a).
+DESC-0314,D003,PMC12292630,PAgNPs,84.0,0.5,-18.5,water,text,DLS analysis indicated an average hydrodynamic size of 84 nm for the PAgNPs (Figure 6) with a PDI value of 0.5
+DESC-0323,D004,PMC11604631,AP-AgNPs,27.7,,-25.4,not_declared,text,"According to TEM, AP-AgNPs are mostly spherical, and the average particle size is 27.7 nm."
+DESC-0342,D004,PMC9824025,CS-AgNps,,0.218,26.6,water,text,The polydispersity index (PDI) of 0.218
+DESC-0344,D004,PMC12799727,chitosan NPs,190.0,,51.9,not_declared,text,"average particle sizes of chitosan nanoparticles and thymol-loaded chitosan nanoparticles were approximately 190 and 220 nm,"
+DESC-0345,D004,PMC12799727,TC NPs,220.0,,42.4,not_declared,text,"average particle sizes of chitosan nanoparticles and thymol-loaded chitosan nanoparticles were approximately 190 and 220 nm,"
+DESC-0346,D004,PMC12130309,ED@AuNPs,98.27,,-28.89,not_declared,text,The measurement of an average particle size of 98.27 ± 2.8 nm
+DESC-0347,D004,PMC13327131,ChNPs,151.7,,31.4,not_declared,text,diameter was 151.7 nm
+DESC-0358,D004,PMC12388822,Fe3O4@Au APTES–carborane,689.0,0.211,-20.0,PBS,Table 4,Fe3O4@Au APTES–carborane | 689 ± 123 | 0.211 ± 0.026 | 7.8 ± 1.3 | 470.2 ± 3.2 | 100.00 ± 0.00
+DESC-0359,D004,PMC12916575,formulation A,276.8,,-19.6,not_declared,text,"The resulting data demonstrate that formulations A and B have a mean size of 276,8 and 317,5nm, respectively."
+DESC-0360,D004,PMC12916575,formulation B,317.5,,-18.6,not_declared,text,"The resulting data demonstrate that formulations A and B have a mean size of 276,8 and 317,5nm, respectively."
+DESC-0362,D004,PMC13468417,ETD-SDS-SHNPs,192.04,0.28,-20.2,not_declared,Table 5,Initial (0) | 192.04 ± 1.50 | 80.6 ± 1.42 | 20.15 ± 0.84 | 81.8 ± 1.25
+DESC-0363,D004,PMC11920177,Au-NP,30.0,0.321,,not_declared,text,"The mean size of the Au-NP was determined to be around 30 nm using this methodology, as depicted in Figure 7."
+DESC-0365,D004,PMC13091821,blank CSNPs,50.79,,22.25,not_declared,text,blank CSNPs had a hydrodynamic diameter of 50.79 nm
+DESC-0366,D004,PMC13091821,PTX-CSNPs,79.05,,32.77,not_declared,text,PTX-CSNPs exhibited a slightly larger size of 79.05 nm
+DESC-0368,D004,PMC11678683,AgNP,53.8,0.23,-25.66,not_declared,text,"The average diameter of the nanoparticles was 53.8 nm (±1.23), as shown in Figure 1B, with 0.23 of polydispersity index (PDI)"
+DESC-0371,D004,PMC10530711,MCM-41,217.0,0.31,-37.1,not_declared,Table 1,"Size, nm | 217 ± 7.3 | 360 ± 8.4 | 369 ± 3.3"
+DESC-0379,D004,PMC13042343,EuChiNPs,133.0,,23.8,not_declared,text,"The mean diameter was 133 ± 80 nm, with a SPAN value of 0.96."
+DESC-0388,D004,PMC12470215,Ag nanoparticles,162.26,,-38.49,not_declared,text,The measured hydrodynamic diameter was approximately 162.26 nm
+DESC-0390,D004,PMC13570451,AgNPs,53.0,,-42.0,not_declared,text,AgNPs displayed a smaller average particle size of 53 ± 6 nm and a SPAN value of 0.98
+DESC-0391,D004,PMC13570451,ZM-NGEL primary nanoemulsion,155.0,,-58.0,not_declared,text,The ZM‐NGEL primary nanoemulsion exhibited an average particle size of 155 ± 7 nm with a SPAN value of 0.94
+DESC-0392,D004,PMC11312205,AgNPs,50.0,,-29.1,not_declared,text,with an average size of 50 nm and a particle size range of 7.61–100 nm
+DESC-0395,D004,PMC6469023,C-TPP NPs,331.0,,49.8,not_declared,text,peak diameter size of 331 nm as measured by DLS as shown in (Figure 2A).
+DESC-0398,D004,PMC11497146,AgNPs,284.9,,-27.56,not_declared,text,"the biogenic AgNPs ranged from 200-300 nm, with an average hydrodynamic size of approximately 284.9 nm."
+DESC-0402,D004,PMC10847091,amine-functionalized SiNPs,4.0,,,not_declared,text,"The average diameter of SiNPs is calculated from the particle size distribution plot (inset, Fig. 2b) and found to be 4.0 nm."
+DESC-0418,D004,PMC8276003,PEO-PCL-P,126.3,0.231,-25.3,water,text,PEO-PCL-P had a particle size of 126.3 ± 0.8 nm with a PDI of 0.231 ± 0.022
+DESC-0419,D004,PMC8276003,PEG-DSPE-P,123.0,0.224,-29.5,water,text,PEG-DSPE-P had a particle size of 123.0 ± 5.1 nm with a PDI of 0.224 ± 0.046
+DESC-0420,D005,PMC13516719,AuNPs-NG,120.7,0.2172,-30.21,not_declared,text,"For AuNPs-NG, the average hydrodynamic diameter was determined to be 120.7 nm, with a PDI value of 0.2172"
+DESC-0421,D005,PMC13516719,AuNPs-NGN,167.3,0.4169,-33.75,not_declared,text,AuNPs-NGN exhibited a larger average hydrodynamic diameter of 167.3 nm and a significantly higher PDI of 0.4169
+DESC-0430,D005,PMC11491906,C-CS-Ap,177.0,0.16,27.7,not_declared,text,nano-complex was measured after conjugation of Ap (177 nm; PDI: 0.16)
+DESC-0440,D005,PMC11462060,Bak-GNPs,55.0,,-12.0,not_declared,text,DLS analysis revealed a hydrodynamic diameter of ⁓55 d nm (Figure 1C)
+DESC-0442,D005,PMC11024409,gold nanoparticles,39.0,0.87,-10.9,not_declared,text,the hydrodynamic diameter of the gold nanoparticles is 39.0 nanometers with a scatter index of 0.870.
+DESC-0443,D005,PMC11024409,PEG-coated gold nanoparticles,90.1,0.39,-4.5,not_declared,text,the hydrodynamic diameter of the PEG-coated nanoparticles is 90.1 nanometers with a scatter index of 0.390.
+DESC-0448,D005,PMC11236100,MℓAgNPs,33.79,,-26.7,not_declared,text,The hydrodynamic size of the silver nanoparticles was 33.79 nm.
+DESC-0455,D005,PMC9855840,CSNPs,,,-2.5,water,text,A slightly negative zeta potential value of 2–3 mV was measured for dispersions.
+DESC-0456,D005,PMC10815966,Ag-NPs,12.4,,-26.3,not_declared,text,Ag-NPs presented an average diameter size of 12.4 ± 2.9 nm
+DESC-0457,D005,PMC10815966,Ag-NPs + DA,11.5,,-36.4,not_declared,text,"11.5 ± 2.6 nm, respectively."
+DESC-0458,D005,PMC11280413,CS-NG,273.0,,43.0,not_declared,text,"CS-NG was used as a control, and CNN-CS-NG exhibited a mean size centered in 273 ± 3.5 nm and 435 ± 53.8 nm, respectively."
+DESC-0459,D005,PMC11280413,CNN-CS-NG,435.0,,5.9,not_declared,text,"CNN-CS-NG exhibited a mean size centered in 273 ± 3.5 nm and 435 ± 53.8 nm, respectively."
+DESC-0464,D005,PMC9856146,silver nanoparticle-loaded liposomes,172.1,0.381,-21.5,not_declared,text,the particle size and zeta potential of the silver nanoparticle-loaded liposomes were found to be 172.1 nm and −21.5 mV
+DESC-0468,D005,PMC10970384,ngAA-g-AcA Empty,124.7,0.38,-20.1,not_declared,Table 4,124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2
+DESC-0469,D005,PMC10970384,ngAA-g-AcA/5-FU,250.0,0.27,-33.6,not_declared,Table 4,124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2
+DESC-0470,D005,PMC10970384,ngAA-g-McA Empty,105.7,0.39,-18.8,not_declared,Table 4,124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2
+DESC-0471,D005,PMC10970384,ngAA-g-McA/5-FU,211.8,0.28,-31.8,not_declared,Table 4,124.7 ± 7.3 | 250.0 ± 8.4 | 105.7 ± 3.3 | 211.8 ± 4.2
+DESC-0472,D005,PMC13470345,Ag-Cur NPs,197.3,0.193,-27.5,not_declared,text,The hydrodynamic diameter of 197.3 ± 0.709 nm (Fig. 1C)
+DESC-0478,D005,PMC11012996,CNp,288.74,,34.51,not_declared,Table 2,Hydrodynamic diameter (nm) | 288.74 ± 2.37 | 596.60 ± 35.49
+DESC-0479,D005,PMC11012996,CNpN,596.6,,37.73,not_declared,Table 2,288.74 ± 2.37 | 596.60 ± 35.49
+DESC-0485,D005,PMC13032968,"LN-AuNPs, native pH",68.69,,-18.14,not_declared,text,Dynamic light scattering (DLS) analysis showed that the smallest average particle size occurred under native pH conditions (68.69 ± 0.99 nm)
+DESC-0498,D005,PMC13415136,NDs,211.57,,-34.77,not_declared,text,the average particle sizes of blank NDs and PEI-AuNPs were 211.57 ± 3.84 nm and 101.57 ± 3.61 nm
+DESC-0499,D005,PMC13415136,DOX-NDs,251.77,,-31.67,not_declared,text,"After DOX loading, the particle size increased to 251.77 ± 13.11 nm."
+DESC-0500,D005,PMC13415136,AuNPs-DOX-NDs,368.1,,36.37,not_declared,text,the diameter of AuNPs-DOX-NDs increased to 368.10 ± 1.42 nm
+DESC-0502,D005,PMC13209862,RES-AgNPs,46.07,,-38.1,water,text,the particle size distribution of RES-AgNPs was 46.07 ± 4.16 nm (n = 3).
+DESC-0510,D006,PMC11820061,nGF0,661.03,0.34,-0.2,water,Table 2,DLS: Dh ± SD; PDI | 661.03 ± 6.1; 0.34 | 30.44 ± 12.1; 0.54
+DESC-0511,D006,PMC11820061,nGF3,30.44,0.54,-1.6,water,Table 2,DLS: Dh ± SD; PDI | 661.03 ± 6.1; 0.34 | 30.44 ± 12.1; 0.54
+DESC-0512,D006,PMC10742787,AuNPs,44.51,,-36.3,water,text,"DLS measurement showed that the size of AuNPs was 44.51 nm, while that of the AuNP-BP was 44.58 nm."
+DESC-0513,D006,PMC10742787,AuNP-BP,44.58,,-18.2,water,text,"DLS measurement showed that the size of AuNPs was 44.51 nm, while that of the AuNP-BP was 44.58 nm."
+DESC-0514,D006,PMC12672582,FA-ChNPs,41.63,0.2,-2.45,not_declared,text,DLS analysis (Fig. 2) indicated a monodisperse population with an average hydrodynamic diameter of 41.63 ± 12.34 nm and a low PDI (0.2).
+DESC-0516,D006,PMC10451730,Au@16-mph-16,2.6,,67.8,not_declared,Table 1,1 | Au@16-mph-16 | 67.8 ± 2.6 | (2.6 ± 0.3)
+DESC-0527,D006,PMC12014109,ChNPs,85.7,,45.5,not_declared,text,DLS obtained a mean particle size of 85.7 ± 10.5 nm.
+DESC-0540,D006,PMC10875387,AgNPs,48.93,,-22.1,not_declared,Fig. 3,While the DLS analysis shows a sharp peak at 48.93 nm Fig. 3A.
+DESC-0577,D006,PMC10471652,CS NPs,200.0,,25.4,not_declared,text,"with a size frequency of about 200 nm for CS NPs (Fig. 3A, part I)"
+DESC-0578,D006,PMC10471652,ConA-CS NPs,350.0,,22.3,not_declared,text,"100–900 nm with a size frequency of about 350 nm for ConA-CS NPs (Fig. 3A, part II)"
+DESC-0579,D006,PMC12391045,C. esculenta AgNPs,90.17,0.281,-31.6,not_declared,text,the particle size of AgNPs was evaluated to be 90.17 ± 12.65 nm with a PDI value of 0.281 ± 0.07
+DESC-0583,D006,PMC9904897,optimized nanoparticles,247.0,,28.8,not_declared,text,Particle size of B. vulgaris hydroalcoholic extract-optimized nanoparticles was observed to be 247 nm (Figure 8).
+DESC-0744,D006,PMC12296188,AgNPs EETOH-D,500.0,0.258,-125.82,not_declared,Table 2,AgNPs EETOH-D | 0.258 | 500 | −125.82
+DESC-0778,D006,PMC10298864,hydrophobic AuNPs,3.5,,,not_declared,Fig. 1,The DLS data showed a slight increase in the size of AuNPs (3.5 ± 1.6 nm) when compared to the TEM size.
+DESC-0779,D006,PMC12899753,Chlorella-AgNPs,,0.206,-24.9,not_declared,text,Dynamic light scattering analysis revealed a monomodal size distribution with an average diameter between 60 and 80 nm and a PDI value of 0.206
+DESC-0782,D006,PMC12944578,AgNPs,69.46,0.182,-30.0,water,text,with an average hydrodynamic diameter of 69.46 ± 3.7 nm and a PDI of 0.182 ± 0.031.
+DESC-0792,D006,PMC13319874,SNPs,175.7,,34.2,not_declared,text,SNPs have a Dh value of 175.7 ± 23.3 nm
+DESC-0793,D006,PMC13319874,CO@SNPs,208.5,,35.0,not_declared,text,CO@SNPs have a Dh value of ca. 208.5 ± 87.5 nm
+DESC-0820,D006,PMC10056419,AgNPs sample #1,114.1,,-7.3,other,text,"114.1 ± 0.340, 141.0 ± 0.189, and 142.6 ± 0.241 nm for samples #1, 2, and 3"
+DESC-0821,D006,PMC10056419,AgNPs sample #2,141.0,,-3.8,other,text,"114.1 ± 0.340, 141.0 ± 0.189, and 142.6 ± 0.241 nm for samples #1, 2, and 3"
+DESC-0822,D006,PMC10056419,AgNPs sample #3,142.6,,9.4,other,text,"114.1 ± 0.340, 141.0 ± 0.189, and 142.6 ± 0.241 nm for samples #1, 2, and 3"
+DESC-0823,D006,PMC5609152,pyE-LN-D and pyE-LN-CO,30.0,,,not_declared,"Fig. 3A; mean size by TEM/ImageJ, not DLS","As illustrated in Fig. 3A, a mean particle size of approximately 30 nm was achieved for optimized pyE-LN-D and pyE-LN-CO particles"
+DESC-0842,D006,PMC11944368,"Lip-Rh, sonication alone",518.9,0.9528,,not_declared,Figure 1; DLS hydrodynamic size,"The hydrodynamic size of Lip-Rh prepared by sonication alone was measured to be 518.9 nm, as illustrated in Figure 1A."
+DESC-0852,D006,PMC12374651,LP,100.0,,-60.0,not_declared,Figure 1B–C; approximate size and zeta,"particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B)."
+DESC-0853,D006,PMC12374651,RGD@LP,100.0,,-60.0,not_declared,Figure 1B–C; approximate size and zeta,"particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B)."
+DESC-0854,D007,PMC12374651,LP-Y,100.0,,-60.0,not_declared,Figure 1B–C; approximate size and zeta,"particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B)."
+DESC-0855,D007,PMC12374651,RGD@LP-Y,100.0,,-60.0,not_declared,Figure 1B–C; approximate size and zeta,"particle sizes of LP, RGD@LP, LP-Y, and RGD@LP-Y were all around 100 nm (Figure 1B)."
+DESC-0863,D007,PMC9671215,"GR@LNPs, pellet fraction",172.0,1.18,0.0,PBS,Table 2 mean and Table 3 average; TEM/DLS nanovector pellet fraction,Mean | 172 ± 18 | 1.18 |
+DESC-0864,D007,PMC9671215,"hollow LNPs, supernatant",193.0,1.22,44.0,PBS,Table 2 mean and Table 3 average; hollow LNP supernatant,Mean | 172 ± 18 | 1.18 | 193 ± 23 | 1.22 | 400 ± 200 | 1.50
+DESC-0865,D007,PMC9671215,CLO#GR@liposome formulation,400.0,1.5,-42.0,PBS,Table 2 mean and Table 3 average; commercial clodronate liposomes,Mean | 172 ± 18 | 1.18 | 193 ± 23 | 1.22 | 400 ± 200 | 1.50
+DESC-0871,D007,PMC13028882,HPSL-1,189.73,0.306,-26.39,water,"Table 3; DLS, size measured in ultrapure distilled water",Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57
+DESC-0872,D007,PMC13028882,HPSL-2,233.81,0.427,-29.88,water,"Table 3; DLS, size measured in ultrapure distilled water",Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57
+DESC-0873,D007,PMC13028882,HPSL-3,406.07,0.504,-23.72,water,"Table 3; DLS, size measured in ultrapure distilled water",Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57
+DESC-0874,D007,PMC13028882,HPSL-4,319.76,0.596,-25.69,water,"Table 3; DLS, size measured in ultrapure distilled water",Particle Size Mean ± SD (nm) | 189.73 ± 14.29 | 233.81 ± 39.64 | 406.07 ± 19.33 | 319.76 ± 21.57
+DESC-0875,D007,PMC9856913,LNPs,154.0,0.163,29.0,not_declared,Text; DLS hydrodynamic size; TEM/SEM sizes separately reported as 64 and 73 nm,"In the present study, DLS analysis revealed the hydrodynamic size of 154 nm [Figure 1]."
+DESC-0877,D007,PMC12890410,Ch-Np powder,200.0,,,not_declared,"Text; approximate size from HR-SEM, not DLS",The HR-SEM analysis revealed that Ch-Np showed an irregular particle size in the range of 200 nm ( Fig. 1A ).
+DESC-0879,D007,PMC5316245,TLM-SLN after lyophilization with mannitol,193.0,0.13,-15.6,not_declared,Table 1; after mannitol lyophilization,193.0±2.64 Ab
+DESC-0880,D007,PMC5316245,TLM-NLC after lyophilization with mannitol,156.6,0.27,-23.5,not_declared,Table 1; after mannitol lyophilization,156.6±7.63 Bb
+DESC-0881,D007,PMC5316245,TLM-LNC after lyophilization with mannitol,116.6,0.22,-16.3,not_declared,Table 1; after mannitol lyophilization,116.6±7.63 Cb
+DESC-0892,D007,PMC13440150,extracellular vesicles isolated from M. gallisepticum,108.97,,,not_declared,"Text; mean diameter from SEM/AFM vesicle characterization, not DLS",The vesicles exhibited a mean diameter of 108.97 ± 19.33 nm and a mean height of 23.69 ± 8.15 nm.
+DESC-0909,D007,PMC5582160,"SOD1-ASO CaP-lipid NPs, Ca/P ratio 100:1",31.0,0.3,-4.9,not_declared,Table 1; DLS,31.0 ± 2.2
+DESC-0910,D007,PMC9066750,NeO-SLNs,337.6,0.77,-26.5,not_declared,Fig. 1; DLS mean diameter; two peaks also reported at 365.9 nm and 46.16 nm,with the calculated mean particle size of 337.6 nm (Fig. 1b).
+DESC-0913,D007,PMC9610800,F1,165.3,0.235,-26.3,not_declared,Table 2; text reports zeta as meV; table reports mV,165.3 ± 1.69
+DESC-0914,D007,PMC9610800,F2,320.4,0.312,-32.5,not_declared,Table 2; text reports zeta as meV; table reports mV,320.4 ± 1.03
+DESC-0915,D007,PMC9610800,F3,198.3,0.203,19.25,not_declared,Table 2; text reports zeta as meV; table reports mV,198.3 ± 1.98
+DESC-0916,D007,PMC9610800,F4,448.3,0.504,22.4,not_declared,Table 2; text reports zeta as meV; table reports mV,448.3 ± 1.23
+DESC-0917,D007,PMC13441918,UA-ChNPs/DE,105.2,,28.4,water,Text; reported as DLS; diluted in distilled water,DLS analysis revealed that UA-ChNPs/DE exhibited an average particle size of 105.2 nm
+DESC-0942,D007,PMC8675850,SLNs,55.43,0.37,-29.54,not_declared,"Text; DLS hydrodynamic size, PDI and zeta",The hydrodynamic size of the SLNs was about 55.43 nm with a polydispersity index of 0.37
+DESC-0954,D007,PMC12383593,NPCSs,537.0,0.258,,not_declared,Text; DLS intensity-weighted main population; secondary peak ~92 nm also reported,a main population of NPCSs (95.2%) having a hydrodynamic diameter of 537 nm and a secondary peak (4.8%) at ~92 nm
+DESC-0963,D007,PMC12608708,GPE-Ag,167.0,0.396,-26.92,water,Text; DLS hydrodynamic diameter/PDI; zeta measured at 25 °C and pH 7.4,DLS analysis of the nanoparticle suspension revealed a larger hydrodynamic diameter of approximately 167 ± 0.63 nm (SD) with a polydispersity index (PDI) of 0.396
+DESC-0965,D008,PMC5787914,pPCFN-CpG-CS-NPs,93.58,0.278,5.27,not_declared,"Text; mean diameter, size dispersity and zeta potential","The average diameter was 93.58 nm and the size distribution by volume, number and intensity mean were 69.62 nm, 36.11 and 138.6 nm, respectively"
+DESC-0967,D008,PMC8241186,blank SLNs,154.0,,,not_declared,"Text; DLS average diameters reported in order: blank, AP, PTX, then AP/PTX ratios 2/1, 1/1, 1/2","average diameters of the blank SLNs, the AP-SLNs, the PTX-SLNs and the AP/PTX-SLNs"
+DESC-0968,D008,PMC8241186,AP-SLNs,189.0,,,not_declared,"Text; DLS average diameters, order specified in quote","average diameters of the blank SLNs, the AP-SLNs, the PTX-SLNs and the AP/PTX-SLNs"
+DESC-0969,D008,PMC8241186,PTX-SLNs,225.0,,,not_declared,"Text; DLS average diameters, order specified in quote","average diameters of the blank SLNs, the AP-SLNs, the PTX-SLNs and the AP/PTX-SLNs"
+DESC-0970,D008,PMC8241186,AP/PTX-SLNs 2/1,223.0,,,not_declared,"Text; DLS average diameters, AP/PTX ratio order 2/1, 1/1, 1/2","with different AP/PTX ratios (2/1, 1/1 and 1/2)"
+DESC-0971,D008,PMC8241186,AP/PTX-SLNs 1/1,254.0,,,not_declared,"Text; DLS average diameters, AP/PTX ratio order 2/1, 1/1, 1/2","with different AP/PTX ratios (2/1, 1/1 and 1/2)"
+DESC-0972,D008,PMC8241186,AP/PTX-SLNs 1/2,249.0,,,not_declared,"Text; DLS average diameters, AP/PTX ratio order 2/1, 1/1, 1/2","with different AP/PTX ratios (2/1, 1/1 and 1/2)"
+DESC-0973,D008,PMC5756616,NLC-citral,54.12,0.224,-12.73,not_declared,Text; DLS mean size and PDI; zeta potential in Table 1,"The mean particle size and polydispersity index of NLC-citral were obtained as 54.12 ± 0.30 nm and 0.224 ± 0.005, respectively"
+DESC-0979,D008,PMC10647271,PTF-SLNs suspension,51.36,0.14,-20.37,not_declared,Text; values reported for suspension,particle sizes of PTF-SLNs suspension and freeze-dried powder were 51.36 ± 0.51 nm and 118.9 ± 0.66 nm
+DESC-0980,D008,PMC10647271,PTF-SLNs freeze-dried powder,118.9,0.21,-33.57,not_declared,Text; values reported for freeze-dried powder,particle sizes of PTF-SLNs suspension and freeze-dried powder were 51.36 ± 0.51 nm and 118.9 ± 0.66 nm
+DESC-0982,D008,PMC11377347,FBP/SPION-loaded bilosomes (FSB),523.0,0.12,36.24,not_declared,Text; experimental optimized formulation size and zeta; PDI reported separately,a notable increase in particle size to 523 nm was observed
+DESC-0983,D008,PMC11675025,dodecanethiol-stabilized AuNPs,3.5,,-14.07,not_declared,Text; DLS hydrodynamic diameter and zeta; TEM core size omitted,their hydrodynamic diameter was measured to be 3.5 ± 1.6 nm using DLS
+DESC-0987,D008,PMC10002596,Fe3O4,151.0,,5.0,water,Table 4; DLS Z-average size and zeta at pH 7.4; aqueous suspension at 50 mg/mL,Fe3O4 | 2.3 ± 0.1 | 2.0 ± 0.1 (2.1) b | 15 ± 1 | 5 ± 1
+DESC-0988,D008,PMC10002596,Fe3O4@PEI,97.0,,53.0,water,Table 4; DLS Z-average size and zeta at pH 7.4; aqueous suspension at 50 mg/mL,Fe3O4@PEI | 8.5 ± 0.2 | 8.5 ± 0.2 (8.3) | 55 ± 1 | 53 ± 1
+DESC-0989,D008,PMC10002596,Fe3O4@PSS,118.0,,-52.0,water,Table 4; DLS Z-average size and zeta at pH 7.4; aqueous suspension at 50 mg/mL,Fe3O4@PSS | 3.4 ± 0.1 | 10.3 ± 0.1 (10.1) | −47 ± 1 | −52 ± 1
+DESC-0990,D008,PMC10002596,Fe3O4@Dex,130.0,,-9.0,water,Table 4; DLS Z-average size and zeta at pH 7.4; aqueous suspension at 50 mg/mL,Fe3O4@Dex | <1 | 7.8 ± 0.2 (7.8) | 3 ± 1 | −9 ± 1
+DESC-0991,D008,PMC10002596,Fe3O4@Carb,290.0,,-22.0,water,Table 4; DLS Z-average size and zeta at pH 7.4; aqueous suspension at 50 mg/mL,Fe3O4@Carb | ~1 | ~1 (~1) | −18 ± 1 | −22 ± 1
+DESC-1070,D008,PMC9319009,BL,95.61,,-13.58,not_declared,text,particle size of blank liposome (for short: BL) distributed in 95.61 ± 5.83 nm
+DESC-1071,D008,PMC9319009,LI,98.26,,-1.94,not_declared,text,into liposomes (for short: LI) with size of 98.26 ± 4.76 nm
+DESC-1179,D008,PMC7145308,"NLC-EA1, day 1",195.7,0.36,,not_declared,Table 3,1 | 116.5 ± 0.60.37 | 188.3 ± 1.20.31 | 195.7 ± 2.10.36 | 189.6 ± 3.90.33
+DESC-1210,D008,PMC10056764,AgNPs,33.27,0.205,-33.39,not_declared,text,average size of 33.27 nm and a polydispersity index (PDI) of 0.205
+DESC-1211,D008,PMC10056764,AgNPs in colloidal solution,33.27,0.205,-33.39,not_declared,text,The nanoparticles in the DLS result (Inset of Figure 2A) had an average size of 33.27 nm and a polydispersity index (PDI) of 0.205
+DESC-1221,D008,PMC9849584,Ng liposomes,136.9,,-59.2,not_declared,text,The mean diameter of the freeze-dried Ng liposomes was 136.9 nm (±16.4 nm)
+DESC-1231,D008,PMC9737214,0.5% CCL,121.67,0.25,-10.47,not_declared,text,The average diameter of the CCL in the 0.5% CCL was 121.67 ± 2.23 nm
+DESC-1293,D008,PMC9133087,RC@AgNPs,183.76,,-22.3,water,text,The related zeta potential of RC@AgNPs was found to be −22.3 mV
+DESC-1330,D009,PMC10255378,"chitosan-PHGPB, 1 L/min",500.53,,-27.6,not_declared,text,A lower-sized distribution was obtained from the chitosan-PHGPB synthesized using a flow rate of 1 L/min with an average size of 500.53 nm.
+DESC-1334,D009,PMC5459428,2DG-AuNP,21.51,,-19.1,not_declared,text,"the 2DG-AuNps show urchin shape of the gold nanoparticles under TEM with a diameter of 21.51 nm, as observed by particle size analysis using DLS."
+DESC-1335,D009,PMC5603882,AgNPs,64.08,,-2.27,not_declared,text,"The intensity mean diameters of samples are 64.08, 51.72 and 190.4 nm for AgNPs, PKAg and IKAg, respectively."
+DESC-1336,D009,PMC5603882,PKAg,51.72,,-18.5,not_declared,text,"zeta potential values are equal to -18.5, -12 and -2.27 mV"
+DESC-1338,D009,PMC11243421,vanillic acid nanocomposite,338.4,,13.5,not_declared,text,The particle size and size distribution of the nanocomposite were evaluated using a Zetasizer and were found to be 338.4 ± 94.73 nm
+DESC-1339,D009,PMC9633124,CsNPs3,150.8,,20.47,not_declared,text,the average hydrodynamic size of CsNPs3 and CsNPs5 are about 150.8 and 151.3 nm
+DESC-1340,D009,PMC9633124,CsNPs5,151.3,,38.83,not_declared,text,the average hydrodynamic size of CsNPs3 and CsNPs5 are about 150.8 and 151.3 nm
+DESC-1352,D009,PMC6770361,PLGA-NPs,119.6,1.412,,not_declared,text,average size of biosynthesized PLGA-NPs was 119.6 nm (PDI index: 1.412)
+DESC-1354,D009,PMC8578548,Ds-AgNPs,21.9,,-32.6,not_declared,text,the size distribution of biosynthesized Ds-AgNPs was between 15 and 40 nm with an average size of 21.9 nm
+DESC-1355,D009,PMC6837188,AST-PLGA NP,154.4,0.16,-22.07,not_declared,text,"The mean particle size of optimized AST-PLGA NP was 154.4 ± 0.35 nm, and the PDI was 0.16 ± 0.032"
+DESC-1356,D009,PMC6837188,PLGA NP,147.5,0.256,-25.93,not_declared,text,the PLGA NP without astaxanthin using the same method was 147.5 ± 1.48 nm and 0.256 ± 0.012
+DESC-1357,D009,PMC9504860,M-Vit.E-CD-CS NPs,178.0,0.18,-22.4,water,text,the size of M-Vit.E-CD-CS NPs is 178 ± 1.5 nm
+DESC-1358,D009,PMC8184758,Au/rGO NCs,24.69,,-7.95,not_declared,text,"average hydrodynamic diameters were 6.9 and 24.69 nm, respectively"
+DESC-1368,D009,PMC6831671,AuNPs,500.0,,,not_declared,text,the difference between the average diameter obtained by TEM (approximately 14 nm) and DLS (approximately 500 nm)
+DESC-1381,D009,PMC9785770,CSNPs,156.4,0.489,68.0,not_declared,text,"For CSNPs and CSNP–SSL, hydrodynamic diameters were 156.4 ± 12.7 nm and 132.8 ± 17.4 nm"
+DESC-1382,D009,PMC9785770,CSNP–SSL,132.8,0.236,37.0,not_declared,text,PDI values were 0.489 ± 0.011 and 0.236 ± 0.021
+DESC-1385,D009,PMC8876769,KS@GNPs,121.7,,-33.7,not_declared,text,the average particle size distribution of KS@GNPs in the solution was determined 121.7 nm
+DESC-1386,D009,PMC9104231,optimized bergenin nanoformulation,86.17,0.3,-32.33,not_declared,text,The mean particle size for optimized nanoformulation was observed to be 86.17 ± 2.1 nm with a PDI of 0.30 ± 0.03.
+DESC-1390,D009,PMC6071138,PCCM1,250.2,0.153,12.8,not_declared,Table 1,250.2 ± 21.5 * | 0.153
+DESC-1391,D009,PMC6071138,PCCM2,233.1,0.216,21.2,not_declared,Table 1,233.1 ± 19.2 * | 0.216
+DESC-1392,D009,PMC6071138,PCCM3,183.1,0.225,34.0,not_declared,Table 1,183.1 ± 15.6 | 0.225
+DESC-1393,D009,PMC13433528,Fe2O3 nanoparticles,,0.241,-28.4,not_declared,text,Zeta potential: −28.4 ± 1.6 mV
+DESC-1394,D009,PMC6032256,blank micelles,35.0,0.105,19.0,water,text,"blank micelles (35 nm, PDI of 0.105)"
+DESC-1395,D009,PMC6032256,PTX-loaded micelles,142.0,0.186,16.0,water,text,the mean particle size of PTX-loaded micelles was 142 nm with polydispersity index (PDI) of 0.186
+DESC-1396,D009,PMC6032256,blank TS-GC micelles,35.0,0.105,19.0,not_declared,text,"blank micelles (35 nm, PDI of 0.105)"
+DESC-1397,D010,PMC6032256,PTX-loaded TS-GC micelles,142.0,0.186,16.0,not_declared,text,PTX-loaded micelles was 142 nm with polydispersity index (PDI) of 0.186
+DESC-1398,D010,PMC6213782,bare FA-CS-DA micelles,78.0,0.232,29.1,not_declared,text,"bare ones (78 nm, PDI of 0.232)"
+DESC-1399,D010,PMC6213782,PTX-loaded FA-CS-DA micelles,126.0,0.256,19.3,not_declared,text,"The mean particle size of PTX-loaded FA-CS-DA micelles determined by the DLS method was 126 nm, with a polydispersity index (PDI) of 0.256"
+DESC-1401,D010,PMC5796282,blank PLGA-NPs,222.2,0.03,-8.35,not_declared,text,"blank PLGA-NPs had a narrow size distribution (by volume) of 97.8%, with 0.030 PdI and a 222.2 nm average particle size"
+DESC-1402,D010,PMC5796282,NAC-PLGA-NPs,226.9,0.004,-7.41,not_declared,text,"NAC-PLGA-NPs also had a narrow size distribution (by volume) of 97.7%, with 0.004 PdI and a 226.9 nm average particle size"
+DESC-1405,D010,PMC5618380,G4-functionalized UCNPs,180.0,,31.7,water,text,the hydrodynamic dimension of the G4-functionalized UCNPs determined by dynamic light scattering is approximately 180 nm
+DESC-1418,D010,PMC6154345,Zn:HAp nanogel,27.0,,-28.88,water,text,the zeta potential value of the Zn:HAp nanogel coating solution was −28.88 mV
+DESC-1429,D010,PMC9504229,Au nanoparticles on Au/TiO2-NT,3.0,,,not_declared,text,the mean size of Au nanoparticles remains constant at around 3 nm
+DESC-1441,D010,PMC7890493,SPCIONPs,22.0,,27.1,not_declared,text,the average particle size of a single particle was about 22 nm
+DESC-1447,D010,PMC8537834,G4K NPs,333.4,0.286,66.1,not_declared,Table 5,Z-Ave 1 (nm) | 333.4 ± 24.6 | 112.1 ± 10.7
+DESC-1448,D010,PMC8537834,BBB4-G4K NPs,112.1,0.289,28.9,not_declared,Table 5,Z-Ave 1 (nm) | 333.4 ± 24.6 | 112.1 ± 10.7
+DESC-1452,D010,PMC8228277,empty CSNPs,173.9,0.25,36.3,not_declared,text,"Empty CSNPs showed the lowest mean particle size (Z-average diameter, 173.9 nm)."
+DESC-1460,D010,PMC13352959,TRAIL-loaded PEG-aptamer PLGA nanoparticles,473.4,0.218,-6.3,not_declared,text,"particle size was determined to be 473.4 ± 18.36, the polydispersity index was 0.218 ± 0.061"
+DESC-1474,D010,PMC10878759,AgNPs,3.12,0.2,-47.3,not_declared,Table 1,AgNPs | 3.12 | 2.32–5.61 | 0.200 | −47.3 | 0.314
+DESC-1497,D010,PMC6255963,CNP,14.0,,9.01,5 mM saline,text,CNP-A and CNP-L had a zeta potential of ±11.2 and 12.2 mV in 5 mM saline compared with ±9.01 for plain CNP.
+DESC-1498,D010,PMC6255963,CNP-A,17.0,,11.2,5 mM saline,text,CNP-A and CNP-L had a zeta potential of ±11.2 and 12.2 mV in 5 mM saline compared with ±9.01 for plain CNP.
+DESC-1499,D010,PMC6255963,CNP-L,29.0,,12.2,5 mM saline,text,CNP-A and CNP-L had a zeta potential of ±11.2 and 12.2 mV in 5 mM saline compared with ±9.01 for plain CNP.
+DESC-1519,D010,PMC9654512,WCSNPs,477.0,0.241,43.9,not_declared,text,The average hydrodynamic diameter of chitosan nanoparticles measured by DLS was found to be 477 nm with a polydispersity index (PDI) of 0.241.
+DESC-1536,D010,PMC8541160,mino/AgNPs,5.5,,-23.4,not_declared,text,The average particle size of mino/AgNPs calculated was 5.5 nm.
+DESC-1545,D010,PMC6801874,CNP°,80.89,0.26,,not_declared,caption,DLS (80.89 ± 5.16 nm)
+DESC-1582,D010,PMC6520775,F-AuNPs,53.0,,,not_declared,DLS,The results of FE-TEM and DLS showed that F-AuNPs were spherical in shape and ranged in size from 15 to 119 nm; the average size of the particles was ~53 nm
+DESC-1599,D010,PMC8951774,blank NPs,182.4,0.071,-10.5,not_declared,DLS / text,"The DLS data showed that the mean particle size of the blank NPs was 182.4 ± 0.499 nm, and the PdI value was 0.071 ± 0.006 (Figure 1a)."
+DESC-1600,D010,PMC8951774,LNEO-NPs,211.4,0.068,-7.87,not_declared,DLS / text,"The mean particle size of the LNEO-NPs was 211.4 ± 4.031 nm, and their PdI was 0.068 ± 0.016 (Figure 2a)."
+DESC-1601,D010,PMC10384528,empty PLGA NPs,133.0,,,not_declared,DLS / Table 1,"Encapsulation efficiency, average particle size, ζ potential, and polydispersity index of empty PLGA NPs and PTX-loaded PLGA NPs"
+DESC-1602,D010,PMC10384528,PTX-loaded PLGA NPs,144.0,,,not_declared,DLS / Table 1,"Encapsulation efficiency, average particle size, ζ potential, and polydispersity index of empty PLGA NPs and PTX-loaded PLGA NPs"
+DESC-1605,D011,PMC12102942,mSiO2 nanoparticles,95.0,0.412,18.22,aqueous dispersion,DLS / text,DLS analysis revealed that conjugation of PASP increased the hydrodynamic size of silica nanoparticles from 95 ± 7 nm (PDI 0.412) to 120 ± 9 nm (PDI 0.521).
+DESC-1606,D011,PMC12102942,PASP-mSiO2 nanoparticles,120.0,0.521,10.11,aqueous dispersion,DLS / text,DLS analysis revealed that conjugation of PASP increased the hydrodynamic size of silica nanoparticles from 95 ± 7 nm (PDI 0.412) to 120 ± 9 nm (PDI 0.521).
+DESC-1607,D011,PMC9441807,Rhodiola rosea AgNPs,67.5,,-68.38,not_declared,PCCS/Table 2 and text,"In Figure 4, the average particle size of AgNP was approximately X90 = 67.5 nm, SMD = 57.7 nm, and VMD = 58.4 nm."
+DESC-1611,D011,PMC7560243,chitosan-AuNPs 0.4 mM,320.0,1.4,,not_declared,Table 1,0.4 | 209 | 320 | 1.4
+DESC-1612,D011,PMC7560243,chitosan-AuNPs 0.7 mM,246.0,1.4,,not_declared,Table 1,0.7 | 160 | 246 | 1.4
+DESC-1613,D011,PMC7560243,chitosan-AuNPs 1.0 mM,203.0,1.5,,not_declared,Table 1,1.0 | 114 | 203 | 1.5
+DESC-1614,D011,PMC7560243,chitosan-AuNPs 1.3 mM,187.0,1.6,,not_declared,Table 1,1.3 | 90 | 187 | 1.6
+DESC-1640,D011,PMC9463142,biosynthesized Ag NPs,4.7,,,not_declared,text,ranging in size from 1 to 9 nm and with an average size of 4.7 nm
+DESC-1718,D011,PMC8398533,sMNPs B1,291.0,0.138,3.52,not_declared,Table 2,sMNPs | B1 | 291 ± 1.51 | 0.138 ± 0.005 | 03.52 ± 1.74
+DESC-1760,D011,PMC7932996,AI-AgNPs,33.2,,,not_declared,text,Results from SEM (Figure 1D) and TEM (Figure 1E) images substantiate AI-AgNPs were of the particle diameter 33.20±3.79 nm and spherical in shape.
+DESC-1774,D011,PMC7917072,L-Ag NPs,5.2,,,not_declared,text,The average diameter of L-Ag NPs measured by TEM was 5.2 ± 1.2 nm
+DESC-1802,D011,PMC6459462,nanospheres without chitosan,28.4,,-12.73,not_declared,text,"Without chitosan capping, the hydrodynamic sizes of nanospheres and nanostars were 28.4 and 97.8 nm, respectively."
+DESC-1803,D011,PMC6459462,nanostars without chitosan,97.8,,-42.46,not_declared,text,"Without chitosan capping, the hydrodynamic sizes of nanospheres and nanostars were 28.4 and 97.8 nm, respectively."
+DESC-1804,D011,PMC6459462,nanospheres with chitosan,190.7,,42.28,not_declared,text,"With chitosan capping, the hydrodynamic size was increased to 190.7 nm for nanospheres and to 123.9 nm for nanostars."
+DESC-1805,D011,PMC6459462,nanostars with chitosan,123.9,,47.44,not_declared,text,"With chitosan capping, the hydrodynamic size was increased to 190.7 nm for nanospheres and to 123.9 nm for nanostars."
+DESC-1812,D011,PMC7023053,taurine-capped AuNPs λmax515 nm,73.09,0.38,-32.5,not_declared,text,average hydrodynamic radius and PDI for the nanoparticles absorbing at λmax515 and λmax545 nm were 73.09 nm (PDI: 0.38) and 106.8 nm (PDI: 0.16)
+DESC-1813,D011,PMC7023053,taurine-capped AuNPs λmax545 nm,106.8,0.16,-40.5,not_declared,text,average hydrodynamic radius and PDI for the nanoparticles absorbing at λmax515 and λmax545 nm were 73.09 nm (PDI: 0.38) and 106.8 nm (PDI: 0.16)
+DESC-1815,D011,PMC8622407,GNPs,51.59,,-16.6,not_declared,text,"Z-average size by DLS for GNPs and CGNPs was estimated as 51.59 and 95.07 nm, respectively (Figure 3)."
+DESC-1816,D011,PMC8622407,CGNPs,95.07,,-25.7,not_declared,text,"Z-average size by DLS for GNPs and CGNPs was estimated as 51.59 and 95.07 nm, respectively (Figure 3)."
+DESC-1817,D011,PMC8073043,BSA-Silver NPs,121.2,0.095,-31.3,not_declared,text,the mean hydrodynamic size of the NPs was 121.2 (±43) nm (PDI: 0.095)
+DESC-1820,D011,PMC8150796,AgNPs,86.72,,-28.6,not_declared,text,The hydrodynamic diameter of AgNPs was 86.72 nm and the polydispersity index (PdI) was low
+DESC-1824,D011,PMC8706101,F-AgNPs,47.0,0.447,-20.03,not_declared,text,The hydrodynamic diameter of F-AgNPs was 47 nm (Figure 1C) with a particle distribution index of 0.447
+DESC-1825,D011,PMC8623640,AgNPs,138.0,0.46,-20.4,water,text,Particle size was found to be 138.0 ± 2.1 nm with a relatively monodispersed distribution (polydispersity index: 0.460 ± 0.3).
+DESC-1863,D011,PMC9856065,MPnS,66.0,,-27.0,not_declared,text,The average diameter of MPnS was further verified by DLS and was found to be 66 ± 2 nm.
+DESC-1864,D011,PMC9856065,MPnS-mAb,72.0,,-15.0,not_declared,text,The hydrodynamic diameter of the MPnS-mAb resulted in an expected increase from 66 ± 2 nm to 72 ± 1 nm
+DESC-1899,D012,PMC11085059,ginger AgNPs,81.6,0.51,-17.1,not_declared,text,average diameter of 81.6 nm and a PDI of 0.510
+DESC-1905,D012,PMC9267809,“cold” AuNPs,37.9,,-39.4,other,text,"13.1 nm ± 2.1 vs. 37.9 nm ± 5.7, respectively"
+DESC-1906,D012,PMC9267809,“hot” AuNPs,13.1,,-35.8,other,text,"13.1 nm ± 2.1 vs. 37.9 nm ± 5.7, respectively"
+DESC-1907,D012,PMC9267809,“cold” AuNPs with protein corona,109.3,,-37.7,other,text,"37.9 nm vs. 109.3 nm and 13.1 nm vs. 86.7 nm, respectively"
+DESC-1908,D012,PMC9267809,“hot” AuNPs with protein corona,86.7,,-30.5,other,text,"37.9 nm vs. 109.3 nm and 13.1 nm vs. 86.7 nm, respectively"
+DESC-1924,D012,PMC13458786,Ag⁰ nanoparticles,3.3,,,not_declared,text,"with most between 3 and 4 nm, and a mean size of about 3.3 nm"
+DESC-1926,D012,PMC13184259,BLA-A,57.6,,-28.9,not_declared,text,for BLA-A (Fig. 2e) and BLU-A (Fig. 2f) was 57.6 ± 1.37 nm and 78.6 ± 0.16 nm
+DESC-1927,D012,PMC13184259,BLU-A,78.6,,-25.9,not_declared,text,for BLA-A (Fig. 2e) and BLU-A (Fig. 2f) was 57.6 ± 1.37 nm and 78.6 ± 0.16 nm
+DESC-1932,D012,PMC6761153,B-GNPs,16.0,,-10.1,not_declared,text,their average sizes were estimated to be ~16 nm (Fig. 2C)
+DESC-1965,D012,PMC6023009,AgNPs + AMP,4.69,,,not_declared,text,with a hydrodynamic diameter of 4.69 nm ± 0.51 nm
+DESC-1997,D012,PMC10441246,AgNPs,15.1,,-30.1,not_declared,text; mean size from TEM; zeta potential from text,and a mean size of 15.1 ± 8.2 nm.
+DESC-1999,D012,PMC10381808,Bl.AgNPs,83.54,,-23.4,not_declared,Table 1; DLS,Hydrodynamic size (nm) | 83.54 | 98.91 | 108.1
+DESC-2000,D012,PMC10381808,Hc.AgNPs,98.91,,-18.8,not_declared,Table 1; DLS,Hydrodynamic size (nm) | 83.54 | 98.91 | 108.1
+DESC-2001,D012,PMC10381808,Sc.AgNPs,108.1,,-31.3,not_declared,Table 1; DLS,Hydrodynamic size (nm) | 83.54 | 98.91 | 108.1
+DESC-2004,D012,PMC10179898,AgNPs,31.0,0.21,-33.0,not_declared,text; DLS,DLS provided a hydrodynamic diameter of 31 ± 3 nm.
+DESC-2009,D012,PMC10434256,G-AgNPs,120.0,,-0.4,not_declared,text; DLS,"The particle size distribution indicates that G-AgNPs were monodispersed in nature, with an average diameter of ~120 nm."
+DESC-2010,D012,PMC10221215,HA-QtN#AgNPs,72.11,,-42.33,water,text; DLS,"According to the DLS data, the hydrodynamic diameter of the HA-QtN#AgNPs was, on average, 72.11± 1.31 nm."
+DESC-2011,D012,PMC10221215,PF/HA-QtN#AgNPs,131.22,,-28.9,water,text; DLS,The PF/HA-QtN#AgNPs had an average hydrodynamic diameter of 131.22 ± 3.51 nm.
+DESC-2013,D012,PMC8519957,NH2-MSN,80.0,,16.2,water,text; DLS hydrodynamic size,"Using a DLS, the sizes of NH2-MSN and double folate/TAT modified chitosan-coated NH2-MSN-siRNA were determined to be approximately 80 and 110 nm, respectively."
+DESC-2014,D012,PMC8519957,NH2-MSN-siRNA-chitosan-PEG(3000)-folate/TAT,110.0,,1.7,water,text; DLS hydrodynamic size,"Using a DLS, the sizes of NH2-MSN and double folate/TAT modified chitosan-coated NH2-MSN-siRNA were determined to be approximately 80 and 110 nm, respectively."
+DESC-2022,D012,PMC8016642,BSA-AuNCs,2.0,,,not_declared,text; particle size analyzer,"The average particle size of the BSA‐AuNCs was approximately 2 nm, as shown in Figure 1C."
+DESC-2023,D012,PMC8016642,MSN@AuNCs,100.0,,-10.8,not_declared,text; nanoparticle analyser,The particle size of the MSN@AuNCs was similar to that of MSNs at approximately 100 nm
+DESC-2027,D012,PMC8068147,RS1N,12.0,,,not_declared,"Table 2; average diameter by TEM, not DLS",RS1N | 200 | 0.784 | 11.51 | 12
+DESC-2028,D012,PMC8068147,RS2N,11.0,,,not_declared,"Table 2; average diameter by TEM, not DLS",RS2N | 200 | 0.957 | 9.43 | 11
+DESC-2029,D012,PMC8068147,RS3N,16.0,,,not_declared,"Table 2; average diameter by TEM, not DLS",RS3N | 200 | 0.525 | 17.16 | 16
+DESC-2030,D013,PMC8068147,RS4N,15.0,,,not_declared,"Table 2; average diameter by TEM, not DLS",RS4N | 200 | 0.607 | 14.87 | 15
+DESC-2041,D013,PMC6119933,AuNPs@Citrate,18.8,,-43.6,not_declared,text; DLS; reported potential unit mV/cm,DLS experiments indicated that the AuNPs@Citrate measured 18.80 nm in Z-average
+DESC-2061,D013,PMC9785464,AuNSs,55.5,,-61.0,not_declared,text; STEM average size,AuNSs exhibit a spheroidal shape with an average size of 55.5 ± 8.2 nm
+DESC-2062,D013,PMC9785464,AuNFs,89.6,,-58.1,not_declared,text; STEM average size,AuNFs present a flower/urchin-like shape with an average size of 89.6 ± 15.2 nm
+DESC-2067,D013,PMC6415400,MSNs,120.0,,-14.8,not_declared,text; DLS,The average diameter of MSNs is 120 nm
+DESC-2068,D013,PMC6415400,MSNs@lip-1,162.0,,8.6,not_declared,text; DLS,it increases to 162 nm (MSNs@lip-1)
+DESC-2069,D013,PMC6415400,MSNs@lip-2,384.0,,13.3,not_declared,text; DLS,and 384 nm (MSNs@lip-2)
+DESC-2071,D013,PMC8875691,C-AuNPs,21.0,,,not_declared,"text; TEM size, no DLS size stated",The average size of C-AuNPs determined via TEM analysis was found to be 21 nm
+DESC-2073,D013,PMC6781278,MSN,95.64,0.222,-55.2,water,Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted,"the average size was 95.64 nm, maximum content of particles at 72.42 nm was 15.6%, and polydispersity (PDI) was 0.222."
+DESC-2074,D013,PMC6781278,MSN-PEI,98.38,0.241,-28.07,water,Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted,"the average size was 98.38 nm, maximum content of particles at 94.15 nm was 18.1%, and PDI was 0.241."
+DESC-2075,D013,PMC6781278,MSN-PEI-FA,97.32,0.234,-42.85,water,Zetasizer; average size and PDI result; anomalous reported zeta unit eV omitted,"The maximum content of particles at 92.29 nm was 15.9%, average size was 97.32 nm, and PDI was 0.234."
+DESC-2076,D013,PMC6720288,GNP 800,23.0,,-0.1,other,text; DLS; medium 10 mM KNO3,23 ± 4 nm
+DESC-2077,D013,PMC6720288,GNP 2000,35.0,,-0.2,other,text; DLS; medium 10 mM KNO3,35 ± 2 nm
+DESC-2078,D013,PMC6720288,GNP 6000,53.0,,-1.8,other,text; DLS; medium 10 mM KNO3,53 ± 2 nm
+DESC-2085,D013,PMC13209944,WA-HA NPs,94.0,0.2006,-40.0,not_declared,text; DLS,The hydrodynamic diameter of the WA-HA NPs was measured at 94 nm with a polydispersity index (PdI) of 0.2006 (Figure 2A).
+DESC-2086,D013,PMC13209944,WA-Ag NPs,111.6,0.224,-39.2,not_declared,text; DLS,"In comparison, the WA-Ag NPs exhibited a larger hydrodynamic size of 111.6 nm and a PdI of 0.224 (Figure 2B)."
+DESC-2089,D013,PMC8837818,IONPs,34.0,,-22.0,not_declared,Figure 3; DLS,Hydrodynamic diameter of IONPs (34 nm)
+DESC-2090,D013,PMC8837818,IONPs/C,51.0,0.24,22.0,not_declared,Figure 3; DLS,IONPs/C (51 nm) showed increase in size with addition of chitosan polymer
+DESC-2096,D013,PMC6825627,MNP,124.2,2.313,-2.1,water,Table 1; DLS in Milli-Q water,MNP | 124.2 ± 9.2 | − 2.1 | 2.313
+DESC-2097,D013,PMC6825627,OAMNPPF127FA,94.2,1.011,-25.5,water,Table 1; DLS in Milli-Q water,OAMNPPF127FA | 94.2 ± 6.3 | − 25.5 | 1.011
+DESC-2103,D013,PMC12146780,SPIONs,182.1,0.2,21.6,not_declared,DLS results; zeta potential appears in a separate sentence,The SPIONs exhibit a hydrodynamic diameter of 182.1 nm and a polydispersity index of 0.2
+DESC-2118,D013,PMC8009513,SPION3@OA,10.9,,,other,DLS table value; reported dispersion ±3.0 nm; associated TEM mean 6.1 ±1.3 nm not entered as DLS,a hydrodynamic diameter of 10.9. ± 3.0 nm
+DESC-2121,D013,PMC8840600,V-GNPs,24.0,,-18.0,not_declared,text; TEM mean size and zeta potential,"The TEM micrographs (Figure 3) depicts that the synthesized V-GNPs were spherical in shape, homogeneous, and monodispersed with an average size of ~24 nm."
+DESC-2122,D013,PMC8840600,V-GNPs,77.0,,,not_declared,DLS hydrodynamic diameter; TEM size excluded,The size of the V-GNPs measured by DLS was found to be 77 nm (Figure S1A).
+DESC-2127,D013,PMC11054826,MCM-41,300.0,,,not_declared,text; SEM size range upper bound,variable sizes in the range of 200–400 nm
+DESC-2128,D014,PMC11054826,MCM-48,200.0,,,not_declared,text; SEM size range midpoint,agglomerated silica particles with variable sizes between 100 and 300 nm
+DESC-2130,D014,PMC11508353,GNR,85.7,,45.0,not_declared,text; hydrodynamic size before MPS coating,The average hydrodynamic sizes of GNR before and after MPS coating were 85.7 (±4.8) nm and 87.1 (±4.1) nm
+DESC-2132,D014,PMC11508353,GNR-BSA,118.9,,14.3,not_declared,text; hydrodynamic size and zeta potential,The hydrodynamic size of GNR-BSA was 118.9 (±6.3) nm
+DESC-2155,D014,PMC9269196,developed Au-NP,82.5,0.323,34.8,not_declared,DLS size and PDI; zeta reported separately,The particle size was found to be 82.5 nm with a PDI value of 0.323.
+DESC-2156,D014,PMC7600797,AgNPs,26.0,,-28.0,not_declared,text; TEM average size and zeta potential,confirmed the average size of AgNPs as 26 ± 2 nm
+DESC-2160,D014,PMC7760612,"GNPs, no PVA",8.9,,-44.1,water,DLS number-weighted mean diameter; text/table report 8.9 ± 1.9 nm,hydrodynamic diameter of the system with PVA was 12.0 ± 2.8 nm compared to the 8.9 ± 1.9 nm for the system without PVA
+DESC-2163,D014,PMC7309969,MSNs,188.6,0.267,-18.4,deionized water,text; laser particle-size analyzer and zeta potential,average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)
+DESC-2165,D014,PMC7309969,MSNs,188.6,0.267,-18.4,water,ZetaSizer/particle size analyzer; DLS values from Figure 2C,average particle sizes of MSNs and MSNs-NH2-FA-RGD were 188.6 nm (PDI= 0.267) and 204.1 nm (PDI= 0.269)
+DESC-2167,D014,PMC7369735,SiO2,108.0,,,not_declared,text; TEM mean diameter,The average diameter of SiO2 measured from TEM images is 108 ± 6 nm
+DESC-2187,D014,PMC8381041,biosynthesized SiO2NPs,89.0,,,not_declared,DLS average hydrodynamic size; separate TEM caption reports 6.49 nm and is excluded,Particle size distribution analyzed by DLS and the histogram showed an average particle size (based on intensity distribution) at about 89 nm (Fig. 3).
+DESC-2188,D014,PMC8538065,AuNS,139.0,0.396,-30.6,not_declared,text; DLS size distribution,The DLS data analysis shows the size distribution of the star-shaped particles to have been around 139 ± 27 nm
+DESC-2193,D014,PMC8300822,strawberry AgNPs,5.89,,-39.4,not_declared,text; TEM size and zeta potential,"mean sizes 5.89 nm and 5.77 nm for strawberry and ginger, respectively"
+DESC-2194,D014,PMC8300822,ginger AgNPs,5.77,,-42.6,not_declared,text; TEM size and zeta potential,"mean sizes 5.89 nm and 5.77 nm for strawberry and ginger, respectively"
+DESC-2198,D014,PMC9460005,SiO2-Hep_3,90.0,,-19.0,not_declared,text; DLS mean hydrodynamic diameter,DLS analysis showed a mean hydrodynamic diameter of about 90 nm in the case of the SiO2-Hep_3 sample
+DESC-2199,D014,PMC9460005,SiO2-Hep_1,100.0,,20.0,not_declared,DLS approximate mean hydrodynamic diameter,"Much larger particle sizes, of about 100 nm, were observed for both SiO2-Hep_1 and SiO2-Hep_5 NPs."
+DESC-2200,D014,PMC9460005,SiO2-Hep_5,100.0,,-33.0,not_declared,DLS approximate mean hydrodynamic diameter,"Much larger particle sizes, of about 100 nm, were observed for both SiO2-Hep_1 and SiO2-Hep_5 NPs."
+DESC-2207,D014,PMC8512180,D-SPIONs,20.0,,-0.6,water,text; TEM average size,was approximately 20 ± 3 nm
+DESC-2209,D014,PMC8145217,MgIONPs@TMAH,167.0,,-12.0,not_declared,text; DLS mean hydrodynamic size,The mean hydrodynamic size of MgIONPs@TMAH obtained by DLS was 167.0 ± 0.8 nm
+DESC-2211,D014,PMC10254252,AuNPs,32.0,,,not_declared,DLS hydrodynamic diameter; ±3 nm reported; TEM core size excluded,The measurement of the hydrodynamic diameter obtained from the Zetasizer Nano was 32 ± 3 nm.
+DESC-2212,D014,PMC10254252,2-TU-AuNPs,45.0,,-14.0,not_declared,DLS hydrodynamic diameter after functionalization; ±5 nm reported,"After functionalization, Zetasizer results showed an increase in the hydrodynamic diameter, shifting from 32 ± 3 nm to 45 ± 5 nm (Figure 5a)"
+DESC-2228,D014,PMC9658858,AgNPs,33.5,,-14.5,not_declared,text; average size and zeta potential,average size of the AgNPs from 33.5 nm to 98.32 nm
+DESC-2229,D014,PMC9658858,CIP-AgNPs,98.32,,15.8,not_declared,text; average size and zeta potential,average size of the AgNPs from 33.5 nm to 98.32 nm
+DESC-2239,D014,PMC13610103,DG-COS NPs,110.3,,25.3,not_declared,text; DLS hydrated particle size,hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm
+DESC-2240,D014,PMC13610103,HNK/DG-COS NPs,198.5,,34.6,not_declared,text; DLS hydrated particle size,hydrated particle sizes of DG-COS NPs and HNK/DG-COS NPs were 110.3 ± 2.4 nm and 198.5 ± 3.3 nm
+DESC-2251,D014,PMC13325854,mRNA-LNP formulation,60.0,,,storage buffers,text; DLS and cryo-TEM particle-size range lower bound,Dynamic light scattering (DLS) and cryo-TEM revealed particle sizes in the range of 60–120 nm
+DESC-2287,D015,PMC13619771,optimized DPZ-PEGylated NLCs,128.75,,-21.12,not_declared,text; average particle size and zeta potential,The optimized DPZ-PEGylated NLCs displayed an average PS of approximately 128.75 nm
+DESC-2319,D015,PMC12913696,ICG@ES-Cu Lip,208.3,,-38.1,not_declared,text; mean particle size and zeta potential,with a mean particle size and zeta potential of 208.3 ± 1.07 nm
+DESC-2323,D015,PMC12994587,CG,513.0,,-12.5,not_declared,text; DLS hydrodynamic diameter,CG exhibited a hydrodynamic diameter (dH) of 513 nm due to aggregation
+DESC-2382,D015,PMC13392885,polymeric nanoparticles,,0.2,,not_declared,text; average size below 400 nm,The average particle size was below 400 nm
+DESC-2390,D015,PMC13040952,ASP@PLGA-PEG nanoparticles,177.1,,-28.64,water,caption; DLS average diameter,the average diameter was approximately 177.1 nm
+DESC-2478,D015,PMC6099699,Cur-SLNs,40.0,,-25.3,not_declared,text; TEM particle size range midpoint,Most of the particles were observed to be distributed between 30 and 50 nm under TEM
+DESC-2487,D015,PMC7599702,Ag-NPs,11.0,,,not_declared,caption; TEM size range midpoint,sizes ranging from 7 to 15 nm
+DESC-2494,D015,PMC11547690,E-T/LNPs,77.8,,-6.77,water,text; particle size,particle sizes of blank lipid nanoparticles (B/LNPs) and E-T/LNPs in water were 88.09 ± 0.15 nm and 77.80 ± 1.01 nm
+DESC-2504,D015,PMC11031593,LNP,208.0,0.14,-13.3,not_declared,Table 1,LNP | −13.3 ± −2.1 | 208 ± 18 | 74*
+DESC-2509,D015,PMC6209991,CdTe/CdSe/ZnSe quantum dots,3.75,,,not_declared,text; calculated particle size range lower bound,ranges from 3.75–4.28 nm
+DESC-2623,D015,PMC6182570,G4@IONPs,10.0,,35.0,"water, pH 7, 25 °C",text; TEM size and DLS hydrodynamic size/zeta potential,The size of G4@IONPs was 10 ± 4 nm measured by TEM
+DESC-2630,D015,PMC9323322,DSPE-EB nanoparticles,118.0,,17.7,water,text; DLS hydrodynamic diameter and zeta potential,the as-prepared DSPE-EB nanoparticles had a hydrodynamic diameter of 118 nm
+DESC-2718,D015,PMC5764907,SLN+,304.0,,-54.9,not_declared,Fig. 2,which confirm an average size of 304 nm as measured by DLS (d).
+DESC-2736,D015,PMC8038213,Unbaked 10,5958.8,0.29,-0.3,not_declared,Table 1,Unbaked 10 | 5958.8 ± 499.6 | 0.29 ± 0.02 | −0.3 ± 0.1
+DESC-2863,D015,PMC7345782,BSA-loaded NPs,137.0,,,water,text,DLS showed that the particle size of NPs is 137 nm while TEM indicated about 130 nm.
+DESC-2933,D015,PMC8990520,Ag@TMA1,3.1,0.04,134.0,not_declared,Table 1,Ag@TMA1 | 3.1 ± 0.6 | 2.8 ± 1.0 | +134.0 ± 9.0 | 0.04
+DESC-2961,D015,PMC6321213,MSNs-SH,91.2,,,PBS,text,had a larger particle size (91.2 nm) than that observed from SEM and TEM
+DESC-3003,D015,PMC8624969,SPIONs,4.0,,,not_declared,Fig. 2,a single and sharp peak was observed at a size of approximately 4.0 nm
+DESC-3028,D015,PMC7196283,peptide modified Au NPs,4.9,,,not_declared,text,The average hydrodynamic diameter of peptide modified Au NPs increased to 4.9 nm (Figure 2D)
+DESC-3075,D015,PMC5508052,SNPs,4.6,,,not_declared,text,indicated that SNPs vary in size from 4.1 to 7.7 nm with mean diameter of 4.6 nm.
+DESC-3077,D015,PMC6418711,PIP-co-R3-ACP,37.4,1.3,,not_declared,Table 1,PIP-co-R3-ACP | 3:1 | 37.4 | 1.3 | 16.3 | 74.5
+DESC-3078,D015,PMC6418711,PIP-co-R2-V50,184.3,1.1,,not_declared,Table 1,PIP-co-R2-V50 | 2:1 | 184.3 | 1.1 | 7.4 | 31.8
+DESC-3079,D015,PMC6418711,PIP-co-R3-ACP-Si,37.5,1.2,,not_declared,Table 2,PIP-co-R3-ACP-Si | 3:1 | 37.5 | 1.2 | 19.2 | 84.2 | 82.5 | 55.0
+DESC-3080,D015,PMC6418711,PIP-co-R5-ACP-Si,24.8,1.5,,not_declared,Table 2,PIP-co-R5-ACP-Si | 5:1 | 24.8 | 1.5 | 19.0 | 86.8 | 89.2 | 61.8
+DESC-3081,D015,PMC6418711,PIP-co-R3-V50-Si,90.9,1.5,,not_declared,Table 2,PIP-co-R3-V50-Si | 3:1 | 90.9 | 1.5 | 19.5 | 80.4 | 82.2 | 66.5
+DESC-3102,D016,PMC11111742,am-AgNPs,58.5,0.387,,not_declared,text,am-AgNPs have a zeta average diameter of 58.5 nm with a PI value of 0.3870
+DESC-3105,D016,PMC7022736,Au1.0/CuO-300,4.68,,,not_declared,text,the gold nanoparticles with the mean size (4.68) nm for Au1.0/CuO-300 sample

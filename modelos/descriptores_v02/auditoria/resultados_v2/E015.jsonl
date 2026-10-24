@@ -1,0 +1,15 @@
+{"id": "DESC-1356", "veredicto": "ok", "tamano_nm": 147.5, "pdi": 0.256, "zeta_mV": -25.93, "etiqueta_muestra": "PLGA NP", "metodo_tamano": "desconocido", "motivo": "PLGA sin astaxantina: tamano, PDI y zeta coinciden"}
+{"id": "DESC-1357", "veredicto": "no_verificable", "tamano_nm": 178.0, "pdi": 0.18, "zeta_mV": -22.4, "etiqueta_muestra": "M-Vit.E-CD-CS NPs", "metodo_tamano": "desconocido", "motivo": "contexto es tabla hematologica; tamano no visible"}
+{"id": "DESC-1358", "veredicto": "ok", "tamano_nm": 24.69, "pdi": null, "zeta_mV": -7.95, "etiqueta_muestra": "Au/rGO NCs", "metodo_tamano": "DLS", "motivo": "diametro hidrodinamico 24.69 nm y zeta -7.95 coinciden"}
+{"id": "DESC-1368", "veredicto": "ok", "tamano_nm": 500.0, "pdi": null, "zeta_mV": null, "etiqueta_muestra": "AuNPs", "metodo_tamano": "DLS", "motivo": "DLS ~500 nm segun texto; TEM ~14 nm no usado"}
+{"id": "DESC-1381", "veredicto": "ok", "tamano_nm": 156.4, "pdi": 0.489, "zeta_mV": 68.0, "etiqueta_muestra": "CSNPs", "metodo_tamano": "DLS", "motivo": "diametro hidrodinamico, PDI y zeta coinciden"}
+{"id": "DESC-1382", "veredicto": "ok", "tamano_nm": 132.8, "pdi": 0.236, "zeta_mV": 37.0, "etiqueta_muestra": "CSNP–SSL", "metodo_tamano": "DLS", "motivo": "tamano, PDI y zeta de CSNP-SSL coinciden"}
+{"id": "DESC-1385", "veredicto": "ok", "tamano_nm": 121.7, "pdi": null, "zeta_mV": -33.7, "etiqueta_muestra": "KS@GNPs", "metodo_tamano": "DLS", "motivo": "DLS 121.7 nm y zeta -33.7 mV coinciden"}
+{"id": "DESC-1386", "veredicto": "ok", "tamano_nm": 86.17, "pdi": 0.3, "zeta_mV": -32.33, "etiqueta_muestra": null, "metodo_tamano": "desconocido", "motivo": "tamano, PDI y zeta del formulado optimizado coinciden"}
+{"id": "DESC-1390", "veredicto": "ok", "tamano_nm": 250.2, "pdi": 0.153, "zeta_mV": 12.8, "etiqueta_muestra": "PCCM1", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 1 coincide"}
+{"id": "DESC-1391", "veredicto": "ok", "tamano_nm": 233.1, "pdi": 0.216, "zeta_mV": 21.2, "etiqueta_muestra": "PCCM2", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 1 coincide"}
+{"id": "DESC-1392", "veredicto": "ok", "tamano_nm": 183.1, "pdi": 0.225, "zeta_mV": 34.0, "etiqueta_muestra": "PCCM3", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 1 coincide"}
+{"id": "DESC-1393", "veredicto": "no_verificable", "tamano_nm": null, "pdi": 0.241, "zeta_mV": -28.4, "etiqueta_muestra": null, "metodo_tamano": "desconocido", "motivo": "sin contexto; muestra no localizada"}
+{"id": "DESC-1394", "veredicto": "ok", "tamano_nm": 35.0, "pdi": 0.105, "zeta_mV": 19.0, "etiqueta_muestra": "blank micelles", "metodo_tamano": "DLS", "motivo": "35 nm y PDI 0.105 coinciden; zeta truncada"}
+{"id": "DESC-1395", "veredicto": "ok", "tamano_nm": 142.0, "pdi": 0.186, "zeta_mV": 16.0, "etiqueta_muestra": "PTX-loaded micelles", "metodo_tamano": "DLS", "motivo": "142 nm y PDI 0.186 coinciden; zeta truncada"}
+{"id": "DESC-1396", "veredicto": "descartar", "tamano_nm": 35.0, "pdi": 0.105, "zeta_mV": 19.0, "etiqueta_muestra": "blank TS-GC micelles", "metodo_tamano": "DLS", "motivo": "duplicado exacto de DESC-1394"}

@@ -1,0 +1,15 @@
+{"id": "DESC-2623", "veredicto": "descartar", "tamano_nm": 10.0, "pdi": null, "zeta_mV": 35.0, "etiqueta_muestra": "G4@IONPs", "metodo_tamano": "TEM", "motivo": "TEM sin PDI ni zeta verificables en contexto"}
+{"id": "DESC-2630", "veredicto": "ok", "tamano_nm": 118.0, "pdi": null, "zeta_mV": 17.7, "etiqueta_muestra": null, "metodo_tamano": "DLS", "motivo": "texto confirma diametro hidrodinamico 118 nm y zeta 17.7"}
+{"id": "DESC-2718", "veredicto": "corregir", "tamano_nm": 304.0, "pdi": null, "zeta_mV": 59.1, "etiqueta_muestra": "SLN+", "metodo_tamano": "DLS", "motivo": "zeta SLN+ es +59.1 mV; -54.9 corresponde a SLN-"}
+{"id": "DESC-2736", "veredicto": "ok", "tamano_nm": 5958.8, "pdi": 0.29, "zeta_mV": -0.3, "etiqueta_muestra": "Unbaked 10", "metodo_tamano": "DLS", "motivo": "fila de Tabla 1 coincide con los tres valores"}
+{"id": "DESC-2863", "veredicto": "no_verificable", "tamano_nm": 137.0, "pdi": null, "zeta_mV": null, "etiqueta_muestra": null, "metodo_tamano": "DLS", "motivo": "contexto es tabla de citotoxicidad sin tamano"}
+{"id": "DESC-2933", "veredicto": "ok", "tamano_nm": 3.1, "pdi": 0.04, "zeta_mV": 134.0, "etiqueta_muestra": "Ag@TMA1", "metodo_tamano": "DLS", "motivo": "fila de tabla coincide; columna DLS es 3.1"}
+{"id": "DESC-2961", "veredicto": "corregir", "tamano_nm": 91.2, "pdi": null, "zeta_mV": -24.2, "etiqueta_muestra": "MSNs-SH", "metodo_tamano": "DLS", "motivo": "texto da zeta -24.2 mV para MSNs-SH en PBS"}
+{"id": "DESC-3003", "veredicto": "ok", "tamano_nm": 4.0, "pdi": null, "zeta_mV": null, "etiqueta_muestra": null, "metodo_tamano": "DLS", "motivo": "pico DLS unico a ~4.0 nm; sin zeta reportado"}
+{"id": "DESC-3028", "veredicto": "ok", "tamano_nm": 4.9, "pdi": null, "zeta_mV": null, "etiqueta_muestra": null, "metodo_tamano": "DLS", "motivo": "diametro hidrodinamico 4.9 nm; zeta solo cualitativo"}
+{"id": "DESC-3075", "veredicto": "no_verificable", "tamano_nm": 4.6, "pdi": null, "zeta_mV": null, "etiqueta_muestra": null, "metodo_tamano": "desconocido", "motivo": "contexto es tabla de estabilidad BSA; cita no localizada"}
+{"id": "DESC-3077", "veredicto": "ok", "tamano_nm": 37.4, "pdi": 1.3, "zeta_mV": null, "etiqueta_muestra": "PIP-co-R3-ACP", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 1 coincide; PSD como pdi"}
+{"id": "DESC-3078", "veredicto": "ok", "tamano_nm": 184.3, "pdi": 1.1, "zeta_mV": null, "etiqueta_muestra": "PIP-co-R2-V50", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 1 coincide; PSD como pdi"}
+{"id": "DESC-3079", "veredicto": "ok", "tamano_nm": 37.5, "pdi": 1.2, "zeta_mV": null, "etiqueta_muestra": "PIP-co-R3-ACP-Si", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 2 coincide; PSD como pdi"}
+{"id": "DESC-3080", "veredicto": "ok", "tamano_nm": 24.8, "pdi": 1.5, "zeta_mV": null, "etiqueta_muestra": "PIP-co-R5-ACP-Si", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 2 coincide; PSD como pdi"}
+{"id": "DESC-3081", "veredicto": "ok", "tamano_nm": 90.9, "pdi": 1.5, "zeta_mV": null, "etiqueta_muestra": "PIP-co-R3-V50-Si", "metodo_tamano": "desconocido", "motivo": "fila de Tabla 2 coincide; PSD como pdi"}

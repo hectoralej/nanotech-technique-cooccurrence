@@ -1,0 +1,15 @@
+{"id": "DESC-0051", "veredicto": "no_verificable", "tamano_nm": 174.1, "pdi": 0.18, "zeta_mV": -22.65, "etiqueta_muestra": "SIN-NLCs", "metodo_tamano": "desconocido", "motivo": "solo resumen; valores no aparecen en el fragmento"}
+{"id": "DESC-0063", "veredicto": "ok", "tamano_nm": 115.0, "pdi": 0.18, "zeta_mV": 24.5, "etiqueta_muestra": "Lipo PEI", "metodo_tamano": "DLS", "motivo": "texto de Results coincide con tamano, PDI y zeta"}
+{"id": "DESC-0064", "veredicto": "ok", "tamano_nm": 266.0, "pdi": 0.22, "zeta_mV": 16.0, "etiqueta_muestra": "pDNA Bmp2 @Lipo PEI", "metodo_tamano": "DLS", "motivo": "mismo parrafo del texto (fila 0063) confirma valores"}
+{"id": "DESC-0065", "veredicto": "descartar", "tamano_nm": 82.0, "pdi": null, "zeta_mV": null, "etiqueta_muestra": "LNPAH", "metodo_tamano": "SEM", "motivo": "medida FESEM sin PDI ni zeta validos"}
+{"id": "DESC-0070", "veredicto": "ok", "tamano_nm": 252.0, "pdi": null, "zeta_mV": -23.6, "etiqueta_muestra": "NHA", "metodo_tamano": "DLS", "motivo": "tamano y zeta de NHA en texto; PDI no reportado"}
+{"id": "DESC-0084", "veredicto": "ok", "tamano_nm": 210.0, "pdi": null, "zeta_mV": 12.9, "etiqueta_muestra": "CS", "metodo_tamano": "DLS", "motivo": "DLS y zeta de CSNPs coinciden en texto"}
+{"id": "DESC-0085", "veredicto": "ok", "tamano_nm": 635.0, "pdi": null, "zeta_mV": 14.1, "etiqueta_muestra": "CS-SiO2", "metodo_tamano": "DLS", "motivo": "seccion 3.2 coincide con tamano y zeta"}
+{"id": "DESC-0086", "veredicto": "ok", "tamano_nm": 650.0, "pdi": null, "zeta_mV": 7.6, "etiqueta_muestra": "CS-ZnO", "metodo_tamano": "DLS", "motivo": "seccion 3.2 coincide con tamano y zeta"}
+{"id": "DESC-0087", "veredicto": "ok", "tamano_nm": 720.0, "pdi": null, "zeta_mV": 5.4, "etiqueta_muestra": "CS-CuO", "metodo_tamano": "DLS", "motivo": "seccion 3.2 coincide con tamano y zeta"}
+{"id": "DESC-0097", "veredicto": "corregir", "tamano_nm": 303.5, "pdi": 0.24, "zeta_mV": -35.7, "etiqueta_muestra": "F5", "metodo_tamano": "desconocido", "motivo": "PDI medio del control NLC 0.24 reportado en texto"}
+{"id": "DESC-0116", "veredicto": "no_verificable", "tamano_nm": 119.0, "pdi": 0.09, "zeta_mV": -18.56, "etiqueta_muestra": "Mel-NLC", "metodo_tamano": "desconocido", "motivo": "tamano y PDI en resumen; zeta fuera del fragmento"}
+{"id": "DESC-0119", "veredicto": "no_verificable", "tamano_nm": 192.74, "pdi": null, "zeta_mV": 25.15, "etiqueta_muestra": "Crab CsNPs", "metodo_tamano": "DLS", "motivo": "solo cita de texto; sin contexto de la muestra"}
+{"id": "DESC-0122", "veredicto": "no_verificable", "tamano_nm": 220.0, "pdi": 0.251, "zeta_mV": 20.3, "etiqueta_muestra": "CSNFs", "metodo_tamano": "desconocido", "motivo": "cita de texto; zeta no aparece en contexto"}
+{"id": "DESC-0123", "veredicto": "no_verificable", "tamano_nm": 190.0, "pdi": 0.241, "zeta_mV": 19.2, "etiqueta_muestra": "CSNPs", "metodo_tamano": "desconocido", "motivo": "cita de texto; zeta no aparece en contexto"}
+{"id": "DESC-0125", "veredicto": "ok", "tamano_nm": 76.99, "pdi": null, "zeta_mV": -20.9, "etiqueta_muestra": "NC-GNPs", "metodo_tamano": "DLS", "motivo": "DLS y zeta de NC-GNPs coinciden en texto"}

@@ -1,0 +1,29 @@
+{
+ "lote": "D016",
+ "filas": [
+  {
+   "id": "DESC-3102",
+   "pmcid": "PMC11111742",
+   "muestra": "am-AgNPs",
+   "tamano_nm": 58.5,
+   "pdi": 0.387,
+   "zeta_mV": null,
+   "medio": "not_declared",
+   "fuente": "text",
+   "cita": "am-AgNPs have a zeta average diameter of 58.5 nm with a PI value of 0.3870",
+   "alerta": "valor no aparece en la cita; "
+  },
+  {
+   "id": "DESC-3105",
+   "pmcid": "PMC7022736",
+   "muestra": "Au1.0/CuO-300",
+   "tamano_nm": 4.68,
+   "pdi": null,
+   "zeta_mV": null,
+   "medio": "not_declared",
+   "fuente": "text",
+   "cita": "the gold nanoparticles with the mean size (4.68) nm for Au1.0/CuO-300 sample",
+   "alerta": ""
+  }
+ ]
+}
