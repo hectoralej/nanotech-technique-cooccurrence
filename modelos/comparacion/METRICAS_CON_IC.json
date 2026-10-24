@@ -1,0 +1,122 @@
+{
+  "n_imagenes": 2100,
+  "n_articulos": 1641,
+  "evaluacion": "5 particiones por articulo; IC 95 % por bootstrap de articulos (1.000); predicciones fuera de muestra",
+  "modelos": {
+    "Clase mayoritaria (línea base)": {
+      "f1_macro": 0.1561,
+      "f1_ic95": [
+        0.1494,
+        0.1618
+      ],
+      "accuracy": 0.4538,
+      "accuracy_ic95": [
+        0.4262,
+        0.4783
+      ],
+      "accuracy_balanceada": 0.25,
+      "balanceada_ic95": [
+        0.25,
+        0.25
+      ]
+    },
+    "Imagen: modelo del Atlas (SVM con probabilidades)": {
+      "f1_macro": 0.442,
+      "f1_ic95": [
+        0.4163,
+        0.467
+      ],
+      "accuracy": 0.5262,
+      "accuracy_ic95": [
+        0.5016,
+        0.549
+      ],
+      "accuracy_balanceada": 0.4324,
+      "balanceada_ic95": [
+        0.41,
+        0.4556
+      ]
+    },
+    "Imagen: SVM, regla de decisión directa (ResNet50 + DINOv2)": {
+      "f1_macro": 0.4749,
+      "f1_ic95": [
+        0.4507,
+        0.4988
+      ],
+      "accuracy": 0.4952,
+      "accuracy_ic95": [
+        0.4726,
+        0.5185
+      ],
+      "accuracy_balanceada": 0.4894,
+      "balanceada_ic95": [
+        0.4634,
+        0.5149
+      ]
+    },
+    "Solo medidas (logística)": {
+      "f1_macro": 0.5259,
+      "f1_ic95": [
+        0.5001,
+        0.5527
+      ],
+      "accuracy": 0.57,
+      "accuracy_ic95": [
+        0.5448,
+        0.5968
+      ],
+      "accuracy_balanceada": 0.534,
+      "balanceada_ic95": [
+        0.5073,
+        0.561
+      ]
+    },
+    "Fusión: imagen (PCA 32) + medidas (logística)": {
+      "f1_macro": 0.561,
+      "f1_ic95": [
+        0.5354,
+        0.5845
+      ],
+      "accuracy": 0.5962,
+      "accuracy_ic95": [
+        0.5707,
+        0.6204
+      ],
+      "accuracy_balanceada": 0.5735,
+      "balanceada_ic95": [
+        0.5478,
+        0.5982
+      ]
+    }
+  },
+  "diferencias_pareadas_f1": {
+    "Fusión: imagen (PCA 32) + medidas (logística) - Solo medidas (logística)": {
+      "diferencia": 0.0351,
+      "ic95": [
+        0.0145,
+        0.0564
+      ]
+    },
+    "Fusión: imagen (PCA 32) + medidas (logística) - Imagen: modelo del Atlas (SVM con probabilidades)": {
+      "diferencia": 0.119,
+      "ic95": [
+        0.0875,
+        0.151
+      ]
+    },
+    "Solo medidas (logística) - Imagen: modelo del Atlas (SVM con probabilidades)": {
+      "diferencia": 0.0839,
+      "ic95": [
+        0.0486,
+        0.1191
+      ]
+    },
+    "Imagen: SVM, regla de decisión directa (ResNet50 + DINOv2) - Imagen: modelo del Atlas (SVM con probabilidades)": {
+      "diferencia": 0.0329,
+      "ic95": [
+        0.0122,
+        0.053
+      ]
+    }
+  }
+}
