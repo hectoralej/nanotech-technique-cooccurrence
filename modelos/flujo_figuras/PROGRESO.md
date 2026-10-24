@@ -4,34 +4,37 @@
 
 - {'figuras_comunes': 60, 'mismo_n_paneles': 0.933, 'mismo_destino': 0.983}
 
-Figuras clasificadas: **1470** de 3079 (48%). Lotes con resultado: 49 de 104.
+Figuras clasificadas: **2149** de 3079 (70%). Lotes con resultado: 73 de 104.
 
 ## Destino según la imagen
 
 destino_vision
-compuesta    1067
-pareja        279
-simple        119
-excluir         5
+compuesta      1513
+pareja          360
+simple          146
+excluir          66
+superpuesto      64
 
 ## Imagen frente al pie (filas = imagen, columnas = pie)
 
 destino_pie     compuesta  excluir  pareja  revisar_multiple  simple  superpuesto
 destino_vision                                                                   
-compuesta             784       26     113                92      47            5
-excluir                 4        0       1                 0       0            0
-pareja                 23        2     183                47      24            0
-simple                  1        1       5                23      89            0
+compuesta            1065       27     160               158      78           25
+excluir                26        0       6                 2      24            8
+pareja                 27        2     245                51      31            4
+simple                  1        1       6                24     114            0
+superpuesto             7        0       6                 0      13           38
 
-Coinciden imagen y pie: 82.9%. Aceptadas automáticamente (coinciden, confianza ≥ 2): 1206. En la cola de revisión: 264.
+Coinciden imagen y pie: 78.9%. Aceptadas automáticamente (coinciden, confianza ≥ 2): 1681. En la cola de revisión: 468.
 
 ## Por categoría (aceptadas / cola)
 
 estado          aceptada_auto  cola_revision
 destino_vision                              
-compuesta                 864            203
-excluir                     0              5
-pareja                    230             49
-simple                    112              7
+compuesta                1209            304
+excluir                     0             66
+pareja                    296             64
+simple                    138              8
+superpuesto                38             26
 
-Panel medio por figura: 4.46; figuras con 1 panel: 8.1%; con 2: 22.8%; con 3 o más: 69.1%.
+Panel medio por figura: 4.59; figuras con 1 panel: 10.8%; con 2: 21.6%; con 3 o más: 67.5%.
