@@ -32,9 +32,11 @@ def mejor_imagen(pmcid, archivos):
     mejores = []
     for a in archivos:
         for base in ("producto/imagenes", "producto/imagenes_v02"):
-            p = RAIZ / base / pmcid / a
-            if p.exists():
-                mejores.append((p.stat().st_size, p))
+            # el descargador guarda como .jpg cuando el inventario lista un .gif (miniatura)
+            for cand in (a, Path(a).stem + ".jpg", Path(a).stem + ".jpeg", Path(a).stem + ".png"):
+                p = RAIZ / base / pmcid / cand
+                if p.exists():
+                    mejores.append((p.stat().st_size, p))
     return max(mejores)[1] if mejores else None
 
 
@@ -75,14 +77,27 @@ def main():
             continue
         filas.append(dict(fig_id=f"{r.pmcid}|{r.figura}", pmcid=r.pmcid, figura=r.figura, prioridad=prio, imagen=ruta.relative_to(RAIZ).as_posix(),
                           tipologia_pie=r.tipologia, destino_pie=r.destino, clase_modelo=r.clase_modelo, fold=r.fold))
-    plan = pd.DataFrame(filas).sort_values(["prioridad", "pmcid", "figura"], kind="stable").reset_index(drop=True)
-    plan["lote"] = [f"L{i // a.lote + 1:03d}" for i in range(len(plan))]
-    plan["n"] = plan.groupby("lote").cumcount() + 1
+    nuevo = pd.DataFrame(filas).sort_values(["prioridad", "pmcid", "figura"], kind="stable").reset_index(drop=True)
+    previo = OUT / "plan_lotes.csv"
+    if previo.exists():
+        # incremental: los lotes ya creados no cambian (hay resultados que dependen de su numeración); lo nuevo se añade al final
+        viejo = pd.read_csv(previo, dtype={"n": int}, encoding="utf-8-sig")
+        nuevo = nuevo[~nuevo.fig_id.isin(viejo.fig_id)].reset_index(drop=True)
+        base = int(viejo.lote.str[1:].astype(int).max())
+        lotes_viejos = viejo.drop_duplicates("lote").set_index("lote").asignado.to_dict()
+    else:
+        viejo, base, lotes_viejos = pd.DataFrame(), 0, {}
+    if len(nuevo):
+        nuevo["lote"] = [f"L{base + i // a.lote + 1:03d}" for i in range(len(nuevo))]
+        nuevo["n"] = nuevo.groupby("lote").cumcount() + 1
+        # reparto: alterna Claude/Codex; cada 8.º lote lo hacen los dos (control de acuerdo entre modelos)
+        k0 = len(lotes_viejos)
+        rep_nuevo = {l: ("ambos" if (k0 + i) % 8 == 7 else ("claude" if (k0 + i) % 2 == 0 else "codex")) for i, l in enumerate(sorted(nuevo.lote.unique()))}
+        nuevo["asignado"] = nuevo.lote.map(rep_nuevo)
+    plan = pd.concat([viejo, nuevo], ignore_index=True)
+    plan.to_csv(previo, index=False, encoding="utf-8-sig")
+    reparto = {**lotes_viejos, **(rep_nuevo if len(nuevo) else {})}
     lotes = sorted(plan.lote.unique())
-    # reparto: alterna Claude/Codex; cada 8.º lote lo hacen los dos (control de acuerdo entre modelos)
-    reparto = {l: ("ambos" if i % 8 == 7 else ("claude" if i % 2 == 0 else "codex")) for i, l in enumerate(lotes)}
-    plan["asignado"] = plan.lote.map(reparto)
-    plan.to_csv(OUT / "plan_lotes.csv", index=False, encoding="utf-8-sig")
     (OUT / "lotes").mkdir(exist_ok=True); (OUT / "miniaturas").mkdir(exist_ok=True)
     for l, g in plan.groupby("lote"):
         hojas = []

@@ -35,6 +35,7 @@ Tarea: mirar hojas de contacto de figuras de artículos de nanomateriales y cont
 - FTIR con 4 curvas apiladas en un solo gráfico → 1 panel, `curvas_superpuestas: "si"`.
 - Cuatro FTIR cada uno con una curva → 4 paneles espectro, `curvas_superpuestas: "no"`.
 - Diagrama del proceso + micrografía → `n_otro: 1`, `n_micro: 1`.
+- Patrón de difracción de electrones (SAED/FFT, puntos o anillos sobre fondo negro), mapas elementales de color y curvas DLS/zeta → `n_otro` (no son micrografía ni espectro limpio).
 - Imagen demasiado pequeña para contar → `confianza: 1`.
 
 ## Entrega de la tanda

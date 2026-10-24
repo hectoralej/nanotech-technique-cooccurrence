@@ -70,9 +70,10 @@ def bajar(pm, nombres, w, lf, total):
 
 
 def main():
-    hilos = int(sys.argv[1]) if len(sys.argv) > 1 else 4
+    hilos = int(next((a for a in sys.argv[1:] if a.isdigit()), 4))
     inv = pd.read_csv(INV, encoding="utf-8-sig")
-    inv = inv[inv.ya_en_base == 0] if "ya_en_base" in inv.columns else inv
+    if "--todo" not in sys.argv and "ya_en_base" in inv.columns:    # con --todo se baja también lo marcado ya_en_base (p. ej. espectros que nunca se descargaron)
+        inv = inv[inv.ya_en_base == 0]
     grupos = {pm: sorted(set(g.archivo_grafico.dropna().astype(str))) for pm, g in inv.groupby("pmcid")}
     nuevo = not LOG.exists()
     with LOG.open("a", encoding="utf-8-sig", newline="") as lf:
