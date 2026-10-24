@@ -16,7 +16,7 @@ SINO = {"si", "no", "na"}
 plan = pd.read_csv(OUT / "plan_lotes.csv", dtype={"n": int}, encoding="utf-8-sig")
 filas, errores = [], []
 for carpeta in sorted((OUT / "resultados").glob("*/")):
-    for f in sorted(list(carpeta.glob("L*.jsonl")) + list(carpeta.glob("R*.jsonl"))):
+    for f in sorted(list(carpeta.glob("L*.jsonl")) + list(carpeta.glob("R*.jsonl")) + list(carpeta.glob("A*.jsonl"))):
         for i, linea in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             if not linea.strip():
                 continue
@@ -74,16 +74,18 @@ else:
 v["desacuerdo_revisores"] = v.fig_id.isin(dis)
 # una fila por figura (si dos revisores la hicieron, se toma la de «claude»; el desacuerdo entre ellos manda la figura a la cola)
 v["_o"] = (v.revisor != "claude").astype(int)
-v["_p"] = (~v.lote.str.startswith("R")).astype(int)          # los lotes R (re-revisión con las reglas nuevas) reemplazan a los L originales
+v["_p"] = v.lote.str[0].map({"A": 0, "R": 1}).fillna(2).astype(int)   # A (arbitraje) > R (re-revisión con reglas nuevas) > L (original)
 u = v.sort_values(["fig_id", "_p", "_o"]).drop_duplicates("fig_id").drop(columns=["_o", "_p"]).reset_index(drop=True)
 u["estado"] = ["aceptada_auto" if (a and c >= 2 and not d) else "cola_revision" for a, c, d in zip(u.acuerdo_con_pie, u.confianza, u.desacuerdo_revisores)]
+arb = u.lote.str.startswith("A") & (u.confianza >= 2)                               # el árbitro vio imagen y pie: su decisión cierra la figura
+u.loc[arb, "estado"] = "aceptada_arbitrada"
 u.to_csv(OUT / "figuras_vision.csv", index=False, encoding="utf-8-sig")             # todas las figuras clasificadas, una fila cada una
 cola = u[u.estado == "cola_revision"]
 cola.to_csv(OUT / "cola_desacuerdos.csv", index=False, encoding="utf-8-sig")
 (OUT / "bases").mkdir(exist_ok=True)
 for d in ["simple", "pareja", "compuesta", "superpuesto", "excluir"]:                 # bases por categoría: todas las clasificadas, con su estado
     u[u.destino_vision == d].to_csv(OUT / "bases" / f"{d}.csv", index=False, encoding="utf-8-sig")
-fin = u[u.estado == "aceptada_auto"]
+fin = u[u.estado.isin(["aceptada_auto", "aceptada_arbitrada"])]
 
 hechas = u
 md += [f"Figuras clasificadas: **{len(hechas)}** de {plan.fig_id.nunique()} ({len(hechas)/plan.fig_id.nunique():.0%}). Lotes con resultado: {v.lote.nunique()} de {plan.lote.nunique()}.", "",

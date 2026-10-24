@@ -1,0 +1,388 @@
+{
+ "lote": "A006",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC11333711|Figure 1",
+   "imagen": "producto/imagenes/PMC11333711/41598_2024_68721_Fig1_HTML.jpg",
+   "pie": "(A) FT-IR spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula, and (VII) optimal formula (F2). (B) DSC spectra of (I) APO, (II) CO, (III) GE, (IV) CH, (V) physical mixture, (VI) plain optimal formula, and (VII) optimal formula (F2). (C) XRD spectra of (I)",
+   "imagen_dijo": {
+    "paneles": 25,
+    "n_micro": 1,
+    "n_espectro": 24,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Curvas diminutas en tres grupos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC11356860|Figure 6",
+   "imagen": "producto/imagenes/PMC11356860/molecules-29-03750-g006.jpg",
+   "pie": "Scanning electron microscopy (SEM) micrographs of DBio@AgNPs (A,B) and DSup@AgNPs (C,D) synthesized using D. edaphica biomass extract and cell-free medium. EDx (E,F) and mapping analysis (G,H) illustrating the elemental composition and distribution of DBio@AgNPs and DSup@AgNPs, respectively. Scale b",
+   "imagen_dijo": {
+    "paneles": 26,
+    "n_micro": 4,
+    "n_espectro": 2,
+    "n_otro": 20,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "G y H son rejillas de mapas EDS, conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC11397093|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC11397093/nanomaterials-14-01383-g005.jpg",
+   "pie": "Uv-vis spectra of bio-synthesized AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 UV-vis superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC11433786|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC11433786/microorganisms-12-01849-g001.jpg",
+   "pie": "A UV-visible spectrum of the nanoparticles synthesized with the Candida lipolytica biosurfactant (BS-AgNPs) just after their preparation (0 days) and after 120 days.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "0 y 120 dias superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC11458297|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC11458297/IJBM2024-3850286.004.jpg",
+   "pie": "XRD patterns of chitosan (a), CSNPs (b), CSNPs-I (c), and CSNPs-IO3 (d).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "XRD con inset no contado"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC11639647|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC11639647/ASIA-19-e202401035-g003.jpg",
+   "pie": "(a) PXRD pattern of one‐pot synthesised OP-Au@UiO‐66(Ce) analysed using a Pawley fit (space group Fm 3‾ m), (b) Comparison of the PXRD patterns of OP-Au@UiO‐66(Ce) and UiO‐66(Ce), (c) ADF‐STEM image (left), STEM‐EDX elemental maps with Au (middle) and Ce (right) dispersion. (d) XPS spectra of Au 4 f",
+   "imagen_dijo": {
+    "paneles": 7,
+    "n_micro": 1,
+    "n_espectro": 4,
+    "n_otro": 2,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "a Rietveld; b XRD apilado; c STEM y mapas; d XPS"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC11678608|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC11678608/ijms-25-13701-g003.jpg",
+   "pie": "(a) Plotting of ABDA absorption at different irradiation times (0-18 min) in water (control) and in the presence of RB, AuSiO2_HSA and RB-AuSiO2_HSA. (b) Infrared thermal images of (left) water (control) and (right) RB-AuSiO2_HSA nanoparticles dispersed in water (light-exposure 520 nm, 90 min).",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "a cinetica de absorbancia; b 2 termografias"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC11765333|Figure 12",
+   "imagen": "producto/imagenes_v02/PMC11765333/gels-11-00061-g012.jpg",
+   "pie": "Graphic process of RoEO-PLGA microparticles and RoEO-PLGA gels formulation and characterization. DCM: Dichloromethane; DLS: Dynamic light scattering; FTIR: Fourier-transform infrared; PLGA: Poly(lactic-co-glycolic) acid; PVA: Poly(vinyl alcohol); RoEO: Rosemary essential oil; SEM: Scanning electron ",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "esquema de flujo del proceso"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC11768393|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC11768393/pharmaceutics-17-00086-g005a.jpg",
+   "pie": "Powder X-ray diffraction patterns of octadecylamine (A), CHON (B), and a mixture (1:1) of CHON and octadecylamine (C).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "A cromatograma; B curva unica tipo halo"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC11782354|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC11782354/13346_2024_1655_Fig6_HTML.jpg",
+   "pie": "Biodistribution of PGCMNPs in the liver and blood serum. A Representative photomicrographs of liver stained with Prussian blue to detect iron deposits at 1 h, 3 h and 24 h after the intravenous administration of PGCMNPs (400X) B Changes in the Fe levels of liver at 1 h, 3 h and 24 h after the intrav",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Cuatro tejidos y dos gráficas"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC11826889|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC11826889/am4c17536_0001.jpg",
+   "pie": "Visual representation of a separation assay of Silk MPs and SIMPs with a magnet. Each fraction (magnetic and non-magnetic) was used in a Lowry assay to detect the concentration of protein. These fractions were also characterized by SEM to see individual MPs. The image was made on Biorender.com.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "esquema de separacion magnetica"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC11826982|Figure 3",
+   "imagen": "producto/imagenes/PMC11826982/ASIA-20-e202401415-g003.jpg",
+   "pie": "A) 3D‐printed objects with 2 wt.% MSNs under daylight and UV‐light (365 nm); B&C) SEM images of broken edges of 3D‐printed objects with MSNs ( mm OC12 ) and D) afterglow of 3D‐printed objects with mm DBTA/B after irradiation with UV‐light (395 nm, printed strip: 13×5 mm).",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 11,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "Secuencia temporal diminuta; separación de fotos dudosa."
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC11827557|Fig. 10",
+   "imagen": "producto/imagenes_v02/PMC11827557/d4ra06035k-f10.jpg",
+   "pie": "Morphology images of A549 and A459 SC post-PDT: (A) A549 cells following PDT treatment with control (A549 only), A549 treated with laser only (A549 + L), and A549 treated with laser (L) and different concentrations of the Cum-PEG-BpAgNPs (μg mL-1). (B) A549 SC only (lung cancer stem cells without tr",
+   "imagen_dijo": {
+    "paneles": 14,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 14,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "14 fotos de celulas A549 con tratamiento"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC11827557|Fig. 2",
+   "imagen": "producto/imagenes/PMC11827557/d4ra06035k-f2.jpg",
+   "pie": "The FTIR spectra, SEM micrograph, and EXD of analyzed samples: (A) spectra for the synthesis of BpAgNPs from Bp plant aqueous extract, (B) spectra of formation of PEG-BpAgNPs from BpAgNPs and PEG, (C) spectra of formation of Cum-PEG-BpAgNPs from PEG-BpAgNPs and curcumin, (D) spectra indicating major",
+   "imagen_dijo": {
+    "paneles": 20,
+    "n_micro": 3,
+    "n_espectro": 17,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "FTIR apilado en 4 paneles (17 curvas); 3 SEM+EDS; dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC11893633|Fig. 1",
+   "imagen": "producto/imagenes_v02/PMC11893633/253_2025_13438_Fig1_HTML.webp",
+   "pie": "UV-vis and TEM investigation of AuNPs synthesized using P. aeruginosa ATCC 27853. Bacterial cell suspensions of 6.0 × 108 CFU/mL were incubated with 0.5 mM DS-AuCl4 at 25 °C (48 h), 37 °C (24 h), and 42 °C (24 h). (A) Progression of the AuNPs. UV-vis was recorded after 48 h of incubation (a), and im",
+   "imagen_dijo": {
+    "paneles": 19,
+    "n_micro": 8,
+    "n_espectro": 1,
+    "n_otro": 10,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "UV-vis, 2 fotos de viales, 16 TEM mixtos"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC11940350|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC11940350/biomedicines-13-00641-g001.jpg",
+   "pie": "(I). (a) Color change in the solution from brownish-red to a dark brown due to silver bioreduction by Melissa officinalis extract; (b) UV-Vis spectra of ME AgNPs samples obtained by reduction in time with Melissa officinalis extract; (c) UV-Vis spectra of 0.5 mM AgNO3 aqueous solution; (II). (a) Col",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "2 paneles UV-vis solapados"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC11941038|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC11941038/foods-14-00968-g003.jpg",
+   "pie": "FTIR spectra of βC, CS, LF and E-lips, E-CS-lips, E-CS-LF-lips, β-lips, β-CS-lips, β-CS-LF-lips (a), and DSC spectra of E-lips, E-CS-lips, E-CS-LF-lips, β-lips, β-CS-lips, β-CS-LF-lips (b).",
+   "imagen_dijo": {
+    "paneles": 14,
+    "n_micro": 0,
+    "n_espectro": 14,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "8 FTIR y 6 DSC apilados, conteo dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC11944286|Figure 3",
+   "imagen": "producto/imagenes/PMC11944286/molecules-30-01337-g003.jpg",
+   "pie": "Electron micrographs of nanocomposites Cz-β-CD-AgNPs (a) and CzP-β-CD-AgNPs (b) and diagrams of silver nanoparticles’ size distribution in the β-cyclodextrin matrix.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM a y b con inset histograma"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC11979898|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC11979898/d4ra07232d-f7.jpg",
+   "pie": "SEM EDX graph highlighting the presence of iron and oxygen.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "EDS de una curva"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC12026571|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC12026571/gels-11-00227-g002.jpg",
+   "pie": "FT-IR spectrum of hydrogel (I) and hydrogel loaded DOX (II).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR de 2 curvas solapadas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

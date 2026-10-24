@@ -1,0 +1,388 @@
+{
+ "lote": "A005",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC11111742|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC11111742/41598_2024_61946_Fig4_HTML.jpg",
+   "pie": "FT-IR analysis of synthesized AgNPs from the O. tenuiflorum (a), O. gratissimum (b), and O. americanum (c) leaf extracts.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "3 curvas FTIR superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC11123753|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC11123753/nanomaterials-14-00895-g003.jpg",
+   "pie": "XRD results of the analyzed samples (in the image, the diffraction planes correspond to the identified maxima) and of corresponding extracts.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD con curvas casi superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC11123753|Figure 4",
+   "imagen": "producto/imagenes/PMC11123753/nanomaterials-14-00895-g004a.jpg",
+   "pie": "TEM images and particle diameter histogram for samples MT-AgNP-(a) SAED image; (b) TEM image; (c) HR-TEM image; (d) particle diameter histogram-and MM-AgNP-(e) SAED image; (f) TEM image; (g) HR-TEM image; (h) particle diameter histogram.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 1,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "patron de difraccion con indices y 1 TEM"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC11203139|Figure 12",
+   "imagen": "producto/imagenes_v02/PMC11203139/gels-10-00356-g012.jpg",
+   "pie": "Phase-contrast micrographs of A431 cells treated for 72 h with non-loaded GNP and GNP-OA (6 mg/mL), free D (0.70 µM (IC25), 0.95 µM (IC50) or 1.29 µM (IC75)), GNP-D and GNP-OA-D (D concentrations corresponding to free D) (100× magnification).",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 16,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "cuadricula de 16 fotos de celulas A431"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC11203139|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC11203139/gels-10-00356-g004.jpg",
+   "pie": "Wide-angle (A) and small-angle (B) XRD patterns of doxorubicin (purple line), oleic acid (magenta line), NP (black line), NP-OA (red line), NP-D (green line) and NP-OA-D (blue line).",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 10,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "curvas apiladas, conteo dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC11206564|Figure 14",
+   "imagen": "producto/imagenes/PMC11206564/nanomaterials-14-01018-g014.jpg",
+   "pie": "Representative TEM images and histogram of size distribution of as-prepared AgNPs produced under UV-A irradiation for 1 h: (a) pH 4.5; (b) pH 5.4; (c) pH 8.5; (d) pH 12.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 histogramas de diametro con TEM insertos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC11206697|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC11206697/pharmaceuticals-17-00743-g001.jpg",
+   "pie": "UV-Vis spectra of the AgNPs synthesized by three isolates along with the control reaction.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 curvas UV-vis superpuestas y foto de viales"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC11240457|FIGURE 6",
+   "imagen": "producto/imagenes_v02/PMC11240457/fbioe-12-1400542-g006.jpg",
+   "pie": "Micrographs of representative rat liver sections from the different experimental groups showing the effect of CdCl2 exposure and the mitigating effect of Ag NPs. (A): Liver section of a rat from Group I (control); (B) Liver section of a rat from Group II (CdCl2 exposure); (C) Liver section from a ra",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 fotos histologicas H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC11241873|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC11241873/12866_2024_3400_Fig3_HTML.jpg",
+   "pie": "Physicochemical characterization of fabricated nanostructures. A Fourier Transform Infrared (FTIR) spectra of Cs, TCs, N@TCsNPs, and N/Se@TCsNPs. B Differential Scanning Calorimetry diagram of weight changes in the N/Se@TCsNPs. C Thermogravimetry diagrams; derivatives of weight changes in the N/Se@T",
+   "imagen_dijo": {
+    "paneles": 12,
+    "n_micro": 0,
+    "n_espectro": 10,
+    "n_otro": 2,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "A cascada 4; B superpuestas; C apilada; D,E liberacion"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC11242336|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC11242336/jcav15p4717g002.jpg",
+   "pie": "XRD patterns of batches B1, B2, B3 and B4 of polymeric micelles. B1, B2, B3 and B4 represent LUT-PMs, DOX-PMs and LUT-DOX-PMs, respectively.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "XRD etiquetado B1 con picos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC11270981|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC11270981/la4c01219_0001.jpg",
+   "pie": "(a) Vesicle radius in lin-log representation from dynamic light scattering (DLS) with increasing NaCl concentration, ϕM. The vertical arrows indicate the transition concentrations at 8, 75, and 500 mM. SANS results show the same trend. (b) Zeta-potential data as a function of ϕM. The solid line repr",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "a: radio vs NaCl; b: potencial zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC11270981|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC11270981/la4c01219_0003.jpg",
+   "pie": "(a) SANS scattering intensity for DOPC in D2O and different salt (NaCl) concentrations, ranging from 0 to 470 mM. The solid line represents the fits using the form factor for a unilamellar vesicle for 0 and 2 mM and a multilamellar vesicle for 4-470 mM samples. The data are vertically scaled for bet",
+   "imagen_dijo": {
+    "paneles": 22,
+    "n_micro": 1,
+    "n_espectro": 10,
+    "n_otro": 11,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "10 curvas SANS apiladas; 10 perfiles NSLD; dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC11279549|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC11279549/pharmaceutics-16-00901-g002.jpg",
+   "pie": "Zeta potential spectra of Ag@ Py-ST-X composites.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 distribuciones de potencial zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC11279838|Figure 11",
+   "imagen": "producto/imagenes_v02/PMC11279838/pharmaceutics-16-00947-g011a.jpg",
+   "pie": "(a) Displays photomicrographs of skin specimens from Group 1. On the left side, the images reveal interrupted dermis, congestion, vacuolated epithelial cells, hyperkeratosis, and cellular infiltration in the dermis. Increased cellular proliferation of the epidermis and disrupted hair follicles are a",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 fotos histologicas de oreja en 2 grupos"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC11300450|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC11300450/41598_2024_67599_Fig9_HTML.jpg",
+   "pie": "Photomicrographs illustrate several H&E-stained tissue specimens of mice breast (magnification × 400, (inset) ×200), (A-a) normal control breast showing typical TEBs (yellow arrows), (B-b) positive control group (PC) showing Plasmacytoid cells (black arrows), necrotic areas (red asterisks); (C-c) N.",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 10,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC11300498|Fig. 10",
+   "imagen": "producto/imagenes_v02/PMC11300498/10787_2024_1464_Fig10_HTML.jpg",
+   "pie": "Photomicrographs of kidney tissue sections stained with Masson’s trichrome (100×). A Normal control rat presenting absence fibrosis or collagen deposition; B AMK (20 mg/kg); and C AMK (30 mg/kg) nephrotoxic groups: displaying central fibrosis and blue stained collagen between glomeruli and tubules a",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Siete tejidos y gráfica"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC11300498|Fig. 9",
+   "imagen": "producto/imagenes_v02/PMC11300498/10787_2024_1464_Fig9_HTML.jpg",
+   "pie": "Photomicrographs of renal tissue sections stained with haematoxylin and eosin. A Average renal capsule (black arrow), average glomeruli, and average tubules in normal control group (200×); B Mildly congested glomeruli (black arrow) with average Bowman’s space, proximal tubules with mildly edematous ",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC11315693|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC11315693/41598_2024_66801_Fig2_HTML.jpg",
+   "pie": "Photomicrograph of rat mammary gland tissues infected with different E. coli and S. aureus doses. (A) The control group showed the presence of normal architecture and details with the presence of normal intact glandular epithelium and the presence of milk secretion remnant within the alveolar lumen ",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC11315693|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC11315693/41598_2024_66801_Fig7_HTML.jpg",
+   "pie": "Photomicrograph of rat mammary gland tissues treated with different doses of BER/CH-NPs. (A) control group showing the presence of mammary lobules containing alveoli filled with milk secretion with normal histo-architecture. (B) 1 mg/kg BER/CH-NPs group shows the presence of blood vessel congestion ",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 9,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC11315693|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC11315693/41598_2024_66801_Fig8_HTML.jpg",
+   "pie": "Photomicrograph of rat mammary gland tissues treated with different doses of CRE/CH-NPs. (a) 1 mg/kg CRE/CH-NPs group shows the presence of vacuolation of the alveolar epithelium (black arrows) with some degenerated alveoli (asterisk). (b) 5 mg/kg CRE/CH-NPs group shows minimal alveolar degeneration",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  }
+ ],
+ "hojas": []
+}

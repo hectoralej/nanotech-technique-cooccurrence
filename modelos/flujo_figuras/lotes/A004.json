@@ -1,0 +1,388 @@
+{
+ "lote": "A004",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC10675202|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC10675202/pharmaceutics-15-02551-g007b.jpg",
+   "pie": "Energy-dispersive X-ray spectrophotometry analysis of CNPs (a) and CNPs/Cc (b).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "EDS con tabla de cuantificacion"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC10700519|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10700519/41598_2023_48946_Fig3_HTML.jpg",
+   "pie": "FTIR of synthesized silver nanoparticles and plant extract.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC10707881|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10707881/molecules-28-07706-g003.jpg",
+   "pie": "(a) Raman spectra of different SLN formulations after freeze-drying; (b) Raman spectra of different SLN formulations that were freeze-dried after incubation in SNF (See Section 4.7).",
+   "imagen_dijo": {
+    "paneles": 14,
+    "n_micro": 0,
+    "n_espectro": 14,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Cascadas diminutas; conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC10707881|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10707881/molecules-28-07706-g005.jpg",
+   "pie": "Visualization of various GSE/DA SLNs with sucrose or Me-β-CD as a cryoprotectant by atomic force microscopy before freeze-drying.",
+   "imagen_dijo": {
+    "paneles": 21,
+    "n_micro": 21,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "AFM Height/Amplitude/Phase; numero de filas dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC10741590|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10741590/biomolecules-13-01785-g005a.jpg",
+   "pie": "Scanning electron micrographs of A. flavus with 11.4 µg/mL of AuNPs. (A) Mycelia of A. flavus (Control: Working distance (4.6 nm)). (B) Treated: Working distance (3.9 nm) at 5 µm. (C) Spore of A. flavus (Control: Working distance (4.6 nm)). (D) Treated: Working distance (4.7 nm) at 1 µm. Magnificati",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 micrografias de fibras (A) y (B)"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC10741590|Figure 6",
+   "imagen": "producto/imagenes/PMC10741590/biomolecules-13-01785-g006.jpg",
+   "pie": "SEM images with EDX analysis of gold nanoparticles synthesized using fungal extract of S. commune. The graph represents the elemental analysis of AuNPs within the fungal mycelia while the inset picture contains the position where the AuNPs affected the fungal mycelia.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "EDS con tabla cuantitativa; inset SEM no cuenta"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC10744923|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10744923/materials-16-07675-g003.jpg",
+   "pie": "FTIR of AuNPs and LL-37@AuNPs conjugates.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "No se confirma desplazamiento artificial"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC10745322|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC10745322/microorganisms-11-02975-g001.jpg",
+   "pie": "UV-visible absorbance spectra of biogenic AgNPs synthesized intracellularly using Aggregatimonas sangjinii F202Z8T (intracellular, the red line) pellet with AgNO3; (intracellular, the black line) heat-killed pellet with AgNO3 as control; (extracellular, the blue line) supernatant with AgNO3.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC10747331|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC10747331/pharmaceutics-15-02690-g001.jpg",
+   "pie": "The evolution of the absorption spectra during Ag+ reduction.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC10819627|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10819627/nanomaterials-14-00199-g005.jpg",
+   "pie": "Results show that the alterations in the expression of pro-oxidant (a), antioxidant (b), pro-inflammatory, and anti-oncogene-associated genes (c) in positive control, LS, and LS-SLNp-pretreated (24 h) human mesenchymal stem cells (hMSCs) exposed to H2O2 for 24 h. The values are presented as mean ± S",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 graficas de barras de expresion a, b, c"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC10839552|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC10839552/d3ra07819a-f6.jpg",
+   "pie": "Micrographs from the fluorescent microscope (400× magnification). Morphology of SW-480 control cells and cells treated with AgNPs-H2O and AgNPs-acetone in IC50 concentration (μg mL-1). Viable cells-VC; early apoptosis-EA; late apoptosis-LA and necrotic cells-NC.",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 fotos de fluorescencia de celulas SW-480"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC10850913|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC10850913/gr6.jpg",
+   "pie": "A. in vitro drug release of optimized ENZ-PLGA-PSAR-TPGS NPs along with drug ENZ, ENZ-PLGA NPs, ENZ-PLGA-PSAR NPs. B. FT-IR spectra of ENZ, PLGA, PSAR, TPGS, PLGA-PSAR NPs, Physical Mix, Placebo (PLGA-PSAR-TPGS NPs) and DF (ENZ-PLGA-PSAR-TPGS NPs) C. DSC of ENZ, Placebo (PLGA-PSAR-TPGS NPs) and DF (",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 3,
+    "n_otro": 1,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "A liberacion; B, C, D espectros diminutos"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC10856183|Figure 11",
+   "imagen": "producto/imagenes_v02/PMC10856183/ijms-25-01913-g011.jpg",
+   "pie": "Cytotoxicity studies of AgNPs against L929 cells (A), rat bone mesenchymal stem cells (B), and human periodontal ligament cells (C). Significant changes are shown. ** p < 0.01.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 graficas de barras de viabilidad A-C"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC10856183|Figure 4",
+   "imagen": "producto/imagenes/PMC10856183/ijms-25-01913-g004.jpg",
+   "pie": "TEM analysis of AgNPs. TEM images of AgNPs at 50 nm (A) and 100 nm (B). Insets show the size distribution of the synthesized AgNPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM (A y B) con histogramas insertos"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC10861598|Fig. 3",
+   "imagen": "producto/imagenes/PMC10861598/41467_2024_45666_Fig3_HTML.jpg",
+   "pie": "Identification of filled and empty inverse hexagonal structures.a Representative cryoTEM and FFTs of 49PE-LNP-noRNA showing two distinct structures: straight lines and hexagons. Scale bars are 50 nm. b Quantification of lattice spacings of structures found in 49PE-LNP at different RNA amounts: no RN",
+   "imagen_dijo": {
+    "paneles": 14,
+    "n_micro": 6,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "figura densa, cryo-EM mezclado con renders de color"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC10876668|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10876668/41598_2024_54702_Fig2_HTML.jpg",
+   "pie": "UV-Vis spectrum of the R. discolor extract and AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC11013818|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC11013818/polymers-16-00947-g007.jpg",
+   "pie": "FTIR mapping images of native wood (A,B,K); a wood sample spray-coated with EOL-TC before (C,D) and after (E,F) the leaching experiment; a wood sample coated with EOL-TV before (G,H) and after (I,J) leaching; a wood sample coated with EOP-TC before (L) and after (M) leaching; and a wood sample coate",
+   "imagen_dijo": {
+    "paneles": 15,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 15,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "15 mapas de color A-O"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC11051985|Figure 1",
+   "imagen": "producto/imagenes/PMC11051985/molecules-29-01746-g001.jpg",
+   "pie": "Transmission electron microscopic (TEM) images of (a) exfoliated BP NSs and (b) polyethylene glycol (PEG)-modified black phosphorous (BP) nanosheets (NSs) with glutathione-stabilized (GSH) doxorubicin (DOX) drug-incorporated Au nanoparticles (BP-PEG@Au-GSH-DOX NSs) and size distribution of Au NPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "Histograma interno no cuenta aparte."
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC11054826|Figure 3",
+   "imagen": "producto/imagenes/PMC11054826/pharmaceutics-16-00525-g003a.jpg",
+   "pie": "SEM micrographs of (a) MCM-41@MOE, (b) MCM-41@APTES@MOE, (c) MCM-48@MOE and (d) MCM-48@APTES@MOE.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC11054826|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC11054826/pharmaceutics-16-00525-g007.jpg",
+   "pie": "The 3D FTIR diagram for evolved gases from the thermal analysis of MCM-41@MOE (a) and its 2D projection in temperature/wavenumber space (b); the red line corresponds to the FTIR spectrum at 271 °C, and the green line corresponds to the CO2 elimination trace (at wavenumber 2355 cm-1).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "superficie 3D y mapa de color temperatura"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  }
+ ],
+ "hojas": []
+}

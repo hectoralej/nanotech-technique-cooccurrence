@@ -1,0 +1,388 @@
+{
+ "lote": "A008",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC12343858|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC12343858/41598_2025_14098_Fig3_HTML.jpg",
+   "pie": "UV-visible absorption spectra of (a) Fe3O4 NPs and Fe2O3 NPs synthesized from P. aeruginosa kb1, inset the photograph of the Fe3O4 NPs attracted by a magnet, and (b) Ag-doped Fe3O4 NPs and Ag-doped Fe2O3 NPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "2 UV-vis con 2 curvas solapadas"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC12347104|Figure 3",
+   "imagen": "producto/imagenes/PMC12347104/ijms-26-07645-g003a.jpg",
+   "pie": "TEM micrographics of (a) P-AuNPs, (b) L-Cys-AuNPs, (c) D-Cys-AuNPs, and (d) size distribution of DLS analysis.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC12389588|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC12389588/pharmaceutics-17-00988-g004.jpg",
+   "pie": "In vitro cytotoxicity of BGNSs under near-infrared (NIR) irradiation. (a) SW620-GFP colon cancer cells were treated with BGNSs at dilutions of 1:5, 1:10, and 1:20, followed by NIR laser exposure (800 nm, 2 W, 6 min). Cell viability was assessed using the MTT assay. (b) A dose-dependent decrease in v",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "barras de viabilidad a y curva de temperatura b"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC12389588|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC12389588/pharmaceutics-17-00988-g008.jpg",
+   "pie": "Tumor volume progression in the near-infrared (NIR) irradiation group over 28 days. Although tumor growth was slower than that in the untreated control group, it remained substantial, reaching an average of 472 mm3 by day 28. Individual tumor measurements and group means (blue dots) are shown with 9",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "curva de tamano tumoral vs dias, sin espectro"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC12412931|Fig 11",
+   "imagen": "producto/imagenes_v02/PMC12412931/pone.0327375.g011.jpg",
+   "pie": "Histopathology of liver in male and female rats.Photomicrographs show histological sections of the liver with hepatocytes (H), sinusoids (S), central vein (CV), portal vein (PV), and connective tissue (CT), (H&E X100).",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC12412931|Fig 12",
+   "imagen": "producto/imagenes_v02/PMC12412931/pone.0327375.g012.jpg",
+   "pie": "Histopathology of kidney in male and female rats.Photomicrographs show histological sections of the kidney sections that include Bowman’s capsule (BC), proximal convoluted tubule (PCT), distal convoluted tubule (DCT), and glomerulus (G), (H&E X100).",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC12412931|Fig 13",
+   "imagen": "producto/imagenes_v02/PMC12412931/pone.0327375.g013.jpg",
+   "pie": "Histopathology of skin in male and female rats.Photomicrographs show histological sections of the skin sections that display the epidermis (E) and hair follicle (HF), (H&E X100).",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC12442030|Fig. 10",
+   "imagen": "producto/imagenes_v02/PMC12442030/d5ra05660h-f10.jpg",
+   "pie": "Representative cross-sectional photomicrographs of H & E-stained vital organs at 100× magnification in experimental groups of adult male Sprague Dawley rats. (a) Liver section of the control exhibited a typical arrangement of hepatocytes around the central vein, (b) Liver section of LP administered ",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 9,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC12442030|Fig. 2",
+   "imagen": "producto/imagenes/PMC12442030/d5ra05660h-f2.jpg",
+   "pie": "Characterization of LP@AgNPs, UV-visible spectra (a) AgNO3, (b) LP, and (c) LP@AgNPs, FTIR spectra of (d) LP, (e) LP@AgNPs, (f) zeta potential analysis of LP@AgNPs, (g) the PXRD spectrum demonstrating FCC pattern of the NPs (h) the SEM micrograph of LP@AgNPs crystals, (i) Histogram (j) the EDX spect",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 1,
+    "n_espectro": 7,
+    "n_otro": 8,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Mosaico diminuto; técnicas y curvas no legibles"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC12442030|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC12442030/d5ra05660h-f3.jpg",
+   "pie": "Representative cross-sectional photomicrographs of H & E stained STs at 100×, 400×, and 1000× in experimental groups of adult male Sprague Dawley rats. Photomicrographs (a-c) represent the control group, showing compactly arranged spermatogonia (STs), normal epithelium (E), and low levels of spermat",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 9,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC12442030|Fig. 5",
+   "imagen": "producto/imagenes_v02/PMC12442030/d5ra05660h-f5.jpg",
+   "pie": "Representative cross-sectional photomicrographs of H & E stained caput and cauda epididymis at 100× in experimental groups of adult male Sprague Dawley rats. (a) The caput of the control group showing normal cellular artitecture, (b) the cauda of the control group at 100× magnification, showing typi",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC12442030|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC12442030/d5ra05660h-f7.jpg",
+   "pie": "Representative cross-sectional photomicrographs of H & E-stained ventral prostate at 40× and 100× in experimental groups of adult male Sprague Dawley rats. Photomicrographs (a and b) represent the control group showing intact acini and normal prostate histology. Photomicrographs (c and d) correspond",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC12442030|Fig. 9",
+   "imagen": "producto/imagenes_v02/PMC12442030/d5ra05660h-f9.jpg",
+   "pie": "Representative cross-sectional photomicrographs of H & E-stained seminal vesicles at 100× in experimental groups of adult male Sprague Dawley rats. Photomicrographs (a, b) represent the control group at 40× and 100× magnifications, respectively, showing normal MU, M, and L. Photomicrographs (c, d) c",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC12463224|Fig 1",
+   "imagen": "producto/imagenes_v02/PMC12463224/pone.0321172.g001.jpg",
+   "pie": "Percentage inhibition vs. concentration graphs obtained from DPPH assay.Here, CLM: Centella leaf methanolic extract, CSM: Centella stem methanolic extract, CLH: Centella leaf hexane extract, CSH: Centella stem hexane extract.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "curvas dosis-respuesta de 5 muestras, % inhibicion"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC12463224|Fig 11",
+   "imagen": "producto/imagenes_v02/PMC12463224/pone.0321172.g011.jpg",
+   "pie": "Photographs showing the formation of ZOI against the test bacteria used.(a) Staphylococcus aureus, (b) Shigella sonnei, (c) Klebsiella pneumoniae, and (d) Escherichia coli. Here, CLE: Centella leaf extract, CLN: Centella leaf extract-assisted synthesized AgNPs, CSE: Centella stem extract, CSN: Cente",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 fotos de cajas de Petri a-d"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC12463224|Fig 6",
+   "imagen": "producto/imagenes_v02/PMC12463224/pone.0321172.g006.jpg",
+   "pie": "(a) FTIR spectra of C. asiatica leaf and stem extracts, and (b) FTIR spectra of AgNPs prepared using C. asiatica leaf and stem extracts.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "2 FTIR con 2 curvas en mismos ejes"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC12463224|Fig 7",
+   "imagen": "producto/imagenes_v02/PMC12463224/pone.0321172.g007.jpg",
+   "pie": "Powder XRD patterns of AgNPs were synthesized using the leaf and stem extracts of C. asiatica.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD Leaf y Stem superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC12473889|Figure 1",
+   "imagen": "producto/imagenes/PMC12473889/pharmaceutics-17-01211-g001.jpg",
+   "pie": "Histograms of size distribution of the different AuNPs obtained by the analysis of the transmission electron microscopy (TEM) images (inserted in all graphics). The AuNPs were synthesized using the following reducing agents: (A) citrate (n = 135); (B) L-cysteine (n = 135); (C) cysteamine (n = 73); a",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 histogramas de tamano con insets TEM"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC12484951|Fig. 5",
+   "imagen": "producto/imagenes_v02/PMC12484951/41598_2025_97201_Fig5_HTML.jpg",
+   "pie": "(A,B) DLS spectrum (C) Zeta potential of AgNPs synthesized using leaf extract of S. bryopteris.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "distribucion de tamano, tabla y potencial zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC12561917|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC12561917/biomedicines-13-02476-g004.jpg",
+   "pie": "Particle size distribution of andrographolide-loaded iron oxide nanoparticles (AG-IONPs) obtained from transmission electron microscopy (TEM) image analysis.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "histograma de diametro de particulas"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

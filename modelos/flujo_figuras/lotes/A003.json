@@ -1,0 +1,388 @@
+{
+ "lote": "A003",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC10463857|Fig. 4",
+   "imagen": "producto/imagenes_v02/PMC10463857/12870_2023_4407_Fig4_HTML.jpg",
+   "pie": "Characterization of Chitosan and Chitosan NPs: (A) FTIR of Chitosan, (B) FTIR of Chitosan NPs",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR con 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC10482356|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC10482356/cureus-0015-00000043087-i01.jpg",
+   "pie": "UV-Visible spectrum of Gold nanoparticles synthesized from Curcuma longa. A: Before synthesis of nanoparticles; B: After synthesis of nanoparticles",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 fotos de tubos A y B"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC10534332|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10534332/molecules-28-06504-g002a.jpg",
+   "pie": "Results representing the characterization of biogenic Fe2O3-NPs. (a) UV-visible graph (a sharp peak at 350 nm is attributed to Fe2O3-NPs); (b) XRD graph (highlighted peaks are attributed to crystalline nature of Fe2O3-NPs); (c) EDX graph (clear Fe and O peaks).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC10536778|Figure 2",
+   "imagen": "producto/imagenes/PMC10536778/pharmaceutics-15-02298-g002.jpg",
+   "pie": "UV-Vis spectra, TEM micrographs, zeta potential distribution, and size analysis via MADLS of: (A) SN sample 2C8R4.5; (B) SN-Cx sample 2C8R4.5Cx+++.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "Dos paneles principales; múltiples insets"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC10545585|Fig. 8",
+   "imagen": "producto/imagenes_v02/PMC10545585/13346_2023_1353_Fig8_HTML.jpg",
+   "pie": "PAS-stained photomicrographs of the C. albicans infected rabbit buccal and tongue mucosa with/out treatment (a-e). The untreated mucosa displays the persistence of the hyphae and spores at the surface epithelium (blue arrows), inducing mild dysplastic changes in terms of pleomorphism, hyperchromatis",
+   "imagen_dijo": {
+    "paneles": 17,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 17,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Dieciséis tejidos y una gráfica"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC10556707|FIGURE 3",
+   "imagen": "producto/imagenes_v02/PMC10556707/fchem-11-1273360-g003.jpg",
+   "pie": "UV-Vis spectrum of (A) Terminalia arjuna extract, Terminalia arjuna bark extract-reduced SeNPs, selenious acid, and ascorbic acid. (B) Stability of TA-SeNPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC10609381|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10609381/mps-06-00097-g005.jpg",
+   "pie": "FTIR spectra of pure excipients (C888 and T).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC10609787|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC10609787/pharmaceuticals-16-01413-g001.jpg",
+   "pie": "UV-Vis spectrophotometry of LER-AgNPs showing absorption peak at different 430 nm characteristic to colloidal silver nanoparticles (a), whereas the Mie scattering plot represents silver colloidal in an aqueous medium with an average size distribution of 76 nm (b).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "a y b UV-vis con curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC10609787|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC10609787/pharmaceuticals-16-01413-g004.jpg",
+   "pie": "FT-IR spectroscopy of LER and LER-AgNPs showing various vibrational stretches associated to different functional groups of its biomolecules.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR con 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC10609787|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC10609787/pharmaceuticals-16-01413-g006.jpg",
+   "pie": "Dynamic light scattering (DLS) spectroscopy and Zeta potential of LER-AgNPs showing the average hydrodynamic size of 85.36 nm (a) and Zeta potential of -25.5 mV (b).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 paneles DLS y zeta con tablas"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC10642314|FIGURE 4",
+   "imagen": "producto/imagenes/PMC10642314/fmolb-10-1292509-g004.jpg",
+   "pie": "(A) TEM of AA-AgNPs made from an aqueous extract of Aborma augusta at ×40000 magnification. (B) The zeta potential of synthesized AA-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 1,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "TEM y tabla con curva de zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC10643307|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC10643307/210_2023_2556_Fig7_HTML.jpg",
+   "pie": "Tumor histopathology photomicrographs in control mice group (C) and mice groups treated with iron oxide nanoparticles (0.8 mg/mL) (IONPs), iron-silver nanoparticles (1.6 mg/mL) (IO@AgNPs), high radiation dose (HRD) (12 Gy), iron oxide nanoparticles (0.8 mg/mL) and low radiation dose (LRD) (6 Gy) (IO",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC10643307|Fig. 9",
+   "imagen": "producto/imagenes_v02/PMC10643307/210_2023_2556_Fig9_HTML.jpg",
+   "pie": "Liver histopathology photomicrographs in control mice group and mice groups treated with iron oxide nanoparticles (0.8 mg/mL) (IONPs), iron-silver nanoparticles (1.6 mg/mL) (IO@AgNPs), high radiation dose (HRD) (12 Gy), iron oxide nanoparticles (0.8 mg/mL) and low radiation dose (LRD) (6 Gy) (IONPs ",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC10647271|Figure 1",
+   "imagen": "producto/imagenes/PMC10647271/molecules-28-07399-g001.jpg",
+   "pie": "Characterization of PTF-SLNs. (A) The HPLC chromatogram of the PTF; (B) The HPLC chromatogram of the PTF-SLNs; (C) The picture of PTF solution, PTF-SLNs suspension, PTF-SLs freeze-dried sample, and B-SLNs freeze-dried sample; (D) TEM images of PTF-SLNs suspension; (E) The particle size distribution ",
+   "imagen_dijo": {
+    "paneles": 20,
+    "n_micro": 1,
+    "n_espectro": 7,
+    "n_otro": 12,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Figura densa; FTIR y fotos diminutos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC10647797|Figure 4",
+   "imagen": "producto/imagenes/PMC10647797/foods-12-03946-g004a.jpg",
+   "pie": "TEM of different liposomes. (A) Empty-Lip, (B) Rh2-Lip, (C) ACP-Rh2-Lip, (D) CS-Rh2-Lip.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 micrografias TEM con barra de escala"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC10673925|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC10673925/41467_2023_43465_Fig2_HTML.jpg",
+   "pie": "The structure and surface properties of NPs.a XPS spectra, b thermogravimetric analysis (TGA) curves, c Small angle X-ray scattering (SAXS) patterns d N2 adsorption/desorption isotherms and e pore size distribution curves of NPs. Source data of a-e are provided as a Source Data file. f Oil-water dis",
+   "imagen_dijo": {
+    "paneles": 18,
+    "n_micro": 0,
+    "n_espectro": 8,
+    "n_otro": 10,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "multipanel a-r; confocal, barras, curvas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC10673925|Fig. 6",
+   "imagen": "producto/imagenes/PMC10673925/41467_2023_43465_Fig6_HTML.jpg",
+   "pie": "Cellular uptake of NPs on Caco-2 cells.a bio-TEM images of the cellular uptake of NPs on Caco-2 cells. Experiment was repeated three times independently with similar results. b CLSM images of the cellular uptake of RITC labeled NPs on Caco-2 cells; blue: cell nucleus stained with DAPI, red: RITC lab",
+   "imagen_dijo": {
+    "paneles": 74,
+    "n_micro": 12,
+    "n_espectro": 0,
+    "n_otro": 62,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "Fluorescencia y citometría; cuadrícula densa"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC10673925|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC10673925/41467_2023_43465_Fig7_HTML.jpg",
+   "pie": "Oral delivery efficiency of IMC loaded NPs.a FTIR spectra and b X-ray diffraction (XRD) patterns of IMC@MSN, IMC@VSN, and IMC@CVSN before and after drug loading. Source data are provided as a Source Data file. In vitro drug release of IMC loaded NPs in c SGF and d SIF. Data are presented as the mean",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 14,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "multipanel a-p; histologia, liberacion, barras"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC10674346|Figure 8",
+   "imagen": "producto/imagenes/PMC10674346/nanomaterials-13-02969-g008.jpg",
+   "pie": "Scanning electron microscopy (SEM) images of biosynthesized bacterial levan-capped silver nanoparticles in colloid systems produced by green biosynthesis. Energy-dispersive X-ray spectroscopy (EDX) pattern (A) of silver nanoparticles produced by bacterial levan captured in four randomly selected reg",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 15,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "rejilla densa de micrografias, conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC10674550|Figure 3",
+   "imagen": "producto/imagenes/PMC10674550/polymers-15-04394-g003.jpg",
+   "pie": "TEM images of Ag-Cell-NCMs (a), and Ag-Cell-NCM-adsorbed CV dye (b).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM (a y b), escalas 100 nm"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

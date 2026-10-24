@@ -1,0 +1,388 @@
+{
+ "lote": "A015",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC7763323|Figure 4",
+   "imagen": "producto/imagenes/PMC7763323/antibiotics-09-00902-g004a.jpg",
+   "pie": "(a) Scanning electron microscopy(SEM) images of synthesized Ag NPs from Catharanthus roseus; (b) energy dispersive X-ray (EDX) spectrum of C Ag NPs showing the presence of different phytoelements as capping agents.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "SEM unica con barra de 10 um"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC7763323|Figure 5",
+   "imagen": "producto/imagenes/PMC7763323/antibiotics-09-00902-g005a.jpg",
+   "pie": "(a) Scanning electron microscopy (SEM) images of synthesized Ag NPs from Azadirachta indica; (b) energy dispersive X-ray (EDX) spectrum of A Ag NPs showing the presence of different phytoelements as capping agents.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "SEM unica con barra de 10 um"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC7854673|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC7854673/41598_2020_80529_Fig2_HTML.jpg",
+   "pie": "UV-Vis absorption spectra of the synthesized gold nanoformulations (a) AuNPs (λmax = 527 nm), (b) AuNPs-SH-PEG-NH2 (λmax = 528 nm), (c) Dtx (λmax = 231 nm), (d) FA (λmax = 277 and 344 nm), (e) AuNPs-PEG-FA (λmax = 277, 344 and 528 nm) and (f) AuNPs nanoformulations (λmax = 228, 277, 344 and 528 nm) ",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "6 UV-vis superpuestos a-f"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC7908990|Figure 14",
+   "imagen": "producto/imagenes_v02/PMC7908990/nanomaterials-11-00256-g014.jpg",
+   "pie": "AgNPs’ cellular uptake quantification through Ag+ quantification by atomic absorption spectrometry (AAS) in LNCaP cells (A,B) and in PC-3 cells (C,D).",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 graficas de captacion y 2 tablas de Ag"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC7957607|Figure 11",
+   "imagen": "producto/imagenes_v02/PMC7957607/polymers-13-00748-g011.jpg",
+   "pie": "DPPH scavenging activity of PAN nanofiber, PAN/AgNPs1, PAN/AgNPs2, PAN/AgNPs3, PAN/AgNPs4, PAN/AgNPs5, and PAN/AgNPs6 measured by UV-visible spectrophotometer.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 barras de actividad antioxidante"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC8004209|Figure 11",
+   "imagen": "producto/imagenes_v02/PMC8004209/pharmaceutics-13-00423-g011.jpg",
+   "pie": "Confocal photomicrographs. (A-D) Au@16-pH-16 directly on the cell-free slide. (E,F) BJ-hTERT cells labeled with DAPI and without any treatment. (A-E) The presence or absence of N3 nanoparticles with fluorescence (B-F) and transmitted light (C-G). (D-H) show the result of the merge.",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 paneles fluorescencia/confocal; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC8004209|Figure 12",
+   "imagen": "producto/imagenes_v02/PMC8004209/pharmaceutics-13-00423-g012.jpg",
+   "pie": "Confocal photomicrographs showing BJ-hTERT cells treated with free nanoparticle N3 Au@16-pH-16 at 0 h (A-D) and 24 h after treatment (E-H). (A,E,D,H) the cell nuclei labeled with fluorochrome DAPI. The presence of nanoparticles with fluorescence is shown in (B,F) and with transmitted light in (C,G).",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 paneles fluorescencia/confocal; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC8004209|Figure 13",
+   "imagen": "producto/imagenes_v02/PMC8004209/pharmaceutics-13-00423-g013.jpg",
+   "pie": "Confocal photomicrographs showing BJ-hTERT cells treated with C3 Au@16-Ph-16/DNA-5-Fu-compacted nanosystems at 0 h (A-D) and 24 h after treatment (E-H). (A,E) show the cell nuclei labeled with fluorochrome DAPI. The presence of nanoparticles with fluorescence is shown in (B,F) and with transmitted l",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 paneles fluorescencia/confocal; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC8068190|Figure 6",
+   "imagen": "producto/imagenes/PMC8068190/pharmaceutics-13-00511-g006a.jpg",
+   "pie": "SEM image (A) and EDX image (B) of Eh-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC8068190|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC8068190/pharmaceutics-13-00511-g007.jpg",
+   "pie": "Zeta potential spectrum of Eh-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 distribucion de potencial zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC8100210|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8100210/fmicb-12-632505-g001.jpg",
+   "pie": "UV-Vis spectrum of biosynthesized AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 2 curvas en mismos ejes"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC8150543|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8150543/toxics-09-00105-g001.jpg",
+   "pie": "N2 adsorption-desorption isotherm (inset: XRD pattern) of Fe2O3 NPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "isoterma BET (otro); inset XRD no cuenta"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC8163746|Figure 12",
+   "imagen": "producto/imagenes_v02/PMC8163746/41598_2021_90763_Fig12_HTML.jpg",
+   "pie": "(A) Photomicrographs of tissue sections stained with H&E (40X mag), Skin biopsy of the control group showed no histopathological alterations at 14 days. (B) Biopsies with the vehicle show a zone of cellular debris, fibrin, hyaline material (crust) as well as a very evident inflammation that extends ",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 cortes histologicos H&E; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC8196760|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC8196760/polymers-13-01680-g002.jpg",
+   "pie": "FTIR spectra of (A) Lyophilized aqueous M.frondosa leaf extract (B) Lyophilized AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 FTIR en mismos ejes"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC8196760|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC8196760/polymers-13-01680-g008.jpg",
+   "pie": "UV-Visible spectra of the synthesized nanocomposite films.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 3 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC8309574|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC8309574/polymers-13-02382-g003.jpg",
+   "pie": "Small-angle X-ray spectrum of electrolytes 3 and 4. The holding time of the solutions is 0-60 min.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC8399506|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8399506/materials-14-04765-g001.jpg",
+   "pie": "UV-VIS spectra recorded for prepared Ag-NPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis pH 8-13 superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC8401344|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8401344/pharmaceutics-13-01143-g001.jpg",
+   "pie": "UV-Vis spectra acquired during the time-course of the NanoBro synthesis. Green line shows the HEPES-buffered Bro solution. Orange lines show the spectral changes of HAuCl4 in subsequent times after addition to Bro solution as indicated by the arrow. Gray lines show the increase of absorbance and tur",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis multicurva; foto inset no cuenta"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC8401758|Figure 6",
+   "imagen": "producto/imagenes/PMC8401758/nanomaterials-11-02103-g006.jpg",
+   "pie": "TEM imaging (insets) with EDS analysis of field with NPs for (A) 80:20 and (B) 20:80 samples fired in reductive environments.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "2 espectros EDS 80:20 y 20:80"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC8465188|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8465188/pharmaceutics-13-01461-g001.jpg",
+   "pie": "Optical photomicrographs of CS/PVA hydrogels after the last six freeze-thaw cycles and a holding time of 24 h.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 fotos de films en disco"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  }
+ ],
+ "hojas": []
+}

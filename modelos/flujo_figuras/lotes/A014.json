@@ -1,0 +1,388 @@
+{
+ "lote": "A014",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC6801874|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC6801874/ijms-20-04667-g008.jpg",
+   "pie": "(A) DLS result of CNP°-CGA and (B) normal distribution and frequency graphs of CNP°-CGA particle sizes (nm) obtained by measuring particle size in FESEM image in (Figure 6B) using ImageJ software. Comparable particle size range of CNP° was observed between DLS (134.44 ± 18.29 nm) and FESEM (80 nm to",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "distribucion de tamano DLS e histograma"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC6831671|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC6831671/41598_2019_52496_Fig2_HTML.jpg",
+   "pie": "UV-Visible absorption spectroscopy of the synthesis of gold nanoparticles from the midpoint of full factorial design and the optimal point.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 curvas UV-vis superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC6930568|Figure 6",
+   "imagen": "producto/imagenes/PMC6930568/molecules-24-04366-g006.jpg",
+   "pie": "TEM images of the organosilica monolith particles with a MTMS/SHTMS/SHDMS = 3:1:2 composition loaded with gold nanoparticles at (a) low magnification (inset is the corresponding size distribution of gold nanoparticles) and (b) high magnification.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM a y b, a con inset de histograma"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC6975051|Fig. 2",
+   "imagen": "producto/imagenes/PMC6975051/12951_2020_579_Fig2_HTML.jpg",
+   "pie": "TEM images (a), TEM-EDX analysis data of AC-Bud-Lip (b), and FT-IR spectra (c). EDX line scan analysis data were obtained along the arrow shown in b-1",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 4,
+    "n_espectro": 8,
+    "n_otro": 1,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "dudoso: FTIR cascada de unas 6 curvas; mapa elemental como otro"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC7013419|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC7013419/ijms-21-00559-g003.jpg",
+   "pie": "Fourier-transform infrared spectroscopy (FTIR) spectrum of the PLCispt. Arrows show the position of chemical bonds of Cispt which are preserved in PLCispt.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 FTIR superpuestos (Cispt y PLCispt)"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC7335759|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC7335759/43141_2020_33_Fig2_HTML.jpg",
+   "pie": "Zeta potential distribution of chitosan nanoparticles (CNPs) loaded with Pterocarpus marsupium (PM) stem bark extract concentrations. a CNPs. b PM-CNPs-1. c PM-CNPs-2. d PM-CNPs-3",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 distribuciones de potencial zeta"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC7335759|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC7335759/43141_2020_33_Fig3_HTML.jpg",
+   "pie": "Particle size distribution of chitosan nanoparticles (CNPs) loaded with different P. marsupium stem bark extract concentrations. a PM-CNPs-1. b PM-CNPs-2. c PM-CNPs-3",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 distribuciones de tamano"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC7412267|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC7412267/molecules-25-03091-g006.jpg",
+   "pie": "(A) EDX and elemental mapping of Ag NPs. (a). Uniform distribution silver NPs (b). oxygen, (c) Mixed elemental mapping of carbon, oxygen and silver NPs; (B) EDX and elemental mapping of Au NPs. (a). Gold NPs (b). oxygen, (c) Mixed elemental mapping of carbon, oxygen and gold NPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "A,B: EDS con mapas elementales"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC7435648|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC7435648/molecules-25-03324-g002b.jpg",
+   "pie": "The UV-Visible spectrum of synthesized parthenium silver nanoparticles (PrSNPs) (A) as a function of time (B) as a function of silver nitrate concentration (C) and as a function of leaf extract concentration.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "B y C: UV-vis superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC7540761|Figure 3.",
+   "imagen": "producto/imagenes_v02/PMC7540761/rsos201266-g3.jpg",
+   "pie": "(a) XRD patterns of PEO, Gel, AA, COL, PEO nanofibre, PEO-Gel-AA-COL-GtAu nanofibre and PEO-Gel-AA-COL-OpAu nanofibre. (b) Enlarged image of PEO-Gel-AA-COL-GtAu nanofibre and PEO-Gel-AA-COL-OpAu nanofibre indicating the presence of peaks corresponding to Au NP.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "a multiples patrones; b zoom dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC7544908|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC7544908/41598_2020_73683_Fig6_HTML.jpg",
+   "pie": "UV-Vis for Xa-AgNPs and Ff-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC7560243|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC7560243/materials-13-04138-g003.jpg",
+   "pie": "UV-Vis absorption spectra of AuNPs prepared at different HAuCl4·3H2O concentrations: (a) 0.4, (b) 0.7, (c) 1.0 and (d) 1.3 mM.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 curvas UV-vis superpuestas a-d"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC7563538|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC7563538/vaccines-08-00551-g007.jpg",
+   "pie": "Fluorescence micrographs of DC2.4 cells internalising SLN-A nanoparticles within 24 h. Cell nuclei counterstained with DAPI (blue) and SLN-A nanoparticles (red) are displayed. The speed of cell uptake of SLN-A nanoparticles by DC2.4 cells was visualised at 0, 1, 3, 6, 12 and 24 h timepoints. Particl",
+   "imagen_dijo": {
+    "paneles": 18,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 18,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia celular"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC7563538|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC7563538/vaccines-08-00551-g008.jpg",
+   "pie": "Fluorescence micrograph of DAPI-stained DC2.4 cells (blue; nuclei) expressing Urease alpha (UreA) labelled with AlexaFluor 488 conjugated anti-His monoclonal antibody (green). Cells were transfected with lipoplex-A (SLN-A nanoparticles loaded with pcDNA3.1-UreA) and were found to be expressing UreA ",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia celular"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC7587532|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC7587532/molecules-25-04795-g007.jpg",
+   "pie": "(I) TEM observations of the damaged membrane of Xanthomonas oryzae pv. oryzae strain GZ0005 treated with (A) sterile water, (B,C) CSNPs at 16 μg/mL, and (D,E) ZnONPs at 16 μg/mL. (II) Flow cytometry observations of Xanthomonas oryzae pv. oryzae strain GZ0005 cells after incubation with (A) sterile w",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 13,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Bacterias, citometría y fluorescencia son otro"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC7609118|Fig.1.",
+   "imagen": "producto/imagenes_v02/PMC7609118/AFHS2002-0815Fig1.jpg",
+   "pie": "UV-Vis absorption spectrum of plant extract and Au-NPs",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 curvas UV-vis en mismos ejes"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC7609118|Fig.5.",
+   "imagen": "producto/imagenes_v02/PMC7609118/AFHS2002-0815Fig5.jpg",
+   "pie": "FTIR spectrum of plant extract and Au-NPs prepared",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 FTIR superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC7662541|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC7662541/ijms-21-07899-g002.jpg",
+   "pie": "Dynamic Light Scattering (DLS) size distributions and Small Angle X-rays Scattering (SAXS) data for all the different Taguchi optimization experiments. Synthetic details are compiled in Table 1. DLS measurements were recorded in EtOH and are the average of 5 measurements. Graphic scales for SAXS ran",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 9,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "9 experimentos Taguchi, histograma y curva cada uno"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC7690720|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC7690720/polymers-12-02451-g004.jpg",
+   "pie": "FTIR spectrum of (a) curcumin powder, (b) pure chitosan, (c) chitosan-Ag curcumin hydrogel, (d) chitosan hydrogel.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 FTIR a-d que se cruzan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC7693828|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC7693828/pharmaceutics-12-01035-g003.jpg",
+   "pie": "FTIR spectra of MSN-NH2 prepared with different volumes of APTES: (a) 50 μL, (b) 75 μL, (c) 100 μL, and (d) 150 μL.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 FTIR a-d superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

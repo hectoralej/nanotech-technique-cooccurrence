@@ -1,0 +1,388 @@
+{
+ "lote": "A016",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC8466504|Figure 5",
+   "imagen": "producto/imagenes/PMC8466504/micromachines-12-01018-g005.jpg",
+   "pie": "Field Emission-Scanning Electron Microscope (FE-SEM) images for nanoparticle sizing of: (a) Fe3O4, (b) Fe3O4@CeO2 and (c) Fe3O4@CeO2-APTES; EDS analysis for ingredient identification of: (d) Fe3O4@CeO2-APTES-HA and (e) Fe3O4@CeO2-APTES- DFO-Zr.",
+   "imagen_dijo": {
+    "paneles": 19,
+    "n_micro": 6,
+    "n_espectro": 2,
+    "n_otro": 11,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "3 SEM y 2 paneles EDS con muchos mapas pequeños"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC8494549|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC8494549/BMRI2021-5125681.003.jpg",
+   "pie": "UV-Vis spectrum of LAAgNPs at various concentrations.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "3 UV-vis superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC8500176|FIGURE 3",
+   "imagen": "producto/imagenes_v02/PMC8500176/fmicb-12-735166-g003.jpg",
+   "pie": "Standard curve of absorbance-concentration of DHA measured at 238 nm by UV-VIS spectroscopy.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 curva de calibracion lineal"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC8512087|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC8512087/molecules-26-05996-g004.jpg",
+   "pie": "FT-IR spectra of Massilia sp. MAHUQ-52 mediated synthesized AgNPs (A) and bacterial culture supernatant (B).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "2 FTIR en paneles separados"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC8512371|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC8512371/polymers-13-03350-g005.jpg",
+   "pie": "TEM-led EDS spectra of Ag/RGO NCs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "EDS monopanel"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC8538065|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC8538065/nanomaterials-11-02565-g005.jpg",
+   "pie": "UV-Vis absorbance of protein-coated GNPs after first (W1), second (W2) and third (W3) wash cycles. (a) AuNP-spheroidal particles, inset: normalized spectrum; (b) AuNS-star-shaped particles, insets: (i) normalized spectrum and (ii) normalized UV-Vis spectrum of AuNS aggregation in PBS.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "a y b: 3 curvas c/u; insets no cuentan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC8540852|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC8540852/pharmaceutics-13-01658-g009.jpg",
+   "pie": "Normal morphological features of non-inflamed paws skin layers. H and E stain. (A) micrograph at ×40. Highlighted box in (B) micrograph at ×400. Black arrow and star show the epidermal layer and subcutaneous tissue, respectively.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC8540984|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC8540984/polymers-13-03492-g003.jpg",
+   "pie": "FTIR spectra of (a) gel4; (b) macromonomer HSEMA-PDLA.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "Curvas se cruzan"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC8541160|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC8541160/pharmaceutics-13-01678-g002.jpg",
+   "pie": "UV-visible spectra indicating the stability of mino/AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 8 curvas por tiempo superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC8563806|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC8563806/41598_2021_99743_Fig7_HTML.jpg",
+   "pie": "Raman images: distribution maps (top) and histograms (bottom) of predicted values for: (A) CP-TRANS; (B) CP-DK, and (C) MM-DK. For each sample, solid lipids (CP, MM) are represented in the left and liquid lipids (TRANS, DK) in the right.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "mapas de color e histogramas (otro)"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC8565378|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC8565378/d1sc03353k-f2.jpg",
+   "pie": "(a) Conversion vs. time curve obtained from 1H NMR spectroscopy studies (recorded for aliquots periodically extracted from the reaction mixture after quenching by dilution with CDCl3) for the laboratory-scale aqueous emulsion polymerization of TFEMA in the presence of a glycerol-functionalized silic",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "a conversion vs tiempo; b diametro y DLS"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC8565378|Fig. 5",
+   "imagen": "producto/imagenes/PMC8565378/d1sc03353k-f5.jpg",
+   "pie": "(a) SAXS patterns recorded in situ during the aqueous emulsion polymerization of TFEMA in the presence of a 19 nm diameter glycerol-functionalized silica sol (Bindzil CC401) using a cationic azo initiator at 60 °C when targeting 10% w/w solids. The onset of particle nucleation is indicated by the bl",
+   "imagen_dijo": {
+    "paneles": 22,
+    "n_micro": 1,
+    "n_espectro": 21,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Cascada muy densa; conteo estimado"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC8565378|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC8565378/d1sc03353k-f6.jpg",
+   "pie": "Evolution in I(q) recorded during the time-resolved SAXS experiment at an arbitrary q value of 0.02 nm-1 for the first 15 min of the aqueous emulsion polymerization of TFEMA in the presence of a 19 nm glycerol-functionalized silica sol using a cationic azo initiator at 60 °C. The onset of particle n",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "cinetica I(q) vs tiempo, no espectro"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC8565378|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC8565378/d1sc03353k-f7.jpg",
+   "pie": "In situ SAXS studies conducted during the aqueous emulsion polymerization of TFEMA in the presence of a glycerol-functionalized silica sol at 60 °C to form PTFEMA/silica nanocomposite particles with a well-defined core-shell morphology. Data analysis enables the evolution in overall particle radius ",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "grafica y esquemas (otro)"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC8591612|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC8591612/jp1c05319_0007.jpg",
+   "pie": "(a) Stiffness as a function of the height of LNPsacetone and LNPsTHF, measured with ImAFM. The stiffness data were taken from the very top region of the particles. (b) Young’s modulus as a function of the height of LNPsacetone and LNPsTHF determined with AFM in Force Volume mode. The height was manu",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 graficas de rigidez y modulo de Young"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC8620293|Figure 6",
+   "imagen": "producto/imagenes/PMC8620293/polymers-13-03990-g006.jpg",
+   "pie": "SEM spectrum of AgNP-chi-spheres using 20% NaOH, (A) 30×; (B) 100×.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 SEM de particulas a distinto aumento"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC8622049|Figure 1",
+   "imagen": "producto/imagenes/PMC8622049/materials-14-07041-g001a.jpg",
+   "pie": "Selective oxidation of C6 primary OH groups of pullulan to carboxylate moieties by TEMPO/sodium hypochlorite/sodium bromide system, in water at pH 10 (A); simplified scheme of the silver nanoparticles generation in the presence of pullulan/ oxidized pullulan (B) and SEM images of silver nanoparticle",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "esquema de reaccion y de sintesis de AgNPs"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC8877258|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC8877258/pharmaceuticals-15-00211-g004b.jpg",
+   "pie": "FTIR spectral analysis of (a) hesperidin (b) HLPHN4 (c) HLPHN2 under the optimized conditions.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "2 FTIR de una curva, paneles b y c"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC8880111|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC8880111/materials-15-01463-g003b.jpg",
+   "pie": "EDX spectra of TiO2 nanotubes decorated with silver nanoparticles: (a) undecorated TiO2-NTs, (b) 10 min Ag-NPs/TiO2-NTs, and (c) 20 min Ag-NPs/TiO2-NTs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "1 espectro EDS con tabla inset"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC8880898|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC8880898/ijms-23-02292-g001.jpg",
+   "pie": "UV-Vis spectra of the as-synthesized Ch-AuNPs. The typical absorption region for AuNPs (500-600 nm) can be clearly witnessed with peak maxima centered about 520 nm. The spectra were almost similar for all the reaction conditions’ obtained Ch-AuNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 10 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

@@ -1,0 +1,388 @@
+{
+ "lote": "A011",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC13538093|FIGURE 5",
+   "imagen": "producto/imagenes_v02/PMC13538093/fchem-14-1894101-g005.webp",
+   "pie": "Zeta potential silver nanoparticles synthesized by K. nana extracts. (A-C) AgNPs derived from leaf extract; (D-F) AgNPs derived from stem extract; (G-I) AgNPs derived from tuber extract.",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 9,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "9 distribuciones DLS/zeta en paneles"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC13568845|FIGURE 2",
+   "imagen": "producto/imagenes_v02/PMC13568845/SMLL-22-e74648-g001.webp",
+   "pie": "(A) Dry‐state TEM micrograph of TTC‐U2‐p(MEA)94‐b‐p(DMAc)33 (P1). Scale bar = 500 nm. (B) Zoom‐in of the image shown in (A) to estimate the total and core thickness of the FMs. A distinction was made between the shell (dark, stained with uranyl acetate) and the core (lighter, no stain). High magnifi",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 2,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "2 TEM de fibras y SAXS; recuadros tratados como insets"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC13568845|FIGURE 4",
+   "imagen": "producto/imagenes_v02/PMC13568845/SMLL-22-e74648-g006.webp",
+   "pie": "(A) Cryo‐TEM images of macroCTA combinations (100, 50%, 20%, and 10% with sticker, from left to right) dispersed in water (concentration = 9 nmol/mL). Scale bar = 200 nm. (B) Fluorescence fluctuation time traces (F(t), top) and corresponding autocorrelation functions (bottom) for a 50:50 mixture of ",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 4,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "4 TEM, curvas de autocorrelacion y cruzadas"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC13568845|FIGURE 6",
+   "imagen": "producto/imagenes_v02/PMC13568845/SMLL-22-e74648-g007.webp",
+   "pie": "(A) Dry‐state TEM images of evolution (from left to right) of fiber formation during t‐PISA for a reaction equivalent to P5. Scale bar = 1 µm. Please note: the apparent visual differences of the particles are related to variation in effectiveness of the staining procedure. (B) Top: Fluorescence fluc",
+   "imagen_dijo": {
+    "paneles": 11,
+    "n_micro": 4,
+    "n_espectro": 0,
+    "n_otro": 7,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "4 TEM, autocorrelaciones, cruzadas y radio hidrodinamico"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC13609951|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC13609951/pharmaceutics-18-01122-g001.webp",
+   "pie": "Morphology and chemical constitution of Lipo and Lipo-Cur. (a) TEM images of Lipo and Lipo-Cur; (b) hydrodynamic diameters of Lipo and Lipo-Cur; (c) zeta potentials of Lipo and Lipo-Cur; (d) FTIR spectra of Cur, Lipo, and Lipo-Cur; (e) UV-Vis absorption spectra of Cur, Lipo, and Lipo-Cur.",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 4,
+    "n_espectro": 2,
+    "n_otro": 2,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "4 micrografias, 2 graficas DLS y 2 espectros"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC13609951|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC13609951/pharmaceutics-18-01122-g004.webp",
+   "pie": "In vitro antibacterial activity of Lipo-Cur against S. aureus. (a) Representative images of S. aureus colonies on agar plates after different treatments; (b) Fluorescence images of live/dead-stained S. aureus (DMAO/PI) under each treatment condition. Scale bar: 200 μm; (c) SEM images showing morphol",
+   "imagen_dijo": {
+    "paneles": 30,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 30,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "SEM de células es otro; criterio confirmado"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC13610735|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC13610735/pharmaceutics-18-01087-g007.webp",
+   "pie": "DLS and TEM comparison of SHNs. Data are expressed as means ± standard deviations.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "barras DLS y TEM"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC13617144|Figure 13",
+   "imagen": "producto/imagenes_v02/PMC13617144/MBO3-15-e70419-g012.webp",
+   "pie": "TEM images of Bacillus cereus (A) and Staphylococcus aureus (B) treated with l‐glu-Fe3O4-Amp and untreated cells served as a negative control (C, D). Yellow arrows indicate membrane‐associated nanoparticles (NPs) and disruptions in membrane structures. The blue arrows represent NPs and electron‐dens",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "TEM de bacterias con NPs"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC4801843|Fig. 1",
+   "imagen": "producto/imagenes_v02/PMC4801843/13205_2016_407_Fig1_HTML.jpg",
+   "pie": "UV-visible analysis of AgNPs showing a typical SPR band from 415-420 nm recorded as a function of reaction time of 10-3 M AgNO3 aqueous solution with Couroupita guianensis flower bud extract",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC5459428|Fig 3",
+   "imagen": "producto/imagenes_v02/PMC5459428/pone.0178202.g003.jpg",
+   "pie": "UV-visible absorption spectrum of AuNPs.A UV-visible absorption spectrum of glucose-AuNps showing SPR peak at 540 nm; B Citrate-AuNps showing SPR peak at 520 nm; C 2DG-AuNps showing SPR peak at 525 nm.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 3 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC5459428|Fig 7",
+   "imagen": "producto/imagenes/PMC5459428/pone.0178202.g007.jpg",
+   "pie": "SEM-EDS spectrum of glucose-capped gold nanoparticles and 2DG-capped gold nanoparticles.SEM-EDS analysis of (A) glucose-capped gold nanoparticles; (B) 2DG-capped gold nanoparticles;",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC5541566|Figure 2.",
+   "imagen": "producto/imagenes_v02/PMC5541566/rsos170481-g6.jpg",
+   "pie": "Absorption spectra of Au-NPs in presence sulphonated imidazolium salts in n-heptane/AOT/water RMs at W = 6. (i) L1, (ii) L2 and (iii) L3. [HZ] = 3 × 10-3 M. [L1] = [L2] = [L3] = 3 × 10-4 M.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis i,ii,iii superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC5603882|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC5603882/ijpr-16-725-g005.jpg",
+   "pie": "UV-Visible spectra of IKAg (A): λ a1 = 285 nm and λ a2 = 345 nm, PKAg (B): λ = 317 nm and AgNPs (C): λ = 416 nm",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis A,B,C superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC5610742|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC5610742/ijpr-16-0858-g002.jpg",
+   "pie": "FTIR spectrums: (A) EC venom, (B) chitosan, (C) chitosan NPs (CS 2mg/mL, TPP 1 mg/mL) and (D) EC venom-loaded CS NPs (CS 2 mg/mL, TPP 1 mg/mL, ECV 500 µg/mL",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR A-D superpuestos en un panel"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC5618345|Figure 12",
+   "imagen": "producto/imagenes/PMC5618345/nanomaterials-07-00234-g012a.jpg",
+   "pie": "Representative TEM images of nAg@PSA composite nanospheres obtained from PSA0 nanospheres with different scale bars (A) 200 nm, (B) 100nm, (C) 20 nm, (D) 2 nm.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC5650735|Figure 6.",
+   "imagen": "producto/imagenes_v02/PMC5650735/AJMB-9-181-g006.jpg",
+   "pie": "The standard curve of BSA concentration measurements. UV-visible spectroscopy measurement was carried out for known concentration of BSA at the absorbance maximum of 595 nm",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 curva de calibracion BSA, no espectro"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC5706264|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC5706264/materials-10-01317-g002.jpg",
+   "pie": "Liposome diameters determined from cryo-TEM images (Figure S2). cAuNP14-DPPC (a) before and after (b) 1 day and (c) 7 days heating at 50 °C.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 histogramas de diametro"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC5706264|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC5706264/materials-10-01317-g005.jpg",
+   "pie": "Liposome diameters determined from the cryo-TEM images (Figure S3). DPPC liposomes heated at (a) 25 and (b) 50 °C for 24 h; (c) cAuNP14-DPPC and (d) cAuNP31-DPPC heated at 50 °C for 24 h.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 histogramas de diametro"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC5761131|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC5761131/12951_2017_331_Fig3_HTML.jpg",
+   "pie": "Nanocomposites silver release characterization. Figure shows silver release over time from AgNPs-RPS nanocomposites incubated in deionized water as determined by a UV-Vis spectroscopy (420 nm) and b atomic absorption spectrometry",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 graficas de liberacion de plata"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC5761131|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC5761131/12951_2017_331_Fig6_HTML.jpg",
+   "pie": "Immunophenotype of human adipose-derived mesenchymal stem cells by flow citometry. Data shown correspond to percentage of human adipose-derived mesenchymal stem cells (ADMSC) labeled with primary monoclonal antibodies conjugated to a fluorochrome. Upper panel graphs show that ADMSC were positive for",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 paneles de citometria de flujo"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

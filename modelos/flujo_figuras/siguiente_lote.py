@@ -9,7 +9,7 @@ OUT = Path(__file__).resolve().parent
 quien = sys.argv[1] if len(sys.argv) > 1 else "claude"
 k = int(sys.argv[2]) if len(sys.argv) > 2 else 3
 pend = []
-for f in sorted((OUT / "lotes").glob("R*.json")) + sorted((OUT / "lotes").glob("L*.json")):   # primero las re-revisiones (R)
+for f in sorted((OUT / "lotes").glob("A*.json")) + sorted((OUT / "lotes").glob("R*.json")) + sorted((OUT / "lotes").glob("B*.json")) + sorted((OUT / "lotes").glob("L*.json")):   # A, R, B primero
     lote = json.loads(f.read_text(encoding="utf-8"))
     if lote["asignado"] not in (quien, "ambos"):
         continue

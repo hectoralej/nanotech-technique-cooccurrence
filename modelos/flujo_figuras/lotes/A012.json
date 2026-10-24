@@ -1,0 +1,388 @@
+{
+ "lote": "A012",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC5761131|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC5761131/12951_2017_331_Fig7_HTML.jpg",
+   "pie": "Viability of adipose-derived mesenchymal stem cells cultured on nanocomposites. a representative micrographs of cell viability assays at 24 h of culture; live cells (calcein positive cells) are marked in green and dead cells (EthD-1 positive cells) are marked in red. CTL (control) corresponds to cel",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 10,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "6 fluorescencia live/dead y 4 graficas como otro"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC5778179|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC5778179/210_2017_1440_Fig3_HTML.jpg",
+   "pie": "Particle size distribution determined using a DLS method and b HR-TEM image analysis method",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 histogramas de tamano A y B"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC5827706|Figure 2",
+   "imagen": "producto/imagenes/PMC5827706/Beilstein_J_Nanotechnol-09-693-g003.jpg",
+   "pie": "SEM (i, ii), TEM (iv, vi, vii) and colored STEM (v) images and the particle size-distribution plots (iii) of MSNs produced at two different concentrations of β-CD (MSN-1 (b) and MSN-2 (c)). (a) Reference sample (MSN-20) synthesized in the absence of CD molecules at identical concentrations of TEOS (",
+   "imagen_dijo": {
+    "paneles": 17,
+    "n_micro": 12,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "Composición diminuta; ampliaciones y representaciones coloreadas requieren revisión."
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC5977293|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC5977293/nanomaterials-08-00279-g006.jpg",
+   "pie": "Rietveld method analysis of the XRD data of silver nanoparticles derived from marine Streptomyces sp. Al-Dhabi-87.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD datos y ajuste (Rietveld)"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC5985180|Figure 10",
+   "imagen": "producto/imagenes_v02/PMC5985180/ijpr-17-627-g011.jpg",
+   "pie": "Fluorescent micrograph of A0/PI double-stained HeLa cells. (A) Control group show normal structure. (b) Early apoptosis features were observed after 48 h, representing intercalated acridine orange (green) amongst the fragmented DNA. (C) Blebbing and nuclear margination (arrow marker) were noticed in",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia celular"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC5985180|Figure 2A.",
+   "imagen": "producto/imagenes_v02/PMC5985180/ijpr-17-627-g002.jpg",
+   "pie": "UV-vis absorbance for samples with different concentrations of Ag ions",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 3 concentraciones superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC5985180|Figure 2B",
+   "imagen": "producto/imagenes_v02/PMC5985180/ijpr-17-627-g003.jpg",
+   "pie": "UV-vis absorbance for samples after different incubation times",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 3 tiempos superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC6023009|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC6023009/antibiotics-07-00050-g002.jpg",
+   "pie": "UV-visible absorption spectra of silver nanoparticles and their combinations with antibiotics. UV-visible spectrum showed the maximum absorbance at (a) 412 nm for AgNPs, (b) 410 nm for AgNPs + AMP and (c) 450 nm for AgNPs + AMK. AMP: Ampicillin. AMK: Amikacin.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 3 curvas a,b,c superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC6027053|Figure 10",
+   "imagen": "producto/imagenes_v02/PMC6027053/nanomaterials-08-00396-g010.jpg",
+   "pie": "Analysis of expression of various differentiation and pluripotency stem cell markers. AuNPs-induced differentiation of F9 was determined after 24 h exposure to AuNPs (10 μM), RA (10 μM), and RA in the presence of AuNPs (both 10 μM). The expression pattern of the differentiation markers retinoic acid",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 graficas de barras de expresion genica"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC6027406|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC6027406/nanomaterials-08-00434-g007.jpg",
+   "pie": "UV-vis titration of an ethanolic solution of hpbtz (1 × 10-4 M) with Zn2+ ion (1 × 10-3 M).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC6032249|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC6032249/ijms-19-01615-g006.jpg",
+   "pie": "Drug releasing profiles. Anticancer doxorubicin loaded polymer-liposomes (Dox-loaded PL) and crosslinked polymer-liposomes (Dox-loaded PC) were incubated at pH 7.4 and pH 5.0. After incubation for 1, 2, 3, 6, and 24 h, the released doxorubicin was detected by using UV-visible spectroscopy at 480 nm.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 grafica de liberacion acumulada vs tiempo"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC6135834|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC6135834/41598_2018_31895_Fig7_HTML.jpg",
+   "pie": "Photomicrographs of tissue sections stained with H and E (16x mag), represent skin of mice treated with silver sulphadiazine, showing focal hyperkeratosis and acanthosis in the epidermis as well as focal granulation tissue formation in the underlying dermis (a), skin of mice treated with F2(AuNPs-PF",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC6165491|Figure 2",
+   "imagen": "producto/imagenes/PMC6165491/nanomaterials-08-00633-g002a.jpg",
+   "pie": "Transmission electron microscopy (TEM) = (a1,a2) and HR-TEM = (b) images and selected area electron diffraction (SAED) pattern (c) of Fe3O4@CEF powdery sample. Figure (d) reveals the percentage of nanoparticle size in the analysed samples.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC6165491|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC6165491/nanomaterials-08-00633-g003a.jpg",
+   "pie": "Optical micrographs of splenic tissue harvested at 10 days after injection of Fe3O4@CEF nanoparticles at 200× (a) and 1000× (b) magnification.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC6165491|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC6165491/nanomaterials-08-00633-g006.jpg",
+   "pie": "Infrared micrographs (a) and corresponding infrared spectra (b) of PLGA/Fe3O4@CEF coatings obtained at 300, 400, and 500 mJ/cm2 laser fluence.",
+   "imagen_dijo": {
+    "paneles": 15,
+    "n_micro": 0,
+    "n_espectro": 9,
+    "n_otro": 6,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "6 mapas quimicos y 9 espectros IR en 3 grupos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC6165491|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC6165491/nanomaterials-08-00633-g008.jpg",
+   "pie": "Viability of amniotic fluid-derived stem cells (AFSCs) after 72 h of treatment in the presence of PLGA/Fe3O4@CEF coating.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Viabilidad celular"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC6172160|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC6172160/11671_2018_2731_Fig2_HTML.jpg",
+   "pie": "UV-Vis absorbance spectra of synthesized AgNPs at 48 to 72 h in time intervals",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 3 tiempos superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC6193170|Figure 1",
+   "imagen": "producto/imagenes/PMC6193170/ADVS-5-1800382-g001.jpg",
+   "pie": "Characterization of LDGI. a) Representative TEM images of GNR, IO, and LDGI. b) UV-vis spectra of IO, GNR, and LDGI. c) Fluorescence spectra of LDGI and DOX (1 µg mL-1). d) Zeta potential of IO, GNR, and LDGI in deionized water. e) Size distribution of GI and LDGI in deionized water. f) Photothermal",
+   "imagen_dijo": {
+    "paneles": 41,
+    "n_micro": 4,
+    "n_espectro": 2,
+    "n_otro": 35,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Matriz térmica densa; micrografía celular marcada otro"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC6193170|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC6193170/ADVS-5-1800382-g005.jpg",
+   "pie": "In vivo antitumor effect of MSCs‐LDGI (intratumoral injection). a) In vivo photoacoustic image, Prussian blue staining, and silver‐enhanced staining of tumor tissues of LDGI and MSCs‐LDGI, respectively. b) Infrared thermal images and c) temperature increasing curves of PBS, LDGI, MSCs‐LGI, and MSCs‐",
+   "imagen_dijo": {
+    "paneles": 62,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 62,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Muchas fotos animales y térmicas; conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC6213141|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC6213141/ijms-19-02854-g008.jpg",
+   "pie": "Distribution of Fennoxanil in rice plants: (A) roots with 30 mg/L treatment; (B) roots with 50 mg/L treatment; (C) stem with 30 mg/L treatment; (D) stem with 50 mg/L treatment; (E) leaves with 30 mg/L treatment; (F) leaves with 50 mg/L treatment; (G) soil with 30 mg/L treatment; (H) soil with 50 mg/",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 10,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "10 graficas de barras A-J"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

@@ -1,0 +1,388 @@
+{
+ "lote": "A009",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC12657925|Fig. 14",
+   "imagen": "producto/imagenes_v02/PMC12657925/41598_2025_26860_Fig14_HTML.jpg",
+   "pie": "FTIR overlaid chart of pure drug (MOX, the blue line) and optimized SLNs formula (F-opt, the red line).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR 2 curvas casi identicas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC12703627|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC12703627/d5na00787a-f3.jpg",
+   "pie": "UV-Vis spectral profile of (a) control and biogenic Ag-NPs over time at (b) 24 h (c) 48 h and (d) 72 h.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 curvas UV-vis superpuestas por tiempo"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC12731052|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC12731052/cells-14-01939-g002.jpg",
+   "pie": "Elemental analysis and TRIMEL loading efficiency of nanoparticles. (A) Representative EDS mapping images of NP-TRIMEL nanoparticles for carbon (red) and nitrogen (green). (B) EDS quantification of elements present in nanoparticles (NP). The average value of three independent measures is shown. (C) D",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 mapas elementales, grafica elementos y eficiencia"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC12797472|Fig. 1",
+   "imagen": "producto/imagenes/PMC12797472/12951_2025_3891_Fig2_HTML.jpg",
+   "pie": "Synthesis and characterization of ZIF-8, Au NPs@ZIF-8, and Au NPs@ZIF-8/Ga. (A) Schematic illustration of the synthesis of gold nanoparticles (Au NPs), zeolitic imidazolate framework-8 (ZIF-8), core-shell Au NPs@ZIF-8, and gallic acid-loaded nanoparticles (Au NPs@ZIF-8/Ga.) (B) Representative TEM im",
+   "imagen_dijo": {
+    "paneles": 17,
+    "n_micro": 8,
+    "n_espectro": 6,
+    "n_otro": 3,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "celdas TEM/SEM y 4 graficas E dudosas; 2 fluorescencia como otro"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC12799727|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC12799727/11686_2025_1196_Fig2_HTML.jpg",
+   "pie": "UV-Vis spectroscopy of thymol chitosan NPs and TC NPs",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "3 UV-vis superpuestas Thymol, Chitosan, Loaded"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC12839151|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC12839151/biomolecules-16-00176-g006.jpg",
+   "pie": "Left: DSC thermograms (a) and (pXRD diffractograms (b)) of the GAL-loaded NPs. (Right): FTIR spectra of the GAL-loaded NPs.",
+   "imagen_dijo": {
+    "paneles": 19,
+    "n_micro": 0,
+    "n_espectro": 19,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "muchas curvas apiladas, conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC12840927|Figure 10",
+   "imagen": "producto/imagenes_v02/PMC12840927/gels-12-00051-g010.jpg",
+   "pie": "Histopathology photomicrographs of (A) untreated rectal mucosa and (B) rectal mucosa treated with optimized in situ gel formula.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 histologias H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC12841268|Figure 10",
+   "imagen": "producto/imagenes_v02/PMC12841268/ijms-27-00582-g010.jpg",
+   "pie": "UV-Vis spectrogram showing the effect of pH variability on the stability of biosynthesized AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 7 curvas superpuestas; foto inset no contada"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC13029765|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC13029765/pharmaceutics-18-00314-g009.jpg",
+   "pie": "UV-visible spectra of excised agar following 24 h diffusion of Pluronic-AgNP hydrogels. Distinct LSPR peaks corresponding to AgNP sizes (A) ~20.1, (B) 54.7 and (C) 64.4 nm.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 3 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC13032946|Fig. 4",
+   "imagen": "producto/imagenes_v02/PMC13032946/12010_2025_5511_Fig4_HTML.jpg",
+   "pie": "(A) Hepatic architecture is seen in a photomicrograph of a control group rat's liver. blood sinusoids (S), nucleus (N), and central vein (CV). (B) A photomicrograph of the liver of HCHFD group rat reveals numerous abnormalities, including congestion of the central vein (Cv) and degeneration around i",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 histologias H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC13032946|Fig. 5",
+   "imagen": "producto/imagenes_v02/PMC13032946/12010_2025_5511_Fig5_HTML.jpg",
+   "pie": "(A) A photomicrograph of a control group's rat pancreas demonstrates normal histoarchitecture and typical Langerhans islets (Islets) with pale, ovoid, rounded β-cells located in the exocrine part of the pancreas. (B) A photomicrograph of a rat pancreas from the HCHFD group's photomicrograph demonstr",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 histologias H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC13033468|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC13033468/11671_2026_4528_Fig2_HTML.jpg",
+   "pie": "A Fourier transform infrared spectroscopy (FTIR) analysis of piracetam, polylactic-co-glycolic acid (PLGA), polyvinyl alcohol (PVA), soy lecithin (SL), physical mixture of piracetam and excipients, and piracetam loaded solid lipid nanoparticles (PSLNs); B Differential scanning calorimetry (DSC) ther",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 0,
+    "n_espectro": 9,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "A FTIR apilado, B DSC, C XRD"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC13101956|Fig. 4",
+   "imagen": "producto/imagenes_v02/PMC13101956/d6ra01096b-f4.jpg",
+   "pie": "MTX-Mn induces mitochondrial dysfunction and oxidative stress in B16F10 melanoma cells. (A) Transmission electron microscopy (TEM) images showing mitochondrial ultrastructural changes in B16F10 cells. (B) Confocal laser scanning microscopy images of mitochondrial superoxide production detected by Mi",
+   "imagen_dijo": {
+    "paneles": 36,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 36,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Células, orgánulos, fluorescencia y citometría son otro"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC13108755|Fig 6",
+   "imagen": "producto/imagenes_v02/PMC13108755/pone.0346082.g006.jpg",
+   "pie": "X-ray diffraction (XRD) pattern of ZnChNPs.X-ray diffraction (XRD) pattern of ZnChNPs, showing characteristic diffraction peaks plotted against 2θ (degree). The observed peaks indicate the crystalline nature of the synthesized nanoparticles and confirm the successful incorporation of zinc within the",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD con dos curvas en mismos ejes"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC13115488|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC13115488/gels-12-00268-g004.jpg",
+   "pie": "Raman mapping for the NLC-CO components: (a) CEO and (b) SL; NLC-AP components: (c) AP, (d) CEO and (e) SL; and NP-10 components: (f) AP, (g) CEO, (h) SL, (i) NLC-AP, and (j) P407. The scale bar represents the normalized intensity in arbitrary units (a.u.).",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 10,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "10 mapas de color sin rotulos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC13115488|Figure 8",
+   "imagen": "producto/imagenes/PMC13115488/gels-12-00268-g008.jpg",
+   "pie": "TEM images of the 10% P407 hydrogel loaded with NLC-AP (NP-10): (a) freshly prepared formulation showing uniformly distributed, nearly spherical nanoparticles, and (b) formulation after 9 months of storage, demonstrating preserved morphology and particle size without aggregation.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM de tincion negativa a y b"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC13116750|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC13116750/ijms-27-03673-g004.jpg",
+   "pie": "FTIR spectra of Bulk Ch and Ch NPs. Characteristic bands corresponding to chitosan functional groups and new phosphate-related peaks confirm ionic crosslinking between chitosan and TPP.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "FTIR de NPs de quitosano"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC13128909|Fig. 1",
+   "imagen": "producto/imagenes/PMC13128909/41598_2026_43957_Fig1_HTML.jpg",
+   "pie": "(A-E) Characteristics of AgNPs in TEM images and histograms of the particle size distribution of AgNPs. Bar: 100 nm, except for S3R3, that was 200 nm TEM. F) Average particle size represented with mean ± SD, from 100 NP.",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 histogramas de tamano y barra TEM"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC13163820|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC13163820/ijms-27-04072-g006.jpg",
+   "pie": "Representative photomicrographs of thyroid gland sections from different experimental groups: negative control rats (A), dexamethasone-treated rats (B,C), dexamethasone + silymarin-treated rats (D), dexamethasone + taurine-treated rats (E), and dexamethasone + taurine nanoparticles-treated rats (F).",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC13179173|Fig. 7",
+   "imagen": "producto/imagenes_v02/PMC13179173/43032_2026_2076_Fig7_HTML.jpg",
+   "pie": "Photomicrographs of a cross-sections of the testes (hematoxylin and eosin). A&B: Control group showing normal structure of the testicular tissue with nearly equal size and shape of the seminiferous tubules and normal germinal epithelium with stratified spermatogenic cells, intact basement membrane, ",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  }
+ ],
+ "hojas": []
+}

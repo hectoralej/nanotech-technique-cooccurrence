@@ -1,0 +1,388 @@
+{
+ "lote": "A010",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC13179173|Fig. 8",
+   "imagen": "producto/imagenes_v02/PMC13179173/43032_2026_2076_Fig8_HTML.jpg",
+   "pie": "Photomicrographs of a cross-sections of the testes (hematoxylin and eosin). A&B: ChNPs group showing quiet improvement and restoration of structure and thickness of the testicular tissue in some tubules. C&D: CNPs group showing restoration of the typical structure of the testicular tissue with intac",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC13184259|Fig. 2",
+   "imagen": "producto/imagenes/PMC13184259/41420_2026_3023_Fig2_HTML.jpg",
+   "pie": "Physicochemical characterization and bioactivity profiling of berries and berry-derived nanoparticles.a UV-Vis absorption spectra of blackberry (BLA), blueberry (BLU), and berry nanoparticle formulations (BLU-A and BLA-A). The inset highlights the surface plasmon resonance (SPR) region (500-700 nm),",
+   "imagen_dijo": {
+    "paneles": 15,
+    "n_micro": 2,
+    "n_espectro": 4,
+    "n_otro": 9,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "FTIR apilados y dendrogramas diminutos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC13210128|Figure 14",
+   "imagen": "producto/imagenes_v02/PMC13210128/nanomaterials-16-00608-g014.jpg",
+   "pie": "SERS spectra measured of 10-6 M (a) BCB, (b) CV, and (c) MP randomly selected thirteen different spots on the MNPs@Chi-Ag NPs nanocomposite drops as a SERS substrate. The locations of the measurement spots are shown as insets on the graphs.",
+   "imagen_dijo": {
+    "paneles": 30,
+    "n_micro": 0,
+    "n_espectro": 30,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Cascadas tridimensionales; conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC13210128|Figure 15",
+   "imagen": "producto/imagenes_v02/PMC13210128/nanomaterials-16-00608-g015.jpg",
+   "pie": "Comparison of 10-1 M BCB, CV, and MP Raman measurements performed using the drop and MNPS@Chi method.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "grafica de barras de intensidad BCB, CV, MP"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC13259242|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC13259242/polymers-18-01279-g003.jpg",
+   "pie": "SEM-EDS elemental mapping images of nitrogen (N) and silver (Ag) distribution on treated cotton fabrics: (a) N-map and (b) Ag-map of Cot-αCS-L-Ag; (c) N-map and (d) Ag-map of Cot-βCS-L-Ag.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 imagenes oscuras con puntos, tipo fluorescencia"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC13267154|FIGURE 2",
+   "imagen": "producto/imagenes_v02/PMC13267154/FSN3-14-e71992-g003.jpg",
+   "pie": "FTIR spectra of (a) Eucalyptus camaldulensis extract and (b) IONPs. Peaks at 3000-3500 cm-1 (O-H), ~1600 cm-1 (C═O), and 500-800 cm-1 (Fe-O) indicate functional groups involved in reduction and stabilization. Representative spectra from three independent measurements.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "2 FTIR, una curva cada uno"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC13280902|3",
+   "imagen": "producto/imagenes_v02/PMC13280902/ao6c00916_0003.jpg",
+   "pie": "Elemental particle composition from EDS analysis.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "barras de composicion elemental"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC13295056|7",
+   "imagen": "producto/imagenes_v02/PMC13295056/ao6c01026_0007.jpg",
+   "pie": "Experimental SAXS curves in a log-log plot corresponding to siloxane-PPO-PEO-IONPs (70-30) loaded with hydrophilic or hydrophobic iron oxide nanoparticles. The SAXS pattern of the pure Siloxane-PPO-PEO sample is also presented in the log-log plot in the inset.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "SAXS con 2 curvas paralelas y recuadro"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC13304926|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC13304926/pharmaceuticals-19-00917-g007.jpg",
+   "pie": "(a) SEM image and EDS spectra and (b) elemental maps of a composite material (C1-AgNP-Alg-500). EDS shows the composition of the areas in the SEM image.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 1,
+    "n_espectro": 1,
+    "n_otro": 2,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "foto del vial, SEM, EDS y mapas elementales"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC13304926|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC13304926/pharmaceuticals-19-00917-g009.jpg",
+   "pie": "Raman spectra with assigned vibrational bands corresponding to (a) Ag-Alg interactions and (b) polyphosphate (PP) species.",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 16,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "2 paneles Raman con 8 curvas apiladas"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC13415187|Figure 2",
+   "imagen": "producto/imagenes/PMC13415187/pharmaceutics-18-00873-g002a.jpg",
+   "pie": "TEM micrographs of (a) DX/CS, (b) DX/CS/EE, (c) Aloe vera @ DX/CS and (d) Aloe vera @ DX/CS/EE NPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM a y b"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC13415187|Figure 3",
+   "imagen": "producto/imagenes/PMC13415187/pharmaceutics-18-00873-g003a.jpg",
+   "pie": "SEM images of (a) DX/CS, (b) DX/CS/EE, (c) Aloe vera @ DX/CS and (d) Aloe vera @ DX/CS/EE NPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 SEM a y b"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC13433528|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC13433528/fmicb-17-1871774-g0003.jpg",
+   "pie": "Photocatalytic activity: (A) UV-Vis absorption spectra of RhB at different irradiation time, (B) Pseudo-first-order kinetic plot (ln(A/A0) vs. time), (C) Degradation efficiency (mean ± SD; n = 3; *p < 0.001) with increase in catalyst loading and rate constants are annotated, (D) Reusability of Fe2O3",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 cineticas y barras, sin espectros"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC13441772|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC13441772/fonc-16-1905253-g002.jpg",
+   "pie": "Characterization of Exemestane-loaded PLGA nanoparticles showing (a) FTIR spectra confirming drug-polymer compatibility, (b) P-XRD patterns demonstrating reduced crystallinity of the encapsulated drug, (c) TGA-DTA thermograms indicating thermal stability of the nanoparticle formulation, and (d) comp",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 9,
+    "n_otro": 1,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "FTIR y XRD apilados, TGA-DTA, liberacion"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC13447371|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC13447371/fmedt-08-1782878-g007.jpg",
+   "pie": "Absorbance spectra for (a) contact lenses obtained by incorporating nanoparticles through different cycles of immersion and (b) lenses obtained through varying the molarity of Fe2+/Fe3+ precursor ions. Degradation of methylene blue after: (c) 1 h, (d) 5 days, (e) 8 days, and (f) 2 weeks.",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 graficas de absorbancia y 4 fotos de placas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC13492477|4",
+   "imagen": "producto/imagenes_v02/PMC13492477/nn6c11619_0004.webp",
+   "pie": "Nanomotors degradation. (A) UreNMs in water were kept at 37 °C, and their morphology was checked by SEM every week (scale bar = 150 nm) (n = 3). (B) SEM images were further used to quantify the diameter of UreNMs throughout the weeks and represent them as a Gaussian distribution (line) [n = 150 (50 ",
+   "imagen_dijo": {
+    "paneles": 17,
+    "n_micro": 5,
+    "n_espectro": 2,
+    "n_otro": 10,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "5 SEM, 2 SAXS superpuestas, resto barras e histogramas"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC13511881|Figure 13",
+   "imagen": "producto/imagenes_v02/PMC13511881/gels-12-00731-g013.webp",
+   "pie": "X-ray diffraction (XRD) pattern and mineralogical phase identification of the Indiana carbonate core, showing calcite as the dominant crystalline phase.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "XRD con referencias de calcita, cuarzo, dolomita, yeso"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC13520975|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC13520975/gr3.webp",
+   "pie": "Physical and chemical characterization of the triple-layered core-shell nanogel. FTIR of QCS (A); B: Appearance and TEM; C: size; D: zeta potential; E: SEM and EDS; F: Resolvability; G-H: FTIR; Time sweep mode (I); G' and G\" of nanogel in continuous step strain sweep 1-500% strain (J); K: In vitro r",
+   "imagen_dijo": {
+    "paneles": 15,
+    "n_micro": 2,
+    "n_espectro": 6,
+    "n_otro": 7,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "figura multipanel, 2 micrografias, varias graficas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC13520975|Fig. 4",
+   "imagen": "producto/imagenes_v02/PMC13520975/gr4.webp",
+   "pie": "The influence factors test (high temperature, high humidity, and intense light) of triple-layered core-shell nanogel. Appearance (A); EE (B); LC (C); size (D); ZP (E); PDI (F); FTIR spectrophotometer (G: high temperature, (H) high humidity, (I) intense light).",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 6,
+    "n_otro": 10,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "fotos de viales, 5 barras, 2 FTIR apilados"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC13538093|FIGURE 2",
+   "imagen": "producto/imagenes_v02/PMC13538093/fchem-14-1894101-g002.webp",
+   "pie": "Color change of silver nanoparticles synthesized from Kedrostis nana aqueous extracts before and after boiling for 1 h (A,B) Leaf extract sample before and after synthesis respectively; (C,D) Stem extract sample before and after synthesis respectively; (E,F) Tuber extract sample before and after syn",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "6 fotos de matraces con mezcla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

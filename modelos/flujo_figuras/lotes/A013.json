@@ -1,0 +1,388 @@
+{
+ "lote": "A013",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC6255963|FIGURE 4",
+   "imagen": "producto/imagenes_v02/PMC6255963/fmicb-09-02469-g004.jpg",
+   "pie": "Fluorescence micrograph showing the generation of intracellular reactive oxygen species (ROS) using DCFDA dye in CNPs treated M. smegmatis cells (A). Control (B,C) cells exposed to CNP and CNP-L at prefix MIC dose for 6 h showing increases in fluorescence intensity demonstrating excess generation of",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC6273738|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC6273738/molecules-21-00123-g003.jpg",
+   "pie": "UV-Vis absorption spectra of SG (a); Au/SG suspension (b) after 4 h of stirring time.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 2 curvas, pico 538 nm"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC6273738|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC6273738/molecules-21-00123-g007.jpg",
+   "pie": "Fluorescent micrographs of AO/PI double stained HeLa cells that were treated with were 4.75 ± 1.23 μg/mL SG-stabilized AuNPs; (a) Untreated cells showing normal cell structures; (b) Treated cells after 24 h incubation showing membrane blebbing and chromatin condensation; (c) Membrane blebbing, chrom",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia celular"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC6320954|Figure 14",
+   "imagen": "producto/imagenes_v02/PMC6320954/molecules-23-03082-g014.jpg",
+   "pie": "Fluorescence micrographs of SW620 cells internalizing fluorescein isothiocyanate (FITC), FITC@MSN-COOH, FITC@MSN-COOH/GC, and FITC@MSN-COOH/GC+galactose.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC6320954|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC6320954/molecules-23-03082-g006.jpg",
+   "pie": "Low-angle powder X-ray diffraction (XRD) of MSN-COOH and MSN-COOH/GC.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC6334796|Figure 4",
+   "imagen": "producto/imagenes/PMC6334796/Beilstein_J_Nanotechnol-10-105-g005.jpg",
+   "pie": "High magnification HRTEM images of MWCNTs decorated with Fe2O3 nanoparticles. The inset shows the electron diffraction pattern (SAED) for the selected area.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "1 HRTEM con inset SAED"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC6403626|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC6403626/polymers-10-01092-g005.jpg",
+   "pie": "Comparison of surface weight percentage measured by XPS (white bar), with overall LC measured by UV-Vis (black bar) for samples, PCL-CAF1.5-W and PCL-CAF1.5-Ac, produced at FR = 20 mL/min.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "1 grafica de barras de fraccion en peso"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC6403993|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC6403993/polymers-10-00620-g009.jpg",
+   "pie": "The DNA content (A) and ALP activity (B) of rBMSCs cultured in cryogel and hybrid scaffolds. (C) Qualitative assessment of mineralization through SEM and quantitative estimation of mineral composition by EDS of the cryogel scaffold, the cryogel part in the hybrid scaffold and the microsphere cavity ",
+   "imagen_dijo": {
+    "paneles": 14,
+    "n_micro": 0,
+    "n_espectro": 6,
+    "n_otro": 8,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "barras + 6 SEM celulares; EDS diminutos"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC6406235|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC6406235/ijerph-16-00598-g001.jpg",
+   "pie": "UV-Vis spectral analysis of control and freshly extracted C. arvensis AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "10 curvas UV-vis superpuestas (0-24 h)"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC6448226|Fig. 1",
+   "imagen": "producto/imagenes/PMC6448226/13756_2019_504_Fig1_HTML.jpg",
+   "pie": "Field emission scanning electronic microscope images of DOX-SLN",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "1 SEM con barra de 5 um"
+   },
+   "pie_dijo": {
+    "tipologia": "sin_micro_ni_espectro",
+    "destino": "excluir"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC6469023|Scheme 1",
+   "imagen": "producto/imagenes_v02/PMC6469023/biosensors-09-00028-sch001.jpg",
+   "pie": "Schematic illustrates • the different structure between cancerous cells and normal cells, • the different structure between cancer blood vessels and normal blood vessels, • nanoparticles accumulation in cancerous tissue, • Near-infrared (NIR) has a maximum depth of penetration in the biological tiss",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "esquema de terapia NIR"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC6487395|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC6487395/ijpr-18-183-g003.jpg",
+   "pie": "Physical characterization of magnetic nanoparticle formulations with XRD: pure Fe3O4 (I, Blue) compared with synthesized Fe3O4 (II, Red)",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD experimental con sticks de referencia"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC6523107|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC6523107/nanomaterials-09-00569-g001.jpg",
+   "pie": "UV-Vis extinction spectra of: (a) yellow G-AgNPs; (b) red G-AgNPs; and (c) blue G-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "3 curvas de extincion superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC6630981|Figure 4",
+   "imagen": "producto/imagenes/PMC6630981/pharmaceutics-11-00284-g004a.jpg",
+   "pie": "Representative TEM images of the optimized Ucuùba fat NLC formulations (a) F 30 and (b) F 85 (magnification 100,000×).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "1 TEM de red de particulas"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC6631245|Figure 8",
+   "imagen": "producto/imagenes/PMC6631245/medicina-55-00294-g008a.jpg",
+   "pie": "Surface morphology (a) SEM image, (b) TEM image, (c) Layer of PLX in TEM image.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "SEM arriba y TEM abajo"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC6720288|Figure 1",
+   "imagen": "producto/imagenes/PMC6720288/molecules-24-02929-g001a.jpg",
+   "pie": "Ultrastability characterization of GNP 800 (a), GNP 2000 (b), GNP 6000 (c), GNP NUS (d) and GNP CIT (e) before treatment and after three cycles of 24 h freeze drying, three periods of 12 h of heating at 65 °C, three precipitations by ultracentrifugation, sterilization by autoclave, and suspension in",
+   "imagen_dijo": {
+    "paneles": 54,
+    "n_micro": 18,
+    "n_espectro": 18,
+    "n_otro": 18,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Tablas con gráficos y micrografías; subceldas apenas legibles."
+   },
+   "pie_dijo": {
+    "tipologia": "sin_micro_ni_espectro",
+    "destino": "excluir"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC6745189|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC6745189/peerj-07-7454-g007.jpg",
+   "pie": "CLSM images demonstrating the aPDT efficacy on biofilms of test bacteria after stained with acridine orange and ethidium bromide.The micrographs represent the live (green) and dead (red) cells of both E. coli and S. aureus of the untreated control without irradiation (A & I), MSN treated without irr",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 16,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "16 imagenes de fluorescencia confocal como otro"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC6778085|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC6778085/41598_2019_50043_Fig4_HTML.jpg",
+   "pie": "Imaging of RA in mice by NIR detection. (a) The near infrared images of the dorsal side of arthritic mice at 2, 6 and 24 hours after an intravenous injection of NP or Folate-NP. (b) The quantification of fluorescence signal after normalization within the inflamed foot shown in panel A (green circles",
+   "imagen_dijo": {
+    "paneles": 10,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 10,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "9 fotos de imagen in vivo de ratones y 1 barras"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC6794407|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC6794407/fbioe-07-00239-g0001.jpg",
+   "pie": "UV-Vis spectra of biogenic silver nanoparticles (bAgNPs).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "5 curvas UV-vis superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC6801874|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC6801874/ijms-20-04667-g007.jpg",
+   "pie": "(A) Dynamic Light Scattering (DLS) result of CNP° and (B) normal distribution and frequency graphs of CNP° particle sizes (nm) obtained by measuring particle size in FESEM image in (Figure 6A) using ImageJ software. Comparable particle size range of CNP° was observed between DLS (80.89 ± 5.16 nm) an",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "distribucion de tamano DLS y histograma"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

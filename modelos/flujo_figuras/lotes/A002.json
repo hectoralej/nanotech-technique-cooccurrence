@@ -1,0 +1,388 @@
+{
+ "lote": "A002",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC10302373|Figure 13",
+   "imagen": "producto/imagenes_v02/PMC10302373/molecules-28-04644-g013b.jpg",
+   "pie": "UV-vis absorption spectra depicting the degradation profile of MB in case of one drop (a) ZnO:-Au 5 nm, (b) ZnO:-Au 7 nm, (c) ZnO:-Au 10 nm, (d) ZnO:-Au 15 nm.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC10302373|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10302373/molecules-28-04644-g002.jpg",
+   "pie": "Average lattice strain and dislocation density of pure and ZnO:-Au thick films calculated from XRD data.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "deformacion y densidad de dislocaciones frente a Au"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC10302373|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10302373/molecules-28-04644-g005.jpg",
+   "pie": "The average crystallite from XRD.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "tamano de cristalita frente al tamano de Au"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC10302373|Figure 7",
+   "imagen": "producto/imagenes/PMC10302373/molecules-28-04644-g007a.jpg",
+   "pie": "Different HRTEM images for (one drop Au): (a) ZnO:-Au 5 nm, (b) ZnO:-Au 7 nm, (c) ZnO:-Au 10 nm (d) ZnO:-Au 15 nm.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC10308821|Figure 1",
+   "imagen": "producto/imagenes/PMC10308821/la3c00507_0002.jpg",
+   "pie": "SEM images of AuNPs synthesized using amino acids 1-8 and 12-20.",
+   "imagen_dijo": {
+    "paneles": 29,
+    "n_micro": 29,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "cuadricula densa de micrografias, conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC10308821|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10308821/la3c00507_0003.jpg",
+   "pie": "Size distributions of AuNPs synthesized using amino acids 1-8, 12, and 14-18 determined by SEM images analysis and number-weighted size distribution obtained by DCS.",
+   "imagen_dijo": {
+    "paneles": 28,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 28,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "28 histogramas de tamano en 14 filas SEM y DCS"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC10311593|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC10311593/nn3c01186_0005.jpg",
+   "pie": "LNP structure determined by SAXS features relates to in vitro efficacy. (A) DLS-based LNP sizes do not show a significant correlation with relative TMEM106b mRNA expression that can be predictively used for hit identification. (B) Correlation between disordered/HII Lorentz function area ratios and r",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 graficas de puntos con expresion y regresion"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC10346814|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC10346814/polymers-15-02973-g007.jpg",
+   "pie": "Fourier-transform infrared spectra of polylactic acid (PLA)-based composite films with 10% of lignin.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "La curva PLA cruza la curva azul"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC10354276|FIGURE 7",
+   "imagen": "producto/imagenes_v02/PMC10354276/fbioe-11-1169496-g007.jpg",
+   "pie": "CCK-8 assay kit was used to analyze the cytotoxicity of the MHC NPs on BMSCs in 1st day (A) and 3rd day (B). HSA, human serum albumin; MHC NPs, metformin/HSA/chitosan nanoparticles; CS, chitosan; MET, metformin; BMSCs, mice bone marrow mesenchymal stem cells.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 graficas de barras de absorbancia 1d y 3d"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC10376474|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10376474/antibiotics-12-01084-g003.jpg",
+   "pie": "Estimated response surface of QAgNPs: (A) at a predefined reaction time of 75 min, the interaction between the silver nitrate and the reaction temperature can be observed, where 1 mM and 100 °C are the factors that resulted in the highest absorbance; (B) interaction between the reaction time and tem",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 superficies 3D de respuesta (A y B)"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC10380883|Figure 3",
+   "imagen": "producto/imagenes/PMC10380883/ijms-24-11466-g003a.jpg",
+   "pie": "SEM micrographs obtained for the second series of samples, with 0.25% silver nitrate: (a) Ag(0.25_15all), (b) Ag(0.25_15), (c) Ag(0.25_30), and (d) Ag(0.25_10).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 SEM con anotaciones verdes"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC10381808|Figure 6",
+   "imagen": "producto/imagenes/PMC10381808/jfb-14-00379-g006a.jpg",
+   "pie": "The HRTEM results and the SAED pattern for the green-synthesized AgNP samples: (A) Bl.AgNPs; (B) Hc.AgNPs; and (C) Sc.AgNPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM con zoom y SAED insertados"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC10383585|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC10383585/pharmaceuticals-16-00957-g009.jpg",
+   "pie": "A representative photomicrograph of a section of the skin tissues stained with hematoxylin and eosin (H&E; ×400). Treated groups in comparison with the unwounded group (A), (B) untreated wounded group, (C) MEBO-treated group, (D) extract-treated group, (E) SCN-LPN2-ISG-treated group.",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 histologias H&E; una celda vacia"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC10384196|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10384196/nanomaterials-13-02083-g002.jpg",
+   "pie": "UV-visible spectrophotometry scan of Besi-AuNPs and pure besifloxacin.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 curvas UV-vis superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC10384528|Figure 3",
+   "imagen": "producto/imagenes/PMC10384528/micromachines-14-01390-g003.jpg",
+   "pie": "SEM Micrographics of PTX-PLGA-PVA/CS NPs, (a) before, and (b) after release by sonication.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC10384829|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10384829/sensors-23-06352-g003.jpg",
+   "pie": "Calibration curve demonstrating the linear dependence of Raman scattering of MG at 1616 cm-1. Insert: scaled-up low-concentration region.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "grafica de calibracion intensidad vs concentracion"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC10390827|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC10390827/Beilstein_J_Nanotechnol-14-804-g008.jpg",
+   "pie": "Lorentz/Kratky plot for SAXS patterns of NLC-VEHICLE (continuous line) and NLC-BNZ (dashed line). The inset corresponds to the linear correlation transformation for lamellar systems.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "imagen ilegible"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC10416621|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10416621/fpls-14-1187616-g002.jpg",
+   "pie": "FTIR spectra of (A) chitosan particles, (B) Carum copticum EO, (C) TPP, and (D) OLNs (oil-loaded chitosan nanoparticles with chitosan to EO weight ratio of 1:0.5).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "4 curvas FTIR que se cruzan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC10456021|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10456021/jfb-14-00407-g003.jpg",
+   "pie": "UV-Visible absorption spectroscopy of PEGylated bare AuNPs and conjugated AuNP-NmAb. The inset shows the band displacement caused by the surface modification of AuNPs. The additional peak at the wavelength of 260-280 nm is due to aromatic amino acids in NmAb, indicating the conjugation of NmAb to Au",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 curvas UV-vis superpuestas mas inset"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC10458383|Figure 3",
+   "imagen": "producto/imagenes/PMC10458383/pharmaceutics-15-02033-g003.jpg",
+   "pie": "(a) TEM micrograph of the optimized trehalosome formulation using Joel JEM 1230, Tokyo, Japan, (b) DSC thermogram of the optimum formula and each component using DSC50, Shimadzu, Japan, and (c) FTIR spectrum of the optimum formula and each component using FTIR -8400, Shimadzu, Japan.",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 1,
+    "n_espectro": 12,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "Conteo de curvas apiladas pequeño"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

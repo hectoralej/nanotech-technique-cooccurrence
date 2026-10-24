@@ -1,0 +1,388 @@
+{
+ "lote": "A001",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC10004108|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC10004108/molecules-28-02020-g008.jpg",
+   "pie": "Analysis of FT-IR of Polyvinyl alcohol/Corn starch/Patchouli oil/Hydrogel films loaded with silver nanoparticles (F0; F1; F2; F3; and F4).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC10005067|Figure 3",
+   "imagen": "producto/imagenes/PMC10005067/nanomaterials-13-00943-g003a.jpg",
+   "pie": "SEM of (a) pure PLGA, (b) nfPLGA, (c) pure dexamethasone, (d,e) DXM-nfPLGA composite.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "simple",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC10059782|Figure 3",
+   "imagen": "producto/imagenes/PMC10059782/pharmaceutics-15-00821-g003.jpg",
+   "pie": "Characterization of Tri-PLNs and Se@Tri-PLNs by particle size distribution (A) and appearance/TEM micrographs (B).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 1,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "B mezcla fotos de viales y TEM"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC10064556|Fig. 8",
+   "imagen": "producto/imagenes_v02/PMC10064556/40360_2023_662_Fig8_HTML.jpg",
+   "pie": "FTIR of uncoated CS-DS NPs and silica-coated CS-DS NPs",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "2 curvas FTIR superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC10096613|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC10096613/polymers-15-01625-g006.jpg",
+   "pie": "XRD spectrum of studied materials: (a) PVP-AgNPs, (b) HPMC-AgNPs, (c) 70 HPMC/30 PVP-AgNPs. Inserted graph represents the XRD pattern of AgNPs according to the standard ICSD No. 98-018-0878.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "XRD 3 curvas superpuestas mas inset"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC10097212|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10097212/plants-12-01578-g002.jpg",
+   "pie": "UV-Visible spectrum at different time durations.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis 6 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC10097212|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC10097212/plants-12-01578-g004.jpg",
+   "pie": "FTIR spectrum of biogenically synthesized silver nanoparticles with extract.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "FTIR 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC10144002|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC10144002/pharmaceutics-15-01128-g002.jpg",
+   "pie": "Size distribution curves of HMSNs (A), HMSNs-PDA (B), and HMSNs-PDA@liposome-TPGS (C). (D) Zeta potential values of various HMSNs. N2 adsorption/desorption isotherms (E) and BJH pore size distributions of various HMSNs (F). (G) FT-IR spectra of HMSNs, HMSNs-NH2, and HMSNs-PDA. (H) SAXS patterns of H",
+   "imagen_dijo": {
+    "paneles": 16,
+    "n_micro": 0,
+    "n_espectro": 12,
+    "n_otro": 4,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "9 paneles A-I; conteo dudoso por tamano"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC10144507|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC10144507/pharmaceutics-15-01125-g003b.jpg",
+   "pie": "(A) ATR-FTIR analysis of albumin/BSA and NLC without BSA; and (B) ATR-FTIR analysis of albumin-coated lipid nanocarriers.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC10144507|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC10144507/pharmaceutics-15-01125-g007.jpg",
+   "pie": "ATR-FTIR analysis of NLCs loaded with Pip and coated with different concentrations of BSA.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC10179898|Figure 10",
+   "imagen": "producto/imagenes_v02/PMC10179898/materials-16-03538-g010.jpg",
+   "pie": "EDS mapping of AgNP-NS-QRC.",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Mapas elementales"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC10179898|Figure 11",
+   "imagen": "producto/imagenes_v02/PMC10179898/materials-16-03538-g011.jpg",
+   "pie": "UV-Visible spectrum of free AgNPs and the AgNP-NS-QRC complex. A bathochromic shift from 420 to 430 nm was observed.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC10190534|FIGURE 9",
+   "imagen": "producto/imagenes_v02/PMC10190534/NBT2-17-234-g007.jpg",
+   "pie": "Comparison of changes in paclitaxel absorption spectrum in centrifuged solutions containing free paclitaxel at different pHs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "espectro unico con 3 curvas por pH"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC10212155|Fig 5",
+   "imagen": "producto/imagenes/PMC10212155/pone.0286251.g005.jpg",
+   "pie": "TEM images of (a) MP3 and (b) MT3 formulations.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "curvas de liberacion de farmaco, contadas como otro"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC10215515|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC10215515/biology-12-00661-g006.jpg",
+   "pie": "Scanning electron micrographs of Alternaria alternata mycelia after 5 days of cultivation at 26 °C: (a) control; (b) treatment with 150µM AgNPs.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 micrografias SEM de fibras (a y b)"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC10233837|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC10233837/ao3c00892_0005.jpg",
+   "pie": "TEM size distribution of In-house (a) MnO and (b) Mn3O4; US Nano’s (c) Mn2O3 and (d) Mn3O4; and Nanoshel’s (e) MnO, (f) Mn2O3-30 nm, (g) Mn2O3-80 nm, and (h) Mn3O4 nanocrystals. Comparatively, In-house nanocrystals have a narrower size distribution compared to commercialized nanocrystals. Only round",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 histogramas de tamano a-h"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC10262211|FIGURE 3",
+   "imagen": "producto/imagenes_v02/PMC10262211/fchem-11-1202252-g003.jpg",
+   "pie": "Overlay of the FTIR spectra of (A) pure OFE and (B) AgNPs@OFE.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "Curvas se cruzan cerca del carbonilo"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC10293534|Fig. 10",
+   "imagen": "producto/imagenes_v02/PMC10293534/43141_2023_525_Fig10_HTML.jpg",
+   "pie": "Histogram analysis of AuNPs (FESEM)",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "histograma de tamano medio con ajuste gaussiano"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC10301181|Figure 4",
+   "imagen": "producto/imagenes/PMC10301181/pharmaceutics-15-01702-g004.jpg",
+   "pie": "Morphological and structural characterization of Cox-MION nanozymes ((a) MION, (b) Co10-MION, (c) Co20-MION, and (d) Co40-MION): (A) TEM images (inset, interplanar lattice fringes with interplanar distances); and (B) Histogram of the size distribution (inset, SAED patterns).",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 9,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "Ampliaciones externas contadas; miniaturas dificultan delimitar paneles."
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC10302373|Figure 12",
+   "imagen": "producto/imagenes_v02/PMC10302373/molecules-28-04644-g012.jpg",
+   "pie": "UV-vis absorption spectra for pure ZnO.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "nan"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

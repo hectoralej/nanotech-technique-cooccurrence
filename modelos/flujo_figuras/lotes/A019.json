@@ -1,0 +1,84 @@
+{
+ "lote": "A019",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC9904897|Figure 22",
+   "imagen": "producto/imagenes_v02/PMC9904897/BMRI2023-1777631.022.jpg",
+   "pie": "Histopathological changes on mouse skin photomicrographs (10x) of H&E stained 20th day. Group 1, control nanogel; group 2, standard (finasteride); group 3, 2.5% nanogel of hydroalcoholic extracts of B. vulgaris; and group 4, 5% nanogel of hydroalcoholic extracts of B. vulgaris.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Histología"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC9904897|Figure 23",
+   "imagen": "producto/imagenes_v02/PMC9904897/BMRI2023-1777631.023.jpg",
+   "pie": "Histopathological changes on mouse skin photomicrographs (10x) of H&E stained 30th day. Group 1, control nanogel; group 2, standard (finasteride); group 3, 2.5% nanogel of hydroalcoholic extracts of B. vulgaris; and group 4, 5% nanogel of hydroalcoholic extracts of B. vulgaris.",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "4 cortes histologicos Group 1-4; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC9935694|FIGURE 6",
+   "imagen": "producto/imagenes_v02/PMC9935694/fchem-11-1114109-g006.jpg",
+   "pie": "XRD pattern of as-prepared SOR-AgNPs.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 XRD medido, calculado y fondo superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC9958700|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC9958700/pharmaceutics-15-00529-g002.jpg",
+   "pie": "UV-Vis spectroscopy graphs of H@Ag-NPs and H@Au-NPs synthesized by Haloxylon salicornicum.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 2 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  }
+ ],
+ "hojas": []
+}

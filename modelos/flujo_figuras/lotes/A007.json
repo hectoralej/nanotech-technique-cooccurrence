@@ -1,0 +1,388 @@
+{
+ "lote": "A007",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC12092728|Fig. 10",
+   "imagen": "producto/imagenes_v02/PMC12092728/41598_2025_2161_Fig10_HTML.jpg",
+   "pie": "Photomicrograph of the hermaphrodite gland of B. alexandrina snails. (a) Normal snails displaying cup-shaped acini with primary and secondary oocytes, mature ovum bounded by a follicular membrane with a large nucleus appeared, the male reproductive cells were distinguished into clusters of primary a",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 histologias H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC12092728|Fig. 9",
+   "imagen": "producto/imagenes_v02/PMC12092728/41598_2025_2161_Fig9_HTML.jpg",
+   "pie": "Photomicrograph of the digestive gland of B. alexandrina, (a) Control snails showed digestive tubules surrounded by connective tissue and consist of digestive and secretory cells and a lumen in the center. (b) Snails exposed to LC10 of O. aegyptiaca- chitosan nanocomposite showed degeneration of the",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 histologias H&E"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC12109224|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC12109224/bioengineering-12-00508-g001.jpg",
+   "pie": "-UV-vis spectra of (a) GO, (b) rGO, (c)GO-AgNP, (d) rGO-AgNP, (e) AgNP3.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 5 curvas solapadas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC12109224|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC12109224/bioengineering-12-00508-g008.jpg",
+   "pie": "Treatment of MCF-7 cells with nanoparticles, significant reduction in stem cell marker gene expressions. ‘*’ Indicates statistically significant (p < 0.05) reduction in gene expression when compared with control gene expression.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "grafica de barras de expresion genica"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC12114622|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC12114622/pharmaceutics-17-00633-g003.jpg",
+   "pie": "UV-vis spectroscopy of the CS-Au hydrogel after heating for 10 and 20 min.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con 2 curvas solapadas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC12124858|Fig 10",
+   "imagen": "producto/imagenes_v02/PMC12124858/pone.0325077.g010.jpg",
+   "pie": "Representative photomicrographs of immunoreactivity for cyclin D1 in small intestine sections (H&E staining).A: Healthy control group showing negative immunoreactivity (X100). B, C: Infected control group. B: Showing strong immunoreactivity, manifested by brown granules in the intestinal mucosa and ",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "8 micrografias de tejido intestinal"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC12135973|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC12135973/j-58-00897-fig1.jpg",
+   "pie": "Schematic illustration of the cholesterol-incorporated PEGylated liposome of N:0 PC lipids, with a DOX crystallite enclosed in the core region. Below is the contrast electron density profile Δρ across the bilayer, described by a five-layered model in the SAXS data analysis.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "esquema de liposoma y perfil de densidad"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC12135973|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC12135973/j-58-00897-fig6.jpg",
+   "pie": "SAXS-determined dimensions of the cylindrical DOX crystallites enclosed inside the three N:0 PC liposomes, with N = 18, 20 and 22.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "grafica de radio y longitud vs N:0 PC"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC12192994|Figure 16",
+   "imagen": "producto/imagenes_v02/PMC12192994/ijms-26-05594-g016.jpg",
+   "pie": "Fluorescence micrographs revealing the F-actin filaments (red) and cell nuclei (blue) of the C2C12 myotubes after 48 h of treatment under the tested conditions. Besides the experimental control, for all conditions, H2O2 was added to induce muscular atrophy in the C2C12 myotube cultures.",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "6 imagenes de fluorescencia en cuadricula 3x2"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC12224490|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC12224490/13065_2025_1564_Fig6_HTML.jpg",
+   "pie": "(a) Swelling ratio of blanket (Cr-HG) and (AV-HG) contained AgNps patches (n = 3). (b) UV-Visible Spectra of Optimized the absorbance of the AgNPs in the patches (X-axis: Time (hour), Y-axis: Absorbance). (c) Cell viability of control (Cr-HG), A = Aloe Vera patch AgNPs (AV-HG), G = green tea patch A",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "2 barras y una curva de absorbancia"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC12250871|Figure 6",
+   "imagen": "producto/imagenes/PMC12250871/nanomaterials-15-00972-g006a.jpg",
+   "pie": "SEM images of chitosan nanoparticles synthesized at (a) 40 amplitudes, (b) 60 amplitudes, (c) 80 amplitudes, and (d) commercial chitosan nanoparticles.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 SEM a y b"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC12294963|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC12294963/ijms-26-06782-g004.jpg",
+   "pie": "Photomicrographs of H&E-stained lung sections from the different study groups. (a,b) Control group: normal lung architecture, formed of normal alveoli (A), alveolar sacs (AS), thin interalveolar septa (bifid yellow arrowhead), bronchioles (B), and pulmonary blood vessels (red arrowheads). (b): Alvea",
+   "imagen_dijo": {
+    "paneles": 12,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 12,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "12 histologias a-l"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC12294963|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC12294963/ijms-26-06782-g005.jpg",
+   "pie": "Photomicrographs of Sirius Red-stained lung sections from different groups. (a) Control group: minimal collagen fibers within the lung interstitium (black arrows), between alveoli (A), around the alveolar sac (AS), in the thin interalveolar septum, around the blood vessel wall (Bv), and around the p",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 histologias y 1 barra de colageno"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC12297327|Fig. 2",
+   "imagen": "producto/imagenes/PMC12297327/41598_2025_11489_Fig2a_HTML.jpg",
+   "pie": "(a) Particle dimension distribution (PDD) and TEM images of lignin nanoparticles prepared from EG were coded LNPs (1-6). (b) Particle dimension distribution (PDD) and TEM images in comparison of LNPs produced from EG (LNPE 7-9) and THF LNPT (2, 7, 8).",
+   "imagen_dijo": {
+    "paneles": 8,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 8,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Ocho histogramas con micrografías insertas."
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC12297327|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC12297327/41598_2025_11489_Fig3a_HTML.jpg",
+   "pie": "(a) FTIR of lignin nanoparticles prepared from EG (LNP1-LNPE6) versus their black liquors (BLs), (b) FTIR of lignin nanoparticles prepared from EG (LNPE7-LNPE9) versus their black liquors (BLs).",
+   "imagen_dijo": {
+    "paneles": 12,
+    "n_micro": 0,
+    "n_espectro": 12,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "6 pares FTIR apilados, poco legibles"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC12300124|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC12300124/pharmaceuticals-18-01071-g004.jpg",
+   "pie": "(a) Hair growth index score; data are presented as the mean ± SD. (b) Hair thickness in µm, measured under scanning electron microscope; data are represented as boxplots, where the horizontal line within each box indicates the median, the box edges represent the interquartile range (IQR), and the wh",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "barras de indice a y boxplots de grosor b"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC12300124|Figure A3",
+   "imagen": "producto/imagenes_v02/PMC12300124/pharmaceuticals-18-01071-g0A3.jpg",
+   "pie": "Hair thickness in µm measured under scanning electron microscope on days 14, 19, and 27 (a-c); the negative control group received no chemotherapy, the positive control group received cyclophosphamide on day 9 post-depilation at a dose of 120 mg/kg and no preventive medication. All other treatment g",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 boxplots a-c para dias 14, 19 y 27"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC12300693|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC12300693/pharmaceutics-17-00876-g008.jpg",
+   "pie": "SAXS profile of NG S2, showing experimental data (black squares) and the corresponding power-law fitting (yellow line). The fitted curve follows the equation I = Aq-ⁿ + C, with an exponent n = 1.92 ± 0.01, suggesting a mass-fractal structure in the analysed range.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "dispersion con ajuste ley de potencia"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC12302189|Fig. 1",
+   "imagen": "producto/imagenes/PMC12302189/gr1.jpg",
+   "pie": "The construction and morphological characterization of BL@TA-FeIII@AgNPs. (A) Schematic of the synthesis of BL@TA-FeIII@AgNPs. (B) TEM images of BL, BL@TA-FeIII, BL@TA-FeIII@AgNPs. (C) Particle size distribution of nanoparticles on the surface of BL@TA-FeIII@AgNPs. (D) TEM images of BL@TA-FeIII@AgNP",
+   "imagen_dijo": {
+    "paneles": 55,
+    "n_micro": 0,
+    "n_espectro": 3,
+    "n_otro": 52,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Cuadrícula bacteriana y mapas; conteo dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC12302189|Fig. 2",
+   "imagen": "producto/imagenes/PMC12302189/gr2.jpg",
+   "pie": "The adaptability of the TA-FeIII@AgNPs shell to the environment and its impact on the activity of BL. (A) Effect of TA-FeIII and TA-FeIII@AgNPs shells on the number of BL survivors. (B) Effect of TA-FeIII and TA-FeIII@AgNPs shells on BL growth curves. (C) Effect of TA-FeIII and TA-FeIII@AgNPs shells",
+   "imagen_dijo": {
+    "paneles": 36,
+    "n_micro": 14,
+    "n_espectro": 0,
+    "n_otro": 22,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "Subceldas diminutas; micrografías, mapas, barras y placas."
+   },
+   "pie_dijo": {
+    "tipologia": "sin_micro_ni_espectro",
+    "destino": "excluir"
+   }
+  }
+ ],
+ "hojas": []
+}

@@ -1,0 +1,388 @@
+{
+ "lote": "A017",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC8955295|Figure 9",
+   "imagen": "producto/imagenes_v02/PMC8955295/pharmaceutics-14-00470-g009.jpg",
+   "pie": "Photomicrographs showing histopathological sections of normal untreated and treated rabbits’ eyes (SCM8-1 formulation) stained with hematoxylin and eosin. The photomicrographs show histological structure of the (a,d) cornea, (b,e) iris, (c,f) retina, choroid and sclera (×40).",
+   "imagen_dijo": {
+    "paneles": 6,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 6,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "histologia a-f de ojos; c quizas 2 fotos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC8990520|Figure 2",
+   "imagen": "producto/imagenes/PMC8990520/am2c01100_0003.jpg",
+   "pie": "Characterization of AgNPs by detailed SEM imaging at 20 k and 100 k magnification (A), TEM images with SAED insets (B), with their corresponding bimodal size distribution (C), DLS measurements results (D), and XPS spectra (E).",
+   "imagen_dijo": {
+    "paneles": 28,
+    "n_micro": 16,
+    "n_espectro": 4,
+    "n_otro": 8,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "16 SEM/TEM en cuadricula 4x2; espectros E dudosos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC9000498|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC9000498/molecules-27-02186-g006.jpg",
+   "pie": "The spectrum obtained by the dynamic light scattering analysis of red currant-AgNPs. The spectrum shows the hydrodynamic diameter (Z-average-d.nm); PDI, polydispersity index.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "DLS: tabla y distribucion por intensidad"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC9002911|Figure 4",
+   "imagen": "producto/imagenes/PMC9002911/polymers-14-01277-g004a.jpg",
+   "pie": "SEM (A-C) and EDX (A’-C’) micrograph of Mn-alginate, Fe-alginate, Co-alginate nanogels.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 1,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "1 SEM y 1 espectro EDS con tabla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC9009416|FIGURE 7",
+   "imagen": "producto/imagenes_v02/PMC9009416/fbioe-10-834226-g007.jpg",
+   "pie": "Fluorescence micrographs of MC3T3-E1 cells on HA/PLGA, 0.5Ce@HA/PLGA, 1Ce@HA/PLGA, 0.5Gd@HA/PLGA, 1Gd@HA/PLGA, 0.5Ce/1Gd@HA/PLGA, and 1Ce/1Gd@HA/PLGA nanocomposites cultured for 24 h. Cells were stained with FITC (green) and DAPI (blue). Scale bar, 100 μm.",
+   "imagen_dijo": {
+    "paneles": 21,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 21,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "21 fluorescencia (Merge, DAPI, FITC); n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC9031428|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC9031428/microorganisms-10-00789-g002.jpg",
+   "pie": "UV-vis spectrum of the UD-AgNPs recorded at different time points.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 3 curvas (8, 16, 24 h)"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC9032237|Figure 8",
+   "imagen": "producto/imagenes_v02/PMC9032237/pharmaceutics-14-00803-g008.jpg",
+   "pie": "Fluorescence microscopy micrographs of a histological section of porcine small intestinal mucosa; the red fluorescence signal shows rhodamine B labelled particles; (a) thiolated Lip-SeNPs; (b) uncoated Lip-SeNPs; (c) blank. The reddish background color comes from the auto-fluorescence of the mucosa;",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "3 cortes de tejido con fluorescencia; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC9033108|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC9033108/plants-11-01037-g002.jpg",
+   "pie": "UV-Vis spectra of HE-AgNPs (a) and HP-AgNPs (b). The insets (i) and (ii) represent the colour of the HE-AgNPs and HP-AgNPs, respectively.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 2,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "pareja",
+    "nota": "2 UV-vis de una curva con fotos inset"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC9036376|FIGURE 11",
+   "imagen": "producto/imagenes_v02/PMC9036376/fmicb-13-813511-g011.jpg",
+   "pie": "FTIR of powdered AuNPs produced by BAECs and BASMCs (representative of n = 3 independent experiments). Confluent cell lines were exposed to 1.5 mM HAuCl4 supplemented with 1% v/v FBS 1 mM CaCl2 1 mM MgSO4 for 48 h at 37°C (representative of n = 3 independent experiments).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 FTIR con BAEC y BASMC superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC9036376|FIGURE 9",
+   "imagen": "producto/imagenes_v02/PMC9036376/fmicb-13-813511-g009.jpg",
+   "pie": "Histogram of AuNPs particle sizes (measured by TEM) produced by BAECs (black) and BASMCs (red). Confluent cell lines were exposed to 1.5 mM HAuCl4 supplemented with 1% v/v FBS, 1 mM CaCl2, and 1 mM MgSO4 ions for 48 h at 37°C (representative of n = 3 independent experiments).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "histograma de diametros con 2 series"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_unica",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC9064458|Fig. 1",
+   "imagen": "producto/imagenes_v02/PMC9064458/c9ra01407a-f1.jpg",
+   "pie": "UV-vis of AgNPs using NE at (pH 5, pH 7, pH 9).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 3 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC9064458|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC9064458/c9ra01407a-f2.jpg",
+   "pie": "UV-vis of AgNPs using NOT mixed extract at (pH 5, 7 and 9).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con 3 curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC9078392|Fig. 2",
+   "imagen": "producto/imagenes_v02/PMC9078392/c8ra00006a-f2.jpg",
+   "pie": "DLS spectra of bare AuNP and albumin coated AuNP with 4 μM and 20 μM HSA. Inset: expanded scale for the bare AuNP and AuNP coated with 4 μM HSA.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "distribucion de tamanos con 3 curvas e inset"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC9088810|Fig. 5",
+   "imagen": "producto/imagenes_v02/PMC9088810/c8ra05898a-f5.jpg",
+   "pie": "Comparison of UV absorption spectrum of carvacrol and CTESPC.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con carvacrol y CTESPC superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC9143250|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC9143250/pharmaceuticals-15-00568-g005.jpg",
+   "pie": "FTIR spectra studies of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) control, (F) optimized formulation.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 FTIR con varias curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC9143250|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC9143250/pharmaceuticals-15-00568-g007.jpg",
+   "pie": "XRD pattern of (A) pure drug, (B) Compritol 888ATO, (C) Tween 80, (D) Poloxamer 188, (E) formulation (F4), (F) optimized formulation (F12).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 XRD con varias curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC9146385|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC9146385/pharmaceutics-14-01057-g005.jpg",
+   "pie": "FT-IR spectra for (a) 10-60-30 and the associated samples, (b) 10-60-60 and the associated samples; (c) 80-60-30 and the associated samples; (d) 80-60-60 and the associated samples.",
+   "imagen_dijo": {
+    "paneles": 28,
+    "n_micro": 0,
+    "n_espectro": 28,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "4 paneles FTIR con ~7 curvas apiladas c/u"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC9182893|Figure 6",
+   "imagen": "producto/imagenes/PMC9182893/polymers-14-02247-g006.jpg",
+   "pie": "Microscopic morphology photograph of (A) FPM7 and (B) FPM8 by transmission electron microscope (TEM).",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 TEM con barra de 200 nm"
+   },
+   "pie_dijo": {
+    "tipologia": "una_util_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC9217793|Figure 2",
+   "imagen": "producto/imagenes/PMC9217793/41598_2022_14814_Fig2_HTML.jpg",
+   "pie": "(a) XRD spectra of Ag@TiO2-PPDOs (red arrows indicates peaks of PPDO crystal, the green dotted line indicates peaks of TiO2 crystal, the red dotted line indicates peaks of Ag); (b) TEM of Ag@TiO2-PPDOs; (c) TG curves of Ag@TiO2-PPDOs; (d) Raman spectrum of Ag@TiO2-PPDOs; (e) Affection of Ag content ",
+   "imagen_dijo": {
+    "paneles": 19,
+    "n_micro": 4,
+    "n_espectro": 14,
+    "n_otro": 1,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "a,d,f apilados; b 4 TEM; c TGA superpuesto; e esquema"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_mixta",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC9321465|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC9321465/ijms-23-07910-g005a.jpg",
+   "pie": "Top-view SEM images (a,b) and Cross-section SEM images (c,d) of the AgNPs/Mg3(PO4)2 coatings at different magnifications.",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 2,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "pareja",
+    "nota": "2 micrografias SEM a y b"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  }
+ ],
+ "hojas": []
+}

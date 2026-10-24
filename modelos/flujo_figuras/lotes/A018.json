@@ -1,0 +1,388 @@
+{
+ "lote": "A018",
+ "asignado": "claude",
+ "tipo": "arbitraje",
+ "figuras": [
+  {
+   "n": 1,
+   "fig_id": "PMC9370869|Figure 20",
+   "imagen": "producto/imagenes_v02/PMC9370869/polymers-14-03138-g020.jpg",
+   "pie": "Photomicrograph showing Hematoxylin and Eosin stained (H&E) (×40) sections of kidney with asterisk showing kidney tubules and arrow showing glomerulus. (A) Control group with regular shape of glomerulus and distinguishable collecting duct and renal tubule. (B) Untreated diabetic group showing irregu",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 cortes histologicos de rinon; n_otro por regla"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_micro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 2,
+   "fig_id": "PMC9382538|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC9382538/AFHS2201-0673Fig5.jpg",
+   "pie": "FTIR image of synthesized biotic superparamagnetic nanoparticles from Pouteria caimito fruit aqueous extract",
+   "imagen_dijo": {
+    "paneles": 2,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 2,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "distribucion zeta y tamano DLS apilados"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 3,
+   "fig_id": "PMC9411138|Figure 1",
+   "imagen": "producto/imagenes/PMC9411138/41598_2022_18670_Fig1_HTML.jpg",
+   "pie": "Nano-hydrogel images of (a) CNPs and (b) NiCNC obtained through Ionotropic Gelation Method; Characterization of CNPs and NiCNC through (c) UV-Vis spectra of CNPs and NiCNC; FE-SEM analysis of (d) CNPs and (e) NiCNC; HRTEM analysis of (f) CNPs and (g) NiCNC; Particle size distribution histogram of (h",
+   "imagen_dijo": {
+    "paneles": 12,
+    "n_micro": 4,
+    "n_espectro": 5,
+    "n_otro": 3,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "composicion densa; conteo incierto; paneles diminutos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 4,
+   "fig_id": "PMC9415452|Figure 5",
+   "imagen": "producto/imagenes_v02/PMC9415452/pharmaceutics-14-01601-g005a.jpg",
+   "pie": "Energy-dispersive X-ray spectra (counts vs. energy) of (a) liposomes and (b) nanocochleates.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "un espectro EDS con picos rotulados"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_espectro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 5,
+   "fig_id": "PMC9415738|Figure 2",
+   "imagen": "producto/imagenes_v02/PMC9415738/pharmaceutics-14-01680-g002.jpg",
+   "pie": "UV-vis spectra for gold coated NPs: A-Fe3O4: Au 5:1 (w/w); B-Fe3O4: Au 2.5:1 (w/w); C-Fe3O4: Au 1.25:1 (w/w).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "UV-vis con tres curvas superpuestas A-C"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 6,
+   "fig_id": "PMC9416099|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC9416099/nanomaterials-12-02759-g007.jpg",
+   "pie": "Morphological changes in control and As-AgNPs treated normal fibroblast L929 cells for 24 h. This figure shows photomicrographs (20X) where it is possible to see the morphology of sample 3 (Table 2) treated with L929 cells. Treatment of sample 3 did not show toxicity or cellular changes to the L929 ",
+   "imagen_dijo": {
+    "paneles": 3,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 3,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Células en microscopía óptica"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 7,
+   "fig_id": "PMC9417799|Fig. 3",
+   "imagen": "producto/imagenes_v02/PMC9417799/c9na00772e-f3.jpg",
+   "pie": "SAXS data comparing as synthesized silica nanoparticles to APDMES grafted particles. Inset shows the pair-distance distribution function (pddf).",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "dispersion con dos curvas y PDDF inset"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 8,
+   "fig_id": "PMC9448409|Figure 7.",
+   "imagen": "producto/imagenes_v02/PMC9448409/IDRD_A_2115164_F0007_C.jpg",
+   "pie": "A tile scan confocal laser microscope photomicrograph of a longitudinal section in bovine cornea treated with FDA-loaded NLCs, and NLCs Ocugel. Note: (1) NLCs ocugel, (2) optimized NLCs, (A) Fluorescence light, and (B) merge between fluorescence light and transmitted light. Abbreviations: FDA, fluor",
+   "imagen_dijo": {
+    "paneles": 4,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 4,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia de tejido"
+   },
+   "pie_dijo": {
+    "tipologia": "pareja_micro",
+    "destino": "pareja"
+   }
+  },
+  {
+   "n": 9,
+   "fig_id": "PMC9506095|Figure 14",
+   "imagen": "producto/imagenes_v02/PMC9506095/molecules-27-05757-g014.jpg",
+   "pie": "Fluorescent micrograph of acridine orange, and propidium iodide double-stained AMGM5 cells. The histogram images showed the percentage of green fluorescence (viable cells), and red fluorescence (dead cells) for each treatment: (A) Untreated cells; (B-F) NDV, TMZ, TMZ-PLGA-NPs, NDV and TMZ, and NDV a",
+   "imagen_dijo": {
+    "paneles": 18,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 18,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Seis fluorescencias y doce citometrías"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 10,
+   "fig_id": "PMC9571213|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC9571213/polymers-14-04004-g007.jpg",
+   "pie": "pXRD diffractograms of raw materials and the prepared NPs.",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 0,
+    "n_espectro": 13,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "compuesta",
+    "nota": "13 XRD muy juntos, picos solapados, dudoso"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 11,
+   "fig_id": "PMC9611945|Figure 4",
+   "imagen": "producto/imagenes/PMC9611945/pharmaceutics-14-02223-g004.jpg",
+   "pie": "Characterization of the dual-nanozyme system (AuNP//Co-MION@CMC): (A) UV-Vis spectra. (B) Digital images of suspensions. (C) Annular dark-field image (left) and TEM image (right). (D) TEM image with EDS spectra. (E) Normalized correlation curves. (F) FTIR spectra obtained for the dual-nanozyme syste",
+   "imagen_dijo": {
+    "paneles": 13,
+    "n_micro": 4,
+    "n_espectro": 5,
+    "n_otro": 4,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Imagen de partículas en campo oscuro; modalidad dudosa"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_con_otros",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 12,
+   "fig_id": "PMC9633124|Fig. 9",
+   "imagen": "producto/imagenes_v02/PMC9633124/12249_2022_2445_Fig9_HTML.jpg",
+   "pie": "Photomicrographs of E. tenella oocysts treated with 10 mg/ml of UERRO free CsNPs3 free CsNPs5 UERRO-CsNPs3 and UERRO-CsNPs5. UEERO; ultrasonicated ethanolic extract of Rosmarinus officinalis free CsNPs3; free chitosan nanoparticles at pH 3 free CsNPs5; free chitosan nanoparticles at pH 5 UEERO-CsNPs",
+   "imagen_dijo": {
+    "paneles": 42,
+    "n_micro": 42,
+    "n_espectro": 0,
+    "n_otro": 0,
+    "curvas_superpuestas": "na",
+    "destino": "compuesta",
+    "nota": "grilla pequena de microscopias, conteo aproximado"
+   },
+   "pie_dijo": {
+    "tipologia": "micro_multiple_sin_etiquetas",
+    "destino": "revisar_multiple"
+   }
+  },
+  {
+   "n": 13,
+   "fig_id": "PMC9712613|Figure 1",
+   "imagen": "producto/imagenes/PMC9712613/41598_2022_24531_Fig1_HTML.jpg",
+   "pie": "Biosynthesis of AgNPs from Aspergillus flavus having antibacterial activity. (4a) Culture filtrate of A. flavus with silver nitrate solution (0.1 M) at 0 h. (4b) Culture filtrate of A. flavus with silver nitrate solution (0.1 M) at 96 h. (4cL) Size distribution profile of AgNPs synthesized by cultur",
+   "imagen_dijo": {
+    "paneles": 9,
+    "n_micro": 1,
+    "n_espectro": 2,
+    "n_otro": 6,
+    "curvas_superpuestas": "si",
+    "destino": "compuesta",
+    "nota": "Resumen visual con gráficas y fotos pequeñas"
+   },
+   "pie_dijo": {
+    "tipologia": "solo_descriptores",
+    "destino": "excluir"
+   }
+  },
+  {
+   "n": 14,
+   "fig_id": "PMC9780945|Figure 4",
+   "imagen": "producto/imagenes_v02/PMC9780945/pharmaceutics-14-02837-g004.jpg",
+   "pie": "EDS mapping of oxygen (a), carbon (b), sulfur (c), platinum (d), and silicon (e) atoms of PL-HA-GSNO-SiO2@CisPt lyophilized hydrogel.",
+   "imagen_dijo": {
+    "paneles": 5,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 5,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "5 mapas elementales O, C, S, Pt, Si"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 15,
+   "fig_id": "PMC9823559|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC9823559/plants-12-00172-g001.jpg",
+   "pie": "UV-vis spectra of silver nanoparticles synthesized using C. acutum latex extract (Cy-AgNPs); initial AgNO3 concentration, 1 mM.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "no",
+    "destino": "simple",
+    "nota": "1 UV-vis, inset ampliado no contado"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  },
+  {
+   "n": 16,
+   "fig_id": "PMC9842608|Figure 1",
+   "imagen": "producto/imagenes_v02/PMC9842608/41598_2022_26818_Fig1_HTML.jpg",
+   "pie": "UV-vis absorption kinetic spectra of C. procumbens synthesized silver nanoparticles every 20 min for 6 h.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 UV-vis con muchas curvas superpuestas"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 17,
+   "fig_id": "PMC9854575|Figure 6",
+   "imagen": "producto/imagenes_v02/PMC9854575/antibiotics-12-00141-g006.jpg",
+   "pie": "FTIR spectrum of bacterial supernatant-synthesized silver nanoparticles (test sample) in comparison with control (bacterial supernatant). Quite a few peaks denoting the functional groups of biologically active compounds were obtained in a range of 4000-400 cm-1 on a spectrometer.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "1 FTIR control y test superpuestos"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_unico",
+    "destino": "simple"
+   }
+  },
+  {
+   "n": 18,
+   "fig_id": "PMC9864186|Figure 3",
+   "imagen": "producto/imagenes_v02/PMC9864186/pharmaceutics-15-00089-g003.jpg",
+   "pie": "Laser scanning confocal microscopy images showing viability of MCF-7 cells after DOX release from newly developed DRS. DOX release was induced under near-infrared irradiation (NIR-I) using 980 nm lasers. Representative images of cells exposed to the DRS: (a-c) without the incorporated drug (DOX) und",
+   "imagen_dijo": {
+    "paneles": 15,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 15,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "Fluorescencia celular"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 19,
+   "fig_id": "PMC9867178|Figure 7",
+   "imagen": "producto/imagenes_v02/PMC9867178/pharmaceuticals-16-00048-g007.jpg",
+   "pie": "ATR-FTIR spectra for (a) silver nanoparticles from willow tree; (b) chitosan; (c) gelatin; and (d) hydrogel with silver nanoparticles.",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 1,
+    "n_otro": 0,
+    "curvas_superpuestas": "si",
+    "destino": "superpuesto",
+    "nota": "Curvas se cruzan a números de onda bajos"
+   },
+   "pie_dijo": {
+    "tipologia": "compuesta_espectro",
+    "destino": "compuesta"
+   }
+  },
+  {
+   "n": 20,
+   "fig_id": "PMC9883368|Fig. 6",
+   "imagen": "producto/imagenes_v02/PMC9883368/13205_2023_3480_Fig6_HTML.jpg",
+   "pie": "Absorbance spectra demonstrating comparative sustained release of cinnamon and cumin from polymeric nanoparticles",
+   "imagen_dijo": {
+    "paneles": 1,
+    "n_micro": 0,
+    "n_espectro": 0,
+    "n_otro": 1,
+    "curvas_superpuestas": "na",
+    "destino": "excluir",
+    "nota": "curvas de liberacion de absorbancia vs tiempo"
+   },
+   "pie_dijo": {
+    "tipologia": "espectro_superpuesto",
+    "destino": "superpuesto"
+   }
+  }
+ ],
+ "hojas": []
+}
