@@ -16,6 +16,8 @@ def iou(a, b):
 ref = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")); oth = json.loads(Path(sys.argv[2]).read_text(encoding="utf-8"))
 todos = []
 for fid, pr in ref.items():
+    if fid.startswith("_"):            # _meta del anotador (tiempos, esperados)
+        continue
     po = oth.get(fid)
     if po is None:
         print(fid, "sin respuesta"); continue

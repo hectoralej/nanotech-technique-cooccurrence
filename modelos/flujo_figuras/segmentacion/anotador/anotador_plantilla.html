@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Anotador de paneles</title>
+<style>
+:root{--bg:#fff;--fg:#1d2427;--mut:#5b6a70;--line:#d5dde0;--acc:#0f6e6a;--micro:#d81b60;--espectro:#1e88e5;--otro:#43a047}
+@media (prefers-color-scheme:dark){:root{--bg:#161b1d;--fg:#e8eef0;--mut:#9fb0b6;--line:#2c3a3f;--acc:#4fc3bd}}
+body{margin:0;font:15px/1.4 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:10px 16px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+main{padding:12px 16px;display:grid;grid-template-columns:minmax(0,1fr) 270px;gap:16px}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+canvas{max-width:100%;border:1px solid var(--line);cursor:crosshair;background:#fff}
+button,select,input{font:inherit;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:transparent;color:var(--fg)}
+button{cursor:pointer}button.p{background:var(--acc);color:#fff;border-color:var(--acc)}
+.t{display:inline-block;padding:3px 9px;border-radius:12px;border:2px solid;margin-right:4px;cursor:pointer;font-weight:600}
+.t.on{color:#fff}.micro{border-color:var(--micro)}.micro.on{background:var(--micro)}.espectro{border-color:var(--espectro)}.espectro.on{background:var(--espectro)}.otro{border-color:var(--otro)}.otro.on{background:var(--otro)}
+small,.mut{color:var(--mut)}li{margin:3px 0}
+</style></head><body>
+<header>
+<b>Anotador de paneles</b>
+<label>Tu nombre <input id="nom" size="10"></label>
+<span id="prog"></span>
+<button id="prev">◀ Anterior</button><button id="next" class="p">Siguiente ▶</button>
+<button id="exp">Exportar JSON</button>
+</header>
+<main>
+<div>
+<div id="info" class="mut"></div>
+<div style="margin:6px 0">Tipo del panel que vas a dibujar:
+<span class="t micro on" data-t="micro">1 micro</span><span class="t espectro" data-t="espectro">2 espectro</span><span class="t otro" data-t="otro">3 otro</span></div>
+<canvas id="cv"></canvas>
+<p class="mut"><small>Arrastra con el ratón para dibujar una caja por panel (incluye ejes, números, barra de escala y la letra del panel si está pegada; los recuadros ampliados quedan dentro de su panel). Orden de lectura: filas de arriba abajo, izquierda a derecha. <b>Z</b> o Retroceso = deshacer la última caja. 1/2/3 = tipo. Flechas ← → = cambiar de figura. Se guarda solo en este navegador; exporta al terminar.</small></p>
+</div>
+<aside>
+<b>Cajas de esta figura</b> <span id="cnt"></span>
+<ol id="lst"></ol>
+<p class="mut"><small><b>micro</b> = TEM/SEM/AFM… · <b>espectro</b> = curva de un método (FTIR, XRD, UV-vis, EDS…) · <b>otro</b> = histograma, barras, esquema, foto, difracción de electrones, mapa elemental, tabla.</small></p>
+<button id="clr">Borrar cajas de esta figura</button>
+</aside>
+</main>
+<script>
+const DATOS = __DATOS__;
+const KEY = "anotador_paneles_v1";
+let S = {}; try { S = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+S.cajas = S.cajas || {}; S.t = S.t || {};
+const cv = document.getElementById("cv"), cx = cv.getContext("2d");
+let i = 0, tipo = "micro", img = new Image(), arrastre = null, t0 = Date.now();
+const COL = {micro: "#d81b60", espectro: "#1e88e5", otro: "#43a047"};
+function guardar(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} }
+function cajas(){ const f = DATOS[i].fig_id; return S.cajas[f] = S.cajas[f] || []; }
+function tiempo(){ const f = DATOS[i].fig_id; S.t[f] = (S.t[f] || 0) + (Date.now() - t0) / 1000; t0 = Date.now(); }
+function cargar(){
+  const d = DATOS[i]; img = new Image();
+  img.onload = () => { const w = Math.min(1100, img.naturalWidth * 1.6); cv.width = Math.round(w); cv.height = Math.round(w * img.naturalHeight / img.naturalWidth); dibujar(); };
+  img.src = d.imagen; t0 = Date.now(); refrescar();
+}
+function dibujar(){
+  cx.clearRect(0, 0, cv.width, cv.height); cx.drawImage(img, 0, 0, cv.width, cv.height);
+  cajas().forEach((b, k) => marco(b.caja, COL[b.tipo], k + 1));
+  if (arrastre) marco(arrastre.caja, COL[tipo], "");
+}
+function marco(c, col, n){
+  cx.lineWidth = 3; cx.strokeStyle = col; cx.fillStyle = col + "22";
+  const x = c[0] * cv.width, y = c[1] * cv.height, w = (c[2] - c[0]) * cv.width, h = (c[3] - c[1]) * cv.height;
+  cx.fillRect(x, y, w, h); cx.strokeRect(x, y, w, h);
+  if (n !== "") { cx.fillStyle = col; cx.font = "bold 18px system-ui"; cx.fillText(n, x + 5, y + 20); }
+}
+function refrescar(){
+  const d = DATOS[i], n = cajas().length;
+  document.getElementById("info").innerHTML = `<b>${d.fig_id}</b> · esperados (según la clasificación): <b>${d.esperados}</b> paneles`;
+  document.getElementById("cnt").textContent = `${n} / ${d.esperados}`;
+  const hechas = DATOS.filter(x => (S.cajas[x.fig_id] || []).length > 0).length;
+  document.getElementById("prog").textContent = `Figura ${i + 1} de ${DATOS.length} · con cajas: ${hechas}`;
+  document.getElementById("lst").innerHTML = cajas().map(b => `<li style="color:${COL[b.tipo]}">${b.tipo} [${b.caja.map(v => v.toFixed(2)).join(", ")}]</li>`).join("");
+}
+function pos(e){ const r = cv.getBoundingClientRect(); return [Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)), Math.min(1, Math.max(0, (e.clientY - r.top) / r.height))]; }
+cv.addEventListener("mousedown", e => { const p = pos(e); arrastre = {x: p[0], y: p[1], caja: [p[0], p[1], p[0], p[1]]}; });
+cv.addEventListener("mousemove", e => { if (!arrastre) return; const p = pos(e); arrastre.caja = [Math.min(arrastre.x, p[0]), Math.min(arrastre.y, p[1]), Math.max(arrastre.x, p[0]), Math.max(arrastre.y, p[1])]; dibujar(); });
+window.addEventListener("mouseup", () => {
+  if (!arrastre) return; const c = arrastre.caja.map(v => +v.toFixed(4)); arrastre = null;
+  if ((c[2] - c[0]) > 0.02 && (c[3] - c[1]) > 0.02) { cajas().push({tipo, caja: c}); guardar(); }
+  dibujar(); refrescar();
+});
+function ir(k){ tiempo(); guardar(); i = Math.max(0, Math.min(DATOS.length - 1, i + k)); cargar(); }
+document.getElementById("next").onclick = () => ir(1); document.getElementById("prev").onclick = () => ir(-1);
+document.getElementById("clr").onclick = () => { S.cajas[DATOS[i].fig_id] = []; guardar(); dibujar(); refrescar(); };
+function deshacer(){ cajas().pop(); guardar(); dibujar(); refrescar(); }
+function elegir(t){ tipo = t; document.querySelectorAll(".t").forEach(x => x.classList.toggle("on", x.dataset.t === t)); }
+document.querySelectorAll(".t").forEach(x => x.onclick = () => elegir(x.dataset.t));
+window.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT") return;
+  if (e.key === "z" || e.key === "Z" || e.key === "Backspace") { e.preventDefault(); deshacer(); }
+  else if (e.key === "1") elegir("micro"); else if (e.key === "2") elegir("espectro"); else if (e.key === "3") elegir("otro");
+  else if (e.key === "ArrowRight") ir(1); else if (e.key === "ArrowLeft") ir(-1);
+});
+const nom = document.getElementById("nom"); nom.value = S.nombre || ""; nom.oninput = () => { S.nombre = nom.value; guardar(); };
+document.getElementById("exp").onclick = () => {
+  tiempo(); guardar();
+  const out = {}; DATOS.forEach(d => { if ((S.cajas[d.fig_id] || []).length) out[d.fig_id] = S.cajas[d.fig_id]; });
+  out._meta = {anotador: S.nombre || "", tiempos_s: S.t, esperados: Object.fromEntries(DATOS.map(d => [d.fig_id, d.esperados]))};
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(out)], {type: "application/json"}));
+  a.download = `cajas_humano_${(S.nombre || "anon").replace(/\W+/g, "_")}.json`; a.click();
+};
+cargar();
+</script></body></html>
