@@ -1,0 +1,106 @@
+{
+ "lote": "C165",
+ "asignado": "claude",
+ "figuras": [
+  {
+   "fig_id": "PMC10697724|FIG. 2.",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10697724_FIG2.jpg",
+   "paneles_esperados": 4,
+   "esperado": {
+    "micro": 1,
+    "espectro": 3,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10697724|FIG. 8.",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10697724_FIG8.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 0,
+    "espectro": 2,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10703760|Fig. 2",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10703760_Fig2.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 2,
+    "espectro": 0,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10707881|Figure 6",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10707881_Figure6.jpg",
+   "paneles_esperados": 12,
+   "esperado": {
+    "micro": 12,
+    "espectro": 0,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10741590|Figure 5",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10741590_Figure5.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 2,
+    "espectro": 0,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10742787|Figure 12",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10742787_Figure12.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 0,
+    "espectro": 1,
+    "otro": 1
+   }
+  },
+  {
+   "fig_id": "PMC10745864|Figure 7",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10745864_Figure7.jpg",
+   "paneles_esperados": 4,
+   "esperado": {
+    "micro": 2,
+    "espectro": 0,
+    "otro": 2
+   }
+  },
+  {
+   "fig_id": "PMC10764356|Figure 3",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10764356_Figure3.jpg",
+   "paneles_esperados": 6,
+   "esperado": {
+    "micro": 6,
+    "espectro": 0,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10779594|Figure 4",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10779594_Figure4.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 0,
+    "espectro": 2,
+    "otro": 0
+   }
+  },
+  {
+   "fig_id": "PMC10779594|Figure 5",
+   "grid": "modelos/flujo_figuras/segmentacion/cajas/grids/PMC10779594_Figure5.jpg",
+   "paneles_esperados": 2,
+   "esperado": {
+    "micro": 0,
+    "espectro": 1,
+    "otro": 1
+   }
+  }
+ ]
+}

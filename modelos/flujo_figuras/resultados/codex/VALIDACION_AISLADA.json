@@ -1,5 +1,5 @@
 {
-  "hora": "2026-10-23T22:30:17",
+  "hora": "2026-10-23T22:52:04",
   "estado": "PASS",
   "lotes": [
     "L002",
@@ -11,9 +11,19 @@
     "L014",
     "L016",
     "L018",
-    "L020"
+    "L020",
+    "L022",
+    "L024",
+    "L026",
+    "L028",
+    "L030",
+    "L032",
+    "L034",
+    "L036",
+    "L038",
+    "L040"
   ],
-  "figuras": 300,
-  "confianza_1": 6,
+  "figuras": 600,
+  "confianza_1": 12,
   "alcance": "solo Codex, consolidar.py sin modificar; no se leyeron resultados de Claude; todas las salidas dentro de resultados/codex"
 }

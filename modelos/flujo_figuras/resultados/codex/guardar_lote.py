@@ -10,6 +10,13 @@ data=json.loads((OUT/f'{lot}_anotaciones.json').read_text(encoding='utf-8'))
 assert len(data)==len(plan['figuras'])
 rows=[]
 for fig, row in zip(plan['figuras'],data):
+ # Abreviaturas de anotaciones manuales: entero = solo micrografías;
+ # tres campos = conteos sin espectros; cinco = conteos y flags explícitos.
+ if type(row) is int: row=[row,0,0,'na','na','','buena',3,'']
+ elif len(row)==3:
+  assert row[1]==0
+  row=[*row,'na','na','','buena',3,'']
+ elif len(row)==5: row=[*row,'','buena',3,'']
  m,e,o,curves,clean,tech,quality,confidence,note=row
  assert all(type(x) is int and x>=0 for x in [m,e,o]) and m+e+o>=1
  assert curves in ['si','no','na'] and clean in ['si','no','na']
