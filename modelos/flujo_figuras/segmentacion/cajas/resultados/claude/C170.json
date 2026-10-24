@@ -1,0 +1,78 @@
+{
+ "PMC11280234|Figure 8": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.330, 0.370]},
+  {"tipo": "micro", "caja": [0.340, 0.000, 0.660, 0.370]},
+  {"tipo": "micro", "caja": [0.670, 0.000, 1.000, 0.370]},
+  {"tipo": "otro", "caja": [0.200, 0.420, 0.920, 1.000]}
+ ],
+ "PMC11280413|Figure 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.490, 0.490]},
+  {"tipo": "micro", "caja": [0.510, 0.000, 1.000, 0.490]},
+  {"tipo": "micro", "caja": [0.000, 0.510, 0.490, 1.000]},
+  {"tipo": "micro", "caja": [0.510, 0.510, 1.000, 1.000]}
+ ],
+ "PMC11307291|Figure 10": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.280, 0.300], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.290, 0.000, 0.560, 0.300], "tecnica": "STEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "espectro", "caja": [0.580, 0.000, 1.000, 0.300]},
+  {"tipo": "otro", "caja": [0.000, 0.310, 0.290, 0.620], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.300, 0.310, 0.560, 0.620], "tecnica": "STEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "espectro", "caja": [0.580, 0.310, 1.000, 0.620]},
+  {"tipo": "otro", "caja": [0.000, 0.660, 0.310, 1.000], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.320, 0.660, 0.640, 1.000], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.160, 0.000, 0.280, 0.120], "padre": 1, "rel": "inset"},
+  {"tipo": "otro", "caja": [0.160, 0.320, 0.290, 0.460], "padre": 4, "rel": "inset"}
+ ],
+ "PMC11312205|Figure 5": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.355, 0.500]},
+  {"tipo": "micro", "caja": [0.360, 0.000, 0.710, 0.500]},
+  {"tipo": "micro", "caja": [0.720, 0.000, 1.000, 0.500]},
+  {"tipo": "micro", "caja": [0.000, 0.510, 0.355, 1.000]},
+  {"tipo": "micro", "caja": [0.360, 0.510, 0.710, 1.000]},
+  {"tipo": "otro", "caja": [0.720, 0.510, 1.000, 1.000]}
+ ],
+ "PMC11315693|Figure 2": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.500, 0.330]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.330]},
+  {"tipo": "otro", "caja": [0.000, 0.340, 0.500, 0.660]},
+  {"tipo": "otro", "caja": [0.500, 0.340, 1.000, 0.660]},
+  {"tipo": "otro", "caja": [0.000, 0.670, 0.500, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.670, 1.000, 1.000]}
+ ],
+ "PMC11315693|Figure 7": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.320, 0.330]},
+  {"tipo": "otro", "caja": [0.330, 0.000, 0.640, 0.330]},
+  {"tipo": "otro", "caja": [0.650, 0.000, 1.000, 0.330]},
+  {"tipo": "otro", "caja": [0.000, 0.340, 0.320, 0.660]},
+  {"tipo": "otro", "caja": [0.330, 0.340, 0.640, 0.660]},
+  {"tipo": "otro", "caja": [0.650, 0.340, 1.000, 0.660]},
+  {"tipo": "otro", "caja": [0.000, 0.670, 0.320, 1.000]},
+  {"tipo": "otro", "caja": [0.330, 0.670, 0.640, 1.000]},
+  {"tipo": "otro", "caja": [0.650, 0.670, 1.000, 1.000]}
+ ],
+ "PMC11315693|Figure 8": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.240, 0.500]},
+  {"tipo": "otro", "caja": [0.250, 0.000, 0.490, 0.500]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 0.740, 0.500]},
+  {"tipo": "otro", "caja": [0.750, 0.000, 1.000, 0.500]},
+  {"tipo": "otro", "caja": [0.000, 0.510, 0.240, 1.000]},
+  {"tipo": "otro", "caja": [0.250, 0.510, 0.490, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.510, 0.740, 1.000]},
+  {"tipo": "otro", "caja": [0.750, 0.510, 1.000, 1.000]}
+ ],
+ "PMC11359757|Figure 5": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.480, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 1.000]}
+ ],
+ "PMC11447203|Fig. 6": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.490, 0.500]},
+  {"tipo": "otro", "caja": [0.510, 0.000, 1.000, 0.500]},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.500, 1.000]},
+  {"tipo": "espectro", "caja": [0.500, 0.500, 1.000, 1.000]}
+ ],
+ "PMC11469222|Figure 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.290, 1.000], "tecnica": "STEM", "contenido": "indeterminado"},
+  {"tipo": "espectro", "caja": [0.300, 0.000, 0.600, 1.000]},
+  {"tipo": "otro", "caja": [0.610, 0.000, 1.000, 1.000]}
+ ]
+}

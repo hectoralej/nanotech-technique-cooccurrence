@@ -1,0 +1,39 @@
+{
+  "fecha_utc": "2026-10-24T19:36:21.070092+00:00",
+  "lotes": "B031-B040",
+  "estado": "PASS",
+  "figuras": 300,
+  "por_contenido": {
+    "mixto": 3,
+    "particulas": 282,
+    "indeterminado": 6,
+    "particulas_en_contexto_biologico": 7,
+    "biologico": 2
+  },
+  "por_confianza": {
+    "3": 265,
+    "2": 29,
+    "1": 6
+  },
+  "no_particulas": 18,
+  "indeterminadas": 6,
+  "validaciones": [
+    "B035: PASS",
+    "B040: PASS"
+  ],
+  "sha256": {
+    "B031": "070eef53edcdf5dd33e61cbbd04f32f0e43f62bdd885dc4d0809aadbf7d9e3bd",
+    "B032": "6586fc71ec1b01680849383b8803f1b1057cd1248d8962ad830a9bc1b86003d7",
+    "B033": "cc0479c8477f20ec862914a664965e636eb2aadc8ce74591f25cbdb756b5b315",
+    "B034": "d4edcc5df8e7c0a97ffb95ba129ab5b63957efc3c25b4220c2e33e76466e1f50",
+    "B035": "53cdf86512cfb39d22bafe8a1d8ba3840c50bf616dbe739f9ea2d386a6415ca2",
+    "B036": "262fe632328d55c77a34c70e8d0b8e5279a3df2939d6d5701bef6b852563d09f",
+    "B037": "4cb5dcfdadfdcef9cabc678bff20810fe5ec10b12d290168834469d4ee59a437",
+    "B038": "52dc81726dfcedcb1cfe54a1a0e81b7e72c4530e5f3d8776206c52ef52b6306b",
+    "B039": "7961960b284c3ba2ff91df302c4e2bde449ab89f60d73d1f185c554ec7b68732",
+    "B040": "ddd4af96fb4cb9f5bdc93b2ff4b4d4e4c38b6200be548f81b3f9e4efe836726b"
+  },
+  "siguiente": "B041",
+  "pendientes_B": 29,
+  "figuras_pendientes_B": 866
+}

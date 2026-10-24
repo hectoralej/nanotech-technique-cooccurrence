@@ -76,3 +76,37 @@
 - 2026-10-24T19:27:58.822696+00:00: B032 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
 
 - 2026-10-24T19:30:17.901213+00:00: B033 guardado, 30 figuras, 4 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:33:04.257138+00:00: B034 guardado, 30 figuras, 3 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:33:39.916941+00:00: B035 guardado, 30 figuras, 3 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:34:03.366538+00:00: B036 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:34:21.793164+00:00: B037 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:35:23.760218+00:00: B038 guardado, 30 figuras, 6 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:35:40.726950+00:00: B039 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:36:19.811322+00:00: B040 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:36:21.070092+00:00: tanda B031-B040 cerrada: 300 figuras; 18 distintas de particulas, 6 indeterminadas. Validaciones B035/B040 PASS. Continuar en B041; consolidación pendiente hasta B069.
+
+- 2026-10-24T19:40:37.377269+00:00: B041 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:41:21.175514+00:00: B042 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:42:25.880673+00:00: B043 guardado, 30 figuras, 3 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:43:09.321049+00:00: B044 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:44:26.174718+00:00: B045 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:45:04.322099+00:00: B046 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:46:56.121764+00:00: B047 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:47:34.319396+00:00: B048 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:48:36.102779+00:00: B049 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
