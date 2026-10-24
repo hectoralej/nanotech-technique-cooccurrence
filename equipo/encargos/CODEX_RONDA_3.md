@@ -51,7 +51,8 @@ Claude auditó `curation\ext_descriptores.csv` (3.116 filas, 1.229 artículos). 
 - **Rangos:** 31 tamaños > 1.000 nm, 17 < 5 nm, 24 PDI > 1 (4 > 1,5), 7 citas con «meV».
 - **Medio:** el 75 % es `not_declared` y el resto tiene decenas de variantes («deionized water», «water suspension», «aqueous dispersion»…).
 - **Etiquetas `source`:** texto libre («Table 1; DLS», «DLS Table 2», «text; TEM»…).
-Carpeta nueva: `RAIZ\modelos\descriptores_v02\`. **No modifiques** `curation\ext_descriptores.csv`; no borres filas.
+**Actualización (23/10 noche):** Claude ya hizo la parte ligera: `RAIZ\modelos\descriptores_v02\auditar_descriptores_ligero.py` y `descriptores_v02_base.csv` (mismas 3.116 filas y columnas originales + `via`, `tabla_n`, `metodo_tamano`, `metodo_tamano_inferido`, `tamano_es_radio`, `zeta_meV`, `medio_norm`, `fuera_rango`, `duplicado`, `usable_modelo_prelim`, `usable_estricto`; resumen en `RESUMEN_LIGERO.txt`). **Parte de ahí y no la rehagas.** Tu tarea es lo que falta: (a) la **verificación de columna contra el encabezado de la tabla en el XML** (punto 1, tercera viñeta), (b) revisar las reglas del ligero con la muestra de 40 filas (puntos 2 y 3) y proponer correcciones, y (c) la sensibilidad de modelos (punto 3 de abajo) usando `usable_estricto` y también la verificación de encabezados. Escribe tus columnas añadidas a una copia (`descriptores_v02.csv`), sin modificar `descriptores_v02_base.csv`.
+Carpeta: `RAIZ\modelos\descriptores_v02\`. **No modifiques** `curation\ext_descriptores.csv`; no borres filas.
 1. **`descriptores_v02.csv`** = las mismas 3.116 filas (mismo orden y columnas) más estas columnas derivadas, con reglas documentadas y reproducibles (`auditar_descriptores.py`):
    - `via` (`tabla`/`texto`/`figura`) y `tabla_n` (número, si es tabla), extraídos de `source`.
    - `metodo_tamano`: `DLS` / `TEM` / `SEM` / `XRD` / `AFM` / `desconocido`, a partir de palabras clave en la cita y en `source` (documenta la lista en el informe). `tamano_es_radio` (bool).
@@ -66,6 +67,7 @@ Carpeta nueva: `RAIZ\modelos\descriptores_v02\`. **No modifiques** `curation\ext
 ---
 ## Entrega
 Un checkpoint por tarea (hora, validado, fallos). Reporte final corto en el chat: lo hecho, cifras, lo que no pudiste verificar y las tres conclusiones más importantes. **No uses git: Claude revisa y sube.** Prioridad si falta tiempo: R3, R4 y R5 antes del sábado a las 12 m (alimentan los modelos del clúster); R1 antes de las 2 pm; R2 solo después. Lo que no esté validado a las 3 pm no entra a los modelos.
+
 
 
 
