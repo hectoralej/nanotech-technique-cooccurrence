@@ -1,0 +1,61 @@
+{
+ "PMC9628983|Fig. 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.480, 0.375]},
+  {"tipo": "micro", "caja": [0.500, 0.000, 0.985, 0.375]},
+  {"tipo": "otro", "caja": [0.000, 0.385, 0.545, 0.725]},
+  {"tipo": "micro", "caja": [0.560, 0.410, 1.000, 0.815]},
+  {"tipo": "micro", "caja": [0.000, 0.815, 1.000, 1.000]},
+  {"tipo": "micro", "caja": [0.055, 0.225, 0.235, 0.375], "padre": 1, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.795, 0.220, 0.980, 0.375], "padre": 2, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.565, 0.655, 0.850, 0.815], "padre": 4, "rel": "inset"}
+ ],
+ "PMC9628983|Fig. 2": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.500, 0.470]},
+  {"tipo": "otro", "caja": [0.505, 0.000, 1.000, 0.470]},
+  {"tipo": "otro", "caja": [0.000, 0.495, 0.500, 0.985]},
+  {"tipo": "otro", "caja": [0.505, 0.495, 1.000, 0.985]}
+ ],
+ "PMC9633124|Fig. 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.495, 0.475]},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.475]},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.495, 0.985]},
+  {"tipo": "micro", "caja": [0.505, 0.500, 1.000, 0.985]}
+ ],
+ "PMC9647953|Fig. 1": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.490, 0.470]},
+  {"tipo": "micro", "caja": [0.495, 0.000, 1.000, 1.000]},
+  {"tipo": "otro", "caja": [0.000, 0.480, 0.490, 1.000]}
+ ],
+ "PMC9649682|Figure 5": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.505, 0.990]},
+  {"tipo": "micro", "caja": [0.520, 0.000, 1.000, 0.990]}
+ ],
+ "PMC9654512|Figure 4": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.485, 0.495]},
+  {"tipo": "micro", "caja": [0.515, 0.000, 1.000, 0.495]},
+  {"tipo": "micro", "caja": [0.285, 0.505, 0.735, 0.975], "contenido": "indeterminado"}
+ ],
+ "PMC9654586|Figure 9": [
+  {"tipo": "otro", "tecnica": "TEM", "contenido": "biologico", "caja": [0.170, 0.000, 0.575, 0.470]},
+  {"tipo": "otro", "tecnica": "TEM", "contenido": "biologico", "caja": [0.578, 0.000, 0.995, 0.470]},
+  {"tipo": "otro", "tecnica": "TEM", "contenido": "biologico", "caja": [0.170, 0.490, 0.575, 0.970]},
+  {"tipo": "otro", "tecnica": "TEM", "contenido": "biologico", "caja": [0.578, 0.490, 0.995, 0.970]}
+ ],
+ "PMC9699398|Figure 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.490, 0.490]},
+  {"tipo": "micro", "caja": [0.495, 0.000, 1.000, 0.490]},
+  {"tipo": "otro", "caja": [0.030, 0.540, 0.480, 0.990]}
+ ],
+ "PMC9712501|Figure 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.495, 0.510]},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.510]},
+  {"tipo": "micro", "caja": [0.000, 0.545, 0.495, 1.000]},
+  {"tipo": "micro", "caja": [0.505, 0.545, 1.000, 1.000]}
+ ],
+ "PMC9712613|Figure 6": [
+  {"tipo": "espectro", "caja": [0.000, 0.000, 0.500, 0.440]},
+  {"tipo": "otro", "caja": [0.505, 0.000, 1.000, 0.440]},
+  {"tipo": "espectro", "caja": [0.000, 0.490, 0.500, 0.985]},
+  {"tipo": "micro", "caja": [0.505, 0.490, 1.000, 0.985]}
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "PMC6071138|Figure 4": [
+  {"tipo": "otro", "caja": [0.0, 0.0, 0.5, 0.5]},
+  {"tipo": "otro", "caja": [0.5, 0.0, 1.0, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.33, 1.0]},
+  {"tipo": "micro", "caja": [0.33, 0.5, 0.66, 1.0]},
+  {"tipo": "micro", "caja": [0.66, 0.5, 1.0, 1.0]}
+ ],
+ "PMC6077779|Figure 1.": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.5, 1.0]},
+  {"tipo": "micro", "caja": [0.5, 0.0, 1.0, 1.0]}
+ ],
+ "PMC6099628|Figure 5": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.5, 0.5]},
+  {"tipo": "micro", "caja": [0.5, 0.0, 1.0, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.5, 1.0]},
+  {"tipo": "micro", "caja": [0.5, 0.5, 1.0, 1.0]}
+ ],
+ "PMC6099699|Figure 1": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.3, 0.48]},
+  {"tipo": "otro", "caja": [0.33, 0.0, 0.75, 0.48]},
+  {"tipo": "espectro", "caja": [0.0, 0.5, 0.36, 0.98]},
+  {"tipo": "espectro", "caja": [0.38, 0.5, 0.76, 0.98]},
+  {"tipo": "otro", "caja": [0.77, 0.5, 0.98, 0.98]}
+ ],
+ "PMC6117638|Figure 5": [
+  {"tipo": "otro", "caja": [0.0, 0.0, 0.5, 0.46]},
+  {"tipo": "micro", "caja": [0.5, 0.0, 1.0, 0.46]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.5, 0.99]},
+  {"tipo": "micro", "caja": [0.5, 0.5, 1.0, 0.99]}
+ ],
+ "PMC6117648|Figure 3": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.32, 0.5]},
+  {"tipo": "micro", "caja": [0.33, 0.0, 0.67, 0.5]},
+  {"tipo": "otro", "caja": [0.68, 0.0, 1.0, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.32, 1.0]},
+  {"tipo": "otro", "caja": [0.33, 0.5, 0.67, 1.0]},
+  {"tipo": "otro", "caja": [0.68, 0.5, 1.0, 1.0]}
+ ],
+ "PMC6119933|Figure 1": [
+  {"tipo": "espectro", "caja": [0.0, 0.0, 0.5, 0.5]},
+  {"tipo": "otro", "caja": [0.5, 0.0, 1.0, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.52, 0.5, 1.0]},
+  {"tipo": "micro", "caja": [0.5, 0.52, 1.0, 1.0]}
+ ],
+ "PMC6119933|Figure 4": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.5, 0.5]},
+  {"tipo": "micro", "caja": [0.5, 0.0, 1.0, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.5, 1.0]},
+  {"tipo": "micro", "caja": [0.5, 0.5, 1.0, 1.0]},
+  {"tipo": "micro", "caja": [0.31, 0.01, 0.49, 0.26], "padre": 1, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.81, 0.02, 1.0, 0.27], "padre": 2, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.31, 0.51, 0.49, 0.76], "padre": 3, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.8, 0.52, 1.0, 0.76], "padre": 4, "rel": "inset"}
+ ],
+ "PMC6124124|Figure 5.": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.33, 1.0]},
+  {"tipo": "micro", "caja": [0.34, 0.0, 0.66, 1.0]},
+  {"tipo": "micro", "caja": [0.67, 0.0, 1.0, 1.0]}
+ ],
+ "PMC6124124|Figure 6.": [
+  {"tipo": "micro", "caja": [0.0, 0.0, 0.5, 0.22]},
+  {"tipo": "otro", "caja": [0.5, 0.0, 1.0, 0.22]},
+  {"tipo": "espectro", "caja": [0.15, 0.24, 0.92, 0.5]},
+  {"tipo": "micro", "caja": [0.0, 0.5, 0.5, 0.72]},
+  {"tipo": "otro", "caja": [0.5, 0.5, 1.0, 0.72]},
+  {"tipo": "espectro", "caja": [0.15, 0.74, 0.92, 0.99]}
+ ]
+}

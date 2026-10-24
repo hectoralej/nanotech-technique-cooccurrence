@@ -31,3 +31,25 @@ Re-revisión R002-R016 terminada: 240 figuras, 13 con confianza 1; validación a
 2026-10-24T15:54:32.250382+00:00: L113, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
 
 2026-10-24T15:55:13.325056+00:00: L115, 30 figuras, confianza 1: 1. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:55:42.037944+00:00: L117, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:56:17.061575+00:00: L119, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:57:29.212688+00:00: L121, 30 figuras, confianza 1: 1. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:58:02.274836+00:00: L123, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:58:38.189318+00:00: L125, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:59:12.563281+00:00: L127, 30 figuras, confianza 1: 1. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T15:59:56.624603+00:00: L129, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T16:01:04.711025+00:00: L131, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T16:01:47.355525+00:00: L133, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T16:02:38.922262+00:00: L135, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
+
+2026-10-24T16:03:13.188449+00:00: L137, 30 figuras, confianza 1: 0. Revisión visual desde cero, reglas 24-oct.
