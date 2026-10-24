@@ -1,0 +1,435 @@
+{
+  "PMC10505674|FIGURE 5": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10505674|FIGURE 6": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.495,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10511430|Figure 2": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.32,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.34,
+        0.0,
+        0.655,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.68,
+        0.0,
+        0.995,
+        0.999
+      ]
+    }
+  ],
+  "PMC10514128|Fig. 5": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.495,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10525761|Figure 2": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.04,
+        0.04,
+        0.545,
+        0.51
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.04,
+        0.965,
+        0.275
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.275,
+        0.965,
+        0.51
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.04,
+        0.515,
+        0.545,
+        0.95
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.55,
+        0.515,
+        0.965,
+        0.95
+      ]
+    }
+  ],
+  "PMC10530711|Figure 3": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.59
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.24,
+        0.34,
+        0.485,
+        0.58
+      ],
+      "padre": 1,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.0,
+        0.999,
+        0.59
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.525,
+        0.34,
+        0.775,
+        0.58
+      ],
+      "padre": 3,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.595,
+        0.5,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.595,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10533512|Figure 4": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.445,
+        0.999
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.45,
+        0.0,
+        0.845,
+        0.999
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.845,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10534332|Figure 4": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.505,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.51,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10534567|Figure 5": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.4,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.405,
+        0.0,
+        0.795,
+        0.999
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.8,
+        0.0,
+        0.999,
+        0.999
+      ]
+    }
+  ],
+  "PMC10536234|Figure 2": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.2
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.0,
+        0.999,
+        0.2
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.81,
+        0.002,
+        0.995,
+        0.088
+      ],
+      "padre": 2,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.2,
+        0.5,
+        0.4
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.2,
+        0.999,
+        0.4
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.205,
+        0.69,
+        0.3
+      ],
+      "padre": 5,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.4,
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.4,
+        0.999,
+        0.6
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.81,
+        0.405,
+        0.995,
+        0.5
+      ],
+      "padre": 8,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.6,
+        0.5,
+        0.8
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.6,
+        0.999,
+        0.8
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.75,
+        0.605,
+        0.995,
+        0.69
+      ],
+      "padre": 11,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.8,
+        0.5,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.8,
+        0.999,
+        0.999
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.845,
+        0.88,
+        0.995,
+        0.965
+      ],
+      "padre": 14,
+      "rel": "inset"
+    }
+  ],
+  "_revision": {
+    "notas": {
+      "PMC10525761|Figure 2": "B tiene dos gráficos FTIR con ejes propios.",
+      "PMC10530711|Figure 3": "C y D son ampliaciones hijas de A y B."
+    },
+    "discrepancias_estimacion_lote": {
+      "PMC10525761|Figure 2": "conteo útil 5 frente al esperado 4",
+      "PMC10530711|Figure 3": "conteo útil 4 frente al esperado 6"
+    },
+    "reglas": "v2, contenido biologico 25-oct",
+    "metodo": "Cajas manuales sobre cuadricula; sin pies ni otros revisores"
+  }
+}

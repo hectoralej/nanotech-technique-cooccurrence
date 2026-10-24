@@ -1,0 +1,47 @@
+{
+  "fecha_utc": "2026-10-24T18:02:24.190186+00:00",
+  "clasificacion": {
+    "R": {
+      "lotes": 8,
+      "figuras": 240,
+      "confianza_1": 13
+    },
+    "L": {
+      "lotes": 68,
+      "figuras": 2028,
+      "confianza_1": 23
+    }
+  },
+  "cajas": {
+    "lotes": 10,
+    "figuras": 100,
+    "dudas": [
+      {
+        "lote": "C006",
+        "fig_id": "PMC10179898|Figure 9",
+        "nota": "DUDA: superficies extensas; contenido biológico o material no distinguible visualmente."
+      },
+      {
+        "lote": "C012",
+        "fig_id": "PMC10349103|Figure 2",
+        "nota": "DUDA: sustrato filamentoso; no distingo material de contexto biológico."
+      },
+      {
+        "lote": "C016",
+        "fig_id": "PMC10451730|Figure 7",
+        "nota": "DUDA: modalidad electrónica no identificable; contenido bacteriano inequívoco."
+      }
+    ],
+    "errores_estructurales": 0,
+    "en_cola_por_conteo": 15
+  },
+  "qa_visual": [
+    "R002.jpg",
+    "R005.jpg",
+    "R009.jpg",
+    "R012.jpg",
+    "R014.jpg"
+  ],
+  "validacion_global": "NO_EJECUTADA; solo copia aislada Codex",
+  "cierre": "Tanda guardada; 15 figuras requieren resolución de conteo antes de cierre definitivo."
+}

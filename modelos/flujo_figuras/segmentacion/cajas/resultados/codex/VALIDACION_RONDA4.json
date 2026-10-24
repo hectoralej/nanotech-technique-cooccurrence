@@ -1,0 +1,85 @@
+{
+  "fecha_utc": "2026-10-24T18:01:31.211107+00:00",
+  "lotes": [
+    "C002",
+    "C004",
+    "C006",
+    "C008",
+    "C010",
+    "C012",
+    "C014",
+    "C016",
+    "C018",
+    "C020"
+  ],
+  "figuras": 100,
+  "errores_estructurales": [],
+  "figuras_en_cola": 15,
+  "motivos_cola": [
+    {
+      "fig_id": "PMC10039946|Figure 2",
+      "motivo": "conteo útil 5 frente al esperado 4"
+    },
+    {
+      "fig_id": "PMC10097174|Figure 4",
+      "motivo": "conteo útil 0 frente al esperado 12"
+    },
+    {
+      "fig_id": "PMC10172396|Figure 1",
+      "motivo": "conteo útil 2 frente al esperado 4"
+    },
+    {
+      "fig_id": "PMC10179898|Figure 9",
+      "motivo": "conteo útil 0 frente al esperado 2"
+    },
+    {
+      "fig_id": "PMC10190534|FIGURE 1",
+      "motivo": "conteo útil 1 frente al esperado 2"
+    },
+    {
+      "fig_id": "PMC10349103|Figure 2",
+      "motivo": "conteo útil 1 frente al esperado 2"
+    },
+    {
+      "fig_id": "PMC10354092|Figure 1",
+      "motivo": "conteo útil 3 frente al esperado 5"
+    },
+    {
+      "fig_id": "PMC10354276|FIGURE 5",
+      "motivo": "conteo útil 1 frente al esperado 2"
+    },
+    {
+      "fig_id": "PMC10357535|Figure 3",
+      "motivo": "conteo útil 1 frente al esperado 3"
+    },
+    {
+      "fig_id": "PMC10363985|FIGURE 2",
+      "motivo": "conteo útil 5 frente al esperado 3"
+    },
+    {
+      "fig_id": "PMC10364344|Fig. (3)",
+      "motivo": "conteo útil 5 frente al esperado 6"
+    },
+    {
+      "fig_id": "PMC10450573|Fig. 1",
+      "motivo": "conteo útil 7 frente al esperado 8"
+    },
+    {
+      "fig_id": "PMC10458383|Figure 3",
+      "motivo": "conteo útil 11 frente al esperado 13"
+    },
+    {
+      "fig_id": "PMC10525761|Figure 2",
+      "motivo": "conteo útil 5 frente al esperado 4"
+    },
+    {
+      "fig_id": "PMC10530711|Figure 3",
+      "motivo": "conteo útil 4 frente al esperado 6"
+    }
+  ],
+  "solo_codex": true,
+  "fuente_sha256": "f8bb4f80410c171d6f9ba0ecca7245e4876b1738844d4abc6d791d609b3f75e0",
+  "salida": "figuras con cajas válidas: 85 de 100 (407 recortes); a la cola: 15\nrecortes de nivel superior por tipo: {'micro': 250, 'otro': 104, 'espectro': 34} | insets: 19 | cascada: 3 | lado menor mediano (px): 238\n",
+  "validacion_formato": "PASS",
+  "conteos": "REQUIEREN_REVISION"
+}
