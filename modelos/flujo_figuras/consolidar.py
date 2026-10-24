@@ -54,7 +54,7 @@ v = pd.DataFrame(filas).merge(plan[["lote", "n", "fig_id", "pmcid", "figura", "p
 v["destino_vision"] = v.apply(destino_visual, axis=1)
 ok = {"simple": {"simple"}, "pareja": {"pareja"}, "compuesta": {"compuesta"}, "superpuesto": {"superpuesto"}, "excluir": {"excluir"}}
 v["acuerdo_con_pie"] = [d in ok.get(p, {p}) or (p == "revisar_multiple" and d in ("simple", "pareja", "compuesta")) for d, p in zip(v.destino_vision, v.destino_pie)]
-v.to_csv(OUT / "figuras_vision.csv", index=False, encoding="utf-8-sig")
+v.to_csv(OUT / "figuras_vision_por_revisor.csv", index=False, encoding="utf-8-sig")
 
 # acuerdo entre revisores (lotes «ambos»)
 if v.revisor.nunique() > 1:
@@ -72,18 +72,24 @@ if v.revisor.nunique() > 1:
 else:
     dis = []
 v["desacuerdo_revisores"] = v.fig_id.isin(dis)
-cola = v[(~v.acuerdo_con_pie) | (v.confianza == 1) | v.desacuerdo_revisores]
+# una fila por figura (si dos revisores la hicieron, se toma la de «claude»; el desacuerdo entre ellos manda la figura a la cola)
+v["_o"] = (v.revisor != "claude").astype(int)
+u = v.sort_values(["fig_id", "_o"]).drop_duplicates("fig_id").drop(columns="_o").reset_index(drop=True)
+u["estado"] = ["aceptada_auto" if (a and c >= 2 and not d) else "cola_revision" for a, c, d in zip(u.acuerdo_con_pie, u.confianza, u.desacuerdo_revisores)]
+u.to_csv(OUT / "figuras_vision.csv", index=False, encoding="utf-8-sig")             # todas las figuras clasificadas, una fila cada una
+cola = u[u.estado == "cola_revision"]
 cola.to_csv(OUT / "cola_desacuerdos.csv", index=False, encoding="utf-8-sig")
 (OUT / "bases").mkdir(exist_ok=True)
-fin = v[v.acuerdo_con_pie & (v.confianza >= 2) & ~v.desacuerdo_revisores]
-for d in ["simple", "pareja", "compuesta", "superpuesto", "excluir"]:
-    fin[fin.destino_vision == d].to_csv(OUT / "bases" / f"{d}.csv", index=False, encoding="utf-8-sig")
+for d in ["simple", "pareja", "compuesta", "superpuesto", "excluir"]:                 # bases por categoría: todas las clasificadas, con su estado
+    u[u.destino_vision == d].to_csv(OUT / "bases" / f"{d}.csv", index=False, encoding="utf-8-sig")
+fin = u[u.estado == "aceptada_auto"]
 
-hechas = v.drop_duplicates("fig_id")
+hechas = u
 md += [f"Figuras clasificadas: **{len(hechas)}** de {len(plan)} ({len(hechas)/len(plan):.0%}). Lotes con resultado: {v.lote.nunique()} de {plan.lote.nunique()}.", "",
        "## Destino según la imagen", "", hechas.destino_vision.value_counts().to_string(), "",
        "## Imagen frente al pie (filas = imagen, columnas = pie)", "", pd.crosstab(hechas.destino_vision, hechas.destino_pie).to_string(), "",
-       f"Coinciden imagen y pie: {hechas.acuerdo_con_pie.mean():.1%}. Aceptadas automáticamente (coinciden, confianza ≥ 2): {len(fin.drop_duplicates('fig_id'))}. En la cola de revisión: {len(cola.drop_duplicates('fig_id'))}.", "",
+       f"Coinciden imagen y pie: {hechas.acuerdo_con_pie.mean():.1%}. Aceptadas automáticamente (coinciden, confianza ≥ 2): {len(fin)}. En la cola de revisión: {len(cola)}.", "",
+       "## Por categoría (aceptadas / cola)", "", pd.crosstab(u.destino_vision, u.estado).to_string(), "",
        f"Panel medio por figura: {hechas.paneles.mean():.2f}; figuras con 1 panel: {(hechas.paneles == 1).mean():.1%}; con 2: {(hechas.paneles == 2).mean():.1%}; con 3 o más: {(hechas.paneles >= 3).mean():.1%}.", ""]
 if errores:
     md += ["## Errores de formato (corregir)", ""] + [f"- {e}" for e in errores[:40]] + [""]
