@@ -10,7 +10,8 @@ Tarea: para cada figura de la lista, marcar la **caja de cada panel** con coorde
 5. **Espectros en cascada** (curvas de muestras distintas, desplazadas verticalmente sin solaparse, eje x compartido) → **una caja por curva** (banda horizontal de esa curva con su rótulo), cada una con `tipo: "espectro"` y `"cascada": true`. **Curvas que se cruzan o se solapan sobre los mismos ejes → una sola caja** de espectro (es un espectro superpuesto, no se divide).
 6. **Fluorescencia, confocal, histología (H&E), citometría y fotos de células o animales → `tipo: "otro"`**. Solo TEM, SEM, STEM, AFM, cryo-EM y microscopía óptica/DIC de partículas o muestras son `micro`.
 7. `tipo`: `micro` (micrografías), `espectro` (curva o patrón de un método: FTIR, XRD, UV-vis, EDS, Raman…), `otro` (histograma, barras, esquema, foto, difracción de electrones, mapa elemental de color, tabla, DLS/zeta). Las **tiras de fotos sin letra** (frascos, flujo de trabajo) no se cajean.
-8. No uses el pie de figura ni busques el artículo.
+8. **Contenido de las micrografías (regla 25-oct).** TEM/SEM de **bacterias, células, orgánulos o tejido** son `tipo: "otro"` con `"tecnica": "TEM"` o `"SEM"` y `"contenido": "biologico"`. Imágenes de **nanopartículas dentro o sobre células** → `tipo: "otro"`, `"contenido": "particulas_en_contexto_biologico"` (conjunto aparte). Micrografías de partículas, materiales o formulaciones (`tipo: "micro"`) llevan `"contenido": "particulas"` (puede omitirse: es el valor por defecto). Si no puedes decidir: `"contenido": "indeterminado"`. Solo `micro` + `particulas` son aptas para entrenar la morfología; lo demás se conserva en la base, pero no entra al entrenamiento principal.
+9. No uses el pie de figura ni busques el artículo.
 
 ## Formato de salida (un archivo JSON por lote)
 ```

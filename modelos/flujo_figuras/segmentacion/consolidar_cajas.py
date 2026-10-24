@@ -111,7 +111,9 @@ def main():
                 im.crop(px).save(ruta)
             d.rectangle([px[0] * sx, px[1] * sy, px[2] * sx, px[3] * sy], outline=COL[p["tipo"]], width=1 if hija else 2)
             d.text((px[0] * sx + 3, px[1] * sy + 1), str(k), fill=COL[p["tipo"]], font=ft)
-            filas.append(dict(fig_id=fid, pmcid=pm, panel=k, tipo=p["tipo"], padre=p.get("padre", ""), rel=p.get("rel", ""), cascada=bool(p.get("cascada", False)),
+            filas.append(dict(fig_id=fid, pmcid=pm, panel=k, tipo=p["tipo"], tecnica=p.get("tecnica", ""), contenido=p.get("contenido", "particulas" if p["tipo"] == "micro" else ""),
+                              elegible_morfologia=p["tipo"] == "micro" and p.get("contenido", "particulas") == "particulas" and "padre" not in p,
+                              padre=p.get("padre", ""), rel=p.get("rel", ""), cascada=bool(p.get("cascada", False)),
                               x0=round(x0, 4), y0=round(y0, 4), x1=round(x1, 4), y1=round(y1, 4), ancho_px=px[2] - px[0], alto_px=px[3] - px[1],
                               recorte=ruta.relative_to(RAIZ).as_posix(), revisor=rev, revisores="|".join(revs), imagen=plan.loc[fid, "imagen"]))
         overlays.append((fid, vis))
