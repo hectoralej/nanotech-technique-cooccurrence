@@ -1,0 +1,31 @@
+{
+ "figuras": 6524,
+ "por_tipologia": {
+  "espectro_superpuesto": 779,
+  "compuesta_micro": 729,
+  "solo_descriptores": 715,
+  "compuesta_espectro": 638,
+  "espectro_unico": 622,
+  "pareja_espectro": 573,
+  "compuesta_con_otros": 480,
+  "pareja_micro": 368,
+  "micro_multiple_sin_etiquetas": 340,
+  "sin_micro_ni_espectro": 298,
+  "micro_unica": 288,
+  "compuesta_mixta": 250,
+  "una_util_con_otros": 247,
+  "pareja_micro_espectro": 197
+ },
+ "por_destino": {
+  "compuesta": 2344,
+  "pareja": 1138,
+  "excluir": 1013,
+  "simple": 910,
+  "superpuesto": 779,
+  "revisar_multiple": 340
+ },
+ "consistencia_visual": {
+  "con_visual": 2358,
+  "consistentes": 838
+ }
+}

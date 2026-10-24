@@ -1,0 +1,418 @@
+{
+ "ResNet50 congelado": {
+  "n": 2100,
+  "acc_global": 0.439,
+  "grupos": {
+   "compuesta": {
+    "n": 1139,
+    "acc": 0.448,
+    "ic95": [
+     0.418,
+     0.479
+    ]
+   },
+   "micro_multiple_sin_etiquetas": {
+    "n": 223,
+    "acc": 0.422,
+    "ic95": [
+     0.357,
+     0.487
+    ]
+   },
+   "pareja": {
+    "n": 421,
+    "acc": 0.432,
+    "ic95": [
+     0.385,
+     0.478
+    ]
+   },
+   "simple": {
+    "n": 232,
+    "acc": 0.457,
+    "ic95": [
+     0.387,
+     0.522
+    ]
+   },
+   "sin_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.37,
+    "ic95": [
+     0.222,
+     0.5
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.324,
+    "ic95": [
+     0.182,
+     0.471
+    ]
+   },
+   "superpuesto": {
+    "n": 5,
+    "acc": 0.4,
+    "ic95": [
+     0.0,
+     0.8
+    ]
+   }
+  },
+  "contenido": {
+   "micrografias_y_espectros": {
+    "n": 450,
+    "acc": 0.491,
+    "ic95": [
+     0.443,
+     0.541
+    ]
+   },
+   "ni_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.37,
+    "ic95": [
+     0.229,
+     0.511
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.324,
+    "ic95": [
+     0.182,
+     0.485
+    ]
+   },
+   "solo_espectros": {
+    "n": 36,
+    "acc": 0.472,
+    "ic95": [
+     0.323,
+     0.647
+    ]
+   },
+   "solo_micrografias": {
+    "n": 1534,
+    "acc": 0.428,
+    "ic95": [
+     0.404,
+     0.452
+    ]
+   }
+  }
+ },
+ "DINOv2 congelado": {
+  "n": 2100,
+  "acc_global": 0.416,
+  "grupos": {
+   "compuesta": {
+    "n": 1139,
+    "acc": 0.442,
+    "ic95": [
+     0.413,
+     0.47
+    ]
+   },
+   "micro_multiple_sin_etiquetas": {
+    "n": 223,
+    "acc": 0.345,
+    "ic95": [
+     0.28,
+     0.411
+    ]
+   },
+   "pareja": {
+    "n": 421,
+    "acc": 0.42,
+    "ic95": [
+     0.375,
+     0.469
+    ]
+   },
+   "simple": {
+    "n": 232,
+    "acc": 0.371,
+    "ic95": [
+     0.307,
+     0.432
+    ]
+   },
+   "sin_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.391,
+    "ic95": [
+     0.25,
+     0.543
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.324,
+    "ic95": [
+     0.152,
+     0.5
+    ]
+   },
+   "superpuesto": {
+    "n": 5,
+    "acc": 0.2,
+    "ic95": [
+     0.0,
+     0.6
+    ]
+   }
+  },
+  "contenido": {
+   "micrografias_y_espectros": {
+    "n": 450,
+    "acc": 0.409,
+    "ic95": [
+     0.364,
+     0.453
+    ]
+   },
+   "ni_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.391,
+    "ic95": [
+     0.26,
+     0.533
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.324,
+    "ic95": [
+     0.176,
+     0.5
+    ]
+   },
+   "solo_espectros": {
+    "n": 36,
+    "acc": 0.222,
+    "ic95": [
+     0.081,
+     0.378
+    ]
+   },
+   "solo_micrografias": {
+    "n": 1534,
+    "acc": 0.426,
+    "ic95": [
+     0.4,
+     0.451
+    ]
+   }
+  }
+ },
+ "ResNet50 ajuste fino": {
+  "n": 2100,
+  "acc_global": 0.459,
+  "grupos": {
+   "compuesta": {
+    "n": 1139,
+    "acc": 0.478,
+    "ic95": [
+     0.448,
+     0.509
+    ]
+   },
+   "micro_multiple_sin_etiquetas": {
+    "n": 223,
+    "acc": 0.422,
+    "ic95": [
+     0.353,
+     0.495
+    ]
+   },
+   "pareja": {
+    "n": 421,
+    "acc": 0.468,
+    "ic95": [
+     0.421,
+     0.518
+    ]
+   },
+   "simple": {
+    "n": 232,
+    "acc": 0.435,
+    "ic95": [
+     0.37,
+     0.504
+    ]
+   },
+   "sin_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.326,
+    "ic95": [
+     0.196,
+     0.468
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.294,
+    "ic95": [
+     0.121,
+     0.455
+    ]
+   },
+   "superpuesto": {
+    "n": 5,
+    "acc": 0.2,
+    "ic95": [
+     0.0,
+     0.6
+    ]
+   }
+  },
+  "contenido": {
+   "micrografias_y_espectros": {
+    "n": 450,
+    "acc": 0.529,
+    "ic95": [
+     0.481,
+     0.577
+    ]
+   },
+   "ni_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.326,
+    "ic95": [
+     0.191,
+     0.467
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.294,
+    "ic95": [
+     0.146,
+     0.448
+    ]
+   },
+   "solo_espectros": {
+    "n": 36,
+    "acc": 0.389,
+    "ic95": [
+     0.216,
+     0.543
+    ]
+   },
+   "solo_micrografias": {
+    "n": 1534,
+    "acc": 0.447,
+    "ic95": [
+     0.421,
+     0.472
+    ]
+   }
+  }
+ },
+ "DINOv2 ajuste fino": {
+  "n": 2100,
+  "acc_global": 0.482,
+  "grupos": {
+   "compuesta": {
+    "n": 1139,
+    "acc": 0.502,
+    "ic95": [
+     0.473,
+     0.53
+    ]
+   },
+   "micro_multiple_sin_etiquetas": {
+    "n": 223,
+    "acc": 0.448,
+    "ic95": [
+     0.381,
+     0.513
+    ]
+   },
+   "pareja": {
+    "n": 421,
+    "acc": 0.468,
+    "ic95": [
+     0.415,
+     0.52
+    ]
+   },
+   "simple": {
+    "n": 232,
+    "acc": 0.483,
+    "ic95": [
+     0.418,
+     0.55
+    ]
+   },
+   "sin_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.326,
+    "ic95": [
+     0.2,
+     0.457
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.412,
+    "ic95": [
+     0.242,
+     0.572
+    ]
+   },
+   "superpuesto": {
+    "n": 5,
+    "acc": 0.6,
+    "ic95": [
+     0.2,
+     1.0
+    ]
+   }
+  },
+  "contenido": {
+   "micrografias_y_espectros": {
+    "n": 450,
+    "acc": 0.513,
+    "ic95": [
+     0.464,
+     0.559
+    ]
+   },
+   "ni_micro_ni_espectro": {
+    "n": 46,
+    "acc": 0.326,
+    "ic95": [
+     0.191,
+     0.459
+    ]
+   },
+   "sin_pie_en_inventario": {
+    "n": 34,
+    "acc": 0.412,
+    "ic95": [
+     0.242,
+     0.588
+    ]
+   },
+   "solo_espectros": {
+    "n": 36,
+    "acc": 0.389,
+    "ic95": [
+     0.229,
+     0.553
+    ]
+   },
+   "solo_micrografias": {
+    "n": 1534,
+    "acc": 0.482,
+    "ic95": [
+     0.456,
+     0.509
+    ]
+   }
+  }
+ }
+}
