@@ -1,0 +1,126 @@
+{
+  "variante": "A_todos",
+  "evaluacion": "5 particiones por articulo; ultima epoca; sin seleccion con datos de prueba",
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "epocas": 10,
+  "drop_path": 0.1,
+  "linea_base_clase_mayoritaria_recortes": 0.4675,
+  "modelos": {
+    "resnet50": {
+      "por_recorte": {
+        "accuracy": 0.4595,
+        "accuracy_balanceada": 0.4251,
+        "f1_macro": 0.4194,
+        "n": 4670
+      },
+      "por_articulo": {
+        "accuracy": 0.5206,
+        "accuracy_balanceada": 0.4658,
+        "f1_macro": 0.4714,
+        "n": 1114
+      },
+      "matriz_confusion_recorte": [
+        [
+          279,
+          63,
+          364,
+          159
+        ],
+        [
+          31,
+          294,
+          129,
+          149
+        ],
+        [
+          359,
+          163,
+          1249,
+          412
+        ],
+        [
+          121,
+          196,
+          378,
+          324
+        ]
+      ],
+      "comparacion_con_03_articulos_comunes": {
+        "n_articulos": 1112,
+        "recortes": {
+          "accuracy": 0.5216,
+          "accuracy_balanceada": 0.4667,
+          "f1_macro": 0.4722
+        },
+        "figura_completa_03": {
+          "accuracy": 0.4793,
+          "accuracy_balanceada": 0.424,
+          "f1_macro": 0.4163
+        }
+      }
+    },
+    "dinov2_vits14": {
+      "por_recorte": {
+        "accuracy": 0.4908,
+        "accuracy_balanceada": 0.4521,
+        "f1_macro": 0.4521,
+        "n": 4670
+      },
+      "por_articulo": {
+        "accuracy": 0.5503,
+        "accuracy_balanceada": 0.4986,
+        "f1_macro": 0.5083,
+        "n": 1114
+      },
+      "matriz_confusion_recorte": [
+        [
+          331,
+          39,
+          345,
+          150
+        ],
+        [
+          32,
+          262,
+          116,
+          193
+        ],
+        [
+          347,
+          127,
+          1292,
+          417
+        ],
+        [
+          114,
+          162,
+          336,
+          407
+        ]
+      ],
+      "comparacion_con_03_articulos_comunes": {
+        "n_articulos": 1112,
+        "recortes": {
+          "accuracy": 0.5513,
+          "accuracy_balanceada": 0.4996,
+          "f1_macro": 0.5094
+        },
+        "figura_completa_03": {
+          "accuracy": 0.5,
+          "accuracy_balanceada": 0.4544,
+          "f1_macro": 0.4576
+        }
+      }
+    },
+    "promedio_resnet_dinov2_por_articulo": {
+      "accuracy": 0.5566,
+      "accuracy_balanceada": 0.5042,
+      "f1_macro": 0.5135
+    }
+  }
+}
