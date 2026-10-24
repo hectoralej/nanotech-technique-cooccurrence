@@ -16,7 +16,7 @@ SINO = {"si", "no", "na"}
 plan = pd.read_csv(OUT / "plan_lotes.csv", dtype={"n": int}, encoding="utf-8-sig")
 filas, errores = [], []
 for carpeta in sorted((OUT / "resultados").glob("*/")):
-    for f in sorted(carpeta.glob("L*.jsonl")):
+    for f in sorted(list(carpeta.glob("L*.jsonl")) + list(carpeta.glob("R*.jsonl"))):
         for i, linea in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             if not linea.strip():
                 continue

@@ -1,0 +1,70 @@
+{
+  "original_commit": {
+    "url": "https://api.github.com/repos/MaterialEyes/exsclaim/commits?per_page=1",
+    "http": 200,
+    "sha": "003400ee7486568cd229d3ff012613baa2fa6554",
+    "fecha": "2022-03-26T18:30:10Z"
+  },
+  "actual_commit": {
+    "url": "https://api.github.com/repos/MaterialEyes/exsclaim2.0/commits?per_page=1",
+    "http": 200,
+    "sha": "af44fe3bc9ccdf4cd117608513fd59ab6653f8ce",
+    "fecha": "2026-09-25T21:41:32Z"
+  },
+  "pypi_actual": {
+    "url": "https://pypi.org/pypi/exsclaim/json",
+    "http": 200,
+    "version": "2.5.2",
+    "autor": null,
+    "mantenedor": null,
+    "enlaces": {
+      "Changelog": "https://github.com/MaterialEyes/exsclaim2.0/blob/dev/CHANGELIST.md",
+      "Documentation": "https://github.com/MaterialEyes/exsclaim2.0/wiki",
+      "Homepage": "https://exsclaim.materialeyes.org",
+      "Issues": "https://github.com/MaterialEyes/exsclaim2.0/issues",
+      "Paper": "https://arxiv.org/abs/2103.10631",
+      "Source": "https://github.com/MaterialEyes/exsclaim2.0"
+    },
+    "licencia": null,
+    "licencia_expresion": null
+  },
+  "pypi_original": {
+    "url": "https://pypi.org/pypi/exsclaim/0.1.0/json",
+    "http": 200,
+    "version": "0.1.0",
+    "autor": "('Eric Schwenker', 'Trevor Spreadbury', 'Weixin Jiang', 'Maria Chan')",
+    "mantenedor": "",
+    "enlaces": {
+      "Documentation": "https://github.com/MaterialEyes/exsclaim/wiki",
+      "Homepage": "https://github.com/MaterialEyes/exsclaim",
+      "Source": "https://github.com/MaterialEyes/exsclaim",
+      "Tracker": "https://github.com/MaterialEyes/exsclaim/issues"
+    },
+    "licencia": "",
+    "licencia_expresion": null
+  },
+  "figex2_pesos": {
+    "url": "https://huggingface.co/api/models/Huang-AI4Medicine-Lab/FigEx2-8B",
+    "http": 200,
+    "sha": "65a135a0aa69164591c2ee4cbba886672fcc71b2",
+    "cardData": null,
+    "archivos": [
+      ".gitattributes",
+      "detector/config.json",
+      "detector/model.safetensors",
+      "detector/preprocessor_config.json",
+      "vlm/adapter_config.json",
+      "vlm/adapter_model.safetensors",
+      "vlm/backbone_adapter/adapter_config.json",
+      "vlm/backbone_adapter/adapter_model.safetensors",
+      "vlm/backbone_adapter/chat_template.jinja",
+      "vlm/backbone_adapter/tokenizer.json",
+      "vlm/backbone_adapter/tokenizer_config.json",
+      "vlm/chat_template.jinja",
+      "vlm/tokenizer.json",
+      "vlm/tokenizer_config.json"
+    ]
+  },
+  "fecha_utc": "2026-10-24T14:51:25.233619+00:00",
+  "duracion_consultas_segundos": 1.4879259000299498
+}

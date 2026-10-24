@@ -73,6 +73,10 @@ def validar(paneles, util_esperado):
 
 def main():
     plan = pd.read_csv(OUT / "plan_cajas.csv", dtype=str, encoding="utf-8-sig").set_index("fig_id")
+    # el conteo esperado es el vigente en figuras_vision.csv (incluye las re-revisiones R con las reglas nuevas), no el del momento de crear el lote
+    vig = pd.read_csv(OUT.parent.parent / "figuras_vision.csv", dtype=str, encoding="utf-8-sig").drop_duplicates("fig_id").set_index("fig_id")
+    for c in ("paneles", "n_micro", "n_espectro", "n_otro"):
+        plan[c] = [vig.loc[i, c] if i in vig.index else plan.loc[i, c] for i in plan.index]
     filas, cola, vistos = [], [], {}
     for carpeta in sorted((OUT / "resultados").glob("*/")):
         for f in sorted(carpeta.glob("C*.json")):
