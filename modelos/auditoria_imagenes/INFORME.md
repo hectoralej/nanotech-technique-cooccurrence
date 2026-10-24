@@ -3,10 +3,10 @@
 Trabajo en paralelo a la sesión de Codex (segmentación en `modelos/imagenes_v02/`): esta auditoría vive en `modelos/auditoria_imagenes/` y **no toca** nada de la de Codex, ni `producto/imagenes/`. Se hizo por 5 lotes de 430 imágenes con checkpoint (`progreso.json`).
 
 ## Calidad de las 2.149 imágenes
-- Mediana ** megapíxeles** (percentil 10:  MP; percentil 90:  MP): son figuras pequeñas (unos 600 × 600 px). Reducirlas a 224 × 224 para el modelo pierde mucho detalle de una figura que ya mezcla paneles.
-- ** imágenes** menores de 0,1 MP y **** mayores de 2.000 px de lado.
-- ** imágenes ()** son más del 70 % blanco: casi puro texto, gráficas o diagramas, sin micrografía útil. La fracción de blanco mediana es .
-- ** imágenes ()** tienen más del 30 % de píxeles en color: suelen ser gráficas, mapas o ilustraciones, no micrografías en escala de grises.
+- Mediana **0,39 megapíxeles** (percentil 10: 0,2 MP; percentil 90: 0,7 MP): son figuras pequeñas (unos 600 × 600 px). Reducirlas a 224 × 224 para el modelo pierde mucho detalle de una figura que ya mezcla paneles.
+- **7 imágenes** menores de 0,1 MP y **8** con más de 2.000 px de lado.
+- **124 imágenes (5,8 %)** son más del 70 % blanco: casi puro texto, gráficas o diagramas, sin micrografía útil. La fracción de blanco mediana es 0,21.
+- **41 imágenes (1,9 %)** tienen más del 30 % de píxeles en color: suelen ser gráficas, mapas o ilustraciones, no micrografías en escala de grises.
 - Detalle por imagen: `imagenes_calidad.csv` (ancho, alto, megapíxeles, peso, fracción blanca, fracción en color, contraste, hash).
 
 ## ¿Hay figuras repetidas entre artículos (fuga entre particiones)?
@@ -24,3 +24,4 @@ Casi todas las figuras más parecidas son **compuestas**: micrografía + histogr
 3. **Sin necesidad de deduplicar** las imágenes en la v0.1.
 
 Scripts: `auditar_imagenes.py` (calidad, por lotes y reanudable), `duplicados.py` (hash) y `duplicados_embeddings.py` (DINOv2). Muestras visuales en `muestras/`.
+
