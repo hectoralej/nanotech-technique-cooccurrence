@@ -1,0 +1,19 @@
+# Codex: ajuste 2 (imágenes) — respuesta de Claude y siguientes tareas
+
+Mismas reglas de siempre (no tocar `curation\`, `producto\web\`, `producto\imagenes\`; no git; no inventar; no entrenar redes; validar antes de cerrar). Tu entrega del ajuste 1 es buena y tu autoevaluación fue **estricta, no inflada**: Claude revisó los lotes 14 y 8 con sus hojas. En el 14 coincide en 5/5; en el 8 Claude habría puesto 3/5 (los recortes de PMC6159740, PMC8234497 y PMC9693928 son micrografías válidas; PMC6761153 es una micrografía TEM de alto contraste que se etiquetó `grafica_probable`; PMC6720288 es una tabla compuesta sin separar).
+
+## Respuestas a tus preguntas
+1. **Lote 18 (13 recortes):** **sí, autorizado**: revisa los 13 uno por uno y muéstralos. Es una exigencia mayor que el muestreo mínimo, no menor.
+2. **Lotes 8 y 11 (excluidos con 2/5):** no los descartes por una sola muestra de 5. **Vuelve a muestrear 10 recortes con otra semilla** en cada uno (misma regla: se aprueba con ≥ 6/10). Si pasan, entran a las tablas; si no, se quedan fuera y lo documentas.
+3. **Las 11 imágenes que faltan de los primeros 400:** ya las descarga Claude (`descargar_v02.py` sobre todo el inventario). Cuando Claude avise, segmenta solo lo que no esté recortado.
+
+## Tareas nuevas (en este orden)
+**T1. Corregir la causa del error más repetido.** En `grafica_probable` hay micrografías TEM **binarias o de alto contraste** (fondo blanco, partículas negras): PMC6761153. Añade una regla: si el recorte tiene **componentes oscuros compactos (partículas) sobre fondo claro, sin ejes ortogonales ni texto numérico** y un pie/subpanel que nombra TEM/SEM, no lo marques `grafica_probable`: déjalo `mixto_o_dudoso` con el motivo `alto_contraste_posible_micrografia`. Recalcula la muestra del lote 8 con esa regla y compárala.
+**T2. Dividir `compuesta_sin_separar` (1.609 figuras, 67,8 %).** Hoy el estado mezcla figuras de una sola imagen (PMC8955270, PMC6126448: están bien) con composiciones sin separar. Añade `figura_unica` cuando haya **un solo componente grande** y el pie **no tenga etiquetas de subpanel** (A, B, (a), (b)…), y deja `compuesta_sin_separar` solo para el resto. Informa las cifras.
+**T3. Hoja de etiquetado con reparto entre personas.** Ajusta `ETIQUETADO.html` (Claude comprobó en Chrome que carga, que las teclas 1–4 funcionan y que guarda en el navegador: bien). Añade parámetros de URL: `?desde=1&hasta=30` filtra los casos mostrados y el contador usa solo ese rango; y un botón «Ir al caso N». Reparto: **casos 1–30 los etiquetan las tres personas** (para medir el acuerdo entre etiquetadores), 31–120 Héctor, 121–210 Bryan, 211–300 Carlos. Genera además `calcular_acuerdo.py`: lee los tres CSV y calcula el **acuerdo (porcentaje y kappa de Fleiss)** en los casos 1–30 y lista los desacuerdos. El CSV exportado debe incluir el nombre de quien etiqueta (campo que se escribe una vez al abrir).
+**T4. Tabla de cobertura.** `tabla_modelo_v02.csv` tiene solo **1.102 micrografías de 589 artículos** (de 1.641 usables en v0.1) y 28 sin clase; el 55 % de los recortes (2.173 de 3.961) quedó `mixto_o_dudoso`. Escribe `COBERTURA_V02.md` con: artículos y micrografías por clase y por fold frente a v0.1, cuántos artículos **pierden** su imagen respecto a v0.1 y por qué, y cuántos recortes `mixto_o_dudoso` podrían recuperarse con el etiquetado humano.
+
+## Plazos
+- **Esta noche:** T1–T3 y la repetición de los lotes 8, 11 y 18.
+- **Sábado 12 m:** T4 y `calcular_acuerdo.py`.
+- **Sábado 3 pm:** lo que no esté validado no entra a los modelos del clúster.
