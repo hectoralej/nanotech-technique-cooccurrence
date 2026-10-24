@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-10-24T15:47:59.722583+00:00",
+  "fecha": "2026-10-24T15:52:57.363428+00:00",
   "estado": "PASS",
   "lotes": [
     "L002",
@@ -27,6 +27,11 @@
     "L046",
     "L048",
     "L050",
+    "L052",
+    "L054",
+    "L105",
+    "L107",
+    "L109",
     "R002",
     "R004",
     "R006",
@@ -36,7 +41,7 @@
     "R014",
     "R016"
   ],
-  "figuras": 990,
+  "figuras": 1140,
   "confianza_1": 26,
   "aislamiento": "Solo Codex; salidas dentro de resultados/codex",
   "ajuste_copia": "glob L*.jsonl -> [LR]*.jsonl; original intacto"

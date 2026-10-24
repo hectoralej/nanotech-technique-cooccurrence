@@ -16,6 +16,7 @@ for f in sorted(OUT.glob('[LR][0-9][0-9][0-9].jsonl')):
         assert r['paneles']==r['n_micro']+r['n_espectro']+r['n_otro'],(f,r['n'])
         assert r['confianza'] in (1,2,3) and len(r['nota'].split())<=12
         assert r['curvas_superpuestas'] in ('si','no','na') and r['espectro_limpio'] in ('si','no','na')
+        if 'n_bio' in r: assert isinstance(r['n_bio'],int) and 0<=r['n_bio']<=r['n_otro']
     rows.extend(records);lots.append(f.stem)
     shutil.copy2(f,stage/'resultados'/'codex'/f.name)
 source=(FLOW/'consolidar.py').read_text(encoding='utf-8')
