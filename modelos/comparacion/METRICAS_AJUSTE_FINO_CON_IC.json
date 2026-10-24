@@ -1,0 +1,97 @@
+{
+  "modelos": {
+    "Clase mayoritaria (línea base)": {
+      "f1_macro": 0.1561,
+      "f1_ic95": [
+        0.1494,
+        0.1618
+      ],
+      "accuracy": 0.4538,
+      "accuracy_balanceada": 0.25
+    },
+    "Vectores congelados: modelo del Atlas": {
+      "f1_macro": 0.442,
+      "f1_ic95": [
+        0.4163,
+        0.467
+      ],
+      "accuracy": 0.5262,
+      "accuracy_balanceada": 0.4324
+    },
+    "Ajuste fino ResNet50": {
+      "f1_macro": 0.4061,
+      "f1_ic95": [
+        0.3836,
+        0.428
+      ],
+      "accuracy": 0.4586,
+      "accuracy_balanceada": 0.4132
+    },
+    "Ajuste fino DINOv2": {
+      "f1_macro": 0.4435,
+      "f1_ic95": [
+        0.4185,
+        0.4684
+      ],
+      "accuracy": 0.4824,
+      "accuracy_balanceada": 0.4437
+    },
+    "Ajuste fino: promedio ResNet50 + DINOv2": {
+      "f1_macro": 0.4602,
+      "f1_ic95": [
+        0.4371,
+        0.4837
+      ],
+      "accuracy": 0.5038,
+      "accuracy_balanceada": 0.4582
+    },
+    "Solo medidas (logística)": {
+      "f1_macro": 0.5259,
+      "f1_ic95": [
+        0.5001,
+        0.5527
+      ],
+      "accuracy": 0.57,
+      "accuracy_balanceada": 0.534
+    },
+    "Fusión tardía: ajuste fino (promedio) + medidas, peso 50/50": {
+      "f1_macro": 0.5797,
+      "f1_ic95": [
+        0.5537,
+        0.603
+      ],
+      "accuracy": 0.6286,
+      "accuracy_balanceada": 0.5821
+    }
+  },
+  "diferencias_f1": {
+    "Ajuste fino: promedio ResNet50 + DINOv2 - Vectores congelados: modelo del Atlas": {
+      "diferencia": 0.0181,
+      "ic95": [
+        -0.0077,
+        0.0446
+      ]
+    },
+    "Ajuste fino DINOv2 - Vectores congelados: modelo del Atlas": {
+      "diferencia": 0.0014,
+      "ic95": [
+        -0.0247,
+        0.0283
+      ]
+    },
+    "Fusión tardía: ajuste fino (promedio) + medidas, peso 50/50 - Solo medidas (logística)": {
+      "diferencia": 0.0538,
+      "ic95": [
+        0.0318,
+        0.0767
+      ]
+    },
+    "Ajuste fino ResNet50 - Ajuste fino DINOv2": {
+      "diferencia": -0.0374,
+      "ic95": [
+        -0.0652,
+        -0.0114
+      ]
+    }
+  }
+}
