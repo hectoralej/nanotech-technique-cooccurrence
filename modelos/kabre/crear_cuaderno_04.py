@@ -21,7 +21,7 @@ c0 = """# 04 · Ajuste fino con RECORTES de panel (CNN y transformer), validaci�
 
 **Dónde correrlo:** Jupyter en `nukwa-l40s` (o `nukwa-v100`), **1 nodo, 4 núcleos, 16 GB, 2 h**. Kernel `Python-ML-DL` (PyTorch con CUDA, timm).
 
-**Antes de empezar (una vez):** sube `recortes_v02.zip` (≈ 400 MB) a `~/ondemand/Kabre_Nano2Predict/` (o a su subcarpeta `datos/`); la celda 1 lo descomprime sola la primera vez (deja `recortes/<pmcid>/*.png` y `datos/indice_recortes_entrenamiento.csv`). Si el cuaderno 03 ya corrió, `resultados/03_ajuste_fino/predicciones_ft_*.csv` sirven para la comparación final.
+**Antes de empezar (una vez):** sube la carpeta `subir_a_kabre` (con `recortes_v02.zip`, ≈ 400 MB) a `~/ondemand/Kabre_Nano2Predict/` **sin descomprimir nada**; el cuaderno busca el zip en la base, en `datos/`, en `subir_a_kabre/` o en cualquier subcarpeta; la celda 1 lo descomprime sola la primera vez (deja `recortes/<pmcid>/*.png` y `datos/indice_recortes_entrenamiento.csv`). Si el cuaderno 03 ya corrió, `resultados/03_ajuste_fino/predicciones_ft_*.csv` sirven para la comparación final.
 
 **Qué cambia respecto al 03:**
 1. **Datos:** cada muestra es un **recorte de un panel de micrografía de partículas** (separado de su figura compuesta), no la figura completa. Solo recortes `elegible_morfologia` (TEM/SEM/AFM/cryo de partículas, sin bacterias, células ni tejido) con clase de portador y fold por artículo. Un artículo nunca está en dos particiones.
@@ -38,8 +38,11 @@ c0 = """# 04 · Ajuste fino con RECORTES de panel (CNN y transformer), validaci�
 
 cabecera = src(1)
 nuevo_cargador = '''# --- datos: recortes de panel ---
-ZIP = next((z for z in (BASE / "recortes_v02.zip", DATOS / "recortes_v02.zip") if z.exists()), BASE / "recortes_v02.zip")
-if ZIP.exists() and not (BASE / "recortes").exists():          # primera vez: descomprime solo
+ZIP = next((z for z in (BASE / "recortes_v02.zip", DATOS / "recortes_v02.zip", BASE / "subir_a_kabre" / "recortes_v02.zip") if z.exists()), None)
+if ZIP is None:                                                  # búsqueda general por si lo subiste a otra subcarpeta
+    ZIP = next(iter(sorted(BASE.rglob("recortes_v02.zip"))), None)
+print("zip de recortes:", ZIP, "| carpeta base:", BASE)
+if ZIP is not None and not (BASE / "recortes").exists():          # primera vez: descomprime solo
     import zipfile; DATOS.mkdir(exist_ok=True)
     with zipfile.ZipFile(ZIP) as z: z.extractall(BASE)
     (BASE / "indice_recortes_entrenamiento.csv").replace(DATOS / "indice_recortes_entrenamiento.csv")
