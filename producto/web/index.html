@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Atlas navegable de evidencia sobre nanoportadores y técnicas de caracterización.">
   <title>Nano2Predict · Atlas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,8 +13,8 @@
     <a class="brand" href="#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
     <nav aria-label="Navegación principal">
       <a href="#explorar">Explorador</a>
-      <a id="model-nav" href="#modelo" hidden>Modelo</a>
-      <a href="#metodo">Cómo se construyó</a>
+      <a href="construccion.html">Cómo se construyó</a>
+      <a href="modelos.html">Modelos y límites</a>
     </nav>
     <span class="edition">Atlas de evidencia · prototipo</span>
   </header>
@@ -83,11 +84,20 @@
         <div><p class="eyebrow">MUESTRA REVISADA</p><h3>Control de calidad</h3><p id="qc-note">Cargando resultados de la muestra…</p></div>
         <div id="qc-table" class="qc-table"></div>
       </div>
+      <p class="method-more"><a class="text-link" href="construccion.html">Ver decisiones y evidencias del proceso →</a></p>
     </section>
   </main>
 
-  <footer><span>Nano2Predict</span><span>Atlas de evidencia científica</span><a href="#inicio">Volver arriba ↑</a></footer>
-  <aside class="quality-notice">Datos extraídos por IA y verificados por código. Precisión estimada en una muestra revisada.</aside>
+  <footer>
+    <div class="footer-brand"><strong>Nano2Predict</strong><span>Atlas de evidencia científica</span></div>
+    <div class="footer-credits">
+      <p>Artículos consultados mediante <a href="https://europepmc.org/" target="_blank" rel="noopener noreferrer">Europe PMC</a>.</p>
+      <p>Las imágenes proceden de artículos de acceso abierto; cada ficha enlaza al DOI y muestra la licencia disponible para consultar sus condiciones.</p>
+      <p>Cálculo realizado en el supercomputador Kabré (CeNAT/CNCA).</p>
+    </div>
+    <a class="footer-top" href="#inicio">Volver arriba ↑</a>
+  </footer>
+  <aside class="quality-notice">Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</aside>
   <script src="app.js" defer></script>
 </body>
 </html>

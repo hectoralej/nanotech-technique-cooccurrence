@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Decisiones y evidencias metodológicas del Atlas Nano2Predict.">
+  <title>Cómo se construyó · Nano2Predict</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="index.html#explorar">Explorador</a>
+      <a href="construccion.html" aria-current="page">Cómo se construyó</a>
+      <a href="modelos.html">Modelos y límites</a>
+    </nav>
+    <span class="edition">Trazabilidad · metodología</span>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">TRAZABILIDAD · DECISIONES D1–D8</p>
+      <h1>Cómo se construyó el Atlas</h1>
+      <p>Resumen del proceso y de las decisiones que definen qué evidencia entra, cómo se conserva su fuente y qué límites tiene la revisión.</p>
+      <p class="data-note">Esqueleto factual elaborado desde el registro de decisiones. El texto editorial de apoyo de Bryan aún no está disponible para integrar.</p>
+    </section>
+    <section class="evidence-list" aria-label="Decisiones metodológicas y fuentes">
+      <article class="evidence-item"><h2>D1 · Acceso abierto y licencia</h2><p>Se seleccionan artículos con licencia CC BY y un artículo CC0 para poder redistribuir las imágenes y los datos con crédito al DOI.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/curation/v0.1/VALIDACION.md" target="_blank" rel="noopener noreferrer">Evidencia: validación de la puerta de licencia ↗</a></article>
+      <article class="evidence-item"><h2>D2 · Citas trazables</h2><p>Las citas textuales y los valores asociados se comprueban por código contra el texto fuente; la extracción conserva una ruta de vuelta al artículo.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/curation/extended.py" target="_blank" rel="noopener noreferrer">Evidencia: validación de citas en el proceso de extracción ↗</a></article>
+      <article class="evidence-item"><h2>D3 · Alcance de vectores virales</h2><p>Se excluyen virus usados como portadores. Sí se incluyen nanopartículas dirigidas contra virus o que llevan antígenos; la palabra «virus» en el título no decide por sí sola la inclusión.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/equipo/PANORAMA_23OCT.md" target="_blank" rel="noopener noreferrer">Evidencia: acuerdo de alcance y casos conservados ↗</a></article>
+      <article class="evidence-item"><h2>D4 · Niveles de evidencia</h2><p>E1 requiere micrografía, medidas y espectro. E2 requiere micrografía junto con medidas o espectro. La v0.1 contiene 1.130 artículos E1 y 577 E2.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/curation/v0.1/RESUMEN_NUMEROS.json" target="_blank" rel="noopener noreferrer">Evidencia: conteos del conjunto v0.1 ↗</a></article>
+      <article class="evidence-item"><h2>D5 · Licencias de datos e imágenes</h2><p>Las medidas se aceptan bajo cualquier licencia; las imágenes se muestran solo cuando su licencia permite su reutilización. Cada ficha enlaza al DOI del artículo.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/equipo/DECISIONES.md" target="_blank" rel="noopener noreferrer">Evidencia: registro de decisiones, apartado D5 ↗</a></article>
+      <article class="evidence-item"><h2>D6 · Figuras completas</h2><p>La versión actual trabaja con figuras completas porque el extractor no identifica coordenadas de paneles. Esto limita el análisis de modelos de imagen y se declara como limitación abierta.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/equipo/DECISIONES.md" target="_blank" rel="noopener noreferrer">Evidencia: registro de decisiones, apartado D6 ↗</a></article>
+      <article class="evidence-item"><h2>D7 · Grupos de portador</h2><p>La clasificación del modelo usa cuatro grupos: lipídico, polimérico, inorgánico y nanomaterial. El registro advierte que nanomaterial e inorgánico pueden solaparse.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/curation/v0.1/tabla_modelo.csv" target="_blank" rel="noopener noreferrer">Evidencia: etiquetas por artículo de la tabla de modelo ↗</a></article>
+      <article class="evidence-item"><h2>D8 · Control de calidad asistido</h2><p>El QC se hizo con asistencia de IA en una muestra de 20 artículos; no equivale a una revisión humana completa ni a una medida de precisión global.</p><a href="https://github.com/hectoralej/nanotech-technique-cooccurrence/blob/main/equipo/qc_carlos/RESUMEN_QC.md" target="_blank" rel="noopener noreferrer">Evidencia: resumen del control de calidad ↗</a></article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-brand"><strong>Nano2Predict</strong><span>Atlas de evidencia científica</span></div>
+    <div class="footer-credits"><p>Artículos consultados mediante <a href="https://europepmc.org/" target="_blank" rel="noopener noreferrer">Europe PMC</a>.</p><p>Las imágenes de artículos de acceso abierto enlazan a su DOI y se muestran conforme a la licencia aplicable.</p><p>Cálculo realizado en el supercomputador Kabré (CeNAT/CNCA).</p></div>
+    <a class="footer-top" href="index.html#inicio">Volver al Atlas ↑</a>
+  </footer>
+  <aside class="quality-notice">Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</aside>
+</body>
+</html>

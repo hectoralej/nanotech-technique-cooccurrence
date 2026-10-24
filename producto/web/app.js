@@ -10,6 +10,7 @@
     ['nanomaterial', 'Nanomaterial'], ['other', 'Otro']
   ];
   const carrierLabels = new Map(carrierTypes);
+  const usageLabels = new Map([['nanoportador', 'Nanoportador'], ['nanomaterial', 'Nanomaterial']]);
 
   const escText = value => value == null || value === '' ? 'No reportado' : String(value);
   const number = value => value == null || value === '' ? 'No reportado' : String(value);
@@ -22,6 +23,7 @@
   const clean = value => (value || '').toString().trim();
   const articleKey = row => row.pmcid || row.doi || '';
   const carrierLabel = article => carrierLabels.get(clean(article.carrier_type)) || 'Otro';
+  const usageLabel = value => usageLabels.get(clean(value).toLowerCase()) || clean(value);
   const panelKey = row => `${row.pmcid || ''}/${row.image_file || ''}`;
   const sourceLink = row => {
     const url = clean(row.doi_link);
@@ -31,9 +33,9 @@
     const license = (article.license_epmc || '').toLowerCase().replaceAll('_', ' ');
     return /\bcc\s*by\b|\bcc0\b/.test(license) && !/\bnc\b|\bnd\b/.test(license);
   };
-  const options = (select, values) => {
+  const options = (select, values, labelFor = value => value) => {
     [...new Set(values.map(clean).filter(Boolean))].sort((a,b) => a.localeCompare(b,'es',{sensitivity:'base'})).forEach(value => {
-      const option = document.createElement('option'); option.value = value; option.textContent = value; select.append(option);
+      const option = document.createElement('option'); option.value = value; option.textContent = labelFor(value); select.append(option);
     });
   };
   const setCount = (id, value) => { byId(id).textContent = Number(value || 0).toLocaleString('es-CR'); };
@@ -60,7 +62,7 @@
       const option = document.createElement('option'); option.value = value;
       option.textContent = `${label} (${count.toLocaleString('es-CR')})`; filters.family.append(option);
     });
-    options(filters.usage, state.articles.map(a => a.categoria_uso));
+    options(filters.usage, state.articles.map(a => a.categoria_uso), usageLabel);
     options(filters.variant, state.panels.map(p => p.variant));
     options(filters.technique, state.spectra.map(s => s.technique));
     Object.values(filters).forEach(control => control.addEventListener(control === filters.search ? 'input' : 'change', () => { state.page = 0; renderResults(); }));
@@ -102,7 +104,7 @@
       const tags = text('span', '', 'result-tags');
       if (article.carrier_type) tags.append(text('span', carrierLabel(article), 'tag family'));
       if (article.tier) tags.append(text('span', article.tier, 'tag'));
-      if (article.categoria_uso) tags.append(text('span', article.categoria_uso, 'tag'));
+      if (article.categoria_uso) tags.append(text('span', usageLabel(article.categoria_uso), 'tag'));
       card.append(tags); list.append(card);
     });
   }
@@ -304,9 +306,8 @@
 
   function renderModelOverview() {
     const section = byId('modelo');
-    const navLink = byId('model-nav');
-    if (!state.model) { section.hidden = true; navLink.hidden = true; return; }
-    section.hidden = false; navLink.hidden = false; section.replaceChildren();
+    if (!state.model) { section.hidden = true; return; }
+    section.hidden = false; section.replaceChildren();
     const heading = text('div', '', 'section-heading');
     const title = text('div', '', ''); title.append(text('p', 'PREDICCIÓN Y EVALUACIÓN', 'eyebrow'), text('h2', 'Modelo de clasificación'));
     heading.append(title); section.append(heading);
@@ -315,9 +316,10 @@
     if (metrics.tarea || metrics.backbone) section.append(text('p', [metrics.tarea, metrics.backbone].filter(Boolean).join(' · '), 'model-summary'));
     section.append(text('p', 'Evaluado por artículo, sin mezclar figuras de un mismo artículo entre entrenamiento y prueba.', 'model-evaluation'));
     const cards = text('div', '', 'model-metrics');
-    [['Exactitud', metricPercent(metrics.accuracy)], ['F1 macro', metricPercent(metrics.f1_macro)], ['Línea base', metricPercent(metrics.linea_base)]]
+    [['Exactitud', metricPercent(metrics.accuracy)], ['Exactitud balanceada', metricPercent(metrics.accuracy_balanceada)], ['F1 macro', metricPercent(metrics.f1_macro)], ['Línea base (exactitud)', metricPercent(metrics.linea_base)]]
       .forEach(([label, value]) => { const card = text('div', '', 'model-metric'); card.append(text('span', label), text('strong', value)); cards.append(card); });
     section.append(cards);
+    if (metrics.nota) section.append(text('p', metrics.nota, 'model-note'));
     if (metrics.evaluacion || metrics.n_imagenes != null || metrics.n_articulos != null) {
       const details = [metrics.evaluacion, metrics.n_imagenes != null ? `${metrics.n_imagenes} imágenes` : '', metrics.n_articulos != null ? `${metrics.n_articulos} artículos` : ''].filter(Boolean).join(' · ');
       section.append(text('p', details, 'model-summary'));
@@ -329,6 +331,8 @@
       const code = text('pre', '', 'confusion-matrix'); code.textContent = JSON.stringify(matrix, null, 2); matrixBlock.append(code);
     }
     section.append(matrixBlock);
+    const more = text('a', 'Ver escalera de modelos y limitaciones →', 'text-link');
+    more.href = 'modelos.html'; section.append(more);
   }
 
   async function loadOptionalJson(path) {

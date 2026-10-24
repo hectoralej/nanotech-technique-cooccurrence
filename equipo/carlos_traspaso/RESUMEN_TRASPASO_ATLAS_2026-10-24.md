@@ -1,105 +1,55 @@
-# Atlas Nano2Predict: resumen de trabajo y siguientes pasos
+# Atlas Nano2Predict: cierre de la actualización y siguientes pasos
 
-**Actualizado:** 24 de octubre de 2026  
-**Alcance:** cambios locales preparados para traspaso; este informe no significa que estén publicados en GitHub.
+**Para:** Héctor y Carlos  
+**Corte:** 24 de octubre de 2026  
+**Fuente sincronizada:** `main` / `origin/main`, commit `de48aa7`  
+**Estado:** cambios locales sin commit ni push; ZIP actualizado con capturas de QA automatizado.
 
-## Resumen
+## Resumen ejecutivo
 
-Se preparó una versión local de la web del Atlas a partir de los datos canónicos v0.1, un paquete de transferencia sin imágenes y un tablero Excel con tareas y referencias. La publicación de la rama quedó bloqueada por un error de permisos de la integración de GitHub. El trabajo se puede revisar en el checkout local y se puede compartir mediante el ZIP.
+Se sincronizó la copia local con `origin/main` y se reconstruyeron los datos web usando los datos canónicos del repositorio. Se completaron los arreglos solicitados al Atlas, se añadieron las páginas «Cómo se construyó» y «Modelos y limitaciones», se incorporaron los créditos y se actualizó el guion de demo. El QA automatizado en Chrome para escritorio y un viewport móvil de 375 px terminó sin errores de consola ni respuestas HTTP fallidas. El ZIP de traspaso incluye código, datos web, métricas y capturas, pero no incluye las 2.149 imágenes JPG (273,7 MB); se deben transferir aparte mediante `imagenes_v0.1.zip`.
 
-## Qué se hizo
+## Cambios realizados
 
-### Datos y alcance
+- `main` quedó sincronizada en `de48aa7`. No hice commit ni push.
+- Se ejecutó `python web/build_data.py` desde `producto/`; el Atlas conserva los datos E1/E2: **1.707 artículos, 2.726 paneles, 3.116 descriptores y 4.015 espectros**.
+- Se dejaron los nombres visibles de las categorías como «Nanomaterial» y «Nanoportador».
+- El panel de modelo muestra exactitud, exactitud balanceada, F1 macro, línea base y la nota de limitaciones desde los JSON reales de `main`.
+- La página «Modelos y limitaciones» presenta los resultados tabulares y de imagen, con las líneas base identificadas. Se corrigió el vínculo de las tres filas base para que las tres aparezcan resaltadas.
+- La página «Cómo se construyó» organiza las decisiones D1–D8 y enlaza la evidencia. Bryan no había dejado los textos editoriales en `producto/web_contenido/`; la página queda como esqueleto factual hasta recibirlos.
+- El pie acredita Europe PMC, enlaza las imágenes al DOI conforme a la licencia y añade el crédito obligatorio a Kabré (CeNAT/CNCA).
+- Se añadió favicon para evitar una solicitud 404 en el navegador.
+- El guion queda limitado a 2:30 y presenta un caso coincidente y uno discrepante como resultados exploratorios; no dice que el modelo esté validado ni que «acierta» en general.
 
-- La selección del Atlas se basa en artículos E1/E2; se quitó el filtro por palabras del título, incluidas AAV/virus.
-- Se generaron los datos web con **1.707 artículos, 2.726 paneles, 3.116 descriptores y 4.015 espectros**. El conteo correcto de descriptores es 3.116 registros, no 3.122 líneas físicas.
-- Los 117 artículos `tier=no` quedan fuera del Atlas y de las tablas de evidencia, de acuerdo con la decisión de incluir solo E1/E2.
-- Se limpiaron etiquetas y entidades HTML en títulos y citas; el filtro de portador usa `carrier_type` y sus categorías suman 1.707 artículos.
+## Verificación y evidencia
 
-### Interfaz e imágenes
+- Chrome ejecutado con Playwright en 1365×900 y 375×812. Se recorrieron portada, una ficha con imágenes, el caso de predicción distinta, una ficha con imagen no descargada, modelos y construcción.
+- Resultado: cero errores de consola, cero solicitudes fallidas/HTTP ≥400 en esas rutas, cero imágenes cargadas rotas y cero archivos JPG ausentes entre los 2.669 paneles marcados como disponibles localmente.
+- La ficha PMC12703698 muestra el marcador «No está en la copia local» y conserva el enlace DOI. Las 44 figuras ausentes (30 PMCID) no se solicitaron como archivos locales.
+- Se verificaron las etiquetas de categoría (`Nanomaterial`, `Nanoportador`), las tres filas de línea base y ausencia de desbordamiento horizontal en 375 px (documento = viewport = 375 px). El espacio entre el campo de búsqueda y el siguiente control corresponde al rótulo del buscador y la separación normal de la cuadrícula; no se detecta un hueco grande.
+- Pasaron `node --check` para `app.js` y `modelos.js`, y `python -m py_compile producto/web/build_data.py`.
+- Capturas: [portada laptop](../producto/web/capturas/01-portada-laptop.png), [ficha con imagen](../producto/web/capturas/02-ficha-imagen-prediccion.png), [predicción distinta](../producto/web/capturas/03-ficha-prediccion-diferente.png), [ficha sin imagen](../producto/web/capturas/03b-ficha-sin-imagen.png), [móvil 375 px](../producto/web/capturas/04-movil-375.png), [modelos](../producto/web/capturas/05-modelos-laptop.png) y [construcción](../producto/web/capturas/06-construccion-laptop.png).
 
-- Las fichas muestran hasta cinco micrografías inicialmente, permiten desplegar el resto y copiar cita, DOI y PMCID.
-- Se añadió el indicador `imagen_local`; cuando la imagen falta, la ficha presenta un marcador y un enlace al DOI.
-- El panel del modelo separa datos observados de predicciones y el paquete distribuido mantiene `available:false` para no presentar fixtures como resultados reales.
-- Se integraron localmente 2.149 JPG y se compararon con `producto/imagenes/descargas.csv`. El inventario mantiene 44 archivos no disponibles de 30 PMCID; no se incluyeron JPG en Git ni en el ZIP.
+> La revisión es automatizada y visual sobre Chrome headless; no sustituye una comprobación humana en el equipo de presentación. Las capturas no son una grabación de ensayo.
 
-### Documentación y transferencia
+## No completado y motivo
 
-- Se actualizaron los informes de estado y progreso y se preparó el guion de demo.
-- Se creó el paquete ZIP con la web y documentos de QC/traspaso, excluyendo imágenes, fixtures del modelo y capturas.
-- Se creó el tablero Excel con el estado de diez frentes de trabajo y una pestaña de referencias.
-
-## Qué falta y por qué
-
-| Pendiente | Estado y motivo | Qué se necesita para cerrarlo |
+| Pendiente | Motivo | Próxima acción |
 |---|---|---|
-| QA visual en Chrome, laptop y móvil | Pendiente. El vistazo anterior correspondía a una versión previa; no valida esta actualización. | Probar portada, filtros, búsqueda, consola, fichas con imagen y sin imagen, y una ficha extensa en móvil de 375 px. Guardar capturas de portada y dos fichas. |
-| JSON finales del modelo | En espera de Bryan. Los archivos disponibles son fixtures `prueba:true`. | Recibir los archivos finales, validar esquema, predicciones, confianza, vecinos y matriz de confusión; regenerar los datos web. |
-| Ensayo y grabación de la demo | Pendiente; debe hacerse después de cerrar QA y congelar la web. | Hacer dos ensayos de 2–3 minutos y grabar. Omitir el modelo si siguen faltando resultados reales. |
-| Rama remota y PR | Bloqueado: GitHub devolvió HTTP 403 (`Resource not accessible by integration`) al crear la rama. | Habilitar el permiso de escritura necesario o pedir a una sesión autorizada que publique el commit en `web-carlos`. No subir directamente a `main` sin revisión. |
-| Publicación privada o pública | Sin publicar. Las instrucciones reservan la decisión de nube a Héctor; el hosting público expone los datos. | Héctor debe decidir si autoriza vista privada y, por separado, si autoriza hosting público. |
-| Compartir las imágenes | Pendiente. Los JPG no están incluidos en el ZIP. | Compartir `imagenes_v0.1.zip` por Drive u otro canal acordado; cada equipo debe extraerlo en `producto/imagenes/<pmcid>/`. |
-| Compartir el paquete | Aún no transferido fuera del equipo local. | Enviar el ZIP y este informe por el canal acordado. No hay una sesión conectada de Drive o WhatsApp en esta tarea. |
+| Texto editorial de Bryan para ambas páginas | No se encontró `producto/web_contenido/` ni los textos allí. | Recibirlos e integrarlos, respetando las fuentes de Bryan. |
+| Dos ensayos cronometrados de la demo | Requieren que el presentador practique la narración en voz alta; no los puedo hacer ni afirmar como realizados. | Carlos/Héctor hacen dos ensayos con cronómetro y ajustan el guion si excede 2:30. |
+| Congelar la web y grabar a 1920×1080 | Requiere decisión del equipo, equipo de grabación y grabación humana. | Después del ensayo, congelar esta versión y grabar; reflejar cualquier cambio posterior en el paquete. |
+| Transferencia del ZIP a Héctor | No hay una conexión de mensajería/Drive autorizada en esta tarea. | Compartir manualmente el ZIP local por el canal acordado. |
+| Incluir las JPG en el ZIP de código | Las 2.149 JPG ocupan aproximadamente 273,7 MB y ya existe un archivo separado `imagenes_v0.1.zip`. | Pasar ese archivo por separado y extraerlo en `producto/imagenes/<pmcid>/`. |
 
-## Verificaciones completadas
+## Entrega y vista previa
 
-- Los cuatro CSV fuente coinciden con los SHA-256 de `curation/v0.1/checksums.txt`.
-- Los conteos de los CSV y los JSON generados coinciden: 1.707 artículos, 2.726 paneles, 3.116 descriptores y 4.015 espectros.
-- Los 117 artículos `tier=no` no aparecen en el Atlas ni en las tablas de evidencia.
-- Se revisó que los títulos generados no conservaran etiquetas o entidades HTML sin limpiar.
-- Cada panel tiene un indicador booleano de disponibilidad local. Hay 2.669 paneles con imagen descargada y 57 paneles sin archivo local; estos representan 44 nombres de imagen faltantes.
-- Los archivos JPG disponibles se verificaron por tamaño y firma JPEG; los faltantes tienen DOI asociado a sus fichas.
-- Pasaron `node --check producto/web/app.js` y `python -m py_compile producto/web/build_data.py`.
-- El ZIP preliminar pasó la comprobación de integridad y excluye imágenes, `.build_input` y fixtures del modelo.
+- ZIP actualizado: [Atlas_traspaso_2026-10-24_QA.zip](Atlas_traspaso_2026-10-24_QA.zip).
+- [Instrucciones del paquete](LEEME_PAQUETE_ATLAS.md).
+- [Progreso técnico](../producto/web/PROGRESO.md).
+- [Guion](../producto/web/GUION_DEMO.md).
+- [Web del Atlas](../producto/web/index.html).
+- Vista local si el servidor sigue activo: [http://localhost:8000/web/](http://localhost:8000/web/). Para iniciarlo desde `producto/`: `python -m http.server 8000`.
+- Repositorio: [GitHub, rama main](https://github.com/hectoralej/nanotech-technique-cooccurrence/tree/main).
 
-Estas pruebas cubren datos, sintaxis y contenido del paquete. No equivalen a la inspección visual en Chrome ni a una nueva revisión humana artículo por artículo.
-
-## Siguiente secuencia recomendada
-
-1. Abrir la web local y completar QA visual en laptop y móvil; registrar errores de consola y corregirlos.
-2. Tomar las tres capturas nuevas (portada, ficha con imagen, ficha sin imagen) y actualizar el paquete.
-3. Incorporar los JSON finales de Bryan si llegan; si no, mantener desactivado el panel de resultados del modelo para la demo.
-4. Rehacer el ZIP tras las correcciones y revisar que siga excluyendo imágenes y fixtures.
-5. Ensayar dos veces y grabar la demo.
-6. Resolver el acceso de GitHub, revisar el diff de `web-carlos` y publicar la rama/PR. Mantener `main` intacta hasta la revisión.
-7. Acordar la decisión de publicación en nube y compartir por un canal autorizado el ZIP de código y, por separado, el paquete de imágenes.
-
-## Archivos y enlaces
-
-### Entrega
-
-- [Tablero Excel de tareas y referencias](../outputs/atlas_traspaso_2026-10-24/Traspaso_Atlas.xlsx)
-- [ZIP de transferencia, sin capturas](Atlas_traspaso_2026-10-24_sin_capturas.zip)
-- [Instrucciones para abrir el paquete](LEEME_PAQUETE_ATLAS.md)
-
-### Web y registro de progreso
-
-- [Web del Atlas](../producto/web/index.html)
-- [Progreso y verificaciones de la web](../producto/web/PROGRESO.md)
-- [Guion de demo](../producto/web/GUION_DEMO.md)
-- [Resumen de conteos web](../producto/web/data/summary.json)
-- [Indicador del modelo distribuido](../producto/web/data/model-status.json)
-- [Registro de imágenes disponibles y faltantes](../producto/imagenes/descargas.csv)
-
-### Datos fuente
-
-- [Artículos](../curation/ext_articulos.csv)
-- [Paneles](../curation/ext_paneles.csv)
-- [Descriptores](../curation/ext_descriptores.csv)
-- [Espectros](../curation/ext_espectros.csv)
-- [Resumen numérico v0.1](../curation/v0.1/RESUMEN_NUMEROS.json)
-- [Checksums v0.1](../curation/v0.1/checksums.txt)
-- [Repositorio en GitHub, rama main](https://github.com/hectoralej/nanotech-technique-cooccurrence/tree/main)
-
-### Informes de apoyo
-
-- [Actualización resumida](../equipo/ACTUALIZACION_ATLAS_PARA_HECTOR.md)
-- [Informe detallado de estado](../equipo/REPORTE_ESTADO_ATLAS_PARA_HECTOR.md)
-- [QC y traspaso](../equipo/qc_carlos/RESUMEN_TRASPASO_ATLAS.md)
-
-## Estado de publicación y vista previa
-
-- Rama local: `web-carlos`, basada en `origin/main` `739576a`.
-- Commit local: `534096a` (`Atlas: publica web y datos v0.1`). La creación de la rama remota fue rechazada por HTTP 403; no existe push ni PR de esta actualización.
-- [Vista previa local](../producto/web/index.html) o [servidor local](http://localhost:8000/web/) si se ejecuta desde `producto/`. `localhost` solo es accesible en el equipo que sirve la web.
-- No se publicó una vista en nube. El ZIP sigue siendo preliminar y sin capturas.
+El checkout sincronizado no publica automáticamente los cambios nuevos: permanecen locales en `main`, sin commit ni push. El paquete ZIP es el medio preparado para revisión y traspaso.

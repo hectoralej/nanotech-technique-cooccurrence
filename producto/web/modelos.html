@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Modelos tabulares y de imagen del Atlas Nano2Predict, sus líneas base y limitaciones.">
+  <title>Modelos y límites · Nano2Predict</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="index.html#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="index.html#explorar">Explorador</a>
+      <a href="construccion.html">Cómo se construyó</a>
+      <a href="modelos.html" aria-current="page">Modelos y límites</a>
+    </nav>
+    <span class="edition">Evaluación exploratoria</span>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">EVALUACIÓN · LÍNEAS BASE · LÍMITES</p>
+      <h1>Modelos y limitaciones</h1>
+      <p>Se comparan escalones simples con líneas base explícitas. El rendimiento describe estas particiones por artículo; no demuestra desempeño fuera de este conjunto.</p>
+      <p class="data-note">La predicción de imagen y la etiqueta del Atlas son resultados distintos y se muestran por separado. Los resultados son exploratorios; la nota del JSON y los intervalos se conservan junto a las métricas.</p>
+    </section>
+    <section class="model-page-section">
+      <h2>Tamaño · modelos tabulares</h2>
+      <p>La métrica es R² sobre el logaritmo del tamaño. La línea base resaltada usa la media por clase.</p>
+      <div id="size-results"><p class="no-data">Cargando resultados…</p></div>
+    </section>
+    <section class="model-page-section">
+      <h2>Clase de portador · tres grupos</h2>
+      <p>Exactitud y F1 macro con IC 95 % por bootstrap de artículos. La fila de clase mayoritaria es la línea base de esta tarea.</p>
+      <div id="class3-results"><p class="no-data">Cargando resultados…</p></div>
+    </section>
+    <section class="model-page-section">
+      <h2>Clase de portador · cuatro grupos</h2>
+      <p>Esta tarea tiene otra distribución y no se debe comparar directamente con la configuración de tres clases. La línea base está resaltada.</p>
+      <div id="class4-results"><p class="no-data">Cargando resultados…</p></div>
+    </section>
+    <section class="model-page-section">
+      <h2>Clasificación a partir de imagen</h2>
+      <div id="image-model"><p class="no-data">Cargando métricas de imagen…</p></div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-brand"><strong>Nano2Predict</strong><span>Atlas de evidencia científica</span></div>
+    <div class="footer-credits"><p>Artículos consultados mediante <a href="https://europepmc.org/" target="_blank" rel="noopener noreferrer">Europe PMC</a>.</p><p>Las imágenes de artículos de acceso abierto enlazan a su DOI y se muestran conforme a la licencia aplicable.</p><p>Cálculo realizado en el supercomputador Kabré (CeNAT/CNCA).</p></div>
+    <a class="footer-top" href="index.html#inicio">Volver al Atlas ↑</a>
+  </footer>
+  <aside class="quality-notice">Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</aside>
+  <script src="modelos.js" defer></script>
+</body>
+</html>
