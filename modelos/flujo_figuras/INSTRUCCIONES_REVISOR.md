@@ -36,6 +36,10 @@ Tarea: mirar hojas de contacto de figuras de artículos de nanomateriales y cont
 - Cuatro FTIR cada uno con una curva → 4 paneles espectro, `curvas_superpuestas: "no"`.
 - Diagrama del proceso + micrografía → `n_otro: 1`, `n_micro: 1`.
 - Patrón de difracción de electrones (SAED/FFT, puntos o anillos sobre fondo negro), mapas elementales de color y curvas DLS/zeta → `n_otro` (no son micrografía ni espectro limpio).
+- **Fluorescencia, confocal, histología (H&E y cortes de tejido), citometría y fotos de células o animales → `n_otro`.** Solo cuentan como `n_micro` las micrografías TEM, SEM, STEM, AFM, cryo-EM y la microscopía óptica/DIC de partículas o muestras. (Regla fijada el 24-oct tras la verificación humana.)
+- **Espectros en cascada** (curvas de **muestras distintas** dibujadas una sobre otra con desplazamiento vertical y **sin solaparse**, con un eje x compartido): cuenta **un panel `n_espectro` por curva**, `curvas_superpuestas: "no"`, `espectro_limpio: "si"` si cada curva se lee, y añade el campo opcional `"cascada": true`. Si las curvas **se cruzan o se solapan sobre los mismos ejes** (varias concentraciones, tiempos, pH…), es **un solo panel** con `curvas_superpuestas: "si"` (no sirve como espectro limpio).
+- **Gráficos apilados con ejes propios** bajo una misma letra (p. ej. dos espectros uno encima del otro, cada uno con su eje y): un panel por gráfico.
+- Recuadros ampliados (inset) dentro de un panel **no se cuentan** (ver `INSTRUCCIONES_CAJAS.md` para cómo se registran cuando se dibujan cajas).
 - Imagen demasiado pequeña para contar → `confianza: 1`.
 
 ## Entrega de la tanda

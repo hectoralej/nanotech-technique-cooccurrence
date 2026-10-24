@@ -1,5 +1,6 @@
 {
-  "hora": "2026-10-23T22:52:04",
+  "hora": "2026-10-23T22:55:49-07:00",
+  "zona_horaria": "America/Phoenix",
   "estado": "PASS",
   "lotes": [
     "L002",
@@ -21,9 +22,14 @@
     "L034",
     "L036",
     "L038",
-    "L040"
+    "L040",
+    "L042",
+    "L044",
+    "L046",
+    "L048",
+    "L050"
   ],
-  "figuras": 600,
-  "confianza_1": 12,
+  "figuras": 750,
+  "confianza_1": 13,
   "alcance": "solo Codex, consolidar.py sin modificar; no se leyeron resultados de Claude; todas las salidas dentro de resultados/codex"
 }

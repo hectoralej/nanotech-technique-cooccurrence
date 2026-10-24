@@ -21,7 +21,7 @@ result=subprocess.run([sys.executable,str(stage/'consolidar.py')],capture_output
 (stage/'consolidacion.log').write_text(result.stdout+result.stderr,encoding='utf-8')
 assert result.returncode==0, result.stderr
 assert 'Errores de formato' not in result.stdout, 'Ver consolidacion.log'
-report={'hora':datetime.datetime.now().isoformat(timespec='seconds'),'estado':'PASS','lotes':lots,'figuras':len(rows),'confianza_1':sum(r['confianza']==1 for r in rows),'alcance':'solo Codex, consolidar.py sin modificar; no se leyeron resultados de Claude; todas las salidas dentro de resultados/codex'}
+report={'hora':datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-7))).isoformat(timespec='seconds'),'zona_horaria':'America/Phoenix','estado':'PASS','lotes':lots,'figuras':len(rows),'confianza_1':sum(r['confianza']==1 for r in rows),'alcance':'solo Codex, consolidar.py sin modificar; no se leyeron resultados de Claude; todas las salidas dentro de resultados/codex'}
 (OUT/'VALIDACION_AISLADA.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 with (OUT/'CHECKPOINTS.md').open('a',encoding='utf-8') as fp:fp.write(f'\n## {report["hora"]}\n{len(lots)} lotes, {len(rows)} figuras, confianza 1: {report["confianza_1"]}. Consolidación aislada PASS.\n')
 print(json.dumps(report,ensure_ascii=False))

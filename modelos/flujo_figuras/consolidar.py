@@ -74,7 +74,8 @@ else:
 v["desacuerdo_revisores"] = v.fig_id.isin(dis)
 # una fila por figura (si dos revisores la hicieron, se toma la de «claude»; el desacuerdo entre ellos manda la figura a la cola)
 v["_o"] = (v.revisor != "claude").astype(int)
-u = v.sort_values(["fig_id", "_o"]).drop_duplicates("fig_id").drop(columns="_o").reset_index(drop=True)
+v["_p"] = (~v.lote.str.startswith("R")).astype(int)          # los lotes R (re-revisión con las reglas nuevas) reemplazan a los L originales
+u = v.sort_values(["fig_id", "_p", "_o"]).drop_duplicates("fig_id").drop(columns=["_o", "_p"]).reset_index(drop=True)
 u["estado"] = ["aceptada_auto" if (a and c >= 2 and not d) else "cola_revision" for a, c, d in zip(u.acuerdo_con_pie, u.confianza, u.desacuerdo_revisores)]
 u.to_csv(OUT / "figuras_vision.csv", index=False, encoding="utf-8-sig")             # todas las figuras clasificadas, una fila cada una
 cola = u[u.estado == "cola_revision"]
@@ -85,7 +86,7 @@ for d in ["simple", "pareja", "compuesta", "superpuesto", "excluir"]:           
 fin = u[u.estado == "aceptada_auto"]
 
 hechas = u
-md += [f"Figuras clasificadas: **{len(hechas)}** de {len(plan)} ({len(hechas)/len(plan):.0%}). Lotes con resultado: {v.lote.nunique()} de {plan.lote.nunique()}.", "",
+md += [f"Figuras clasificadas: **{len(hechas)}** de {plan.fig_id.nunique()} ({len(hechas)/plan.fig_id.nunique():.0%}). Lotes con resultado: {v.lote.nunique()} de {plan.lote.nunique()}.", "",
        "## Destino según la imagen", "", hechas.destino_vision.value_counts().to_string(), "",
        "## Imagen frente al pie (filas = imagen, columnas = pie)", "", pd.crosstab(hechas.destino_vision, hechas.destino_pie).to_string(), "",
        f"Coinciden imagen y pie: {hechas.acuerdo_con_pie.mean():.1%}. Aceptadas automáticamente (coinciden, confianza ≥ 2): {len(fin)}. En la cola de revisión: {len(cola)}.", "",
