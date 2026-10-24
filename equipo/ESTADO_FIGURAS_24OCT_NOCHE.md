@@ -13,6 +13,9 @@
 4. Pendientes de Codex (texto en `equipo/encargos/CODEX_RONDA_FIGURAS_4.md` y `modelos/flujo_figuras/INSTRUCCIONES_BIO.md`): lotes **B** (contenido biológico, 69 lotes, prioridad), luego L, R y C. Consolidar B: aún no hay script (`consolidar_bio.py` por escribir: leer `resultados/codex/B*.jsonl` + `bio_plan.csv`).
 5. Límite de agentes en paralelo: 20. Haiku ≈ 40 k tokens por lote de clasificación y ≈ 40 k por lote de 10 figuras de cajas.
 
+## PUNTO DE REANUDACIÓN (24-oct, ~mediodía): pausa pedida por Héctor
+Se cortaron por **límite de uso de la API (se reinicia 12:10 pm hora de Phoenix)** los 6 árbitros Sonnet (lotes A001–A019; A001, A002, A004–A011, A013–A015 ya escritos, faltan A003, A012 y A016–A019) y el agente de cajas C187–C193. Su trabajo parcial está guardado. Al reanudar: `siguiente_lote.py claude 20` y `siguiente_lote_cajas.py claude 20` dicen qué falta; relanzar solo eso. **Antes de reanudar, atender la pregunta de datasets públicos de micrografías/espectros de nanomateriales** (ver respuesta de la sesión): podría cambiar cuántos tokens vale la pena gastar en extraer imágenes propias.
+
 ## Pendiente (en orden)
 1. Terminar lotes A (árbitros) y cajas C107–C113, C187–C193; consolidar y subir.
 2. Escribir `consolidar_bio.py` y cruzar `contenido` con `elegible_morfologia` de `paneles.csv`.
