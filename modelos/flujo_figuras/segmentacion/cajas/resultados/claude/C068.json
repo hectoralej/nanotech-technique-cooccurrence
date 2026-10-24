@@ -1,0 +1,64 @@
+{
+ "PMC12655583|Figure 1": [
+  {"tipo": "otro", "caja": [0.230, 0.000, 0.800, 0.440]},
+  {"tipo": "micro", "caja": [0.000, 0.495, 0.480, 1.000], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.510, 0.495, 1.000, 1.000], "contenido": "particulas"}
+ ],
+ "PMC12656303|Figure 1": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.170, 0.600]},
+  {"tipo": "otro", "caja": [0.170, 0.000, 0.320, 0.600]},
+  {"tipo": "micro", "caja": [0.325, 0.000, 0.605, 0.600], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.640, 0.000, 0.915, 0.600], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.000, 0.600, 0.240, 1.000]},
+  {"tipo": "otro", "caja": [0.245, 0.600, 0.470, 1.000]},
+  {"tipo": "otro", "caja": [0.485, 0.600, 0.705, 1.000]},
+  {"tipo": "otro", "caja": [0.715, 0.600, 0.915, 1.000]}
+ ],
+ "PMC12657925|Fig. 12": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.890, 0.525], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.000, 0.585, 1.000, 1.000], "contenido": "particulas"}
+ ],
+ "PMC12658821|1": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.495, 0.500]},
+  {"tipo": "otro", "caja": [0.505, 0.000, 1.000, 0.500]},
+  {"tipo": "otro", "caja": [0.000, 0.510, 0.495, 1.000]},
+  {"tipo": "otro", "caja": [0.505, 0.510, 1.000, 1.000]}
+ ],
+ "PMC12672582|Fig. 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.505, 1.000], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.515, 0.000, 1.000, 1.000], "contenido": "particulas"}
+ ],
+ "PMC12678815|Fig. 2": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.495, 0.320], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.320], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.000, 0.380, 0.330, 1.000], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.335, 0.380, 0.660, 1.000], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.670, 0.380, 1.000, 1.000], "contenido": "particulas"}
+ ],
+ "PMC12678815|Fig. 4": [
+  {"tipo": "otro", "caja": [0.005, 0.000, 0.485, 0.305]},
+  {"tipo": "espectro", "caja": [0.495, 0.000, 0.995, 0.305]},
+  {"tipo": "micro", "caja": [0.005, 0.310, 0.485, 0.625], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.495, 0.310, 0.995, 0.625], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.005, 0.630, 0.995, 0.995]}
+ ],
+ "PMC12679589|Fig. 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.487, 0.995], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.995], "contenido": "particulas"}
+ ],
+ "PMC12679589|Fig. 4": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.315, 0.335], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.320, 0.000, 0.645, 0.335], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.655, 0.010, 0.980, 0.330]},
+  {"tipo": "micro", "caja": [0.000, 0.340, 0.315, 0.665], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.320, 0.340, 0.645, 0.665], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.655, 0.340, 0.980, 0.660]},
+  {"tipo": "micro", "caja": [0.000, 0.690, 0.315, 1.000], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.320, 0.690, 0.645, 1.000], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.655, 0.690, 0.980, 1.000]}
+ ],
+ "PMC12681785|Fig. 1": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.465, 0.995]},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.995], "contenido": "particulas"}
+ ]
+}

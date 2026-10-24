@@ -1,0 +1,65 @@
+{
+"PMC7408428|Figure 2": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.490, 0.970]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.000, 1.000, 0.970]}
+],
+"PMC7463648|Figure 2": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.500, 0.490]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.000, 1.000, 0.490]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.500, 0.500, 1.000]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.500, 1.000, 1.000]}
+],
+"PMC7560243|Figure 8": [
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.030, 0.490, 0.160]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.160, 0.490, 0.270]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.270, 0.490, 0.410]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.040, 1.000, 0.180]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.180, 1.000, 0.300]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.300, 1.000, 0.410]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.520, 0.490, 0.610]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.610, 0.490, 0.710]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.000, 0.710, 0.490, 0.850]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.520, 1.000, 0.620]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.620, 1.000, 0.720]},
+ {"tipo": "espectro", "cascada": true, "caja": [0.510, 0.720, 1.000, 0.850]}
+],
+"PMC7563888|Figure 4": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.300, 0.310]},
+ {"tipo": "espectro", "caja": [0.330, 0.000, 1.000, 0.370]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.310, 0.300, 0.620]},
+ {"tipo": "espectro", "caja": [0.340, 0.380, 0.680, 0.920]},
+ {"tipo": "espectro", "caja": [0.680, 0.380, 1.000, 0.920]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.620, 0.300, 0.930]}
+],
+"PMC7587532|Figure 7": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.980, 0.610]},
+ {"tipo": "espectro", "caja": [0.000, 0.610, 0.970, 0.990]}
+],
+"PMC7593694|Figure 1": [
+ {"tipo": "otro", "caja": [0.000, 0.000, 0.430, 0.470]},
+ {"tipo": "otro", "caja": [0.440, 0.000, 0.980, 0.470]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.480, 0.430, 1.000]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.440, 0.480, 0.980, 1.000]}
+],
+"PMC7599702|Figure 4": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.980, 0.600]},
+ {"tipo": "espectro", "caja": [0.000, 0.610, 0.970, 1.000]}
+],
+"PMC7600797|Figure 2": [
+ {"tipo": "espectro", "caja": [0.000, 0.000, 0.520, 0.290]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.580, 0.000, 1.000, 0.290]},
+ {"tipo": "otro", "caja": [0.000, 0.300, 0.480, 0.600]},
+ {"tipo": "otro", "caja": [0.490, 0.300, 1.000, 0.600]},
+ {"tipo": "espectro", "caja": [0.000, 0.610, 1.000, 1.000]}
+],
+"PMC7606283|Fig. 7": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.490, 0.490]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.000, 1.000, 0.490]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.500, 0.490, 1.000]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.500, 1.000, 1.000]}
+],
+"PMC7606283|Fig. 8": [
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.000, 0.000, 0.490, 1.000]},
+ {"tipo": "micro", "contenido": "particulas", "caja": [0.500, 0.000, 1.000, 1.000]}
+]
+}

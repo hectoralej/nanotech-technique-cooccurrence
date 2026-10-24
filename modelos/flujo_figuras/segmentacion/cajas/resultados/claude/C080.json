@@ -1,0 +1,69 @@
+{
+ "PMC13140741|FIGURE 8": [
+  {"tipo": "micro", "caja": [0.140, 0.020, 0.500, 0.215], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.500, 0.020, 0.995, 0.215], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.140, 0.222, 0.500, 0.415], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.500, 0.222, 0.995, 0.415], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.140, 0.420, 0.500, 0.615], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.500, 0.420, 0.995, 0.615], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.140, 0.620, 0.500, 0.812], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.500, 0.620, 0.995, 0.812], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.140, 0.815, 0.500, 0.995], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.500, 0.815, 0.995, 0.995], "contenido": "indeterminado"}
+ ],
+ "PMC13163820|Figure 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.500, 0.495]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.495]},
+  {"tipo": "espectro", "caja": [0.000, 0.500, 0.500, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.500, 1.000, 1.000]}
+ ],
+ "PMC13163820|Figure 6": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.500, 0.330]},
+  {"tipo": "otro", "caja": [0.505, 0.000, 1.000, 0.330]},
+  {"tipo": "otro", "caja": [0.000, 0.340, 0.500, 0.655]},
+  {"tipo": "otro", "caja": [0.505, 0.340, 1.000, 0.655]},
+  {"tipo": "otro", "caja": [0.000, 0.665, 0.500, 1.000]},
+  {"tipo": "otro", "caja": [0.505, 0.665, 1.000, 1.000]}
+ ],
+ "PMC13173837|Fig. 2": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.510, 0.990]},
+  {"tipo": "micro", "caja": [0.515, 0.000, 1.000, 0.990]}
+ ],
+ "PMC13177243|2": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.500, 0.495]},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.495]},
+  {"tipo": "otro", "caja": [0.530, 0.020, 0.715, 0.175], "padre": 2, "rel": "inset"},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.500, 1.000]},
+  {"tipo": "espectro", "caja": [0.505, 0.500, 1.000, 1.000]}
+ ],
+ "PMC13179173|Fig. 5": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.335, 0.490], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.335, 0.000, 0.665, 0.490], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.665, 0.000, 1.000, 0.490], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.335, 1.000], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.335, 0.500, 0.665, 1.000], "contenido": "indeterminado"},
+  {"tipo": "micro", "caja": [0.665, 0.500, 1.000, 1.000], "contenido": "indeterminado"}
+ ],
+ "PMC13179173|Fig. 7": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.500, 0.490]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.490]},
+  {"tipo": "otro", "caja": [0.000, 0.500, 0.500, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.500, 1.000, 1.000]}
+ ],
+ "PMC13179173|Fig. 9": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.500, 0.490]},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.490]},
+  {"tipo": "otro", "caja": [0.000, 0.505, 0.500, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.505, 1.000, 1.000]}
+ ],
+ "PMC13206626|Figure 4": [
+  {"tipo": "otro", "caja": [0.010, 0.100, 0.660, 0.520]},
+  {"tipo": "otro", "caja": [0.010, 0.530, 0.660, 0.930]},
+  {"tipo": "micro", "caja": [0.680, 0.100, 0.995, 0.565]},
+  {"tipo": "micro", "caja": [0.680, 0.575, 0.995, 0.890]}
+ ],
+ "PMC13209862|Figure 10": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.470, 0.975]},
+  {"tipo": "otro", "caja": [0.480, 0.000, 1.000, 0.975]}
+ ]
+}

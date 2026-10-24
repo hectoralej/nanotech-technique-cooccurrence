@@ -1,0 +1,73 @@
+{
+ "PMC8467971|Figure 10": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.320, 0.500], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.330, 0.000, 0.660, 0.500], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.670, 0.000, 1.000, 0.500], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.510, 0.320, 1.000], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.330, 0.510, 0.660, 1.000], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.670, 0.510, 1.000, 1.000], "tecnica": "SEM", "contenido": "biologico"}
+ ],
+ "PMC8467971|Figure 11": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.330, 0.480], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.340, 0.000, 0.660, 0.480], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.670, 0.000, 1.000, 0.480], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.500, 0.330, 1.000], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.340, 0.500, 0.660, 1.000], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.670, 0.500, 1.000, 1.000], "tecnica": "TEM", "contenido": "biologico"}
+ ],
+ "PMC8467971|Figure 2": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.340, 0.490]},
+  {"tipo": "otro", "caja": [0.350, 0.000, 1.000, 0.490]},
+  {"tipo": "micro", "caja": [0.000, 0.510, 0.340, 1.000]},
+  {"tipo": "otro", "caja": [0.350, 0.510, 1.000, 1.000]}
+ ],
+ "PMC8467987|Figure 10": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.330, 0.490]},
+  {"tipo": "micro", "caja": [0.340, 0.000, 0.660, 0.490]},
+  {"tipo": "micro", "caja": [0.670, 0.000, 1.000, 0.490]},
+  {"tipo": "micro", "caja": [0.000, 0.510, 0.330, 1.000]},
+  {"tipo": "micro", "caja": [0.340, 0.510, 0.660, 1.000]},
+  {"tipo": "micro", "caja": [0.670, 0.510, 1.000, 1.000]}
+ ],
+ "PMC8467987|Figure 11": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.250, 0.480]},
+  {"tipo": "otro", "caja": [0.250, 0.000, 0.500, 0.480]},
+  {"tipo": "otro", "caja": [0.510, 0.000, 0.800, 0.480]},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.240, 1.000]},
+  {"tipo": "otro", "caja": [0.250, 0.500, 0.490, 1.000]},
+  {"tipo": "otro", "caja": [0.500, 0.500, 0.790, 1.000]},
+  {"tipo": "otro", "caja": [0.800, 0.500, 0.990, 1.000]}
+ ],
+ "PMC8467987|Figure 12": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.490, 0.490]},
+  {"tipo": "micro", "caja": [0.500, 0.000, 0.990, 0.490]},
+  {"tipo": "micro", "caja": [0.000, 0.500, 0.490, 0.990]},
+  {"tipo": "micro", "caja": [0.500, 0.500, 0.990, 0.990]}
+ ],
+ "PMC8468306|Figure 11": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.310, 0.480], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.310, 0.000, 0.630, 0.480], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.630, 0.000, 1.000, 0.480], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.500, 0.310, 1.000], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.310, 0.500, 0.630, 1.000], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.630, 0.500, 1.000, 1.000], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"}
+ ],
+ "PMC8472662|Figure 13": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.490, 0.310], "tecnica": "SEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.310], "tecnica": "SEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.320, 0.490, 0.600], "tecnica": "SEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "otro", "caja": [0.500, 0.320, 1.000, 0.600], "tecnica": "SEM", "contenido": "particulas_en_contexto_biologico"},
+  {"tipo": "espectro", "caja": [0.000, 0.610, 1.000, 1.000]}
+ ],
+ "PMC8472662|Figure 14": [
+  {"tipo": "micro", "caja": [0.000, 0.040, 0.370, 0.930]},
+  {"tipo": "micro", "caja": [0.400, 0.200, 0.680, 0.910]},
+  {"tipo": "micro", "caja": [0.700, 0.200, 0.990, 0.910]}
+ ],
+ "PMC8500176|FIGURE 6": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.490, 0.490], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.500, 0.000, 0.990, 0.490], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.500, 0.490, 0.990], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.500, 0.500, 0.990, 0.990], "tecnica": "SEM", "contenido": "biologico"}
+ ]
+}

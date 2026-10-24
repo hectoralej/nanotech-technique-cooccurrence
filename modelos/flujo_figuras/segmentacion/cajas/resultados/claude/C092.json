@@ -1,0 +1,52 @@
+{
+"PMC5511230|Figure 2": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.700, 0.645]},
+{"tipo": "micro", "caja": [0.705, 0.000, 1.000, 0.325]},
+{"tipo": "micro", "caja": [0.705, 0.330, 1.000, 0.645]},
+{"tipo": "otro", "caja": [0.000, 0.665, 0.560, 1.000]},
+{"tipo": "espectro", "caja": [0.570, 0.665, 1.000, 1.000]}
+],
+"PMC5511230|Figure 7": [
+{"tipo": "otro", "caja": [0.000, 0.000, 0.490, 0.495], "tecnica": "TEM", "contenido": "biologico"},
+{"tipo": "otro", "caja": [0.500, 0.000, 1.000, 0.495], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"},
+{"tipo": "otro", "caja": [0.000, 0.505, 0.490, 1.000], "tecnica": "TEM", "contenido": "biologico"},
+{"tipo": "otro", "caja": [0.500, 0.505, 1.000, 1.000], "tecnica": "TEM", "contenido": "particulas_en_contexto_biologico"}
+],
+"PMC5525242|Fig. 6": [
+{"tipo": "micro", "caja": [0.000, 0.000, 1.000, 0.490]},
+{"tipo": "micro", "caja": [0.000, 0.505, 1.000, 1.000]}
+],
+"PMC5541566|Figure 1.": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.330, 1.000]},
+{"tipo": "micro", "caja": [0.335, 0.000, 0.665, 1.000]},
+{"tipo": "micro", "caja": [0.675, 0.000, 1.000, 1.000]}
+],
+"PMC5541566|Figure 3.": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.330, 1.000]},
+{"tipo": "micro", "caja": [0.335, 0.000, 0.665, 1.000]},
+{"tipo": "micro", "caja": [0.670, 0.000, 1.000, 1.000]}
+],
+"PMC5572432|Fig. 1": [
+{"tipo": "micro", "caja": [0.000, 0.000, 1.000, 0.495]},
+{"tipo": "micro", "caja": [0.000, 0.505, 1.000, 1.000]}
+],
+"PMC5588630|Figure 2": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.660, 1.000]},
+{"tipo": "espectro", "caja": [0.665, 0.000, 1.000, 1.000]}
+],
+"PMC5591228|Figure 4": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.495, 0.490]},
+{"tipo": "micro", "caja": [0.500, 0.000, 1.000, 0.490]},
+{"tipo": "micro", "caja": [0.000, 0.505, 0.495, 1.000]},
+{"tipo": "micro", "caja": [0.500, 0.505, 1.000, 1.000]}
+],
+"PMC5603882|Figure 2": [
+{"tipo": "micro", "caja": [0.000, 0.000, 0.430, 0.420]},
+{"tipo": "micro", "caja": [0.570, 0.000, 1.000, 0.420]},
+{"tipo": "micro", "caja": [0.280, 0.460, 0.730, 0.920]}
+],
+"PMC5610742|Figure 1": [
+{"tipo": "micro", "caja": [0.000, 0.010, 0.395, 0.960]},
+{"tipo": "micro", "caja": [0.550, 0.010, 0.960, 0.960]}
+]
+}

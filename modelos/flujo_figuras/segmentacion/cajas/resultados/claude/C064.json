@@ -1,0 +1,68 @@
+{
+ "PMC12470970|Figure 9": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.496, 0.985]},
+  {"tipo": "micro", "caja": [0.504, 0.000, 1.000, 0.985]}
+ ],
+ "PMC12472287|Figure 4": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.500, 0.375]},
+  {"tipo": "micro", "caja": [0.510, 0.000, 1.000, 0.365], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.000, 0.380, 0.500, 0.650]},
+  {"tipo": "otro", "caja": [0.510, 0.380, 1.000, 0.650]},
+  {"tipo": "otro", "caja": [0.000, 0.685, 0.330, 0.995]}
+ ],
+ "PMC12472861|Figure 4": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.505, 0.995], "contenido": "particulas"},
+  {"tipo": "espectro", "caja": [0.510, 0.000, 1.000, 0.995]}
+ ],
+ "PMC12473073|Figure 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.505, 0.505], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.510, 0.000, 1.000, 0.505], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.000, 0.510, 0.505, 1.000], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.510, 0.510, 1.000, 1.000]},
+  {"tipo": "micro", "caja": [0.330, 0.515, 0.500, 0.675], "padre": 3, "rel": "inset", "contenido": "particulas"}
+ ],
+ "PMC12473970|Figure 1": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.465, 0.225], "contenido": "particulas"},
+  {"tipo": "espectro", "caja": [0.470, 0.000, 1.000, 0.225]},
+  {"tipo": "micro", "caja": [0.000, 0.230, 0.570, 0.445], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.575, 0.230, 1.000, 0.445]},
+  {"tipo": "espectro", "caja": [0.000, 0.485, 0.495, 0.700]},
+  {"tipo": "espectro", "caja": [0.500, 0.485, 1.000, 0.700]},
+  {"tipo": "otro", "caja": [0.000, 0.715, 0.495, 0.995]},
+  {"tipo": "otro", "caja": [0.500, 0.715, 1.000, 0.995]},
+  {"tipo": "micro", "caja": [0.270, 0.240, 0.560, 0.440], "padre": 3, "rel": "inset", "contenido": "particulas"},
+  {"tipo": "espectro", "caja": [0.220, 0.555, 0.395, 0.640], "padre": 5, "rel": "inset"}
+ ],
+ "PMC12474722|Fig. 3": [
+  {"tipo": "micro", "caja": [0.000, 0.000, 0.495, 0.995], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.505, 0.000, 1.000, 0.995], "contenido": "particulas"}
+ ],
+ "PMC12484951|Fig. 10": [
+  {"tipo": "espectro", "caja": [0.000, 0.000, 0.505, 0.995]},
+  {"tipo": "otro", "caja": [0.510, 0.000, 1.000, 0.995]}
+ ],
+ "PMC12484951|Fig. 12": [
+  {"tipo": "otro", "caja": [0.000, 0.000, 0.488, 0.225], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.492, 0.000, 0.990, 0.225], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.258, 0.488, 0.472], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.492, 0.258, 0.990, 0.472], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.503, 0.488, 0.717], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.492, 0.503, 0.990, 0.717], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.745, 0.488, 0.998], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.492, 0.745, 0.990, 0.998], "tecnica": "SEM", "contenido": "biologico"}
+ ],
+ "PMC12484951|Fig. 17": [
+  {"tipo": "otro", "caja": [0.000, 0.020, 0.335, 0.470], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.345, 0.020, 0.665, 0.470], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.680, 0.020, 1.000, 0.470], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.000, 0.480, 0.335, 0.985], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.345, 0.480, 0.665, 0.985], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.680, 0.480, 1.000, 0.985], "tecnica": "SEM", "contenido": "biologico"}
+ ],
+ "PMC12484951|Fig. 6": [
+  {"tipo": "micro", "caja": [0.000, 0.030, 0.290, 0.360], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.300, 0.030, 0.615, 0.360], "contenido": "particulas"},
+  {"tipo": "micro", "caja": [0.650, 0.030, 0.995, 0.360], "contenido": "particulas"},
+  {"tipo": "otro", "caja": [0.120, 0.450, 0.870, 0.975]}
+ ]
+}

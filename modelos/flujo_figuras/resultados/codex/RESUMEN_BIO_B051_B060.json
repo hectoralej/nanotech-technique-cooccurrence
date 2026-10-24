@@ -1,0 +1,89 @@
+{
+  "fecha_utc": "2026-10-24T20:06:29.592273+00:00",
+  "lotes": "B051-B060",
+  "estado": "PASS",
+  "figuras": 300,
+  "por_contenido": {
+    "particulas": 298,
+    "indeterminado": 1,
+    "mixto": 1
+  },
+  "por_confianza": {
+    "3": 267,
+    "2": 32,
+    "1": 1
+  },
+  "no_particulas": 2,
+  "indeterminadas": 1,
+  "por_lote": [
+    {
+      "lote": "B051",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B052",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B053",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B054",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B055",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B056",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B057",
+      "figuras": 30,
+      "no_particulas": 1
+    },
+    {
+      "lote": "B058",
+      "figuras": 30,
+      "no_particulas": 0
+    },
+    {
+      "lote": "B059",
+      "figuras": 30,
+      "no_particulas": 1
+    },
+    {
+      "lote": "B060",
+      "figuras": 30,
+      "no_particulas": 0
+    }
+  ],
+  "validaciones": [
+    "B055: PASS",
+    "B060: PASS"
+  ],
+  "sha256": {
+    "B051": "2220769568d430eaea2ea0233a7e60f22e3fb7be15d1f32affd4ef2abbe4071d",
+    "B052": "54ca2a69d2df8c3d163add9b827d83e97447434b59d9a815b1973a82e76cf08d",
+    "B053": "c2e58f2db846e90403667739c655339b413f3351067a9d29946991797d85ee9b",
+    "B054": "05e5464a697041bac1754794744086f7110dc794835359f9c7368123980f0d54",
+    "B055": "0b5d1091a37d28bc13cdf84750f590a37a866a70fb56f5c09399757304b3cc2e",
+    "B056": "8180249d8ece31eee0a5bc6487633305050ab73edb1688022effcf19e81d507e",
+    "B057": "0adeca90f0187a1d530bf615cc08ff1843cbfe00b7218311ea63592e9f1243ce",
+    "B058": "2b683abdafce29c9d9ef6c24f23763b918be719f78eca3682131835a2b4dd786",
+    "B059": "ae840cc16bb4d0a5a9416535c4370f21d79e9b0392fd6838cb18f951ace02c66",
+    "B060": "d8029d321ff6e5d816061a4e75b66e10eec3e5a532fc5c0970be892e945bc0d5"
+  },
+  "siguiente": "B061",
+  "pendientes_B": 9,
+  "figuras_pendientes_B": 266
+}

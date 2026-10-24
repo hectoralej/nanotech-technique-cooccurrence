@@ -1,0 +1,81 @@
+{
+ "PMC6607213|Figure 4": [
+  {"tipo": "micro", "caja": [0.00, 0.00, 0.48, 0.31]},
+  {"tipo": "micro", "caja": [0.50, 0.00, 1.00, 0.31]},
+  {"tipo": "micro", "caja": [0.00, 0.32, 0.48, 0.65]},
+  {"tipo": "micro", "caja": [0.50, 0.32, 1.00, 0.65]},
+  {"tipo": "micro", "caja": [0.00, 0.66, 0.48, 1.00]},
+  {"tipo": "micro", "caja": [0.50, 0.66, 1.00, 1.00]}
+ ],
+ "PMC6627627|Figure 4": [
+  {"tipo": "micro", "caja": [0.01, 0.06, 0.32, 0.50]},
+  {"tipo": "micro", "caja": [0.33, 0.06, 0.65, 0.50]},
+  {"tipo": "micro", "caja": [0.66, 0.06, 0.99, 0.50]},
+  {"tipo": "otro", "caja": [0.01, 0.53, 0.32, 0.98]},
+  {"tipo": "otro", "caja": [0.34, 0.53, 0.66, 0.98]}
+ ],
+ "PMC6629150|Fig 1": [
+  {"tipo": "micro", "caja": [0.00, 0.00, 0.52, 0.98]},
+  {"tipo": "micro", "caja": [0.53, 0.00, 1.00, 0.98]},
+  {"tipo": "otro", "caja": [0.25, 0.52, 0.52, 0.98], "padre": 1, "rel": "inset"}
+ ],
+ "PMC6629150|Fig 2": [
+  {"tipo": "micro", "caja": [0.03, 0.00, 0.34, 0.26]},
+  {"tipo": "micro", "caja": [0.36, 0.00, 0.66, 0.26]},
+  {"tipo": "micro", "caja": [0.70, 0.00, 0.99, 0.26]},
+  {"tipo": "micro", "caja": [0.03, 0.29, 0.34, 0.56]},
+  {"tipo": "micro", "caja": [0.36, 0.29, 0.66, 0.56]},
+  {"tipo": "micro", "caja": [0.70, 0.29, 0.99, 0.56]},
+  {"tipo": "micro", "caja": [0.03, 0.66, 0.34, 0.92]},
+  {"tipo": "micro", "caja": [0.36, 0.66, 0.66, 0.92]}
+ ],
+ "PMC6629150|Fig 7": [
+  {"tipo": "micro", "caja": [0.00, 0.00, 0.33, 0.97]},
+  {"tipo": "micro", "caja": [0.34, 0.00, 0.66, 0.97]},
+  {"tipo": "micro", "caja": [0.67, 0.00, 1.00, 0.97]}
+ ],
+ "PMC6629650|Figure 7": [
+  {"tipo": "otro", "caja": [0.00, 0.00, 0.50, 0.25], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.00, 1.00, 0.25], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.25, 0.50, 0.50], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.25, 1.00, 0.50], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.50, 0.50, 0.75], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.50, 1.00, 0.75], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.75, 0.50, 1.00], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.75, 1.00, 1.00], "tecnica": "TEM", "contenido": "biologico"}
+ ],
+ "PMC6629650|Figure 8": [
+  {"tipo": "otro", "caja": [0.00, 0.00, 0.50, 0.25], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.00, 1.00, 0.25], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.25, 0.50, 0.50], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.25, 1.00, 0.50], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.50, 0.50, 0.75], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.50, 0.50, 1.00, 0.75], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.00, 0.75, 0.50, 1.00], "tecnica": "TEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.74, 0.42, 0.99, 0.49], "padre": 4, "rel": "inset"}
+ ],
+ "PMC6631728|Figure 1": [
+  {"tipo": "micro", "caja": [0.00, 0.00, 0.33, 0.49]},
+  {"tipo": "micro", "caja": [0.34, 0.00, 0.66, 0.49]},
+  {"tipo": "micro", "caja": [0.67, 0.00, 1.00, 0.49]},
+  {"tipo": "micro", "caja": [0.00, 0.51, 0.33, 1.00]},
+  {"tipo": "micro", "caja": [0.34, 0.51, 0.66, 1.00]},
+  {"tipo": "micro", "caja": [0.67, 0.51, 1.00, 1.00]}
+ ],
+ "PMC6633902|Figure 3": [
+  {"tipo": "espectro", "caja": [0.00, 0.00, 0.49, 1.00]},
+  {"tipo": "micro", "caja": [0.50, 0.00, 1.00, 1.00]},
+  {"tipo": "otro", "caja": [0.36, 0.05, 0.48, 0.42], "padre": 1, "rel": "inset"},
+  {"tipo": "otro", "caja": [0.84, 0.00, 1.00, 0.88], "padre": 2, "rel": "inset"}
+ ],
+ "PMC6633902|Figure 5": [
+  {"tipo": "micro", "caja": [0.00, 0.00, 0.49, 0.49]},
+  {"tipo": "micro", "caja": [0.50, 0.00, 1.00, 0.49]},
+  {"tipo": "micro", "caja": [0.00, 0.51, 0.49, 1.00]},
+  {"tipo": "micro", "caja": [0.50, 0.51, 1.00, 1.00]},
+  {"tipo": "otro", "caja": [0.33, 0.00, 0.49, 0.46], "padre": 1, "rel": "inset"},
+  {"tipo": "otro", "caja": [0.81, 0.00, 1.00, 0.46], "padre": 2, "rel": "inset"},
+  {"tipo": "otro", "caja": [0.33, 0.52, 0.49, 0.97], "padre": 3, "rel": "inset"},
+  {"tipo": "otro", "caja": [0.81, 0.52, 1.00, 0.97], "padre": 4, "rel": "inset"}
+ ]
+}

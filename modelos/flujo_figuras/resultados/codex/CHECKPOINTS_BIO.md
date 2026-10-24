@@ -110,3 +110,29 @@
 - 2026-10-24T19:47:34.319396+00:00: B048 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
 
 - 2026-10-24T19:48:36.102779+00:00: B049 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:50:07.664042+00:00: B050 guardado, 30 figuras, 2 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:50:08.532937+00:00: tanda B041-B050 cerrada: 300 figuras; 10 distintas de particulas, 1 indeterminadas. Validaciones B045/B050 PASS. Continuar en B051; consolidación pendiente hasta B069.
+
+- 2026-10-24T19:55:57.067112+00:00: B051 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:56:34.353720+00:00: B052 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:57:13.209400+00:00: B053 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:57:57.465225+00:00: B054 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T19:59:34.830651+00:00: B055 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:00:27.098086+00:00: B056 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:02:02.871564+00:00: B057 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:03:56.155874+00:00: B058 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:05:28.841188+00:00: B059 guardado, 30 figuras, 1 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:06:28.701855+00:00: B060 guardado, 30 figuras, 0 distintas de particulas. Comprobados esquema y orden.
+
+- 2026-10-24T20:06:29.592273+00:00: tanda B051-B060 cerrada: 300 figuras; 2 distintas de particulas, 1 indeterminadas. Validaciones B055/B060 PASS. Continuar en B061; consolidación pendiente hasta B069.

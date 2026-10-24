@@ -1,0 +1,68 @@
+{
+ "PMC12799727|Fig. 10": [
+  {"tipo": "otro", "caja": [0.27, 0.0, 0.69, 0.52]},
+  {"tipo": "otro", "caja": [0.0, 0.53, 0.4, 1.0]},
+  {"tipo": "otro", "caja": [0.42, 0.53, 1.0, 1.0]}
+ ],
+ "PMC12799727|Fig. 11": [
+  {"tipo": "otro", "caja": [0.0, 0.0, 0.49, 0.49]},
+  {"tipo": "otro", "caja": [0.5, 0.0, 1.0, 0.49]},
+  {"tipo": "otro", "caja": [0.0, 0.5, 0.49, 1.0]},
+  {"tipo": "otro", "caja": [0.5, 0.5, 1.0, 1.0]}
+ ],
+ "PMC12799727|Fig. 12": [
+  {"tipo": "otro", "caja": [0.22, 0.0, 0.78, 0.43], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.0, 0.44, 0.54, 0.99], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.55, 0.44, 1.0, 0.99], "tecnica": "SEM", "contenido": "biologico"}
+ ],
+ "PMC12799727|Fig. 14": [
+  {"tipo": "otro", "caja": [0.24, 0.0, 0.76, 0.33], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.0, 0.33, 1.0, 0.6], "tecnica": "SEM", "contenido": "biologico"},
+  {"tipo": "otro", "caja": [0.0, 0.6, 1.0, 1.0], "tecnica": "SEM", "contenido": "biologico"}
+ ],
+ "PMC12799727|Fig. 15": [
+  {"tipo": "otro", "caja": [0.02, 0.0, 0.35, 0.99], "tecnica": "SEM", "contenido": "indeterminado"},
+  {"tipo": "otro", "caja": [0.36, 0.0, 1.0, 0.6], "tecnica": "SEM", "contenido": "indeterminado"},
+  {"tipo": "otro", "caja": [0.36, 0.62, 1.0, 1.0], "tecnica": "SEM", "contenido": "indeterminado"}
+ ],
+ "PMC12799727|Fig. 8": [
+  {"tipo": "otro", "caja": [0.0, 0.1, 0.55, 0.95]},
+  {"tipo": "otro", "caja": [0.57, 0.1, 1.0, 0.5]},
+  {"tipo": "otro", "caja": [0.57, 0.52, 1.0, 1.0]}
+ ],
+ "PMC12799727|Fig. 9": [
+  {"tipo": "otro", "caja": [0.0, 0.0, 0.5, 0.33]},
+  {"tipo": "otro", "caja": [0.5, 0.0, 1.0, 0.33]},
+  {"tipo": "otro", "caja": [0.0, 0.34, 0.5, 0.66]},
+  {"tipo": "otro", "caja": [0.5, 0.34, 1.0, 0.66]},
+  {"tipo": "otro", "caja": [0.0, 0.67, 0.5, 1.0]},
+  {"tipo": "otro", "caja": [0.5, 0.67, 1.0, 1.0]}
+ ],
+ "PMC12832899|Figure 1": [
+  {"tipo": "otro", "caja": [0.0, 0.0, 0.34, 0.26]},
+  {"tipo": "otro", "caja": [0.33, 0.0, 0.66, 0.26]},
+  {"tipo": "otro", "caja": [0.66, 0.0, 1.0, 0.26]},
+  {"tipo": "espectro", "caja": [0.0, 0.27, 0.37, 0.6]},
+  {"tipo": "espectro", "caja": [0.37, 0.27, 0.67, 0.6]},
+  {"tipo": "espectro", "caja": [0.72, 0.27, 1.0, 0.6]},
+  {"tipo": "micro", "caja": [0.04, 0.63, 0.26, 0.8]},
+  {"tipo": "micro", "caja": [0.27, 0.63, 0.51, 0.8]},
+  {"tipo": "micro", "caja": [0.04, 0.82, 0.26, 1.0]},
+  {"tipo": "micro", "caja": [0.27, 0.82, 0.51, 1.0]},
+  {"tipo": "micro", "caja": [0.49, 0.63, 0.665, 0.8]},
+  {"tipo": "micro", "caja": [0.67, 0.63, 0.835, 0.8]},
+  {"tipo": "micro", "caja": [0.84, 0.63, 1.0, 0.8]},
+  {"tipo": "micro", "caja": [0.49, 0.82, 0.665, 1.0]},
+  {"tipo": "micro", "caja": [0.67, 0.82, 0.835, 1.0]},
+  {"tipo": "micro", "caja": [0.84, 0.82, 1.0, 1.0]}
+ ],
+ "PMC12839151|Figure 3": [
+  {"tipo": "espectro", "caja": [0.0, 0.0, 1.0, 0.33]},
+  {"tipo": "espectro", "caja": [0.0, 0.34, 1.0, 0.66]},
+  {"tipo": "espectro", "caja": [0.0, 0.67, 1.0, 1.0]}
+ ],
+ "PMC12839151|Figure 4": [
+  {"tipo": "espectro", "caja": [0.0, 0.0, 1.0, 0.48]},
+  {"tipo": "espectro", "caja": [0.0, 0.5, 1.0, 0.99]}
+ ]
+}
