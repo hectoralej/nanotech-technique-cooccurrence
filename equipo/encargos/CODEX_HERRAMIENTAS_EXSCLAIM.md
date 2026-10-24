@@ -1,0 +1,23 @@
+# Codex: probar EXSCLAIM! (y FigEx2) como separador de figuras y engranarlo al flujo
+
+**Contexto.** El paso más débil de nuestro control de calidad es la **separación de paneles** de las figuras compuestas (ver `figuras/flujo_calidad_figuras_es.png`, paso 5). EXSCLAIM! (materiales; paper en PMC10682750) publica un pipeline con un **separador de figuras** (modelo «MDI»: detecta las letras de panel y a partir de ellas las imágenes principales, dependientes e insets), un **clasificador de recortes** (microscopía, gráfica, difracción, ilustración, «parent») y un **distribuidor de pies** (reparte el pie por subfigura). Queremos probar su separador y su distribuidor sobre **nuestras imágenes locales** (no su scraper) y medir si sirven como **tercer revisor** (acuerdo entre modelos) o como separador principal.
+
+## Reglas de seguridad y alcance (obligatorias)
+- Trabaja solo en `modelos\flujo_figuras\segmentacion\herramientas\` (créala). **Entorno virtual propio** dentro de esa carpeta; no instales nada en el Python del sistema; no toques `curation\`, `producto\`, `modelos\imagenes_v02\` ni resultados de otros revisores. Sin git.
+- **Antes de instalar, verifica la fuente**: repositorio oficial de EXSCLAIM! (GitHub, organización MaterialEyes) y paquete de PyPI; mantenedores, **licencia**, fecha del último commit y si enlazan los pesos del modelo. Anótalo en `INFORME_EXSCLAIM.md`. **Si la licencia es incompatible o desconocida, o el paquete/repositorio no coincide con el artículo, detente y repórtalo.**
+- Pesos y datos: solo desde los enlaces oficiales del README; **avisa el tamaño antes de bajar algo > 500 MB**; usa `requests` (urllib dio timeouts); nunca credenciales ni claves. No ejecutes scripts de URLs que no sean las oficiales.
+- No uses el scraper de revistas de EXSCLAIM! (las figuras ya las tenemos). Sin GPU local: prueba en CPU; si hace falta GPU, deja las instrucciones para Kabré y no ejecutes allí.
+- Tope de tiempo: **90 min** para lograr que corra. Si no, documenta el bloqueo (versión de Python, dependencias, error) y detente.
+
+## Tareas, en orden
+1. **Instalar y ejecutar el separador** sobre las 22 figuras de `modelos\flujo_figuras\segmentacion\anotador\figuras_anotador.csv`. Las rutas de imagen están en `modelos\flujo_figuras\segmentacion\cajas\plan_cajas.csv` (columna `imagen`) o en `modelos\flujo_figuras\plan_lotes.csv`. Convierte su salida a **nuestro formato** (coordenadas normalizadas 0–1 sobre la figura completa):
+   `{"<fig_id>": [{"tipo": "micro|espectro|otro", "caja": [x0, y0, x1, y1]}, ...]}` → `herramientas\resultados\exsclaim_cajas.json`.
+   Mapeo de clases: microscopía → `micro`; gráfica, difracción, ilustración → `otro` (EXSCLAIM! no distingue espectro de otras gráficas: conserva la clase original en un campo extra `clase_exsclaim`); «parent»/«omit»/«unclear» → `otro` con `"revisar": true`.
+2. **Compara** con `python modelos\flujo_figuras\segmentacion\comparar_cajas.py referencia.json exsclaim_cajas.json` contra: (a) las cajas humanas, cuando exista `cajas_humano_*.json` en la carpeta `anotador\` (Héctor las está dibujando; si aún no están, salta este punto y repítelo después); (b) las cajas de Haiku del lote C001 (`cajas\resultados\claude\C001.json`, 10 figuras). Informa: IoU medio, % de cajas con IoU ≥ 0,7, y nº de paneles detectados frente al esperado (`paneles` en `plan_cajas.csv`).
+3. **Distribuidor de pies**: aplícalo a los pies de esas 22 figuras (`modelos\imagenes_v02\inventario_figuras.csv`, columna `pie`; clave pmcid + figura) y compara el fragmento por subfigura con nuestra tipología (`modelos\tipologia_figuras\tipologia_figuras.csv`, columnas `etiquetas` y `paneles`). Lista los casos en que difieren y di cuál parece mejor.
+4. Escribe **`INFORME_EXSCLAIM.md`**: versión, comandos exactos de instalación, licencia, tiempo por figura, IoU, aciertos/errores típicos (insets, cuadrículas densas, baja resolución: nuestras figuras tienen lado menor mediano ≈ 476 px) y recomendación: **tercer revisor / separador principal / descartar**.
+5. **Solo si** IoU medio ≥ 0,7 y ≥ 80 % de las figuras con el nº de paneles esperado: ejecútalo sobre 100 figuras más (lotes `aceptada_auto` del plan) y guarda `cajas\resultados\exsclaim\Cxxx.json` en el mismo formato, para que `consolidar_cajas.py` lo use como tercer revisor. No sobrescribas resultados de otros revisores.
+6. **FigEx2** (baja prioridad): comprueba si el código y los pesos son públicos y con qué licencia. Instálalo y pruébalo solo si cabe en una hora con las mismas reglas; si no, reporta disponibilidad y licencia.
+
+## Entrega
+`INFORME_EXSCLAIM.md` + `resultados\`. Responde solo con un resumen de 6 líneas: ¿instaló?, licencia, tiempo, IoU, nº de paneles correctos y recomendación.
