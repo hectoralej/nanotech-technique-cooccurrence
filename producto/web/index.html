@@ -13,8 +13,10 @@
     <a class="brand" href="#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
     <nav aria-label="Navegación principal">
       <a href="#explorar">Explorador</a>
+      <a href="figuras.html">Figuras y paneles</a>
       <a href="construccion.html">Cómo se construyó</a>
       <a href="modelos.html">Modelos y límites</a>
+      <a href="demo.html">Demo del modelo</a>
     </nav>
     <span class="edition">Atlas de evidencia · prototipo</span>
   </header>
@@ -37,9 +39,14 @@
     <section class="stats" aria-label="Contenido de la base">
       <div class="stat"><span id="count-articles">—</span><label>artículos</label></div>
       <div class="stat"><span id="count-panels">—</span><label>micrografías</label></div>
-      <div class="stat"><span id="count-descriptors">—</span><label>filas de descriptores</label></div>
+      <div class="stat"><span id="count-descriptors">—</span><label>descriptores v03 utilizables</label></div>
       <div class="stat"><span id="count-spectra">—</span><label>espectros</label></div>
       <p class="data-stamp" id="data-stamp">Cargando datos…</p>
+    </section>
+
+    <section class="visual-overview" aria-labelledby="atlas-summary-title">
+      <div class="section-heading"><div><p class="eyebrow">VISTA RÁPIDA</p><h2 id="atlas-summary-title">Qué contiene el Atlas</h2></div><p class="section-caption">Resumen calculado desde las figuras y paneles del repositorio. Pulsa una categoría para abrirla en el explorador visual.</p></div>
+      <div id="atlas-charts" class="atlas-charts" aria-live="polite"><p class="no-data">Cargando resumen visual…</p></div>
     </section>
 
     <section class="explorer-section" id="explorar">
@@ -51,7 +58,7 @@
         <label class="search-field"><span>Buscar</span><input id="search" type="search" placeholder="Título, DOI o PMCID" autocomplete="off"></label>
         <label><span>Portador</span><select id="family"><option value="">Todos los portadores</option></select></label>
         <label><span>Categoría</span><select id="usage"><option value="">Todas</option></select></label>
-        <label><span>Grupo</span><select id="tier"><option value="">Todos</option><option>E1</option><option>E2</option></select></label>
+        <label class="tier-filter"><span>Nivel de evidencia <abbr class="help-icon" title="E1: micrografía, medidas y espectro. E2: micrografía y medidas o espectro." aria-label="Ayuda sobre niveles de evidencia">?</abbr></span><select id="tier"><option value="">Todos los niveles</option><option value="E1">E1 · micrografía + medidas + espectro (1.130)</option><option value="E2">E2 · micrografía + medidas o espectro (577)</option></select><small id="tier-help">E1 reúne las tres evidencias; E2 requiere micrografía y al menos una de las otras dos.</small></label>
         <label><span>Microscopía</span><select id="variant"><option value="">Todas</option></select></label>
         <label><span>Espectro</span><select id="technique"><option value="">Todas</option></select></label>
       </div>
@@ -97,7 +104,9 @@
     </div>
     <a class="footer-top" href="#inicio">Volver arriba ↑</a>
   </footer>
-  <aside class="quality-notice">Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</aside>
+  <aside class="quality-notice" role="note"><span>Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</span><button type="button" aria-label="Cerrar aviso">×</button></aside>
   <script src="app.js" defer></script>
+  <script src="notice.js" defer></script>
+  <script src="visuals.js" defer></script>
 </body>
 </html>

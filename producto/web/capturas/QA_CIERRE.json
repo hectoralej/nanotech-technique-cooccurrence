@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-25",
+  "main": "21bfd4f",
+  "sizes": [
+    1440,
+    375
+  ],
+  "pages": [
+    "index",
+    "modelos",
+    "construccion",
+    "figuras",
+    "galeria",
+    "demo"
+  ],
+  "broken_images_observed": 0,
+  "console_errors_observed": 0,
+  "document_overflow_observed": false,
+  "equivalence": {
+    "n": 20,
+    "mean": 0.0051,
+    "maximum": 0.0219,
+    "contract_and_csv_semantically_equal_to_original_zip": true,
+    "png_byte_equal": true
+  },
+  "functional_check_outside_training": {
+    "pmcid": "PMC10727426",
+    "figure": "Fig 1",
+    "panel": "1",
+    "doi": "https://doi.org/10.1371/journal.pone.0296032",
+    "license": "CC BY",
+    "crop": "img/paneles/PMC10727426/Fig1_p01_micro.jpg",
+    "training_articles": 1114,
+    "training_crops": 4670,
+    "article_excluded_from_labeled_training": true,
+    "load_ms": 1453,
+    "inference_ms": 1745,
+    "displayed_probabilities_percent": {
+      "inorganico": 42,
+      "lipidico": 6.3,
+      "nanomaterial": 17.6,
+      "polimerico": 34.1
+    },
+    "note": "Prueba funcional sin clase de referencia; no es medida de acierto ni validación externa."
+  }
+}
