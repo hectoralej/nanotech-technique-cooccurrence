@@ -1,0 +1,1652 @@
+{
+  "PMC11653606|Figure 6": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.505,
+        0.49,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.505,
+        0.505,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.01,
+        0.1,
+        0.15,
+        0.24
+      ],
+      "padre": 1,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.01,
+        0.25,
+        0.15,
+        0.41
+      ],
+      "padre": 1,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.7,
+        0.335,
+        0.84,
+        0.485
+      ],
+      "padre": 2,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.85,
+        0.335,
+        0.995,
+        0.485
+      ],
+      "padre": 2,
+      "rel": "inset",
+      "contenido": "particulas"
+    }
+  ],
+  "PMC11678608|Figure 2": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.33,
+        0.47
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.32,
+        0.0,
+        0.62,
+        0.47
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.62,
+        0.0,
+        1.0,
+        0.47
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.51,
+        0.33,
+        1.0
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.33,
+        0.51,
+        0.64,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.64,
+        0.51,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.79,
+        0.03,
+        0.985,
+        0.31
+      ],
+      "padre": 3,
+      "rel": "inset"
+    }
+  ],
+  "PMC11702280|Fig. 4": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.31
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.31
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.31,
+        0.49,
+        0.62
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.31,
+        1.0,
+        0.62
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.62,
+        0.49,
+        1.0
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.54,
+        0.665,
+        1.0,
+        0.83
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.54,
+        0.785,
+        1.0,
+        1.0
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.28,
+        0.12,
+        0.35,
+        0.2
+      ],
+      "padre": 1,
+      "rel": "inset"
+    }
+  ],
+  "PMC11780327|Fig. 3": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.495,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.505,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.505,
+        0.5,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.125,
+        0.545,
+        0.315,
+        0.76
+      ],
+      "padre": 3,
+      "rel": "inset"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.655,
+        0.55,
+        0.86,
+        0.77
+      ],
+      "padre": 4,
+      "rel": "inset"
+    }
+  ],
+  "PMC11826889|Figure 5": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.29,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.3,
+        0.0,
+        0.73,
+        0.5
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.3,
+        0.46,
+        0.73,
+        0.66
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.3,
+        0.63,
+        0.73,
+        1.0
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.77,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.5,
+        0.29,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.77,
+        0.5,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC11827557|Fig. 2": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.183
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.127,
+        0.49,
+        0.31
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.122
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.085,
+        1.0,
+        0.225
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.188,
+        1.0,
+        0.31
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.325,
+        0.49,
+        0.445
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.408,
+        0.49,
+        0.547
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.51,
+        0.49,
+        0.63
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.325,
+        1.0,
+        0.385
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.367,
+        1.0,
+        0.436
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.418,
+        1.0,
+        0.487
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.468,
+        1.0,
+        0.537
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.519,
+        1.0,
+        0.588
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.57,
+        1.0,
+        0.63
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.64,
+        0.34,
+        0.8
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.8,
+        0.34,
+        1.0
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.35,
+        0.64,
+        0.67,
+        0.8
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.35,
+        0.8,
+        0.67,
+        1.0
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.68,
+        0.64,
+        1.0,
+        0.8
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.68,
+        0.8,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC11925499|Figure 4.": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.25,
+        0.24
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.26,
+        0.0,
+        0.5,
+        0.24
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.51,
+        0.0,
+        0.74,
+        0.24
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.79,
+        0.0,
+        1.0,
+        0.24
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.25,
+        0.25,
+        0.48
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.26,
+        0.25,
+        0.5,
+        0.48
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.25,
+        0.71,
+        0.4
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.34,
+        0.71,
+        0.48
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.74,
+        0.25,
+        1.0,
+        0.48
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.49,
+        0.25,
+        0.73
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.26,
+        0.49,
+        0.5,
+        0.73
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.51,
+        0.49,
+        0.75,
+        0.73
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.76,
+        0.49,
+        1.0,
+        0.73
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.74,
+        0.32,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.33,
+        0.74,
+        0.66,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.67,
+        0.74,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.06,
+        0.035,
+        0.1,
+        0.11
+      ],
+      "padre": 1,
+      "rel": "inset"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.393,
+        0.05,
+        0.46,
+        0.17
+      ],
+      "padre": 2,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.152,
+        0.285,
+        0.221,
+        0.365
+      ],
+      "padre": 5,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.403,
+        0.285,
+        0.473,
+        0.365
+      ],
+      "padre": 6,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.04,
+        0.55,
+        0.1,
+        0.64
+      ],
+      "padre": 10,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.17,
+        0.55,
+        0.23,
+        0.64
+      ],
+      "padre": 10,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.285,
+        0.5,
+        0.345,
+        0.61
+      ],
+      "padre": 11,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.405,
+        0.55,
+        0.47,
+        0.64
+      ],
+      "padre": 11,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.787,
+        0.27,
+        0.88,
+        0.34
+      ],
+      "padre": 9,
+      "rel": "inset"
+    }
+  ],
+  "PMC11940350|Figure 2": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.51,
+        0.47
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.52,
+        0.0,
+        1.0,
+        0.47
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.54,
+        0.02,
+        0.74,
+        0.22
+      ],
+      "padre": 2,
+      "rel": "inset"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.22,
+        0.5,
+        0.78,
+        1.0
+      ]
+    }
+  ],
+  "PMC11991491|Figure 3": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.52,
+        0.36
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.54,
+        0.0,
+        0.99,
+        0.36
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.38,
+        0.46,
+        0.45
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.44,
+        0.46,
+        0.5
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.49,
+        0.46,
+        0.555
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.545,
+        0.46,
+        0.61
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.6,
+        0.46,
+        0.7
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.38,
+        1.0,
+        0.53
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.52,
+        1.0,
+        0.565
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.55,
+        1.0,
+        0.605
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.585,
+        1.0,
+        0.635
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.615,
+        1.0,
+        0.665
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.55,
+        0.645,
+        1.0,
+        0.72
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.75,
+        0.36,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.36,
+        0.75,
+        0.66,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.67,
+        0.75,
+        1.0,
+        1.0
+      ],
+      "contenido": "particulas"
+    }
+  ],
+  "PMC12140272|Fig 1": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.33,
+        0.44
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.335,
+        0.0,
+        0.65,
+        0.46
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.66,
+        0.1,
+        1.0,
+        0.56
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.5,
+        0.33,
+        0.99
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.335,
+        0.52,
+        0.65,
+        0.99
+      ],
+      "contenido": "particulas"
+    }
+  ],
+  "PMC12196110|Figure 6": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.47,
+        0.36
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.37,
+        0.47,
+        0.63
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.0,
+        1.0,
+        0.63
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.64,
+        0.48,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.64,
+        1.0,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    }
+  ],
+  "PMC12196110|Figure 7": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.47,
+        0.27
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.28,
+        0.47,
+        0.54
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.0,
+        1.0,
+        0.54
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.56,
+        0.48,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.56,
+        0.71,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.71,
+        0.56,
+        1.0,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.78,
+        0.0,
+        0.96,
+        0.17
+      ],
+      "padre": 3,
+      "rel": "inset",
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    }
+  ],
+  "PMC12196110|Figure 8": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.47,
+        0.48
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.0,
+        1.0,
+        0.48
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.49,
+        0.47,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.48,
+        0.49,
+        1.0,
+        0.99
+      ],
+      "tecnica": "TEM",
+      "contenido": "particulas_en_contexto_biologico"
+    }
+  ],
+  "PMC12218398|Fig. 2": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.282,
+        0.88
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.287,
+        0.0,
+        0.56,
+        0.88
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.595,
+        0.0,
+        1.0,
+        0.92
+      ]
+    }
+  ],
+  "PMC12299627|Figure 4": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.44
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.26,
+        0.5,
+        1.0
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.44
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.26,
+        1.0,
+        1.0
+      ],
+      "cascada": true
+    }
+  ],
+  "PMC12300760|Figure 6": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.51,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    }
+  ],
+  "PMC12343858|Fig. 17": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.32,
+        0.49
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.335,
+        0.0,
+        0.665,
+        0.49
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.69,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.5,
+        0.32,
+        0.99
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.335,
+        0.5,
+        0.665,
+        0.99
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.69,
+        0.5,
+        1.0,
+        0.99
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    }
+  ],
+  "PMC12361501|Fig. 5": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.45,
+        0.44
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.46,
+        0.0,
+        1.0,
+        0.44
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.055,
+        0.5,
+        0.295,
+        0.99
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.295,
+        0.5,
+        0.53,
+        0.99
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.53,
+        0.5,
+        0.765,
+        0.99
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.765,
+        0.5,
+        0.995,
+        0.99
+      ],
+      "contenido": "particulas"
+    }
+  ],
+  "PMC12362733|Figure 1": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.46,
+        0.46
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.47,
+        0.0,
+        0.705,
+        0.45
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.71,
+        0.0,
+        0.95,
+        0.45
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.59,
+        0.02,
+        0.7,
+        0.215
+      ],
+      "padre": 2,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.83,
+        0.02,
+        0.94,
+        0.215
+      ],
+      "padre": 3,
+      "rel": "inset",
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.46,
+        0.31,
+        1.0
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.32,
+        0.46,
+        0.67,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.68,
+        0.46,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC12388822|Figure 8": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.48,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.49,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.51,
+        0.48,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.51,
+        1.0,
+        1.0
+      ],
+      "tecnica": "SAED"
+    }
+  ],
+  "_revision": {
+    "reglas": "INSTRUCCIONES_CAJAS v2 + contenido 25-oct",
+    "metodo": "Revisión manual de originales de cola",
+    "excepciones_autorizadas": [
+      "paneles e insets menores de 0.5% conservados y reportados",
+      "solape permitido entre espectros en cascada"
+    ],
+    "paneles_pequenos": {
+      "PMC11925499|Figure 4.": [
+        17
+      ]
+    },
+    "notas": {
+      "PMC11653606|Figure 6": "ROIs marcadas sin imagen ampliada no son insets. Solo cuatro ampliaciones reales; FFT otro.",
+      "PMC11678608|Figure 2": "D/E son espectros de emisión, no imágenes de fluorescencia. Inset UV-vis hijo; F tiempo de vida otro.",
+      "PMC11702280|Fig. 4": "FTIR E: dos curvas desplazadas, cinco útiles total. D SAED otro; foto en A hija.",
+      "PMC11780327|Fig. 3": "Isotermas BET y distribución de poros son otro; dos SEM útiles.",
+      "PMC11826889|Figure 5": "Tres Raman desplazados en C; SEM a/b/d útiles y mapa e otro.",
+      "PMC11827557|Fig. 2": "FTIR A/B/C/D con 2/3/3/6 curvas en cascada; tres SEM y tres EDS.",
+      "PMC11925499|Figure 4.": "C contiene dos AFM; F dos FTIR desplazados. SEM insertados hijos; G XPS con inset espectral.",
+      "PMC11940350|Figure 2": "Una SEM útil; DLS/zeta e histograma insertado son otro.",
+      "PMC11991491|Figure 3": "Cinco FTIR C y seis XRD D en cascada; tres micrografías: catorce útiles.",
+      "PMC12140272|Fig 1": "UV-vis A y TEM D útiles; DLS, zeta e histograma son otro.",
+      "PMC12196110|Figure 6": "Cinco TEM de tejido con partículas: todo otro/contexto biológico.",
+      "PMC12196110|Figure 7": "Seis TEM de tejido con partículas y un inset hijo: todo otro/contexto biológico.",
+      "PMC12196110|Figure 8": "Cuatro cortes celulares con nanopartículas: todo otro/TEM/contexto biológico.",
+      "PMC12218398|Fig. 2": "Dos TEM y distribución zeta otro; dos útiles.",
+      "PMC12299627|Figure 4": "Dos curvas desplazadas por gráfico FTIR: cuatro bandas espectrales.",
+      "PMC12300760|Figure 6": "Bacilos SEM; control biológico y bacterias recubiertas. Ajustada división entre imágenes.",
+      "PMC12343858|Fig. 17": "Seis SEM bacterianas: controles biológicos y células tratadas/contexto. Todo otro.",
+      "PMC12361501|Fig. 5": "Rehecho: cuatro TEM C independientes, DLS/zeta A/B otro; no hay insets.",
+      "PMC12362733|Figure 1": "Rehecho desde original: dos TEM con insets, un UV-vis; esquemas y gel otro.",
+      "PMC12388822|Figure 8": "Tres TEM/HRTEM; D es difracción electrónica otro. Ampliaciones separadas B/C no hijas."
+    },
+    "discrepancias_conteo": {
+      "PMC11940350|Figure 2": "conteo útil 1 frente al esperado 3",
+      "PMC12140272|Fig 1": "conteo útil 2 frente al esperado 4",
+      "PMC12196110|Figure 6": "conteo útil 0 frente al esperado 5",
+      "PMC12196110|Figure 7": "conteo útil 0 frente al esperado 6",
+      "PMC12196110|Figure 8": "conteo útil 0 frente al esperado 4",
+      "PMC12218398|Fig. 2": "conteo útil 2 frente al esperado 3",
+      "PMC12300760|Figure 6": "conteo útil 0 frente al esperado 2",
+      "PMC12343858|Fig. 17": "conteo útil 0 frente al esperado 6",
+      "PMC12388822|Figure 8": "conteo útil 3 frente al esperado 4"
+    }
+  }
+}

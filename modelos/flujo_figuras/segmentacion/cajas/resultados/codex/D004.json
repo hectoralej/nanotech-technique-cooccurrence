@@ -1,0 +1,1505 @@
+{
+  "PMC12391045|FIGURE 3": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.56
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.44,
+        0.49,
+        0.78
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.59,
+        0.49,
+        1.0
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.0,
+        1.0,
+        0.51
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.38,
+        1.0,
+        0.73
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.59,
+        1.0,
+        0.9
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.76,
+        1.0,
+        1.0
+      ],
+      "cascada": true
+    }
+  ],
+  "PMC12469702|Figure 3": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.42,
+        0.49
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.43,
+        0.0,
+        0.64,
+        0.245
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.43,
+        0.25,
+        0.64,
+        0.49
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.65,
+        0.0,
+        1.0,
+        0.49
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.5,
+        0.42,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.43,
+        0.5,
+        0.64,
+        0.745
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.43,
+        0.75,
+        0.64,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "particulas_en_contexto_biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.65,
+        0.5,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC12469730|Figure 6": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.29
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.51,
+        0.0,
+        1.0,
+        0.29
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.3,
+        0.5,
+        0.39
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.39,
+        0.5,
+        0.47
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.47,
+        0.5,
+        0.53
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.53,
+        0.5,
+        0.62
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.52,
+        0.3,
+        1.0,
+        0.61
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.61,
+        0.5,
+        0.99
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.51,
+        0.61,
+        1.0,
+        0.99
+      ]
+    }
+  ],
+  "PMC12473970|Figure 1": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.465,
+        0.225
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.47,
+        0.0,
+        1.0,
+        0.225
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.23,
+        0.23,
+        0.39
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.27,
+        0.23,
+        0.57,
+        0.46
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.575,
+        0.23,
+        0.71,
+        0.34
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.575,
+        0.34,
+        0.71,
+        0.46
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.715,
+        0.23,
+        1.0,
+        0.46
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.485,
+        0.495,
+        0.72
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.485,
+        1.0,
+        0.72
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.56,
+        1.0,
+        0.72
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.73,
+        0.495,
+        1.0
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.73,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.22,
+        0.555,
+        0.395,
+        0.64
+      ],
+      "padre": 8,
+      "rel": "inset"
+    }
+  ],
+  "PMC12484951|Fig. 12": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.488,
+        0.225
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.492,
+        0.0,
+        0.99,
+        0.225
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.258,
+        0.488,
+        0.472
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.492,
+        0.258,
+        0.99,
+        0.472
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.503,
+        0.488,
+        0.717
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.492,
+        0.503,
+        0.99,
+        0.717
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.745,
+        0.488,
+        0.998
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.492,
+        0.745,
+        0.99,
+        0.998
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12484951|Fig. 17": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.02,
+        0.335,
+        0.47
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.345,
+        0.02,
+        0.665,
+        0.47
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.68,
+        0.02,
+        1.0,
+        0.47
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.48,
+        0.335,
+        0.985
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.345,
+        0.48,
+        0.665,
+        0.985
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.68,
+        0.48,
+        1.0,
+        0.985
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12516539|Fig. 3": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.51,
+        0.3
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.53,
+        0.0,
+        1.0,
+        0.3
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.31,
+        0.33,
+        0.59
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.34,
+        0.31,
+        0.67,
+        0.59
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.68,
+        0.31,
+        1.0,
+        0.59
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.62,
+        0.45,
+        0.71
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.68,
+        0.45,
+        0.77
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.74,
+        0.45,
+        0.84
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.8,
+        0.45,
+        0.92
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.87,
+        0.45,
+        1.0
+      ],
+      "cascada": true
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.47,
+        0.62,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC12559199|Fig. 4": [
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.3
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.51,
+        0.0,
+        1.0,
+        0.3
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.3,
+        0.49,
+        0.677
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.49,
+        0.3,
+        1.0,
+        0.677
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.68,
+        0.49,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.68,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC12658821|1": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.495,
+        0.5
+      ],
+      "tecnica": "indeterminada",
+      "contenido": "indeterminado"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.505,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "tecnica": "indeterminada",
+      "contenido": "indeterminado"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.51,
+        0.495,
+        1.0
+      ],
+      "tecnica": "indeterminada",
+      "contenido": "indeterminado"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.505,
+        0.51,
+        1.0,
+        1.0
+      ],
+      "tecnica": "indeterminada",
+      "contenido": "indeterminado"
+    }
+  ],
+  "PMC12678815|Fig. 4": [
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        1.0
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.51,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "contenido": "particulas"
+    }
+  ],
+  "PMC12679589|Fig. 3": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.32
+      ]
+    },
+    {
+      "tipo": "espectro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.32
+      ]
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.0,
+        0.325,
+        0.49,
+        0.64
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "micro",
+      "caja": [
+        0.5,
+        0.325,
+        1.0,
+        0.64
+      ],
+      "contenido": "particulas"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.645,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "PMC12743692|Fig. 9": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.179,
+        0.31
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.191,
+        0.0,
+        0.36,
+        0.31
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.365,
+        0.0,
+        0.532,
+        0.31
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.538,
+        0.0,
+        0.712,
+        0.31
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.32,
+        0.179,
+        0.64
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.191,
+        0.32,
+        0.36,
+        0.64
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.365,
+        0.32,
+        0.532,
+        0.64
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.538,
+        0.32,
+        0.712,
+        0.64
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.65,
+        0.179,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.191,
+        0.65,
+        0.36,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.365,
+        0.65,
+        0.532,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.538,
+        0.65,
+        0.712,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.715,
+        0.0,
+        1.0,
+        0.455
+      ]
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.772,
+        0.603,
+        0.882,
+        0.824
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.89,
+        0.603,
+        1.0,
+        0.824
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.772,
+        0.838,
+        0.882,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.89,
+        0.838,
+        1.0,
+        1.0
+      ],
+      "tecnica": "histologia",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12775131|Fig. 7": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.327,
+        0.195
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.334,
+        0.0,
+        0.662,
+        0.195
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.668,
+        0.0,
+        1.0,
+        0.195
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.197,
+        0.327,
+        0.389
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.334,
+        0.197,
+        0.662,
+        0.389
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.668,
+        0.197,
+        1.0,
+        0.389
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.391,
+        0.327,
+        0.583
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.334,
+        0.391,
+        0.662,
+        0.583
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.668,
+        0.391,
+        1.0,
+        0.583
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.586,
+        0.327,
+        0.778
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.334,
+        0.586,
+        0.662,
+        0.778
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.668,
+        0.586,
+        1.0,
+        0.778
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.78,
+        0.327,
+        0.995
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.334,
+        0.78,
+        0.662,
+        0.995
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.668,
+        0.78,
+        1.0,
+        0.995
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 10": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.27,
+        0.0,
+        0.69,
+        0.52
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.53,
+        0.4,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.42,
+        0.53,
+        1.0,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 11": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.49,
+        0.49
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.49
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.5,
+        0.49,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 12": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.22,
+        0.0,
+        0.78,
+        0.43
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.44,
+        0.54,
+        0.99
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.55,
+        0.44,
+        1.0,
+        0.99
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 14": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.24,
+        0.0,
+        0.76,
+        0.33
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.33,
+        1.0,
+        0.6
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.6,
+        1.0,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 15": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.01,
+        0.0,
+        0.31,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.325,
+        0.0,
+        1.0,
+        0.61
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.325,
+        0.63,
+        1.0,
+        1.0
+      ],
+      "tecnica": "SEM",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 8": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.1,
+        0.55,
+        0.95
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.57,
+        0.0,
+        1.0,
+        0.51
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.57,
+        0.52,
+        1.0,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    }
+  ],
+  "PMC12799727|Fig. 9": [
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.0,
+        0.5,
+        0.33
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.0,
+        1.0,
+        0.33
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.34,
+        0.5,
+        0.66
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.34,
+        1.0,
+        0.66
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.0,
+        0.67,
+        0.5,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    },
+    {
+      "tipo": "otro",
+      "caja": [
+        0.5,
+        0.67,
+        1.0,
+        1.0
+      ],
+      "tecnica": "optica",
+      "contenido": "biologico"
+    }
+  ],
+  "_revision": {
+    "reglas": "INSTRUCCIONES_CAJAS v2 + contenido 25-oct",
+    "metodo": "Revisión manual de originales de cola",
+    "excepciones_autorizadas": [
+      "paneles e insets menores de 0.5% conservados y reportados",
+      "solape permitido entre espectros en cascada"
+    ],
+    "paneles_pequenos": {},
+    "notas": {
+      "PMC12391045|FIGURE 3": "Tres FTIR en A y cuatro en B: siete curvas en cascada.",
+      "PMC12469702|Figure 3": "Cuatro SEM bacterianas desglosadas; tratamiento contexto biológico y controles biológicos. Placas y barras otro.",
+      "PMC12469730|Figure 6": "Dos TEM y cuatro FTIR: seis útiles. DSC d y resúmenes e/f otro.",
+      "PMC12473970|Figure 1": "Ampliación externa C es segunda TEM. Mapas elementales separados; E dos FTIR en cascada; D UV con inset.",
+      "PMC12484951|Fig. 12": "Ocho SEM de células/hongos intactos y dañados: otro biológico; sin inferir partículas no distinguibles.",
+      "PMC12484951|Fig. 17": "Seis SEM de bacterias/biofilm; todo otro biológico.",
+      "PMC12516539|Fig. 3": "Rehecho: tres micrografías y cinco FTIR en cascada, ocho útiles. Fotos, DLS y liberación otro.",
+      "PMC12559199|Fig. 4": "Rehecho: A FTIR superpuesto, B XRD, C/D/E TEM, F histograma.",
+      "PMC12658821|1": "Cuatro imágenes de redes con bordes; técnica y contexto indeterminados visualmente, no aptas por defecto.",
+      "PMC12678815|Fig. 4": "Rehecho desde original: solo dos SEM, ningún espectro ni fila inferior.",
+      "PMC12679589|Fig. 3": "Rehecho desde original: foto A, UV-vis B, SEM C, TEM D y DLS E.",
+      "PMC12743692|Fig. 9": "Inmunohistología: doce tejidos y cuatro ampliaciones externas, todo otro biológico. ROIs marcados no son insets.",
+      "PMC12775131|Fig. 7": "Quince SEM bacterianas intactas o dañadas; todo otro biológico.",
+      "PMC12799727|Fig. 10": "Organismos completos: otro biológico; técnica conservada y cajas verificadas.",
+      "PMC12799727|Fig. 11": "Organismos completos: otro biológico; técnica conservada y cajas verificadas.",
+      "PMC12799727|Fig. 12": "Organismos completos: otro biológico; técnica conservada y cajas verificadas.",
+      "PMC12799727|Fig. 14": "Organismos y tejido biológico; se conserva técnica. Límites ajustados para abarcar completos los paneles.",
+      "PMC12799727|Fig. 15": "Organismos y tejido biológico; se conserva técnica. Límites ajustados para abarcar completos los paneles.",
+      "PMC12799727|Fig. 8": "Organismos y tejido biológico; se conserva técnica. Límites ajustados para abarcar completos los paneles.",
+      "PMC12799727|Fig. 9": "Organismos y tejido biológico; se conserva técnica. Límites ajustados para abarcar completos los paneles."
+    },
+    "discrepancias_conteo": {
+      "PMC12469702|Figure 3": "conteo útil 0 frente al esperado 2",
+      "PMC12469730|Figure 6": "conteo útil 6 frente al esperado 9",
+      "PMC12473970|Figure 1": "conteo útil 7 frente al esperado 6",
+      "PMC12484951|Fig. 12": "conteo útil 0 frente al esperado 8",
+      "PMC12484951|Fig. 17": "conteo útil 0 frente al esperado 6",
+      "PMC12658821|1": "conteo útil 0 frente al esperado 4",
+      "PMC12743692|Fig. 9": "conteo útil 0 frente al esperado 12",
+      "PMC12775131|Fig. 7": "conteo útil 0 frente al esperado 15",
+      "PMC12799727|Fig. 10": "conteo útil 0 frente al esperado 3",
+      "PMC12799727|Fig. 11": "conteo útil 0 frente al esperado 4",
+      "PMC12799727|Fig. 12": "conteo útil 0 frente al esperado 3",
+      "PMC12799727|Fig. 14": "conteo útil 0 frente al esperado 3",
+      "PMC12799727|Fig. 15": "conteo útil 0 frente al esperado 3",
+      "PMC12799727|Fig. 8": "conteo útil 0 frente al esperado 3",
+      "PMC12799727|Fig. 9": "conteo útil 0 frente al esperado 6"
+    }
+  }
+}

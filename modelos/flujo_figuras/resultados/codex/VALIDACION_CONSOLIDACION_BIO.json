@@ -1,0 +1,271 @@
+{
+  "fecha_utc": "2026-10-24T23:41:29.624230+00:00",
+  "estado": "COBERTURA LOCAL PARCIAL",
+  "figuras_plan": 2066,
+  "figuras_revisadas": 1800,
+  "lotes_ausentes": [
+    "B061",
+    "B062",
+    "B063",
+    "B064",
+    "B065",
+    "B066",
+    "B067",
+    "B068",
+    "B069"
+  ],
+  "por_contenido": {
+    "particulas": 1743,
+    "particulas_en_contexto_biologico": 23,
+    "indeterminado": 17,
+    "mixto": 15,
+    "biologico": 2
+  },
+  "cruce": {
+    "revisada": 1800,
+    "sin_anotacion_local": 266,
+    "sin_enlace_bio": 34
+  },
+  "fuentes": [
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B001.jsonl",
+      "sha256": "922e005c90d5677dfe8620b51f20691da7b05b716b241d35c15d8992a73fecbe"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B002.jsonl",
+      "sha256": "1c2b072c3163c443cc1deff63d555a3f7001574c282dede088d84c5905421eca"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B003.jsonl",
+      "sha256": "a94a070e1ad6ab520345892339900ba7a16fbc19169d183c69c332ab804a7a0b"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B004.jsonl",
+      "sha256": "cd6fdd08073c96bd5761f36a1c652180753df4595e6ae7a22b42201e4b8de2b6"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B005.jsonl",
+      "sha256": "cc7ed6423342d6649578eb5b3d059f7f1fd6bc2fa2c785feec1d90965db37376"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B006.jsonl",
+      "sha256": "ab5b0bdc47d18c8a18318c6b0ae1a2c8313ca1e94732ac9c5e0068321adf696e"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B007.jsonl",
+      "sha256": "d821c5ac2c99c49d7aab6436bcf10cbd7156862da21406b853f9cf6f979f8051"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B008.jsonl",
+      "sha256": "29364b33c8a5416b504037305a01788e6f63fd43e7aea561db836626aa12c2fc"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B009.jsonl",
+      "sha256": "667f279f2b48b06f443218c13f27ac6f82132b7387154e8e051bfceb1f4009f5"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B010.jsonl",
+      "sha256": "ed34ea0b9abfbbee9ff4dfd618b513c72a323108253b6f8691d39129f8e277f9"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B011.jsonl",
+      "sha256": "11f9a126bc8c6a23365420653619586ede012cf0e2d34e621a22491908a40b6d"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B012.jsonl",
+      "sha256": "55565f9cd908ed1ab51b2a4ccebb88b8bebfba1be385048b146d8912c5391e3b"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B013.jsonl",
+      "sha256": "827909a186eed134a9c2f50d5db2a390908034b9affda4db007252bbee004eb4"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B014.jsonl",
+      "sha256": "508b397274f4faef607cbc9fa84ee1fdfcaade322490597020b3ee8834f0edb8"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B015.jsonl",
+      "sha256": "adf56410439e120dc43ebe6be734f96e74b8885785f1f20cc6f3ca7c74d140ca"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B016.jsonl",
+      "sha256": "5c16ecda1b034ff0c8229130098cb0ec760d4a161e5eed4f0e5b7e26b9b7decb"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B017.jsonl",
+      "sha256": "a9b7414dc32717e26f24fdb8af73f2cfecbabb8f400689563e05e3e35f9d4500"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B018.jsonl",
+      "sha256": "415a71762d08b8f6a6a332a101b13e43dea5023ebe4eb8c6af721bc958d0850a"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B019.jsonl",
+      "sha256": "b790cc23869d4ce4c9009534709911cf4b272f8dbc382158051fe386a6cb09fd"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B020.jsonl",
+      "sha256": "7b306f291557f4cacc1cb46de9f68fb6f916f1a0c2706b7eb0459c7427b50169"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B021.jsonl",
+      "sha256": "f745c9c822cf834666c6519b3b9ea088937e9093e557b8d3530290646faeefac"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B022.jsonl",
+      "sha256": "e785f1fa3010a158c7519903ef65f8fde37066d818ba19cfca8bb66170fb94e4"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B023.jsonl",
+      "sha256": "57b4da8beda7876dc2a0f7e32cf92e739d47534a0806608568ee3b25858342ea"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B024.jsonl",
+      "sha256": "c8ea73243ad6285cf16e3e861fe56e5562b1bb084bbda77048f7ea5f72ec24e6"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B025.jsonl",
+      "sha256": "ed08522dcac38cfb90c0f5877ec721f665719b27d5d63a789d0affeb2b734fc3"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B026.jsonl",
+      "sha256": "8ac2d9b4309c16dcefd385d3c9712e87792b2552ad23f030ded6f009b7c2c5b9"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B027.jsonl",
+      "sha256": "78e891a71c814362e8ac3716cf3895c35a7f5df8c2ee458e8347ecee7469feaf"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B028.jsonl",
+      "sha256": "b6468877e4fb55a0d95885182e85bee532194cfed8e524b19a094cc2ee0f7c57"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B029.jsonl",
+      "sha256": "74f4c08c960382c39f78ab10f5181a4adf4d9143b32ae15fc19438b4acf06c7d"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B030.jsonl",
+      "sha256": "685d5052461a657705662f07f1bacc0d53549bed7103069bbc1958f4eede767d"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B031.jsonl",
+      "sha256": "070eef53edcdf5dd33e61cbbd04f32f0e43f62bdd885dc4d0809aadbf7d9e3bd"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B032.jsonl",
+      "sha256": "6586fc71ec1b01680849383b8803f1b1057cd1248d8962ad830a9bc1b86003d7"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B033.jsonl",
+      "sha256": "cc0479c8477f20ec862914a664965e636eb2aadc8ce74591f25cbdb756b5b315"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B034.jsonl",
+      "sha256": "d4edcc5df8e7c0a97ffb95ba129ab5b63957efc3c25b4220c2e33e76466e1f50"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B035.jsonl",
+      "sha256": "53cdf86512cfb39d22bafe8a1d8ba3840c50bf616dbe739f9ea2d386a6415ca2"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B036.jsonl",
+      "sha256": "262fe632328d55c77a34c70e8d0b8e5279a3df2939d6d5701bef6b852563d09f"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B037.jsonl",
+      "sha256": "4cb5dcfdadfdcef9cabc678bff20810fe5ec10b12d290168834469d4ee59a437"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B038.jsonl",
+      "sha256": "52dc81726dfcedcb1cfe54a1a0e81b7e72c4530e5f3d8776206c52ef52b6306b"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B039.jsonl",
+      "sha256": "7961960b284c3ba2ff91df302c4e2bde449ab89f60d73d1f185c554ec7b68732"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B040.jsonl",
+      "sha256": "ddd4af96fb4cb9f5bdc93b2ff4b4d4e4c38b6200be548f81b3f9e4efe836726b"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B041.jsonl",
+      "sha256": "ab34e1db430adb700a7080fe8580392a6a7ecfa7b529464c59e1d48faf8c77aa"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B042.jsonl",
+      "sha256": "a72b648b3cf93526c69752951e0a8a0875e4dabedfaf5dc61c6195d77c048b47"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B043.jsonl",
+      "sha256": "c7c8efe1a1a213c1341b59de23db14169ca14187fe595eb24db04ce086a9f5c9"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B044.jsonl",
+      "sha256": "4ee7333c0047137738c80490f76f840f39024edd25f9c251af1703393e128dcb"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B045.jsonl",
+      "sha256": "188434aa218988d9140bc2a539bc73c6a048c6cf9c41eafe1d81701ad8830371"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B046.jsonl",
+      "sha256": "a334f8ac6b1a4139e475f16fa73ae0e704a78ae09bf2088092ef5282c690940e"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B047.jsonl",
+      "sha256": "bc1191c8f39e12d8f14b79781bf8fe90a4bc44216d9fb57cc7b861570529fd3e"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B048.jsonl",
+      "sha256": "4bd337de062ee4476b8c4cf225893cc30ece4307f26df6142b45f5791adc9de4"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B049.jsonl",
+      "sha256": "3e99843210bb92b4d0be3a59b7c96d663470d61604bc9b3b737af1d5e356b6a5"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B050.jsonl",
+      "sha256": "97feadbd286454cabdf1417acfcf3908796042b4c2e0286f90c8ffc370eb5c32"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B051.jsonl",
+      "sha256": "2220769568d430eaea2ea0233a7e60f22e3fb7be15d1f32affd4ef2abbe4071d"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B052.jsonl",
+      "sha256": "54ca2a69d2df8c3d163add9b827d83e97447434b59d9a815b1973a82e76cf08d"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B053.jsonl",
+      "sha256": "c2e58f2db846e90403667739c655339b413f3351067a9d29946991797d85ee9b"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B054.jsonl",
+      "sha256": "05e5464a697041bac1754794744086f7110dc794835359f9c7368123980f0d54"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B055.jsonl",
+      "sha256": "0b5d1091a37d28bc13cdf84750f590a37a866a70fb56f5c09399757304b3cc2e"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B056.jsonl",
+      "sha256": "8180249d8ece31eee0a5bc6487633305050ab73edb1688022effcf19e81d507e"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B057.jsonl",
+      "sha256": "0adeca90f0187a1d530bf615cc08ff1843cbfe00b7218311ea63592e9f1243ce"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B058.jsonl",
+      "sha256": "2b683abdafce29c9d9ef6c24f23763b918be719f78eca3682131835a2b4dd786"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B059.jsonl",
+      "sha256": "ae840cc16bb4d0a5a9416535c4370f21d79e9b0392fd6838cb18f951ace02c66"
+    },
+    {
+      "archivo": "modelos\\flujo_figuras\\resultados\\codex\\B060.jsonl",
+      "sha256": "d8029d321ff6e5d816061a4e75b66e10eec3e5a532fc5c0970be892e945bc0d5"
+    }
+  ]
+}
