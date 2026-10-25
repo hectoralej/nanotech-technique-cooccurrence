@@ -1,0 +1,496 @@
+{
+  "articulos_hechos": 1500,
+  "lote_actual": 18,
+  "errores": [],
+  "lotes": [
+    {
+      "lote": 1,
+      "inicio_indice": 0,
+      "fin_indice": 100,
+      "metodo": "ajuste1",
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_01.json"
+    },
+    {
+      "lote": 2,
+      "inicio_indice": 100,
+      "fin_indice": 200,
+      "metodo": "ajuste1",
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_02.json"
+    },
+    {
+      "lote": 3,
+      "inicio_indice": 200,
+      "fin_indice": 300,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_03.json"
+    },
+    {
+      "lote": 4,
+      "inicio_indice": 300,
+      "fin_indice": 400,
+      "metodo": "ajuste1",
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_04.json"
+    },
+    {
+      "lote": 5,
+      "inicio_indice": 400,
+      "fin_indice": 500,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_05.json"
+    },
+    {
+      "lote": 6,
+      "inicio_indice": 500,
+      "fin_indice": 600,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_06.json"
+    },
+    {
+      "lote": 7,
+      "inicio_indice": 600,
+      "fin_indice": 700,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_07.json"
+    },
+    {
+      "lote": 8,
+      "inicio_indice": 700,
+      "fin_indice": 800,
+      "metodo": "ajuste1",
+      "bien": 2,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": true,
+      "estado": "FAIL",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_08.json"
+    },
+    {
+      "lote": 9,
+      "inicio_indice": 800,
+      "fin_indice": 900,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_09.json"
+    },
+    {
+      "lote": 10,
+      "inicio_indice": 900,
+      "fin_indice": 1000,
+      "metodo": "ajuste1",
+      "bien": 3,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_10.json"
+    },
+    {
+      "lote": 11,
+      "inicio_indice": 1000,
+      "fin_indice": 1100,
+      "metodo": "ajuste1",
+      "bien": 2,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": true,
+      "estado": "FAIL",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_11.json"
+    },
+    {
+      "lote": 12,
+      "inicio_indice": 1100,
+      "fin_indice": 1200,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_12.json"
+    },
+    {
+      "lote": 13,
+      "inicio_indice": 1200,
+      "fin_indice": 1300,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_13.json"
+    },
+    {
+      "lote": 14,
+      "inicio_indice": 1300,
+      "fin_indice": 1400,
+      "metodo": "ajuste1",
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_14.json"
+    },
+    {
+      "lote": 15,
+      "inicio_indice": 1400,
+      "fin_indice": 1500,
+      "metodo": "ajuste1",
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_15.json"
+    },
+    {
+      "lote": 16,
+      "inicio_indice": 1500,
+      "fin_indice": 1600,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_16.json"
+    },
+    {
+      "lote": 17,
+      "inicio_indice": 1600,
+      "fin_indice": 1700,
+      "metodo": "ajuste1",
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_17.json"
+    },
+    {
+      "lote": 18,
+      "inicio_indice": 1700,
+      "fin_indice": 1707,
+      "metodo": "ajuste1",
+      "bien": 3,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": false,
+      "estado": "PENDIENTE_MEZCLA",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_18.json"
+    }
+  ],
+  "total_articulos": 1707,
+  "ultimo_lote": {
+    "lote": 18,
+    "metodo": "ajuste1",
+    "recortes": 13,
+    "articulos_con_recorte": 7,
+    "muestra_n": 5,
+    "bien_extraidas_muestra": 3,
+    "validacion_tecnica": "PASS",
+    "validacion_visual": "PENDIENTE_MEZCLA",
+    "siguiente_paso": "Claude: recuperar imágenes pendientes; reextraer solo artículos cambiados y revalidar. Lotes 8/11 excluidos por calidad; lote 18 pendiente de mezcla mínima. No hay lote 19."
+  },
+  "pausa_por_calidad_visual": false,
+  "calidad_muestras": {
+    "lote_1": "1/5",
+    "lote_2": "2/5",
+    "regla": "Dos lotes consecutivos por debajo de 3/5: pausar antes del lote 3.",
+    "muestras_revisadas": 10
+  },
+  "inventario_ajuste1": {
+    "articulos": 1707,
+    "completo": true,
+    "figuras_graficos": 10205
+  },
+  "ajuste1": {
+    "config_hash": "b3942ea77323",
+    "articulos_extraidos": 1707,
+    "recortes": 3961,
+    "descartes": 0,
+    "lotes_extraidos": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "lotes_validados": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "revision_ajuste1": {
+    "1": {
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_01.json"
+    },
+    "2": {
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_02.json"
+    },
+    "3": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_03.json"
+    },
+    "4": {
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_04.json"
+    },
+    "5": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_05.json"
+    },
+    "6": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_06.json"
+    },
+    "7": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_07.json"
+    },
+    "8": {
+      "bien": 2,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": true,
+      "estado": "FAIL",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_08.json"
+    },
+    "9": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_09.json"
+    },
+    "10": {
+      "bien": 3,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_10.json"
+    },
+    "11": {
+      "bien": 2,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": true,
+      "estado": "FAIL",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_11.json"
+    },
+    "12": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_12.json"
+    },
+    "13": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_13.json"
+    },
+    "14": {
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_14.json"
+    },
+    "15": {
+      "bien": 5,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_15.json"
+    },
+    "16": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_16.json"
+    },
+    "17": {
+      "bien": 4,
+      "n": 5,
+      "aprobado": true,
+      "mezcla_requerida": true,
+      "estado": "PASS",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_17.json"
+    },
+    "18": {
+      "bien": 3,
+      "n": 5,
+      "aprobado": false,
+      "mezcla_requerida": false,
+      "estado": "PENDIENTE_MEZCLA",
+      "muestra": "modelos\\imagenes_v02\\muestras\\ajuste1\\muestra_lote_18.json"
+    }
+  },
+  "cobertura_local": {
+    "articulos_con_recorte_aprobado": 1474,
+    "primeros_400_con_recorte": 389,
+    "primeros_400_pendientes": [
+      "PMC10390827",
+      "PMC12703698",
+      "PMC13511881",
+      "PMC13515740",
+      "PMC13516719",
+      "PMC13532066",
+      "PMC13538093",
+      "PMC13610326",
+      "PMC13610659",
+      "PMC13617144",
+      "PMC13628621"
+    ],
+    "articulos_sin_imagen_utilizable": [
+      "PMC10384747",
+      "PMC10390827",
+      "PMC11893633",
+      "PMC12703698",
+      "PMC13492477",
+      "PMC13503321",
+      "PMC13511881",
+      "PMC13515740",
+      "PMC13516719",
+      "PMC13520975",
+      "PMC13532066",
+      "PMC13538093",
+      "PMC13568845",
+      "PMC13609315",
+      "PMC13609942",
+      "PMC13609951",
+      "PMC13610103",
+      "PMC13610326",
+      "PMC13610659",
+      "PMC13610972",
+      "PMC13617144",
+      "PMC13619771",
+      "PMC13628621",
+      "PMC4912549",
+      "PMC5796282",
+      "PMC6333422"
+    ]
+  },
+  "estado": "primera_pasada_local_entregada_con_pendientes",
+  "cierre_total": false,
+  "pendientes_entrega": {
+    "primeros_400_sin_recorte": 11,
+    "articulos_sin_imagen_local": 26,
+    "lotes_calidad_insuficiente": [
+      8,
+      11
+    ],
+    "lotes_mezcla_insuficiente": [
+      18
+    ],
+    "etiquetas_humanas": "pendientes de Héctor; ninguna inventada",
+    "vista_html_navegador": "no verificada: file:// bloqueado; pruebas funcionales PASS"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC11768399",
+  "lote": 10,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC11768399\\pharmaceutics-17-00116-g001.jpg",
+      62700,
+      1792628122153069100
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC11768399",
+      "figura": "Figure 1",
+      "archivo_original": "pharmaceutics-17-00116-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC11768399/pharmaceutics-17-00116-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC11768399/pharmaceutics-17-00116-g001__b3942ea77323__4ff804a03d3f_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9871,
+      "p_grafica": 0.168,
+      "fraccion_tinta": 0.964,
+      "saturacion_media": 0.0008,
+      "densidad_bordes": 0.1327,
+      "relacion_aspecto": 1.5455,
+      "entropia_gris": 4.9235,
+      "colores_cuantizados": 155,
+      "fraccion_12_colores_dominantes": 0.8592,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "polimerico",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 765,
+      "y1": 495,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 10,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "2b473f6ded96f9d4d7d9807ab9f06871ec7b454170f64ec3aa97b81341f81d1a",
+      "sha256_original": "4ff804a03d3f4d7782fe033ed0fefe1f61fbfeddbce3860f6e28372b5954d70e"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

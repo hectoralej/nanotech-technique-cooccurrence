@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC8773451",
+  "lote": 7,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8773451\\antibiotics-11-00011-g002.jpg",
+      90753,
+      1792631692424461300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8773451",
+      "figura": "Figure 2",
+      "archivo_original": "antibiotics-11-00011-g002.jpg",
+      "ruta_original": "producto/imagenes/PMC8773451/antibiotics-11-00011-g002.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8773451/antibiotics-11-00011-g002__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9755,
+      "p_grafica": 0.1738,
+      "fraccion_tinta": 0.9524,
+      "saturacion_media": 0.0006,
+      "densidad_bordes": 0.7223,
+      "relacion_aspecto": 2.2188,
+      "entropia_gris": 4.7905,
+      "colores_cuantizados": 194,
+      "fraccion_12_colores_dominantes": 0.9212,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "polimerico",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 710,
+      "y1": 320,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 7,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "233e0d04116047452472fd24659afe8a306bbd72a5b07481e5443fcf6f89cc0c"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC6997166",
+  "lote": 16,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC6997166\\41598_2020_58605_Fig3_HTML.jpg",
+      83647,
+      1792630432356988400
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC6997166",
+      "figura": "Figure 3",
+      "archivo_original": "41598_2020_58605_Fig3_HTML.jpg",
+      "ruta_original": "producto/imagenes/PMC6997166/41598_2020_58605_Fig3_HTML.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC6997166/41598_2020_58605_Fig3_HTML__b3942ea77323__34496914cb1f_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6625,
+      "p_grafica": 0.4852,
+      "fraccion_tinta": 0.3297,
+      "saturacion_media": 0.0518,
+      "densidad_bordes": 0.2017,
+      "relacion_aspecto": 1.0549,
+      "entropia_gris": 2.426,
+      "colores_cuantizados": 392,
+      "fraccion_12_colores_dominantes": 0.703,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "inorganico",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 749,
+      "y1": 710,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 16,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "537f31ca2de4b5789c4431297718fc65da5a785e3feb1d1609c53f94a3f17bc0",
+      "sha256_original": "34496914cb1fe6a162fecf557924cea21390705f1c85acce2d109533631dd1d9"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

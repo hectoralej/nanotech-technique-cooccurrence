@@ -1,0 +1,23 @@
+{
+  "n": 300,
+  "semilla": 20261024,
+  "hash_muestra": "6b550d177daadc2b",
+  "mezcla": {
+    "mixto_o_dudoso": 129,
+    "micrografia_probable": 90,
+    "grafica_probable": 71,
+    "ilustracion_probable": 10
+  },
+  "paths_relativos": true,
+  "sin_etiquetas_humanas_precargadas": true,
+  "prueba_navegador": "No realizada: el navegador de la aplicación bloqueó el protocolo file://; no se intentó eludir la restricción.",
+  "prueba_funcional_js": {
+    "estado": "PASS",
+    "teclas_1_a_4": true,
+    "anterior": true,
+    "restauracion_localStorage": true,
+    "descarga_csv_3_columnas": true,
+    "imagenes_relativas_existentes": 600,
+    "nota": "Entorno DOM simulado aislado; etiquetas de prueba no se guardaron en la hoja real."
+  }
+}

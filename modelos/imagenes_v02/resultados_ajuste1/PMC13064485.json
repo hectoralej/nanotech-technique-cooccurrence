@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC13064485",
+  "lote": 16,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC13064485\\JAVAR-12-4-1314-g001.jpg",
+      115697,
+      1792628805919373200
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC13064485",
+      "figura": "Figure 1",
+      "archivo_original": "JAVAR-12-4-1314-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC13064485/JAVAR-12-4-1314-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC13064485/JAVAR-12-4-1314-g001__b3942ea77323__bd49999269db_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6076,
+      "p_grafica": 0.5313,
+      "fraccion_tinta": 0.2374,
+      "saturacion_media": 0.0136,
+      "densidad_bordes": 0.1571,
+      "relacion_aspecto": 0.9171,
+      "entropia_gris": 1.6608,
+      "colores_cuantizados": 230,
+      "fraccion_12_colores_dominantes": 0.8482,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|FTIR|UVVis",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 763,
+      "y1": 832,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 16,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "143d1b05e716bf0163f720af200034fd634351a86598f5ab84369267273696e3",
+      "sha256_original": "bd49999269db312ce4d4ce00a14a222ab0e9a733635601f7216ae93416548d4a"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

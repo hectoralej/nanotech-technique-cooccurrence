@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC7023137",
+  "lote": 5,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC7023137\\antioxidants-09-00008-g003.jpg",
+      76848,
+      1792630473014621700
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC7023137",
+      "figura": "Figure 3",
+      "archivo_original": "antioxidants-09-00008-g003.jpg",
+      "ruta_original": "producto/imagenes/PMC7023137/antioxidants-09-00008-g003.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC7023137/antioxidants-09-00008-g003__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9043,
+      "p_grafica": 0.2721,
+      "fraccion_tinta": 0.7558,
+      "saturacion_media": 0.0074,
+      "densidad_bordes": 0.2381,
+      "relacion_aspecto": 1.7109,
+      "entropia_gris": 4.3781,
+      "colores_cuantizados": 279,
+      "fraccion_12_colores_dominantes": 0.8543,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM|XRD|EDS",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "1",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 722,
+      "y1": 422,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 5,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "5b62e9aa204b8e6e3c49a6b1b75cd0d2bc68599d768d8f1e3e0b2aa1af6a5224",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

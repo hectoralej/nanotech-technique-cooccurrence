@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC9856065",
+  "lote": 7,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC9856065\\biosensors-13-00109-g001.jpg",
+      143203,
+      1792632173104235800
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC9856065",
+      "figura": "Figure 1",
+      "archivo_original": "biosensors-13-00109-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC9856065/biosensors-13-00109-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC9856065/biosensors-13-00109-g001__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6563,
+      "p_grafica": 0.8462,
+      "fraccion_tinta": 0.3076,
+      "saturacion_media": 0.0237,
+      "densidad_bordes": 0.2555,
+      "relacion_aspecto": 0.9233,
+      "entropia_gris": 2.2202,
+      "colores_cuantizados": 627,
+      "fraccion_12_colores_dominantes": 0.7492,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|UVVis|EDS|zeta",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 770,
+      "y1": 834,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 7,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "c06078e4e2cf64e3636a32f93d6670f9ef875e9bbafa9d96069d150c2526720a"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

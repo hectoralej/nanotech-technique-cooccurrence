@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC9601342",
+  "lote": 6,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC9601342\\gels-08-00658-g003.jpg",
+      457561,
+      1792632014083570000
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC9601342",
+      "figura": "Figure 3",
+      "archivo_original": "gels-08-00658-g003.jpg",
+      "ruta_original": "producto/imagenes/PMC9601342/gels-08-00658-g003.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC9601342/gels-08-00658-g003__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8911,
+      "p_grafica": 0.2242,
+      "fraccion_tinta": 0.8515,
+      "saturacion_media": 0.0402,
+      "densidad_bordes": 0.4791,
+      "relacion_aspecto": 0.4495,
+      "entropia_gris": 4.1272,
+      "colores_cuantizados": 294,
+      "fraccion_12_colores_dominantes": 0.913,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 787,
+      "y1": 1751,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 6,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "7d192861d5e9f18340995b7923bbf1224596156aab71af44b086ceac6ad0bcf8"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

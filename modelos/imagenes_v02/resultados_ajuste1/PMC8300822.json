@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC8300822",
+  "lote": 9,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8300822\\antibiotics-10-00824-g001.jpg",
+      95064,
+      1792631436887022400
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8300822",
+      "figura": "Figure 1",
+      "archivo_original": "antibiotics-10-00824-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC8300822/antibiotics-10-00824-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8300822/antibiotics-10-00824-g001__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8029,
+      "p_grafica": 0.6441,
+      "fraccion_tinta": 0.7095,
+      "saturacion_media": 0.0006,
+      "densidad_bordes": 0.119,
+      "relacion_aspecto": 1.5939,
+      "entropia_gris": 3.0186,
+      "colores_cuantizados": 142,
+      "fraccion_12_colores_dominantes": 0.9882,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 730,
+      "y1": 458,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 9,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "146491fc3caf55fbf534f8cf127b4172fd0075734948912574ae56c3db6c76d7"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

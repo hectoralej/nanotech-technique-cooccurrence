@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC11675405",
+  "lote": 11,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC11675405\\ijms-25-13230-g007.jpg",
+      121131,
+      1792628100234906900
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC11675405",
+      "figura": "Figure 7",
+      "archivo_original": "ijms-25-13230-g007.jpg",
+      "ruta_original": "producto/imagenes/PMC11675405/ijms-25-13230-g007.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC11675405/ijms-25-13230-g007__b3942ea77323__bb8653efecd9_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8959,
+      "p_grafica": 0.1741,
+      "fraccion_tinta": 0.9518,
+      "saturacion_media": 0.0,
+      "densidad_bordes": 0.3183,
+      "relacion_aspecto": 1.4971,
+      "entropia_gris": 3.6512,
+      "colores_cuantizados": 32,
+      "fraccion_12_colores_dominantes": 0.9566,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "0",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 780,
+      "y1": 521,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 11,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "23119b83e83a8876e3ec14a8a54c5568df8fc2b8f13e76ab31421b5b63831791",
+      "sha256_original": "bb8653efecd94b77470cc8fdd352113398ee7cb84af28d75caf4377338a0393b"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

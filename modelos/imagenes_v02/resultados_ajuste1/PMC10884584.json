@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10884584",
+  "lote": 14,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10884584\\Vetworld-17-108-g001.jpg",
+      114575,
+      1792627808764864300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10884584",
+      "figura": "Figure-1",
+      "archivo_original": "Vetworld-17-108-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC10884584/Vetworld-17-108-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10884584/Vetworld-17-108-g001__b3942ea77323__3f9250edad0b_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "micrografia_probable",
+      "p_micrografia": 0.9712,
+      "p_grafica": 0.1565,
+      "fraccion_tinta": 0.9871,
+      "saturacion_media": 0.0035,
+      "densidad_bordes": 0.3566,
+      "relacion_aspecto": 1.3293,
+      "entropia_gris": 4.648,
+      "colores_cuantizados": 215,
+      "fraccion_12_colores_dominantes": 0.9242,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 553,
+      "y1": 416,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 14,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "51f86621f0355d8893b6e5655b293165bc64d5f1518f534cb3928e14b89895f1",
+      "sha256_original": "3f9250edad0b731ea26544f27a25e1cc09a894d2490270cd23400bd52ab7418b"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

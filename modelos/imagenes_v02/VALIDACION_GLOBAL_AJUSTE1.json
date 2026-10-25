@@ -1,0 +1,214 @@
+{
+  "validacion_artefactos": "PASS",
+  "comprobaciones": {
+    "1707_articulos_ordenados_sin_duplicados": true,
+    "E1_antes_de_E2": true,
+    "inventario_sin_claves_duplicadas": true,
+    "folds_inventario_oficiales": true,
+    "un_solo_fold_por_articulo": true,
+    "clases_y_folds_recortes_oficiales": true,
+    "archivos_recorte_unicos": true,
+    "todos_los_recortes_existen": true,
+    "configuracion_actual": true,
+    "tecnicas_panel_regla_actual": true,
+    "lote_1_cierre_valido": true,
+    "lote_2_cierre_valido": true,
+    "lote_3_cierre_valido": true,
+    "lote_4_cierre_valido": true,
+    "lote_5_cierre_valido": true,
+    "lote_6_cierre_valido": true,
+    "lote_7_cierre_valido": true,
+    "lote_9_cierre_valido": true,
+    "lote_10_cierre_valido": true,
+    "lote_12_cierre_valido": true,
+    "lote_13_cierre_valido": true,
+    "lote_14_cierre_valido": true,
+    "lote_15_cierre_valido": true,
+    "lote_16_cierre_valido": true,
+    "lote_17_cierre_valido": true,
+    "tabla_modelo_v02.csv_solo_aprobados": true,
+    "tabla_modelo_v02.csv_tipo": true,
+    "tabla_modelo_v02.csv_subconjunto_recortes": true,
+    "tabla_espectros_v02.csv_solo_aprobados": true,
+    "tabla_espectros_v02.csv_tipo": true,
+    "tabla_espectros_v02.csv_subconjunto_recortes": true,
+    "muestra_humana_300_fija": true,
+    "referencias_humanas_conservadas": true,
+    "interfaz_pruebas_funcionales": true,
+    "reglas_casos_regresion": true,
+    "bloqueo_cierre_regresion": true
+  },
+  "fallos": [],
+  "lotes": {
+    "1": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 5,
+      "aprobado": true
+    },
+    "2": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 5,
+      "aprobado": true
+    },
+    "3": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "4": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 5,
+      "aprobado": true
+    },
+    "5": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "6": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "7": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "8": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 2,
+      "aprobado": false
+    },
+    "9": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "10": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 3,
+      "aprobado": true
+    },
+    "11": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 2,
+      "aprobado": false
+    },
+    "12": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "13": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "14": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 5,
+      "aprobado": true
+    },
+    "15": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 5,
+      "aprobado": true
+    },
+    "16": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "17": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": true,
+      "veredictos_presentes": true,
+      "bien": 4,
+      "aprobado": true
+    },
+    "18": {
+      "F3": "PASS",
+      "muestra_n": 5,
+      "mezcla_2_micros_2_graficas": false,
+      "veredictos_presentes": true,
+      "bien": 3,
+      "aprobado": false
+    }
+  },
+  "lotes_no_aprobados": [
+    8,
+    11,
+    18
+  ],
+  "lotes_pendientes_por_mezcla": [
+    18
+  ],
+  "lotes_sin_procesar": [],
+  "primeros_400_pendientes": [
+    "PMC12703698",
+    "PMC10390827",
+    "PMC13532066",
+    "PMC13628621",
+    "PMC13516719",
+    "PMC13511881",
+    "PMC13617144",
+    "PMC13610326",
+    "PMC13610659",
+    "PMC13515740",
+    "PMC13538093"
+  ],
+  "articulos_con_datos_nuevos_no_reprocesados": [],
+  "cobertura_total_satisfecha": false,
+  "nota": "PASS verifica coherencia y restricciones de las tablas entregadas; no equivale a que todos los lotes o todas las imágenes pendientes estén completados.",
+  "html_visual": "No realizada: el navegador de la aplicación bloqueó el protocolo file://; no se intentó eludir la restricción."
+}

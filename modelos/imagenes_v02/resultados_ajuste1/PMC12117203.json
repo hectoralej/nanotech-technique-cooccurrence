@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC12117203",
+  "lote": 12,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC12117203\\Beilstein_J_Nanotechnol-16-652-g004.jpg",
+      176324,
+      1792628337867916500
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC12117203",
+      "figura": "Figure 3",
+      "archivo_original": "Beilstein_J_Nanotechnol-16-652-g004.jpg",
+      "ruta_original": "producto/imagenes/PMC12117203/Beilstein_J_Nanotechnol-16-652-g004.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC12117203/Beilstein_J_Nanotechnol-16-652-g004__b3942ea77323__7c511ac71509_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "micrografia_probable",
+      "p_micrografia": 0.9662,
+      "p_grafica": 0.1974,
+      "fraccion_tinta": 0.9052,
+      "saturacion_media": 0.0001,
+      "densidad_bordes": 0.5622,
+      "relacion_aspecto": 1.2558,
+      "entropia_gris": 4.7883,
+      "colores_cuantizados": 67,
+      "fraccion_12_colores_dominantes": 0.881,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 756,
+      "y1": 602,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 12,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "03557af9cfb490c909d7a502dc099adb0672622cf6890b23a2536c17097821e2",
+      "sha256_original": "7c511ac715095752377fa5c525237622ef1b4520b0245c409aeacf83d1b305b8"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

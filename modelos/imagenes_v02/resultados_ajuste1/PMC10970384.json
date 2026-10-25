@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10970384",
+  "lote": 3,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10970384\\gels-10-00165-g006.jpg",
+      151705,
+      1792627820066818800
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10970384",
+      "figura": "Figure 6",
+      "archivo_original": "gels-10-00165-g006.jpg",
+      "ruta_original": "producto/imagenes/PMC10970384/gels-10-00165-g006.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10970384/gels-10-00165-g006__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8988,
+      "p_grafica": 0.1802,
+      "fraccion_tinta": 0.9396,
+      "saturacion_media": 0.0011,
+      "densidad_bordes": 0.3314,
+      "relacion_aspecto": 1.4154,
+      "entropia_gris": 3.7336,
+      "colores_cuantizados": 90,
+      "fraccion_12_colores_dominantes": 0.9732,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "polimerico",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 736,
+      "y1": 520,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 3,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "e0de503932e19a6d1fa3e8c596430beb542ab8412a36b0879083c50d3b98fe71",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

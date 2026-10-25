@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC7750502",
+  "lote": 11,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC7750502\\fbioe-08-586874-g001.jpg",
+      223653,
+      1792630941321440900
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC7750502",
+      "figura": "FIGURE 1",
+      "archivo_original": "fbioe-08-586874-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC7750502/fbioe-08-586874-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC7750502/fbioe-08-586874-g001__b3942ea77323__3799d654aa75_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7616,
+      "p_grafica": 0.4126,
+      "fraccion_tinta": 0.4748,
+      "saturacion_media": 0.013,
+      "densidad_bordes": 0.2909,
+      "relacion_aspecto": 0.9697,
+      "entropia_gris": 3.1789,
+      "colores_cuantizados": 882,
+      "fraccion_12_colores_dominantes": 0.8865,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM|EDS",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 800,
+      "y1": 825,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 11,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "2585b3f7d571ac89bd35052d65970d4da42b2863af476fe4a5e7323f77988cb6",
+      "sha256_original": "3799d654aa753e6efb27b268b30c9adc5b6f964dbe29f1e925081b8709124a4d"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

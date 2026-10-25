@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC9858097",
+  "lote": 6,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC9858097\\gels-09-00023-g001.jpg",
+      125369,
+      1792632169592660300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC9858097",
+      "figura": "Figure 1",
+      "archivo_original": "gels-09-00023-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC9858097/gels-09-00023-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC9858097/gels-09-00023-g001__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.603,
+      "p_grafica": 0.5489,
+      "fraccion_tinta": 0.2023,
+      "saturacion_media": 0.0115,
+      "densidad_bordes": 0.2104,
+      "relacion_aspecto": 0.9657,
+      "entropia_gris": 1.6811,
+      "colores_cuantizados": 272,
+      "fraccion_12_colores_dominantes": 0.7331,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "FTIR",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "polimerico",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 733,
+      "y1": 759,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 6,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "2711510d282af01760675b5cc2f06535ed5e9ccaa5fcc1ded06db930b20434b9"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

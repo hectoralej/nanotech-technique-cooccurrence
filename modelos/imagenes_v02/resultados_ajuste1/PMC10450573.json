@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10450573",
+  "lote": 3,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10450573\\d3ra04070d-f1.jpg",
+      141541,
+      1792627491317021800
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10450573",
+      "figura": "Fig. 1",
+      "archivo_original": "d3ra04070d-f1.jpg",
+      "ruta_original": "producto/imagenes/PMC10450573/d3ra04070d-f1.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10450573/d3ra04070d-f1__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6776,
+      "p_grafica": 0.4921,
+      "fraccion_tinta": 0.3158,
+      "saturacion_media": 0.0097,
+      "densidad_bordes": 0.2719,
+      "relacion_aspecto": 1.3161,
+      "entropia_gris": 2.411,
+      "colores_cuantizados": 280,
+      "fraccion_12_colores_dominantes": 0.7579,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM|XRD|FTIR|DLS|zeta",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "inorganico",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 787,
+      "y1": 598,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 3,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "0ba68172e9df6f96b46ce74687b33e829adc7f89c66910d8243f9bee2b5142ce",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

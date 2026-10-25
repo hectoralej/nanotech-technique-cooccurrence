@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10534567",
+  "lote": 5,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10534567\\molecules-28-06668-g005.jpg",
+      62219,
+      1792627658995733100
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10534567",
+      "figura": "Figure 5",
+      "archivo_original": "molecules-28-06668-g005.jpg",
+      "ruta_original": "producto/imagenes/PMC10534567/molecules-28-06668-g005.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10534567/molecules-28-06668-g005__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "micrografia_probable",
+      "p_micrografia": 0.9197,
+      "p_grafica": 0.1964,
+      "fraccion_tinta": 0.9072,
+      "saturacion_media": 0.0157,
+      "densidad_bordes": 0.1969,
+      "relacion_aspecto": 2.6846,
+      "entropia_gris": 4.219,
+      "colores_cuantizados": 96,
+      "fraccion_12_colores_dominantes": 0.8443,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "c",
+      "clase_modelo": "lipidico",
+      "fold": "0",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 698,
+      "y1": 260,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 5,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "879c80c36782f32ae3f3bea641704673350b6a204dae6212121ede6b502caedf",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

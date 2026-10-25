@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC5470464",
+  "lote": 10,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC5470464\\sensors-17-01074-g001.jpg",
+      90671,
+      1792629553864979500
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC5470464",
+      "figura": "Figure 1",
+      "archivo_original": "sensors-17-01074-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC5470464/sensors-17-01074-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC5470464/sensors-17-01074-g001__b3942ea77323__15e6661cd35c_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6514,
+      "p_grafica": 0.5078,
+      "fraccion_tinta": 0.2845,
+      "saturacion_media": 0.0155,
+      "densidad_bordes": 0.2144,
+      "relacion_aspecto": 1.081,
+      "entropia_gris": 2.1635,
+      "colores_cuantizados": 441,
+      "fraccion_12_colores_dominantes": 0.8291,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM|XRD|FTIR",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "0",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 747,
+      "y1": 691,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 10,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "4714b06e4ba7ed913f9633b0966e8eec1f70fc4dfebdb8292c8a70a449d637d4",
+      "sha256_original": "15e6661cd35ceddc37a16f8d3e4b9f5be20497aae09f60ed7dd01f15207fa896"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

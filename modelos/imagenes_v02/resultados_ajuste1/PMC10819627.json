@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10819627",
+  "lote": 10,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10819627\\nanomaterials-14-00199-g002.jpg",
+      146018,
+      1792627792180514500
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10819627",
+      "figura": "Figure 2",
+      "archivo_original": "nanomaterials-14-00199-g002.jpg",
+      "ruta_original": "producto/imagenes/PMC10819627/nanomaterials-14-00199-g002.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10819627/nanomaterials-14-00199-g002__b3942ea77323__077c6378e2eb_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7373,
+      "p_grafica": 0.4424,
+      "fraccion_tinta": 0.4152,
+      "saturacion_media": 0.0046,
+      "densidad_bordes": 0.2707,
+      "relacion_aspecto": 0.9219,
+      "entropia_gris": 2.9478,
+      "colores_cuantizados": 214,
+      "fraccion_12_colores_dominantes": 0.8416,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM|FTIR",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "1",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 779,
+      "y1": 845,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 10,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "844fcf9e745d26012ebf4a4a45f01693a132758a1b2f1ccbbc64ce056cc77d1a",
+      "sha256_original": "077c6378e2ebd90d3df3a899b4a6fb98128df56401dad28db0cc0b10f9b85f45"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10379397",
+  "lote": 12,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10379397\\gels-09-00542-g001.jpg",
+      73480,
+      1792627350551557000
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10379397",
+      "figura": "Figure 1",
+      "archivo_original": "gels-09-00542-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC10379397/gels-09-00542-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10379397/gels-09-00542-g001__b3942ea77323__40259d11a4c7_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.5928,
+      "p_grafica": 0.9056,
+      "fraccion_tinta": 0.1887,
+      "saturacion_media": 0.0076,
+      "densidad_bordes": 0.148,
+      "relacion_aspecto": 1.3972,
+      "entropia_gris": 1.5491,
+      "colores_cuantizados": 890,
+      "fraccion_12_colores_dominantes": 0.8564,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|UVVis",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 788,
+      "y1": 564,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 12,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "cb1d1d055ff16bb1ade4cdd88a34f32db9e9d8169e99f325e1239c7bffd720c3",
+      "sha256_original": "40259d11a4c7d1029ee94a403e8babab0c723e2d6623f7223d773c74b178ad96"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC6058689",
+  "lote": 11,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC6058689\\IDRD_A_1440447_F0002_C.jpg",
+      144659,
+      1792629760131806700
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC6058689",
+      "figura": "Figure 2.",
+      "archivo_original": "IDRD_A_1440447_F0002_C.jpg",
+      "ruta_original": "producto/imagenes/PMC6058689/IDRD_A_1440447_F0002_C.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC6058689/IDRD_A_1440447_F0002_C__b3942ea77323__09c20aa3d46f_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6375,
+      "p_grafica": 0.5211,
+      "fraccion_tinta": 0.2578,
+      "saturacion_media": 0.0131,
+      "densidad_bordes": 0.2723,
+      "relacion_aspecto": 0.9732,
+      "entropia_gris": 2.0262,
+      "colores_cuantizados": 395,
+      "fraccion_12_colores_dominantes": 0.6474,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|FTIR|DLS",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "polimerico",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 800,
+      "y1": 822,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 11,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "b6783b5ca765f38b355b49bea09a5ddf39ce9589d517fa3ee19af11a5a0207ed",
+      "sha256_original": "09c20aa3d46fd85158e28e892e35718c979bfe7a69571d8262e3280a9add3d67"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

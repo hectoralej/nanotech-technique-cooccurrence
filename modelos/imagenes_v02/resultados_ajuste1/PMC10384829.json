@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC10384829",
+  "lote": 8,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10384829\\sensors-23-06352-g001.jpg",
+      105875,
+      1792627400170588200
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10384829",
+      "figura": "Figure 1",
+      "archivo_original": "sensors-23-06352-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC10384829/sensors-23-06352-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10384829/sensors-23-06352-g001__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6806,
+      "p_grafica": 0.8322,
+      "fraccion_tinta": 0.3357,
+      "saturacion_media": 0.0162,
+      "densidad_bordes": 0.2733,
+      "relacion_aspecto": 1.6639,
+      "entropia_gris": 2.4387,
+      "colores_cuantizados": 723,
+      "fraccion_12_colores_dominantes": 0.7696,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "UVVis|DLS|zeta",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "1",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 792,
+      "y1": 476,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 8,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "5128ab818a58402157ea9ff5fe6d60b62c6fb90e8d0d0c9d5fc6022d0bbca127"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

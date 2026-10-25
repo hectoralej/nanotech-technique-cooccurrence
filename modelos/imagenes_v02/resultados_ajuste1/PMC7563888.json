@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC7563888",
+  "lote": 12,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC7563888\\cells-09-02034-g004.jpg",
+      161421,
+      1792630837370119100
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC7563888",
+      "figura": "Figure 4",
+      "archivo_original": "cells-09-02034-g004.jpg",
+      "ruta_original": "producto/imagenes/PMC7563888/cells-09-02034-g004.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC7563888/cells-09-02034-g004__b3942ea77323__94b8c9a9f28a_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.6861,
+      "p_grafica": 0.4753,
+      "fraccion_tinta": 0.3494,
+      "saturacion_media": 0.0282,
+      "densidad_bordes": 0.2163,
+      "relacion_aspecto": 1.0287,
+      "entropia_gris": 2.5552,
+      "colores_cuantizados": 839,
+      "fraccion_12_colores_dominantes": 0.7072,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "cryo-EM|TEM|SAXS",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 752,
+      "y1": 731,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 12,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "9671a9dd27d9ee947350feea501006cdccf2bb7c2b619ff9691c9f667ecf86af",
+      "sha256_original": "94b8c9a9f28a3ad8427ad23a8d3cde91f33667a6ab6f04689c98885c68dcd189"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

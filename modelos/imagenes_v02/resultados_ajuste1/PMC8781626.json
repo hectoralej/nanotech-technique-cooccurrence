@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC8781626",
+  "lote": 10,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8781626\\microorganisms-10-00001-g004.jpg",
+      68763,
+      1792631698186179700
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8781626",
+      "figura": "Figure 4",
+      "archivo_original": "microorganisms-10-00001-g004.jpg",
+      "ruta_original": "producto/imagenes/PMC8781626/microorganisms-10-00001-g004.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8781626/microorganisms-10-00001-g004__b3942ea77323__7a5323a7dbb8_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9604,
+      "p_grafica": 0.1812,
+      "fraccion_tinta": 0.9375,
+      "saturacion_media": 0.0,
+      "densidad_bordes": 0.3876,
+      "relacion_aspecto": 2.4263,
+      "entropia_gris": 4.6133,
+      "colores_cuantizados": 16,
+      "fraccion_12_colores_dominantes": 0.9645,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 774,
+      "y1": 319,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 10,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "85185040d1edfc8cf31b65c933ee0e7dbdf948beeb4c0ffca3c9bb094d6bf804",
+      "sha256_original": "7a5323a7dbb8ea9ed2ffeedbfedeafb1514a71f9ce0e32996605f68e110e5a90"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

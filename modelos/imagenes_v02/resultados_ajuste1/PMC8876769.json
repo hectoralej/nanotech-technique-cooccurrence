@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC8876769",
+  "lote": 6,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8876769\\pharmaceuticals-15-00111-g003.jpg",
+      160594,
+      1792631736022673600
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8876769",
+      "figura": "Figure 3",
+      "archivo_original": "pharmaceuticals-15-00111-g003.jpg",
+      "ruta_original": "producto/imagenes/PMC8876769/pharmaceuticals-15-00111-g003.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8876769/pharmaceuticals-15-00111-g003__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8232,
+      "p_grafica": 0.6691,
+      "fraccion_tinta": 0.6618,
+      "saturacion_media": 0.01,
+      "densidad_bordes": 0.2527,
+      "relacion_aspecto": 1.3864,
+      "entropia_gris": 3.5044,
+      "colores_cuantizados": 545,
+      "fraccion_12_colores_dominantes": 0.9271,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "HRTEM|TEM|zeta",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 732,
+      "y1": 528,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 6,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "acb3911731d4b029a63d4d216300eec5213916d9f0c0d7b5e8d6ce65e95f80d2"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

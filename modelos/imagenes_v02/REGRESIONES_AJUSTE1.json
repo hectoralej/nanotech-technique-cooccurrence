@@ -1,0 +1,26 @@
+{
+  "estado": "PASS",
+  "casos": [
+    {
+      "caso": "texto drying del fallo anterior",
+      "resultado": "rechazado",
+      "motivos": [
+        "tinta_menor_2pct",
+        "proporcion_mayor_8_a_1"
+      ]
+    },
+    {
+      "caso": "ilustración con gradientes del fallo anterior",
+      "resultado": "mixto_o_dudoso",
+      "limite": "El dibujo con gradientes queda dudoso; no todas las ilustraciones reales se reconocen como ilustracion_probable."
+    },
+    {
+      "caso": "fixture sintético de colores planos (solo prueba, fuera del dataset)",
+      "resultado": "ilustracion_probable"
+    },
+    {
+      "caso": "técnica panel, conteo incompatible, SEM estadístico y DLS no inferido",
+      "resultado": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC8746848",
+  "lote": 7,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8746848\\molecules-27-00110-g005.jpg",
+      48910,
+      1792631686643479100
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8746848",
+      "figura": "Figure 5",
+      "archivo_original": "molecules-27-00110-g005.jpg",
+      "ruta_original": "producto/imagenes/PMC8746848/molecules-27-00110-g005.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8746848/molecules-27-00110-g005__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9506,
+      "p_grafica": 0.1851,
+      "fraccion_tinta": 0.9299,
+      "saturacion_media": 0.0001,
+      "densidad_bordes": 0.2299,
+      "relacion_aspecto": 3.2952,
+      "entropia_gris": 4.4958,
+      "colores_cuantizados": 55,
+      "fraccion_12_colores_dominantes": 0.9646,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "HRTEM|TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 748,
+      "y1": 227,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 7,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "100e8536abe12a70ab391d48c4a43a4753993c9b3336022a5915cfdd341a0962"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

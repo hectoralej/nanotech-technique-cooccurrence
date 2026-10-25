@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC12890410",
+  "lote": 13,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC12890410\\10-1055-s-0045-1802947-i24103854-1.jpg",
+      339007,
+      1792628756154097200
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC12890410",
+      "figura": "Fig. 1",
+      "archivo_original": "10-1055-s-0045-1802947-i24103854-1.jpg",
+      "ruta_original": "producto/imagenes/PMC12890410/10-1055-s-0045-1802947-i24103854-1.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC12890410/10-1055-s-0045-1802947-i24103854-1__b3942ea77323__19ca7ba52c7d_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "micrografia_probable",
+      "p_micrografia": 0.8435,
+      "p_grafica": 0.2974,
+      "fraccion_tinta": 0.7052,
+      "saturacion_media": 0.0,
+      "densidad_bordes": 0.2416,
+      "relacion_aspecto": 0.8122,
+      "entropia_gris": 3.6066,
+      "colores_cuantizados": 16,
+      "fraccion_12_colores_dominantes": 0.9738,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "3",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 800,
+      "y1": 985,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 13,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "92a3922f9221ee0a36d66e7f1da87bfde97d5af7c88e51aee64c49b6af4fd139",
+      "sha256_original": "19ca7ba52c7d9da7b0919cadd281c9c2df53799fd2f0439975c89576d52f1e0b"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

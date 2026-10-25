@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10525761",
+  "lote": 16,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10525761\\antibiotics-12-01415-g002.jpg",
+      79989,
+      1792627642416240800
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10525761",
+      "figura": "Figure 2",
+      "archivo_original": "antibiotics-12-01415-g002.jpg",
+      "ruta_original": "producto/imagenes/PMC10525761/antibiotics-12-01415-g002.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10525761/antibiotics-12-01415-g002__b3942ea77323__23baac6a2ff8_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7308,
+      "p_grafica": 0.7709,
+      "fraccion_tinta": 0.4583,
+      "saturacion_media": 0.0017,
+      "densidad_bordes": 0.1876,
+      "relacion_aspecto": 1.326,
+      "entropia_gris": 2.7127,
+      "colores_cuantizados": 173,
+      "fraccion_12_colores_dominantes": 0.9595,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|FTIR|UVVis",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 728,
+      "y1": 549,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 16,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "db86ecb379a3ad768e08b30a8f3f3f90dca07206d31ebe2e49785afbc52a54f3",
+      "sha256_original": "23baac6a2ff81ffcd6c8a25cf1198bbfa44e14129d15c76bcf30b45f97ee36e7"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

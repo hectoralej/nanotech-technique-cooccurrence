@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC11312205",
+  "lote": 2,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC11312205\\ijms-25-08039-g005.jpg",
+      100449,
+      1792627984448865300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC11312205",
+      "figura": "Figure 5",
+      "archivo_original": "ijms-25-08039-g005.jpg",
+      "ruta_original": "producto/imagenes/PMC11312205/ijms-25-08039-g005.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC11312205/ijms-25-08039-g005__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.9502,
+      "p_grafica": 0.1761,
+      "fraccion_tinta": 0.9478,
+      "saturacion_media": 0.0031,
+      "densidad_bordes": 0.1746,
+      "relacion_aspecto": 1.4925,
+      "entropia_gris": 4.4581,
+      "colores_cuantizados": 353,
+      "fraccion_12_colores_dominantes": 0.9337,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "HRTEM|XRD",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "nanomaterial",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 791,
+      "y1": 530,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 2,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "c763ea624c8fd87dbfb5d31656e36ec6f43fa259b96a2d3e35c6bb291589694d",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

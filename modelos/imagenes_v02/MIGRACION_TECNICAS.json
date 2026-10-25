@@ -1,0 +1,12 @@
+{
+  "asignaciones_cambiadas": 32,
+  "pixeles_y_cajas_modificados": false,
+  "muestras_aleatorias_conservadas": true,
+  "regla": {
+    "version": "solo_etiquetas_prefijo_2",
+    "herencia_figura": false,
+    "pies_no_fiables": {
+      "7310a3b9204e1d2f526721022214a7c8315a4ce6d9dd7584fd7642d161a81f6e": "PMC10605403, Figure 3: el pie intercambia las técnicas de a/b/c respecto de la imagen. Detectado visualmente en lote 17; abstención de toda asignación, sin reinterpretar el pie."
+    }
+  }
+}

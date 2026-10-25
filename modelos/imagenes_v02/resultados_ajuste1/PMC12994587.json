@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC12994587",
+  "lote": 9,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC12994587\\ADMET-14-3122-g001.jpg",
+      146534,
+      1792628781776437500
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC12994587",
+      "figura": "Figure 1.",
+      "archivo_original": "ADMET-14-3122-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC12994587/ADMET-14-3122-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC12994587/ADMET-14-3122-g001__b3942ea77323_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7099,
+      "p_grafica": 0.4388,
+      "fraccion_tinta": 0.4224,
+      "saturacion_media": 0.0373,
+      "densidad_bordes": 0.2692,
+      "relacion_aspecto": 1.7134,
+      "entropia_gris": 2.7468,
+      "colores_cuantizados": 723,
+      "fraccion_12_colores_dominantes": 0.7653,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "SEM|Raman",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "0",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 574,
+      "y1": 335,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 9,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "c99d1819823f82c150b3ae8bbc0e7e10d1f68cbaea3369d1a87613279043ee15"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC8329927",
+  "lote": 5,
+  "config_hash": "b3942ea77323",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC8329927\\pharmaceutics-13-01021-g001.jpg",
+      157436,
+      1792631465720367300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC8329927",
+      "figura": "Figure 1",
+      "archivo_original": "pharmaceutics-13-01021-g001.jpg",
+      "ruta_original": "producto/imagenes/PMC8329927/pharmaceutics-13-01021-g001.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC8329927/pharmaceutics-13-01021-g001__539dad068294_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.8706,
+      "p_grafica": 0.2832,
+      "fraccion_tinta": 0.7336,
+      "saturacion_media": 0.0172,
+      "densidad_bordes": 0.2538,
+      "relacion_aspecto": 1.2275,
+      "entropia_gris": 4.0225,
+      "colores_cuantizados": 650,
+      "fraccion_12_colores_dominantes": 0.8186,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "cryo-EM|TEM|DLS|zeta",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "1",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 777,
+      "y1": 633,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 5,
+      "config_hash": "b3942ea77323",
+      "sha256_pixeles": "82c6b4cb06c48cc2e56ab84c9cb96a3fced7dc8dd94ceba35a8270de6ab0c61d",
+      "tecnica_config_hash": "4a953104dcc0"
+    }
+  ],
+  "descartes": [],
+  "errores": [],
+  "clasificacion_migrada_sin_cambio_de_pixeles": true,
+  "tecnica_config_hash": "4a953104dcc0"
+}

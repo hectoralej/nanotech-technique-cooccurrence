@@ -1,0 +1,32 @@
+{
+  "estado": "PARCIAL_NO_VALIDADO_PARA_MODELOS",
+  "lotes_procesados": 2,
+  "articulos_procesados": 200,
+  "articulos_e1_e2_total": 1707,
+  "figuras_candidatas": 1235,
+  "recortes": 442,
+  "micrografia_probable": 286,
+  "espectro_grafica_con_tecnica": 20,
+  "descargas_ok": 127,
+  "descargas_fallidas": 468,
+  "imagenes_originales": 2149,
+  "imagenes_nuevas_en_destino": 16,
+  "estadistica_corte": {
+    "figuras_con_recorte": 233,
+    "sin_separacion_n_recortes_1": 149,
+    "porcentaje_sin_separacion": 63.95
+  },
+  "validaciones": {
+    "passed_unique_inventory_key": true,
+    "passed_one_fold_per_article": true,
+    "passed_inventory_base_flags": true,
+    "passed_crop_files_exist": true,
+    "passed_source_images_exist": true,
+    "passed_official_fold_match": true,
+    "passed_original_images_untouched_by_pipeline": true,
+    "visual_gate": false,
+    "batch_processing_closed": false
+  },
+  "motivo_pausa": "Muestras visuales consecutivas 1/5 y 2/5; se detiene antes del lote 3 por instrucción del brief.",
+  "nota": "Los tipos heurísticos y las tablas son provisionales. No se deben usar para entrenar ni para el clúster hasta corregir/revalidar el corte y la clasificación."
+}

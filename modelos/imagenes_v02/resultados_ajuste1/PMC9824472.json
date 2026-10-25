@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC9824472",
+  "lote": 13,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC9824472\\molecules-28-00411-g002.jpg",
+      203710,
+      1792632133222360300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC9824472",
+      "figura": "Figure 2",
+      "archivo_original": "molecules-28-00411-g002.jpg",
+      "ruta_original": "producto/imagenes/PMC9824472/molecules-28-00411-g002.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC9824472/molecules-28-00411-g002__b3942ea77323__8a0288babf9e_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7207,
+      "p_grafica": 0.8002,
+      "fraccion_tinta": 0.3996,
+      "saturacion_media": 0.0168,
+      "densidad_bordes": 0.2665,
+      "relacion_aspecto": 0.635,
+      "entropia_gris": 2.8338,
+      "colores_cuantizados": 483,
+      "fraccion_12_colores_dominantes": 0.6932,
+      "ejes_detectados": 1,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM|SEM|FTIR|EDS",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "inorganico",
+      "fold": "4",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 795,
+      "y1": 1252,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 13,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "04aac7d7ccc39d196bb7ca4fd944c9ea226c86395eb3077e8bb3b1b717c8ef58",
+      "sha256_original": "8a0288babf9e93bdfaac8b51a1c6c767f4bf47b018ab1f8ad9abe108949f1f76"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

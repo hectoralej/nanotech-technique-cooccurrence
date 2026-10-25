@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC12051533",
+  "lote": 13,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC12051533\\IPHB_A_2498169_F0002_C.jpg",
+      97167,
+      1792628292180869300
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC12051533",
+      "figura": "Figure 2.",
+      "archivo_original": "IPHB_A_2498169_F0002_C.jpg",
+      "ruta_original": "producto/imagenes/PMC12051533/IPHB_A_2498169_F0002_C.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC12051533/IPHB_A_2498169_F0002_C__b3942ea77323__0abc4dd52000_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.7618,
+      "p_grafica": 0.4075,
+      "fraccion_tinta": 0.4849,
+      "saturacion_media": 0.0075,
+      "densidad_bordes": 0.2316,
+      "relacion_aspecto": 1.094,
+      "entropia_gris": 3.1166,
+      "colores_cuantizados": 273,
+      "fraccion_12_colores_dominantes": 0.8629,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "TEM",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "lipidico",
+      "fold": "0",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 745,
+      "y1": 681,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 13,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "cf6925da34fcf38b455da81a79a8fea2246aba89b63d2d0a43237402cef2f34e",
+      "sha256_original": "0abc4dd5200038c1594156738472caa75ac301b06651f14b669750ebcf600cea"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}

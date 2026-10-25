@@ -1,0 +1,52 @@
+{
+  "pmcid": "PMC10403506",
+  "lote": 17,
+  "config_hash": "b3942ea77323",
+  "tecnica_config_hash": "4a953104dcc0",
+  "signature": [
+    [
+      "C:\\Users\\Hector\\Desktop\\Quimioinformatica Proyecto\\nanotech-technique-cooccurrence\\producto\\imagenes\\PMC10403506\\41598_2023_39205_Fig3_HTML.jpg",
+      194626,
+      1792627458539740900
+    ]
+  ],
+  "recortes": [
+    {
+      "pmcid": "PMC10403506",
+      "figura": "Figure 3",
+      "archivo_original": "41598_2023_39205_Fig3_HTML.jpg",
+      "ruta_original": "producto/imagenes/PMC10403506/41598_2023_39205_Fig3_HTML.jpg",
+      "archivo_recorte": "producto/imagenes_recortes/ajuste1/PMC10403506/41598_2023_39205_Fig3_HTML__b3942ea77323__1b29befacfa6_p1.png",
+      "n_recortes_figura": 1,
+      "tipo_estimado": "mixto_o_dudoso",
+      "p_micrografia": 0.85,
+      "p_grafica": 0.2974,
+      "fraccion_tinta": 0.7052,
+      "saturacion_media": 0.0308,
+      "densidad_bordes": 0.3012,
+      "relacion_aspecto": 0.7961,
+      "entropia_gris": 3.8966,
+      "colores_cuantizados": 308,
+      "fraccion_12_colores_dominantes": 0.8695,
+      "ejes_detectados": 0,
+      "tecnica_asignada": "",
+      "tecnicas_en_pie": "cryo-EM|FTIR",
+      "etiqueta_subpanel": "",
+      "clase_modelo": "",
+      "fold": "2",
+      "origen": "v0.1",
+      "x0": 0,
+      "y0": 0,
+      "x1": 656,
+      "y1": 824,
+      "estado_segmentacion": "compuesta_sin_separar",
+      "lote": 17,
+      "config_hash": "b3942ea77323",
+      "tecnica_config_hash": "4a953104dcc0",
+      "sha256_pixeles": "c818109a883df1821378a2a1e1c563b3f96eb554cef795b7da05117f99d12094",
+      "sha256_original": "1b29befacfa6c755591be3ce215717aa318b17150795754a1221944f70b4ed3c"
+    }
+  ],
+  "descartes": [],
+  "errores": []
+}
