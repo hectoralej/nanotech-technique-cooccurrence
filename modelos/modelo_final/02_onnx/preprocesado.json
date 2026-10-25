@@ -1,0 +1,33 @@
+{
+  "entrada": {
+    "nombre": "imagen",
+    "tipo": "float32",
+    "forma": [
+      "N",
+      3,
+      256,
+      256
+    ],
+    "rango": "0-255",
+    "canales": "RGB, orden NCHW"
+  },
+  "preprocesado_en_el_navegador": "dibujar el recorte centrado sobre un lienzo cuadrado BLANCO (lado = max(ancho, alto)) y reducir a 256x256 con suavizado alto (imageSmoothingQuality='high'); NO normalizar",
+  "dentro_del_modelo": [
+    "reduccion bilineal a 224x224",
+    "normalizacion media=[0.485,0.456,0.406]*255, desv=[0.229,0.224,0.225]*255",
+    "softmax y media de las redes"
+  ],
+  "salida": {
+    "nombre": "probabilidades",
+    "forma": [
+      "N",
+      4
+    ],
+    "clases": [
+      "inorganico",
+      "lipidico",
+      "nanomaterial",
+      "polimerico"
+    ]
+  }
+}

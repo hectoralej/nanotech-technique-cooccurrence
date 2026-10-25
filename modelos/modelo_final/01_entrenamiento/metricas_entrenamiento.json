@@ -1,0 +1,32 @@
+{
+ "0": {
+  "epoca": 10,
+  "perdida": 0.9072,
+  "acierto_entrenamiento": 0.7211,
+  "segundos": 81,
+  "recortes": 4670,
+  "epocas": 10,
+  "lr": 3e-05,
+  "peso_mb": 86.6
+ },
+ "1": {
+  "epoca": 10,
+  "perdida": 0.8921,
+  "acierto_entrenamiento": 0.7353,
+  "segundos": 79,
+  "recortes": 4670,
+  "epocas": 10,
+  "lr": 3e-05,
+  "peso_mb": 86.6
+ },
+ "2": {
+  "epoca": 10,
+  "perdida": 0.9067,
+  "acierto_entrenamiento": 0.7203,
+  "segundos": 81,
+  "recortes": 4670,
+  "epocas": 10,
+  "lr": 3e-05,
+  "peso_mb": 86.6
+ }
+}

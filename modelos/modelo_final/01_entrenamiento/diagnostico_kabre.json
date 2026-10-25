@@ -1,0 +1,10 @@
+{
+  "nodo": "nukwa-05.cnca",
+  "gpu": "NVIDIA L40S",
+  "nucleos": 4,
+  "disco_libre_gb": 8.5,
+  "torch": "2.3.1.post300",
+  "timm": "1.0.20",
+  "onnx": "1.16.2",
+  "onnxruntime": "1.22.0"
+}

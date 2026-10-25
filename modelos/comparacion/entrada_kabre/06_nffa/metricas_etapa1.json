@@ -1,0 +1,29 @@
+{
+ "epocas": 8,
+ "lr": 3e-05,
+ "clases": [
+  "Biological",
+  "Fibres",
+  "Films_Coated_Surface",
+  "Nanowires",
+  "Particles",
+  "Porous_Sponge",
+  "Powder"
+ ],
+ "teselas_entrenamiento": 8204,
+ "teselas_validacion": 912,
+ "validacion_interna": {
+  "acc": 0.9682017543859649,
+  "acc_bal": 0.9586640173910457,
+  "f1": 0.9574175367621963
+ },
+ "acierto_por_clase": {
+  "Biological": 0.99,
+  "Fibres": 1.0,
+  "Films_Coated_Surface": 0.924,
+  "Nanowires": 0.965,
+  "Particles": 0.97,
+  "Porous_Sponge": 0.889,
+  "Powder": 0.973
+ }
+}

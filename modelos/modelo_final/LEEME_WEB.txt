@@ -1,0 +1,2 @@
+Contenido: ONNX int8 (ensamble3_int8.onnx, semilla0_int8.onnx), clases.json, preprocesado.json, modelo_card.json, entradas de prueba y verificacion_onnx.csv.
+Cargar con onnxruntime-web (WASM). Entrada 'imagen' float32 [N,3,256,256] 0-255; salida 'probabilidades' [N,4] (orden de clases.json). Comprobar el preprocesado con las PNG de 03_verificacion/entradas y las columnas onnx_int8_* de verificacion_onnx.csv.
