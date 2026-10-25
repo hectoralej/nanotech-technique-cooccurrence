@@ -1,29 +1,28 @@
-# ¿Presentación como página web o como app? Evaluación (23 de octubre)
+# ¿Presentación como página web o como app? Evaluación (versión 3, 24 de octubre)
 
-**Decisión: página web estática (HTML + CSS + JS, sin servidor ni dependencias). Se descarta la app.**
+**Decisión: página web estática (HTML + CSS + JS, sin servidor ni dependencias). Se descarta la app de escritorio.** Lo que cambió desde la primera evaluación (23 de octubre): la demo **«sube tu micrografía» ya no es trabajo futuro**: corre dentro de la página web, en el navegador, con ONNX.
 
-## Qué haría falta para una app que corra el modelo
-El modelo de imágenes es: figura completa → vector de DINOv2 ViT-S/14 y ResNet50 (congelados) → PCA 64 → SVM. Para clasificar una micrografía nueva «en vivo» haría falta, además de lo que ya existe:
+## Por qué una web y no una app
+1. **El jurado ve un video de 10 minutos.** Una página se abre en un clic; una app hay que instalarla.
+2. **Todo corre en el navegador.** El modelo final exportado a ONNX se ejecuta en el navegador con ONNX Runtime Web: no hace falta PyTorch (≈ 506 MB medidos en este equipo), ni Python, ni servidor. Una app de escritorio no añadiría nada y pesaría más de 1 GB.
+3. **Sin conexión y sin librerías externas** en la presentación; se puede alojar tal cual en un sitio estático (lo decide Héctor).
 
-| Pieza | Costo medido o estimado |
+## La demo «sube tu micrografía» (hecha por Carlos)
+Fuentes: `modelos/modelo_final/LEEME.md`, `02_onnx/modelo_card.json` y `03_verificacion/`.
+
+| Pieza | Dato |
 |---|---|
-| PyTorch (CPU) y timm instalados | ≈ 506 MB en disco (medido en esta computadora) |
-| Pesos de DINOv2 ViT-S/14 y de ResNet50 | 84 MB + 98 MB (medidos) |
-| PCA y SVM entrenados | **No están guardados en el repositorio**: las cifras salieron de análisis sobre vectores calculados en Kabré, y el SVM final no se ha exportado ni fijado (ver `ANALISIS_RAPIDO_EMBEDDINGS.md`: «hay que fijar el modelo de antemano») |
-| Tiempo por imagen | ≈ 0,25 s por imagen en esta CPU con DINOv2 (2.148 figuras en 518 s); es viable |
-| Empaquetado (Electron, Tauri o instalador de Python) | > 1 GB con PyTorch; Node ni siquiera está instalado en esta máquina |
+| Modelo | DINOv2 ViT-S/14 con ajuste fino completo, **ensamble de 3 semillas**, entrenado con 4.670 recortes de 1.114 artículos |
+| Archivos | `ensamble3_int8.onnx` (67.151.951 bytes; el que usa la demo) y `semilla0_int8.onnx` (22.385.726 bytes), en la **Release `modelo-v1.0`** (no van en Git). Se comprueban con SHA-256 (`SHA256_onnx.txt`) |
+| Entrada | `imagen` float32 `[N,3,256,256]`, 0–255, RGB; el recorte se rellena a cuadrado con blanco y se reduce a 256×256; sin normalizar |
+| Salida | `probabilidades` `[N,4]` (media de las 3 redes) en el orden inorgánico, lipídico, nanomaterial, polimérico |
+| Equivalencia entre formatos | ONNX fp32 contra PyTorch: diferencia máxima 3e-6 (misma clase 100 %). int8: diferencia media 0,008 y misma clase en el 98,5 % de 200 recortes. En la demo: 20 de 20 entradas, diferencia media 0,0051 |
+| Desempeño de referencia | Validación cruzada por artículo, ensamble de 3 semillas, 1.114 artículos: **exactitud 0,561 y F1 macro 0,521**, frente a 0,442 de la clase mayoritaria. El modelo final se entrenó con todos los datos: no se puede evaluar; esa es la única estimación honesta |
 
-## Por qué no vale la pena para la entrega
-1. **El jurado ve un video de 10 minutos.** Una app no se instala ni se ejecuta durante la evaluación; una página sí se puede abrir en un clic.
-2. **Lo que mostramos ya existe precalculado.** Las predicciones de las 2.100 figuras de la base están en `producto/modelo/predicciones.json` y los vecinos en `similares.json`. Una app no añadiría nada a lo que se ve en el Atlas.
-3. **Riesgo y plazo.** Subir una imagen propia exige fijar y exportar el modelo final (que aún está en revisión por Héctor), probar la inferencia y empaquetarla, todo antes del domingo 5:45 pm. Un clasificador en vivo con F1 ≈ 0,44 invita a probarlo con imágenes que no son micrografías (espectros, gráficas) y a contradecir nuestro mensaje de «resultados modestos».
-4. **Honestidad.** Predecir sobre una imagen cualquiera sería presentar el modelo como una herramienta de uso, y la validación es solo interna (sin validación externa).
+**Advertencias que acompañan a la demo** (también en la presentación, en «Modelo final» y «Limitaciones»):
+- Solo sirve para **micrografías de partículas** (TEM, SEM, AFM, cryo): con espectros, gráficas, células o tejido la salida no significa nada.
+- Las **probabilidades no están calibradas** (`modelos/REVISION_CRITICA.md`, punto 8).
+- La etiqueta es la **clase del artículo**, no la de la partícula ni la del recorte; «nanomaterial» es una categoría general.
+- Resultado exploratorio, sin validación externa.
 
-## Qué sí aporta la página web
-- Se abre con un doble clic (`index.html`) o con `python -m http.server 8000` desde `producto/`.
-- Funciona sin conexión y sin librerías externas; se puede publicar tal cual en GitHub Pages.
-- Es interactiva donde importa: ejemplos reales de extracción con verificación de la cita **en vivo**, escalera de modelos con intervalos de confianza, registro de decisiones filtrable, galería de figuras y vista previa del Atlas.
-- Se adapta a pantalla de proyector, portátil y móvil, con modo claro y oscuro.
-
-## Si más adelante se quisiera la demo «sube tu micrografía»
-Camino realista, **después** del hackatón: exportar DINOv2-S a ONNX (≈ 22 MB en int8), ejecutar el clasificador en el navegador con ONNX Runtime Web y mostrar los vecinos más cercanos de la base. No requiere servidor ni app, pero exige fijar el modelo final, exportar la PCA y el SVM, y validar que el resultado en el navegador coincide con el de Python. Se deja anotado como trabajo futuro.
+**Lo que esta evaluación no comprobó:** yo no abrí la demo (la web de Carlos con la demo y la vista «Figuras y paneles» no estaba en `main` cuando se redactó esto). Las cifras de verificación son las de la ficha del modelo. Antes de grabar hay que probar la demo en el navegador y revisar la narración contra ella.

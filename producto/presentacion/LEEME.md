@@ -1,30 +1,29 @@
-# Presentación interactiva de Nano2Predict
+﻿# Presentación interactiva de Nano2Predict
 
 Página estática (sin servidor ni librerías externas) que acompaña al video. Una sección por bloque del guion (`video/GUION.md`).
 
 ## Cómo abrirla
 ```bash
-cd producto
-python -m http.server 8000
+python producto/presentacion/servir.py
 ```
-y abrir `http://localhost:8000/presentacion/`. También funciona abriendo `index.html` con doble clic (los datos van en `datos.js`); solo la vista previa del Atlas necesita el servidor.
+Abre `http://localhost:8000/presentacion/` en el navegador. `servir.py` es un servidor sin caché: siempre se ve la versión actual. Si usas `python -m http.server 8000` desde `producto/`, el navegador puede guardar copias viejas de `app.js` y `estilo.css` y la página se ve rota o incompleta tras una actualización: en ese caso recarga con `Ctrl+F5` (o `Ctrl+Mayús+R`). También funciona abriendo `index.html` con doble clic (los datos van en `datos.js`); solo la vista previa del Atlas necesita el servidor.
 
 **Teclas:** `←` `→` cambian de sección · `Inicio`/`Fin` · `P` modo presentar (letra más grande) · `F` pantalla completa.
 
 ## Secciones y bloques del guion
 | # | Sección | Bloque del guion |
 |---|---|---|
-| 1 | Portada | 0:00 |
+| 1 | Portada (con descriptores utilizables) | 0:00 |
 | 2 | El problema (Figura 1) | Bloque 1 · 0:00–1:00 |
-| 3 | Cómo se construyó: cuatro pasos y **ejemplo real con verificación de la cita en vivo** | Bloque 2 · 1:00–3:00 |
-| 4 | Control de calidad (Figura 9) | Bloque 2 |
-| 5 | Línea de tiempo (pulsar cada hito) | Bloque 2 / apoyo |
-| 6 | La base en figuras (galería de las figuras 1–10) | apoyo |
-| 7 | El Atlas (enlace y vista previa) | Bloque 3 · 3:00–5:30 |
-| 8 | Modelos: escalera interactiva (tamaño · clase · imagen y fusión) | Bloque 4 · 5:30–8:00 |
-| 9 | Decisiones: tabla filtrable de las 22 decisiones | Bloque 5 · 8:00–9:00 |
-| 10 | Limitaciones | Bloque 5 |
-| 11 | Siguientes pasos y créditos | Bloque 6 · 9:00–10:00 |
+| 3 | Cómo se construyó: línea de proceso animada y **ejemplo real con verificación de la cita en vivo** | Bloque 2 · 1:00–2:30 |
+| 4–10 | **De la figura al recorte** (7 pantallas): el problema · cinco destinos · tres pasos · **el flujo (ig_hero_flujo)** · qué entra · muestra al azar · calidad y diagrama | Bloque 3 · 2:30–4:00 |
+| 11 | Línea de tiempo (pulsar cada hito) | apoyo |
+| 12 | La base en figuras (galería de las figuras 1–8 y 10) | apoyo |
+| 13 | El Atlas (enlace, vista previa y la demo «sube tu micrografía») | Bloque 4 · 4:00–6:30 |
+| 14 | Modelos: tamaño · clase · imagen · **recortes de panel (ig_modelos_2)** · **modelo final** · **NFFA (ig_modelos_3)** | Bloque 5 · 6:30–8:30 |
+| 15 | Decisiones: tabla filtrable de 34 decisiones en 4 grupos (D25–D34 son propuestas) | Bloque 5 |
+| 16 | Limitaciones | Bloque 6 · 8:30–9:50 |
+| 17 | Siguientes pasos y créditos | Bloque 6 |
 
 ## Cómo actualizarla
 Los datos salen de archivos congelados del repositorio: `curation/v0.1/RESUMEN_NUMEROS.json`, `curation/ext_*.csv`, `equipo/DECISIONES.md`, `figuras/figuras_para_el_video/` y `producto/imagenes/` (solo las 4 figuras de los ejemplos, con su DOI). Para regenerar `datos.js` y las imágenes de `assets/`:

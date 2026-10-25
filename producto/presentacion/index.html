@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Presentación interactiva de Nano2Predict: base de evidencia sobre nanoportadores, con citas verificadas por código, y modelos evaluados con honestidad.">
   <title>Nano2Predict · Presentación</title>
-  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="estilo.css?v=9a05771f">
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -13,7 +13,7 @@
   <header class="barra">
     <a class="marca" href="#portada" aria-label="Nano2Predict, portada"><span class="marca-sello">N</span><span>Nano2Predict</span></a>
     <div class="progreso" role="progressbar" aria-label="Progreso de la presentación" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progreso-relleno"></span></div>
-    <span class="contador" id="contador" aria-live="polite">1 / 11</span>
+    <span class="contador" id="contador" aria-live="polite">1 / 17</span>
     <a class="enlace-atlas" href="../web/" target="_blank" rel="noopener">Abrir el Atlas ↗</a>
     <button class="boton-icono" id="btn-presentar" type="button" aria-pressed="false" title="Modo presentar (P)">Presentar</button>
   </header>
@@ -52,7 +52,7 @@
           <p class="destacado">Sin esa base, no hay modelos. Así que empezamos por construirla.</p>
         </div>
         <figure class="figura">
-          <img src="assets/figuras/figura_1.png" alt="Cobertura de la base: 1.824 artículos leídos, 1.707 con evidencia, 2.726 micrografías, 3.116 descriptores y 4.015 espectros." width="1920" height="1080">
+          <img class="zoom" src="assets/figuras/figura_1.png" alt="Cobertura de la base: 1.824 artículos leídos, 1.707 con evidencia, 2.726 micrografías, 3.116 descriptores y 4.015 espectros." width="1920" height="1080">
           <figcaption>Figura 1. Cobertura de la base v0.1. «Micrografías» son registros de panel: las unidades no se suman entre sí.</figcaption>
         </figure>
       </div>
@@ -63,12 +63,7 @@
       <div class="envoltura">
         <p class="sobretitulo">2 · CÓMO SE CONSTRUYÓ</p>
         <h2 id="t-construccion">Cada dato lleva su cita, y un programa comprueba que existe.</h2>
-        <ol class="pasos" aria-label="Cuatro pasos de la construcción">
-          <li><span class="paso-n">01</span><h3>Búsqueda</h3><p>Europe PMC, solo acceso abierto. Licencias: 1.823 CC BY y 1 CC0, para poder mostrar las imágenes con crédito al DOI.</p></li>
-          <li><span class="paso-n">02</span><h3>Extracción con IA</h3><p>Un modelo de lenguaje lee el texto completo y propone micrografías, técnicas, tamaño, PDI, zeta y espectros.</p></li>
-          <li><span class="paso-n">03</span><h3>Verificación por código</h3><p>La cita textual y los números deben aparecer en el artículo. Si no, se rechazan. Solo 2 artículos tuvieron citas rechazadas.</p></li>
-          <li><span class="paso-n">04</span><h3>Control de calidad</h3><p>Muestra de 20 artículos revisada con ayuda de una IA. Estimación preliminar, no la precisión global.</p></li>
-        </ol>
+        <ol class="proceso" id="proceso" aria-label="Línea de proceso, de la búsqueda al modelo"></ol>
 
         <div class="extractor" id="extractor" aria-labelledby="t-extractor">
           <div class="extractor-cabecera">
@@ -77,7 +72,7 @@
           </div>
           <div class="extractor-cuerpo">
             <figure class="extractor-figura">
-              <img id="ex-imagen" alt="" loading="lazy">
+              <img id="ex-imagen" alt="" class="zoom">
               <figcaption id="ex-pie"></figcaption>
             </figure>
             <div class="extractor-datos">
@@ -96,26 +91,160 @@
       </div>
     </section>
 
-    <!-- 3 · Calidad -->
-    <section class="dia" id="calidad" data-titulo="Control de calidad" aria-labelledby="t-calidad">
+    <!-- 3a · De la figura al recorte: el problema -->
+    <section class="dia" id="fig-problema" data-titulo="Figuras: el problema" aria-labelledby="t-fig-problema">
       <div class="envoltura dos-col">
         <div>
-          <p class="sobretitulo">2 · CONTROL DE CALIDAD</p>
-          <h2 id="t-calidad">Revisamos una muestra de 20 artículos. La revisión fue asistida por IA.</h2>
-          <div class="calidad-barras" id="calidad-barras" role="list"></div>
-          <p class="aviso"><strong>Cómo leerlo:</strong> «no comprobable» no es un error: el dato no pudo contrastarse con lo visible del artículo. La muestra es pequeña y la revisión no fue humana; es una estimación preliminar por campo, no la precisión de toda la base.</p>
+          <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE: CÓMO ELEGIMOS QUÉ USAR</p>
+          <h2 id="t-fig-problema">Una figura de artículo casi nunca es una sola micrografía.</h2>
+          <p class="texto">Muchas figuras son <strong>compuestas</strong>: varios paneles (micrografías, espectros, fotos, gráficos) en una sola imagen. Algunas traen <strong>espectros superpuestos</strong> de varias corridas. Un modelo no puede aprender bien de una figura entera mezclada: hay que separar.</p>
+          <div class="cifras cifras-figuras" id="cifras-panel" role="list"></div>
+          <p class="destacado">La calidad de las imágenes, no la arquitectura del modelo, es lo que más limitaba el resultado.</p>
         </div>
         <figure class="figura">
-          <img src="assets/figuras/figura_9.png" alt="Control de calidad asistido por IA en 20 artículos: micrografías 19 de 19, descriptores 9 de 10, espectros 14 de 16 sobre lo comprobable." width="1920" height="1080" loading="lazy">
-          <figcaption>Figura 9. Aciertos sobre lo comprobable. Fuente: <code>equipo/qc_carlos/RESUMEN_QC.md</code>.</figcaption>
+          <div class="barras-apiladas" id="barras-destinos" role="img" aria-label="Barras apiladas: las 5.539 figuras según su destino y su estado de revisión"></div>
+          <figcaption>Las 5.539 figuras, clasificadas mirando la imagen. Fuente: <code>modelos/flujo_figuras/figuras_vision.csv</code>.</figcaption>
         </figure>
+      </div>
+    </section>
+
+    <!-- 3b · Tipos de figura -->
+    <section class="dia" id="fig-tipos" data-titulo="Figuras: tipos" aria-labelledby="t-fig-tipos">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+        <h2 id="t-fig-tipos">Cinco destinos para cada figura.</h2>
+        <div class="pestanas pestanas-grandes" role="tablist" id="destino-pestanas" aria-label="Destino de la figura"></div>
+        <div class="tipos-cuerpo">
+          <figure class="tipos-figura">
+            <div class="ver-modo" role="group" aria-label="Qué mostrar">
+              <button type="button" data-modo="cajas" aria-pressed="true">Con cajas</button>
+              <button type="button" data-modo="original" aria-pressed="false">Original</button>
+              <button type="button" data-ej="0" aria-pressed="true" id="ej-0">Ejemplo 1</button>
+              <button type="button" data-ej="1" aria-pressed="false" id="ej-1">Ejemplo 2</button>
+            </div>
+            <img id="tipo-img" alt="" class="zoom">
+            <div class="tipo-pendiente" id="tipo-pendiente" hidden>Ejemplo pendiente: llega con las figuras de Héctor (en este equipo no hay una figura de este destino).</div>
+            <figcaption id="tipo-credito"></figcaption>
+          </figure>
+          <aside class="tipos-texto">
+            <h3 id="tipo-nombre"></h3>
+            <p id="tipo-frase"></p>
+            <p class="tipo-cifras" id="tipo-cifras"></p>
+            <div class="leyenda-cajas" aria-label="Colores de las cajas">
+              <span><i style="background:#2e9e5b"></i>micrografía</span>
+              <span><i style="background:#1f78d1"></i>espectro</span>
+              <span><i style="background:#e08a00"></i>otro (fotos, esquemas, fluorescencia, biología…)</span>
+            </div>
+            <p class="nota">Ejemplos ilustrativos, elegidos para mostrar la regla; la muestra al azar está más adelante.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3c · De la figura a los recortes -->
+    <section class="dia" id="fig-recorte" data-titulo="Figuras: recortes" aria-labelledby="t-fig-recorte">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+        <h2 id="t-fig-recorte">De la figura original a sus recortes, en tres pasos.</h2>
+        <div class="pestanas pestanas-grandes" role="tablist" id="paso-pestanas" aria-label="Pasos">
+          <button role="tab" type="button" data-paso="1" aria-selected="true">1 · figura original</button>
+          <button role="tab" type="button" data-paso="2" aria-selected="false">2 · cajas de panel</button>
+          <button role="tab" type="button" data-paso="3" aria-selected="false">3 · recortes</button>
+        </div>
+        <div class="recorte-cuerpo">
+          <figure class="recorte-escena" id="recorte-escena">
+            <img id="recorte-img" alt="" class="zoom">
+            <div class="recorte-rejilla" id="recorte-rejilla" hidden></div>
+            <figcaption id="recorte-credito"></figcaption>
+          </figure>
+          <aside class="tipos-texto">
+            <h3 id="paso-titulo"></h3>
+            <p id="paso-texto"></p>
+            <p class="nota">Los recortes se obtienen aplicando las cajas normalizadas del archivo <code>cajas/paneles.csv</code> a la figura original.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3c2 · El flujo de datos (figura hero) -->
+    <section class="dia" id="fig-flujo" data-titulo="Figuras: el flujo" aria-labelledby="t-fig-flujo">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+        <h2 id="t-fig-flujo">Del artículo al recorte: qué entra al modelo.</h2>
+        <figure class="fig-tarjeta oscura fig-ancha">
+          <div class="idioma-fig" role="group" aria-label="Idioma de la figura">
+            <button type="button" data-idioma="es" aria-pressed="true">ES</button>
+            <button type="button" data-idioma="en" aria-pressed="false">EN</button>
+          </div>
+          <img id="fig-hero" class="zoom fig-i18n" alt="Diagrama de flujo: 5.539 figuras clasificadas, 1.702 figuras con paneles, 8.108 paneles recortados, 4.670 recortes para el modelo y su clase del artículo; los paneles de espectro, otros, insets y sin clase no entran." width="3520" height="1980">
+          <figcaption class="pie-i18n" data-pie="hero"></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3d · Qué recortes entran al modelo -->
+    <section class="dia" id="fig-reglas" data-titulo="Figuras: qué entra" aria-labelledby="t-fig-reglas">
+      <div class="envoltura dos-col">
+        <div>
+          <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+          <h2 id="t-fig-reglas">Qué recortes entran al modelo y cuáles no.</h2>
+          <table class="tabla-mini tabla-reglas">
+            <caption>Reglas de <code>segmentacion/INSTRUCCIONES_CAJAS.md</code></caption>
+            <thead><tr><th>Entra</th><th>No entra</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Micrografía de partículas</strong> (TEM, SEM, STEM, AFM, cryo-EM) de <strong>nivel superior</strong></td><td>Insets (cajas hijas dentro de un panel)</td></tr>
+              <tr><td>Su clase es la del <strong>artículo</strong></td><td>Espectros, histogramas, esquemas y tablas</td></tr>
+              <tr><td></td><td>Fluorescencia, confocal, histología</td></tr>
+              <tr><td></td><td>Biología: bacterias, células, tejido; y partículas dentro de células (conjunto aparte)</td></tr>
+            </tbody>
+          </table>
+          <p class="nota">Lo que no entra se conserva en la base, pero no se usa para entrenar.</p>
+        </div>
+        <div>
+          <div class="cifras cifras-figuras" id="cifras-recortes" role="list"></div>
+          <p class="aviso" id="aviso-recortes"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3e · Muestra sin retoques -->
+    <section class="dia" id="fig-muestra" data-titulo="Figuras: muestra al azar" aria-labelledby="t-fig-muestra">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+        <h2 id="t-fig-muestra">Una muestra sin retoques: tres recortes al azar por clase.</h2>
+        <figure class="muestra-fig"><img id="muestra-img" class="zoom" alt="Rejilla de recortes al azar: tres por cada clase del artículo (inorgánico, lipídico, nanomaterial y polimérico), sin elegir los mejores" width="670" height="1000"><figcaption>Clic para ampliar. Cada recorte con su crédito en el desplegable de abajo.</figcaption></figure>
+        <p class="aviso" id="aviso-muestra"></p>
+        <details class="creditos-det"><summary>Créditos de estas imágenes (artículo, DOI y licencia)</summary><ul id="muestra-creditos"></ul></details>
+      </div>
+    </section>
+
+    <!-- 3f · Calidad de esta etapa -->
+    <section class="dia" id="fig-calidad" data-titulo="Figuras: calidad" aria-labelledby="t-fig-calidad">
+      <div class="envoltura">
+        <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
+        <h2 id="t-fig-calidad">Cómo se comprobó la calidad de esta etapa.</h2>
+        <div class="cifras cifras-figuras" id="cifras-figuras" role="list"></div>
+        <div class="dos-col calidad-fig-cols">
+          <div>
+            <ul class="lista-rasgos" id="hechos-figuras"></ul>
+            <p class="aviso" id="aviso-figuras"></p>
+          </div>
+          <figure class="figura">
+            <div class="idioma-fig" role="group" aria-label="Idioma del diagrama">
+              <button type="button" data-idioma="es" aria-pressed="true">ES</button>
+              <button type="button" data-idioma="en" aria-pressed="false">EN</button>
+            </div>
+            <img id="img-flujo-figuras" class="zoom fig-i18n" alt="Diagrama del flujo de control de calidad de figuras: literatura, base v0.1, siete pasos de control de calidad de figuras y salida con paneles curados." width="3454" height="1875">
+            <figcaption>Clic para ampliar. Principio: precisión antes que recall; se descarta lo dudoso y lo aceptado tiene doble evidencia (pie e imagen).</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
     <!-- 4 · Línea de tiempo -->
     <section class="dia" id="camino" data-titulo="Línea de tiempo" aria-labelledby="t-camino">
       <div class="envoltura">
-        <p class="sobretitulo">3 · EL CAMINO</p>
+        <p class="sobretitulo">4 · EL CAMINO</p>
         <h2 id="t-camino">De una hipótesis preregistrada a una base congelada.</h2>
         <div class="linea" id="linea" role="list"></div>
         <div class="linea-detalle" id="linea-detalle" aria-live="polite"></div>
@@ -125,11 +254,11 @@
     <!-- 5 · La base en figuras -->
     <section class="dia" id="figuras" data-titulo="La base en figuras" aria-labelledby="t-figuras">
       <div class="envoltura">
-        <p class="sobretitulo">4 · LA BASE EN FIGURAS</p>
+        <p class="sobretitulo">5 · LA BASE EN FIGURAS</p>
         <h2 id="t-figuras">Qué hay dentro de la base.</h2>
         <div class="galeria">
           <figure class="galeria-grande">
-            <img id="gal-img" alt="" width="1920" height="1080">
+            <img id="gal-img" class="zoom" alt="" width="1920" height="1080">
             <figcaption id="gal-pie"></figcaption>
           </figure>
           <div class="galeria-miniaturas" id="gal-mini" role="tablist" aria-label="Figuras"></div>
@@ -140,20 +269,21 @@
     <!-- 6 · Atlas -->
     <section class="dia" id="atlas" data-titulo="El Atlas" aria-labelledby="t-atlas">
       <div class="envoltura">
-        <p class="sobretitulo">5 · EL PRODUCTO</p>
+        <p class="sobretitulo">6 · EL PRODUCTO</p>
         <h2 id="t-atlas">El Atlas: la base, navegable.</h2>
         <div class="dos-col atlas-cols">
           <div>
             <ul class="lista-rasgos">
               <li><strong>Filtra por portador y técnica.</strong> Por ejemplo, liposomas con cryoTEM.</li>
               <li><strong>Cada ficha trae su cita.</strong> Micrografía, DOI, tamaño, PDI, zeta y la frase del artículo que respalda cada medida.</li>
+              <li><strong>Una demo en el navegador.</strong> «Sube tu micrografía» devuelve la clase de portador que predice el modelo final, con sus advertencias: solo micrografías de partículas y probabilidades sin calibrar.</li>
               <li><strong>El modelo, por separado.</strong> La etiqueta de la base y la predicción nunca se mezclan; la predicción es exploratoria. Se muestran las micrografías más parecidas, siempre de otros artículos.</li>
             </ul>
             <div class="acciones">
               <a class="boton boton-primario" href="../web/" target="_blank" rel="noopener">Abrir el Atlas <span aria-hidden="true">↗</span></a>
               <button class="boton" type="button" id="btn-vista">Cargar vista previa aquí</button>
             </div>
-            <p class="nota">Si la vista previa queda en blanco, sirve la carpeta con <code>python -m http.server 8000</code> desde <code>producto/</code> y abre <code>http://localhost:8000/web/</code>.</p>
+            <p class="nota">Si la vista previa queda en blanco, sirve la carpeta con <code>python producto/presentacion/servir.py</code> y abre <code>http://localhost:8000/web/</code>.</p>
           </div>
           <div class="vista" id="vista" aria-live="polite">
             <div class="vista-vacia"><span aria-hidden="true">↗</span><p>La vista previa del Atlas se carga solo si la pides.</p></div>
@@ -165,12 +295,15 @@
     <!-- 7 · Modelos -->
     <section class="dia" id="modelos" data-titulo="Modelos" aria-labelledby="t-modelos">
       <div class="envoltura">
-        <p class="sobretitulo">6 · MODELOS</p>
+        <p class="sobretitulo">7 · MODELOS</p>
         <h2 id="t-modelos">Una escalera de lo simple a lo complejo, siempre contra una línea base.</h2>
         <div class="pestanas pestanas-grandes" role="tablist" id="modelo-pestanas" aria-label="Pregunta que responde el modelo">
           <button role="tab" type="button" data-tab="tamano" aria-selected="true">¿El tamaño?</button>
           <button role="tab" type="button" data-tab="clase" aria-selected="false">¿El tipo de portador? (con medidas)</button>
           <button role="tab" type="button" data-tab="imagen" aria-selected="false">¿Y con la imagen?</button>
+          <button role="tab" type="button" data-tab="recortes" aria-selected="false">Con recortes de panel (preliminar)</button>
+          <button role="tab" type="button" data-tab="final" aria-selected="false">Modelo final</button>
+          <button role="tab" type="button" data-tab="nffa" aria-selected="false">Lo que no funcionó: NFFA</button>
         </div>
         <div class="modelo-cuerpo">
           <div class="grafica" id="grafica" role="img"></div>
@@ -188,12 +321,13 @@
     <!-- 8 · Decisiones -->
     <section class="dia" id="decisiones" data-titulo="Decisiones" aria-labelledby="t-decisiones">
       <div class="envoltura">
-        <p class="sobretitulo">7 · DECISIONES</p>
+        <p class="sobretitulo">8 · DECISIONES</p>
         <h2 id="t-decisiones">Qué decidimos, por qué, y con qué evidencia.</h2>
+        <p class="nota">Las marcadas «Propuesta» las redactó Bryan a partir de los archivos del repositorio y las confirma Héctor.</p>
         <div class="filtros">
           <div class="chips" id="dec-chips" role="group" aria-label="Sección"></div>
           <label class="campo"><span>Estado</span>
-            <select id="dec-estado"><option value="">Todos</option><option>Cerrada</option><option>Abierta</option><option>En curso</option><option>Pendiente</option></select>
+            <select id="dec-estado"><option value="">Todos</option><option>Cerrada</option><option>Abierta</option><option>En curso</option><option>Pendiente</option><option>Propuesta</option></select>
           </label>
           <label class="campo campo-buscar"><span>Buscar</span><input id="dec-buscar" type="search" placeholder="Palabra clave" autocomplete="off"></label>
           <span class="conteo" id="dec-conteo" aria-live="polite"></span>
@@ -208,7 +342,7 @@
     <!-- 9 · Limitaciones -->
     <section class="dia" id="limitaciones" data-titulo="Limitaciones" aria-labelledby="t-limitaciones">
       <div class="envoltura">
-        <p class="sobretitulo">8 · LIMITACIONES</p>
+        <p class="sobretitulo">9 · LIMITACIONES</p>
         <h2 id="t-limitaciones">Lo que sabemos que nos falta.</h2>
         <div class="tarjetas" id="limites"></div>
         <div class="no-afirmamos">
@@ -226,25 +360,30 @@
     <section class="dia" id="siguientes" data-titulo="Siguientes pasos y créditos" aria-labelledby="t-siguientes">
       <div class="envoltura dos-col">
         <div>
-          <p class="sobretitulo">9 · SIGUIENTES PASOS</p>
+          <p class="sobretitulo">10 · SIGUIENTES PASOS</p>
           <h2 id="t-siguientes">Lo que sigue.</h2>
           <ol class="siguientes" id="lista-siguientes"></ol>
         </div>
         <div>
           <p class="sobretitulo">CRÉDITOS</p>
           <h2>Gracias.</h2>
-          <ul class="creditos">
-            <li><strong>Europe PMC</strong> por abrir el acceso a la literatura científica. Los artículos y figuras usados son de licencia CC BY, con crédito al DOI.</li>
-            <li><strong>Kabré (CeNAT · Laboratorio Nacional de Computación Avanzada, CNCA)</strong>, donde se calcularon los vectores de imagen.</li>
-            <li><strong>El profesor del curso de Quimioinformática</strong>, por sus preguntas y su guía.</li>
-            <li><strong>Equipo:</strong> Héctor (datos y modelos), Carlos (Atlas) y Bryan (presentación y video).</li>
-          </ul>
+          <div class="creditos-cuerpo">
+            <figure class="logo-credito">
+              <img src="assets/creditos/kabre.png" alt="Logotipo de Kabré Supercomputer" width="507" height="520">
+              <figcaption>Kabré · CeNAT / CNCA</figcaption>
+            </figure>
+            <ul class="creditos">
+              <li><strong>Europe PMC</strong> por abrir el acceso a la literatura científica. Los artículos y figuras usados son de licencia CC BY, con crédito al DOI.</li>
+              <li><strong>Kabré (supercomputador del CeNAT · Colaboratorio Nacional de Computación Avanzada, CNCA)</strong>, donde se calcularon los vectores de imagen y se probó el ajuste fino en GPU.</li>
+              <li><strong>El profesor William Zamora</strong>, del curso de Quimioinformática, por sus preguntas y su guía.</li>
+              <li><strong>Equipo:</strong> Héctor (datos y modelos), Carlos (Atlas) y Bryan (presentación y video).</li>
+            </ul>
+          </div>
           <details class="reproducir">
             <summary>Reproducir esta presentación</summary>
             <pre><code>python producto/presentacion/construir_datos.py
-cd producto
-python -m http.server 8000
-# abrir http://localhost:8000/presentacion/</code></pre>
+python producto/presentacion/servir.py
+# se abre http://localhost:8000/presentacion/</code></pre>
           </details>
           <p class="firma">Nano2Predict · base v0.1 · <span id="sello-datos"></span></p>
         </div>
@@ -253,8 +392,14 @@ python -m http.server 8000
 
   </main>
 
+  <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
+    <button type="button" class="visor-cerrar" id="visor-cerrar" aria-label="Cerrar (Esc)">×</button>
+    <img id="visor-img" alt="">
+    <p class="visor-pie" id="visor-pie"></p>
+  </div>
+
   <aside class="aviso-calidad">Datos extraídos por IA y verificados por código. Precisión estimada en una muestra revisada.</aside>
-  <script src="datos.js"></script>
-  <script src="app.js"></script>
+  <script src="datos.js?v=cb521344"></script>
+  <script src="app.js?v=2944ad2c"></script>
 </body>
 </html>
