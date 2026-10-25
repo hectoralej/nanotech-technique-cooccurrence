@@ -40,3 +40,12 @@ modelos/flujo_figuras/segmentacion/piloto/*.jpg
 
 modelos/flujo_figuras/segmentacion/cajas/grids/
 modelos/flujo_figuras/segmentacion/cajas/revision/
+
+# modelos entrenados y paquetes pesados (los ONNX van como asset de GitHub Releases, no en el historial de Git)
+*.onnx
+*.pt
+*.pth
+entrega/Recortes/
+modelos/imagenes_v02/historial_*/
+modelos/imagenes_v02/_pruebas_temporales/
+modelos/imagenes_v02/muestras/
