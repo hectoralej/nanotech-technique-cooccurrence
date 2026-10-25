@@ -66,7 +66,7 @@
     else if (k === 'Home') { e.preventDefault(); ir(0); }
     else if (k === 'End') { e.preventDefault(); ir(dias.length - 1); }
     else if (k === 'p' || k === 'P') alternarPresentar();
-    else if (k === 'f' || k === 'F') { try { document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen(); } catch (_) { /* sin pantalla completa */ } }
+    else if (k === 'f' || k === 'F') { try { (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen()).catch(() => { /* el navegador no la permite aquí */ }); } catch (_) { /* sin pantalla completa */ } }
   });
 
   /* ---------- portada: cifras ---------- */
@@ -84,7 +84,7 @@
       setTimeout(() => { b.textContent = miles(fin); }, 1200);
     });
   }
-  $('#sello-datos').textContent = `${miles(c.imagenes_descargadas)} figuras descargadas · ${D.decisiones.filas.length} decisiones registradas`;
+  $('#sello-datos').textContent = `${miles(D.calidad_figuras.n_figuras)} figuras clasificadas · ${D.decisiones.filas.length} decisiones registradas`;
 
   /* ---------- extractor: un dato real con su cita ---------- */
   const VARIANTES = { TEM_prep_not_declared: 'TEM (preparación no declarada)', TEM_negstain: 'TEM (tinción negativa)', TEM_dried_unstained: 'TEM (seca, sin teñir)', cryoTEM: 'cryo-TEM' };
@@ -329,7 +329,7 @@
     $$('button', galMini).forEach((b, k) => b.setAttribute('aria-selected', k === i));
   }
   ordenGal.forEach((f, i) => {
-    const b = el('button', { type: 'button' }, `<img src="${f.archivo}" alt="" loading="lazy"><span>${f.n}</span>`);
+    const b = el('button', { type: 'button' }, `<img src="${f.archivo}" alt="Miniatura de la Figura ${f.n}: ${esc(f.pie)}" loading="lazy"><span>${f.n}</span>`);
     b.setAttribute('role', 'tab'); b.setAttribute('aria-label', `Figura ${f.n}: ${f.pie}`); b.addEventListener('click', () => verFigura(i)); galMini.append(b);
   });
   verFigura(2);
@@ -395,7 +395,7 @@
       <div class="kpi" role="listitem"><b>${dec(MF.f1, 3)}</b><span>F1 macro</span></div>
       <div class="kpi" role="listitem"><b>${dec(MF.exactitud_bal, 3)}</b><span>exactitud balanceada</span></div>
       <div class="kpi base" role="listitem"><b>${dec(MF.linea_base, 3)}</b><span>exactitud de la clase mayoritaria</span></div></div>
-      <p class="nota-tabla"><strong>Desempeño de referencia:</strong> validación cruzada por artículo, ${esc(MF.validacion)}, n = ${miles(MF.n_articulos)} artículos. La línea base (${dec(MF.linea_base, 3)}) viene de <code>ANALISIS_04_RECORTES.md</code> (n = ${miles(MF.n_linea_base)} artículos, la cifra que cita la ficha del modelo).</p>
+      <p class="nota-tabla"><strong>Desempeño de referencia:</strong> validación cruzada por artículo, ${esc(MF.validacion)}, n = ${miles(MF.n_articulos)} artículos. La línea base (${dec(MF.linea_base, 3)}) es la de la clase mayoritaria con los mismos artículos: ${miles(MF.mayoritaria_n)} de ${miles(MF.n_linea_base)} («nanomaterial»).</p>
       <p class="nota-tabla"><strong>Demo «sube tu micrografía»:</strong> corre en el navegador con ONNX (la hizo Carlos; verificada con 20 de 20 entradas de prueba). Úsala solo con micrografías de partículas: con espectros, gráficas o fotos la salida no significa nada.</p>
       <p class="nota-tabla">Fuente: <code>${esc(MF.fuente)}</code>.</p>`;
     $('#grafica').setAttribute('aria-label', `Modelo final: exactitud ${dec(MF.exactitud, 3)} y F1 macro ${dec(MF.f1, 3)} por validación cruzada por artículo, n = ${MF.n_articulos}.`);
@@ -457,7 +457,7 @@
     const b = el('button', { type: 'button', textContent: t }); b.dataset.sec = v; b.setAttribute('aria-pressed', v === '');
     b.addEventListener('click', () => { secSel = v; pintarDecisiones(); }); chips.append(b);
   });
-  const claseEstado = t => { const x = t.toLowerCase(); return x.startsWith('cerrada') ? ['Cerrada', 'cerrada'] : x.startsWith('abierta') ? ['Abierta', 'abierta'] : x.startsWith('en curso') ? ['En curso', 'en-curso'] : x.startsWith('propuesta') ? ['Propuesta', 'propuesta'] : ['Pendiente', 'pendiente']; };
+  const claseEstado = t => { const x = t.toLowerCase(); return x.startsWith('cerrada') ? ['Cerrada', 'cerrada'] : x.startsWith('abierta') ? ['Abierta', 'abierta'] : x.startsWith('en curso') ? ['En curso', 'en-curso'] : x.startsWith('propuesta') ? ['Propuesta', 'propuesta'] : x.startsWith('superada') ? ['Superada', 'superada'] : ['Pendiente', 'pendiente']; };
   function pintarDecisiones() {
     const est = $('#dec-estado').value, q = $('#dec-buscar').value.trim().toLowerCase();
     $$('button', chips).forEach(b => b.setAttribute('aria-pressed', b.dataset.sec === secSel));
@@ -465,7 +465,7 @@
       && (!q || (f.decision + ' ' + f.porque + ' ' + f.evidencia + ' ' + f.id).toLowerCase().includes(q)));
     $('#dec-conteo').textContent = `${vis.length} de ${filas.length} decisiones`;
     $('#dec-tabla tbody').innerHTML = vis.map(f => {
-      const [lab, cl] = claseEstado(f.estado.replace(/\*\*/g, '')), extra = f.estado.replace(/\*\*/g, '').replace(/^(Cerrada|Abierta|En curso|Pendiente|Propuesta)[;:,]?\s*/i, '');
+      const [lab, cl] = claseEstado(f.estado.replace(/\*\*/g, '')), extra = f.estado.replace(/\*\*/g, '').replace(/^(Cerrada|Abierta|En curso|Pendiente|Propuesta|Superada)[;:,.]?\s*/i, '');
       return `<tr><td>${esc(f.id)}</td><td>${md(f.decision)}</td><td>${md(f.porque)}</td><td>${md(f.evidencia || '—')}</td><td><span class="estado ${cl}">${lab}</span>${extra ? `<span class="estado-extra">${md(extra)}</span>` : ''}</td></tr>`;
     }).join('') || '<tr><td colspan="5">Ninguna decisión coincide con el filtro.</td></tr>';
   }
@@ -476,7 +476,7 @@
   /* ---------- limitaciones ---------- */
   const limites = [
     ['La unidad es el artículo, no el experimento', 'Ningún artículo está en entrenamiento y prueba a la vez, pero eso no descarta datos reutilizados entre artículos distintos.'],
-    ['Figura completa, no panel', 'Muchas figuras mezclan varias micrografías, espectros y texto: es la principal limitación del modelo de imágenes. Ya hay recortes de panel; los resultados con ellos se incorporan al cierre, y hasta entonces las cifras principales usan la figura completa.'],
+    ['Figura completa, no panel', 'Muchas figuras mezclan varias micrografías, espectros y texto: es la principal limitación del modelo de imágenes. Los recortes de panel mejoran un poco la imagen (pestaña «Con recortes de panel»), pero la ventaja se debe en buena parte a que aportan más vistas por artículo.'],
     ['Una micrografía es solo parte de la información', 'No dice cómo se preparó la muestra ni sus proporciones, que hoy faltan en la base.'],
     ['Una mención no prueba un método', 'En una muestra auditada, 9 de 30 banderas de formulación fueron dudosas. Son proxies ruidosos: no las usamos como resultado principal.'],
     ['Variables que no existen antes del experimento', 'Los modelos usan zeta y PDI ya medidos: explican la base, no predicen una formulación antes de prepararla. Faltan proporciones y condiciones.'],
@@ -489,8 +489,6 @@
   $('#limites').innerHTML = limites.map(([t, x]) => `<article class="tarjeta"><h3>${esc(t)}</h3><p>${esc(x)}</p></article>`).join('');
 
   /* ---------- siguientes pasos ---------- */
-  $('#lista-siguientes').innerHTML = D.decisiones.experimentos.map(t => `<li>${md(t)}</li>`).join('')
-    + '<li><strong>Extraer las condiciones de preparación</strong> (proporciones, métodos) que hoy faltan en la base.</li>'
-    + '<li><strong>Revisión humana a ciegas</strong> de una muestra de extracciones.</li>';
-  $('#lista-siguientes').insertAdjacentHTML('afterend', `<p class="hecho">✓ ${esc(D.siguientes_hecho)}</p>`);
+  $('#lista-siguientes').innerHTML = D.siguientes.map(t => `<li>${md(t)}</li>`).join('');
+  $('#lista-siguientes').insertAdjacentHTML('afterend', `<div class="hecho"><strong>Ya hecho</strong><ul>${D.siguientes_hecho.map(t => `<li>${md(t)}</li>`).join('')}</ul></div>`);
 })();

@@ -1,6 +1,18 @@
-# Progreso de la presentación (24 de octubre, versión 4)
+# Progreso de la presentación (24 de octubre, versión 5)
 
 Encargos: `BRYAN_PRESENTACION_FINAL.md` y `BRYAN_FINAL.md` (este último manda en lo que contradice al primero). Reglas: toda cifra sale de un archivo del repositorio y se cita; **cada cifra va con su n y no se mezclan muestras distintas**; las imágenes de artículos llevan su crédito (artículo, DOI y licencia); el repositorio es público: no se suben credenciales.
+
+## Cambios de la versión 5 (ajustes de Héctor sobre la v4)
+1. Limitaciones, «Figura completa, no panel»: se quitó «los resultados con ellos se incorporan al cierre»; ahora remite a la pestaña «Con recortes de panel» y dice que la ventaja se debe en buena parte a más vistas por artículo.
+2. Siguientes pasos: se quitó «Mejorar las figuras: separar figuras compuestas» (ya se hizo). Quedan: más figuras por artículo, entrenar sin una clase, **modelos específicos por clase con espectros de referencia (seminario 3)**, **validación externa**, **más condiciones de preparación** y revisión humana a ciegas. «Ya hecho» ahora lista recortes de panel, ajuste fino, NFFA (no mejoró), modelo final (ensamble de 3 semillas) y demo en el navegador, con sus cifras leídas de los archivos.
+3. Pie final: «5.539 figuras clasificadas» en lugar de «2.149 figuras descargadas».
+4. Créditos de Kabré: «donde se entrenaron los recortes, el experimento NFFA y el modelo final».
+5. D6 («figura completa, no paneles recortados») marcada **«Superada por D27 (recorte de paneles)»**, en `equipo/DECISIONES.md`, en la tabla de la presentación (estado «Superada», con filtro) y en `como_se_construyo.md`.
+6. Imágenes: todas tienen ahora `src` y texto alternativo (la que no tenía `src` era la del visor; las 9 miniaturas de la galería y 4 imágenes más tenían `alt` vacío). Auditoría en el navegador: 23 imágenes, 0 sin `src`, 0 sin `alt`, 0 rotas.
+7. Guion: sin la nota de que la web de Carlos no estaba en `main` (se pide comprobar contra su rama `web-carlos`).
+8. Línea base: la clase mayoritaria da 0,442 también con los 1.114 artículos del modelo final (**492 de 1.114**, «nanomaterial»; calculado de `indice_recortes.csv`); se dice con ese n.
+9. **Idioma del video:** narración en español con subtítulos en inglés (decisión original). `GUION.md` es la narración; `GUION_EN.md` es el texto de los subtítulos (Bloque 6 actualizado con lo nuevo).
+10. Prueba en modo claro a 1920×1080: sin errores de consola. **La pantalla completa del navegador (tecla F) no se puede activar dentro del navegador integrado de la app**, así que no la probé como tal; sí el mismo diseño a 1920×1080 en modo claro y con el modo «presentar». La tecla F ahora maneja el rechazo del navegador sin dejar errores.
 
 ## Qué se hizo
 1. **Figuras de Héctor integradas** (`figuras/modelos/`, con botón ES/EN y visor para ampliar; las de fondo blanco van sobre una tarjeta clara también en modo oscuro, la de flujo sobre una oscura):
@@ -20,11 +32,10 @@ Encargos: `BRYAN_PRESENTACION_FINAL.md` y `BRYAN_FINAL.md` (este último manda e
 7. **Guiones** `video/GUION.md` y `GUION_EN.md` v3: presupuesto 9:50, el flujo y las figuras de modelos con su tiempo en pantalla (≥ 8 s), la demo dentro del bloque del Atlas.
 
 ## Qué quedó pendiente
-- **Verificar contra la web real de Carlos:** la vista «Figuras y paneles» y la demo **no estaban en `main`** (el `producto/web/` de `main` es la versión anterior: sin ONNX ni esa vista). La narración del Bloque 4 del guion se escribió desde las descripciones de los encargos.
+- **Comprobar el Bloque 4 del guion contra el Atlas de Carlos** (rama `web-carlos`: «Figuras y paneles» y la demo): la narración se escribió desde las descripciones de los encargos.
 - **No abrí la demo ONNX:** las cifras de verificación (20 de 20; diferencia media 0,0051) son las de la ficha del modelo y del encargo. No descargué la Release `modelo-v1.0` (no hace falta para la presentación).
 - **La rama `presentacion-bryan` no se pudo crear desde esta computadora:** no hay `git` ni `gh` instalados. Se entrega un zip y los pasos para subirla (ver abajo).
 - Verificación visual en Chrome real y en un proyector (se probó en el navegador integrado de la app: 1920×1080, 375 px, modo claro y oscuro, visor con Esc).
-- Decidir el idioma del video (inglés frente a español con subtítulos).
 
 ## Qué espera a Héctor
 Confirmar D25–D34 (propuestas); revisar los créditos de las 22 imágenes; decidir el alojamiento (no se publicó nada); la cifra «0,442 de clase mayoritaria» del modelo final viene de `ANALISIS_04_RECORTES.md` (n = 1.112 artículos), no de los 1.114 del modelo final: se dice con ese n.

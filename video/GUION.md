@@ -1,14 +1,15 @@
-# Guion del video Nano2Predict (v3, 24 de octubre)
+# Guion del video Nano2Predict (v4, 24 de octubre)
 
 **Duración total:** 10:00 como máximo (objetivo: terminar en 9:50). **Demo del Atlas:** 2:30 (mínimo 2:00, máximo 3:00).
 **Presupuesto por bloque:** problema 1:00 · cómo se construyó la base 1:30 · **de la figura al recorte 1:30 (nuevo)** · Atlas 2:30 · modelos y decisiones 2:00 · limitaciones y cierre 1:20 = 9:50. Si no cabe, se recorta «cómo se construyó» y las decisiones; no se acelera la lectura.
+**Idioma del video:** la **narración es en español**, con **subtítulos en inglés** (decisión original). El texto de los subtítulos está en `GUION_EN.md`.
 **Cómo leerlo:** «Se ve en pantalla» dice qué mostrar mientras se lee la «Narración». Frases cortas, para leerse en voz alta (≈ 140–150 palabras por minuto). Las cifras llevan punto de miles (1.824 = «mil ochocientos veinticuatro»).
 **Pantalla de apoyo:** la presentación interactiva (`producto/presentacion/`, 17 secciones; la correspondencia con los bloques está en su `LEEME.md`). Flechas del teclado para avanzar, `P` para agrandar la letra.
 
 > **Voces propuestas** (a confirmar): **Voz A**: problema, base, figura al recorte y cierre. **Voz B**: modelos y decisiones. La demo del Atlas la narra quien la grabe (Carlos).
 
 ## Reglas de cifras (obligatorio)
-**Sí decir, con estas cifras:** 1.824 artículos leídos · 1.707 con evidencia · 2.726 micrografías · 3.116 filas de medidas, de las que **2.538 son utilizables** tras la auditoría v03 (decir «utilizables», no «validadas») · 4.015 espectros · cada dato con cita verificada por código (solo 2 artículos con citas rechazadas) · **5.539 figuras clasificadas una por una** · **8.108 recortes de panel** · **4.670 recortes de micrografías de partículas con clase** · auditoría a ciegas **47/48** figuras con el número de paneles exacto · cajas del modelo contra cajas humanas **IoU 0,89 en 22 figuras** · tamaño: R² ≈ 0,24 frente a 0,18, con error relativo mediano ≈ 44 % · clase con medidas: F1 ≈ 0,51 frente a 0,12 · solo imagen: F1 ≈ 0,44 [0,42–0,47] frente a 0,16 · ajuste fino en GPU: 0,46 [0,44–0,48], sin mejora clara · con recortes de panel (otras muestras: n = 1.112 y 786): mejora un poco, pero buena parte viene de más vistas por artículo y el IC de la fusión incluye el cero · NFFA: no mejora (B − A = −0,019 [−0,042, +0,005]) · modelo final (n = 1.114, validación cruzada por artículo): exactitud 0,56 y F1 0,52 frente a 0,44 de la clase mayoritaria · todo evaluado por artículo con intervalos de confianza.
+**Sí decir, con estas cifras:** 1.824 artículos leídos · 1.707 con evidencia · 2.726 micrografías · 3.116 filas de medidas, de las que **2.538 son utilizables** tras la auditoría v03 (decir «utilizables», no «validadas») · 4.015 espectros · cada dato con cita verificada por código (solo 2 artículos con citas rechazadas) · **5.539 figuras clasificadas una por una** · **8.108 recortes de panel** · **4.670 recortes de micrografías de partículas con clase** · auditoría a ciegas **47/48** figuras con el número de paneles exacto · cajas del modelo contra cajas humanas **IoU 0,89 en 22 figuras** · tamaño: R² ≈ 0,24 frente a 0,18, con error relativo mediano ≈ 44 % · clase con medidas: F1 ≈ 0,51 frente a 0,12 · solo imagen: F1 ≈ 0,44 [0,42–0,47] frente a 0,16 · ajuste fino en GPU: 0,46 [0,44–0,48], sin mejora clara · con recortes de panel (otras muestras: n = 1.112 y 786): mejora un poco, pero buena parte viene de más vistas por artículo y el IC de la fusión incluye el cero · NFFA: no mejora (B − A = −0,019 [−0,042, +0,005]) · modelo final (n = 1.114, validación cruzada por artículo): exactitud 0,56 y F1 0,52 frente a 0,44 de la clase mayoritaria (492 de 1.114 artículos) · todo evaluado por artículo con intervalos de confianza.
 **No decir:** «datos validados por humanos» · «el modelo acierta/predice bien» · «predecimos el tamaño» sin su error (≈ 44 %) · «funciona en producción» · «una red neuronal resuelve el problema» · cifras de banderas de formulación como resultado principal · **«IoU 0,88 contra Codex» (no tiene informe)** · **«revisamos 20 artículos» como eje del control de calidad** (queda como una frase en las limitaciones) · **mezclar cifras de muestras distintas en una misma frase o tabla** (cada cifra con su n).
 **Si Héctor actualiza un número:** se cambia en este archivo, en `GUION_EN.md` y en `producto/presentacion/construir_datos.py` (bloque «ÚNICO SITIO»; luego se vuelve a ejecutar). Ver la tabla «Cifras y su origen» al final.
 
@@ -75,7 +76,7 @@
 | 5:50–6:20 | **Demo «sube tu micrografía»:** subir el recorte de una partícula y mostrar la clase predicha. | «Y esta es la demo: subo la micrografía de una partícula, y el modelo, que corre dentro del navegador, devuelve la clase de portador que predice. Con tres advertencias: solo funciona con micrografías de partículas, sus probabilidades no están calibradas, y la clase es la del artículo.» |
 | 6:20–6:30 | Ir a «Cómo se construyó». | «Y cada dato conserva su ruta de vuelta a la fuente.» |
 
-**Antes de grabar:** (1) la narración de «Figuras y paneles» y de la demo se escribió desde `equipo/encargos/CARLOS_WEB_FINAL.md` y `BRYAN_FINAL.md`; **ninguna de las dos vistas estaba en `main`**, así que hay que verificar el texto contra la web real; (2) para la demo, usar un recorte de una micrografía de partículas, nunca una gráfica; (3) confirmar que los JSON del modelo ya no digan `prueba: true`; si no son los finales, omitir 5:25–5:50; (4) verificar el número de resultados de «Liposoma + cryoTEM» (hoy: 15); (5) cronometrar dos ensayos: si pasa de 2:30, recortar el último segmento.
+**Antes de grabar:** (1) comprobar la narración de «Figuras y paneles» y de la demo contra el Atlas de Carlos (rama `web-carlos`) antes de grabar; (2) para la demo, usar un recorte de una micrografía de partículas, nunca una gráfica; (3) confirmar que los JSON del modelo ya no digan `prueba: true`; si no son los finales, omitir 5:25–5:50; (4) verificar el número de resultados de «Liposoma + cryoTEM» (hoy: 15); (5) cronometrar dos ensayos: si pasa de 2:30, recortar el último segmento.
 
 ---
 
@@ -100,11 +101,11 @@
 
 **Narración:**
 > Y sabemos lo que nos falta. Los recortes de panel son preliminares: mejoran la imagen, pero en parte porque dan más vistas por artículo. La base no tiene parámetros de formulación: proporciones, condiciones de preparación. La clase «nanomaterial» es una categoría general. Una muestra de 20 artículos se revisó con ayuda de IA; falta una auditoría humana amplia. Y no hay validación externa.
-> ¿Qué sigue? Más figuras por artículo. Entrenar quitando una clase, para saber cuánto depende el modelo de cada una, si aprendió rasgos reales de las partículas o solo sigue a la clase más abundante, y dónde reunir más datos primero. Extraer las condiciones de preparación. Y validar con artículos nuevos y con revisión humana a ciegas.
-> Gracias a Europe PMC, por abrir el acceso a la literatura. Gracias al clúster Kabré, del CeNAT y su Colaboratorio Nacional de Computación Avanzada, donde calculamos los vectores de imagen y probamos el ajuste fino en GPU. Y gracias al profesor William Zamora, por sus preguntas y su guía.
+> ¿Qué sigue? Más figuras por artículo. Entrenar quitando una clase, para saber cuánto depende el modelo de cada una, si aprendió rasgos reales de las partículas o solo sigue a la clase más abundante, y dónde reunir más datos primero. Modelos específicos por clase, con espectros de referencia. Validación externa. Y extraer más condiciones de preparación.
+> Gracias a Europe PMC, por abrir el acceso a la literatura. Gracias al clúster Kabré, del CeNAT y su Colaboratorio Nacional de Computación Avanzada, donde se entrenaron los recortes, el experimento NFFA y el modelo final. Y gracias al profesor William Zamora, por sus preguntas y su guía.
 > Nano2Predict: de la literatura, a evidencia que se puede comprobar.
 
-*(≈ 175 palabras · ≈ 1:15; quedan ≈ 5 s)*
+*(≈ 190 palabras · ≈ 1:20; sin colchón. Si no cabe, acortar la explicación de «entrenar quitando una clase»)*
 
 ---
 
@@ -133,15 +134,14 @@
 | **Recortes, imagen (n = 1.112 artículos):** F1 completa → recortes | ResNet50 0,416 → 0,472 (+0,056 [+0,020, +0,091]); DINOv2 0,458 → 0,509 (+0,052 [+0,013, +0,086]) | `modelos/comparacion/ANALISIS_04_RECORTES.md` |
 | ídem: control de «mismas vistas» (1,32 frente a 4,18 vistas por artículo) | exactitud +0,006 (ResNet50) y +0,008 (DINOv2); F1 +0,031 y +0,014 | ídem (`.json`) |
 | **Recortes, fusión (n = 786 artículos):** fusión recortes − fusión completa | F1 +0,031 [−0,010, +0,071] (**incluye el cero**); fusión recortes F1 0,535, completa 0,504, solo medidas 0,406 | `ANALISIS_FUSION_04.md` |
-| **Modelo final (n = 1.114 artículos, validación cruzada por artículo)** | exactitud 0,561; F1 macro 0,521; exactitud balanceada 0,511; clase mayoritaria 0,442 (n = 1.112 en `ANALISIS_04`) | `modelos/modelo_final/LEEME.md`, `modelo_card.json` |
+| **Modelo final (n = 1.114 artículos, validación cruzada por artículo)** | exactitud 0,561; F1 macro 0,521; exactitud balanceada 0,511; clase mayoritaria 0,442 (**492 de 1.114 artículos**, «nanomaterial») | `modelos/modelo_final/LEEME.md`, `modelo_card.json`; el 492 sale de `indice_recortes.csv` |
 | Ensamble de 3 semillas frente a una | ≈ +0,013 de exactitud y +0,016 de F1 | `ANALISIS_06_NFFA.md` |
 | **NFFA (n = 1.114 artículos):** B − A / C − A / B − C | −0,019 [−0,042, +0,005] / −0,045 [−0,070, −0,020] / +0,026 [+0,001, +0,050] | `ANALISIS_06_NFFA.md`, `entrada_kabre/06_nffa/metricas_06.json` |
 | Demo «sube tu micrografía» | corre en el navegador con ONNX; 20 de 20 entradas verificadas (diferencia media 0,0051) | `modelos/modelo_final/LEEME.md`; la hizo Carlos |
 | Variante SVM con otra regla de decisión | F1 0,475 [0,451–0,499]: **no se usa como titular** | `METRICAS_CON_IC.md` |
 
 ## Pendientes y discrepancias que hay que resolver antes de grabar
-1. **El Atlas actualizado de Carlos** (con «Figuras y paneles» y la demo) **no está en `main`**; verificar la narración del Bloque 4 contra la web real. La carpeta `web/` del zip de la presentación es una copia vieja, solo para la vista previa.
-2. **Cifras del modelo final:** la «clase mayoritaria 0,442» es de `ANALISIS_04` (n = 1.112), no de los 1.114 artículos del modelo final; se dice «frente a 0,44 de la clase mayoritaria» sin más precisión.
+1. **Comprobar el Bloque 4 contra el Atlas de Carlos** (rama `web-carlos`: «Figuras y paneles» y la demo). La carpeta `web/` del zip de la presentación es una copia vieja, solo para la vista previa.
+2. **Línea base del modelo final:** la clase mayoritaria da 0,442 también con los mismos 1.114 artículos (492 de 1.114, «nanomaterial»); coincide con la de `ANALISIS_04_RECORTES.md` (n = 1.112).
 3. **Decisiones D25–D34:** son propuestas que confirma Héctor; ya están en `equipo/DECISIONES.md` (sección E).
-4. **Idioma del video:** el video se entrega en inglés (`GUION_EN.md`), pero `CARLOS_WEB_FINAL.md` dice «demo y video en español con subtítulos en inglés». Hay que decidirlo; la presentación ya tiene botón ES/EN en las figuras de flujo y modelos.
-5. **Voces** por confirmar.
+4. **Voces** por confirmar.

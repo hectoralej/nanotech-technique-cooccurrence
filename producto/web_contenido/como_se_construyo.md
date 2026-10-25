@@ -56,7 +56,7 @@ Registro de datos (`equipo/DECISIONES.md`, D1–D8):
 | D3 | **Excluir vectores virales** (AAV, virus como portador). Las nanopartículas *contra* virus sí están | Cerrada |
 | D4 | Dos niveles de evidencia: **E1** y **E2** | Cerrada |
 | D5 | Las medidas se aceptan de cualquier licencia; las imágenes, solo de licencia verde | Cerrada |
-| D6 | Se trabajó primero con la **figura completa**; los recortes de panel (8.108) se incorporan después | Abierta |
+| D6 | Se trabajó primero con la **figura completa**, no con paneles recortados | **Superada por D27 (recorte de paneles)**; la figura completa sigue como línea base v0.1 |
 | D7 | Clases de portador en 4 grupos: lipídico, polimérico, inorgánico, nanomaterial | Abierta |
 | D8 | Una muestra de 20 artículos se revisó con ayuda de IA, no por personas | Cerrada |
 

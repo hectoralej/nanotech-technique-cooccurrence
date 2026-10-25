@@ -343,3 +343,8 @@ img.zoom{cursor:zoom-in}
 .muestra-fig img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line)}
 .muestra-fig figcaption{font-size:12px;color:var(--muted);margin-top:4px}
 @media (max-width:560px){.kpis{grid-template-columns:1fr 1fr}}
+
+/* ---- v5: lista «Ya hecho» ---- */
+.hecho ul{margin:6px 0 0;padding-left:18px;display:grid;gap:4px;font-size:13.5px}
+.estado.superada{color:var(--muted);border-color:var(--muted);text-decoration:line-through}
+.estado.superada+.estado-extra{text-decoration:none}

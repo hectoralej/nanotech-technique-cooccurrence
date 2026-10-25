@@ -10,7 +10,6 @@ window.DATOS = {
   "espectros": 4015,
   "imagenes_descargadas": 2149
  },
- "siguientes_hecho": "Ya hecho: ajuste fino de ResNet50 y DINOv2 en GPU. F1 0,46 [0,44–0,48], sin mejora clara frente a los vectores congelados (0,44): el límite está en las imágenes.",
  "calidad_figuras": {
   "n_figuras": 5539,
   "n_recortes": 8108,
@@ -565,7 +564,8 @@ window.DATOS = {
   "exactitud_bal": 0.511,
   "f1": 0.521,
   "linea_base": 0.442,
-  "n_linea_base": 1112,
+  "n_linea_base": 1114,
+  "mayoritaria_n": 492,
   "validacion": "5 particiones por artículo, ensamble de 3 semillas",
   "fuente": "modelos/modelo_final/LEEME.md y 02_onnx/modelo_card.json"
  },
@@ -741,7 +741,7 @@ window.DATOS = {
     "decision": "Se trabaja con la **figura completa**, no con paneles recortados",
     "porque": "El extractor identifica figuras; no hay coordenadas de paneles",
     "evidencia": "Mediana de 1 figura por artículo",
-    "estado": "**Abierta: es la principal limitación del modelo de imágenes**"
+    "estado": "**Superada por D27 (recorte de paneles).** La figura completa sigue siendo la línea base v0.1 y la principal limitación de sus cifras"
    },
    {
     "id": "D7",
@@ -1209,5 +1209,20 @@ window.DATOS = {
    "archivo": "assets/figuras/figura_10.png",
    "pie": "Escalera de modelos de la ronda 1: tamaño (R²) y clase (F1 macro)."
   }
+ ],
+ "siguientes_hecho": [
+  "**Recortes de panel:** 8.108 recortes, 4.670 de micrografías de partículas con clase (preliminar: su ventaja viene en buena parte de más vistas por artículo).",
+  "**Ajuste fino en GPU** de ResNet50 y DINOv2: F1 0,46 [0,44–0,48], sin mejora clara frente a los vectores congelados (0,44).",
+  "**Experimento NFFA:** no mejoró (B − A = −0,019 [−0,042, +0,005]).",
+  "**Modelo final:** DINOv2 con ensamble de 3 semillas; exactitud 0,561 y F1 0,521 por validación cruzada por artículo (n = 1.114).",
+  "**Demo «sube tu micrografía»** en el navegador, con ONNX."
+ ],
+ "siguientes": [
+  "**Recoger más figuras por artículo** (el modelo con figura completa ve ≈ 1,32 por artículo; con recortes, ≈ 4,18).",
+  "**Entrenar sin una clase** (sin inorgánicos, sin poliméricas…): mide cuánto depende el modelo de cada clase y si generaliza.",
+  "**Modelos específicos por clase**, con espectros de referencia (seminario 3).",
+  "**Validación externa**, con artículos nuevos.",
+  "**Extraer más condiciones de preparación** (proporciones, métodos), que hoy faltan en la base.",
+  "**Revisión humana a ciegas** de una muestra de extracciones."
  ]
 };

@@ -7,6 +7,7 @@ Despues la presentacion se abre con `python -m http.server 8000` desde producto/
 """
 import csv
 import json
+from collections import Counter
 import re
 import shutil
 import sys
@@ -164,6 +165,10 @@ VECINO_MISMO_ARTICULO = "2,7 %"
 # ══════════════════════════════════════════════════════════════════════════════════════
 
 
+def miles(n) -> str:
+    return f"{int(round(n)):,}".replace(",", ".")
+
+
 def c2(v: float) -> str:
     return f"{v:.2f}".replace(".", ",")
 
@@ -317,14 +322,16 @@ def nffa() -> dict:
 def modelo_final() -> dict:
     card = json.loads((RAIZ / "modelos" / "modelo_final" / "02_onnx" / "modelo_card.json").read_text(encoding="utf-8"))
     ref = card["desempeno_de_referencia_validacion_cruzada"]
-    a04 = (RAIZ / "modelos" / "comparacion" / "ANALISIS_04_RECORTES.md").read_text(encoding="utf-8")
-    base = re.search(r"Línea base \(clase mayoritaria por artículo\): exactitud (0\.\d+)", a04)
-    n04 = json.loads((RAIZ / "modelos" / "comparacion" / "ANALISIS_04_RECORTES.json").read_text(encoding="utf-8"))["resnet50"]["n_articulos"]
+    idx = leer_csv(RAIZ / "modelos" / "flujo_figuras" / "segmentacion" / "cajas" / "indice_recortes.csv")
+    por_art = {r["pmcid"]: r["clase"] for r in idx if r["elegible_morfologia"] == "True" and r["clase"]}
+    mayor = max(Counter(por_art.values()).values())
+    base_acc = mayor / len(por_art)  # exactitud de la clase mayoritaria con los mismos artículos (492 de 1.114)
+    n04 = len(por_art)
     m = re.search(r"(\d+) recortes de panel de micrograf[ií]a de part[ií]culas de (\d+) art[ií]culos", card["entrenamiento"]["datos"])
-    if not (base and m):
-        raise SystemExit("No se encontraron la línea base o los recortes de entrenamiento")
+    if not m:
+        raise SystemExit("No se encontraron los recortes de entrenamiento en la ficha del modelo")
     return {"n_recortes": int(m.group(1)), "n_articulos_entrenamiento": int(m.group(2)), "n_articulos": ref["articulos"], "exactitud": ref["exactitud"],
-            "exactitud_bal": round(ref["exactitud_balanceada"], 3), "f1": round(ref["f1_macro"], 3), "linea_base": float(base.group(1)), "n_linea_base": n04,
+            "exactitud_bal": round(ref["exactitud_balanceada"], 3), "f1": round(ref["f1_macro"], 3), "linea_base": round(base_acc, 3), "n_linea_base": n04, "mayoritaria_n": mayor,
             "validacion": ref["validacion"], "fuente": "modelos/modelo_final/LEEME.md y 02_onnx/modelo_card.json"}
 
 
@@ -379,8 +386,6 @@ def main() -> None:
                    "imagenes_descargadas": descargas()},
         # La muestra de 20 artículos (equipo/qc_carlos/RESUMEN_QC.md) ya no es el eje: queda como una frase en «Limitaciones».
         # Las cifras con recortes de panel, el modelo final y NFFA ya están en los archivos de modelos/comparacion y modelos/modelo_final.
-        "siguientes_hecho": (f"Ya hecho: ajuste fino de ResNet50 y DINOv2 en GPU. F1 {ic(F1_AJUSTE_FINO)}, sin mejora clara frente a los vectores congelados "
-                             f"({c2(F1_IMAGEN[0])}): el límite está en las imágenes."),
         "calidad_figuras": calidad_figuras(),
         "descriptores_v03": descriptores_v03(),
         "figuras_recortes": figuras_recortes.construir(),
@@ -393,6 +398,22 @@ def main() -> None:
         "modelos": modelos(),
         "figuras": figuras(),
     }
+    MF, NF, RCs = datos["modelo_final"], datos["nffa"], datos["recortes"]
+    datos["siguientes_hecho"] = [
+        f"**Recortes de panel:** {miles(datos['figuras_recortes']['recortes']['total'])} recortes, {miles(datos['figuras_recortes']['recortes']['elegibles_con_clase'])} de micrografías de partículas con clase (preliminar: su ventaja viene en buena parte de más vistas por artículo).",
+        f"**Ajuste fino en GPU** de ResNet50 y DINOv2: F1 {ic(F1_AJUSTE_FINO)}, sin mejora clara frente a los vectores congelados ({c2(F1_IMAGEN[0])}).",
+        f"**Experimento NFFA:** no mejoró (B − A = {dif((NF['difs'][0]['f1'], NF['difs'][0]['ic'][0], NF['difs'][0]['ic'][1]))}).",
+        f"**Modelo final:** DINOv2 con ensamble de 3 semillas; exactitud {c3(MF['exactitud'])} y F1 {c3(MF['f1'])} por validación cruzada por artículo (n = {miles(MF['n_articulos'])}).",
+        "**Demo «sube tu micrografía»** en el navegador, con ONNX.",
+    ]
+    datos["siguientes"] = [
+        f"**Recoger más figuras por artículo** (el modelo con figura completa ve ≈ {c2(datos['recortes']['imagen']['vistas_03'])} por artículo; con recortes, ≈ {c2(datos['recortes']['imagen']['vistas_04'])}).",
+        "**Entrenar sin una clase** (sin inorgánicos, sin poliméricas…): mide cuánto depende el modelo de cada clase y si generaliza.",
+        "**Modelos específicos por clase**, con espectros de referencia (seminario 3).",
+        "**Validación externa**, con artículos nuevos.",
+        "**Extraer más condiciones de preparación** (proporciones, métodos), que hoy faltan en la base.",
+        "**Revisión humana a ciegas** de una muestra de extracciones.",
+    ]
     # Aviso de consistencia: equipo/DECISIONES.md (D17) cita las cifras de imagen; deben coincidir con las de arriba.
     for f in datos["decisiones"]["filas"]:
         for patron, esperado, nombre in [(r"imagen sola F1 ~?(\d,\d\d)", F1_IMAGEN, "imagen sola"), (r"imagen \+ medidas ~?(\d,\d\d)", F1_FUSION, "imagen + medidas"),

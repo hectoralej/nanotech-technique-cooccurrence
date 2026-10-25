@@ -25,4 +25,4 @@ Fuentes: `modelos/modelo_final/LEEME.md`, `02_onnx/modelo_card.json` y `03_verif
 - La etiqueta es la **clase del artículo**, no la de la partícula ni la del recorte; «nanomaterial» es una categoría general.
 - Resultado exploratorio, sin validación externa.
 
-**Lo que esta evaluación no comprobó:** yo no abrí la demo (la web de Carlos con la demo y la vista «Figuras y paneles» no estaba en `main` cuando se redactó esto). Las cifras de verificación son las de la ficha del modelo. Antes de grabar hay que probar la demo en el navegador y revisar la narración contra ella.
+**Lo que esta evaluación no comprobó:** yo no abrí la demo. Las cifras de verificación son las de la ficha del modelo. Antes de grabar hay que probar la demo en el navegador y revisar la narración contra ella.

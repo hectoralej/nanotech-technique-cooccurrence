@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Presentación interactiva de Nano2Predict: base de evidencia sobre nanoportadores, con citas verificadas por código, y modelos evaluados con honestidad.">
   <title>Nano2Predict · Presentación</title>
-  <link rel="stylesheet" href="estilo.css?v=9a05771f">
+  <link rel="stylesheet" href="estilo.css?v=4ea10c4e">
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
@@ -72,7 +72,7 @@
           </div>
           <div class="extractor-cuerpo">
             <figure class="extractor-figura">
-              <img id="ex-imagen" alt="" class="zoom">
+              <img id="ex-imagen" src="assets/ejemplos/PMC8986208.jpg" alt="Figura de un artículo con la micrografía del ejemplo seleccionado" class="zoom">
               <figcaption id="ex-pie"></figcaption>
             </figure>
             <div class="extractor-datos">
@@ -122,7 +122,7 @@
               <button type="button" data-ej="0" aria-pressed="true" id="ej-0">Ejemplo 1</button>
               <button type="button" data-ej="1" aria-pressed="false" id="ej-1">Ejemplo 2</button>
             </div>
-            <img id="tipo-img" alt="" class="zoom">
+            <img id="tipo-img" src="assets/recortes/h_ejemplo_compuesta_1.jpg" alt="Figura de ejemplo con las cajas de panel dibujadas" class="zoom">
             <div class="tipo-pendiente" id="tipo-pendiente" hidden>Ejemplo pendiente: llega con las figuras de Héctor (en este equipo no hay una figura de este destino).</div>
             <figcaption id="tipo-credito"></figcaption>
           </figure>
@@ -153,7 +153,7 @@
         </div>
         <div class="recorte-cuerpo">
           <figure class="recorte-escena" id="recorte-escena">
-            <img id="recorte-img" alt="" class="zoom">
+            <img id="recorte-img" src="assets/recortes/demo_original.jpg" alt="Figura compuesta original, con varios paneles de micrografías" class="zoom">
             <div class="recorte-rejilla" id="recorte-rejilla" hidden></div>
             <figcaption id="recorte-credito"></figcaption>
           </figure>
@@ -176,7 +176,7 @@
             <button type="button" data-idioma="es" aria-pressed="true">ES</button>
             <button type="button" data-idioma="en" aria-pressed="false">EN</button>
           </div>
-          <img id="fig-hero" class="zoom fig-i18n" alt="Diagrama de flujo: 5.539 figuras clasificadas, 1.702 figuras con paneles, 8.108 paneles recortados, 4.670 recortes para el modelo y su clase del artículo; los paneles de espectro, otros, insets y sin clase no entran." width="3520" height="1980">
+          <img id="fig-hero" src="assets/figuras_modelos/fig_hero_flujo_es.png" class="zoom fig-i18n" alt="Diagrama de flujo: 5.539 figuras clasificadas, 1.702 figuras con paneles, 8.108 paneles recortados, 4.670 recortes para el modelo y su clase del artículo; los paneles de espectro, otros, insets y sin clase no entran." width="3520" height="1980">
           <figcaption class="pie-i18n" data-pie="hero"></figcaption>
         </figure>
       </div>
@@ -212,7 +212,7 @@
       <div class="envoltura">
         <p class="sobretitulo">3 · DE LA FIGURA AL RECORTE</p>
         <h2 id="t-fig-muestra">Una muestra sin retoques: tres recortes al azar por clase.</h2>
-        <figure class="muestra-fig"><img id="muestra-img" class="zoom" alt="Rejilla de recortes al azar: tres por cada clase del artículo (inorgánico, lipídico, nanomaterial y polimérico), sin elegir los mejores" width="670" height="1000"><figcaption>Clic para ampliar. Cada recorte con su crédito en el desplegable de abajo.</figcaption></figure>
+        <figure class="muestra-fig"><img id="muestra-img" src="assets/recortes/h_recortes_por_clase.jpg" class="zoom" alt="Rejilla de recortes al azar: tres por cada clase del artículo (inorgánico, lipídico, nanomaterial y polimérico), sin elegir los mejores" width="670" height="1000"><figcaption>Clic para ampliar. Cada recorte con su crédito en el desplegable de abajo.</figcaption></figure>
         <p class="aviso" id="aviso-muestra"></p>
         <details class="creditos-det"><summary>Créditos de estas imágenes (artículo, DOI y licencia)</summary><ul id="muestra-creditos"></ul></details>
       </div>
@@ -234,7 +234,7 @@
               <button type="button" data-idioma="es" aria-pressed="true">ES</button>
               <button type="button" data-idioma="en" aria-pressed="false">EN</button>
             </div>
-            <img id="img-flujo-figuras" class="zoom fig-i18n" alt="Diagrama del flujo de control de calidad de figuras: literatura, base v0.1, siete pasos de control de calidad de figuras y salida con paneles curados." width="3454" height="1875">
+            <img id="img-flujo-figuras" src="assets/figuras_calidad/flujo_calidad_figuras_es.png" class="zoom fig-i18n" alt="Diagrama del flujo de control de calidad de figuras: literatura, base v0.1, siete pasos de control de calidad de figuras y salida con paneles curados." width="3454" height="1875">
             <figcaption>Clic para ampliar. Principio: precisión antes que recall; se descarta lo dudoso y lo aceptado tiene doble evidencia (pie e imagen).</figcaption>
           </figure>
         </div>
@@ -258,7 +258,7 @@
         <h2 id="t-figuras">Qué hay dentro de la base.</h2>
         <div class="galeria">
           <figure class="galeria-grande">
-            <img id="gal-img" class="zoom" alt="" width="1920" height="1080">
+            <img id="gal-img" class="zoom" src="assets/figuras/figura_3.png" alt="Figura 3: artículos por tipo de portador" width="1920" height="1080">
             <figcaption id="gal-pie"></figcaption>
           </figure>
           <div class="galeria-miniaturas" id="gal-mini" role="tablist" aria-label="Figuras"></div>
@@ -327,7 +327,7 @@
         <div class="filtros">
           <div class="chips" id="dec-chips" role="group" aria-label="Sección"></div>
           <label class="campo"><span>Estado</span>
-            <select id="dec-estado"><option value="">Todos</option><option>Cerrada</option><option>Abierta</option><option>En curso</option><option>Pendiente</option><option>Propuesta</option></select>
+            <select id="dec-estado"><option value="">Todos</option><option>Cerrada</option><option>Abierta</option><option>En curso</option><option>Pendiente</option><option>Propuesta</option><option>Superada</option></select>
           </label>
           <label class="campo campo-buscar"><span>Buscar</span><input id="dec-buscar" type="search" placeholder="Palabra clave" autocomplete="off"></label>
           <span class="conteo" id="dec-conteo" aria-live="polite"></span>
@@ -374,7 +374,7 @@
             </figure>
             <ul class="creditos">
               <li><strong>Europe PMC</strong> por abrir el acceso a la literatura científica. Los artículos y figuras usados son de licencia CC BY, con crédito al DOI.</li>
-              <li><strong>Kabré (supercomputador del CeNAT · Colaboratorio Nacional de Computación Avanzada, CNCA)</strong>, donde se calcularon los vectores de imagen y se probó el ajuste fino en GPU.</li>
+              <li><strong>Kabré (supercomputador del CeNAT · Colaboratorio Nacional de Computación Avanzada, CNCA)</strong>, donde se calcularon los vectores de imagen y se entrenaron los recortes, el experimento NFFA y el modelo final.</li>
               <li><strong>El profesor William Zamora</strong>, del curso de Quimioinformática, por sus preguntas y su guía.</li>
               <li><strong>Equipo:</strong> Héctor (datos y modelos), Carlos (Atlas) y Bryan (presentación y video).</li>
             </ul>
@@ -394,12 +394,12 @@ python producto/presentacion/servir.py
 
   <div class="visor" id="visor" role="dialog" aria-modal="true" aria-label="Imagen ampliada" hidden>
     <button type="button" class="visor-cerrar" id="visor-cerrar" aria-label="Cerrar (Esc)">×</button>
-    <img id="visor-img" alt="">
+    <img id="visor-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" alt="Imagen ampliada">
     <p class="visor-pie" id="visor-pie"></p>
   </div>
 
   <aside class="aviso-calidad">Datos extraídos por IA y verificados por código. Precisión estimada en una muestra revisada.</aside>
-  <script src="datos.js?v=cb521344"></script>
-  <script src="app.js?v=2944ad2c"></script>
+  <script src="datos.js?v=b6bea42e"></script>
+  <script src="app.js?v=9ad51cb6"></script>
 </body>
 </html>

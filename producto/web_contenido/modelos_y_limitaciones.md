@@ -79,7 +79,7 @@ DINOv2 ViT-S/14 con ajuste fino completo, **ensamble de 3 semillas**, entrenado 
 | Exactitud (validación cruzada por artículo, n = 1.114) | **0,561** |
 | F1 macro (ídem) | **0,521** |
 | Exactitud balanceada (ídem) | 0,511 |
-| Clase mayoritaria, exactitud (n = 1.112 en `ANALISIS_04_RECORTES.md`; es la cifra que cita la ficha del modelo) | 0,442 |
+| Clase mayoritaria, exactitud (**492 de 1.114 artículos**, «nanomaterial»; con n = 1.112 en `ANALISIS_04_RECORTES.md` da lo mismo) | 0,442 |
 
 **El modelo final se entrenó con todos los datos: no se puede evaluar.** La validación cruzada por artículo es la única estimación honesta. Es exploratorio y las probabilidades no están calibradas. El ensamble de 3 semillas mejora ≈ +0,013 de exactitud y +0,016 de F1 macro frente a una semilla (`ANALISIS_06_NFFA.md`).
 
