@@ -1,0 +1,98 @@
+{
+  "nombre": "Nano2Predict · clase de portador desde un recorte de micrografía",
+  "version": "1.0 (hackatón 2026)",
+  "modelo": "vit_small_patch14_dinov2.lvd142m (DINOv2 ViT-S/14, LVD-142M) con ajuste fino completo; ensamble de 3 semillas",
+  "clases": [
+    "inorganico",
+    "lipidico",
+    "nanomaterial",
+    "polimerico"
+  ],
+  "entrenamiento": {
+    "datos": "4670 recortes de panel de micrografía de partículas de 1114 artículos CC BY (Europe PMC); la etiqueta es la clase del ARTÍCULO, no del recorte",
+    "epocas": 10,
+    "lr_backbone": 3e-05,
+    "receta": "AdamW por capas, OneCycleLR, AMP, pesos de clase suavizados, label smoothing 0,1, drop_path 0,1, aumentos recorte 70-100 % y espejo",
+    "sin_NFFA": "el preentrenamiento intermedio con NFFA-EUROPE no mejoró (cuaderno 06)"
+  },
+  "desempeno_de_referencia_validacion_cruzada": {
+    "fuente": "resultados/06_nffa_dinov2/99_analisis/metricas_06.json (brazo A)",
+    "articulos": 1114,
+    "validacion": "5 particiones por artículo, ensamble de 3 semillas",
+    "exactitud": 0.561,
+    "exactitud_balanceada": 0.5106,
+    "f1_macro": 0.5206,
+    "linea_base_clase_mayoritaria_exactitud": "ver ANALISIS_04_RECORTES.md"
+  },
+  "limitaciones": [
+    "El modelo final se entrenó con todos los recortes: su desempeño real solo se estima con la validación cruzada de referencia (por artículo).",
+    "Resultados modestos y exploratorios; las probabilidades NO están calibradas.",
+    "Solo tiene sentido con micrografías de partículas (TEM/SEM/AFM/cryo): con espectros, gráficas, células o tejido la salida no significa nada.",
+    "La etiqueta de entrenamiento es la clase del artículo; una micrografía de otro estilo de laboratorio puede predecirse mal.",
+    "La clase «nanomaterial» es una categoría general (no nanoportador), la más frecuente."
+  ],
+  "entrada_salida": {
+    "entrada": {
+      "nombre": "imagen",
+      "tipo": "float32",
+      "forma": [
+        "N",
+        3,
+        256,
+        256
+      ],
+      "rango": "0-255",
+      "canales": "RGB, orden NCHW"
+    },
+    "preprocesado_en_el_navegador": "dibujar el recorte centrado sobre un lienzo cuadrado BLANCO (lado = max(ancho, alto)) y reducir a 256x256 con suavizado alto (imageSmoothingQuality='high'); NO normalizar",
+    "dentro_del_modelo": [
+      "reduccion bilineal a 224x224",
+      "normalizacion media=[0.485,0.456,0.406]*255, desv=[0.229,0.224,0.225]*255",
+      "softmax y media de las redes"
+    ],
+    "salida": {
+      "nombre": "probabilidades",
+      "forma": [
+        "N",
+        4
+      ],
+      "clases": [
+        "inorganico",
+        "lipidico",
+        "nanomaterial",
+        "polimerico"
+      ]
+    }
+  },
+  "onnx_opset": 17,
+  "verificacion": {
+    "n_recortes": 200,
+    "nota": "recortes de entrenamiento: solo se mide equivalencia entre formatos, no desempeño",
+    "ensamble3_fp32.onnx": {
+      "dif_max": 3e-06,
+      "dif_media": 0.0,
+      "coincide_clase": 1.0,
+      "segundos_por_imagen_cpu": 0.063,
+      "tamano_mb": 260.0
+    },
+    "ensamble3_int8.onnx": {
+      "dif_max": 0.06012,
+      "dif_media": 0.007765,
+      "coincide_clase": 0.985,
+      "segundos_por_imagen_cpu": 0.036,
+      "tamano_mb": 67.2
+    },
+    "semilla0_int8.onnx": {
+      "dif_max": 0.085873,
+      "dif_media": 0.012273,
+      "coincide_clase": 0.985,
+      "segundos_por_imagen_cpu": 0.012,
+      "tamano_mb": 22.4
+    },
+    "acierto_ensamble_pytorch_sobre_estos_recortes_de_entrenamiento": 0.815,
+    "veredicto": {
+      "fp32_ok": true,
+      "int8_ok": true
+    }
+  }
+}

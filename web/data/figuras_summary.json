@@ -1,0 +1,297 @@
+{
+  "figures_total": 5539,
+  "figures_accepted": 4027,
+  "figures_accepted_visible": 3873,
+  "figures_queue": 1512,
+  "figures_excluded_destination": 154,
+  "figures_queue_excluded_destination": 143,
+  "figures_queue_visible": 1369,
+  "panels_total": 8108,
+  "panels_crop_available": 8108,
+  "figures_original_available": 5538,
+  "figures_original_files_local": 5538,
+  "descriptors_v03_source": 3116,
+  "descriptors_v03_usable": 2538,
+  "descriptors_v03_review": 90,
+  "descriptors_v03_review_all": 148,
+  "figure_technique_counts": {
+    "AAS": 1,
+    "AFM": 25,
+    "AFM-IR": 1,
+    "BET": 1,
+    "cryo-TEM": 7,
+    "DCS": 1,
+    "Dicroísmo circular": 3,
+    "DLS": 67,
+    "DSC": 38,
+    "DTA": 2,
+    "EDS": 310,
+    "EELS": 1,
+    "FIB-SEM": 1,
+    "Fluorescencia in vivo": 1,
+    "Fluorescencia/confocal": 32,
+    "Fotoluminiscencia": 2,
+    "FTIR": 812,
+    "GPC": 1,
+    "Histología H&E": 5,
+    "HPLC": 1,
+    "HRTEM": 1,
+    "MRI": 1,
+    "MS": 1,
+    "Mössbauer": 1,
+    "Potencial zeta": 45,
+    "Raman": 102,
+    "RMN": 11,
+    "SAED": 12,
+    "SANS": 3,
+    "SAXS": 42,
+    "SEM": 425,
+    "STEM": 12,
+    "TEM": 352,
+    "TGA": 34,
+    "UV-vis": 530,
+    "VSM": 3,
+    "XPS": 24,
+    "XRD": 473
+  },
+  "figures_without_technique": 2892,
+  "visible_figures_without_technique": 1975,
+  "figures_without_raw_technique": 2886,
+  "visible_figures_without_raw_technique": 1974,
+  "visible_figure_technique_counts": {
+    "AAS": 0,
+    "AFM": 17,
+    "AFM-IR": 1,
+    "BET": 0,
+    "cryo-TEM": 2,
+    "DCS": 0,
+    "Dicroísmo circular": 2,
+    "DLS": 49,
+    "DSC": 29,
+    "DTA": 2,
+    "EDS": 248,
+    "EELS": 1,
+    "FIB-SEM": 1,
+    "Fluorescencia in vivo": 0,
+    "Fluorescencia/confocal": 18,
+    "Fotoluminiscencia": 1,
+    "FTIR": 493,
+    "GPC": 1,
+    "Histología H&E": 0,
+    "HPLC": 1,
+    "HRTEM": 1,
+    "MRI": 1,
+    "MS": 1,
+    "Mössbauer": 1,
+    "Potencial zeta": 35,
+    "Raman": 53,
+    "RMN": 6,
+    "SAED": 11,
+    "SANS": 2,
+    "SAXS": 21,
+    "SEM": 363,
+    "STEM": 10,
+    "TEM": 283,
+    "TGA": 26,
+    "UV-vis": 430,
+    "VSM": 2,
+    "XPS": 19,
+    "XRD": 326
+  },
+  "top_techniques": [
+    "FTIR",
+    "UV-vis",
+    "SEM",
+    "XRD",
+    "TEM",
+    "EDS",
+    "Raman",
+    "DLS",
+    "Potencial zeta",
+    "DSC"
+  ],
+  "technique_other_visible_figures": 135,
+  "technique_family_visible_counts": {
+    "Microscopía electrónica y de sonda": 637,
+    "Espectroscopías": 1149,
+    "Térmicas": 47,
+    "Dispersión de luz/rayos X": 404,
+    "Fluorescencia y óptica": 19,
+    "Otras": 5
+  },
+  "technique_families": {
+    "Microscopía electrónica y de sonda": [
+      "SEM",
+      "TEM",
+      "cryo-TEM",
+      "STEM",
+      "HRTEM",
+      "FIB-SEM",
+      "SAED",
+      "EELS",
+      "AFM"
+    ],
+    "Espectroscopías": [
+      "FTIR",
+      "UV-vis",
+      "EDS",
+      "Raman",
+      "XPS",
+      "RMN",
+      "Dicroísmo circular",
+      "AFM-IR",
+      "Mössbauer",
+      "AAS",
+      "MS"
+    ],
+    "Térmicas": [
+      "DSC",
+      "TGA",
+      "DTA"
+    ],
+    "Dispersión de luz/rayos X": [
+      "XRD",
+      "DLS",
+      "SAXS",
+      "SANS",
+      "Potencial zeta"
+    ],
+    "Fluorescencia y óptica": [
+      "Fluorescencia/confocal",
+      "Fluorescencia in vivo",
+      "Fotoluminiscencia",
+      "Histología H&E"
+    ],
+    "Otras": [
+      "VSM",
+      "DCS",
+      "HPLC",
+      "GPC",
+      "BET",
+      "MRI"
+    ]
+  },
+  "technique_aliases": {
+    "1h-nmr": [
+      "RMN"
+    ],
+    "cd": [
+      "Dicroísmo circular"
+    ],
+    "clsm": [
+      "Fluorescencia/confocal"
+    ],
+    "confocal": [
+      "Fluorescencia/confocal"
+    ],
+    "cryo-em": [
+      "cryo-TEM"
+    ],
+    "cryo-tem": [
+      "cryo-TEM"
+    ],
+    "cryoem": [
+      "cryo-TEM"
+    ],
+    "cryotem": [
+      "cryo-TEM"
+    ],
+    "dsc": [
+      "DSC"
+    ],
+    "dsc-tga": [
+      "DSC",
+      "TGA"
+    ],
+    "dta": [
+      "DTA"
+    ],
+    "eds": [
+      "EDS"
+    ],
+    "eds-mapas": [
+      "EDS"
+    ],
+    "edx": [
+      "EDS"
+    ],
+    "fluorescencia": [
+      "Fluorescencia/confocal"
+    ],
+    "fluorescencia in vivo": [
+      "Fluorescencia in vivo"
+    ],
+    "ft-ir": [
+      "FTIR"
+    ],
+    "ftir": [
+      "FTIR"
+    ],
+    "h&e": [
+      "Histología H&E"
+    ],
+    "haadf": [
+      "STEM"
+    ],
+    "haadf-stem": [
+      "STEM"
+    ],
+    "he": [
+      "Histología H&E"
+    ],
+    "histologia h&e": [
+      "Histología H&E"
+    ],
+    "mossbauer": [
+      "Mössbauer"
+    ],
+    "nmr": [
+      "RMN"
+    ],
+    "pl": [
+      "Fotoluminiscencia"
+    ],
+    "potencial zeta": [
+      "Potencial zeta"
+    ],
+    "stem": [
+      "STEM"
+    ],
+    "tga": [
+      "TGA"
+    ],
+    "tga/dsc": [
+      "DSC",
+      "TGA"
+    ],
+    "tga/dta": [
+      "TGA",
+      "DTA"
+    ],
+    "uv-vis": [
+      "UV-vis"
+    ],
+    "uvvis": [
+      "UV-vis"
+    ],
+    "uvvis spectroscopy": [
+      "UV-vis"
+    ],
+    "zeta": [
+      "Potencial zeta"
+    ]
+  },
+  "non_technique_markers": [
+    "au m",
+    "bf",
+    "citometria",
+    "dapi",
+    "dic",
+    "dioc6",
+    "distribucion de tamano",
+    "fitc",
+    "n2",
+    "pas",
+    "pi"
+  ]
+}

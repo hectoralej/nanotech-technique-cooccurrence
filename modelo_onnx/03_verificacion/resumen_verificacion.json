@@ -1,0 +1,30 @@
+{
+ "n_recortes": 200,
+ "nota": "recortes de entrenamiento: solo se mide equivalencia entre formatos, no desempe\u00f1o",
+ "ensamble3_fp32.onnx": {
+  "dif_max": 3e-06,
+  "dif_media": 0.0,
+  "coincide_clase": 1.0,
+  "segundos_por_imagen_cpu": 0.063,
+  "tamano_mb": 260.0
+ },
+ "ensamble3_int8.onnx": {
+  "dif_max": 0.06012,
+  "dif_media": 0.007765,
+  "coincide_clase": 0.985,
+  "segundos_por_imagen_cpu": 0.036,
+  "tamano_mb": 67.2
+ },
+ "semilla0_int8.onnx": {
+  "dif_max": 0.085873,
+  "dif_media": 0.012273,
+  "coincide_clase": 0.985,
+  "segundos_por_imagen_cpu": 0.012,
+  "tamano_mb": 22.4
+ },
+ "acierto_ensamble_pytorch_sobre_estos_recortes_de_entrenamiento": 0.815,
+ "veredicto": {
+  "fp32_ok": true,
+  "int8_ok": true
+ }
+}

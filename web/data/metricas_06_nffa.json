@@ -1,0 +1,107 @@
+{
+ "articulos_comunes": 1114,
+ "semillas": {
+  "A": [
+   0,
+   1,
+   2
+  ],
+  "B": [
+   0,
+   1,
+   2
+  ],
+  "C": [
+   0,
+   1,
+   2
+  ]
+ },
+ "tabla": [
+  {
+   "brazo": "A",
+   "semillas": 3,
+   "acc_media": 0.5476,
+   "acc_bal_media": 0.4969,
+   "f1_media": 0.5047,
+   "acc_sd": 0.0077,
+   "acc_bal_sd": 0.0107,
+   "f1_sd": 0.0104,
+   "acc_ensamble": 0.561,
+   "acc_bal_ensamble": 0.5106,
+   "f1_ensamble": 0.5206
+  },
+  {
+   "brazo": "B",
+   "semillas": 3,
+   "acc_media": 0.5332,
+   "acc_bal_media": 0.4793,
+   "f1_media": 0.4872,
+   "acc_sd": 0.0108,
+   "acc_bal_sd": 0.0107,
+   "f1_sd": 0.0109,
+   "acc_ensamble": 0.5476,
+   "acc_bal_ensamble": 0.4929,
+   "f1_ensamble": 0.5021
+  },
+  {
+   "brazo": "C",
+   "semillas": 3,
+   "acc_media": 0.5114,
+   "acc_bal_media": 0.4555,
+   "f1_media": 0.464,
+   "acc_sd": 0.0102,
+   "acc_bal_sd": 0.0097,
+   "f1_sd": 0.0109,
+   "acc_ensamble": 0.5215,
+   "acc_bal_ensamble": 0.4657,
+   "f1_ensamble": 0.476
+  }
+ ],
+ "diferencias": {
+  "B - A": {
+   "acc": -0.013464991023339312,
+   "f1": -0.018531102832540336,
+   "IC95": {
+    "acc": [
+     -0.035008976660682256,
+     0.008078994614003632
+    ],
+    "f1": [
+     -0.04187501175942105,
+     0.0051460187535826854
+    ]
+   }
+  },
+  "B - C": {
+   "acc": 0.02603231597845601,
+   "f1": 0.026052502383162923,
+   "IC95": {
+    "acc": [
+     0.0026929982046678402,
+     0.047576301615798955
+    ],
+    "f1": [
+     0.0007849321717547889,
+     0.049986067690967695
+    ]
+   }
+  },
+  "C - A": {
+   "acc": -0.03949730700179532,
+   "f1": -0.04458360521570326,
+   "IC95": {
+    "acc": [
+     -0.06373429084380611,
+     -0.016157989228007152
+    ],
+    "f1": [
+     -0.07030999433921592,
+     -0.02009245586840141
+    ]
+   }
+  }
+ },
+ "veredicto": "NO CONCLUYENTE/MARGINAL: el IC de B \u2212 A incluye 0. Se informa como resultado nulo (el preentrenamiento morfol\u00f3gico externo no mejora de forma detectable con esta muestra).",
+ "criterio": "F1 macro por articulo, ensamble de semillas, IC95 bootstrap de articulos (2000); exito si B-A y B-C excluyen 0"
+}

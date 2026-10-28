@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atlas navegable de evidencia sobre nanoportadores y técnicas de caracterización.">
+  <title>Nano2Predict · Atlas</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#explorar">Explorador</a>
+      <a href="figuras.html">Figuras y paneles</a>
+      <a href="construccion.html">Cómo se construyó</a>
+      <a href="modelos.html">Modelos y límites</a>
+      <a href="demo.html">Demo del modelo</a>
+    </nav>
+    <span class="edition">Atlas de evidencia · prototipo</span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <p class="eyebrow">EVIDENCIA ABIERTA · NANOTECNOLOGÍA</p>
+        <h1>De la literatura a<br>la evidencia navegable.</h1>
+        <p class="intro">Un atlas de artículos, micrografías y mediciones de nanoportadores con citas que permiten volver a la fuente.</p>
+        <a class="text-link" href="#explorar">Explorar la base <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note">
+        <span class="note-rule"></span>
+        <p>Encuentra una formulación, revisa cómo se caracterizó y abre el artículo original desde la ficha.</p>
+        <span class="note-foot">EUROPE PMC · ARTÍCULOS DE ACCESO ABIERTO</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Contenido de la base">
+      <div class="stat"><span id="count-articles">—</span><label>artículos</label></div>
+      <div class="stat"><span id="count-panels">—</span><label>micrografías</label></div>
+      <div class="stat"><span id="count-descriptors">—</span><label>descriptores v03 utilizables</label></div>
+      <div class="stat"><span id="count-spectra">—</span><label>espectros</label></div>
+      <p class="data-stamp" id="data-stamp">Cargando datos…</p>
+    </section>
+
+    <section class="visual-overview" aria-labelledby="atlas-summary-title">
+      <div class="section-heading"><div><p class="eyebrow">VISTA RÁPIDA</p><h2 id="atlas-summary-title">Qué contiene el Atlas</h2></div><p class="section-caption">Resumen calculado desde las figuras y paneles del repositorio. Pulsa una categoría para abrirla en el explorador visual.</p></div>
+      <div id="atlas-charts" class="atlas-charts" aria-live="polite"><p class="no-data">Cargando resumen visual…</p></div>
+    </section>
+
+    <section class="explorer-section" id="explorar">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONSULTA</p><h2>Explorador de artículos</h2></div>
+        <p class="section-caption">Filtra por sistema y técnica; selecciona un resultado para abrir su evidencia.</p>
+      </div>
+      <div class="filters">
+        <label class="search-field"><span>Buscar</span><input id="search" type="search" placeholder="Título, DOI o PMCID" autocomplete="off"></label>
+        <label><span>Portador</span><select id="family"><option value="">Todos los portadores</option></select></label>
+        <label><span>Categoría</span><select id="usage"><option value="">Todas</option></select></label>
+        <label class="tier-filter"><span>Nivel de evidencia <abbr class="help-icon" title="E1: micrografía, medidas y espectro. E2: micrografía y medidas o espectro." aria-label="Ayuda sobre niveles de evidencia">?</abbr></span><select id="tier"><option value="">Todos los niveles</option><option value="E1">E1 · micrografía + medidas + espectro (1.130)</option><option value="E2">E2 · micrografía + medidas o espectro (577)</option></select><small id="tier-help">E1 reúne las tres evidencias; E2 requiere micrografía y al menos una de las otras dos.</small></label>
+        <label><span>Microscopía</span><select id="variant"><option value="">Todas</option></select></label>
+        <label><span>Espectro</span><select id="technique"><option value="">Todas</option></select></label>
+      </div>
+      <div class="explorer-grid">
+        <div class="results-pane">
+          <div class="results-header"><span id="result-count">Artículos</span><span id="page-label"></span></div>
+          <div id="results" class="results-list" aria-live="polite"></div>
+          <div class="pagination"><button id="previous" type="button">Anterior</button><button id="next" type="button">Siguiente</button></div>
+        </div>
+        <article id="detail" class="detail-pane" aria-live="polite">
+          <div class="empty-detail"><span class="empty-symbol">↗</span><p>Selecciona un artículo para ver su ficha.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="model-section" id="modelo" hidden aria-label="Evaluación del modelo"></section>
+
+    <section class="method-section" id="metodo">
+      <div class="section-heading">
+        <div><p class="eyebrow">TRAZABILIDAD</p><h2>Cómo se construyó</h2></div>
+        <p class="section-caption">Cada registro conserva una ruta de vuelta al dato publicado.</p>
+      </div>
+      <div class="method-steps">
+        <div><span>01</span><h3>Búsqueda</h3><p>Localización de artículos de acceso abierto en Europe PMC.</p></div>
+        <div><span>02</span><h3>Extracción con IA</h3><p>Identificación de paneles, técnicas, muestras y mediciones.</p></div>
+        <div><span>03</span><h3>Verificación de citas</h3><p>Comprobación por código de las citas textuales frente a la fuente.</p></div>
+        <div><span>04</span><h3>Control de calidad</h3><p>Revisión asistida de una muestra y registro de discrepancias.</p></div>
+      </div>
+      <div class="qc-block">
+        <div><p class="eyebrow">MUESTRA REVISADA</p><h3>Control de calidad</h3><p id="qc-note">Cargando resultados de la muestra…</p></div>
+        <div id="qc-table" class="qc-table"></div>
+      </div>
+      <p class="method-more"><a class="text-link" href="construccion.html">Ver decisiones y evidencias del proceso →</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><strong>Nano2Predict</strong><span>Atlas de evidencia científica</span></div>
+    <div class="footer-credits">
+      <p>Artículos consultados mediante <a href="https://europepmc.org/" target="_blank" rel="noopener noreferrer">Europe PMC</a>.</p>
+      <p>Las imágenes proceden de artículos de acceso abierto; cada ficha enlaza al DOI y muestra la licencia disponible para consultar sus condiciones.</p>
+      <p>Cálculo realizado en el supercomputador Kabré (CeNAT/CNCA).</p>
+    </div>
+    <a class="footer-top" href="#inicio">Volver arriba ↑</a>
+  </footer>
+  <aside class="quality-notice" role="note"><span>Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</span><button type="button" aria-label="Cerrar aviso">×</button></aside>
+  <script src="app.js" defer></script>
+  <script src="notice.js" defer></script>
+  <script src="visuals.js" defer></script>
+</body>
+</html>
