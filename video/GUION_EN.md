@@ -1,152 +1,126 @@
-# Nano2Predict video script · English narration (v1, Friday October 23)
+# Nano2Predict video script · English subtitles (v4, October 24)
 
-Versión en inglés de [GUION.md](GUION.md). **La narración está en inglés** porque el video se entrega en ese idioma. Las indicaciones de pantalla y las notas para el equipo siguen en español. Si cambia una cifra o una frase, hay que cambiarla en los dos archivos.
+**Idioma del video:** la narración es en **español** (`GUION.md`) y este archivo es el texto de los **subtítulos en inglés**: cada bloque traduce lo que se dice en español, con los mismos tiempos. Si cambia una cifra o una frase en español, hay que cambiarla aquí.
 
-**Total length:** 10:00 maximum (target: finish at 9:50). **Atlas demo:** 2:30 (required: between 2:00 and 3:00).
-**How to read it:** "Narración" is the text to read aloud, at about 150 words per minute. Sentences are short on purpose. Numbers are written the English way (1,824 = "one thousand eight hundred twenty-four").
+**Total length:** 10:00 maximum (target: 9:50). **Atlas demo:** 2:30. **Budget:** problem 1:00 · how the database was built 1:30 · **from figure to crop 1:30 (new)** · Atlas 2:30 · models and decisions 2:00 · limitations and closing 1:20 = 9:50.
+**How to read it:** the text is what appears as subtitles; the Spanish narration sets the timing (≈ 150 words per minute). Numbers are written the English way (1,824 = "one thousand eight hundred twenty-four").
 
-> **Voces propuestas** (a confirmar el sábado): **Voice A**: problem, database, closing. **Voice B**: models and limitations. La demo del Atlas la narra quien la grabe (Carlos).
+> **Voces propuestas:** **Voice A**: problem, database, figure to crop, closing. **Voice B**: models and decisions. La demo del Atlas la narra quien la grabe (Carlos).
 
-## Importante: la pantalla está en español
-El Atlas, la presentación y las figuras (1–10) están en español. Hay tres opciones, de menor a mayor esfuerzo; hay que elegir una el sábado:
-1. **Subtítulos en inglés** sobre la narración y dejar la interfaz en español (lo más simple). En la demo, una frase de contexto: *"The interface is in Spanish, the language of the project."*
-2. **Rótulos en inglés** sobre las figuras clave (1, 8, 9, 10) hechos en el montaje.
-3. **Regenerar las figuras en inglés** (Codex de Héctor; los CSV de `figuras/figuras_para_el_video/datos/` ya tienen los datos).
+## Subtitulado
+La narración, la pantalla y las figuras están en español; los subtítulos en inglés van encima. Las figuras de flujo y de modelos tienen botón **EN** (etiquetas en inglés) por si se quiere mostrar la versión en inglés en lugar de subtitular. Frases cortas, máximo dos líneas por subtítulo.
 
-**Términos: lo que se lee en pantalla (español) ↔ lo que se dice (inglés)**
-| Pantalla | Narración |
+**Términos: pantalla (español) ↔ subtítulos (inglés)**
+| Pantalla | Subtítulos |
 |---|---|
-| micrografía | micrograph |
-| descriptores / medidas | measurements |
-| tamaño, PDI, potencial zeta | size, PDI (polydispersity index), zeta potential |
-| línea base | baseline |
+| micrografía · recorte de panel | micrograph · panel crop |
+| figura compuesta / pareja / simple / superpuesta / excluir | composite / pair / simple / overlaid spectra / exclude |
+| línea base · intervalo de confianza | baseline · confidence interval |
+| utilizables | usable |
 | exactitud · F1 macro | accuracy · macro F1 score |
-| intervalo de confianza | confidence interval |
-| figura completa / panel | full figure / panel |
-| acceso abierto · CC BY | open access · CC BY (Creative Commons Attribution) |
-| liposoma · portador lipídico, polimérico, inorgánico, nanomaterial | liposome · lipid, polymer, inorganic, nanomaterial carrier |
 
-## Number rules (mandatory) / Reglas de cifras
-**Yes, say it with these numbers:** 1,824 articles read · 1,707 with evidence (1,130 E1 + 577 E2) · 2,726 micrographs · 3,116 measurement rows · 4,015 spectra · every data point has a quote verified by code (only 2 articles had quotes rejected) · size: R² ≈ 0.24 against 0.18 for the baseline, with a median relative error of ≈ 44% · carrier class from measurements: macro F1 ≈ 0.51 against 0.12 for the majority class · image only: macro F1 ≈ 0.44 [0.42–0.47] against 0.16 for the majority class · image plus measurements ≈ 0.56 [0.54–0.59] against 0.53 [0.50–0.55] for measurements alone (difference +0.035 [0.014–0.056]) · everything evaluated by article, with confidence intervals.
-**Do not say:** "validated by humans" · "the model predicts / is accurate" · "we predict size" without the 44% error · formulation-flag numbers as a main result · "a neural network solves the problem" · "it works in production".
-**Cifra de imagen (confirmada por Héctor, 23 oct):** se usa la del Atlas, **0.44**. El 0.475 es una variante exploratoria y no se dice. Las cifras de imagen son exploratorias: Héctor entrega las finales (ajuste fino) el sábado a las 3 pm; entonces se actualizan aquí, en `GUION.md` y en `producto/presentacion/construir_datos.py`.
+## Number rules (mandatory)
+**Yes, with these numbers:** 1,824 articles read · 1,707 with evidence · 2,726 micrographs · 3,116 measurement rows, of which **2,538 are usable** after the v03 audit (say "usable", never "validated") · 4,015 spectra · every data point with a code-verified quote (only 2 articles had quotes rejected) · **5,539 figures classified one by one** · **8,108 panel crops** · **4,670 crops of particle micrographs with a class** · blind audit **47 out of 48** figures with the exact number of panels · model boxes against human boxes **IoU 0.89 on 22 figures** · size R² ≈ 0.24 against 0.18, median relative error ≈ 44% · class from measurements macro F1 ≈ 0.51 against 0.12 · image only ≈ 0.44 [0.42–0.47] against 0.16 · GPU fine-tuning 0.46 [0.44–0.48], no clear gain · panel crops (different samples: n = 1,112 and 786): a small gain, partly from more views per article, and the fusion CI includes zero · NFFA: no improvement (B − A = −0.019 [−0.042, +0.005]) · final model (n = 1,114, article-level cross-validation): accuracy 0.56 and F1 0.52 against 0.44 for the majority class (492 of 1,114 articles) · everything evaluated by article, with confidence intervals.
+**Do not say:** "validated by humans" · "the model predicts / is accurate" · "we predict size" without the 44% error · "it works in production" · "a neural network solves the problem" · formulation-flag numbers as a main result · **"IoU 0.88 against Codex" (it has no report)** · **"we reviewed 20 articles" as the quality-control centerpiece** · **mixing numbers from different samples in one sentence or table** (every number with its n).
 
 ---
 
 ## Block 1 · The problem (0:00–1:00) · Voice A
-**Se ve en pantalla:** portada de la presentación (5 s) → sección «El problema» con la **Figura 1**.
+**Se ve en pantalla:** portada (5 s) → «El problema» con la **Figura 1**.
 
-**Narration:**
-> A nanoparticle can carry a drug exactly where it is needed.
-> But designing a good one is still, to a large extent, trial and error.
-> Every lab measures the size, the charge and the shape of its particles. And then publishes the results in a paper.
-> That data exists. But it is locked inside PDFs: in tables, in figure captions, in single sentences.
-> To train a model, you need three things together: the micrograph, the measurements of that same sample, and the source they came from.
-> Without that database, there are no models. So we started by building it.
-> We read 1,824 open-access papers. In 1,707 of them, we found useful evidence.
-> In total: 2,726 micrographs, 3,116 rows of measurements, and 4,015 spectra.
-> And every single data point comes with its source quote.
+**Subtitles:**
+> A nanoparticle can deliver a drug precisely where it is needed.
+> But designing a good one depends heavily on experimentation: synthesize, measure, repeat.
+> Every laboratory publishes the size, charge and shape of its particles in an article. That data exists, but it is locked inside PDFs: in tables, in figure captions, in isolated sentences.
+> Training a model requires three things together: the micrograph, the measurements of that same sample, and the source they came from.
+> Without that foundation, there are no models. So we began by building it.
+> With it, we asked what can be predicted from the image and the measurements. If it worked, a laboratory could get guidance before it synthesizes. Today, this is exploratory, and that is how we present it.
+> We read 1,824 open-access articles. In 1,707 of them, we found useful evidence: 2,726 micrographs, 3,116 rows of measurements and 4,015 spectra.
+> And every data point comes with its source quote.
 
 *(≈ 150 words · 1:00)*
 
 ---
 
-## Block 2 · How the database was built (1:00–3:00) · Voice A
-**Se ve en pantalla:** sección «Cómo se construyó»: **Figura 8** → el **ejemplo interactivo de extracción con cita** (pestaña «Lípidos (NLC)») → **Figura 9**.
+## Block 2 · How the database was built (1:00–2:30) · Voice A
+**Se ve en pantalla:** «Cómo se construyó»: la línea de proceso se anima → el **ejemplo de extracción con cita** (pestaña «Lípidos (NLC)»).
 
-**Narration:**
-> The process has four steps.
-> First, the search. We used Europe PMC, and only open-access papers with a Creative Commons license. That lets us show the images, always crediting the original paper.
-> Second, extraction. A language model reads the full text, and proposes which micrographs there are, which technique was used, and the values for size, PDI and zeta potential.
+**Subtitles:**
+> First, the search. We used Europe PMC, and only open-access articles with a Creative Commons license. That lets us show the images, always crediting the original article.
+> Second, extraction. A language model reads the full text and proposes which micrographs there are, which technique was used, and the values for size, PDI and zeta potential.
 > But an AI can make mistakes. Or make things up.
-> So the third step is the central rule of the project. Every data point must come with a quote from the paper. And a program checks that this quote, and those numbers, really appear in the text.
-> *[Show the example]* Here is a real case. The system extracted a size of 161 nanometers, a PDI of 0.444, and a zeta potential of minus 28.5 millivolts. And this is the sentence in the paper it came from.
-> If the quote is not found, the data point is rejected. In the whole database, the code rejected quotes in only two papers.
-> The fourth step is quality control. We reviewed a sample of 20 papers, with the help of an AI.
-> Of what could be checked: 19 out of 19 micrographs were correct, 9 out of 10 measurements, and 14 out of 16 spectra.
-> This is a small sample, and the review was AI-assisted, not done by people. We present it as a preliminary estimate, not as the accuracy of the whole database.
+> So the central rule is this: every data point must come with a quote from the article. And a program checks that this quote, and those numbers, really appear in the text.
+> *[Show the example]* Here is a real case: 161 nanometers, a PDI of 0.444, and a zeta potential of minus 28.5 millivolts. And this is the sentence in the article it came from. If the quote is not found, the data point is rejected. In the whole database, the code rejected quotes in only two articles.
+> Then we audited the descriptors: of 3,116 rows, 2,538 are usable.
 
-*(≈ 235 words · 1:35 at a calm pace; leaves 25 s for the screen)*
+*(≈ 150 words · 1:00; ≈ 30 s remain for the process line and the example)*
 
 ---
 
-## Block 3 · Atlas demo (3:00–5:30) · Carlos records and narrates
-**Se ve en pantalla:** grabación del Atlas (`producto/web/`). Ajustar los conteos de filtros tras la revisión visual final de Carlos.
+## Block 3 · From figure to crop (2:30–4:00) · Voice A
+**Se ve en pantalla:** las pantallas de la sección «De la figura al recorte». Las imágenes de artículos llevan su crédito (artículo, DOI, licencia CC BY). **La figura del flujo (`fig_hero_flujo`, botón EN) se queda al menos 8 s en pantalla.**
 
-| Time | Acción en pantalla | Narration |
+| Screen | Se ve | Subtitles |
 |---|---|---|
-| 3:00–3:15 | Portada del Atlas con las cuatro cifras. | "This is the Nano2Predict Atlas. It brings together published evidence on nanocarriers: their papers, their micrographs, and the techniques used to characterize them. The interface is in Spanish, the language of the project." |
-| 3:15–3:45 | Explorador: **Liposoma** + microscopía **cryoTEM**. Mostrar cómo baja el número de resultados. | "I can combine a type of carrier with a technique. For example, liposomes observed with cryo-electron microscopy. The list shrinks to the papers that document both." |
-| 3:45–4:30 | Abrir una ficha con imagen y descriptores. Desplegar una cita. Pulsar «Copiar cita/DOI». | "Each record shows the micrograph, the paper's DOI, and the measurements of size, PDI and zeta potential. Next to every measurement, the exact quote that supports it. With one click, I can copy the quote or the DOI to cite it." |
-| 4:30–5:05 | En un artículo con predicción real, mostrar el panel del modelo: clase de la base **separada** de la predicción, y los vecinos. | "Here is the model. The label from the database and the model's prediction are always shown separately, because the prediction is exploratory. Below, the micrographs that look most similar to the model, always from other papers." |
-| 5:05–5:20 | Filtrar por **XRD** y abrir un artículo de nanomaterial. | "We can also explore by spectral technique, for example X-ray diffraction, and see which material was characterized." |
-| 5:20–5:30 | Ir a «Cómo se construyó». | "And at the end, how it was built: every data point keeps its path back to the source." |
+| 1 · The problem | Barras apiladas de los cinco destinos | "Here is a problem: a figure in an article is almost never a single micrograph. We classified all 5,539 figures one by one, by looking at the image. Six out of ten are composite: three or more panels mixed together. And some carry overlaid spectra. A model cannot learn well from that. The quality of the images, not the architecture, was what limited the result the most." |
+| 2 · Five destinations | Pulsar «Compuesta» y «Superpuesto» | "Every figure goes to one of five destinations: simple, pair, composite, overlaid spectra, or exclude. Overlaid spectra cannot be used for training." |
+| 3 · Three steps | «figura original → cajas → recortes» | "For composite figures, a model draws one box per panel, and each box is cropped." |
+| 4 · The flow | **`fig_hero_flujo`** (≥ 8 s) | "This is the whole path: of 5,539 figures, 1,702 have panels. From them come 8,108 panel crops, and 4,670 are micrographs of particles with a carrier class: that is what goes into the model. Insets, spectra, fluorescence and biology stay out." |
+| 5 · Untouched sample | Rejilla al azar por clase | "This is a random sample, with no cherry-picking. Some crops carry a piece of the neighboring panel, and the class is the article's, not the crop's." |
+| 6 · Quality | Cifras y diagrama (botón EN) | "How did we check this stage? A blind audit got the number of panels right in 47 out of 48 figures, and the model's boxes match boxes drawn by hand by a person, with an IoU of 0.89 on 22 figures. These are small samples. Anything doubtful goes to a review queue: precision before quantity." |
 
-**Condiciones antes de grabar:** igual que en `GUION.md` (confirmar que los JSON del modelo sean los finales; cronometrar dos ensayos; si pasa de 2:40, recortar el segmento de XRD). Verificar el número de resultados de «Liposoma + cryoTEM» (hoy: 15) antes de decirlo.
-
----
-
-## Block 4 · Models (5:30–8:00) · Voice B
-**Se ve en pantalla:** sección «Modelos» de la presentación (escalera interactiva) → **Figura 10** → gráfica de comparación imagen/medidas/fusión (pendiente de Héctor).
-
-**Narration:**
-> With this database, we asked: can we predict anything useful?
-> We built a ladder. We started with the simplest model and climbed one step at a time. At every step, we compared against a baseline.
-> First question: particle size.
-> Always predicting the average explains nothing: R-squared of zero. Predicting the average of each carrier type explains 18 percent.
-> Our best model, a regularized linear regression using techniques and measurements, reaches 0.24.
-> That is a real improvement, but a small one. The typical error is still around 44 percent.
-> And the more complex models, like Random Forest and boosting, did not improve it.
-> Second question: the type of carrier. Lipid, polymer, inorganic, or nanomaterial.
-> Using the measurements, the macro F1 score is 0.51. Always answering the most common class gives 0.12.
-> Third question: is the image alone enough?
-> We used features from two pretrained networks, ResNet and DINOv2, kept frozen, with a simple classifier on top.
-> The result: a macro F1 of 0.44, with a confidence interval from 0.42 to 0.47. The baseline is 0.16. Better than chance, but the image alone is weak. And note: we used the full figure, which often mixes several panels.
-> Fourth: combining the image with the measurements. It rises from 0.53 to 0.56. It is a small gain, but its confidence interval does not include zero.
-> Everything is evaluated by splitting by paper: figures from the same paper are never in both training and testing. And every number comes with its confidence interval.
-> These are exploratory numbers. The results are modest. And we present them as modest.
-
-*(≈ 275 words · 1:50; leaves 40 s for the charts)*
+*(≈ 215 words · ≈ 1:25; ≈ 5 s remain. If it does not fit, drop screen 2)*
 
 ---
 
-## Block 5 · Decisions and limitations (8:00–9:00) · Voice B
-**Se ve en pantalla:** sección «Decisiones» (tabla filtrable) → sección «Limitaciones».
+## Block 4 · Atlas demo (4:00–6:30) · Carlos records and narrates
+**Se ve en pantalla:** grabación del Atlas **actualizado** de Carlos (no la carpeta `web/` del zip de la presentación).
 
-**Narration:**
-> We made decisions, and we wrote them down.
-> We excluded viral vectors, like AAV. They are characterized with different techniques, and our scope is nanoparticles.
-> We work with the full figure, not cropped panels. This is the main limitation of the image model.
-> For the class models, we forbade the carrier type and the title as inputs, because they would be the answer in disguise. An automatic test guarantees it.
-> And we know what we are missing. The database has no formulation parameters: no ratios, no preparation conditions. That is why size is so hard to predict.
-> The labels come from an AI, and the quality check covered 20 papers, assisted by an AI.
-> And there is still no external validation.
+| Time | Acción en pantalla | Subtitles |
+|---|---|---|
+| 4:00–4:12 | Portada del Atlas con las cuatro cifras. | "This is the Nano2Predict Atlas: published evidence on nanocarriers, with their articles, their micrographs, and the techniques used to characterize them." |
+| 4:12–4:38 | Explorador: **Liposoma** + **cryoTEM**. | "I can combine a type of carrier with a technique. For example, liposomes observed with cryo-electron microscopy. The list shrinks to the articles that document both." |
+| 4:38–5:10 | Abrir una ficha; desplegar una cita; «Copiar cita/DOI». | "Each record shows the micrograph, the article's DOI, and the measurements of size, PDI and zeta potential. Next to every measurement, the exact quote that supports it, which you can copy with one click." |
+| 5:10–5:25 | Vista **«Figuras y paneles»**. | "In Figures and Panels, each figure appears with the boxes that separate its panels, and the crops next to it. You can filter by figure type, technique and class." |
+| 5:25–5:50 | Panel del modelo: clase de la base **separada** de la predicción; vecinos. | "Here is the model. The label from the database and the model's prediction are always shown separately, because the prediction is exploratory. Below, the most similar micrographs, always from other articles." |
+| 5:50–6:20 | **Demo «sube tu micrografía»**: subir el recorte de una partícula. | "And this is the demo: I upload the micrograph of a particle, and the model, which runs inside the browser, returns the carrier class it predicts. With three warnings: it only works on micrographs of particles, its probabilities are not calibrated, and the class is the article's." |
+| 6:20–6:30 | «Cómo se construyó». | "And every data point keeps its path back to the source." |
 
-*(≈ 125 words · 0:50)*
+**Antes de grabar:** igual que en `GUION.md`: comprobar la narración de «Figuras y paneles» y de la demo contra el Atlas de Carlos (rama `web-carlos`); usar un recorte de partículas en la demo; confirmar `prueba: false`; cronometrar dos ensayos.
 
 ---
 
-## Block 6 · Next steps and credits (9:00–10:00) · Voice A
-**Se ve en pantalla:** sección «Siguientes pasos» → créditos (Europe PMC, Kabré CeNAT/CNCA).
+## Block 5 · Models and decisions (6:30–8:30) · Voice B
+**Se ve en pantalla:** «Modelos» (pestañas tamaño, clase, imagen) → «Con recortes de panel (preliminar)» con **`fig_modelos_2`** (≥ 8 s) → «Lo que no funcionó: NFFA» con **`fig_modelos_3`** (≥ 8 s) → «Modelo final» → «Decisiones» (grupo «Figuras»). Botón EN para las figuras.
 
-**Narration:**
-> What comes next?
-> First, cropping the panels of each figure, and collecting more figures per paper. That way, the image model will see micrographs, not charts.
-> Second, fine-tuning the networks on a GPU, and training with one class removed to see how much the model depends on each one.
-> Third, extracting preparation conditions, and validating with new papers and with blind human review.
-> Thank you to Europe PMC, for opening access to the literature.
-> Thank you to the Kabré cluster, from CeNAT and its National Advanced Computing Laboratory, where we computed the image features.
-> And thank you to our professor, William [apellido por confirmar], for the questions and the guidance.
-> Nano2Predict: from the literature, to evidence you can check.
+**Subtitles:**
+> With this database, we asked: can we predict anything useful? We built a ladder, from simple to complex, and at every step we compared against a baseline.
+> Size: our best model reaches 0.24, against 0.18 for the baseline. That is a real improvement, but a small one: the typical error is still around 44 percent.
+> Carrier type, from the measurements: a macro F1 of 0.51, against 0.12 for always answering the most common class. With the image alone, 0.44 against 0.16: it is weak, and fine-tuning the full networks does not clearly improve it.
+> *[Crops figure]* And with panel crops instead of the full figure? A small improvement: from 0.42 to 0.47 with ResNet50, and from 0.46 to 0.51 with DINOv2. But largely because crops give more views per article: with the same number of views, the advantage in accuracy falls below one point. And in the fusion with measurements, the interval includes zero. These are different samples: 1,112 and 786 articles.
+> *[NFFA figure]* We also tried pretraining on microscopy images from another database, NFFA. It did not work: it does not improve, and with shuffled labels it gets worse. It is a negative result, and we present it as one.
+> *[Final model]* The final model is DINOv2, with three seeds, trained on 4,670 crops. Its reference performance, by article-level cross-validation: accuracy 0.56 and F1 0.52, against 0.44 for the majority class. It is exploratory.
+> Everything is evaluated by article, with its confidence interval. And we wrote down our decisions, with their reasons and their evidence.
 
-*(≈ 110 words · 0:45; 15 s of margin)*
+*(≈ 265 words · ≈ 1:50; ≈ 10 s remain: this is the tightest block. If it does not fit, drop the size sentence or the decisions sentence)*
+
+---
+
+## Block 6 · Limitations and closing (8:30–9:50) · Voice A
+**Se ve en pantalla:** «Limitaciones» → «Siguientes pasos» → créditos.
+
+**Subtitles:**
+> And we know what we are missing. The panel crops are preliminary: they improve the image model, but partly because they give more views per article. The database has no formulation parameters: ratios, preparation conditions. The class "nanomaterial" is a general category. A sample of 20 articles was reviewed with the help of an AI; a broad human audit is still missing. And there is no external validation.
+> What comes next? More figures per article. Training with one class left out, to learn how much the model depends on each class, whether it has learned real features of the particles or simply follows the most abundant class, and where to collect more data first. Class-specific models, with reference spectra. External validation. And extracting more preparation conditions.
+> Our thanks to Europe PMC, for opening access to the scientific literature. Our thanks to the Kabré cluster, of CeNAT and its National Advanced Computing Collaboratory (CNCA), where the crops, the NFFA experiment and the final model were trained. And our thanks to Professor William Zamora, for his questions and guidance.
+> Nano2Predict: from the literature, to evidence you can verify.
+
+*(≈ 190 words · ≈ 1:20)*
 
 ---
 
 ## Pendientes antes de grabar la versión en inglés
-1. **Elegir cómo se maneja la pantalla en español** (ver la sección «Importante»).
-2. **Probar la narración en voz alta con cronómetro.** El inglés ocupa un poco más que el español: si el Bloque 4 pasa de 2:30, quitar la frase sobre boosting.
-3. **Revisar la pronunciación:** «Kabré» (ka-BRÉ), «DINOv2» («dino v two»), «cryo-EM» («cry-oh E M»), «PDI» («P D I»), «CeNAT» («seh-NAHT»).
-4. **Cifras finales de imagen** (ajuste fino, sábado 3 pm) y **figura de comparación** (Figura 11): las entrega Héctor; entonces se actualizan las cifras del Bloque 4.
-5. **Voces y apellido del profesor.**
-6. Si se cambia una cifra o frase en `GUION.md`, repetirlo aquí.
+1. Elegir cómo se maneja la pantalla en español (subtítulos, rótulos o figuras en inglés).
+2. Probar la narración en voz alta con cronómetro: el inglés suele ocupar algo más. Si el Bloque 5 se pasa, quitar la frase de las decisiones («For example: …»).
+3. Pronunciación: «Kabré» (ka-BRÉ), «DINOv2» («dino v two»), «cryo-EM» («cry-oh E M»), «PDI» («P D I»), «CeNAT» («seh-NAHT»), «IoU» («I-o-U» o «intersection over union»).
+4. Cifras con recortes y modelo final (pendientes de Héctor) y los otros pendientes de `GUION.md`.
