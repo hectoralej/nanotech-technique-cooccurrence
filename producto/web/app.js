@@ -11,6 +11,11 @@
   ];
   const carrierLabels = new Map(carrierTypes);
   const usageLabels = new Map([['nanoportador', 'Nanoportador'], ['nanomaterial', 'Nanomaterial']]);
+  const microscopyLabels = new Map([
+    ['TEM_prep_not_declared', 'TEM, preparación no declarada'], ['TEM_negstain', 'TEM con tinción negativa'],
+    ['TEM_dried_unstained', 'TEM, secado sin tinción'], ['TEM_posstain', 'TEM con tinción positiva'],
+    ['cryoTEM', 'cryo-TEM'], ['HRTEM', 'HRTEM'], ['SEM', 'SEM'], ['STEM', 'STEM']
+  ]);
 
   const escText = value => value == null || value === '' ? 'No reportado' : String(value);
   const number = value => value == null || value === '' ? 'No reportado' : String(value);
@@ -24,6 +29,8 @@
   const articleKey = row => row.pmcid || row.doi || '';
   const carrierLabel = article => carrierLabels.get(clean(article.carrier_type)) || 'Otro';
   const usageLabel = value => usageLabels.get(clean(value).toLowerCase()) || clean(value);
+  const microscopyLabel = value => microscopyLabels.get(clean(value)) || clean(value);
+  const normalizeTechnique = value => ({ uvvis: 'UV-vis', 'uv-vis': 'UV-vis', cryotem: 'cryo-TEM', 'cryo-tem': 'cryo-TEM', 'ft-ir': 'FTIR', edx: 'EDS', eds: 'EDS', zeta: 'Potencial zeta', 'potencial zeta': 'Potencial zeta' })[clean(value).toLowerCase()] || clean(value);
   const panelKey = row => `${row.pmcid || ''}/${row.image_file || ''}`;
   const sourceLink = row => {
     const url = clean(row.doi_link);
@@ -36,6 +43,11 @@
   const options = (select, values, labelFor = value => value) => {
     [...new Set(values.map(clean).filter(Boolean))].sort((a,b) => a.localeCompare(b,'es',{sensitivity:'base'})).forEach(value => {
       const option = document.createElement('option'); option.value = value; option.textContent = labelFor(value); select.append(option);
+    });
+  };
+  const techniqueOptions = (select, values) => {
+    [...new Set(values.map(normalizeTechnique).filter(Boolean))].sort((a,b) => a.localeCompare(b,'es',{sensitivity:'base'})).forEach(value => {
+      const option = document.createElement('option'); option.value = value; option.textContent = value; select.append(option);
     });
   };
   const setCount = (id, value) => { byId(id).textContent = Number(value || 0).toLocaleString('es-CR'); };
@@ -63,8 +75,8 @@
       option.textContent = `${label} (${count.toLocaleString('es-CR')})`; filters.family.append(option);
     });
     options(filters.usage, state.articles.map(a => a.categoria_uso), usageLabel);
-    options(filters.variant, state.panels.map(p => p.variant));
-    options(filters.technique, state.spectra.map(s => s.technique));
+    options(filters.variant, state.panels.map(p => p.variant), microscopyLabel);
+    techniqueOptions(filters.technique, state.spectra.map(s => s.technique));
     Object.values(filters).forEach(control => control.addEventListener(control === filters.search ? 'input' : 'change', () => { state.page = 0; renderResults(); }));
   }
 
@@ -80,7 +92,7 @@
     if (filters.usage.value && article.categoria_uso !== filters.usage.value) return false;
     if (filters.tier.value && article.tier !== filters.tier.value) return false;
     if (filters.variant.value && !linkedPanels.some(p => p.variant === filters.variant.value)) return false;
-    if (filters.technique.value && !linkedSpectra.some(s => s.technique === filters.technique.value)) return false;
+    if (filters.technique.value && !linkedSpectra.some(s => normalizeTechnique(s.technique) === filters.technique.value)) return false;
     return true;
   }
 
@@ -103,7 +115,7 @@
       const meta = text('span', `${article.year || 'Año no reportado'} · ${article.pmcid || 'PMCID no reportado'}`, 'result-meta'); card.append(meta);
       const tags = text('span', '', 'result-tags');
       if (article.carrier_type) tags.append(text('span', carrierLabel(article), 'tag family'));
-      if (article.tier) tags.append(text('span', article.tier, 'tag'));
+      if (article.tier) tags.append(text('span', `Nivel ${article.tier}`, 'tag'));
       if (article.categoria_uso) tags.append(text('span', usageLabel(article.categoria_uso), 'tag'));
       card.append(tags); list.append(card);
     });
@@ -147,7 +159,10 @@
     if (!prediction && !neighbors.length) return;
     const section = text('div', '', 'panel-model-evidence');
     if (prediction) {
-      section.append(text('strong', `Predicción del modelo: ${prediction.prediccion || 'no reportada'} (${modelConfidence(prediction.confianza)})`, 'model-prediction'));
+      const base = clean(panel.clase_modelo);
+      const predicted = clean(prediction.prediccion);
+      const status = base && predicted ? (base.toLocaleLowerCase('es') === predicted.toLocaleLowerCase('es') ? ' · coincide con la etiqueta de la base' : ' · discrepa de la etiqueta de la base') : '';
+      section.append(text('strong', `Predicción por artículo (clase del portador): ${predicted || 'no reportada'} (${modelConfidence(prediction.confianza)})${status}`, 'model-prediction'));
     }
     if (neighbors.length) {
       section.append(text('span', 'Micrografías parecidas', 'similar-heading'));
@@ -164,7 +179,7 @@
     const file = clean(panel.image_file);
     const local = `../imagenes/${encodeURIComponent(article.pmcid || '')}/${encodeURIComponent(file)}`;
     if (file && panel.imagen_local === true && safeImageLicense(article)) {
-      const img = document.createElement('img'); img.loading = 'lazy'; img.alt = `${panel.variant || 'Micrografía'} · ${panel.sample || 'muestra no reportada'}`;
+      const img = document.createElement('img'); img.loading = 'lazy'; img.alt = `${microscopyLabel(panel.variant) || 'Micrografía'} · ${panel.sample || 'muestra no reportada'}`;
       img.src = local;
       img.onerror = () => {
         img.remove(); const fallback = text('div', '', 'image-placeholder');
@@ -184,11 +199,11 @@
     }
     card.append(imageBox);
     const cap = text('div', '', 'micro-caption');
-    cap.append(text('strong', `${panel.fig || 'Figura no reportada'} · ${panel.variant || 'Técnica no reportada'}`));
+    cap.append(text('strong', `${panel.fig || 'Figura no reportada'} · ${microscopyLabel(panel.variant) || 'Técnica no reportada'}`));
     cap.append(text('div', panel.sample || 'Muestra no reportada'));
     if (panel.clase_modelo || panel.microscopia || panel.fold !== undefined && panel.fold !== '') {
       cap.append(text('div', `Clase del artículo (base de datos): ${panel.clase_modelo || 'no reportada'}`));
-      cap.append(text('div', `Microscopía: ${panel.microscopia || 'no reportada'} · Fold: ${panel.fold || 'no reportado'}`));
+      cap.append(text('div', `Microscopía: ${microscopyLabel(panel.microscopia) || 'no reportada'} · Fold: ${panel.fold || 'no reportado'}`));
     }
     if (panel.scale_bar_in_caption) cap.append(text('div', `Barra: ${panel.scale_bar_in_caption}`));
     if (sourceLink(article)) { const a = text('a', 'Imagen de un artículo de acceso abierto; ver licencia en el enlace · DOI ↗'); a.href = sourceLink(article); a.target = '_blank'; a.rel = 'noopener noreferrer'; cap.append(a); }
@@ -205,7 +220,7 @@
     const detail = byId('detail'); detail.replaceChildren();
     const kicker = text('div', '', 'detail-kicker');
     kicker.append(text('span', article.carrier_type ? carrierLabel(article) : 'Portador no reportado', 'tag family'));
-    if (article.tier) kicker.append(text('span', article.tier, 'tag'));
+    if (article.tier) kicker.append(text('span', `Nivel ${article.tier}`, 'tag'));
     if (article.license_epmc) kicker.append(text('span', article.license_epmc, 'tag'));
     detail.append(kicker);
     detail.append(text('h2', escText(article.title), 'detail-title'));
@@ -254,21 +269,27 @@
     else {
       const wrap = text('div', '', 'table-wrap'); const table = document.createElement('table');
       const head = document.createElement('thead'), hrow = document.createElement('tr');
-      ['Muestra','Tamaño nm','PDI','Zeta mV','Medio','Fuente / cita'].forEach(label => hrow.append(text('th', label)));
+      ['Muestra','Tamaño original nm','Tamaño final nm','PDI original','PDI final','Zeta original mV','Zeta final mV','Medio','Fuente / cita','Revisión'].forEach(label => hrow.append(text('th', label)));
       head.append(hrow); table.append(head); const body = document.createElement('tbody');
       descriptors.forEach(row => {
         const tr = document.createElement('tr');
         tr.append(text('td', number(row.sample), 'sample'));
         tr.append(text('td', number(row.size_nm), 'number'));
+        tr.append(text('td', number(row.size_nm_final), 'number'));
         tr.append(text('td', number(row.pdi), 'number'));
+        tr.append(text('td', number(row.pdi_final), 'number'));
         tr.append(text('td', number(row.zeta_mV), 'number'));
+        tr.append(text('td', number(row.zeta_mV_final), 'number'));
         tr.append(text('td', number(row.medium)));
         const td = text('td', '', 'quote'); const details = document.createElement('details');
         details.append(text('summary', row.source ? `Ver cita · ${row.source}` : 'Ver cita textual'));
         details.append(text('blockquote', row.quote || 'Cita no reportada.'));
-        td.append(details); tr.append(td); body.append(tr);
+        td.append(details); tr.append(td);
+        tr.append(text('td', row.revisar_v03_bool ? 'Revisión humana' : '—'));
+        if (row.revisar_v03_bool) tr.className = 'descriptor-review-row';
+        body.append(tr);
       });
-      table.append(body); wrap.append(table); descriptorBlock.append(wrap);
+      table.append(body); wrap.append(table); descriptorBlock.append(text('p', 'Se muestran solo filas usable_v03=True. Se conservan los valores originales y los valores *_final; las filas marcadas requieren revisión humana.', 'descriptor-v03-note')); descriptorBlock.append(wrap);
     }
     detail.append(descriptorBlock);
 
@@ -359,10 +380,10 @@
   async function init() {
     try {
       const [articles, panels, descriptors, spectra, summary, qc, model] = await Promise.all([
-        loadJson('data/articulos.json'), loadJson('data/paneles.json'), loadJson('data/descriptores.json'), loadJson('data/espectros.json'), loadJson('data/summary.json'), loadJson('data/qc_summary.json', true), loadModelData()
+        loadJson('data/articulos.json'), loadJson('data/paneles.json'), loadJson('data/descriptores_v03.json'), loadJson('data/espectros.json'), loadJson('data/summary.json'), loadJson('data/qc_summary.json', true), loadModelData()
       ]);
       state.articles = articles; state.panels = panels; state.descriptors = descriptors; state.spectra = spectra; state.qc = qc; state.model = model;
-      setCount('count-articles', summary.articles); setCount('count-panels', summary.panels); setCount('count-descriptors', summary.descriptors); setCount('count-spectra', summary.spectra);
+      setCount('count-articles', summary.articles); setCount('count-panels', summary.panels); setCount('count-descriptors', summary.descriptors_v03_usable); setCount('count-spectra', summary.spectra);
       byId('data-stamp').textContent = 'DATOS DE LA BASE · PREPARACIÓN V0.1';
       initFilters(); renderQc(); renderModelOverview(); renderResults();
       if (state.articles.length) renderDetail(articleKey(state.articles[0]));

@@ -49,3 +49,8 @@ entrega/Recortes/
 modelos/imagenes_v02/historial_*/
 modelos/imagenes_v02/_pruebas_temporales/
 modelos/imagenes_v02/muestras/
+
+# web del Atlas: runtime, miniaturas y modelo se reconstruyen localmente (ver producto/web/LEEME.md)
+producto/web/vendor/
+producto/web/img/
+producto/modelo_onnx/

@@ -13,6 +13,8 @@
     <a class="brand" href="index.html#inicio" aria-label="Nano2Predict, inicio"><span class="brand-mark">N</span><span>Nano2Predict</span></a>
     <nav aria-label="Navegación principal">
       <a href="index.html#explorar">Explorador</a>
+      <a href="galeria.html">Galería de recortes</a>
+      <a href="figuras.html">Figuras y paneles</a>
       <a href="construccion.html">Cómo se construyó</a>
       <a href="modelos.html" aria-current="page">Modelos y límites</a>
     </nav>
@@ -25,24 +27,63 @@
       <p>Se comparan escalones simples con líneas base explícitas. El rendimiento describe estas particiones por artículo; no demuestra desempeño fuera de este conjunto.</p>
       <p class="data-note">La predicción de imagen y la etiqueta del Atlas son resultados distintos y se muestran por separado. Los resultados son exploratorios; la nota del JSON y los intervalos se conservan junto a las métricas.</p>
     </section>
+    <section class="model-page-section" aria-labelledby="model-figures-title">
+      <h2 id="model-figures-title">De las medidas a la imagen: resultados en tres figuras</h2>
+      <p>Las figuras conservan separadas las muestras de cada experimento. Pulsa una imagen para ampliarla; los archivos descargables mantienen el texto y las cifras de la fuente.</p>
+      <figure>
+        <a class="flow-image-link" data-model-figure href="recursos/fig_modelos_1_es.png" target="_blank" rel="noopener noreferrer"><img src="recursos/fig_modelos_1_es.png" alt="De las medidas a la imagen y la fusión: modelos de tamaño y clase del Atlas v0.1 con intervalos de confianza." style="width:100%;height:auto"></a>
+        <figcaption><strong>1. De las medidas a la imagen y la fusión · v0.1.</strong> La figura completa es la unidad de imagen. Cada panel indica su muestra y su métrica.</figcaption>
+        <p class="flow-download"><a href="recursos/fig_modelos_1_es.svg" download>Descargar SVG</a><a href="recursos/fig_modelos_1_es.png" download>Descargar PNG</a><a href="recursos/fig_modelos_1_es.pdf" download>Descargar PDF</a></p>
+      </figure>
+      <figure>
+        <a class="flow-image-link" data-model-figure href="recursos/fig_modelos_2_es.png" target="_blank" rel="noopener noreferrer"><img src="recursos/fig_modelos_2_es.png" alt="Comparación por artículo de la figura completa frente a recortes y control con el mismo número de vistas." loading="lazy" style="width:100%;height:auto"></a>
+        <figcaption><strong>2. De la figura completa a los recortes.</strong> Recortes: 1.112 artículos; fusión con medidas: 786 artículos. El control de vistas reduce la ventaja observada.</figcaption>
+        <p class="flow-download"><a href="recursos/fig_modelos_2_es.svg" download>Descargar SVG</a><a href="recursos/fig_modelos_2_es.png" download>Descargar PNG</a><a href="recursos/fig_modelos_2_es.pdf" download>Descargar PDF</a></p>
+      </figure>
+      <figure>
+        <a class="flow-image-link" data-model-figure href="recursos/fig_modelos_3_es.png" target="_blank" rel="noopener noreferrer"><img src="recursos/fig_modelos_3_es.png" alt="Experimento NFFA: brazos A, B y C por semilla y diferencias de F1 macro con intervalos de confianza." loading="lazy" style="width:100%;height:auto"></a>
+        <figcaption><strong>3. Experimento NFFA-EUROPE.</strong> Cinco particiones por artículo, tres semillas por brazo y 1.114 artículos comunes.</figcaption>
+        <p class="flow-download"><a href="recursos/fig_modelos_3_es.svg" download>Descargar SVG</a><a href="recursos/fig_modelos_3_es.png" download>Descargar PNG</a><a href="recursos/fig_modelos_3_es.pdf" download>Descargar PDF</a></p>
+      </figure>
+      <p class="data-source">Fuente: <code>figuras/modelos/fig_modelos_{1,2,3}_es</code>. Las cifras de muestras distintas se presentan por separado.</p>
+    </section>
+    <section class="model-page-section" id="final-model">
+      <h2>Modelo final de la demo · ensamble de tres semillas</h2>
+      <div id="final-model-results"><p class="no-data">Cargando ficha del modelo final…</p></div>
+      <p class="flow-download"><a href="demo.html">Abrir demo local</a><a href="data/modelo_card_final.json" download>Descargar ficha JSON</a></p>
+    </section>
     <section class="model-page-section">
       <h2>Tamaño · modelos tabulares</h2>
       <p>La métrica es R² sobre el logaritmo del tamaño. La línea base resaltada usa la media por clase.</p>
-      <div id="size-results"><p class="no-data">Cargando resultados…</p></div>
+      <details><summary>Ver tabla de modelos de tamaño</summary><div id="size-results"><p class="no-data">Cargando resultados…</p></div></details>
     </section>
     <section class="model-page-section">
-      <h2>Clase de portador · tres grupos</h2>
+      <h2>Clase de portador · tres clases</h2>
       <p>Exactitud y F1 macro con IC 95 % por bootstrap de artículos. La fila de clase mayoritaria es la línea base de esta tarea.</p>
-      <div id="class3-results"><p class="no-data">Cargando resultados…</p></div>
+      <details><summary>Ver tabla de tres clases</summary><div id="class3-results"><p class="no-data">Cargando resultados…</p></div></details>
     </section>
     <section class="model-page-section">
-      <h2>Clase de portador · cuatro grupos</h2>
+      <h2>Clase de portador · cuatro clases</h2>
       <p>Esta tarea tiene otra distribución y no se debe comparar directamente con la configuración de tres clases. La línea base está resaltada.</p>
-      <div id="class4-results"><p class="no-data">Cargando resultados…</p></div>
+      <details><summary>Ver tabla de cuatro clases</summary><div id="class4-results"><p class="no-data">Cargando resultados…</p></div></details>
     </section>
     <section class="model-page-section">
       <h2>Clasificación a partir de imagen</h2>
-      <div id="image-model"><p class="no-data">Cargando métricas de imagen…</p></div>
+      <h3 class="model-subheading">Línea base de la v0.1 (figura completa)</h3>
+      <p>Esta es la referencia del Atlas v0.1; se conserva separada de los experimentos posteriores con recortes.</p>
+      <details><summary>Ver métricas históricas de imagen v0.1</summary><div id="image-model"><p class="no-data">Cargando métricas de imagen…</p></div></details>
+    </section>
+    <section class="model-page-section" id="recrop-experiments"><h2>Resultados preliminares con recortes de panel</h2><p>Evaluación por artículo. El aumento observado se debe en buena parte a que los recortes aportan más vistas por artículo; con el mismo número de vistas, la diferencia de exactitud baja a +0,006 (ResNet50) y +0,008 (DINOv2). Las filas de diferencia expresan cambios absolutos de proporción (por ejemplo, +0,042 equivale a +4,2 puntos porcentuales), no porcentajes relativos. El IC de la diferencia fusión 04 − fusión 03 incluye el 0.</p><details><summary>Ver comparación de recortes · 1.112 artículos</summary><div id="recrop-results"><p class="no-data">Cargando análisis de recortes…</p></div></details><details><summary>Ver comparación de fusión · 786 artículos</summary><div id="fusion-results"><p class="no-data">Cargando análisis de fusión…</p></div></details><p class="data-source">Fuentes: <code>modelos/comparacion/ANALISIS_04_RECORTES.json</code> y <code>modelos/comparacion/ANALISIS_FUSION_04.json</code>.</p></section>
+    <section class="model-page-section" id="nffa-experiment"><h2>Experimento: preentrenar con NFFA-EUROPE no mejoró</h2><div id="nffa-results"><p class="no-data">Cargando resultados A/B/C…</p></div></section>
+    <section class="model-page-section" id="limitaciones">
+      <span id="limitations" aria-hidden="true"></span>
+      <h2>Cómo leer los resultados y sus límites</h2>
+      <p>Se comparan modelos de lo simple a lo complejo, siempre frente a una línea base. La separación por artículo evita que figuras del mismo artículo se repartan entre entrenamiento y prueba; no descarta reutilización de datos entre artículos distintos.</p>
+      <p>Los modelos de tamaño usan medidas ya realizadas, como zeta y PDI, y faltan proporciones y condiciones de preparación. Explican este conjunto de datos; no permiten anticipar con fiabilidad el tamaño de una formulación nueva. En la clasificación, las clases mezclan composición y uso: «nanomaterial» se solapa con «inorgánico».</p>
+      <p>La «Clase del artículo (base de datos)» y la «Predicción del modelo» se muestran por separado. Las probabilidades del clasificador no están calibradas. Solo tiene sentido usar la demo con micrografías de partículas; no hay validación externa.</p>
+      <p>Los intervalos de confianza remuestrean predicciones por artículo. No recogen toda la incertidumbre de reentrenar ni la selección entre variantes. Los resultados históricos de figura completa, los recortes, la fusión y NFFA usan muestras distintas; sus cifras no se deben mezclar en una sola comparación.</p>
+      <p>La muestra de control de calidad asistido por IA abarca 20 artículos. Su alcance no equivale a una auditoría de todo el corpus ni a una validación externa del modelo. La auditoría de figuras y de cajas se documenta por separado en <a href="construccion.html">Cómo se construyó</a> y en D8.</p>
+      <p class="data-source">Lectura editorial integrada de Bryan: <a href="recursos/modelos_y_limitaciones_bryan.md" download>texto fuente</a> (<code>producto/web_contenido/modelos_y_limitaciones.md</code>). Sus referencias a figura completa corresponden a la v0.1; el modelo final y NFFA se actualizan con las fuentes de esta página.</p>
     </section>
   </main>
   <footer>
@@ -50,7 +91,8 @@
     <div class="footer-credits"><p>Artículos consultados mediante <a href="https://europepmc.org/" target="_blank" rel="noopener noreferrer">Europe PMC</a>.</p><p>Las imágenes de artículos de acceso abierto enlazan a su DOI y se muestran conforme a la licencia aplicable.</p><p>Cálculo realizado en el supercomputador Kabré (CeNAT/CNCA).</p></div>
     <a class="footer-top" href="index.html#inicio">Volver al Atlas ↑</a>
   </footer>
-  <aside class="quality-notice">Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</aside>
+  <aside class="quality-notice" role="note"><span>Control de calidad asistido por IA (20 artículos); el modelo es exploratorio.</span><button type="button" aria-label="Cerrar aviso">×</button></aside>
   <script src="modelos.js" defer></script>
+  <script src="notice.js" defer></script>
 </body>
 </html>
